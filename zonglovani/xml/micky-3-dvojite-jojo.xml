@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<trik>
+
+    <about>
+			<nazev>Dvojité jo-jo</nazev>
+		 <pocet>3</pocet>
+	     <siteswaps>-</siteswaps>
+		 <obtiznost>nároèné</obtiznost>
+		 <oblast>micky-3</oblast>
+	</about>
+
+    <krok>
+			<obrazek>micky-3-djojoa</obrazek>
+			<popisek>První a druhý míèek tvoøí &lt;a href=&quot;jojo.html&quot; title=&quot;Podobný trik.&quot;&gt;jo-jo&lt;/a&gt;.</popisek>
+    </krok>
+
+
+    <krok>
+			<obrazek>micky-3-djojob</obrazek>
+			<popisek>Tøetí míèek hodí¹ z pravé ruky oblouèkem nad první a druhý míèek.</popisek>
+    </krok>
+
+
+    <krok>
+			<obrazek>micky-3-djojoc</obrazek>
+			<popisek>Druhý míèek zachytí¹ pravou rukou. Levá ruka s prvním míèkem se pøesune pod pravou ruku.</popisek>
+    </krok>
+
+
+    <krok>
+			<obrazek>micky-3-djojod</obrazek>
+			<popisek>První a druhý míèek si vymìnily pozice, ale opìt tvoøí jo - jo.</popisek>
+    </krok>
+
+
+    <krok>
+			<obrazek>micky-3-djojoe</obrazek>
+			<popisek>Tøetí míèek zachytí¹ do levé ruky.</popisek>
+    </krok>
+
+		<krok>
+			<popisek>Dál pokraèuj zrcadlovì podle prvního obrázku.</popisek>
+		</krok>
+
+
+</trik>

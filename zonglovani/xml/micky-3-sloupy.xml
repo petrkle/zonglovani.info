@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<trik>
+
+    <about>
+	     <nazev>Sloupy</nazev>
+		 <pocet>3</pocet>
+	     <siteswaps>-</siteswaps>
+		 <obtiznost>snadné</obtiznost>
+		 <oblast>micky-3</oblast>
+	</about>
+
+    <krok>
+			<popisek>Sloupy jsou velmi rozmanitý trik. Toto je jeho základní provedení. Ne¾ ho zaène¹ zkou¹et hodí se umìt &lt;a href=&quot;../2/2v1.html&quot; title=&quot;Základ pro sloupy.&quot;&gt;2 v 1&lt;/a&gt;.</popisek>
+    </krok>
+ 
+    <krok>
+        <obrazek>sloupya</obrazek>
+        <popisek>První míèek vyhoï z pravé ruky rovnì nahoru.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>sloupyb</obrazek>
+        <popisek>Pak vyhoï druhý a tøetí míèek. První míèek chytej støídavì do pravé a levé ruky.</popisek>
+    </krok>
+
+		<krok>
+			<popisek>Na sloupy navazují triky jako &lt;a href=&quot;1mezi2.html&quot; title=&quot;Podobný trik se tøemi míèky.&quot;&gt;jeden mezi dvìma&lt;/a&gt;, &lt;a href=&quot;1okolo2.html&quot; title=&quot;Podobný trik se tøemi míèky.&quot;&gt;jeden okolo dvou&lt;/a&gt; nebo &lt;a href=&quot;1nad2.html&quot; title=&quot;Podobný trik se tøemi míèky.&quot;&gt;jeden nad dvìma&lt;/a&gt;.</popisek>
+		</krok>
+
+
+</trik>
+
+
+
+

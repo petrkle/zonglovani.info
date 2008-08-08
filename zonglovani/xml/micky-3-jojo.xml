@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<trik>
+
+    <about>
+	     <nazev>Jo - jo</nazev>
+		 <pocet>3</pocet>
+	     <siteswaps>-</siteswaps>
+		 <obtiznost>snadné</obtiznost>
+		 <oblast>micky-3</oblast>
+	</about>
+    <krok>
+			<popisek>Snadný a velmi hezký trik.</popisek>
+    </krok>
+
+
+    <krok>
+        <obrazek>jojoa</obrazek>
+				<popisek>První a druhý míèek házej rovnì nahoru jako pøi &lt;a href=&quot;../2/2v1.html&quot; title=&quot;®onglování se dvìma míèky.&quot;&gt;2 v 1&lt;/a&gt;.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>jojob</obrazek>
+        <popisek>S tøetím míèkem pohybuj v ruce nad druhým míèkem. Je dùle¾ité dr¾et míèek tak, aby ho vidìli diváci.</popisek>
+    </krok>
+
+    <krok>
+			<popisek>Ví¹ jak vypadá &lt;a href=&quot;ojoj.html&quot; title=&quot;Podobný trik.&quot;&gt;jo-jo v Austrálii&lt;/a&gt;?</popisek>
+    </krok>
+
+</trik>

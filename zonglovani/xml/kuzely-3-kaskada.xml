@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<trik>
+
+    <about>
+	     <nazev>Kaskáda</nazev>
+		 <pocet>3</pocet>
+	     <siteswaps>3</siteswaps>
+		 <obtiznost>snadné</obtiznost>
+		 <oblast>kuzely-3</oblast>
+	</about>
+
+	<krok>
+	    <popisek>Kaskáda je nejjednodu¹¹í zpùsob ¾onglování se tøemi ku¾ely.</popisek>
+    </krok>
+
+    <krok>
+			<obrazek>kuzely-3-kaskadaa</obrazek>
+			<popisek>Kaskádu zaèni pravou rukou ve které &lt;a href=&quot;../grip.html&quot; title=&quot;Jak dr¾et v jedné ruce dva ku¾ely.&quot;&gt;dr¾í¹ dva ku¾ely&lt;/a&gt;. Podle obrázku tedy pravou rukou vyhoï první ku¾el.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>kuzely-3-kaskadab</obrazek>
+        <popisek>V momentì kdy první ku¾el dosáhne vrcholu své dráhy hoï levou rukou druhý ku¾el.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>kuzely-3-kaskadac</obrazek>
+        <popisek>A kdy¾ je druhý ku¾el na vrcholu své dráhy hoï pravou rukou tøetí ku¾el.</popisek>
+    </krok>
+
+	<krok>
+	    <popisek>Tak a u¾ umí¹ ¾onglovat se tøemi ku¾ely.</popisek>
+    </krok>
+
+</trik>

@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<trik>
+
+    <about>
+	     <nazev>Boston mess</nazev>
+		 <pocet>3</pocet>
+	     <siteswaps>3</siteswaps>
+		 <obtiznost>nároèné</obtiznost>
+		 <oblast>micky-3</oblast>
+	</about>
+
+	<krok>
+		<popisek>Míèky hází¹ rovnì nahoru jako pøi &lt;a href=&quot;/zonglovani/micky/3/sloupy.html&quot; title=&quot;Trik se tøemi míèky.&quot;&gt;sloupech&lt;/a&gt;. Ruce se køí¾í jako pøi &lt;a href=&quot;/zonglovani/micky/3/mm.html&quot; title=&quot;Trik se tøemi míèky.&quot;&gt;mills' mess&lt;/a&gt;</popisek>
+    </krok>
+
+    <krok>
+			<obrazek>micky-3-bma</obrazek>
+			<popisek>Zaèni se zkøí¾enıma rukama. Pravá pod levou hází první míèek rovnì nahoru. Ruce si vymìòují pozice.</popisek>
+    </krok>
+
+    <krok>
+			<obrazek>micky-3-bmb</obrazek>
+			<popisek>Druhı míèek hoï z levé ruky.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>micky-3-bmc</obrazek>
+				<popisek>Tøetí míèek vyhodí¹ z pravé ruky. Levá ruka chytá první míèek.</popisek>
+    </krok>
+
+
+    <krok>
+			<obrazek>micky-3-bmd</obrazek>
+			<popisek>Levou rukou vyhodí¹ první míèek a pøendá¹ jí do prava. Pravou rukou chytá¹ druhı míèek.</popisek>
+    </krok>
+
+    <krok>
+			<obrazek>micky-3-bme</obrazek>
+			<popisek>Pravou rukou vyhazuje¹ druhı míèek. Tøetí míèek chytí¹ do levé ruky.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>micky-3-bmf</obrazek>
+        <popisek>Z levé ruky vyhoï tøetí míèek.</popisek>
+    </krok>
+
+    <krok>
+			<obrazek>micky-3-bmh</obrazek>
+        <popisek>Do pravé ruky chytí¹ první míèek a hodí¹ ho zpìt. Pravou ruku pøendej zpátky do prava.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>micky-3-bmi</obrazek>
+				<popisek>Z levé ruky vyhodí¹ druhı míèek. Pravá ruka chytá tøetí míèek.</popisek>
+    </krok>
+
+</trik>

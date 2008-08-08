@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<trik>
+
+    <about>
+	     <nazev>Rotující ètverce</nazev>
+		 <pocet>12</pocet>
+	     <siteswaps>-</siteswaps>
+		 <obtiznost>tì¾¹í</obtiznost>
+		 <oblast>kuzely-passing</oblast>
+	</about>
+
+
+
+    <krok>
+			<popisek>Trik pro ètyøi ¾ongléry a dvanáct ku¾elù. V¹ichni hází &lt;a href=&quot;4count.html&quot; title=&quot;Základ passování.&quot;&gt;4 count&lt;/a&gt; z pravé ruky.</popisek>
+    </krok>
+
+
+    <krok>
+			<obrazek>kuzely-passing-squaresa</obrazek>
+			<popisek>Stoupnìte si do rohù dvou pomyslných ètvercù.</popisek>
+    </krok>
+
+    <krok>
+			<obrazek>kuzely-passing-squaresb</obrazek>
+			<popisek>První pass. A hází D a B s C.</popisek>
+    </krok>
+
+    <krok>
+			<obrazek>kuzely-passing-squaresc</obrazek>
+			<popisek>Za stálého ¾onglování si vymìníte pozice. A postoupí dozadu, B dopøedu. C se pøesunuje doleva a D doprava.</popisek>
+    </krok>
+
+    <krok>
+			<obrazek>kuzely-passing-squaresd</obrazek>
+			<popisek>Druhý pass. A hází s C a B s D.</popisek>
+    </krok>
+
+    <krok>
+			<obrazek>kuzely-passing-squarese</obrazek>
+			<popisek>Dal¹í pøesun. A a B se pøesunují z prava do leva. C a D zepøedu dozadu.</popisek>
+    </krok>
+
+    <krok>
+			<popisek>V dal¹ích krocích postupujete po vrcholech ètverce. A a B ve smìru hodinových ruèièek. C a D obrácenì.</popisek>
+    </krok>
+
+
+</trik>

@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<trik>
+
+    <about>
+	     <nazev>Rotující Y</nazev>
+		 <pocet>12</pocet>
+	     <siteswaps>-</siteswaps>
+		 <obtiznost>tì¾¹í</obtiznost>
+		 <oblast>kuzely-passing</oblast>
+	</about>
+
+
+    <krok>
+			<popisek>Obtí¾nìj¹í trik pro 4 ¾ongléry a 12 ku¾elù.</popisek>
+    </krok>
+
+    <krok>
+			<obrazek>kuzely-passing-rypsilona</obrazek>
+			<popisek>Stoupnìte si do tvaru Y. Pro lep¹í orientaci mù¾e¹ na zemi vyznaèit dva kruhy.</popisek>
+    </krok>
+
+
+    <krok>
+			<obrazek name="first">kuzely-passing-rypsilonb</obrazek>
+			<popisek>První pass. A hazí B, Bhází C, C hází D a D hází A. Ku¾el ti pøilétá v¾dy od stejného ¾ongléra. Hází¹ také poøád stejnému èlovìku.</popisek>
+    </krok>
+
+    <krok>
+			<obrazek>kuzely-passing-rypsilonc</obrazek>
+			<popisek>Následuje pøesun po smìru hodinových ruèièek. V¹ichni popojdou o 1/4 kruhu. Nikdo nepøestává ¾onglovat.</popisek>
+    </krok>
+
+    <krok>
+			<obrazek>kuzely-passing-rypsilond</obrazek>
+			<popisek>Druhý pass. Chytá¹ ku¾ely od stejného ¾ongléra jako pøi minulém passu. Hází¹ také stejnému ¾onglérovi, ale celé Y se otoèilo.</popisek>
+    </krok>
+
+    <krok>
+			<obrazek>kuzely-passing-rypsilone</obrazek>
+			<popisek>Dal¹í pøesu po smìru hodinových ruèièek. Popojdi o 1/4 kruhu.</popisek>
+    </krok>
+
+    <krok>
+			<popisek>Dál pokraèuj podle &lt;a href=&quot;#first&quot; title=&quot;Zaèátek triku.&quot;&gt;prvního obrázku&lt;/a&gt;.</popisek>
+    </krok>
+
+
+</trik>

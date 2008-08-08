@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<trik>
+
+    <about>
+	     <nazev>2 v 1 tenis</nazev>
+		 <pocet>3</pocet>
+	     <siteswaps>-</siteswaps>
+		 <obtiznost>snadné</obtiznost>
+		 <oblast>micky-3</oblast>
+	</about>
+
+    <krok>
+			<popisek>Kombinace &lt;a href=&quot;../2/2v1&quot; title=&quot;Základní trik se dvìma míèky.&quot;&gt;2 v 1&lt;/a&gt; s &lt;a href=&quot;tenis.html&quot; title=&quot;Trik se tøemi míèky.&quot;&gt;tenisem&lt;/a&gt;. Opìt jeden míèek léta poøád nad dvìma ostatními. </popisek>
+    </krok>
+
+    <krok>
+        <obrazek>2v1tenisa</obrazek>
+        <popisek>První míèek z pravé ruky vyhoï rovnì nahoru.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>2v1tenisb</obrazek>
+        <popisek>Druhý míèek hoï obloukem z pravé ruky do levé. Zatím co letí zachytí¹ zpìt do pravé ruky první míèek.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>2v1tenisc</obrazek>
+        <popisek>Ne¾ chytí¹ druhý míèek vyhoï tøetí rovnì nahoru.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>2v1tenisd</obrazek>
+        <popisek>Druhý míèek se vrací obloukem zpìt do pravé ruky. Zatím co letí zachytí¹ zpìt do levé ruky tøetí míèek.</popisek>
+    </krok>
+
+		<krok>
+			<popisek>A¾ trik zvládne¹, mù¾e¹ pokraèovat &lt;a href=&quot;1nad2.html&quot; title=&quot;Podobný trik se tøemi míèky.&quot;&gt;jedením nad dvìma&lt;/a&gt;.</popisek>
+		</krok>
+		
+</trik>

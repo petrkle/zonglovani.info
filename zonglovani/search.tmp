@@ -1,0 +1,30 @@
+<!-- start -->
+<h3>Vyhledávání</h3>
+<p>Najdi si svùj oblíbený trik.</p>
+<form method="post" action="../ruzne/search.php">
+<p>
+  <input type="text" size="35" name="slovo" accesskey="n" title="ALT+n" />
+	<input type="submit" value="Prohledat slabikáø" name="knoflik" accesskey="h" title="ALT+h" />
+</p>
+<p>
+Pou¾ít: <input type="radio" name="engine" value="jyxo" id="jyxo" checked="checked" /><label for="jyxo" accesskey="x" title="ALT+x">jy<u>x</u>o</label>
+<input type="radio" name="engine" value="google"  id="google"/><label for="google" accesskey="o" title="ALT+o">g<u>o</u>ogle</label>
+</p>
+</form>
+<!-- stop -->
+
+<!-- start -->
+<h3>Vyhledávání</h3>
+<p>Najdi si svùj oblíbený trik.</p>
+<form method="post" action="../ruzne/search.php">
+<p>
+  <input type="text" size="35" name="slovo" accesskey="n" title="ALT+n" />
+	<input type="submit" value="Prohledat slabikáø" name="knoflik" accesskey="h" title="ALT+h" />
+</p>
+<p>
+Pou¾ít: <input type="radio" name="engine" value="jyxo" id="jyxo" checked="checked" /><label for="jyxo" accesskey="x" title="ALT+x">jy<u>x</u>o</label>
+<input type="radio" name="engine" value="google"  id="google"/><label for="google" accesskey="o" title="ALT+o">g<u>o</u>ogle</label>
+</p>
+</form>
+<!-- stop -->
+

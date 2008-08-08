@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<trik>
+
+    <about>
+			<nazev>Jeden mezi dvìma</nazev>
+		 <pocet>3</pocet>
+	     <siteswaps>-</siteswaps>
+			 <obtiznost>nároèné</obtiznost>
+		 <oblast>micky-3</oblast>
+	</about>
+
+    <krok>
+			<popisek>Jeden mezi dvìma je vlastnì roz¹íøení &lt;a href=&quot;sloupy.html&quot; title=&quot;Podobný trik se tøemi míèky.&quot;&gt;sloupù&lt;/a&gt;. Jeden míèek se proplétá nad a pod dvìma zbývajícími.</popisek>
+		</krok>
+ 
+    <krok>
+        <obrazek>sloupyc</obrazek>
+        <popisek>Vyhoï první a druhý míèek rovnì nahoru. Kdy¾ jsou na vrcholu dráhy vyhoï tøetí míèek ¹ikmo doleva nad druhý míèek.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>sloupyd</obrazek>
+        <popisek>Zatím co tøetí míèek padá opìt vyhoï první a druhý míèek.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>sloupye</obrazek>
+        <popisek>Tøetí míèek z levé ruky vyhoï tentokrát ¹ikmo vpravo nad první míèek.</popisek>
+    </krok>
+
+		<krok>
+			<nadpis>Ze stran</nadpis>
+    </krok>
+
+    <krok>
+        <popisek>Tentokrát jeden míèek vyhazuje¹ rovnì nahoru na stejném místì a zbylé dva støídavì zleva a zprava.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>sloupyj</obrazek>
+        <popisek>První a druhý míèek vyhoï rovnì nahoru.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>sloupyk</obrazek>
+        <popisek>Kdy¾ jsou na vrcholu své dráhy vyhoï rovnì nahoru i tøetí míèek.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>sloupyl</obrazek>
+        <popisek>Zachy» první i druhý míèek a obì ruce rychle pøesuò na druhou stranu.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>sloupym</obrazek>
+        <popisek>Kdy¾ je tøetí míèek na vrcholu své dráhy vyhoï rovnì nahoru první a druhý míèek. </popisek>
+    </krok>
+
+
+
+</trik>

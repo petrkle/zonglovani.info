@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<trik>
+
+    <about>
+	     <nazev>Házení horem</nazev>
+		 <pocet>3</pocet>
+	     <siteswaps>-</siteswaps>
+		 <obtiznost>tì¾¹í</obtiznost>
+		 <oblast>kuzely-3</oblast>
+	</about>
+
+
+
+    <krok>
+			<obrazek>kuzely-3-horema</obrazek>
+			<popisek>První ku¾el hází¹ z pravé ruky. Ruka je pøi hodu upa¾ené do boku. Ku¾el ti letí nad hlavou.</popisek>
+    </krok>
+
+    <krok>
+			<obrazek>kuzely-3-horemb</obrazek>
+			<popisek>V¹echny dal¹í ku¾ely hází¹ bokem.</popisek>
+    </krok>
+
+
+</trik>

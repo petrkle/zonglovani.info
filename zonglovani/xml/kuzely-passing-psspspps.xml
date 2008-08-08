@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<trik>
+
+    <about>
+	     <nazev>Pass self self pass self pass pass self</nazev>
+		 <pocet>6</pocet>
+	     <siteswaps>-</siteswaps>
+		 <obtiznost>tì¾¹í</obtiznost>
+		 <oblast>kuzely-passing</oblast>
+	</about>
+
+
+    <krok>
+			<popisek>Trik pro dva ¾ongléry a ¹est ku¾elù. Nejtì¾¹í na nìm je zapamatovat si název.</popisek>
+    </krok>
+
+
+	<krok>
+		<popisek>Hází¹ podle názvu:
+			&lt;pre&gt;  P      L      P     L      P       L     P      L&lt;/pre&gt; 
+			&lt;pre&gt;pass - self - self - pass - self - pass - pass - self&lt;/pre&gt; 
+		</popisek>
+  </krok>
+
+	<krok>
+		<popisek>P - pravá ruka; L - levá ruka; pass - hod partnerovi; self - hod z ruky do ruky</popisek>
+  </krok>
+
+	<krok>
+		<obrazek>kuzely-passing-psspsppsa</obrazek>
+		<popisek>První hod je pass.</popisek>
+	</krok>
+
+	<krok>
+		<obrazek>kuzely-passing-psspsppsb</obrazek>
+		<popisek>Potom oba hodíte 2x self. Jednou z levé a potom z pravé ruky.</popisek>
+	</krok>
+
+	<krok>
+		<popisek>Následuje pass z levé ruky. Jeden self, dva passy za sebou a self. Pak se celý trik opakuje.</popisek>
+	</krok>
+
+
+</trik>

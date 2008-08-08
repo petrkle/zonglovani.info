@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<trik>
+
+    <about>
+	     <nazev>Zvednutí spadlého ku¾elu</nazev>
+		 <pocet>6</pocet>
+	     <siteswaps>-</siteswaps>
+		 <obtiznost>snadné</obtiznost>
+		 <oblast>kuzely-passing</oblast>
+	 </about>
+
+	 <krok>
+		 <popisek>Jednoduchý trik který ti dovolí passovat celé dny bez pøestávky</popisek>
+	 </krok>
+
+    <krok>
+			<nadpis name="near">Varianta I</nadpis>
+    </krok>
+
+    <krok>
+			<obrazek>kuzely-passing-pickupa</obrazek>
+			<popisek>®ongléøi A a B hází &lt;a href=&quot;4count.html&quot; title=&quot;Základ passování.&quot;&gt;4 count&lt;/a&gt;. A hází pass podle plánu, ale ¾onglér B poslal ku¾elku pøímo do zemì. Ku¾elka je blí¾ k ¾onglérovi B.</popisek>
+    </krok>
+
+    <krok>
+			<obrazek>kuzely-passing-pickupb</obrazek>
+			<popisek>®onglér B nepøestane ¾onglovat. Hází raz, dva, tøi - pass ¾onglérovi A. Ten mezitím èekal a¾ mu pøiletí tøètí ku¾elka na ¾onglování.</popisek>
+    </krok>
+
+    <krok>
+			<obrazek>kuzely-passing-pickupc</obrazek>
+			<popisek>Zatímco ¾onglér A ¾ongluje Raz, dva, tøi. B má dostatek èasu na zvednutí ku¾elu ze zemì. ®onglér B v¹ak nesmí vypadnout z rytmu.</popisek>
+    </krok>
+
+    <krok>
+			<obrazek>kuzely-passing-pickupd</obrazek>
+			<popisek>Na ètvrtou dobu hází A i B pass. Dál pokraèují jako by se nechumelilo.</popisek>
+    </krok>
+
+    <krok>
+			<nadpis name="far">Varianta II</nadpis>
+    </krok>
+
+    <krok>
+			<obrazek>kuzely-passing-pickupe</obrazek>
+			<popisek>®ongléøí A a B hází &lt;a href=&quot;4count.html&quot; title=&quot;Základ passování.&quot;&gt;4 count&lt;/a&gt;. A hází pass podle plánu, ale ¾onglér B poslal ku¾elku pøímo do zemì. Ku¾elka je blí¾ k ¾onglérovi A.</popisek>
+    </krok>
+
+
+    <krok>
+			<obrazek>kuzely-passing-pickupf</obrazek>
+			<popisek>Zatímco ¾onglér B ¾ongluje Raz, dva, tøi. A má dostatek èasu na zvednutí ku¾elu ze zemì. ®onglér A se sna¾í nevypadnout z rytmu.</popisek>
+    </krok>
+
+    <krok>
+			<obrazek>kuzely-passing-pickupd</obrazek>
+			<popisek>Na ètvrtou dobu hází A i B pass. Dál pokraèují jako by jim nic nespadlo.</popisek>
+    </krok>
+
+
+
+</trik>

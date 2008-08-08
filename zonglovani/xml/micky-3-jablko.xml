@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<trik>
+
+    <about>
+	     <nazev>Jezení jablka</nazev>
+		 <pocet>3</pocet>
+	     <siteswaps>-</siteswaps>
+		 <obtiznost>snadné</obtiznost>
+		 <oblast>micky-3</oblast>
+	</about>
+
+	<krok>
+	    <popisek>Pøi ¾onglování s jablky mù¾e¹ prùbì¾nì ukusovat. Normální míèek místo do pusy odlo¾í¹ tøeba pod bradu.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>jablkoa</obrazek>
+        <popisek>Do pravé ruky si vezmi dva míèky, do levé jeden. První vyhoï míèek z pravé ruky o nìco vı¹ ne¾ pøi normální kaskádì.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>jablkob</obrazek>
+        <popisek>Zatím co prví míèek letí, druhı míèek z levé ruky si odlo¾í¹ pod bradu. V pøípadì jablka do pusy.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>jablkoc</obrazek>
+        <popisek>Do levé ruky chytá¹ první vyhozenı míèek a zároveò i pravou há¾e¹ tøetí.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>jablkod</obrazek>
+        <popisek>Zatímco tøetí míèek letí bere¹ pravou rukou druhı míèek z pod brady.</popisek>
+    </krok>
+
+    <krok>
+			<popisek>Tip: trénuj s jedním jablkem a dvìma míèky. Kdy¾ si nestihne¹ dát jablko do pusy, nebo ho vyndat na zem ti spadne pouze míèek.</popisek>
+    </krok>
+
+</trik>

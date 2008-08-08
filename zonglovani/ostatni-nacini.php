@@ -1,0 +1,133 @@
+<?php
+require("hlavicka.inc");
+$title="®onglérské náèiní";
+hlavicka($title,__FILE__);
+?>
+
+
+<?php
+require("titulek.inc");
+titulek(__FILE__);
+?>
+
+<div id="stranka">
+
+<div id="ramecek">
+
+
+<div id="obsah">
+<h1><?=$title?></h1>
+
+<p>
+®onglovat mù¾e¹ se spoustou vìcí.
+</p>
+
+<h3><a href="/zonglovani/micky/" title="®onglování s míèky.">Míèky</a></h3>
+<p>
+Jsou nejlehèí na nauèení. Staèí vyhazovat do vzduchu a chytat. <a href="/zonglovani/micky/druhy.html" title="Druhy míèkù.">Druhy míèkù</a>.
+</p>
+
+<h3>Skákací míèky</h3>
+<p>
+Místo vyhazování do vzduchu je odrá¾í¹ o podlahu.
+</p>
+
+<h3><a href="/zonglovani/kruhy/" title="®onglování s kruhy.">Kruhy</a></h3>
+<p>
+Plastové o prùmìru zhruba 35 cm. Jsou vidìt lépe ne¾ míèky. Vhodné i pro passing.
+</p>
+
+<h3><a href="/zonglovani/kuzely/" title="®onglování s ku¾ely.">Ku¾ely</a></h3>
+<p>
+Ku¾el tvoøí dvì èásti. ©ir¹í - hlava a u¾¹í dr¾adlo. Vyhozením do vzduchu se roztoèí. Zaèátek je tì¾¹í ne¾ s  míèky nebo kruhy.
+</p>
+
+<h3><a href="/zonglovani/kuzely/ohen.html" title="®onglování s ohnìm.">Ohnivé ku¾ely</a></h3>
+<p>
+Stejné jako ku¾ely, jen místo ¹ir¹í èásti je knot. Napustí se hoølavinou a zapálí.
+</p>
+
+<h3>Diabolo</h3>
+<p>
+Cívka kterou roztáèí¹ pomocí provázkù a hùlek.
+</p>
+
+<h3>Devilstick</h3>
+<p>
+Hùlka kterou udr¾uje¹ ve vzduchu dvìma dal¹ími hùlkami.
+</p>
+
+<h3>Floverstick</h3>
+<p>
+Hùlka která má na koncích tøásnì. Ve vzduchu jí dr¾í¹ pomocí dvou dal¹ích hùlek.
+</p>
+
+<h3>Jo-jo</h3>
+<p>
+Cívka uvázaná na provázku.
+</p>
+
+<h3>Poi-poi</h3>
+<p>
+Míèek pøivázaný na provázku (+- 0,5m). Na druhém konci provázku je smyèka pro dr¾ení. Do ka¾dé ruky si vezme¹ jednu poiku a toèí¹ s nimi okolo sebe.
+</p>
+
+<h3>Tenisové rakety</h3>
+<p>
+Létají skoro stejnì jako ku¾ely. Jen jsou trochu vìt¹í.
+</p>
+
+<h3>Crystal ball</h3>
+<p>
+Vìt¹í míèek z umìlé hmoty (polyakrylát ?). Vypadá jako sklenìný. Pou¾ívá se na kontaktní ¾onglování - nehází se sním, ale kutálí se po rukou a jiných èástech tìla.
+</p>
+
+<h3>Tyè</h3>
+<p>
+Dal¹í pøedmìt pro kontaktní ¾onglování. Obvykle s knoty na koncích k zapálení.
+</p>
+
+<h3>©átky</h3>
+<p>
+Údajnì sna¾¹í ne¾ míèky. Doporuèované pro úplné zaèáteèníky.
+</p>
+
+
+
+
+
+</div>
+
+
+
+
+<div id="menu">
+
+<?php
+require("menu.inc");
+menu(__FILE__);
+?>
+
+
+</div>
+
+
+</div>
+<div class="spacer"></div>
+</div>
+
+<?php
+require("paticka.inc");
+paticka($title);
+?>
+
+<!-- start -->
+<div class="reklama">
+
+<!--WZ-REKLAMA-1.0-STRICT-->
+
+</div>
+<!-- stop -->
+
+</body>
+</html>

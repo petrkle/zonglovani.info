@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<trik>
+
+    <about>
+	     <nazev>Jeden okolo dvou</nazev>
+		 <pocet>3</pocet>
+	     <siteswaps>-</siteswaps>
+			 <obtiznost>nároèné</obtiznost>
+		 <oblast>micky-3</oblast>
+	</about>
+
+	<krok>
+		<popisek>Jeden okolo dvou je vlastnì roz¹íøení &lt;a href=&quot;sloupy.html&quot; title=&quot;Podobný trik se tøemi míèky.&quot;&gt;sloupù&lt;/a&gt;. Dva míèky vyhazuje¹ rovnì nahoru a tøetí hází¹ kolem nich.</popisek>
+		</krok>
+
+    <krok>
+        <obrazek>sloupyn</obrazek>
+        <popisek>První a druhý míèek vyhoï rovnì nahoru.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>sloupyo</obrazek>
+        <popisek>Pravou ruku rychle pøesuò pod levou a hoï tøetí míèek nad první a druhý míèek.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>sloupyp</obrazek>
+        <popisek>Zatímco tøetí míèek letí zachytí¹ a opìt vyhodí¹ první a druhý míèek.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>sloupyq</obrazek>
+        <popisek>Pravou rukou zachytí¹ tøetí míèek a opìt ho vyhodí¹ pod levou rukou. Pravou rukou pøi návratu zachytí¹ druhý míèek.</popisek>
+    </krok>
+
+
+    <krok>
+        <nadpis>Obì ruce</nadpis>
+    </krok>
+
+    <krok>
+        <popisek>Stejnì jako v pøedchozím pøípadì vyhazuje¹ dva míèky rovnì nahoru a tøetí kolem nich. Rozdíl je v tom ¾e nyní k házení míèku pou¾ije¹ obì ruce.</popisek>
+    </krok>
+
+
+    <krok>
+        <obrazek>sloupyr</obrazek>
+        <popisek>První a druhý míèek vyhoï rovnì nahoru.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>sloupys</obrazek>
+        <popisek>Tøetí míèek pøesuò rychlým vodorovným hodem z pravé ruky do levé.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>sloupyt</obrazek>
+        <popisek>Tøetí míèek hoï obloukem nad první a druhý míèek.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>sloupyu</obrazek>
+        <popisek>Zatímco tøetí míèek letí zachytí¹ a opìt vyhodí¹ první a druhý míèek.</popisek>
+    </krok>
+
+
+
+
+
+
+</trik>
+
+
+
+

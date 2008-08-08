@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<trik>
+
+    <about>
+	     <nazev>Blesk</nazev>
+		 <pocet>3</pocet>
+	     <siteswaps>55500</siteswaps>
+		 <obtiznost>nároèné</obtiznost>
+		 <oblast>micky-3</oblast>
+	</about>
+
+    <krok>
+        <popisek>Blesk je rychlé vyhození míèkù tak, ¾e tvé dlanì zùstanou na okam¾ik prázdné. Anglicky se tento trik oznaèuje jako "flash".</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>bleska</obrazek>
+        <popisek>Zaène¹ se dvìma míèky v pravé ruce. Rychle vyhodí¹ první míèek.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>bleskb</obrazek>
+        <popisek>Hned za ním následuje v rychlém sledu druhý a tøetí míèek.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>bleskc</obrazek>
+				<popisek>Tvé ruce jsou na okam¾ik prázdné. Tuto pauzu lze vyu¾ít napøíklad k tlesknutí nebo &lt;a href=&quot;../pirueta.html&quot; title=&quot;Otoèení o 360 stupòù.&quot;&gt;piruetì&lt;/a&gt;.</popisek>
+    </krok>
+
+</trik>

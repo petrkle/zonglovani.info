@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<trik>
+
+    <about>
+	     <nazev>Osmièka</nazev>
+		 <pocet>3</pocet>
+	     <siteswaps>3</siteswaps>
+		 <obtiznost>snadné</obtiznost>
+		 <oblast>micky-3</oblast>
+	</about>
+
+
+    <krok>
+			<obrazek>micky-3-osmickaa</obrazek>
+			<popisek>Levou rukou ¾ongluj &lt;a href=&quot;../2/2v1.html&quot; title=&quot;Trik se dvìma míèky.&quot;&gt;2 v 1&lt;/a&gt;.</popisek>
+    </krok>
+
+
+    <krok>
+			<obrazek>micky-3-osmickab</obrazek>
+			<popisek>Tøetí míèek dr¾ v pravé ruce. Je dùle¾ité dr¾et míèek tak, aby ho vidìli diváci.</popisek>
+    </krok>
+
+
+    <krok>
+			<obrazek>micky-3-osmickac</obrazek>
+			<popisek>Pravou rukou opisuj mezi prvním a druhým míèkem le¾atou osmièku.</popisek>
+    </krok>
+
+</trik>

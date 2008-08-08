@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<trik>
+
+    <about>
+	     <nazev>Køí¾</nazev>
+		 <pocet>4</pocet>
+	     <siteswaps>552</siteswaps>
+		 <obtiznost>obtí¾né</obtiznost>
+		 <oblast>micky-4</oblast>
+	</about>
+
+	<krok>
+	    <popisek>Jak název napovídá bude¹ tentokrát míèky házet køí¾em. Podobnì jako pøi kaskádì, z jedné ruky do druhé.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>4kriza</obrazek>
+        <popisek>Zaèni se tøem míèky v pravé a jedním v levé ruce. Vyhoï první míèek.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>4krizb</obrazek>
+        <popisek>Rychle za ním i druhý po stejné dráze. </popisek>
+    </krok>
+
+    <krok>
+        <obrazek>4krizc</obrazek>
+        <popisek>Levou ruku si uvolní¹ vyhozením tøetího míèku pod dva pøicházející. Stejnì jako pøi kaskádì. </popisek>
+    </krok>
+
+    <krok>
+        <obrazek>4krizd</obrazek>
+        <popisek>První míèek se v levaèce moc neohøeje. Hoï ho rychle za tøetím míèkem. </popisek>
+    </krok>
+
+    <krok>
+        <obrazek>4krize</obrazek>
+        <popisek>Do levé ruky zachy» druhý míèek. Pokraèuj stejnì jako na pøedchozích dvou obrázcích. Zmìnila se pouze ruka, nyní se míèky vymìní v pravaèce. Do hry se koneènì dostane i ètvrtý míèek který byl zatím trochu stranou. </popisek>
+    </krok>
+
+	<krok>
+	    <popisek>Asi nejtì¾¹í na celém triku je najít správný rytmus. Míèky se jakoby pøelévají z jedné strany na druhou.</popisek>
+    </krok>
+
+</trik>

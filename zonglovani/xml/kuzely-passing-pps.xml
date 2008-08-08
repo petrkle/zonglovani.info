@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<trik>
+
+    <about>
+	     <nazev>PPS - pass pass self</nazev>
+		 <pocet>6</pocet>
+	     <siteswaps>-</siteswaps>
+		 <obtiznost>tì¾¹í</obtiznost>
+		 <oblast>kuzely-passing</oblast>
+	</about>
+
+	<krok>
+		<popisek>Trik pro dva ¾ongléry a ¹est ku¾elù.</popisek>
+  </krok>
+
+    <krok>
+			<obrazek>kuzely-passing-ppsa</obrazek>
+			<popisek>Zaèni se dvìma ku¾ely v pravé ruce. První hod z pravé ruky je pass.</popisek>
+    </krok>
+
+    <krok>
+			<obrazek>kuzely-passing-ppsb</obrazek>
+			<popisek>Druhý hod z levé ruky je opìt pass.</popisek>
+    </krok>
+
+    <krok>
+			<obrazek>kuzely-passing-ppsc</obrazek>
+			<popisek>Tøetí hod hází¹ z pravé ruky sám sobì - self.</popisek>
+    </krok>
+
+
+
+</trik>

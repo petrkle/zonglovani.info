@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<trik>
+
+    <about>
+	     <nazev>2 v 1</nazev>
+		 <pocet>2</pocet>
+	     <siteswaps>40</siteswaps>
+		 <obtiznost>snadné</obtiznost>
+		 <oblast>kruhy-2</oblast>
+	</about>
+
+	<krok>
+		<popisek>®onglování se dvìma kruhy v jedné ruce není tì¾ké. Nauè se to pravou i levou rukou a u¾ vlastnì umí¹ ¾onglovat &lt;a href=&quot;../4/fontana.html&quot; title=&quot;®onglování se ètyømi kruhy.&quot;&gt;ètyømi kruhy&lt;/a&gt;.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>kruhy-2-2v1a</obrazek>
+				<popisek>Zaèni se dvìma kruhy v pravé ruce. Podle obrázku vyhoï první kruh.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>kruhy-2-2v1b</obrazek>
+				<popisek>Kdy¾ je první kruh nejvý¹e, vyhoï druhý kruh.</popisek>
+    </krok>
+
+
+
+    <krok>
+        <obrazek>kruhy-2-2v1c</obrazek>
+				<popisek>Kruhy také mù¾e¹ házet opaèným smìrem.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>kruhy-2-2v1d</obrazek>
+				<popisek>Nebo vedle sebe. Pak létají nahoru, dolu a jejich dráhy se nekøí¾í.</popisek>
+    </krok>
+		
+
+</trik>

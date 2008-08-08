@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<trik>
+
+    <about>
+	     <nazev>Neviditelnı míèek</nazev>
+		 <pocet>3</pocet>
+	     <siteswaps>3</siteswaps>
+		 <obtiznost>snadné</obtiznost>
+		 <oblast>micky-3</oblast>
+	</about>
+
+	<krok>
+		<popisek>Neviditelnı míèek nahrazuje obyèejnı míèek - hlavnì kdy¾ ti spadne. Získá¹ èas k &lt;a href=&quot;/zonglovani/micky/sbirani.html&quot; title=&quot;Sbírání spadlıch míèkù.&quot;&gt;sebrání míèku&lt;/a&gt; a nemusí¹ pøestat ¾onglovat.</popisek>
+    </krok>
+
+		<krok>
+			<popisek>Házet jen dva míèky ti bude pøipadat divné. Ov¹em publiku se bude zdát, ¾e ¾ongluje¹ se tøemi míèky.</popisek>
+		</krok>
+    <krok>
+        <obrazek>micky-3-neviditelnya</obrazek>
+				<popisek>Zaèni se dvìma míèky v pravé ruce - obyèejnı a neviditelnı. Vyhoï první míèek z pravé ruky.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>micky-3-neviditelnyb</obrazek>
+				<popisek>Druhı míèek vyhoï z levé ruky kdy¾ je první míèek nejvı¹.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>micky-3-neviditelnyc</obrazek>
+				<popisek>Tøetí hod je nejtì¾¹í, i kdy¾ míèek nic nevá¾í. Nejjednodu¹¹í je, prostì vìøit, ¾e místo neviditelného míèku má¹ opravdovı.</popisek>
+    </krok>
+
+	<krok>
+		<popisek>Zamìø se na správnı rytmus a plynulost provedení.</popisek>
+    </krok>
+
+</trik>

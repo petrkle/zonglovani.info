@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<trik>
+
+    <about>
+	     <nazev>Øada</nazev>
+		 <pocet>9</pocet>
+	     <siteswaps>-</siteswaps>
+		 <obtiznost>snadné</obtiznost>
+		 <oblast>kuzely-passing</oblast>
+	</about>
+
+
+    <krok>
+			<popisek>Line - trik pro tøi ¾ongléry a devìt ku¾elù. V¹ichni hází &lt;a href=&quot;4count.html&quot; title=&quot;Základ passování.&quot;&gt;4 count&lt;/a&gt; z pravé ruky.</popisek>
+    </krok>
+
+    <krok>
+			<obrazek>kuzely-passing-linea</obrazek>
+			<popisek>Stoupnìte si do øady. ®ongléøi A a B koukají na C. Pohled shora - B stojí trochu stranou.</popisek>
+    </krok>
+
+
+    <krok>
+			<obrazek>kuzely-passing-lineb</obrazek>
+			<popisek>A hází z pravé ruky pass C na jednu otoèku. C hází na jednu otoèku B. A nakonec to nejtì¾¹í. B hází za záda na dvì otoèky A.</popisek>
+    </krok>
+
+
+
+    <krok>
+			<obrazek>kuzely-passing-linec</obrazek>
+			<popisek>Stejná situace pøi pohledu shora.</popisek>
+    </krok>
+
+    <krok>
+			<popisek>Pøi tomto triku je vhodné pou¾ít &lt;a href=&quot;/zonglovani/kuzely/passing/synchronizace.html#slow&quot; title=&quot;Synchronizace prvního hodu.&quot;&gt;slow start&lt;/a&gt;.</popisek>
+    </krok>
+
+</trik>

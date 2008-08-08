@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<trik>
+
+    <about>
+	     <nazev>Kaskáda</nazev>
+		 <pocet>3</pocet>
+	     <siteswaps>3</siteswaps>
+		 <obtiznost>snadné</obtiznost>
+		 <oblast>kruhy-3</oblast>
+	</about>
+
+	<krok>
+	    <popisek>Kaskáda je nejjednodu¹¹í zpùsob ¾onglování se tøemi kruhy.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>kruhy-3-kaskadaa</obrazek>
+        <popisek>Kaskádu zaèni rukou ve které dr¾í¹ dva kruhy. Podle obrázku tedy pravou rukou vyhoï první kruh.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>kruhy-3-kaskadab</obrazek>
+        <popisek>V momentì kdy první kruh dosáhne vrcholu své dráhy hoï levou rukou druhý kruh.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>kruhy-3-kaskadac</obrazek>
+        <popisek>A kdy¾ je druhý kruh na vrcholu své dráhy hoï pravou rukou tøetí kruh.</popisek>
+    </krok>
+
+	<krok>
+	    <popisek>Tak a u¾ umí¹ ¾onglovat se tøemi kruhy.</popisek>
+    </krok>
+
+</trik>

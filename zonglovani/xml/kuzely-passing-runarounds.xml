@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<trik>
+
+    <about>
+	     <nazev>Obíhání</nazev>
+		 <pocet>3</pocet>
+	     <siteswaps>-</siteswaps>
+		 <obtiznost>snadné</obtiznost>
+		 <oblast>kuzely-passing</oblast>
+	</about>
+
+
+    <krok>
+			<popisek>Runarounds - trik pro dva ¾ongléry a tøi ku¾ely.</popisek>
+    </krok>
+
+    <krok>
+			<obrazek>kuzely-runaroundsa</obrazek>
+			<popisek>A zaèíná se dvìma ku¾ely. B stojí tìsnì za ním. B hází první ku¾el z pravé ruky pod levou rukou A.</popisek>
+    </krok>
+
+
+    <krok>
+			<obrazek>kuzely-runaroundsb</obrazek>
+			<popisek>První ku¾el proletí pøed A. B se mezitím pøesune a chytne ku¾el do levé ruky.</popisek>
+    </krok>
+
+
+
+    <krok>
+			<obrazek>kuzely-runaroundsc</obrazek>
+			<popisek>A hodí druhý ku¾el pøed sebe a pøesunuje se za B.</popisek>
+    </krok>
+
+
+    <krok>
+			<obrazek>kuzely-runaroundsd</obrazek>
+			<popisek>B je vepøedu a chytá druhý ku¾el do levé ruky.</popisek>
+    </krok>
+
+
+    <krok>
+			<obrazek>kuzely-runaroundse</obrazek>
+			<popisek>Pozice se vymìnily. A stojí tìsnì za B a há¾e tøetí ku¾el z pravé ruky pod levou rukou B.</popisek>
+    </krok>
+
+
+</trik>

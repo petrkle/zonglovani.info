@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<trik>
+
+    <about>
+	     <nazev>Synchronizace</nazev>
+		 <pocet>?</pocet>
+	     <siteswaps>-</siteswaps>
+		 <obtiznost>snadné</obtiznost>
+		 <oblast>kuzely-passing</oblast>
+	 </about>
+
+	 <krok>
+		 <popisek>Pøi passování je potøeba sladit první hod.</popisek>
+	 </krok>
+
+    <krok>
+			<nadpis name="fast">Fast start</nadpis>
+			<popisek>První hod je pass.</popisek>
+    </krok>
+
+
+		<krok>
+			<obrazek>kuzely-synchroa</obrazek>
+			<popisek>Zvedni ruku kterou bude¹ házet nahoru.</popisek>
+		</krok>
+
+		<krok>
+			<obrazek>kuzely-synchrob</obrazek>
+			<popisek>Spoleènì s ostatními ¾ongléry máchni rukou dolù.</popisek>
+		</krok>
+
+		<krok>
+			<obrazek>kuzely-synchroc</obrazek>
+			<popisek>První hod je pass.</popisek>
+		</krok>
+
+    <krok>
+			<nadpis name="slow">Slow start</nadpis>
+			<popisek>Máchni prvním ku¾elem shora dolù. První tøi hody jsou obyèejné ¾onglování. A¾ ètvrtý hod je pass.</popisek>
+    </krok>
+
+
+
+
+</trik>

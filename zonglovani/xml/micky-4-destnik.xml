@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<trik>
+
+    <about>
+    	<nazev>De¹tník</nazev>
+			<pocet>4</pocet>
+	    <siteswaps>-</siteswaps>
+			<obtiznost>nároèné</obtiznost>
+			<oblast>micky-4</oblast>
+	</about>
+
+	<krok>
+		<popisek>De¹tník je vlastnì roz¹íøení &lt;a href=&quot;sloupy.html&quot; title=&quot;Trik se ètyømi míèky.&quot;&gt;sloupù&lt;/a&gt; se ètyømi míèky.</popisek>
+	</krok>
+	
+	<krok>
+		<obrazek>destnika</obrazek>
+		<popisek>Vyhoï souèasnì první a druhı míèek.</popisek>
+	</krok>
+
+	<krok>
+		<obrazek>destnikb</obrazek>
+		<popisek>Dej ruce trochu dál od sebe a tøetí a ètvrtı míèek pøehoï vrchem. Toto je nejobtí¾nìj¹í èást celého triku. Tøetí a ètvrtı míèek se nesmí srazit.</popisek>
+	</krok>
+
+	<krok>
+		<obrazek>destnikc</obrazek>
+		<popisek>Zatímco se tøetí a ètvrtı míèek míjí, zachy» a opìt vyhoï první a druhı míèek.</popisek>
+	</krok>
+
+	<krok>
+		<popisek>Obdobnı trik se tøemi míèky se jmenuje &lt;a href=&quot;../3/okno.html&quot; title=&quot;Trik se tøemi míèky.&quot;&gt;chrámové okno&lt;/a&gt;.</popisek>
+	</krok>
+
+
+</trik>

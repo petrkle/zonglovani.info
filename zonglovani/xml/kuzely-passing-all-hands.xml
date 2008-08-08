@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<trik>
+
+    <about>
+	     <nazev>Passování do v¹echn rukou</nazev>
+		 <pocet>6</pocet>
+	     <siteswaps>-</siteswaps>
+		 <obtiznost>tì¾¹í</obtiznost>
+		 <oblast>kuzely-passing</oblast>
+	</about>
+
+
+    <krok>
+			<popisek>Obtí¾nìj¹í trik pro dva ¾ongléry a ¹est ku¾elù. Passuje¹ postupnì ze svojí pravé ruky do: své pravé, partnerovi levé, partnerovi pravé, svojí levé. Pak je¹tì obdobnì z levé ruky.</popisek>
+    </krok>
+
+
+	<krok>
+		<obrazek>kuzely-passing-allhandsa</obrazek>
+		<popisek>První hod dvojka rovnì na horu. Pass z vlastní pravé ruky do pravé.</popisek>
+	</krok>
+
+
+	<krok>
+		<obrazek>kuzely-passing-allhandsb</obrazek>
+		<popisek>Druhý hod je z pravé ruky do levé partnerovi. Letí na jednu otoèku.</popisek>
+	</krok>
+
+	<krok>
+		<obrazek>kuzely-passing-allhandsc</obrazek>
+		<popisek>Tøetí hod je z pravé ruky do pravé partnerovi. Pozor na srá¾ku. Ku¾ely se vyhýbají v levo - jako auta na køi¾ovatce.</popisek>
+	</krok>
+
+	<krok>
+		<obrazek>kuzely-passing-allhandsd</obrazek>
+		<popisek>Poslední hod první poloviny triku. Hod z pravé ruky do levé.</popisek>
+	</krok>
+
+	<krok>
+		<obrazek>kuzely-passing-allhandsa</obrazek>
+		<popisek>Dal¹í hod je dvojka z levé ruky rovnì na horu.</popisek>
+	</krok>
+
+	<krok>
+		<obrazek>kuzely-passing-allhandse</obrazek>
+		<popisek>Pokraèuje¹ z levé ruky do pravé.</popisek>
+	</krok>
+
+	<krok>
+		<obrazek>kuzely-passing-allhandsf</obrazek>
+		<popisek>Dal¹í pass je z levé ruky do levé. Ku¾ely se opìt vyhýbají v levo.</popisek>
+	</krok>
+
+	<krok>
+		<obrazek>kuzely-passing-allhandsg</obrazek>
+		<popisek>Poslední èást triku - hod z levé ruky do pravé.</popisek>
+	</krok>
+
+	<krok>
+		<popisek>Dál pokraèuj podle prvního obrázku.</popisek>
+	</krok>
+
+</trik>

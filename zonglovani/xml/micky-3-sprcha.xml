@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<trik>
+
+    <about>
+	     <nazev>Sprcha</nazev>
+		 <pocet>3</pocet>
+	     <siteswaps>51</siteswaps>
+		 <obtiznost>nároèné</obtiznost>
+		 <oblast>micky-3</oblast>
+	</about>
+
+	<krok>
+					<popisek>Sprcha je asi nejznámìj¹í zpùsob ¾onglování. Není ale vùbec snadné se jí nauèit. Zkus se nejprve nauèit &lt;a href=&quot;sprcha-polovicni.html&quot; title=&quot;O trochu lehèí trik.&quot;&gt;polovièní sprchu&lt;/a&gt;.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>sprchaa</obrazek>
+        <popisek>První míèek vyhoï oblouèkem nahoru.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>sprchab</obrazek>
+        <popisek>Hned za ním druhý. Vzápìtí pøesuò tøetí míèek z levé ruky rychlým vodorovným hodem do pravé ruky.</popisek>
+    </krok>
+
+    <krok>
+        <popisek>A¾ bude¹ umìt sprchu jedním smìrem, zkus se jí nauèit i na druhou stranu. Vyhazovat míèky levou rukou a zachytávat je do pravé.</popisek>
+    </krok>
+
+
+</trik>

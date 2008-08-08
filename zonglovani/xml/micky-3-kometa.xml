@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<trik>
+
+    <about>
+		<nazev>Kometa</nazev>
+		 <pocet>3</pocet>
+	     <siteswaps>-</siteswaps>
+		 <obtiznost>snadné</obtiznost>
+		 <oblast>micky-3</oblast>
+	</about>
+
+    <krok>
+			<popisek>Zava¾ míèek do ¹átku a má¹ -- kometu.</popisek>
+    </krok>
+
+    <krok>
+			<obrazek>micky-3-kometaa</obrazek>
+				<popisek>Pokud nemá¹ ¹átek, zkus strèit míèek do pono¾ky.</popisek>
+    </krok>
+
+		
+</trik>

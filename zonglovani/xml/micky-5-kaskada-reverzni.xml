@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<trik>
+
+    <about>
+	     <nazev>Reverzní kaskáda</nazev>
+		 <pocet>5</pocet>
+	     <siteswaps>-</siteswaps>
+		 <obtiznost>tì¾ko proveditelné</obtiznost>
+		 <oblast>micky-5</oblast>
+	</about>
+
+	<krok>
+	    <popisek>Rozdíl mezi normální a reverzní kaskádou s pìti míèky je pouze v dráze po které létají míèky. Pøi reverzní kaskádì hází¹ míèky vnìj¹kem.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>5rkaskadaa</obrazek>
+        <popisek>Kaskádu zaèni rukou ve které dr¾í¹ tøi míèky. Podle obrázku tedy pravou rukou vyhoï první míèek.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>5rkaskadab</obrazek>
+        <popisek>Tìsnì po prvním míèku vyhoï druhı míèek z levé ruky.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>5rkaskadac</obrazek>
+        <popisek>První vyhozenı míèek u¾ klesá a bude zachycen levou rukou. Druhı míèek opisuje vrchol oblouku. A mezitím u¾ pravaèkou vyhazuje¹ tøetí míèek, letí po stejné dráze jako první míèek.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>5rkaskadad</obrazek>
+        <popisek>Druhı vyhozenı míèek klesá a bude chycen do pravé ruky. Tøetí míèek opisuje vrchol oblouku, letí po stejné dráze jako pøed chvílí první míèek. A mezitím u¾ levaèkou vyhazuje¹ ètvrtı míèek, letí po stejné dráze jako druhı míèek.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>5rkaskadae</obrazek>
+        <popisek>Tøetí vyhozenı míèek u¾ klesá a bude zachycen levou rukou. Ètvrtı míèek opisuje vrchol oblouku. A mezitím u¾ pravaèkou vyhazuje¹ pátı míèek, letí po stejné dráze jako tøetí míèek. Pohyb míèkù zachycenı na tomto obrázku je stejnı jako na obrázku o dva kroky døíve.</popisek>
+    </krok>
+
+	<krok>
+	    <popisek>Dál vyhazuj a zachycuj míèky podle posledních dvou obrázkù.</popisek>
+    </krok>
+
+</trik>

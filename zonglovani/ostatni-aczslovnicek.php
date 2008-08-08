@@ -1,0 +1,89 @@
+<?php
+require("hlavicka.inc");
+$title="Anglicko-èeský ¾onglérský slovníèek";
+hlavicka($title,__FILE__);
+?>
+
+
+<?php
+require("titulek.inc");
+titulek(__FILE__);
+?>
+<div id="stranka">
+
+
+<div id="ramecek">
+
+<div id="obsah">
+<h1>Anglicko-èeský ¾onglérský slovníèek</h1>
+
+
+<p>
+Nìkolik slovíèek které se èasto vyskytují v anglicky psaných textech o ¾onglování.
+</p>
+
+<dl>
+<dt>accurate</dt><dd>pøesný</dd>
+<dt>ball</dt><dd><a href="/zonglovani/micky/druhy.html" title="Popis rùzných druhù míèkù.">míèek</a></dd>
+<dt>beanbags</dt><dd>fazolové pytlíky, míèky naplnìné zrnky(rý¾e, fazole, proso, ...), neskákavé, obvykle se¹ité z nìkolika èástí</dd>
+<dt>catch</dt><dd>chytit</dd>
+<dt>club</dt><dd>ku¾el</dd>
+<dt>columns</dt><dd>sloupy</dd>
+<dt>drop</dt><dd>upustit</dd>
+<dt>even</dt><dd>sudý</dd>
+<dt><a href="/zonglovani/micky/3/blesk.html" title="Blesk.">flash</a></dt><dd>blesk, oznaèuje rychlé vyhození míèkù kdy ruce zùstanou na okam¾ik prázdné, nebo N vyhození a N zachycení N objektù.</dd>
+<dt>juggler</dt><dd>¾onglér</dd>
+<dt>juggling</dt><dd>¾onglování</dd>
+<dt>limb</dt><dd>konèetina</dd>
+<dt><a href="/zonglovani/micky/3/mm.html" title="Kompletní návod na provedení Mills mess.">mess</a></dt><dd>nepoøádek</dd>
+<dt>odd</dt><dd>lichý</dd>
+<dt>pace</dt><dd>tempo</dd>
+<dt><a href="/zonglovani/kuzely/passing/" title="Základy passingu.">passing</a></dt><dd>pøedávání, více lidí ¾ongluje mezi sebou</dd>
+<dt>pattern</dt><dd>model, ¹ablona, vzor, zpùsob jakým hází¹ míèky. Pøelo¾itelné i jako "trik".</dd>
+<dt>practice</dt><dd><a href="/zonglovani/trenink.html" title="Trénuj, trénuj, trénuj.">trénink</a></dd>
+<dt>rings</dt><dd>krou¾ky</dd>
+<dt>shower</dt><dd><a href="/zonglovani/micky/3/sprcha.html" title="Obrázkový návod.">sprcha</a></dd>
+<dt>siteswaps</dt><dd>site = místo, poloha, swap = vymìnit, prohodit, zápis ¾onglování pomocí èísel</dd>
+<dt>throw</dt><dd>hodit</dd>
+<dt>torch</dt><dd>pochodeò</dd>
+<dt>toss</dt><dd>hodit</dd>
+<dt>workshop</dt><dd>setkání pøi nìm¾ úèastinící získávají potøebné znalosti na základì diskusí a praktických ukázek</dd>
+<dt>wrist</dt><dd>zápìstí</dd>
+</dl>
+
+<a href="#nahore" title="Pøesun na zaèátek stránky" class="nahoru">nahoru&nbsp;^^</a>
+
+</div>
+
+
+
+
+<div id="menu">
+
+<?php
+require("menu.inc");
+menu(__FILE__);
+?>
+
+</div>
+</div>
+
+
+<div class="spacer"></div>
+</div>
+
+<?php
+require("paticka.inc");
+paticka($title);
+?>
+
+<!-- start -->
+<div class="reklama">
+
+<!--WZ-REKLAMA-1.0-STRICT-->
+
+</div>
+<!-- stop -->
+
+</body>
+</html>

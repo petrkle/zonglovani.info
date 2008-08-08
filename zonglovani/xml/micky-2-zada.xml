@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<trik>
+
+    <about>
+	     <nazev>Prohození míèku za zády</nazev>
+		 <pocet>2</pocet>
+	     <siteswaps>-</siteswaps>
+		 <obtiznost>snadné</obtiznost>
+		 <oblast>micky-2</oblast>
+	</about>
+
+    <krok>
+        <obrazek>2v1zadaa</obrazek>
+        <popisek>V pravé ruce provádìj &lt;a href=&quot;2v1.html&quot; title=&quot;Základní trik se dvìma míèky.&quot;&gt;2 v 1&lt;/a&gt;. První míèek vyhoï o trochu vý¹.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>2v1zadab</obrazek>
+        <popisek>Zatímco první míèek padá, prohoï druhý míèek za zády.</popisek>
+    </krok>
+
+</trik>

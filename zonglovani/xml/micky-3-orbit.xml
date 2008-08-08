@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<trik>
+
+    <about>
+	     <nazev>Orbit</nazev>
+		 <pocet>3</pocet>
+	     <siteswaps>3</siteswaps>
+		 <obtiznost>nároèné</obtiznost>
+		 <oblast>micky-3</oblast>
+	</about>
+
+	<krok>
+		<popisek>Orbit, nìkdy té¾ nazývaný obtoè.</popisek>
+    </krok>
+
+    <krok>
+			<obrazek>micky-3-orbita</obrazek>
+				<popisek>Vyhoï první míèek z levé ruky.</popisek>
+    </krok>
+
+    <krok>
+			<obrazek>micky-3-orbitb</obrazek>
+			<popisek>Zatím co první míèek letí, obkrou¾í¹ ho pravou rukou s druhým míèkem.</popisek>
+    </krok>
+
+    <krok>
+			<obrazek>micky-3-orbitc</obrazek>
+			<popisek>Ano, je tøeba být velmi rychlý.</popisek>
+    </krok>
+
+    <krok>
+			<obrazek>micky-3-orbitd</obrazek>
+			<popisek>Nakonec staèí druhý míèek pustit. Setrvaèností vyletí správným smìrem. Do pravé ruky chytne¹ první míèek.</popisek>
+    </krok>
+
+
+</trik>

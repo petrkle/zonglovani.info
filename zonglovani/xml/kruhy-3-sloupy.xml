@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<trik>
+
+    <about>
+	     <nazev>Sloupy</nazev>
+		 <pocet>3</pocet>
+	     <siteswaps>3</siteswaps>
+		 <obtiznost>snadné</obtiznost>
+		 <oblast>kruhy-3</oblast>
+	</about>
+
+	<krok>
+		<popisek>Sloupy jsou velmi rozmanitý trik. Toto je jeho základní provedení. Ne¾ ho zaène¹ zkou¹et hodí se umìt &lt;a href=&quot;../2/2v1.html&quot; title=&quot;®onglování se dvìma kruhy.&quot;&gt;2 v 1&lt;/a&gt;.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>kruhy-3-sloupya</obrazek>
+        <popisek>Zaèni rukou ve které dr¾í¹ dva kruhy. Podle obrázku tedy pravou rukou vyhoï první kruh.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>kruhy-3-sloupyb</obrazek>
+        <popisek>V momentì kdy první kruh dosáhne vrcholu své dráhy hoï druhý a tøetí kruh.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>kruhy-3-sloupyc</obrazek>
+				<popisek>První kruh házej uprostøed mezi druhým a tøetím kruhem. Pou¾ívej støídavì pravou a levou ruku.</popisek>
+    </krok>
+
+
+</trik>

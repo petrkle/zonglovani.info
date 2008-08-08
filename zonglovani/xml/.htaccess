@@ -1,0 +1,5 @@
+RewriteEngine	on
+RewriteBase /zonglovani/xml/
+
+RewriteCond %{REQUEST_FILENAME}	^.*\.xml$
+RewriteRule ^(.*)$ $1 [F]

@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<trik>
+
+    <about>
+	     <nazev>Robot</nazev>
+		 <pocet>3</pocet>
+	     <siteswaps>-</siteswaps>
+		 <obtiznost>nároèné</obtiznost>
+		 <oblast>micky-3</oblast>
+	</about>
+
+	<krok>
+		<popisek>Míèky nebudou opisovat oblouèky jako obvykle. Naopak, cílem tohoto triku je míèky házet a pøesunovat rovnì.</popisek>
+	</krok>
+
+	<krok>
+		<obrazek>micky-3-robota</obrazek>
+		<popisek>Zaèni s &lt;a href=&quot;../2/2v1.html&quot; title=&quot;Trik se dvìma míèky.&quot;&gt;2 v 1&lt;/a&gt; v pravé ruce. Tøetí míèek nevyhazuj. Pøesuò ho nahoru a kolmo doprava - odtud název robot.</popisek>
+  </krok>
+
+	<krok>
+		<obrazek>micky-3-robotc</obrazek>
+		<popisek>Ze zaèátku staèí prostì pøesunout levou ruku s míèkem nahoru. Postupnì, jak se bude¹ zlep¹ovat, napodobuj levou rukou pohyb robota. Trochu trhanì, po rovných drahách.</popisek>
+  </krok>
+
+
+	<krok>
+		<obrazek>micky-3-robotd</obrazek>
+		<popisek>Pravou rukou vyhoï první míèek rovnì nahoru. Vra» se zpátky vpravo, pro chycení druhého míèku.</popisek>
+  </krok>
+
+
+	<krok>
+		<obrazek>micky-3-robote</obrazek>
+		<popisek>Z levé ruky upus» tøetí míèek. Pøichází nejobtí¾nìj¹í èást triku. Levou rukou chytit u¾ padající první míèek.</popisek>
+  </krok>
+
+	<krok>
+		<obrazek>micky-3-robotf</obrazek>
+		<popisek>Míèky se o jeden posunuly. Mù¾e¹ pokraèovat znovu podle prvního obrázku.</popisek>
+  </krok>
+
+
+</trik>

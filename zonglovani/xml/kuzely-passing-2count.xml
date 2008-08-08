@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<trik>
+
+    <about>
+	     <nazev>2 count</nazev>
+		 <pocet>6</pocet>
+	     <siteswaps>-</siteswaps>
+		 <obtiznost>snadné</obtiznost>
+		 <oblast>kuzely-passing</oblast>
+	</about>
+
+	<krok>
+		<popisek>Ka¾dý 2. hod je pass. Hází¹:
+			&lt;pre&gt; P      L     P      L     P      L&lt;/pre&gt; 
+			&lt;pre&gt;pass - raz - pass - raz - pass - raz ...&lt;/pre&gt; 
+		</popisek>
+  </krok>
+
+	<krok>
+		<popisek>P - pravá ruka; L - levá ruka; pass - hod partnerovi; raz - pøehození ku¾elu z levé ruky do pravé</popisek>
+  </krok>
+
+    <krok>
+			<obrazek>kuzely-passing-3counta</obrazek>
+			<popisek>Passuje se stejnì jako u &lt;a href=&quot;4count.html&quot; title=&quot;Základ passování.&quot;&gt;4 count&lt;/a&gt;. V¾dy z pravé ruky.</popisek>
+    </krok>
+
+    <krok>
+			<popisek>Jenom trochu rychleji.</popisek>
+    </krok>
+
+
+
+</trik>

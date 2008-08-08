@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<trik>
+
+    <about>
+	     <nazev>Krabice</nazev>
+		 <pocet>4</pocet>
+	     <siteswaps>4</siteswaps>
+		 <obtiznost>nároèné</obtiznost>
+		 <oblast>micky-4</oblast>
+	</about>
+
+	<krok>
+		<popisek>Trik známý také pod anglickým názvem - box.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>micky-4-krabicea</obrazek>
+				<popisek>První a druhý míèek vyhoï rovnì nahoru.</popisek>
+    </krok>
+
+
+    <krok>
+        <obrazek>micky-4-krabiceb</obrazek>
+				<popisek>Prohoï tøetí a ètvrtý míèek. Tato výmìna musí být velmi rychlá. Navíc poslepu, proto¾e mezitím sleduje¹ let prvního a druhého míèku.</popisek>
+    </krok>
+
+
+    <krok>
+        <obrazek>micky-4-krabicec</obrazek>
+				<popisek>Tøetí a ètvrtý míèek vyhoï rovnì nahoru. Zachycené míèky následnì vymìní¹ jako na pøedchozím obrázku.</popisek>
+    </krok>
+
+    <krok>
+			<popisek>Tip: ¾ongluj &lt;a href=&quot;fontana-synchronni.html&quot; title=&quot;Trik se 4 míèky.&quot;&gt;synchronní fontánu&lt;/a&gt; a jen obèas vymìò dva míèky. Mù¾e¹ zkusit také jednodu¹í variantu - &lt;a href=&quot;../3/seesaw.html&quot; title=&quot;Trik se 3 míèky.&quot;&gt;see-saw se tøemi míèky&lt;/a&gt;.</popisek>
+    </krok>
+
+
+</trik>

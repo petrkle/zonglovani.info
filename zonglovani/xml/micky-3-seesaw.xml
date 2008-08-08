@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<trik>
+
+    <about>
+	     <nazev>See saw</nazev>
+		 <pocet>3</pocet>
+	     <siteswaps>-</siteswaps>
+		 <obtiznost>obtí¾né</obtiznost>
+		 <oblast>micky-3</oblast>
+	</about>
+
+	<krok>
+	    <popisek>Trik známý také pod anglickým názvem - box (krabice).</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>seesawa</obrazek>
+        <popisek>Zaèni se dvìma míèky v pravé ruce. První míèek vyhoï rovnì nahoru.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>seesawb</obrazek>
+        <popisek>Kdy¾ je první míèek na vrcholu své dráhy vyhoï druhý míèek vodorovnì a tøetí míèek nahoru.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>seesawc</obrazek>
+        <popisek>Zatím co tøetí míèek je¹tì stoupá chytá¹ první a druhý míèek.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>seesawd</obrazek>
+        <popisek>Kdy¾ je tøetí míèek na vrcholu své dráhy vyhoï druhý míèek vodorovnì a první míèek nahoru.</popisek>
+    </krok>
+
+
+</trik>

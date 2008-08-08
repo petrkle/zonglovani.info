@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<trik>
+
+    <about>
+	     <nazev>Zip</nazev>
+		 <pocet>?</pocet>
+	     <siteswaps>-</siteswaps>
+		 <obtiznost>tì¾¹í</obtiznost>
+		 <oblast>kuzely-passing</oblast>
+	</about>
+
+
+    <krok>
+			<popisek>Trik pro libovolný poèet ¾onglérù. Ka¾dý bude potøebovat tøi ku¾ely.</popisek>
+    </krok>
+
+    <krok>
+			<obrazek>kuzely-passing-zipa</obrazek>
+			<popisek>Stoupnìte si na støídaèku proti sobì. Pìt ¾onglérù vytvoøí tvar písmene W. Krajní ¾ongléøi (A a E) hází &lt;a href=&quot;4count.html&quot; title=&quot;Základ passování.&quot;&gt;4 count&lt;/a&gt;. Ostatní &lt;a href=&quot;2count.html&quot; title=&quot;Základ passování.&quot;&gt;2 count&lt;/a&gt;.</popisek>
+    </krok>
+
+
+    <krok>
+			<obrazek>kuzely-passing-zipb</obrazek>
+			<popisek>První pass hází A a B. Zároveò s nimi hází i ¾ongléøi C a D. ®onglér E hází jako první self.</popisek>
+    </krok>
+
+    <krok>
+			<obrazek>kuzely-passing-zipc</obrazek>
+			<popisek>Druhý pass hází B-C a D-E. ®onglér A mezitím hází self.</popisek>
+    </krok>
+
+
+</trik>

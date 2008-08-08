@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<trik>
+
+    <about>
+	     <nazev>Reverzní kaskáda ¹iroká</nazev>
+		 <pocet>3</pocet>
+	     <siteswaps>-</siteswaps>
+		 <obtiznost>nároèné</obtiznost>
+		 <oblast>micky-3</oblast>
+	</about>
+
+	<krok>
+		<popisek>©iroká reverzní kaskáda vychází z &lt;a href=&quot;kaskada-reverzni.html&quot; title=&quot;Reverzní kaskáda.&quot;&gt;reverzní kaskády&lt;/a&gt;.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>srkaskadaa</obrazek>
+        <popisek>Reverzní kaskádu zaèni rukou ve které dr¾í¹ dva míèky. Podle obrázku tedy pravou rukou vyhoï první míèek.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>srkaskadab</obrazek>
+        <popisek>V momentì kdy první míèek dosáhne vrcholu své dráhy hoï levou rukou druhı míèek. Levou ruku pøesuò doprava kde do ní zachytí¹ první míèek.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>srkaskadac</obrazek>
+        <popisek>Levou ruku s prvním míèkem pøesuò zpátky doleva. Z pravé ruky vyhoï tøetí míèek a pøesuò ji také do leva, kde do ní zachytí¹ druhı míèek.</popisek>
+    </krok>
+
+</trik>

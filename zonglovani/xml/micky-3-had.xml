@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<trik>
+
+    <about>
+	     <nazev>Had</nazev>
+		 <pocet>3</pocet>
+	     <siteswaps>55050</siteswaps>
+		 <obtiznost>tì¾ko proveditelné</obtiznost>
+		 <oblast>micky-3</oblast>
+	</about>
+
+	<krok>
+	    <popisek>Míèky létají za sebou (jako had). Efektní av¹ak velmi nároèný trik.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>hada</obrazek>
+        <popisek>Zaèni s jedním míèkem v pravé a se dvìma v levé ruce. První míèek vyhoï z pravé ruky.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>hadb</obrazek>
+        <popisek>Kdy¾ je první míèek na vrcholu své dráhy, vyhoï pod nìj druhý míèek.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>hadc</obrazek>
+        <popisek>A je¹tì tøetí. Je potøeba opravdu velká rychlost.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>hadd</obrazek>
+        <popisek>První míèek který jsi zachytil do levé ruky vyhoï hned zpátky. V ideálním pøípadì to stihne¹ je¹tì ne¾ do pravé ruky chytí¹ druhý míèek.</popisek>
+    </krok>
+
+
+</trik>

@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<trik>
+
+    <about>
+	     <nazev>1 count</nazev>
+		 <pocet>6</pocet>
+	     <siteswaps>-</siteswaps>
+		 <obtiznost>snadné</obtiznost>
+		 <oblast>kuzely-passing</oblast>
+	</about>
+
+	<krok>
+		<popisek>Ka¾dý hod je pass. Hází¹:
+			&lt;pre&gt; P       L      P       L     P      L&lt;/pre&gt; 
+			&lt;pre&gt;pass - pass - pass - pass - pass - pass ...&lt;/pre&gt; 
+		</popisek>
+  </krok>
+
+	<krok>
+		<popisek>P - pravá ruka; L - levá ruka; pass - hod partnerovi</popisek>
+  </krok>
+
+    <krok>
+			<obrazek>kuzely-passing-1counta</obrazek>
+			<popisek>První hod je pass z pravé ruky.</popisek>
+    </krok>
+
+    <krok>
+			<obrazek>kuzely-passing-1countb</obrazek>
+			 <popisek>I druhý hod je pass. Tentokrát z levé ruky.</popisek>
+    </krok>
+
+
+    <krok>
+			 <popisek>Dál pokraèuj podle prvního obrázku. V¹echny hody jsou pass.</popisek>
+    </krok>
+
+
+
+
+
+</trik>

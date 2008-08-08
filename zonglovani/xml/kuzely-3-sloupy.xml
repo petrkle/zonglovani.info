@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<trik>
+
+    <about>
+	     <nazev>Sloupy</nazev>
+		 <pocet>3</pocet>
+	     <siteswaps>-</siteswaps>
+		 <obtiznost>tì¾¹í</obtiznost>
+		 <oblast>kuzely-3</oblast>
+	</about>
+
+
+    <krok>
+			<obrazek>kuzely-3-sloupya</obrazek>
+			<popisek>První ku¾el vyhodí¹ rovnì nahoru.</popisek>
+    </krok>
+
+
+    <krok>
+			<obrazek>kuzely-3-sloupyb</obrazek>
+			<popisek>Druhý a tøetí ku¾el letí také rovnì nahoru.</popisek>
+    </krok>
+
+</trik>

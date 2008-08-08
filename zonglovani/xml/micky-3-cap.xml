@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<trik>
+
+    <about>
+	     <nazev>Èáp</nazev>
+		 <pocet>3</pocet>
+	     <siteswaps>-</siteswaps>
+		 <obtiznost>nároèné</obtiznost>
+		 <oblast>micky-3</oblast>
+	</about>
+
+	<krok>
+		<popisek>Pøi tomto triku stojí¹ jen na jedné noze jako èáp. Nejedná se o nic jiného ne¾ o opakované &lt;a href=&quot;noha.html&quot; title=&quot;Podobný trik se tøemi míèky.&quot;&gt;prohození míèku pod nohou&lt;/a&gt;.</popisek>
+	</krok>
+	
+    <krok>
+        <obrazek>capa</obrazek>
+				<popisek>®ongluj se tøemi míèky  &lt;a href=&quot;kaskada.html&quot; title=&quot;Základní trik se tøemi míèky.&quot;&gt;kaskádu&lt;/a&gt;. Je lep¹í házet trochu vý¹, získá¹ tak víc èasu.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>capb</obrazek>
+				<popisek>První míèek zachytí¹ do pravé ruky a pøipraví¹ si pravou nohu. Mezitím levaèka pokraèuje v obyèejné kaskádì.</popisek>
+    </krok>
+
+		<krok>
+			<obrazek>capc</obrazek>
+			<popisek>První míèek vyhodí¹ z pravé ruky pod nohou. Tøetí míèek letí vrchem po obvyklé dráze.</popisek>
+    </krok>
+
+		<krok>
+			<obrazek>capd</obrazek>
+			<popisek>Dál u¾ v¹echny míèky z pravé ruky prohazuje¹ pod nohou.</popisek>
+    </krok>
+
+
+		<krok>
+			<popisek>Trik vypadá dobøe, kdy¾ há¾e¹ míèky z pravé i levé ruky do stejné vý¹ky a v pravidelném rytmu. V ideálním pøípadì by nemìlo být znát, ¾e z jedné strany hází¹ míèky pod nohou.</popisek>
+		</krok>
+
+		<krok>
+				<popisek>Mù¾e¹ zkusit napodobit i dal¹í zvíøátka. Tøeba &lt;a href=&quot;zirafa.html&quot; title=&quot;Trik se tøemi míèky.&quot;&gt;¾irafu&lt;/a&gt;, &lt;a href=&quot;klokan.html&quot; title=&quot;Trik se tøemi míèky.&quot;&gt;klokana&lt;/a&gt; nebo &lt;a href=&quot;orangutan.html&quot; title=&quot;Trik se tøemi míèky.&quot;&gt;orangutana&lt;/a&gt;.</popisek>
+    </krok>
+
+	
+</trik>

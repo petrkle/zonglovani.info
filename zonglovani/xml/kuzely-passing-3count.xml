@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<trik>
+
+    <about>
+	     <nazev>3 count</nazev>
+		 <pocet>6</pocet>
+	     <siteswaps>-</siteswaps>
+		 <obtiznost>snadné</obtiznost>
+		 <oblast>kuzely-passing</oblast>
+	</about>
+
+	<krok>
+		<popisek>Ka¾dý 3. hod je pass. Jako valèík, na tøi doby. Hází¹:
+			&lt;pre&gt;  P     L     P     L      P     L     P&lt;/pre&gt; 
+			&lt;pre&gt;pass - raz - dva - pass - raz - dva - pass ...&lt;/pre&gt; 
+		</popisek>
+  </krok>
+
+	<krok>
+		<popisek>P - pravá ruka; L - levá ruka; pass - hod partnerovi; raz, dva - kaskáda se 3 ku¾ely</popisek>
+  </krok>
+
+	<krok>
+		<popisek>Passuje¹ støídavì z pravé a levé ruky.</popisek>
+  </krok>
+
+    <krok>
+			<obrazek>kuzely-passing-3counta</obrazek>
+			<popisek>První pass je stejný jako u &lt;a href=&quot;4count.html&quot; title=&quot;Základ passování.&quot;&gt;4 count&lt;/a&gt;</popisek>
+    </krok>
+
+    <krok>
+			<obrazek>kuzely-passing-3countb</obrazek>
+			<popisek>Problém nastává a¾ s druhým passem. Hlavnì pro praváky je passování levou rukou obtí¾né.</popisek>
+    </krok>
+
+    <krok>
+			<popisek>Jako trénink zkus házet &lt;a href=&quot;4count.html&quot; title=&quot;Základ passování.&quot;&gt;4 count&lt;/a&gt; levou rukou.</popisek>
+    </krok>
+
+
+
+</trik>

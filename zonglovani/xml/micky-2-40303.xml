@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<trik>
+
+    <about>
+	     <nazev>40303</nazev>
+		 <pocet>2</pocet>
+	     <siteswaps>40303</siteswaps>
+		 <obtiznost>snadné</obtiznost>
+		 <oblast>micky-2</oblast>
+	</about>
+
+	<krok>
+	    <popisek>Jednoduché cvièení se dvìma míèky.</popisek>
+    </krok>
+
+
+    <krok>
+        <obrazek>40303a</obrazek>
+        <popisek>První míèek vyhoï jako pøi fontánì, rovnì nahoru.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>40303b</obrazek>
+        <popisek>Druhý míèek hoï trochu ni¾¹ím oblouèkem do druhé ruky.</popisek>
+    </krok>
+
+
+    <krok>
+        <obrazek>40303c</obrazek>
+        <popisek>První míèek chy» do pravé ruky a hoï po stejné dráze jako druhý míèek.</popisek>
+    </krok>
+
+
+    <krok>
+        <obrazek>40303d</obrazek>
+        <popisek>Druhý míèek z levé ruky vyhoï nahoru a chy» do ní první míèek.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>40303e</obrazek>
+        <popisek>První míèek hoï zpátky do pravé ruky.</popisek>
+    </krok>
+
+
+</trik>

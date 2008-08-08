@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<trik>
+
+    <about>
+	     <nazev>Sloupy II</nazev>
+		 <pocet>4</pocet>
+	     <siteswaps>-</siteswaps>
+		 <obtiznost>tì¾ko proveditelné</obtiznost>
+		 <oblast>micky-4</oblast>
+	</about>
+
+	<krok>
+	    <popisek>Tì¾¹í varianta sloupù. Je k ní zapotøebí hlavnì pøesnost a rychlé pøesuny rukou.</popisek>
+    </krok>
+
+    <krok>
+    	<obrazek>4sloupyiia</obrazek>
+      <popisek>Vyhoï první dva míèky.</popisek>
+    </krok>
+
+    <krok>
+			<obrazek>4sloupyiib</obrazek>
+			<popisek>Pøesuò obì ruce a vyhoï tøetí a ètvrtý míèek. Nejobtí¾nìj¹í èást triku. Druhý a tøetí míèek se nesmí srazit.</popisek>
+		</krok>
+
+    <krok>
+			<obrazek>4sloupyiic</obrazek>
+			<popisek>Pøesuò obì ruce zpátky a chy» první a druhý míèek.</popisek>
+    </krok>
+
+</trik>

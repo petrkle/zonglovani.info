@@ -1,0 +1,102 @@
+<?xml version="1.0"?>
+<trik>
+
+    <about>
+	     <nazev>Boston Circle</nazev>
+		 <pocet>?</pocet>
+	     <siteswaps>-</siteswaps>
+		 <obtiznost>tì¾¹í</obtiznost>
+		 <oblast>kuzely-passing</oblast>
+	</about>
+
+
+
+    <krok>
+			<popisek>Trik pøi kterém passuje ka¾dý s ka¾dým. Dokonce i sám se sebou. Známý té¾ pod názvem hodiny.</popisek>
+    </krok>
+
+
+	<krok>
+	    <nadpis>5 ¾onglérù</nadpis>
+	</krok>
+
+    <krok>
+			<obrazek>kuzely-passing-boston4h</obrazek>
+			<popisek>Stoupnìte si do pìtiúhlelníku. B zaèíná s E, C s D. A hází první pass sám sobì - vlastnì normálnì ¾ongluje.</popisek>
+    </krok>
+
+    <krok>
+			<obrazek>kuzely-passing-boston4i</obrazek>
+			<popisek>Dal¹í pass jde o jednoho ¾ongléra vedle. Proti smìru hodinových ruèièek. A hází s E, B s D, C hází self.</popisek>
+    </krok>
+
+
+    <krok>
+			<obrazek>kuzely-passing-boston4j</obrazek>
+			<popisek>Passy se opìt pøesunou o jednoho èlovìka. Self nyní hází E.</popisek>
+    </krok>
+
+
+    <krok>
+			<obrazek>kuzely-passing-boston4k</obrazek>
+			<popisek>Dal¹í na øadì je B.</popisek>
+    </krok>
+
+
+    <krok>
+			<obrazek>kuzely-passing-boston4l</obrazek>
+			<popisek>Poslední vyzbyde self na ¾ongléra D. Poté se kolobìh opakuje.</popisek>
+    </krok>
+
+
+
+
+	<krok>
+	    <nadpis>4 ¾ongléøi</nadpis>
+			<popisek>Princip je stejný jako s pìti ¾ongléry. Ka¾dý passuje s ka¾dým. Postupnì proti smìru hodinových ruèièek.</popisek>
+	</krok>
+
+    <krok>
+			<obrazek>kuzely-passing-boston4a</obrazek>
+			<popisek>První pass: A -&gt; B a C -&gt; D.</popisek>
+    </krok>
+
+    <krok>
+			<obrazek>kuzely-passing-boston4b</obrazek>
+			<popisek>Druhý pass: C -&gt; B. A a D hází self.</popisek>
+    </krok>
+
+    <krok>
+			<obrazek>kuzely-passing-boston4c</obrazek>
+			<popisek>Tøetí pass: C -&gt; A a D -&gt; B.</popisek>
+    </krok>
+
+
+    <krok>
+			<obrazek>kuzely-passing-boston4d</obrazek>
+			<popisek>Ètrvrý pass: D -&gt; A. C a B hází self.</popisek>
+    </krok>
+
+
+
+	<krok>
+	    <nadpis>3 ¾ongléøi</nadpis>
+	</krok>
+
+
+    <krok>
+			<obrazek>kuzely-passing-boston4e</obrazek>
+			<popisek>První pass hází B a C. A zaèíná sám.</popisek>
+    </krok>
+
+    <krok>
+			<obrazek>kuzely-passing-boston4f</obrazek>
+			<popisek>B hází s A. C hází self.</popisek>
+    </krok>
+
+    <krok>
+			<obrazek>kuzely-passing-boston4g</obrazek>
+			<popisek>Dokonèení cyklu. A hází s C. B hází self.</popisek>
+    </krok>
+
+</trik>

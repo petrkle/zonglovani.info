@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<trik>
+
+    <about>
+	     <nazev>®irafa</nazev>
+		 <pocet>3</pocet>
+	     <siteswaps>-</siteswaps>
+		 <obtiznost>nároèné</obtiznost>
+		 <oblast>micky-3</oblast>
+	</about>
+
+	<krok>
+		<popisek>®irafa je vlastnì &lt;a href=&quot;sprcha-polovicni.html&quot; title=&quot;Polovièní sprcha se tøemi míèky.&quot;&gt;polovièní sprcha&lt;/a&gt; s jednou rukou nahoøe. Jiný název pro tento trik je &lt;a href=&quot;socha.html&quot; title=&quot;Trik se tøemi míèky.&quot;&gt;socha svobody&lt;/a&gt;.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>sochaa</obrazek>
+        <popisek>Zaèni se dvìma míèky v pravé ruce. První míèek vyhoï vysokým obloukem nahoru.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>sochab</obrazek>
+        <popisek>Druhý míèek vyhoï vodorovnì. Tím si uvolí¹ levaèku pro pøilétající první míèek.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>sochac</obrazek>
+        <popisek>Z pravé ruky vyhodí¹ tøetí míèek trochu jí posune¹ vlevo a chytí¹ do ní druhý míèek.</popisek>
+    </krok>
+
+		<krok>
+			<popisek>Mù¾e¹ napodobit i dal¹í zvíøátka. Tøeba &lt;a href=&quot;klokan.html&quot; title=&quot;Trik se tøemi míèky.&quot;&gt;klokana&lt;/a&gt;, &lt;a href=&quot;orangutan.html&quot; title=&quot;Trik se tøemi míèky.&quot;&gt;orangutana&lt;/a&gt; nebo &lt;a href=&quot;cap.html&quot; title=&quot;Trik se tøemi míèky.&quot;&gt;èápa&lt;/a&gt;.</popisek>
+    </krok>
+
+
+
+</trik>

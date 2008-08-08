@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<trik>
+
+    <about>
+	     <nazev>441</nazev>
+		 <pocet>3</pocet>
+	     <siteswaps>441</siteswaps>
+		 <obtiznost>nároèné</obtiznost>
+		 <oblast>micky-3</oblast>
+	</about>
+
+	<krok>
+	    <popisek>Pìkný trik, ale dostat se do rytmu chvíli trvá.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>441a</obrazek>
+        <popisek>Vyhoï první míèek z pravé ruky.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>441b</obrazek>
+        <popisek>Vzápìtí z levé ruky vyhoï druhý míèek.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>441c</obrazek>
+        <popisek>Tøetí míèek hoï rychlým vodorovným hodem do levé ruky.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>441d</obrazek>
+        <popisek>Pravá ruky má teï na starost jenom první míèek.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>441e</obrazek>
+        <popisek>Pøesuò druhý míèek rychlým vodorovným hodem z levé ruky do pravé.</popisek>
+    </krok>
+
+
+</trik>

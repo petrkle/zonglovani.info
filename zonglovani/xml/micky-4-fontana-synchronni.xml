@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<trik>
+
+    <about>
+	     <nazev>Synchronní fontána</nazev>
+		 <pocet>4</pocet>
+	     <siteswaps>-</siteswaps>
+		 <obtiznost>nároèné</obtiznost>
+		 <oblast>micky-4</oblast>
+	</about>
+
+	<krok>
+		<popisek>Synchronní fontána je mírnou obmìnou klasické &lt;a href=&quot;fontana.html&quot; title=&quot;Podobný trik se ètyømi míèky.&quot;&gt;fontány&lt;/a&gt;.</popisek>
+	</krok>
+
+	<krok>
+			<obrazek>sfontanaa</obrazek>
+			<popisek>Vyhoï první a druhý míèek souèasnì.</popisek>
+	</krok>
+
+	<krok>
+		<obrazek>sfontanab</obrazek>
+		<popisek>Pokraèuj s tøetím a ètvrtým míèkem.</popisek>
+	</krok>
+		
+	<krok>
+		<obrazek>sfontanac</obrazek>
+		<popisek>Vyzkou¹ej také obrácený smìr hodù. Z vnìj¹ku dovnitø.</popisek>
+	</krok>
+	
+</trik>

@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<trik>
+
+    <about>
+	     <nazev>Multiplex</nazev>
+		 <pocet>3</pocet>
+	     <siteswaps>3</siteswaps>
+		 <obtiznost>snadné</obtiznost>
+		 <oblast>micky-3</oblast>
+	</about>
+
+
+    <krok>
+			<popisek>Vyhození nìkolika míèkù z jedné ruky - to je multiplex.</popisek>
+    </krok>
+	<krok>
+	    <nadpis>Trénink se dvìma míèky</nadpis>
+    </krok>
+
+    <krok>
+			<obrazek>micky-3-multiplexta</obrazek>
+			<popisek>Zaèni tím nejjednodu¹¹ím. Dva míèky najednou. První míèek pøidru¾uj malíèkem a prsteníèkem. Druhı ukazováèkem a palce. Prostøedníèek je mezi obìma míèky.</popisek>
+    </krok>
+
+
+    <krok>
+			<obrazek>micky-3-multiplextb</obrazek>
+			<popisek>Oba míèky vyletí oblouèkem nahoru. Smìøují od sebe.</popisek>
+    </krok>
+
+
+    <krok>
+			<obrazek>micky-3-multiplextc</obrazek>
+			<popisek>První zachytí¹ do levé ruky. Druhı do pravé.</popisek>
+    </krok>
+
+    <krok>
+			<popisek>Trénuj støídavì vyhazování z pravé a levé ruky.</popisek>
+    </krok>
+
+	<krok>
+	    <nadpis>Multiplex se tøemi míèky</nadpis>
+    </krok>
+
+
+    <krok>
+			<obrazek>micky-3-multiplexa</obrazek>
+			<popisek>®ongluj &lt;a href=&quot;/zonglovani/micky/3/kaskada.html&quot; title=&quot;Základní trik se 3 míèky.&quot;&gt;kaskádu&lt;/a&gt;. Do pravé ruky zachy» první míèek. Druhı míèek nevyhazuj jako obvykle.</popisek>
+    </krok>
+
+
+    <krok>
+			<obrazek>micky-3-multiplexb</obrazek>
+			<popisek>Místo nìj vyhoï z levé ruky tøetí míèek.</popisek>
+    </krok>
+
+
+    <krok>
+			<obrazek>micky-3-multiplexc</obrazek>
+			<popisek>Kdy¾ je tøetí míèek nejvı¹, hoï pod nìj první a druhı míèek - multiplex.</popisek>
+    </krok>
+
+
+    <krok>
+			<obrazek>micky-3-multiplexd</obrazek>
+			<popisek>Tøetí míèek zachytí¹ do pravé ruky. První míèek smìøuje ni¾¹ím oblouèkem do levé ruky. Druhı míèek letí rovnì nahoru.</popisek>
+    </krok>
+
+
+    <krok>
+			<obrazek>micky-3-multiplexe</obrazek>
+				<popisek>Pravou rukou pokraèuje¹ dál. Jako pøi obyèejné &lt;a href=&quot;/zonglovani/micky/3/kaskada.html&quot; title=&quot;Základní trik se 3 míèky.&quot;&gt;kaskádì&lt;/a&gt;.</popisek>
+    </krok>
+
+    <krok>
+			<popisek>Multiplex mù¾e¹ pou¾ít pøi &lt;a href=&quot;/zonglovani/micky/5/kaskada-multiplex.html&quot; title=&quot;Trik s 5 míèky.&quot;&gt;kaskádì s pìti míèky&lt;/a&gt;.</popisek>
+    </krok>
+
+
+</trik>

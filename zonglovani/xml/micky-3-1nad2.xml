@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<trik>
+
+    <about>
+	     <nazev>Jeden nad dvìma</nazev>
+		 <pocet>3</pocet>
+	     <siteswaps>-</siteswaps>
+		 <obtiznost>nároèné</obtiznost>
+		 <oblast>micky-3</oblast>
+	</about>
+
+	<krok>
+					<popisek>Kombinace &lt;a href=&quot;sloupy.html&quot; title=&quot;Trik se tøemi míèky.&quot;&gt;sloupù&lt;/a&gt; s &lt;a href=&quot;tenis.html&quot; title=&quot;Trik se tøemi míèky.&quot;&gt;tenisem&lt;/a&gt;. Jeden míèek léta poøád nad dvìma ostatními.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>tenissloupya</obrazek>
+        <popisek>První a druhý míèek vyhoï rovnì nahoru.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>tenissloupyb</obrazek>
+        <popisek>Tøetí míèek vyhoï obloukem nad první a druhý.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>tenissloupyc</obrazek>
+        <popisek>Zatím co tøetí míèek letí zachytí¹ první a druhý míèek.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>tenissloupyd</obrazek>
+        <popisek>Kdy¾ jsou první a druhý míèek opìt ve vzduchu zachytí¹ do levé ruky tøetí míèek. Tøetí míèek hodí¹ horním obloukem zpìt do pravé ruky.</popisek>
+    </krok>
+
+		<krok>
+			<nadpis>Polovièní oblouk</nadpis>
+    </krok>
+
+    <krok>
+        <popisek>V dal¹í obmìnì jeden míèek pøehazuje¹ postupnì nad dvìma zbývajícími.</popisek>
+    </krok>
+
+
+    <krok>
+        <obrazek>sloupyf</obrazek>
+        <popisek>Vyhoï první a druhý míèek rovnì nahoru. Kdy¾ jsou na vrcholu dráhy vyhoï tøetí míèek zprava vysokým obloukem nad první míèek.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>sloupyg</obrazek>
+        <popisek>Tøetí míèek míøí zhruba doprostøed mezi tvé ruce. Vyhoï první a druhý míèek rovnì nahoru.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>sloupyh</obrazek>
+        <popisek>Tøetí míèek zachytí¹ do pravé ruky a opìt vysokým oblouèkem ho vyhodí¹ vlevo nad druhý míèek.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>sloupyi</obrazek>
+        <popisek>Vyhoï první a druhý míèek rovnì nahoru. Tøetí míèek zachytí¹ do levé ruky. Pak se tøetí míèek vrací po stejné dráze zpìt.</popisek>
+    </krok>
+
+
+
+    <krok>
+			<popisek>Dal¹ím podobným trikem jsou &lt;a href=&quot;1okolo2.html&quot; title=&quot;Podobný trik se tøemi míèky.&quot;&gt;jeden okolo dvou&lt;/a&gt; a &lt;a href=&quot;1mezi2.html&quot; title=&quot;Podobný trik se tøemi míèky.&quot;&gt;jeden mezi dvìma&lt;/a&gt;.</popisek>
+    </krok>
+
+</trik>

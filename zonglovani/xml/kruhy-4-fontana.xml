@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<trik>
+
+    <about>
+	     <nazev>Fontána</nazev>
+		 <pocet>4</pocet>
+	     <siteswaps>4</siteswaps>
+		 <obtiznost>nároèné</obtiznost>
+		 <oblast>kruhy-4</oblast>
+	</about>
+
+	<krok>
+		<popisek>Pøi fontánì provádí ka¾dá ruka samostatnì &lt;a href=&quot;../2/2v1.html&quot; title=&quot;®onglování se dvìma kruhy.&quot;&gt;2 v 1&lt;/a&gt;.</popisek>
+    </krok>
+
+    <krok>
+			<obrazek>kruhy-4-fontanaa</obrazek>
+			<popisek>Zaèni pravou rukou jako pøi &lt;a href=&quot;../2/2v1.html&quot; title=&quot;Trik se dvìma kruhy.&quot;&gt;2 v 1&lt;/a&gt;. První kruh vyhoï rovnì nahoru.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>kruhy-4-fontanab</obrazek>
+				<popisek>Kdy¾ je první kruh asi v polovinì své dráhy, vyhoï levou rukou druhý kruh.</popisek>
+    </krok>
+
+		<krok>
+			<obrazek>kruhy-4-fontanac</obrazek>
+			<popisek>Pokraèuj tøetím kruhem z pravé ruky.</popisek>
+    </krok>
+		
+
+</trik>

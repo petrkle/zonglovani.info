@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<trik>
+
+    <about>
+	     <nazev>4 count</nazev>
+		 <pocet>6</pocet>
+	     <siteswaps>-</siteswaps>
+		 <obtiznost>snadné</obtiznost>
+		 <oblast>kuzely-passing</oblast>
+	</about>
+
+	<krok>
+		<popisek>Základní zpùsob passování pro 2 ¾ongléry a 6 ku¾elù. Ka¾dý 4. hod je pass. Hází¹:
+			&lt;pre&gt;  P     L     P     L      P     L     P&lt;/pre&gt; 
+			&lt;pre&gt;pass - raz - dva - tøi - pass - raz - dva ...&lt;/pre&gt; 
+		</popisek>
+  </krok>
+
+	<krok>
+		<popisek>P - pravá ruka; L - levá ruka; pass - hod partnerovi; raz, dva, tøi - kaskáda se 3 ku¾ely</popisek>
+  </krok>
+
+    <krok>
+			<obrazek>kuzely-passing-4counta</obrazek>
+			<popisek>Stoupnìte si 3 a¾ 4 metry od sebe.</popisek>
+    </krok>
+
+    <krok>
+			<obrazek>kuzely-passing-4countb</obrazek>
+			<popisek>Zaèíná se hozením prvního ku¾elu partnerovi (pass). Ku¾el se bìhem letu &lt;a href=&quot;hody.html#single&quot;&gt;1x otoèí&lt;/a&gt;. Miø nad ruku, asi do vý¹e krku.</popisek>
+    </krok>
+
+    <krok>
+			<obrazek>kuzely-passing-4countc</obrazek>
+			<popisek>Pohled shora - dráhy ku¾elù se nekøí¾í. Hází¹ pravou, chytá¹ levou. Oba musíte zaèít ¾onglovat ve &lt;a href=&quot;synchronizace.html&quot; title=&quot;Jak zaèít stejnì.&quot;&gt;stejnou chvíli&lt;/a&gt;.</popisek>
+    </krok>
+
+    <krok>
+			<obrazek>kuzely-passing-4countd</obrazek>
+			<popisek>Dobøe hozený pass pøilétá dr¾adlem ku¾elu pøímo do dlanì. Staèí nastavit ruku.</popisek>
+    </krok>
+
+    <krok>
+			<obrazek>kuzely-passing-4counte</obrazek>
+			<popisek>Nehody se stávají. Hlavnì ze zaèátku. Dodr¾uj &lt;a href=&quot;pravidla.html&quot; title=&quot;Co a jak.&quot;&gt;základní pravidla passování&lt;/a&gt; a nemù¾e se ti nic zlého stát.</popisek>
+    </krok>
+
+
+
+</trik>

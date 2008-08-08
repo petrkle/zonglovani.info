@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<trik>
+
+    <about>
+			<nazev>Fale¹né mills' mess</nazev>
+		 <pocet>3</pocet>
+	     <siteswaps>-</siteswaps>
+		 <obtiznost>nároèné</obtiznost>
+		 <oblast>micky-3</oblast>
+	</about>
+
+	<krok>
+		<popisek>Popsat tento trik je skoro stejnì tì¾ké jako se ho nauèit. Tak¾e hurá do toho!</popisek>
+	</krok>
+
+    <krok>
+			<obrazek>micky-3-mm-falesnea</obrazek>
+			<popisek>Ruce jsou pøekøí¾ené, pravá nad levou. Vyhoï první míèek z pravé ruky. Ihned po vyhození si ruce vymìòují místo.</popisek>
+    </krok>
+
+
+    <krok>
+			<obrazek>micky-3-mm-falesneb</obrazek>
+			<popisek>Ruce jsou nepøekøí¾ené. Vyhoï druhý míèek z levé ruky rovnì nahoru. Ruce si opìt vymìòují pozice.</popisek>
+    </krok>
+
+
+    <krok>
+			<obrazek>micky-3-mm-falesnec</obrazek>
+			<popisek>Do levé ruky zachytí¹ první míèek a hodí¹ ho zpìt. Oproti &lt;a href=&quot;mm.html&quot; title=&quot;Mills' mess v plné kráse.&quot;&gt;úplnému mills' mess&lt;/a&gt; tøetí míèek zùstává v pravé ruce.</popisek>
+    </krok>
+
+
+    <krok>
+			<obrazek>micky-3-mm-falesned</obrazek>
+			<popisek>Následuje pøekøí¾ení rukou. Levá ruka chytí druhý míèek.</popisek>
+    </krok>
+
+
+    <krok>
+			<obrazek>micky-3-mm-falesnee</obrazek>
+			<popisek>Z pravé ruky vyhodí¹ rovnì nahoru tøetí míèek. Zároveò ruce pøekøí¾í¹, aby pravá ruka mohla chytit první míèek.</popisek>
+    </krok>
+
+
+    <krok>
+			<obrazek>micky-3-mm-falesnef</obrazek>
+			<popisek>První míèek hodí¹ z pravé ruky zpìt. Druhý míèek zùstává v levé ruce.</popisek>
+    </krok>
+
+
+</trik>

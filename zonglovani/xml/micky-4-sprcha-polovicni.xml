@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<trik>
+
+    <about>
+	     <nazev>Polovièní sprcha</nazev>
+		 <pocet>4</pocet>
+	     <siteswaps>53</siteswaps>
+			 <obtiznost>obtí¾né</obtiznost>
+		 <oblast>micky-4</oblast>
+	</about>
+
+	<krok>
+		<popisek>Polovièní sprcha je dùle¾itý krok na cestì k opravdové &lt;a href=&quot;sprcha.html&quot; title=&quot;Sprcha se ètyømi míèky.&quot;&gt;spr¹e&lt;/a&gt; se ètyømi míèky.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>p4sprchaa</obrazek>
+        <popisek>Pravou rukou vyhoï první míèek.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>p4sprchab</obrazek>
+        <popisek>Tìsnì za ním i druhý.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>p4sprchac</obrazek>
+        <popisek>Souèasnì se tøetím míèkem vyhoï i ètvrtý. Ètvrtý míèek letí nízkým oblouèkem z levé ruky do pravé a tím celý trik zpomalí a uèiní ho snaz¹ím.</popisek>
+    </krok>
+
+</trik>

@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<trik>
+
+    <about>
+	     <nazev>2 v 1</nazev>
+		 <pocet>2</pocet>
+	     <siteswaps>40</siteswaps>
+		 <obtiznost>snadné</obtiznost>
+		 <oblast>micky-2</oblast>
+	</about>
+
+	<krok>
+		<popisek>2 v 1 je základní trik se dvìma míèky. Nauè se ho pravou i levou rukou a u¾ vlastnì umí¹ ¾onglovat &lt;a href=&quot;../4/fontana.html&quot; title=&quot;®onglování se ètyømi míèky.&quot;&gt;ètyømi míèky&lt;/a&gt;.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>2v1a</obrazek>
+				<popisek>První zpùsob jak ¾onglovat 2 v 1, vnitøní kruhy. V pravé ruce dr¾í¹ dva míèky. První vyhoï oblouèkem proti smìru hodinových ruèièek nahoru a za ním druhý. Míèky vytváøejí elipsu.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>2v1b</obrazek>
+				<popisek>Druhý zpùsob, vnìj¹í kruhy. Míèky házej podobnì jako v pøedchozím pøípadì ov¹em po smìru hodinových ruèièek.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>2v1c</obrazek>
+				<popisek>Tøetí zpùsob, sloupy. Míèky házej rovnì nahoru. Jejich dráhy se nekøí¾í.</popisek>
+    </krok>
+
+</trik>

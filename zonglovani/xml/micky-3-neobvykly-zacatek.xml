@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<trik>
+
+    <about>
+	     <nazev>Neobvyklı zaèátek kaskády</nazev>
+		 <pocet>3</pocet>
+	     <siteswaps>-</siteswaps>
+		 <obtiznost>snadné</obtiznost>
+		 <oblast>micky-3</oblast>
+	</about>
+
+
+    <krok>
+						<popisek>Zaèít &lt;a href=&quot;kaskada.html&quot; title=&quot;Nejlehèí trik se tøemi míèky.&quot;&gt;kaskádu&lt;/a&gt; mù¾e¹ i tou rukou ve které má¹ jenom jeden míèek.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>zacateka</obrazek>
+        <popisek>Do pravé ruky si vezmi jeden míèek do levé dva. První vyhoï míèek z pravé ruky.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>zacatekb</obrazek>
+        <popisek>Pak rychlım vodorovnım hodem pøesuò jeden míèek z levé ruky do pravé.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>zacatekc</obrazek>
+        <popisek>Nakonec vyhoï druhı míèek z levé ruky oblouèkem nahoru a zachy» do ní prvnì vyhozenı míèek. Dál pokraèuj obyèejnou kaskádou.</popisek>
+    </krok>
+
+
+		<krok>
+			<nadpis>Dva míèky najednou</nadpis>
+		</krok>
+
+
+    <krok>
+			<popisek>Zaèátek &lt;a href=&quot;kaskada.html&quot; title=&quot;Nejlehèí trik se tøemi míèky.&quot;&gt;kaskády&lt;/a&gt; pomocí &lt;a href=&quot;multiplex.html&quot; title=&quot;Vyhození dvou míèkù najednou.&quot;&gt;multiplexu&lt;/a&gt; dvou míèkù.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>zacatekd</obrazek>
+        <popisek>Pravou rukou vyhoï dva míèky najednou.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>zacateke</obrazek>
+        <popisek>Tøetí vhoï mezi nì. Dál mù¾e¹ pokraèovat tøeba obyèejnou kaskádou.</popisek>
+    </krok>
+
+
+		<krok>
+			<nadpis>Tøi míèky najednou</nadpis>
+		</krok>
+
+
+    <krok>
+						<popisek>&lt;a href=&quot;kaskada.html&quot; title=&quot;Nejlehèí trik se tøemi míèky.&quot;&gt;Kaskádu&lt;/a&gt; mù¾e¹ zaèít i se tøemi míèky v jedné ruce.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>micky-3-zacatek-kaskadya</obrazek>
+				<popisek>Z pravé ruky vyhoï v¹echny tøi míèky najednou - &lt;a href=&quot;multiplex.html&quot; title=&quot;Vyhození více míèkù najednou.&quot;&gt;multiplex&lt;/a&gt;. Souèasnì levá ruka míøí nahoru.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>micky-3-zacatek-kaskadyb</obrazek>
+				<popisek>Levou rukou stáhni ze vzduchu první míèek.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>micky-3-zacatek-kaskadyc</obrazek>
+				<popisek>Mù¾e¹ pokraèovat &lt;a href=&quot;kaskada.html&quot; title=&quot;Nejlehèí trik se tøemi míèky.&quot;&gt;kaskádou&lt;/a&gt; nebo &lt;a href=&quot;sloupy.html&quot; title=&quot;Lehkı trik se tøemi míèky.&quot;&gt;sloupy&lt;/a&gt;.</popisek>
+    </krok>
+
+		<krok>
+			<popisek>Tøi míèky z pravé ruky mù¾e¹ vyhodit i pod nohou. S trochou ¹ikovnosti jde zaèít kaskádu vyhozením tøi míèkù za zády.</popisek>
+		</krok>
+
+
+		
+
+</trik>

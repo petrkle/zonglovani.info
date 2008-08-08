@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<trik>
+
+    <about>
+	     <nazev>7 ku¾elù</nazev>
+		 <pocet>7</pocet>
+	     <siteswaps>-</siteswaps>
+		 <obtiznost>tì¾¹í</obtiznost>
+		 <oblast>kuzely-passing</oblast>
+	 </about>
+
+	<krok>
+		<popisek>Házet o jeden ku¾el víc ne¾ obvykle není a¾ tak tì¾ké.</popisek>
+	</krok>
+
+    <krok>
+			<obrazek>kuzely-passing-7clubsa</obrazek>
+			<popisek>Ten kdo zaèíná se ètyømi ku¾ely hodí první pass - na dvì otoèky.</popisek>
+    </krok>
+
+		<krok>
+			<obrazek>kuzely-passing-7clubsb</obrazek>
+			<popisek>Druhý ¾onglér poèká a¾ je pass v polovinì dráhy. Pak zaène házet z pravé ruky passy na dvì otoèky.</popisek>
+		</krok>
+
+		<krok>
+			<popisek>Nyní oba házíte passy z pravé ruky na dvì otoèky. Z levé ruky do pravé si pøehazuje¹ ku¾el na jednu otoèku.</popisek>
+		</krok>
+
+
+</trik>

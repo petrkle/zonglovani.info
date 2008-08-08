@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<trik>
+
+    <about>
+	     <nazev>Sprcha</nazev>
+		 <pocet>4</pocet>
+	     <siteswaps>71</siteswaps>
+		 <obtiznost>tì¾ko proveditelné</obtiznost>
+		 <oblast>micky-4</oblast>
+	</about>
+
+	<krok>
+		<popisek>Princip je stejný jako se tøemi míèky. Je ale potøeba vìt¹í rychlost. Prvnì se mi tento trik povedl a¾ poté, co jsem zaèal trénovat &lt;a href=&quot;../5/kaskada.html&quot; title=&quot;Kaskáda s pìti míèky.&quot;&gt;kaskádu s pìti&lt;/a&gt; míèky. Dobrým tréninkem na tento trik je &lt;a href=&quot;sprcha-polovicni.html&quot; title=&quot;Polovièní sprcha se ètyømi míèky.&quot;&gt;polovièní sprcha&lt;/a&gt;.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>4sprchaa</obrazek>
+        <popisek>Pravou rukou vyhoï první míèek.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>4sprchab</obrazek>
+        <popisek>Tìsnì za ním i druhý. Poté pøesuò rychlým vodorovným hodem tøetí míèek z levé ruky do pravé a tou ho vyhoï po stejné dráze jako dva pøedchozí.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>4sprchac</obrazek>
+        <popisek>Pokraèuj stejnì i se ètvrtým míèkem. A pak znovu dokola.</popisek>
+    </krok>
+
+    <krok>
+        <popisek>Sprcha se dá zaèínat i se tøemi míèky v pravé ruce a jedním v levé. Zále¾í co ti víc vyhovuje.</popisek>
+    </krok>
+
+</trik>

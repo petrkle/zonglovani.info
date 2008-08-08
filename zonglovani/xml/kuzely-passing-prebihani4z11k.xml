@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<trik>
+
+    <about>
+	     <nazev>Pøebíhání - 11 ku¾elù 4 ¾ongléøi</nazev>
+		 <pocet>11</pocet>
+	     <siteswaps>-</siteswaps>
+		 <obtiznost>snadné</obtiznost>
+		 <oblast>kuzely-passing</oblast>
+	</about>
+
+
+    <krok>
+			<popisek>Stoupnìte si do tvaru pìtiúhelníku. Jedno místo zùstane prázdné. V¹ichni hází &lt;a href=&quot;4count.html&quot; title=&quot;Základ passování.&quot;&gt;4 count&lt;/a&gt;. První hod je pass.</popisek>
+    </krok>
+
+    <krok>
+			<obrazek>kuzely-passing-prebihani4z11ka</obrazek>
+			<popisek>®onglér C zaèíná se dvìma ku¾ely. První pass A -&gt; C, B -&gt; D, D -&gt; A. ®onglér B má jenom 2 ku¾ely a vyu¾ije to k pøesunu na nové místo.</popisek>
+    </krok>
+
+
+    <krok>
+			<obrazek>kuzely-passing-prebihani4z11kb</obrazek>
+			<popisek>Druhý pass. B se dvìma ku¾ely èeká na pass od C. D -&gt; A, A -&gt; C. D zbudou 2 ku¾ely, tak mù¾e pøebìhnout.</popisek>
+    </krok>
+
+    <krok>
+			<obrazek>kuzely-passing-prebihani4z11kc</obrazek>
+			<popisek>Pøi tøetím passu hází C -&gt; B, B -&gt; D, A -&gt; C. A zbudou dva ku¾ely a pøesune se.</popisek>
+    </krok>
+
+    <krok>
+			<popisek>V dal¹ím kroku pøebìhne ¾onglér C kterému zbudou jen dva ku¾ely. Pak u¾ se cyklus opakuje podle prvního obrázku.</popisek>
+    </krok>
+
+
+</trik>

@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<trik>
+
+    <about>
+	     <nazev>Kaskáda</nazev>
+		 <pocet>3</pocet>
+	     <siteswaps>3</siteswaps>
+		 <obtiznost>snadné</obtiznost>
+		 <oblast>micky-3</oblast>
+	</about>
+
+	<krok>
+	    <popisek>Kaskáda je nejjednodu¹¹í zpùsob ¾onglování se tøemi míèky.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>kaskadaa</obrazek>
+        <popisek>Kaskádu zaèni rukou ve které dr¾í¹ dva míèky. Podle obrázku tedy pravou rukou vyhoï první míèek.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>kaskadab</obrazek>
+        <popisek>V momentì kdy první míèek dosáhne vrcholu své dráhy hoï levou rukou druhı míèek.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>kaskadac</obrazek>
+        <popisek>A kdy¾ je druhı míèek na vrcholu své dráhy hoï pravou rukou tøetí míèek.</popisek>
+    </krok>
+
+	<krok>
+	    <popisek>Tak a u¾ umí¹ ¾onglovat se tøemi míèky.</popisek>
+    </krok>
+
+</trik>

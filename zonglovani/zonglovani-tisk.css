@@ -1,0 +1,65 @@
+body {
+	background: #fff;
+	color: #000;
+}
+ 
+
+#hlavicka {
+	height: 110px;
+}
+
+#hlavicka div{
+	height: 110px;
+}
+
+a img{
+	border-width: 0px;
+}
+
+#menu {
+	display: none;
+}
+
+#paticka{
+	display: none;
+}
+
+p, pre {
+ clear: both;
+ margin: 2px 10px 7px 20px;
+}
+
+p img {
+ margin: 0px 15px 15px 0px;
+ border: 1px solid #000;
+ float: left;
+ clear: both;
+ background-color: #ccc;
+}
+
+.nahoru{
+	display: none;
+}
+
+.zpet{
+	display: none;
+}
+
+.spacer {
+	height: 20px;
+	width: 100%;
+	clear: both;
+}
+
+dt {
+ font-weight: bold;  
+ margin: 2px 10px 7px 20px;
+}
+
+dd {
+ margin: 2px 10px 7px 40px;
+}
+
+.reklama {
+	display: none;
+}

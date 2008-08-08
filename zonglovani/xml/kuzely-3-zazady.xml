@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<trik>
+
+    <about>
+	     <nazev>Hození za zády</nazev>
+		 <pocet>3</pocet>
+	     <siteswaps>-</siteswaps>
+		 <obtiznost>tì¾¹í</obtiznost>
+		 <oblast>kuzely-3</oblast>
+	</about>
+
+
+    <krok>
+			<popisek>Ku¾ely nemusí¹ házet jenom pøed sebe. Velmi pìkné je, obèas prohodit ku¾el za zády.</popisek>
+    </krok>
+
+		<krok>
+			<obrazek>kuzely-3-zadaa</obrazek>
+			<popisek>Ku¾el hodí¹ køí¾em za zády - obdobnì jako míèek.</popisek>
+		</krok>
+
+
+</trik>

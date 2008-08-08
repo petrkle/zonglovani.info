@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<trik>
+
+    <about>
+			<nazev>Dvojitá krabice</nazev>
+		 <pocet>3</pocet>
+	     <siteswaps>-</siteswaps>
+		 <obtiznost>obtí¾né</obtiznost>
+		 <oblast>micky-3</oblast>
+	</about>
+
+	<krok>
+	    <popisek>Trik známı také pod anglickım názvem - double box (krabice).</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>micky-3-doubleboxa</obrazek>
+				<popisek>První míèek vyhoï z pravé ruky rovnì nahoru.</popisek>
+    </krok>
+
+
+    <krok>
+        <obrazek>micky-3-doubleboxb</obrazek>
+				<popisek>Vyhoï najednou druhı a tøetí míèek.</popisek>
+    </krok>
+
+
+
+    <krok>
+        <obrazek>micky-3-doubleboxc</obrazek>
+				<popisek>Levou ruku pøesuò nalevo od tøetího míèek. Pravou ruku s prvním míèkem pod tøetí míèek.</popisek>
+    </krok>
+
+
+
+    <krok>
+        <obrazek>micky-3-doubleboxd</obrazek>
+        <popisek>Vyhoï najednou první a druhı míèek.</popisek>
+    </krok>
+
+
+
+    <krok>
+        <obrazek>micky-3-doubleboxe</obrazek>
+        <popisek>Pravou rukou vyhoï tøetí míèek rovnì nahoru.</popisek>
+    </krok>
+
+
+
+    <krok>
+        <obrazek>micky-3-doubleboxf</obrazek>
+				<popisek>Pravá ruku s prvním míèkem se vrací napravo od tøetího míèku. Levou ruku s druhım míèkem posuò pod tøetí míèek.</popisek>
+    </krok>
+
+
+</trik>

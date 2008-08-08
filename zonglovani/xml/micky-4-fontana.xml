@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<trik>
+
+    <about>
+	     <nazev>Fontána</nazev>
+		 <pocet>4</pocet>
+	     <siteswaps>4</siteswaps>
+		 <obtiznost>nároèné</obtiznost>
+		 <oblast>micky-4</oblast>
+	</about>
+
+	<krok>
+		<popisek>Pøi fontánì provádí ka¾dá ruka samostatnì &lt;a href=&quot;../2/2v1.html&quot; title=&quot;®onglování se dvìma míèky.&quot;&gt;2 v 1&lt;/a&gt;. Na obrázku to mù¾e vypadat obtí¾nì. Na¹tìstí je to jenom zdání a nauèit se fontánu není problém.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>fontanaa</obrazek>
+				<popisek>Zaèni pravou rukou jako pøi &lt;a href=&quot;../2/2v1.html&quot; title=&quot;Trik se dvìma míèky.&quot;&gt;2 v 1&lt;/a&gt;. Kdy¾ je první míèek asi v polovinì své dráhy, vyhoï levou rukou druhý míèek.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>fontanab</obrazek>
+				<popisek>Teï pøichází opìt øada na pravou ruku, vyhoï z ní tøetí míèek. Dál pokraèuj støídavì levou a pravou rukou.</popisek>
+    </krok>
+
+		<krok>
+			<obrazek>fontanac</obrazek>
+			<popisek>Dal¹í mo¾nost je házet míèky opaèným smìrem. Z vnìj¹ku dovnitø.</popisek>
+    </krok>
+		
+		<krok>
+			<popisek>Kdy¾ zvládne¹ fontánu mù¾e¹ zkusit i &lt;a href=&quot;fontana-synchronni.html&quot; title=&quot;Podobný trik se ètyømi míèky.&quot;&gt;synchronní fontánu&lt;/a&gt;. Pøi ní se ruce v házení nestøídají. Vyhazuje¹ v¾dy dva míèky souèasnì.</popisek>
+		</krok>
+
+</trik>

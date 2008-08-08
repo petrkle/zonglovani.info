@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<trik>
+
+    <about>
+	     <nazev>Trojúhelník</nazev>
+		 <pocet>9</pocet>
+	     <siteswaps>-</siteswaps>
+		 <obtiznost>snadné</obtiznost>
+		 <oblast>kuzely-passing</oblast>
+	</about>
+
+
+    <krok>
+			<popisek>Jednoduchý trik pro tøi ¾ongléry a devìt ku¾elù.</popisek>
+    </krok>
+
+    <krok>
+			<obrazek>kuzely-passing-trojuhelnika</obrazek>
+			<popisek>První varianta. Ku¾ely hází¹ z pravé ruky vnìj¹kem na souseda.</popisek>
+    </krok>
+
+
+    <krok>
+			<obrazek>kuzely-passing-trojuhelnikb</obrazek>
+			<popisek>Druhá varianta. Opìt hází¹ na souseda z pravé ruky. Tentokrát ov¹em vnitøkem trojúhelníku.</popisek>
+    </krok>
+
+    <krok>
+			<popisek>Uprostøed trojùhelníku je místo kde nelétají ku¾ely. Mù¾e ho obsadit &lt;strong&gt;odvá¾ný&lt;/strong&gt; divák.</popisek>
+    </krok>
+
+
+
+</trik>

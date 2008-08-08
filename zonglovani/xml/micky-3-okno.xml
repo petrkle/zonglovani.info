@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<trik>
+
+    <about>
+	     <nazev>Chrámové okno</nazev>
+		 <pocet>3</pocet>
+	     <siteswaps>-</siteswaps>
+		 <obtiznost>nároèné</obtiznost>
+		 <oblast>micky-3</oblast>
+	</about>
+
+	<krok>
+		<popisek>Pøi tomto triku míèky létají vysokým úzkým obloukem, který pøipomíná obrys chrámového okna.</popisek>
+	</krok>
+
+	<krok>
+		<obrazek>oknoa</obrazek>
+    <popisek>První míèek vyhoï doprostøed nahoru.</popisek>
+  </krok>
+
+	<krok>
+        <obrazek>oknob</obrazek>
+				<popisek>Kdy¾ zaène první míèek padat vyhoï zároveò druhý a tøetí míèek. Míèky letí vysokým obloukem a minou se nad sebou.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>oknoc</obrazek>
+				<popisek>Zatím co se druhý a tøetí míèek míjí ve vzduchu, zachy» a opìt vyhoï první míèek. První míèek mù¾e¹ chytat støídavì pravou a levou rukou.</popisek>
+    </krok>
+
+    <krok>
+			<popisek>Dál pokraèuj jako na posledních dvou obrázcích. Kdy¾ pøidá¹ je¹tì jeden míèek vznikne &lt;a href=&quot;../4/destnik.html&quot; title=&quot;Trik se ètyømi míèky.&quot;&gt;de¹tník&lt;/a&gt;.</popisek>
+    </krok>
+
+</trik>

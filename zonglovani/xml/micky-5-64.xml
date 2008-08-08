@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<trik>
+
+    <about>
+	     <nazev>3 + 2</nazev>
+		 <pocet>5</pocet>
+	     <siteswaps>64</siteswaps>
+		 <obtiznost>velmi obtí¾né</obtiznost>
+		 <oblast>micky-5</oblast>
+	</about>
+
+	<krok>
+		<popisek>Na první pohled snadné, av¹ak velmi obtí¾né. Pravá a levá ruka ¾onglují v rùzném rytmu.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>64a</obrazek>
+        <popisek>Zaèni se tøemi míèky v pravé a dvìma v levé ruce.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>64b</obrazek>
+				<popisek>V levé ruce provádí¹ &lt;a href=&quot;../2/2v1.html&quot; title=&quot;®onglování se dvìma míèky.&quot;&gt;2 v 1&lt;/a&gt;.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>64c</obrazek>
+				<popisek>A zároveò v pravé &lt;a href=&quot;../3/3v1.html&quot; title=&quot;®onglování se tøemi míèky.&quot;&gt;3 v 1&lt;/a&gt;.</popisek>
+    </krok>
+
+
+</trik>

@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<trik>
+
+    <about>
+	     <nazev>Fale¹né sloupy</nazev>
+		 <pocet>3</pocet>
+	     <siteswaps>-</siteswaps>
+		 <obtiznost>snadné</obtiznost>
+		 <oblast>micky-3</oblast>
+	</about>
+
+    <krok>
+        <obrazek>fsloupya</obrazek>
+				<popisek>Zaèni jako pøi normálních &lt;a href=&quot;sloupy.html&quot; title=&quot;Podobný trik.&quot;&gt;sloupech&lt;/a&gt;. První míèek rovnì nahoru.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>fsloupyb</obrazek>
+        <popisek>Kdy¾ je první míèek nahoøe vyhoï mu druhý míèek naproti. A teï to hlavní. Tøetí míèek nevyhazuj, ale zvedni ho v ruce jako kdybys ho vyhodil.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>fsloupyc</obrazek>
+        <popisek>Tøetím míèkem v ruce pohybuj stejnì jako s druhým míèkem.</popisek>
+    </krok>
+
+		<krok>
+						<popisek>Tento trik je základem pro &lt;a href=&quot;jojo.html&quot; title=&quot;Podobný trik.&quot;&gt;jo - jo&lt;/a&gt; a &lt;a href=&quot;ojoj.html&quot; title=&quot;Podobný trik.&quot;&gt;oj - oj&lt;/a&gt;.</popisek>
+    </krok>
+
+
+</trik>

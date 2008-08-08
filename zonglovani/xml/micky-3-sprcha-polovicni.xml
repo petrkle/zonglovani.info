@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<trik>
+
+    <about>
+	     <nazev>Polovièní sprcha</nazev>
+		 <pocet>3</pocet>
+	     <siteswaps>-</siteswaps>
+		 <obtiznost>nároèné</obtiznost>
+		 <oblast>micky-3</oblast>
+	</about>
+
+	<krok>
+	    <popisek>Polovièní sprch je o trochu snaz¹í ne¾ normální &lt;a href=&quot;sprcha.html&quot; title=&quot;Trik se tøemi míèky.&quot;&gt;sprcha&lt;a/&gt;.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>psprchaa</obrazek>
+        <popisek>První míèek vyhoï oblouèkem nahoru.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>psprchab</obrazek>
+        <popisek>Hned za ním druhý. Tøetí míèek hoï z levé ruky nízkým oblouèkem do pravé ruky. To celý trik zpomalí a zjednodu¹í.</popisek>
+    </krok>
+
+    <krok>
+        <popisek>A¾ bude¹ umìt polovièní sprchu jedním smìrem, zkus se jí nauèit i na druhou stranu. Vyhazovat míèky levou rukou a zachytávat je do pravé.</popisek>
+    </krok>
+
+
+</trik>

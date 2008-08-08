@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<trik>
+
+    <about>
+	     <nazev>Orbit II</nazev>
+		 <pocet>3</pocet>
+	     <siteswaps>3</siteswaps>
+		 <obtiznost>snadné</obtiznost>
+		 <oblast>micky-3</oblast>
+	</about>
+
+	<krok>
+	    <nadpis>Trénink se dvìma míèky</nadpis>
+    </krok>
+
+
+    <krok>
+			<obrazek>micky-3-orbit2ta</obrazek>
+			<popisek>Z levé ruky vyhoï najednou první a druhı míèek. Souèasnì vyrá¾í i pravá ruka.</popisek>
+    </krok>
+
+
+    <krok>
+			<obrazek>micky-3-orbit2tb</obrazek>
+			<popisek>První míèek zachy» do pravé ruky. Elegantním oblouèkem se vra» okolo druhého míèku.</popisek>
+    </krok>
+
+
+    <krok>
+			<obrazek>micky-3-orbit2tc</obrazek>
+			<popisek>Do pravé ruky zachytí¹ i první míèek.</popisek>
+    </krok>
+
+    <krok>
+			<popisek>Trénuj støídavì zaèátek z pravé a levé ruky.</popisek>
+    </krok>
+
+	<krok>
+	    <nadpis>Orbit II</nadpis>
+    </krok>
+
+
+    <krok>
+			<obrazek>micky-3-orbit2a</obrazek>
+			<popisek>Zaèíná se trochu neobvykle. Vyhoï první míèek z pravé ruky.</popisek>
+    </krok>
+
+
+    <krok>
+			<obrazek>micky-3-orbit2b</obrazek>
+			<popisek>Z levé ruky vyhoï najednou první a druhı míèek. Souèasnì vyrá¾í i pravá ruka.</popisek>
+    </krok>
+
+
+    <krok>
+			<obrazek>micky-3-orbit2c</obrazek>
+			<popisek>Levou rukou chy» první míèek. Pravá ruka sbírá tøetí míèek a vrací se zpìt.</popisek>
+    </krok>
+
+
+    <krok>
+			<obrazek>micky-3-orbit2d</obrazek>
+			<popisek>Zbıvá chytit poslední míèek.</popisek>
+    </krok>
+
+
+</trik>

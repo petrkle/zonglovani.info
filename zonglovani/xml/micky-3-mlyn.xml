@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<trik>
+
+    <about>
+	     <nazev>Vìtrný mlýn</nazev>
+		 <pocet>3</pocet>
+	     <siteswaps>-</siteswaps>
+		 <obtiznost>obtí¾né</obtiznost>
+		 <oblast>micky-3</oblast>
+	</about>
+
+	<krok>
+	    <popisek>Míèky opisují stejnou dráhu jako pøi &lt;a href=&quot;sprcha.html&quot; title=&quot;Trik se tøemi míèky.&quot;&gt;spr¹e&lt;/a&gt;, ale nepøesunují se z jedné ruky do druhé rychlým vodorovným hodem. Místo toho køí¾í¹ ruce a vyhazuje¹ míèky jen z jedné strany.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>mlyna</obrazek>
+        <popisek>Zaèni s pøekøí¾enýma rukama, pravá pod levou. Vyhoï první míèek z pravé ruky a hned pøesuò ruce.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>mlynb</obrazek>
+        <popisek>Ruce jsou nepøekøí¾ené. Vyhoï druhý míèek z levé ruky. Opìt pøekøi¾ ruce. Do levé ruky zachy» první míèek.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>mlync</obrazek>
+        <popisek>Ruce jsou pøekøí¾ené. Z pravé ruky vyhoï tøetí míèek. A opìt pøesuò ruce.</popisek>
+    </krok>
+
+
+
+</trik>

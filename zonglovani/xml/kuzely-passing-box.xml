@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<trik>
+
+    <about>
+	     <nazev>Ètverec</nazev>
+		 <pocet>12</pocet>
+	     <siteswaps>-</siteswaps>
+		 <obtiznost>snadné</obtiznost>
+		 <oblast>kuzely-passing</oblast>
+	</about>
+
+
+    <krok>
+			<popisek>Jednoduchý trik pro ètyøi ¾ongléry a dvanáct ku¾elù. Mù¾ete házet &lt;a href=&quot;4count.html&quot; title=&quot;Základ passování.&quot;&gt;4 count&lt;/a&gt;, &lt;a href=&quot;2count.html&quot; title=&quot;Obtí¾nìj¹í trik.&quot;&gt;2 count&lt;/a&gt; i &lt;a href=&quot;3count.html&quot; title=&quot;Obtí¾nìj¹í trik.&quot;&gt;valèík&lt;/a&gt;.</popisek>
+    </krok>
+
+    <krok>
+			<obrazek>kuzely-passing-boxa</obrazek>
+			<popisek>Házet zaèíná ¾onglér A spoleènì s B.</popisek>
+    </krok>
+
+
+    <krok>
+			<obrazek>kuzely-passing-boxb</obrazek>
+			<popisek>Støídají se s C a D.</popisek>
+    </krok>
+
+    <krok>
+			<popisek>Pøímo uprostøed èverce je místo kde nelétají ku¾ely. To správné místo pro &lt;strong&gt;odvá¾ného&lt;/strong&gt; diváka.</popisek>
+    </krok>
+
+
+
+</trik>

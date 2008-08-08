@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<trik>
+
+    <about>
+	     <nazev>Polovièní sprcha</nazev>
+		 <pocet>5</pocet>
+	     <siteswaps>73</siteswaps>
+			 <obtiznost>tì¾ko proveditelné</obtiznost>
+			 <oblast>micky-5</oblast>
+	</about>
+
+	<krok>
+		<popisek>Kdy¾ zvládne¹ &lt;a href=&quot;kaskada.html&quot;&gt;kaskádu s pìti&lt;/a&gt; míèky, polovièní sprcha s pìti míèky ti nebude dìlat problém.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>5psprchaa</obrazek>
+        <popisek>Pravou rukou vyhoï první míèek. Mo¾ná je¹tì o trochu vý¹ ne¾ pøi kaskádì s pìti.</popisek>
+    </krok>
+
+    <krok>
+			<obrazek>5psprchab</obrazek>
+        <popisek>Tìsnì za ním i druhý míèek z levé ruky.</popisek>
+    </krok>
+
+    <krok>
+			<obrazek>5psprchac</obrazek>
+        <popisek>Pokraèuj tøetím a ètvrtým míèkem.</popisek>
+    </krok>
+
+</trik>

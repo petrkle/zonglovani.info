@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<trik>
+
+    <about>
+	     <nazev>501</nazev>
+		 <pocet>2</pocet>
+	     <siteswaps>501</siteswaps>
+		 <obtiznost>snadné</obtiznost>
+		 <oblast>micky-2</oblast>
+	</about>
+
+	<krok>
+		<popisek>Cvièení se dvìma míèky. Mù¾e poslou¾it i jako trénink na &lt;a href=&quot;../5/kaskada.html&quot; title=&quot;Trik s pìti míèky.&quot;&gt;kaskádu s pìti&lt;/a&gt; míèky.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>501a</obrazek>
+        <popisek>První míèek vyhoï vysokým obloukem nahoru.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>501b</obrazek>
+        <popisek>Zatímco první míèek letí, pøesuò druhý míèek rychlým vodorovným hodem z pravé ruky do levé.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>501c</obrazek>
+        <popisek>Druhý míèek hoï pod pøilétající první míèek.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>501d</obrazek>
+        <popisek>První míèek zachytí¹ do levé ruky a hned ho rychlým vodorovným hodem pøesune¹ do pravaèky.</popisek>
+    </krok>
+
+    <krok>
+        <popisek>Dál pokraèuj jako na posledních dvou obrázcích.</popisek>
+    </krok>
+
+
+
+</trik>

@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<trik>
+
+    <about>
+	     <nazev>Sloupy</nazev>
+		 <pocet>4</pocet>
+	     <siteswaps>-</siteswaps>
+		 <obtiznost>nároèné</obtiznost>
+		 <oblast>micky-4</oblast>
+	</about>
+
+	<krok>
+		<popisek>Existuje víc variant provedení sloupù se ètyømi míèky. Asi nejsnadnìj¹í je vyhazovat míèky jako pøi &lt;a href=&quot;fontana.html&quot; title=&quot;Trik se ètyømi míèky.&quot;&gt;fontánì&lt;/a&gt;.</popisek>
+	</krok>
+
+	<krok>
+  	<obrazek>4sloupya</obrazek>
+		<popisek>Z pravé ruky vyhoï první míèek. Kdy¾ je asi v polovinì své dráhy, vyhoï z levé ruky druhý míèek.</popisek>
+	</krok>
+
+	<krok>
+  	<obrazek>4sloupyb</obrazek>
+		<popisek>Pokraèuj pravou rukou. Vyhodí¹ z ní tøetí míèek.</popisek>
+	</krok>
+
+	<krok>
+  	<obrazek>4sloupyc</obrazek>
+		<popisek>Levou rukou vyhoï ètvrtý míèek. První míèek má¹ zpátky v pravé ruce a tak pokraèuj znovu od zaèátku.</popisek>
+	</krok>
+
+
+	<krok>
+		<popisek>Sloupy mù¾e¹ ¾onglovat také synchronnì. Pak vyhazuje¹ a chytá¹ v¾dy dva míèky zároveò. Jeden v pravé ruce a druhý v levé ruce. Kdy¾ pøidá¹ je¹tì malé zkøí¾ení vznikne &lt;a href=&quot;destnik.html&quot; title=&quot;Trik se ètyømi míèky.&quot;&gt;de¹tník&lt;/a&gt;.</popisek>
+	</krok>
+
+</trik>

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<trik>
+
+    <about>
+	     <nazev>Hození ku¾elu pod nohou</nazev>
+		 <pocet>3</pocet>
+	     <siteswaps>-</siteswaps>
+		 <obtiznost>tì¾¹í</obtiznost>
+		 <oblast>kuzely-3</oblast>
+	</about>
+
+	<krok>
+		<popisek>Jednoduchý trik vhodný i pro zaèáteèníky.</popisek>
+	</krok>
+
+    <krok>
+			<obrazek>kuzely-3-nohaa</obrazek>
+			<popisek>První ku¾el vyhodí¹ o tro¹ku vý¹. Zatímco letí, prohodí¹ druhý ku¾el pod nohou.</popisek>
+    </krok>
+
+</trik>

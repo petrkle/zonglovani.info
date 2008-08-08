@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<trik>
+
+    <about>
+	     <nazev>Tenis</nazev>
+		 <pocet>3</pocet>
+	     <siteswaps>-</siteswaps>
+		 <obtiznost>snadné</obtiznost>
+		 <oblast>micky-3</oblast>
+	</about>
+
+    <krok>
+						<popisek>Tenis je kombinace &lt;a href=&quot;kaskada.html&quot; title=&quot;Nejlehèí trik se tøemi míèky.&quot;&gt;kaskády&lt;/a&gt; s &lt;a href=&quot;kaskada-reverzni.html&quot; title=&quot;Trik se tøemi míèky.&quot;&gt;reverzní kaskádou&lt;/a&gt;. První míèek je poøád nad druhım i tøetím míèkem. Létá nad nimi jako tenisovı míèek nad sítí. Proto se taky celı trik jmenuje tenis.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>tenisa</obrazek>
+        <popisek>Zaène¹ se dvìma míèky v pravé ruce. Vyhodí¹ první míèek jako pøi kaskádì.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>tenisb</obrazek>
+        <popisek>Druhı míèek vyhodí¹ jako pøi reverzní kaskádì. Letí tedy pod prvním míèkem. </popisek>
+    </krok>
+
+    <krok>
+        <obrazek>tenisc</obrazek>
+        <popisek>Následuje tøetí míèek. Ten hodí¹ jako pøi kaskádì, tedy pod. </popisek>
+    </krok>
+
+    <krok>
+        <obrazek>tenisd</obrazek>
+        <popisek>A pokraèuje¹ dál s prvním míèkem. Ten musí¹ hodit jako pøi reverzní kaskádì, vrchem.</popisek>
+    </krok>
+
+</trik>

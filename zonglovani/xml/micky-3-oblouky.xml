@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<trik>
+
+    <about>
+	     <nazev>Oblouèky</nazev>
+		 <pocet>3</pocet>
+	     <siteswaps>-</siteswaps>
+		 <obtiznost>nároèné</obtiznost>
+		 <oblast>micky-3</oblast>
+	</about>
+
+	<krok>
+	    <popisek>Ka¾dý míèek má vlastní dráhu, která se nekøí¾í s ostatními.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>obloukya</obrazek>
+        <popisek>Pravou rukou vyhoï první míèek nejvy¹¹ím oblouèkem.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>obloukyb</obrazek>
+        <popisek>Pod nìj levaèkou hoï druhý míèek.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>obloukyc</obrazek>
+        <popisek>První míèek chy» do levé ruky. Tøetí míèek hoï pravaèkou pod pøilétající druhý míèek.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>obloukyd</obrazek>
+        <popisek>Z levé ruky vyhodí¹ první míèek po nejvy¹¹í dráze a chytí¹ do ní tøetí míèek.</popisek>
+    </krok>
+
+
+</trik>

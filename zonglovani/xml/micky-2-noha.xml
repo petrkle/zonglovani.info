@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<trik>
+
+    <about>
+	     <nazev>Prohození míèku pod nohou</nazev>
+		 <pocet>2</pocet>
+	     <siteswaps>-</siteswaps>
+		 <obtiznost>snadné</obtiznost>
+		 <oblast>micky-2</oblast>
+	</about>
+
+    <krok>
+        <obrazek>2v1nohaa</obrazek>
+				<popisek>V pravé ruce provádìj &lt;a href=&quot;2v1.html&quot; title=&quot;Základní trik se dvìma míèky.&quot;&gt;2 v 1&lt;/a&gt;. První míèek vyhoï o trochu vý¹.</popisek>
+    </krok>
+
+    <krok>
+        <obrazek>2v1nohab</obrazek>
+        <popisek>Zatímco první míèek padá, prohoï si druhý míèek pod nohou.</popisek>
+    </krok>
+
+
+		<krok>
+			<popisek>Prohodit si míèek pod nohou mù¾e¹ i pøi &lt;a href=&quot;../3/noha.html&quot; title=&quot;Prohození míèku pod nohou pøi kaskádì se tøemi míèky.&quot;&gt;kaskádì&lt;/a&gt; se tøemi míèky, nebo dokonce pøi &lt;a href=&quot;../4/fontana.html&quot; title=&quot;Trik se ètyømi míèky.&quot;&gt;fontánì&lt;/a&gt; se ètyømi míèky.</popisek>
+		</krok>
+		
+</trik>

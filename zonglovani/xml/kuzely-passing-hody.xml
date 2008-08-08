@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<trik>
+
+    <about>
+	     <nazev>Druhy hodù pøi passování</nazev>
+		 <pocet>?</pocet>
+	     <siteswaps>-</siteswaps>
+		 <obtiznost>tì¾¹í</obtiznost>
+		 <oblast>kuzely-passing</oblast>
+	 </about>
+
+	<krok>
+		<popisek>Ku¾ely lze házet mnoha rùznými zpùsoby.</popisek>
+	</krok>
+
+    <krok>
+			<nadpis name="single">Jedna otoèka</nadpis>
+			<obrazek>kuzely-passing-hodya</obrazek>
+			<popisek>Základní pass. Ku¾el si dá¹ podél nohy. Rozmáchne¹ se a hodí¹ ku¾el. Hází¹ hlavnì pøedloktím. Ku¾el se za letu jednou otoèí.</popisek>
+    </krok>
+
+    <krok>
+			<obrazek>kuzely-passing-hodyb</obrazek>
+			<popisek>Pro chycení staèí nastavit ruku pøed sebe.</popisek>
+    </krok>
+
+
+    <krok>
+			<nadpis name="double">Dvì otoèky</nadpis>
+			<obrazek>kuzely-passing-hodyc</obrazek>
+			<popisek>Obdnobé jako pøedchozí pass. Pouze ku¾el se za letu otoèí 2x. Musí¹ ho proto hodit o nìco vý¹.</popisek>
+    </krok>
+
+    <krok>
+			<nadpis>Bez otoèky</nadpis>
+			<obrazek>kuzely-passing-hodyd</obrazek>
+			<popisek>Pøi tomto passu se naopak ku¾el neotoèí vùbec. Celou dráhu letí svisle.</popisek>
+    </krok>
+
+    <krok>
+			<nadpis>Tomahawk</nadpis>
+			<obrazek>kuzely-passing-hodye</obrazek>
+			<popisek>Ku¾el hází¹ nad ramenem. Stejnì jako indiáni vrhají tomahawk.</popisek>
+    </krok>
+
+    <krok>
+			<nadpis>Reverzní hod</nadpis>
+			<obrazek>kuzely-passing-hodyf</obrazek>
+			<popisek>Ku¾el s obrácenou rotací. Mù¾e¹ zkusit jednu i dvì otoèky.</popisek>
+    </krok>
+
+    <krok>
+			<nadpis>Pod nohou</nadpis>
+			<popisek>Ku¾el nehází¹ vedle nohy, ale pod ní.</popisek>
+    </krok>
+
+
+
+</trik>
