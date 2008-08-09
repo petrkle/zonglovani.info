@@ -39,7 +39,11 @@ Je to velmi individuální. Obvykle tøi míèky zaberou týden, pìt míèkù mìsíce a se
 
 <h3>Kde najdu dal¹í ¾ongléry?</h3>
 <p>
-Pravidelnì se konají ¾onglérské srazy. To jsou nejlep¹í místa kde se nauèit nové triky. Pou¾ij svùj oblíbený internetový vyhledávaè pro získání informací o místech konání. Pokud se náhodou v okolí ¾ádní ¾ongléøi nevyskytují, mù¾e¹ se alespoò podívat na <a href="/zonglovani/video/" title="Videa o ¾onglování.">¾onglérská videa</a>.
+Pravidelnì se konají ¾onglérské srazy. To jsou nejlep¹í místa kde se nauèit nové triky. Pou¾ij svùj oblíbený internetový vyhledávaè pro získání informací o místech konání. 
+
+<!-- start -->
+Pokud se náhodou v okolí ¾ádní ¾ongléøi nevyskytují, mù¾e¹ se alespoò podívat na <a href="/zonglovani/video/" title="Videa o ¾onglování.">¾onglérská videa</a>.
+<!-- stop -->
 </p>
 
 <h3>Je o ¾onglování nìjaká kní¾ka?</h3>

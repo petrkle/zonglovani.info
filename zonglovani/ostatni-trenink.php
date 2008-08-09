@@ -27,7 +27,7 @@ Prvním bodem tréninku je rozcvièka. Zvolna rozhýbej svoje ruce, ramena, krk, hla
 </p>
 <h3>Zaèínáme</h3>
 <p>
-Teï u¾ se mù¾e¹ pustit do vlastního ¾onglování. Je dobré zaèít lehèími triky a postupnì pøejít a¾ k tìm které se zrovna uèí¹. Trénink nesmí být nudný nebo stereotypní. Tudy cesta nevede, proto¾e tì to pak nebude bavit. Naopak ¾onglování je zábava a mìlo by pøiná¹et potì¹ení. Tak¾e støídej rùzné triky (kaskáda, sprcha, sloupy, ...) a trénuj plynulý pøechod z jednoho triku do druhého. Zkus pøi ¾onglování stát na jedné noze nebo chodit.
+Teï u¾ se mù¾e¹ pustit do vlastního ¾onglování. Je dobré zaèít <a href="/zonglovani/micky/3/kaskada.html" title="Základní trik se tøemi míèky.">lehèími triky</a> a postupnì pøejít a¾ k tìm které se zrovna uèí¹. Trénink nesmí být nudný nebo stereotypní. Tudy cesta nevede, proto¾e tì to pak nebude bavit. Naopak ¾onglování je zábava a mìlo by pøiná¹et potì¹ení. Tak¾e støídej rùzné triky (kaskáda, sprcha, sloupy, ...) a trénuj plynulý pøechod z jednoho triku do druhého. Zkus pøi ¾onglování stát na jedné noze nebo chodit.
 </p>
 <h3>Hudba</h3>
 <p>

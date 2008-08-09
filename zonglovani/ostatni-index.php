@@ -27,14 +27,31 @@ titulek(__FILE__);
 Základní pojmy v ¾onglování.
 </p>
 
+<h3><a href="/zonglovani/nacini.html" title="¾onglérské náèiní.">¾onglérské náèiní</a></h3>
+<p>
+®onglovat mù¾e¹ se spoustou vìcí.
+</p>
+
 <h3><a href="/zonglovani/faq.html" title="FAQ">Èasto kladené otázky</a></h3>
 <p>
 Otázky na které se lidé èasto ptají v souvislosti s ¾onglováním.
 </p>
 
+<!-- start -->
 <h3><a href="/zonglovani/video/" title="FAQ">®onglérská videa</a></h3>
 <p>
 Zajímavá ¾onglérská videa.
+</p>
+<!-- stop -->
+
+<h3><a href="/zonglovani/literatura.html" title="Nìco ke ètení.">Literatura</a></h3>
+<p>
+Kní¾ky o ¾onglování.
+</p>
+
+<h3><a href="/zonglovani/aczslovnicek.html" title="Nìkolik slovíèek.">Anglicko-èeský ¾onglérský slovníèek</a></h3>
+<p>
+Nìkolik slovíèek které se èasto vyskytují v anglicky psaných textech o ¾onglování.
 </p>
 
 <h3><a href="/zonglovani/trenink.html" title="Trénuj, trénuj, trénuj.">Trénink</a></h3>
@@ -56,26 +73,11 @@ Pravidelný trénink je základ.
 <p>
 Není lehké stát se ¾onglérem.
 </p>
-<h3><a href="/zonglovani/nacini.html" title="¾onglérské náèiní.">¾onglérské náèiní</a></h3>
-<p>
-®onglovat mù¾e¹ se spoustou vìcí.
-</p>
-
-<h3><a href="/zonglovani/aczslovnicek.html" title="Nìkolik slovíèek.">Anglicko-èeský ¾onglérský slovníèek</a></h3>
-<p>
-Nìkolik slovíèek které se èasto vyskytují v anglicky psaných textech o ¾onglování.
-</p>
-
-<h3><a href="/zonglovani/literatura.html" title="Nìco ke ètení.">Literatura</a></h3>
-<p>
-Kní¾ky o ¾onglování.
-</p>
 
 <h3><a href="/zonglovani/proc-a-jak.html" title="Proè a jak vznikl ¾onglérùv slabikáø.">Proè a jak vznikl ¾onglérùv slabikáø</a></h3>
 <p>
 Trocha historie.
 </p>
-
 
 <!-- start -->
 <h3><a href="/zonglovani/odkazy.html" title="Odkazy.">®onglování na síti</a></h3>

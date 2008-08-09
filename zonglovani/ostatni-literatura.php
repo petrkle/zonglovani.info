@@ -21,26 +21,28 @@ titulek(__FILE__);
 
 <h1>Literatura</h1>
 
-<h3>®onglovanie pre samoukov - Palo Blaho</h3>
+<h3><a href="http://www.zonglovanie.sk/zonglovanie.pdf" title="Základy ¾onglování s míèky.">®onglovanie pre samoukov</a></h3>
 <p>
-Základní pøíruèka ka¾dého ¾ongléra. Najde¹ ji na adrese <a href="http://www.zonglovanie.sk/" title="®onglování na slovensku.">zonglovanie.sk</a>.
+<a href="http://www.zonglovanie.sk/zonglovanie.pdf" title="Základy ¾onglování s míèky."><? echo img("/zonglovani/img/zonglovanie-pre-samoukov.gif","®onglovanie pre samoukov - obálka"); ?></a>
+Základní pøíruèka ka¾dého ¾ongléra. Napsal Palo Blaho.
 </p>
 
-<h3>The Encyclopaedia of Ball Juggling - Charlie Dancey</h3>
+<h3><a href="http://www.butterfingers.co.uk" title="Stránky vydavatele.">The Encyclopaedia of Ball Juggling</a></h3>
 <p>
-<? echo img("/zonglovani/img/encyclopaedia.jpg","The Encyclopaedia of Ball Juggling - obálka"); ?>
-Výborná kní¾ka o ¾onglování s míèky. Obsahuje spoustou pìkných obrázkù, díky tomu nemusí¹ ani umìt anglicky a pøesto témìø v¹e pochopí¹. Je vhodná pro zaèáteèníky i pokroèilé. Najde¹ v ní opravdu v¹e.
+<a href="http://www.butterfingers.co.uk" title="Stránky vydavatele."><? echo img("/zonglovani/img/encyclopaedia.jpg","The Encyclopaedia of Ball Juggling - obálka"); ?></a>
+Výborná kní¾ka o ¾onglování s míèky od Carlieho Dancey. Obsahuje spoustou pìkných obrázkù, díky tomu nemusí¹ ani umìt anglicky a pøesto témìø v¹e pochopí¹. Je vhodná pro zaèáteèníky i pokroèilé.
 </p>
 	
 
-<h3>Compendium of Club Juggling - Charlie Dancey</h3>
+<h3><a href="http://www.butterfingers.co.uk" title="Stránky vydavatele.">Compendium of Club Juggling</a></h3>
 <p>
-<? echo img("/zonglovani/img/compendium.jpg","Compendium of Club Juggling - obálka"); ?>
-V této kní¾ce je v¹e o ¾onglování s ku¾ely. Obsahuje spoustou pìkných obrázkù, díky tomu nemusí¹ ani umìt anglicky a pøesto témìø v¹e pochopí¹. Je vhodná pro zaèáteèníky i pokroèilé.
+<a href="http://www.butterfingers.co.uk" title="Stránky vydavatele."><? echo img("/zonglovani/img/compendium.jpg","Compendium of Club Juggling - obálka"); ?></a>
+Napsal Charlie Dancey. V této kní¾ce je v¹e o ¾onglování s ku¾ely. Obsahuje spoustou pìkných obrázkù, díky tomu nemusí¹ ani umìt anglicky a pøesto témìø v¹e pochopí¹. Vhodné pro zaèáteèníky i pokroèilé.
 </p>
 	
 <h3><a href="http://www.cincyclubclub.com/passing_patterns.html" title="Triky pro passing.">Juggling in your Right Mind</a></h3>
 <p>
+<a href="http://www.cincyclubclub.com/passing_patterns.html" title="Triky pro passing."><? echo img("/zonglovani/img/juggling-in-your-right-mind.jpg","Juggling in your Right Mind - obálka"); ?></a>
 Sbírka trikù pro <a href="/zonglovani/kuzely/passing/" title="Základy passingu">passing</a> které sepsal Lee Kolinsky.
 </p>
 

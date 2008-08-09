@@ -41,7 +41,7 @@ Davidovi stránky o ¾onglování.
 <a href="http://www.zonglovanie.sk" title="Slovenský server.">zonglovanie.sk</a>
 </dt>
 <dd>
-Skvìlá uèebnice ¾onglování pro samouky. Dostupná ve formátu pdf.
+Skvìlá <a href="literatura.html" title="Dal¹í literatura o ¾onglování.">uèebnice ¾onglování</a> pro samouky. Dostupná ve formátu pdf.
 </dd>
 
 <dt>
@@ -119,6 +119,9 @@ Simulátor ¾onglování i pro kapesní poèítaèe.
 Spousta pìkných stránek o ¾onglování je v angliètinì. Mo¾ná se ti bude hodit <a href="aczslovnicek.html" title="Anglicko-èeský ¾onglérský slovníèek.">malý slovníèek</a>.
 </p>
 
+<p>
+Adresy na internetu se mìní. Pokud narazí¹ na ¹patný odkaz, mù¾e¹ mi <a href="/kontakt.html" title="Nahlá¹ení ¹patného odkazu.">napsat</a>. Zaøídím jeho opravu.
+</p>
 
 </div>
 

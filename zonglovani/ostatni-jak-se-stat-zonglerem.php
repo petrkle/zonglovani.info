@@ -20,7 +20,7 @@ titulek(__FILE__);
 
 <p>
 <ol>
-<li>Trénuj</li>
+<li><a href="trenink.html" title="Jak správnì trénovat ¾onglování.">Trénuj</a></li>
 <li>Trénuj je¹tì víc.</li>
 <li>Nepøestávej</li>
 </ol>
