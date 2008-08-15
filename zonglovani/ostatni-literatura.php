@@ -52,6 +52,13 @@ Sbírka trikù pro <a href="/zonglovani/kuzely/passing/" title="Základy passingu">
 Anglická kní¾ka kterou sepsal Hans Vanwynsberghe. Nedokonèená, ale i pøesto výborná.
 </p>
 
+<h3><a href="http://www.varietyartsdirectory.com/resources/PassingPatternsAug06.pdf" title="Passovací triky.">Passing Patterns Compendium</a></h3>
+<p>
+<a href="http://www.varietyartsdirectory.com/resources/PassingPatternsAug06.pdf" title="Passing Patterns Compendium"><? echo img("/zonglovani/img/ppcompendium.jpg","Passing Patterns Compendium - obálka"); ?></a>
+Sbírka trikù pro passování. Sestavil Mark Weston.
+</p>
+
+
 
 </div>
 
