@@ -56,7 +56,7 @@ titulek(__FILE__);
 <p class="youtubevideo">
 <object height="300" width="400">
 	<param name="movie" value="http://www.youtube.com/v/<?=$url?>">
-	<embed src="http://www.youtube.com/v/<?=$url?>" type="application/x-shockwave-flash" height="400" width="300">
+	<embed src="http://www.youtube.com/v/<?=$url?>" type="application/x-shockwave-flash" height="300" width="400">
 </object>
 </p>
 <p>

@@ -7,7 +7,9 @@ guava-winter-07-08*http://www.youtube.com/watch?v=08-Cv2JPGkSEwY*Guava over wint
 jen-slaw*http://www.youtube.com/watch?v=jkviK6yV1f0*Jen Slaw Juggling Promo*Ukázka z vystoupení Jennyfer Slaw.
 laurent-phil*http://www.youtube.com/watch?v=bVfX26KIOFs*Laurent et Phil, juggling passing demo*Ukázka umìní dvou francouzských ¾onglérù.
 joe-hague*http://www.youtube.com/watch?v=OJsAMXxtDWQ*Joe Hague Fatboy Slim Juggling Video*Procházka Londýnem s ku¾ely.
+juggling-extravaganza*http://www.youtube.com/watch?v=xn95eFgzsYU*Juggling Extravaganza*Passování Bekah Smith a Tio Duermeiera.
 jeremy-perkins-jeremy-fein*http://www.youtube.com/watch?v=MLbMHQnUvbY*Jeremy Perkins and Jeremy Fein Promo 2008*Ukázky z vystoupení.
+all-day-baby*http://www.youtube.com/watch?v=2CDpBgljPaA*All Day Baby!*Dal¹í video z produkce J&J.
 vova-olga*http://www.youtube.com/watch?v=b4RAx9BWc-w*Vova and Olga Galchenko 7+ Club Team passing WJF*Sourozenci Vova a Olga Galchenko na soutì¾i WJF (World Juggling Federation).
 giraffe-theory*http://www.youtube.com/watch?v=xaf4Ee9WCdA*Giraffe Theory Juggling Glow Clubs*Nejen ¾onglování se svítícími ku¾ely. Uvidíte i jak <a href="/zonglovani/kuzely/passing/pickup.html" title="Zvednutí spadlého ku¾elu">zvednout spadlou ku¾elku</a>.
 passing-st-louis*http://www.youtube.com/watch?v=pXs2cjlHZng*Passing Fancy at St. Louis Jugglefest 2007*Záznam vystoupení na festivalu v St. Louis.
