@@ -17,10 +17,13 @@ titulek(__FILE__);
 <div id="obsah">
 <h1><?=$title?></h1>
 
+<p>
+Trik pro dva ¾ongléry a pìt míèkù. Pøedpokladem je, ¾e oba umíte <a href="3/mm.html" title="Trik se tøemi míèky">mills' mess</a>.
+</p>
 
 <p>
 <? echo img("micky-passingmma.png",""); ?>
-Dva ¾ongléøi stojí vedle sebe. 6onglér <b>A</b> má dva míèky v pravé ruce. V levé jeden. ®onglér <b>B</b> má v ka¾dé ruce jeden míèek. Oba mají ¾køí¾ené ruce. Levou pod pravou.
+Dva ¾ongléøi stojí vedle sebe. ¾onglér <b>A</b> má dva míèky v pravé ruce. V levé jeden. ®onglér <b>B</b> má v ka¾dé ruce jeden míèek. Oba mají ¾køí¾ené ruce. Levou pod pravou.
 </p>
 
 
@@ -31,13 +34,28 @@ Dva ¾ongléøi stojí vedle sebe. 6onglér <b>A</b> má dva míèky v pravé ruce. V lev
 
 
 <p>
-<? echo img("micky-passingmmb.png",""); ?>
+<? echo img("micky-passingmmc.png",""); ?>
+®onglér <b>B</b> pøi pøekøi¾ování rukou vyhodí druhı míèek. Mù¾e tak chytit míèek hozenı ¾onglérem <b>A</b>.
 </p>
 
 <p>
-Mù¾e¹ trénovat s pokladky ze sádry. Opravdové vajíèko léta pøeci jenom trochu jinak. A hlavnì jinak dopadá.
+<? echo img("micky-passingmmd.png",""); ?>
+Oba ¾ongléøi mají opìt zkøí¾ené ruce. Pravou pod levou. <b>B</b> há¾e tøetí míèek z levé ruky na levou stranu ¾ongléra <b>A</b>.
 </p>
 
+<p>
+<? echo img("micky-passingmme.png",""); ?>
+Zatímco míèek letí, oba ¾ongléøi synchronizovanì mìní polohu rukou.
+</p>
+
+<p>
+<? echo img("micky-passingmmf.png",""); ?>
+®onglér <b>A</b> vyhodí míèek z pravé ruky nahoru, pøekøí¾í ruce a do pravé ruky chytá míèek kterı hodil ¾onglér <b>B</b>.
+</p>
+
+<p>
+Dal¹í hod ¾ongléra <b>A</b> z pravé ruky bude pass.
+</p>
 
 
 </div>
