@@ -33,7 +33,6 @@ if($foo=="kruhy-index.php"){
 }else{
 	echo "<li><h4><a href=\"/zonglovani/kruhy/\" title=\"Zaèínáme s kruhy.\">Kruhy</a></h4>";
 }
-	kruhy_menu($foo);
 	echo "</li>";
 
 if($foo=="kuzely-index.php"){
@@ -50,7 +49,13 @@ if($foo=="ostatni-index.php"){
 	echo "<li><h4><a href=\"/zonglovani/ostatni.html\" title=\"V¹e ostatní o ¾onglování.\">Ostatní</a></h4></li>";
 };
 
-#echo "<li><h4><a href=\"/zonglovani/forum/\" title=\"Diskuse o ¾onglování.\">Fórum</a></h4></li>";
+print "\n<!-- start -->\n";
+if($foo=="video-index.php"){
+	print "<li><ul><li><strong>Video</strong></li></ul></li>";
+}else{
+	print "<li><ul><li><strong><a href=\"/zonglovani/video/\" title=\"Zajímavá ¾onglérská videa.\">Video</a></strong></li></ul></li>";
+};
+print "\n<!-- stop -->\n";
 
 	echo "</ul>";
 };

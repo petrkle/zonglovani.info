@@ -3,7 +3,7 @@ function kuzely_menu($soubor){
 $soubory = array("kuzely-3.php","kuzely-passing.php");
 $adresy = array("kuzely/3/","kuzely/passing/");
 
-$texty = array("3 ku¾ely","passing");
+$texty = array("3 ku¾ely","Passing");
 
 $popisky = array("®onglování se tøemi ku¾ely.","®onglování ve více lidech.");
 

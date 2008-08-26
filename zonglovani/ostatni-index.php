@@ -37,13 +37,6 @@ Základní pojmy v ¾onglování.
 Otázky na které se lidé èasto ptají v souvislosti s ¾onglováním.
 </p>
 
-<!-- start -->
-<h3><a href="/zonglovani/video/" title="FAQ">®onglérská videa</a></h3>
-<p>
-Zajímavá ¾onglérská videa.
-</p>
-<!-- stop -->
-
 <h3><a href="/zonglovani/literatura.html" title="Nìco ke ètení.">Literatura</a></h3>
 <p>
 Kní¾ky o ¾onglování.

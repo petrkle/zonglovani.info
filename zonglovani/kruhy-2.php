@@ -18,7 +18,8 @@ if(strlen($show)>0 and is_file($show.".xml")){
 
 }else{
   // kdy¾ není vybrán trik
-hlavicka($titulek,__FILE__);
+	header("Location: /zonglovani/kruhy/");
+	exit();
 ?>
 
 <?php

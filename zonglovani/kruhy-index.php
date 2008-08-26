@@ -27,6 +27,28 @@ Kruhy jsou vhodné pro ¾onglování v uzavøených prostorách. Venku je toti¾ lehce o
 Jak zaèít ¾onglovat s kruhy.
 </p>
 
+<h3>®onglování se dvìma kruhy</h3>
+<p>
+<ul>
+<li><a href="/zonglovani/kruhy/2/2v1.html" title="snadné">2 v 1</a></li>
+</ul>
+</p>
+
+<h3>®onglování se tøemi kruhy</h3>
+<p>
+<ul>
+<li><a href="/zonglovani/kruhy/3/kaskada.html" title="snadné">Kaskáda</a></li>
+<li><a href="/zonglovani/kruhy/3/noha.html" title="snadné">Prohození kruhu pod nohou</a></li>
+<li><a href="/zonglovani/kruhy/3/sloupy.html" title="snadné">Sloupy</a></li>
+</ul>
+</p>
+
+<h3>®onglování se ètyømi kruhy</h3>
+<p>
+<ul>
+<li><a href="/zonglovani/kruhy/4/fontana.html" title="nároèné">Fontána</a></li>
+</ul>
+</p>
 
 <h3><a href="/zonglovani/kruhy/vyroba.html" title="Výroba kruhù na ¾onglování.">Výroba kruhù</a></h3>
 <p>
