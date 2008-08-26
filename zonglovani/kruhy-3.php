@@ -17,6 +17,7 @@ if(strlen($show)>0 and is_file($show.".xml")){
 
 }else{
   // kdy¾ není vybrán trik
+	header("HTTP/1.1 301 Moved Permanently");
 	header("Location: /zonglovani/kruhy/");
 	exit();
 ?>

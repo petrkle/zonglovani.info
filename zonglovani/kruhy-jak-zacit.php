@@ -25,12 +25,12 @@ Kruh je tøeba pøi vyhození roztoèit aby letìl rovnì.
 <a name="jeden" id="jeden"></a>
 <h2>Jeden kruh</h2>
 <p>
-<? echo img("/zonglovani/img/kruhy-zacateka.png","Hození kruhu z pravé ruky do levé."); ?>
+<? echo img("kruhy-zacateka.png","Hození kruhu z pravé ruky do levé."); ?>
 Zaèni s jedním kruhem. Pøehazuj ho z pravé ruky do levé.
 </p>
 
 <p>
-<? echo img("/zonglovani/img/kruhy-zacatekb.png","A zpátky z levé do pravé."); ?>
+<? echo img("kruhy-zacatekb.png","A zpátky z levé do pravé."); ?>
 A pak zpátky z levé do pravé.
 </p>
 
@@ -45,12 +45,12 @@ Vyzkou¹ej i pohazování s kruhem v jedné ruce. Procvièuj pravou i levou ruku.
 </p>
 
 <p>
-<? echo img("/zonglovani/img/kruhy-zacatekc.png","Hození prvního kruhu z pravé ruky do levé."); ?>
+<? echo img("kruhy-zacatekc.png","Hození prvního kruhu z pravé ruky do levé."); ?>
 Z pravé ruky vyhoï první kruh.
 </p>
 
 <p>
-<? echo img("/zonglovani/img/kruhy-zacatekd.png","Hození druhého kruhu z levé ruky do pravé."); ?>
+<? echo img("kruhy-zacatekd.png","Hození druhého kruhu z levé ruky do pravé."); ?>
 Kdy¾ je první na vrcholu své dráhy vyhoï druhý kruh. Pak zachytí¹ první kruh do levé ruky. Druhý kruh chytí¹ do pravé ruky.
 </p>
 

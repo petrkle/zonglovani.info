@@ -25,19 +25,19 @@ S okouzlující lehkostí pøedvádí neuvìøitelné kousky. Usmívá se a v¹echy pobaví.
 
 <h3><a href="/zonglovani/micky/3/kaskada.html" title="Návod pro 3 míèky.">Kaskáda</a></h3>
 <p>
-<a href="/zonglovani/micky/3/kaskada.html" title="Návod pro 3 míèky."><? echo img("/zonglovani/img/help-kaskada.png","Kaskáda"); ?></a>
+<a href="/zonglovani/micky/3/kaskada.html" title="Návod pro 3 míèky."><? echo img("help-kaskada.png","Kaskáda"); ?></a>
 Nejsnadnìj¹í zpùsob ¾onglování. ¾ongluje se s lichým poètem pøedmìtù - 3, 5, 7, .... Støídavì hází pravá a levá ruka.
 </p>
 
 <h3><a href="/zonglovani/micky/3/sprcha.html" title="Návod pro 3 míèky.">Sprcha</a></h3>
 <p>
-<a href="/zonglovani/micky/3/sprcha.html" title="Návod pro 3 míèky."><? echo img("/zonglovani/img/help-sprcha.png","Sprcha"); ?></a>
+<a href="/zonglovani/micky/3/sprcha.html" title="Návod pro 3 míèky."><? echo img("help-sprcha.png","Sprcha"); ?></a>
 ¾onglování dokoleèka. Jedna ruka hází vrchem, druhá chytá a hází spodem. Mo¾né s lichým i sudým poètem pøedmìtù.
 </p>
 
 <h3><a href="/zonglovani/micky/4/fontana.html" title="Návod pro 4 míèky.">Fontána</a></h3>
 <p>
-<a href="/zonglovani/micky/4/fontana.html" title="Návod pro 4 míèky."><? echo img("/zonglovani/img/help-fontana.png","Fontána"); ?></a>
+<a href="/zonglovani/micky/4/fontana.html" title="Návod pro 4 míèky."><? echo img("help-fontana.png","Fontána"); ?></a>
 ®onglování se sudým poètem pøedmìtù - 4, 6, 8, .... V ka¾dé ruce polovina.
 </p>
 

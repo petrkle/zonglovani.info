@@ -16,7 +16,7 @@ body {
 	height: 100px;
 	padding: 0;
 	margin: 0 auto 0 auto;
-	background: url("img/hlavicka.png") 50% 0 repeat-y #fff;
+	background: url("img/h/hlavicka.png") 50% 0 repeat-y #fff;
 }
 
 #hlavicka div{
@@ -41,7 +41,7 @@ a img{
 	width: 750px;
 	padding: 0;
 	margin: 0 auto 0 auto;
-	background: url('img/telo.gif') 50% 0 repeat-y #fff;
+	background: url("img/t/telo.gif") 50% 0 repeat-y #fff;
 }
 
 #obsah {
@@ -95,7 +95,7 @@ a img{
 	height: 50px;
 	padding: 0;
 	margin: 0 auto 0 auto;
-	background: url("img/paticka.png") 50% 0 no-repeat #eee;
+	background: url("img/p/paticka.png") 50% 0 no-repeat #eee;
 	clear: both;
  	line-height: 1em;
 }

@@ -26,19 +26,19 @@ Jsou ¹i¹atá, køehká a nadìlají spoustu nepoøádku. Av¹ak, kdo by odolal?
 </p>
 
 <p>
-<? echo img("/zonglovani/img/vajickaa.png",""); ?>
+<? echo img("vajickaa.png",""); ?>
 První vajíèko vyhoï pravou rukou rovnì nahoru.
 </p>
 
 
 <p>
-<? echo img("/zonglovani/img/vajickab.png",""); ?>
+<? echo img("vajickab.png",""); ?>
 Zatím co letí, odlo¾ si druhé vajíèko do levé ruky. Vajíèko nehází¹. Jenom ho pøendá¹ z ruky do ruky. ©ance na rozbití jsou minimální.
 </p>
 
 
 <p>
-<? echo img("/zonglovani/img/vajickac.png",""); ?>
+<? echo img("vajickac.png",""); ?>
 Pravá ruka je volná pro zachycení padajícího vajíèka.
 </p>
 

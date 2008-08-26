@@ -25,17 +25,17 @@ titulek(__FILE__);
 <div id="obsah">
 
 <div style="float: left; margin: 15px 15px 0 20px; text-align: center;">
-<a href="/zonglovani/micky/" title="®onglování s míèky."><? echo img("img/micky.png","Míèky"); ?></a>
+<a href="/zonglovani/micky/" title="®onglování s míèky."><? echo img("micky.png","Míèky"); ?></a>
 </div>
 
 
 <div style="float: left; margin: 15px 15px 0 15px; text-align: center;">
-<a href="/zonglovani/kruhy/" title="®onglování s kruhy."><? echo img("img/kruhy.png","Kruhy"); ?></a>
+<a href="/zonglovani/kruhy/" title="®onglování s kruhy."><? echo img("kruhy.png","Kruhy"); ?></a>
 </div>
 
 
 <div style="float: left; margin: 15px 0px 0 15px; text-align: center;">
-<a href="/zonglovani/kuzely/" title="®onglování s ku¾ely."><? echo img("img/kuzely.png","Ku¾ely"); ?></a>
+<a href="/zonglovani/kuzely/" title="®onglování s ku¾ely."><? echo img("kuzely.png","Ku¾ely"); ?></a>
 </div>
 
 <p>

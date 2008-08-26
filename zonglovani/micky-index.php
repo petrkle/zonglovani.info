@@ -24,7 +24,6 @@ Míèky jsou nejjednodu¹¹í náèiní. Snadno se há¾ou i chytají.
 </p>
 
 
-
 <h3><a href="/zonglovani/micky/jak-zacit.html" title="Jak zaèít ¾onglovat s míèky.">Jak zaèít ¾onglovat s míèky</a></h3>
 <p>
 Jak zaèít ¾onglovat s míèky.
@@ -51,7 +50,6 @@ Balancování míèku - tøeba na hlavì.
 Elegantní zpùsob jak zvednout míèek ze zemì.
 </p>
 
-
 <h3><a href="/zonglovani/micky/sbirani.html" title="Sbírání spadlıch míèkù.">Sbírání spadlıch míèkù</a></h3>
 <p>
 Kdy¾ ti spadne míèek, nepøestávej ¾onglovat.
@@ -65,6 +63,11 @@ Mù¾e to znít neuvìøitelnì, ale jde to.
 <h3><a href="/zonglovani/micky/pirueta.html" title="Pirueta pøi ¾onglování.">Pirueta</a></h3>
 <p>
 Zatímco míèky letí, má¹ dost èasu i na piruetu.
+</p>
+
+<h3><a href="/zonglovani/micky/passing-mm.html" title="®onglování ve dvou lidech.">Passing s míèky - mills' mess</a></h3>
+<p>
+Ka¾dı chce umìt <a href="/zonglovani/micky/3/mm.html" title="nároèné">Mills' mess</a>, ale ty ho mù¾e¹ umìt ve dvou.
 </p>
 
 <h3><a href="/zonglovani/micky/vajicka.html" title="®onglování s vajíèky.">Vajíèka</a></h3>

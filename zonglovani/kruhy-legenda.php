@@ -29,20 +29,20 @@ Obrázky znázoròují jak házet kruhy, jejich dráhu a naèasování. Ke ka¾dému obrázk
 
 <h3>Kruhy</h3>
 <p>
-<? echo img("/zonglovani/img/kruhy-legendaa.png","Druhy kruhù."); ?>
+<? echo img("kruhy-legendaa.png","Druhy kruhù."); ?>
 Kruhy jsou rozli¹eny barvou a èíslicí.
 </p>
 
 
 <h3>Dráhy kruhù</h3>
 <p>
-<? echo img("/zonglovani/img/legendab.png","Dráha kruhu."); ?>
+<? echo img("legendab.png","Dráha kruhu."); ?>
 Dráha po které by kruh mìl letìt je vyznaèena pøeru¹ovanou èárou. ©ipka na konci urèuje smìr.
 </p>
 
 <h3>Ruce</h3>
 <p>
-<? echo img("/zonglovani/img/legendac.png","Pravá a levá ruka."); ?>
+<? echo img("legendac.png","Pravá a levá ruka."); ?>
 Pravá ruka je oznaèena písmenem P. Levá ruka písmenem L.
 </p>
 

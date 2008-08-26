@@ -20,13 +20,13 @@ titulek(__FILE__);
 
 <h3>Normální úchop</h3>
 <p>
-<? echo img("/zonglovani/img/kuzely-grip-normal.png","Normální úchop."); ?>
+<? echo img("kuzely-grip-normal.png","Normální úchop."); ?>
 Vhodný pro zaèáteèníky. První ku¾el je nahoøe, pøekøí¾en doleva. První vyhodí¹ horní ku¾el.
 </p>
 
 <h3>Cirkusový úchop</h3>
 <p>
-<? echo img("/zonglovani/img/kuzely-grip-cirkus.png","Cirkusový úchop."); ?>
+<? echo img("kuzely-grip-cirkus.png","Cirkusový úchop."); ?>
 První ku¾el je dole, druhý nad ním smìøuje vpravo. První vyhodí¹ spodní ku¾el. Tento zaèátek je tì¾¹í - mù¾e¹ se snadno pra¹tit do nosu, ale pro nìkteré triky je prý lep¹í.
 </p>
 

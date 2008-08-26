@@ -28,17 +28,17 @@ Chybìjící míèek staèí nahradit <a href="/zonglovani/micky/3/neviditelny.html" ti
 </p>
 
 <p>
-<? echo img("/zonglovani/img/micky-sbirania.png",""); ?>
+<? echo img("micky-sbirania.png",""); ?>
 První míèek vyhodí¹ z pravé ruky.
 </p>
 
 <p>
-<? echo img("/zonglovani/img/micky-sbiranib.png",""); ?>
+<? echo img("micky-sbiranib.png",""); ?>
 Levou rukou pokraèuje¹ v kaskádì. Mezitím pravá ruka sbírá tøetí míèek ze zemì.
 </p>
 
 <p>
-<? echo img("/zonglovani/img/micky-sbiranic.png",""); ?>
+<? echo img("micky-sbiranic.png",""); ?>
 Pokraèuj <a href="/zonglovani/micky/3/kaskada.html" title="Základní trik se tøemi míèky.">kaskádou se tøemi</a> míèky.
 </p>
 
@@ -49,27 +49,27 @@ Pokraèuj <a href="/zonglovani/micky/3/kaskada.html" title="Základní trik se tøem
 Kdy¾ ti spadne míèek pokraèuj kaskádou se tøemi míèky. Klekni si pøed spadlı míèek. A teï to pøijde.
 </p>
 <p>
-<? echo img("/zonglovani/img/micky-sbiranid.png",""); ?>
+<? echo img("micky-sbiranid.png",""); ?>
 Pøejdi z kaskády se tøemi ...
 </p>
 
 <p>
-<? echo img("/zonglovani/img/micky-sbiranie.png",""); ?>
+<? echo img("micky-sbiranie.png",""); ?>
 ... do <a href="/zonglovani/micky/2/2v1.html" title="Trik se dvìma míèky.">2 v 1</a> v levé ruce.
 </p>
 
 <p>
-<? echo img("/zonglovani/img/micky-sbiranif.png",""); ?>
+<? echo img("micky-sbiranif.png",""); ?>
 Tøetí míèek z pravé ruky hoï také rovnì nahoru.
 </p>
 
 <p>
-<? echo img("/zonglovani/img/micky-sbiranih.png",""); ?>
+<? echo img("micky-sbiranih.png",""); ?>
 Pravou rukou seber míèek ze zemì.
 </p>
 
 <p>
-<? echo img("/zonglovani/img/micky-sbiranii.png",""); ?>
+<? echo img("micky-sbiranii.png",""); ?>
 Pokraèuj fontánou se ètyømi míèky.
 </p>
 
@@ -80,17 +80,17 @@ Obtí¾né, ale velmi efektní. Kdy¾ ti spadne jeden míèek, pokraèuj <a href="/zongl
 </p>
 
 <p>
-<? echo img("/zonglovani/img/micky-sbiranij.png",""); ?>
+<? echo img("micky-sbiranij.png",""); ?>
 Pravá, levá, pravá - hodí a je prázdná.
 </p>
 
 <p>
-<? echo img("/zonglovani/img/micky-sbiranik.png",""); ?>
+<? echo img("micky-sbiranik.png",""); ?>
 Nastává chvíle pro sebrání míèku.
 </p>
 
 <p>
-<? echo img("/zonglovani/img/micky-sbiranil.png",""); ?>
+<? echo img("micky-sbiranil.png",""); ?>
 Házej dál levá, pravá (sebranı míèek), levá, ...
 </p>
 <p>

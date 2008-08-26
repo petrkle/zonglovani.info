@@ -30,12 +30,12 @@ Míèky jsou nejjednodu¹¹í náèiní. Snadno se há¾ou i chytají.
 <a name="jeden" id="jeden"></a>
 <h2>Jeden míèek</h2>
 <p>
-<? echo img("/zonglovani/img/starta.png","Hození míèku z pravé ruky do levé."); ?>
+<? echo img("starta.png","Hození míèku z pravé ruky do levé."); ?>
 Zaèneme tím nejlehèím, jedním míèkem. Ze zaèátku si s míèkem jenom pohrávej. Pøehazuj ho oblouèkem z pravé ruky do levé. Vrchol oblouèku by mìl bıt asi ve vı¹i nosu.
 </p>
 
 <p>
-<? echo img("/zonglovani/img/startb.png","A zpátky z levé do pravé."); ?>
+<? echo img("startb.png","A zpátky z levé do pravé."); ?>
 A pak zpátky z levé do pravé. Pøi chytání nepohybuj rukou proti míèku. Poèkej si a¾ ti pøiletí do dlanì. Míèky se pøi ¾onglování neodrá¾ejí, ale chytají a há¾ou.
 </p>
 
@@ -49,12 +49,12 @@ Vyzkou¹ej i pohazování s míèkem v jedné ruce. Zkus zachytit míèek odra¾enı od zd
 Házet si se dvìma míèky na první pohled vypadá snadnì, ale míèky se ti budou srá¾et a padat. Nenech se odradit a zkou¹ej dál.
 </p>
 <p>
-<? echo img("/zonglovani/img/treninka.png","Hození prvního míèku z pravé ruky do levé."); ?>
+<? echo img("treninka.png","Hození prvního míèku z pravé ruky do levé."); ?>
 Vyhoï první míèek oblouèkem nahoru. Vrchol oblouèku by mìl bıt asi ve vı¹i nosu.
 </p>
 
 <p>
-<? echo img("/zonglovani/img/treninkb.png","Hození druhého míèku z levé ruky do pravé."); ?>
+<? echo img("treninkb.png","Hození druhého míèku z levé ruky do pravé."); ?>
 Kdy¾ první míèek míjí tvùj nos je èas vyhodit druhı míèek. Pak zachytí¹ první míèek do levé ruky. Tou dobou druhı míèek míjí tvùj nos a ty u¾ jenom èeká¹ a¾ doletí do tvé pravé ruky, kterou ho zachytí¹. 
 </p>
 

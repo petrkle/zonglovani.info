@@ -37,27 +37,27 @@ Chùdy pøiná¹ejí do ¾onglování ten pravý adrenalin. Tak¾e jak vyrobit chùdy?
 
 <h2>Výroba chùd</h2>
 <p>
-<a href="/zonglovani/img/chudy/stupacka.jpg"><?=img("/zonglovani/img/chudy/stupacka-nahled.jpg","Stupaèka chùdy");?></a>
+<a href="/zonglovani/img/s/stupacka.jpg"><?=img("stupacka-nahled.jpg","Stupaèka chùdy");?></a>
 Z prkna vyøe¾ stupaèku a podpìry.
 </p>
 
 <p>
-<a href="/zonglovani/img/chudy/stupacka2.jpg"><?=img("/zonglovani/img/chudy/stupacka2-nahled.jpg","Stupaèka chùdy");?></a>
+<a href="/zonglovani/img/s/stupacka2.jpg"><?=img("stupacka2-nahled.jpg","Stupaèka chùdy");?></a>
 Pøi¹roubuj je na hranol. Stupaèka je metr nad zemí.
 </p>
 
 <p>
-<a href="/zonglovani/img/chudy/konec.jpg"><?=img("/zonglovani/img/chudy/konec-nahled.jpg","Konec chùdy");?></a>
+<a href="/zonglovani/img/k/konec.jpg"><?=img("konec-nahled.jpg","Konec chùdy");?></a>
 Konec chùdy chrání starý plá¹» z bicyklu.
 </p>
 
 <p>
-<a href="/zonglovani/img/chudy/uchyt.jpg"><?=img("/zonglovani/img/chudy/uchyt-nahled.jpg","Úchyt nohy");?></a>
+<a href="/zonglovani/img/u/uchyt.jpg"><?=img("uchyt-nahled.jpg","Úchyt nohy");?></a>
 Objímka na nohu = plech, karimatka a páska na koberce.
 </p>
 
 <p>
-<a href="/zonglovani/img/chudy/chuda.jpg"><?=img("/zonglovani/img/chudy/chuda-nahled.jpg","Chùda");?></a>
+<a href="/zonglovani/img/c/chuda.jpg"><?=img("chuda-nahled.jpg","Chùda");?></a>
 Chùda v celé své kráse.
 </p>
 

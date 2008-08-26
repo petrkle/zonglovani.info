@@ -25,35 +25,35 @@ Elegantní zpùsob jak zvednout míèek ze zemì.
 
 
 <p>
-<? echo img("/zonglovani/img/kickupa.png","Míèek na zemi."); ?>
+<? echo img("kickupa.png","Míèek na zemi."); ?>
 Míèek le¾í na zemi.
 </p>
 
 <p>
-<? echo img("/zonglovani/img/kickupb.png","Posunutí míèku."); ?>
+<? echo img("kickupb.png","Posunutí míèku."); ?>
 Lehce si na míèek stoupni. Posuò nohu k sobì.
 </p>
 
 
 <p>
-<? echo img("/zonglovani/img/kickupc.png","Míèek se kutálí."); ?>
+<? echo img("kickupc.png","Míèek se kutálí."); ?>
 Míèek se roztoèí a zaène se kutálet smìrem k noze.
 </p>
 
 <p>
-<? echo img("/zonglovani/img/kickupd.png","Míèek na noze."); ?>
+<? echo img("kickupd.png","Míèek na noze."); ?>
 Poèkej a¾ se míèek dostane na nárt. Tìsnì za prsty na noze.
 </p>
 
 
 <p>
-<? echo img("/zonglovani/img/kickupe.png","Míèek na noze."); ?>
+<? echo img("kickupe.png","Míèek na noze."); ?>
 Pohled shora na pøedchozí obrázek. Míèek je na vnìj¹í stranì nártu.
 </p>
 
 
 <p>
-<? echo img("/zonglovani/img/kickupf.png","Vykopnutí míèku."); ?>
+<? echo img("kickupf.png","Vykopnutí míèku."); ?>
 Vykopni nohou ¹ikmo dozadu a do strany. Správný okam¾ik, smìr a rychlost vykopnutí zjistí¹ jedinì tréninkem. Li¹í se podle obuvi a míèku.
 </p>
 

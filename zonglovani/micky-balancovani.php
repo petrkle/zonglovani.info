@@ -25,31 +25,31 @@ Pou¾ij pevný kulatý míèek.
 
 
 <p>
-<? echo img("/zonglovani/img/balanca.png","Balancování míèku na hlavì."); ?>
+<? echo img("balanca.png","Balancování míèku na hlavì."); ?>
 Balancovat mù¾e¹ na vr¹ku hlavy. Míèek pokládej na hlavu støídavì levou a pravou rukou.
 </p>
 
 
 <p>
-<? echo img("/zonglovani/img/balancb.png","Balancování míèku na hlavì."); ?>
+<? echo img("balancb.png","Balancování míèku na hlavì."); ?>
 Balancování míèku s naklonìnou hlavou. Pro nìkoho snaz¹í, pro nìkoho naopak. Nejlep¹í je zkusit oboje.
 </p>
 
 
 <p>
-<? echo img("/zonglovani/img/balancc.png","Balancování míèku na hlavì."); ?>
+<? echo img("balancc.png","Balancování míèku na hlavì."); ?>
 S míèkem na hlavì mù¾e¹ ¾onglovat.
 </p>
 
 
 <p>
-<? echo img("/zonglovani/img/balancd.png","Pirueta."); ?>
+<? echo img("balancd.png","Pirueta."); ?>
 Pirueta s míèkem na hlavì - velmi obtí¾né.
 </p>
 
 
 <p>
-<? echo img("/zonglovani/img/balance.png","Balancování tøí míèkù."); ?>
+<? echo img("balance.png","Balancování tøí míèkù."); ?>
 Výborný trénink rovnováhy.
 </p>
 

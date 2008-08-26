@@ -29,32 +29,32 @@ Obrázky znázoròují jak házet míèky, jejich dráhu a naèasování. Ke ka¾dému obrázk
 
 <h3>Míèky</h3>
 <p>
-<? echo img("/zonglovani/img/legendaa.png","Druhy míèkù."); ?>
+<? echo img("legendaa.png","Druhy míèkù."); ?>
 Míèky jsou rozli¹eny barvou a èíslicí.
 </p>
 
 
 <h3>Dráhy míèkù</h3>
 <p>
-<? echo img("/zonglovani/img/legendab.png","Dráha míèku."); ?>
+<? echo img("legendab.png","Dráha míèku."); ?>
 Dráha po které by míèek mìl letìt je vyznaèena pøeru¹ovanou èárou. ©ipka na konci urèuje smìr.
 </p>
 
 <h3>Ruce</h3>
 <p>
-<? echo img("/zonglovani/img/legendac.png","Pravá a levá ruka."); ?>
+<? echo img("legendac.png","Pravá a levá ruka."); ?>
 Pravá ruka je oznaèena písmenem P. Levá ruka písmenem L.
 </p>
 
 <h3>Pohyby rukou</h3>
 <p>
-<? echo img("/zonglovani/img/legendad.png","Pohyb pravé ruky."); ?>
+<? echo img("legendad.png","Pohyb pravé ruky."); ?>
 V nìkterıch pøípadech je zvlá¹» zdùraznìn pohyb rukou. Pøeru¹ovaná èára s ¹ipkou vede od písemného oznaèení ruky.
 </p>
 
 <h3>Poloha tìla</h3>
 <p>
-<? echo img("/zonglovani/img/legendae.png","Zvednuté koleno."); ?>
+<? echo img("legendae.png","Zvednuté koleno."); ?>
 U slo¾itìj¹ích trikù je pro názornost nakreslen i obrys postavy.
 </p>
 

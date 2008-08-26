@@ -27,7 +27,7 @@ titulek(__FILE__);
 </p>
 
 <p>
-<? echo img("/zonglovani/img/kuzel-konstrukce.png","Prùøez ku¾elem"); ?>
+<? echo img("kuzel-konstrukce.png","Prùøez ku¾elem"); ?>
 </p>
 
 

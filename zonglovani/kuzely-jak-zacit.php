@@ -27,17 +27,17 @@ Zaèni s jedním ku¾elem v pravé ruce.
 </p>
 
 <p>
-<? echo img("/zonglovani/img/kuzely-zacateka.png",""); ?>
+<? echo img("kuzely-zacateka.png",""); ?>
 Ku¾el uchop v horní polovinì dr¾adla. Hoï ho rovnì nahoru a sleduj co se stane.
 </p>
 
 <p>
-<? echo img("/zonglovani/img/kuzely-zacatekb.png",""); ?>
+<? echo img("kuzely-zacatekb.png",""); ?>
 Ku¾el se ve vzduchu jednou otoèí.
 </p>
 
 <p>
-<? echo img("/zonglovani/img/kuzely-zacatekc.png",""); ?>
+<? echo img("kuzely-zacatekc.png",""); ?>
 A spadne ti dr¾adlem zpìt do dlanì. ©vihem zápìstí a pøedloktí ovlivní¹ vý¹ku a rychlost rotace ku¾elu.
 </p>
 

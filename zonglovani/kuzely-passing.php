@@ -34,7 +34,7 @@ titulek(__FILE__);
 Pøedávání, více lidí ¾ongluje mezi sebou. Název vychází z angliètiny. Pass - pøedání.
 </p>
 <p>
-<? echo img("/zonglovani/img/kuzely-passing-introb.png","Passing s ku¾ely."); ?>
+<? echo img("kuzely-passing-introb.png","Passing s ku¾ely."); ?>
 </p>
 <p>
 Královská disciplína ¾onglování. U¾ije¹ si pøi ní nejvíc legrace. Pro passing jsou nejlep¹í ku¾ely. 

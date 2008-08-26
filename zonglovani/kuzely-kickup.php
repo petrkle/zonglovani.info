@@ -22,13 +22,13 @@ Neustálé shýbání pro spadlé ku¾ely se stane minulostí.
 </p>
 
 <p>
-<? echo img("/zonglovani/img/kuzely-kickupa.png","Ku¾el na nártu nohy."); ?>
+<? echo img("kuzely-kickupa.png","Ku¾el na nártu nohy."); ?>
 Ku¾el si polo¾ ¹ikmo dr¾adlem pøes nárt pravé nohy.
 </p>
 
 
 <p>
-<? echo img("/zonglovani/img/kuzely-kickupb.png","Vykopnutí ku¾elu do vzduchu."); ?>
+<? echo img("kuzely-kickupb.png","Vykopnutí ku¾elu do vzduchu."); ?>
 Vykopni nohou do strany. Ku¾el se opøe o holeò a nárt. Vyletí nahoru a mù¾e¹ pokraèovat v ¾onglování.
 </p>
 

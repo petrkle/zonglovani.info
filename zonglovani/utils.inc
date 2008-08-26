@@ -51,7 +51,7 @@ foreach($kroky as $krok){
 
 	if(isset($krok["popisek"]) or isset($krok["obrazek"])){
 		echo "\n<p>\n";
-		if(isset($krok["obrazek"])){echo img("/zonglovani/img/".$krok["obrazek"].".png",$titulek);$pocet++;};
+		if(isset($krok["obrazek"])){echo img("".$krok["obrazek"].".png",$titulek);$pocet++;};
 		if(isset($krok["popisek"])){echo html_entity_decode($krok["popisek"]);};
 		echo "\n<p>\n";
 	}

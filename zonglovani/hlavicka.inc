@@ -49,8 +49,12 @@ function hlavicka($titulek){
 };
 
 function img($obrazek,$popisek){
-	$rozmery=getimagesize(str_replace("/zonglovani/","",$obrazek));
-	return ("<img src=\"".$obrazek."\" ".$rozmery[3]." title=\"".$popisek."\" alt=\"".$popisek."\" />\n");
+	$obrazek="img/".substr($obrazek,0,1)."/$obrazek";
+	if(!is_file($obrazek)){
+		$obrazek="img/m/missing.png";
+	}
+	$rozmery=getimagesize($obrazek);
+	return ("<img src=\"/zonglovani/".$obrazek."\" ".$rozmery[3]." title=\"".$popisek."\" alt=\"".$popisek."\" />\n");
 }
 
 ?>

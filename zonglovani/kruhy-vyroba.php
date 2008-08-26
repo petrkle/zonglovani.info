@@ -25,13 +25,13 @@ K výrobì bude¹ potøebovat kartonovou krabici, lepicí pásku a nù¾ky. Vyrobit jede
 </p>
 
 <p>
-<? echo img("/zonglovani/img/kruhy-vyrobaa.png",""); ?>
+<? echo img("kruhy-vyrobaa.png",""); ?>
 Krabici rozlo¾ a pøedkresli si obrys kruhu. Vnìj¹í prùmìr je 30 cm, vnitøní 25 cm.
 </p>
 
 
 <p>
-<? echo img("/zonglovani/img/kruhy-vyrobab.png",""); ?>
+<? echo img("kruhy-vyrobab.png",""); ?>
 Dva vystøi¾ené kruhy pøilo¾ k sobì a otoè je o 90°. Tak aby, drá¾ky v kartonu byly kolmo na sebe. Teï u¾ staèí jen celý kruh omotat lepící páskou.
 </p>
 

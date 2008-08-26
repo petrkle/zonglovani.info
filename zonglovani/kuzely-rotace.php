@@ -23,14 +23,14 @@ Základní zpùsoby házení ku¾elu.
 
 <a name="single"><h3>Jedna otoèka</h3></a>
 <p>
-<? echo img("/zonglovani/img/kuzely-rotacea.png","1 otoèka"); ?>
+<? echo img("kuzely-rotacea.png","1 otoèka"); ?>
 Ku¾el se za letu jednou otoèí. Základní a nejjednodu¹í hod.
 </p>
 
 
 <a name="double"><h3>Dvì otoèky</h3></a>
 <p>
-<? echo img("/zonglovani/img/kuzely-rotaceb.png","2 otoèky"); ?>
+<? echo img("kuzely-rotaceb.png","2 otoèky"); ?>
 Ku¾el se za letu otoèí dvakrát.
 </p>
 
@@ -41,13 +41,13 @@ Tì¾ko zvládnutelné, ale mù¾e se hodit.
 
 <h3>Reverzní rotace</h3>
 <p>
-<? echo img("/zonglovani/img/kuzely-rotacec.png","Obrácenì"); ?>
+<? echo img("kuzely-rotacec.png","Obrácenì"); ?>
 Ku¾el mù¾e¹ hodit i s obrácenou rotací.
 </p>
 
 <h3>Flat</h3>
 <p>
-<? echo img("/zonglovani/img/kuzely-rotaced.png","Flat"); ?>
+<? echo img("kuzely-rotaced.png","Flat"); ?>
 Neobvyklý hod - bez otoèení ku¾elu.
 </p>
 

@@ -24,7 +24,7 @@ Trénuj <a href="/zonglovani/micky/3/3v1.html" title="tì¾ko proveditelný trik se 
 <h3>Fontána</h3>
 <p>Základní trik se ¹esti míèky.</p>
 <p>
-<? echo img("/zonglovani/img/micky-6-fontanaa.png","Fontána se ¹esti míèky."); ?>
+<? echo img("micky-6-fontanaa.png","Fontána se ¹esti míèky."); ?>
 Házej pravou i levou rukou stejnì vysoko.
 </p>
 

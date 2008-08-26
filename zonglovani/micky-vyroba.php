@@ -29,17 +29,17 @@ Nejsnadnìj¹í je vyrobit míèek pomocí nafukovacích balónkù.
 </p>
 
 <p>
-<a href="/zonglovani/img/micky/tenisak.jpg"><?=img("/zonglovani/img/micky/tenisak-nahled.jpg","Tenisovı míèek");?></a>
+<a href="/zonglovani/img/t/tenisak.jpg"><?=img("tenisak-nahled.jpg","Tenisovı míèek");?></a>
 Základem je tenisovı míèek. Míèek na jednom místì provrtej a naplò ho sypkım materiálem. Hodí se rı¾e, proso a spousta dal¹ích vìcí, tøeba i písek nebo korálky. Kdy¾ míèek naplní¹ zalep dírku lepidlem. Zalep jí poøádnì, proto¾e není nic hor¹ího ne¾ písek v oèích a na koberci.
 </p>
 
 <p>
-<? echo img("/zonglovani/img/balonek.gif","Nafukovací balónek."); ?>
+<? echo img("balonek.gif","Nafukovací balónek."); ?>
 Dal¹í vìcí, kterou bude¹ potøebovat je nafukovací balónek. Balónku odstøihni náustek. Je tøeba pou¾ít velmi ostré nù¾ky a odstøihnout náustek najednou. Jinak se ti bude balónek pøi navlékání na míèek trhat.
 </p>
 
 <p>
-<? echo img("/zonglovani/img/micek2.gif","Balónek navleèenı na míèku."); ?>
+<? echo img("micek2.gif","Balónek navleèenı na míèku."); ?>
 Ustøi¾enı balónek navlékni na míèek. Pak ustøihni je¹tì jeden balónek a navlékni ho na míèek tak, aby pøekrıval otvor v prvním balónku. Tím je míèek hotov.
 </p>
 

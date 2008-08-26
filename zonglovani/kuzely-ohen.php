@@ -19,7 +19,7 @@ titulek(__FILE__);
 <h1><?=$title?></h1>
 
 <p>
-<?=img("/zonglovani/img/kuzely-fire.png","Pochodeò");?>
+<?=img("kuzely-fire.png","Pochodeò");?>
 Ohnivé ku¾ely mají místo ¹ir¹í èásti hliníkovou trubku. Na ní je namotaný knot z kevlaru. Aby ku¾el hoøel, je potøeba nalít na knot <a href="#palivo">nìco hoølavého</a>.
 </p>
 
@@ -69,19 +69,19 @@ Osobnì dávám pøednost petroleji. Bývá levnìj¹í a ménì zapáchá. Na druhou stranu 
 
 <h3>Zapaléní ku¾elù</h3>
 <p>
-<?=img("/zonglovani/img/kuzely-fire-fill.png","Polití hoølavinou");?>
+<?=img("kuzely-fire-fill.png","Polití hoølavinou");?>
 Hoølavinu nalij na knot ku¾elu nad nádobou. Je lep¹í nalít ménì hoølaviny, tak aby z knotu nezaèala vytékat. Kdy¾ pøelije¹ bude ti pøi ¾onglování z ku¾ele pøebyteèná hoølavina vyletovat.
 </p>
 <p>
 Pøed zapálením odejdi s ku¾elem nejménì 5 metrù od nádoby s hoølavinou.
 </p>  
 <p>
-<?=img("/zonglovani/img/kuzely-fire-light.png","Zapálení");?>
+<?=img("kuzely-fire-light.png","Zapálení");?>
 Pøi zapalování dr¾ ku¾el knotem nahoru. Zapalovaèem zapal první ku¾el, od kterého pak zapálí¹ ostatní ku¾ely.
 </p>
 
 <p>
-<?=img("/zonglovani/img/kuzely-firea.png","Pochodeò");?>
+<?=img("kuzely-firea.png","Pochodeò");?>
 Hoøící ku¾el dr¾ knotem nahoru.
 </p>
 
@@ -93,7 +93,7 @@ Ku¾el pøikryj vlhkým bavlnìným hadrem a poèkej a¾ uhasne. S hadrem nemávej, nech
 <h3>®onglování s ohnìm</h3>
 
 <p>
-<a href="/zonglovani/img/fire-1.jpg"><?=img("/zonglovani/img/fire-1-tn.jpg","®onglování s ohnìm");?></a>
+<a href="/zonglovani/img/fire-1.jpg"><?=img("fire-1-tn.jpg","®onglování s ohnìm");?></a>
 Za tmy s ohnìm provádìj jen triky které má¹ plnì zvládnuté.
 </p>
 
@@ -102,7 +102,7 @@ Ohnivé ku¾ely nejsou stavìné na nepøetr¾ité hoøení. Mezi jednotlivýmí zapálení k
 </p>
 
 <p>
-<a href="/zonglovani/img/fire-2.jpg"><?=img("/zonglovani/img/fire-2-tn.jpg","®onglování s ohnìm");?></a>
+<a href="/zonglovani/img/fire-2.jpg"><?=img("fire-2-tn.jpg","®onglování s ohnìm");?></a>
 </p>
 
 <p>
