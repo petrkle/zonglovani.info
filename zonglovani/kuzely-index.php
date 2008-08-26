@@ -42,6 +42,16 @@ S ku¾ely se nemusí jenom házet.
 Základní zpùsoby házení ku¾elu.
 </p>
 
+<h3><a href="/zonglovani/kuzely/headroll.html" title="Rotace ku¾elu.">Pøekulení ku¾elky pøes hlavu</a></h3>
+<p>
+FIXME
+</p>
+
+<h3><a href="/zonglovani/kuzely/toceni-okolo-palce.html" title="Rotace ku¾elu.">Otáèení ku¾elky okolo palce</a></h3>
+<p>
+FIXME
+</p>
+
 <h3><a href="/zonglovani/kuzely/grip.html" title="Jak dr¾et v jedné ruce dva ku¾ely.">Dva ku¾ely v jedné ruce</a></h3>
 <p>
 Jak dr¾et v jedné ruce dva ku¾ely.

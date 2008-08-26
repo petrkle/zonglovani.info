@@ -40,7 +40,7 @@ Dva ¾ongléøi stojí vedle sebe. ¾onglér <b>A</b> má dva míèky v pravé ruce. V lev
 
 <p>
 <? echo img("micky-passingmmd.png",""); ?>
-Oba ¾ongléøi mají opìt zkøí¾ené ruce. Pravou pod levou. <b>B</b> há¾e tøetí míèek z levé ruky na levou stranu ¾ongléra <b>A</b>.
+<b>B</b>&nbsp;há¾e tøetí míèek z levé ruky na levou stranu ¾ongléra <b>A</b>.
 </p>
 
 <p>
@@ -50,7 +50,7 @@ Zatímco míèek letí, oba ¾ongléøi synchronizovanì mìní polohu rukou.
 
 <p>
 <? echo img("micky-passingmmf.png",""); ?>
-®onglér <b>A</b> vyhodí míèek z pravé ruky nahoru, pøekøí¾í ruce a do pravé ruky chytá míèek kterı hodil ¾onglér <b>B</b>.
+Oba ¾ongléøi mají opìt zkøí¾ené ruce. Pravou pod levou. ®onglér <b>A</b> vyhodí míèek z levé ruky nahoru, pøekøí¾í ruce a do pravé ruky chytá míèek kterı hodil ¾onglér <b>B</b>.
 </p>
 
 <p>

@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<trik>
+
+    <about>
+	     <nazev>Jeden a pùl otoèky</nazev>
+		 <pocet>3</pocet>
+	     <siteswaps>3</siteswaps>
+		 <obtiznost>snadné</obtiznost>
+		 <oblast>kuzely-3</oblast>
+	</about>
+
+	<krok>
+	    <popisek>FIXME</popisek>
+    </krok>
+
+
+</trik>
