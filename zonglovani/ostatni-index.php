@@ -42,7 +42,7 @@ Otázky na které se lidé èasto ptají v souvislosti s ¾onglováním.
 Kní¾ky o ¾onglování.
 </p>
 
-<h3><a href="/zonglovani/siteswap.html" title="Nìco ke ètení.">Siteswap</a></h3>
+<h3><a href="/zonglovani/siteswap.html" title="®onglování s èísly.">Siteswap</a></h3>
 <p>
 Noty pro ¾onglování. Osvìtlí ti zápis ¾onglování èísly.
 </p>

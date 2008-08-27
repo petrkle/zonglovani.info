@@ -47,6 +47,9 @@ Ku¾elka dr¾í na vnìj¹í stranì palce jen pomocí setrvaènosti a drobného protipohy
 Prsty a palcem udìlí¹ ku¾elce potøebnou rychlost do dal¹í otoèky.
 </p>
 
+<p>
+Otáèení kù¾elky mù¾e¹ pou¾ít napøíklad v triku <a href="/zonglovani/kuzely/3/423.html" title="Trik se tøemi míèky">423</a>.
+</p>
 
 </div>
 

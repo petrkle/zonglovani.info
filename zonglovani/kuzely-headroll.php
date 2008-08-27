@@ -19,7 +19,7 @@ titulek(__FILE__);
 <h1><?=$title?></h1>
 
 <p>
-Známé té¾ pod anglickým názvem headroll. Provedení s ku¾elkou je sna¾¹í ne¾ stejný trik s míèkem.
+Známé té¾ pod anglickým názvem <strong>headroll</strong>. Provedení s ku¾elkou je sna¾¹í ne¾ stejný trik s míèkem.
 </p>
 
 <p>

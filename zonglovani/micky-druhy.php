@@ -28,7 +28,7 @@ titulek(__FILE__);
 Nejdostupnìj¹í míèek na ¾onglování. Má dobrou velikost, ale je pøíli¹ lehkı. Zkus ho pro <a href="/zonglovani/micky/jak-zacit.html#jeden" title="Úplnı základ.">zaèátek</a>, ne¾ zjistí¹ jestli tì ¾onglování baví.
 </p>
 
-<h3>©itı míèek</h3>
+<a name="beanbag"><h3>©itı míèek</h3></a>
 <p>
 <a href="/zonglovani/img/s/sity.jpg"><?=img("sity-nahled.jpg","©itı míèek");?></a>
 Míèek se¹itı z nìkolika kusù textilie (ko¾enky, kù¾e, ...), naplnìnı zrnky (rı¾e, proso, fazolky, ...). Jde <a href="vyroba.html#sity" title="Pìkné míèky snadno a rychle.">vyrobit svépomocí</a>.
