@@ -2,7 +2,7 @@
 <trik>
 
     <about>
-	     <nazev>Jeden a pùl otoèky</nazev>
+	     <nazev>Jeden a pùl otoèky - FIXME</nazev>
 		 <pocet>3</pocet>
 	     <siteswaps>3</siteswaps>
 		 <obtiznost>snadné</obtiznost>
@@ -10,8 +10,23 @@
 	</about>
 
 	<krok>
-	    <popisek>FIXME</popisek>
-    </krok>
+	    <popisek>Obtí¾nìj¹í trik se tøemi ku¾ely.</popisek>
+  </krok>
+
+	<krok>
+		<obrazek>jeden-a-pula</obrazek>
+    <popisek>Zaèni tréninkem s jednou ku¾elkou. Vyhoï jí o trochu vý¹ ne¾ obvykle.</popisek>
+  </krok>
+
+	<krok>
+		<obrazek>jeden-a-pulb</obrazek>
+    <popisek>Ku¾elku chytí¹ za ¹patný konec. Ale to je vlastnì správnì. Ryhclým ¹vihem zápìstí ji vrátí¹ do správné polohy.</popisek>
+  </krok>
+
+	<krok>
+		<obrazek>jeden-a-pulc</obrazek>
+    <popisek>Dal¹í hod je zase o trochu vý¹.</popisek>
+  </krok>
 
 
 </trik>

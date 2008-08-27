@@ -2,7 +2,7 @@
 <trik>
 
     <about>
-	     <nazev>Pùl otoèky</nazev>
+	     <nazev>Pùl otoèky - FIXME</nazev>
 		 <pocet>3</pocet>
 	     <siteswaps>3</siteswaps>
 		 <obtiznost>snadné</obtiznost>
@@ -10,8 +10,23 @@
 	</about>
 
 	<krok>
-	    <popisek>FIXME</popisek>
-    </krok>
+    <popisek>Ku¾elky nemusí¹ chytat jen za dr¾adlo.</popisek>
+	</krok>
+
+	<krok>
+		<obrazek>pul-otockya</obrazek>
+		<popisek>Zaèni podobnì jako pøi &lt;a href=&quot;/zonglovani/kuzely/3/kaskada.html&quot; title=&quot;Trik se tøemi ku¾ely.&quot;&gt;kaskádì&lt;/a&gt;. Rozdíl je jen v tom jak moc se ku¾elky otáèí. Je to jen pùl otoèky na jeden hod.</popisek>
+	</krok>
+
+	<krok>
+		<obrazek>pul-otockyb</obrazek>
+		<popisek>První tøi hody chytí¹ jakoby ¹patnì. Za opaènou stranu ku¾elky ne¾ je dr¾adlo. Nic si z toho nedìlej a hoï ku¾elky opìt jen s polovièní rotací.</popisek>
+	</krok>
+
+	<krok>
+		<obrazek>pul-otockyc</obrazek>
+		<popisek>Dal¹í tøi hody jsou z normálního dr¾ení. Plynulé zvládnutí triku ti umo¾ní opravu chyb pøi &lt;a href=&quot;/zonglovani/kuzely/passing/&quot; title=&quot;®onglování ve více lidech.&quot;&gt;passingu&lt;/a&gt;.</popisek>
+	</krok>
 
 
 </trik>

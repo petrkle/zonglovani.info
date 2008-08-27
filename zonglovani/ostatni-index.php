@@ -42,6 +42,11 @@ Otázky na které se lidé èasto ptají v souvislosti s ¾onglováním.
 Kní¾ky o ¾onglování.
 </p>
 
+<h3><a href="/zonglovani/siteswap.html" title="Nìco ke ètení.">Siteswap</a></h3>
+<p>
+Zápis ¾onglování pomocí èísel.
+</p>
+
 <h3><a href="/zonglovani/aczslovnicek.html" title="Nìkolik slovíèek.">Anglicko-èeský ¾onglérský slovníèek</a></h3>
 <p>
 Nìkolik slovíèek které se èasto vyskytují v anglicky psaných textech o ¾onglování.

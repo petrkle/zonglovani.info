@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<trik>
+
+    <about>
+	     <nazev>Výmìny ve ètvercích - FIXME</nazev>
+		 <pocet>12</pocet>
+	     <siteswaps>-</siteswaps>
+		 <obtiznost>tì¾¹í</obtiznost>
+		 <oblast>kuzely-passing</oblast>
+	</about>
+
+
+
+    <krok>
+			<popisek>Trik pro ètyøi ¾ongléry s dvanácti ku¾ely.</popisek>
+    </krok>
+
+
+    <krok>
+			<obrazek>kuzely-passing-vymenya</obrazek>
+			<popisek>První hod je pass. ®onglér &lt;b&gt;A&lt;/b&gt; hází s &lt;b&gt;B&lt;/b&gt; a ¾onglér &lt;b&gt;C&lt;/b&gt; s &lt;b&gt;D&lt;/b&gt;.</popisek>
+    </krok>
+
+    <krok>
+			<obrazek>kuzely-passing-vymenyb</obrazek>
+			<popisek>V¹ichni hází &lt;a href=&quot;4count.html&quot; title=&quot;Základ passování.&quot;&gt;4 count&lt;/a&gt; z pravé ruky. Tím vznikne dost èasu na výmìnu míst. ®ongléøi A a B udìlají krok vpravo. Druhá dvojice se posune vlevo.</popisek>
+    </krok>
+
+    <krok>
+			<obrazek>kuzely-passing-vymenyc</obrazek>
+			<popisek>Druhý pass u¾ je v nové pozici. Dvojice zùstávají zachovány.</popisek>
+    </krok>
+
+    <krok>
+			<popisek>V dal¹ím  kroku si opìt vymìníte místa. Slo¾itìj¹í varianta tohoto triku se jmenuje &lt;a href=&quot;squares.html&quot; title=&quot;Podobný trik.&quot;&gt;rotující ètverce&lt;/a&gt;.</popisek>
+    </krok>
+
+
+
+</trik>
