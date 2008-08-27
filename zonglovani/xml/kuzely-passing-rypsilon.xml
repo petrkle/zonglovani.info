@@ -22,7 +22,7 @@
 
     <krok>
 			<obrazek name="first">kuzely-passing-rypsilonb</obrazek>
-			<popisek>První pass. A hazí B, Bhází C, C hází D a D hází A. Ku¾el ti pøilétá v¾dy od stejného ¾ongléra. Hází¹ také poøád stejnému èlovìku.</popisek>
+			<popisek>První pass. &lt;b&gt;A&lt;/b&gt; hazí &lt;b&gt;B&lt;/b&gt;, &lt;b&gt;B&lt;/b&gt;hází &lt;b&gt;C&lt;/b&gt;, &lt;b&gt;C&lt;/b&gt; hází &lt;b&gt;D&lt;/b&gt; a &lt;b&gt;D&lt;/b&gt; hází &lt;b&gt;A&lt;/b&gt;. Ku¾el ti pøilétá v¾dy od stejného ¾ongléra. Hází¹ také poøád stejnému èlovìku.</popisek>
     </krok>
 
     <krok>

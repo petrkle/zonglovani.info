@@ -16,22 +16,22 @@
 
     <krok>
 			<obrazek>kuzely-passing-prebihani4z11ka</obrazek>
-			<popisek>®onglér C zaèíná se dvìma ku¾ely. První pass A -&gt; C, B -&gt; D, D -&gt; A. ®onglér B má jenom 2 ku¾ely a vyu¾ije to k pøesunu na nové místo.</popisek>
+			<popisek>®onglér &lt;b&gt;C&lt;/b&gt; zaèíná se dvìma ku¾ely. První pass &lt;b&gt;A&lt;/b&gt; -&gt; &lt;b&gt;C&lt;/b&gt;, &lt;b&gt;B&lt;/b&gt; -&gt; &lt;b&gt;D&lt;/b&gt;, &lt;b&gt;D&lt;/b&gt; -&gt; &lt;b&gt;A&lt;/b&gt;. ®onglér &lt;b&gt;B&lt;/b&gt; má jenom 2 ku¾ely a vyu¾ije to k pøesunu na nové místo.</popisek>
     </krok>
 
 
     <krok>
 			<obrazek>kuzely-passing-prebihani4z11kb</obrazek>
-			<popisek>Druhý pass. B se dvìma ku¾ely èeká na pass od C. D -&gt; A, A -&gt; C. D zbudou 2 ku¾ely, tak mù¾e pøebìhnout.</popisek>
+			<popisek>&lt;b&gt;D&lt;/b&gt;ruhý pass. &lt;b&gt;B&lt;/b&gt; se dvìma ku¾ely èeká na pass od &lt;b&gt;C&lt;/b&gt;. &lt;b&gt;D&lt;/b&gt; -&gt; &lt;b&gt;A&lt;/b&gt;, &lt;b&gt;A&lt;/b&gt; -&gt; &lt;b&gt;C&lt;/b&gt;. &lt;b&gt;D&lt;/b&gt; zbudou 2 ku¾ely, tak mù¾e pøebìhnout.</popisek>
     </krok>
 
     <krok>
 			<obrazek>kuzely-passing-prebihani4z11kc</obrazek>
-			<popisek>Pøi tøetím passu hází C -&gt; B, B -&gt; D, A -&gt; C. A zbudou dva ku¾ely a pøesune se.</popisek>
+			<popisek>Pøi tøetím passu hází &lt;b&gt;C&lt;/b&gt; -&gt; &lt;b&gt;B&lt;/b&gt;, &lt;b&gt;B&lt;/b&gt; -&gt; &lt;b&gt;D&lt;/b&gt;, &lt;b&gt;A&lt;/b&gt; -&gt; &lt;b&gt;C&lt;/b&gt;. &lt;b&gt;A&lt;/b&gt; zbudou dva ku¾ely a pøesune se.</popisek>
     </krok>
 
     <krok>
-			<popisek>V dal¹ím kroku pøebìhne ¾onglér C kterému zbudou jen dva ku¾ely. Pak u¾ se cyklus opakuje podle prvního obrázku.</popisek>
+			<popisek>V dal¹ím kroku pøebìhne ¾onglér &lt;b&gt;C&lt;/b&gt; kterému zbudou jen dva ku¾ely. Pak u¾ se cyklus opakuje podle prvního obrázku.</popisek>
     </krok>
 
 

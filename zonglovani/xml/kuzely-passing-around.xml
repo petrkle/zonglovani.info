@@ -16,12 +16,12 @@
 
     <krok>
 			<obrazek>kuzely-passing-aroundsomebodya</obrazek>
-			<popisek>A a B jsou ¾ongléøi. C je dobrovolník okolo kterého budete ¾onglovat. Stoupnìte si stejnì jako kdyby mezi vámi nikdo nebyl.</popisek>
+			<popisek>&lt;b&gt;A&lt;/b&gt; a &lt;b&gt;B&lt;/b&gt; jsou ¾ongléøi. &lt;b&gt;C&lt;/b&gt; je dobrovolník okolo kterého budete ¾onglovat. Stoupnìte si stejnì jako kdyby mezi vámi nikdo nebyl.</popisek>
     </krok>
 
     <krok>
 			<obrazek>kuzely-passing-aroundsomebodyb</obrazek>
-			<popisek>Dobrovolník C se nesmí v ¾ádném pøípadì pohnout. Ku¾ely létají tìsnì okolo nìj.</popisek>
+			<popisek>Dobrovolník &lt;b&gt;C&lt;/b&gt; se nesmí v ¾ádném pøípadì pohnout. Ku¾ely létají tìsnì okolo nìj.</popisek>
     </krok>
 
 

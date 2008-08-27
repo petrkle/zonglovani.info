@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<trik>
+
+    <about>
+	     <nazev>Sloupy ve dvou</nazev>
+		 <pocet>4</pocet>
+	     <siteswaps>-</siteswaps>
+		 <obtiznost>tì¾¹í</obtiznost>
+		 <oblast>kuzely-passing</oblast>
+	</about>
+
+
+	<krok>
+		<popisek>Trik pro dva ¾ongléry se ètyømi ku¾ely.</popisek>
+  </krok>
+
+	<krok>
+		<obrazek>kuzely-passing-sloupya</obrazek>
+		<popisek>®onglér &lt;b&gt;A&lt;/b&gt; stojí vepøedu a zaèíná se dvìma ku¾ely v pravé ruce. &lt;b&gt;A&lt;/b&gt; i &lt;b&gt;B&lt;/b&gt; vyhodí souèasnì ku¾el rovnì nahoru.</popisek>
+	</krok>
+
+	<krok>
+		<obrazek>kuzely-passing-sloupyb</obrazek>
+		<popisek>®onglér &lt;b&gt;B&lt;/b&gt; chytá ku¾el který vyhodil &lt;b&gt;A&lt;/b&gt;. A chytá ku¾el od &lt;b&gt;B&lt;/b&gt;.</popisek>
+	</krok>
+
+	<krok>
+		<obrazek>kuzely-passing-sloupyc</obrazek>
+		<popisek>®onglér &lt;b&gt;A&lt;/b&gt; udìlá prohoz ku¾elek levou rukou.</popisek>
+	</krok>
+
+	<krok>
+		<obrazek>kuzely-passing-sloupyd</obrazek>
+		<popisek>Dal¹í hod je opìt spoleèný. &lt;b&gt;A&lt;/b&gt; hází ku¾el z levé ruky rovnì nahoru. ®onglér &lt;b&gt;B&lt;/b&gt; hází synchronizovanì z pravé ruky.</popisek>
+	</krok>
+
+	<krok>
+		<popisek>Dál se støídáte ve vyhazování a chytání dvou krajních ku¾elù. Ty létají spoleènì nahoru a dolù.</popisek>
+	</krok>
+</trik>

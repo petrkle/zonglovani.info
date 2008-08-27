@@ -16,18 +16,18 @@
 
     <krok>
 			<obrazek>kuzely-passing-feedsa</obrazek>
-			<popisek>®onglér A je nabíjeè. ¾ongluje &lt;a href=&quot;2count.html&quot; title=&quot;Obtí¾nìj¹í trik.&quot;&gt;2 count&lt;/a&gt; První pass hodí B. C zatím vyèkává.</popisek>
+			<popisek>®onglér &lt;b&gt;A&lt;/b&gt; je nabíjeè. ¾ongluje &lt;a href=&quot;2count.html&quot; title=&quot;Obtí¾nìj¹í trik.&quot;&gt;2 count&lt;/a&gt; První pass hodí &lt;b&gt;B&lt;/b&gt;. &lt;b&gt;C&lt;/b&gt; zatím vyèkává.</popisek>
     </krok>
 
 
     <krok>
 			<obrazek>kuzely-passing-feedsb</obrazek>
-			<popisek>Druhá pass je mezi A a C.</popisek>
+			<popisek>Druhá pass je mezi &lt;b&gt;A&lt;/b&gt; a &lt;b&gt;C&lt;/b&gt;.</popisek>
     </krok>
 
     <krok>
 			<obrazek>kuzely-passing-feedsa</obrazek>
-			<popisek>C a B se v passování s A støídají. Oba hází &lt;a href=&quot;4count.html&quot; title=&quot;Základ passování.&quot;&gt;4 count&lt;/a&gt;.</popisek>
+			<popisek>&lt;b&gt;C&lt;/b&gt; a &lt;b&gt;B&lt;/b&gt; se v passování s &lt;b&gt;A&lt;/b&gt; støídají. Oba hází &lt;a href=&quot;4count.html&quot; title=&quot;Základ passování.&quot;&gt;4 count&lt;/a&gt;.</popisek>
     </krok>
 
 </trik>

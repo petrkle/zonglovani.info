@@ -23,26 +23,26 @@
 
     <krok>
 			<obrazek>kuzely-passing-squaresb</obrazek>
-			<popisek>První pass. A hází D a B s C.</popisek>
+			<popisek>První pass. &lt;b&gt;A&lt;/b&gt; hází &lt;b&gt;D&lt;/b&gt; a &lt;b&gt;B&lt;/b&gt; s &lt;b&gt;C&lt;/b&gt;.</popisek>
     </krok>
 
     <krok>
 			<obrazek>kuzely-passing-squaresc</obrazek>
-			<popisek>Za stálého ¾onglování si vymìníte pozice. A postoupí dozadu, B dopøedu. C se pøesunuje doleva a D doprava.</popisek>
+			<popisek>Za stálého ¾onglování si vymìníte pozice. &lt;b&gt;A&lt;/b&gt; postoupí dozadu, &lt;b&gt;B&lt;/b&gt; dopøedu. &lt;b&gt;C&lt;/b&gt; se pøesunuje doleva a &lt;b&gt;D&lt;/b&gt; doprava.</popisek>
     </krok>
 
     <krok>
 			<obrazek>kuzely-passing-squaresd</obrazek>
-			<popisek>Druhý pass. A hází s C a B s D.</popisek>
+			<popisek>Druhý pass. &lt;b&gt;A&lt;/b&gt; hází s &lt;b&gt;C&lt;/b&gt; a &lt;b&gt;B&lt;/b&gt; s &lt;b&gt;D&lt;/b&gt;.</popisek>
     </krok>
 
     <krok>
 			<obrazek>kuzely-passing-squarese</obrazek>
-			<popisek>Dal¹í pøesun. A a B se pøesunují z prava do leva. C a D zepøedu dozadu.</popisek>
+			<popisek>Dal¹í pøesun. &lt;b&gt;A&lt;/b&gt; a &lt;b&gt;B&lt;/b&gt; se pøesunují z prava do leva. &lt;b&gt;C&lt;/b&gt; a &lt;b&gt;D&lt;/b&gt; zepøedu dozadu.</popisek>
     </krok>
 
     <krok>
-			<popisek>V dal¹ích krocích postupujete po vrcholech ètverce. A a B ve smìru hodinových ruèièek. C a D obrácenì.</popisek>
+			<popisek>V dal¹ích krocích postupujete po vrcholech ètverce. &lt;b&gt;A&lt;/b&gt; a &lt;b&gt;B&lt;/b&gt; ve smìru hodinových ruèièek. &lt;b&gt;C&lt;/b&gt; a &lt;b&gt;D&lt;/b&gt; obrácenì.</popisek>
     </krok>
 
 

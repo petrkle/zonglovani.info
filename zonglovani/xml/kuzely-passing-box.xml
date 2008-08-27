@@ -16,13 +16,13 @@
 
     <krok>
 			<obrazek>kuzely-passing-boxa</obrazek>
-			<popisek>Házet zaèíná ¾onglér A spoleènì s B.</popisek>
+			<popisek>Házet zaèíná ¾onglér &lt;b&gt;A&lt;/b&gt; spoleènì s &lt;b&gt;B&lt;/b&gt;.</popisek>
     </krok>
 
 
     <krok>
 			<obrazek>kuzely-passing-boxb</obrazek>
-			<popisek>Støídají se s C a D.</popisek>
+			<popisek>Støídají se s &lt;b&gt;C&lt;/b&gt; a &lt;b&gt;D&lt;/b&gt;.</popisek>
     </krok>
 
     <krok>

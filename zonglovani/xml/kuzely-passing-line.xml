@@ -16,13 +16,13 @@
 
     <krok>
 			<obrazek>kuzely-passing-linea</obrazek>
-			<popisek>Stoupnìte si do øady. ®ongléøi A a B koukají na C. Pohled shora - B stojí trochu stranou.</popisek>
+			<popisek>Stoupnìte si do øady. ®ongléøi &lt;b&gt;A&lt;/b&gt; a &lt;b&gt;B&lt;/b&gt; koukají na &lt;b&gt;C&lt;/b&gt;. Pohled shora - &lt;b&gt;B&lt;/b&gt; stojí trochu stranou.</popisek>
     </krok>
 
 
     <krok>
 			<obrazek>kuzely-passing-lineb</obrazek>
-			<popisek>A hází z pravé ruky pass C na jednu otoèku. C hází na jednu otoèku B. A nakonec to nejtì¾¹í. B hází za záda na dvì otoèky A.</popisek>
+			<popisek>&lt;b&gt;A&lt;/b&gt; hází z pravé ruky pass &lt;b&gt;C&lt;/b&gt; na jednu otoèku. &lt;b&gt;C&lt;/b&gt; hází na jednu otoèku &lt;b&gt;B&lt;/b&gt;. A nakonec to nejtì¾¹í. &lt;b&gt;B&lt;/b&gt; hází za záda na dvì otoèky &lt;b&gt;A&lt;/b&gt;.</popisek>
     </krok>
 
 
