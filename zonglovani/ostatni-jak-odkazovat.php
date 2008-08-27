@@ -52,12 +52,12 @@ Pro vlo¾ení odkazu staèí do tvé stránky zkopírovat jeden z následujících kódù.
 <p>
 <code>
 &lt;a href="http://petrkle.wz.cz/zonglovani/"
- title="Obrázková uèebnice ¾onglování."&gt;&lt;img src="http://petrkle.wz.cz/zonglovani/img/slabikar1.gif" height="31" width="88" border="0" alt="®onglérùv slabikáø." title="®onglérùv slabikáø." /&gt;&lt;/a&gt;
+ title="Obrázková uèebnice ¾onglování."&gt;&lt;img src="http://petrkle.wz.cz/zonglovani/img/s/slabikar1.gif" height="31" width="88" border="0" alt="®onglérùv slabikáø." title="®onglérùv slabikáø." /&gt;&lt;/a&gt;
 </code>
 </p>
 
 <p>
-<a href="/zonglovani/img/slabikar1.gif" title="®onglérùv slabikáø"><img src="/zonglovani/img/slabikar1.gif" height="31" width="88" border="0" style="border: 0;" alt="®onglérùv slabikáø" title="®onglérùv slabikáø" /></a>
+<a href="/zonglovani/img/s/slabikar1.gif" title="®onglérùv slabikáø"><img src="/zonglovani/img/s/slabikar1.gif" height="31" width="88" border="0" style="border: 0;" alt="®onglérùv slabikáø" title="®onglérùv slabikáø" /></a>
 </p>
 
 
@@ -65,11 +65,11 @@ Pro vlo¾ení odkazu staèí do tvé stránky zkopírovat jeden z následujících kódù.
 <p>
 <code>
 &lt;a href="http://petrkle.wz.cz/zonglovani/"
- title="Obrázková uèebnice ¾onglování."&gt;&lt;img src="http://petrkle.wz.cz/zonglovani/img/slabikar2.gif" height="60" width="120" border="0" alt="®onglérùv slabikáø." title="®onglérùv slabikáø." /&gt;&lt;/a&gt;
+ title="Obrázková uèebnice ¾onglování."&gt;&lt;img src="http://petrkle.wz.cz/zonglovani/img/s/slabikar2.gif" height="60" width="120" border="0" alt="®onglérùv slabikáø." title="®onglérùv slabikáø." /&gt;&lt;/a&gt;
 </code>
 </p>
 <p>
-<a href="/zonglovani/img/slabikar2.gif" title="®onglérùv slabikáø"><img src="/zonglovani/img/slabikar2.gif" height="60" width="120" border="0" style="border: 0;" alt="®onglérùv slabikáø" title="®onglérùv slabikáø" /></a>
+<a href="/zonglovani/img/s/slabikar2.gif" title="®onglérùv slabikáø"><img src="/zonglovani/img/s/slabikar2.gif" height="60" width="120" border="0" style="border: 0;" alt="®onglérùv slabikáø" title="®onglérùv slabikáø" /></a>
 </p>
 
 
