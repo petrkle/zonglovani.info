@@ -17,10 +17,18 @@ titulek(__FILE__);
 
 <div id="obsah">
 <h1><?=$title?></h1>
-
 <p>
 <? echo img("siteswapa.png","Základní druhy hodù."); ?>
-Zápis ¾onglování pomocí èísel.
+Zápis ¾onglování pomocí èísel. Jsou to vlastnì takové noty pro ¾onglování. Siteswap vymysleli ¾ongléøi, aby s jejich pomocí <strong>na¹li nové triky</strong>.
+</p>
+<h3>Výhody</h3>
+<p>
+<ul>
+<li>Snadné a pøesné pojmenování triku.</li>
+<li>Usnadnìní komunikace mezi ¾ongléry.</li>
+<li>Platí pro míèky, kruhy i ku¾ely.</li>
+<li>Existují <a href="/zonglovani/software.html" title="Simulátory ¾onglování">poèítaèové programy</a> do kterých napí¹e¹ èíslo a hned uvidí¹ jak trik vypadá.</li>
+</ul>
 </p>
 
 <h3>Základní pravidla</h3>
@@ -30,7 +38,6 @@ Zápis ¾onglování pomocí èísel.
 <li>Ruce se pøi házení støídají.</li>
 <li>Posloupnost èísel se opakuje dokola.</li>
 </ul>
-
 </p>
 
 <h3>0, 1 a 2</h3>
@@ -69,7 +76,7 @@ Dal¹í jednoduchý pøíklad: <a href="/zonglovani/micky/4/fontana.html" title="Zákl
 </pre>
 <p>
 <a href="/zonglovani/micky/4/fontana.html" title="Základní trik se ètyømi míèky."><? echo img("fontanaa.png",""); ?></a>
-Ètyøi míèky musí¹ háze jako asynchronní fontánu. V siteswaps v¹echny sudá èísla zùstávají ve stejné ruce, lichá znaèí hody do druhé ruky.
+Ètyøi míèky musí¹ háze jako asynchronní fontánu. V siteswap v¹echny sudá èísla zùstávají ve stejné ruce, lichá znaèí hody do druhé ruky.
 </p>
 
 <h3>5, 6, ...</h3>
@@ -114,9 +121,26 @@ Trik se jmenuje <a href="/zonglovani/micky/4/sprcha-polovicni.html" title="Trik 
 Seète¹ v¹echny èísla v posloupnosti a vydìlí¹ je délkou posloupnosti. 5+3=8 8/2=4 a tak jde o trik se ètyømi míèky. Jestli¾e nevyjde celé èíslo pak je siteswap ¹patný.
 </p>
 
-<h3>Co nejde pomocí siteswaps zapsat?</h3>
+<h3>Zápis slo¾itìj¹ích trikù</h3>
 <p>
-Siteswaps nerozli¹uje mezi <a href="/zonglovani/micky/3/mm.html" title="Tì¾¹í trik se tøemi míèky.">mills' mess</a> a <a href="/zonglovani/micky/3/kaskada.html" title="Základní trik se tøemi míèky.">kaskádou</a> (napøíklad). Proto¾e se nestará o pohyb rukou, ale o házení míèkù.
+Vyhození dvou míèkù najednou - synchronní hody se znaèí dvìma èísly v závorce. Souèasné vyhození dvou míèkù rovnì nahoru oznaèí¹ jako:
+<pre class="vyrazne">
+[4,4]
+</pre>
+</p>
+
+<p>
+Pøipojení písmene "x" za èíslo znamená hod øí¾em.
+<pre class="vyrazne">
+[4,2x][2x,4]
+</pre>
+</p>
+
+<p>
+Pokud je trik symetrický, mù¾e se zápis zkrátit a oznaèit hvìzdièkou
+<pre class="vyrazne">
+[4,2x]<sup>*</sup>
+</pre>
 </p>
 
 

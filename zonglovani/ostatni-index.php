@@ -44,7 +44,12 @@ Kní¾ky o ¾onglování.
 
 <h3><a href="/zonglovani/siteswap.html" title="Nìco ke ètení.">Siteswap</a></h3>
 <p>
-Zápis ¾onglování pomocí èísel.
+Noty pro ¾onglování. Osvìtlí ti zápis ¾onglování èísly.
+</p>
+
+<h3><a href="/zonglovani/software.html" title="Simulátory ¾onglování.">Simulátory ¾onglování</a></h3>
+<p>
+Poèítaèové programy které kreslí animace ¾onglování.
 </p>
 
 <h3><a href="/zonglovani/aczslovnicek.html" title="Nìkolik slovíèek.">Anglicko-èeský ¾onglérský slovníèek</a></h3>
@@ -77,7 +82,6 @@ Není lehké stát se ¾onglérem.
 Trocha historie.
 </p>
 
-<!-- start -->
 <h3><a href="/zonglovani/odkazy.html" title="Odkazy.">®onglování na síti</a></h3>
 <p>
 Odkazy na dal¹í stránky vìnované ¾onglování.
@@ -87,6 +91,8 @@ Odkazy na dal¹í stránky vìnované ¾onglování.
 <p>
 Pøipravené kódy. Staèí zkopírovat a vlo¾it.
 </p>
+
+<!-- start -->
 
 <h3><a href="../../download/" title="Off-line verze ke sta¾ení.">Download</a></h3>
 <p>

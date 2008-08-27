@@ -26,7 +26,7 @@ titulek(__FILE__);
 <a href="http://zongluj.eu" title="Abryho stránky o ¾onglování.">zongluj.eu</a>
 </dt>
 <dd>
-Abryho stránky o ¾onglování. Pìkné <acronym title="formát GIF">animace ¾onglování</acronym> s míèky. Doplnìno krátkými popisky.
+Abryho stránky o ¾onglování. Animace ¾onglování s míèky. Doplnìné krátkými popisky.
 </dd>
 
 <dt>
@@ -35,7 +35,6 @@ Abryho stránky o ¾onglování. Pìkné <acronym title="formát GIF">animace ¾onglován
 <dd>
 Davidovi stránky o ¾onglování.
 </dd>
-
 
 <dt>
 <a href="http://www.zonglovanie.sk" title="Slovenský server.">zonglovanie.sk</a>
@@ -48,7 +47,7 @@ Skvìlá <a href="literatura.html" title="Dal¹í literatura o ¾onglování.">uèebnice
 <a href="http://didier.arlabosse.free.fr/balles/english/" title="Anglické stránky o ¾onglování.">didier.arlabosse.free.fr/balles/english</a>
 </dt>
 <dd>
-Pìkné <acronym title="formát GIF">animace ¾onglování</acronym> s míèky. Doplnìno krátkými popisky - anglicky a francouzsky.
+Didierovi stránky o ¾onglování - anglicky a francouzsky.
 </dd>
 
 <dt>
@@ -80,40 +79,7 @@ Informace o passování.
 Textové návody na ¾onglování.
 </dd>
 
-
-<dt>
-<a href="http://juggleanim.sourceforge.net/" title="Animace ¾onglování.">JuggleAnim</a>
-</dt>
-<dd>
-Animace ¾onglování pomocí Java apletu.
-</dd>
-
-
-<dt>
-<a href="http://jugglinglab.sourceforge.net/" title="Animace ¾onglování.">Juggling Lab</a>
-</dt>
-<dd>
-Juggling Lab je pokraèovatel JuggleAnim.
-</dd>
-
-
-<dt>
-<a href="http://www.smallsquare.co.uk/jsim.htm" title="Flash Juggling Simulator">JSIM Flash Juggling Simulator</a>
-</dt>
-<dd>
-Simulátor ¾onglování vytvoøený technologí flash.
-</dd>
-
-<dt>
-<a href="http://jugglemaster.net/" title="Jugglemaster">Jugglemaster</a>
-</dt>
-<dd>
-Simulátor ¾onglování i pro kapesní poèítaèe.
-</dd>
-
-
 </dl>
-
 
 <p>
 Spousta pìkných stránek o ¾onglování je v angliètinì. Mo¾ná se ti bude hodit <a href="aczslovnicek.html" title="Anglicko-èeský ¾onglérský slovníèek.">malý slovníèek</a>.
