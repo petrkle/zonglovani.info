@@ -53,27 +53,7 @@ titulek(__FILE__);
 </ul>
 
 <!-- obsah konec -->
-<?
-
-
-
-$novinky=get_news();
-
-if(count($novinky)>0){
-	print "
-<!-- start -->
-";
-foreach($novinky as $novinka){
-	print stripslashes($novinka);
-}
-
-}
-
-print "
-<!-- stop -->
-	";
-
-?> </div>
+</div>
 
 
 

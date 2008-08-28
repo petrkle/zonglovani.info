@@ -118,38 +118,5 @@ function vypis_seznam($jake){
   
 };
 
-function get_news(){
-	$newsdir="news";
-	$now=time();
-
-	if(is_dir($newsdir) and opendir($newsdir)){
-	$vypis=array();
-	$adr=opendir($newsdir);
-	while (false!==($file = readdir($adr))) {
-		if(ereg("^[0-9]{8}\.[0-9]{4}\-[0-9]{8}\.[0-9]{4}\.txt$",$file)){
-			$zrok=substr($file,14,4);
-			$zmesic=substr($file,18,2);
-			$zden=substr($file,20,2);
-			$zhod=substr($file,23,2);
-			$zmin=substr($file,25,2);
-
-			$krok=substr($file,0,4);
-			$kmesic=substr($file,4,2);
-			$kden=substr($file,6,2);
-			$khod=substr($file,9,2);
-			$kmin=substr($file,11,2);
-
-			$zacatek=strtotime("$zrok/$zmesic/$zden $zhod:$zmin:00");
-			$konec=strtotime("$krok/$kmesic/$kden $khod:$kmin:00");
-			if($now>$zacatek and $now<$konec){
-				$vypis["$konec$zacatek"]=file_get_contents("$newsdir/$file");
-			}
-		}
-		};
-	};
-	sort($vypis);
-	return $vypis;
-}
-
 
 ?>
