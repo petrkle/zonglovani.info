@@ -2,7 +2,7 @@
 <trik>
 
     <about>
-	     <nazev>Rybièky - FIXME</nazev>
+	     <nazev>Rybièky</nazev>
 		 <pocet>3</pocet>
 	     <siteswaps>3</siteswaps>
 		 <obtiznost>tì¾¹í</obtiznost>
@@ -10,21 +10,21 @@
 	</about>
 
 	<krok>
-	    <popisek>Obtí¾ný zpùsob házení ku¾elù. Anglicky o¾naèovaný flat.</popisek>
+		<popisek>Obtí¾ný zpùsob házení ku¾elù. Anglicky o¾naèovaný &lt;strong&gt;flat&lt;/strong&gt;.</popisek>
   </krok>
 
 	<krok>
-		<obrazek>flata</obrazek>
+		<obrazek>rybickaa</obrazek>
 		<popisek>Ku¾elku uchop trochu vý¹ ne¾ obvykle. Na rozhraní dr¾adla a tìla. Vy¾aduje to cvik, ale ku¾elu pak jde vyhodit tak, ¾e se netoèí. Letí ve vodorovné poloze. Jako kdy¾ plave ryba ve vodì.</popisek>
 	</krok>
 
 	<krok>
-		<obrazek>flatb</obrazek>
+		<obrazek>rybickab</obrazek>
 		<popisek>Rybièky se tøemi ku¾ely pøi pohledu z boku.</popisek>
 	</krok>
 
 	<krok>
-		<obrazek>flatc</obrazek>
+		<obrazek>rybickac</obrazek>
 		<popisek>Ku¾elky jdou házet na plocho i z obráceného úchopu.</popisek>
 	</krok>
 
