@@ -61,7 +61,7 @@ Královská disciplína ¾onglování. U¾ije¹ si pøi ní nejvíc legrace. Pro passing js
 	<li><a href="runarounds.html" title="snadné">Obíhání</a></li>
 	<li><a href="around.html" title="snadné">®onglování okolo èlovìka</a></li>
 	<li><a href="australsky-trik.html" title="snadné">Australský trik</a> - FIXME</li>
-	<li><a href="sloupy.html" title="snadné">Sloupy ve dvou</a> - FIXME</li>
+	<li><a href="sloupy.html" title="snadné">Sloupy ve dvou</a></li>
 </ul>
 </p>
 
@@ -88,7 +88,7 @@ Královská disciplína ¾onglování. U¾ije¹ si pøi ní nejvíc legrace. Pro passing js
 	<li><a href="line.html" title="tì¾¹í">Øada</a></li>
 	<li><a href="ypsilon.html" title="tì¾¹í">Ypsilon</a></li>
 	<li><a href="bostoncircle.html" title="tì¾¹í">Boston circle</a></li>
-	<li><a href="vymeny.html" title="snadné">Výmìny ve ètvercích</a> - FIXME</li>
+	<li><a href="vymeny.html" title="snadné">Výmìny ve ètvercích</a></li>
 	<li><a href="squares.html" title="tì¾¹í">Rotující ètverce</a></li>
 	<li><a href="rypsilon.html" title="tì¾¹í">Rotující Y</a></li>
 	<li><a href="star.html" title="tì¾¹í">Hvìzda</a></li>
