@@ -15,7 +15,7 @@ echo"
 <div id=\"paticka\">
 <div id=\"dolni\">
 <div>
-<a href=\"/\" title=\"Úvodní stránka serveru petrkle.wz.cz\">Úvodní stránka</a> ~ <a href=\"/mapa-stranek.html\" title=\"Mapa stránek petrkle.wz.cz\">Mapa stránek</a> ~ <a href=\"/kontakt.html\" title=\"Kontakt\">Kontakt</a> ~ <a href=\"/pristupnost.html\" title=\"Prohlá¹ení o pøístupnosti.\">Prohlá¹ení o pøístupnosti</a>
+<a href=\"/\" title=\"Úvodní stránka serveru petrkle.wz.cz\">petrkle.wz.cz</a> ~ <a href=\"/mapa-stranek.html\" title=\"Mapa stránek petrkle.wz.cz\">Mapa stránek</a> ~ <a href=\"/kontakt.html\" title=\"Kontakt\">Kontakt</a> ~ <a href=\"/pristupnost.html\" title=\"Prohlá¹ení o pøístupnosti.\">Prohlá¹ení o pøístupnosti</a>
 </div>
 </div>
 </div>
