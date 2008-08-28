@@ -46,12 +46,13 @@ Juggling Lab je pokraèovatel JuggleAnim.
 Spoøiè obrazovky pro X&nbsp;Window.
 </p>
 
-<!--
-<h3><a href="http://jugglemaster.net/" title="Jugglemaster">Jugglemaster</a></h3>
+<h3><a href="http://jugglemaster.net" title="Jugglemaster">Jugglemaster</a></h3>
 <p>
+<a href="http://jugglemaster.net" title="Jugglemaster"><? echo img("jugglemaster.png","jugglemaster"); ?></a>
 Simulátor ¾onglování i pro kapesní poèítaèe.
 </p>
 
+<!--
 <h3><a href="http://www.smallsquare.co.uk/jsim.htm" title="Flash Juggling Simulator">JSIM Flash Juggling Simulator</a></h3>
 <p>
 Simulátor ¾onglování vytvoøený technologí flash.
