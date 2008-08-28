@@ -2,10 +2,10 @@
 <trik>
 
     <about>
-	     <nazev>Jeden a pùl otoèky - FIXME</nazev>
+	     <nazev>Jeden a pùl otoèky</nazev>
 		 <pocet>3</pocet>
 	     <siteswaps>3</siteswaps>
-		 <obtiznost>snadné</obtiznost>
+		 <obtiznost>obtí¾né</obtiznost>
 		 <oblast>kuzely-3</oblast>
 	</about>
 
@@ -24,8 +24,8 @@
   </krok>
 
 	<krok>
-		<obrazek>jeden-a-pulc</obrazek>
-    <popisek>Dal¹í hod je zase o trochu vý¹.</popisek>
+		<obrazek>jeden-a-pula</obrazek>
+    <popisek>Pak u¾ staèí jen v¹echny tøi ku¾elky v kaskádì házet na jeden a pùl otoèky.</popisek>
   </krok>
 
 
