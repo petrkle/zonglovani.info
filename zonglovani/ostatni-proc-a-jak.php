@@ -19,7 +19,7 @@ titulek(__FILE__);
 <h1><?=$title?></h1>
 
 <p>
-Kdy¾ jsem zaèínal ¾onglovat (zima 2004), hodnì mi pomohly informace z internetu. Bylo snadné najít <a href="/zonglovani/odkazy.html" title="Dal¹í stránky o ¾onglování.">dobré stránky o ¾onglování</a>, ale ¾ádná nebyla èesky!
+Kdy¾ jsem zaèínal ¾onglovat (zima 2004), hodnì mi pomohli informace z internetu. Bylo snadné najít <a href="/zonglovani/odkazy.html" title="Dal¹í stránky o ¾onglování.">dobré stránky o ¾onglování</a>, ale ¾ádná nebyla èesky!
 </p>
 
 <p>Proto zapisuji triky s míèky, kruhy a ku¾ely. Navíc nakreslení obrázkù a popsání triku mi pomáhá pøi uèení. Tak postupnì vznikl ¾onglérùv slabikáø.</p>

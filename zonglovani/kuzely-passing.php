@@ -60,7 +60,7 @@ Královská disciplína ¾onglování. U¾ije¹ si pøi ní nejvíc legrace. Pro passing js
 	<li><a href="2count.html" title="snadné">2 count</a></li>
 	<li><a href="runarounds.html" title="snadné">Obíhání</a></li>
 	<li><a href="around.html" title="snadné">®onglování okolo èlovìka</a></li>
-	<li><a href="australsky-trik.html" title="snadné">Australský trik</a> - FIXME</li>
+	<li><a href="australsky-trik.html" title="snadné">Australský trik</a></li>
 	<li><a href="sloupy.html" title="snadné">Sloupy ve dvou</a></li>
 </ul>
 </p>
