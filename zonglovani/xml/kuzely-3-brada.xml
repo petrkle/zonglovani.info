@@ -2,7 +2,7 @@
 <trik>
 
     <about>
-	     <nazev>Odkládání ku¾elky na bradu - FIXME</nazev>
+	     <nazev>Odkládání ku¾elky na bradu</nazev>
 		 <pocet>3</pocet>
 	     <siteswaps>3</siteswaps>
 		 <obtiznost>snadné</obtiznost>
@@ -14,17 +14,17 @@
   </krok>
 
     <krok>
-			<obrazek>kuzely-3-bradaa</obrazek>
+			<obrazek>bradaa</obrazek>
 			<popisek>Ku¾elku z pravé ruky hoï o trochu vý¹. Tak aby se jednou pomalu otoèila.</popisek>
     </krok>
 
     <krok>
-        <obrazek>kuzely-3-bradab</obrazek>
+        <obrazek>bradab</obrazek>
         <popisek>Ku¾elku chytí¹ nahoøe u hlavy a postaví¹ si jí na bradu. Levou ruku nech nahoøe. Ku¾elka se ti na bradì pomalu nakloní a zaène padat.</popisek>
     </krok>
 
     <krok>
-        <obrazek>kuzely-3-bradac</obrazek>
+        <obrazek>bradac</obrazek>
         <popisek>Tajemství triku se skrývá v házení ku¾elek z pravé ruky do levé. Proto¾e levou ruku má¹ nahoøe u hlavy, postavení ku¾elky na bradu je rychlé a tím získá¹ èas na výmìnu dvou zbylých ku¾elek.</popisek>
     </krok>
 
