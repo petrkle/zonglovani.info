@@ -25,7 +25,7 @@ titulek(__FILE__);
 <h3>Tenisovı míèek</h3>
 <p>
 <a href="/zonglovani/img/t/tenisak.jpg"><?=img("tenisak-nahled.jpg","Tenisovı míèek");?></a>
-Nejdostupnìj¹í míèek na ¾onglování. Má dobrou velikost, ale je pøíli¹ lehkı. Zkus ho pro <a href="/zonglovani/micky/jak-zacit.html#jeden" title="Úplnı základ.">zaèátek</a>, ne¾ zjistí¹ jestli tì ¾onglování baví.
+Nejdostupnìj¹í míèek na ¾onglování. Má dobrou velikost, ale je pøíli¹ lehkı. Zkus ho pro <a href="/zonglovani/micky/jak-zacit.html" title="Úplnı základ.">zaèátek</a>, ne¾ zjistí¹ jestli tì ¾onglování baví.
 </p>
 
 <a name="beanbag"><h3>©itı míèek</h3></a>
