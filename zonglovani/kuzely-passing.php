@@ -85,6 +85,7 @@ Královská disciplína ¾onglování. U¾ije¹ si pøi ní nejvíc legrace. Pro passing js
 	<li><a href="box.html" title="snadné">Ètverec</a></li>
 	<li><a href="trojuhelnik.html" title="snadné">Trojúhelník</a></li>
 	<li><a href="prebihani4z11k.html" title="tì¾¹í">Pøebíhání - 4 ¾ongléøi 11 ku¾elù</a></li>
+	<li><a href="prebihani5z14k.html" title="tì¾¹í">Pøebíhání - 5 ¾onglérù 14 ku¾elù</a></li>
 	<li><a href="line.html" title="tì¾¹í">Øada</a></li>
 	<li><a href="ypsilon.html" title="tì¾¹í">Ypsilon</a></li>
 	<li><a href="bostoncircle.html" title="tì¾¹í">Boston circle</a></li>

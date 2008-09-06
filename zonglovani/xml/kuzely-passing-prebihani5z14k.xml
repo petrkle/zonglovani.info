@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<trik>
+
+    <about>
+	     <nazev>Pøebíhání - 14 ku¾elù 5 ¾ongléøù</nazev>
+		 <pocet>11</pocet>
+	     <siteswaps>-</siteswaps>
+		 <obtiznost>snadné</obtiznost>
+		 <oblast>kuzely-passing</oblast>
+	</about>
+
+
+    <krok>
+			<obrazek>prebihani5a</obrazek>
+			<popisek>Rozestavte se na vrcholy sedmiúhelníku. Dvì místa zùstanou prázdná. ®onglér &lt;b&gt;D&lt;/b&gt; zaèíná se dvìma ku¾ely.</popisek>
+    </krok>
+
+
+    <krok>
+			<obrazek>prebihani5b</obrazek>
+			<popisek>Pøi prvním passu získá ¾onglér &lt;b&gt;D&lt;/b&gt; tøetí ku¾elku. Naopak ¾onglér &lt;b&gt;A&lt;/b&gt; má jen dvì ku¾elky a posune se o jedno místo vedle.</popisek>
+    </krok>
+
+    <krok>
+			<obrazek>prebihani5c</obrazek>
+			<popisek>Pøi dal¹ím passu nevyzbydou tøi ku¾elky na ¾ongléra &lt;b&gt;C&lt;/b&gt; a proto se posune o jedno místé vedle.</popisek>
+    </krok>
+
+    <krok>
+			<popisek>Tak se postupnì prostøídají v¹ichni ¾ongléri. V¹echny passy jsou ob dvì pozice, a mezi stejnými lidmi</popisek>
+    </krok>
+
+
+</trik>
