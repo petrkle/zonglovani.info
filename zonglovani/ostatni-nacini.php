@@ -78,16 +78,19 @@ Cívka uvázaná na provázku.
 
 <h3>Poi-poi</h3>
 <p>
+<?=img("nacinik.png","Poi-poi");?>
 Míèek pøivázaný na provázku (+- 0,5m). Na druhém konci provázku je smyèka pro dr¾ení. Do ka¾dé ruky si vezme¹ jednu poiku a toèí¹ s nimi okolo sebe.
 </p>
 
 <h3>Tenisové rakety</h3>
 <p>
+<?=img("nacinil.png","Tenisová raketa");?>
 Létají skoro stejnì jako ku¾ely. Jen jsou trochu vìt¹í.
 </p>
 
 <h3>Crystal ball</h3>
 <p>
+<?=img("nacinim.png","Crystal ball");?>
 Vìt¹í míèek z umìlé hmoty (polyakrylát ?). Vypadá jako sklenìný. Pou¾ívá se na kontaktní ¾onglování - nehází se sním, ale kutálí se po rukou a jiných èástech tìla.
 </p>
 
@@ -99,6 +102,7 @@ Dal¹í pøedmìt pro kontaktní ¾onglování. Obvykle s knoty na koncích k zapálení.
 
 <h3>©átky</h3>
 <p>
+<?=img("nacinin.png","©átky");?>
 Údajnì sna¾¹í ne¾ míèky. Doporuèované pro úplné zaèáteèníky.
 </p>
 
