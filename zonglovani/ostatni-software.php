@@ -28,6 +28,12 @@ Poèítaèové programy které po zadání triku v <a href="/zonglovani/siteswap.html" 
 Simulátor ¾onglování který zvládá i <a href="/zonglovani/kuzely/passing/" title="¾onglování ve více lidech.">passing</a>.
 </p>
 
+<h3><a href="http://www.koelnvention.de/software/index.html" title="JoePass" class="external">JoePass</a></h3>
+<p>
+<a href="http://www.koelnvention.de/software/index.html" title="JoePass"><? echo img("joepass.png","joepass"); ?></a>
+Simulátor ¾onglování z nìmecka.
+</p>
+
 <h3><a href="http://juggleanim.sourceforge.net" title="Simulátor napsaný v javì." class="external">JuggleAnim</a></h3>
 <p>
 <a href="http://juggleanim.sourceforge.net" title="Animace ¾onglování."><? echo img("juggleanim.png","JuggleAnim"); ?></a>
