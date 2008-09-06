@@ -24,46 +24,55 @@ titulek(__FILE__);
 
 <h3><a href="/zonglovani/micky/" title="®onglování s míèky.">Míèky</a></h3>
 <p>
+<a href="/zonglovani/micky/" title="®onglování s míèky."><?=img("nacinia.png","Míèky");?></a>
 Jsou nejlehèí na nauèení. Staèí vyhazovat do vzduchu a chytat. <a href="/zonglovani/micky/druhy.html" title="Druhy míèkù.">Druhy míèkù</a>.
 </p>
 
 <h3>Skákací míèky</h3>
 <p>
+<?=img("nacinib.png","Skákací míèky.");?>
 Místo vyhazování do vzduchu je odrá¾í¹ o podlahu.
 </p>
 
 <h3><a href="/zonglovani/kruhy/" title="®onglování s kruhy.">Kruhy</a></h3>
 <p>
-Plastové o prùmìru zhruba 35 cm. Jsou vidìt lépe ne¾ míèky. Vhodné i pro passing.
+<a href="/zonglovani/kruhy/" title="®onglování s kruhy."><?=img("nacinic.png","Kruhy");?></a>
+Plastové o prùmìru zhruba 35 cm. Jsou vidìt lépe ne¾ míèky. Vhodné i pro <a href="/zonglovani/kuzely/passing/" title="®onglování ve více lidech">passing</a>.
 </p>
 
 <h3><a href="/zonglovani/kuzely/" title="®onglování s ku¾ely.">Ku¾ely</a></h3>
 <p>
+<a href="/zonglovani/kuzely/" title="®onglování s ku¾ely."><? echo img("nacinid.png","Ku¾ely"); ?></a>
 Ku¾el tvoøí dvì èásti. ©ir¹í - hlava a u¾¹í dr¾adlo. Vyhozením do vzduchu se roztoèí. Zaèátek je tì¾¹í ne¾ s  míèky nebo kruhy.
 </p>
 
 <h3><a href="/zonglovani/kuzely/ohen.html" title="®onglování s ohnìm.">Ohnivé ku¾ely</a></h3>
 <p>
+<a href="/zonglovani/kuzely/ohen.html" title="®onglování s ohnìm."><? echo img("nacinie.png","Hoøící ku¾ely"); ?></a>
 Stejné jako ku¾ely, jen místo ¹ir¹í èásti je knot. Napustí se hoølavinou a zapálí.
 </p>
 
 <h3>Diabolo</h3>
 <p>
+<?=img("nacinif.png","Diabolo");?>
 Cívka kterou roztáèí¹ pomocí provázkù a hùlek.
 </p>
 
 <h3>Devilstick</h3>
 <p>
+<?=img("nacinig.png","Devilstick");?>
 Hùlka kterou udr¾uje¹ ve vzduchu dvìma dal¹ími hùlkami.
 </p>
 
-<h3>Floverstick</h3>
+<h3>Flowerstick</h3>
 <p>
+<?=img("nacinih.png","Flowerstick");?>
 Hùlka která má na koncích tøásnì. Ve vzduchu jí dr¾í¹ pomocí dvou dal¹ích hùlek.
 </p>
 
 <h3>Jo-jo</h3>
 <p>
+<?=img("nacinii.png","Jo-jo");?>
 Cívka uvázaná na provázku.
 </p>
 
@@ -84,6 +93,7 @@ Vìt¹í míèek z umìlé hmoty (polyakrylát ?). Vypadá jako sklenìný. Pou¾ívá se na k
 
 <h3>Tyè</h3>
 <p>
+<?=img("nacinij.png","Tyè");?>
 Dal¹í pøedmìt pro kontaktní ¾onglování. Obvykle s knoty na koncích k zapálení.
 </p>
 
