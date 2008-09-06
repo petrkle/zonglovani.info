@@ -6,7 +6,7 @@ catch-this*http://www.passingzone.com/htmdoc/video/passing%20zone%20reel%20large
 guava-winter-07-08*http://www.youtube.com/watch?v=08-Cv2JPGkSEwY*Guava over winter break 07-08*®onglérky Selby a Anna na zimních prázdninách.
 jen-slaw*http://www.youtube.com/watch?v=jkviK6yV1f0*Jen Slaw Juggling Promo*Ukázka z vystoupení Jennyfer Slaw.
 laurent-phil*http://www.youtube.com/watch?v=bVfX26KIOFs*Laurent et Phil, juggling passing demo*Ukázka umìní dvou francouzských ¾onglérù.
-joe-hague*http://www.youtube.com/watch?v=OJsAMXxtDWQ*Joe Hague Fatboy Slim Juggling Video*Procházka Londýnem s ku¾ely.
+joe-hague*http://www.youtube.com/watch?v=OJsAMXxtDWQ*Joe Hague Fatboy Slim Juggling Video*Procházka Brightnem s ku¾ely.
 juggling-extravaganza*http://www.youtube.com/watch?v=xn95eFgzsYU*Juggling Extravaganza*Passování Bekah Smith a Tio Duermeiera.
 jeremy-perkins-jeremy-fein*http://www.youtube.com/watch?v=MLbMHQnUvbY*Jeremy Perkins and Jeremy Fein Promo 2008*Ukázky z vystoupení.
 all-day-baby*http://www.youtube.com/watch?v=2CDpBgljPaA*All Day Baby!*Dal¹í video z produkce J&J.

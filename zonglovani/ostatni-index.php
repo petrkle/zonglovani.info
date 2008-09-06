@@ -32,6 +32,12 @@ Základní pojmy v ¾onglování.
 ®onglovat mù¾e¹ se spoustou vìcí.
 </p>
 
+<h3><a href="/zonglovani/cirkusove-discipliny.html" title="Cirkusové disciplíny.">Cirkusové disciplíny</a></h3>
+<p>
+Dovednosti které na první pohled nemusí s ¾onglováním souviset.
+</p>
+
+
 <h3><a href="/zonglovani/faq.html" title="FAQ">Èasto kladené otázky</a></h3>
 <p>
 Otázky na které se lidé èasto ptají v souvislosti s ¾onglováním.
