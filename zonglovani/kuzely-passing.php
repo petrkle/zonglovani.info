@@ -96,6 +96,7 @@ Královská disciplína ¾onglování. U¾ije¹ si pøi ní nejvíc legrace. Pro passing js
 	<li><a href="lichobeznik.html" title="tì¾¹í">Lichobì¾ník</a></li>
 	<li><a href="stridavy-lichobeznik.html" title="tì¾¹í">Støídavý lichobì¾ník</a></li>
 	<li><a href="rotor.html" title="tì¾¹í">Rotor</a></li>
+	<li><a href="pivo.html" title="tì¾¹í">Passování s pivem</a></li>
 </ul>
 </p>
 

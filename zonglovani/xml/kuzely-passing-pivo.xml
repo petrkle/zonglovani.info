@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<trik>
+
+    <about>
+	     <nazev>Passování s pivem</nazev>
+		 <pocet>6</pocet>
+	     <siteswaps>-</siteswaps>
+		 <obtiznost>tì¾¹í</obtiznost>
+		 <oblast>kuzely-passing</oblast>
+	</about>
+
+
+    <krok>
+			<popisek>Trik pro tøi ¾ongléry s ¹esti ku¾ely a lahví piva. Postupnì si v¹ichni tøi házíte kutelky a pøedáváte láhev piva. ®onglér s lavní se z ní napije.</popisek>
+    </krok>
+
+    <krok>
+			<obrazek>pivoa</obrazek>
+			<popisek>&lt;b&gt;POZOR!&lt;/b&gt; Tento trik je pouze pro star¹í osmnácti let.</popisek>
+    </krok>
+
+
+    <krok>
+			<obrazek>pivob</obrazek>
+			<popisek>®ongléøi &lt;b&gt;A&lt;/b&gt; a &lt;b&gt;B&lt;/b&gt; zaèínají se tøemi ku¾ely. &lt;b&gt;C&lt;/b&gt; má pivo které v dal¹ím kroku pøedá ¾onglérovi &lt;b&gt;B&lt;/b&gt;. Pøedtím se ale je¹tì napije.</popisek>
+    </krok>
+
+    <krok>
+			<obrazek>missing</obrazek>
+			<popisek>Dal¹í prùbìh tohoto triku si bohu¾el napamatuju úplnì pøesnì. Ka¾dopádnì koordinace pohybù je velmi obtí¾ná.</popisek>
+    </krok>
+
+		<krok>
+			<popisek>A¾ jednou vymìním pivo za limonádu, tak tento návod doplním.</popisek>
+		</krok>
+
+
+</trik>
