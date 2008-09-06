@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<trik>
+
+    <about>
+	     <nazev>Lichobì¾ník</nazev>
+		 <pocet>12</pocet>
+	     <siteswaps>-</siteswaps>
+		 <obtiznost>snadné</obtiznost>
+		 <oblast>kuzely-passing</oblast>
+	</about>
+
+
+    <krok>
+			<popisek>Trik pro ètyøi ¾ongléry a dvanáct ku¾elù. V¹ichni hází &lt;a href=&quot;4count.html&quot; title=&quot;Základ passování.&quot;&gt;4&nbsp;count&lt;/a&gt; z pravé ruky.</popisek>
+    </krok>
+
+    <krok>
+			<obrazek>lichobeznika</obrazek>
+			<popisek>První pass há¾i ¾ongléri &lt;b&gt;A&lt;/b&gt; a &lt;b&gt;B&lt;/b&gt; rovnobì¾nì s &lt;b&gt;C&lt;/b&gt; a &lt;b&gt;D&lt;/b&gt;.</popisek>
+    </krok>
+
+
+    <krok>
+			<obrazek>lichobeznikb</obrazek>
+			<popisek>Druhý pass je køí¾em. ®ongléøi  &lt;b&gt;A&lt;/b&gt; hází s &lt;b&gt;D&lt;/b&gt;. A ¾onglér &lt;b&gt;B&lt;/b&gt; s &lt;b&gt;C&lt;/b&gt;. Rùzná vzdálenost ¾onglérù zpùsobí, ¾e se ku¾ely nesrazí. </popisek>
+    </krok>
+
+    <krok>
+			<popisek>Zku¹enìj¹í ¾ongléøi mohou vyzkou¹et rychlej¹í rytmus - &lt;a href=&quot;2count.html&quot; title=&quot;Základ passování.&quot;&gt;2&nbsp;count&lt;/a&gt; nebo &lt;a href=&quot;stridavy-lichobeznik.html&quot; title=&quot;Podobný trik.&quot;&gt;støídavý lichobì¾ník&lt;/a&gt;.</popisek>
+    </krok>
+
+
+
+</trik>
