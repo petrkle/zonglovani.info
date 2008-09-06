@@ -19,7 +19,7 @@ titulek(__FILE__);
 <h1><?=$title?></h1>
 
 <p>
-®onglovat mù¾e¹ se spoustou vìcí.
+®onglovat mù¾e¹ se spoustou vìcí. A mnoha <a href="/zonglovani/druhy-zonglovani.html" title="Druhy ¾onglování.">rùznými zpùsoby</a>.
 </p>
 
 <h3><a href="/zonglovani/micky/" title="®onglování s míèky.">Míèky</a></h3>

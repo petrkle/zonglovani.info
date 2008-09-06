@@ -40,7 +40,7 @@ titulek(__FILE__);
 <a href="/zonglovani/kuzely/jak-zacit.html" title="Jak zaèít ¾onglovat s ku¾ely.">Zaèít ¾onglovat s ku¾ely</a> je trochu tì¾¹í ne¾ s míèky. Odmìnou ti bude úplnì nový pohled na ¾onglování. 
 </p>
 
-<h3><a href="/zonglovani/kuzely/passing/" title="®onglování s ku¾ely.">Passing</a> - ¾onglování ve více lidech</h3>
+<h3><a href="/zonglovani/kuzely/passing/" title="®onglování ve více lidech.">Passing</a> - ¾onglování ve více lidech</h3>
 <p>
 <a href="/zonglovani/kuzely/passing/" title="®onglování ve více lidech."><? echo img("intro-passing.png","Passing"); ?></a>
 Královská disciplína ¾onglování. U¾ije¹ si pøi ní nejvíc legrace.

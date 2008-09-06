@@ -37,7 +37,7 @@ Je minimálnì o polovinu skladnìj¹í ne¾ obyèejné jízdní kolo. Existují i teréní v
 
 <h3><a href="/zonglovani/chudy/" title="®onglování na chùdách">Chùdy</a></h3>
 <p>
-<?=img("cirkusc.png","Chùdy");?>
+<a href="/zonglovani/chudy/" title="®onglování na chùdách"><?=img("cirkusc.png","Chùdy");?></a>
 Diváci milují chùdy. Hlavnì proto¾e jsou v¹ichni zvìdaví kdy chùdaø spadnì a ¹erednì si natluèe. <a href="/zonglovani/chudy/" title="Návod na výrobu chùd.">Návod na výrobu chùd</a>.
 </p>
 
