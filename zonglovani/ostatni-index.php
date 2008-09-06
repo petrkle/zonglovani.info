@@ -98,6 +98,11 @@ Trocha historie.
 Odkazy na dal¹í stránky vìnované ¾onglování.
 </p>
 
+<h3><a href="/zonglovani/myty-omyly.html" title="Mýty a omyly o ¾onglování.">Mýty a omyly</a></h3>
+<p>
+Mýty a omyly o ¾onglování.
+</p>
+
 <h3><a href="/zonglovani/jak-odkazovat.html" title="Odkazy na tyto stránky.">Jak odkazovat na ¾onglérùv slabikáø</a></h3>
 <p>
 Pøipravené kódy. Staèí zkopírovat a vlo¾it.
