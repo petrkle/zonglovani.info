@@ -33,9 +33,12 @@ foreach($allvideos as $video){
 	$description=$video[3];
 	if(ereg("^http://www\.youtube\.com/watch\?v=",$url)){
 		$url="$id.html";	
+		$class="";
+	}else{
+		$class=" class=\"external\"";
 	}
 
-print "<dt><a href=\"$url\">$title</a></dt>";
+print "<dt><a href=\"$url\" title=\"$title\"$class>$title</a></dt>";
 print "<dd>$description</dd>";
 }
 ?>

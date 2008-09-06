@@ -261,3 +261,8 @@ dd {
 .vyrazne {
 	font-weight: bold;
 }
+
+.external {
+	background: url("img/e/external.png") 100% 50% no-repeat;
+	padding-right: 16px;
+}

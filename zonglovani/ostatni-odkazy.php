@@ -23,49 +23,49 @@ titulek(__FILE__);
 <dl>
 
 <dt>
-<a href="http://zongluj.eu" title="Abryho stránky o ¾onglování.">zongluj.eu</a>
+<a href="http://zongluj.eu" title="Abryho stránky o ¾onglování." class="external">zongluj.eu</a>
 </dt>
 <dd>
 Abryho stránky o ¾onglování. Animace ¾onglování s míèky. Doplnìné krátkými popisky.
 </dd>
 
 <dt>
-<a href="http://www.zongluj.wz.cz/juggle.php?page=novinky" title="zongluj.wz.cz">zongluj.wz.cz</a>
+<a href="http://www.zongluj.wz.cz/juggle.php?page=novinky" title="zongluj.wz.cz class="external"">zongluj.wz.cz</a>
 </dt>
 <dd>
 Davidovi stránky o ¾onglování.
 </dd>
 
 <dt>
-<a href="http://www.zonglovanie.sk" title="Slovenský server.">zonglovanie.sk</a>
+<a href="http://www.zonglovanie.sk" title="Slovenský server." class="external">zonglovanie.sk</a>
 </dt>
 <dd>
 Skvìlá <a href="literatura.html" title="Dal¹í literatura o ¾onglování.">uèebnice ¾onglování</a> pro samouky. Dostupná ve formátu pdf.
 </dd>
 
 <dt>
-<a href="http://didier.arlabosse.free.fr/balles/english/" title="Anglické stránky o ¾onglování.">didier.arlabosse.free.fr/balles/english</a>
+<a href="http://didier.arlabosse.free.fr/balles/english/" title="Anglické stránky o ¾onglování." class="external">didier.arlabosse.free.fr/balles/english</a>
 </dt>
 <dd>
 Didierovi stránky o ¾onglování - anglicky a francouzsky.
 </dd>
 
 <dt>
-<a href="http://www.jugglingdb.com" title="Anglické stránky o ¾onglování.">Internet Juggling Database</a>
+<a href="http://www.jugglingdb.com" title="Anglické stránky o ¾onglování." class="external">Internet Juggling Database</a>
 </dt>
 <dd>
 Bezedná studna informací o ¾onglování.
 </dd>
 
 <dt>
-<a href="http://www.juggling.org/" title="Anglické stránky o ¾onglování.">Juggling Information Service</a>
+<a href="http://www.juggling.org/" title="Anglické stránky o ¾onglování." class="external">Juggling Information Service</a>
 </dt>
 <dd>
 Informace pro ¾ongléry.
 </dd>
 
 <dt>
-<a href="http://www.passingdb.com/" title="Anglické stránky o ¾onglování.">passingdb.com</a>
+<a href="http://www.passingdb.com/" title="Anglické stránky o ¾onglování." class="external">passingdb.com</a>
 </dt>
 <dd>
 Informace o passování.
@@ -73,7 +73,7 @@ Informace o passování.
 
 
 <dt>
-<a href="http://www.twjc.co.uk/tutorials.html" title="Anglické stránky o ¾onglování.">Tunbridge Wells Juggling Club Tutorials</a>
+<a href="http://www.twjc.co.uk/tutorials.html" title="Anglické stránky o ¾onglování." class="external">Tunbridge Wells Juggling Club Tutorials</a>
 </dt>
 <dd>
 Textové návody na ¾onglování.
