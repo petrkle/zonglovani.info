@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<trik>
+
+    <about>
+	     <nazev>Rotor</nazev>
+		 <pocet>12</pocet>
+	     <siteswaps>-</siteswaps>
+		 <obtiznost>snadné</obtiznost>
+		 <oblast>kuzely-passing</oblast>
+	</about>
+
+
+    <krok>
+			<popisek>Tøi ¾ongléøi stojí do trojúhelníku. Ètvrtý ¾onglér je mezi nimy a otáèí se. V¹ichni ¾ongléøi mají tøi ku¾ely a hází &lt;a href=&quot;4count.html&quot; title=&quot;Základ passování.&quot;&gt;4&nbsp;count&lt;/a&gt; z pravé ruky.</popisek>
+    </krok>
+
+    <krok>
+			<obrazek>rotora</obrazek>
+			<popisek>První pss hází ¾onglér &lt;b&gt;A&lt;/b&gt; s &lt;b&gt;B&lt;/b&gt;. Zárovìò si &lt;b&gt;B&lt;/b&gt; vymìòuje ku¾elku s &lt;b&gt;C&lt;/b&gt;.</popisek>
+    </krok>
+
+    <krok>
+			<obrazek>rotorb</obrazek>
+			<popisek>Druhý pass. Zatímco &lt;b&gt;A&lt;/b&gt;, &lt;b&gt;B&lt;/b&gt; a &lt;b&gt;C&lt;/b&gt; hází do &lt;a href=&quot;trojuhelnik.html&quot; title=&quot;Trik pro tøi ¾ongléry.&quot;&gt;trojúhelníku&lt;/a&gt;. Má ¾onglér &lt;b&gt;D&lt;/b&gt; èas na pootoèní.</popisek>
+    </krok>
+
+    <krok>
+			<obrazek>rotorc</obrazek>
+			<popisek>V nové pozici passuje &lt;b&gt;D&lt;/b&gt; s &lt;b&gt;B&lt;/b&gt;. A ¾onglér &lt;b&gt;A&lt;/b&gt; s &lt;b&gt;C&lt;/b&gt;.</popisek>
+    </krok>
+
+    <krok>
+			<obrazek>rotord</obrazek>
+			<popisek>Vnìj¹í ¾ongléøi opìt hází trojúhelník a ¾onglér &lt;b&gt;D&lt;/b&gt; se pootoèí.</popisek>
+    </krok>
+
+		<krok>
+			<popisek>K dokonèení cyklu zbývá pass mezi prostøedním ¾onglérem &lt;b&gt;D&lt;/b&gt; a krajním ¾onglérém &lt;b&gt;C&lt;/b&gt;.</popisek>
+		</krok>
+
+		<krok>
+			<popisek>Pokud se ¾onglér &lt;b&gt;D&lt;/b&gt; otáèí dostateènì rychle, je mo¾né vynechat házení do trojúhelníku. Pak spolu passují v¾dy dvì dvojice.</popisek>
+		</krok>
+
+</trik>
