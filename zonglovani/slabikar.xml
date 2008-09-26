@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="iso-8859-2"?>
+<!DOCTYPE rss PUBLIC "-//Netscape Communications//DTD RSS 0.91//EN" "http://my.netscape.com/publish/formats/rss-0.91.dtd">
+<rss version="0.91">
+  <channel>
+    <title>Žonglérův slabikář</title>
+		<link>http://petrkle.wz.cz/zonglovani/</link>
+    <description>Učebnice žonglování se spoustou barevných obrázků.</description>
+    <language>cs</language>
+    <image>
+      <title>Žonglérův slabikář</title>
+			<url>http://petrkle.wz.cz/zonglovani/img/l/logo.gif</url>
+			<link>http://petrkle.wz.cz/zonglovani/</link>
+      <width>442</width>
+      <height>71</height>
+      <description>Žonglérův slabikář</description>
+    </image>
+    <item>
+       <title>Siteswap</title>
+			 <link>http://petrkle.wz.cz/zonglovani/siteswap.html</link>
+       <description>Zápis žonglování pomocí čísel.</description>
+    </item>
+    <item>
+       <title>Passování s pivem</title>
+			 <link>http://petrkle.wz.cz/zonglovani/kuzely/passing/pivo.html</link>
+       <description>Trik pro tři žongléry s šesti kužely a lahví piva.</description>
+    </item>
+    <item>
+       <title>Lichoběžník</title>
+       <link>http://petrkle.wz.cz/zonglovani/kuzely/passing/lichobeznik.html</link>
+			 <description>Trik pro čtyři žongléry a dvanáct kuželů.</description>
+    </item>
+    <item>
+       <title>Střídavý lichoběžník</title>
+       <link>http://petrkle.wz.cz/zonglovani/kuzely/passing/stridavy-lichobeznik.html</link>
+			 <description>Trik pro čtyři žongléry a dvanáct kuželů.</description>
+    </item>
+    <item>
+       <title>Rotor</title>
+       <link>http://petrkle.wz.cz/zonglovani/kuzely/passing/rotor.html</link>
+			 <description>Trik s kužely pro čtyři žongléry.</description>
+    </item>
+    <item>
+       <title>Přebíhání - 5 žonglérů</title>
+       <link>http://petrkle.wz.cz/zonglovani/kuzely/passing/prebihani5z14k.html</link>
+			 <description>Trik pro pět žonglérů.</description>
+    </item>
+  </channel>
+</rss>
