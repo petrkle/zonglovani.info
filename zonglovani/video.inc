@@ -14,3 +14,5 @@ vova-olga*http://www.youtube.com/watch?v=b4RAx9BWc-w*Vova and Olga Galchenko 7+ 
 giraffe-theory*http://www.youtube.com/watch?v=xaf4Ee9WCdA*Giraffe Theory Juggling Glow Clubs*Nejen ¾onglování se svítícími ku¾ely. Uvidíte i jak <a href="/zonglovani/kuzely/passing/pickup.html" title="Zvednutí spadlého ku¾elu">zvednout spadlou ku¾elku</a>.
 passing-st-louis*http://www.youtube.com/watch?v=pXs2cjlHZng*Passing Fancy at St. Louis Jugglefest 2007*Záznam vystoupení na festivalu v St. Louis.
 jonglage-macabre*http://www.youtube.com/watch?v=hMtzQhzOvIw*Jonglage Macabre*Záznam ¾onglérského pøedstavení. Passing ve tøech.
+hocus-pocus*http://www.youtube.com/watch?v=0h51lXT6tNk*Hocus Pocus*Pøedstavení z "Festival du nez rouge".
+les-bebes*http://www.youtube.com/watch?v=exsEDu0cgw8*Les Bébés*Dva komici z Francie.
