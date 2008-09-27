@@ -38,7 +38,7 @@ Je minimálnì o polovinu skladnìj¹í ne¾ obyèejné jízdní kolo. Existují i teréní v
 <h3><a href="/zonglovani/chudy/" title="®onglování na chùdách">Chùdy</a></h3>
 <p>
 <a href="/zonglovani/chudy/" title="®onglování na chùdách"><?=img("cirkusc.png","Chùdy");?></a>
-Diváci milují chùdy. Hlavnì proto¾e jsou v¹ichni zvìdaví kdy chùdaø spadnì a ¹erednì si natluèe. <a href="/zonglovani/chudy/" title="Návod na výrobu chùd.">Návod na výrobu chùd</a>.
+Diváci milují chùdy. Hlavnì proto¾e jsou v¹ichni zvìdaví kdy chùdaø spadne a ¹erednì si natluèe. <a href="/zonglovani/chudy/" title="Návod na výrobu chùd.">Návod na výrobu chùd</a>.
 </p>
 
 <h3>Skákací boty</h3>
@@ -57,7 +57,7 @@ Klasické cirkusové èíslo. Vy¾aduje pevné svaly i nervy.
 <h3>Hula-hop kruh</h3>
 <p>
 <?=img("cirkusf.png","Hula-hop kruh");?>
-Plastová obruè kterou udr¾uje¹ v pohybu. Roztáèet mù¾e¹ i nìkolk obruèí najednou.
+Plastová obruè kterou udr¾uje¹ v pohybu. Roztáèet mù¾e¹ i nìkolik obruèí najednou.
 </p>
 
 <h3>Rola-bola</h3>
