@@ -58,6 +58,13 @@ Anglická kní¾ka kterou sepsal Hans Vanwynsberghe. Nedokonèená, ale i pøesto výbo
 Sbírka trikù pro passování. Sestavil Mark Weston.
 </p>
 
+<a name="poi"><h3><a href="http://valur.us/Poi/Poi.pdf" title="Toèení s poi." class="external">Poi</a></h3></a>
+<p>
+<a href="http://valur.us/Poi/Poi.pdf" title="Poi"><? echo img("poi.png","Poi - úvod"); ?></a>
+Kní¾ka o toèení s poi od Richeeho.
+</p>
+
+
 
 
 </div>
