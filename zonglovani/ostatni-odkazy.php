@@ -30,7 +30,7 @@ Abryho stránky o ¾onglování. Animace ¾onglování s míèky. Doplnìné krátkými popis
 </dd>
 
 <dt>
-<a href="http://www.zongluj.wz.cz/juggle.php?page=novinky" title="zongluj.wz.cz class="external"">zongluj.wz.cz</a>
+<a href="http://www.zongluj.wz.cz/juggle.php?page=novinky" title="zongluj.wz.cz" class="external">zongluj.wz.cz</a>
 </dt>
 <dd>
 Davidovi stránky o ¾onglování.
