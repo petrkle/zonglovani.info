@@ -42,7 +42,6 @@ function hlavicka($titulek){
 	<style media=\"screen,projection\" type=\"text/css\">@import url(/zonglovani/zonglovani.css);</style>
 	<style media=\"print\" type=\"text/css\">@import url(/zonglovani/zonglovani-tisk.css);</style>
 	<meta name=\"robots\" content=\"index,follow\" />
-  <link rel=\"alternate\" type=\"application/rss+xml\" title=\"®onglérùv slabikáø - obrázková uèebnice ¾onglování\" href=\"/zonglovani/slabikar.xml\" />
 </head>
 <body>
 ");
