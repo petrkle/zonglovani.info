@@ -17,3 +17,4 @@ jonglage-macabre*http://www.youtube.com/watch?v=hMtzQhzOvIw*Jonglage Macabre*Záz
 hocus-pocus*http://www.youtube.com/watch?v=0h51lXT6tNk*Hocus Pocus*Pøedstavení z "Festival du nez rouge".
 les-bebes*http://www.youtube.com/watch?v=exsEDu0cgw8*Les Bébés*Dva komici z Francie.
 jeff-wes*http://www.jugglethis.net/filemgmt/singlefile.php?lid=526*Jeff Lutkus & Wes Peden*Video z roku 2006.
+prechac-weaves*http://www.juggling.tv/vaults/video/PrechacWeaves.mov*Prechac Weaves*Propletené ¾onglování.
