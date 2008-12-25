@@ -1,5 +1,4 @@
 <?php
-require("hlavicka.inc");
 if(isset($_GET["v"])){
 	$v=trim($_GET["v"]);
 }else{
@@ -25,10 +24,11 @@ foreach($allvideos as $video){
 }
 
 if(!$exist){
-	header("Location: /zonglovani/video/");
+	require("404.inc");
 	exit();
 }
 
+require("hlavicka.inc");
 $url=explode("watch?v=",$url);
 $url=$url[1];
 

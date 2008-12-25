@@ -10,11 +10,10 @@ joe-hague*http://www.youtube.com/watch?v=OJsAMXxtDWQ*Joe Hague Fatboy Slim Juggl
 juggling-extravaganza*http://www.youtube.com/watch?v=xn95eFgzsYU*Juggling Extravaganza*Passování Bekah Smith a Tio Duermeiera.
 jeremy-perkins-jeremy-fein*http://www.youtube.com/watch?v=MLbMHQnUvbY*Jeremy Perkins and Jeremy Fein Promo 2008*Ukázky z vystoupení.
 all-day-baby*http://www.youtube.com/watch?v=2CDpBgljPaA*All Day Baby!*Dal¹í video z produkce J&J.
-vova-olga*http://www.youtube.com/watch?v=b4RAx9BWc-w*Vova and Olga Galchenko 7+ Club Team passing WJF*Sourozenci Vova a Olga Galchenko na soutì¾i WJF (World Juggling Federation).
 giraffe-theory*http://www.youtube.com/watch?v=xaf4Ee9WCdA*Giraffe Theory Juggling Glow Clubs*Nejen ¾onglování se svítícími ku¾ely. Uvidíte i jak <a href="/zonglovani/kuzely/passing/pickup.html" title="Zvednutí spadlého ku¾elu">zvednout spadlou ku¾elku</a>.
-passing-st-louis*http://www.youtube.com/watch?v=pXs2cjlHZng*Passing Fancy at St. Louis Jugglefest 2007*Záznam vystoupení na festivalu v St. Louis.
 jonglage-macabre*http://www.youtube.com/watch?v=hMtzQhzOvIw*Jonglage Macabre*Záznam ¾onglérského pøedstavení. Passing ve tøech.
 hocus-pocus*http://www.youtube.com/watch?v=0h51lXT6tNk*Hocus Pocus*Pøedstavení z "Festival du nez rouge".
 les-bebes*http://www.youtube.com/watch?v=exsEDu0cgw8*Les Bébés*Dva komici z Francie.
 jeff-wes*http://www.jugglethis.net/filemgmt/singlefile.php?lid=526*Jeff Lutkus & Wes Peden*Video z roku 2006.
 prechac-weaves*http://www.juggling.tv/vaults/video/PrechacWeaves.mov*Prechac Weaves*Propletené ¾onglování.
+more-or-less*http://www.youtube.com/watch?v=yTtm-K3QV_Y*More or less juggling*Více nebo ménì ¾onglování.
