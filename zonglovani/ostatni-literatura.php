@@ -36,7 +36,7 @@ Výborná kní¾ka o ¾onglování s míèky od Carlieho Dancey. Obsahuje spoustou pìknýc
 
 <h3><a href="http://www.butterfingers.co.uk" title="Stránky vydavatele." class="external">Compendium of Club Juggling</a></h3>
 <p>
-<a href="http://www.butterfingers.co.uk" title="Stránky vydavatele." class="external"><? echo img("compendium.jpg","Compendium of Club Juggling - obálka"); ?></a>
+<a href="http://www.butterfingers.co.uk" title="Stránky vydavatele."><? echo img("compendium.jpg","Compendium of Club Juggling - obálka"); ?></a>
 Napsal Charlie Dancey. V této kní¾ce je v¹e o ¾onglování s ku¾ely. Obsahuje spoustou pìkných obrázkù, díky tomu nemusí¹ ani umìt anglicky a pøesto témìø v¹e pochopí¹. Vhodné pro zaèáteèníky i pokroèilé.
 </p>
 	

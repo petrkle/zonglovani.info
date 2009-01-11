@@ -17,3 +17,4 @@ les-bebes*http://www.youtube.com/watch?v=exsEDu0cgw8*Les Bébés*Dva komici z Fran
 jeff-wes*http://www.jugglethis.net/filemgmt/singlefile.php?lid=526*Jeff Lutkus & Wes Peden*Video z roku 2006.
 prechac-weaves*http://www.juggling.tv/vaults/video/PrechacWeaves.mov*Prechac Weaves*Propletené ¾onglování.
 more-or-less*http://www.youtube.com/watch?v=yTtm-K3QV_Y*More or less juggling*Více nebo ménì ¾onglování.
+take-it-out-3*http://www.youtube.com/watch?v=0LArzv9Trmk*Take It Out 3#*Lukas Schütte a Christof Buch - jsou prostì dobøí.
