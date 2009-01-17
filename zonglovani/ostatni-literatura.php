@@ -40,22 +40,10 @@ Výborná kní¾ka o ¾onglování s míèky od Carlieho Dancey. Obsahuje spoustou pìknýc
 Napsal Charlie Dancey. V této kní¾ce je v¹e o ¾onglování s ku¾ely. Obsahuje spoustou pìkných obrázkù, díky tomu nemusí¹ ani umìt anglicky a pøesto témìø v¹e pochopí¹. Vhodné pro zaèáteèníky i pokroèilé.
 </p>
 	
-<h3><a href="http://www.cincyclubclub.com/passing_patterns.html" title="Triky pro passing." class="external">Juggling in your Right Mind</a></h3>
-<p>
-<a href="http://www.cincyclubclub.com/passing_patterns.html" title="Triky pro passing."><? echo img("juggling-in-your-right-mind.jpg","Juggling in your Right Mind - obálka"); ?></a>
-Sbírka trikù pro <a href="/zonglovani/kuzely/passing/" title="Základy passingu">passing</a> které sepsal Lee Kolinsky.
-</p>
-
 <h3><a href="http://www.circusplanet.net/addicted/addicted-hans-vanwynsberghe.pdf" title="®onglování s míèky a ku¾ely." class="external">Addicted to ball and club juggling</a></h3>
 <p>
 <a href="http://www.circusplanet.net/addicted/addicted-hans-vanwynsberghe.pdf" title="Addicted to ball and club juggling"><? echo img("addicted.gif","Addicted to ball and club juggling - obálka"); ?></a>
 Anglická kní¾ka kterou sepsal Hans Vanwynsberghe. Nedokonèená, ale i pøesto výborná.
-</p>
-
-<h3><a href="http://www.varietyartsdirectory.com/resources/PassingPatternsAug06.pdf" title="Passovací triky." class="external">Passing Patterns Compendium</a></h3>
-<p>
-<a href="http://www.varietyartsdirectory.com/resources/PassingPatternsAug06.pdf" title="Passing Patterns Compendium"><? echo img("ppcompendium.jpg","Passing Patterns Compendium - obálka"); ?></a>
-Sbírka trikù pro passování. Sestavil Mark Weston.
 </p>
 
 <a name="poi"><h3><a href="http://valur.us/Poi/Poi.pdf" title="Toèení s poi." class="external">Poi</a></h3></a>
