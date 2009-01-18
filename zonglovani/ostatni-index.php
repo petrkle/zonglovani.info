@@ -110,7 +110,7 @@ Pøipravené kódy. Staèí zkopírovat a vlo¾it.
 
 <!-- start -->
 
-<h3><a href="../../download/" title="Off-line verze ke sta¾ení.">Download</a></h3>
+<h3><a href="../../download/zongleruv-slabikar.tar.bz2" title="Off-line verze ke sta¾ení." onclick="pageTracker._trackPageview('/download/zongleruv-slabikar.tar.bz2');">Download</a></h3>
 <p>
 Off-line verze ¾onglérova slabikáøe.
 </p>
