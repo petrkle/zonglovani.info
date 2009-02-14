@@ -71,6 +71,20 @@ Informace pro ¾ongléry.
 Informace o passování.
 </dd>
 
+<dt>
+<a href="http://juggling.tv" title="Anglické stránky o ¾onglování." class="external" onclick="pageTracker._trackPageview('/goto/juggling.tv');">juggling.tv</a>
+</dt>
+<dd>
+®onglérská televize.
+</dd>
+
+<dt>
+<a href="http://juggletube.com" title="Anglické stránky o ¾onglování." class="external" onclick="pageTracker._trackPageview('/goto/juggletube.com">juggletube.com</a>
+</dt>
+<dd>
+Stránka plná ¾onglérského videa.
+</dd>
+
 
 <dt>
 <a href="http://www.twjc.co.uk/tutorials.html" title="Anglické stránky o ¾onglování." class="external" onclick="pageTracker._trackPageview('/goto/twjc.co.uk');">Tunbridge Wells Juggling Club Tutorials</a>

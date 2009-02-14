@@ -29,8 +29,6 @@ if(!$exist){
 }
 
 require("hlavicka.inc");
-$url=explode("watch?v=",$url);
-$url=$url[1];
 
 hlavicka($title,__FILE__);
 ?>
@@ -54,10 +52,29 @@ titulek(__FILE__);
 </p>
 
 <p class="youtubevideo">
-<object height="300" width="400">
+<?
+if(ereg("^http://www\.youtube\.com/watch\?v=",$url)){
+$url=explode("watch?v=",$url);
+$url=$url[1];
+?>
+<object height="380" width="480">
 	<param name="movie" value="http://www.youtube.com/v/<?=$url?>">
-	<embed src="http://www.youtube.com/v/<?=$url?>" type="application/x-shockwave-flash" height="300" width="400">
+	<embed src="http://www.youtube.com/v/<?=$url?>" type="application/x-shockwave-flash" height="380" width="480">
 </object>
+<?}
+
+if(ereg("^http://juggling\.tv:",$url)){
+$id=explode(".tv:",$url);
+$id=$id[1];
+?>
+	<object type="application/x-shockwave-flash" width="480" height="380"wmode="transparent" data="http://www.juggling.tv/vaults/flvplayer.swf?file=http://www.juggling.tv/vaults/flvideo/<?=$id?>.flv&autostart=false&showfsbutton=true">
+        <param name="movie" value="http://www.juggling.tv/vaults/flvplayer.swf?file=http://www.juggling.tv/vaults/flvideo/<?=$id?>.flv&autostart=false&showfsbutton=true" />
+        <param name="wmode" value="transparent" />
+		<param name="allowScriptAccess" value="sameDomain" />
+<embed src="http://www.juggling.tv/vaults/flvplayer.swf?file=http://www.juggling.tv/vaults/flvideo/<?=$id?>.flv&autostart=false&showfsbutton=true" loop="false" width="480" height="380" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />
+</object>
+<?}?>
+
 </p>
 <p>
 Dal¹í <a href="/zonglovani/video/">¾onglérská videa</a>.

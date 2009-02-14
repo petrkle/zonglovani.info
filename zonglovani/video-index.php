@@ -31,14 +31,18 @@ foreach($allvideos as $video){
 	$url=$video[1];
 	$title=$video[2];
 	$description=$video[3];
-	if(ereg("^http://www\.youtube\.com/watch\?v=",$url)){
+	if(ereg("^http://www\.youtube\.com/watch\?v=",$url) or ereg("^http://juggling\.tv:",$url)){
 		$url="$id.html";	
 		$class="";
 	}else{
 		$class=" class=\"external\"";
 	}
 
-print "<dt><a href=\"$url\" title=\"$title\"$class>$title</a></dt>";
+	if($class==""){
+		print "<dt><a href=\"$url\" title=\"$title\"$class>$title</a></dt>";
+	}else{
+		print "<dt><a href=\"$url\" title=\"$title\"$class onclick=\"pageTracker._trackPageview('/goto/".ereg_replace("http:\/\/","",$url)."');\">$title</a></dt>";
+	}
 print "<dd>$description</dd>";
 }
 ?>
