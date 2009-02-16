@@ -108,6 +108,10 @@ Mýty a omyly o ¾onglování.
 Pøipravené kódy. Staèí zkopírovat a vlo¾it.
 </p>
 
+<h3><a href="/zonglovani/changelog.html" title="Zmìny v ¾onglérovì slabikáøi.">Zmìny v ¾onglérovì slabikáøi</a></h3>
+<p>
+Výpis zmìn v ¾onglérovì slabikáøi (svn&nbsp;log).
+</p>
 <!-- start -->
 
 <h3><a href="../../download/zongleruv-slabikar.tar.bz2" title="Off-line verze ke sta¾ení." onclick="pageTracker._trackPageview('/download/zongleruv-slabikar.tar.bz2');">Download</a></h3>
