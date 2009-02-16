@@ -27,7 +27,7 @@ titulek(__FILE__);
 Základní pojmy v ¾onglování.
 </p>
 
-<h3><a href="/zonglovani/nacini.html" title="¾onglérské náèiní.">¾onglérské náèiní</a></h3>
+<h3><a href="/zonglovani/nacini.html" title="®onglérské náèiní.">®onglérské náèiní</a></h3>
 <p>
 ®onglovat mù¾e¹ se spoustou vìcí.
 </p>
