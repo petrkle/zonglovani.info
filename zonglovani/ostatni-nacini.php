@@ -28,10 +28,10 @@ titulek(__FILE__);
 Jsou nejlehèí na nauèení. Staèí vyhazovat do vzduchu a chytat. <a href="/zonglovani/micky/druhy.html" title="Druhy míèkù.">Druhy míèkù</a>.
 </p>
 
-<h3>Skákací míèky</h3>
+<a name="bounce"><h3>Skákací míèky</h3></a>
 <p>
 <?=img("nacinib.png","Skákací míèky.");?>
-Místo vyhazování do vzduchu je odrá¾í¹ o podlahu.
+Místo vyhazování do vzduchu je odrá¾í¹ o podlahu. S polu s <a href="#cigarbox" title="Cigar boxy">cigar boxy</a> je to nejhluènìj¹í ¾onglérské náèiní.
 </p>
 
 <h3><a href="/zonglovani/kruhy/" title="®onglování s kruhy.">Kruhy</a></h3>
@@ -98,6 +98,12 @@ Vìt¹í míèek z umìlé hmoty (polyakrylát ?). Vypadá jako sklenìný. Pou¾ívá se na k
 <p>
 <?=img("nacinij.png","Tyè");?>
 Dal¹í pøedmìt pro kontaktní ¾onglování. Obvykle s knoty na koncích k zapálení.
+</p>
+
+<a name="cigarbox"><h3>Cigar boxy</h3></a>
+<p>
+<?=img("nacinio.png","Cigar boxy");?>
+Cigar boxy jsou døevìné krabièky. Dvì krajní dr¾í¹ rukou a tøetí mezi nimy pøehazuje¹. Vzniká pøi tom skoro stejný hluk jako pøi ¾onglování se <a href="#bounce" title="Odrá¾ení míèkù o podlahu.">skákacími míèky</a>.
 </p>
 
 <h3>©átky</h3>
