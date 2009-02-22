@@ -42,7 +42,6 @@ Základní pojmy v ¾onglování.
 Dovednosti které na první pohled nemusí s ¾onglováním souviset.
 </p>
 
-
 <h3><a href="/zonglovani/faq.html" title="FAQ">Èasto kladené otázky</a></h3>
 <p>
 Otázky na které se lidé èasto ptají v souvislosti s ¾onglováním.
@@ -88,14 +87,9 @@ Pravidelný trénink je základ.
 Není lehké stát se ¾onglérem.
 </p>
 
-<h3><a href="/zonglovani/proc-a-jak.html" title="Proè a jak vznikl ¾onglérùv slabikáø.">Proè a jak vznikl ¾onglérùv slabikáø</a></h3>
-<p>
-Trocha historie.
-</p>
-
 <h3><a href="/zonglovani/odkazy.html" title="Odkazy.">®onglování na síti</a></h3>
 <p>
-Odkazy na dal¹í stránky vìnované ¾onglování.
+Odkazy na stránky vìnované ¾onglování.
 </p>
 
 <h3><a href="/zonglovani/myty-omyly.html" title="Mýty a omyly o ¾onglování.">Mýty a omyly</a></h3>
@@ -103,9 +97,16 @@ Odkazy na dal¹í stránky vìnované ¾onglování.
 Mýty a omyly o ¾onglování.
 </p>
 
+<!-- start -->
 <h3><a href="/zonglovani/jak-odkazovat.html" title="Odkazy na tyto stránky.">Jak odkazovat na ¾onglérùv slabikáø</a></h3>
 <p>
 Pøipravené kódy. Staèí zkopírovat a vlo¾it.
+</p>
+<!-- stop -->
+
+<h3><a href="/zonglovani/proc-a-jak.html" title="Proè a jak vznikl ¾onglérùv slabikáø.">Proè a jak vznikl ¾onglérùv slabikáø</a></h3>
+<p>
+Trocha historie.
 </p>
 
 <h3><a href="/zonglovani/changelog.html" title="Zmìny v ¾onglérovì slabikáøi.">Zmìny v ¾onglérovì slabikáøi</a></h3>
@@ -114,9 +115,9 @@ Výpis zmìn v ¾onglérovì slabikáøi (svn&nbsp;log).
 </p>
 <!-- start -->
 
-<h3><a href="../../download/zongleruv-slabikar.tar.bz2" title="Off-line verze ke sta¾ení." onclick="pageTracker._trackPageview('/download/zongleruv-slabikar.tar.bz2');">Download</a></h3>
+<h3><a href="../../download/zongleruv-slabikar.tar.bz2" title="Statická verze ke sta¾ení." onclick="pageTracker._trackPageview('/download/zongleruv-slabikar.tar.bz2');">Download</a></h3>
 <p>
-Off-line verze ¾onglérova slabikáøe.
+Statická verze ¾onglérova slabikáøe. Vhodná pro prohlí¾ení na poèítaèích bez pøipojení k internetu.
 </p>
 
 <!-- stop -->

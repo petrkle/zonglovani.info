@@ -35,7 +35,7 @@ Náladu ti urèitì zvednì i nìjaká pohodová hudba. Je to lep¹í ne¾ jen samotné bu¹
 </p>
 <h3>Jak dlouho?</h3>
 <p>
-Délka tréninku je individuální. Dolní hranice je zhruba 10 minut, i s rozcvièkou ètvrt hodinky. Krat¹í trénink asi nemá cenu. Horní hranici urèuje tvoje fyzická zdatnost a tvrdohlavost. Déle ne¾ dvì hodiny v kuse vydr¾í málokdo. To u¾ je lep¹í rozlo¾it trénink na nìkolik úsekù, napø. hodina ráno, hodina po obìdì a hodina veèer. Nemìj pocit ¾e nìco zanedbává¹ kdy¾ netrénuje¹ 3 hodiny dennì, to nedìlá nikdo&nbsp;:-)
+Délka tréninku je individuální. Dolní hranice je zhruba 10 minut, i s rozcvièkou ètvrt hodinky. Krat¹í trénink asi nemá cenu. Horní hranici urèuje tvoje fyzická zdatnost a tvrdohlavost. Déle ne¾ dvì hodiny v kuse vydr¾í málokdo. To u¾ je lep¹í rozlo¾it trénink na nìkolik úsekù, napø. hodina ráno, hodina po obìdì a hodina veèer. Nemìj pocit ¾e nìco zanedbává¹ kdy¾ netrénuje¹ 3 hodiny dennì, to nedìlá nikdo&nbsp;:^)
 </p>
 
 <h3>Jak èasto?</h3>
@@ -45,7 +45,7 @@ Nejlep¹í je trénovat ka¾dý den. Kdy¾ se jednou za týden bude¹ hodinu trápit s mí
 
 <h3>Kde?</h3>
 <p>
-Sna¾ se trénovat v rùznou dobu a na rùzných místech. Získá¹ tak jistotu v odli¹ných podmínkách a nevyvede tì z míry tøeba protisvìtlo, jiné rozestavìní nábytku nebo okolní ruch. Obèas vezmi do ruky místo svých oblíbených míèkù tøeba jablka nebo pomeranèe. Kdy¾ se pak vátí¹ zpátky k míèkùm zjistí¹, ¾e je to s nimi daleko snaz¹í.
+Sna¾ se trénovat v rùznou dobu a na rùzných místech. Získá¹ tak jistotu v odli¹ných podmínkách a nevyvede tì z míry tøeba protisvìtlo, jiné rozestavìní nábytku nebo okolní ruch. Obèas vezmi do ruky místo svých oblíbených míèkù tøeba <a href="/zonglovani/micky/3/jablko.html" title="®onglování s jablky.">jablka</a> nebo pomeranèe. A¾ se vrátí¹ zpátky k míèkùm tak zjistí¹, ¾e je to s nimi daleko snaz¹í.
 </p>
 
 <h3>Pravá i levá ruka</h3>

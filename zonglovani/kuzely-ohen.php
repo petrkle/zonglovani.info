@@ -64,7 +64,7 @@ Osobnì dávám pøednost petroleji. Bývá levnìj¹í a ménì zapáchá. Na druhou stranu 
 </p>
 
 <p>
-<strong>NIKDY</strong> nepo¾ívej benzín, aceton nebo øedila. Jsou to hoølaviny I. tøídy nebezpeènosti. Hoøí velmi rychle a jejich páry jsou výbu¹né !!!
+<strong>NIKDY NEPO®ÍVEJ</strong> benzín, aceton nebo øedila. Jsou to hoølaviny I. tøídy nebezpeènosti. Hoøí velmi rychle a jejich páry jsou výbu¹né !!!
 </p>
 
 <h3>Zapaléní ku¾elù</h3>

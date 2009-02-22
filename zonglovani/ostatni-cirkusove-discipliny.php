@@ -32,7 +32,7 @@ Chodit se dá nejen po pevnì napjatém lanì, ale i po lanì volnì provì¹eném. A to 
 <h3>Jednokolka</h3>
 <p>
 <?=img("cirkusb.png","Jednokolka");?>
-Je minimálnì o polovinu skladnìj¹í ne¾ obyèejné jízdní kolo. Existují i teréní verze pro je¾dìní v pøírodì. Vysoké jednokolce na které jezní napø. televizní veèerníèek se øíká ¾irafa. Dal¹í zajímavosti o jednokolkách najde¹ na <a href="http://www.apo-vystoupeni.cz/jednokolky.htm" title="Podrobnosti o jednokolkách." class="external">danovì stránce</a>.
+Je minimálnì o polovinu skladnìj¹í ne¾ obyèejné jízdní kolo. Existují i teréní verze pro je¾dìní v pøírodì. Vysoké jednokolce na které jezní napø. televizní veèerníèek se øíká ¾irafa. Dal¹í zajímavosti o jednokolkách najde¹ na <a href="http://www.apo-vystoupeni.cz/jednokolky.htm" title="Podrobnosti o jednokolkách." class="external" onclick="pageTracker._trackPageview('/goto/apo-vystoupeni.cz/jednokolky.htm');">danovì stránce</a>.
 </p>
 
 <h3><a href="/zonglovani/chudy/" title="®onglování na chùdách">Chùdy</a></h3>
@@ -44,7 +44,7 @@ Diváci milují chùdy. Hlavnì proto¾e jsou v¹ichni zvìdaví kdy chùdaø spadne a ¹er
 <h3>Skákací boty</h3>
 <p>
 <?=img("cirkusd.png","Skákací boty");?>
-Moderní materiály umo¾nily vznik sedmimílových bot. Skoè na <a href="http://www.apo-vystoupeni.cz/o-skakacich-botach.htm" title="Podrobnosti o skákacích botách." class="external">danovu stránku</a> pro podrobnìj¹í popis.
+Moderní materiály umo¾nily vznik sedmimílových bot. Skoè na <a href="http://www.apo-vystoupeni.cz/o-skakacich-botach.htm" title="Podrobnosti o skákacích botách." class="external" onclick="pageTracker._trackPageview('/goto/apo-vystoupeni.cz/o-skakacich-botach.htm');">danovu stránku</a> pro podrobnìj¹í popis.
 </p>
 
 <h3>Vysutá hrazda</h3>

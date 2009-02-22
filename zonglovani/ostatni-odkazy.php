@@ -22,6 +22,8 @@ titulek(__FILE__);
 <h1>®onglování na síti</h1>
 <dl>
 
+<!-- slabikar-online-link -->
+
 <dt>
 <a href="http://zongluj.eu" title="Abryho stránky o ¾onglování." class="external" onclick="pageTracker._trackPageview('/goto/zongluj.eu');">zongluj.eu</a>
 </dt>

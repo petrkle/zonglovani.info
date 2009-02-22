@@ -29,21 +29,17 @@ Stejnì jako jsem se nauèil jezdit na kole. Zkou¹el jsem to tak dlouho a¾ se mi t
 
 <h3>Za jak dlouho se nauèím ¾onglovat?</h3>
 <p>
-Je to velmi individuální. Obvykle tøi míèky zaberou tıden, pìt míèkù mìsíce a sedm míèkù roky. Trik kterı se nauèí¹ za odpoledne mù¾e nìkomu jinému trvat 14 dní a naopak.
+Je to velmi individuální. Obvykle tøi míèky zaberou jedno odpoledne, pìt míèkù mìsíce a sedm míèkù roky. Trik kterı se nauèí¹ za hodinu mù¾e nìkomu jinému trvat 14 dní a naopak.
 </p>
 
 <h3>Èím mám zaèít?</h3>
 
-<p>Nejlehèí trik je <a href="/zonglovani/micky/3/kaskada.html" title="Kaskáda se tøemi míèky.">kaskáda s míèky</a>, vìt¹ina ¾onglérù se ho nauèí jako první. Ne¾ se do toho pustí¹, poctivì trénuj s <a href="/zonglovani/micky/jak-zacit.html#jeden" title="Úplnı základ.">jedním</a> a <a href="/zonglovani/micky/jak-zacit.html#dva" title="Úplnı základ.">dvìma</a> míèky.</p>
+<p>Nejlehèí je zaèít <a href="/zonglovani/micky/jak-zacit.html" title="Základní návod.">¾onglovat s míèky</a>.</p>
 
 
 <h3>Kde najdu dal¹í ¾ongléry?</h3>
 <p>
 Pravidelnì se konají ¾onglérské srazy. To jsou nejlep¹í místa kde se nauèit nové triky. Pou¾ij svùj oblíbenı internetovı vyhledávaè pro získání informací o místech konání. 
-
-<!-- start -->
-Pokud se náhodou v okolí ¾ádní ¾ongléøi nevyskytují, mù¾e¹ se alespoò podívat na <a href="/zonglovani/video/" title="Videa o ¾onglování.">¾onglérská videa</a>.
-<!-- stop -->
 </p>
 
 <h3>Je o ¾onglování nìjaká kní¾ka?</h3>
