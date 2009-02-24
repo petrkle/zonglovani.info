@@ -94,7 +94,7 @@ Nastává chvíle pro sebrání míèku.
 Házej dál levá, pravá (sebranı míèek), levá, ...
 </p>
 <p>
-Kdy¾ ti spadnou dva míèky z pìti, pokraèuj kaskádou se tøemi. Nohou pøesuò spadlé míèky vedle sebe. Klekni si. Míèky jsou ka¾dı pøed jedním kolenem. Vyhoï <a href="/zonglovani/micky/3/blesk.html" title="Trik se tøemi míèky.">blesk se tøemi</a> a místo tlesknutí nebo <a href="/zonglovani/micky/dalsi/pirueta.html" title="Otoèení dokoleèka.">piruety</a> seber oba míèky ze zemì.
+Kdy¾ ti spadnou dva míèky z pìti, pokraèuj kaskádou se tøemi. Nohou pøesuò spadlé míèky vedle sebe. Klekni si. Míèky jsou ka¾dı pøed jedním kolenem. Vyhoï <a href="/zonglovani/micky/3/blesk.html" title="Trik se tøemi míèky.">blesk se tøemi</a> a místo tlesknutí nebo <a href="/zonglovani/micky/pirueta.html" title="Otoèení dokoleèka.">piruety</a> seber oba míèky ze zemì.
 </p>
 
 
