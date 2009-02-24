@@ -1,5 +1,4 @@
 <?php
-require("hlavicka.inc");
 require("xmldb.inc");
 require("utils.inc");
 
@@ -10,13 +9,19 @@ if (array_key_exists("show", $HTTP_GET_VARS)) {
 };
 if(!isset($show)){$show="";};
 
-if(strlen($show)>0 and is_file($show.".xml")){
-  // vykreslí jeden trik
-
-  trik($show,__FILE__,$titulek);
+if(strlen($show)>0){
+  // výbìr triku
+	if(is_file($show.".xml")){
+		require("hlavicka.inc");
+  	trik($show,__FILE__,$titulek);
+	}else{
+		require("404.inc");
+		exit();
+	}
 
 }else{
   // kdy¾ není vybrán trik
+require("hlavicka.inc");
 hlavicka($titulek,__FILE__);
 ?>
 
@@ -98,6 +103,14 @@ Královská disciplína ¾onglování. U¾ije¹ si pøi ní nejvíc legrace. Pro passing js
 	<li><a href="stridavy-lichobeznik.html" title="tì¾¹í">Støídavý lichobì¾ník</a></li>
 	<li><a href="rotor.html" title="tì¾¹í">Rotor</a></li>
 	<li><a href="pivo.html" title="tì¾¹í">Passování s pivem</a></li>
+</ul>
+</p>
+
+<h3>Triky pøi passování</h3>
+
+<p>
+<ul>
+	<li><a href="zpozdena-dvojka.html" title="snadné">Zpo¾dìná dvojka</a></li>
 </ul>
 </p>
 

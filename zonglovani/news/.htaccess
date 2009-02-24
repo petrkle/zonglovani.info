@@ -1,4 +1,0 @@
-AuthType Basic
-AuthName "news - slabikar"
-AuthUserFile /3w/wz.cz/p/petrkle/zonglovani/news/.htpasswd
-Require valid-user

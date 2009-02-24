@@ -2,6 +2,7 @@
 
 
 function najdi($co,$kde){
+	# FIXME - nenajde elementy obsahující znak nového øádku
 	foreach($kde as $radek){
 		if(ereg(".*<$co.[^>].*</$co>.*",$radek)){
 			return stripslashes(ereg_replace(".*<$co.*>(.*)</$co>.*","\\1",$radek));

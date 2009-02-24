@@ -1,4 +1,0 @@
-<h3>Novinka</h3>
-<p>
-Zobrazování novinek :^)
-</p>

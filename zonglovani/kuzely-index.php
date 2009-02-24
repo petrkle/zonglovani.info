@@ -42,12 +42,12 @@ S ku¾ely se nemusí jenom házet.
 Základní zpùsoby házení ku¾elu.
 </p>
 
-<h3><a href="/zonglovani/kuzely/headroll.html" title="Rotace ku¾elu.">Pøekulení ku¾elky pøes hlavu</a></h3>
+<h3><a href="/zonglovani/kuzely/headroll.html" title="Headroll.">Pøekulení ku¾elky pøes hlavu</a></h3>
 <p>
 Známé té¾ pod anglickým názvem headroll.
 </p>
 
-<h3><a href="/zonglovani/kuzely/toceni-okolo-palce.html" title="Rotace ku¾elu.">Otáèení ku¾elky okolo palce</a></h3>
+<h3><a href="/zonglovani/kuzely/toceni-okolo-palce.html" title="Kolem dokola.">Otáèení ku¾elky okolo palce</a></h3>
 <p>
 Trik který mù¾e¹ cvièit i v místnostech s nízkým stropem.
 </p>
