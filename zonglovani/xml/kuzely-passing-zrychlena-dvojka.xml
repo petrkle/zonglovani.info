@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<trik>
+
+    <about>
+	     <nazev>Zrychlená dvojka</nazev>
+		 <pocet>6</pocet>
+	     <siteswaps>-</siteswaps>
+		 <obtiznost>snadné</obtiznost>
+		 <oblast>kuzely-passing</oblast>
+	</about>
+
+
+    <krok>
+			<popisek>Trik pro ozvlá¹tnìní &lt;a href=&quot;2count.html&quot; title=&quot;Rychlej¹í passování.&quot;&gt;2 count&lt;/a&gt; nebo &lt;a href=&quot;4count.html&quot; title=&quot;Základ passování.&quot;&gt;4 count&lt;/a&gt;.</popisek>
+    </krok>
+
+    <krok>
+			<obrazek>kuzely-passing-zrychlenadvojkaa</obrazek>
+			<popisek>Ku¾elku nepassne¹ z pravé ruky, ale o jeden hod døív. Køí¾em z tvojí levé ruky do levé ruky ¾ongléra &lt;b&gt;B&lt;/b&gt;.</popisek>
+    </krok>
+
+
+    <krok>
+			<obrazek>kuzely-passing-zrychlenadvojkab</obrazek>
+			<popisek>Navíc ku¾elku hodí¹ na &lt;a href=&quot;/zonglovani/kuzely/passing/hody.html#double&quot; title=&quot;Hod na dvì otoèky.&quot;&gt;dvì otoèky&lt;/a&gt;. Vy¹¹í hod je potøeba, aby ku¾elka dorazila k ¾onglérovi &lt;b&gt;B&lt;/b&gt; ve správný èas.</popisek>
+    </krok>
+
+    <krok>
+			<obrazek>kuzely-passing-zrychlenadvojkac</obrazek>
+			<popisek>Pøi správném provedení ¾onglér &lt;b&gt;B&lt;/b&gt; vùbec nepocítí zmìnu rytmu. Vidí jen pøilétnout ku¾elku z vìt¹í vý¹ky a jiného smìru.</popisek>
+    </krok>
+
+
+</trik>
