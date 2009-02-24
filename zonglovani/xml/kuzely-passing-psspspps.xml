@@ -16,10 +16,7 @@
 
 
 	<krok>
-		<popisek>Hází¹ podle názvu:
-			&lt;pre&gt;  P      L      P     L      P       L     P      L&lt;/pre&gt; 
-			&lt;pre&gt;pass - self - self - pass - self - pass - pass - self&lt;/pre&gt; 
-		</popisek>
+		<popisek>Hází¹ podle názvu:	&lt;pre&gt;  P      L      P     L      P       L     P      L&lt;/pre&gt; &lt;pre&gt;pass - self - self - pass - self - pass - pass - self&lt;/pre&gt;</popisek>
   </krok>
 
 	<krok>
