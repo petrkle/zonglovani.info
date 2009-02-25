@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<trik>
+
+    <about>
+	     <nazev>Pomalá otoèka</nazev>
+		 <pocet>6</pocet>
+	     <siteswaps>-</siteswaps>
+		 <obtiznost>snadné</obtiznost>
+		 <oblast>kuzely-passing</oblast>
+	</about>
+
+    <krok>
+			<popisek>Pøi házení &lt;a href=&quot;4count.html&quot; title=&quot;Základ passování.&quot;&gt;4 count&lt;/a&gt; je dostatek èasu i na otoèku.</popisek>
+    </krok>
+
+    <krok>
+			<obrazek>pomalaotockaa</obrazek>
+			<popisek>Chytí¹ pøilétající ku¾elku a pøestane¹ ¾ongloat.</popisek>
+    </krok>
+
+
+    <krok>
+			<obrazek>pomalaotockab</obrazek>
+			<popisek>Se tøemi ku¾elkami v ruce se otoèí¹ kolem dokola. Sna¾¹í je otoèit se doleva.</popisek>
+    </krok>
+
+    <krok>
+			<obrazek>pomalaotockac</obrazek>
+			<popisek>Se dvìma ku¾elkami v pravé ruce zaène¹ opìt passovat.</popisek>
+    </krok>
+
+    <krok>
+			<popisek>Zku¹enìj¹í ¾ongléøi mohou vyzkou¹et i &lt;a href=&quot;rychla-otocka.html&quot; title=&quot;Rychlej¹í zpùsob.&quot;&gt;rychlej¹í variantu&lt;/a&gt; otoèky.</popisek>
+    </krok>
+
+
+</trik>
