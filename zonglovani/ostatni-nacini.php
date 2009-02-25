@@ -76,7 +76,7 @@ Hùlka která má na koncích tøásnì. Ve vzduchu jí dr¾í¹ pomocí dvou dal¹ích hùlek.
 Cívka uvázaná na provázku.
 </p>
 
-<h3><a href="http://valur.us/Poi/Poi.pdf" title="Toèení s poi." class="external">Poi-poi</a></h3>
+<h3><a href="/zonglovani/literatura.html#poi" title="Kní¾ka o toèení s poi.">Poi-poi</a></h3>
 <p>
 <?=img("nacinik.png","Poi-poi");?>
 Míèek pøivázaný na provázku (+- 0,5m). Na druhém konci provázku je smyèka pro dr¾ení. Do ka¾dé ruky si vezme¹ jednu poiku a toèí¹ s nimi okolo sebe. Ucelený popis najde¹ v <a href="/zonglovani/literatura.html#poi" title="Podrobnosti o toèení.">Richeeho kní¾ce</a>.

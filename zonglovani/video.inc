@@ -1,7 +1,7 @@
-addicted*http://www.youtube.com/watch?v=tEfjFw1RHh0*Addicted*Volnì dostupné <a href="http://www.circuspla.net/addicted/addicted.avi" class="external" onclick="pageTracker._trackPageview('/goto/www.circuspla.net/addicted/addicted.avi');">DVD o ¾onglování</a>.
-shake-that*http://www.circuspla.net/addicted/shakethat.avi*Shake That*Upoutávka na pøedstavení ¾onglujících barmanù <a href="http://www.shakethat.be/" class="external">shakethat.be</a>. Nebo snad míchajících ¾onglérù?
+addicted*http://www.youtube.com/watch?v=tEfjFw1RHh0*Addicted*Volnì dostupné <a href="http://www.circuspla.net/addicted/addicted.avi" class="external" onclick="pageTracker._trackPageview('/goto/circuspla.net/addicted/addicted.avi');">DVD o ¾onglování</a>.
+shake-that*http://www.circuspla.net/addicted/shakethat.avi*Shake That*Upoutávka na pøedstavení ¾onglujících barmanù <a href="http://www.shakethat.be/" class="external" onclick="pageTracker._trackPageview('/goto/shakethat.be');">shakethat.be</a>. Nebo snad míchajících ¾onglérù?
 stepz*http://juggling.tv:1186*Stepz*Ètyøi ¾ongléøi z Øíma.
-catch-this*http://www.passingzone.com/htmdoc/video/passing%20zone%20reel%20large.wmv*Catch This*Pøedstavení dua <a href="http://www.passingzone.com" class="external">The Passing Zone</a>.
+catch-this*http://www.passingzone.com/htmdoc/video/passing%20zone%20reel%20large.wmv*Catch This*Pøedstavení dua <a href="http://www.passingzone.com" class="external" onclick="pageTracker._trackPageview('/goto/passingzone.com');">The Passing Zone</a>.
 4000000-extreme-juggling*http://www.youtube.com/watch?v=ZrrVsH5QEeM*4,000,000% Extreme Juggling*Alan a Thom <a href="/zonglovani/kuzely/passing/" title="Více o passingu.">passují</a> s ku¾ely. Video z tréninku který se uskuteènil 5. dubna 2008.
 alan-thom-3*http://juggling.tv:1849*Alan & Thom #3*Tøetí video od Alana a Thoma.
 guava-winter-07-08*http://www.youtube.com/watch?v=08-Cv2JPGkSEwY*Guava over winter break 07-08*®onglérky Selby a Anna na zimních prázdninách.
