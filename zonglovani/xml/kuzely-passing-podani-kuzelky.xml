@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<trik>
+
+    <about>
+	     <nazev>Podání ku¾elky</nazev>
+		 <pocet>6</pocet>
+	     <siteswaps>-</siteswaps>
+		 <obtiznost>snadné</obtiznost>
+		 <oblast>kuzely-passing</oblast>
+	</about>
+
+    <krok>
+			<obrazek>podanikuzelkya</obrazek>
+			<popisek>Trik zaèíná klasicky. Hodí¹ pass.</popisek>
+    </krok>
+
+
+    <krok>
+			<obrazek>podanikuzelkyb</obrazek>
+			<popisek>Místo dal¹ího ¾onglování si ale dá¹ dvì ku¾elky do pravé ruky.</popisek>
+    </krok>
+
+    <krok>
+			<obrazek>podanikuzelkyc</obrazek>
+			<popisek>Do levé ruky chytí¹ pøicházející pass a tuto tøetí ku¾elku polo¾í¹ navrch. Dr¾adlem smìrem k druhému ¾onglérovi. Zároveò udìlá¹ krok dopøedu.</popisek>
+    </krok>
+
+    <krok>
+			<obrazek>podanikuzelkyd</obrazek>
+			<popisek>Druhý ¾onglér si vezme podávanou ku¾elku a ty zároveò chytá¹ do levé ruky jeho pass.</popisek>
+    </krok>
+
+</trik>

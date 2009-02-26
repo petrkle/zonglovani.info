@@ -115,9 +115,10 @@ Královská disciplína ¾onglování. U¾ije¹ si pøi ní nejvíc legrace. Pro passing js
 	<li><a href="podnohou.html" title="snadné">Pod nohou</a></li>
 	<li><a href="pomala-otocka.html" title="snadné">Pomalá otoèka</a></li>
 	<li><a href="rychla-otocka.html" title="snadné">Rychlá otoèka</a></li>
+	<li><a href="podani-kuzelky.html" title="snadné">Podání ku¾elky</a></li>
 <!--
 TODO
-	<li><a href="podani-kuzelky.html" title="snadné">Podání ku¾elky</a></li>
+	<li><a href="dvojka-krizem-valcik.html" title="snadné">Dvojka køí¾em pøi valèíku</a></li>
 -->
 </ul>
 </p>
