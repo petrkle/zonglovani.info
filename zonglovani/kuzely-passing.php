@@ -36,7 +36,7 @@ titulek(__FILE__);
 <h1><? echo $titulek; ?></h1>
 
 <p>
-Pøedávání, více lidí ¾ongluje mezi sebou. Název vychází z angliètiny. Pass - pøedání.
+Pøedávání, více lidí ¾ongluje spolu. Název vychází z angliètiny. Pass - pøedání.
 </p>
 <p>
 <? echo img("kuzely-passing-introb.png","Passing s ku¾ely."); ?>

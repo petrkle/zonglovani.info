@@ -46,7 +46,12 @@ foreach($db as $foo){
 
 foreach($kroky as $krok){
 	if(isset($krok["nadpis"])){
-		echo "\n<h2>".$krok["nadpis"]."</h2>\n";
+		$nadpis=split("\n",$krok["nadpis"]);
+		if(count($nadpis==2) and strlen(trim($nadpis[1]))>0){
+			echo "\n<h2><a name=\"".$nadpis[1]."\">".$nadpis[0]."</a></h2>\n";
+		}else{
+			echo "\n<h2>".$krok["nadpis"]."</h2>\n";
+		}
 	}
 
 	if(isset($krok["popisek"]) or isset($krok["obrazek"])){

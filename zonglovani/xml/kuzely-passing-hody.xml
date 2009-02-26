@@ -32,25 +32,25 @@
     </krok>
 
     <krok>
-			<nadpis>Bez otoèky</nadpis>
+			<nadpis name="nospin">Bez otoèky</nadpis>
 			<obrazek>kuzely-passing-hodyd</obrazek>
 			<popisek>Pøi tomto passu se naopak ku¾el neotoèí vùbec. Celou dráhu letí svisle.</popisek>
     </krok>
 
     <krok>
-			<nadpis>Tomahawk</nadpis>
+			<nadpis name="tomahawk">Tomahawk</nadpis>
 			<obrazek>kuzely-passing-hodye</obrazek>
 			<popisek>Ku¾el hází¹ nad ramenem. Stejnì jako indiáni vrhají tomahawk.</popisek>
     </krok>
 
     <krok>
-			<nadpis>Reverzní hod</nadpis>
+			<nadpis name="revers">Reverzní hod</nadpis>
 			<obrazek>kuzely-passing-hodyf</obrazek>
 			<popisek>Ku¾el s obrácenou rotací. Mù¾e¹ zkusit jednu i dvì otoèky.</popisek>
     </krok>
 
     <krok>
-			<nadpis>Pod nohou</nadpis>
+			<nadpis name="podnohou">Pod nohou</nadpis>
 			<obrazek>kuzely-passing-hodyg</obrazek>
 			<popisek>Ku¾el nehází¹ vedle nohy, ale pod ní.</popisek>
     </krok>
