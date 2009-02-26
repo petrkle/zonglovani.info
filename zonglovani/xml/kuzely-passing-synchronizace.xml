@@ -14,7 +14,7 @@
 	 </krok>
 
     <krok>
-			<nadpis name="fast">Fast start</nadpis>
+			<nadpis name="fast">Rychlý start</nadpis>
 			<popisek>První hod je pass.</popisek>
     </krok>
 
@@ -35,7 +35,7 @@
 		</krok>
 
     <krok>
-			<nadpis name="slow">Slow start</nadpis>
+			<nadpis name="slow">Pomalý start</nadpis>
 			<popisek>Máchni prvním ku¾elem shora dolù. První tøi hody jsou obyèejné ¾onglování. A¾ ètvrtý hod je pass.</popisek>
     </krok>
 
