@@ -25,7 +25,7 @@ Základní pøehled zpùsobù ¾onglování. Nejedná se o úplný nebo pøesný seznam. Jde 
 <h3>Házení do vzduchu</h3>
 <p>
 <?=img("druhya.png","");?>
-Pøedmìty vyhazuje¹ vzjùru a ony se pùsobením gravitaèní síly vrací zpìt.
+Pøedmìty vyhazuje¹ vzhùru a ony se pùsobením gravitaèní síly vrací zpìt.
 </p>
 
 <h3>Kontaktní ¾onglování</h3>

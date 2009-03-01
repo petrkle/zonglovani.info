@@ -20,6 +20,7 @@ titulek(__FILE__);
 
 <h3>®onglér</h3>
 <p>
+<? echo img("zongler.png","®onglér"); ?>
 S okouzlující lehkostí pøedvádí neuvìøitelné kousky. Usmívá se a v¹echy pobaví.
 </p>
 

@@ -77,16 +77,6 @@ Pravidelný trénink je základ.
 ®onglování na chùdách.
 </p>
 
-<h3><a href="/zonglovani/10-duvodu.html" title="Proè ¾onglovat.">10 dùvodù, proè ¾onglovat</a></h3>
-<p>
-10 hlavních dùvodù, proè ¾onglovat.
-</p>
-
-<h3><a href="/zonglovani/jak-se-stat-zonglerem.html" title="Jak se stát ¾onglérem.">Jak se stát ¾onglérem</a></h3>
-<p>
-Není lehké stát se ¾onglérem.
-</p>
-
 <h3><a href="/zonglovani/odkazy.html" title="Odkazy.">®onglování na síti</a></h3>
 <p>
 Odkazy na stránky vìnované ¾onglování.
