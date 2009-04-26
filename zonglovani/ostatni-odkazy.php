@@ -68,9 +68,9 @@ Informace o passování.
 ®onglérská televize.
 </p>
 
-<h5><a href="http://juggletube.com" title="Anglické stránky o ¾onglování." class="external" onclick="pageTracker._trackPageview('/goto/juggletube.com">juggletube.com</a></h5>
+<h5><a href="http://juggletube.com" title="Anglické stránky o ¾onglování." class="external" onclick="pageTracker._trackPageview('/goto/juggletube.com');">juggletube.com</a></h5>
 <p>
-<a href="http://juggletube.com" title="Anglické stránky o ¾onglování." onclick="pageTracker._trackPageview('/goto/juggletube.com"><? echo img("odkazy-juggletube.com.png","juggletube.com"); ?></a>
+<a href="http://juggletube.com" title="Anglické stránky o ¾onglování." onclick="pageTracker._trackPageview('/goto/juggletube.com');"><? echo img("odkazy-juggletube.com.png","juggletube.com"); ?></a>
 Stránka plná ¾onglérského videa.
 </p>
 

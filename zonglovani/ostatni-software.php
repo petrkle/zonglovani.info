@@ -46,15 +46,15 @@ Simulátor ¾onglování napsaný v javì.
 Juggling Lab je pokraèovatel JuggleAnim.
 </p>
 
-<h3><a href="http://www.tux.org/~bagleyd/xlockmore.html" title="Spoøiè obrazovky pro X Window." class="external" onclick="pageTracker._trackPageview('/goto/tux.org">xlockmore</a></h3>
+<h3><a href="http://www.tux.org/~bagleyd/xlockmore.html" title="Spoøiè obrazovky pro X Window." class="external" onclick="pageTracker._trackPageview('/goto/tux.org');">xlockmore</a></h3>
 <p>
-<a href="http://www.tux.org/~bagleyd/xlockmore.html" title="Spoøiè obrazovky pro X Window." onclick="pageTracker._trackPageview('/goto/tux.org"><? echo img("xlock.png","xlockmore"); ?></a>
+<a href="http://www.tux.org/~bagleyd/xlockmore.html" title="Spoøiè obrazovky pro X Window." onclick="pageTracker._trackPageview('/goto/tux.org');"><? echo img("xlock.png","xlockmore"); ?></a>
 Spoøiè obrazovky pro X&nbsp;Window.
 </p>
 
-<h3><a href="http://jugglemaster.net" title="Jugglemaster" class="external" onclick="pageTracker._trackPageview('/goto/Jugglemaster.net">Jugglemaster</a></h3>
+<h3><a href="http://jugglemaster.net" title="Jugglemaster" class="external" onclick="pageTracker._trackPageview('/goto/Jugglemaster.net');">Jugglemaster</a></h3>
 <p>
-<a href="http://jugglemaster.net" title="Jugglemaster" onclick="pageTracker._trackPageview('/goto/Jugglemaster.net"><? echo img("jugglemaster.png","jugglemaster"); ?></a>
+<a href="http://jugglemaster.net" title="Jugglemaster" onclick="pageTracker._trackPageview('/goto/Jugglemaster.net');"><? echo img("jugglemaster.png","jugglemaster"); ?></a>
 Simulátor ¾onglování i pro kapesní poèítaèe.
 </p>
 
