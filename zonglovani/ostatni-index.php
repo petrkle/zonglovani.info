@@ -105,9 +105,9 @@ Vıpis zmìn v ¾onglérovì slabikáøi (svn&nbsp;log).
 </p>
 <!-- start -->
 
-<h3><a href="../../download/zongleruv-slabikar.tar.bz2" title="Statická verze ke sta¾ení." onclick="pageTracker._trackPageview('/download/zongleruv-slabikar.tar.bz2');">Download</a></h3>
+<h3><a href="../../download/zongleruv-slabikar.tar.bz2" title="Statická verze ke sta¾ení." onclick="pageTracker._trackPageview('/download/zongleruv-slabikar.tar.bz2');" class="download">Ulo¾it</a></h3>
 <p>
-Statická verze ¾onglérova slabikáøe. Vhodná pro prohlí¾ení na poèítaèích bez pøipojení k internetu.
+<a href="../../download/zongleruv-slabikar.tar.bz2" title="Statická verze ke sta¾ení." onclick="pageTracker._trackPageview('/download/zongleruv-slabikar.tar.bz2');">Statická verze</a> ¾onglérova slabikáøe. Vhodná pro prohlí¾ení na poèítaèích bez pøipojení k internetu.
 </p>
 
 <!-- stop -->

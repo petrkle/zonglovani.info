@@ -31,14 +31,6 @@ Abryho stránky o ¾onglování. Animace ¾onglování s míèky. Doplnìné krátkými popis
 </p>
 
 <h5>
-<a href="http://www.zongluj.wz.cz/juggle.php?page=novinky" title="zongluj.wz.cz" class="external" onclick="pageTracker._trackPageview('/goto/zongluj.wz.cz');">zongluj.wz.cz</a>
-</h5>
-<p>
-<a href="http://www.zongluj.wz.cz/juggle.php?page=novinky" title="zongluj.wz.cz" onclick="pageTracker._trackPageview('/goto/zongluj.wz.cz');"><? echo img("odkazy-zongluj.wz.cz.png","zongluj.wz.cz"); ?></a>
-Davidovi stránky o ¾onglování.
-</p>
-
-<h5>
 <a href="http://www.zonglovanie.sk" title="Slovenský server." class="external" onclick="pageTracker._trackPageview('/goto/zonglovanie.sk');">zonglovanie.sk</a>
 </h5>
 <p>

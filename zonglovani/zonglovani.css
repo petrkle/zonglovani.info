@@ -264,3 +264,8 @@ dd {
 	background: url("img/e/external.png") 100% 50% no-repeat;
 	padding-right: 16px;
 }
+
+.download {
+	background: url("img/d/download.png") 100% 50% no-repeat;
+	padding-right: 30px;
+}

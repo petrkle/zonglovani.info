@@ -42,22 +42,35 @@ if($foo=="kuzely-index.php"){
 	echo "</li>";
 
 if($foo=="ostatni-index.php"){
-	echo "<li><h4>Ostatní</h4></li>";
-}else{
-	echo "<li><h4><a href=\"/zonglovani/ostatni.html\" title=\"V¹e ostatní o ¾onglování.\">Ostatní</a></h4></li>";
-};
-
+	echo "<li><h4>Ostatní</h4>";
 print "\n<!-- start -->\n";
+print "<ul>";
 if($foo=="video-index.php"){
-	print "<li><ul><li><strong>Video</strong></li></ul></li>";
+	print "<li><strong>Video</strong></li>";
 }else{
-	print "<li><ul><li><a href=\"/zonglovani/video/\" title=\"Zajímavá ¾onglérská videa.\">Video</a></li></ul></li>";
+	print "<li><a href=\"/zonglovani/video/\" title=\"Zajímavá ¾onglérská videa.\">Video</a></li>";
 };
-	echo "</ul>";
-
-	print "<br /><ul><li><a href=\"http://www.ddmpraha.cz/index.php?hledej=ok&typ_menu=6&id_menu=1&pobocka_=268&typ_ikonka=77\" title=\"®onglování na Klamovce.\" class=\"external\" onclick=\"pageTracker._trackPageview('/goto/ddmpraha.cz');\">Kurz ¾onglování<br />na&nbsp;Klamovce</a></li></ul>";
+print "</ul>";
+print "\n<!-- stop -->\n";
+	
+	echo "</li>";
+}else{
+	echo "<li><h4><a href=\"/zonglovani/ostatni.html\" title=\"V¹e ostatní o ¾onglování.\">Ostatní</a></h4>";
+print "\n<!-- start -->\n";
+print "<ul>";
+if($foo=="video-index.php"){
+	print "<li><strong>Video</strong></li>";
+}else{
+	print "<li><a href=\"/zonglovani/video/\" title=\"Zajímavá ¾onglérská videa.\">Video</a></li>";
+};
+print "</ul>";
 print "\n<!-- stop -->\n";
 
+	echo "</li>";
+};
+
+
+print "</ul>";
 };
 
 ?>
