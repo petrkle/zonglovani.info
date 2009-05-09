@@ -16,6 +16,19 @@ a img{
 	border-width: 0px;
 }
 
+a:link {
+ color: #000;
+}
+
+
+a:visited {
+ color: #000;
+}
+
+a:active {
+ color: #000;
+}
+
 #menu {
 	display: none;
 }
