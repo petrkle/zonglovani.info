@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<trik>
+
+    <about>
+	     <nazev>Øada</nazev>
+		 <pocet>9</pocet>
+	     <siteswaps>-</siteswaps>
+		 <obtiznost>snadné</obtiznost>
+		 <oblast>kuzely-passing</oblast>
+	</about>
+
+
+    <krok>
+			<popisek>Line - trik pro tøi ¾ongléry a devìt ku¾elù. V¹ichni hází &lt;a href=&quot;4count.html&quot; title=&quot;Základ passování.&quot;&gt;4 count&lt;/a&gt; z pravé ruky.</popisek>
+    </krok>
+
+    <krok>
+			<obrazek>kuzely-passing-linea</obrazek>
+			<popisek>Stoupnìte si do øady. ®ongléøi &lt;b&gt;A&lt;/b&gt; a &lt;b&gt;B&lt;/b&gt; koukají na &lt;b&gt;C&lt;/b&gt;. Pohled shora - &lt;b&gt;B&lt;/b&gt; stojí trochu stranou.</popisek>
+    </krok>
+
+
+    <krok>
+			<obrazek>kuzely-passing-lineb</obrazek>
+			<popisek>&lt;b&gt;A&lt;/b&gt; hází z pravé ruky pass &lt;b&gt;C&lt;/b&gt; na jednu otoèku. &lt;b&gt;C&lt;/b&gt; hází na jednu otoèku &lt;b&gt;B&lt;/b&gt;. A nakonec to nejtì¾¹í. &lt;b&gt;B&lt;/b&gt; hází za záda na dvì otoèky &lt;b&gt;A&lt;/b&gt;.</popisek>
+    </krok>
+
+
+
+    <krok>
+			<obrazek>kuzely-passing-linec</obrazek>
+			<popisek>Stejná situace pøi pohledu shora.</popisek>
+    </krok>
+
+    <krok>
+			<popisek>Pøi tomto triku je vhodné pou¾ít &lt;a href=&quot;/kuzely/passing/synchronizace.html#slow&quot; title=&quot;Synchronizace prvního hodu.&quot;&gt;pomalý start&lt;/a&gt;.</popisek>
+    </krok>
+
+</trik>

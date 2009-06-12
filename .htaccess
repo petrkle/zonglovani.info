@@ -1,0 +1,40 @@
+ErrorDocument 404 /404.php
+ErrorDocument 403 /403.php
+RewriteEngine	on
+RewriteBase /
+RewriteRule robots.txt /robots.txt
+
+RewriteCond %{REQUEST_FILENAME}	^.*\.inc$
+RewriteRule ^(.*)$ $1 [F]
+
+RewriteRule micky$ /micky/ [R=301,L]
+RewriteRule micky/?$ micky-index.php [L]
+RewriteRule micky/([23456])/?$ micky-$1.php [L]
+RewriteRule micky/([2345])/(.*).html$ micky-$1.php?show=micky-$1-$2 [L]
+RewriteRule micky/(.*).html micky-$1.php [L]
+
+RewriteRule kruhy$ /kruhy/ [R=301,L]
+RewriteRule kruhy/?$ kruhy-index.php [L]
+RewriteRule kruhy/([234])/?$ kruhy-$1.php [L]
+RewriteRule kruhy/([234])/(.*).html kruhy-$1.php?show=kruhy-$1-$2 [L]
+RewriteRule kruhy/(.*).html kruhy-$1.php [L]
+
+RewriteRule kuzely$ /kuzely/ [R=301,L]
+RewriteRule kuzely/?$ kuzely-index.php [L]
+RewriteRule kuzely/([3])/?$ kuzely-$1.php [L]
+RewriteRule kuzely/([3])/(.*).html kuzely-$1.php?show=kuzely-$1-$2 [L]
+
+RewriteRule kuzely/passing$ /kuzely/passing/ [R=301,L]
+RewriteRule kuzely/passing/?$ kuzely-passing.php [L]
+RewriteRule kuzely/passing/(.*).html kuzely-passing.php?show=kuzely-passing-$1 [L]
+RewriteRule kuzely/(.*).html kuzely-$1.php [L]
+
+RewriteRule video/(.*)\.html video.php?v=$1 [L]
+RewriteRule video$ /video/ [R=301,L]
+RewriteRule video/$ video-index.php [L]
+
+RewriteRule ostatni\.html$ ostatni-index.php [L]
+RewriteRule (.*).html ostatni-$1.php [L]
+
+RewriteRule chudy$ /chudy/ [R=301,L]
+RewriteRule chudy/?$ chudy-index.php [L]

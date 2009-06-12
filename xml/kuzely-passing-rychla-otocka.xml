@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<trik>
+
+    <about>
+	     <nazev>Rychlá otoèka</nazev>
+		 <pocet>6</pocet>
+	     <siteswaps>-</siteswaps>
+		 <obtiznost>snadné</obtiznost>
+		 <oblast>kuzely-passing</oblast>
+	</about>
+
+    <krok>
+			<popisek>Èas který získá¹ hozením zrychlené dvojky mù¾e¹ vyu¾ít k otoèení. A proto¾e toho èasu nezíská¹ moc, musí to být rychlá otoèka.</popisek>
+    </krok>
+
+    <krok>
+			<obrazek>rychlaotockaa</obrazek>
+			<popisek>Z levé ruky hodí¹ ku¾elku køí¾em na &lt;a href=&quot;/kuzely/passing/hody.html#double&quot; title=&quot;Hod na dvì otoèky.&quot;&gt;dvì otoèky&lt;/a&gt;.</popisek>
+    </krok>
+
+
+    <krok>
+			<obrazek>rychlaotockab</obrazek>
+			<popisek>Bleskurychle se otoèí¹. V ka¾dé ruce má¹ jednu ku¾elku.</popisek>
+    </krok>
+
+    <krok>
+			<obrazek>rychlaotockac</obrazek>
+			<popisek>Do levé ruky ti právì pøilétá pass od ¾ongléra &lt;b&gt;B&lt;/b&gt;.</popisek>
+    </krok>
+
+
+</trik>

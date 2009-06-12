@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<trik>
+
+    <about>
+			<nazev>Kaskáda (multiplex)</nazev>
+		 <pocet>5</pocet>
+	     <siteswaps>-</siteswaps>
+			 <obtiznost>obtí¾né</obtiznost>
+		 <oblast>micky-5</oblast>
+	</about>
+
+	<krok>
+		<popisek>&lt;a href=&quot;kaskada.html&quot; title=&quot;Základní trik s pìti míèky.&quot; &gt;Kaskáda s pìti míèky&lt;/a&gt; je obtí¾nı trik. Nezbıvá tedy nic jiného ne¾ si jí trochu usnadnit. Staèí vyhazovat &lt;a href=&quot;/micky/3/multiplex.html&quot; title=&quot;Trik se 3 míèky.&quot;&gt;dva míèky najednou&lt;/a&gt;.</popisek>
+    </krok>
+
+    <krok>
+			<obrazek>5kaskadamultia</obrazek>
+			<popisek>Zaèni se tøemi míèky v pravé a dvìma v levé ruce. První a druhı míèek vyhoï souèasnì. První míèek smìøuje do levé ruky, druhı rovnì nahoru.</popisek>
+    </krok>
+
+    <krok>
+			<obrazek>5kaskadamultib</obrazek>
+			<popisek>První míèek chytí¹ do levé ruky. Druhı míèek skonèí zpátky v pravé ruce. Levou ruku si uvolní¹ tím, ¾e vyhodí¹ najednou tøetí a ètvrtı míèek.</popisek>
+    </krok>
+
+    <krok>
+			<obrazek>5kaskadamultic</obrazek>
+			<popisek>Tøetí míèek smìøuje do pravé ruky, ètvrtı zpìt do pravé.</popisek>
+    </krok>
+
+
+
+	<krok>
+	    <popisek>Dál pokraèuj s pátım a druhım míèkem.</popisek>
+    </krok>
+
+</trik>

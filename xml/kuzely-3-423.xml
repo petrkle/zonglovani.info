@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<trik>
+
+    <about>
+	   <nazev>423</nazev>
+		 <pocet>3</pocet>
+	   <siteswaps>423</siteswaps>
+		 <obtiznost>snadné</obtiznost>
+		 <oblast>kuzely-3</oblast>
+	</about>
+
+	<krok>
+		<popisek>Název triku znaèí jednotlivé hody zapsané pomocí &lt;a href=&quot;/siteswap.html&quot; title=&quot;Zápis ¾onglování pomocí èísel.&quot;&gt;siteswap&lt;/a&gt;.</popisek>
+  </krok>
+
+	<krok>
+		<obrazek>423a</obrazek>
+		<popisek>První hod je z pravé ruky rovnì nahoru.</popisek>
+  </krok>
+
+	<krok>
+		<obrazek>423b</obrazek>
+		<popisek>Druhý hod z levé ruky vlastnì není hod. Ku¾elku staèí jenom podr¾et. Levá ruka má pauzu.</popisek>
+  </krok>
+
+	<krok>
+		<obrazek>423c</obrazek>
+		<popisek>Tøetí hod je z pravé ruky do levé. Poté se celý trik zrcadlovì opakuje.</popisek>
+  </krok>
+
+	<krok>
+		<popisek>Snadné ¾e? Zkus místo pauzy v druhém hodu &lt;a href=&quot;/kuzely/toceni-okolo-palce.html&quot; title=&quot;Trik s jednou ku¾elkou.&quot;&gt;otoèit ku¾elku okolo palce&lt;/a&gt;.</popisek>
+  </krok>
+
+
+</trik>
