@@ -2,7 +2,7 @@
 
 ARCHIV=`date "+%Y-%m-%d"`.tar.gz
 
-svn log zonglovani > zonglovani/ChangeLog
+svn log > ChangeLog
 
 [ -f $ARCHIV ] && rm $ARCHIV
 

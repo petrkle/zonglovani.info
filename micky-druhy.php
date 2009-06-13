@@ -46,6 +46,12 @@ V hraèkáøství lze koupit gumové míèky rùznıch velikostí. Skáèou a jsou trochu le
 Míèek pro vystoupení na jevi¹ti. Pìknì kulatı a lesklı. Neskáèe.
 </p>
 
+<h3>Míèek naplnìnı pískem</h3>
+<p>
+<a href="/img/t/trany.jpg"><?=img("trany-nahled.jpg","Míèek plnìnı pískem");?></a>
+Míèek kterı je asi z tøetiny naplnìnı pískem. Snadno se balancuje na hlavì a jinıch èástech tìla.
+</p>
+
 
 <h3>Míèek z balónkù</h3>
 <p>

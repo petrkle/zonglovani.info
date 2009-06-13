@@ -17,7 +17,7 @@ $navrat="
 <div id=\"dolni\">
 <div>";
 
-if($soubor=="index.php"){$navrat.="<strong>zonglovani.info</strong>";}else{$navrat.="<a href=\"/\" title=\"Úvodní stránka\">Úvodní stránka</a>";}
+if($soubor=="index.php"){$navrat.="<strong>zonglovani.info</strong>";}else{$navrat.="<a href=\"/\" title=\"Úvodní stránka\">zonglovani.info</a>";}
 $navrat.=" ~ ";
 if($soubor=="ostatni-mapa-stranek.php"){$navrat.="<strong>Mapa stránek</strong>";}else{$navrat.="<a href=\"/mapa-stranek.html\" title=\"Mapa stránek zonglovani.info\">Mapa stránek</a>";}
 $navrat.=" ~ ";
