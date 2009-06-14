@@ -9,7 +9,7 @@ function trik($show,$soubor,$title=""){
   */
 
 $pocet=0;
-		$info=info(basename($show));
+		$info=nacti_trik_info(basename($show));
 
 		$titulek=$info[1];
 
@@ -84,44 +84,6 @@ paticka($titulek);
 };
 
 
-function vypis_seznam($jake){
-  /*
-	Vypí¹e seznam trikù.
-  */
-  $ls="xml";
-	$kde=explode("-",basename($jake,".php"));
-
-  if(is_dir($ls) and opendir($ls)){
-	$vypis=array();
-	$adr=opendir($ls);
-	while (false!==($file = readdir($adr))) {
-	  if (substr($file,-4) == ".xml")
-		{
-		  $file = substr($file, 0, -4);
-		  array_push($vypis,info($file));
-		};
-	};
-	closedir($adr); 
-	sort($vypis);
-     
-	
-  };
-
-  usort($vypis, "mojes"); 
-
-  echo "\n<p>\n
-
-<ul>
-";
-  foreach ($vypis as $soubor){
-	if(($soubor[5].".php")==basename($jake)){
-		$alias=str_replace(basename($jake,".php")."-","",$soubor[0]);
-	  echo "<li><a href=\"/".$kde[0]."/".$kde[1]."/".$alias.".html\" title=\"".$soubor[4]."\">".$soubor[1]."</a></li>\n";
-	};
-  };
-  echo "\n</ul>\n</p>\n";
-  
-};
 
 
 function indexhlavicka($titulek,$popis="",$slova=""){

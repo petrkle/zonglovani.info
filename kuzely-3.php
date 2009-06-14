@@ -1,84 +1,33 @@
 <?php
-require("hlavicka.inc");
-require("xmldb.inc");
-require("utils.inc");
+require("init.php");
+require("func.php");
 
-$titulek="®onglování se tøemi ku¾ely";
-
-if (array_key_exists("show", $_GET)) {
+if (isset($_GET["show"])) {
   $show="xml/".$_GET["show"];
-};
-if(!isset($show)){$show="";};
+}else{
+	$show="";
+}
 
+$titulek="®onglování tøemi ku¾ely";
 
 if(strlen($show)>0 and is_file($show.".xml")){
-  // vykreslí jeden trik
-  trik($show,__FILE__,$titulek);
+	$trik=nacti_trik($show);
+	$smarty->assign("trik",$trik);
+	$smarty->assign("titulek",$titulek." - ".$trik["info"][1]);
+	$smarty->assign("nadpis",$trik["info"][1]);
+	$smarty->display("hlavicka.tpl");
+	$smarty->display("trik.tpl");
+	$smarty->display("paticka.tpl");
 
+}elseif(strlen($show)>0 and !is_file($show.".xml")){
+	require("404.inc");
+	exit();
 }else{
-  // kdy¾ není vybrán trik
-hlavicka($titulek,__FILE__);
-require("titulek.inc");
-titulek(__FILE__);
+	$smarty->assign("titulek",$titulek);
+	$smarty->display("hlavicka.tpl");
+	$smarty->assign("triky",get_seznam_triku(__FILE__));
+	$smarty->display("seznam-triku.tpl");
+	$smarty->display("kuzely-3-pokrocili.tpl");
+	$smarty->display("paticka.tpl");
+}
 ?>
-
-<div id="stranka">
-
-<div id="ramecek">
-
-<div id="obsah">
-<h1><? echo $titulek; ?></h1>
-
-<?php  vypis_seznam(__FILE__);  ?>
-<p>
-S ku¾ely se dají dìlat obdobné triky jako se <a href="/micky/3/" title="®onglování se tøemi míèky.">tøemi míèky</a>.
-</p>
-
-<p>
-Daleko lep¹í je s ku¾ely <a href="/kuzely/passing/" title="®onglování ve více lidech.">passovat</a>.
-</p>
-
-</div>
-
-
-<div id="menu">
-
-<?php
-require("menu.inc");
-menu(__FILE__);
-?>
-
-<div class="spacer"></div>
-
-
-
-</div>
-
-
-
-</div>
-
-
-<div class="spacer"></div>
-</div>
-
-
-<?php
-require("paticka.inc");
-paticka($titulek);
-?>
-
-<?
-};
-?>
-
-<!-- start -->
-<div class="reklama">
-
-<!--WZ-REKLAMA-1.0-STRICT-->
-
-</div>
-<!-- stop -->
-
-</body>
-</html>
