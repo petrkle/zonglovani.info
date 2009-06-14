@@ -2,7 +2,7 @@
 
 {foreach from=$trik.kroky item=krok name=postup}
 {if isset($krok.nadpis)}
-<h2>{$krok.nadpis}</h2>
+{if isset($krok.kotva)}<a name="{$krok.kotva}"></a>{/if}<h2>{$krok.nadpis}</h2>
 {/if}
 <p>
 {if isset($krok.obrazek)}

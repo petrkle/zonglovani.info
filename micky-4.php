@@ -20,7 +20,7 @@ if(strlen($show)>0 and is_file($show.".xml")){
 	$smarty->display("paticka.tpl");
 
 }elseif(strlen($show)>0 and !is_file($show.".xml")){
-	require("404.inc");
+	require("404.php");
 	exit();
 }else{
 	$smarty->assign("titulek",$titulek);

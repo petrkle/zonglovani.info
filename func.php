@@ -15,7 +15,14 @@ function nacti_trik($soubor){
 		
 		$nadpis=najdi("nadpis",$foo);
 		if($nadpis){
-			$krok["nadpis"]=$nadpis;
+			$nadpis=split("\n",$nadpis);
+			 if(count($nadpis==2) and isset($nadpis[1]) and strlen(trim($nadpis[1]))>0){
+			$krok["nadpis"]=$nadpis[0];
+			$krok["kotva"]=$nadpis[1];
+				}else{
+			$krok["nadpis"]=$nadpis[0];
+			 }
+
 		}
 
 		$obrazek=najdi("obrazek",$foo);
