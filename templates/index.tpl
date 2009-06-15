@@ -28,3 +28,8 @@
 <li><a href="/faq.html" title="FAQ">Èasto kladené otázky</a> a odpovìdi na nì.</li>
 </ul>
 </p>
+
+<h3><a href="kalendar" title="Kalendáø ¾onglérských akcí">Kalendáø</a></h3>
+<p>
+Kalendáø ¾onglérských akcí. Zatím ve zku¹ebním provozu.
+</p>

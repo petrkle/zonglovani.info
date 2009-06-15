@@ -19,7 +19,7 @@ Je to velmi individuální. Obvykle tøi míèky zaberou jedno odpoledne, pìt míèkù m
 
 <h3>Kde najdu dal¹í ¾ongléry?</h3>
 <p>
-Pravidelnì se konají ¾onglérské srazy. To jsou nejlep¹í místa kde se nauèit nové triky. Pou¾ij svùj oblíbený internetový vyhledávaè pro získání informací o místech konání. 
+Pravidelnì se konají ¾onglérské srazy. To jsou nejlep¹í místa kde se nauèit nové triky. Informace o místech a èasech konání najde¹ v <a href="/kalendar" title="Kalendáø ¾onglérských akcí.">kalendáøi</a>. 
 </p>
 
 <h3>Je o ¾onglování nìjaká kní¾ka?</h3>
