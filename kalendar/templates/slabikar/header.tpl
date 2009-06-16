@@ -22,3 +22,14 @@
   <input type="hidden" name="todo_data" id="todo_data" value="" />
   <input type="hidden" name="todo_text" id="todo_text" value="" />
 </form>
+
+<div id="hlavicka">
+<a name="nahore" id="nahore"></a>
+<div style="background: url('/img/k/kalendar.png') no-repeat 95% 10px;"><a href="/" title="Žonglérův slabikář - úvodní stránka."><img src="/img/l/logo.gif" width="442" height="71" title="Žonglérův slabikář - úvodní stránka." alt="Žonglérův slabikář - úvodní stránka." />
+</a>
+</div>
+</div>
+
+<div id="stranka">
+<div id="ramecek">
+<div id="obsah">

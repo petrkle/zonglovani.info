@@ -42,6 +42,7 @@
 		<td align="center" width="112" class="sideback"><font class="G10BOLD">{SIDEBAR_DATE}</font></td>
 		<td align="right" valign="top" width="24" class="sideback"><a class="psf" href="day.php?cal={CAL}&amp;getdate={NEXT_DAY}"><img src="templates/{TEMPLATE}/images/right_arrows.gif" alt="{L_NEXT}" width="16" height="20" border="0" align="right" /></a></td>
 	</tr>
+<!--
 	<tr>
 		<td colspan="3" bgcolor="#FFFFFF" align="left">
 			<div style="padding: 5px;">
@@ -60,6 +61,7 @@
 			</div>
 		</td>
 	</tr>
+-->
 </table>
 <table width="100%" border="0" cellpadding="0" cellspacing="0">
 	<tr>
@@ -79,10 +81,10 @@
 			<div style="padding: 5px;">
 				<form style="margin-bottom:0;" action="{CURRENT_VIEW}.php" method="get">
 					<select name="action" class="query_style" onchange="window.location=(this.options[this.selectedIndex].value);">{LIST_JUMPS}</select><br />
-					<select name="action" class="query_style" onchange="window.location=(this.options[this.selectedIndex].value);">{LIST_ICALS}</select><br />
+	<!--				<select name="action" class="query_style" onchange="window.location=(this.options[this.selectedIndex].value);">{LIST_ICALS}</select><br />-->
 					<select name="action" class="query_style" onchange="window.location=(this.options[this.selectedIndex].value);">{LIST_YEARS}</select><br />
 					<select name="action" class="query_style" onchange="window.location=(this.options[this.selectedIndex].value);">{LIST_MONTHS}</select><br />
-					<select name="action" class="query_style" onchange="window.location=(this.options[this.selectedIndex].value);">{LIST_WEEKS}</select><br />
+					<!--<select name="action" class="query_style" onchange="window.location=(this.options[this.selectedIndex].value);">{LIST_WEEKS}</select><br />-->
 					<input type="hidden" name="cpath" value="{CPATH}"/>
 
 				</form>
@@ -96,6 +98,7 @@
 					<input type="submit" value="Zobrazit"/>
 				</form>
 				<!-- switch show_goto off -->
+<!--
 				<hr />
 				<div class = 'G10BOLD'>{L_PICK_MULTIPLE}:</div>
 				<form style="margin-bottom:0;" action="{CURRENT_VIEW}.php" method="get">
@@ -105,6 +108,7 @@
 					<input type="submit" value="Zobrazit"/>
 				</form>
 			</div>
+-->
 		</td>
 	</tr>
 </table>

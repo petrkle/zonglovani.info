@@ -2,7 +2,7 @@
 Doufám ¾e nebudete mít s pou¾íváním tìchto stránek ¾ádné potí¾e. Dodr¾uji následující pravidla:
 <ul>
 <li>Odkazy jsou podtr¾ené.</li>
-<li>®ádné otevírání nových oken.</li>
+<li>®ádné otevírání nových oken. Výjimkou je <a href="/kalendar" title="Kalendáø ¾onglérských akcí">kalendáø</a>, který pomocí javascriptu otevírá nová okna.</li>
 <li>Jednoduchá a srozumitelná navigace.</li>
 </ul>
 </p>

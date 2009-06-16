@@ -15,7 +15,7 @@
 
 <div id="hlavicka">
 <a name="nahore" id="nahore"></a>
-<div style="background: {if eregi("/micky.*",$smarty.server.REQUEST_URI)}url('/img/m/micky-logo.gif') no-repeat 95% 0{elseif eregi("/kruhy.*",$smarty.server.REQUEST_URI)}url('/img/k/kruhy-logo.gif') no-repeat 99% 0{elseif eregi("/kuzely.*",$smarty.server.REQUEST_URI)}url('/img/k/kuzely-logo.gif') no-repeat 92% 0{else}transparent{/if};">
+<div style="background: url('/img/k/kalendar.png') no-repeat 95% 0;">
 <a href="/" title="®onglérùv slabikáø - úvodní stránka."><img src="/img/l/logo.gif" width="442" height="71" title="®onglérùv slabikáø - úvodní stránka." alt="®onglérùv slabikáø - úvodní stránka." />
 </a>
 </div>

@@ -23,10 +23,10 @@
 									<div style="padding: 5px;">
 										<form style="margin-bottom:0;" action="{CURRENT_VIEW}.php" method="get">
 											<select name="action" class="query_style" onchange="window.location=(this.options[this.selectedIndex].value);">{LIST_JUMPS}</select><br />
-											<select name="action" class="query_style" onchange="window.location=(this.options[this.selectedIndex].value);">{LIST_ICALS}</select><br />
+<!--											<select name="action" class="query_style" onchange="window.location=(this.options[this.selectedIndex].value);">{LIST_ICALS}</select><br />-->
 											<select name="action" class="query_style" onchange="window.location=(this.options[this.selectedIndex].value);">{LIST_YEARS}</select><br />
 											<select name="action" class="query_style" onchange="window.location=(this.options[this.selectedIndex].value);">{LIST_MONTHS}</select><br />
-											<select name="action" class="query_style" onchange="window.location=(this.options[this.selectedIndex].value);">{LIST_WEEKS}</select><br />
+<!--											<select name="action" class="query_style" onchange="window.location=(this.options[this.selectedIndex].value);">{LIST_WEEKS}</select><br /> -->
 										<input type="hidden" name="cpath" value="{CPATH}"/>
 
 										</form>
@@ -41,6 +41,7 @@
 											<input type="submit" value="Zobrazit"/>
 										</form>
 										<!-- switch show_goto off -->
+<!--
 										<hr />
 										<div class = 'G10BOLD'>{L_PICK_MULTIPLE}:</div>
 										<form style="margin-bottom:0;" action="{CURRENT_VIEW}.php" method="get">
@@ -50,6 +51,7 @@
 											<input type="submit" value="Zobrazit"/>
 										</form>
 									</div>
+-->
 								</td>
 							</tr>
 						</table>
