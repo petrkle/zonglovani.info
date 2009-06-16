@@ -18,7 +18,7 @@
 <div id="paticka">
 <div id="dolni">
 <div>
-<a href="/" title="Úvodní stránka">zonglovani.info</a> ~ <a href="/mapa-stranek.html" title="Mapa stránek zonglovani.info">Mapa stránek</a> ~ <a href="/kontakt.html" title="Kontakt">Kontakt</a> ~ <a href="/pristupnost.html" title="Prohl?šen? o přístupnosti">Prohláše o přístupnosti</a>
+<a href="/" title="Úvodní stránka">zonglovani.info</a> ~ <a href="/mapa-stranek.html" title="Mapa stránek zonglovani.info">Mapa stránek</a> ~ <a href="/kontakt.html" title="Kontakt">Kontakt</a> ~ <a href="/pristupnost.html" title="Prohl?šen? o přístupnosti">Prohlášení o přístupnosti</a>
 
 </div>
 </div>
@@ -39,7 +39,17 @@ pageTracker._trackPageview();
 <!-- start -->
 <div class="reklama">
 
-<!--REKLAMA-->
+<script type="text/javascript"><!--
+google_ad_client = "pub-1287040839690543";
+/* zonglovani.info */
+google_ad_slot = "9777477564";
+google_ad_width = 468;
+google_ad_height = 60;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
 
 </div>
 <!-- stop -->

@@ -14,9 +14,9 @@
 									<div style="padding-top: 3px;">
 									<table width="120" border="0" cellpadding="0" cellspacing="0">
 										<tr valign="top">
-											<td><a class="psf" href="{GETDATE}-day"><img src="templates/{TEMPLATE}/images/day_on.gif" alt="{L_DAY}" title="{L_DAY}" border="0" /></a></td>
+											<td><a class="psf" href="day.php?cal={CAL}&getdate={GETDATE}"><img src="templates/{TEMPLATE}/images/day_on.gif" alt="{L_DAY}" title="{L_DAY}" border="0" /></a></td>
 											<td><img src="templates/{TEMPLATE}/images/week_on.gif" alt="{L_WEEK}" title="{L_WEEK}" border="0" /></td>
-											<td><a class="psf" href="{GETDATE}-month"><img src="templates/{TEMPLATE}/images/month_on.gif" alt="{L_MONTH}" title="{L_MONTH}" border="0" /></a></td>
+											<td><a class="psf" href="month.php?cal={CAL}&getdate={GETDATE}"><img src="templates/{TEMPLATE}/images/month_on.gif" alt="{L_MONTH}" title="{L_MONTH}" border="0" /></a></td>
 										</tr>
 									</table>
 									</div>
