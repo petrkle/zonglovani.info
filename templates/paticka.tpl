@@ -46,18 +46,7 @@ pageTracker._trackPageview();
 
 <!-- start -->
 <div class="reklama">
-<script type="text/javascript"><!--
-google_ad_client = "pub-1287040839690543";
-/* zonglovani.info */
-google_ad_slot = "9777477564";
-google_ad_width = 468;
-google_ad_height = 60;
-//-->
-</script>
-<script type="text/javascript"
-src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
-</script>
-
+&nbsp;
 </div>
 <!-- stop -->
 {/if}

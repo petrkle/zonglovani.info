@@ -3,7 +3,7 @@
 // English language include
 // For version 2.0 PHP iCalendar
 //
-// Translation by Chad Little (chad@chadsdomain.com)
+// Translation by Petr Kletečka (kletecka@email.cz)
 //
 // Submit new translations to phpicalendar@gmail.com
 
@@ -24,17 +24,17 @@ $lang['l_subscribe'] 		= 'Přihlásit';
 $lang['l_download'] 		= 'Stáhnout';
 $lang['l_powered_by'] 		= 'Běží na';
 $lang['l_event'] 			= 'Událost';
-$lang['l_event_start'] 		= 'Start Time';
-$lang['l_event_end'] 		= 'End Time';
+$lang['l_event_start'] 		= 'Začátek';
+$lang['l_event_end'] 		= 'Konec';
 $lang['l_this_months'] 		= 'Události v tomto měsíci';
 $lang['l_date'] 			= 'Datum';
 $lang['l_summary'] 			= 'Název';
 $lang['l_all_day'] 			= 'Celodenní událost';
 $lang['l_notes'] 			= 'Poznámky';
-$lang['l_this_years'] 		= 'This Year\'s Events';
-$lang['l_today'] 			= 'Today';
-$lang['l_this_week'] 		= 'This týden';
-$lang['l_this_month'] 		= 'This Month';
+$lang['l_this_years'] 		= 'Události v tomto roce';
+$lang['l_today'] 			= 'Dnes';
+$lang['l_this_week'] 		= 'Tento týden';
+$lang['l_this_month'] 		= 'Tento Month';
 $lang['l_jump'] 			= 'Přejít na';
 $lang['l_todays']    		= 'Dnešní události';
 $lang['l_tomorrows'] 		= 'Zítřejší události';
@@ -48,91 +48,91 @@ $lang['l_pick_multiple'] 	= 'Výcenásobný výběr';
 $lang['l_query'] 			= 'Dotaz'; // will be followed by the search query
 $lang['l_no_results'] 		= 'Žádná událost nenalezena';
 $lang['l_goprint'] 			= 'Tisk';
-$lang['l_view_calendars']	= 'Calendar view';
+$lang['l_view_calendars']	= 'Zobrazení kalendáře';
 $lang['l_time'] 			= 'Čas';
 $lang['l_summary'] 			= 'Název';
 $lang['l_description'] 		= 'Popis';
 $lang['l_this_site_is']		= 'Tato stránka podporuje';
-$lang['l_no_events_day']	= 'No events today.';
-$lang['l_no_events_week']	= 'No events this týden.';
-$lang['l_no_events_month']	= 'No events this month.';
-$lang['l_rss_day_date']		= 'g:i A';  // Lists just the time
+$lang['l_no_events_day']	= 'Dnes žádné události';
+$lang['l_no_events_week']	= 'Žádné události tento týden.';
+$lang['l_no_events_month']	= 'Žádné události tento měsíc.';
+$lang['l_rss_day_date']		= 'G:i';  // Lists just the time
 $lang['l_rss_week_date	']	= '%b %e';  // Lists just the day
 $lang['l_rss_month_date	']	= '%b %e';  // Lists just the day
-$lang['l_rss_language']		= 'en-us';
-$lang['l_search_took']		= 'Search took %s seconds';
-$lang['l_starting_on']  	= 'Starting on ';
-$lang['l_recurring_event']	= 'Recurring event';
-$lang['l_exception']		= 'Exception';
-$lang['l_no_query']			= 'No query given';
+$lang['l_rss_language']		= 'cs-CZ';
+$lang['l_search_took']		= 'Hledání trvalo %s sekund';
+$lang['l_starting_on']  	= 'Začíná ';
+$lang['l_recurring_event']	= 'Opakující se událost';
+$lang['l_exception']		= 'Výjimka';
+$lang['l_no_query']			= 'Neby zadán dotaz';
 $lang['l_preferences']		= 'Nastavení';
 $lang['l_printer']			= 'Tiskárna';
-$lang['l_select_lang']		= 'Vyberte výchozí jazyk';
-$lang['l_select_cal']		= 'Select your default calendar';
-$lang['l_select_view']		= 'Select your default view';
-$lang['l_select_time']		= 'Select your default start time';
-$lang['l_select_timezone']	= 'Select your default timezone';
-$lang['l_select_endtime']	= 'Select your default end time';
-$lang['l_select_timeformat']= 'Select your default time format (AM/PM)';
-$lang['l_select_day']		= 'Select your default start day of týden';
-$lang['l_select_style']		= 'Select your default style';
-$lang['l_set_prefs']		= 'Set preferences';
-$lang['l_completed_date']	= 'Completed on';
-$lang['l_completed']		= 'Completed';
-$lang['l_created']			= 'Created';
-$lang['l_due']				= 'Due';
-$lang['l_priority']			= 'Priority';
-$lang['l_priority_high']	= 'High';
-$lang['l_priority_low']		= 'Low';
-$lang['l_priority_medium']	= 'Medium';
-$lang['l_priority_none']	= 'None';
-$lang['l_status']			= 'Status';
-$lang['l_status_confirmed'] = 'CONFIRMED' ; 
-$lang['l_status_cancelled'] = 'CANCELLED'; 
-$lang['l_status_tentative'] = 'TENTATIVE'; 
-$lang['l_todo']				= 'To do items';
-$lang['l_unfinished']		= 'Unfinished';
-$lang['l_prefs_set'] 		= 'Your preferences have been set.';
-$lang['l_prefs_unset'] 		= 'Preferences unset. Changes will take place next page load.';
-$lang['l_unset_prefs'] 		= 'Unset preferences';
+$lang['l_select_lang']		= 'Výchozí jazyk';
+$lang['l_select_cal']		= 'Výchozí kalendář';
+$lang['l_select_view']		= 'Výchozí zobrazení';
+$lang['l_select_time']		= 'Výchozí čas začátku';
+$lang['l_select_timezone']	= 'Výchozí časová zóna';
+$lang['l_select_endtime']	= 'Výchozí čas konce';
+$lang['l_select_timeformat']= 'Výchozí formát času (AM/PM)';
+$lang['l_select_day']		= 'První den v týdnu';
+$lang['l_select_style']		= 'Výchozí styl';
+$lang['l_set_prefs']		= 'Uložit nastavení';
+$lang['l_completed_date']	= 'Dokončeno na';
+$lang['l_completed']		= 'Dokončeno';
+$lang['l_created']			= 'Vytvořen';
+$lang['l_due']				= 'Během';
+$lang['l_priority']			= 'Důležitost';
+$lang['l_priority_high']	= 'Vysoká';
+$lang['l_priority_low']		= 'Nízká';
+$lang['l_priority_medium']	= 'Střední';
+$lang['l_priority_none']	= 'Žádná';
+$lang['l_status']			= 'Stav';
+$lang['l_status_confirmed'] = 'POTVRZENO' ; 
+$lang['l_status_cancelled'] = 'ZRUŠENO'; 
+$lang['l_status_tentative'] = 'PŘEDBĚŽNÝ'; 
+$lang['l_todo']				= 'Zbývá udělat';
+$lang['l_unfinished']		= 'Nedokončeno';
+$lang['l_prefs_set'] 		= 'Vaše nastavení byla uložena.';
+$lang['l_prefs_unset'] 		= 'Nastavení zrušena. Změny se projeví po obnovení stránky.';
+$lang['l_unset_prefs'] 		= 'Zrušit nastavení';
 $lang['l_organizer']		= 'Organizátor';
-$lang['l_attendee']			= 'Attendee';
+$lang['l_attendee']			= 'Účastník';
 $lang['l_location']			= 'Místo';
-$lang['l_download_event']	= 'Download event';
+$lang['l_download_event']	= 'Uložit událost';
 $lang['l_url']   			= 'URL';
 $lang['l_admin_header']		= 'Administrace PHP iCalendar';
 $lang['l_username']			= 'Jméno';
 $lang['l_password']			= 'Heslo';
 $lang['l_login']			= 'Login';
 $lang['l_invalid_login']	= 'Špaté jméno nebo heslo.';
-$lang['l_addupdate_cal']	= 'Add or Update a Calendar';
-$lang['l_addupdate_desc']	= 'Add a calendar by uploading a new file. Update a calendar by uploading a file of the same name.';
-$lang['l_delete_cal']		= 'Delete a Calendar';
+$lang['l_addupdate_cal']	= 'Přidat nebo aktualizovat kalendář';
+$lang['l_addupdate_desc']	= 'Přidat kalendář nahráním nového souboru. Aktualizovat kalendář nahrání souboru se stejným jménem.';
+$lang['l_delete_cal']		= 'Smazat kalendář';
 $lang['l_logout']			= 'Odhlásit';
-$lang['l_cal_file']			= 'Calendar File';
+$lang['l_cal_file']			= 'Soubor kalendáře';
 $lang['l_php_error']		= 'PHP chyba';
-$upload_error_gen_lang		= 'There was a problem with your upload.';
-$upload_error_lang[0]		= 'There was a problem with your upload.';
-$upload_error_lang[1]		= 'The file you are trying to upload is too big.';
-$upload_error_lang[2]		= 'The file you are trying to upload is too big.';
-$upload_error_lang[3]		= 'The file you are trying upload was only partially uploaded.';
-$upload_error_lang[4]		= 'You must select a file for upload.';
+$upload_error_gen_lang		= 'Při odesílání souboru nastala chyba.';
+$upload_error_lang[0]		= 'Při odesílání souboru nastala chyba.';
+$upload_error_lang[1]		= 'Pokoušíte se odeslat příliš velký soubor.';
+$upload_error_lang[2]		= 'Pokoušíte se odeslat příliš velký soubor.';
+$upload_error_lang[3]		= 'Soubor byl odeslán jen z části.';
+$upload_error_lang[4]		= 'Musíte vybrat soubor k odeslání.';
 $lang['l_upload_error_type'] = 'Only .ics files may be uploaded.';
-$lang['l_copy_error']			= 'Failed to copy file';
-$lang['l_delete_error']			= 'Failed to delete file';
-$lang['l_delete_success']		= 'was deleted successfully.';
-$lang['l_action_success']		= 'Your action was successful.';
+$lang['l_copy_error']			= 'Chyba při kopírování souboru';
+$lang['l_delete_error']			= 'Chyba při mazání souboru';
+$lang['l_delete_success']		= 'byla smazána úšpěšně.';
+$lang['l_action_success']		= 'Vaše akce byla úspěšná.';
 $lang['l_submit']				= 'Odeslat';
 $lang['l_delete']				= 'Smazat';
-$all_cal_comb_lang			= 'All Combined';
+$all_cal_comb_lang			= 'Vše dohromady';
 
 // New for 2.0
 $lang['l_legend']			= 'Popisek';
-$lang['l_admin_subhead']	= 'Manage your calendars from this page';
-$lang['l_prefs_subhead']	= 'Sets a cookie for visiting this site';
+$lang['l_admin_subhead']	= 'Nastavit Vaše kalendáře z této stránky';
+$lang['l_prefs_subhead']	= 'Nastavit cookie pro zobrazení této stránky';
 $lang['l_rss_info']			= 'Informace o RSS';
 $lang['l_rss_subhead']		= 'Základní RSS kanál je dostupný pro všechny kalendáře';
-$lang['l_rss_notenabled']	= 'RSS is not enabled on this site';
+$lang['l_rss_notenabled']	= 'RSS je vypnuté';
 
 // - navigation
 $lang['l_back'] 		= 'Zpět';
@@ -157,13 +157,13 @@ $format_recur_lang['hourly']		= array('hour','hours');
 $format_recur_lang['minutely']		= array('minute','minutes');
 $format_recur_lang['secondly']		= array('second','seconds');
 
-$format_recur_lang['start']			= 'Every %int% %freq% %for%';	// ie, 'Every 1 day until January 4' or 'Every 1 day for a count of 5'
-$format_recur_lang['until']			= 'until %date%';				// ie, 'until January 4'
-$format_recur_lang['count']			= 'for a count of %int%';		// ie, 'for 5 times'
+$format_recur_lang['start']			= 'Každý %int% %freq% %for%';	// ie, 'Every 1 day until January 4' or 'Every 1 day for a count of 5'
+$format_recur_lang['until']			= 'do %date%';				// ie, 'until January 4'
+$format_recur_lang['count']			= 'do počtu %int%';		// ie, 'for 5 times'
 
-$format_recur_lang['bymonth']		= 'In months: %list%';			// ie, 'In months: January, February, March'
-$format_recur_lang['bymonthday']	= 'On dates: %list%';			// ie, 'On dates: 1, 2, 3, 4'
-$format_recur_lang['byday']			= 'On days: %list%';			// ie, 'On days: Mon, Tues, Wed, Thurs'
+$format_recur_lang['bymonth']		= 'V měsících: %list%';			// ie, 'In months: January, February, March'
+$format_recur_lang['bymonthday']	= 'V datumech: %list%';			// ie, 'On dates: 1, 2, 3, 4'
+$format_recur_lang['byday']			= 'V dnech: %list%';			// ie, 'On days: Mon, Tues, Wed, Thurs'
 
 // ---------------------------------
 
@@ -206,14 +206,14 @@ Notes about dateFormat_*
 // Error messages - %s will be replaced with a variable
 $lang['l_error_title'] 			= 'Chyba!';
 $lang['l_error_window'] 		= 'Stala se chyba!';
-$lang['l_error_calendar'] 		= 'The calendar "%s" was being processed when this error occurred.';
-$lang['l_error_path'] 			= 'Unable to open the path: "%s"';
-$lang['l_error_back'] 			= 'Please use the "Back" button to return.';
-$lang['l_error_remotecal'] 		= 'This server blocks remote calendars which have not been approved.';
-$lang['l_error_restrictedcal'] 	= 'You have tried to access a calendar that is restricted on this server.';
-$lang['l_error_invalidcal'] 	= 'Invalid calendar file. Please try a different calendar.';
-$lang['l_error_cantopen'] 		= 'Unable to open calendar.';
-$lang['l_error_cache']			= 'Unable to write to cache directory. Please check your config.';
-$lang['l_prefs_off']			= 'Preferences are disabled on this installation.';
+$lang['l_error_calendar'] 		= 'Při zprazování kalendáře "%s" se stala chyba.';
+$lang['l_error_path'] 			= 'Nelze otevřít cestu: "%s"';
+$lang['l_error_back'] 			= 'Pro návrat použijte tlačítko "Zpět".';
+$lang['l_error_remotecal'] 		= 'Na tomto serveru nejsou povoleny vzdálené kalendáře.';
+$lang['l_error_restrictedcal'] 	= 'Přístup ke kalendáři je omezen na tento server.';
+$lang['l_error_invalidcal'] 	= 'Nesprávný soubor kalendáře. Prosím, zkuste jiný kalendář.';
+$lang['l_error_cantopen'] 		= 'Kalendář nelze otevřít.';
+$lang['l_error_cache']			= 'Nelze zapisovat do adresáře cache. Prosím, zkontrolujte konfigurační soubor.';
+$lang['l_prefs_off']			= 'Uživatelská nastavení jsou vypnutá.';
 
 ?>

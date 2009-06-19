@@ -275,6 +275,7 @@ p.kontakt img {
 	padding: 0;
 	border: 0;
 	background-color: #fff;
+	vertical-align: bottom;
 	clear: none;
 	float: none;
 }

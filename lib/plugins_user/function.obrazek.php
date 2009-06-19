@@ -8,7 +8,7 @@ function smarty_function_obrazek($params, &$smarty){
 		$soubor="img/m/missing.png";
 	}
 	$rozmery=getimagesize($soubor);
-	return ("<img src=\"/".$soubor."\" ".$rozmery[3]." title=\"".$popisek."\" alt=\"".$popisek."\" />\n");
+	return ("<img src=\"/".$soubor."\" ".$rozmery[3]." title=\"".$popisek."\" alt=\"".$popisek."\" />");
 
 }
 

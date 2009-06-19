@@ -6,13 +6,14 @@
 	<li><a href="/cirkusove-discipliny.html">Cirkusové disciplíny</a></li>
 	<li><a href="/druhy-zonglovani.html">Druhy ¾onglování</a></li>
 	<li><a href="/faq.html">Èasto kladené otázky</a></li>
+	<li><a href="/jak-odkazovat.html">Jak odkazovat na ¾onglérùv slabikáø</a></li>
 	<li><a href="/kontakt.html">Kontakt</a></li>
 	<li><a href="/literatura.html">Literatura</a></li>
 	<li><a href="/myty-omyly.html">Mýty a omyly</a></li>
 	<li><a href="/nacini.html">®onglérské náèiní</a></li>
 	<li><a href="/odkazy.html">®onglování na síti</a></li>
 	<li><a href="/ostatni.html">Dal¹í informace o ¾onglování</a></li>
-	<li><a href="/pristupnost.html">Pøístupnost</a></li>
+	<li><a href="/podporte-zongleruv-slabikar.html">Podpoøte ¾onglérùv slabikáø</a></li>
 	<li><a href="/proc-a-jak.html">Proè a jak vznikl ¾ognlérùv slabikáø</a></li>
 	<li><a href="/siteswap.html">Siteswap</a></li>
 	<li><a href="/software.html">Simulátory ¾onglování</a></li>
