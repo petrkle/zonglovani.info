@@ -40,9 +40,9 @@ function submenu($id){
 	}
 
 	if($id==4){
-		$adresy = array("/video/");
-		$texty = array("Video");
-		$popisky = array("Zajímavá ¾onglérská videa");
+		$adresy = array("/video/","/cal/");
+		$texty = array("Video","Kalendáø");
+		$popisky = array("Zajímavá ¾onglérská videa","Kalendáø ¾onglérských akcí");
 	}
 
 	if(isset($adresy)){

@@ -21,10 +21,10 @@ Je minimálnì o polovinu skladnìj¹í ne¾ obyèejné jízdní kolo. Existují i teréní v
 Diváci milují chùdy. Hlavnì proto¾e jsou v¹ichni zvìdaví kdy chùdaø spadne a ¹erednì si natluèe. <a href="/chudy/" title="Návod na výrobu chùd.">Návod na výrobu chùd</a>.
 </p>
 
-<h3><a href="http://www.apo-vystoupeni.cz/o-skakacich-botach.php" title="Podrobnosti o skákacích botách." class="external" onclick="pageTracker._trackPageview('/goto/apo-vystoupeni.cz/o-skakacich-botach.php');">Skákací boty</a></h3>
+<h3><a href="http://www.apo-vystoupeni.cz/skakaci-boty.php" title="Podrobnosti o skákacích botách." class="external" onclick="pageTracker._trackPageview('/goto/apo-vystoupeni.cz/skakaci-boty.php');">Skákací boty</a></h3>
 <p>
 {obrazek soubor="cirkusd.png" popisek="Skákací boty"}
-Moderní materiály umo¾nily vznik sedmimílových bot. Skoè na <a href="http://www.apo-vystoupeni.cz/o-skakacich-botach.php" title="Podrobnosti o skákacích botách." class="external" onclick="pageTracker._trackPageview('/goto/apo-vystoupeni.cz/o-skakacich-botach.php');">danovu stránku</a> pro podrobnìj¹í popis.
+Moderní materiály umo¾nily vznik sedmimílových bot. Skoè na <a href="http://www.apo-vystoupeni.cz/skakaci-boty.php" title="Podrobnosti o skákacích botách." class="external" onclick="pageTracker._trackPageview('/goto/apo-vystoupeni.cz/skakaci-boty.php');">danovu stránku</a> pro podrobnìj¹í popis.
 </p>
 
 <h3>Visutá hrazda</h3>

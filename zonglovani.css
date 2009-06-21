@@ -279,3 +279,70 @@ p.kontakt img {
 	clear: none;
 	float: none;
 }
+
+.kalendar	{
+ margin-left: 15px;
+ border-left: 1px solid #ccc;
+ border-top: 1px solid #ccc;
+ line-height: 1em;
+}
+
+.kalendar th {
+ text-align: center;
+ border-right: 1px solid #ccc;
+ border-bottom: 1px solid #ccc;
+ width: 85px;
+ font-size: 0.7em;
+ background: #eee;
+}
+
+.den {
+ height: 85px;
+ text-align: left;
+ vertical-align: top;
+ border-right: 1px solid #ccc;
+ border-bottom: 1px solid #ccc;
+ padding: 2px;
+}
+
+.den_prazdny {
+ height: 85px;
+ text-align: left;
+ vertical-align: top;
+ border-right: 1px solid #ccc;
+ border-bottom: 1px solid #ccc;
+}
+
+.dnesni {
+ background-color: #ccf;
+}
+
+.kal_prev {
+ padding: 2px;
+ border-bottom: 1px solid #ccc;
+ font-size: 0.6em;
+}
+
+.kal_next {
+ padding: 2px;
+ text-align: right;
+ border-bottom: 1px solid #ccc;
+ border-right: 1px solid #ccc;
+ font-size: 0.6em;
+}
+
+.kal_akt {
+ padding: 2px;
+ border-bottom: 1px solid #ccc;
+ font-size: 0.6em;
+}
+
+.kal_entry {
+ margin: 0;
+ padding: 0;
+ list-style: none;
+}
+
+.kal_entry li a{
+	font-size: 0.5em;
+}
