@@ -2,6 +2,12 @@
 require('../init.php');
 require('cal-init.php');
 
+if(eregi("index\.php$",$_SERVER["REQUEST_URI"])){
+	header("HTTP/1.1 301 Moved Permanently");
+	header("Location: /");
+	exit();
+}
+
 $now=time();
 $akt=false;
 
@@ -18,6 +24,7 @@ if(isset($_GET['m'])){
 }else{
 	$mesic=date('m',$now);
 }
+
 
 $events=get_cal_data($rok,$mesic);
 
@@ -55,6 +62,11 @@ $aktualni= date('Y',$aktStamp).'-'.date('m',$aktStamp).'.html';
 $smarty->assign('aktMonth', $aktualni);
 $smarty->assign('akt', $akt);
 
+if(basename($_SERVER["REQUEST_URI"])==$aktualni){
+	header("HTTP/1.1 301 Moved Permanently");
+	header("Location: ".CALENDAR_URL);
+	exit();
+}
 
 $smarty->assign_by_ref('month', $weeksInMonth);
 $monthNumber = date('n',$month->getTimeStamp());

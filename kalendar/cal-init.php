@@ -1,5 +1,5 @@
 <?php
-define('CALENDAR_URL','/cal/'); 
+define('CALENDAR_URL','/kalendar/'); 
 define('CALENDAR_ROOT',$lib.'/calendar/'); 
 define('CALENDAR_DATA',$_SERVER['DOCUMENT_ROOT'].CALENDAR_URL.'data'); 
 
@@ -75,6 +75,7 @@ function get_event_data($id){
 			$udalost["zacatek"]=substr($filename[0],0,4)."-".substr($filename[0],4,2)."-".substr($filename[0],6,2);
 			$udalost["konec"]=substr($filename[1],0,4)."-".substr($filename[1],4,2)."-".substr($filename[1],6,2);
 			$udalost["id"]=basename($file,".cal");
+			$udalost["month_url"]=CALENDAR_URL.substr($filename[0],0,4)."-".substr($filename[0],4,2).".html";
 
 			$db=file(CALENDAR_DATA."/$file");
 			foreach($db as $radek){

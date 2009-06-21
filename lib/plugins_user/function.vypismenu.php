@@ -40,7 +40,7 @@ function submenu($id){
 	}
 
 	if($id==4){
-		$adresy = array("/video/","/cal/");
+		$adresy = array("/video/","/kalendar/");
 		$texty = array("Video","Kalendáø");
 		$popisky = array("Zajímavá ¾onglérská videa","Kalendáø ¾onglérskıch akcí");
 	}

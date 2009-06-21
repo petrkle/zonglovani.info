@@ -10,4 +10,8 @@ Odkaz: <a href="{$udalost.url|escape}">{$udalost.url|escape}</a>
 <p>
 Vlo¾il: {$udalost.vlozil|escape}
 </p>
+
+<p>
+<a href="{$udalost.month_url}">&laquo; zpìt do kalendáøe</a>
+</p>
 {/if}
