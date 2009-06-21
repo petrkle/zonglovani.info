@@ -21,7 +21,7 @@
             <ul class="kal_entry">
             {section name=entry loop=$month[week][day]->entryCount()}
             {assign var=payload value=$month[week][day]->getEntry()}
-             <li><a href="udalost-{$payload.id}.html">{$payload.title}</a></li>
+             <li><a href="udalost-{$payload.id}.html" title="{$payload.title}">{$payload.title|truncate:30:"...":false}</a></li>
             {/section}
             </ul>
 </td>
@@ -31,7 +31,7 @@
             <ul class="kal_entry">
             {section name=entry loop=$month[week][day]->entryCount()}
             {assign var=payload value=$month[week][day]->getEntry()}
-             <li><a href="udalost-{$payload.id}.html">{$payload.title}</a></li>
+             <li><a href="udalost-{$payload.id}.html" title="{$payload.title}">{$payload.title|truncate:30:"...":false}</a></li>
             {/section}
             </ul>
 </td>
@@ -40,8 +40,8 @@
     </tr>
     {/section}
 		<tr>
-<td class="kal_prev"  colspan="3">{if isset($prevMonth)}<a href="{if $prevMonth==$aktMonth}{$smarty.const.CALENDAR_URL}{else}{$prevMonth}{/if}">&laquo; pøedchozí mìsíc</a>{else}&nbsp;{/if}</td>
-<td class="kal_akt"  colspan="2">{if !$akt}<a href="{$smarty.const.CALENDAR_URL}">aktuální mìsíc</a>{else}&nbsp;{/if}</td>
-<td class="kal_next" colspan="2">{if isset($nextMonth)}<a href="{if $nextMonth==$aktMonth}{$smarty.const.CALENDAR_URL}{else}{$nextMonth}{/if}">dal¹í mìsíc &raquo;</a>{else}&nbsp;{/if}</td>
+<td class="kal_prev"  colspan="3">{if isset($prevMonth)}<a href="{if $prevMonth==$aktMonth}{$smarty.const.CALENDAR_URL}{else}{$prevMonth}{/if}" title="Zobrazí pøedchozí mìsíc.">&laquo; pøedchozí mìsíc</a>{else}&nbsp;{/if}</td>
+<td class="kal_akt"  colspan="2">{if !$akt}<a href="{$smarty.const.CALENDAR_URL}" title="Zobrazí aktuální mìsíc.">aktuální mìsíc</a>{else}&nbsp;{/if}</td>
+<td class="kal_next" colspan="2">{if isset($nextMonth)}<a href="{if $nextMonth==$aktMonth}{$smarty.const.CALENDAR_URL}{else}{$nextMonth}{/if}" title="Zobrazí dal¹í mìsíc.">dal¹í mìsíc &raquo;</a>{else}&nbsp;{/if}</td>
 		</tr>
 </table>

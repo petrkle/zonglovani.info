@@ -87,8 +87,10 @@ function get_event_data($id){
 			}
 
 		$udalost["start"]=strtotime($udalost["zacatek"]." ".$udalost["time_start"]);
+		$udalost["start_hr"]=date("j. n. Y G.i",strtotime($udalost["zacatek"]." ".$udalost["time_start"]));
 		$udalost["time"]=strtotime($udalost["time_start"]);
 		$udalost["end"]=strtotime($udalost["konec"]." ".$udalost["time_end"]);
+		$udalost["end_hr"]=date("j. n. Y G.i",strtotime($udalost["konec"]." ".$udalost["time_end"]));
 
 }
 return $udalost;
