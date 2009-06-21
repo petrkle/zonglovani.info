@@ -298,6 +298,7 @@ p.kontakt img {
 
 .den {
  height: 85px;
+ width: 85px;
  text-align: left;
  vertical-align: top;
  border-right: 1px solid #ccc;
@@ -307,14 +308,20 @@ p.kontakt img {
 
 .den_prazdny {
  height: 85px;
+ width: 85px;
  text-align: left;
  vertical-align: top;
  border-right: 1px solid #ccc;
  border-bottom: 1px solid #ccc;
 }
 
+.udalost {
+ background-color: #eee;
+}
+
 .dnesni {
- background-color: #ccf;
+ border: solid 2px #000;
+ background-color: #eef;
 }
 
 .kal_prev {
@@ -345,4 +352,10 @@ p.kontakt img {
 
 .kal_entry li a{
 	font-size: 0.5em;
+}
+
+.alert {
+	border: dashed 1px #000;
+	background: #ffc;
+	padding: 5px;
 }

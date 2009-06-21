@@ -17,7 +17,8 @@
         {if $month[week][day]->isEmpty()}<td class="den_prazdny">&nbsp;</td>
         {* if the day is marked as selected (contains at least one event), display the date in bold *}
     	{elseif $month[week][day]->isSelected()}
-    	   <td class="den dnesni"><strong>{$month[week][day]->thisDay()}</strong>
+				{assign var=cislodne value=$month[week][day]->thisDay()}
+    	   <td class="den udalost{if $cislodne==$dnesek} dnesni{/if}"><strong>{$cislodne}</strong>
             <ul class="kal_entry">
             {section name=entry loop=$month[week][day]->entryCount()}
             {assign var=payload value=$month[week][day]->getEntry()}
@@ -27,21 +28,16 @@
 </td>
     	{else}
     	{* if it is just a regular day, display it *}
-           <td class="den">{$month[week][day]->thisDay()}
-            <ul class="kal_entry">
-            {section name=entry loop=$month[week][day]->entryCount()}
-            {assign var=payload value=$month[week][day]->getEntry()}
-             <li><a href="udalost-{$payload.id}.html" title="{$payload.title}">{$payload.title|truncate:30:"...":false}</a></li>
-            {/section}
-            </ul>
-</td>
+           <td class="den">{$month[week][day]->thisDay()}</td>
     	{/if}
     {/section}                       
     </tr>
     {/section}
 		<tr>
-<td class="kal_prev"  colspan="3">{if isset($prevMonth)}<a href="{if $prevMonth==$aktMonth}{$smarty.const.CALENDAR_URL}{else}{$prevMonth}{/if}" title="Zobrazí pøedchozí mìsíc.">&laquo; pøedchozí mìsíc</a>{else}&nbsp;{/if}</td>
-<td class="kal_akt"  colspan="2">{if !$akt}<a href="{$smarty.const.CALENDAR_URL}" title="Zobrazí aktuální mìsíc.">aktuální mìsíc</a>{else}&nbsp;{/if}</td>
+<td class="kal_prev"  colspan="5">{if isset($prevMonth)}<a href="{if $prevMonth==$aktMonth}{$smarty.const.CALENDAR_URL}{else}{$prevMonth}{/if}" title="Zobrazí pøedchozí mìsíc.">&laquo; pøedchozí mìsíc</a>{else}&nbsp;{/if}</td>
 <td class="kal_next" colspan="2">{if isset($nextMonth)}<a href="{if $nextMonth==$aktMonth}{$smarty.const.CALENDAR_URL}{else}{$nextMonth}{/if}" title="Zobrazí dal¹í mìsíc.">dal¹í mìsíc &raquo;</a>{else}&nbsp;{/if}</td>
 		</tr>
 </table>
+<p>
+Dnes je: {if $dnesek}{$aktDate}{else}<a href="{$smarty.const.CALENDAR_URL}" title="Zobrazí aktuální mìsíc.">{$aktDate}</a>{/if}
+</p>

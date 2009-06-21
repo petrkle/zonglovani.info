@@ -57,9 +57,15 @@ if(($nextStamp-time())<3600*24*365*2){
 	$smarty->assign('nextMonth', $next);
 }
 
-$aktStamp=$now;
-$aktualni= date('Y',$aktStamp).'-'.date('m',$aktStamp).'.html';
+$aktualni = date('Y',$now).'-'.date('m',$now).'.html';
 $smarty->assign('aktMonth', $aktualni);
+$smarty->assign('aktDate', date('j. ',$now).date('n. ',$now).date(' Y',$now));
+if(date('Y',$now)==$rok and date('m',$now)==$mesic){
+	$smarty->assign('dnesek', date('j',$now));
+}else{
+	$smarty->assign('dnesek',false);
+}
+
 $smarty->assign('akt', $akt);
 
 if(basename($_SERVER["REQUEST_URI"])==$aktualni){
