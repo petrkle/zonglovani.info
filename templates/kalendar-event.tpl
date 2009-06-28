@@ -1,6 +1,6 @@
 {if isset($udalost)}
 {if $stare}
-<p class="alert"><strong>Pozor:</strong> tato událost u¾ skonèila.</p>
+<ul class="alert"><li><strong>Pozor:</strong> tato událost u¾ skonèila.</li></ul>
 {/if}
 <p>Zaèátek: {$udalost.start_hr|escape}</p>
 <p>Konec: {$udalost.end_hr|escape}</p>
@@ -9,7 +9,7 @@ Popis: {$udalost.desc|escape}
 </p>
 {if $udalost.url}
 <p>
-Odkaz: <a href="{$udalost.url|escape}" onclick="pageTracker._trackPageview('/goto/{$udalost.url}');"{if eregi("^http://",$udalost.url)} class="external"{/if}>{$udalost.url|truncate:30:"...":false|escape}</a>
+Odkaz: <a href="{$udalost.url|escape}" onclick="pageTracker._trackPageview('/goto/{$udalost.url}');"{if eregi("^http://",$udalost.url)} class="external"{/if}>{$udalost.url|truncate:40:"...":false|escape}</a>
 </p>
 {/if}
 {if $udalost.mapa}

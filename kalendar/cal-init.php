@@ -1,8 +1,4 @@
 <?php
-define('CALENDAR_URL','/kalendar/'); 
-define('CALENDAR_ROOT',$lib.'/calendar/'); 
-define('CALENDAR_DATA',$_SERVER['DOCUMENT_ROOT'].CALENDAR_URL.'data'); 
-
 
 $mesice=array ('Leden','Únor','Bøezen','Duben','Kvìten','Èerven','Èervenec','Srpen','Záøí','Øíjen','Listopad','Prosinec');
 

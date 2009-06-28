@@ -9,7 +9,6 @@ body {
  text-align: center;
 }
  
-
 #hlavicka {
 	text-align: center;
 	width: 750px;
@@ -208,8 +207,7 @@ a:active {
 	clear: both;
 }
 
-.table
- {
+.table {
  width: 90%;
  position: relative;
  left: 5%;
@@ -221,7 +219,6 @@ a:active {
  padding: 4px 30px 4px 30px;
  text-align: center;
 }
-
 
 .capt {
  background: #ddd;
@@ -354,8 +351,53 @@ p.kontakt img {
 	font-size: 0.5em;
 }
 
-.alert {
+fieldset	{
+ margin-left: 15px;
+ width: 500px;
+}
+
+.textbox {
+	width: 300px;
+	margin: 0 10px 0 10px;
+}
+
+form ul {
+	margin: 0;
+	padding: 0;
+}
+
+form ul li {
+	list-style: none;
+	margin: 5px 0 5px 0;
+	text-align: left;
+}
+
+.kratkypopis {
+	margin: 0;
+	padding: 0;
+	display: block;
+	float: left;
+	width: 150px;
+	text-align: right;
+}
+
+
+.vpravo {
+	text-align: right;
+}
+
+.knoflik {
+	font-weight: bold;
+	width: 150px;
+}
+
+textarea {
+	width: 450px;
+	height: 100px;
+}
+
+ul.alert {
 	border: dashed 1px #000;
 	background: #ffc;
-	padding: 5px;
+	margin: 5px 15px;
 }

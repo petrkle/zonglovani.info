@@ -60,11 +60,6 @@ if(($nextStamp-time())<3600*24*365*2){
 $aktualni = date('Y',$now).'-'.date('m',$now).'.html';
 $smarty->assign('aktMonth', $aktualni);
 $smarty->assign('aktDate', date('j. ',$now).date('n. ',$now).date(' Y',$now));
-if(date('Y',$now)==$rok and date('m',$now)==$mesic){
-	$smarty->assign('dnesek', date('j',$now));
-}else{
-	$smarty->assign('dnesek',false);
-}
 
 $smarty->assign('akt', $akt);
 
@@ -78,9 +73,16 @@ $smarty->assign_by_ref('month', $weeksInMonth);
 $monthNumber = date('n',$month->getTimeStamp());
 $monthName = $mesice[$monthNumber-1]." ".date('Y',$month->getTimeStamp());
 $smarty->assign('monthName', $monthName);
+$titulek="Kalendáø ¾onglérských akcí";
 
+if(date('Y',$now)==$rok and date('m',$now)==$mesic){
+	$smarty->assign('dnesek', date('j',$now));
+	$smarty->assign("titulek",$titulek);
+}else{
+	$smarty->assign('dnesek',false);
+	$smarty->assign("titulek","$titulek - $monthName");
+}
 
-$smarty->assign("titulek","Kalendáø - $monthName");
 $smarty->assign("nadpis","$monthName");
 $smarty->display('hlavicka.tpl');
 

@@ -22,6 +22,9 @@
 		<li><a name="chudy"></a><a href="/chudy/">Chùdy</a>
 		
 		</li>
+		<li><a name="kalendar"></a><a href="/kalendar/">Kalendáø ¾onglérských akcí</a>
+		
+		</li>
 		<li><a name="kruhy"></a><a href="/kruhy/">®onglování s kruhy</a>
 		<ul>
 		<li><a href="/kruhy/jak-zacit.html">Jak zaèít ¾onglovat s kruhy</a></li>

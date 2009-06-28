@@ -11,18 +11,21 @@ RewriteRule ^(.*)$ $1 [F]
 
 RewriteRule micky$ /micky/ [R=301,L]
 RewriteRule micky/?$ micky-index.php [L]
+RewriteRule micky/([23456])$ micky/$1/ [R=301,QSA,NE]
 RewriteRule micky/([23456])/?$ micky-$1.php [L]
 RewriteRule micky/([2345])/(.*).html$ micky-$1.php?show=micky-$1-$2 [L]
 RewriteRule micky/(.*).html micky-$1.php [L]
 
 RewriteRule kruhy$ /kruhy/ [R=301,L]
 RewriteRule kruhy/?$ kruhy-index.php [L]
+RewriteRule kruhy/([234])$ kruhy/$1/ [R=301,QSA,NE]
 RewriteRule kruhy/([234])/?$ kruhy-$1.php [L]
 RewriteRule kruhy/([234])/(.*).html kruhy-$1.php?show=kruhy-$1-$2 [L]
 RewriteRule kruhy/(.*).html kruhy-$1.php [L]
 
 RewriteRule kuzely$ /kuzely/ [R=301,L]
 RewriteRule kuzely/?$ kuzely-index.php [L]
+RewriteRule kuzely/([3])$ kuzely/$1/ [R=301,QSA,NE]
 RewriteRule kuzely/([3])/?$ kuzely-$1.php [L]
 RewriteRule kuzely/([3])/(.*).html kuzely-$1.php?show=kuzely-$1-$2 [L]
 
