@@ -1,9 +1,11 @@
 <?php
 require('../init.php');
 
-$smarty->assign("titulek","Nový u¾ivatelský úèet"); if(!isset($_SESSION["souhlas"])){
+$smarty->assign("titulek","Nový u¾ivatelský úèet");
+
+if(!isset($_SESSION["souhlas"])){
 	session_destroy();
-	header("Location: pravidla.php");
+	header("Location: ".LIDE_URL);
 	exit();
 }
 
@@ -122,11 +124,11 @@ function is_zs_account($login){
 }
 
 function is_zs_email($email){
-		return true;
+		return false;
 }
 
 function is_zs_jmeno($jmeno){
-		return true;
+		return false;
 }
 
 function get_loginy(){
@@ -134,13 +136,13 @@ function get_loginy(){
 	$navrat = array();
 	    if ($dir) {
 			   while (($filename = readdir($dir)) !== false) {
-						if ($filename != "." and $filename != ".." and is_dir(LIDE_DATA."$filename")) {
+						if ($filename != "." and $filename != ".." and is_dir(LIDE_DATA."/$filename")) {
 				      array_push($navrat,$filename);
 					 }
 			   }
 		   }
 	closedir($dir);
-	sort($return);
+	sort($navrat);
  return $navrat;
 }
 

@@ -208,4 +208,15 @@ function get_video_info($videa,$id){
 	return $navrat;
 }
 
+# code from http://www.zend.com/zend/trick/html-email.php?article=html-email&kind=tr&id=634&open=1&anc=0&view=1
+function quoted_printable_encode($sString) {
+   /*instead of replace_callback i used e modifier for regex rule, which works as eval php function*/
+   $sString = preg_replace( '/[^\x21-\x3C\x3E-\x7E\x09\x20]/e', 'sprintf( "=%02X", ord ( "$0" ) ) ;',  $sString);
+   /*now added to this rule one or more chars which lets last line to be matched and included in results*/
+   preg_match_all( '/.{1,73}([^=]{0,3})?/', $sString, $aMatch );
+
+   return implode("=\r\n", $aMatch[0]);
+
+}
+
 ?>

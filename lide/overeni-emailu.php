@@ -1,0 +1,57 @@
+<?php
+require('../init.php');
+#print "<pre>";
+#var_dump($_SERVER);
+#exit();
+
+$smarty->assign("titulek","Aktivace úètu");
+if(isset($_GET["m"]) and isset($_GET["k"])){
+	$mail=$_GET["m"];
+	$key=$_GET["k"];
+	if(is_file(LIDE_TMP."/$mail/activation.key") and trim(array_pop(file(LIDE_TMP."/$mail/activation.key")))==$key){
+		$login=trim(array_pop(file(LIDE_TMP."/$mail/login.txt")));
+
+		$tmp=LIDE_TMP."/$mail";
+		$user=LIDE_DATA."/$login";
+
+		if(!is_dir($user)){
+			mkdir($user);
+			$foo=fopen("$user/$mail.mail","w");
+			fclose($foo);
+			rename("$tmp/jmeno.txt","$user/jmeno.txt");
+			rename("$tmp/passwd.sha1","$user/passwd.sha1");
+			rename("$tmp/soukromi.txt","$user/soukromi.txt");
+			rename("$tmp/vzkaz.txt","$user/vzkaz.txt");
+			unlink("$tmp/activation.key");
+			unlink("$tmp/login.txt");
+			rmdir($tmp);
+
+			$smarty->assign("chyby",array("Úèet byl úspì¹nì aktivován.","Mù¾e¹ se <a href=\"".LIDE_URL."login.php\" title=\"Pøihlá¹ení.\">pøihlásit</a>."));
+			$smarty->display('hlavicka.tpl');
+			$smarty->display('alert.tpl');
+			$smarty->display('paticka.tpl');
+		
+		}else{
+			$smarty->assign("chyby",array("Úèet u¾ existuje."));
+			$smarty->display('hlavicka.tpl');
+			$smarty->display('alert.tpl');
+			$smarty->display('paticka.tpl');
+		}
+	}else{
+		$smarty->assign("chyby",array("Neplatný odkaz pro aktivaci úètu."));
+		$smarty->display('hlavicka.tpl');
+		$smarty->display('alert.tpl');
+		$smarty->display('paticka.tpl');
+	}
+
+}else{
+	$smarty->assign("chyby",array("Odkaz pro aktivaci úètu není úplný.","Úèet NEBYL vytvoøen."));
+	$smarty->display('hlavicka.tpl');
+	$smarty->display('alert.tpl');
+	$smarty->display('paticka.tpl');
+}
+
+
+
+
+?>

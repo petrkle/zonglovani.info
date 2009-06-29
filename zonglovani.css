@@ -377,10 +377,9 @@ form ul li {
 	padding: 0;
 	display: block;
 	float: left;
-	width: 150px;
+	width: 140px;
 	text-align: right;
 }
-
 
 .vpravo {
 	text-align: right;
@@ -400,4 +399,42 @@ ul.alert {
 	border: dashed 1px #000;
 	background: #ffc;
 	margin: 5px 15px;
+}
+
+a.info:hover {
+	background: #ff0;
+	color: #000;
+}
+
+a.info span.tooltip {
+	display: none;
+}
+
+a.info:hover span.tooltip {
+	background: #fff;
+	color: #000;
+	display: block;
+	position: absolute;
+	left: 2em;
+	top: 0;
+	font-weight: normal;
+	font-size: 0.7em;
+	line-height: 1em;
+	width: 17em;
+	border: 1px solid #666;
+	padding: 0.2em;
+	text-decoration: none;
+	z-index: 10;
+}
+
+a.info {
+	position: relative;
+	border: 1px solid;
+	padding: 0 0.3em;
+	cursor: help;
+	font-weight: bold;
+	border-color: #666;
+	background: #fff;
+	color: #666;
+	text-decoration: none;
 }

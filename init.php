@@ -4,6 +4,8 @@ $lib=$_SERVER['DOCUMENT_ROOT'].'/lib';
 
 require($lib.'/Smarty.class.php');
 
+session_start();
+
 $smarty = new Smarty;
 
 #$smarty->debugging = true;
@@ -19,10 +21,10 @@ define('CALENDAR_DATA',$_SERVER['DOCUMENT_ROOT'].CALENDAR_URL.'data');
 
 define('LIDE_URL','/lide/'); 
 define('LIDE_DATA',$_SERVER['DOCUMENT_ROOT'].LIDE_URL.'data'); 
+define('LIDE_TMP',$_SERVER['DOCUMENT_ROOT'].LIDE_URL.'tmp'); 
 
 define('DISKUSE_URL','/diskuse/'); 
 define('DISKUSE_DATA',$_SERVER['DOCUMENT_ROOT'].DISKUSE_URL.'data'); 
 
-session_start();
 
 ?>
