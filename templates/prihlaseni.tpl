@@ -20,6 +20,8 @@
 <input type="submit" name="odeslat" value="Pøihlásit" class="knoflik" tabindex="3" />
 </p>
 </form>
+<h3>Dal¹í mo¾nosti</h3>
 <ul>
 <li>Obnovit <a href="zapomenute-heslo.php" title="Zapomenuté heslo.">zapomenuté heslo</a>.</li>
+<li>Vytvoøit <a href="pravidla.php" title="Vytvoøit nový úèet.">nový úèet</a>.</li>
 </ul>

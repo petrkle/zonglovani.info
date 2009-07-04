@@ -72,3 +72,8 @@ Trocha historie.
 <p>
 Vıpis zmìn v ¾onglérovì slabikáøi (svn&nbsp;log).
 </p>
+
+<h3><a href="{$smarty.const.LIDE_URL}" title="Seznam ¾onglérù.">U¾ivatelské úèty</a></h3>
+<p>
+Seznam ¾onglérù kteøí mají úèet v ¾onglérovì slabikáøi.
+</p>

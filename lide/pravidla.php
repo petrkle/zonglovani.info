@@ -2,6 +2,8 @@
 require('../init.php');
 
 $smarty->assign("titulek","Pravidla pro vytvoøení úètu");
+$smarty->assign("nadpis","none");
+$smarty->assign("notitle",true);
 
 if(isset($_POST["ne"])){
 	session_destroy();
@@ -16,6 +18,7 @@ if(isset($_POST["jo"])){
 }
 
 $smarty->display('hlavicka.tpl');
+$smarty->display('vyhody-uctu.tpl');
 $smarty->display('pravidla.tpl');
 $smarty->display('paticka.tpl');
 

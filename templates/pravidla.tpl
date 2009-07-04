@@ -1,3 +1,5 @@
+<h1>{$titulek}</h1>
+
 <p>
 Pøed vytvoøením úètu si, prosím, pøeèti následující pravidla.
 </p>
@@ -10,7 +12,7 @@ Pøed vytvoøením úètu si, prosím, pøeèti následující pravidla.
 
 <h3>Povinnosti správce</h3>
 <ul>
-<li>Osobní údaje které zadáte pøi vytváøení úètu NEBUDOU pou¾ity k rozesílání spamu ani pøedány tøetím osobám.</li>
+<li>Osobní údaje které zadá¹ pøi vytváøení úètu NEBUDOU pou¾ity k rozesílání spamu ani pøedány tøetím osobám.</li>
 </ul>
 
 <h3>Dal¹í pravidla</h3>

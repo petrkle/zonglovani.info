@@ -18,7 +18,7 @@ Odkaz: <a href="{$udalost.url|escape}" onclick="pageTracker._trackPageview('/got
 </p>
 {/if}
 <p>
-Vlo¾il: {$udalost.vlozil|escape}
+Vlo¾il: <a href="{$smarty.const.LIDE_URL}{$udalost.vlozil|escape}.html" title="Podrobnosti o {$udalost.vlozil|escape}">{$udalost.vlozil|escape}</a>
 </p>
 {/if}
 
