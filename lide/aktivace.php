@@ -7,7 +7,6 @@ if(!isset($_SESSION["souhlas"])){
 	exit();
 }
 $smarty->assign("titulek","Aktivace úètu");
-
 $smarty->display('hlavicka.tpl');
 $smarty->display('aktivace.tpl');
 $smarty->display('paticka.tpl');

@@ -60,7 +60,7 @@ $conf::baseurl = "/";		# Set first part of any URL (leave empty if unsure)
 #@conf::includefiles = ('*/');
 
 # Do not include these files/directories:
-@conf::excludefiles = ('/mapa-stranek.html', '/kalendar/*.html');
+@conf::excludefiles = ('/mapa-stranek.html', '/kalendar/*.html', '/lide/*.html', '/forum/*.html');
 # To exclude one directory use this:
 #@conf::excludefiles = ('/secret/*');
 # To exclude more than one directory use this:

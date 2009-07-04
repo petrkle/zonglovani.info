@@ -51,7 +51,7 @@ if(isset($_POST["odeslat"])){
 
 	if(count($chyby)==0){
 		$tmp=LIDE_TMP."/".$_SESSION["reg_email"];
-		$key=crc32($_SESSION["reg_email"].time().$_SESSION["reg_login"]);
+		$key=abs(crc32($_SESSION["reg_email"].time().$_SESSION["reg_login"]));
 		if(!is_dir($tmp)){
 			mkdir($tmp);
 		}
@@ -80,12 +80,16 @@ if(isset($_POST["odeslat"])){
 		fwrite($foo,$_SESSION["reg_vzkaz"]);
 		fclose($foo);
 
+		$foo=fopen("$tmp/created.time","w");
+		fwrite($foo,time());
+		fclose($foo);
+
 		$to = $_SESSION["reg_email"];
 		$subject = "=?iso-8859-2?Q?".preg_replace("/=\r\n/","",quoted_printable_encode("Aktivace úètu"))."?=";
 
 		$headers = 'Return-Path: robot@zonglovani.info' . "\r\n" .
     'From: robot@zonglovani.info' . "\r\n" .
-    'Reply-To: neodpovidat@zonglovani.info' . "\r\n" .
+    'Reply-To: robot@zonglovani.info' . "\r\n" .
     'Content-Type: text/plain; charset=iso-8859-2' . "\r\n" .
     'Content-Transfer-Encoding: quoted-printable' . "\r\n" .
     'Precedence: bulk';
@@ -94,6 +98,8 @@ $message = 'Ahoj,
 pro aktivaci úètu v ¾onglérovì slabikáøi klikni na tento odkaz:
 
 http://'.$_SERVER["SERVER_NAME"].LIDE_URL.'overeni-emailu.php?m='.$_SESSION["reg_email"].'&k='.$key.'
+
+Odkaz platí do: '.date("j. n. Y G.i",(time()+TIMEOUT_REGISTRATION)).'
 
 -- 
 Petr Kleteèka
@@ -125,20 +131,5 @@ http://zonglovani.info/kontakt.html
 	$smarty->display('paticka.tpl');
 }
 
-
-
-function get_antispam(){
-	$cislice=array("1"=>"jedna","2"=>"dva","3"=>"tøi","5"=>"pìt","7"=>"sedm","8"=>"osm","9"=>"devìt");
-	$znamenka=array("+"=>"plus","-"=>"mínus","*"=>"krát");
-
-	$prvni=array_rand($cislice);
-	$druha=array_rand($cislice);
-	$znamenko=array_rand($znamenka);
-
-	$otazka=ucfirst($cislice[$prvni]." ".$znamenka[$znamenko]." ".$cislice[$druha]);
-	eval("\$odpoved = $prvni $znamenko $druha;");
-
-	return array($otazka,$odpoved);
-}
 
 ?>

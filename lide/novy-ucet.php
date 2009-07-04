@@ -1,5 +1,6 @@
 <?php
 require('../init.php');
+require('../func.php');
 
 $smarty->assign("titulek","Novı u¾ivatelskı úèet");
 
@@ -69,7 +70,7 @@ if(strlen($jmeno)<3){
 }
 
 
-if(!eregi("^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$",$email)){
+if(!eregi("^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$",$email)){
 	array_push($chyby,"Neplatnı e-mail.");
 }else{
 	if(is_zs_email($email)){
@@ -114,36 +115,5 @@ if(count($chyby)==0){
 	$smarty->display('paticka.tpl');
 }
 
-
-function is_zs_account($login){
-	if(in_array($login,get_loginy())){
-		return true;
-	}else{
-		return false;
-	}
-}
-
-function is_zs_email($email){
-		return false;
-}
-
-function is_zs_jmeno($jmeno){
-		return false;
-}
-
-function get_loginy(){
-	$dir = opendir(LIDE_DATA);
-	$navrat = array();
-	    if ($dir) {
-			   while (($filename = readdir($dir)) !== false) {
-						if ($filename != "." and $filename != ".." and is_dir(LIDE_DATA."/$filename")) {
-				      array_push($navrat,$filename);
-					 }
-			   }
-		   }
-	closedir($dir);
-	sort($navrat);
- return $navrat;
-}
 
 ?>

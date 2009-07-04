@@ -361,6 +361,11 @@ fieldset	{
 	margin: 0 10px 0 10px;
 }
 
+.readonlyform {
+	width: 300px;
+	margin: 0 10px 0 10px;
+}
+
 form ul {
 	margin: 0;
 	padding: 0;

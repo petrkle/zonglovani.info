@@ -219,4 +219,111 @@ function quoted_printable_encode($sString) {
 
 }
 
+function get_antispam(){
+	$cislice=array("1"=>"jedna","2"=>"dva","3"=>"tøi","5"=>"pìt","7"=>"sedm","8"=>"osm","9"=>"devìt");
+	$znamenka=array("+"=>"plus","-"=>"mínus","*"=>"krát");
+
+	$prvni=array_rand($cislice);
+	$druha=array_rand($cislice);
+	$znamenko=array_rand($znamenka);
+
+	$otazka=ucfirst($cislice[$prvni]." ".$znamenka[$znamenko]." ".$cislice[$druha]);
+	eval("\$odpoved = $prvni $znamenko $druha;");
+
+	return array($otazka,$odpoved);
+}
+
+function is_zs_account($login){
+	if(in_array($login,get_loginy())){
+		return true;
+	}else{
+		return false;
+	}
+}
+
+function is_zs_email($email){
+	$ucty=get_loginy();
+	$navrat=false;
+	foreach($ucty as $ucet){
+		if(is_file(LIDE_DATA."/$ucet/$email.mail")){
+			$navrat=true;
+		}
+	}
+	return $navrat;
+}
+
+function email2login($email){
+	$ucty=get_loginy();
+	$navrat=false;
+	foreach($ucty as $ucet){
+		if(is_file(LIDE_DATA."/$ucet/$email.mail")){
+			$navrat=$ucet;
+		}
+	}
+	return $navrat;
+}
+
+
+function is_zs_jmeno($jmeno){
+		return false;
+}
+
+function get_loginy(){
+	$dir = opendir(LIDE_DATA);
+	$navrat = array();
+	    if ($dir) {
+			   while (($filename = readdir($dir)) !== false) {
+						if (!ereg("^\.",$filename) and is_dir(LIDE_DATA."/$filename")) {
+				      array_push($navrat,$filename);
+					 }
+			   }
+		   }
+	closedir($dir);
+	sort($navrat);
+ return $navrat;
+}
+
+function get_user_props($login){
+	if(is_dir(LIDE_DATA."/$login")){
+		$navrat=array();
+		$navrat["login"]=$login;
+		if(is_file(LIDE_DATA."/$login/jmeno.txt")){
+			$navrat["jmeno"]=trim(array_pop(file(LIDE_DATA."/$login/jmeno.txt")));
+		}
+
+		if(is_file(LIDE_DATA."/$login/soukromi.txt")){
+			$navrat["soukromi"]=trim(array_pop(file(LIDE_DATA."/$login/soukromi.txt")));
+		}
+
+		if(is_file(LIDE_DATA."/$login/vzkaz.txt")){
+			$navrat["vzkaz"]=file_get_contents(LIDE_DATA."/$login/vzkaz.txt");
+		}
+
+		if(is_file(LIDE_DATA."/$login/registrace.txt")){
+			$navrat["registrace"]=trim(array_pop(file(LIDE_DATA."/$login/registrace.txt")));
+			$navrat["registrace_hr"]=date("j. n. Y",$navrat["registrace"]);
+		}
+
+		if(is_file(LIDE_DATA."/$login/LOCKED")){
+			$navrat["status"]="locked";
+		}else{
+			$navrat["status"]="ok";
+		}
+
+		$dir = opendir(LIDE_DATA."/$login");
+				if ($dir) {
+					 while (($filename = readdir($dir)) !== false) {
+							if (ereg('\.mail$',$filename)) {
+								$navrat["email"]=eregi_replace('\.mail$','',$filename);
+						 }
+					 }
+				 }
+		closedir($dir);
+	
+	}else{
+		$navrat=false;
+	}
+return $navrat;
+}
+
 ?>
