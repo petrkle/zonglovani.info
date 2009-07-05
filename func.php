@@ -265,7 +265,14 @@ function email2login($email){
 
 
 function is_zs_jmeno($jmeno){
-		return false;
+	$ucty=get_loginy();
+	$navrat=false;
+	foreach($ucty as $ucet){
+		if(trim(array_pop(file(LIDE_DATA."/$ucet/jmeno.txt")))==$jmeno){
+			$navrat=true;
+		}
+	}
+	return $navrat;
 }
 
 function get_loginy(){
@@ -284,7 +291,7 @@ function get_loginy(){
 }
 
 function get_user_props($login){
-	if(is_dir(LIDE_DATA."/$login")){
+	if(is_dir(LIDE_DATA."/$login") and strlen($login)>0){
 		$navrat=array();
 		$navrat["login"]=$login;
 		if(is_file(LIDE_DATA."/$login/jmeno.txt")){
@@ -326,4 +333,11 @@ function get_user_props($login){
 return $navrat;
 }
 
+function is_logged(){
+	$navrat=false;
+	if(isset($_SESSION["logged"]) and $_SESSION["logged"]==true){
+		$navrat=true;
+	}
+	return $navrat;
+}
 ?>

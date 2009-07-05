@@ -19,6 +19,7 @@
 <p class="vpravo">
 <input type="submit" name="odeslat" value="Pøihlásit" class="knoflik" tabindex="3" />
 </p>
+<input type="hidden" name="next" value="{$next|escape}" />
 </form>
 <h3>Dal¹í mo¾nosti</h3>
 <ul>

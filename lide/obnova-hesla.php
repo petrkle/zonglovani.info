@@ -74,8 +74,8 @@ if(isset($_GET["m"]) and isset($_GET["k"])){
 				array_push($chyby,"Zadaná hesla se neshodují.");
 			}
 			if(count($chyby)==0){
-				$foo=fopen("$tmp/passwd.sha1","w");
-				fwrite($foo,sha1($hesla.$uzivatel["login"]));
+				$foo=fopen(LIDE_DATA."/".$uzivatel["login"]."/passwd.sha1","w");
+				fwrite($foo,sha1($heslo.$uzivatel["login"]));
 				fclose($foo);
 				unlink($rtf);
 				unlink($rtk);

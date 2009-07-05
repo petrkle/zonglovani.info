@@ -29,7 +29,7 @@ if(isset($_GET["m"]) and isset($_GET["k"])){
 			unlink("$tmp/created.time");
 			rmdir($tmp);
 
-			$smarty->assign("chyby",array("Úèet byl úspì¹nì aktivován.","Mù¾e¹ se <a href=\"".LIDE_URL."login.php\" title=\"Pøihlá¹ení.\">pøihlásit</a>."));
+			$smarty->assign("chyby",array("Úèet byl úspì¹nì aktivován.","Mù¾e¹ se <a href=\"".LIDE_URL."prihlaseni.php\" title=\"Pøihlá¹ení.\">pøihlásit</a>."));
 			$smarty->display('hlavicka.tpl');
 			$smarty->display('alert.tpl');
 			$smarty->display('paticka.tpl');

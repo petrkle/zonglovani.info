@@ -415,7 +415,7 @@ textarea {
 ul.alert {
 	border: dashed 1px #000;
 	background: #ffc;
-	margin: 5px 15px;
+	margin: 5px 0 5px 15px;
 }
 
 a.info:hover {

@@ -125,6 +125,13 @@
 			</li>
 		</ul>
 		</li>
+		<li><a name="lide"></a><a href="/lide/">U¾ivatelské úèty</a>
+		<ul>
+		<li><a href="/lide/pravidla.php">Pravidla pro vytvoøení úètu</a></li>
+		<li><a href="/lide/prihlaseni.php">Pøihlá¹ení</a></li>
+		<li><a href="/lide/zapomenute-heslo.php">Zapomenuté heslo</a></li>
+		</ul>
+		</li>
 		<li><a name="micky"></a><a href="/micky/">®onglování s míèky</a>
 		<ul>
 		<li><a href="/micky/balancovani.html">Balancování míèku</a></li>

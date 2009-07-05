@@ -14,7 +14,10 @@
 <body>
 
 <div id="hlavicka">
-<div id="ucet"><a href="{$smarty.const.LIDE_URL}prihlaseni.php" title="Pøihlá¹ení do ¾onglérova slabikáøe">Pøihlá¹ení</a> | <a href="{$smarty.const.LIDE_URL}pravidla.php" title="Vytvoøit nový úèet v ¾onglérovì slabikáøi.">Nový úèet</a></div>
+<div id="ucet">
+{if $smarty.session.logged==true}<a href="{$smarty.const.LIDE_URL}{$smarty.session.uzivatel.login|escape}.html" title="Tvùj profil.">{$smarty.session.uzivatel.login|escape}</a> | <a href="">Nastavení</a> | <a href="{$smarty.const.LIDE_URL}odhlaseni.php{if $smarty.server.REQUEST_URI!="/"}?next={$smarty.server.REQUEST_URI}{/if}" title="Odhlásit se">Odhlásit</a>{else}
+{if basename($smarty.server.SCRIPT_NAME)!="prihlaseni.php"}<a href="{$smarty.const.LIDE_URL}prihlaseni.php{if $smarty.server.REQUEST_URI!="/"}?next={$smarty.server.REQUEST_URI}{/if}" title="Pøihlá¹ení do ¾onglérova slabikáøe" rel="nofollow">Pøihlá¹ení</a> | {/if}<a href="{$smarty.const.LIDE_URL}pravidla.php" title="Vytvoøit nový úèet v ¾onglérovì slabikáøi.">Nový úèet</a>{/if}
+</div>
 <a name="nahore" id="nahore"></a>
 <div id="hlavickabg" style="background: {if eregi("/micky.*",$smarty.server.REQUEST_URI)}url('/img/m/micky-logo.gif') no-repeat 95% 100%{elseif eregi("/kruhy.*",$smarty.server.REQUEST_URI)}url('/img/k/kruhy-logo.gif') no-repeat 99% 100%{elseif eregi("/kuzely.*",$smarty.server.REQUEST_URI)}url('/img/k/kuzely-logo.gif') no-repeat 92% 100%{else}transparent{/if};">
 <a href="/" title="®onglérùv slabikáø - úvodní stránka."><img src="/img/l/logo.gif" width="442" height="71" title="®onglérùv slabikáø - úvodní stránka." alt="®onglérùv slabikáø - úvodní stránka." />
