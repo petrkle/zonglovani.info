@@ -48,7 +48,7 @@ if(isset($_GET["action"])){
 
 	if(isset($_POST["heslo"])){
 		$heslo=trim($_POST["heslo"]);
-		$_SESSION["reg_heslo"]=$login;
+		$_SESSION["reg_heslo"]=$heslo;
 	}else{
 		$heslo="";
 	}
@@ -61,6 +61,8 @@ if(isset($_GET["action"])){
 
 if(strlen($jmeno)<3){
 	array_push($chyby,"Jméno není zadané, nebo je pøíli¹ krátké.");
+}elseif(strlen($jmeno)>256){
+	array_push($chyby,"Jméno je pøíli¹ dlouhé.");
 }elseif(eregi("[-\*\.\?\!<>;\^\$\{\}\@%\&\(\)'\"_:´·\\|#`~,ß]",$jmeno)){
 	array_push($chyby,"Jméno obsahuje nepovolené znaky.");
 }else{
@@ -91,7 +93,7 @@ if(eregi("[^-a-z0-9]",$login)){
 	array_push($chyby,"Login obsahuje nepovolené znaky.");
 }
 
-$reserved_accounts=array("pek","admin","webmaster","root","robot","petr","kletecka","petr-kletecka","petrkletecka","administrator","system");
+$reserved_accounts=array("pek","admin","webmaster","root","robot","petr","kletecka","petr-kletecka","petrkletecka","administrator","system","test","tmp");
 if(in_array($login,$reserved_accounts)){
 	array_push($chyby,"Tento login nelze vytvoøit.");
 }

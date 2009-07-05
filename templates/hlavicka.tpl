@@ -15,7 +15,7 @@
 
 <div id="hlavicka">
 <div id="ucet">
-{if $smarty.session.logged==true}<a href="{$smarty.const.LIDE_URL}{$smarty.session.uzivatel.login|escape}.html" title="Tvùj úèet.">{$smarty.session.uzivatel.jmeno|escape}</a> ~ <a href="{$smarty.const.LIDE_URL}nastaveni.php" title="Nastavení tvého úètu.">Nastavení</a> ~ <a href="{$smarty.const.LIDE_URL}odhlaseni.php{if $smarty.server.REQUEST_URI!="/"}?next={$smarty.server.REQUEST_URI}{/if}" title="Odhlásit se">Odhlásit</a>{else}
+{if $smarty.session.logged==true}<a href="{$smarty.const.LIDE_URL}{$smarty.session.uzivatel.login|escape}.html" title="Tvùj úèet.">{$smarty.session.uzivatel.jmeno|escape}</a> ~ <a href="{$smarty.const.LIDE_URL}nastaveni.php" title="Nastavení tvého úètu.">Nastavení</a> ~ <a href="{$smarty.const.LIDE_URL}odhlaseni.php" title="Odhlásit se">Odhlásit</a>{else}
 {if basename($smarty.server.SCRIPT_NAME)!="prihlaseni.php"}<a href="{$smarty.const.LIDE_URL}prihlaseni.php{if $smarty.server.REQUEST_URI!="/"}?next={$smarty.server.REQUEST_URI}{/if}" title="Pøihlá¹ení do ¾onglérova slabikáøe" rel="nofollow">Pøihlá¹ení</a> | {/if}<a href="{$smarty.const.LIDE_URL}pravidla.php" title="Vytvoøit nový úèet v ¾onglérovì slabikáøi.">Nový úèet</a>{/if}
 </div>
 <a name="nahore" id="nahore"></a>

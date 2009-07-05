@@ -1,5 +1,5 @@
 <?php
-
+/*
 if(isset($_GET["next"]) and ereg("^/",$_GET["next"])){
 	$next=$_GET["next"];
 }elseif(isset($_POST["next"]) and ereg("^/",$_POST["next"])){
@@ -7,9 +7,9 @@ if(isset($_GET["next"]) and ereg("^/",$_GET["next"])){
 }else{
 	$next="/";
 }
-
+ */
 session_start();
 session_destroy();
-header("Location: $next");
+header("Location: /");
 exit();
 ?>

@@ -13,13 +13,13 @@ function smarty_modifier_mailobfuscate($string){
 	}elseif($nahoda==3){
 		$navrat=str_replace(".","_tecka_",str_replace("@","_zavinac_",$string));
 	}elseif($nahoda==4){
-		$navrat=ereg_replace("$",".nospam.com",$string);
+		$navrat=str_replace(".","[tecka]",str_replace("@","[zavinac]",$string));
 	}elseif($nahoda==5){
-		$navrat=ereg_replace("$","-nospam.com",$string);
+		$navrat=str_replace(".","[teèka]",str_replace("@","[zavináè]",$string));
 	}elseif($nahoda==6){
-		$navrat=ereg_replace("@","@nospam.com.",$string);
+		$navrat=str_replace(".","_teèka_",str_replace("@","_zavináè_",$string));
 	}elseif($nahoda==7){
-		$navrat=ereg_replace("@","@nechcispam.cz.",$string);
+		$navrat=str_replace(".","-teèka-",str_replace("@","-zavináè-",$string));
 	}elseif($nahoda==8){
 		$navrat=str_replace(".","{teèka}",str_replace("@","{zavináè}",$string));
 	}else{
