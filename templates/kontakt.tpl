@@ -2,7 +2,7 @@
 <h3>Petr Kleteèka</h3>
 <p>{obrazek soubor="pek.jpg" popisek="Petr Kleteèka"}</p>
 <p class="kontakt">
-Elektronická po¹ta: kletecka{obrazek soubor="zavinac.png" popisek="zavináè"}email{obrazek soubor="tecka.png" popisek="."}cz
+Elektronická po¹ta: admin{obrazek soubor="zavinac.png" popisek="zavináè"}zonglovani{obrazek soubor="tecka.png" popisek="."}info
 </p>
 <p class="kontakt">
 Telefon: 
