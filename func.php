@@ -298,6 +298,10 @@ function get_user_props($login){
 			$navrat["jmeno"]=trim(array_pop(file(LIDE_DATA."/$login/jmeno.txt")));
 		}
 
+		if(is_file(LIDE_DATA."/$login/passwd.sha1")){
+			$navrat["passwd_sha1"]=trim(array_pop(file(LIDE_DATA."/$login/passwd.sha1")));
+		}
+
 		if(is_file(LIDE_DATA."/$login/soukromi.txt")){
 			$navrat["soukromi"]=trim(array_pop(file(LIDE_DATA."/$login/soukromi.txt")));
 		}
