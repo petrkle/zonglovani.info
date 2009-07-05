@@ -25,6 +25,7 @@ if(isset($_POST["login"]) and isset($_POST["heslo"]) and isset($_GET["action"]))
 		if(sha1($input_heslo.$input_login)==$passwd_hash){
 			$_SESSION["uzivatel"]=$uzivatel;
 			$_SESSION["logged"]=true;
+			$_SESSION["ip"]=$_SERVER['REMOTE_ADDR'];
 			header("Location: $next");
 			exit();
 		}else{

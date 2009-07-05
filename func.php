@@ -335,7 +335,7 @@ return $navrat;
 
 function is_logged(){
 	$navrat=false;
-	if(isset($_SESSION["logged"]) and $_SESSION["logged"]==true){
+	if(isset($_SESSION['logged']) and $_SESSION['logged']==true and $_SESSION['ip']==$_SERVER['REMOTE_ADDR']){
 		$navrat=true;
 	}
 	return $navrat;

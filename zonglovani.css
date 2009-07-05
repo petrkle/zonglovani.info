@@ -124,7 +124,7 @@ a img{
 }
 
 
-p, pre {
+p, pre, hr {
  clear: both;
  margin: 2px 10px 7px 20px;
 }

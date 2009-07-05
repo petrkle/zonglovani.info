@@ -8,18 +8,20 @@ if(isset($_GET['id'])){
 	$id='';
 }
 
-$uzivatel=get_user_props($id);
+$uzivatel_props=get_user_props($id);
 
-if($uzivatel){
+if($uzivatel_props){
 
-if($uzivatel["login"]=="pek"){
+if($uzivatel_props["login"]=="pek" and $_SESSION["uzivatel"]["login"]!="pek"){
 	header("HTTP/1.1 301 Moved Permanently");
 	header("Location: /kontakt.html");
 	exit();
 }
 
-$smarty->assign("titulek","U¾ivatel ".$uzivatel["jmeno"]);
-$smarty->assign("uzivatel",$uzivatel);
+$smarty->assign("titulek",$uzivatel_props["jmeno"]);
+$smarty->assign("nadpis","none");
+$smarty->assign("notitle",true);
+$smarty->assign("uzivatel_props",$uzivatel_props);
 
 $smarty->display('hlavicka.tpl');
 $smarty->display('uzivatel.tpl');

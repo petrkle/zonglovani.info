@@ -91,8 +91,17 @@ if(eregi("[^-a-z0-9]",$login)){
 	array_push($chyby,"Login obsahuje nepovolené znaky.");
 }
 
+$reserved_accounts=array("pek","admin","webmaster","root","robot","petr","kletecka","petr-kletecka","petrkletecka","administrator","system");
+if(in_array($login,$reserved_accounts)){
+	array_push($chyby,"Tento login nelze vytvoøit.");
+}
+
 if(strlen($heslo)<5){
 	array_push($chyby,"Heslo není zadané, nebo je pøíli¹ krátké.");
+}
+
+if(eregi(".*$login.*",$heslo) or eregi(".*$jmeno.*",$heslo) or eregi(".*$email.*",$heslo)){
+	array_push($chyby,"Zadané heslo je pøíli¹ slabé.");
 }
 
 if($heslo!=$heslo2){
