@@ -18,7 +18,6 @@ if(isset($_POST["jo"])){
 }
 
 $smarty->display('hlavicka.tpl');
-$smarty->display('vyhody-uctu.tpl');
 $smarty->display('pravidla.tpl');
 $smarty->display('paticka.tpl');
 

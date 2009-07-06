@@ -133,7 +133,7 @@ if(is_logged()){
 		$smarty->display('paticka.tpl');
 	}
 }else{
-	header("Location: ".LIDE_URL."prihlaseni.php?next=".LIDE_URL.basename(__FILE__));
+	header("Location: ".LIDE_URL."prihlaseni.php?next=".LIDE_URL.basename(__FILE__)."&notice");
 	exit();
 }
 

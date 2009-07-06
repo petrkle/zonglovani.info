@@ -357,6 +357,7 @@ p.kontakt img {
  margin: 0;
  padding: 0;
  list-style: none;
+ line-height: 0.6em;
 }
 
 .kal_entry li a{
@@ -454,4 +455,14 @@ a.info {
 	background: #fff;
 	color: #666;
 	text-decoration: none;
+}
+
+sup.ppm {
+	padding: 0 0.3em;
+	font-weight: bold;
+	color: #f00;
+}
+
+a.edit {
+	border-left: solid 3px #f00;
 }

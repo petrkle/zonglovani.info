@@ -29,7 +29,7 @@ if(isset($_POST["login"]) and isset($_POST["heslo"]) and isset($_GET["action"]))
 			header("Location: $next");
 			exit();
 		}else{
-			array_push($chyby,"©patné jméno nebo heslo.","Pro pøihlá¹ení je potøeba povolit cookies.");
+		array_push($chyby,'©patné jméno nebo heslo.','Pro pøihlá¹ení je potøeba povolit cookies. <a class="info" href="#">?<span class="tooltip">Cookies (su¹enky) jsou malé soubory, které slou¾í k rozpoznání spojení mezi tvým poèítaèem a poèítaèem na kterém bì¾í ¾onglérùv slabikáø. V pøípadì problémù kontaktuj místního poèítaèového odborníka.</span></a>');
 			$smarty->assign("chyby",$chyby);
 			$smarty->assign("login",$input_login);
 			$smarty->display('hlavicka.tpl');
@@ -39,7 +39,7 @@ if(isset($_POST["login"]) and isset($_POST["heslo"]) and isset($_GET["action"]))
 		}
 	
 	}else{
-		array_push($chyby,"©patné jméno nebo heslo.","Pro pøihlá¹ení je potøeba povolit cookies.");
+		array_push($chyby,'©patné jméno nebo heslo.','Pro pøihlá¹ení je potøeba povolit cookies. <a class="info" href="#">?<span class="tooltip">Cookies (su¹enky) jsou malé soubory, které slou¾í k rozpoznání spojení mezi tvým poèítaèem a poèítaèem na kterém bì¾í ¾onglérùv slabikáø. V pøípadì problémù kontaktuj místního poèítaèového odborníka.</span></a>');
 		$smarty->assign("chyby",$chyby);
 		$smarty->assign("login",$input_login);
 		$smarty->display('hlavicka.tpl');

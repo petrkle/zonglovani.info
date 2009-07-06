@@ -22,7 +22,7 @@
             <ul class="kal_entry">
             {section name=entry loop=$month[week][day]->entryCount()}
             {assign var=payload value=$month[week][day]->getEntry()}
-             <li><a href="udalost-{$payload.id}.html" title="{$payload.title}">{$payload.title|truncate:30:"...":false}</a></li>
+             <li><a href="udalost-{$payload.id}.html" title="{$payload.title}"{if $payload.vlozil==$smarty.session.uzivatel.login} class="edit"{/if}>{$payload.title|truncate:30:"...":false}</a></li>
             {/section}
             </ul>
 </td>
@@ -41,3 +41,14 @@
 <p>
 Dnes je: {if $dnesek}{$aktDate}{else}<a href="{$smarty.const.CALENDAR_URL}" title="Zobrazí aktuální mìsíc.">{$aktDate}</a>{/if}
 </p>
+<p>
+Pøidat <a href="{$smarty.const.CALENDAR_URL}add.php" title="Pøidat novou událost do kalendáøe.">novou událost</a>.
+</p>
+{if $smazane}
+<h3>Smazané události</h3>
+<ul>
+{foreach from=$smazane item=udalost}
+<li><a href="smazane-{$udalost.id|escape}.html" title="Zobrazit smazanou událost.">{$udalost.title|escape}</a></li>
+{/foreach}
+</ul>
+{/if}

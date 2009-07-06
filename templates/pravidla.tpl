@@ -10,6 +10,12 @@ Pøed vytvoøením úètu si, prosím, pøeèti následující pravidla.
 <li>Vyvaruji se nadmìrného pou¾ívání smajlíkù :-)</li>
 </ul>
 
+<h3>Práva u¾ivatele</h3>
+<ul>
+<li>Tvùj úèet se objeví v <a href="{$smarty.const.LIDE_URL}" title="Seznam u¾ivatelských úètù.">seznamu u¾ivatelù</a> ¾onglérova slabikáøe. Budou tì moct kontaktovat dal¹í ¾ongléøi. Nebo lidé kteøí shánìjí ¾ongléry a chtìjí jim zaplatit za vystoupení.</li>
+<li>Mù¾e¹ zadávat události do <a href="{$smarty.const.CALENDAR_URL}" title="Kalendáø ¾onglérských akcí.">kalendáøe</a>.</li>
+</ul>
+
 <h3>Povinnosti správce</h3>
 <ul>
 <li>Osobní údaje které zadá¹ pøi vytváøení úètu NEBUDOU pou¾ity k rozesílání spamu ani pøedány tøetím osobám.</li>

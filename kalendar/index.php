@@ -4,7 +4,7 @@ require('cal-init.php');
 
 if(eregi("index\.php$",$_SERVER["REQUEST_URI"])){
 	header("HTTP/1.1 301 Moved Permanently");
-	header("Location: /");
+	header("Location: ".CALENDAR_URL);
 	exit();
 }
 
@@ -86,7 +86,10 @@ if(date('Y',$now)==$rok and date('m',$now)==$mesic){
 $smarty->assign("nadpis","$monthName");
 $smarty->display('hlavicka.tpl');
 
-
+$smazane=get_deleted_events();
+if(count($smazane)>0){
+	$smarty->assign('smazane',$smazane);
+}
 
 $smarty->display('kalendar-index.tpl');
 $smarty->display('paticka.tpl');

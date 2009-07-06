@@ -6,7 +6,11 @@
 </ul>
 {/if}
 <form action="{$SCRIPT_NAME}?action=submit" method="post">
-
+{if isset($smarty.get.notice)}
+<p>
+Pøed zobrazení po¾adované stránky se nejprve pøihla¹.
+</p>
+{/if}
 <p>
 <fieldset>
 <legend>Pøihla¹ovací údaje</legend>

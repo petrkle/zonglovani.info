@@ -2,4 +2,5 @@ RewriteEngine	on
 RewriteBase /kalendar
 
 RewriteRule ^udalost-(..*)\.html$ event.php?id=$1 [L]
+RewriteRule ^smazane-(..*)\.html$ event.php?id=$1&deleted [L]
 RewriteRule ^(....)-(.*)\.html$ index.php?y=$1&m=$2 [L]
