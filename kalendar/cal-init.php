@@ -229,7 +229,7 @@ function get_deleted_events(){
   if(is_dir(CALENDAR_DELETED) and opendir(CALENDAR_DELETED)){
 	$adr=opendir(CALENDAR_DELETED);
 	while (false!==($file = readdir($adr))) {
-	  if (ereg(".*-".$_SESSION["uzivatel"]["login"]."-.*\.cal$",$file)){
+	  if (substr($file,-4) == ".cal" and ereg(".*-".$_SESSION["uzivatel"]["login"]."-.*\.cal$",$file)){
 			array_push($vypis,get_event_data($file,CALENDAR_DELETED));
 		};
 	};
