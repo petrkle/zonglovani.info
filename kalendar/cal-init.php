@@ -179,6 +179,10 @@ function event_validation($udalost,$now){
 		array_push($chyby,"©patný formát odkazu.");
 	}
 
+	if(strlen($udalost["mapa"])>0 and !eregi("^http://",$udalost["mapa"])){
+		array_push($chyby,"©patný formát odkazu na mapu.");
+	}
+
 	if(!ereg("^[0-9]{4}-[0-9]{2}-[0-9]{2} [0-9]{2}:[0-9]{2}$",$udalost["konec"])){
 		array_push($chyby,"©patný formát konce události.");
 		$konec_time=false;
