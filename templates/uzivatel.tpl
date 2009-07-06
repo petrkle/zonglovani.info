@@ -17,6 +17,7 @@ Nachází¹ se na své veøejné domovské stránce, která slou¾í pro tvojí prezentaci. 
 <pre>
 {$uzivatel_props.vzkaz|wordwrap:45:"\n":true|escape}
 </pre>
+{/if}
 <ul>
 <li>Jméno: {$uzivatel_props.jmeno|escape}</li>
 <li>Login: {$uzivatel_props.login|escape}</li>
@@ -32,7 +33,6 @@ Nachází¹ se na své veøejné domovské stránce, která slou¾í pro tvojí prezentaci. 
 </li>
 {/if}
 </ul>
-{/if}
 {/if}
 <p>
 <a href="{$smarty.const.LIDE_URL}" title="Seznam u¾ivatelù ¾onglérova slabikáøe.">Seznam v¹ech u¾ivatelù</a>.
