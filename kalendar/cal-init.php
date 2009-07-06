@@ -50,7 +50,7 @@ class MonthPayload_Decorator extends Calendar_Decorator {
                 $child->thisYear(), $child->thisMonth(), $child->nextDay());
             foreach ($events as $event) {
                 if (($stamp1 >= $event['start'] && $stamp1 < $event['end']) ||
-                    ($stamp2 >= $event['start'] && $stamp2 < $event['end']) ||
+                    ($stamp2 > $event['start'] && $stamp2 < $event['end']) ||
                     ($stamp1 <= $event['start'] && $stamp2 > $event['end'])
                 /*if (($stamp1 >= $event['start'] && $stamp1 < $event['end']) || 
                     ($stamp1 <= $event['start'] && $stamp2 > $event['end'])*/ ) {

@@ -5,7 +5,9 @@
 {/foreach}
 </ul>
 {/if}
-<form action="{$smarty.server.SCRIPT_NAME}{$form_action}" method="post">
+
+{include file='kalendar-selector.tpl'}
+<form action="{$smarty.server.SCRIPT_NAME}{$form_action}" method="post" name="cal">
 {if $udalost.id}
 <input type="hidden" name="id" value="{$udalost.id}" />
 {/if}
@@ -24,8 +26,8 @@
 <legend accesskey="s">Mí<u>s</u>to a èas konání</legend>
 <ul>
 <li><label class="kratkypopis" for="misto" accesskey="m" ><u>M</u>ísto</label>:<input type="text" name="misto" id="misto" value="{$udalost.misto|escape}" class="textbox" tabindex="3"/><a class="info" href="#">?<span class="tooltip">Místo konání události. Délka od 2 do 200 zankù.</span></a></li>
-<li><label class="kratkypopis" for="zacatek" accesskey="z" ><u>Z</u>aèátek</label>:<input type="text" name="zacatek" id="zacatek" value="{$udalost.zacatek|escape}" class="textbox" tabindex="4"/><a class="info" href="#">?<span class="tooltip">Datum a èas zaèátku události. Formát datumu "YYYY-MM-DD&nbsp;HH:MM"</span></a></li>
-<li><label class="kratkypopis" for="konec" accesskey="k" ><u>K</u>onec</label>:<input type="text" name="konec" id="konec" value="{$udalost.konec|escape}" class="textbox" tabindex="5"/><a class="info" href="#">?<span class="tooltip">Datum a èas ukonèení události. Formát datumu "YYYY-MM-DD&nbsp;HH:MM"</span></a></li>
+<li><label class="kratkypopis" for="zacatek" accesskey="z" ><u>Z</u>aèátek</label>: {literal}<script type="text/javascript">new tcal ({'formname': 'cal','controlname': 'zacatek'});</script>{/literal}<input type="text" name="zacatek" id="zacatek" value="{$udalost.zacatek|escape}" class="datebox" tabindex="4"/><a class="info" href="#">?<span class="tooltip">Datum a èas zaèátku události. Formát datumu "YYYY-MM-DD&nbsp;HH:MM"</span></a></li>
+<li><label class="kratkypopis" for="konec" accesskey="k" ><u>K</u>onec</label>: {literal}<script type="text/javascript">new tcal ({'formname': 'cal','controlname': 'konec'});</script>{/literal}<input type="text" name="konec" id="konec" value="{$udalost.konec|escape}" class="datebox" tabindex="5"/><a class="info" href="#">?<span class="tooltip">Datum a èas ukonèení události. Formát datumu "YYYY-MM-DD&nbsp;HH:MM"</span></a></li>
 </ul>
 </fieldset>
 </p>
@@ -48,3 +50,4 @@
 <p>
 <a href="{$smarty.const.CALENDAR_URL}" title="Návrat do kalendáøe.">&laquo; zpìt do kalendáøe</a>
 </p>
+

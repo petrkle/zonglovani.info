@@ -374,6 +374,10 @@ fieldset	{
 	margin: 0 10px 0 10px;
 }
 
+.datebox {
+	width: 280px;
+	margin: 0 10px 0 10px;
+}
 .readonlyform {
 	width: 300px;
 	margin: 0 10px 0 10px;
