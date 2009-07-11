@@ -9,7 +9,7 @@
 	<style media="screen,projection" type="text/css">@import url(/zonglovani.css);</style>
 	<style media="print" type="text/css">@import url(/zonglovani-tisk.css);</style>
 	<meta name="robots" content="index,follow" />
-	<link rel="shortcut icon" href="/favicon.ico">
+	<link rel="shortcut icon" href="/favicon.ico" />
 </head>
 <body>
 

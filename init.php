@@ -29,11 +29,13 @@ define('CALENDAR_DELETED',$_SERVER['DOCUMENT_ROOT'].'/data/kalendar.deleted');
 define('LIDE_URL','/lide/'); 
 define('LIDE_DATA',$_SERVER['DOCUMENT_ROOT'].'/data/lide'); 
 define('LIDE_TMP',$_SERVER['DOCUMENT_ROOT'].'/data/lide.tmp'); 
+define('LIDE_VZKAZY',$_SERVER['DOCUMENT_ROOT'].'/data/vzkazy'); 
 
 define('DISKUSE_URL','/diskuse/'); 
 define('DISKUSE_DATA',$_SERVER['DOCUMENT_ROOT'].'/data/diskuse'); 
 
 define('TIMEOUT_REGISTRATION',6*3600); 
 define('TIMEOUT_RESET_PASSWD',6*3600); 
+define('TIMEOUT_VZKAZ',6*3600); 
 
 ?>

@@ -27,7 +27,7 @@ Nachází¹ se na své veøejné domovské stránce, která slou¾í pro tvojí prezentaci. 
 {else}
 <li>
 <form action="{$smarty.const.LIDE_URL}vzkaz.php" method="post">
-<input type="hidden" name="login" value="{$uzivatel_props.login|escape}" />
+<input type="hidden" name="komu" value="{$uzivatel_props.login|escape}" />
 <input type="submit" name="vzkaz" value="Poslat vzkaz" />
 </form>
 </li>

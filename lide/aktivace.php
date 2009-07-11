@@ -6,6 +6,11 @@ if(!isset($_SESSION["souhlas"])){
 	header("Location: ".LIDE_URL);
 	exit();
 }
+
+if(isset($_GET["mail"])){
+	$smarty->assign("chyba","jo");
+}
+
 $smarty->assign("titulek","Aktivace úètu");
 $smarty->display('hlavicka.tpl');
 $smarty->display('aktivace.tpl');
