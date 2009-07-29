@@ -1,0 +1,5 @@
+RewriteEngine	on
+RewriteBase /horoskop/
+RewriteRule zitra/?$ index.php?zitra=jo [L]
+RewriteRule zitra/(.*).html index.php?znameni=$1&zitra=jo [L]
+RewriteRule ^(.*).html$ index.php?znameni=$1 [L]

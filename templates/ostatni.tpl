@@ -23,6 +23,11 @@ Dovednosti které na první pohled nemusí s ¾onglováním souviset.
 Otázky na které se lidé èasto ptají v souvislosti s ¾onglováním.
 </p>
 
+<h3><a href="/horoskop/" title="Horoskop pro ¾ongléry.">Horoskop ¾onglování</a></h3>
+<p>
+Horoskop ¾onglování ti poradí nejvhodnìj¹í triky pro trénink.
+</p>
+
 <h3><a href="/literatura.html" title="Nìco ke ètení.">Literatura</a></h3>
 <p>
 Kní¾ky o ¾onglování.

@@ -22,6 +22,38 @@
 		<li><a name="chudy"></a><a href="/chudy/">Chùdy</a>
 		
 		</li>
+		<li><a name="horoskop"></a>horoskop/
+		<ul>
+		<li><a href="/horoskop/beran.html">Horoskop ¾onglování - Beran</a></li>
+		<li><a href="/horoskop/blizenci.html">Horoskop ¾onglování - Blí¾enci</a></li>
+		<li><a href="/horoskop/byk.html">Horoskop ¾onglování - Býk</a></li>
+		<li><a href="/horoskop/kozoroh.html">Horoskop ¾onglování - Kozoroh</a></li>
+		<li><a href="/horoskop/lev.html">Horoskop ¾onglování - Lev</a></li>
+		<li><a href="/horoskop/panna.html">Horoskop ¾onglování - Panna</a></li>
+		<li><a href="/horoskop/rak.html">Horoskop ¾onglování - Rak</a></li>
+		<li><a href="/horoskop/ryby.html">Horoskop ¾onglování - Ryby</a></li>
+		<li><a href="/horoskop/stir.html">Horoskop ¾onglování - ©tír</a></li>
+		<li><a href="/horoskop/strelec.html">Horoskop ¾onglování - Støelec</a></li>
+		<li><a href="/horoskop/vahy.html">Horoskop ¾onglování - Váhy</a></li>
+		<li><a href="/horoskop/vodnar.html">Horoskop ¾onglování - Vodnáø</a></li>
+			<li><a name="zitra"></a>horoskop/zitra/
+			<ul>
+			<li><a href="/horoskop/zitra/beran.html">Horoskop ¾onglování na zítra - Beran</a></li>
+			<li><a href="/horoskop/zitra/blizenci.html">Horoskop ¾onglování na zítra - Blí¾enci</a></li>
+			<li><a href="/horoskop/zitra/byk.html">Horoskop ¾onglování na zítra - Býk</a></li>
+			<li><a href="/horoskop/zitra/kozoroh.html">Horoskop ¾onglování na zítra - Kozoroh</a></li>
+			<li><a href="/horoskop/zitra/lev.html">Horoskop ¾onglování na zítra - Lev</a></li>
+			<li><a href="/horoskop/zitra/panna.html">Horoskop ¾onglování na zítra - Panna</a></li>
+			<li><a href="/horoskop/zitra/rak.html">Horoskop ¾onglování na zítra - Rak</a></li>
+			<li><a href="/horoskop/zitra/ryby.html">Horoskop ¾onglování na zítra - Ryby</a></li>
+			<li><a href="/horoskop/zitra/stir.html">Horoskop ¾onglování na zítra - ©tír</a></li>
+			<li><a href="/horoskop/zitra/strelec.html">Horoskop ¾onglování na zítra - Støelec</a></li>
+			<li><a href="/horoskop/zitra/vahy.html">Horoskop ¾onglování na zítra - Váhy</a></li>
+			<li><a href="/horoskop/zitra/vodnar.html">Horoskop ¾onglování na zítra - Vodnáø</a></li>
+			</ul>
+			</li>
+		</ul>
+		</li>
 		<li><a name="kalendar"></a><a href="/kalendar/">Kalendáø ¾onglérských akcí</a>
 		
 		</li>
