@@ -22,7 +22,6 @@ if(isset($_GET["m"]) and isset($_GET["k"])){
 
 			rename("$tmp/jmeno.txt","$user/jmeno.txt");
 			rename("$tmp/passwd.sha1","$user/passwd.sha1");
-			rename("$tmp/passwd","$user/passwd");
 			rename("$tmp/soukromi.txt","$user/soukromi.txt");
 			rename("$tmp/vzkaz.txt","$user/vzkaz.txt");
 			unlink("$tmp/activation.key");

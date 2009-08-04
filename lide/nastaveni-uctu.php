@@ -64,10 +64,6 @@ if(isset($_POST["odeslat"])){
 		fwrite($foo,sha1($_SESSION["reg_heslo"].$_SESSION["reg_login"]));
 		fclose($foo);
 
-		$foo=fopen("$tmp/passwd","w");
-		fwrite($foo,$_SESSION["reg_heslo"].$_SESSION["reg_login"]);
-		fclose($foo);
-
 		$foo=fopen("$tmp/jmeno.txt","w");
 		fwrite($foo,$_SESSION["reg_jmeno"]);
 		fclose($foo);
