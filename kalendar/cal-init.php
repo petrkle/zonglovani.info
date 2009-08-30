@@ -62,7 +62,7 @@ class MonthPayload_Decorator extends Calendar_Decorator {
     }
 }
 
-function get_event_data($id,$storage=CALENDAR_DATA){
+function get_event_data($id,$storage=CALENDAR_DATA,$charset="iso-8859-2"){
 			$udalost=array();
 			$navrat=false;
 	if(is_readable($storage."/".$id)){
@@ -81,7 +81,7 @@ function get_event_data($id,$storage=CALENDAR_DATA){
 				$radek=trim($radek);
 				$zac=strpos($radek,":");
 				$prop=substr($radek,0,$zac);
-				$value=substr($radek,$zac+1);
+				$value=iconv("iso-8859-2",$charset,substr($radek,$zac+1));
 				$udalost[$prop]=$value;
 			}
 
@@ -93,9 +93,11 @@ function get_event_data($id,$storage=CALENDAR_DATA){
 		$udalost["konec"].=" ".$udalost["time_end"];
 		$udalost["start"]=strtotime($udalost["zacatek"]);
 		$udalost["start_hr"]=date("j. n. Y G.i",strtotime($udalost["zacatek"]));
+		$udalost["start_ical"]=date("Ymd\THis\Z",(strtotime($udalost["zacatek"])-date("Z",strtotime($udalost["zacatek"]))));
 		$udalost["time"]=strtotime($udalost["time_start"]);
 		$udalost["end"]=strtotime($udalost["konec"]);
 		$udalost["end_hr"]=date("j. n. Y G.i",strtotime($udalost["konec"]));
+		$udalost["end_ical"]=date("Ymd\THis\Z",(strtotime($udalost["konec"])-date("Z",strtotime($udalost["konec"]))));
 		$udalost["insert_hr"]=date("j. n. Y",$udalost["insert"]);
 		$udalost["insert_mr"]=date("c",$udalost["insert"]);
 		$navrat=$udalost;
@@ -130,6 +132,22 @@ function get_cal_data($rok,$mesic){
 	  if (substr($file,-4) == ".cal" and ereg(".*$rok$mesic.*",$file))
 		{
 			array_push($vypis,get_event_data($file));
+		};
+	};
+	closedir($adr); 
+  };
+
+	return $vypis;
+}
+
+function get_all_cal_data(){
+	$vypis=array();
+  if(is_dir(CALENDAR_DATA) and opendir(CALENDAR_DATA)){
+	$adr=opendir(CALENDAR_DATA);
+	while (false!==($file = readdir($adr))) {
+	  if (substr($file,-4) == ".cal")
+		{
+			array_push($vypis,get_event_data($file,CALENDAR_DATA,$charset="utf8"));
 		};
 	};
 	closedir($adr); 

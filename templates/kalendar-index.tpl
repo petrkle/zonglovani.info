@@ -52,3 +52,4 @@ Pøidat <a href="{$smarty.const.CALENDAR_URL}add.php" title="Pøidat novou událost
 {/foreach}
 </ul>
 {/if}
+<p>Kalendáø mù¾e¹ sledovat pomocí <a href="{$smarty.const.CALENDAR_URL}/kalendar.rss" title="RSS kanál">rss</a> a <a href="{$smarty.const.CALENDAR_URL}/kalendar.ics" title="Ical export">ical</a>.</p>
