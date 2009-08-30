@@ -94,6 +94,7 @@ if($udalost){
 		exit();
 	}else{
 		# zobrazit
+		$smarty->assign("rsslink",'http://'.$_SERVER["SERVER_NAME"].CALENDAR_URL.'kalendar.rss');
 		$smarty->assign("keywords",make_keywords("¾onglování, kalendáø, ".$udalost["title"]));
 		$smarty->display('hlavicka.tpl');
 		$smarty->display('kalendar-event.tpl');

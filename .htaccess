@@ -38,6 +38,7 @@ RewriteRule video/(.*)\.html video.php?v=$1 [L]
 RewriteRule video$ /video/ [R=301,L]
 RewriteRule video/$ video-index.php [L]
 
+RewriteRule ostatni/changelog\.rss$ ostatni-changelog-rss.php [L]
 RewriteRule ostatni\.html$ ostatni-index.php [L]
 RewriteRule (.*).html ostatni-$1.php [L]
 

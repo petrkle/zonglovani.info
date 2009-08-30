@@ -82,9 +82,9 @@ if(date('Y',$now)==$rok and date('m',$now)==$mesic){
 	$smarty->assign("titulek","$titulek - $monthName");
 }
 
-$smarty->assign("rsslink",'http://'.$_SERVER["SERVER_NAME"].CALENDAR_URL.'kalendar.rss');
 $smarty->assign("nadpis","$monthName");
 
+$smarty->assign("rsslink",'http://'.$_SERVER["SERVER_NAME"].CALENDAR_URL.'kalendar.rss');
 $smarty->assign("keywords",make_keywords($titulek).", $monthName");
 
 

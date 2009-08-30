@@ -322,6 +322,7 @@ function get_user_props($login){
 		if(is_file(LIDE_DATA."/$login/registrace.txt")){
 			$navrat["registrace"]=trim(array_pop(file(LIDE_DATA."/$login/registrace.txt")));
 			$navrat["registrace_hr"]=date("j. n. Y",$navrat["registrace"]);
+			$navrat["registrace_mr"]=date("c",$navrat["registrace"]);
 		}
 
 		if(is_file(LIDE_DATA."/$login/LOCKED")){
@@ -371,5 +372,31 @@ function make_keywords($text){
 
 	$navrat=preg_replace("/ /",", ",join(" ",$navrat));
 	return $navrat;
+}
+
+function get_changelog(){
+	if(is_readable("ChangeLog")){
+	$zmeny=array();
+	$changelog=file_get_contents("ChangeLog");
+	$changelog=preg_split("/------------------------------------------------------------------------/",$changelog);
+	foreach($changelog as $foo){
+		if(strlen(trim($foo))>0){
+			array_push($zmeny,array('text'=>$foo));
+		}
+	}
+
+	$pocet=count($zmeny);
+	$bar=0;
+	foreach($zmeny as $zmena){
+		$foo=preg_split("/\n/",$zmena['text']);
+		$zmeny[$bar]["description"]=$foo[3];
+		$foo=preg_split("/ \| /",$foo[1]);
+		$zmeny[$bar]["time_mr"]=date("c",strtotime(substr($foo[2],0,19)));
+		$zmeny[$bar]["author"]=$foo[1];
+		$zmeny[$bar]["revision"]=$pocet-$bar;
+		$bar++;
+	}
+	return $zmeny;
+}
 }
 ?>
