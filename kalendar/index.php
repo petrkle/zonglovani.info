@@ -1,6 +1,7 @@
 <?php
 require('../init.php');
 require('cal-init.php');
+require('../func.php');
 
 if(eregi("index\.php$",$_SERVER["REQUEST_URI"])){
 	header("HTTP/1.1 301 Moved Permanently");
@@ -25,7 +26,6 @@ if(isset($_GET['m'])){
 	$mesic=date('m',$now);
 }
 
-
 $events=get_cal_data($rok,$mesic);
 
 $month = new Calendar_Month_Weekdays($rok,$mesic,1);
@@ -42,7 +42,6 @@ $daysInMonth =& $monthDecorator->fetchAll();
 
 // Split the month into weeks
 $weeksInMonth = array_chunk($daysInMonth, 7);
-
 
 // Create links
 $prevStamp = $month->prevMonth(true);
@@ -83,16 +82,19 @@ if(date('Y',$now)==$rok and date('m',$now)==$mesic){
 	$smarty->assign("titulek","$titulek - $monthName");
 }
 
+$smarty->assign("rsslink",'http://'.$_SERVER["SERVER_NAME"].CALENDAR_URL.'kalendar.rss');
 $smarty->assign("nadpis","$monthName");
-$smarty->display('hlavicka.tpl');
+
+$smarty->assign("keywords",make_keywords($titulek).", $monthName");
+
 
 $smazane=get_deleted_events();
 if(count($smazane)>0){
 	$smarty->assign('smazane',$smazane);
 }
 
+$smarty->display('hlavicka.tpl');
 $smarty->display('kalendar-index.tpl');
 $smarty->display('paticka.tpl');
-
 
 ?>

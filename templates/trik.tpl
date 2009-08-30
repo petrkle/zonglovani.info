@@ -6,6 +6,7 @@
 {/if}
 <p>
 {if isset($krok.obrazek)}
+{if isset($krok.kotva)}<a name="{$krok.kotva}"></a>{/if}
 {obrazek soubor=$krok.obrazek popisek=$trik.info[1]}
 {/if}
 

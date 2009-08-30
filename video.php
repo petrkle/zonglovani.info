@@ -14,6 +14,7 @@ $video=get_video_info(get_videa("./video.inc"),$v);
 if(is_array($video)){
 	$smarty->assign("titulek",$video["title"]);
 	$smarty->assign("video",$video);
+	$smarty->assign("keywords",make_keywords($video["title"]));
 	$smarty->display("hlavicka.tpl");
 	$smarty->display("video.tpl");
 	$smarty->display("paticka.tpl");

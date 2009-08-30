@@ -1,6 +1,7 @@
 <?php
 require('../init.php');
 require('cal-init.php');
+require('../func.php');
 
 if(isset($_GET['id'])){
 	$id=$_GET['id'];
@@ -93,6 +94,7 @@ if($udalost){
 		exit();
 	}else{
 		# zobrazit
+		$smarty->assign("keywords",make_keywords("¾onglování, kalendáø, ".$udalost["title"]));
 		$smarty->display('hlavicka.tpl');
 		$smarty->display('kalendar-event.tpl');
 		$smarty->display('paticka.tpl');

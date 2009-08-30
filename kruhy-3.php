@@ -16,6 +16,7 @@ if(strlen($show)>0 and is_file($show.".xml")){
 	$trik=nacti_trik($show);
 	$smarty->assign("trik",$trik);
 	$smarty->assign("titulek","®onglování se tøemi kruhy - ".$trik["info"][1]);
+	$smarty->assign("keywords",make_keywords("®onglování se tøemi kruhy,".$trik["info"][1]));
 	$smarty->assign("nadpis",$trik["info"][1]);
 	$smarty->display("hlavicka.tpl");
 	$smarty->display("trik.tpl");

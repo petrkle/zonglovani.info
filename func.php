@@ -27,7 +27,16 @@ function nacti_trik($soubor){
 
 		$obrazek=najdi("obrazek",$foo);
 		if($obrazek){
-			$krok["obrazek"]=$obrazek.".png";
+			$obrazek=split("\n",$obrazek);
+			 if(count($obrazek==2) and isset($obrazek[1]) and strlen(trim($obrazek[1]))>0){
+			$krok["obrazek"]=$obrazek[0].'.png';
+			$krok["kotva"]=$obrazek[1];
+				}else{
+			$krok["obrazek"]=$obrazek[0].'.png';
+			 }
+
+			#$krok["obrazek"]=$obrazek.".png";
+
 		}
 		$popisek=najdi("popisek",$foo);
 		if($popisek){
@@ -342,6 +351,25 @@ function is_logged(){
 	if(isset($_SESSION['logged']) and $_SESSION['logged']==true and $_SESSION['ip']==$_SERVER['REMOTE_ADDR']){
 		$navrat=true;
 	}
+	return $navrat;
+}
+
+function make_keywords($text){
+	$navrat=array();
+	$text=preg_replace("/,/"," ",$text);
+	$text=preg_replace("/-/"," ",$text);
+	$text=strtolower(preg_replace("/  /"," ",$text));
+	$text=preg_split("/ /",$text);
+	foreach($text as $foo){
+		if(strlen($foo)>=3){
+			array_push($navrat,$foo);
+		}
+	}
+	if(count($navrat)<2){
+		array_push($navrat,"¾onglování","míèky","kruhy","ku¾ely");
+	}
+
+	$navrat=preg_replace("/ /",", ",join(" ",$navrat));
 	return $navrat;
 }
 ?>

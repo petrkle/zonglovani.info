@@ -4,12 +4,13 @@
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=iso-8859-2" />
 	<title>{$titulek|escape}</title>
-	<meta name="description" content="Žonglérův slabikář - obrázková učebnice žonglování." />
-	<meta name="keywords" content="žongování, míčky, kruhy, kužely, návod, kaskáda, mills mess" />
+	<meta name="description" content="{if isset($nadpis)}{$nadpis|escape} - žonglérův slabikář{else}Žonglérův slabikář - obrázková učebnice žonglování.{/if}" />
+	<meta name="keywords" content="{if isset($keywords)}{$keywords|escape}{else}žongování, míčky, kruhy, kužely, návod, kaskáda, mills mess{/if}" />
 	<style media="screen,projection" type="text/css">@import url(/zonglovani.css);</style>
 	<style media="print" type="text/css">@import url(/zonglovani-tisk.css);</style>
 	<meta name="robots" content="index,follow" />
 	<link rel="shortcut icon" href="/favicon.ico" />
+	{if isset($rsslink)}<link rel="alternate" title="" href="{$rsslink}" type="application/rss+xml">{/if}
 </head>
 <body>
 

@@ -97,6 +97,7 @@ function get_event_data($id,$storage=CALENDAR_DATA){
 		$udalost["end"]=strtotime($udalost["konec"]);
 		$udalost["end_hr"]=date("j. n. Y G.i",strtotime($udalost["konec"]));
 		$udalost["insert_hr"]=date("j. n. Y",$udalost["insert"]);
+		$udalost["insert_mr"]=date("c",$udalost["insert"]);
 		$navrat=$udalost;
 
 }
@@ -129,6 +130,25 @@ function get_cal_data($rok,$mesic){
 	  if (substr($file,-4) == ".cal" and ereg(".*$rok$mesic.*",$file))
 		{
 			array_push($vypis,get_event_data($file));
+		};
+	};
+	closedir($adr); 
+  };
+
+	return $vypis;
+}
+
+function get_future_data(){
+	$vypis=array();
+  if(is_dir(CALENDAR_DATA) and opendir(CALENDAR_DATA)){
+	$adr=opendir(CALENDAR_DATA);
+	while (false!==($file = readdir($adr))) {
+	  if (substr($file,-4) == ".cal")
+		{
+			$konec=substr($file,9,4)."-".substr($file,13,2)."-".substr($file,15,2);
+			if(date("U",strtotime($konec))>time()){
+				array_push($vypis,get_event_data($file));
+			}
 		};
 	};
 	closedir($adr); 

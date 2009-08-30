@@ -15,6 +15,7 @@ if(strlen($show)>0 and is_file($show.".xml")){
 	$smarty->assign("trik",$trik);
 	$smarty->assign("titulek",$titulek." - ".$trik["info"][1]);
 	$smarty->assign("nadpis",$trik["info"][1]);
+	$smarty->assign("keywords",make_keywords($titulek.",".$trik["info"][1]));
 	$smarty->display("hlavicka.tpl");
 	$smarty->display("trik.tpl");
 	$smarty->display("paticka.tpl");
