@@ -3,9 +3,9 @@
 <p>{$predpoved}</p>
 <p>
 {if $zitra=="jo"}
-Co se stane dnes? Pøeèti si <a href="/horoskop/{$znameni}.html" title="Horoskop na dne¹ní den.">horoskop na dne¹ní den</a>.
+Zajímá tì co se stane dnes? Pøeèti si <a href="/horoskop/{$znameni}.html" title="Horoskop na dne¹ní den.">horoskop na dne¹ní den</a>.
 {else}
-Co se stane zítra? Pøeèti si <a href="/horoskop/zitra/{$znameni}.html" title="Horoskop na zítra.">horoskop na zítra</a>.
+Neví¹ co se stane zítra? Pøeèti si <a href="/horoskop/zitra/{$znameni}.html" title="Horoskop na zítra.">horoskop na zítra</a>.
 {/if}
 </p>
 
@@ -20,3 +20,6 @@ Co se stane zítra? Pøeèti si <a href="/horoskop/zitra/{$znameni}.html" title="Ho
 {/foreach}
 </p>
 {/if}
+<p>
+Jak <a href="/horoskop/popis.html">vzniká horoskop</a>?
+</p>

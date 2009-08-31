@@ -28,3 +28,10 @@
 <li><a href="/faq.html" title="FAQ">Èasto kladené otázky</a> a odpovìdi na nì.</li>
 </ul>
 </p>
+<h3>Novinky</h3>
+<p>
+S novým ¹kolním rokem pøichází do ¾onglérova slabikáøe èerstvý vítr.
+</p>
+<p>
+Mù¾e¹ vyzkou¹et nový <a href="/kalendar/" title="Kalendáø ¾onglérských akcí.">kalendáø ¾onglérských akcí</a> a bájeèný <a href="/horoskop/" title="Kalendáø ¾onglérských akcí.">horoskop pro ¾ongléry</a>.
+</p>

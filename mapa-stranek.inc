@@ -15,6 +15,7 @@
 	<li><a href="/ostatni.html">Dal¹í informace o ¾onglování</a></li>
 	<li><a href="/podporte-zongleruv-slabikar.html">Podpoøte ¾onglérùv slabikáø</a></li>
 	<li><a href="/proc-a-jak.html">Proè a jak vznikl ¾ognlérùv slabikáø</a></li>
+	<li><a href="/rss.html">RSS kanály</a></li>
 	<li><a href="/siteswap.html">Siteswap</a></li>
 	<li><a href="/software.html">Simulátory ¾onglování</a></li>
 	<li><a href="/trenink.html">Trénink</a></li>

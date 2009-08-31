@@ -22,13 +22,13 @@ Plastové o prùmìru zhruba 35 cm. Jsou vidìt lépe ne¾ míèky. Vhodné i pro <a href
 
 <h3><a href="/kuzely/" title="®onglování s ku¾ely.">Ku¾ely</a></h3>
 <p>
-<a href="/kuzely/" title="®onglování s ku¾ely."><? echo img("nacinid.png","Ku¾ely"); ?></a>
+<a href="/kuzely/" title="®onglování s ku¾ely.">{obrazek soubor="nacinid.png" popisek="Ku¾ely"}</a>
 Ku¾el tvoøí dvì èásti. ©ir¹í - hlava a u¾¹í dr¾adlo. Vyhozením do vzduchu se roztoèí. Zaèátek je tì¾¹í ne¾ s  míèky nebo kruhy.
 </p>
 
 <h3><a href="/kuzely/ohen.html" title="®onglování s ohnìm.">Ohnivé ku¾ely</a></h3>
 <p>
-<a href="/kuzely/ohen.html" title="®onglování s ohnìm."><? echo img("nacinie.png","Hoøící ku¾ely"); ?></a>
+<a href="/kuzely/ohen.html" title="®onglování s ohnìm.">{obrazek soubor="nacinie.png" popisek="Hoøící ku¾ely"}</a>
 Stejné jako ku¾ely, jen místo ¹ir¹í èásti je knot. Napustí se hoølavinou a zapálí.
 </p>
 
@@ -68,7 +68,7 @@ Míèek pøivázaný na provázku (+- 0,5m). Na druhém konci provázku je smyèka pro dr
 Létají skoro stejnì jako ku¾ely. Jen jsou trochu vìt¹í.
 </p>
 
-<h3>Crystal ball</h3>
+<a name="crystalball"><h3>Crystal ball</h3></a>
 <p>
 {obrazek soubor="nacinim.png" popisek="Crystal ball"}
 Vìt¹í míèek z umìlé hmoty (polyakrylát ?). Vypadá jako sklenìný. Pou¾ívá se na kontaktní ¾onglování - nehází se sním, ale kutálí se po rukou a jiných èástech tìla.
