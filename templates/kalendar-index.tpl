@@ -52,4 +52,5 @@ Pøidat <a href="{$smarty.const.CALENDAR_URL}add.php" title="Pøidat novou událost
 {/foreach}
 </ul>
 {/if}
-<p>Kalendáø mù¾e¹ sledovat pomocí <a href="{$smarty.const.CALENDAR_URL}/kalendar.rss" title="RSS kanál">rss</a> a <a href="{$smarty.const.CALENDAR_URL}/kalendar.ics" title="Ical export">ical</a>.</p>
+<p>Kalendáø mù¾e¹ sledovat pomocí <a href="{$smarty.const.CALENDAR_URL}kalendar.rss" title="RSS kanál">RSS</a> <a class="info" href="#">?<span class="tooltip">RSS slou¾í k upozoròování na aktualizaci stránek.</span></a> a <a href="{$smarty.const.CALENDAR_URL}kalendar.ics" title="Ical export">iCalendar</a> <a class="info" href="#">?<span class="tooltip">iCalendar je formát pro výmìnu záznamù v kalendáøi mezi poèítaèi.</span></a>.</p>
+<p>Návod <a href="rss-a-icalendar.html">jak nastavit RSS a iCalendar</a>.</p>

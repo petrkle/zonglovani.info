@@ -82,3 +82,8 @@ Vıpis zmìn v ¾onglérovì slabikáøi (svn&nbsp;log).
 <p>
 Seznam ¾onglérù kteøí mají úèet v ¾onglérovì slabikáøi.
 </p>
+
+<h3><a href="/rss.html" title="RSS exporty.">RSS kanály</a></h3>
+<p>
+Upozoròování na novinky v ¾onglérovì slabikáøi.
+</p>

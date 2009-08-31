@@ -21,10 +21,11 @@ END:STANDARD
 END:VTIMEZONE
 {foreach from=$events item=udalost}
 BEGIN:VEVENT
-DTSTART;TZID=Europe/Prague:{$udalost.start_ical}
-DTEND;TZID=Europe/Prague:{$udalost.end_ical}
-SUMMARY:{$udalost.title}
-DESCRIPTION:{$udalost.desc}
+DTSTART;TZID=Europe/Prague:{$udalost.start_ical|escape}
+DTEND;TZID=Europe/Prague:{$udalost.end_ical|escape}
+SUMMARY:{$udalost.title|escape}
+DESCRIPTION:{$udalost.desc|escape}
+LOCATION:{$udalost.misto|escape}
 END:VEVENT
 {/foreach}
 END:VCALENDAR
