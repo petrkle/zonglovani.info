@@ -8,7 +8,7 @@ if (isset($_GET["show"])) {
 	$show="";
 }
 
-$titulek="®onglování tøemi míèky";
+$titulek="®onglování se tøemi míèky";
 
 if(strlen($show)>0 and is_file($show.".xml")){
 	$trik=nacti_trik($show);

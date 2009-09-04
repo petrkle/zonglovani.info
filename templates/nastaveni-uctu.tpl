@@ -9,7 +9,7 @@
 <form action="{$SCRIPT_NAME}" method="post">
 
 <p>
-<fieldset>
+<fieldset class="siroke">
 <legend>Soukromí</legend>
 <ul>
 <li><label><input type="radio" name="soukromi" value="formular" accesskey="k" tabindex="1"{if $soukromi=="formular"} checked="jo"{/if} /> Vz<u>k</u>azy pøes formuláø</label> <a class="info" href="#">?<span class="tooltip">Ostatní náv¹tìvníci ¾onglérova slabikáøe ti budou moci poslat vzkaz pøes formuláø. Neuvidí tvùj e-mail.</span></a></li>

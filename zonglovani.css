@@ -369,6 +369,27 @@ fieldset	{
  width: 500px;
 }
 
+#malehledani {
+	margin: 0;
+	padding: 0;
+	font-size: 0.8em;
+}
+
+#malehledani fieldset {
+ margin: 2px;
+ width: 140px;
+}
+
+#malehledani input.policko {
+ margin: 2px;
+ width: 130px;
+}
+
+#malehledani input.knoflik {
+ margin: 2px;
+ width: 65px;
+}
+
 .textbox {
 	width: 300px;
 	margin: 0 10px 0 10px;

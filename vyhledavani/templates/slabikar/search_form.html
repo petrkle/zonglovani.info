@@ -1,0 +1,9 @@
+<p>
+<form action="/vyhledavani/" method="get">
+<fieldset>
+	<legend>Vyhledávání</legend>
+	<input type="text" name="query" id="query" size="40" value="<?php   print quote_replace($query);?>">	
+	<input type="hidden" name="search" value="1" />
+	<input type="submit" value="<?php print $sph_messages['Search']?>">
+</fieldset>
+</p>

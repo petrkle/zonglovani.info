@@ -31,6 +31,7 @@
 		<li><a href="/horoskop/kozoroh.html">Horoskop ¾onglování - Kozoroh</a></li>
 		<li><a href="/horoskop/lev.html">Horoskop ¾onglování - Lev</a></li>
 		<li><a href="/horoskop/panna.html">Horoskop ¾onglování - Panna</a></li>
+		<li><a href="/horoskop/popis.html">Jak vzniká horoskop ¾onglování</a></li>
 		<li><a href="/horoskop/rak.html">Horoskop ¾onglování - Rak</a></li>
 		<li><a href="/horoskop/ryby.html">Horoskop ¾onglování - Ryby</a></li>
 		<li><a href="/horoskop/stir.html">Horoskop ¾onglování - ©tír</a></li>

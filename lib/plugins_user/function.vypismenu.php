@@ -19,7 +19,16 @@ function smarty_function_vypismenu($params, &$smarty){
 		$navrat.="</li>\n";
 	}
 
-	$navrat.="\n<ul>";
+	$navrat.="\n<ul>\n";
+			if(!preg_match("/vyhledavani/",$_SERVER["REQUEST_URI"])){
+	$navrat.='<form action="/vyhledavani/" method="get" id="malehledani">
+		<fieldset>
+		<legend>Vyhledávání</legend>
+		<input type="text" name="query" class="policko" /><input type="submit" value="Najít" class="knoflik" />
+		<input type="hidden" name="search" value="1" />
+		</fieldset>
+		</form>';
+			}
 
 	return $navrat;
 
