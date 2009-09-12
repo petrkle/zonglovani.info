@@ -23,9 +23,9 @@ Napsal Charlie Dancey. V této kní¾ce je v¹e o ¾onglování s ku¾ely. Obsahuje spou
 Anglická kní¾ka kterou sepsal Hans Vanwynsberghe. Nedokonèená, ale i pøesto výborná.
 </p>
 
-<a name="poi"><h3><a href="http://valur.us/Poi/Poi.pdf" title="Toèení s poi." class="external" onclick="pageTracker._trackPageview('/goto/valur.us/Poi/Poi.pdf');">Poi</a></h3></a>
+<a name="poi"><h3><a href="/poi-richee.pdf" title="Toèení s poi.">Poi</a></h3></a>
 <p>
-<a href="http://valur.us/Poi/Poi.pdf" title="Poi" onclick="pageTracker._trackPageview('/goto/valur.us/Poi/Poi.pdf');">{obrazek soubor="poi.png" popisek="Poi - úvod"}</a>
+<a href="/poi-richee.pdf" title="Poi">{obrazek soubor="poi.png" popisek="Poi - úvod"}</a>
 Kní¾ka o toèení s poi od Richeeho.
 </p>
 

@@ -25,7 +25,7 @@ if(isset($_POST["odeslat"])){
 	}
 
 	if(isset($_POST["vzkaz"])){
-		$vzkaz=strtolower(trim($_POST["vzkaz"]));
+		$vzkaz=trim($_POST["vzkaz"]);
 		$smarty->assign("vzkaz",$vzkaz);
 		$_SESSION["reg_vzkaz"]=$vzkaz;
 	}elseif(isset($_SESSION["reg_vzkaz"])){

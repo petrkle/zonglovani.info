@@ -23,6 +23,9 @@
 		<li><a name="chudy"></a><a href="/chudy/">Chùdy</a>
 		
 		</li>
+		<li><a name="diskuse"></a>diskuse/
+		
+		</li>
 		<li><a name="horoskop"></a>horoskop/
 		<ul>
 		<li><a href="/horoskop/beran.html">Horoskop ¾onglování - Beran</a></li>
@@ -190,57 +193,57 @@
 			<li><a href="/micky/2/zada.html">®onglování se dvìma míèky - Prohození míèku za zády</a></li>
 			</ul>
 			</li>
-			<li><a name="3"></a><a href="/micky/3/">®onglování tøemi míèky</a>
+			<li><a name="3"></a><a href="/micky/3/">®onglování se tøemi míèky</a>
 			<ul>
-			<li><a href="/micky/3/1mezi2.html">®onglování tøemi míèky - Jeden mezi dvìma</a></li>
-			<li><a href="/micky/3/1nad2.html">®onglování tøemi míèky - Jeden nad dvìma</a></li>
-			<li><a href="/micky/3/1okolo2.html">®onglování tøemi míèky - Jeden okolo dvou</a></li>
-			<li><a href="/micky/3/3v1.html">®onglování tøemi míèky - 3 v 1</a></li>
-			<li><a href="/micky/3/441.html">®onglování tøemi míèky - 441</a></li>
-			<li><a href="/micky/3/blesk.html">®onglování tøemi míèky - Blesk</a></li>
-			<li><a href="/micky/3/boston-mess.html">®onglování tøemi míèky - Boston mess</a></li>
-			<li><a href="/micky/3/cap.html">®onglování tøemi míèky - Èáp</a></li>
-			<li><a href="/micky/3/celo.html">®onglování tøemi míèky - Odra¾ení míèku èelem</a></li>
-			<li><a href="/micky/3/dvojita-krabice.html">®onglování tøemi míèky - Dvojitá krabice</a></li>
-			<li><a href="/micky/3/dvojite-jojo.html">®onglování tøemi míèky - Dvojité jo-jo</a></li>
-			<li><a href="/micky/3/had.html">®onglování tøemi míèky - Had</a></li>
-			<li><a href="/micky/3/hodiny.html">®onglování tøemi míèky - Hodiny</a></li>
-			<li><a href="/micky/3/jablko.html">®onglování tøemi míèky - Jezení jablka</a></li>
-			<li><a href="/micky/3/jojo.html">®onglování tøemi míèky - Jo - jo</a></li>
-			<li><a href="/micky/3/kaskada-reverzni-siroka.html">®onglování tøemi míèky - Reverzní kaskáda ¹iroká</a></li>
-			<li><a href="/micky/3/kaskada-reverzni.html">®onglování tøemi míèky - Reverzní kaskáda</a></li>
-			<li><a href="/micky/3/kaskada.html">®onglování tøemi míèky - Kaskáda</a></li>
-			<li><a href="/micky/3/klokan.html">®onglování tøemi míèky - Klokan</a></li>
-			<li><a href="/micky/3/koleno.html">®onglování tøemi míèky - Odra¾ení míèku kolenem</a></li>
-			<li><a href="/micky/3/kometa.html">®onglování tøemi míèky - Kometa</a></li>
-			<li><a href="/micky/3/krk.html">®onglování tøemi míèky - Zachycení míèku za krk</a></li>
-			<li><a href="/micky/3/mlyn.html">®onglování tøemi míèky - Vìtrnı mlın</a></li>
-			<li><a href="/micky/3/mm-falesne.html">®onglování tøemi míèky - Fale¹né mills&#039; mess</a></li>
-			<li><a href="/micky/3/mm.html">®onglování tøemi míèky - Mills&#039; mess</a></li>
-			<li><a href="/micky/3/multiplex.html">®onglování tøemi míèky - Multiplex</a></li>
-			<li><a href="/micky/3/nadhlavou.html">®onglování tøemi míèky - Nad hlavou</a></li>
-			<li><a href="/micky/3/neobvykly-zacatek.html">®onglování tøemi míèky - Neobvyklı zaèátek kaskády</a></li>
-			<li><a href="/micky/3/neviditelny.html">®onglování tøemi míèky - Neviditelnı míèek</a></li>
-			<li><a href="/micky/3/noha.html">®onglování tøemi míèky - Prohození míèku pod nohou</a></li>
-			<li><a href="/micky/3/oblouky.html">®onglování tøemi míèky - Oblouèky</a></li>
-			<li><a href="/micky/3/ojoj.html">®onglování tøemi míèky - Oj - oj</a></li>
-			<li><a href="/micky/3/okno.html">®onglování tøemi míèky - Chrámové okno</a></li>
-			<li><a href="/micky/3/orangutan.html">®onglování tøemi míèky - Orangutan</a></li>
-			<li><a href="/micky/3/orbit.html">®onglování tøemi míèky - Orbit</a></li>
-			<li><a href="/micky/3/orbit2.html">®onglování tøemi míèky - Orbit II</a></li>
-			<li><a href="/micky/3/osmicka.html">®onglování tøemi míèky - Osmièka</a></li>
-			<li><a href="/micky/3/robot.html">®onglování tøemi míèky - Robot</a></li>
-			<li><a href="/micky/3/seesaw.html">®onglování tøemi míèky - See saw</a></li>
-			<li><a href="/micky/3/sloupy-falesne.html">®onglování tøemi míèky - Fale¹né sloupy</a></li>
-			<li><a href="/micky/3/sloupy.html">®onglování tøemi míèky - Sloupy</a></li>
-			<li><a href="/micky/3/socha.html">®onglování tøemi míèky - Socha svobody</a></li>
-			<li><a href="/micky/3/sprcha-polovicni.html">®onglování tøemi míèky - Polovièní sprcha</a></li>
-			<li><a href="/micky/3/sprcha.html">®onglování tøemi míèky - Sprcha</a></li>
-			<li><a href="/micky/3/tenis-2v1.html">®onglování tøemi míèky - 2 v 1 tenis</a></li>
-			<li><a href="/micky/3/tenis.html">®onglování tøemi míèky - Tenis</a></li>
-			<li><a href="/micky/3/zada.html">®onglování tøemi míèky - Prohození míèku za zády</a></li>
-			<li><a href="/micky/3/zirafa.html">®onglování tøemi míèky - ®irafa</a></li>
-			<li><a href="/micky/3/zkrizene-ruce.html">®onglování tøemi míèky - Zkøí¾ené ruce</a></li>
+			<li><a href="/micky/3/1mezi2.html">®onglování se tøemi míèky - Jeden mezi dvìma</a></li>
+			<li><a href="/micky/3/1nad2.html">®onglování se tøemi míèky - Jeden nad dvìma</a></li>
+			<li><a href="/micky/3/1okolo2.html">®onglování se tøemi míèky - Jeden okolo dvou</a></li>
+			<li><a href="/micky/3/3v1.html">®onglování se tøemi míèky - 3 v 1</a></li>
+			<li><a href="/micky/3/441.html">®onglování se tøemi míèky - 441</a></li>
+			<li><a href="/micky/3/blesk.html">®onglování se tøemi míèky - Blesk</a></li>
+			<li><a href="/micky/3/boston-mess.html">®onglování se tøemi míèky - Boston mess</a></li>
+			<li><a href="/micky/3/cap.html">®onglování se tøemi míèky - Èáp</a></li>
+			<li><a href="/micky/3/celo.html">®onglování se tøemi míèky - Odra¾ení míèku èelem</a></li>
+			<li><a href="/micky/3/dvojita-krabice.html">®onglování se tøemi míèky - Dvojitá krabice</a></li>
+			<li><a href="/micky/3/dvojite-jojo.html">®onglování se tøemi míèky - Dvojité jo-jo</a></li>
+			<li><a href="/micky/3/had.html">®onglování se tøemi míèky - Had</a></li>
+			<li><a href="/micky/3/hodiny.html">®onglování se tøemi míèky - Hodiny</a></li>
+			<li><a href="/micky/3/jablko.html">®onglování se tøemi míèky - Jezení jablka</a></li>
+			<li><a href="/micky/3/jojo.html">®onglování se tøemi míèky - Jo - jo</a></li>
+			<li><a href="/micky/3/kaskada-reverzni-siroka.html">®onglování se tøemi míèky - Reverzní kaskáda ¹iroká</a></li>
+			<li><a href="/micky/3/kaskada-reverzni.html">®onglování se tøemi míèky - Reverzní kaskáda</a></li>
+			<li><a href="/micky/3/kaskada.html">®onglování se tøemi míèky - Kaskáda</a></li>
+			<li><a href="/micky/3/klokan.html">®onglování se tøemi míèky - Klokan</a></li>
+			<li><a href="/micky/3/koleno.html">®onglování se tøemi míèky - Odra¾ení míèku kolenem</a></li>
+			<li><a href="/micky/3/kometa.html">®onglování se tøemi míèky - Kometa</a></li>
+			<li><a href="/micky/3/krk.html">®onglování se tøemi míèky - Zachycení míèku za krk</a></li>
+			<li><a href="/micky/3/mlyn.html">®onglování se tøemi míèky - Vìtrnı mlın</a></li>
+			<li><a href="/micky/3/mm-falesne.html">®onglování se tøemi míèky - Fale¹né mills&#039; mess</a></li>
+			<li><a href="/micky/3/mm.html">®onglování se tøemi míèky - Mills&#039; mess</a></li>
+			<li><a href="/micky/3/multiplex.html">®onglování se tøemi míèky - Multiplex</a></li>
+			<li><a href="/micky/3/nadhlavou.html">®onglování se tøemi míèky - Nad hlavou</a></li>
+			<li><a href="/micky/3/neobvykly-zacatek.html">®onglování se tøemi míèky - Neobvyklı zaèátek kaskády</a></li>
+			<li><a href="/micky/3/neviditelny.html">®onglování se tøemi míèky - Neviditelnı míèek</a></li>
+			<li><a href="/micky/3/noha.html">®onglování se tøemi míèky - Prohození míèku pod nohou</a></li>
+			<li><a href="/micky/3/oblouky.html">®onglování se tøemi míèky - Oblouèky</a></li>
+			<li><a href="/micky/3/ojoj.html">®onglování se tøemi míèky - Oj - oj</a></li>
+			<li><a href="/micky/3/okno.html">®onglování se tøemi míèky - Chrámové okno</a></li>
+			<li><a href="/micky/3/orangutan.html">®onglování se tøemi míèky - Orangutan</a></li>
+			<li><a href="/micky/3/orbit.html">®onglování se tøemi míèky - Orbit</a></li>
+			<li><a href="/micky/3/orbit2.html">®onglování se tøemi míèky - Orbit II</a></li>
+			<li><a href="/micky/3/osmicka.html">®onglování se tøemi míèky - Osmièka</a></li>
+			<li><a href="/micky/3/robot.html">®onglování se tøemi míèky - Robot</a></li>
+			<li><a href="/micky/3/seesaw.html">®onglování se tøemi míèky - See saw</a></li>
+			<li><a href="/micky/3/sloupy-falesne.html">®onglování se tøemi míèky - Fale¹né sloupy</a></li>
+			<li><a href="/micky/3/sloupy.html">®onglování se tøemi míèky - Sloupy</a></li>
+			<li><a href="/micky/3/socha.html">®onglování se tøemi míèky - Socha svobody</a></li>
+			<li><a href="/micky/3/sprcha-polovicni.html">®onglování se tøemi míèky - Polovièní sprcha</a></li>
+			<li><a href="/micky/3/sprcha.html">®onglování se tøemi míèky - Sprcha</a></li>
+			<li><a href="/micky/3/tenis-2v1.html">®onglování se tøemi míèky - 2 v 1 tenis</a></li>
+			<li><a href="/micky/3/tenis.html">®onglování se tøemi míèky - Tenis</a></li>
+			<li><a href="/micky/3/zada.html">®onglování se tøemi míèky - Prohození míèku za zády</a></li>
+			<li><a href="/micky/3/zirafa.html">®onglování se tøemi míèky - ®irafa</a></li>
+			<li><a href="/micky/3/zkrizene-ruce.html">®onglování se tøemi míèky - Zkøí¾ené ruce</a></li>
 			</ul>
 			</li>
 			<li><a name="4"></a><a href="/micky/4/">®onglování se ètyømi míèky</a>

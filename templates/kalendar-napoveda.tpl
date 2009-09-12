@@ -5,7 +5,7 @@
 </ul>
 </p>
 <p>
-<a href="#rss">RSS</a> a <a href="#ical">iCalendar</a> ti umo¾ní jednodu¹e sledovat novinky v <a href="{$smarty.const.CALENDAR_URL}" title="Kalendáø ¾onglérských akcí.">kalendáøi ¾onglérských akcí</a>.
+<a href="#rss">RSS</a> a <a href="#ical">iCalendar</a> ti umo¾ní jednodu¹e sledovat novinky v ¾onglérovì slabikáøi.
 </p>
 
 <a name="rss"></a>

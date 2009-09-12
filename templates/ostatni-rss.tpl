@@ -11,6 +11,9 @@
 <h3><a href="http://{$smarty.server.SERVER_NAME}{$smarty.const.CALENDAR_URL}kalendar.rss">http://{$smarty.server.SERVER_NAME}{$smarty.const.CALENDAR_URL}kalendar.rss</a></h3>
 <p>Kalendáø ¾onglérských akcí.</p>
 
+<h3><a href="http://{$smarty.server.SERVER_NAME}{$smarty.const.DISKUSE_URL}zpravy.rss">http://{$smarty.server.SERVER_NAME}{$smarty.const.DISKUSE_URL}zpravy.rss</a></h3>
+<p>Diskuse o ¾onglování.</p>
+
 <h3><a href="http://{$smarty.server.SERVER_NAME}{$smarty.const.LIDE_URL}uzivatele.rss">http://{$smarty.server.SERVER_NAME}{$smarty.const.LIDE_URL}uzivatele.rss</a></h3>
 <p>Novì zaregistrovaní u¾ivatelé ¾onglérova slabikáøe.</p>
 

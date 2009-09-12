@@ -49,9 +49,9 @@ function submenu($id){
 	}
 
 	if($id==4){
-		$adresy = array("/video/","/kalendar/");
-		$texty = array("Video","Kalendáø");
-		$popisky = array("Zajímavá ¾onglérská videa","Kalendáø ¾onglérskıch akcí");
+		$adresy = array("/video/","/kalendar/","/diskuse/");
+		$texty = array("Video","Kalendáø","Diskuse");
+		$popisky = array("Zajímavá ¾onglérská videa","Kalendáø ¾onglérskıch akcí","Diskuse o ¾onglování");
 	}
 
 	if(isset($adresy)){

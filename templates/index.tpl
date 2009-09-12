@@ -30,8 +30,5 @@
 </p>
 <h3>Novinky</h3>
 <p>
-S novým ¹kolním rokem pøichází do ¾onglérova slabikáøe èerstvý vítr.
-</p>
-<p>
-Mù¾e¹ vyzkou¹et nový <a href="/kalendar/" title="Kalendáø ¾onglérských akcí.">kalendáø ¾onglérských akcí</a> a bájeèný <a href="/horoskop/" title="Kalendáø ¾onglérských akcí.">horoskop pro ¾ongléry</a>.
+Mù¾e¹ vyzkou¹et <a href="/kalendar/" title="Kalendáø ¾onglérských akcí.">kalendáø ¾onglérských akcí</a>, bájeèný <a href="/horoskop/" title="Kalendáø ¾onglérských akcí.">horoskop pro ¾ongléry</a> a zbrusu nové <a href="/diskuse/">diskusní fórum</a> o ¾onglování.
 </p>

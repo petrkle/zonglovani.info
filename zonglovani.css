@@ -491,3 +491,26 @@ sup.ppm {
 a.edit {
 	border-left: solid 3px #f00;
 }
+
+.diskuse	{
+ margin-left: 20px;
+ border-left: 1px solid #ccc;
+ border-top: 1px solid #ccc;
+ line-height: 1em;
+ width: 520px;
+ margin-bottom: 20px;
+}
+
+.diskuse th {
+ border-right: 1px solid #ccc;
+ border-bottom: 1px solid #ccc;
+ font-size: 0.7em;
+ background: #eee;
+ padding: 2px 5px;
+}
+
+.diskuse td {
+ border-right: 1px solid #ccc;
+ border-bottom: 1px solid #ccc;
+ padding: 2px 5px;
+}
