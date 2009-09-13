@@ -19,10 +19,15 @@ Je to velmi individuální. Obvykle tøi míèky zaberou jedno odpoledne, pìt míèkù m
 
 <h3>Kde najdu dal¹í ¾ongléry?</h3>
 <p>
-Pravidelnì se konají ¾onglérské srazy. To jsou nejlep¹í místa kde se nauèit nové triky. Informace o místech a èasech konání najde¹ v <a href="/kalendar" title="Kalendáø ¾onglérských akcí.">kalendáøi</a>. 
+Pravidelnì se konají ¾onglérské srazy. To jsou nejlep¹í místa kde se nauèit nové triky. Informace o místech a èasech konání najde¹ v <a href="{$smarty.const.CALENDAR_URL}" title="Kalendáø ¾onglérských akcí.">kalendáøi</a>. 
 </p>
 
 <h3>Je o ¾onglování nìjaká kní¾ka?</h3>
 <p>
 Ano, <a href="/literatura.html" title="Kní¾ky o ¾onglování.">literatura</a> je dostupná. I kdy¾ vìt¹inou anglicky.
+</p>
+
+<h3>Dal¹í otázky?</h3>
+<p>
+Pro nalezení odpovìdí zkus nejprve <a href="{$smarty.const.SEARCH_URL}" title="Prohledávání ¾onglérova slabikáøe.">vyhledávání</a>. Dal¹í mo¾ností je polo¾it dotaz do <a href="{$smarty.const.DISKUSE_URL}" title="Diskusní fórum o ¾onglování.">diskusního fóra</a>.
 </p>

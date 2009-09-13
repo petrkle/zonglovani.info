@@ -11,6 +11,7 @@
 {/if}
 
 {if $video.server=="juggling.tv"}
+
 	<object type="application/x-shockwave-flash" width="480" height="380"wmode="transparent" data="http://www.juggling.tv/vaults/flvplayer.swf?file=http://www.juggling.tv/vaults/flvideo/{$video.fid}.flv&autostart=false&showfsbutton=true">
         <param name="movie" value="http://www.juggling.tv/vaults/flvplayer.swf?file=http://www.juggling.tv/vaults/flvideo/{$video.fid}.flv&autostart=false&showfsbutton=true" />
         <param name="wmode" value="transparent" />

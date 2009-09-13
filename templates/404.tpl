@@ -9,7 +9,7 @@ Je mi líto, po¾adovaná stránka se bohu¾el v ¾onglérovì slabikáøi nenachází. Patr
 		<li>Pokud jsi napsal adresu do prohlí¾eèe ruènì, zkontroluj pøeklepy.</li>
 		<li>Pøejdi na <a href="/" title="Úvodní stránka ¾onglérova slabikáøe.">úvodní stránku ¾onglérova slabikáøe</a> a dál pokraèuj odtud.</li>
 		<li>Pou¾ij <a href="/mapa-stranek.html" title="Mapa stránek">mapu stránek</a>, tj. seznam v¹ech stránek na serveru.</li>
-		<li>Zkus stránku najít pomocí <a href="/vyhledavani/" title="Prohledávání ¾onglérova slabikáøe.">vyhledavani</a>.</li>
+		<li>Zkus stránku najít pomocí <a href="{$smarty.const.SEARCH_URL}" title="Prohledávání ¾onglérova slabikáøe.">vyhledavani</a>.</li>
 	</ul>
 	
 	</p>	

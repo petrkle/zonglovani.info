@@ -45,6 +45,7 @@ $smarty->assign(
 
 
 if(isset($_GET["rss"])){
+	header('Content-Type: application/rss+xml');
 	$smarty->display('diskuse-rss.tpl');
 }else{
 	$smarty->display('hlavicka.tpl');

@@ -25,4 +25,4 @@ Stránkování: {$pager_links}
 {/if}
 
 <p>Diskusi mù¾e¹ sledovat pomocí <a href="{$smarty.const.DISKUSE_URL}zpravy.rss" title="RSS kanál">RSS</a> <a class="info" href="#">?<span class="tooltip">RSS slou¾í k upozoròování na aktualizaci stránek.</span></a></p>
-<p>Návod <a href="{$smarty.const.CALENDAR_URL}rss-a-icalendar.html">jak nastavit RSS a iCalendar</a>.</p>
+<p>Návod <a href="{$smarty.const.CALENDAR_URL}rss-a-icalendar.html#rss">jak nastavit RSS</a>.</p>

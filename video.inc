@@ -20,3 +20,7 @@ prechac-weaves*http://juggling.tv:1537*Prechac Weaves*Propletené ¾onglování.
 more-or-less*http://www.youtube.com/watch?v=yTtm-K3QV_Y*More or less juggling*Více nebo ménì ¾onglování.
 take-it-out-3*http://www.youtube.com/watch?v=0LArzv9Trmk*Take It Out 3#*Lukas Schütte a Christof Buch - jsou prostì dobøí.
 lost-tapes-minneapolis*http://juggling.tv:1509*The Lost Tapes of Minneapolis*Passing v Minneapolis. Nìkolik neuvìøitelných trikù s ku¾ely.
+yesterday-didnt-happen*http://juggling.tv:2873*Yesterday didn't happen*Krásná ukázka manipulace s ku¾ely.
+liquid-crystal-live*http://juggling.tv:2789*Matt Hennem - Liquid Crystal live*Vydaøené kontaktní ¾onglování.
+ball-club-scissors*http://juggling.tv:1287*Míèek - ku¾el - nù¾ky*Ori Roth a kamarádi hrají kámen, nù¾ky, papír.
+juggle-a-saurus*http://www.youtube.com/watch?v=eHMxyGT4YZM*Alan & Thom the Fourth*Ètvrté video od Alana a Thoma.

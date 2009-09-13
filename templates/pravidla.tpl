@@ -14,6 +14,7 @@ Pøed vytvoøením úètu si, prosím, pøeèti následující pravidla.
 <ul>
 <li>Tvùj úèet se objeví v <a href="{$smarty.const.LIDE_URL}" title="Seznam u¾ivatelských úètù.">seznamu u¾ivatelù</a> ¾onglérova slabikáøe. Budou tì moct kontaktovat dal¹í ¾ongléøi. Nebo lidé kteøí shánìjí ¾ongléry a chtìjí jim zaplatit za vystoupení.</li>
 <li>Mù¾e¹ zadávat události do <a href="{$smarty.const.CALENDAR_URL}" title="Kalendáø ¾onglérských akcí.">kalendáøe</a>.</li>
+<li>Mù¾e¹ psát zprávy do <a href="{$smarty.const.DISKUSE_URL}" title="Diskuse o ¾onglování.">diskuse</a> o ¾onglování.</li>
 </ul>
 
 <h3>Povinnosti správce</h3>

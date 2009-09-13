@@ -58,7 +58,7 @@
 <ul>
 <li>Pi¹ s háèky a èárkami. Del¹í text rozdìl do odstavcù. Pou¾ívej ve vìtách interpunkci.</li>
 <li>Pi¹ slu¹nì.</li>
-<li>Pro nalezení odpovìdí zkus nejprve <a href="/vyhledavani/" title="Prohledávání ¾onglérova slabikáøe.">vyhledávání</a>.</li>
+<li>Pro nalezení odpovìdí zkus nejprve <a href="{$smarty.const.SEARCH_URL}" title="Prohledávání ¾onglérova slabikáøe.">vyhledávání</a>.</li>
 <li>Zadávej ka¾dý dotaz pouze jednou.</li>
 <li>Odpovídej jenom na to, na co se tazatel ptal. Dr¾ se tématu.</li>
 <li>Pi¹ jen kdy¾ má¹ co øíct. Tato diskuse není chat ani zábavní server.</li>
