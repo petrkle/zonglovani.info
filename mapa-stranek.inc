@@ -281,6 +281,7 @@
 		<li><a href="/video/addicted.html">Addicted</a></li>
 		<li><a href="/video/alan-thom-3.html">Alan &amp; Thom #3</a></li>
 		<li><a href="/video/all-day-baby.html">All Day Baby!</a></li>
+		<li><a href="/video/ball-club-scissors.html">Míèek - ku¾el - nù¾ky</a></li>
 		<li><a href="/video/giraffe-theory.html">Giraffe Theory Juggling Glow Clubs</a></li>
 		<li><a href="/video/guava-winter-07-08.html">Guava over winter break 07-08</a></li>
 		<li><a href="/video/hocus-pocus.html">Hocus Pocus</a></li>
@@ -288,15 +289,21 @@
 		<li><a href="/video/jeremy-perkins-jeremy-fein.html">Jeremy Perkins and Jeremy Fein Promo 2008</a></li>
 		<li><a href="/video/joe-hague.html">Joe Hague Fatboy Slim Juggling Video</a></li>
 		<li><a href="/video/jonglage-macabre.html">Jonglage Macabre</a></li>
+		<li><a href="/video/juggle-a-saurus.html">Alan &amp; Thom the Fourth</a></li>
 		<li><a href="/video/juggling-extravaganza.html">Juggling Extravaganza</a></li>
 		<li><a href="/video/laurent-phil.html">Laurent et Phil, juggling passing demo</a></li>
 		<li><a href="/video/les-bebes.html">Les Bébés</a></li>
+		<li><a href="/video/liquid-crystal-live.html">Matt Hennem - Liquid Crystal live</a></li>
 		<li><a href="/video/lost-tapes-minneapolis.html">The Lost Tapes of Minneapolis</a></li>
 		<li><a href="/video/more-or-less.html">More or less juggling</a></li>
 		<li><a href="/video/prechac-weaves.html">Prechac Weaves</a></li>
 		<li><a href="/video/stepz.html">Stepz</a></li>
 		<li><a href="/video/take-it-out-3.html">Take It Out 3#</a></li>
+		<li><a href="/video/yesterday-didnt-happen.html">Yesterday didn&#039;t happen</a></li>
 		</ul>
+		</li>
+		<li><a name="vyhledavani"></a><a href="/vyhledavani/">®onglérùv slabikáø - vyhledávání</a>
+		
 		</li>
 	</ul>
 	</li>

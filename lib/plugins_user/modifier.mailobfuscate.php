@@ -1,30 +1,15 @@
 <?php
 
 function smarty_modifier_mailobfuscate($string){
+	$tecka='<img src="/img/t/tecka.png" width="5" height="20" alt="teèka" />';
+	$zavinac='<img src="/img/z/zavinac.png" width="20" height="20" alt="zavináè" />';
 
-	srand();
-	$nahoda=rand(1,10);
-	$navrat="";
-
-	if($nahoda==1){
-		$navrat=str_replace(".","&nbsp;[teèka]&nbsp;",str_replace("@","&nbsp;[zavináè]&nbsp;",$string));
-	}elseif($nahoda==2){
-		$navrat=str_replace(".","/teèka/",str_replace("@","/zavináè/",$string));
-	}elseif($nahoda==3){
-		$navrat=str_replace(".","_tecka_",str_replace("@","_zavinac_",$string));
-	}elseif($nahoda==4){
-		$navrat=str_replace(".","[tecka]",str_replace("@","[zavinac]",$string));
-	}elseif($nahoda==5){
-		$navrat=str_replace(".","[teèka]",str_replace("@","[zavináè]",$string));
-	}elseif($nahoda==6){
-		$navrat=str_replace(".","_teèka_",str_replace("@","_zavináè_",$string));
-	}elseif($nahoda==7){
-		$navrat=str_replace(".","-teèka-",str_replace("@","-zavináè-",$string));
-	}elseif($nahoda==8){
-		$navrat=str_replace(".","{teèka}",str_replace("@","{zavináè}",$string));
-	}else{
-		$navrat=str_replace(".","(teèka)",str_replace("@","(zavináè)",$string));
-	}
+	$navrat='<span class="kontakt">';
+	$adr=explode('@',$string);
+	$pred=str_replace('.',$tecka,$adr[0]);
+	$po=str_replace('.',$tecka,$adr[1]);
+	$navrat.=$pred.$zavinac.$po;
+	$navrat.='</span>';
 
 	return $navrat;
 }

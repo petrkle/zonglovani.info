@@ -279,7 +279,7 @@ dd {
 	padding-right: 30px;
 }
 
-p.kontakt img {
+.kontakt img {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -513,4 +513,28 @@ a.edit {
  border-right: 1px solid #ccc;
  border-bottom: 1px solid #ccc;
  padding: 2px 5px;
+}
+
+.tabulka	{
+ margin-left: 20px;
+ border-left: 1px solid #ccc;
+ border-top: 1px solid #ccc;
+ line-height: 1em;
+ width: 320px;
+ margin-bottom: 20px;
+}
+
+.tabulka th {
+ border-right: 1px solid #ccc;
+ border-bottom: 1px solid #ccc;
+ background: #eee;
+ padding: 4px 10px;
+ text-align: center;
+}
+
+.tabulka td {
+ border-right: 1px solid #ccc;
+ border-bottom: 1px solid #ccc;
+ padding: 4px 10px;
+ text-align: right;
 }

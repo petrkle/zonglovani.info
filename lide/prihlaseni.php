@@ -3,6 +3,8 @@ require('../init.php');
 require('../func.php');
 
 $smarty->assign("titulek","Pøihlá¹ení");
+$smarty->assign("robots",'noindex,follow');
+
 if(isset($_GET["next"]) and ereg("^/",$_GET["next"])){
 	$next=$_GET["next"];
 }elseif(isset($_POST["next"]) and ereg("^/",$_POST["next"])){

@@ -6,9 +6,8 @@
 </ul>
 {/if}
 
-<h3>Náhled zprávy</h3>
-
 {if $nahled}
+<h3>Náhled zprávy</h3>
 <table class="diskuse" cellspacing="0" cellpadding="0">
 <tr>
 <th>U¾ivatel</th>

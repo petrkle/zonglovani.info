@@ -24,3 +24,4 @@ yesterday-didnt-happen*http://juggling.tv:2873*Yesterday didn't happen*Krásná uk
 liquid-crystal-live*http://juggling.tv:2789*Matt Hennem - Liquid Crystal live*Vydaøené kontaktní ¾onglování.
 ball-club-scissors*http://juggling.tv:1287*Míèek - ku¾el - nù¾ky*Ori Roth a kamarádi hrají kámen, nù¾ky, papír.
 juggle-a-saurus*http://www.youtube.com/watch?v=eHMxyGT4YZM*Alan & Thom the Fourth*Ètvrté video od Alana a Thoma.
+what-the-beepbeep-do-we-know*http://www.youtube.com/watch?v=aSdKVTGZppk*What the (beepbeep) do we know?*Toèení s <a href="/nacini.html#poi" title="Podrobnìj¹í popis poi">poi</a> ve více lidech.
