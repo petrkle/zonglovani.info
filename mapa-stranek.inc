@@ -299,6 +299,7 @@
 		<li><a href="/video/prechac-weaves.html">Prechac Weaves</a></li>
 		<li><a href="/video/stepz.html">Stepz</a></li>
 		<li><a href="/video/take-it-out-3.html">Take It Out 3#</a></li>
+		<li><a href="/video/what-the-beepbeep-do-we-know.html">What the (beepbeep) do we know?</a></li>
 		<li><a href="/video/yesterday-didnt-happen.html">Yesterday didn&#039;t happen</a></li>
 		</ul>
 		</li>

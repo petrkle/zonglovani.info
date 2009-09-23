@@ -89,6 +89,9 @@ function get_event_data($id,$storage=CALENDAR_DATA,$charset="iso-8859-2"){
 			$udalost["update"]=strtotime($udalost["update"]);
 			$udalost["update_hr"]=date("j. n. Y",$udalost["update"]);
 		}
+		if(isset($udalost["url"])){
+			$udalost['url_hr']=preg_replace('/^http:\/\/zonglovani.info/','',$udalost['url']);
+		}
 		$udalost["zacatek"].=" ".$udalost["time_start"];
 		$udalost["konec"].=" ".$udalost["time_end"];
 		$udalost["start"]=strtotime($udalost["zacatek"]);
