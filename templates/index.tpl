@@ -28,7 +28,8 @@
 <li><a href="/faq.html" title="FAQ">Èasto kladené otázky</a> a odpovìdi na nì.</li>
 </ul>
 </p>
-<h3>Novinky</h3>
+<hr />
+<h3><a href="/ulita/" title="Nedìlní ¾onglování v ulitì.">®onglování v Ulitì</a></h3>
 <p>
-Mù¾e¹ vyzkou¹et <a href="/kalendar/" title="Kalendáø ¾onglérských akcí.">kalendáø ¾onglérských akcí</a>, bájeèný <a href="/horoskop/" title="Kalendáø ¾onglérských akcí.">horoskop pro ¾ongléry</a> a zbrusu nové <a href="/diskuse/">diskusní fórum</a> o ¾onglování.
+V domì dìtí a mláde¾e Ulita se bude pravidelnì ¾onglovat. Ka¾dou druhou nedìli :^)
 </p>
