@@ -34,6 +34,9 @@ define('LIDE_VZKAZY',$_SERVER['DOCUMENT_ROOT'].'/data/vzkazy');
 define('DISKUSE_URL','/diskuse/'); 
 define('DISKUSE_DATA',$_SERVER['DOCUMENT_ROOT'].'/data/diskuse'); 
 
+define('OBRAZKY_URL','/obrazky/'); 
+define('OBRAZKY_DATA',$_SERVER['DOCUMENT_ROOT'].'/obrazky'); 
+
 define('SEARCH_URL','/vyhledavani/'); 
 
 define('TIMEOUT_REGISTRATION',6*3600); 

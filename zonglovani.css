@@ -520,7 +520,7 @@ a.edit {
  border-left: 1px solid #ccc;
  border-top: 1px solid #ccc;
  line-height: 1em;
- width: 320px;
+ width: 420px;
  margin-bottom: 20px;
 }
 
@@ -537,4 +537,31 @@ a.edit {
  border-bottom: 1px solid #ccc;
  padding: 4px 10px;
  text-align: right;
+}
+.nahled {
+	display: block;
+	float: left;
+	width: 150px;
+	height: 150px;
+	background: #eee;
+	border: solid 1px;
+	border-color: #aaa #444 #444 #aaa;
+	margin: 5px 10px;
+}
+
+.nahled img {
+ 	border: solid 1px;
+	border-color: #444 #aaa #aaa #444;
+}
+
+.ls {
+	margin: 28px 10px;
+	width: 128px;
+	height: 96px;
+}
+
+.pt {
+	margin: 12px 26px;
+	height: 128px;
+	width: 96px;
 }

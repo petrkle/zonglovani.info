@@ -2,7 +2,8 @@
 <h3>Petr Kleteèka</h3>
 <p>{obrazek soubor="pek.jpg" popisek="Petr Kleteèka"}</p>
 <p>
-Elektronická po¹ta: <span class="kontakt">admin{obrazek soubor="zavinac.png" popisek="zavináè"}zonglovani{obrazek soubor="tecka.png" popisek="."}info</span>
+{assign var='mail' value='admin@zonglovani.info'}
+Elektronická po¹ta: {$mail|mailobfuscate}
 </p>
 <p class="kontakt">
 Telefon: 
