@@ -546,22 +546,10 @@ a.edit {
 	background: #eee;
 	border: solid 1px;
 	border-color: #aaa #444 #444 #aaa;
-	margin: 5px 10px;
+	margin: 5px;
 }
 
 .nahled img {
  	border: solid 1px;
 	border-color: #444 #aaa #aaa #444;
-}
-
-.ls {
-	margin: 28px 10px;
-	width: 128px;
-	height: 96px;
-}
-
-.pt {
-	margin: 12px 26px;
-	height: 128px;
-	width: 96px;
 }

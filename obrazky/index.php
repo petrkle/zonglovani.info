@@ -12,7 +12,8 @@ if(isset($_GET['id'])){
 if($id){
 	$gal_info=get_galerie_info($id);
 	if(isset($gal_info['title'])){
-		$smarty->assign('titulek',$gal_info['title']);
+		$smarty->assign('titulek',$gal_info['title'].' - obrázky ¾onglování');
+		$smarty->assign("nadpis",$gal_info['title']);
 		$smarty->assign('gal_info',$gal_info);
 		$smarty->assign('obrazky',get_galerie_obrazky($id));
 		$smarty->display('hlavicka.tpl');
@@ -40,7 +41,9 @@ function get_galerie(){
 			   while (($filename = readdir($dir)) !== false) {
 						if (!ereg("^\.",$filename) and is_dir(OBRAZKY_DATA."/$filename")) {
 							$info=get_galerie_info($filename);
-				      array_push($navrat,array('name'=>$filename,'title'=>$info['title']));
+							if($info){
+				      	array_push($navrat,array('name'=>$filename,'title'=>$info['title']));
+							}
 					 }
 			   }
 		   }
@@ -72,17 +75,16 @@ function get_galerie_obrazky($galerie){
 			   while (($filename = readdir($dir)) !== false) {
 						if (preg_match('/.*\.[jpg|jpeg]/',$filename)) {
 							$foo=array();
-							$foo['obrazek']=OBRAZKY_URL.$galerie.'/'.$filename;
 							if(is_file(OBRAZKY_DATA.'/'.$galerie.'/nahledy/'.$filename)){
+								$foo['obrazek']=OBRAZKY_URL.$galerie.'/'.$filename;
 								$size = getimagesize(OBRAZKY_DATA.'/'.$galerie.'/nahledy/'.$filename);
-								if($size[0]>$size[1]){
-									$foo['format']='ls';
-								}else{
-									$foo['format']='pt';
-								}
-								$foo['nahled']=OBRAZKY_URL.'/'.$galerie.'/nahledy/'.$filename;
+								$foo['sirka']=$size[0];
+								$foo['vyska']=$size[1];
+								$foo['margin_h']=floor((148-$size[0])/2);
+								$foo['margin_v']=floor((148-$size[1])/2);
+								$foo['nahled']=OBRAZKY_URL.$galerie.'/nahledy/'.$filename;
+				      	array_push($navrat,$foo);
 							}
-				      array_push($navrat,$foo);
 					 }
 			   }
 		   }

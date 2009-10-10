@@ -48,4 +48,22 @@ E-mail: {$mail|mailobfuscate}
 {/if}
 <p>Obrázky z <a href="http://spanker.cz/fotogal/ulita_zonglovani/index.html" title="Fotografie od Zbyòka Fojtíka." onclick="pageTracker._trackPageview('/goto/spanker.cz/fotogal/ulita_zonglovani');" class="external">minulého roèníku</a>.</p>
 <hr />
-<p><a href="http://www.ulita.cz" onclick="pageTracker._trackPageview('/goto/ulita.cz');" title="Ulita - dùm dìtí a mláde¾e">{obrazek soubor='ulita-logo.png' popisek='Ulita'}</a></p>
+<h3>Na akci se podílejí</h3>
+<p>
+<a href="http://www.ulita.cz" onclick="pageTracker._trackPageview('/goto/ulita.cz');" title="Ulita - dùm dìtí a mláde¾e">{obrazek soubor='ulita.cz.png' popisek='Ulita'}</a>
+Prostory poskytl dùm dìtí a mláde¾e <a href="http://www.ulita.cz" class="external" onclick="pageTracker._trackPageview('/goto/ulita.cz');" title="Ulita - dùm dìtí a mláde¾e">Ulita</a>, Praha 3.
+</p>
+
+<p>
+<a href="http://www.fireshow.cz/zonglovani-v-ulite" onclick="pageTracker._trackPageview('/goto/fireshow.cz/zonglovani-v-ulite');" title="FireShow.cz">{obrazek soubor='fireshow.cz.png' popisek='Fireshow.cz'}</a>
+<a href="http://www.fireshow.cz/zonglovani-v-ulite" title="FireShow.cz - V¹e pro ¾ongléry od ¾onglérù" onclick="pageTracker._trackPageview('/goto/fireshow.cz/zonglovani-v-ulite');" class="external">FireShow.cz</a> - v¹e pro ¾ongléry od ¾onglérù.
+</p>
+
+{*
+<!--
+<p>
+<a href="http://www.zongluj.cz" onclick="pageTracker._trackPageview('/goto/zongluj.cz');" title="zongluj.cz">{obrazek soubor='zongluj.cz.jpg' popisek='®ongluj imrvére'}</a>
+<a href="http://www.zongluj.cz" title="®ongluj imrvére" onclick="pageTracker._trackPageview('/goto/zongluj.cz');" class="external">Zongluj.cz</a> - specializovaný obchod s nejvìt¹ím výbìrem zbo¾í na ¾onglování v èeské republice.
+</p>
+-->
+*}

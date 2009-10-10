@@ -275,6 +275,19 @@
 			</li>
 		</ul>
 		</li>
+		<li><a name="obrazky"></a><a href="/obrazky/">Obrázky ¾onglování</a>
+		<ul>
+		<li><a href="/obrazky/carodejnice-klamovka-2008.html">Èarodìjnice na Klamovce 2008 - obrázky ¾onglování</a></li>
+		<li><a href="/obrazky/dejvice-20090425.html">Dejvice 25. 4. 2009 - obrázky ¾onglování</a></li>
+		<li><a href="/obrazky/festival-zonglovani-2007.html">Festival ¾onglování Praha 2007 - obrázky ¾onglování</a></li>
+		<li><a href="/obrazky/klamovka-20080422.html">Klamovka 22. 4. 2008 - obrázky ¾onglování</a></li>
+		<li><a href="/obrazky/klamovka-20081105.html">Klamovka 5. 11. 2008 - obrázky ¾onglování</a></li>
+		<li><a href="/obrazky/klamovka-20091007.html">Klamovka 7. 10. 2009 - obrázky ¾onglování</a></li>
+		<li><a href="/obrazky/lhotka-20080601.html">Vlakem do Lhotky 2008 - obrázky ¾onglování</a></li>
+		<li><a href="/obrazky/predvanocni-vystoupeni-klamovka-20081211.html">Pøedvánoèní vystoupení na Klamovce 2008 - obrázky ¾onglování</a></li>
+		<li><a href="/obrazky/zidovske-pece-20090404.html">®idovské pece 4. 4. 2009 - obrázky ¾onglování</a></li>
+		</ul>
+		</li>
 		<li><a name="ulita"></a><a href="/ulita/">®onglování v Ulitì</a>
 		
 		</li>

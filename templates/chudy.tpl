@@ -63,7 +63,7 @@ Na chùdách se chodí jako kdy¾ ¹lape¹ zelí. Staèí poøádnì zvedat kolena a nemù¾e¹
 <h3>Chùdaøský prùkaz</h3>
 <p>
 <ul>
-<li><a href="../chudarsky-prukaz.pdf" title="Portable Document Format">Chùdaøský prùkaz - PDF</a> - 20kB</li>
-<li><a href="../chudarsky-prukaz.odt" title="Open Document Text">Chùdaøský prùkaz - ODT</a> - 10kB</li>
+<li><a href="../chudarsky-prukaz.pdf" title="Portable Document Format" onclick="pageTracker._trackPageview('/chudarsky-prukaz.pdf');">Chùdaøský prùkaz - PDF</a> - 20kB</li>
+<li><a href="../chudarsky-prukaz.odt" title="Open Document Text" onclick="pageTracker._trackPageview('/chudarsky-prukaz.odt');">Chùdaøský prùkaz - ODT</a> - 10kB</li>
 </ul>
 </p>
