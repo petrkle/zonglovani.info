@@ -47,6 +47,13 @@ E-mail: {$mail|mailobfuscate}
 <p>Dal¹í ¾onglování v ulitì bude na podzim.</p>
 {/if}
 <p>Obrázky z <a href="http://spanker.cz/fotogal/ulita_zonglovani/index.html" title="Fotografie od Zbyòka Fojtíka." onclick="pageTracker._trackPageview('/goto/spanker.cz/fotogal/ulita_zonglovani');" class="external">minulého roèníku</a>.</p>
+<h3>Plakát</h3>
+<p><a href="/img/u/ulita.png" title="Velký obrázek plakátu.">{obrazek soubor='ulita.nahled.png' popisek='Plakát ¾onglování v Ulitì'}</a>
+<a href="/img/u/ulita.small.png" title="Obrázkový plakát na web.">ulita.png</a> - pro vkládání na internet<br />
+<a href="ulita.pdf" title="Tisk plakátu na formát A5.">ulita.pdf</a> - pro tisk na formát A5<br />
+<a href="ulita4.pdf" title="Tisk ètyø plakátù najednou.">ulita.pdf</a> - pro tisk na formát A4
+</ul>
+</p>
 <hr />
 <h3>Na akci se podílejí</h3>
 <p>

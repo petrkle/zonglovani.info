@@ -1,0 +1,4 @@
+RewriteEngine	on
+RewriteBase /ulita
+
+RewriteRule ^(.+)\.html$ $1.php [L]
