@@ -1,7 +1,13 @@
 <p>
-Pravidelné nedìlní ¾onglování v <a href="http://www.ulita.cz" class="external" onclick="pageTracker._trackPageview('/goto/ulita.cz');" title="Ulita - dùm dìtí a mláde¾e">DDM Ulita</a>. ®ongluje se ve <a href="http://www.ulita.cz/images/saly/001/002.jpg" title="Obrázek velkého sálu." class="external" onclick="pageTracker._trackPageview('/goto/ulita.cz/images');">velkém sále</a> kde je: <strong>vysoký strop</strong>, mìkká podlaha, ozvuèení, pódium  pro pøípadné vystoupení, okna a disco koule.
+Pravidelné nedìlní ¾onglování v <a href="http://www.ulita.cz" class="external" onclick="pageTracker._trackPageview('/goto/ulita.cz');" title="Ulita - dùm dìtí a mláde¾e">DDM Ulita</a>. ®ongluje se ve <a href="/obrazky/ulita-20091018/0001.jpg" title="Obrázek velkého sálu." onclick="pageTracker._trackPageview('/obrazky/ulita-20091018/0001.jpg');">velkém sále</a> kde je: <strong>vysoký strop</strong>, mìkká podlaha, ozvuèení, pódium  pro pøípadné vystoupení, okna a disco koule.
 </p>
-
+<div class="obrazkovnik">
+<a href="/obrazky/ulita-20091018/0012.jpg" onclick="pageTracker._trackPageview('/obrazky/ulita-20091018/0012.jpg');">{obrazek soubor='usb.jpg' popisek='®onglování v Ulitì'}</a>
+<a href="/obrazky/ulita-20091018/0020.jpg" onclick="pageTracker._trackPageview('/obrazky/ulita-20091018/0020.jpg');">{obrazek soubor='usd.jpg' popisek='®onglování v Ulitì'}</a>
+<a href="/obrazky/ulita-20091018/0006.jpg" onclick="pageTracker._trackPageview('/obrazky/ulita-20091018/0006.jpg');">{obrazek soubor='usa.jpg' popisek='®onglování v Ulitì'}</a>
+<a href="/obrazky/ulita-20091018/0008.jpg" onclick="pageTracker._trackPageview('/obrazky/ulita-20091018/0008.jpg');">{obrazek soubor='usc.jpg' popisek='®onglování v Ulitì'}</a><br />
+<a href="/obrazky/ulita-20091018/" title="Obrázky ¾onglování.">Dal¹í obrázky &raquo;</a>
+</div>
 <p>
 Pøijít mohou zaèínající i zku¹ení ¾ongléøi a ¾onglérky. Pro ¹irokou veøejnost budou k dispozici míèky a ku¾ely k zapùjèení. ®onglovat se mù¾e nauèit <strong>opravdu ka¾dý</strong>.
 </p>
@@ -46,12 +52,11 @@ E-mail: {$mail|mailobfuscate}
 {else}
 <p>Dal¹í ¾onglování v ulitì bude na podzim.</p>
 {/if}
-<p>Obrázky z <a href="http://spanker.cz/fotogal/ulita_zonglovani/index.html" title="Fotografie od Zbyòka Fojtíka." onclick="pageTracker._trackPageview('/goto/spanker.cz/fotogal/ulita_zonglovani');" class="external">minulého roèníku</a>.</p>
 <h3>Plakát</h3>
-<p><a href="/img/u/ulita.png" title="Velký obrázek plakátu.">{obrazek soubor='ulita.nahled.png' popisek='Plakát ¾onglování v Ulitì'}</a>
-<a href="/img/u/ulita.small.png" title="Obrázkový plakát na web.">ulita.png</a> - pro vkládání na internet<br />
-<a href="ulita.pdf" title="Tisk plakátu na formát A5.">ulita.pdf</a> - pro tisk na formát A5<br />
-<a href="ulita4.pdf" title="Tisk ètyø plakátù najednou.">ulita.pdf</a> - pro tisk na formát A4
+<p><a href="/img/u/ulita.big.png" title="Velký obrázek plakátu." onclick="pageTracker._trackPageview('/ulita/ulita.bit.png');">{obrazek soubor='ulita.nahled.png' popisek='Plakát ¾onglování v Ulitì'}</a>
+<a href="/img/u/ulita.png" title="Obrázkový plakát na web." onclick="pageTracker._trackPageview('/ulita/ulita.png');">ulita.png</a> - pro vkládání na internet<br />
+<a href="ulita.pdf" title="Tisk plakátu na formát A5." onclick="pageTracker._trackPageview('/ulita/ulita.pdf');">ulita.pdf</a> - pro tisk na formát A5<br />
+<a href="ulita4.pdf" title="Tisk ètyø plakátù najednou." onclick="pageTracker._trackPageview('/ulita/ulita4.pdf');">ulita4.pdf</a> - pro tisk na formát A4
 </ul>
 </p>
 <hr />
@@ -61,12 +66,12 @@ E-mail: {$mail|mailobfuscate}
 Prostory poskytl dùm dìtí a mláde¾e <a href="http://www.ulita.cz" class="external" onclick="pageTracker._trackPageview('/goto/ulita.cz');" title="Ulita - dùm dìtí a mláde¾e">Ulita</a>, Praha 3.
 </p>
 
+{*
 <p>
 <a href="http://www.fireshow.cz/zonglovani-v-ulite" onclick="pageTracker._trackPageview('/goto/fireshow.cz/zonglovani-v-ulite');" title="FireShow.cz">{obrazek soubor='fireshow.cz.png' popisek='Fireshow.cz'}</a>
 <a href="http://www.fireshow.cz/zonglovani-v-ulite" title="FireShow.cz - V¹e pro ¾ongléry od ¾onglérù" onclick="pageTracker._trackPageview('/goto/fireshow.cz/zonglovani-v-ulite');" class="external">FireShow.cz</a> - v¹e pro ¾ongléry od ¾onglérù.
 </p>
 
-{*
 <!--
 <p>
 <a href="http://www.zongluj.cz" onclick="pageTracker._trackPageview('/goto/zongluj.cz');" title="zongluj.cz">{obrazek soubor='zongluj.cz.jpg' popisek='®ongluj imrvére'}</a>
@@ -74,3 +79,15 @@ Prostory poskytl dùm dìtí a mláde¾e <a href="http://www.ulita.cz" class="externa
 </p>
 -->
 *}
+{literal}
+<style>
+.obrazkovnik {
+	float: left;
+	margin: 15px 0 15px 20px;
+}
+
+.obrazkovnik a img {
+	border: solid 1px #000;
+}
+</style>
+{/literal}

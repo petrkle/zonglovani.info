@@ -31,5 +31,5 @@
 <hr />
 <h3><a href="/ulita/" title="Nedìlní ¾onglování v ulitì.">®onglování v Ulitì</a></h3>
 <p>
-V domì dìtí a mláde¾e Ulita se bude pravidelnì ¾onglovat. Ka¾dou druhou nedìli :^)
+V domì dìtí a mláde¾e Ulita se pravidelnì ¾ongluje. Ka¾dou druhou nedìli :^)
 </p>
