@@ -19,7 +19,7 @@ function smarty_function_vypismenu($params, &$smarty){
 		$navrat.="</li>\n";
 	}
 
-		if(!preg_match('/^\/ulita.*/',$_SERVER["REQUEST_URI"]) and $_SERVER["REQUEST_URI"]!='/'){
+		if(!preg_match('/^\/ulita\/$/',$_SERVER["REQUEST_URI"]) and $_SERVER["REQUEST_URI"]!='/'){
 			$navrat.='<li><h4><a href="/ulita/" title="Nedìlní ¾onglování v DDM Ulita.">®onglování v Ulitì</a></h4></li>';
 		}
 

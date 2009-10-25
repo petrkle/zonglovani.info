@@ -311,6 +311,7 @@
 		</li>
 		<li><a name="ulita"></a><a href="/ulita/">®onglování v Ulitì</a>
 		<ul>
+		<li><a href="/ulita/cesta.html">Jak se dostat do Ulity</a></li>
 		<li><a href="/ulita/en.html">Juggling at Ulita</a></li>
 		</ul>
 		</li>
