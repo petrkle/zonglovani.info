@@ -2,7 +2,7 @@
 require('../init.php');
 require('../func.php');
 
-$smarty->assign('titulek','Juggling in Ulita');
+$smarty->assign('titulek','Juggling at Ulita');
 
 $podzim=array();
 $jaro=array();

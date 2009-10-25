@@ -1,13 +1,13 @@
-{if is_array($obrazky)}
+{if $obrazek}
+{if $predchozi}<a href={$predchozi|escape} title="Zobrazí pøedchozí obrázek">&laquo; Pøedchozí obrázek</a> ~ {/if}<a href="." title="Celá galerie">{$nadpis|escape}</a>{if $dalsi} ~ <a href={$dalsi|escape} title="Zobrazí dal¹í obrázek">Dal¹í obrázek &raquo;</a>{/if}
+
 <p>
-{foreach from=$obrazky item=foo}
-<a href="{$foo.url|escape}" class="nahled" title="Zobrazit obrázek v plné velikosti."><img src="{$foo.nahled|escape}" style="width: {$foo.sirka|escape}px; height: {$foo.vyska|escape}px; margin: {$foo.margin_v|escape}px {$foo.margin_h|escape}px;" alt=""/></a>
-{/foreach}
+{if $dalsi}<a href={$dalsi|escape} title="Zobrazí dal¹í obrázek">{else}<a href="." title="Zobrazí celou galerii">{/if}<img src="{$obrazek.obrazek|escape}" alt="{$nadpis|escape}" width="{$obrazek.fsirka|escape}" height="{$obrazek.fvyska|escape}"/></a>
 </p>
 
 {if $gal_info.autor or $gal_info.mail or $gal_info.url}
 <div class="spacer">&nbsp;</div>
-<h3>Autor fotografií</h3>
+<h3>Autor fotografie</h3>
 {if $gal_info.autor}
 <p>{$gal_info.autor|escape}</p>
 {/if}

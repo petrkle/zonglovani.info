@@ -2,10 +2,10 @@
 Pravidelné nedìlní ¾onglování v <a href="http://www.ulita.cz" class="external" onclick="pageTracker._trackPageview('/goto/ulita.cz');" title="Ulita - dùm dìtí a mláde¾e">DDM Ulita</a>. ®ongluje se ve <a href="/obrazky/ulita-20091018/0001.jpg" title="Obrázek velkého sálu." onclick="pageTracker._trackPageview('/obrazky/ulita-20091018/0001.jpg');">velkém sále</a> kde je: <strong>vysoký strop</strong>, mìkká podlaha, ozvuèení, pódium  pro pøípadné vystoupení, okna a disco koule.
 </p>
 <div class="obrazkovnik">
-<a href="/obrazky/ulita-20091018/0012.jpg" onclick="pageTracker._trackPageview('/obrazky/ulita-20091018/0012.jpg');">{obrazek soubor='usb.jpg' popisek='®onglování v Ulitì'}</a>
-<a href="/obrazky/ulita-20091018/0020.jpg" onclick="pageTracker._trackPageview('/obrazky/ulita-20091018/0020.jpg');">{obrazek soubor='usd.jpg' popisek='®onglování v Ulitì'}</a>
-<a href="/obrazky/ulita-20091018/0006.jpg" onclick="pageTracker._trackPageview('/obrazky/ulita-20091018/0006.jpg');">{obrazek soubor='usa.jpg' popisek='®onglování v Ulitì'}</a>
-<a href="/obrazky/ulita-20091018/0008.jpg" onclick="pageTracker._trackPageview('/obrazky/ulita-20091018/0008.jpg');">{obrazek soubor='usc.jpg' popisek='®onglování v Ulitì'}</a><br />
+<a href="/obrazky/ulita-20091018/0012.html">{obrazek soubor='usb.jpg' popisek='®onglování v Ulitì'}</a>
+<a href="/obrazky/ulita-20091018/0020.html">{obrazek soubor='usd.jpg' popisek='®onglování v Ulitì'}</a>
+<a href="/obrazky/ulita-20091018/0006.html">{obrazek soubor='usa.jpg' popisek='®onglování v Ulitì'}</a>
+<a href="/obrazky/ulita-20091018/0008.html">{obrazek soubor='usc.jpg' popisek='®onglování v Ulitì'}</a><br />
 <a href="/obrazky/ulita-20091018/" title="Obrázky ¾onglování.">Dal¹í obrázky &raquo;</a>
 </div>
 <p>
@@ -66,6 +66,7 @@ E-mail: {$mail|mailobfuscate}
 Prostory poskytl dùm dìtí a mláde¾e <a href="http://www.ulita.cz" class="external" onclick="pageTracker._trackPageview('/goto/ulita.cz');" title="Ulita - dùm dìtí a mláde¾e">Ulita</a>, Praha 3.
 </p>
 
+<p style="text-align: right; font-size: 0.5em;"><a href="/ulita/en.html">English version</a></p>
 {*
 <p>
 <a href="http://www.fireshow.cz/zonglovani-v-ulite" onclick="pageTracker._trackPageview('/goto/fireshow.cz/zonglovani-v-ulite');" title="FireShow.cz">{obrazek soubor='fireshow.cz.png' popisek='Fireshow.cz'}</a>

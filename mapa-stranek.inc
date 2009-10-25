@@ -277,19 +277,42 @@
 		</li>
 		<li><a name="obrazky"></a><a href="/obrazky/">Obrázky ¾onglování</a>
 		<ul>
-		<li><a href="/obrazky/carodejnice-klamovka-2008.html">Èarodìjnice na Klamovce 2008 - obrázky ¾onglování</a></li>
-		<li><a href="/obrazky/dejvice-20090425.html">Dejvice 25. 4. 2009 - obrázky ¾onglování</a></li>
-		<li><a href="/obrazky/festival-zonglovani-2007.html">Festival ¾onglování Praha 2007 - obrázky ¾onglování</a></li>
-		<li><a href="/obrazky/klamovka-20080422.html">Klamovka 22. 4. 2008 - obrázky ¾onglování</a></li>
-		<li><a href="/obrazky/klamovka-20081105.html">Klamovka 5. 11. 2008 - obrázky ¾onglování</a></li>
-		<li><a href="/obrazky/klamovka-20091007.html">Klamovka 7. 10. 2009 - obrázky ¾onglování</a></li>
-		<li><a href="/obrazky/lhotka-20080601.html">Vlakem do Lhotky 2008 - obrázky ¾onglování</a></li>
-		<li><a href="/obrazky/predvanocni-vystoupeni-klamovka-20081211.html">Pøedvánoèní vystoupení na Klamovce 2008 - obrázky ¾onglování</a></li>
-		<li><a href="/obrazky/zidovske-pece-20090404.html">®idovské pece 4. 4. 2009 - obrázky ¾onglování</a></li>
+			<li><a name="carodejnice-klamovka-20080422"></a><a href="/obrazky/carodejnice-klamovka-20080422/">Èarodìjnice na Klamovce 2008 - obrázky ¾onglování</a>
+			
+			</li>
+			<li><a name="dejvice-20090425"></a><a href="/obrazky/dejvice-20090425/">Dejvice 25. 4. 2009 - obrázky ¾onglování</a>
+			
+			</li>
+			<li><a name="festival-zonglovani-20070713"></a><a href="/obrazky/festival-zonglovani-20070713/">Festival ¾onglování Praha 2007 - obrázky ¾onglování</a>
+			
+			</li>
+			<li><a name="klamovka-20080422"></a><a href="/obrazky/klamovka-20080422/">Klamovka 22. 4. 2008 - obrázky ¾onglování</a>
+			
+			</li>
+			<li><a name="klamovka-20081105"></a><a href="/obrazky/klamovka-20081105/">Klamovka 5. 11. 2008 - obrázky ¾onglování</a>
+			
+			</li>
+			<li><a name="klamovka-20091007"></a><a href="/obrazky/klamovka-20091007/">Klamovka 7. 10. 2009 - obrázky ¾onglování</a>
+			
+			</li>
+			<li><a name="lhotka-20080601"></a><a href="/obrazky/lhotka-20080601/">Vlakem do Lhotky 2008 - obrázky ¾onglování</a>
+			
+			</li>
+			<li><a name="predvanocni-vystoupeni-klamovka-20081211"></a><a href="/obrazky/predvanocni-vystoupeni-klamovka-20081211/">Pøedvánoèní vystoupení na Klamovce 2008 - obrázky ¾onglování</a>
+			
+			</li>
+			<li><a name="ulita-20091018"></a><a href="/obrazky/ulita-20091018/">Ulita 18. 10. 2009 - obrázky ¾onglování</a>
+			
+			</li>
+			<li><a name="zidovske-pece-20090404"></a><a href="/obrazky/zidovske-pece-20090404/">®idovské pece 4. 4. 2009 - obrázky ¾onglování</a>
+			
+			</li>
 		</ul>
 		</li>
 		<li><a name="ulita"></a><a href="/ulita/">®onglování v Ulitì</a>
-		
+		<ul>
+		<li><a href="/ulita/en.html">Juggling at Ulita</a></li>
+		</ul>
 		</li>
 		<li><a name="video"></a><a href="/video/">®onglérská videa</a>
 		<ul>
