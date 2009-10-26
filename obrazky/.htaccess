@@ -3,3 +3,4 @@ RewriteBase /obrazky
 
 RewriteRule ^(.+)/$ index.php?id=$1 [L]
 RewriteRule ^(.+)/(.+).html$ index.php?id=$1&photo=$2 [L]
+RewriteRule ^obrazky.rss$ index.php?rss=jo [L]

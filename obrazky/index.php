@@ -15,6 +15,21 @@ if(isset($_GET['photo'])){
 	$photo=false;
 }
 
+if(isset($_GET['rss'])){
+	$rss=$_GET['rss'];
+}else{
+	$rss=false;
+}
+
+if($rss){
+	header('Content-Type: application/rss+xml');
+	$smarty->assign('obrazky',get_galerie(true));
+	$smarty->display('obrazky.rss.tpl');
+	exit();
+}
+
+$smarty->assign("rsslink",'http://'.$_SERVER["SERVER_NAME"].OBRAZKY_URL.'obrazky.rss');
+
 if($id and $photo){
 	$gal_info=get_galerie_info($id);
 	if(isset($gal_info['title'])){
@@ -27,7 +42,7 @@ if($id and $photo){
 				$smarty->assign('predchozi',$obrazky[intval($photo)-1]['url']);
 			}
 			$smarty->assign('nahled','http://'.$_SERVER['SERVER_NAME'].$obrazky[intval($photo)]['nahled']);
-			$smarty->assign('description',$gal_info['title'].' - '.intval($photo).'. obrázek');
+			$smarty->assign('description',$gal_info['title']);
 			$smarty->assign('titulek',$gal_info['title'].' - '.intval($photo).'. obrázek');
 			$smarty->assign('titulek_utf',iconv('iso-8859-2','utf8',$gal_info['title']));
 			$smarty->assign("nadpis",$gal_info['title']);
@@ -68,7 +83,7 @@ if($id and $photo){
 
 }
 
-function get_galerie(){
+function get_galerie($rev=false){
 	$dir = opendir(OBRAZKY_DATA);
 	$navrat = array();
 	    if ($dir) {
@@ -78,19 +93,28 @@ function get_galerie(){
 							$datum=array_pop($datum);
 							$info=get_galerie_info($filename);
 							if($info){
-				      	array_push($navrat,array('name'=>$filename,'title'=>$info['title'],'datum'=>$datum));
+								$datum_mr=substr($datum,0,4).'-'.substr($datum,4,2).'-'.substr($datum,6,2).'T'.date('H:i:s', filemtime(OBRAZKY_DATA.'/'.$filename.'/index.txt')).'+02:00';
+				      	array_push($navrat,array('name'=>$filename,'title'=>$info['title'],'datum'=>$datum,'autor'=>$info['autor'],'datum_mr'=>$datum_mr));
 							}
 					 }
 			   }
 		   }
 	closedir($dir);
 	usort($navrat, 'sort_by_datum');
+	if($rev){
+		usort($navrat, 'sort_by_datum_r');
+	}
  return $navrat;
 }
 
 function sort_by_datum($a, $b)
 {
 		return ($a['datum'] > $b['datum']) ? -1 : 1;
+}
+
+function sort_by_datum_r($a, $b)
+{
+		return ($a['datum'] < $b['datum']) ? -1 : 1;
 }
 
 function get_galerie_info($galerie){

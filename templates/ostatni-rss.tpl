@@ -20,4 +20,7 @@
 <h3><a href="http://{$smarty.server.SERVER_NAME}/ostatni/changelog.rss">http://{$smarty.server.SERVER_NAME}/ostatni/changelog.rss</a></h3>
 <p>Aktualizace ¾onglérova slabikáøe.</p>
 
+<h3><a href="http://{$smarty.server.SERVER_NAME}{$smarty.const.OBRAZKY_URL}obrazky.rss">http://{$smarty.server.SERVER_NAME}{$smarty.const.OBRAZKY_URL}obrazky.rss</a></h3>
+<p>Obrázky ¾onglování.</p>
+
 <p>Návod <a href="{$smarty.const.CALENDAR_URL}rss-a-icalendar.html#rss">jak nastavit RSS</a>.</p>
