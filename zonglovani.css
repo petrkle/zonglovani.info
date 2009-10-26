@@ -553,3 +553,7 @@ a.edit {
  	border: solid 1px;
 	border-color: #444 #aaa #aaa #444;
 }
+.sdileni {
+	padding-top: 10px;
+	font-size: 0.8em;
+}

@@ -19,5 +19,9 @@
 {if count($trik.kroky) > 4}
 <a href="#nahore" title="Pøesun na zaèátek stránky." class="nahoru">nahoru&nbsp;^^</a>
 {/if}
-
+{if $nahled and $description}
+<p class="sdileni">
+Sdílení: <a href="http://www.facebook.com/share.php?u=http://{$smarty.server.SERVER_NAME}{$smarty.server.REQUEST_URI}" class="external" onclick="pageTracker._trackPageview('/goto/facebook.com/share{$smarty.server.REQUEST_URI}');">facebook</a>
+</p>
+{/if}
 {/if}

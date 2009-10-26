@@ -423,4 +423,29 @@ function sort_by_time($a, $b)
 {
 		return ($a['cas'] < $b['cas']) ? -1 : 1;
 }
+
+function get_nahled($trik){
+	$nahled="";
+	foreach($trik['kroky'] as $krok){
+		if(strlen($nahled)==0 and isset($krok['obrazek'])){
+			$nahled='http://'.$_SERVER['SERVER_NAME'].'/img/'.substr($krok['obrazek'],0,1).'/'.$krok['obrazek'];
+		}
+	}
+	if(strlen($nahled)==0){
+		$nahled='http://'.$_SERVER['SERVER_NAME'].'/img/n/nacinid.png';
+	}
+	return $nahled;
+}
+
+function get_description($trik){
+	$popis="";
+	if(isset($trik['kroky'][0]['popisek'])){
+		$popis.=$trik['kroky'][0]['popisek'];
+	}
+#	if(isset($trik['kroky'][1]['popisek'])){
+#		$popis.=' '.$trik['kroky'][1]['popisek'];
+#	}
+	return strip_tags($popis);
+}
+
 ?>

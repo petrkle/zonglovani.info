@@ -4,13 +4,14 @@
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=iso-8859-2" />
 	<title>{$titulek|escape}</title>
-	<meta name="description" content="{if isset($nadpis)}{$nadpis|escape} - žonglérův slabikář{else}Žonglérův slabikář - obrázková učebnice žonglování.{/if}" />
+	<meta name="description" content="{if isset($description)}{$description|escape}{elseif isset($nadpis)}{$nadpis|escape} - žonglérův slabikář{else}Žonglérův slabikář - obrázková učebnice žonglování.{/if}" />
 	<meta name="keywords" content="{if isset($keywords)}{$keywords|escape}{else}žongování, míčky, kruhy, kužely, návod, kaskáda, mills mess{/if}" />
 	<style media="screen,projection" type="text/css">@import url(/zonglovani-w.css);</style>
 	<style media="print" type="text/css">@import url(/zonglovani-tisk.css);</style>
 	<meta name="robots" content="{if isset($robots)}{$robots|escape}{else}index,follow{/if}" />
 	<link rel="shortcut icon" href="/favicon.ico" />
-	{if isset($rsslink)}<link rel="alternate" title="" href="{$rsslink}" type="application/rss+xml">{/if}
+	{if isset($rsslink)}<link rel="alternate" title="" href="{$rsslink}" type="application/rss+xml" />{/if}
+	{if isset($nahled)}<link rel="image_src" href="{$nahled}" />{/if}
 </head>
 <body>
 

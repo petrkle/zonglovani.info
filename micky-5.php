@@ -13,6 +13,8 @@ $titulek="®onglování s pìti míèky";
 if(strlen($show)>0 and is_file($show.".xml")){
 	$trik=nacti_trik($show);
 	$smarty->assign("trik",$trik);
+	$smarty->assign('nahled',get_nahled($trik));
+	$smarty->assign('description',get_description($trik));
 	$smarty->assign("titulek",$titulek." - ".$trik["info"][1]);
 	$smarty->assign("nadpis",$trik["info"][1]);
 	$smarty->assign("keywords",make_keywords($titulek.",".$trik["info"][1]));
@@ -32,4 +34,5 @@ if(strlen($show)>0 and is_file($show.".xml")){
 	$smarty->display("micky-5-pokrocili.tpl");
 	$smarty->display("paticka.tpl");
 }
+
 ?>
