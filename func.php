@@ -77,6 +77,7 @@ $vysledek[1] = najdi("nazev",$db);
 $vysledek[2] = $url.".html";
 $vysledek[5] = najdi("oblast",$db);
 $vysledek[4] = najdi("obtiznost",$db);
+$vysledek[6] = iconv('iso-8859-2','utf8',$vysledek[1]);
  return $vysledek;
 };
 

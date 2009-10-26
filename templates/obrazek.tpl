@@ -19,3 +19,9 @@
 {/if}
 {/if}
 {/if}
+
+{if $nahled and $description}
+<p class="sdileni vpravo">
+Sdílení: <a href="http://www.facebook.com/share.php?u=http://{$smarty.server.SERVER_NAME}{$smarty.server.REQUEST_URI}" class="external" onclick="pageTracker._trackPageview('/goto/facebook.com/share{$smarty.server.REQUEST_URI}');" title="Poslat {$nadpis|escape} na facebook.">facebook</a>, <a href="http://www.google.com/bookmarks/mark?op=edit&bkmk=http://{$smarty.server.SERVER_NAME}{$smarty.server.REQUEST_URI}&title={$titulek_utf|escape:'url'}&hl=cs" title="Pøidat {$nadpis|escape} do zálo¾ek na google." class="external" onclick="pageTracker._trackPageview('/goto/google.com/bookmarks{$smarty.server.REQUEST_URI}');">google</a>
+</p>
+{/if}

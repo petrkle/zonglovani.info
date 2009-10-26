@@ -26,7 +26,10 @@ if($id and $photo){
 			if(isset($obrazky[intval($photo)-1])){
 				$smarty->assign('predchozi',$obrazky[intval($photo)-1]['url']);
 			}
-			$smarty->assign('titulek',$gal_info['title'].' - '.intval($photo).'. obrázek ');
+			$smarty->assign('nahled','http://'.$_SERVER['SERVER_NAME'].$obrazky[intval($photo)]['nahled']);
+			$smarty->assign('description',$gal_info['title'].' - '.intval($photo).'. obrázek');
+			$smarty->assign('titulek',$gal_info['title'].' - '.intval($photo).'. obrázek');
+			$smarty->assign('titulek_utf',iconv('iso-8859-2','utf8',$gal_info['title']));
 			$smarty->assign("nadpis",$gal_info['title']);
 			$smarty->assign('gal_info',$gal_info);
 			$smarty->assign('obrazek',$obrazky[intval($photo)]);
