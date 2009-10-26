@@ -44,3 +44,5 @@ RewriteRule (.*).html ostatni-$1.php [L]
 
 RewriteRule chudy$ /chudy/ [R=301,L]
 RewriteRule chudy/?$ chudy-index.php [L]
+
+RewriteRule ^zonglovani.rss$ rss.php [L]

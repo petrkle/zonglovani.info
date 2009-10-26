@@ -8,6 +8,9 @@
 ®onglérùv slabikáø obsahuje tyto RSS kanály:
 </p>
 
+<h3><a href="http://{$smarty.server.SERVER_NAME}/zonglovani.rss">http://{$smarty.server.SERVER_NAME}/zonglovani.rss</a></h3>
+<p>Kalendáø ¾onglérských akcí.</p>
+
 <h3><a href="http://{$smarty.server.SERVER_NAME}{$smarty.const.CALENDAR_URL}kalendar.rss">http://{$smarty.server.SERVER_NAME}{$smarty.const.CALENDAR_URL}kalendar.rss</a></h3>
 <p>Kalendáø ¾onglérských akcí.</p>
 
