@@ -2,30 +2,30 @@
 <trik>
 
     <about>
-	     <nazev>Synchronní fontána</nazev>
+	     <nazev>SynchronnÃ­ fontÃ¡na</nazev>
 		 <pocet>4</pocet>
 	     <siteswaps>-</siteswaps>
-		 <obtiznost>nároèné</obtiznost>
+		 <obtiznost>nÃ¡roÄnÃ©</obtiznost>
 		 <oblast>micky-4</oblast>
 	</about>
 
 	<krok>
-		<popisek>Synchronní fontána je mírnou obmìnou klasické &lt;a href=&quot;fontana.html&quot; title=&quot;Podobnı trik se ètyømi míèky.&quot;&gt;fontány&lt;/a&gt;.</popisek>
+		<popisek>SynchronnÃ­ fontÃ¡na je mÃ­rnou obmÄ›nou klasickÃ© &lt;a href=&quot;fontana.html&quot; title=&quot;PodobnÃ½ trik se ÄtyÅ™mi mÃ­Äky.&quot;&gt;fontÃ¡ny&lt;/a&gt;.</popisek>
 	</krok>
 
 	<krok>
 			<obrazek>sfontanaa</obrazek>
-			<popisek>Vyhoï první a druhı míèek souèasnì.</popisek>
+			<popisek>VyhoÄ prvnÃ­ a druhÃ½ mÃ­Äek souÄasnÄ›.</popisek>
 	</krok>
 
 	<krok>
 		<obrazek>sfontanab</obrazek>
-		<popisek>Pokraèuj s tøetím a ètvrtım míèkem.</popisek>
+		<popisek>PokraÄuj s tÅ™etÃ­m a ÄtvrtÃ½m mÃ­Äkem.</popisek>
 	</krok>
 		
 	<krok>
 		<obrazek>sfontanac</obrazek>
-		<popisek>Vyzkou¹ej také obrácenı smìr hodù. Z vnìj¹ku dovnitø.</popisek>
+		<popisek>VyzkouÅ¡ej takÃ© obrÃ¡cenÃ½ smÄ›r hodÅ¯. Z vnÄ›jÅ¡ku dovnitÅ™.</popisek>
 	</krok>
 	
 </trik>

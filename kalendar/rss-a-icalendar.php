@@ -2,7 +2,7 @@
 require('../init.php');
 require('../func.php');
 
-$smarty->assign("titulek","Nastavení RSS a iCalendar");
+$smarty->assign("titulek","NastavenÃ­ RSS a iCalendar");
 
 
 $smarty->display('hlavicka.tpl');

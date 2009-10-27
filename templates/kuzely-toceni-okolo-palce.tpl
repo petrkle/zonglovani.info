@@ -1,32 +1,32 @@
 <p>
-Trik kterı mù¾e¹ trénovat i v místnostech s nízkım stropem.
+Trik kterÃ½ mÅ¯Å¾eÅ¡ trÃ©novat i v mÃ­stnostech s nÃ­zkÃ½m stropem.
 </p>
 
 <p>
 {obrazek soubor="tocenia.png" popisek=""}
-Pohled shora. Ku¾elku dr¾í¹ vodorovnì. Palec je nahoøe.
+Pohled shora. KuÅ¾elku drÅ¾Ã­Å¡ vodorovnÄ›. Palec je nahoÅ™e.
 </p>
 
 <p>
 {obrazek soubor="tocenib.png" popisek=""}
-Cuknutím zápìstí a prsty roztoè ku¾elku po smìru hodinovıch ruèièek.
+CuknutÃ­m zÃ¡pÄ›stÃ­ a prsty roztoÄ kuÅ¾elku po smÄ›ru hodinovÃ½ch ruÄiÄek.
 </p>
 
 <p>
 {obrazek soubor="tocenic.png" popisek=""}
-Zaèíná jennároènìj¹í èást otoèky. Ku¾elka je vlastnì jen polo¾ená na vnìj¹í stranì palce. Je potøeba pohnout rukou trochu proti pohybu ku¾elky.
+ZaÄÃ­nÃ¡ jennÃ¡roÄnÄ›jÅ¡Ã­ ÄÃ¡st otoÄky. KuÅ¾elka je vlastnÄ› jen poloÅ¾enÃ¡ na vnÄ›jÅ¡Ã­ stranÄ› palce. Je potÅ™eba pohnout rukou trochu proti pohybu kuÅ¾elky.
 </p>
 
 <p>
 {obrazek soubor="tocenid.png" popisek=""}
-Ku¾elka dr¾í na vnìj¹í stranì palce jen pomocí setrvaènosti a drobného protipohybu celé ruky.
+KuÅ¾elka drÅ¾Ã­ na vnÄ›jÅ¡Ã­ stranÄ› palce jen pomocÃ­ setrvaÄnosti a drobnÃ©ho protipohybu celÃ© ruky.
 </p>
 
 <p>
 {obrazek soubor="tocenie.png" popisek=""}
-Prsty a palcem udìlí¹ ku¾elce potøebnou rychlost do dal¹í otoèky.
+Prsty a palcem udÄ›lÃ­Å¡ kuÅ¾elce potÅ™ebnou rychlost do dalÅ¡Ã­ otoÄky.
 </p>
 
 <p>
-Otáèení kù¾elky mù¾e¹ pou¾ít napøíklad v triku <a href="/kuzely/3/423.html" title="Trik se tøemi míèky">423</a>.
+OtÃ¡ÄenÃ­ kÅ¯Å¾elky mÅ¯Å¾eÅ¡ pouÅ¾Ã­t napÅ™Ã­klad v triku <a href="/kuzely/3/423.html" title="Trik se tÅ™emi mÃ­Äky">423</a>.
 </p>

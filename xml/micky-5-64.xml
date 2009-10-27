@@ -5,27 +5,27 @@
 	     <nazev>3 + 2</nazev>
 		 <pocet>5</pocet>
 	     <siteswaps>64</siteswaps>
-		 <obtiznost>velmi obtí¾né</obtiznost>
+		 <obtiznost>velmi obtÃ­Å¾nÃ©</obtiznost>
 		 <oblast>micky-5</oblast>
 	</about>
 
 	<krok>
-		<popisek>Na první pohled snadné, av¹ak velmi obtí¾né. Pravá a levá ruka ¾onglují v rùzném rytmu.</popisek>
+		<popisek>Na prvnÃ­ pohled snadnÃ©, avÅ¡ak velmi obtÃ­Å¾nÃ©. PravÃ¡ a levÃ¡ ruka Å¾onglujÃ­ v rÅ¯znÃ©m rytmu.</popisek>
     </krok>
 
     <krok>
         <obrazek>64a</obrazek>
-        <popisek>Zaèni se tøemi míèky v pravé a dvìma v levé ruce.</popisek>
+        <popisek>ZaÄni se tÅ™emi mÃ­Äky v pravÃ© a dvÄ›ma v levÃ© ruce.</popisek>
     </krok>
 
     <krok>
         <obrazek>64b</obrazek>
-				<popisek>V levé ruce provádí¹ &lt;a href=&quot;../2/2v1.html&quot; title=&quot;®onglování se dvìma míèky.&quot;&gt;2 v 1&lt;/a&gt;.</popisek>
+				<popisek>V levÃ© ruce provÃ¡dÃ­Å¡ &lt;a href=&quot;../2/2v1.html&quot; title=&quot;Å½onglovÃ¡nÃ­ se dvÄ›ma mÃ­Äky.&quot;&gt;2 v 1&lt;/a&gt;.</popisek>
     </krok>
 
     <krok>
         <obrazek>64c</obrazek>
-				<popisek>A zároveò v pravé &lt;a href=&quot;../3/3v1.html&quot; title=&quot;®onglování se tøemi míèky.&quot;&gt;3 v 1&lt;/a&gt;.</popisek>
+				<popisek>A zÃ¡roveÅˆ v pravÃ© &lt;a href=&quot;../3/3v1.html&quot; title=&quot;Å½onglovÃ¡nÃ­ se tÅ™emi mÃ­Äky.&quot;&gt;3 v 1&lt;/a&gt;.</popisek>
     </krok>
 
 

@@ -4,7 +4,7 @@ require('../func.php');
 
 if(is_logged()){
 
-$smarty->assign("titulek","Diskuse o ¾onglování");
+$smarty->assign("titulek","Diskuse o Å¾onglovÃ¡nÃ­");
 $chyby=array();
 $cas=time();
 
@@ -32,11 +32,11 @@ $cas=time();
 	if(isset($_POST["odeslat"]) and isset($_SESSION["nahled"])){
 
 	if(strlen($vzkaz)<5){
-		array_push($chyby,"Zpráva je pøíli¹ krátká.");
+		array_push($chyby,"ZprÃ¡va je pÅ™Ã­liÅ¡ krÃ¡tkÃ¡.");
 	}
 
 	if(strlen($vzkaz)>1024){
-		array_push($chyby,"Zpráva je pøíli¹ dlouhá.");
+		array_push($chyby,"ZprÃ¡va je pÅ™Ã­liÅ¡ dlouhÃ¡.");
 	}
 
 	if(isset($_POST["antispam"])){
@@ -46,7 +46,7 @@ $cas=time();
 	}
 
 	if($odpoved!=$_SESSION["antispam_odpoved"]){
-		array_push($chyby,"©patná odpovìï na kontrolní otázku.");
+		array_push($chyby,"Å patnÃ¡ odpovÄ›Ä na kontrolnÃ­ otÃ¡zku.");
 		$antispam=get_antispam();
 		$_SESSION["antispam_otazka"]=$antispam[0];
 		$_SESSION["antispam_odpoved"]=$antispam[1];

@@ -1,7 +1,7 @@
 <?php
 require('init.php');
 
-$smarty->assign("titulek","Výroba ku¾elù");
+$smarty->assign("titulek","VÃ½roba kuÅ¾elÅ¯");
 
 $smarty->display('hlavicka.tpl');
 $smarty->display('kuzely-vyroba.tpl');

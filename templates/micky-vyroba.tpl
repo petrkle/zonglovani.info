@@ -1,45 +1,45 @@
 <p>
-S trochou ¹ikovnosti lze vyrobit míèky pro ¾onglování doma na kolenì.
+S trochou Å¡ikovnosti lze vyrobit mÃ­Äky pro Å¾onglovÃ¡nÃ­ doma na kolenÄ›.
 </p>
 
-<h3>Míèek z balónkù</h3>
+<h3>MÃ­Äek z balÃ³nkÅ¯</h3>
 
 <p>
-Nejsnadnìj¹í je vyrobit míèek pomocí nafukovacích balónkù.
-</p>
-
-<p>
-<a href="/img/t/tenisak.jpg">{obrazek soubor="tenisak-nahled.jpg" popisek="Tenisovı míèek"}</a>
-Základem je tenisovı míèek. Míèek na jednom místì provrtej a naplò ho sypkım materiálem. Hodí se rı¾e, proso a spousta dal¹ích vìcí, tøeba i písek nebo korálky. Kdy¾ míèek naplní¹ zalep dírku lepidlem. Zalep jí poøádnì, proto¾e není nic hor¹ího ne¾ písek v oèích a na koberci.
+NejsnadnÄ›jÅ¡Ã­ je vyrobit mÃ­Äek pomocÃ­ nafukovacÃ­ch balÃ³nkÅ¯.
 </p>
 
 <p>
-{obrazek soubor="balonek.gif" popisek="Nafukovací balónek."}
-Dal¹í vìcí, kterou bude¹ potøebovat je nafukovací balónek. Balónku odstøihni náustek. Je tøeba pou¾ít velmi ostré nù¾ky a odstøihnout náustek najednou. Jinak se ti bude balónek pøi navlékání na míèek trhat.
+<a href="/img/t/tenisak.jpg">{obrazek soubor="tenisak-nahled.jpg" popisek="TenisovÃ½ mÃ­Äek"}</a>
+ZÃ¡kladem je tenisovÃ½ mÃ­Äek. MÃ­Äek na jednom mÃ­stÄ› provrtej a naplÅˆ ho sypkÃ½m materiÃ¡lem. HodÃ­ se rÃ½Å¾e, proso a spousta dalÅ¡Ã­ch vÄ›cÃ­, tÅ™eba i pÃ­sek nebo korÃ¡lky. KdyÅ¾ mÃ­Äek naplnÃ­Å¡ zalep dÃ­rku lepidlem. Zalep jÃ­ poÅ™Ã¡dnÄ›, protoÅ¾e nenÃ­ nic horÅ¡Ã­ho neÅ¾ pÃ­sek v oÄÃ­ch a na koberci.
 </p>
 
 <p>
-{obrazek soubor="micek2.gif" popisek="Balónek navleèenı na míèku."}
-Ustøi¾enı balónek navlékni na míèek. Pak ustøihni je¹tì jeden balónek a navlékni ho na míèek tak, aby pøekrıval otvor v prvním balónku. Tím je míèek hotov.
+{obrazek soubor="balonek.gif" popisek="NafukovacÃ­ balÃ³nek."}
+DalÅ¡Ã­ vÄ›cÃ­, kterou budeÅ¡ potÅ™ebovat je nafukovacÃ­ balÃ³nek. BalÃ³nku odstÅ™ihni nÃ¡ustek. Je tÅ™eba pouÅ¾Ã­t velmi ostrÃ© nÅ¯Å¾ky a odstÅ™ihnout nÃ¡ustek najednou. Jinak se ti bude balÃ³nek pÅ™i navlÃ©kÃ¡nÃ­ na mÃ­Äek trhat.
 </p>
 
 <p>
-Jádro míèku nemusí tvoøit tenisák. Mù¾e¹ pou¾ít jakıkoliv jinı míèek. Osobnì pou¾ívám gumovı míèek z hraèkáøství. Je plnı a skáèe. Jeho jedinou vadou byl lesklı klouzavı povrch. Staèilo pøes nìj pøetáhnout dva ustøi¾ené balónky.
+{obrazek soubor="micek2.gif" popisek="BalÃ³nek navleÄenÃ½ na mÃ­Äku."}
+UstÅ™iÅ¾enÃ½ balÃ³nek navlÃ©kni na mÃ­Äek. Pak ustÅ™ihni jeÅ¡tÄ› jeden balÃ³nek a navlÃ©kni ho na mÃ­Äek tak, aby pÅ™ekrÃ½val otvor v prvnÃ­m balÃ³nku. TÃ­m je mÃ­Äek hotov.
 </p>
 
 <p>
-Míèek mù¾e¹ vyrobit i tak, ¾e naplní¹ (rı¾e, proso, mák, ...) neustøi¾enı balónek. Pøes nìj pak navlékne¹ dal¹í, u¾ ustøi¾ené, balónky. Takovı míèek se po dopadu na zem neodkutálí. Na druhou stranu není moc kulatı a pøi ¾onglování mìní tvar.
-</p>
-
-
-<a name="sity"><h3>©itı míèek</h3></a>
-
-<p>
-Vıroba tohoto míèku je nároèná. Za odmìnu získá¹ vy¹¹í trvanlivost. Míèek je u¹itı z látky, ko¾enky nebo kù¾e a naplnìnı sypkım materiálem. Mù¾e¹ zkusit rı¾i, fazolky nebo i korálky.
+JÃ¡dro mÃ­Äku nemusÃ­ tvoÅ™it tenisÃ¡k. MÅ¯Å¾eÅ¡ pouÅ¾Ã­t jakÃ½koliv jinÃ½ mÃ­Äek. OsobnÄ› pouÅ¾Ã­vÃ¡m gumovÃ½ mÃ­Äek z hraÄkÃ¡Å™stvÃ­. Je plnÃ½ a skÃ¡Äe. Jeho jedinou vadou byl lesklÃ½ klouzavÃ½ povrch. StaÄilo pÅ™es nÄ›j pÅ™etÃ¡hnout dva ustÅ™iÅ¾enÃ© balÃ³nky.
 </p>
 
 <p>
-Nejdøív si nakresli na papír støih. Støih tvoøí ¹est ètvercù rozmìru pøibli¾nì 4x4 cm. Poèítej i s okraji kterımi bude látka se¹itá. Støih pak obkreslí¹ na látku a díky tomu budou mít v¹echny míèky stejnou velikost. Kdy¾ chce¹ mít míèek vícebarevnı vystøíhej ètvereèky z rùznıch látek a se¹ij je dohromady. Jo, je to docela piplaèka.
+MÃ­Äek mÅ¯Å¾eÅ¡ vyrobit i tak, Å¾e naplnÃ­Å¡ (rÃ½Å¾e, proso, mÃ¡k, ...) neustÅ™iÅ¾enÃ½ balÃ³nek. PÅ™es nÄ›j pak navlÃ©kneÅ¡ dalÅ¡Ã­, uÅ¾ ustÅ™iÅ¾enÃ©, balÃ³nky. TakovÃ½ mÃ­Äek se po dopadu na zem neodkutÃ¡lÃ­. Na druhou stranu nenÃ­ moc kulatÃ½ a pÅ™i Å¾onglovÃ¡nÃ­ mÄ›nÃ­ tvar.
+</p>
+
+
+<a name="sity"><h3>Å itÃ½ mÃ­Äek</h3></a>
+
+<p>
+VÃ½roba tohoto mÃ­Äku je nÃ¡roÄnÃ¡. Za odmÄ›nu zÃ­skÃ¡Å¡ vyÅ¡Å¡Ã­ trvanlivost. MÃ­Äek je uÅ¡itÃ½ z lÃ¡tky, koÅ¾enky nebo kÅ¯Å¾e a naplnÄ›nÃ½ sypkÃ½m materiÃ¡lem. MÅ¯Å¾eÅ¡ zkusit rÃ½Å¾i, fazolky nebo i korÃ¡lky.
+</p>
+
+<p>
+NejdÅ™Ã­v si nakresli na papÃ­r stÅ™ih. StÅ™ih tvoÅ™Ã­ Å¡est ÄtvercÅ¯ rozmÄ›ru pÅ™ibliÅ¾nÄ› 4x4 cm. PoÄÃ­tej i s okraji kterÃ½mi bude lÃ¡tka seÅ¡itÃ¡. StÅ™ih pak obkreslÃ­Å¡ na lÃ¡tku a dÃ­ky tomu budou mÃ­t vÅ¡echny mÃ­Äky stejnou velikost. KdyÅ¾ chceÅ¡ mÃ­t mÃ­Äek vÃ­cebarevnÃ½ vystÅ™Ã­hej ÄtvereÄky z rÅ¯znÃ½ch lÃ¡tek a seÅ¡ij je dohromady. Jo, je to docela piplaÄka.
 </p>
 
 <pre>
@@ -59,12 +59,12 @@ Nejdøív si nakresli na papír støih. Støih tvoøí ¹est ètvercù rozmìru pøibli¾nì 4
 </pre>
 
 <p>
-Látku se¹ij okraji k sobì tak, aby tvoøila krychli. Není potøeba ¾ádnı speciální steh, ale nech alespoò 0.5 cm okraj. To proto, aby se látka nevytrhla kdy¾ míèek spadne na zem. Kdy¾ u¾ má¹ v¹echny ¹vy a zbıvá jenom malinká dírka míèek otoè naruby. Nepìkné okraje se schovají dovnitø. Pak staèí u¾ jenom míèek naplnit a za¹ít zbıvající dírku.
+LÃ¡tku seÅ¡ij okraji k sobÄ› tak, aby tvoÅ™ila krychli. NenÃ­ potÅ™eba Å¾Ã¡dnÃ½ speciÃ¡lnÃ­ steh, ale nech alespoÅˆ 0.5 cm okraj. To proto, aby se lÃ¡tka nevytrhla kdyÅ¾ mÃ­Äek spadne na zem. KdyÅ¾ uÅ¾ mÃ¡Å¡ vÅ¡echny Å¡vy a zbÃ½vÃ¡ jenom malinkÃ¡ dÃ­rka mÃ­Äek otoÄ naruby. NepÄ›knÃ© okraje se schovajÃ­ dovnitÅ™. Pak staÄÃ­ uÅ¾ jenom mÃ­Äek naplnit a zaÅ¡Ã­t zbÃ½vajÃ­cÃ­ dÃ­rku.
 </p>
 
 
 <p>
-Mù¾e¹ vyzkou¹et i støih ve tvaru jehlanu. Postup je obdobnı.
+MÅ¯Å¾eÅ¡ vyzkouÅ¡et i stÅ™ih ve tvaru jehlanu. Postup je obdobnÃ½.
 </p>
 
 <pre>
@@ -80,4 +80,4 @@ Mù¾e¹ vyzkou¹et i støih ve tvaru jehlanu. Postup je obdobnı.
  /________\/________\
 </pre>
 
-<a href="#nahore" title="Pøesun na zaèátek stránky" class="nahoru">nahoru&nbsp;^^</a>
+<a href="#nahore" title="PÅ™esun na zaÄÃ¡tek strÃ¡nky" class="nahoru">nahoru&nbsp;^^</a>

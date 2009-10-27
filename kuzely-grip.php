@@ -1,7 +1,7 @@
 <?php
 require('init.php');
 
-$smarty->assign("titulek","Dva ku¾ely v jedné ruce");
+$smarty->assign("titulek","Dva kuÅ¾ely v jednÃ© ruce");
 
 $smarty->display('hlavicka.tpl');
 $smarty->display('kuzely-grip.tpl');

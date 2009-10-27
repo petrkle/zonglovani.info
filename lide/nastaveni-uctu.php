@@ -2,7 +2,7 @@
 require('../init.php');
 require('../func.php');
 
-$smarty->assign("titulek","Nastavení úètu");
+$smarty->assign("titulek","NastavenÃ­ ÃºÄtu");
 
 if(!isset($_SESSION["souhlas"])){
 	session_destroy();
@@ -42,7 +42,7 @@ if(isset($_POST["odeslat"])){
 	}
 
 	if($odpoved!=$_SESSION["antispam_odpoved"]){
-		array_push($chyby,"©patná odpovìï na kontrolní otázku.");
+		array_push($chyby,"Å patnÃ¡ odpovÄ›Ä na kontrolnÃ­ otÃ¡zku.");
 		$antispam=get_antispam();
 		$_SESSION["antispam_otazka"]=$antispam[0];
 		$_SESSION["antispam_odpoved"]=$antispam[1];
@@ -85,24 +85,24 @@ if(isset($_POST["odeslat"])){
 		fclose($foo);
 
 		$to = $_SESSION["reg_email"];
-		$subject = "=?iso-8859-2?Q?".preg_replace("/=\r\n/","",quoted_printable_encode("Aktivace úètu"))."?=";
+		$subject = "=?utf-8?Q?".preg_replace("/=\r\n/","",quoted_printable_encode("Aktivace ÃºÄtu"))."?=";
 
 		$headers = 'Return-Path: robot@zonglovani.info' . "\r\n" .
     'From: robot@zonglovani.info' . "\r\n" .
     'Reply-To: robot@zonglovani.info' . "\r\n" .
-    'Content-Type: text/plain; charset=iso-8859-2' . "\r\n" .
+    'Content-Type: text/plain; charset=utf-8' . "\r\n" .
     'Content-Transfer-Encoding: quoted-printable' . "\r\n" .
     'Precedence: bulk';
 $message = 'Ahoj,
 
-pro aktivaci úètu v ¾onglérovì slabikáøi klikni na tento odkaz:
+pro aktivaci ÃºÄtu v Å¾onglÃ©rovÄ› slabikÃ¡Å™i klikni na tento odkaz:
 
 http://'.$_SERVER["SERVER_NAME"].LIDE_URL.'overeni-emailu.php?m='.$_SESSION["reg_email"].'&k='.$key.'
 
-Odkaz platí do: '.date("j. n. Y G.i",(time()+TIMEOUT_REGISTRATION)).'
+Odkaz platÃ­ do: '.date("j. n. Y G.i",(time()+TIMEOUT_REGISTRATION)).'
 
 -- 
-Petr Kleteèka
+Petr KleteÄka
 
 admin@zonglovani.info
 http://zonglovani.info/kontakt.html

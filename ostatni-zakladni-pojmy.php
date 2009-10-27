@@ -1,7 +1,7 @@
 <?php
 require('init.php');
 
-$smarty->assign("titulek","®onglování - základní pojmy");
+$smarty->assign("titulek","Å½onglovÃ¡nÃ­ - zÃ¡kladnÃ­ pojmy");
 
 $smarty->display('hlavicka.tpl');
 $smarty->display('ostatni-zakladni-pojmy.tpl');

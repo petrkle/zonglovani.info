@@ -10,7 +10,7 @@
 <fieldset>
 <legend>Vzkaz</legend>
 <ul>
-<li>Vzkaz <u>p</u>ro ostatní náv¹tìvníky ¾onglérova slabikáøe <a class="info" href="#">?<span class="tooltip">Vzkaz pro ostatní náv¹tìvníky ¾onglérova slabikáøe. Nepovinné pole.</span></a></li>
+<li>Vzkaz <u>p</u>ro ostatnÃ­ nÃ¡vÅ¡tÄ›vnÃ­ky Å¾onglÃ©rova slabikÃ¡Å™e <a class="info" href="#">?<span class="tooltip">Vzkaz pro ostatnÃ­ nÃ¡vÅ¡tÄ›vnÃ­ky Å¾onglÃ©rova slabikÃ¡Å™e. NepovinnÃ© pole.</span></a></li>
 </ul>
 <textarea name="vzkaz" accesskey="p" tabindex="3">{$smarty.session.uzivatel.vzkaz|escape}</textarea>
 </fieldset>

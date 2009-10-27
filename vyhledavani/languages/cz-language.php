@@ -4,32 +4,32 @@
 // ----------------------------------------
 // utf-8 charset
 // Translation of cz-language.php  by:
-// Marek Èapla <marek.capla(at)centrum(dot)cz>
+// Marek ÄŒapla <marek.capla(at)centrum(dot)cz>
 // ----------------------------------------
 
 $sph_messages =  Array (
   "Categories" => "Kategorie",
   "CATEGORIES" => "KATEGORIE",
-  "Untitled" => "Nepojmenovaný dokument",
-  "Powered by" => "Pou¾ívá",
-  "Previous" => "Pøedchozí",
-  "Next" => "Dal¹í",
-  "Result page" => "Stránka výsledkù",
+  "Untitled" => "NepojmenovanÃ½ dokument",
+  "Powered by" => "PouÅ¾Ã­vÃ¡",
+  "Previous" => "PÅ™edchozÃ­",
+  "Next" => "DalÅ¡Ã­",
+  "Result page" => "StrÃ¡nka vÃ½sledkÅ¯",
   "Only in category" => "Jen v kategorii",
-  "Search" => "Najít",
-  "All sites" => "V¹echny stránky",
-  "Web pages" => "Web stránky",
-  "noMatch" => "Nebyl nelezen ¾ádný dokument vyhovující výrazu &bdquo;%query&rdquo;",
-  "ignoredWords" => "Následující slova byly ignorované (pøíli¹ krátké nebo v¹eobecné): %ignored_words",
-  "resultsFor" => "Výsledky pro:",
-  "Results" => "Zobrazují se výsledky %from &ndash; %to z %all %matchword (%secs sekundy) ", //matchword will be replaced by match or matches (from this file), depending on the number of results.
-  "match" => "výskyt",
-  "matches" => "výskytù",
-  "andSearch" => "AND vyhladávání",
-  "orSearch" => "OR vyhledávání",
-  "phraseSearch" => "Vyhledávání fráze",
+  "Search" => "NajÃ­t",
+  "All sites" => "VÅ¡echny strÃ¡nky",
+  "Web pages" => "Web strÃ¡nky",
+  "noMatch" => "Nebyl nelezen Å¾Ã¡dnÃ½ dokument vyhovujÃ­cÃ­ vÃ½razu &bdquo;%query&rdquo;",
+  "ignoredWords" => "NÃ¡sledujÃ­cÃ­ slova byly ignorovanÃ© (pÅ™Ã­liÅ¡ krÃ¡tkÃ© nebo vÅ¡eobecnÃ©): %ignored_words",
+  "resultsFor" => "VÃ½sledky pro:",
+  "Results" => "ZobrazujÃ­ se vÃ½sledky %from &ndash; %to z %all %matchword (%secs sekundy) ", //matchword will be replaced by match or matches (from this file), depending on the number of results.
+  "match" => "vÃ½skyt",
+  "matches" => "vÃ½skytÅ¯",
+  "andSearch" => "AND vyhladÃ¡vÃ¡nÃ­",
+  "orSearch" => "OR vyhledÃ¡vÃ¡nÃ­",
+  "phraseSearch" => "VyhledÃ¡vÃ¡nÃ­ frÃ¡ze",
   "show" => "Zobrazit ",
-  "resultsPerPage" => "výsledkù na stránku",
-	"DidYouMean" => "Myslí¹"
+  "resultsPerPage" => "vÃ½sledkÅ¯ na strÃ¡nku",
+	"DidYouMean" => "MyslÃ­Å¡"
 );
 ?>

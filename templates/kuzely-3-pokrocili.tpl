@@ -1,7 +1,7 @@
 <p>
-S ku¾ely se dají dìlat obdobné triky jako se <a href="/micky/3/" title="®onglování se tøemi míèky.">tøemi míèky</a>.
+S kuÅ¾ely se dajÃ­ dÄ›lat obdobnÃ© triky jako se <a href="/micky/3/" title="Å½onglovÃ¡nÃ­ se tÅ™emi mÃ­Äky.">tÅ™emi mÃ­Äky</a>.
 </p>
 
 <p>
-Daleko lep¹í je s ku¾ely <a href="/kuzely/passing/" title="®onglování ve více lidech.">passovat</a>.
+Daleko lepÅ¡Ã­ je s kuÅ¾ely <a href="/kuzely/passing/" title="Å½onglovÃ¡nÃ­ ve vÃ­ce lidech.">passovat</a>.
 </p>

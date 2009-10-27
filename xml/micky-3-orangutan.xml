@@ -5,31 +5,31 @@
 		<nazev>Orangutan</nazev>
 		 <pocet>3</pocet>
 	     <siteswaps>-</siteswaps>
-		 <obtiznost>snadné</obtiznost>
+		 <obtiznost>snadnÃ©</obtiznost>
 		 <oblast>micky-3</oblast>
 	</about>
 
     <krok>
-						<popisek>Tento trik sice není a¾ tak ¾onglování, ale publikum zaruèenì pobaví.</popisek>
+						<popisek>Tento trik sice nenÃ­ aÅ¾ tak Å¾onglovÃ¡nÃ­, ale publikum zaruÄenÄ› pobavÃ­.</popisek>
     </krok>
 
     <krok>
         <obrazek>orangutana</obrazek>
-				<popisek>První a druhı míèek si dej do podpa¾í a tøetí do levé ruky. Uvolni první míèek z pravého podpa¾í a chy» ho do pravé ruky.</popisek>
+				<popisek>PrvnÃ­ a druhÃ½ mÃ­Äek si dej do podpaÅ¾Ã­ a tÅ™etÃ­ do levÃ© ruky. Uvolni prvnÃ­ mÃ­Äek z pravÃ©ho podpaÅ¾Ã­ a chyÅ¥ ho do pravÃ© ruky.</popisek>
     </krok>
 
     <krok>
         <obrazek>orangutanb</obrazek>
-				<popisek>Tøetí míèek z levé ruky si pøendej do podpa¾í pravé ruky.</popisek>
+				<popisek>TÅ™etÃ­ mÃ­Äek z levÃ© ruky si pÅ™endej do podpaÅ¾Ã­ pravÃ© ruky.</popisek>
     </krok>
 
 		<krok>
 				<obrazek>orangutanc</obrazek>
-				<popisek>Teï uvolni druhı míèek z podpa¾í levé ruky. Tím získá¹ místo pro první míèek.</popisek>
+				<popisek>TeÄ uvolni druhÃ½ mÃ­Äek z podpaÅ¾Ã­ levÃ© ruky. TÃ­m zÃ­skÃ¡Å¡ mÃ­sto pro prvnÃ­ mÃ­Äek.</popisek>
     </krok>
  
     <krok>
-			<popisek>Pøi pøendavání míèkù mù¾e¹ i vydávat zvuky jako orangutan. Úgg, Grrr a tak podobnì. Pokud tì to zaujalo, mù¾e¹ zkusit napodobit i dal¹í zvíøátka. Tøeba &lt;a href=&quot;zirafa.html&quot; title=&quot;Trik se tøemi míèky.&quot;&gt;¾irafu&lt;/a&gt;, &lt;a href=&quot;klokan.html&quot; title=&quot;Trik se tøemi míèky.&quot;&gt;klokana&lt;/a&gt; nebo &lt;a href=&quot;cap.html&quot; title=&quot;Trik se tøemi míèky.&quot;&gt;èápa&lt;/a&gt;.</popisek>
+			<popisek>PÅ™i pÅ™endavÃ¡nÃ­ mÃ­ÄkÅ¯ mÅ¯Å¾eÅ¡ i vydÃ¡vat zvuky jako orangutan. Ãšgg, Grrr a tak podobnÄ›. Pokud tÄ› to zaujalo, mÅ¯Å¾eÅ¡ zkusit napodobit i dalÅ¡Ã­ zvÃ­Å™Ã¡tka. TÅ™eba &lt;a href=&quot;zirafa.html&quot; title=&quot;Trik se tÅ™emi mÃ­Äky.&quot;&gt;Å¾irafu&lt;/a&gt;, &lt;a href=&quot;klokan.html&quot; title=&quot;Trik se tÅ™emi mÃ­Äky.&quot;&gt;klokana&lt;/a&gt; nebo &lt;a href=&quot;cap.html&quot; title=&quot;Trik se tÅ™emi mÃ­Äky.&quot;&gt;ÄÃ¡pa&lt;/a&gt;.</popisek>
     </krok>
 
 		

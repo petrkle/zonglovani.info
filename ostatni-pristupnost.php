@@ -2,7 +2,7 @@
 
 require('init.php');
 
-$smarty->assign("titulek","Pøístupnost");
+$smarty->assign("titulek","PÅ™Ã­stupnost");
 
 $smarty->display('hlavicka.tpl');
 $smarty->display('pristupnost.tpl');

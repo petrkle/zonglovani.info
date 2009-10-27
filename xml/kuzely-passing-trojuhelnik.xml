@@ -2,31 +2,31 @@
 <trik>
 
     <about>
-	     <nazev>Trojúhelník</nazev>
+	     <nazev>TrojÃºhelnÃ­k</nazev>
 		 <pocet>9</pocet>
 	     <siteswaps>-</siteswaps>
-		 <obtiznost>snadné</obtiznost>
+		 <obtiznost>snadnÃ©</obtiznost>
 		 <oblast>kuzely-passing</oblast>
 	</about>
 
 
     <krok>
-			<popisek>Jednoduchı trik pro tøi ¾ongléry a devìt ku¾elù.</popisek>
+			<popisek>JednoduchÃ½ trik pro tÅ™i Å¾onglÃ©ry a devÄ›t kuÅ¾elÅ¯.</popisek>
     </krok>
 
     <krok>
 			<obrazek>kuzely-passing-trojuhelnika</obrazek>
-			<popisek>První varianta. Ku¾ely hází¹ z pravé ruky vnìj¹kem na souseda.</popisek>
+			<popisek>PrvnÃ­ varianta. KuÅ¾ely hÃ¡zÃ­Å¡ z pravÃ© ruky vnÄ›jÅ¡kem na souseda.</popisek>
     </krok>
 
 
     <krok>
 			<obrazek>kuzely-passing-trojuhelnikb</obrazek>
-			<popisek>Druhá varianta. Opìt hází¹ na souseda z pravé ruky. Tentokrát ov¹em vnitøkem trojúhelníku.</popisek>
+			<popisek>DruhÃ¡ varianta. OpÄ›t hÃ¡zÃ­Å¡ na souseda z pravÃ© ruky. TentokrÃ¡t ovÅ¡em vnitÅ™kem trojÃºhelnÃ­ku.</popisek>
     </krok>
 
     <krok>
-			<popisek>Uprostøed trojùhelníku je místo kde nelétají ku¾ely. Mù¾e ho obsadit &lt;strong&gt;odvá¾nı&lt;/strong&gt; divák.</popisek>
+			<popisek>UprostÅ™ed trojÅ¯helnÃ­ku je mÃ­sto kde nelÃ©tajÃ­ kuÅ¾ely. MÅ¯Å¾e ho obsadit &lt;strong&gt;odvÃ¡Å¾nÃ½&lt;/strong&gt; divÃ¡k.</popisek>
     </krok>
 
 

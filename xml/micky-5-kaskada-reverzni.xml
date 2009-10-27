@@ -2,44 +2,44 @@
 <trik>
 
     <about>
-	     <nazev>Reverzní kaskáda</nazev>
+	     <nazev>ReverznÃ­ kaskÃ¡da</nazev>
 		 <pocet>5</pocet>
 	     <siteswaps>-</siteswaps>
-		 <obtiznost>tì¾ko proveditelné</obtiznost>
+		 <obtiznost>tÄ›Å¾ko proveditelnÃ©</obtiznost>
 		 <oblast>micky-5</oblast>
 	</about>
 
 	<krok>
-	    <popisek>Rozdíl mezi normální a reverzní kaskádou s pìti míèky je pouze v dráze po které létají míèky. Pøi reverzní kaskádì hází¹ míèky vnìj¹kem.</popisek>
+	    <popisek>RozdÃ­l mezi normÃ¡lnÃ­ a reverznÃ­ kaskÃ¡dou s pÄ›ti mÃ­Äky je pouze v drÃ¡ze po kterÃ© lÃ©tajÃ­ mÃ­Äky. PÅ™i reverznÃ­ kaskÃ¡dÄ› hÃ¡zÃ­Å¡ mÃ­Äky vnÄ›jÅ¡kem.</popisek>
     </krok>
 
     <krok>
         <obrazek>5rkaskadaa</obrazek>
-        <popisek>Kaskádu zaèni rukou ve které dr¾í¹ tøi míèky. Podle obrázku tedy pravou rukou vyhoï první míèek.</popisek>
+        <popisek>KaskÃ¡du zaÄni rukou ve kterÃ© drÅ¾Ã­Å¡ tÅ™i mÃ­Äky. Podle obrÃ¡zku tedy pravou rukou vyhoÄ prvnÃ­ mÃ­Äek.</popisek>
     </krok>
 
     <krok>
         <obrazek>5rkaskadab</obrazek>
-        <popisek>Tìsnì po prvním míèku vyhoï druhı míèek z levé ruky.</popisek>
+        <popisek>TÄ›snÄ› po prvnÃ­m mÃ­Äku vyhoÄ druhÃ½ mÃ­Äek z levÃ© ruky.</popisek>
     </krok>
 
     <krok>
         <obrazek>5rkaskadac</obrazek>
-        <popisek>První vyhozenı míèek u¾ klesá a bude zachycen levou rukou. Druhı míèek opisuje vrchol oblouku. A mezitím u¾ pravaèkou vyhazuje¹ tøetí míèek, letí po stejné dráze jako první míèek.</popisek>
+        <popisek>PrvnÃ­ vyhozenÃ½ mÃ­Äek uÅ¾ klesÃ¡ a bude zachycen levou rukou. DruhÃ½ mÃ­Äek opisuje vrchol oblouku. A mezitÃ­m uÅ¾ pravaÄkou vyhazujeÅ¡ tÅ™etÃ­ mÃ­Äek, letÃ­ po stejnÃ© drÃ¡ze jako prvnÃ­ mÃ­Äek.</popisek>
     </krok>
 
     <krok>
         <obrazek>5rkaskadad</obrazek>
-        <popisek>Druhı vyhozenı míèek klesá a bude chycen do pravé ruky. Tøetí míèek opisuje vrchol oblouku, letí po stejné dráze jako pøed chvílí první míèek. A mezitím u¾ levaèkou vyhazuje¹ ètvrtı míèek, letí po stejné dráze jako druhı míèek.</popisek>
+        <popisek>DruhÃ½ vyhozenÃ½ mÃ­Äek klesÃ¡ a bude chycen do pravÃ© ruky. TÅ™etÃ­ mÃ­Äek opisuje vrchol oblouku, letÃ­ po stejnÃ© drÃ¡ze jako pÅ™ed chvÃ­lÃ­ prvnÃ­ mÃ­Äek. A mezitÃ­m uÅ¾ levaÄkou vyhazujeÅ¡ ÄtvrtÃ½ mÃ­Äek, letÃ­ po stejnÃ© drÃ¡ze jako druhÃ½ mÃ­Äek.</popisek>
     </krok>
 
     <krok>
         <obrazek>5rkaskadae</obrazek>
-        <popisek>Tøetí vyhozenı míèek u¾ klesá a bude zachycen levou rukou. Ètvrtı míèek opisuje vrchol oblouku. A mezitím u¾ pravaèkou vyhazuje¹ pátı míèek, letí po stejné dráze jako tøetí míèek. Pohyb míèkù zachycenı na tomto obrázku je stejnı jako na obrázku o dva kroky døíve.</popisek>
+        <popisek>TÅ™etÃ­ vyhozenÃ½ mÃ­Äek uÅ¾ klesÃ¡ a bude zachycen levou rukou. ÄŒtvrtÃ½ mÃ­Äek opisuje vrchol oblouku. A mezitÃ­m uÅ¾ pravaÄkou vyhazujeÅ¡ pÃ¡tÃ½ mÃ­Äek, letÃ­ po stejnÃ© drÃ¡ze jako tÅ™etÃ­ mÃ­Äek. Pohyb mÃ­ÄkÅ¯ zachycenÃ½ na tomto obrÃ¡zku je stejnÃ½ jako na obrÃ¡zku o dva kroky dÅ™Ã­ve.</popisek>
     </krok>
 
 	<krok>
-	    <popisek>Dál vyhazuj a zachycuj míèky podle posledních dvou obrázkù.</popisek>
+	    <popisek>DÃ¡l vyhazuj a zachycuj mÃ­Äky podle poslednÃ­ch dvou obrÃ¡zkÅ¯.</popisek>
     </krok>
 
 </trik>

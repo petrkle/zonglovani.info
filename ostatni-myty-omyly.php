@@ -1,7 +1,7 @@
 <?php
 require('init.php');
 
-$smarty->assign("titulek","Mıty a omyly");
+$smarty->assign("titulek","MÃ½ty a omyly");
 
 $smarty->display('hlavicka.tpl');
 $smarty->display('ostatni-myty-omyly.tpl');

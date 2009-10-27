@@ -2,7 +2,7 @@
 
 require('init.php');
 
-$smarty->assign("titulek","Výroba kruhù");
+$smarty->assign("titulek","VÃ½roba kruhÅ¯");
 
 $smarty->display('hlavicka.tpl');
 $smarty->display('kruhy-vyroba.tpl');

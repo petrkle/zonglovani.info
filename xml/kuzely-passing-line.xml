@@ -2,38 +2,38 @@
 <trik>
 
     <about>
-	     <nazev>Øada</nazev>
+	     <nazev>Å˜ada</nazev>
 		 <pocet>9</pocet>
 	     <siteswaps>-</siteswaps>
-		 <obtiznost>snadné</obtiznost>
+		 <obtiznost>snadnÃ©</obtiznost>
 		 <oblast>kuzely-passing</oblast>
 	</about>
 
 
     <krok>
-			<popisek>Line - trik pro tøi ¾ongléry a devìt ku¾elù. V¹ichni hází &lt;a href=&quot;4count.html&quot; title=&quot;Základ passování.&quot;&gt;4 count&lt;/a&gt; z pravé ruky.</popisek>
+			<popisek>Line - trik pro tÅ™i Å¾onglÃ©ry a devÄ›t kuÅ¾elÅ¯. VÅ¡ichni hÃ¡zÃ­ &lt;a href=&quot;4count.html&quot; title=&quot;ZÃ¡klad passovÃ¡nÃ­.&quot;&gt;4 count&lt;/a&gt; z pravÃ© ruky.</popisek>
     </krok>
 
     <krok>
 			<obrazek>kuzely-passing-linea</obrazek>
-			<popisek>Stoupnìte si do øady. ®ongléøi &lt;b&gt;A&lt;/b&gt; a &lt;b&gt;B&lt;/b&gt; koukají na &lt;b&gt;C&lt;/b&gt;. Pohled shora - &lt;b&gt;B&lt;/b&gt; stojí trochu stranou.</popisek>
+			<popisek>StoupnÄ›te si do Å™ady. Å½onglÃ©Å™i &lt;b&gt;A&lt;/b&gt; a &lt;b&gt;B&lt;/b&gt; koukajÃ­ na &lt;b&gt;C&lt;/b&gt;. Pohled shora - &lt;b&gt;B&lt;/b&gt; stojÃ­ trochu stranou.</popisek>
     </krok>
 
 
     <krok>
 			<obrazek>kuzely-passing-lineb</obrazek>
-			<popisek>&lt;b&gt;A&lt;/b&gt; hází z pravé ruky pass &lt;b&gt;C&lt;/b&gt; na jednu otoèku. &lt;b&gt;C&lt;/b&gt; hází na jednu otoèku &lt;b&gt;B&lt;/b&gt;. A nakonec to nejtì¾¹í. &lt;b&gt;B&lt;/b&gt; hází za záda na dvì otoèky &lt;b&gt;A&lt;/b&gt;.</popisek>
+			<popisek>&lt;b&gt;A&lt;/b&gt; hÃ¡zÃ­ z pravÃ© ruky pass &lt;b&gt;C&lt;/b&gt; na jednu otoÄku. &lt;b&gt;C&lt;/b&gt; hÃ¡zÃ­ na jednu otoÄku &lt;b&gt;B&lt;/b&gt;. A nakonec to nejtÄ›Å¾Å¡Ã­. &lt;b&gt;B&lt;/b&gt; hÃ¡zÃ­ za zÃ¡da na dvÄ› otoÄky &lt;b&gt;A&lt;/b&gt;.</popisek>
     </krok>
 
 
 
     <krok>
 			<obrazek>kuzely-passing-linec</obrazek>
-			<popisek>Stejná situace pøi pohledu shora.</popisek>
+			<popisek>StejnÃ¡ situace pÅ™i pohledu shora.</popisek>
     </krok>
 
     <krok>
-			<popisek>Pøi tomto triku je vhodné pou¾ít &lt;a href=&quot;/kuzely/passing/synchronizace.html#slow&quot; title=&quot;Synchronizace prvního hodu.&quot;&gt;pomalı start&lt;/a&gt;.</popisek>
+			<popisek>PÅ™i tomto triku je vhodnÃ© pouÅ¾Ã­t &lt;a href=&quot;/kuzely/passing/synchronizace.html#slow&quot; title=&quot;Synchronizace prvnÃ­ho hodu.&quot;&gt;pomalÃ½ start&lt;/a&gt;.</popisek>
     </krok>
 
 </trik>

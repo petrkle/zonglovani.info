@@ -1,85 +1,28 @@
 <?php
 
 function nacti_trik($soubor){
-	$trik["info"]=nacti_trik_info(basename($soubor));
-
-	$kroky=array();
-	$db = file_get_contents("xml/".basename($soubor).".xml");
-	$db=split("<krok",$db);
-	unset ($db[0]);
-	foreach($db as $foo){
-		unset($krok);
-		$krok=array();
-		$foo=split("</krok>",$foo);
-		$foo=split("\n",$foo[0]);
-		
-		$nadpis=najdi("nadpis",$foo);
-		if($nadpis){
-			$nadpis=split("\n",$nadpis);
-			 if(count($nadpis==2) and isset($nadpis[1]) and strlen(trim($nadpis[1]))>0){
-			$krok["nadpis"]=$nadpis[0];
-			$krok["kotva"]=$nadpis[1];
-				}else{
-			$krok["nadpis"]=$nadpis[0];
-			 }
-
+	$xml = simplexml_load_file('xml/'.basename($soubor).'.xml');
+	$trik=array();
+	$trik['kroky'] = array();
+	$trik['about'] = (array) $xml->about;
+	foreach ($xml->krok as $krok){
+		$foo=array();
+		if($krok->popisek){
+			$foo['popisek'] = (string) $krok->popisek;
 		}
-
-		$obrazek=najdi("obrazek",$foo);
-		if($obrazek){
-			$obrazek=split("\n",$obrazek);
-			 if(count($obrazek==2) and isset($obrazek[1]) and strlen(trim($obrazek[1]))>0){
-			$krok["obrazek"]=$obrazek[0].'.png';
-			$krok["kotva"]=$obrazek[1];
-				}else{
-			$krok["obrazek"]=$obrazek[0].'.png';
-			 }
-
-			#$krok["obrazek"]=$obrazek.".png";
-
+		if($krok->obrazek){
+			$foo['obrazek'] = (string) $krok->obrazek.'.png';
 		}
-		$popisek=najdi("popisek",$foo);
-		if($popisek){
-			$krok["popisek"]=html_entity_decode($popisek);
-		}
-		array_push($kroky,$krok);
-	}
-
-	$trik["kroky"]=$kroky;
-	return $trik;
-}
-
-
-function najdi($co,$kde){
-	# FIXME - nenajde elementy obsahující znak nového øádku
-	foreach($kde as $radek){
-		if(ereg(".*<$co.[^>].*</$co>.*",$radek)){
-			if(ereg(".*<$co name=\".*>.*</$co>.*",$radek)){
-				return stripslashes(ereg_replace(".*<$co name=\"(.*)\".*>(.*)</$co>.*","\\2\n\\1",$radek));
-			}else{
-				return stripslashes(ereg_replace(".*<$co.*>(.*)</$co>.*","\\1",$radek));
+		if($krok->nadpis){
+			$foo['nadpis'] = (string) $krok->nadpis;
+			if($krok->nadpis['name']){
+				$foo['kotva'] = (string) $krok->nadpis['name'];
 			}
 		}
+		array_push($trik['kroky'],$foo);
 	}
-	return false;
+	return $trik;
 }
-
-function nacti_trik_info($soubor){
-
-$db = file("xml/".$soubor.".xml");
-$vysledek = array();
-$url=explode("-",$soubor);
-unset($url[0],$url[1]);
-$url=join("-",$url);
-
-$vysledek[0] = $soubor;
-$vysledek[1] = najdi("nazev",$db);
-$vysledek[2] = $url.".html";
-$vysledek[5] = najdi("oblast",$db);
-$vysledek[4] = najdi("obtiznost",$db);
-$vysledek[6] = iconv('iso-8859-2','utf8',$vysledek[1]);
- return $vysledek;
-};
 
 function get_seznam_triku($jake){
   $ls="xml";
@@ -87,90 +30,35 @@ function get_seznam_triku($jake){
 	$vypis=array();
 	$adr=opendir($ls);
 	while (false!==($file = readdir($adr))) {
-	  if (substr($file,-4) == ".xml" and ereg(basename($jake,".php"),$file))
+	  if (substr($file,-4) == ".xml" and ereg(basename($jake,'.php'),$file))
 		{
 		  $file = substr($file, 0, -4);
-		  array_push($vypis,nacti_trik_info($file));
+		  $vypis[preg_replace('/'.basename($jake,'.php').'-/','',basename($file,'.xml'))]=nacti_trik($file);
 		};
 	};
 	closedir($adr); 
-	sort($vypis);
   };
 
-  usort($vypis, "mojes"); 
+  uasort($vypis, 'sort_by_title'); 
 	return $vypis;
 }
 
-$trans = array("ì" => "ez","¹" => "sz","è" => "cz","ø" => "rz","¾" => "zz","ý" => "yz","á" => "az","í" => "iz","é" => "ez","ú" => "uz","ù" => "uz","ï" => "dz","»" => "tz","ò" => "nz","Ì" => "Ez","©" => "Sz","È" => "Cz","Ø" => "Rz","®" => "Zz","Ý" => "Yz","Á" => "Az","Í" => "Iz","É" => "Ez","Ú" => "Uz","Ù" => "Uz","Ï" => "Dz","«" => "Tz","Ò" => "Nz"," " => "_z");
+$trans = array("Ä›" => "ez","Å¡" => "sz","Ä" => "cz","Å™" => "rz","Å¾" => "zz","Ã½" => "yz","Ã¡" => "az","Ã­" => "iz","Ã©" => "ez","Ãº" => "uz","Å¯" => "uz","Ä" => "dz","Å¥" => "tz","Åˆ" => "nz","Äš" => "Ez","Å " => "Sz","ÄŒ" => "Cz","Å˜" => "Rz","Å½" => "Zz","Ã" => "Yz","Ã" => "Az","Ã" => "Iz","Ã‰" => "Ez","Ãš" => "Uz","Å®" => "Uz","ÄŽ" => "Dz","Å¤" => "Tz","Å‡" => "Nz"," " => "_z");
 
-function mojes($a, $b){
+function sort_by_title($a, $b){
   /*
-	mojes = moje + setøídìní
-	setøídí øádky v tabulce podle názvu triku
+	mojes = moje + setÅ™Ã­dÄ›nÃ­
+	setÅ™Ã­dÃ­ Å™Ã¡dky v tabulce podle nÃ¡zvu triku
   */
  global $trans;
 
-  $a[1] = strtr($a[1], $trans);
-  $b[1] = strtr($b[1], $trans);
+  $a['about']['nazev'] = strtr($a['about']['nazev'], $trans);
+  $b['about']['nazev'] = strtr($b['about']['nazev'], $trans);
 
 
-  return strcmp($a[1], $b[1]);
+  return strcmp($a['about']['nazev'], $b['about']['nazev']);
 };
 
-function mojes2($a, $b){
-  /*
-	mojes = moje + setøídìní
-	setøídí øádky v tabulce podle poètu míèkù a názvu triku
-  */
- global $trans;
-
-  $a[2] = strtr($a[2], $trans);
-  $b[2] = strtr($b[2], $trans);
-
- $navrat = strcmp($a[2],$b[2]);
-  if(!$navrat){
-  $a[1] = strtr($a[1], $trans);
-  $b[1] = strtr($b[1], $trans);
-	$navrat=strcmp($a[1],$b[1]);
-	};
-return $navrat;
-}
-
-function mojes3($a, $b){
-  /*
-	mojes = moje + setøídìní
-	setøídí øádky v tabulce podle siteswaps
-  */
- global $trans;
-
-  $a[3] = strtr($a[3], $trans);
-  $b[3] = strtr($b[3], $trans);
-
-
-  return strcmp($a[3], $b[3]);
-};
-
-function mojes4($a, $b){
-  /*
-	mojes = moje + setøídìní
-	setøídí øádky v tabulce podle obtí¾nosti
-  */
-global $trans;
-$stupnice=array("snadné","nároèné","obtí¾né","tì¾ko proveditelné","neproveditelné");
-
-	$foo = array_search($a[4],$stupnice);
-  $bar = array_search($b[4],$stupnice);
-
-  $navrat=strcmp($foo,$bar);
-
-	if($navrat==0){
-  $a[1] = strtr($a[1], $trans);
-  $b[1] = strtr($b[1], $trans);
-	$navrat=strcmp($a[1],$b[1]);
-	};
-
-return $navrat;
-};
 
 function get_videa($db){
 	$allvideos=file("$db");
@@ -230,8 +118,8 @@ function quoted_printable_encode($sString) {
 }
 
 function get_antispam(){
-	$cislice=array("1"=>"jedna","2"=>"dva","3"=>"tøi","5"=>"pìt","7"=>"sedm","8"=>"osm","9"=>"devìt");
-	$znamenka=array("+"=>"plus","-"=>"mínus","*"=>"krát");
+	$cislice=array("1"=>"jedna","2"=>"dva","3"=>"tÅ™i","5"=>"pÄ›t","7"=>"sedm","8"=>"osm","9"=>"devÄ›t");
+	$znamenka=array("+"=>"plus","-"=>"mÃ­nus","*"=>"krÃ¡t");
 
 	$prvni=array_rand($cislice);
 	$druha=array_rand($cislice);
@@ -368,7 +256,7 @@ function make_keywords($text){
 		}
 	}
 	if(count($navrat)<2){
-		array_push($navrat,"¾onglování","míèky","kruhy","ku¾ely");
+		array_push($navrat,"Å¾onglovÃ¡nÃ­","mÃ­Äky","kruhy","kuÅ¾ely");
 	}
 
 	$navrat=preg_replace("/ /",", ",join(" ",$navrat));

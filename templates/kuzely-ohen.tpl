@@ -1,93 +1,93 @@
 <p>
-{obrazek soubor="kuzely-fire.png" popisek="Pochodeò"}
-Ohnivé ku¾ely mají místo ¹ir¹í èásti hliníkovou trubku. Na ní je namotanı knot z kevlaru. Aby ku¾el hoøel, je potøeba nalít na knot <a href="#palivo">nìco hoølavého</a>.
+{obrazek soubor="kuzely-fire.png" popisek="PochodeÅˆ"}
+OhnivÃ© kuÅ¾ely majÃ­ mÃ­sto Å¡irÅ¡Ã­ ÄÃ¡sti hlinÃ­kovou trubku. Na nÃ­ je namotanÃ½ knot z kevlaru. Aby kuÅ¾el hoÅ™el, je potÅ™eba nalÃ­t na knot <a href="#palivo">nÄ›co hoÅ™lavÃ©ho</a>.
 </p>
 
-<h3>Bezpeènostní pravidla</h3>
+<h3>BezpeÄnostnÃ­ pravidla</h3>
 <p>
 <ol>
-<li>®ongluj na volném prostranství kde nemù¾e¹ nic zapálit.</li>
-<li>Obleè se do star¹ího obleèení z bavlny. Bavlna je dùle¾itá, proto¾e nevzplane snadno jako látky z umìlé hmoty.</li>
-<li>Mìj pøi ruce kbelík èisté studené vody. Na ochlazení pøípadnıch spálenin nebo ha¹ení.</li>
-<li>Hoølaviny nech v originálním obalu v dostateèné vzdálenosti od místa ¾onglování.</li>
-<li>®ongluj v dostateèné vzdálenosti od divákù.</li>
+<li>Å½ongluj na volnÃ©m prostranstvÃ­ kde nemÅ¯Å¾eÅ¡ nic zapÃ¡lit.</li>
+<li>ObleÄ se do starÅ¡Ã­ho obleÄenÃ­ z bavlny. Bavlna je dÅ¯leÅ¾itÃ¡, protoÅ¾e nevzplane snadno jako lÃ¡tky z umÄ›lÃ© hmoty.</li>
+<li>MÄ›j pÅ™i ruce kbelÃ­k ÄistÃ© studenÃ© vody. Na ochlazenÃ­ pÅ™Ã­padnÃ½ch spÃ¡lenin nebo haÅ¡enÃ­.</li>
+<li>HoÅ™laviny nech v originÃ¡lnÃ­m obalu v dostateÄnÃ© vzdÃ¡lenosti od mÃ­sta Å¾onglovÃ¡nÃ­.</li>
+<li>Å½ongluj v dostateÄnÃ© vzdÃ¡lenosti od divÃ¡kÅ¯.</li>
 </ol>
 </p>
 
 <p>
-Pøiprav si také vlhkı bavlnìnı hadr nebo azbestovou deku. Do nich zabalí¹ ku¾ely aby zhasly. A úplnì nejlep¹í je mít i hasicí pøístroj.
+PÅ™iprav si takÃ© vlhkÃ½ bavlnÄ›nÃ½ hadr nebo azbestovou deku. Do nich zabalÃ­Å¡ kuÅ¾ely aby zhasly. A ÃºplnÄ› nejlepÅ¡Ã­ je mÃ­t i hasicÃ­ pÅ™Ã­stroj.
 </p>
 
-<h3>Trénink</h3>
+<h3>TrÃ©nink</h3>
 
 <p>
-Ohnivé ku¾ely jsou trochu jiné ne¾ obyèejné ku¾ely. Proto nejdøív trénuj za svìtla s nezapálenımi ku¾ely. Kdy¾ získá¹ jistotu, mù¾e¹ zaèít trénovat za svìtla se zapálenımi ku¾ely.
+OhnivÃ© kuÅ¾ely jsou trochu jinÃ© neÅ¾ obyÄejnÃ© kuÅ¾ely. Proto nejdÅ™Ã­v trÃ©nuj za svÄ›tla s nezapÃ¡lenÃ½mi kuÅ¾ely. KdyÅ¾ zÃ­skÃ¡Å¡ jistotu, mÅ¯Å¾eÅ¡ zaÄÃ­t trÃ©novat za svÄ›tla se zapÃ¡lenÃ½mi kuÅ¾ely.
 </p>
 <p>
-U ohnivıch ku¾elù je trénink velmi dùle¾itı. Ka¾dé záváhání a spadnutí ku¾elu pøímo bije do oèí. ®onglování s ohnìm pak pøichází o èást svého kouzla. Navíc se mù¾e¹ i spálit.
+U ohnivÃ½ch kuÅ¾elÅ¯ je trÃ©nink velmi dÅ¯leÅ¾itÃ½. KaÅ¾dÃ© zÃ¡vÃ¡hÃ¡nÃ­ a spadnutÃ­ kuÅ¾elu pÅ™Ã­mo bije do oÄÃ­. Å½onglovÃ¡nÃ­ s ohnÄ›m pak pÅ™ichÃ¡zÃ­ o ÄÃ¡st svÃ©ho kouzla. NavÃ­c se mÅ¯Å¾eÅ¡ i spÃ¡lit.
 </p>
 
 <p>
-Tak¾e trénuj za svìtla s nezapálenımi ku¾ely. Pak za svìtla se zapálenımi ku¾ely. A za tmy s ohnìm provádìj jen triky které má¹ plnì zvládnuté.
+TakÅ¾e trÃ©nuj za svÄ›tla s nezapÃ¡lenÃ½mi kuÅ¾ely. Pak za svÄ›tla se zapÃ¡lenÃ½mi kuÅ¾ely. A za tmy s ohnÄ›m provÃ¡dÄ›j jen triky kterÃ© mÃ¡Å¡ plnÄ› zvlÃ¡dnutÃ©.
 </p>
 
 <a name="palivo" id="palivo"><h3>Palivo</h3></a>
 <p>
-Jsou vlastnì dvì mo¾nosti jakou hoølavinu pou¾ít.
+Jsou vlastnÄ› dvÄ› moÅ¾nosti jakou hoÅ™lavinu pouÅ¾Ã­t.
 <ol>
 <li>petrolej</li>
-<li>lampovı olej</li>
+<li>lampovÃ½ olej</li>
 </ol>
 </p>
 <p>
-Osobnì dávám pøednost petroleji. Bıvá levnìj¹í a ménì zapáchá. Na druhou stranu pøi hoøení vzniká více dımu. Pokud pou¾ije¹ lampovı olej tak si vyber bezbarvı. Bez pøidanıch vùní.
+OsobnÄ› dÃ¡vÃ¡m pÅ™ednost petroleji. BÃ½vÃ¡ levnÄ›jÅ¡Ã­ a mÃ©nÄ› zapÃ¡chÃ¡. Na druhou stranu pÅ™i hoÅ™enÃ­ vznikÃ¡ vÃ­ce dÃ½mu. Pokud pouÅ¾ijeÅ¡ lampovÃ½ olej tak si vyber bezbarvÃ½. Bez pÅ™idanÃ½ch vÅ¯nÃ­.
 </p>
 
 <p>
-<strong>NIKDY NEPO®ÍVEJ</strong> benzín, aceton nebo øedila. Jsou to hoølaviny I. tøídy nebezpeènosti. Hoøí velmi rychle a jejich páry jsou vıbu¹né !!!
+<strong>NIKDY NEPOÅ½ÃVEJ</strong> benzÃ­n, aceton nebo Å™edila. Jsou to hoÅ™laviny I. tÅ™Ã­dy nebezpeÄnosti. HoÅ™Ã­ velmi rychle a jejich pÃ¡ry jsou vÃ½buÅ¡nÃ© !!!
 </p>
 
-<h3>Zapaléní ku¾elù</h3>
+<h3>ZapalÃ©nÃ­ kuÅ¾elÅ¯</h3>
 <p>
-{obrazek soubor="kuzely-fire-fill.png" popisek="Polití hoølavinou"}
-Hoølavinu nalij na knot ku¾elu nad nádobou. Je lep¹í nalít ménì hoølaviny, tak aby z knotu nezaèala vytékat. Kdy¾ pøelije¹ bude ti pøi ¾onglování z ku¾ele pøebyteèná hoølavina vyletovat.
+{obrazek soubor="kuzely-fire-fill.png" popisek="PolitÃ­ hoÅ™lavinou"}
+HoÅ™lavinu nalij na knot kuÅ¾elu nad nÃ¡dobou. Je lepÅ¡Ã­ nalÃ­t mÃ©nÄ› hoÅ™laviny, tak aby z knotu nezaÄala vytÃ©kat. KdyÅ¾ pÅ™elijeÅ¡ bude ti pÅ™i Å¾onglovÃ¡nÃ­ z kuÅ¾ele pÅ™ebyteÄnÃ¡ hoÅ™lavina vyletovat.
 </p>
 <p>
-Pøed zapálením odejdi s ku¾elem nejménì 5 metrù od nádoby s hoølavinou.
+PÅ™ed zapÃ¡lenÃ­m odejdi s kuÅ¾elem nejmÃ©nÄ› 5 metrÅ¯ od nÃ¡doby s hoÅ™lavinou.
 </p>  
 <p>
-{obrazek soubor="kuzely-fire-light.png" popisek="Zapálení"}
-Pøi zapalování dr¾ ku¾el knotem nahoru. Zapalovaèem zapal první ku¾el, od kterého pak zapálí¹ ostatní ku¾ely.
+{obrazek soubor="kuzely-fire-light.png" popisek="ZapÃ¡lenÃ­"}
+PÅ™i zapalovÃ¡nÃ­ drÅ¾ kuÅ¾el knotem nahoru. ZapalovaÄem zapal prvnÃ­ kuÅ¾el, od kterÃ©ho pak zapÃ¡lÃ­Å¡ ostatnÃ­ kuÅ¾ely.
 </p>
 
 <p>
-{obrazek soubor="kuzely-firea.png" popisek="Pochodeò"}
-Hoøící ku¾el dr¾ knotem nahoru.
+{obrazek soubor="kuzely-firea.png" popisek="PochodeÅˆ"}
+HoÅ™Ã­cÃ­ kuÅ¾el drÅ¾ knotem nahoru.
 </p>
 
-<h3>Uha¹ení ku¾elù</h3>
+<h3>UhaÅ¡enÃ­ kuÅ¾elÅ¯</h3>
 <p>
-Ku¾el pøikryj vlhkım bavlnìnım hadrem a poèkej a¾ uhasne. S hadrem nemávej, nech ho na ku¾elu le¾et aby k ohni nemìl pøístup vzduch.
+KuÅ¾el pÅ™ikryj vlhkÃ½m bavlnÄ›nÃ½m hadrem a poÄkej aÅ¾ uhasne. S hadrem nemÃ¡vej, nech ho na kuÅ¾elu leÅ¾et aby k ohni nemÄ›l pÅ™Ã­stup vzduch.
 </p>
 
-<h3>®onglování s ohnìm</h3>
+<h3>Å½onglovÃ¡nÃ­ s ohnÄ›m</h3>
 
 <p>
-<a href="/img/fire-1.jpg">{obrazek soubor="fire-1-tn.jpg" popisek="®onglování s ohnìm"}</a>
-Za tmy s ohnìm provádìj jen triky které má¹ plnì zvládnuté.
-</p>
-
-<p>
-Ohnivé ku¾ely nejsou stavìné na nepøetr¾ité hoøení. Mezi jednotlivımí zapálení ku¾elù si dej chvíli pøestávku. Ku¾ely vychladnou a zmen¹í se tak nebezpeèí popálení.
+<a href="/img/fire-1.jpg">{obrazek soubor="fire-1-tn.jpg" popisek="Å½onglovÃ¡nÃ­ s ohnÄ›m"}</a>
+Za tmy s ohnÄ›m provÃ¡dÄ›j jen triky kterÃ© mÃ¡Å¡ plnÄ› zvlÃ¡dnutÃ©.
 </p>
 
 <p>
-<a href="/img/fire-2.jpg">{obrazek soubor="fire-2-tn.jpg" popisek="®onglování s ohnìm"}</a>
+OhnivÃ© kuÅ¾ely nejsou stavÄ›nÃ© na nepÅ™etrÅ¾itÃ© hoÅ™enÃ­. Mezi jednotlivÃ½mÃ­ zapÃ¡lenÃ­ kuÅ¾elÅ¯ si dej chvÃ­li pÅ™estÃ¡vku. KuÅ¾ely vychladnou a zmenÅ¡Ã­ se tak nebezpeÄÃ­ popÃ¡lenÃ­.
 </p>
 
 <p>
-Pokroèilí ¾ongléøi mù¾ou s ohnìm i <a href="/kuzely/passing/" title="®onglování více lidí">passovat</a>.
+<a href="/img/fire-2.jpg">{obrazek soubor="fire-2-tn.jpg" popisek="Å½onglovÃ¡nÃ­ s ohnÄ›m"}</a>
 </p>
 
-<a href="#nahore" title="Pøesun na zaèátek stránky." class="nahoru">nahoru&nbsp;^^</a>
+<p>
+PokroÄilÃ­ Å¾onglÃ©Å™i mÅ¯Å¾ou s ohnÄ›m i <a href="/kuzely/passing/" title="Å½onglovÃ¡nÃ­ vÃ­ce lidÃ­">passovat</a>.
+</p>
+
+<a href="#nahore" title="PÅ™esun na zaÄÃ¡tek strÃ¡nky." class="nahoru">nahoru&nbsp;^^</a>
 

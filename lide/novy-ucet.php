@@ -2,7 +2,7 @@
 require('../init.php');
 require('../func.php');
 
-$smarty->assign("titulek","Novı u¾ivatelskı úèet");
+$smarty->assign("titulek","NovÃ½ uÅ¾ivatelskÃ½ ÃºÄet");
 
 if(!isset($_SESSION["souhlas"])){
 	session_destroy();
@@ -60,54 +60,54 @@ if(isset($_GET["action"])){
 	}
 
 if(strlen($jmeno)<3){
-	array_push($chyby,"Jméno není zadané, nebo je pøíli¹ krátké.");
+	array_push($chyby,"JmÃ©no nenÃ­ zadanÃ©, nebo je pÅ™Ã­liÅ¡ krÃ¡tkÃ©.");
 }elseif(strlen($jmeno)>256){
-	array_push($chyby,"Jméno je pøíli¹ dlouhé.");
-}elseif(eregi("[-\*\.\?\!<>;\^\$\{\}\@%\&\(\)'\"_:´·\\|#`~,ß]",$jmeno)){
-	array_push($chyby,"Jméno obsahuje nepovolené znaky.");
+	array_push($chyby,"JmÃ©no je pÅ™Ã­liÅ¡ dlouhÃ©.");
+}elseif(eregi("[-\*\.\?\!<>;\^\$\{\}\@%\&\(\)'\"_:Â´Ë‡\\|#`~,ÃŸ]",$jmeno)){
+	array_push($chyby,"JmÃ©no obsahuje nepovolenÃ© znaky.");
 }else{
 	if(is_zs_jmeno($jmeno)){
-		array_push($chyby,"Zadané jméno u¾ pou¾ívá jinı u¾ivatel.");
+		array_push($chyby,"ZadanÃ© jmÃ©no uÅ¾ pouÅ¾Ã­vÃ¡ jinÃ½ uÅ¾ivatel.");
 	}
 }
 
 
 if(!eregi("^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$",$email)){
-	array_push($chyby,"Neplatnı e-mail.");
+	array_push($chyby,"NeplatnÃ½ e-mail.");
 }else{
 	if(is_zs_email($email)){
-		array_push($chyby,"Úèet s tímto e-mailem u¾ byl vytvoøen. Zapomenuté&nbsp;<a href=\"zapomenute-heslo.php\" title=\"Zaslat zapomenuté heslo emailem.\">heslo</a>?");
+		array_push($chyby,"ÃšÄet s tÃ­mto e-mailem uÅ¾ byl vytvoÅ™en. ZapomenutÃ©&nbsp;<a href=\"zapomenute-heslo.php\" title=\"Zaslat zapomenutÃ© heslo emailem.\">heslo</a>?");
 	}
 }
 
 if(strlen($login)<3){
-	array_push($chyby,"Login není zadanı, nebo je pøíli¹ krátkı.");
+	array_push($chyby,"Login nenÃ­ zadanÃ½, nebo je pÅ™Ã­liÅ¡ krÃ¡tkÃ½.");
 }else{
 	if(is_zs_account($login)){
-		array_push($chyby,"Zadanı login u¾ pou¾ívá jinı u¾ivatel.");
+		array_push($chyby,"ZadanÃ½ login uÅ¾ pouÅ¾Ã­vÃ¡ jinÃ½ uÅ¾ivatel.");
 	}
 }
 
 
 if(eregi("[^-a-z0-9]",$login)){
-	array_push($chyby,"Login obsahuje nepovolené znaky.");
+	array_push($chyby,"Login obsahuje nepovolenÃ© znaky.");
 }
 
 $reserved_accounts=array("pek","admin","webmaster","root","robot","petr","kletecka","petr-kletecka","petrkletecka","administrator","system","test","tmp");
 if(in_array($login,$reserved_accounts)){
-	array_push($chyby,"Tento login nelze vytvoøit.");
+	array_push($chyby,"Tento login nelze vytvoÅ™it.");
 }
 
 if(strlen($heslo)<5){
-	array_push($chyby,"Heslo není zadané, nebo je pøíli¹ krátké.");
+	array_push($chyby,"Heslo nenÃ­ zadanÃ©, nebo je pÅ™Ã­liÅ¡ krÃ¡tkÃ©.");
 }
 
 if(eregi(".*$login.*",$heslo) or eregi(".*$jmeno.*",$heslo) or eregi(".*$email.*",$heslo)){
-	array_push($chyby,"Zadané heslo je pøíli¹ slabé.");
+	array_push($chyby,"ZadanÃ© heslo je pÅ™Ã­liÅ¡ slabÃ©.");
 }
 
 if($heslo!=$heslo2){
-	array_push($chyby,"Zadaná hesla se neshodují.");
+	array_push($chyby,"ZadanÃ¡ hesla se neshodujÃ­.");
 }
 
 

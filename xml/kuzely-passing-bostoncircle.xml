@@ -5,98 +5,98 @@
 	     <nazev>Boston circle</nazev>
 		 <pocet>?</pocet>
 	     <siteswaps>-</siteswaps>
-		 <obtiznost>tì¾¹í</obtiznost>
+		 <obtiznost>tÄ›Å¾Å¡Ã­</obtiznost>
 		 <oblast>kuzely-passing</oblast>
 	</about>
 
 
 
     <krok>
-			<popisek>Trik pøi kterém passuje ka¾dı s ka¾dım. Dokonce i sám se sebou. Známı té¾ pod názvem hodiny.</popisek>
+			<popisek>Trik pÅ™i kterÃ©m passuje kaÅ¾dÃ½ s kaÅ¾dÃ½m. Dokonce i sÃ¡m se sebou. ZnÃ¡mÃ½ tÃ©Å¾ pod nÃ¡zvem hodiny.</popisek>
     </krok>
 
 
 	<krok>
-	    <nadpis>5 ¾onglérù</nadpis>
+	    <nadpis>5 Å¾onglÃ©rÅ¯</nadpis>
 	</krok>
 
     <krok>
 			<obrazek>kuzely-passing-boston4h</obrazek>
-			<popisek>Stoupnìte si do pìtiúhlelníku. &lt;b&gt;B&lt;/b&gt; zaèíná s &lt;b&gt;E&lt;/b&gt;, &lt;b&gt;C&lt;/b&gt; s &lt;b&gt;D&lt;/b&gt;. &lt;b&gt;A&lt;/b&gt; hází první pass sám sobì - vlastnì normálnì ¾ongluje.</popisek>
+			<popisek>StoupnÄ›te si do pÄ›tiÃºhlelnÃ­ku. &lt;b&gt;B&lt;/b&gt; zaÄÃ­nÃ¡ s &lt;b&gt;E&lt;/b&gt;, &lt;b&gt;C&lt;/b&gt; s &lt;b&gt;D&lt;/b&gt;. &lt;b&gt;A&lt;/b&gt; hÃ¡zÃ­ prvnÃ­ pass sÃ¡m sobÄ› - vlastnÄ› normÃ¡lnÄ› Å¾ongluje.</popisek>
     </krok>
 
     <krok>
 			<obrazek>kuzely-passing-boston4i</obrazek>
-			<popisek>Dal¹í pass jde o jednoho ¾ongléra vedle. Proti smìru hodinovıch ruèièek. &lt;b&gt;A&lt;/b&gt; hází s &lt;b&gt;E&lt;/b&gt;, &lt;b&gt;B&lt;/b&gt; s &lt;b&gt;D&lt;/b&gt;, &lt;b&gt;C&lt;/b&gt; hází self.</popisek>
+			<popisek>DalÅ¡Ã­ pass jde o jednoho Å¾onglÃ©ra vedle. Proti smÄ›ru hodinovÃ½ch ruÄiÄek. &lt;b&gt;A&lt;/b&gt; hÃ¡zÃ­ s &lt;b&gt;E&lt;/b&gt;, &lt;b&gt;B&lt;/b&gt; s &lt;b&gt;D&lt;/b&gt;, &lt;b&gt;C&lt;/b&gt; hÃ¡zÃ­ self.</popisek>
     </krok>
 
 
     <krok>
 			<obrazek>kuzely-passing-boston4j</obrazek>
-			<popisek>Passy se opìt pøesunou o jednoho èlovìka. Self nyní hází &lt;b&gt;E&lt;/b&gt;.</popisek>
+			<popisek>Passy se opÄ›t pÅ™esunou o jednoho ÄlovÄ›ka. Self nynÃ­ hÃ¡zÃ­ &lt;b&gt;E&lt;/b&gt;.</popisek>
     </krok>
 
 
     <krok>
 			<obrazek>kuzely-passing-boston4k</obrazek>
-			<popisek>Dal¹í na øadì je &lt;b&gt;B&lt;/b&gt;.</popisek>
+			<popisek>DalÅ¡Ã­ na Å™adÄ› je &lt;b&gt;B&lt;/b&gt;.</popisek>
     </krok>
 
 
     <krok>
 			<obrazek>kuzely-passing-boston4l</obrazek>
-			<popisek>Poslední vyzbyde self na ¾ongléra &lt;b&gt;D&lt;/b&gt;. Poté se kolobìh opakuje.</popisek>
+			<popisek>PoslednÃ­ vyzbyde self na Å¾onglÃ©ra &lt;b&gt;D&lt;/b&gt;. PotÃ© se kolobÄ›h opakuje.</popisek>
     </krok>
 
 
 
 
 	<krok>
-	    <nadpis>4 ¾ongléøi</nadpis>
-			<popisek>Princip je stejnı jako s pìti ¾ongléry. Ka¾dı passuje s ka¾dım. Postupnì proti smìru hodinovıch ruèièek.</popisek>
+	    <nadpis>4 Å¾onglÃ©Å™i</nadpis>
+			<popisek>Princip je stejnÃ½ jako s pÄ›ti Å¾onglÃ©ry. KaÅ¾dÃ½ passuje s kaÅ¾dÃ½m. PostupnÄ› proti smÄ›ru hodinovÃ½ch ruÄiÄek.</popisek>
 	</krok>
 
     <krok>
 			<obrazek>kuzely-passing-boston4a</obrazek>
-			<popisek>První pass: &lt;b&gt;A&lt;/b&gt; -&gt; &lt;b&gt;B&lt;/b&gt; a &lt;b&gt;C&lt;/b&gt; -&gt; &lt;b&gt;D&lt;/b&gt;.</popisek>
+			<popisek>PrvnÃ­ pass: &lt;b&gt;A&lt;/b&gt; -&gt; &lt;b&gt;B&lt;/b&gt; a &lt;b&gt;C&lt;/b&gt; -&gt; &lt;b&gt;D&lt;/b&gt;.</popisek>
     </krok>
 
     <krok>
 			<obrazek>kuzely-passing-boston4b</obrazek>
-			<popisek>&lt;b&gt;D&lt;/b&gt;ruhı pass: &lt;b&gt;C&lt;/b&gt; -&gt; &lt;b&gt;B&lt;/b&gt;. &lt;b&gt;A&lt;/b&gt; a &lt;b&gt;D&lt;/b&gt; hází self.</popisek>
+			<popisek>&lt;b&gt;D&lt;/b&gt;ruhÃ½ pass: &lt;b&gt;C&lt;/b&gt; -&gt; &lt;b&gt;B&lt;/b&gt;. &lt;b&gt;A&lt;/b&gt; a &lt;b&gt;D&lt;/b&gt; hÃ¡zÃ­ self.</popisek>
     </krok>
 
     <krok>
 			<obrazek>kuzely-passing-boston4c</obrazek>
-			<popisek>Tøetí pass: &lt;b&gt;C&lt;/b&gt; -&gt; &lt;b&gt;A&lt;/b&gt; a &lt;b&gt;D&lt;/b&gt; -&gt; &lt;b&gt;B&lt;/b&gt;.</popisek>
+			<popisek>TÅ™etÃ­ pass: &lt;b&gt;C&lt;/b&gt; -&gt; &lt;b&gt;A&lt;/b&gt; a &lt;b&gt;D&lt;/b&gt; -&gt; &lt;b&gt;B&lt;/b&gt;.</popisek>
     </krok>
 
 
     <krok>
 			<obrazek>kuzely-passing-boston4d</obrazek>
-			<popisek>Ètrvrı pass: &lt;b&gt;D&lt;/b&gt; -&gt; &lt;b&gt;A&lt;/b&gt;. &lt;b&gt;C&lt;/b&gt; a &lt;b&gt;B&lt;/b&gt; hází self.</popisek>
+			<popisek>ÄŒtrvrÃ½ pass: &lt;b&gt;D&lt;/b&gt; -&gt; &lt;b&gt;A&lt;/b&gt;. &lt;b&gt;C&lt;/b&gt; a &lt;b&gt;B&lt;/b&gt; hÃ¡zÃ­ self.</popisek>
     </krok>
 
 
 
 	<krok>
-	    <nadpis>3 ¾ongléøi</nadpis>
+	    <nadpis>3 Å¾onglÃ©Å™i</nadpis>
 	</krok>
 
 
     <krok>
 			<obrazek>kuzely-passing-boston4e</obrazek>
-			<popisek>První pass hází &lt;b&gt;B&lt;/b&gt; a &lt;b&gt;C&lt;/b&gt;. &lt;b&gt;A&lt;/b&gt; zaèíná sám.</popisek>
+			<popisek>PrvnÃ­ pass hÃ¡zÃ­ &lt;b&gt;B&lt;/b&gt; a &lt;b&gt;C&lt;/b&gt;. &lt;b&gt;A&lt;/b&gt; zaÄÃ­nÃ¡ sÃ¡m.</popisek>
     </krok>
 
     <krok>
 			<obrazek>kuzely-passing-boston4f</obrazek>
-			<popisek>&lt;b&gt;B&lt;/b&gt; hází s &lt;b&gt;A&lt;/b&gt;. &lt;b&gt;C&lt;/b&gt; hází self.</popisek>
+			<popisek>&lt;b&gt;B&lt;/b&gt; hÃ¡zÃ­ s &lt;b&gt;A&lt;/b&gt;. &lt;b&gt;C&lt;/b&gt; hÃ¡zÃ­ self.</popisek>
     </krok>
 
     <krok>
 			<obrazek>kuzely-passing-boston4g</obrazek>
-			<popisek>Dokonèení cyklu. &lt;b&gt;A&lt;/b&gt; hází s &lt;b&gt;C&lt;/b&gt;. &lt;b&gt;B&lt;/b&gt; hází self.</popisek>
+			<popisek>DokonÄenÃ­ cyklu. &lt;b&gt;A&lt;/b&gt; hÃ¡zÃ­ s &lt;b&gt;C&lt;/b&gt;. &lt;b&gt;B&lt;/b&gt; hÃ¡zÃ­ self.</popisek>
     </krok>
 
 </trik>

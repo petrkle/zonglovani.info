@@ -2,8 +2,8 @@
 
 require('init.php');
 
-$smarty->assign("titulek","Vysvìtlivky k obrázkùm - kruhy");
-$smarty->assign("nadpis","Vysvìtlivky k obrázkùm");
+$smarty->assign("titulek","VysvÄ›tlivky k obrÃ¡zkÅ¯m - kruhy");
+$smarty->assign("nadpis","VysvÄ›tlivky k obrÃ¡zkÅ¯m");
 
 $smarty->display('hlavicka.tpl');
 $smarty->display('kruhy-legenda.tpl');

@@ -1,7 +1,7 @@
 <?php
 require('init.php');
 
-$smarty->assign("titulek","Proè a jak vznikl ¾ognlérùv slabikáø");
+$smarty->assign("titulek","ProÄ a jak vznikl Å¾ognlÃ©rÅ¯v slabikÃ¡Å™");
 
 $smarty->display('hlavicka.tpl');
 $smarty->display('ostatni-proc-a-jak.tpl');

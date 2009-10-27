@@ -10,8 +10,8 @@
 <ul>
 <li>Login: <strong>{$smarty.session.uzivatel.login|escape}</strong></li>
 <li>E-mail: <strong>{$smarty.session.uzivatel.email|escape}</strong></li>
-<li><a href="{$smarty.const.LIDE_URL}nastaveni.php?uprav=heslo" title="Zmìnit heslo.">Zmìnit</a> heslo.</li>
-<li><a href="{$smarty.const.LIDE_URL}nastaveni.php?uprav=jmeno" title="Zmìnit zobrazované jméno.">Zmìnit</a> jméno.</li>
-<li><a href="{$smarty.const.LIDE_URL}nastaveni.php?uprav=soukromi" title="Zmìnit zpùsob zobrazování e-mailu.">Zmìnit</a> zpùsob zobrazování e-mailu.</li>
-<li><a href="{$smarty.const.LIDE_URL}nastaveni.php?uprav=vzkaz" title="Zmìnit zobrazovanı vzkaz.">Upravit</a> vzkaz.</li>
+<li><a href="{$smarty.const.LIDE_URL}nastaveni.php?uprav=heslo" title="ZmÄ›nit heslo.">ZmÄ›nit</a> heslo.</li>
+<li><a href="{$smarty.const.LIDE_URL}nastaveni.php?uprav=jmeno" title="ZmÄ›nit zobrazovanÃ© jmÃ©no.">ZmÄ›nit</a> jmÃ©no.</li>
+<li><a href="{$smarty.const.LIDE_URL}nastaveni.php?uprav=soukromi" title="ZmÄ›nit zpÅ¯sob zobrazovÃ¡nÃ­ e-mailu.">ZmÄ›nit</a> zpÅ¯sob zobrazovÃ¡nÃ­ e-mailu.</li>
+<li><a href="{$smarty.const.LIDE_URL}nastaveni.php?uprav=vzkaz" title="ZmÄ›nit zobrazovanÃ½ vzkaz.">Upravit</a> vzkaz.</li>
 </ul>

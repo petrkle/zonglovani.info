@@ -7,14 +7,14 @@
 {/if}
 
 {if $nahled}
-<h3>Náhled zprávy</h3>
+<h3>NÃ¡hled zprÃ¡vy</h3>
 <table class="diskuse" cellspacing="0" cellpadding="0">
 <tr>
-<th>U¾ivatel</th>
-<td><a href="{$smarty.const.LIDE_URL}{$smarty.session.uzivatel.login|escape}.html" title="Podrobnosti o u¾ivateli {$smarty.session.uzivatel.login|escape}.">{$smarty.session.uzivatel.login|escape}</a></td>
+<th>UÅ¾ivatel</th>
+<td><a href="{$smarty.const.LIDE_URL}{$smarty.session.uzivatel.login|escape}.html" title="Podrobnosti o uÅ¾ivateli {$smarty.session.uzivatel.login|escape}.">{$smarty.session.uzivatel.login|escape}</a></td>
 <th>Datum</th>
 <td>{$datum_hr|escape}</td>
-<th>Èas</th>
+<th>ÄŒas</th>
 <td>{$cas_hr|escape}</td>
 </tr>
 <tr><td colspan="6">{$vzkaz|wordwrap:50:"\n":true|escape|nl2br}</td></tr>
@@ -25,7 +25,7 @@
 
 <p>
 <fieldset class="siroke">
-<legend>Zpráva</legend>
+<legend>ZprÃ¡va</legend>
 <textarea name="vzkaz" accesskey="k" tabindex="3">{$vzkaz|escape}</textarea>
 </fieldset>
 </p>
@@ -35,7 +35,7 @@
 <fieldset>
 <legend>Kon<u>t</u>rola spamu</legend>
 <ul>
-<li><label for="antispam" class="kratkypopis">{$antispam_otazka}:</label><input type="text" name="antispam" id="antispam" accesskey="t" tabindex="4" class="textbox" /><a class="info" href="#">?<span class="tooltip">Odpovìï na jednoduchou otázku slou¾í k odli¹ení lidí od robotù kteøí posílají spam. Odpovìï napi¹ èíslicí.</span></a></li>
+<li><label for="antispam" class="kratkypopis">{$antispam_otazka}:</label><input type="text" name="antispam" id="antispam" accesskey="t" tabindex="4" class="textbox" /><a class="info" href="#">?<span class="tooltip">OdpovÄ›Ä na jednoduchou otÃ¡zku slouÅ¾Ã­ k odliÅ¡enÃ­ lidÃ­ od robotÅ¯ kteÅ™Ã­ posÃ­lajÃ­ spam. OdpovÄ›Ä napiÅ¡ ÄÃ­slicÃ­.</span></a></li>
 </ul>
 </fieldset>
 </p>
@@ -43,24 +43,24 @@
 
 <p class="vpravo">
 {if $nahled}
-<input type="submit" name="nahled" value="Zobrazit náhled" class="knoflik" tabindex="5" />
+<input type="submit" name="nahled" value="Zobrazit nÃ¡hled" class="knoflik" tabindex="5" />
 <input type="submit" name="odeslat" value="Odeslat" class="knoflik" tabindex="5" />
 {else}
-<input type="submit" name="nahled" value="Zobrazit náhled" class="knoflik" tabindex="5" />
+<input type="submit" name="nahled" value="Zobrazit nÃ¡hled" class="knoflik" tabindex="5" />
 {/if}
 </p>
 
 </form>
 
-<h3>Ne¾ napí¹e¹ do diskuse</h3>
+<h3>NeÅ¾ napÃ­Å¡eÅ¡ do diskuse</h3>
 <p>
 <ul>
-<li>Pi¹ s háèky a èárkami. Del¹í text rozdìl do odstavcù. Pou¾ívej ve vìtách interpunkci.</li>
-<li>Pi¹ slu¹nì.</li>
-<li>Pro nalezení odpovìdí zkus nejprve <a href="{$smarty.const.SEARCH_URL}" title="Prohledávání ¾onglérova slabikáøe.">vyhledávání</a>.</li>
-<li>Zadávej ka¾dı dotaz pouze jednou.</li>
-<li>Odpovídej jenom na to, na co se tazatel ptal. Dr¾ se tématu.</li>
-<li>Pi¹ jen kdy¾ má¹ co øíct. Tato diskuse není chat ani zábavní server.</li>
+<li>PiÅ¡ s hÃ¡Äky a ÄÃ¡rkami. DelÅ¡Ã­ text rozdÄ›l do odstavcÅ¯. PouÅ¾Ã­vej ve vÄ›tÃ¡ch interpunkci.</li>
+<li>PiÅ¡ sluÅ¡nÄ›.</li>
+<li>Pro nalezenÃ­ odpovÄ›dÃ­ zkus nejprve <a href="{$smarty.const.SEARCH_URL}" title="ProhledÃ¡vÃ¡nÃ­ Å¾onglÃ©rova slabikÃ¡Å™e.">vyhledÃ¡vÃ¡nÃ­</a>.</li>
+<li>ZadÃ¡vej kaÅ¾dÃ½ dotaz pouze jednou.</li>
+<li>OdpovÃ­dej jenom na to, na co se tazatel ptal. DrÅ¾ se tÃ©matu.</li>
+<li>PiÅ¡ jen kdyÅ¾ mÃ¡Å¡ co Å™Ã­ct. Tato diskuse nenÃ­ chat ani zÃ¡bavnÃ­ server.</li>
 </ul>
 
 </p>

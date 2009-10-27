@@ -1,7 +1,7 @@
-<h2>Èím zaèít?</h2>
+<h2>ÄŒÃ­m zaÄÃ­t?</h2>
 
-<p>Nejlehèí trik se tøemi míèky je <a href="/micky/3/kaskada.html" title="Kaskáda se tøemi míèky.">kaskáda</a>, vìt¹ina ¾onglérù se ho nauèí jako první. Ne¾ se do toho pustí¹, poctivì trénuj s <a href="/micky/jak-zacit.html#jeden" title="Úplnı základ.">jedním</a> a <a href="/micky/jak-zacit.html#dva" title="Úplnı základ.">dvìma</a> míèky.</p>
+<p>NejlehÄÃ­ trik se tÅ™emi mÃ­Äky je <a href="/micky/3/kaskada.html" title="KaskÃ¡da se tÅ™emi mÃ­Äky.">kaskÃ¡da</a>, vÄ›tÅ¡ina Å¾onglÃ©rÅ¯ se ho nauÄÃ­ jako prvnÃ­. NeÅ¾ se do toho pustÃ­Å¡, poctivÄ› trÃ©nuj s <a href="/micky/jak-zacit.html#jeden" title="ÃšplnÃ½ zÃ¡klad.">jednÃ­m</a> a <a href="/micky/jak-zacit.html#dva" title="ÃšplnÃ½ zÃ¡klad.">dvÄ›ma</a> mÃ­Äky.</p>
 
-<p>Asi druhı nejlehèí trik je <a href="/micky/3/kaskada-reverzni.html" title="Reverzní kaskáda se tøemi míèky.">reverzní kaskáda</a>. Jak název napovídá je to trochu pozmìnìná kaskáda.</p>
+<p>Asi druhÃ½ nejlehÄÃ­ trik je <a href="/micky/3/kaskada-reverzni.html" title="ReverznÃ­ kaskÃ¡da se tÅ™emi mÃ­Äky.">reverznÃ­ kaskÃ¡da</a>. Jak nÃ¡zev napovÃ­dÃ¡ je to trochu pozmÄ›nÄ›nÃ¡ kaskÃ¡da.</p>
 
-<p>Pokraèovat dál mù¾e¹ napøíklad s <a href="/micky/3/tenis.html" title="Dal¹í jednoduchı trik.">tenisem</a> nebo <a href="/micky/3/sloupy.html" title="Dal¹í jednoduchı trik.">sloupy</a>. Zále¾í ale jenom na tobì co nauèí¹ døív a co pozdìji. Není ¾ádné pevnì dané poøadí.</p>
+<p>PokraÄovat dÃ¡l mÅ¯Å¾eÅ¡ napÅ™Ã­klad s <a href="/micky/3/tenis.html" title="DalÅ¡Ã­ jednoduchÃ½ trik.">tenisem</a> nebo <a href="/micky/3/sloupy.html" title="DalÅ¡Ã­ jednoduchÃ½ trik.">sloupy</a>. ZÃ¡leÅ¾Ã­ ale jenom na tobÄ› co nauÄÃ­Å¡ dÅ™Ã­v a co pozdÄ›ji. NenÃ­ Å¾Ã¡dnÃ© pevnÄ› danÃ© poÅ™adÃ­.</p>

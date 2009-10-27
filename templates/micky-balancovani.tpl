@@ -1,34 +1,34 @@
 <p>
-Pou¾ij pevnı kulatı míèek.
+PouÅ¾ij pevnÃ½ kulatÃ½ mÃ­Äek.
 </p>
 
 
 
 <p>
-{obrazek soubor="balanca.png" popisek="Balancování míèku na hlavì."}
-Balancovat mù¾e¹ na vr¹ku hlavy. Míèek pokládej na hlavu støídavì levou a pravou rukou.
+{obrazek soubor="balanca.png" popisek="BalancovÃ¡nÃ­ mÃ­Äku na hlavÄ›."}
+Balancovat mÅ¯Å¾eÅ¡ na vrÅ¡ku hlavy. MÃ­Äek poklÃ¡dej na hlavu stÅ™Ã­davÄ› levou a pravou rukou.
 </p>
 
 
 <p>
-{obrazek soubor="balancb.png" popisek="Balancování míèku na hlavì."}
-Balancování míèku s naklonìnou hlavou. Pro nìkoho snaz¹í, pro nìkoho naopak. Nejlep¹í je zkusit oboje.
+{obrazek soubor="balancb.png" popisek="BalancovÃ¡nÃ­ mÃ­Äku na hlavÄ›."}
+BalancovÃ¡nÃ­ mÃ­Äku s naklonÄ›nou hlavou. Pro nÄ›koho snazÅ¡Ã­, pro nÄ›koho naopak. NejlepÅ¡Ã­ je zkusit oboje.
 </p>
 
 
 <p>
-{obrazek soubor="balancc.png" popisek="Balancování míèku na hlavì."}
-S míèkem na hlavì mù¾e¹ ¾onglovat.
+{obrazek soubor="balancc.png" popisek="BalancovÃ¡nÃ­ mÃ­Äku na hlavÄ›."}
+S mÃ­Äkem na hlavÄ› mÅ¯Å¾eÅ¡ Å¾onglovat.
 </p>
 
 
 <p>
 {obrazek soubor="balancd.png" popisek="Pirueta."}
-Pirueta s míèkem na hlavì - velmi obtí¾né.
+Pirueta s mÃ­Äkem na hlavÄ› - velmi obtÃ­Å¾nÃ©.
 </p>
 
 
 <p>
-{obrazek soubor="balance.png" popisek="Balancování tøí míèkù."}
-Vıbornı trénink rovnováhy.
+{obrazek soubor="balance.png" popisek="BalancovÃ¡nÃ­ tÅ™Ã­ mÃ­ÄkÅ¯."}
+VÃ½bornÃ½ trÃ©nink rovnovÃ¡hy.
 </p>

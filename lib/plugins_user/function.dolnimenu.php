@@ -2,8 +2,8 @@
 
 function smarty_function_dolnimenu($params, &$smarty){
 	$adresy = array("/","/mapa-stranek.html","/kontakt.html","/podporte-zongleruv-slabikar.html");
-	$texty = array("Úvodní stránka","Mapa stránek","Kontakt","Podpoøte ¾onglérùv slabikáø");
-	$popis = array("®onglérùv slabikáø - Úvodní stránka","Mapa stránek zonglovani.info","Kontakt","Podpoøit ¾onglérùv slabikáø");
+	$texty = array("ÃšvodnÃ­ strÃ¡nka","Mapa strÃ¡nek","Kontakt","PodpoÅ™te Å¾onglÃ©rÅ¯v slabikÃ¡Å™");
+	$popis = array("Å½onglÃ©rÅ¯v slabikÃ¡Å™ - ÃšvodnÃ­ strÃ¡nka","Mapa strÃ¡nek zonglovani.info","Kontakt","PodpoÅ™it Å¾onglÃ©rÅ¯v slabikÃ¡Å™");
 
 	$navrat="";
 

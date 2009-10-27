@@ -5,26 +5,26 @@
 	     <nazev>PS - pass self</nazev>
 		 <pocet>6</pocet>
 	     <siteswaps>-</siteswaps>
-		 <obtiznost>tì¾¹í</obtiznost>
+		 <obtiznost>tÄ›Å¾Å¡Ã­</obtiznost>
 		 <oblast>kuzely-passing</oblast>
 	</about>
 
 	<krok>
-		<popisek>Trik pro dva ¾ongléry a ¹est ku¾elù.</popisek>
+		<popisek>Trik pro dva Å¾onglÃ©ry a Å¡est kuÅ¾elÅ¯.</popisek>
   </krok>
 
     <krok>
 			<obrazek>kuzely-passing-psa</obrazek>
-			<popisek>Zaèni se dvìma ku¾ely v pravé ruce. První hod je pass køí¾em z pravé ruky.</popisek>
+			<popisek>ZaÄni se dvÄ›ma kuÅ¾ely v pravÃ© ruce. PrvnÃ­ hod je pass kÅ™Ã­Å¾em z pravÃ© ruky.</popisek>
     </krok>
 
     <krok>
 			<obrazek>kuzely-passing-psb</obrazek>
-			<popisek>Druhı hod smìøuje z pravé ruky do levé. Uvolní¹ si tak pravou ruku pro chycení pøilétajícího ku¾elu.</popisek>
+			<popisek>DruhÃ½ hod smÄ›Å™uje z pravÃ© ruky do levÃ©. UvolnÃ­Å¡ si tak pravou ruku pro chycenÃ­ pÅ™ilÃ©tajÃ­cÃ­ho kuÅ¾elu.</popisek>
     </krok>
 
     <krok>
-			<popisek>Pokraèuj obdobnì levou rukou - pass køí¾em, self z levé ruky.</popisek>
+			<popisek>PokraÄuj obdobnÄ› levou rukou - pass kÅ™Ã­Å¾em, self z levÃ© ruky.</popisek>
     </krok>
 
 

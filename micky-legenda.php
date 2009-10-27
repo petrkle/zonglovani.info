@@ -1,8 +1,8 @@
 <?php
 require('init.php');
 
-$smarty->assign("titulek","Vysvìtlivky k obrázkùm - míèky");
-$smarty->assign("nadpis","Vysvìtlivky k obrázkùm");
+$smarty->assign("titulek","VysvÄ›tlivky k obrÃ¡zkÅ¯m - mÃ­Äky");
+$smarty->assign("nadpis","VysvÄ›tlivky k obrÃ¡zkÅ¯m");
 
 $smarty->display('hlavicka.tpl');
 $smarty->display('micky-legenda.tpl');

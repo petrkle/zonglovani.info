@@ -1,11 +1,11 @@
 {if isset($udalost)}
 {if $stare}
-<ul class="alert"><li><strong>Pozor:</strong> tato událost u¾ skonèila.</li></ul>
+<ul class="alert"><li><strong>Pozor:</strong> tato udÃ¡lost uÅ¾ skonÄila.</li></ul>
 {/if}
-<p><strong>Zaèátek</strong>: {$udalost.start_hr|escape}</p>
+<p><strong>ZaÄÃ¡tek</strong>: {$udalost.start_hr|escape}</p>
 <p><strong>Konec:</strong> {$udalost.end_hr|escape}</p>
 <p><strong>Popis</strong>: {$udalost.desc|escape}</p>
-<p><strong>Místo</strong>: {$udalost.misto|escape}{if $udalost.mapa} - <a href="{$udalost.mapa|escape}" onclick="pageTracker._trackPageview('/goto/{$udalost.mapa|replace:'http://':''|regex_replace:"/^www\./":""}');" title="Místo konání na mapì."{if eregi("^http://",$udalost.mapa)} class="external" rel="nofollow"{/if}>mapa</a>{/if}</p>
+<p><strong>MÃ­sto</strong>: {$udalost.misto|escape}{if $udalost.mapa} - <a href="{$udalost.mapa|escape}" onclick="pageTracker._trackPageview('/goto/{$udalost.mapa|replace:'http://':''|regex_replace:"/^www\./":""}');" title="MÃ­sto konÃ¡nÃ­ na mapÄ›."{if eregi("^http://",$udalost.mapa)} class="external" rel="nofollow"{/if}>mapa</a>{/if}</p>
 
 {if $udalost.url}
 <p><strong>Odkaz</strong>: <a href="{$udalost.url_hr|escape}" onclick="pageTracker._trackPageview('/goto/{$udalost.url_hr|replace:'http://':''|regex_replace:"/^www\./":""}');"{if eregi("^http://",$udalost.url_hr)} class="external" rel="nofollow"{/if}>{$udalost.url|replace:'http://':''|regex_replace:"/^www\./":""|regex_replace:"/\/$/":""|truncate:40:"...":false|escape}</a></p>
@@ -27,9 +27,9 @@
 </p>
 </form>
 {else}
-<p><strong>Vlo¾il</strong>: <a href="{$smarty.const.LIDE_URL}{$udalost.vlozil|escape}.html" title="Podrobnosti o {$udalost.vlozil|escape}">{$udalost.vlozil|escape}</a> {$udalost.insert_hr|escape}</p>
+<p><strong>VloÅ¾il</strong>: <a href="{$smarty.const.LIDE_URL}{$udalost.vlozil|escape}.html" title="Podrobnosti o {$udalost.vlozil|escape}">{$udalost.vlozil|escape}</a> {$udalost.insert_hr|escape}</p>
 {if isset($udalost.update) and $udalost.update_hr!=$udalost.insert_hr}
-<p><strong>Poslední úprava</strong>: {$udalost.update_hr|escape}</p>
+<p><strong>PoslednÃ­ Ãºprava</strong>: {$udalost.update_hr|escape}</p>
 {/if}
 
 {/if}
@@ -38,5 +38,5 @@
 {/if}
 
 <p>
-<a href="{$udalost.month_url}" title="Návrat do kalendáøe.">&laquo; zpìt do kalendáøe</a>
+<a href="{$udalost.month_url}" title="NÃ¡vrat do kalendÃ¡Å™e.">&laquo; zpÄ›t do kalendÃ¡Å™e</a>
 </p>

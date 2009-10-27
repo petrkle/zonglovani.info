@@ -1,37 +1,37 @@
 <p>
-Obrázky znázoròují jak házet míèky, jejich dráhu a naèasování. Ke ka¾dému obrázku patøí vysvìtlující text umístìnı vpravo od nìj.
+ObrÃ¡zky znÃ¡zorÅˆujÃ­ jak hÃ¡zet mÃ­Äky, jejich drÃ¡hu a naÄasovÃ¡nÃ­. Ke kaÅ¾dÃ©mu obrÃ¡zku patÅ™Ã­ vysvÄ›tlujÃ­cÃ­ text umÃ­stÄ›nÃ½ vpravo od nÄ›j.
 </p>
 
-<h3>Míèky</h3>
+<h3>MÃ­Äky</h3>
 <p>
-{obrazek soubor="legendaa.png" popisek="Druhy míèkù."}
-Míèky jsou rozli¹eny barvou a èíslicí.
+{obrazek soubor="legendaa.png" popisek="Druhy mÃ­ÄkÅ¯."}
+MÃ­Äky jsou rozliÅ¡eny barvou a ÄÃ­slicÃ­.
 </p>
 
 
-<h3>Dráhy míèkù</h3>
+<h3>DrÃ¡hy mÃ­ÄkÅ¯</h3>
 <p>
-{obrazek soubor="legendab.png" popisek="Dráha míèku."}
-Dráha po které by míèek mìl letìt je vyznaèena pøeru¹ovanou èárou. ©ipka na konci urèuje smìr.
+{obrazek soubor="legendab.png" popisek="DrÃ¡ha mÃ­Äku."}
+DrÃ¡ha po kterÃ© by mÃ­Äek mÄ›l letÄ›t je vyznaÄena pÅ™eruÅ¡ovanou ÄÃ¡rou. Å ipka na konci urÄuje smÄ›r.
 </p>
 
 <h3>Ruce</h3>
 <p>
-{obrazek soubor="legendac.png" popisek="Pravá a levá ruka."}
-Pravá ruka je oznaèena písmenem P. Levá ruka písmenem L.
+{obrazek soubor="legendac.png" popisek="PravÃ¡ a levÃ¡ ruka."}
+PravÃ¡ ruka je oznaÄena pÃ­smenem P. LevÃ¡ ruka pÃ­smenem L.
 </p>
 
 <h3>Pohyby rukou</h3>
 <p>
-{obrazek soubor="legendad.png" popisek="Pohyb pravé ruky."}
-V nìkterıch pøípadech je zvlá¹» zdùraznìn pohyb rukou. Pøeru¹ovaná èára s ¹ipkou vede od písemného oznaèení ruky.
+{obrazek soubor="legendad.png" popisek="Pohyb pravÃ© ruky."}
+V nÄ›kterÃ½ch pÅ™Ã­padech je zvlÃ¡Å¡Å¥ zdÅ¯raznÄ›n pohyb rukou. PÅ™eruÅ¡ovanÃ¡ ÄÃ¡ra s Å¡ipkou vede od pÃ­semnÃ©ho oznaÄenÃ­ ruky.
 </p>
 
-<h3>Poloha tìla</h3>
+<h3>Poloha tÄ›la</h3>
 <p>
-{obrazek soubor="legendae.png" popisek="Zvednuté koleno."}
-U slo¾itìj¹ích trikù je pro názornost nakreslen i obrys postavy.
+{obrazek soubor="legendae.png" popisek="ZvednutÃ© koleno."}
+U sloÅ¾itÄ›jÅ¡Ã­ch trikÅ¯ je pro nÃ¡zornost nakreslen i obrys postavy.
 </p>
 
-<a href="#nahore" title="Pøesun na zaèátek stránky" class="nahoru">nahoru&nbsp;^^</a>
+<a href="#nahore" title="PÅ™esun na zaÄÃ¡tek strÃ¡nky" class="nahoru">nahoru&nbsp;^^</a>
 

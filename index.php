@@ -8,9 +8,9 @@ if(eregi("index\.php$",$_SERVER["REQUEST_URI"])){
 
 require('init.php');
 
-$smarty->assign("titulek","®onglérùv slabikáø");
+$smarty->assign("titulek","Å½onglÃ©rÅ¯v slabikÃ¡Å™");
 $smarty->assign("rsslink",'http://'.$_SERVER["SERVER_NAME"].'/zonglovani.rss');
-$smarty->assign("nadpis","Obrázková uèebnice ¾onglování");
+$smarty->assign("nadpis","ObrÃ¡zkovÃ¡ uÄebnice Å¾onglovÃ¡nÃ­");
 $smarty->assign("notitle",true);
 
 $smarty->display('hlavicka.tpl');

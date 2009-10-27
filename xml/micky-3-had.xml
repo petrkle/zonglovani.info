@@ -5,32 +5,32 @@
 	     <nazev>Had</nazev>
 		 <pocet>3</pocet>
 	     <siteswaps>55050</siteswaps>
-		 <obtiznost>tì¾ko proveditelné</obtiznost>
+		 <obtiznost>tÄ›Å¾ko proveditelnÃ©</obtiznost>
 		 <oblast>micky-3</oblast>
 	</about>
 
 	<krok>
-	    <popisek>Míèky létají za sebou (jako had). Efektní av¹ak velmi nároènı trik.</popisek>
+	    <popisek>MÃ­Äky lÃ©tajÃ­ za sebou (jako had). EfektnÃ­ avÅ¡ak velmi nÃ¡roÄnÃ½ trik.</popisek>
     </krok>
 
     <krok>
         <obrazek>hada</obrazek>
-        <popisek>Zaèni s jedním míèkem v pravé a se dvìma v levé ruce. První míèek vyhoï z pravé ruky.</popisek>
+        <popisek>ZaÄni s jednÃ­m mÃ­Äkem v pravÃ© a se dvÄ›ma v levÃ© ruce. PrvnÃ­ mÃ­Äek vyhoÄ z pravÃ© ruky.</popisek>
     </krok>
 
     <krok>
         <obrazek>hadb</obrazek>
-        <popisek>Kdy¾ je první míèek na vrcholu své dráhy, vyhoï pod nìj druhı míèek.</popisek>
+        <popisek>KdyÅ¾ je prvnÃ­ mÃ­Äek na vrcholu svÃ© drÃ¡hy, vyhoÄ pod nÄ›j druhÃ½ mÃ­Äek.</popisek>
     </krok>
 
     <krok>
         <obrazek>hadc</obrazek>
-        <popisek>A je¹tì tøetí. Je potøeba opravdu velká rychlost.</popisek>
+        <popisek>A jeÅ¡tÄ› tÅ™etÃ­. Je potÅ™eba opravdu velkÃ¡ rychlost.</popisek>
     </krok>
 
     <krok>
         <obrazek>hadd</obrazek>
-        <popisek>První míèek kterı jsi zachytil do levé ruky vyhoï hned zpátky. V ideálním pøípadì to stihne¹ je¹tì ne¾ do pravé ruky chytí¹ druhı míèek.</popisek>
+        <popisek>PrvnÃ­ mÃ­Äek kterÃ½ jsi zachytil do levÃ© ruky vyhoÄ hned zpÃ¡tky. V ideÃ¡lnÃ­m pÅ™Ã­padÄ› to stihneÅ¡ jeÅ¡tÄ› neÅ¾ do pravÃ© ruky chytÃ­Å¡ druhÃ½ mÃ­Äek.</popisek>
     </krok>
 
 

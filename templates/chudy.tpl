@@ -1,69 +1,69 @@
 <p>
-Chùdy pøiná¹ejí do ¾onglování ten pravı adrenalin. Tak¾e jak vyrobit chùdy?
+ChÅ¯dy pÅ™inÃ¡Å¡ejÃ­ do Å¾onglovÃ¡nÃ­ ten pravÃ½ adrenalin. TakÅ¾e jak vyrobit chÅ¯dy?
 </p>
 
-<h2>Materiál</h2>
+<h2>MateriÃ¡l</h2>
 <p>
 <ul>
-<li>2x døevìnı hranol 40x40x1500 mm</li>
+<li>2x dÅ™evÄ›nÃ½ hranol 40x40x1500 mm</li>
 <li>prkno 20x140x1500 mm</li>
 <li>plech 1,5 mm 70x600 mm</li>
-<li>vruty do døeva 60x6</li>
+<li>vruty do dÅ™eva 60x6</li>
 <li>karimatka</li>
-<li>páska na koberce</li>
-<li>starı plá¹» z bicyklu</li>
+<li>pÃ¡ska na koberce</li>
+<li>starÃ½ plÃ¡Å¡Å¥ z bicyklu</li>
 </ul>
 </p>
 
-<h2>Vıroba chùd</h2>
+<h2>VÃ½roba chÅ¯d</h2>
 <p>
-<a href="/img/s/stupacka.jpg">{obrazek soubor="stupacka-nahled.jpg" popisek="Stupaèka chùdy"}</a>
-Z prkna vyøe¾ stupaèku a podpìry.
+<a href="/img/s/stupacka.jpg">{obrazek soubor="stupacka-nahled.jpg" popisek="StupaÄka chÅ¯dy"}</a>
+Z prkna vyÅ™eÅ¾ stupaÄku a podpÄ›ry.
 </p>
 
 <p>
-<a href="/img/s/stupacka2.jpg">{obrazek soubor="stupacka2-nahled.jpg" popisek="Stupaèka chùdy"}</a>
-Pøi¹roubuj je na hranol. Stupaèka je metr nad zemí.
+<a href="/img/s/stupacka2.jpg">{obrazek soubor="stupacka2-nahled.jpg" popisek="StupaÄka chÅ¯dy"}</a>
+PÅ™iÅ¡roubuj je na hranol. StupaÄka je metr nad zemÃ­.
 </p>
 
 <p>
-<a href="/img/k/konec.jpg">{obrazek soubor="konec-nahled.jpg" popisek="Konec chùdy"}</a>
-Konec chùdy chrání starı plá¹» z bicyklu.
+<a href="/img/k/konec.jpg">{obrazek soubor="konec-nahled.jpg" popisek="Konec chÅ¯dy"}</a>
+Konec chÅ¯dy chrÃ¡nÃ­ starÃ½ plÃ¡Å¡Å¥ z bicyklu.
 </p>
 
 <p>
-<a href="/img/u/uchyt.jpg">{obrazek soubor="uchyt-nahled.jpg" popisek="Úchyt nohy"}</a>
-Objímka na nohu = plech, karimatka a páska na koberce.
+<a href="/img/u/uchyt.jpg">{obrazek soubor="uchyt-nahled.jpg" popisek="Ãšchyt nohy"}</a>
+ObjÃ­mka na nohu = plech, karimatka a pÃ¡ska na koberce.
 </p>
 
 <p>
-<a href="/img/c/chuda.jpg">{obrazek soubor="chuda-nahled.jpg" popisek="Chùda"}</a>
-Chùda v celé své kráse.
+<a href="/img/c/chuda.jpg">{obrazek soubor="chuda-nahled.jpg" popisek="ChÅ¯da"}</a>
+ChÅ¯da v celÃ© svÃ© krÃ¡se.
 </p>
 
-<h2>Chození na chùdách</h2>
+<h2>ChozenÃ­ na chÅ¯dÃ¡ch</h2>
 <p>
 <ol>
-<li>Chùdy si pøipevni k noze pomocí pruhù látky.</li>
-<li>Se¾eò nìkoho kdo tì bude chytat.</li>
+<li>ChÅ¯dy si pÅ™ipevni k noze pomocÃ­ pruhÅ¯ lÃ¡tky.</li>
+<li>SeÅ¾eÅˆ nÄ›koho kdo tÄ› bude chytat.</li>
 </ol>
 </p>
 <p>
-Na chùdách se chodí jako kdy¾ ¹lape¹ zelí. Staèí poøádnì zvedat kolena a nemù¾e¹ spadnout :-)
+Na chÅ¯dÃ¡ch se chodÃ­ jako kdyÅ¾ Å¡lapeÅ¡ zelÃ­. StaÄÃ­ poÅ™Ã¡dnÄ› zvedat kolena a nemÅ¯Å¾eÅ¡ spadnout :-)
 </p>
 
 <h2>Tipy a triky</h2>
 <p>
 <ul>
-<li>U¹ij si dlouhé chùdaøské kalhoty.</li>
-<li>Pøi¹roubuj na stupaèku pevnou botu.</li>
+<li>UÅ¡ij si dlouhÃ© chÅ¯daÅ™skÃ© kalhoty.</li>
+<li>PÅ™iÅ¡roubuj na stupaÄku pevnou botu.</li>
 </ul>
 </p>
 
-<h3>Chùdaøskı prùkaz</h3>
+<h3>ChÅ¯daÅ™skÃ½ prÅ¯kaz</h3>
 <p>
 <ul>
-<li><a href="../chudarsky-prukaz.pdf" title="Portable Document Format" onclick="pageTracker._trackPageview('/chudarsky-prukaz.pdf');">Chùdaøskı prùkaz - PDF</a> - 20kB</li>
-<li><a href="../chudarsky-prukaz.odt" title="Open Document Text" onclick="pageTracker._trackPageview('/chudarsky-prukaz.odt');">Chùdaøskı prùkaz - ODT</a> - 10kB</li>
+<li><a href="../chudarsky-prukaz.pdf" title="Portable Document Format" onclick="pageTracker._trackPageview('/chudarsky-prukaz.pdf');">ChÅ¯daÅ™skÃ½ prÅ¯kaz - PDF</a> - 20kB</li>
+<li><a href="../chudarsky-prukaz.odt" title="Open Document Text" onclick="pageTracker._trackPageview('/chudarsky-prukaz.odt');">ChÅ¯daÅ™skÃ½ prÅ¯kaz - ODT</a> - 10kB</li>
 </ul>
 </p>

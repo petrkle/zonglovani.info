@@ -1,65 +1,65 @@
 <p>
-Míèky jsou nejjednodu¹¹í náèiní. Snadno se há¾ou i chytají.
+MÃ­Äky jsou nejjednoduÅ¡Å¡Ã­ nÃ¡ÄinÃ­. Snadno se hÃ¡Å¾ou i chytajÃ­.
 </p>
 
 
-<h3><a href="/micky/jak-zacit.html" title="Jak zaèít ¾onglovat s míèky.">Jak zaèít ¾onglovat s míèky</a></h3>
+<h3><a href="/micky/jak-zacit.html" title="Jak zaÄÃ­t Å¾onglovat s mÃ­Äky.">Jak zaÄÃ­t Å¾onglovat s mÃ­Äky</a></h3>
 <p>
-Jak zaèít ¾onglovat s míèky.
+Jak zaÄÃ­t Å¾onglovat s mÃ­Äky.
 </p>
 
 
-<h3><a href="/micky/druhy.html" title="Míèky pro ¾ongléry.">Druhy míèkù</a></h3>
+<h3><a href="/micky/druhy.html" title="MÃ­Äky pro Å¾onglÃ©ry.">Druhy mÃ­ÄkÅ¯</a></h3>
 <p>
-Popis rùznı druhù míèkù.
+Popis rÅ¯znÃ½ druhÅ¯ mÃ­ÄkÅ¯.
 </p>
 
-<h3><a href="/micky/vyroba.html" title="Vıroba míèkù na ¾onglování.">Vıroba míèkù</a></h3>
+<h3><a href="/micky/vyroba.html" title="VÃ½roba mÃ­ÄkÅ¯ na Å¾onglovÃ¡nÃ­.">VÃ½roba mÃ­ÄkÅ¯</a></h3>
 <p>
-Pìkné míèky snadno a rychle.
+PÄ›knÃ© mÃ­Äky snadno a rychle.
 </p>
 
-<h3><a href="/micky/balancovani.html" title="Balancování míèku.">Balancování míèku</a></h3>
+<h3><a href="/micky/balancovani.html" title="BalancovÃ¡nÃ­ mÃ­Äku.">BalancovÃ¡nÃ­ mÃ­Äku</a></h3>
 <p>
-Balancování míèku - tøeba na hlavì.
+BalancovÃ¡nÃ­ mÃ­Äku - tÅ™eba na hlavÄ›.
 </p>
 
-<h3><a href="/micky/kick-up.html" title="Zvednutí míèku nohou.">Zvednutí míèku nohou</a></h3>
+<h3><a href="/micky/kick-up.html" title="ZvednutÃ­ mÃ­Äku nohou.">ZvednutÃ­ mÃ­Äku nohou</a></h3>
 <p>
-Elegantní zpùsob jak zvednout míèek ze zemì.
+ElegantnÃ­ zpÅ¯sob jak zvednout mÃ­Äek ze zemÄ›.
 </p>
 
-<h3><a href="/micky/sbirani.html" title="Sbírání spadlıch míèkù.">Sbírání spadlıch míèkù</a></h3>
+<h3><a href="/micky/sbirani.html" title="SbÃ­rÃ¡nÃ­ spadlÃ½ch mÃ­ÄkÅ¯.">SbÃ­rÃ¡nÃ­ spadlÃ½ch mÃ­ÄkÅ¯</a></h3>
 <p>
-Kdy¾ ti spadne míèek, nepøestávej ¾onglovat.
+KdyÅ¾ ti spadne mÃ­Äek, nepÅ™estÃ¡vej Å¾onglovat.
 </p>
 
-<h3><a href="/micky/poslepu.html" title="®onglování poslepu.">®onglování poslepu</a></h3>
+<h3><a href="/micky/poslepu.html" title="Å½onglovÃ¡nÃ­ poslepu.">Å½onglovÃ¡nÃ­ poslepu</a></h3>
 <p>
-Mù¾e to znít neuvìøitelnì, ale jde to.
+MÅ¯Å¾e to znÃ­t neuvÄ›Å™itelnÄ›, ale jde to.
 </p>
 
-<h3><a href="/micky/pirueta.html" title="Pirueta pøi ¾onglování.">Pirueta</a></h3>
+<h3><a href="/micky/pirueta.html" title="Pirueta pÅ™i Å¾onglovÃ¡nÃ­.">Pirueta</a></h3>
 <p>
-Zatímco míèky letí, má¹ dost èasu i na piruetu.
+ZatÃ­mco mÃ­Äky letÃ­, mÃ¡Å¡ dost Äasu i na piruetu.
 </p>
 
-<h3><a href="/micky/passing-mm.html" title="®onglování ve dvou lidech.">Passing s míèky - mills' mess</a></h3>
+<h3><a href="/micky/passing-mm.html" title="Å½onglovÃ¡nÃ­ ve dvou lidech.">Passing s mÃ­Äky - mills' mess</a></h3>
 <p>
-Ka¾dı chce umìt <a href="/micky/3/mm.html" title="nároèné">Mills' mess</a>, ale ty ho mù¾e¹ umìt ve dvou.
+KaÅ¾dÃ½ chce umÄ›t <a href="/micky/3/mm.html" title="nÃ¡roÄnÃ©">Mills' mess</a>, ale ty ho mÅ¯Å¾eÅ¡ umÄ›t ve dvou.
 </p>
 
-<h3><a href="/micky/vajicka.html" title="®onglování s vajíèky.">Vajíèka</a></h3>
+<h3><a href="/micky/vajicka.html" title="Å½onglovÃ¡nÃ­ s vajÃ­Äky.">VajÃ­Äka</a></h3>
 <p>
-Jsou ¹i¹atá, køehká a nadìlají spoustu nepoøádku. Av¹ak, kdo by odolal?
+Jsou Å¡iÅ¡atÃ¡, kÅ™ehkÃ¡ a nadÄ›lajÃ­ spoustu nepoÅ™Ã¡dku. AvÅ¡ak, kdo by odolal?
 </p>
 
-<h3><a href="/micky/drop.html" title="Jak dostat míèky ze zemì zpátky do vzduchu.">Míèky na zemi</a></h3>
+<h3><a href="/micky/drop.html" title="Jak dostat mÃ­Äky ze zemÄ› zpÃ¡tky do vzduchu.">MÃ­Äky na zemi</a></h3>
 <p>
-Míèky se dostanou na zem velmi snadno a rychle, staèí chvilka nepozornosti. Tak¾e co dìlat kdy¾ u¾ se to stane?
+MÃ­Äky se dostanou na zem velmi snadno a rychle, staÄÃ­ chvilka nepozornosti. TakÅ¾e co dÄ›lat kdyÅ¾ uÅ¾ se to stane?
 </p>
 
-<h3><a href="/micky/legenda.html" title="Vysvìtlivky k obrázkùm.">Legenda</a></h3>
+<h3><a href="/micky/legenda.html" title="VysvÄ›tlivky k obrÃ¡zkÅ¯m.">Legenda</a></h3>
 <p>
-Vysvìtlivky k obrázkùm.
+VysvÄ›tlivky k obrÃ¡zkÅ¯m.
 </p>

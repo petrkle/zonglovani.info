@@ -5,32 +5,32 @@
 	     <nazev>See saw</nazev>
 		 <pocet>3</pocet>
 	     <siteswaps>-</siteswaps>
-		 <obtiznost>obtí¾né</obtiznost>
+		 <obtiznost>obtÃ­Å¾nÃ©</obtiznost>
 		 <oblast>micky-3</oblast>
 	</about>
 
 	<krok>
-	    <popisek>Trik známı také pod anglickım názvem - box (krabice).</popisek>
+	    <popisek>Trik znÃ¡mÃ½ takÃ© pod anglickÃ½m nÃ¡zvem - box (krabice).</popisek>
     </krok>
 
     <krok>
         <obrazek>seesawa</obrazek>
-        <popisek>Zaèni se dvìma míèky v pravé ruce. První míèek vyhoï rovnì nahoru.</popisek>
+        <popisek>ZaÄni se dvÄ›ma mÃ­Äky v pravÃ© ruce. PrvnÃ­ mÃ­Äek vyhoÄ rovnÄ› nahoru.</popisek>
     </krok>
 
     <krok>
         <obrazek>seesawb</obrazek>
-        <popisek>Kdy¾ je první míèek na vrcholu své dráhy vyhoï druhı míèek vodorovnì a tøetí míèek nahoru.</popisek>
+        <popisek>KdyÅ¾ je prvnÃ­ mÃ­Äek na vrcholu svÃ© drÃ¡hy vyhoÄ druhÃ½ mÃ­Äek vodorovnÄ› a tÅ™etÃ­ mÃ­Äek nahoru.</popisek>
     </krok>
 
     <krok>
         <obrazek>seesawc</obrazek>
-        <popisek>Zatím co tøetí míèek je¹tì stoupá chytá¹ první a druhı míèek.</popisek>
+        <popisek>ZatÃ­m co tÅ™etÃ­ mÃ­Äek jeÅ¡tÄ› stoupÃ¡ chytÃ¡Å¡ prvnÃ­ a druhÃ½ mÃ­Äek.</popisek>
     </krok>
 
     <krok>
         <obrazek>seesawd</obrazek>
-        <popisek>Kdy¾ je tøetí míèek na vrcholu své dráhy vyhoï druhı míèek vodorovnì a první míèek nahoru.</popisek>
+        <popisek>KdyÅ¾ je tÅ™etÃ­ mÃ­Äek na vrcholu svÃ© drÃ¡hy vyhoÄ druhÃ½ mÃ­Äek vodorovnÄ› a prvnÃ­ mÃ­Äek nahoru.</popisek>
     </krok>
 
 

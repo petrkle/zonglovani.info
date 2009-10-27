@@ -1,3 +1,3 @@
-<h2>Èím zaèít?</h2>
+<h2>ÄŒÃ­m zaÄÃ­t?</h2>
 
-<p>Nejlehèí trik se ètyømi míèky je <a href="/micky/4/fontana.html" title="Nejlehèí trik se ètyømi míèky.">fontána</a>. Relativnì snadné jsou té¾ <a href="/micky/4/sloupy.html" title="Trik se ètyømi míèky.">sloupy</a> nebo <a href="/micky/4/fontana-synchronni.html" title="Trik se ètyømi míèky.">synchronní fontána</a>.</p>
+<p>NejlehÄÃ­ trik se ÄtyÅ™mi mÃ­Äky je <a href="/micky/4/fontana.html" title="NejlehÄÃ­ trik se ÄtyÅ™mi mÃ­Äky.">fontÃ¡na</a>. RelativnÄ› snadnÃ© jsou tÃ©Å¾ <a href="/micky/4/sloupy.html" title="Trik se ÄtyÅ™mi mÃ­Äky.">sloupy</a> nebo <a href="/micky/4/fontana-synchronni.html" title="Trik se ÄtyÅ™mi mÃ­Äky.">synchronnÃ­ fontÃ¡na</a>.</p>

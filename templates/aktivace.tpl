@@ -1,7 +1,7 @@
 <p>
 {if !isset($chyba)}
-Na tvùj e-mail ({$smarty.session.reg_email|escape}) byla odeslána zpráva potøebná k dokonèení registrace.
+Na tvÅ¯j e-mail ({$smarty.session.reg_email|escape}) byla odeslÃ¡na zprÃ¡va potÅ™ebnÃ¡ k dokonÄenÃ­ registrace.
 {else}
-Jejda. Vytváøení úètu selhalo.
+Jejda. VytvÃ¡Å™enÃ­ ÃºÄtu selhalo.
 {/if}
 </p>

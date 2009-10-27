@@ -1,89 +1,89 @@
-<h3><a href="/zakladni-pojmy.html" title="Základní pojmy v ¾onglování.">Základní pojmy</a></h3>
+<h3><a href="/zakladni-pojmy.html" title="ZÃ¡kladnÃ­ pojmy v Å¾onglovÃ¡nÃ­.">ZÃ¡kladnÃ­ pojmy</a></h3>
 <p>
-Základní pojmy v ¾onglování.
+ZÃ¡kladnÃ­ pojmy v Å¾onglovÃ¡nÃ­.
 </p>
 
-<h3><a href="/nacini.html" title="®onglérské náèiní.">®onglérské náèiní</a></h3>
+<h3><a href="/nacini.html" title="Å½onglÃ©rskÃ© nÃ¡ÄinÃ­.">Å½onglÃ©rskÃ© nÃ¡ÄinÃ­</a></h3>
 <p>
-®onglovat mù¾e¹ se spoustou vìcí.
+Å½onglovat mÅ¯Å¾eÅ¡ se spoustou vÄ›cÃ­.
 </p>
 
-<h3><a href="/druhy-zonglovani.html" title="Rùzné zpùsoby ¾onglování.">Druhy ¾onglování</a></h3>
+<h3><a href="/druhy-zonglovani.html" title="RÅ¯znÃ© zpÅ¯soby Å¾onglovÃ¡nÃ­.">Druhy Å¾onglovÃ¡nÃ­</a></h3>
 <p>
-®onglovat mù¾e¹ mnoha zpùsoby.
+Å½onglovat mÅ¯Å¾eÅ¡ mnoha zpÅ¯soby.
 </p>
 
-<h3><a href="/cirkusove-discipliny.html" title="Cirkusové disciplíny.">Cirkusové disciplíny</a></h3>
+<h3><a href="/cirkusove-discipliny.html" title="CirkusovÃ© disciplÃ­ny.">CirkusovÃ© disciplÃ­ny</a></h3>
 <p>
-Dovednosti které na první pohled nemusí s ¾onglováním souviset.
+Dovednosti kterÃ© na prvnÃ­ pohled nemusÃ­ s Å¾onglovÃ¡nÃ­m souviset.
 </p>
 
-<h3><a href="/faq.html" title="FAQ">Èasto kladené otázky</a></h3>
+<h3><a href="/faq.html" title="FAQ">ÄŒasto kladenÃ© otÃ¡zky</a></h3>
 <p>
-Otázky na které se lidé èasto ptají v souvislosti s ¾onglováním.
+OtÃ¡zky na kterÃ© se lidÃ© Äasto ptajÃ­ v souvislosti s Å¾onglovÃ¡nÃ­m.
 </p>
 
-<h3><a href="/horoskop/" title="Horoskop pro ¾ongléry.">Horoskop ¾onglování</a></h3>
+<h3><a href="/horoskop/" title="Horoskop pro Å¾onglÃ©ry.">Horoskop Å¾onglovÃ¡nÃ­</a></h3>
 <p>
-Horoskop ¾onglování ti poradí nejvhodnìj¹í triky pro trénink.
+Horoskop Å¾onglovÃ¡nÃ­ ti poradÃ­ nejvhodnÄ›jÅ¡Ã­ triky pro trÃ©nink.
 </p>
 
-<h3><a href="/literatura.html" title="Nìco ke ètení.">Literatura</a></h3>
+<h3><a href="/literatura.html" title="NÄ›co ke ÄtenÃ­.">Literatura</a></h3>
 <p>
-Kní¾ky o ¾onglování.
+KnÃ­Å¾ky o Å¾onglovÃ¡nÃ­.
 </p>
 
-<h3><a href="/siteswap.html" title="®onglování s èísly.">Siteswap</a></h3>
+<h3><a href="/siteswap.html" title="Å½onglovÃ¡nÃ­ s ÄÃ­sly.">Siteswap</a></h3>
 <p>
-Noty pro ¾onglování. Osvìtlí ti zápis ¾onglování èísly.
+Noty pro Å¾onglovÃ¡nÃ­. OsvÄ›tlÃ­ ti zÃ¡pis Å¾onglovÃ¡nÃ­ ÄÃ­sly.
 </p>
 
-<h3><a href="/software.html" title="Simulátory ¾onglování.">Simulátory ¾onglování</a></h3>
+<h3><a href="/software.html" title="SimulÃ¡tory Å¾onglovÃ¡nÃ­.">SimulÃ¡tory Å¾onglovÃ¡nÃ­</a></h3>
 <p>
-Poèítaèové programy které kreslí animace ¾onglování.
+PoÄÃ­taÄovÃ© programy kterÃ© kreslÃ­ animace Å¾onglovÃ¡nÃ­.
 </p>
 
-<h3><a href="/aczslovnicek.html" title="Nìkolik slovíèek.">Anglicko-èeskı ¾onglérskı slovníèek</a></h3>
+<h3><a href="/aczslovnicek.html" title="NÄ›kolik slovÃ­Äek.">Anglicko-ÄeskÃ½ Å¾onglÃ©rskÃ½ slovnÃ­Äek</a></h3>
 <p>
-Nìkolik slovíèek které se èasto vyskytují v anglicky psanıch textech o ¾onglování.
+NÄ›kolik slovÃ­Äek kterÃ© se Äasto vyskytujÃ­ v anglicky psanÃ½ch textech o Å¾onglovÃ¡nÃ­.
 </p>
 
-<h3><a href="/trenink.html" title="Trénuj, trénuj, trénuj.">Trénink</a></h3>
+<h3><a href="/trenink.html" title="TrÃ©nuj, trÃ©nuj, trÃ©nuj.">TrÃ©nink</a></h3>
 <p>
-Pravidelnı trénink je základ.
+PravidelnÃ½ trÃ©nink je zÃ¡klad.
 </p>
 
-<h3><a href="/chudy/" title="®onglování na chùdách">Chùdy</a></h3>
+<h3><a href="/chudy/" title="Å½onglovÃ¡nÃ­ na chÅ¯dÃ¡ch">ChÅ¯dy</a></h3>
 <p>
-®onglování na chùdách.
+Å½onglovÃ¡nÃ­ na chÅ¯dÃ¡ch.
 </p>
 
-<h3><a href="/odkazy.html" title="Odkazy.">®onglování na síti</a></h3>
+<h3><a href="/odkazy.html" title="Odkazy.">Å½onglovÃ¡nÃ­ na sÃ­ti</a></h3>
 <p>
-Odkazy na stránky vìnované ¾onglování.
+Odkazy na strÃ¡nky vÄ›novanÃ© Å¾onglovÃ¡nÃ­.
 </p>
 
-<h3><a href="/myty-omyly.html" title="Mıty a omyly o ¾onglování.">Mıty a omyly</a></h3>
+<h3><a href="/myty-omyly.html" title="MÃ½ty a omyly o Å¾onglovÃ¡nÃ­.">MÃ½ty a omyly</a></h3>
 <p>
-Mıty a omyly o ¾onglování.
+MÃ½ty a omyly o Å¾onglovÃ¡nÃ­.
 </p>
 
-<h3><a href="/proc-a-jak.html" title="Proè a jak vznikl ¾onglérùv slabikáø.">Proè a jak vznikl ¾onglérùv slabikáø</a></h3>
+<h3><a href="/proc-a-jak.html" title="ProÄ a jak vznikl Å¾onglÃ©rÅ¯v slabikÃ¡Å™.">ProÄ a jak vznikl Å¾onglÃ©rÅ¯v slabikÃ¡Å™</a></h3>
 <p>
 Trocha historie.
 </p>
 
-<h3><a href="/changelog.html" title="Zmìny v ¾onglérovì slabikáøi.">Zmìny v ¾onglérovì slabikáøi</a></h3>
+<h3><a href="/changelog.html" title="ZmÄ›ny v Å¾onglÃ©rovÄ› slabikÃ¡Å™i.">ZmÄ›ny v Å¾onglÃ©rovÄ› slabikÃ¡Å™i</a></h3>
 <p>
-Vıpis zmìn v ¾onglérovì slabikáøi (svn&nbsp;log).
+VÃ½pis zmÄ›n v Å¾onglÃ©rovÄ› slabikÃ¡Å™i (svn&nbsp;log).
 </p>
 
-<h3><a href="{$smarty.const.LIDE_URL}" title="Seznam ¾onglérù.">U¾ivatelské úèty</a></h3>
+<h3><a href="{$smarty.const.LIDE_URL}" title="Seznam Å¾onglÃ©rÅ¯.">UÅ¾ivatelskÃ© ÃºÄty</a></h3>
 <p>
-Seznam ¾onglérù kteøí mají úèet v ¾onglérovì slabikáøi.
+Seznam Å¾onglÃ©rÅ¯ kteÅ™Ã­ majÃ­ ÃºÄet v Å¾onglÃ©rovÄ› slabikÃ¡Å™i.
 </p>
 
-<h3><a href="/rss.html" title="RSS exporty.">RSS kanály</a></h3>
+<h3><a href="/rss.html" title="RSS exporty.">RSS kanÃ¡ly</a></h3>
 <p>
-Upozoròování na novinky v ¾onglérovì slabikáøi.
+UpozorÅˆovÃ¡nÃ­ na novinky v Å¾onglÃ©rovÄ› slabikÃ¡Å™i.
 </p>

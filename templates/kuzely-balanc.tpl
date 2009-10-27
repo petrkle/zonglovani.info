@@ -1,8 +1,8 @@
 <p>
-S ku¾ely se nemusí jenom házet. Mù¾e¹ je balancovat na bradì, nose, ¹pièce boty, ...
+S kuÅ¾ely se nemusÃ­ jenom hÃ¡zet. MÅ¯Å¾eÅ¡ je balancovat na bradÄ›, nose, Å¡piÄce boty, ...
 </p>
 
 <p>
-{obrazek soubor="kuzely-balanca.png" popisek="Balancování ku¾elu na nose."}
-Postav si ku¾el u¾¹ím koncem na ¹pièku nosu a udr¾uj rovnováhu.
+{obrazek soubor="kuzely-balanca.png" popisek="BalancovÃ¡nÃ­ kuÅ¾elu na nose."}
+Postav si kuÅ¾el uÅ¾Å¡Ã­m koncem na Å¡piÄku nosu a udrÅ¾uj rovnovÃ¡hu.
 </p>

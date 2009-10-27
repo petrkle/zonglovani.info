@@ -1,47 +1,47 @@
 <p>
-Elegantní zpùsob jak zvednout míèek ze zemì.
+ElegantnÃ­ zpÅ¯sob jak zvednout mÃ­Äek ze zemÄ›.
 </p>
 
 
 
 <p>
-{obrazek soubor="kickupa.png" popisek="Míèek na zemi."}
-Míèek le¾í na zemi.
+{obrazek soubor="kickupa.png" popisek="MÃ­Äek na zemi."}
+MÃ­Äek leÅ¾Ã­ na zemi.
 </p>
 
 <p>
-{obrazek soubor="kickupb.png" popisek="Posunutí míèku."}
-Lehce si na míèek stoupni. Posuò nohu k sobì.
-</p>
-
-
-<p>
-{obrazek soubor="kickupc.png" popisek="Míèek se kutálí."}
-Míèek se roztoèí a zaène se kutálet smìrem k noze.
-</p>
-
-<p>
-{obrazek soubor="kickupd.png" popisek="Míèek na noze."}
-Poèkej a¾ se míèek dostane na nárt. Tìsnì za prsty na noze.
+{obrazek soubor="kickupb.png" popisek="PosunutÃ­ mÃ­Äku."}
+Lehce si na mÃ­Äek stoupni. PosuÅˆ nohu k sobÄ›.
 </p>
 
 
 <p>
-{obrazek soubor="kickupe.png" popisek="Míèek na noze."}
-Pohled shora na pøedchozí obrázek. Míèek je na vnìj¹í stranì nártu.
+{obrazek soubor="kickupc.png" popisek="MÃ­Äek se kutÃ¡lÃ­."}
+MÃ­Äek se roztoÄÃ­ a zaÄne se kutÃ¡let smÄ›rem k noze.
+</p>
+
+<p>
+{obrazek soubor="kickupd.png" popisek="MÃ­Äek na noze."}
+PoÄkej aÅ¾ se mÃ­Äek dostane na nÃ¡rt. TÄ›snÄ› za prsty na noze.
 </p>
 
 
 <p>
-{obrazek soubor="kickupf.png" popisek="Vykopnutí míèku."}
-Vykopni nohou ¹ikmo dozadu a do strany. Správnı okam¾ik, smìr a rychlost vykopnutí zjistí¹ jedinì tréninkem. Li¹í se podle obuvi a míèku.
-</p>
-
-<p>
-Ze zaèátku trénuj naboso - je to snaz¹í. Nezapomeò zkou¹et pravou i levou nohu.
+{obrazek soubor="kickupe.png" popisek="MÃ­Äek na noze."}
+Pohled shora na pÅ™edchozÃ­ obrÃ¡zek. MÃ­Äek je na vnÄ›jÅ¡Ã­ stranÄ› nÃ¡rtu.
 </p>
 
 
 <p>
-Obdobnı postup mù¾e¹ pou¾ít pro <a href="/kuzely/kickup.html" title="Zvednutí ku¾elu nohou.">zvednutí ku¾elu</a>.
+{obrazek soubor="kickupf.png" popisek="VykopnutÃ­ mÃ­Äku."}
+Vykopni nohou Å¡ikmo dozadu a do strany. SprÃ¡vnÃ½ okamÅ¾ik, smÄ›r a rychlost vykopnutÃ­ zjistÃ­Å¡ jedinÄ› trÃ©ninkem. LiÅ¡Ã­ se podle obuvi a mÃ­Äku.
+</p>
+
+<p>
+Ze zaÄÃ¡tku trÃ©nuj naboso - je to snazÅ¡Ã­. NezapomeÅˆ zkouÅ¡et pravou i levou nohu.
+</p>
+
+
+<p>
+ObdobnÃ½ postup mÅ¯Å¾eÅ¡ pouÅ¾Ã­t pro <a href="/kuzely/kickup.html" title="ZvednutÃ­ kuÅ¾elu nohou.">zvednutÃ­ kuÅ¾elu</a>.
 </p>

@@ -1,4 +1,4 @@
-<a name="jmeno"></a><h3>Jméno</h3>
+<a name="jmeno"></a><h3>JmÃ©no</h3>
 <p>
 
 </p>
@@ -23,7 +23,7 @@
 
 </p>
 
-<a name="vzkazy"></a><h3>Vzkazy pøes formuláø</h3>
+<a name="vzkazy"></a><h3>Vzkazy pÅ™es formulÃ¡Å™</h3>
 <p>
 
 </p>

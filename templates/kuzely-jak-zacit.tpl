@@ -1,37 +1,37 @@
 <p>
-Míèky a kruhy u¾ jsou ti málo? Pak je èas na -- ku¾ely.
+MÃ­Äky a kruhy uÅ¾ jsou ti mÃ¡lo? Pak je Äas na -- kuÅ¾ely.
 </p>
 
-<h2>Jeden ku¾el</h2> 
+<h2>Jeden kuÅ¾el</h2> 
 <p>
-Zaèni s jedním ku¾elem v pravé ruce.
+ZaÄni s jednÃ­m kuÅ¾elem v pravÃ© ruce.
 </p>
 
 <p>
 {obrazek soubor="kuzely-zacateka.png" popisek=""}
-Ku¾el uchop v horní polovinì dr¾adla. Hoï ho rovnì nahoru a sleduj co se stane.
+KuÅ¾el uchop v hornÃ­ polovinÄ› drÅ¾adla. HoÄ ho rovnÄ› nahoru a sleduj co se stane.
 </p>
 
 <p>
 {obrazek soubor="kuzely-zacatekb.png" popisek=""}
-Ku¾el se ve vzduchu jednou otoèí.
+KuÅ¾el se ve vzduchu jednou otoÄÃ­.
 </p>
 
 <p>
 {obrazek soubor="kuzely-zacatekc.png" popisek=""}
-A spadne ti dr¾adlem zpìt do dlanì. ©vihem zápìstí a pøedloktí ovlivní¹ vı¹ku a rychlost rotace ku¾elu.
+A spadne ti drÅ¾adlem zpÄ›t do dlanÄ›. Å vihem zÃ¡pÄ›stÃ­ a pÅ™edloktÃ­ ovlivnÃ­Å¡ vÃ½Å¡ku a rychlost rotace kuÅ¾elu.
 </p>
 
 <p>
-Házej s ku¾elem v pravé i levé ruce. Pak zkus ku¾el vyhodit pravou a chytit do levé ruky. 
+HÃ¡zej s kuÅ¾elem v pravÃ© i levÃ© ruce. Pak zkus kuÅ¾el vyhodit pravou a chytit do levÃ© ruky. 
 </p>
 
-<h2>Dva ku¾ely</h2> 
+<h2>Dva kuÅ¾ely</h2> 
 <p>
-Postup je podobnı zaèátkùm s <a href="/micky/jak-zacit.html#dva" title="Postup se dvìma míèky.">míèky</a> a <a href="/kruhy/jak-zacit.html#dva" title="Postup se dvìma kruhy.">kruhy</a>. Vyhodí¹ ku¾el z jedné ruky a kdy¾ je nejvı¹ prohodí¹ pod ním druhı ku¾el. Trénuj ¾onglování se dvìma ku¾ely a jedním míèkem. Nebo s ku¾elem, míèkem a kruhem. Nauè se také <a href="/kuzely/grip.html" title="Jak dr¾et v jedné ruce dva ku¾ely.">dr¾et dva ku¾ely v jedné ruce</a>, vyhazovat je a chytat.
+Postup je podobnÃ½ zaÄÃ¡tkÅ¯m s <a href="/micky/jak-zacit.html#dva" title="Postup se dvÄ›ma mÃ­Äky.">mÃ­Äky</a> a <a href="/kruhy/jak-zacit.html#dva" title="Postup se dvÄ›ma kruhy.">kruhy</a>. VyhodÃ­Å¡ kuÅ¾el z jednÃ© ruky a kdyÅ¾ je nejvÃ½Å¡ prohodÃ­Å¡ pod nÃ­m druhÃ½ kuÅ¾el. TrÃ©nuj Å¾onglovÃ¡nÃ­ se dvÄ›ma kuÅ¾ely a jednÃ­m mÃ­Äkem. Nebo s kuÅ¾elem, mÃ­Äkem a kruhem. NauÄ se takÃ© <a href="/kuzely/grip.html" title="Jak drÅ¾et v jednÃ© ruce dva kuÅ¾ely.">drÅ¾et dva kuÅ¾ely v jednÃ© ruce</a>, vyhazovat je a chytat.
 </p>
 
-<h2>Tøi ku¾ely</h2>
+<h2>TÅ™i kuÅ¾ely</h2>
 <p>
-Kdy¾ u¾ ti to se dvìma ku¾ely jde, pøidej je¹tì tøetí pro úplnou <a href="/kuzely/3/kaskada.html" title="Kaskáda se tøemi ku¾ely.">kaskádu</a>. Kaskáda je nejlehèí trik, zaèni s ní.
+KdyÅ¾ uÅ¾ ti to se dvÄ›ma kuÅ¾ely jde, pÅ™idej jeÅ¡tÄ› tÅ™etÃ­ pro Ãºplnou <a href="/kuzely/3/kaskada.html" title="KaskÃ¡da se tÅ™emi kuÅ¾ely.">kaskÃ¡du</a>. KaskÃ¡da je nejlehÄÃ­ trik, zaÄni s nÃ­.
 </p>

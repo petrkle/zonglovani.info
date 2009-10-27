@@ -1,26 +1,26 @@
 <ul>
-	<li><a name="zongl.info"></a><a href="/">®onglérùv slabikáø</a>
+	<li><a name="zongl.info"></a><a href="/">Å½onglÃ©rÅ¯v slabikÃ¡Å™</a>
 	<ul>
-	<li><a href="/aczslovnicek.html">Anglicko-èeskı ¾onglérskı slovníèek</a></li>
-	<li><a href="/changelog.html">Zmìny v ¾onglérovì slabikáøi</a></li>
-	<li><a href="/cirkusove-discipliny.html">Cirkusové disciplíny</a></li>
-	<li><a href="/druhy-zonglovani.html">Druhy ¾onglování</a></li>
-	<li><a href="/faq.html">Èasto kladené otázky</a></li>
-	<li><a href="/jak-odkazovat.html">Jak odkazovat na ¾onglérùv slabikáø</a></li>
+	<li><a href="/aczslovnicek.html">Anglicko-ÄeskÃ½ Å¾onglÃ©rskÃ½ slovnÃ­Äek</a></li>
+	<li><a href="/changelog.html">ZmÄ›ny v Å¾onglÃ©rovÄ› slabikÃ¡Å™i</a></li>
+	<li><a href="/cirkusove-discipliny.html">CirkusovÃ© disciplÃ­ny</a></li>
+	<li><a href="/druhy-zonglovani.html">Druhy Å¾onglovÃ¡nÃ­</a></li>
+	<li><a href="/faq.html">ÄŒasto kladenÃ© otÃ¡zky</a></li>
+	<li><a href="/jak-odkazovat.html">Jak odkazovat na Å¾onglÃ©rÅ¯v slabikÃ¡Å™</a></li>
 	<li><a href="/kontakt.html">Kontakt</a></li>
 	<li><a href="/literatura.html">Literatura</a></li>
-	<li><a href="/myty-omyly.html">Mıty a omyly</a></li>
-	<li><a href="/nacini.html">®onglérské náèiní</a></li>
-	<li><a href="/odkazy.html">®onglování na síti</a></li>
-	<li><a href="/ostatni.html">Dal¹í informace o ¾onglování</a></li>
-	<li><a href="/podporte-zongleruv-slabikar.html">Podpoøte ¾onglérùv slabikáø</a></li>
-	<li><a href="/proc-a-jak.html">Proè a jak vznikl ¾ognlérùv slabikáø</a></li>
-	<li><a href="/rss.html">RSS kanály</a></li>
+	<li><a href="/myty-omyly.html">MÃ½ty a omyly</a></li>
+	<li><a href="/nacini.html">Å½onglÃ©rskÃ© nÃ¡ÄinÃ­</a></li>
+	<li><a href="/odkazy.html">Å½onglovÃ¡nÃ­ na sÃ­ti</a></li>
+	<li><a href="/ostatni.html">DalÅ¡Ã­ informace o Å¾onglovÃ¡nÃ­</a></li>
+	<li><a href="/podporte-zongleruv-slabikar.html">PodpoÅ™te Å¾onglÃ©rÅ¯v slabikÃ¡Å™</a></li>
+	<li><a href="/proc-a-jak.html">ProÄ a jak vznikl Å¾ognlÃ©rÅ¯v slabikÃ¡Å™</a></li>
+	<li><a href="/rss.html">RSS kanÃ¡ly</a></li>
 	<li><a href="/siteswap.html">Siteswap</a></li>
-	<li><a href="/software.html">Simulátory ¾onglování</a></li>
-	<li><a href="/trenink.html">Trénink</a></li>
-	<li><a href="/zakladni-pojmy.html">®onglování - základní pojmy</a></li>
-		<li><a name="chudy"></a><a href="/chudy/">Chùdy</a>
+	<li><a href="/software.html">SimulÃ¡tory Å¾onglovÃ¡nÃ­</a></li>
+	<li><a href="/trenink.html">TrÃ©nink</a></li>
+	<li><a href="/zakladni-pojmy.html">Å½onglovÃ¡nÃ­ - zÃ¡kladnÃ­ pojmy</a></li>
+		<li><a name="chudy"></a><a href="/chudy/">ChÅ¯dy</a>
 		
 		</li>
 		<li><a name="diskuse"></a>diskuse/
@@ -28,92 +28,92 @@
 		</li>
 		<li><a name="horoskop"></a>horoskop/
 		<ul>
-		<li><a href="/horoskop/beran.html">Horoskop ¾onglování - Beran</a></li>
-		<li><a href="/horoskop/blizenci.html">Horoskop ¾onglování - Blí¾enci</a></li>
-		<li><a href="/horoskop/byk.html">Horoskop ¾onglování - Bık</a></li>
-		<li><a href="/horoskop/kozoroh.html">Horoskop ¾onglování - Kozoroh</a></li>
-		<li><a href="/horoskop/lev.html">Horoskop ¾onglování - Lev</a></li>
-		<li><a href="/horoskop/panna.html">Horoskop ¾onglování - Panna</a></li>
-		<li><a href="/horoskop/popis.html">Jak vzniká horoskop ¾onglování</a></li>
-		<li><a href="/horoskop/rak.html">Horoskop ¾onglování - Rak</a></li>
-		<li><a href="/horoskop/ryby.html">Horoskop ¾onglování - Ryby</a></li>
-		<li><a href="/horoskop/stir.html">Horoskop ¾onglování - ©tír</a></li>
-		<li><a href="/horoskop/strelec.html">Horoskop ¾onglování - Støelec</a></li>
-		<li><a href="/horoskop/vahy.html">Horoskop ¾onglování - Váhy</a></li>
-		<li><a href="/horoskop/vodnar.html">Horoskop ¾onglování - Vodnáø</a></li>
+		<li><a href="/horoskop/beran.html">Horoskop Å¾onglovÃ¡nÃ­ - Beran</a></li>
+		<li><a href="/horoskop/blizenci.html">Horoskop Å¾onglovÃ¡nÃ­ - BlÃ­Å¾enci</a></li>
+		<li><a href="/horoskop/byk.html">Horoskop Å¾onglovÃ¡nÃ­ - BÃ½k</a></li>
+		<li><a href="/horoskop/kozoroh.html">Horoskop Å¾onglovÃ¡nÃ­ - Kozoroh</a></li>
+		<li><a href="/horoskop/lev.html">Horoskop Å¾onglovÃ¡nÃ­ - Lev</a></li>
+		<li><a href="/horoskop/panna.html">Horoskop Å¾onglovÃ¡nÃ­ - Panna</a></li>
+		<li><a href="/horoskop/popis.html">Jak vznikÃ¡ horoskop Å¾onglovÃ¡nÃ­</a></li>
+		<li><a href="/horoskop/rak.html">Horoskop Å¾onglovÃ¡nÃ­ - Rak</a></li>
+		<li><a href="/horoskop/ryby.html">Horoskop Å¾onglovÃ¡nÃ­ - Ryby</a></li>
+		<li><a href="/horoskop/stir.html">Horoskop Å¾onglovÃ¡nÃ­ - Å tÃ­r</a></li>
+		<li><a href="/horoskop/strelec.html">Horoskop Å¾onglovÃ¡nÃ­ - StÅ™elec</a></li>
+		<li><a href="/horoskop/vahy.html">Horoskop Å¾onglovÃ¡nÃ­ - VÃ¡hy</a></li>
+		<li><a href="/horoskop/vodnar.html">Horoskop Å¾onglovÃ¡nÃ­ - VodnÃ¡Å™</a></li>
 			<li><a name="zitra"></a>horoskop/zitra/
 			<ul>
-			<li><a href="/horoskop/zitra/beran.html">Horoskop ¾onglování na zítra - Beran</a></li>
-			<li><a href="/horoskop/zitra/blizenci.html">Horoskop ¾onglování na zítra - Blí¾enci</a></li>
-			<li><a href="/horoskop/zitra/byk.html">Horoskop ¾onglování na zítra - Bık</a></li>
-			<li><a href="/horoskop/zitra/kozoroh.html">Horoskop ¾onglování na zítra - Kozoroh</a></li>
-			<li><a href="/horoskop/zitra/lev.html">Horoskop ¾onglování na zítra - Lev</a></li>
-			<li><a href="/horoskop/zitra/panna.html">Horoskop ¾onglování na zítra - Panna</a></li>
-			<li><a href="/horoskop/zitra/rak.html">Horoskop ¾onglování na zítra - Rak</a></li>
-			<li><a href="/horoskop/zitra/ryby.html">Horoskop ¾onglování na zítra - Ryby</a></li>
-			<li><a href="/horoskop/zitra/stir.html">Horoskop ¾onglování na zítra - ©tír</a></li>
-			<li><a href="/horoskop/zitra/strelec.html">Horoskop ¾onglování na zítra - Støelec</a></li>
-			<li><a href="/horoskop/zitra/vahy.html">Horoskop ¾onglování na zítra - Váhy</a></li>
-			<li><a href="/horoskop/zitra/vodnar.html">Horoskop ¾onglování na zítra - Vodnáø</a></li>
+			<li><a href="/horoskop/zitra/beran.html">Horoskop Å¾onglovÃ¡nÃ­ na zÃ­tra - Beran</a></li>
+			<li><a href="/horoskop/zitra/blizenci.html">Horoskop Å¾onglovÃ¡nÃ­ na zÃ­tra - BlÃ­Å¾enci</a></li>
+			<li><a href="/horoskop/zitra/byk.html">Horoskop Å¾onglovÃ¡nÃ­ na zÃ­tra - BÃ½k</a></li>
+			<li><a href="/horoskop/zitra/kozoroh.html">Horoskop Å¾onglovÃ¡nÃ­ na zÃ­tra - Kozoroh</a></li>
+			<li><a href="/horoskop/zitra/lev.html">Horoskop Å¾onglovÃ¡nÃ­ na zÃ­tra - Lev</a></li>
+			<li><a href="/horoskop/zitra/panna.html">Horoskop Å¾onglovÃ¡nÃ­ na zÃ­tra - Panna</a></li>
+			<li><a href="/horoskop/zitra/rak.html">Horoskop Å¾onglovÃ¡nÃ­ na zÃ­tra - Rak</a></li>
+			<li><a href="/horoskop/zitra/ryby.html">Horoskop Å¾onglovÃ¡nÃ­ na zÃ­tra - Ryby</a></li>
+			<li><a href="/horoskop/zitra/stir.html">Horoskop Å¾onglovÃ¡nÃ­ na zÃ­tra - Å tÃ­r</a></li>
+			<li><a href="/horoskop/zitra/strelec.html">Horoskop Å¾onglovÃ¡nÃ­ na zÃ­tra - StÅ™elec</a></li>
+			<li><a href="/horoskop/zitra/vahy.html">Horoskop Å¾onglovÃ¡nÃ­ na zÃ­tra - VÃ¡hy</a></li>
+			<li><a href="/horoskop/zitra/vodnar.html">Horoskop Å¾onglovÃ¡nÃ­ na zÃ­tra - VodnÃ¡Å™</a></li>
 			</ul>
 			</li>
 		</ul>
 		</li>
-		<li><a name="kalendar"></a><a href="/kalendar/">Kalendáø ¾onglérskıch akcí</a>
+		<li><a name="kalendar"></a><a href="/kalendar/">KalendÃ¡Å™ Å¾onglÃ©rskÃ½ch akcÃ­</a>
 		
 		</li>
-		<li><a name="kruhy"></a><a href="/kruhy/">®onglování s kruhy</a>
+		<li><a name="kruhy"></a><a href="/kruhy/">Å½onglovÃ¡nÃ­ s kruhy</a>
 		<ul>
-		<li><a href="/kruhy/jak-zacit.html">Jak zaèít ¾onglovat s kruhy</a></li>
-		<li><a href="/kruhy/legenda.html">Vysvìtlivky k obrázkùm - kruhy</a></li>
-		<li><a href="/kruhy/vyroba.html">Vıroba kruhù</a></li>
+		<li><a href="/kruhy/jak-zacit.html">Jak zaÄÃ­t Å¾onglovat s kruhy</a></li>
+		<li><a href="/kruhy/legenda.html">VysvÄ›tlivky k obrÃ¡zkÅ¯m - kruhy</a></li>
+		<li><a href="/kruhy/vyroba.html">VÃ½roba kruhÅ¯</a></li>
 			<li><a name="2"></a>kruhy/2/
 			<ul>
-			<li><a href="/kruhy/2/2v1.html">®onglování se dvìma kruhy - 2 v 1</a></li>
+			<li><a href="/kruhy/2/2v1.html">Å½onglovÃ¡nÃ­ se dvÄ›ma kruhy - 2 v 1</a></li>
 			</ul>
 			</li>
 			<li><a name="3"></a>kruhy/3/
 			<ul>
-			<li><a href="/kruhy/3/kaskada.html">®onglování se tøemi kruhy - Kaskáda</a></li>
-			<li><a href="/kruhy/3/noha.html">®onglování se tøemi kruhy - Prohození kruhu pod nohou</a></li>
-			<li><a href="/kruhy/3/sloupy.html">®onglování se tøemi kruhy - Sloupy</a></li>
+			<li><a href="/kruhy/3/kaskada.html">Å½onglovÃ¡nÃ­ se tÅ™emi kruhy - KaskÃ¡da</a></li>
+			<li><a href="/kruhy/3/noha.html">Å½onglovÃ¡nÃ­ se tÅ™emi kruhy - ProhozenÃ­ kruhu pod nohou</a></li>
+			<li><a href="/kruhy/3/sloupy.html">Å½onglovÃ¡nÃ­ se tÅ™emi kruhy - Sloupy</a></li>
 			</ul>
 			</li>
 			<li><a name="4"></a>kruhy/4/
 			<ul>
-			<li><a href="/kruhy/4/fontana.html">®onglování se ètyømi kruhy - Fontána</a></li>
+			<li><a href="/kruhy/4/fontana.html">Å½onglovÃ¡nÃ­ se ÄtyÅ™mi kruhy - FontÃ¡na</a></li>
 			</ul>
 			</li>
 		</ul>
 		</li>
-		<li><a name="kuzely"></a><a href="/kuzely/">®onglování s ku¾ely</a>
+		<li><a name="kuzely"></a><a href="/kuzely/">Å½onglovÃ¡nÃ­ s kuÅ¾ely</a>
 		<ul>
-		<li><a href="/kuzely/balanc.html">Balancování ku¾elu</a></li>
-		<li><a href="/kuzely/grip.html">Dva ku¾ely v jedné ruce</a></li>
-		<li><a href="/kuzely/headroll.html">Pøekulení ku¾elky pøes hlavu</a></li>
-		<li><a href="/kuzely/jak-zacit.html">®onglování s ku¾ely</a></li>
-		<li><a href="/kuzely/kickup.html">Zvednutí ku¾elu nohou</a></li>
-		<li><a href="/kuzely/konstrukce.html">Konstrukce ku¾elu</a></li>
-		<li><a href="/kuzely/legenda.html">Vysvìtlivky k obrázkùm - ku¾ely</a></li>
-		<li><a href="/kuzely/ohen.html">Ohnivé ku¾ely</a></li>
-		<li><a href="/kuzely/rotace.html">Rotace ku¾elu</a></li>
-		<li><a href="/kuzely/toceni-okolo-palce.html">Otáèení ku¾elky okolo palce</a></li>
-		<li><a href="/kuzely/vyroba.html">Vıroba ku¾elù</a></li>
-			<li><a name="3"></a><a href="/kuzely/3/">®onglování tøemi ku¾ely</a>
+		<li><a href="/kuzely/balanc.html">BalancovÃ¡nÃ­ kuÅ¾elu</a></li>
+		<li><a href="/kuzely/grip.html">Dva kuÅ¾ely v jednÃ© ruce</a></li>
+		<li><a href="/kuzely/headroll.html">PÅ™ekulenÃ­ kuÅ¾elky pÅ™es hlavu</a></li>
+		<li><a href="/kuzely/jak-zacit.html">Å½onglovÃ¡nÃ­ s kuÅ¾ely</a></li>
+		<li><a href="/kuzely/kickup.html">ZvednutÃ­ kuÅ¾elu nohou</a></li>
+		<li><a href="/kuzely/konstrukce.html">Konstrukce kuÅ¾elu</a></li>
+		<li><a href="/kuzely/legenda.html">VysvÄ›tlivky k obrÃ¡zkÅ¯m - kuÅ¾ely</a></li>
+		<li><a href="/kuzely/ohen.html">OhnivÃ© kuÅ¾ely</a></li>
+		<li><a href="/kuzely/rotace.html">Rotace kuÅ¾elu</a></li>
+		<li><a href="/kuzely/toceni-okolo-palce.html">OtÃ¡ÄenÃ­ kuÅ¾elky okolo palce</a></li>
+		<li><a href="/kuzely/vyroba.html">VÃ½roba kuÅ¾elÅ¯</a></li>
+			<li><a name="3"></a><a href="/kuzely/3/">Å½onglovÃ¡nÃ­ tÅ™emi kuÅ¾ely</a>
 			<ul>
-			<li><a href="/kuzely/3/423.html">®onglování tøemi ku¾ely - 423</a></li>
-			<li><a href="/kuzely/3/brada.html">®onglování tøemi ku¾ely - Odkládání ku¾elky na bradu</a></li>
-			<li><a href="/kuzely/3/hazenihorem.html">®onglování tøemi ku¾ely - Házení horem</a></li>
-			<li><a href="/kuzely/3/helikoptera.html">®onglování tøemi ku¾ely - Helikoptéra</a></li>
-			<li><a href="/kuzely/3/jeden-a-pul-otocky.html">®onglování tøemi ku¾ely - Jeden a pùl otoèky</a></li>
-			<li><a href="/kuzely/3/kaskada.html">®onglování tøemi ku¾ely - Kaskáda</a></li>
-			<li><a href="/kuzely/3/nuzky.html">®onglování tøemi ku¾ely - Nù¾ky</a></li>
-			<li><a href="/kuzely/3/podnohou.html">®onglování tøemi ku¾ely - Hození ku¾elu pod nohou</a></li>
-			<li><a href="/kuzely/3/pul-otocky.html">®onglování tøemi ku¾ely - Pùl otoèky</a></li>
-			<li><a href="/kuzely/3/rybicky.html">®onglování tøemi ku¾ely - Rybièky</a></li>
-			<li><a href="/kuzely/3/sekani.html">®onglování tøemi ku¾ely - Sekání (chops)</a></li>
-			<li><a href="/kuzely/3/sloupy.html">®onglování tøemi ku¾ely - Sloupy</a></li>
-			<li><a href="/kuzely/3/zazady.html">®onglování tøemi ku¾ely - Hození za zády</a></li>
+			<li><a href="/kuzely/3/423.html">Å½onglovÃ¡nÃ­ tÅ™emi kuÅ¾ely - 423</a></li>
+			<li><a href="/kuzely/3/brada.html">Å½onglovÃ¡nÃ­ tÅ™emi kuÅ¾ely - OdklÃ¡dÃ¡nÃ­ kuÅ¾elky na bradu</a></li>
+			<li><a href="/kuzely/3/hazenihorem.html">Å½onglovÃ¡nÃ­ tÅ™emi kuÅ¾ely - HÃ¡zenÃ­ horem</a></li>
+			<li><a href="/kuzely/3/helikoptera.html">Å½onglovÃ¡nÃ­ tÅ™emi kuÅ¾ely - HelikoptÃ©ra</a></li>
+			<li><a href="/kuzely/3/jeden-a-pul-otocky.html">Å½onglovÃ¡nÃ­ tÅ™emi kuÅ¾ely - Jeden a pÅ¯l otoÄky</a></li>
+			<li><a href="/kuzely/3/kaskada.html">Å½onglovÃ¡nÃ­ tÅ™emi kuÅ¾ely - KaskÃ¡da</a></li>
+			<li><a href="/kuzely/3/nuzky.html">Å½onglovÃ¡nÃ­ tÅ™emi kuÅ¾ely - NÅ¯Å¾ky</a></li>
+			<li><a href="/kuzely/3/podnohou.html">Å½onglovÃ¡nÃ­ tÅ™emi kuÅ¾ely - HozenÃ­ kuÅ¾elu pod nohou</a></li>
+			<li><a href="/kuzely/3/pul-otocky.html">Å½onglovÃ¡nÃ­ tÅ™emi kuÅ¾ely - PÅ¯l otoÄky</a></li>
+			<li><a href="/kuzely/3/rybicky.html">Å½onglovÃ¡nÃ­ tÅ™emi kuÅ¾ely - RybiÄky</a></li>
+			<li><a href="/kuzely/3/sekani.html">Å½onglovÃ¡nÃ­ tÅ™emi kuÅ¾ely - SekÃ¡nÃ­ (chops)</a></li>
+			<li><a href="/kuzely/3/sloupy.html">Å½onglovÃ¡nÃ­ tÅ™emi kuÅ¾ely - Sloupy</a></li>
+			<li><a href="/kuzely/3/zazady.html">Å½onglovÃ¡nÃ­ tÅ™emi kuÅ¾ely - HozenÃ­ za zÃ¡dy</a></li>
 			</ul>
 			</li>
 			<li><a name="passing"></a><a href="/kuzely/passing/">Passing</a>
@@ -122,206 +122,206 @@
 			<li><a href="/kuzely/passing/2count.html">Passing - 2 count</a></li>
 			<li><a href="/kuzely/passing/3count.html">Passing - 3 count</a></li>
 			<li><a href="/kuzely/passing/4count.html">Passing - 4 count</a></li>
-			<li><a href="/kuzely/passing/7clubs.html">Passing - 7 ku¾elù</a></li>
-			<li><a href="/kuzely/passing/all-hands.html">Passing - Passování do v¹echn rukou</a></li>
-			<li><a href="/kuzely/passing/around.html">Passing - ®onglování okolo èlovìka</a></li>
-			<li><a href="/kuzely/passing/australsky-trik.html">Passing - Australskı trik</a></li>
+			<li><a href="/kuzely/passing/7clubs.html">Passing - 7 kuÅ¾elÅ¯</a></li>
+			<li><a href="/kuzely/passing/all-hands.html">Passing - PassovÃ¡nÃ­ do vÅ¡echn rukou</a></li>
+			<li><a href="/kuzely/passing/around.html">Passing - Å½onglovÃ¡nÃ­ okolo ÄlovÄ›ka</a></li>
+			<li><a href="/kuzely/passing/australsky-trik.html">Passing - </a></li>
 			<li><a href="/kuzely/passing/bostoncircle.html">Passing - Boston circle</a></li>
-			<li><a href="/kuzely/passing/box.html">Passing - Ètverec</a></li>
-			<li><a href="/kuzely/passing/feeds.html">Passing - Nabíjení</a></li>
-			<li><a href="/kuzely/passing/hody.html">Passing - Druhy hodù pøi passování</a></li>
-			<li><a href="/kuzely/passing/lichobeznik.html">Passing - Lichobì¾ník</a></li>
-			<li><a href="/kuzely/passing/line.html">Passing - Øada</a></li>
-			<li><a href="/kuzely/passing/pickup.html">Passing - Zvednutí spadlého ku¾elu</a></li>
-			<li><a href="/kuzely/passing/pivo.html">Passing - Passování s pivem</a></li>
-			<li><a href="/kuzely/passing/podani-kuzelky.html">Passing - Podání ku¾elky</a></li>
+			<li><a href="/kuzely/passing/box.html">Passing - ÄŒtverec</a></li>
+			<li><a href="/kuzely/passing/feeds.html">Passing - NabÃ­jenÃ­</a></li>
+			<li><a href="/kuzely/passing/hody.html">Passing - Druhy hodÅ¯ pÅ™i passovÃ¡nÃ­</a></li>
+			<li><a href="/kuzely/passing/lichobeznik.html">Passing - </a></li>
+			<li><a href="/kuzely/passing/line.html">Passing - Å˜ada</a></li>
+			<li><a href="/kuzely/passing/pickup.html">Passing - ZvednutÃ­ spadlÃ©ho kuÅ¾elu</a></li>
+			<li><a href="/kuzely/passing/pivo.html">Passing - PassovÃ¡nÃ­ s pivem</a></li>
+			<li><a href="/kuzely/passing/podani-kuzelky.html">Passing - PodÃ¡nÃ­ kuÅ¾elky</a></li>
 			<li><a href="/kuzely/passing/podnohou.html">Passing - Pass pod nohou</a></li>
-			<li><a href="/kuzely/passing/pomala-otocka.html">Passing - Pomalá otoèka</a></li>
+			<li><a href="/kuzely/passing/pomala-otocka.html">Passing - PomalÃ¡ otoÄka</a></li>
 			<li><a href="/kuzely/passing/pps.html">Passing - PPS - pass pass self</a></li>
-			<li><a href="/kuzely/passing/pravidla.html">Passing - Pravidla passování</a></li>
-			<li><a href="/kuzely/passing/prebihani4z11k.html">Passing - Pøebíhání - 11 ku¾elù 4 ¾ongléøi</a></li>
-			<li><a href="/kuzely/passing/prebihani5z14k.html">Passing - Pøebíhání - 14 ku¾elù 5 ¾ongléøù</a></li>
+			<li><a href="/kuzely/passing/pravidla.html">Passing - Pravidla passovÃ¡nÃ­</a></li>
+			<li><a href="/kuzely/passing/prebihani4z11k.html">Passing - PÅ™ebÃ­hÃ¡nÃ­ - 11 kuÅ¾elÅ¯ 4 Å¾onglÃ©Å™i</a></li>
+			<li><a href="/kuzely/passing/prebihani5z14k.html">Passing - PÅ™ebÃ­hÃ¡nÃ­ - 14 kuÅ¾elÅ¯ 5 Å¾onglÃ©Å™Å¯</a></li>
 			<li><a href="/kuzely/passing/ps.html">Passing - PS - pass self</a></li>
 			<li><a href="/kuzely/passing/psspspps.html">Passing - Pass self self pass self pass pass self</a></li>
-			<li><a href="/kuzely/passing/rotor.html">Passing - Rotor</a></li>
-			<li><a href="/kuzely/passing/runarounds.html">Passing - Obíhání</a></li>
-			<li><a href="/kuzely/passing/rychla-otocka.html">Passing - Rychlá otoèka</a></li>
-			<li><a href="/kuzely/passing/rypsilon.html">Passing - Rotující Y</a></li>
+			<li><a href="/kuzely/passing/rotor.html">Passing - </a></li>
+			<li><a href="/kuzely/passing/runarounds.html">Passing - ObÃ­hÃ¡nÃ­</a></li>
+			<li><a href="/kuzely/passing/rychla-otocka.html">Passing - RychlÃ¡ otoÄka</a></li>
+			<li><a href="/kuzely/passing/rypsilon.html">Passing - RotujÃ­cÃ­ Y</a></li>
 			<li><a href="/kuzely/passing/sloupy.html">Passing - Sloupy ve dvou</a></li>
-			<li><a href="/kuzely/passing/squares.html">Passing - Rotující ètverce</a></li>
-			<li><a href="/kuzely/passing/star.html">Passing - Hvìzda</a></li>
-			<li><a href="/kuzely/passing/stridavy-lichobeznik.html">Passing - Støídavı lichobì¾ník</a></li>
+			<li><a href="/kuzely/passing/squares.html">Passing - RotujÃ­cÃ­ Ätverce</a></li>
+			<li><a href="/kuzely/passing/star.html">Passing - HvÄ›zda</a></li>
+			<li><a href="/kuzely/passing/stridavy-lichobeznik.html">Passing - StÅ™Ã­davÃ½ lichobÄ›Å¾nÃ­k</a></li>
 			<li><a href="/kuzely/passing/synchronizace.html">Passing - Synchronizace</a></li>
-			<li><a href="/kuzely/passing/trojuhelnik.html">Passing - Trojúhelník</a></li>
-			<li><a href="/kuzely/passing/vymeny.html">Passing - Vımìny ve ètvercích</a></li>
+			<li><a href="/kuzely/passing/trojuhelnik.html">Passing - TrojÃºhelnÃ­k</a></li>
+			<li><a href="/kuzely/passing/vymeny.html">Passing - VÃ½mÄ›ny ve ÄtvercÃ­ch</a></li>
 			<li><a href="/kuzely/passing/ypsilon.html">Passing - Ypsilon</a></li>
 			<li><a href="/kuzely/passing/zip.html">Passing - Zip</a></li>
-			<li><a href="/kuzely/passing/zpozdena-dvojka.html">Passing - Zpo¾dìná dvojka</a></li>
-			<li><a href="/kuzely/passing/zrychlena-dvojka.html">Passing - Zrychlená dvojka</a></li>
+			<li><a href="/kuzely/passing/zpozdena-dvojka.html">Passing - ZpoÅ¾dÄ›nÃ¡ dvojka</a></li>
+			<li><a href="/kuzely/passing/zrychlena-dvojka.html">Passing - ZrychlenÃ¡ dvojka</a></li>
 			</ul>
 			</li>
 		</ul>
 		</li>
-		<li><a name="lide"></a><a href="/lide/">U¾ivatelské úèty</a>
+		<li><a name="lide"></a><a href="/lide/">UÅ¾ivatelskÃ© ÃºÄty</a>
 		<ul>
-		<li><a href="/lide/pravidla.php">Pravidla pro vytvoøení úètu</a></li>
-		<li><a href="/lide/prihlaseni.php">Pøihlá¹ení</a></li>
-		<li><a href="/lide/zapomenute-heslo.php">Zapomenuté heslo</a></li>
+		<li><a href="/lide/pravidla.php">Pravidla pro vytvoÅ™enÃ­ ÃºÄtu</a></li>
+		<li><a href="/lide/prihlaseni.php">PÅ™ihlÃ¡Å¡enÃ­</a></li>
+		<li><a href="/lide/zapomenute-heslo.php">ZapomenutÃ© heslo</a></li>
 		</ul>
 		</li>
-		<li><a name="micky"></a><a href="/micky/">®onglování s míèky</a>
+		<li><a name="micky"></a><a href="/micky/">Å½onglovÃ¡nÃ­ s mÃ­Äky</a>
 		<ul>
-		<li><a href="/micky/balancovani.html">Balancování míèku</a></li>
-		<li><a href="/micky/drop.html">Míèky na zemi</a></li>
-		<li><a href="/micky/druhy.html">®onglérské míèky</a></li>
-		<li><a href="/micky/jak-zacit.html">Jak zaèít ¾onglovat s míèky</a></li>
-		<li><a href="/micky/kick-up.html">Zvednutí míèku nohou</a></li>
-		<li><a href="/micky/legenda.html">Vysvìtlivky k obrázkùm - míèky</a></li>
-		<li><a href="/micky/passing-mm.html">Passing s míèky - mills&#039; mess</a></li>
+		<li><a href="/micky/balancovani.html">BalancovÃ¡nÃ­ mÃ­Äku</a></li>
+		<li><a href="/micky/drop.html">MÃ­Äky na zemi</a></li>
+		<li><a href="/micky/druhy.html">Å½onglÃ©rskÃ© mÃ­Äky</a></li>
+		<li><a href="/micky/jak-zacit.html">Jak zaÄÃ­t Å¾onglovat s mÃ­Äky</a></li>
+		<li><a href="/micky/kick-up.html">ZvednutÃ­ mÃ­Äku nohou</a></li>
+		<li><a href="/micky/legenda.html">VysvÄ›tlivky k obrÃ¡zkÅ¯m - mÃ­Äky</a></li>
+		<li><a href="/micky/passing-mm.html">Passing s mÃ­Äky - mills&#039; mess</a></li>
 		<li><a href="/micky/pirueta.html">Pirueta</a></li>
-		<li><a href="/micky/poslepu.html">®onglování poslepu</a></li>
-		<li><a href="/micky/rady5.html">Jak na ¾onglování s pìti míèky</a></li>
-		<li><a href="/micky/sbirani.html">Sbírání spadlıch míèkù</a></li>
-		<li><a href="/micky/vajicka.html">®onglování s vajíèky</a></li>
-		<li><a href="/micky/vyroba.html">Vıroba míèkù na ¾onglování</a></li>
-			<li><a name="2"></a><a href="/micky/2/">®onglování se dvìma míèky</a>
+		<li><a href="/micky/poslepu.html">Å½onglovÃ¡nÃ­ poslepu</a></li>
+		<li><a href="/micky/rady5.html">Jak na Å¾onglovÃ¡nÃ­ s pÄ›ti mÃ­Äky</a></li>
+		<li><a href="/micky/sbirani.html">SbÃ­rÃ¡nÃ­ spadlÃ½ch mÃ­ÄkÅ¯</a></li>
+		<li><a href="/micky/vajicka.html">Å½onglovÃ¡nÃ­ s vajÃ­Äky</a></li>
+		<li><a href="/micky/vyroba.html">VÃ½roba mÃ­ÄkÅ¯ na Å¾onglovÃ¡nÃ­</a></li>
+			<li><a name="2"></a><a href="/micky/2/">Å½onglovÃ¡nÃ­ se dvÄ›ma mÃ­Äky</a>
 			<ul>
-			<li><a href="/micky/2/2v1.html">®onglování se dvìma míèky - 2 v 1</a></li>
-			<li><a href="/micky/2/40303.html">®onglování se dvìma míèky - 40303</a></li>
-			<li><a href="/micky/2/501.html">®onglování se dvìma míèky - 501</a></li>
-			<li><a href="/micky/2/noha.html">®onglování se dvìma míèky - Prohození míèku pod nohou</a></li>
-			<li><a href="/micky/2/zada.html">®onglování se dvìma míèky - Prohození míèku za zády</a></li>
+			<li><a href="/micky/2/2v1.html">Å½onglovÃ¡nÃ­ se dvÄ›ma mÃ­Äky - 2 v 1</a></li>
+			<li><a href="/micky/2/40303.html">Å½onglovÃ¡nÃ­ se dvÄ›ma mÃ­Äky - 40303</a></li>
+			<li><a href="/micky/2/501.html">Å½onglovÃ¡nÃ­ se dvÄ›ma mÃ­Äky - 501</a></li>
+			<li><a href="/micky/2/noha.html">Å½onglovÃ¡nÃ­ se dvÄ›ma mÃ­Äky - ProhozenÃ­ mÃ­Äku pod nohou</a></li>
+			<li><a href="/micky/2/zada.html">Å½onglovÃ¡nÃ­ se dvÄ›ma mÃ­Äky - ProhozenÃ­ mÃ­Äku za zÃ¡dy</a></li>
 			</ul>
 			</li>
-			<li><a name="3"></a><a href="/micky/3/">®onglování se tøemi míèky</a>
+			<li><a name="3"></a><a href="/micky/3/">Å½onglovÃ¡nÃ­ se tÅ™emi mÃ­Äky</a>
 			<ul>
-			<li><a href="/micky/3/1mezi2.html">®onglování se tøemi míèky - Jeden mezi dvìma</a></li>
-			<li><a href="/micky/3/1nad2.html">®onglování se tøemi míèky - Jeden nad dvìma</a></li>
-			<li><a href="/micky/3/1okolo2.html">®onglování se tøemi míèky - Jeden okolo dvou</a></li>
-			<li><a href="/micky/3/3v1.html">®onglování se tøemi míèky - 3 v 1</a></li>
-			<li><a href="/micky/3/441.html">®onglování se tøemi míèky - 441</a></li>
-			<li><a href="/micky/3/blesk.html">®onglování se tøemi míèky - Blesk</a></li>
-			<li><a href="/micky/3/boston-mess.html">®onglování se tøemi míèky - Boston mess</a></li>
-			<li><a href="/micky/3/cap.html">®onglování se tøemi míèky - Èáp</a></li>
-			<li><a href="/micky/3/celo.html">®onglování se tøemi míèky - Odra¾ení míèku èelem</a></li>
-			<li><a href="/micky/3/dvojita-krabice.html">®onglování se tøemi míèky - Dvojitá krabice</a></li>
-			<li><a href="/micky/3/dvojite-jojo.html">®onglování se tøemi míèky - Dvojité jo-jo</a></li>
-			<li><a href="/micky/3/had.html">®onglování se tøemi míèky - Had</a></li>
-			<li><a href="/micky/3/hodiny.html">®onglování se tøemi míèky - Hodiny</a></li>
-			<li><a href="/micky/3/jablko.html">®onglování se tøemi míèky - Jezení jablka</a></li>
-			<li><a href="/micky/3/jojo.html">®onglování se tøemi míèky - Jo - jo</a></li>
-			<li><a href="/micky/3/kaskada-reverzni-siroka.html">®onglování se tøemi míèky - Reverzní kaskáda ¹iroká</a></li>
-			<li><a href="/micky/3/kaskada-reverzni.html">®onglování se tøemi míèky - Reverzní kaskáda</a></li>
-			<li><a href="/micky/3/kaskada.html">®onglování se tøemi míèky - Kaskáda</a></li>
-			<li><a href="/micky/3/klokan.html">®onglování se tøemi míèky - Klokan</a></li>
-			<li><a href="/micky/3/koleno.html">®onglování se tøemi míèky - Odra¾ení míèku kolenem</a></li>
-			<li><a href="/micky/3/kometa.html">®onglování se tøemi míèky - Kometa</a></li>
-			<li><a href="/micky/3/krk.html">®onglování se tøemi míèky - Zachycení míèku za krk</a></li>
-			<li><a href="/micky/3/mlyn.html">®onglování se tøemi míèky - Vìtrnı mlın</a></li>
-			<li><a href="/micky/3/mm-falesne.html">®onglování se tøemi míèky - Fale¹né mills&#039; mess</a></li>
-			<li><a href="/micky/3/mm.html">®onglování se tøemi míèky - Mills&#039; mess</a></li>
-			<li><a href="/micky/3/multiplex.html">®onglování se tøemi míèky - Multiplex</a></li>
-			<li><a href="/micky/3/nadhlavou.html">®onglování se tøemi míèky - Nad hlavou</a></li>
-			<li><a href="/micky/3/neobvykly-zacatek.html">®onglování se tøemi míèky - Neobvyklı zaèátek kaskády</a></li>
-			<li><a href="/micky/3/neviditelny.html">®onglování se tøemi míèky - Neviditelnı míèek</a></li>
-			<li><a href="/micky/3/noha.html">®onglování se tøemi míèky - Prohození míèku pod nohou</a></li>
-			<li><a href="/micky/3/oblouky.html">®onglování se tøemi míèky - Oblouèky</a></li>
-			<li><a href="/micky/3/ojoj.html">®onglování se tøemi míèky - Oj - oj</a></li>
-			<li><a href="/micky/3/okno.html">®onglování se tøemi míèky - Chrámové okno</a></li>
-			<li><a href="/micky/3/orangutan.html">®onglování se tøemi míèky - Orangutan</a></li>
-			<li><a href="/micky/3/orbit.html">®onglování se tøemi míèky - Orbit</a></li>
-			<li><a href="/micky/3/orbit2.html">®onglování se tøemi míèky - Orbit II</a></li>
-			<li><a href="/micky/3/osmicka.html">®onglování se tøemi míèky - Osmièka</a></li>
-			<li><a href="/micky/3/robot.html">®onglování se tøemi míèky - Robot</a></li>
-			<li><a href="/micky/3/seesaw.html">®onglování se tøemi míèky - See saw</a></li>
-			<li><a href="/micky/3/sloupy-falesne.html">®onglování se tøemi míèky - Fale¹né sloupy</a></li>
-			<li><a href="/micky/3/sloupy.html">®onglování se tøemi míèky - Sloupy</a></li>
-			<li><a href="/micky/3/socha.html">®onglování se tøemi míèky - Socha svobody</a></li>
-			<li><a href="/micky/3/sprcha-polovicni.html">®onglování se tøemi míèky - Polovièní sprcha</a></li>
-			<li><a href="/micky/3/sprcha.html">®onglování se tøemi míèky - Sprcha</a></li>
-			<li><a href="/micky/3/tenis-2v1.html">®onglování se tøemi míèky - 2 v 1 tenis</a></li>
-			<li><a href="/micky/3/tenis.html">®onglování se tøemi míèky - Tenis</a></li>
-			<li><a href="/micky/3/zada.html">®onglování se tøemi míèky - Prohození míèku za zády</a></li>
-			<li><a href="/micky/3/zirafa.html">®onglování se tøemi míèky - ®irafa</a></li>
-			<li><a href="/micky/3/zkrizene-ruce.html">®onglování se tøemi míèky - Zkøí¾ené ruce</a></li>
+			<li><a href="/micky/3/1mezi2.html">Å½onglovÃ¡nÃ­ se tÅ™emi mÃ­Äky - Jeden mezi dvÄ›ma</a></li>
+			<li><a href="/micky/3/1nad2.html">Å½onglovÃ¡nÃ­ se tÅ™emi mÃ­Äky - Jeden nad dvÄ›ma</a></li>
+			<li><a href="/micky/3/1okolo2.html">Å½onglovÃ¡nÃ­ se tÅ™emi mÃ­Äky - Jeden okolo dvou</a></li>
+			<li><a href="/micky/3/3v1.html">Å½onglovÃ¡nÃ­ se tÅ™emi mÃ­Äky - 3 v 1</a></li>
+			<li><a href="/micky/3/441.html">Å½onglovÃ¡nÃ­ se tÅ™emi mÃ­Äky - 441</a></li>
+			<li><a href="/micky/3/blesk.html">Å½onglovÃ¡nÃ­ se tÅ™emi mÃ­Äky - Blesk</a></li>
+			<li><a href="/micky/3/boston-mess.html">Å½onglovÃ¡nÃ­ se tÅ™emi mÃ­Äky - Boston mess</a></li>
+			<li><a href="/micky/3/cap.html">Å½onglovÃ¡nÃ­ se tÅ™emi mÃ­Äky - ÄŒÃ¡p</a></li>
+			<li><a href="/micky/3/celo.html">Å½onglovÃ¡nÃ­ se tÅ™emi mÃ­Äky - OdraÅ¾enÃ­ mÃ­Äku Äelem</a></li>
+			<li><a href="/micky/3/dvojita-krabice.html">Å½onglovÃ¡nÃ­ se tÅ™emi mÃ­Äky - DvojitÃ¡ krabice</a></li>
+			<li><a href="/micky/3/dvojite-jojo.html">Å½onglovÃ¡nÃ­ se tÅ™emi mÃ­Äky - DvojitÃ© jo-jo</a></li>
+			<li><a href="/micky/3/had.html">Å½onglovÃ¡nÃ­ se tÅ™emi mÃ­Äky - Had</a></li>
+			<li><a href="/micky/3/hodiny.html">Å½onglovÃ¡nÃ­ se tÅ™emi mÃ­Äky - Hodiny</a></li>
+			<li><a href="/micky/3/jablko.html">Å½onglovÃ¡nÃ­ se tÅ™emi mÃ­Äky - JezenÃ­ jablka</a></li>
+			<li><a href="/micky/3/jojo.html">Å½onglovÃ¡nÃ­ se tÅ™emi mÃ­Äky - Jo - jo</a></li>
+			<li><a href="/micky/3/kaskada-reverzni-siroka.html">Å½onglovÃ¡nÃ­ se tÅ™emi mÃ­Äky - ReverznÃ­ kaskÃ¡da Å¡irokÃ¡</a></li>
+			<li><a href="/micky/3/kaskada-reverzni.html">Å½onglovÃ¡nÃ­ se tÅ™emi mÃ­Äky - ReverznÃ­ kaskÃ¡da</a></li>
+			<li><a href="/micky/3/kaskada.html">Å½onglovÃ¡nÃ­ se tÅ™emi mÃ­Äky - KaskÃ¡da</a></li>
+			<li><a href="/micky/3/klokan.html">Å½onglovÃ¡nÃ­ se tÅ™emi mÃ­Äky - Klokan</a></li>
+			<li><a href="/micky/3/koleno.html">Å½onglovÃ¡nÃ­ se tÅ™emi mÃ­Äky - OdraÅ¾enÃ­ mÃ­Äku kolenem</a></li>
+			<li><a href="/micky/3/kometa.html">Å½onglovÃ¡nÃ­ se tÅ™emi mÃ­Äky - Kometa</a></li>
+			<li><a href="/micky/3/krk.html">Å½onglovÃ¡nÃ­ se tÅ™emi mÃ­Äky - ZachycenÃ­ mÃ­Äku za krk</a></li>
+			<li><a href="/micky/3/mlyn.html">Å½onglovÃ¡nÃ­ se tÅ™emi mÃ­Äky - VÄ›trnÃ½ mlÃ½n</a></li>
+			<li><a href="/micky/3/mm-falesne.html">Å½onglovÃ¡nÃ­ se tÅ™emi mÃ­Äky - FaleÅ¡nÃ© mills&#039; mess</a></li>
+			<li><a href="/micky/3/mm.html">Å½onglovÃ¡nÃ­ se tÅ™emi mÃ­Äky - Mills&#039; mess</a></li>
+			<li><a href="/micky/3/multiplex.html">Å½onglovÃ¡nÃ­ se tÅ™emi mÃ­Äky - Multiplex</a></li>
+			<li><a href="/micky/3/nadhlavou.html">Å½onglovÃ¡nÃ­ se tÅ™emi mÃ­Äky - Nad hlavou</a></li>
+			<li><a href="/micky/3/neobvykly-zacatek.html">Å½onglovÃ¡nÃ­ se tÅ™emi mÃ­Äky - NeobvyklÃ½ zaÄÃ¡tek kaskÃ¡dy</a></li>
+			<li><a href="/micky/3/neviditelny.html">Å½onglovÃ¡nÃ­ se tÅ™emi mÃ­Äky - NeviditelnÃ½ mÃ­Äek</a></li>
+			<li><a href="/micky/3/noha.html">Å½onglovÃ¡nÃ­ se tÅ™emi mÃ­Äky - ProhozenÃ­ mÃ­Äku pod nohou</a></li>
+			<li><a href="/micky/3/oblouky.html">Å½onglovÃ¡nÃ­ se tÅ™emi mÃ­Äky - OblouÄky</a></li>
+			<li><a href="/micky/3/ojoj.html">Å½onglovÃ¡nÃ­ se tÅ™emi mÃ­Äky - Oj - oj</a></li>
+			<li><a href="/micky/3/okno.html">Å½onglovÃ¡nÃ­ se tÅ™emi mÃ­Äky - ChrÃ¡movÃ© okno</a></li>
+			<li><a href="/micky/3/orangutan.html">Å½onglovÃ¡nÃ­ se tÅ™emi mÃ­Äky - Orangutan</a></li>
+			<li><a href="/micky/3/orbit.html">Å½onglovÃ¡nÃ­ se tÅ™emi mÃ­Äky - Orbit</a></li>
+			<li><a href="/micky/3/orbit2.html">Å½onglovÃ¡nÃ­ se tÅ™emi mÃ­Äky - Orbit II</a></li>
+			<li><a href="/micky/3/osmicka.html">Å½onglovÃ¡nÃ­ se tÅ™emi mÃ­Äky - OsmiÄka</a></li>
+			<li><a href="/micky/3/robot.html">Å½onglovÃ¡nÃ­ se tÅ™emi mÃ­Äky - Robot</a></li>
+			<li><a href="/micky/3/seesaw.html">Å½onglovÃ¡nÃ­ se tÅ™emi mÃ­Äky - See saw</a></li>
+			<li><a href="/micky/3/sloupy-falesne.html">Å½onglovÃ¡nÃ­ se tÅ™emi mÃ­Äky - FaleÅ¡nÃ© sloupy</a></li>
+			<li><a href="/micky/3/sloupy.html">Å½onglovÃ¡nÃ­ se tÅ™emi mÃ­Äky - Sloupy</a></li>
+			<li><a href="/micky/3/socha.html">Å½onglovÃ¡nÃ­ se tÅ™emi mÃ­Äky - Socha svobody</a></li>
+			<li><a href="/micky/3/sprcha-polovicni.html">Å½onglovÃ¡nÃ­ se tÅ™emi mÃ­Äky - PoloviÄnÃ­ sprcha</a></li>
+			<li><a href="/micky/3/sprcha.html">Å½onglovÃ¡nÃ­ se tÅ™emi mÃ­Äky - Sprcha</a></li>
+			<li><a href="/micky/3/tenis-2v1.html">Å½onglovÃ¡nÃ­ se tÅ™emi mÃ­Äky - 2 v 1 tenis</a></li>
+			<li><a href="/micky/3/tenis.html">Å½onglovÃ¡nÃ­ se tÅ™emi mÃ­Äky - Tenis</a></li>
+			<li><a href="/micky/3/zada.html">Å½onglovÃ¡nÃ­ se tÅ™emi mÃ­Äky - ProhozenÃ­ mÃ­Äku za zÃ¡dy</a></li>
+			<li><a href="/micky/3/zirafa.html">Å½onglovÃ¡nÃ­ se tÅ™emi mÃ­Äky - Å½irafa</a></li>
+			<li><a href="/micky/3/zkrizene-ruce.html">Å½onglovÃ¡nÃ­ se tÅ™emi mÃ­Äky - ZkÅ™Ã­Å¾enÃ© ruce</a></li>
 			</ul>
 			</li>
-			<li><a name="4"></a><a href="/micky/4/">®onglování se ètyømi míèky</a>
+			<li><a name="4"></a><a href="/micky/4/">Å½onglovÃ¡nÃ­ se ÄtyÅ™mi mÃ­Äky</a>
 			<ul>
-			<li><a href="/micky/4/55550.html">®onglování se ètyømi míèky - 55550</a></li>
-			<li><a href="/micky/4/destnik.html">®onglování se ètyømi míèky - De¹tník</a></li>
-			<li><a href="/micky/4/fontana-synchronni.html">®onglování se ètyømi míèky - Synchronní fontána</a></li>
-			<li><a href="/micky/4/fontana.html">®onglování se ètyømi míèky - Fontána</a></li>
-			<li><a href="/micky/4/krabice.html">®onglování se ètyømi míèky - Krabice</a></li>
-			<li><a href="/micky/4/kriz.html">®onglování se ètyømi míèky - Køí¾</a></li>
-			<li><a href="/micky/4/sloupy-ii.html">®onglování se ètyømi míèky - Sloupy II</a></li>
-			<li><a href="/micky/4/sloupy.html">®onglování se ètyømi míèky - Sloupy</a></li>
-			<li><a href="/micky/4/sprcha-polovicni.html">®onglování se ètyømi míèky - Polovièní sprcha</a></li>
-			<li><a href="/micky/4/sprcha.html">®onglování se ètyømi míèky - Sprcha</a></li>
-			<li><a href="/micky/4/tenis.html">®onglování se ètyømi míèky - Tenis</a></li>
+			<li><a href="/micky/4/55550.html">Å½onglovÃ¡nÃ­ se ÄtyÅ™mi mÃ­Äky - 55550</a></li>
+			<li><a href="/micky/4/destnik.html">Å½onglovÃ¡nÃ­ se ÄtyÅ™mi mÃ­Äky - DeÅ¡tnÃ­k</a></li>
+			<li><a href="/micky/4/fontana-synchronni.html">Å½onglovÃ¡nÃ­ se ÄtyÅ™mi mÃ­Äky - SynchronnÃ­ fontÃ¡na</a></li>
+			<li><a href="/micky/4/fontana.html">Å½onglovÃ¡nÃ­ se ÄtyÅ™mi mÃ­Äky - FontÃ¡na</a></li>
+			<li><a href="/micky/4/krabice.html">Å½onglovÃ¡nÃ­ se ÄtyÅ™mi mÃ­Äky - Krabice</a></li>
+			<li><a href="/micky/4/kriz.html">Å½onglovÃ¡nÃ­ se ÄtyÅ™mi mÃ­Äky - KÅ™Ã­Å¾</a></li>
+			<li><a href="/micky/4/sloupy-ii.html">Å½onglovÃ¡nÃ­ se ÄtyÅ™mi mÃ­Äky - Sloupy II</a></li>
+			<li><a href="/micky/4/sloupy.html">Å½onglovÃ¡nÃ­ se ÄtyÅ™mi mÃ­Äky - Sloupy</a></li>
+			<li><a href="/micky/4/sprcha-polovicni.html">Å½onglovÃ¡nÃ­ se ÄtyÅ™mi mÃ­Äky - PoloviÄnÃ­ sprcha</a></li>
+			<li><a href="/micky/4/sprcha.html">Å½onglovÃ¡nÃ­ se ÄtyÅ™mi mÃ­Äky - Sprcha</a></li>
+			<li><a href="/micky/4/tenis.html">Å½onglovÃ¡nÃ­ se ÄtyÅ™mi mÃ­Äky - Tenis</a></li>
 			</ul>
 			</li>
-			<li><a name="5"></a><a href="/micky/5/">®onglování s pìti míèky</a>
+			<li><a name="5"></a><a href="/micky/5/">Å½onglovÃ¡nÃ­ s pÄ›ti mÃ­Äky</a>
 			<ul>
-			<li><a href="/micky/5/64.html">®onglování s pìti míèky - 3 + 2</a></li>
-			<li><a href="/micky/5/kaskada-multiplex.html">®onglování s pìti míèky - Kaskáda (multiplex)</a></li>
-			<li><a href="/micky/5/kaskada-reverzni.html">®onglování s pìti míèky - Reverzní kaskáda</a></li>
-			<li><a href="/micky/5/kaskada.html">®onglování s pìti míèky - Kaskáda</a></li>
-			<li><a href="/micky/5/sprcha-polovicni.html">®onglování s pìti míèky - Polovièní sprcha</a></li>
+			<li><a href="/micky/5/64.html">Å½onglovÃ¡nÃ­ s pÄ›ti mÃ­Äky - 3 + 2</a></li>
+			<li><a href="/micky/5/kaskada-multiplex.html">Å½onglovÃ¡nÃ­ s pÄ›ti mÃ­Äky - KaskÃ¡da (multiplex)</a></li>
+			<li><a href="/micky/5/kaskada-reverzni.html">Å½onglovÃ¡nÃ­ s pÄ›ti mÃ­Äky - ReverznÃ­ kaskÃ¡da</a></li>
+			<li><a href="/micky/5/kaskada.html">Å½onglovÃ¡nÃ­ s pÄ›ti mÃ­Äky - KaskÃ¡da</a></li>
+			<li><a href="/micky/5/sprcha-polovicni.html">Å½onglovÃ¡nÃ­ s pÄ›ti mÃ­Äky - PoloviÄnÃ­ sprcha</a></li>
 			</ul>
 			</li>
-			<li><a name="6"></a><a href="/micky/6/">®onglování se ¹esti míèky</a>
+			<li><a name="6"></a><a href="/micky/6/">Å½onglovÃ¡nÃ­ se Å¡esti mÃ­Äky</a>
 			
 			</li>
 		</ul>
 		</li>
-		<li><a name="obrazky"></a><a href="/obrazky/">Obrázky ¾onglování</a>
+		<li><a name="obrazky"></a><a href="/obrazky/">ObrÃ¡zky Å¾onglovÃ¡nÃ­</a>
 		<ul>
-			<li><a name="carodejnice-klamovka-20080422"></a><a href="/obrazky/carodejnice-klamovka-20080422/">Èarodìjnice na Klamovce 2008 - obrázky ¾onglování</a>
+			<li><a name="carodejnice-klamovka-20080422"></a><a href="/obrazky/carodejnice-klamovka-20080422/">ÄŒarodÄ›jnice na Klamovce 2008 - obrÃ¡zky Å¾onglovÃ¡nÃ­</a>
 			
 			</li>
-			<li><a name="dejvice-20090425"></a><a href="/obrazky/dejvice-20090425/">Dejvice 25. 4. 2009 - obrázky ¾onglování</a>
+			<li><a name="dejvice-20090425"></a><a href="/obrazky/dejvice-20090425/">Dejvice 25. 4. 2009 - obrÃ¡zky Å¾onglovÃ¡nÃ­</a>
 			
 			</li>
-			<li><a name="festival-zonglovani-20070713"></a><a href="/obrazky/festival-zonglovani-20070713/">Festival ¾onglování Praha 2007 - obrázky ¾onglování</a>
+			<li><a name="festival-zonglovani-20070713"></a><a href="/obrazky/festival-zonglovani-20070713/">Festival Å¾onglovÃ¡nÃ­ Praha 2007 - obrÃ¡zky Å¾onglovÃ¡nÃ­</a>
 			
 			</li>
-			<li><a name="klamovka-20080422"></a><a href="/obrazky/klamovka-20080422/">Klamovka 22. 4. 2008 - obrázky ¾onglování</a>
+			<li><a name="klamovka-20080422"></a><a href="/obrazky/klamovka-20080422/">Klamovka 22. 4. 2008 - obrÃ¡zky Å¾onglovÃ¡nÃ­</a>
 			
 			</li>
-			<li><a name="klamovka-20081105"></a><a href="/obrazky/klamovka-20081105/">Klamovka 5. 11. 2008 - obrázky ¾onglování</a>
+			<li><a name="klamovka-20081105"></a><a href="/obrazky/klamovka-20081105/">Klamovka 5. 11. 2008 - obrÃ¡zky Å¾onglovÃ¡nÃ­</a>
 			
 			</li>
-			<li><a name="klamovka-20091007"></a><a href="/obrazky/klamovka-20091007/">Klamovka 7. 10. 2009 - obrázky ¾onglování</a>
+			<li><a name="klamovka-20091007"></a><a href="/obrazky/klamovka-20091007/">Klamovka 7. 10. 2009 - obrÃ¡zky Å¾onglovÃ¡nÃ­</a>
 			
 			</li>
-			<li><a name="lhotka-20080601"></a><a href="/obrazky/lhotka-20080601/">Vlakem do Lhotky 2008 - obrázky ¾onglování</a>
+			<li><a name="lhotka-20080601"></a><a href="/obrazky/lhotka-20080601/">Vlakem do Lhotky 2008 - obrÃ¡zky Å¾onglovÃ¡nÃ­</a>
 			
 			</li>
-			<li><a name="predvanocni-vystoupeni-klamovka-20081211"></a><a href="/obrazky/predvanocni-vystoupeni-klamovka-20081211/">Pøedvánoèní vystoupení na Klamovce 2008 - obrázky ¾onglování</a>
+			<li><a name="predvanocni-vystoupeni-klamovka-20081211"></a><a href="/obrazky/predvanocni-vystoupeni-klamovka-20081211/">PÅ™edvÃ¡noÄnÃ­ vystoupenÃ­ na Klamovce 2008 - obrÃ¡zky Å¾onglovÃ¡nÃ­</a>
 			
 			</li>
-			<li><a name="ulita-20091018"></a><a href="/obrazky/ulita-20091018/">Ulita 18. 10. 2009 - obrázky ¾onglování</a>
+			<li><a name="ulita-20091018"></a><a href="/obrazky/ulita-20091018/">Ulita 18. 10. 2009 - obrÃ¡zky Å¾onglovÃ¡nÃ­</a>
 			
 			</li>
-			<li><a name="zidovske-pece-20090404"></a><a href="/obrazky/zidovske-pece-20090404/">®idovské pece 4. 4. 2009 - obrázky ¾onglování</a>
+			<li><a name="zidovske-pece-20090404"></a><a href="/obrazky/zidovske-pece-20090404/">Å½idovskÃ© pece 4. 4. 2009 - obrÃ¡zky Å¾onglovÃ¡nÃ­</a>
 			
 			</li>
 		</ul>
 		</li>
-		<li><a name="ulita"></a><a href="/ulita/">®onglování v Ulitì</a>
+		<li><a name="ulita"></a><a href="/ulita/">Å½onglovÃ¡nÃ­ v UlitÄ›</a>
 		<ul>
 		<li><a href="/ulita/cesta.html">Jak se dostat do Ulity</a></li>
 		<li><a href="/ulita/en.html">Juggling at Ulita</a></li>
 		</ul>
 		</li>
-		<li><a name="video"></a><a href="/video/">®onglérská videa</a>
+		<li><a name="video"></a><a href="/video/">Å½onglÃ©rskÃ¡ videa</a>
 		<ul>
 		<li><a href="/video/4000000-extreme-juggling.html">4,000,000% Extreme Juggling</a></li>
 		<li><a href="/video/addicted.html">Addicted</a></li>
 		<li><a href="/video/alan-thom-3.html">Alan &amp; Thom #3</a></li>
 		<li><a href="/video/all-day-baby.html">All Day Baby!</a></li>
-		<li><a href="/video/ball-club-scissors.html">Míèek - ku¾el - nù¾ky</a></li>
+		<li><a href="/video/ball-club-scissors.html">MÃ­Äek - kuÅ¾el - nÅ¯Å¾ky</a></li>
 		<li><a href="/video/giraffe-theory.html">Giraffe Theory Juggling Glow Clubs</a></li>
 		<li><a href="/video/guava-winter-07-08.html">Guava over winter break 07-08</a></li>
 		<li><a href="/video/hocus-pocus.html">Hocus Pocus</a></li>
@@ -332,7 +332,7 @@
 		<li><a href="/video/juggle-a-saurus.html">Alan &amp; Thom the Fourth</a></li>
 		<li><a href="/video/juggling-extravaganza.html">Juggling Extravaganza</a></li>
 		<li><a href="/video/laurent-phil.html">Laurent et Phil, juggling passing demo</a></li>
-		<li><a href="/video/les-bebes.html">Les Bébés</a></li>
+		<li><a href="/video/les-bebes.html">Les BÃ©bÃ©s</a></li>
 		<li><a href="/video/liquid-crystal-live.html">Matt Hennem - Liquid Crystal live</a></li>
 		<li><a href="/video/lost-tapes-minneapolis.html">The Lost Tapes of Minneapolis</a></li>
 		<li><a href="/video/more-or-less.html">More or less juggling</a></li>

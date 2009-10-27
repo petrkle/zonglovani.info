@@ -1,33 +1,33 @@
 <p>
-Základní zpùsoby házení ku¾elu.
+ZÃ¡kladnÃ­ zpÅ¯soby hÃ¡zenÃ­ kuÅ¾elu.
 </p>
 
-<a name="single"><h3>Jedna otoèka</h3></a>
+<a name="single"><h3>Jedna otoÄka</h3></a>
 <p>
-{obrazek soubor="kuzely-rotacea.png" popisek="1 otoèka"}
-Ku¾el se za letu jednou otoèí. Základní a nejjednodu¹í hod.
+{obrazek soubor="kuzely-rotacea.png" popisek="1 otoÄka"}
+KuÅ¾el se za letu jednou otoÄÃ­. ZÃ¡kladnÃ­ a nejjednoduÅ¡Ã­ hod.
 </p>
 
 
-<a name="double"><h3>Dvì otoèky</h3></a>
+<a name="double"><h3>DvÄ› otoÄky</h3></a>
 <p>
-{obrazek soubor="kuzely-rotaceb.png" popisek="2 otoèky"}
-Ku¾el se za letu otoèí dvakrát.
+{obrazek soubor="kuzely-rotaceb.png" popisek="2 otoÄky"}
+KuÅ¾el se za letu otoÄÃ­ dvakrÃ¡t.
 </p>
 
-<a name="triple"><h3>Tøi otoèky</h3></a>
+<a name="triple"><h3>TÅ™i otoÄky</h3></a>
 <p>
-Tì¾ko zvládnutelné, ale mù¾e se hodit.
+TÄ›Å¾ko zvlÃ¡dnutelnÃ©, ale mÅ¯Å¾e se hodit.
 </p>
 
-<h3>Reverzní rotace</h3>
+<h3>ReverznÃ­ rotace</h3>
 <p>
-{obrazek soubor="kuzely-rotacec.png" popisek="Obrácenì"}
-Ku¾el mù¾e¹ hodit i s obrácenou rotací.
+{obrazek soubor="kuzely-rotacec.png" popisek="ObrÃ¡cenÄ›"}
+KuÅ¾el mÅ¯Å¾eÅ¡ hodit i s obrÃ¡cenou rotacÃ­.
 </p>
 
 <h3>Flat</h3>
 <p>
 {obrazek soubor="kuzely-rotaced.png" popisek="Flat"}
-Neobvyklı hod - bez otoèení ku¾elu.
+NeobvyklÃ½ hod - bez otoÄenÃ­ kuÅ¾elu.
 </p>

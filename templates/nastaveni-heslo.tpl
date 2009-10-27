@@ -8,11 +8,11 @@
 <form action="{$smarty.server.REQUEST_URI}" method="post">
 <p>
 <fieldset>
-<legend>Zmìna hesla</legend>
+<legend>ZmÄ›na hesla</legend>
 <ul>
-<li><label for="heslo" accesskey=s" class="kratkypopis"><u>S</u>ouèasné heslo:</label><input type="password" name="stareheslo" id="heslo" value="" class="textbox" tabindex="4"/><a class="info" href="#">?<span class="tooltip">Heslo pou¾ité pro pøihlá¹ení.</span></a></li>
-<li><label for="heslo" accesskey=h" class="kratkypopis">Nové&nbsp;<u>h</u>eslo:</label><input type="password" name="heslo" id="heslo" value="" class="textbox" tabindex="4"/><a class="info" href="#">?<span class="tooltip">Nové heslo pro pøihlá¹ení. Doporuèuje se nepou¾ívat háèky a èárky. Pøi zadávání hesla zále¾í na velikosti písmen. Minimální délka hesla 5 znakù.</span></a></li>
-<li><label for="heslo2" accesskey="v" class="kratkypopis">Nové&nbsp;hes<u>l</u>o (znovu):</label><input type="password" name="heslo2" id="heslo2" value="" class="textbox" tabindex="5"/><a class="info" href="#">?<span class="tooltip">Heslo je potøeba zadat dvakrát. Kvùli vylouèení pøeklepù.</span></a></li>
+<li><label for="heslo" accesskey=s" class="kratkypopis"><u>S</u>ouÄasnÃ© heslo:</label><input type="password" name="stareheslo" id="heslo" value="" class="textbox" tabindex="4"/><a class="info" href="#">?<span class="tooltip">Heslo pouÅ¾itÃ© pro pÅ™ihlÃ¡Å¡enÃ­.</span></a></li>
+<li><label for="heslo" accesskey=h" class="kratkypopis">NovÃ©&nbsp;<u>h</u>eslo:</label><input type="password" name="heslo" id="heslo" value="" class="textbox" tabindex="4"/><a class="info" href="#">?<span class="tooltip">NovÃ© heslo pro pÅ™ihlÃ¡Å¡enÃ­. DoporuÄuje se nepouÅ¾Ã­vat hÃ¡Äky a ÄÃ¡rky. PÅ™i zadÃ¡vÃ¡nÃ­ hesla zÃ¡leÅ¾Ã­ na velikosti pÃ­smen. MinimÃ¡lnÃ­ dÃ©lka hesla 5 znakÅ¯.</span></a></li>
+<li><label for="heslo2" accesskey="v" class="kratkypopis">NovÃ©&nbsp;hes<u>l</u>o (znovu):</label><input type="password" name="heslo2" id="heslo2" value="" class="textbox" tabindex="5"/><a class="info" href="#">?<span class="tooltip">Heslo je potÅ™eba zadat dvakrÃ¡t. KvÅ¯li vylouÄenÃ­ pÅ™eklepÅ¯.</span></a></li>
 </ul>
 </fieldset>
 </p>

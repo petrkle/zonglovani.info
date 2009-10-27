@@ -5,39 +5,39 @@
 	     <nazev>Robot</nazev>
 		 <pocet>3</pocet>
 	     <siteswaps>-</siteswaps>
-		 <obtiznost>nároèné</obtiznost>
+		 <obtiznost>nÃ¡roÄnÃ©</obtiznost>
 		 <oblast>micky-3</oblast>
 	</about>
 
 	<krok>
-		<popisek>Míèky nebudou opisovat oblouèky jako obvykle. Naopak, cílem tohoto triku je míèky házet a pøesunovat rovnì.</popisek>
+		<popisek>MÃ­Äky nebudou opisovat oblouÄky jako obvykle. Naopak, cÃ­lem tohoto triku je mÃ­Äky hÃ¡zet a pÅ™esunovat rovnÄ›.</popisek>
 	</krok>
 
 	<krok>
 		<obrazek>micky-3-robota</obrazek>
-		<popisek>Zaèni s &lt;a href=&quot;../2/2v1.html&quot; title=&quot;Trik se dvìma míèky.&quot;&gt;2 v 1&lt;/a&gt; v pravé ruce. Tøetí míèek nevyhazuj. Pøesuò ho nahoru a kolmo doprava - odtud název robot.</popisek>
+		<popisek>ZaÄni s &lt;a href=&quot;../2/2v1.html&quot; title=&quot;Trik se dvÄ›ma mÃ­Äky.&quot;&gt;2 v 1&lt;/a&gt; v pravÃ© ruce. TÅ™etÃ­ mÃ­Äek nevyhazuj. PÅ™esuÅˆ ho nahoru a kolmo doprava - odtud nÃ¡zev robot.</popisek>
   </krok>
 
 	<krok>
 		<obrazek>micky-3-robotc</obrazek>
-		<popisek>Ze zaèátku staèí prostì pøesunout levou ruku s míèkem nahoru. Postupnì, jak se bude¹ zlep¹ovat, napodobuj levou rukou pohyb robota. Trochu trhanì, po rovnıch drahách.</popisek>
+		<popisek>Ze zaÄÃ¡tku staÄÃ­ prostÄ› pÅ™esunout levou ruku s mÃ­Äkem nahoru. PostupnÄ›, jak se budeÅ¡ zlepÅ¡ovat, napodobuj levou rukou pohyb robota. Trochu trhanÄ›, po rovnÃ½ch drahÃ¡ch.</popisek>
   </krok>
 
 
 	<krok>
 		<obrazek>micky-3-robotd</obrazek>
-		<popisek>Pravou rukou vyhoï první míèek rovnì nahoru. Vra» se zpátky vpravo, pro chycení druhého míèku.</popisek>
+		<popisek>Pravou rukou vyhoÄ prvnÃ­ mÃ­Äek rovnÄ› nahoru. VraÅ¥ se zpÃ¡tky vpravo, pro chycenÃ­ druhÃ©ho mÃ­Äku.</popisek>
   </krok>
 
 
 	<krok>
 		<obrazek>micky-3-robote</obrazek>
-		<popisek>Z levé ruky upus» tøetí míèek. Pøichází nejobtí¾nìj¹í èást triku. Levou rukou chytit u¾ padající první míèek.</popisek>
+		<popisek>Z levÃ© ruky upusÅ¥ tÅ™etÃ­ mÃ­Äek. PÅ™ichÃ¡zÃ­ nejobtÃ­Å¾nÄ›jÅ¡Ã­ ÄÃ¡st triku. Levou rukou chytit uÅ¾ padajÃ­cÃ­ prvnÃ­ mÃ­Äek.</popisek>
   </krok>
 
 	<krok>
 		<obrazek>micky-3-robotf</obrazek>
-		<popisek>Míèky se o jeden posunuly. Mù¾e¹ pokraèovat znovu podle prvního obrázku.</popisek>
+		<popisek>MÃ­Äky se o jeden posunuly. MÅ¯Å¾eÅ¡ pokraÄovat znovu podle prvnÃ­ho obrÃ¡zku.</popisek>
   </krok>
 
 

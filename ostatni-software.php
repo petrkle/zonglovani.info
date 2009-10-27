@@ -1,7 +1,7 @@
 <?php
 require('init.php');
 
-$smarty->assign("titulek","Simulátory ¾onglování");
+$smarty->assign("titulek","SimulÃ¡tory Å¾onglovÃ¡nÃ­");
 
 $smarty->display('hlavicka.tpl');
 $smarty->display('ostatni-software.tpl');

@@ -1,21 +1,21 @@
 <p>
-Kruh je tøeba pøi vyhození roztoèit aby letìl rovnì.
+Kruh je tÅ™eba pÅ™i vyhozenÃ­ roztoÄit aby letÄ›l rovnÄ›.
 </p>
 
 <a name="jeden" id="jeden"></a>
 <h2>Jeden kruh</h2>
 <p>
-{obrazek soubor="kruhy-zacateka.png" popisek="Hození kruhu z pravé ruky do levé."}
-Zaèni s jedním kruhem. Pøehazuj ho z pravé ruky do levé.
+{obrazek soubor="kruhy-zacateka.png" popisek="HozenÃ­ kruhu z pravÃ© ruky do levÃ©."}
+ZaÄni s jednÃ­m kruhem. PÅ™ehazuj ho z pravÃ© ruky do levÃ©.
 </p>
 
 <p>
-{obrazek soubor="kruhy-zacatekb.png" popisek="A zpátky z levé do pravé."}
-A pak zpátky z levé do pravé.
+{obrazek soubor="kruhy-zacatekb.png" popisek="A zpÃ¡tky z levÃ© do pravÃ©."}
+A pak zpÃ¡tky z levÃ© do pravÃ©.
 </p>
 
 <p>
-Vyzkou¹ej i pohazování s kruhem v jedné ruce. Procvièuj pravou i levou ruku.
+VyzkouÅ¡ej i pohazovÃ¡nÃ­ s kruhem v jednÃ© ruce. ProcviÄuj pravou i levou ruku.
 </p>
 
 <a name="dva" id="dva"></a>
@@ -25,22 +25,22 @@ Vyzkou¹ej i pohazování s kruhem v jedné ruce. Procvièuj pravou i levou ruku.
 </p>
 
 <p>
-{obrazek soubor="kruhy-zacatekc.png" popisek="Hození prvního kruhu z pravé ruky do levé."}
-Z pravé ruky vyhoï první kruh.
+{obrazek soubor="kruhy-zacatekc.png" popisek="HozenÃ­ prvnÃ­ho kruhu z pravÃ© ruky do levÃ©."}
+Z pravÃ© ruky vyhoÄ prvnÃ­ kruh.
 </p>
 
 <p>
-{obrazek soubor="kruhy-zacatekd.png" popisek="Hození druhého kruhu z levé ruky do pravé."}
-Kdy¾ je první na vrcholu své dráhy vyhoï druhı kruh. Pak zachytí¹ první kruh do levé ruky. Druhı kruh chytí¹ do pravé ruky.
+{obrazek soubor="kruhy-zacatekd.png" popisek="HozenÃ­ druhÃ©ho kruhu z levÃ© ruky do pravÃ©."}
+KdyÅ¾ je prvnÃ­ na vrcholu svÃ© drÃ¡hy vyhoÄ druhÃ½ kruh. Pak zachytÃ­Å¡ prvnÃ­ kruh do levÃ© ruky. DruhÃ½ kruh chytÃ­Å¡ do pravÃ© ruky.
 </p>
 
 <p>
-Trénuj nejprve podle obrázkù a pak s obrácenım poøadím rukou. Nakonec si ke dvìma kruhùm mù¾e¹ pøidat jeden míèek.
+TrÃ©nuj nejprve podle obrÃ¡zkÅ¯ a pak s obrÃ¡cenÃ½m poÅ™adÃ­m rukou. Nakonec si ke dvÄ›ma kruhÅ¯m mÅ¯Å¾eÅ¡ pÅ™idat jeden mÃ­Äek.
 </p>
 
 
-<h2>Tøi kruhy</h2>
+<h2>TÅ™i kruhy</h2>
 <p>
-Kdy¾ u¾ ti to se dvìma kruhy jde, pøidej je¹tì tøetí pro úplnou <a href="/kruhy/3/kaskada.html" title="Kaskáda se tøemi kruhy.">kaskádu</a>. Kaskáda je nejlehèí trik, zaèni s ní.
+KdyÅ¾ uÅ¾ ti to se dvÄ›ma kruhy jde, pÅ™idej jeÅ¡tÄ› tÅ™etÃ­ pro Ãºplnou <a href="/kruhy/3/kaskada.html" title="KaskÃ¡da se tÅ™emi kruhy.">kaskÃ¡du</a>. KaskÃ¡da je nejlehÄÃ­ trik, zaÄni s nÃ­.
 </p>
 

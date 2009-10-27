@@ -1,43 +1,43 @@
 <p>
-Kruhy jsou vhodné pro ¾onglování v uzavøenıch prostorách. Venku je toti¾ lehce odfoukne vítr.
+Kruhy jsou vhodnÃ© pro Å¾onglovÃ¡nÃ­ v uzavÅ™enÃ½ch prostorÃ¡ch. Venku je totiÅ¾ lehce odfoukne vÃ­tr.
 </p>
 
 
-<h3><a href="/kruhy/jak-zacit.html" title="Jak zaèít ¾onglovat s kruhy.">Jak zaèít ¾onglovat s kruhy</a></h3>
+<h3><a href="/kruhy/jak-zacit.html" title="Jak zaÄÃ­t Å¾onglovat s kruhy.">Jak zaÄÃ­t Å¾onglovat s kruhy</a></h3>
 <p>
-Jak zaèít ¾onglovat s kruhy.
+Jak zaÄÃ­t Å¾onglovat s kruhy.
 </p>
 
 <h3>2 kruhy</h3>
 <p>
 <ul>
-<li><a href="/kruhy/2/2v1.html" title="snadné">2 v 1</a></li>
+<li><a href="/kruhy/2/2v1.html" title="snadnÃ©">2 v 1</a></li>
 </ul>
 </p>
 
 <h3>3 kruhy</h3>
 <p>
 <ul>
-<li><a href="/kruhy/3/kaskada.html" title="snadné">Kaskáda</a></li>
-<li><a href="/kruhy/3/noha.html" title="snadné">Prohození kruhu pod nohou</a></li>
-<li><a href="/kruhy/3/sloupy.html" title="snadné">Sloupy</a></li>
+<li><a href="/kruhy/3/kaskada.html" title="snadnÃ©">KaskÃ¡da</a></li>
+<li><a href="/kruhy/3/noha.html" title="snadnÃ©">ProhozenÃ­ kruhu pod nohou</a></li>
+<li><a href="/kruhy/3/sloupy.html" title="snadnÃ©">Sloupy</a></li>
 </ul>
 </p>
 
 <h3>4 kruhy</h3>
 <p>
 <ul>
-<li><a href="/kruhy/4/fontana.html" title="nároèné">Fontána</a></li>
+<li><a href="/kruhy/4/fontana.html" title="nÃ¡roÄnÃ©">FontÃ¡na</a></li>
 </ul>
 </p>
 
-<h3><a href="/kruhy/vyroba.html" title="Vıroba kruhù na ¾onglování.">Vıroba kruhù</a></h3>
+<h3><a href="/kruhy/vyroba.html" title="VÃ½roba kruhÅ¯ na Å¾onglovÃ¡nÃ­.">VÃ½roba kruhÅ¯</a></h3>
 <p>
-Kruhy levnì, snadno a rychle.
+Kruhy levnÄ›, snadno a rychle.
 </p>
 
 
-<h3><a href="/kruhy/legenda.html" title="Vysvìtlivky k obrázkùm.">Legenda</a></h3>
+<h3><a href="/kruhy/legenda.html" title="VysvÄ›tlivky k obrÃ¡zkÅ¯m.">Legenda</a></h3>
 <p>
-Vysvìtlivky k obrázkùm.
+VysvÄ›tlivky k obrÃ¡zkÅ¯m.
 </p>

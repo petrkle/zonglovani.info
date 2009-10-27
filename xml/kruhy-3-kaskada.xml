@@ -2,34 +2,34 @@
 <trik>
 
     <about>
-	     <nazev>Kaskáda</nazev>
+	     <nazev>KaskÃ¡da</nazev>
 		 <pocet>3</pocet>
 	     <siteswaps>3</siteswaps>
-		 <obtiznost>snadné</obtiznost>
+		 <obtiznost>snadnÃ©</obtiznost>
 		 <oblast>kruhy-3</oblast>
 	</about>
 
 	<krok>
-	    <popisek>Kaskáda je nejjednodu¹¹í zpùsob ¾onglování se tøemi kruhy.</popisek>
+	    <popisek>KaskÃ¡da je nejjednoduÅ¡Å¡Ã­ zpÅ¯sob Å¾onglovÃ¡nÃ­ se tÅ™emi kruhy.</popisek>
     </krok>
 
     <krok>
         <obrazek>kruhy-3-kaskadaa</obrazek>
-        <popisek>Kaskádu zaèni rukou ve které dr¾í¹ dva kruhy. Podle obrázku tedy pravou rukou vyhoï první kruh.</popisek>
+        <popisek>KaskÃ¡du zaÄni rukou ve kterÃ© drÅ¾Ã­Å¡ dva kruhy. Podle obrÃ¡zku tedy pravou rukou vyhoÄ prvnÃ­ kruh.</popisek>
     </krok>
 
     <krok>
         <obrazek>kruhy-3-kaskadab</obrazek>
-        <popisek>V momentì kdy první kruh dosáhne vrcholu své dráhy hoï levou rukou druhı kruh.</popisek>
+        <popisek>V momentÄ› kdy prvnÃ­ kruh dosÃ¡hne vrcholu svÃ© drÃ¡hy hoÄ levou rukou druhÃ½ kruh.</popisek>
     </krok>
 
     <krok>
         <obrazek>kruhy-3-kaskadac</obrazek>
-        <popisek>A kdy¾ je druhı kruh na vrcholu své dráhy hoï pravou rukou tøetí kruh.</popisek>
+        <popisek>A kdyÅ¾ je druhÃ½ kruh na vrcholu svÃ© drÃ¡hy hoÄ pravou rukou tÅ™etÃ­ kruh.</popisek>
     </krok>
 
 	<krok>
-	    <popisek>Tak a u¾ umí¹ ¾onglovat se tøemi kruhy.</popisek>
+	    <popisek>Tak a uÅ¾ umÃ­Å¡ Å¾onglovat se tÅ™emi kruhy.</popisek>
     </krok>
 
 </trik>

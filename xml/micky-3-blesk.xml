@@ -5,27 +5,27 @@
 	     <nazev>Blesk</nazev>
 		 <pocet>3</pocet>
 	     <siteswaps>55500</siteswaps>
-		 <obtiznost>nároèné</obtiznost>
+		 <obtiznost>nÃ¡roÄnÃ©</obtiznost>
 		 <oblast>micky-3</oblast>
 	</about>
 
     <krok>
-        <popisek>Blesk je rychlé vyhození míèkù tak, ¾e tvé dlanì zùstanou na okam¾ik prázdné. Anglicky se tento trik oznaèuje jako "flash".</popisek>
+        <popisek>Blesk je rychlÃ© vyhozenÃ­ mÃ­ÄkÅ¯ tak, Å¾e tvÃ© dlanÄ› zÅ¯stanou na okamÅ¾ik prÃ¡zdnÃ©. Anglicky se tento trik oznaÄuje jako "flash".</popisek>
     </krok>
 
     <krok>
         <obrazek>bleska</obrazek>
-        <popisek>Zaène¹ se dvìma míèky v pravé ruce. Rychle vyhodí¹ první míèek.</popisek>
+        <popisek>ZaÄneÅ¡ se dvÄ›ma mÃ­Äky v pravÃ© ruce. Rychle vyhodÃ­Å¡ prvnÃ­ mÃ­Äek.</popisek>
     </krok>
 
     <krok>
         <obrazek>bleskb</obrazek>
-        <popisek>Hned za ním následuje v rychlém sledu druhı a tøetí míèek.</popisek>
+        <popisek>Hned za nÃ­m nÃ¡sleduje v rychlÃ©m sledu druhÃ½ a tÅ™etÃ­ mÃ­Äek.</popisek>
     </krok>
 
     <krok>
         <obrazek>bleskc</obrazek>
-				<popisek>Tvé ruce jsou na okam¾ik prázdné. Tuto pauzu lze vyu¾ít napøíklad k tlesknutí nebo &lt;a href=&quot;../pirueta.html&quot; title=&quot;Otoèení o 360 stupòù.&quot;&gt;piruetì&lt;/a&gt;.</popisek>
+				<popisek>TvÃ© ruce jsou na okamÅ¾ik prÃ¡zdnÃ©. Tuto pauzu lze vyuÅ¾Ã­t napÅ™Ã­klad k tlesknutÃ­ nebo &lt;a href=&quot;../pirueta.html&quot; title=&quot;OtoÄenÃ­ o 360 stupÅˆÅ¯.&quot;&gt;piruetÄ›&lt;/a&gt;.</popisek>
     </krok>
 
 </trik>

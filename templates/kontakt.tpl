@@ -1,19 +1,19 @@
 <br />
-<h3>Petr KleteËka</h3>
-<p>{obrazek soubor="pek.jpg" popisek="Petr KleteËka"}</p>
+<h3>Petr Kleteƒçka</h3>
+<p>{obrazek soubor="pek.jpg" popisek="Petr Kleteƒçka"}</p>
 <p>
 {assign var='mail' value='admin@zonglovani.info'}
-Elektronick· poπta: {$mail|mailobfuscate}
+Elektronick√° po≈°ta: {$mail|mailobfuscate}
 </p>
 <p class="kontakt">
 Telefon: 
 {obrazek soubor="tel-1.png" popisek="sedm"}
-{obrazek soubor="tel-2.png" popisek="t¯i"}
+{obrazek soubor="tel-2.png" popisek="t≈ôi"}
 {obrazek soubor="tel-3.png" popisek="dva"}
 {obrazek soubor="tel-4.png" popisek="sedm"}
-{obrazek soubor="tel-5.png" popisek="πest"}
-{obrazek soubor="tel-6.png" popisek="πest"}
+{obrazek soubor="tel-5.png" popisek="≈°est"}
+{obrazek soubor="tel-6.png" popisek="≈°est"}
 {obrazek soubor="tel-7.png" popisek="sedm"}
-{obrazek soubor="tel-8.png" popisek="Ëty¯i"}
-{obrazek soubor="tel-9.png" popisek="koleËko"}
+{obrazek soubor="tel-8.png" popisek="ƒçty≈ôi"}
+{obrazek soubor="tel-9.png" popisek="koleƒçko"}
 </p>

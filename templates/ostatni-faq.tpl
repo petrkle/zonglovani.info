@@ -1,33 +1,33 @@
 <p>
-Otázky na které se lidé èasto ptají v souvislosti s ¾onglováním.
+OtÃ¡zky na kterÃ© se lidÃ© Äasto ptajÃ­ v souvislosti s Å¾onglovÃ¡nÃ­m.
 </p>
 
-<h3>Paráda! Jak ses to nauèil?</h3>
+<h3>ParÃ¡da! Jak ses to nauÄil?</h3>
 <p>
-Stejnì jako jsem se nauèil jezdit na kole. Zkou¹el jsem to tak dlouho a¾ se mi to povedlo. Netvrdím, ¾e rychlost a postøeh nejsou potøeba, ale základem je <a href="trenink.html" title="Pravidelnı trénink je základ.">trénink</a>.
+StejnÄ› jako jsem se nauÄil jezdit na kole. ZkouÅ¡el jsem to tak dlouho aÅ¾ se mi to povedlo. NetvrdÃ­m, Å¾e rychlost a postÅ™eh nejsou potÅ™eba, ale zÃ¡kladem je <a href="trenink.html" title="PravidelnÃ½ trÃ©nink je zÃ¡klad.">trÃ©nink</a>.
 </p>
 
-<h3>Za jak dlouho se nauèím ¾onglovat?</h3>
+<h3>Za jak dlouho se nauÄÃ­m Å¾onglovat?</h3>
 <p>
-Je to velmi individuální. Obvykle tøi míèky zaberou jedno odpoledne, pìt míèkù mìsíce a sedm míèkù roky. Trik kterı se nauèí¹ za hodinu mù¾e nìkomu jinému trvat 14 dní a naopak.
+Je to velmi individuÃ¡lnÃ­. Obvykle tÅ™i mÃ­Äky zaberou jedno odpoledne, pÄ›t mÃ­ÄkÅ¯ mÄ›sÃ­ce a sedm mÃ­ÄkÅ¯ roky. Trik kterÃ½ se nauÄÃ­Å¡ za hodinu mÅ¯Å¾e nÄ›komu jinÃ©mu trvat 14 dnÃ­ a naopak.
 </p>
 
-<h3>Èím mám zaèít?</h3>
+<h3>ÄŒÃ­m mÃ¡m zaÄÃ­t?</h3>
 
-<p>Nejlehèí je zaèít <a href="/micky/jak-zacit.html" title="Základní návod.">¾onglovat s míèky</a>.</p>
+<p>NejlehÄÃ­ je zaÄÃ­t <a href="/micky/jak-zacit.html" title="ZÃ¡kladnÃ­ nÃ¡vod.">Å¾onglovat s mÃ­Äky</a>.</p>
 
 
-<h3>Kde najdu dal¹í ¾ongléry?</h3>
+<h3>Kde najdu dalÅ¡Ã­ Å¾onglÃ©ry?</h3>
 <p>
-Pravidelnì se konají ¾onglérské srazy. To jsou nejlep¹í místa kde se nauèit nové triky. Informace o místech a èasech konání najde¹ v <a href="{$smarty.const.CALENDAR_URL}" title="Kalendáø ¾onglérskıch akcí.">kalendáøi</a>. 
+PravidelnÄ› se konajÃ­ Å¾onglÃ©rskÃ© srazy. To jsou nejlepÅ¡Ã­ mÃ­sta kde se nauÄit novÃ© triky. Informace o mÃ­stech a Äasech konÃ¡nÃ­ najdeÅ¡ v <a href="{$smarty.const.CALENDAR_URL}" title="KalendÃ¡Å™ Å¾onglÃ©rskÃ½ch akcÃ­.">kalendÃ¡Å™i</a>. 
 </p>
 
-<h3>Je o ¾onglování nìjaká kní¾ka?</h3>
+<h3>Je o Å¾onglovÃ¡nÃ­ nÄ›jakÃ¡ knÃ­Å¾ka?</h3>
 <p>
-Ano, <a href="/literatura.html" title="Kní¾ky o ¾onglování.">literatura</a> je dostupná. I kdy¾ vìt¹inou anglicky.
+Ano, <a href="/literatura.html" title="KnÃ­Å¾ky o Å¾onglovÃ¡nÃ­.">literatura</a> je dostupnÃ¡. I kdyÅ¾ vÄ›tÅ¡inou anglicky.
 </p>
 
-<h3>Dal¹í otázky?</h3>
+<h3>DalÅ¡Ã­ otÃ¡zky?</h3>
 <p>
-Pro nalezení odpovìdí zkus nejprve <a href="{$smarty.const.SEARCH_URL}" title="Prohledávání ¾onglérova slabikáøe.">vyhledávání</a>. Dal¹í mo¾ností je polo¾it dotaz do <a href="{$smarty.const.DISKUSE_URL}" title="Diskusní fórum o ¾onglování.">diskusního fóra</a>.
+Pro nalezenÃ­ odpovÄ›dÃ­ zkus nejprve <a href="{$smarty.const.SEARCH_URL}" title="ProhledÃ¡vÃ¡nÃ­ Å¾onglÃ©rova slabikÃ¡Å™e.">vyhledÃ¡vÃ¡nÃ­</a>. DalÅ¡Ã­ moÅ¾nostÃ­ je poloÅ¾it dotaz do <a href="{$smarty.const.DISKUSE_URL}" title="DiskusnÃ­ fÃ³rum o Å¾onglovÃ¡nÃ­.">diskusnÃ­ho fÃ³ra</a>.
 </p>

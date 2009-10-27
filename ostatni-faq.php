@@ -1,7 +1,7 @@
 <?php
 require('init.php');
 
-$smarty->assign("titulek","Èasto kladené otázky");
+$smarty->assign("titulek","ÄŒasto kladenÃ© otÃ¡zky");
 
 $smarty->display('hlavicka.tpl');
 $smarty->display('ostatni-faq.tpl');

@@ -1,33 +1,33 @@
-<h3>Ku¾el z novin</h3>
+<h3>KuÅ¾el z novin</h3>
 
 <p>
-K vırobì bude¹ potøebovat noviny, lepicí pásku a nù¾. Vyrobit jeden ku¾el trvá asi 15 minut.
+K vÃ½robÄ› budeÅ¡ potÅ™ebovat noviny, lepicÃ­ pÃ¡sku a nÅ¯Å¾. Vyrobit jeden kuÅ¾el trvÃ¡ asi 15 minut.
 </p>
 
 <p>
 {obrazek soubor="kuzely-vyrobaa.png" popisek=""}
-Poskládej na sebe 25 novinovıch dvojstran. Pravou polovinu stránky pøehni v polovinì a odøízni no¾em. Ètvercové listy sroluj a omotej lepicí páskou.
+PosklÃ¡dej na sebe 25 novinovÃ½ch dvojstran. Pravou polovinu strÃ¡nky pÅ™ehni v polovinÄ› a odÅ™Ã­zni noÅ¾em. ÄŒtvercovÃ© listy sroluj a omotej lepicÃ­ pÃ¡skou.
 </p>
 
 
 <p>
 {obrazek soubor="kuzely-vyrobab.png" popisek=""}
-Pruhy novin které ti zbyly z pøedchozího kroku omotej kolem dr¾adla. Asi 4-5 cm od konce. V¹e opìt zajisti lepicí páskou.
+Pruhy novin kterÃ© ti zbyly z pÅ™edchozÃ­ho kroku omotej kolem drÅ¾adla. Asi 4-5 cm od konce. VÅ¡e opÄ›t zajisti lepicÃ­ pÃ¡skou.
 </p>
 
 
 <p>
 {obrazek soubor="kuzely-vyrobac.png" popisek=""}
-Vezmi dal¹ích 10 stránek novin a rozøízni je na ètvrtiny.
+Vezmi dalÅ¡Ã­ch 10 strÃ¡nek novin a rozÅ™Ã­zni je na Ätvrtiny.
 </p>
 
 
 <p>
 {obrazek soubor="kuzely-vyrobad.png" popisek=""}
-V¹echny pruhy dej na sebe, omotej kolem pøedchozí vrstvy a zajisti lepicí páskou. 
+VÅ¡echny pruhy dej na sebe, omotej kolem pÅ™edchozÃ­ vrstvy a zajisti lepicÃ­ pÃ¡skou. 
 </p>
 
 <p>
 {obrazek soubor="kuzely-vyrobae.png" popisek=""}
-Na závìr mù¾e¹ ku¾el vylep¹it barevnou lepicí páskou.
+Na zÃ¡vÄ›r mÅ¯Å¾eÅ¡ kuÅ¾el vylepÅ¡it barevnou lepicÃ­ pÃ¡skou.
 </p>

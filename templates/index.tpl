@@ -1,35 +1,35 @@
 <div style="float: left; margin: 15px 15px 0 20px; text-align: center;">
-<a href="/micky/" title="®onglování s míèky.">{obrazek soubor="micky.png" popisek="Míèky"}</a>
+<a href="/micky/" title="Å½onglovÃ¡nÃ­ s mÃ­Äky.">{obrazek soubor="micky.png" popisek="MÃ­Äky"}</a>
 </div>
 
 
 <div style="float: left; margin: 15px 15px 0 15px; text-align: center;">
-<a href="/kruhy/" title="®onglování s kruhy.">{obrazek soubor="kruhy.png" popisek="Kruhy"}</a>
+<a href="/kruhy/" title="Å½onglovÃ¡nÃ­ s kruhy.">{obrazek soubor="kruhy.png" popisek="Kruhy"}</a>
 </div>
 
 
 <div style="float: left; margin: 15px 0px 0 15px; text-align: center;">
-<a href="/kuzely/" title="®onglování s ku¾ely.">{obrazek soubor="kuzely.png" popisek="Ku¾ely"}</a>
+<a href="/kuzely/" title="Å½onglovÃ¡nÃ­ s kuÅ¾ely.">{obrazek soubor="kuzely.png" popisek="KuÅ¾ely"}</a>
 </div>
 
 <p>
-®onglérùv slabikáø je uèebnice ¾onglování se spoustou barevnıch obrázkù. Nejvìt¹í èást je vìnovaná míèkùm. Dozví¹ se také nìco málo o kruzích, ku¾elech a <a href="/chudy/" title="Chùdy">chùdách</a>.
+Å½onglÃ©rÅ¯v slabikÃ¡Å™ je uÄebnice Å¾onglovÃ¡nÃ­ se spoustou barevnÃ½ch obrÃ¡zkÅ¯. NejvÄ›tÅ¡Ã­ ÄÃ¡st je vÄ›novanÃ¡ mÃ­ÄkÅ¯m. DozvÃ­Å¡ se takÃ© nÄ›co mÃ¡lo o kruzÃ­ch, kuÅ¾elech a <a href="/chudy/" title="ChÅ¯dy">chÅ¯dÃ¡ch</a>.
 </p>
 
-<h3>Èím mám zaèít?</h3>
+<h3>ÄŒÃ­m mÃ¡m zaÄÃ­t?</h3>
 
-<p>Nejlehèí je zaèít <a href="/micky/jak-zacit.html" title="Základní návod.">¾onglovat s míèky</a>.</p>
+<p>NejlehÄÃ­ je zaÄÃ­t <a href="/micky/jak-zacit.html" title="ZÃ¡kladnÃ­ nÃ¡vod.">Å¾onglovat s mÃ­Äky</a>.</p>
 
-<h3>Dal¹í informace o ¾onglování</h3>
+<h3>DalÅ¡Ã­ informace o Å¾onglovÃ¡nÃ­</h3>
 <p>
 <ul>
-<li><a href="/nacini.html" title="Popis rùznıch ¾onglovátek.">®onglérské náèiní</a> - s èím v¹ím se dá ¾onglovat.</li>
-<li><a href="/druhy-zonglovani.html" title="Popis zpùsobù ¾onglování.">Druhy ¾onglování</a> - rùzné zpùsoby ¾onglovaní.</li>
-<li><a href="/faq.html" title="FAQ">Èasto kladené otázky</a> a odpovìdi na nì.</li>
+<li><a href="/nacini.html" title="Popis rÅ¯znÃ½ch Å¾onglovÃ¡tek.">Å½onglÃ©rskÃ© nÃ¡ÄinÃ­</a> - s ÄÃ­m vÅ¡Ã­m se dÃ¡ Å¾onglovat.</li>
+<li><a href="/druhy-zonglovani.html" title="Popis zpÅ¯sobÅ¯ Å¾onglovÃ¡nÃ­.">Druhy Å¾onglovÃ¡nÃ­</a> - rÅ¯znÃ© zpÅ¯soby Å¾onglovanÃ­.</li>
+<li><a href="/faq.html" title="FAQ">ÄŒasto kladenÃ© otÃ¡zky</a> a odpovÄ›di na nÄ›.</li>
 </ul>
 </p>
 <hr />
-<h3><a href="/ulita/" title="Nedìlní ¾onglování v ulitì.">®onglování v Ulitì</a></h3>
+<h3><a href="/ulita/" title="NedÄ›lnÃ­ Å¾onglovÃ¡nÃ­ v ulitÄ›.">Å½onglovÃ¡nÃ­ v UlitÄ›</a></h3>
 <p>
-V domì dìtí a mláde¾e Ulita se pravidelnì ¾ongluje. Ka¾dou druhou nedìli :^)
+V domÄ› dÄ›tÃ­ a mlÃ¡deÅ¾e Ulita se pravidelnÄ› Å¾ongluje. KaÅ¾dou druhou nedÄ›li :^)
 </p>

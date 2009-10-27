@@ -1,7 +1,7 @@
 <p>
-Kdy¾ jsem zaèínal ¾onglovat (zima 2004), hodnì mi pomohli informace z internetu. Bylo snadné najít <a href="/odkazy.html" title="Dal¹í stránky o ¾onglování.">dobré stránky o ¾onglování</a>, ale ¾ádná nebyla èesky!
+KdyÅ¾ jsem zaÄÃ­nal Å¾onglovat (zima 2004), hodnÄ› mi pomohli informace z internetu. Bylo snadnÃ© najÃ­t <a href="/odkazy.html" title="DalÅ¡Ã­ strÃ¡nky o Å¾onglovÃ¡nÃ­.">dobrÃ© strÃ¡nky o Å¾onglovÃ¡nÃ­</a>, ale Å¾Ã¡dnÃ¡ nebyla Äesky!
 </p>
 
-<p>Proto jsem zaèal zapisovat triky s míèky, kruhy a ku¾ely. Navíc nakreslení obrázkù a popsání triku mi pomáhá pøi uèení. Tak postupnì vznikl ¾onglérùv slabikáø.</p>
+<p>Proto jsem zaÄal zapisovat triky s mÃ­Äky, kruhy a kuÅ¾ely. NavÃ­c nakreslenÃ­ obrÃ¡zkÅ¯ a popsÃ¡nÃ­ triku mi pomÃ¡hÃ¡ pÅ™i uÄenÃ­. Tak postupnÄ› vznikl Å¾onglÃ©rÅ¯v slabikÃ¡Å™.</p>
 
-<p>Od bøezna 2007 zaznamenávám i <a href="/changelog.html" title="Seznam zmìn v ¾onglérovì slabikáøi.">historii zmìn</a>.</p>
+<p>Od bÅ™ezna 2007 zaznamenÃ¡vÃ¡m i <a href="/changelog.html" title="Seznam zmÄ›n v Å¾onglÃ©rovÄ› slabikÃ¡Å™i.">historii zmÄ›n</a>.</p>

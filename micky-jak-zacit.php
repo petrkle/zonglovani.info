@@ -1,7 +1,7 @@
 <?php
 require('init.php');
 
-$smarty->assign("titulek","Jak zaèít ¾onglovat s míèky");
+$smarty->assign("titulek","Jak zaÄÃ­t Å¾onglovat s mÃ­Äky");
 
 $smarty->display('hlavicka.tpl');
 $smarty->display('micky-jak-zacit.tpl');

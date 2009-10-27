@@ -1,8 +1,8 @@
 <?php
 
 function smarty_modifier_mailobfuscate($string){
-	$tecka='<img src="/img/t/tecka.png" width="5" height="20" alt="teèka" />';
-	$zavinac='<img src="/img/z/zavinac.png" width="20" height="20" alt="zavináè" />';
+	$tecka='<img src="/img/t/tecka.png" width="5" height="20" alt="teÄka" />';
+	$zavinac='<img src="/img/z/zavinac.png" width="20" height="20" alt="zavinÃ¡Ä" />';
 
 	$navrat='<span class="kontakt">';
 	$adr=explode('@',$string);

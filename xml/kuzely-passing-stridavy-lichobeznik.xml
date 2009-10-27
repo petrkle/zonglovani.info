@@ -2,46 +2,46 @@
 <trik>
 
     <about>
-	     <nazev>Støídavı lichobì¾ník</nazev>
+	     <nazev>StÅ™Ã­davÃ½ lichobÄ›Å¾nÃ­k</nazev>
 		 <pocet>12</pocet>
 	     <siteswaps>-</siteswaps>
-		 <obtiznost>snadné</obtiznost>
+		 <obtiznost>snadnÃ©</obtiznost>
 		 <oblast>kuzely-passing</oblast>
 	</about>
 
 
     <krok>
-			<popisek>Støídavı lichobì¾ník je roz¹íøením &lt;a href=&quot;lichobeznik.html&quot; title=&quot;Podobnı trik.&quot;&gt;lichobì¾níku&lt;/a&gt;.</popisek>
+			<popisek>StÅ™Ã­davÃ½ lichobÄ›Å¾nÃ­k je rozÅ¡Ã­Å™enÃ­m &lt;a href=&quot;lichobeznik.html&quot; title=&quot;PodobnÃ½ trik.&quot;&gt;lichobÄ›Å¾nÃ­ku&lt;/a&gt;.</popisek>
     </krok>
 
     <krok>
 			<obrazek>slichobeznika</obrazek>
-			<popisek>První pass há¾i ¾ongléri &lt;b&gt;A&lt;/b&gt; a &lt;b&gt;B&lt;/b&gt; rovnobì¾nì s &lt;b&gt;C&lt;/b&gt; a &lt;b&gt;D&lt;/b&gt;.</popisek>
+			<popisek>PrvnÃ­ pass hÃ¡Å¾i Å¾onglÃ©ri &lt;b&gt;A&lt;/b&gt; a &lt;b&gt;B&lt;/b&gt; rovnobÄ›Å¾nÄ› s &lt;b&gt;C&lt;/b&gt; a &lt;b&gt;D&lt;/b&gt;.</popisek>
     </krok>
 
 
     <krok>
 			<obrazek>slichobeznikb</obrazek>
-			<popisek>Druhı pass je køí¾em. ®ongléøi  &lt;b&gt;A&lt;/b&gt; hází s &lt;b&gt;D&lt;/b&gt;. A ¾onglér &lt;b&gt;B&lt;/b&gt; s &lt;b&gt;C&lt;/b&gt;. Rùzná vzdálenost ¾onglérù zpùsobí, ¾e se ku¾ely nesrazí. </popisek>
+			<popisek>DruhÃ½ pass je kÅ™Ã­Å¾em. Å½onglÃ©Å™i  &lt;b&gt;A&lt;/b&gt; hÃ¡zÃ­ s &lt;b&gt;D&lt;/b&gt;. A Å¾onglÃ©r &lt;b&gt;B&lt;/b&gt; s &lt;b&gt;C&lt;/b&gt;. RÅ¯znÃ¡ vzdÃ¡lenost Å¾onglÃ©rÅ¯ zpÅ¯sobÃ­, Å¾e se kuÅ¾ely nesrazÃ­. </popisek>
     </krok>
 
 		<krok>
 			<obrazek>slichobeznikc</obrazek>
-			<popisek>Pøesun na nové pozice. Vzdálenìj¹í dvojice se k sobì pøiblí¾í. Naopak ¾ongléøi &lt;b&gt;C&lt;/b&gt; a &lt;b&gt;D&lt;/b&gt; se od sebe vzdálí.</popisek>
+			<popisek>PÅ™esun na novÃ© pozice. VzdÃ¡lenÄ›jÅ¡Ã­ dvojice se k sobÄ› pÅ™iblÃ­Å¾Ã­. Naopak Å¾onglÃ©Å™i &lt;b&gt;C&lt;/b&gt; a &lt;b&gt;D&lt;/b&gt; se od sebe vzdÃ¡lÃ­.</popisek>
 		</krok>
 
 		<krok>
 			<obrazek>slichobeznikd</obrazek>
-			<popisek>Lichobì¾ník se otoèil Házíte rovnobì¾né passy.</popisek>
+			<popisek>LichobÄ›Å¾nÃ­k se otoÄil HÃ¡zÃ­te rovnobÄ›Å¾nÃ© passy.</popisek>
 		</krok>
 
 		<krok>
 			<obrazek>slichobeznike</obrazek>
-			<popisek>Dal¹í pass je køí¾em. Po nìm bude následovat vımìna pozic.</popisek>
+			<popisek>DalÅ¡Ã­ pass je kÅ™Ã­Å¾em. Po nÄ›m bude nÃ¡sledovat vÃ½mÄ›na pozic.</popisek>
 		</krok>
 
     <krok>
-			<popisek>Pak se celı cyklus opakuje od prvího obrázku</popisek>
+			<popisek>Pak se celÃ½ cyklus opakuje od prvÃ­ho obrÃ¡zku</popisek>
     </krok>
 
 

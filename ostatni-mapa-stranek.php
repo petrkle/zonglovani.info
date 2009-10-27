@@ -2,7 +2,7 @@
 
 require('init.php');
 
-$smarty->assign("titulek","Mapa stránek");
+$smarty->assign("titulek","Mapa strÃ¡nek");
 
 $smarty->display('hlavicka.tpl');
 $mapa="mapa-stranek.inc";

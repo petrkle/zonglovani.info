@@ -1,12 +1,12 @@
 <table class="kalendar" cellspacing="0" cellpadding="0">
     <tr>
-    	<th>Pondìlí</th>
-    	<th>Úterı</th>
-    	<th>Støeda</th>
-    	<th>Ètvrtek</th>
-    	<th>Pátek</th>
+    	<th>PondÄ›lÃ­</th>
+    	<th>ÃšterÃ½</th>
+    	<th>StÅ™eda</th>
+    	<th>ÄŒtvrtek</th>
+    	<th>PÃ¡tek</th>
     	<th>Sobota</th>
-      <th>Nedìle</th>
+      <th>NedÄ›le</th>
     </tr>
     {* nested arrays month, week, day *}    
     {section name=week loop=$month} {* each week loop opens a new row *}
@@ -34,23 +34,23 @@
     </tr>
     {/section}
 		<tr>
-<td class="kal_prev"  colspan="5">{if isset($prevMonth)}<a href="{if $prevMonth==$aktMonth}{$smarty.const.CALENDAR_URL}{else}{$prevMonth}{/if}" title="Zobrazí pøedchozí mìsíc.">&laquo; pøedchozí mìsíc</a>{else}&nbsp;{/if}</td>
-<td class="kal_next" colspan="2">{if isset($nextMonth)}<a href="{if $nextMonth==$aktMonth}{$smarty.const.CALENDAR_URL}{else}{$nextMonth}{/if}" title="Zobrazí dal¹í mìsíc.">dal¹í mìsíc &raquo;</a>{else}&nbsp;{/if}</td>
+<td class="kal_prev"  colspan="5">{if isset($prevMonth)}<a href="{if $prevMonth==$aktMonth}{$smarty.const.CALENDAR_URL}{else}{$prevMonth}{/if}" title="ZobrazÃ­ pÅ™edchozÃ­ mÄ›sÃ­c.">&laquo; pÅ™edchozÃ­ mÄ›sÃ­c</a>{else}&nbsp;{/if}</td>
+<td class="kal_next" colspan="2">{if isset($nextMonth)}<a href="{if $nextMonth==$aktMonth}{$smarty.const.CALENDAR_URL}{else}{$nextMonth}{/if}" title="ZobrazÃ­ dalÅ¡Ã­ mÄ›sÃ­c.">dalÅ¡Ã­ mÄ›sÃ­c &raquo;</a>{else}&nbsp;{/if}</td>
 		</tr>
 </table>
 <p>
-Dnes je: {if $dnesek}{$aktDate}{else}<a href="{$smarty.const.CALENDAR_URL}" title="Zobrazí aktuální mìsíc.">{$aktDate}</a>{/if}
+Dnes je: {if $dnesek}{$aktDate}{else}<a href="{$smarty.const.CALENDAR_URL}" title="ZobrazÃ­ aktuÃ¡lnÃ­ mÄ›sÃ­c.">{$aktDate}</a>{/if}
 </p>
 <p>
-Pøidat <a href="{$smarty.const.CALENDAR_URL}add.php" title="Pøidat novou událost do kalendáøe.">novou událost</a>.
+PÅ™idat <a href="{$smarty.const.CALENDAR_URL}add.php" title="PÅ™idat novou udÃ¡lost do kalendÃ¡Å™e.">novou udÃ¡lost</a>.
 </p>
 {if $smazane}
-<h3>Smazané události</h3>
+<h3>SmazanÃ© udÃ¡losti</h3>
 <ul>
 {foreach from=$smazane item=udalost}
-<li><a href="smazane-{$udalost.id|escape}.html" title="Zobrazit smazanou událost.">{$udalost.title|escape}</a></li>
+<li><a href="smazane-{$udalost.id|escape}.html" title="Zobrazit smazanou udÃ¡lost.">{$udalost.title|escape}</a></li>
 {/foreach}
 </ul>
 {/if}
-<p>Kalendáø mù¾e¹ sledovat pomocí <a href="{$smarty.const.CALENDAR_URL}kalendar.rss" title="RSS kanál">RSS</a> <a class="info" href="#">?<span class="tooltip">RSS slou¾í k upozoròování na aktualizaci stránek.</span></a> a <a href="{$smarty.const.CALENDAR_URL}kalendar.ics" title="Ical export">iCalendar</a> <a class="info" href="#">?<span class="tooltip">iCalendar je formát pro vımìnu záznamù v kalendáøi mezi poèítaèi.</span></a>.</p>
-<p>Návod <a href="rss-a-icalendar.html">jak nastavit RSS a iCalendar</a>.</p>
+<p>KalendÃ¡Å™ mÅ¯Å¾eÅ¡ sledovat pomocÃ­ <a href="{$smarty.const.CALENDAR_URL}kalendar.rss" title="RSS kanÃ¡l">RSS</a> <a class="info" href="#">?<span class="tooltip">RSS slouÅ¾Ã­ k upozorÅˆovÃ¡nÃ­ na aktualizaci strÃ¡nek.</span></a> a <a href="{$smarty.const.CALENDAR_URL}kalendar.ics" title="Ical export">iCalendar</a> <a class="info" href="#">?<span class="tooltip">iCalendar je formÃ¡t pro vÃ½mÄ›nu zÃ¡znamÅ¯ v kalendÃ¡Å™i mezi poÄÃ­taÄi.</span></a>.</p>
+<p>NÃ¡vod <a href="rss-a-icalendar.html">jak nastavit RSS a iCalendar</a>.</p>

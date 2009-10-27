@@ -1,82 +1,82 @@
 <p>
-Kdy¾ ti spadne míèek, nepøestávej ¾onglovat.
+KdyÅ¾ ti spadne mÃ­Äek, nepÅ™estÃ¡vej Å¾onglovat.
 </p>
 
-<h3>3 míèky</h3>
+<h3>3 mÃ­Äky</h3>
 
 <p>
-Chybìjící míèek staèí nahradit <a href="/micky/3/neviditelny.html" title="Trik se tøemi míèky.">neviditelnım míèkem</a>. Pokraèuj kaskádou se tøemi míèky. Klekni si pøed spadlı míèek. Ve správnı moment místo chycení neviditelného míèku seber míèek ze zemì.
+ChybÄ›jÃ­cÃ­ mÃ­Äek staÄÃ­ nahradit <a href="/micky/3/neviditelny.html" title="Trik se tÅ™emi mÃ­Äky.">neviditelnÃ½m mÃ­Äkem</a>. PokraÄuj kaskÃ¡dou se tÅ™emi mÃ­Äky. Klekni si pÅ™ed spadlÃ½ mÃ­Äek. Ve sprÃ¡vnÃ½ moment mÃ­sto chycenÃ­ neviditelnÃ©ho mÃ­Äku seber mÃ­Äek ze zemÄ›.
 </p>
 
 <p>
 {obrazek soubor="micky-sbirania.png" popisek=""}
-První míèek vyhodí¹ z pravé ruky.
+PrvnÃ­ mÃ­Äek vyhodÃ­Å¡ z pravÃ© ruky.
 </p>
 
 <p>
 {obrazek soubor="micky-sbiranib.png" popisek=""}
-Levou rukou pokraèuje¹ v kaskádì. Mezitím pravá ruka sbírá tøetí míèek ze zemì.
+Levou rukou pokraÄujeÅ¡ v kaskÃ¡dÄ›. MezitÃ­m pravÃ¡ ruka sbÃ­rÃ¡ tÅ™etÃ­ mÃ­Äek ze zemÄ›.
 </p>
 
 <p>
 {obrazek soubor="micky-sbiranic.png" popisek=""}
-Pokraèuj <a href="/micky/3/kaskada.html" title="Základní trik se tøemi míèky.">kaskádou se tøemi</a> míèky.
+PokraÄuj <a href="/micky/3/kaskada.html" title="ZÃ¡kladnÃ­ trik se tÅ™emi mÃ­Äky.">kaskÃ¡dou se tÅ™emi</a> mÃ­Äky.
 </p>
 
 
-<h3>4 míèky</h3>
+<h3>4 mÃ­Äky</h3>
 
 <p>
-Kdy¾ ti spadne míèek pokraèuj kaskádou se tøemi míèky. Klekni si pøed spadlı míèek. A teï to pøijde.
+KdyÅ¾ ti spadne mÃ­Äek pokraÄuj kaskÃ¡dou se tÅ™emi mÃ­Äky. Klekni si pÅ™ed spadlÃ½ mÃ­Äek. A teÄ to pÅ™ijde.
 </p>
 <p>
 {obrazek soubor="micky-sbiranid.png" popisek=""}
-Pøejdi z kaskády se tøemi ...
+PÅ™ejdi z kaskÃ¡dy se tÅ™emi ...
 </p>
 
 <p>
 {obrazek soubor="micky-sbiranie.png" popisek=""}
-... do <a href="/micky/2/2v1.html" title="Trik se dvìma míèky.">2 v 1</a> v levé ruce.
+... do <a href="/micky/2/2v1.html" title="Trik se dvÄ›ma mÃ­Äky.">2 v 1</a> v levÃ© ruce.
 </p>
 
 <p>
 {obrazek soubor="micky-sbiranif.png" popisek=""}
-Tøetí míèek z pravé ruky hoï také rovnì nahoru.
+TÅ™etÃ­ mÃ­Äek z pravÃ© ruky hoÄ takÃ© rovnÄ› nahoru.
 </p>
 
 <p>
 {obrazek soubor="micky-sbiranih.png" popisek=""}
-Pravou rukou seber míèek ze zemì.
+Pravou rukou seber mÃ­Äek ze zemÄ›.
 </p>
 
 <p>
 {obrazek soubor="micky-sbiranii.png" popisek=""}
-Pokraèuj fontánou se ètyømi míèky.
+PokraÄuj fontÃ¡nou se ÄtyÅ™mi mÃ­Äky.
 </p>
 
-<h3>5 míèkù</h3>
+<h3>5 mÃ­ÄkÅ¯</h3>
 
 <p>
-Obtí¾né, ale velmi efektní. Kdy¾ ti spadne jeden míèek, pokraèuj <a href="/micky/4/fontana.html" title="Trik se ètyømi míèky.">fontánou se ètyømi</a> míèky. Klekni si pøed spadlı míèek. Zaèni házet míèky jako pøi <a href="/micky/5/kaskada.html" title="Trik s pìti míèky.">kaskádì</a> - z jedné ruky do druhé.
+ObtÃ­Å¾nÃ©, ale velmi efektnÃ­. KdyÅ¾ ti spadne jeden mÃ­Äek, pokraÄuj <a href="/micky/4/fontana.html" title="Trik se ÄtyÅ™mi mÃ­Äky.">fontÃ¡nou se ÄtyÅ™mi</a> mÃ­Äky. Klekni si pÅ™ed spadlÃ½ mÃ­Äek. ZaÄni hÃ¡zet mÃ­Äky jako pÅ™i <a href="/micky/5/kaskada.html" title="Trik s pÄ›ti mÃ­Äky.">kaskÃ¡dÄ›</a> - z jednÃ© ruky do druhÃ©.
 </p>
 
 <p>
 {obrazek soubor="micky-sbiranij.png" popisek=""}
-Pravá, levá, pravá - hodí a je prázdná.
+PravÃ¡, levÃ¡, pravÃ¡ - hodÃ­ a je prÃ¡zdnÃ¡.
 </p>
 
 <p>
 {obrazek soubor="micky-sbiranik.png" popisek=""}
-Nastává chvíle pro sebrání míèku.
+NastÃ¡vÃ¡ chvÃ­le pro sebrÃ¡nÃ­ mÃ­Äku.
 </p>
 
 <p>
 {obrazek soubor="micky-sbiranil.png" popisek=""}
-Házej dál levá, pravá (sebranı míèek), levá, ...
+HÃ¡zej dÃ¡l levÃ¡, pravÃ¡ (sebranÃ½ mÃ­Äek), levÃ¡, ...
 </p>
 <p>
-Kdy¾ ti spadnou dva míèky z pìti, pokraèuj kaskádou se tøemi. Nohou pøesuò spadlé míèky vedle sebe. Klekni si. Míèky jsou ka¾dı pøed jedním kolenem. Vyhoï <a href="/micky/3/blesk.html" title="Trik se tøemi míèky.">blesk se tøemi</a> a místo tlesknutí nebo <a href="/micky/pirueta.html" title="Otoèení dokoleèka.">piruety</a> seber oba míèky ze zemì.
+KdyÅ¾ ti spadnou dva mÃ­Äky z pÄ›ti, pokraÄuj kaskÃ¡dou se tÅ™emi. Nohou pÅ™esuÅˆ spadlÃ© mÃ­Äky vedle sebe. Klekni si. MÃ­Äky jsou kaÅ¾dÃ½ pÅ™ed jednÃ­m kolenem. VyhoÄ <a href="/micky/3/blesk.html" title="Trik se tÅ™emi mÃ­Äky.">blesk se tÅ™emi</a> a mÃ­sto tlesknutÃ­ nebo <a href="/micky/pirueta.html" title="OtoÄenÃ­ dokoleÄka.">piruety</a> seber oba mÃ­Äky ze zemÄ›.
 </p>
 
 
-<a href="#nahore" title="Pøesun na zaèátek stránky" class="nahoru">nahoru&nbsp;^^</a>
+<a href="#nahore" title="PÅ™esun na zaÄÃ¡tek strÃ¡nky" class="nahoru">nahoru&nbsp;^^</a>

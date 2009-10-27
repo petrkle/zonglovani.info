@@ -2,7 +2,7 @@
 require('../init.php');
 require('../func.php');
 
-$smarty->assign("titulek","Odeslání vzkazu");
+$smarty->assign("titulek","OdeslÃ¡nÃ­ vzkazu");
 if(isset($_GET["m"])){
 	$messageid=$_GET["m"];
 	$foo=LIDE_VZKAZY."/$messageid";
@@ -12,18 +12,18 @@ if(isset($_GET["m"])){
 		$prijemce=trim(array_pop(file("$foo/prijemce.txt")));
 		$vzkaz=file_get_contents("$foo/vzkaz.txt");
 
-		$subject = "=?iso-8859-2?Q?".preg_replace("/=\r\n/","",quoted_printable_encode("Vzkaz z ¾onglérova slabikáøe"))."?=";
+		$subject = "=?utf-8?Q?".preg_replace("/=\r\n/","",quoted_printable_encode("Vzkaz z Å¾onglÃ©rova slabikÃ¡Å™e"))."?=";
 
 		$headers = 'Return-Path: '.$odesilatel . "\r\n" .
     'From: '.$odesilatel . "\r\n" .
     'Reply-To: '.$odesilatel . "\r\n" .
-    'Content-Type: text/plain; charset=iso-8859-2' . "\r\n" .
+    'Content-Type: text/plain; charset=utf-8' . "\r\n" .
     'Content-Transfer-Encoding: quoted-printable' . "\r\n" .
     'Precedence: bulk';
 $message = $vzkaz.'
 
 -- 
-Tento vzkaz byl zaslán pomocí ¾onglérova slabikáøe.
+Tento vzkaz byl zaslÃ¡n pomocÃ­ Å¾onglÃ©rova slabikÃ¡Å™e.
 http://zonglovani.info
 ';
 
@@ -31,7 +31,7 @@ http://zonglovani.info
 
 
 		if($vysledek){
-			$smarty->assign("chyby",array("Vzkaz byl odeslán."));
+			$smarty->assign("chyby",array("Vzkaz byl odeslÃ¡n."));
 			$smarty->display('hlavicka.tpl');
 			$smarty->display('alert.tpl');
 			$smarty->display('paticka.tpl');
@@ -41,20 +41,20 @@ http://zonglovani.info
 			unlink("$foo/created.time");
 			rmdir($foo);
 		}else{
-			$smarty->assign("chyby",array("Pøi odesílání vzkazu nastala chyba."));
+			$smarty->assign("chyby",array("PÅ™i odesÃ­lÃ¡nÃ­ vzkazu nastala chyba."));
 			$smarty->display('hlavicka.tpl');
 			$smarty->display('alert.tpl');
 			$smarty->display('paticka.tpl');
 		}
 	}else{
-		$smarty->assign("chyby",array("Neplatný odkaz pro zaslání vzkazu."));
+		$smarty->assign("chyby",array("NeplatnÃ½ odkaz pro zaslÃ¡nÃ­ vzkazu."));
 		$smarty->display('hlavicka.tpl');
 		$smarty->display('alert.tpl');
 		$smarty->display('paticka.tpl');
 	}
 
 }else{
-	$smarty->assign("chyby",array("Odkaz pro zaslání vzkazu není úplný."));
+	$smarty->assign("chyby",array("Odkaz pro zaslÃ¡nÃ­ vzkazu nenÃ­ ÃºplnÃ½."));
 	$smarty->display('hlavicka.tpl');
 	$smarty->display('alert.tpl');
 	$smarty->display('paticka.tpl');

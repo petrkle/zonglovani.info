@@ -9,23 +9,24 @@ if (isset($_GET["show"])) {
 	$show="";
 }
 
+$titulek="≈Ωonglov√°n√≠ se t≈ôemi kruhy";
 
 if(strlen($show)>0 and is_file($show.".xml")){
-  // vykreslÌ jeden trik
+  // vykresl√≠ jeden trik
 	
 	$trik=nacti_trik($show);
 	$smarty->assign("trik",$trik);
-	$smarty->assign("titulek","Æonglov·nÌ se t¯emi kruhy - ".$trik["info"][1]);
-	$smarty->assign("keywords",make_keywords("Æonglov·nÌ se t¯emi kruhy,".$trik["info"][1]));
+	$smarty->assign("titulek",$titulek." - ".$trik['about']['nazev']);
+	$smarty->assign("nadpis",$trik['about']['nazev']);
 	$smarty->assign('nahled',get_nahled($trik));
 	$smarty->assign('description',get_description($trik));
-	$smarty->assign("nadpis",$trik["info"][1]);
+	$smarty->assign("keywords",make_keywords($titulek.','.$trik['about']['nazev']));
 	$smarty->display("hlavicka.tpl");
 	$smarty->display("trik.tpl");
 	$smarty->display("paticka.tpl");
 
 }else{
-  // kdyæ nenÌ vybr·n trik
+  // kdy≈æ nen√≠ vybr√°n trik
 	header("HTTP/1.1 301 Moved Permanently");
 	header("Location: /kruhy/");
 	exit();

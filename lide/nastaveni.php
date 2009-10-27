@@ -3,7 +3,7 @@ require('../init.php');
 require('../func.php');
 
 if(is_logged()){
-	$smarty->assign("titulek","Nastavení");
+	$smarty->assign("titulek","NastavenÃ­");
 	$chyby=array();
 
 	if(isset($_GET["uprav"])){
@@ -14,16 +14,16 @@ if(is_logged()){
 				$jmeno=trim($_POST["jmeno"]);
 
 				if(strlen($jmeno)<3){
-					array_push($chyby,"Jméno není zadané, nebo je pøíli¹ krátké.");
+					array_push($chyby,"JmÃ©no nenÃ­ zadanÃ©, nebo je pÅ™Ã­liÅ¡ krÃ¡tkÃ©.");
 				}elseif(strlen($jmeno)>256){
-					array_push($chyby,"Jméno je pøíli¹ dlouhé.");
-				}elseif(eregi("[-\*\.\?\!<>;\^\$\{\}\@%\&\(\)'\"_:´·\\|#`~,ß]",$jmeno)){
-					array_push($chyby,"Jméno obsahuje nepovolené znaky.");
+					array_push($chyby,"JmÃ©no je pÅ™Ã­liÅ¡ dlouhÃ©.");
+				}elseif(eregi("[-\*\.\?\!<>;\^\$\{\}\@%\&\(\)'\"_:Â´Ë‡\\|#`~,ÃŸ]",$jmeno)){
+					array_push($chyby,"JmÃ©no obsahuje nepovolenÃ© znaky.");
 				}elseif($jmeno==$_SESSION["uzivatel"]["jmeno"]){
 					# nic :-)
 				}else{
 					if(is_zs_jmeno($jmeno)){
-						array_push($chyby,"Zadané jméno u¾ pou¾ívá jinı u¾ivatel.");
+						array_push($chyby,"ZadanÃ© jmÃ©no uÅ¾ pouÅ¾Ã­vÃ¡ jinÃ½ uÅ¾ivatel.");
 					}
 				}
 				if(count($chyby)==0){
@@ -66,7 +66,7 @@ if(is_logged()){
 			if(isset($_POST["vzkaz"]) and isset($_POST["odeslat"])){
 					$vzkaz=$_POST["vzkaz"];
 					if(strlen($vzkaz)>1024){
-						array_push($chyby,"Vzkaz je pøíli¹ dlouhı.");
+						array_push($chyby,"Vzkaz je pÅ™Ã­liÅ¡ dlouhÃ½.");
 					}
 
 				if(count($chyby)==0){
@@ -90,19 +90,19 @@ if(is_logged()){
 					$heslo2=$_POST["heslo2"];
 
 				if(strlen($heslo)<5){
-					array_push($chyby,"Heslo není zadané, nebo je pøíli¹ krátké.");
+					array_push($chyby,"Heslo nenÃ­ zadanÃ©, nebo je pÅ™Ã­liÅ¡ krÃ¡tkÃ©.");
 				}
 
 				if(eregi(".*".$_SESSION["uzivatel"]["login"].".*",$heslo) or eregi(".*".$_SESSION["uzivatel"]["jmeno"].".*",$heslo) or eregi(".*".$_SESSION["uzivatel"]["email"].".*",$heslo)){
-					array_push($chyby,"Zadané heslo je pøíli¹ slabé.");
+					array_push($chyby,"ZadanÃ© heslo je pÅ™Ã­liÅ¡ slabÃ©.");
 				}
 
 				if($heslo!=$heslo2){
-					array_push($chyby,"Novì zadaná hesla se neshodují.");
+					array_push($chyby,"NovÄ› zadanÃ¡ hesla se neshodujÃ­.");
 				}
 
 				if(sha1($stareheslo.$_SESSION["uzivatel"]["login"])!=$_SESSION["uzivatel"]["passwd_sha1"]){
-					array_push($chyby,"©patnì zadané aktuální heslo.");
+					array_push($chyby,"Å patnÄ› zadanÃ© aktuÃ¡lnÃ­ heslo.");
 				}
 
 				if(count($chyby)==0){
@@ -125,7 +125,7 @@ if(is_logged()){
 	
 	}else{
 		if(isset($_GET["result"])){
-			array_push($chyby,"Nastavení bylo ulo¾eno.");
+			array_push($chyby,"NastavenÃ­ bylo uloÅ¾eno.");
 			$smarty->assign('chyby',$chyby);
 		}
 		$smarty->display('hlavicka.tpl');

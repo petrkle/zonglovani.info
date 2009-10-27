@@ -1,28 +1,33 @@
-<?xml version="1.0" encoding="iso-8859-2"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="cs" lang="cs">
 <head>
-	<meta http-equiv="content-type" content="text/html; charset=iso-8859-2" />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<title>{$titulek|escape}</title>
-	<meta name="description" content="{if isset($description)}{$description|escape}{elseif isset($nadpis)}{$nadpis|escape} - žonglérův slabikář{else}Žonglérův slabikář - obrázková učebnice žonglování.{/if}" />
-	<meta name="keywords" content="{if isset($keywords)}{$keywords|escape}{else}žongování, míčky, kruhy, kužely, návod, kaskáda, mills mess{/if}" />
+	<meta name="description" content="{if isset($description)}{$description|escape}{elseif isset($nadpis)}{$nadpis|escape} - ĹžonglĂŠrĹŻv slabikĂĄĹ{else}Ĺ˝onglĂŠrĹŻv slabikĂĄĹ - obrĂĄzkovĂĄ uÄebnice ĹžonglovĂĄnĂ­.{/if}" />
+	<meta name="keywords" content="{if isset($keywords)}{$keywords|escape}{else}ĹžongovĂĄnĂ­, mĂ­Äky, kruhy, kuĹžely, nĂĄvod, kaskĂĄda, mills mess{/if}" />
 	<style media="screen,projection" type="text/css">@import url(/zonglovani.css);</style>
 	<style media="print" type="text/css">@import url(/zonglovani-tisk.css);</style>
 	<meta name="robots" content="{if isset($robots)}{$robots|escape}{else}index,follow{/if}" />
   <link rel="shortcut icon" href="/favicon.ico" />
-	{if isset($rsslink)}<link rel="alternate" title="" href="{$rsslink|escape}" type="application/rss+xml" />{/if}
+	<link rel="alternate" title="Ĺ˝onglĂŠrĹŻv slabikĂĄĹ" href="http://{$smarty.server.SERVER_NAME}/zonglovani.rss" type="application/rss+xml" />
+	<link rel="alternate" title="ObrĂĄzky ĹžonglovĂĄnĂ­" href="http://{$smarty.server.SERVER_NAME}{$smarty.const.OBRAZKY_URL}obrazky.rss" type="application/rss+xml" />
+	<link rel="alternate" title="KalendĂĄĹ ĹžonglĂŠrskĂ˝ch akcĂ­" href="http://{$smarty.server.SERVER_NAME}{$smarty.const.CALENDAR_URL}kalendar.rss" type="application/rss+xml" />
+	<link rel="alternate" title="Diskuse o ĹžonglovĂĄnĂ­" href="http://{$smarty.server.SERVER_NAME}{$smarty.const.DISKUSE_URL}zpravy.rss" type="application/rss+xml" />
+	<link rel="alternate" title="Aktualizace ĹžonglĂŠrova slabikĂĄĹe" href="http://{$smarty.server.SERVER_NAME}/ostatni/changelog.rss" type="application/rss+xml" />
+	{*{if isset($rsslink)}<link rel="alternate" title="" href="{$rsslink|escape}" type="application/rss+xml" />{/if}*}
 	{if isset($nahled)}<link rel="image_src" href="{$nahled|escape}" />{/if}
 </head>
 <body>
 
 <div id="hlavicka">
 <div id="ucet">
-{if $smarty.session.logged==true}<a href="{$smarty.const.LIDE_URL}{$smarty.session.uzivatel.login|escape}.html" title="Tvůj účet.">{$smarty.session.uzivatel.jmeno|escape}</a> ~ <a href="{$smarty.const.LIDE_URL}nastaveni.php" title="Nastavení tvého účtu.">Nastavení</a> ~ <a href="{$smarty.const.LIDE_URL}odhlaseni.php" title="Odhlásit se">Odhlásit</a>{else}
-{if basename($smarty.server.SCRIPT_NAME)!="prihlaseni.php"}<a href="{$smarty.const.LIDE_URL}prihlaseni.php{if $smarty.server.REQUEST_URI!="/"}?next={$smarty.server.REQUEST_URI}{/if}" title="Přihlášení do žonglérova slabikáře" rel="nofollow">Přihlášení</a> | {/if}<a href="{$smarty.const.LIDE_URL}pravidla.php" title="Vytvořit nový účet v žonglérově slabikáři.">Nový účet</a>{/if}
+{if $smarty.session.logged==true}<a href="{$smarty.const.LIDE_URL}{$smarty.session.uzivatel.login|escape}.html" title="TvĹŻj ĂşÄet.">{$smarty.session.uzivatel.jmeno|escape}</a> ~ <a href="{$smarty.const.LIDE_URL}nastaveni.php" title="NastavenĂ­ tvĂŠho ĂşÄtu.">NastavenĂ­</a> ~ <a href="{$smarty.const.LIDE_URL}odhlaseni.php" title="OdhlĂĄsit se">OdhlĂĄsit</a>{else}
+{if basename($smarty.server.SCRIPT_NAME)!="prihlaseni.php"}<a href="{$smarty.const.LIDE_URL}prihlaseni.php{if $smarty.server.REQUEST_URI!="/"}?next={$smarty.server.REQUEST_URI}{/if}" title="PĹihlĂĄĹĄenĂ­ do ĹžonglĂŠrova slabikĂĄĹe" rel="nofollow">PĹihlĂĄĹĄenĂ­</a> | {/if}<a href="{$smarty.const.LIDE_URL}pravidla.php" title="VytvoĹit novĂ˝ ĂşÄet v ĹžonglĂŠrovÄ slabikĂĄĹi.">NovĂ˝ ĂşÄet</a>{/if}
 </div>
 <a name="nahore" id="nahore"></a>
 <div id="hlavickabg" style="background: {if eregi("/micky.*",$smarty.server.REQUEST_URI)}url('/img/m/micky-logo.gif') no-repeat 95% 100%{elseif eregi("/kruhy.*",$smarty.server.REQUEST_URI)}url('/img/k/kruhy-logo.gif') no-repeat 99% 100%{elseif eregi("/kuzely.*",$smarty.server.REQUEST_URI)}url('/img/k/kuzely-logo.gif') no-repeat 92% 100%{else}transparent{/if};">
-<a href="/" title="Žonglérův slabikář - úvodní stránka."><img src="/img/l/logo.gif" width="442" height="71" title="Žonglérův slabikář - úvodní stránka." alt="Žonglérův slabikář - úvodní stránka." />
+<a href="/" title="Ĺ˝onglĂŠrĹŻv slabikĂĄĹ - ĂşvodnĂ­ strĂĄnka."><img src="/img/l/logo.gif" width="442" height="71" title="Ĺ˝onglĂŠrĹŻv slabikĂĄĹ - ĂşvodnĂ­ strĂĄnka." alt="Ĺ˝onglĂŠrĹŻv slabikĂĄĹ - ĂşvodnĂ­ strĂĄnka." />
 </a>
 </div>
 </div>

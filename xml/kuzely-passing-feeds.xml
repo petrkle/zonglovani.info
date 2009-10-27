@@ -2,32 +2,32 @@
 <trik>
 
     <about>
-	     <nazev>Nabíjení</nazev>
+	     <nazev>NabÃ­jenÃ­</nazev>
 		 <pocet>9</pocet>
 	     <siteswaps>-</siteswaps>
-		 <obtiznost>snadné</obtiznost>
+		 <obtiznost>snadnÃ©</obtiznost>
 		 <oblast>kuzely-passing</oblast>
 	</about>
 
 
     <krok>
-			<popisek>Feeds - základní trik pro tøi ¾ongléry a devìt ku¾elù.</popisek>
+			<popisek>Feeds - zÃ¡kladnÃ­ trik pro tÅ™i Å¾onglÃ©ry a devÄ›t kuÅ¾elÅ¯.</popisek>
     </krok>
 
     <krok>
 			<obrazek>kuzely-passing-feedsa</obrazek>
-			<popisek>®onglér &lt;b&gt;A&lt;/b&gt; je nabíjeè. ¾ongluje &lt;a href=&quot;2count.html&quot; title=&quot;Obtí¾nìj¹í trik.&quot;&gt;2 count&lt;/a&gt; První pass hodí &lt;b&gt;B&lt;/b&gt;. &lt;b&gt;C&lt;/b&gt; zatím vyèkává.</popisek>
+			<popisek>Å½onglÃ©r &lt;b&gt;A&lt;/b&gt; je nabÃ­jeÄ. Å¾ongluje &lt;a href=&quot;2count.html&quot; title=&quot;ObtÃ­Å¾nÄ›jÅ¡Ã­ trik.&quot;&gt;2 count&lt;/a&gt; PrvnÃ­ pass hodÃ­ &lt;b&gt;B&lt;/b&gt;. &lt;b&gt;C&lt;/b&gt; zatÃ­m vyÄkÃ¡vÃ¡.</popisek>
     </krok>
 
 
     <krok>
 			<obrazek>kuzely-passing-feedsb</obrazek>
-			<popisek>Druhá pass je mezi &lt;b&gt;A&lt;/b&gt; a &lt;b&gt;C&lt;/b&gt;.</popisek>
+			<popisek>DruhÃ¡ pass je mezi &lt;b&gt;A&lt;/b&gt; a &lt;b&gt;C&lt;/b&gt;.</popisek>
     </krok>
 
     <krok>
 			<obrazek>kuzely-passing-feedsa</obrazek>
-			<popisek>&lt;b&gt;C&lt;/b&gt; a &lt;b&gt;B&lt;/b&gt; se v passování s &lt;b&gt;A&lt;/b&gt; støídají. Oba hází &lt;a href=&quot;4count.html&quot; title=&quot;Základ passování.&quot;&gt;4 count&lt;/a&gt;.</popisek>
+			<popisek>&lt;b&gt;C&lt;/b&gt; a &lt;b&gt;B&lt;/b&gt; se v passovÃ¡nÃ­ s &lt;b&gt;A&lt;/b&gt; stÅ™Ã­dajÃ­. Oba hÃ¡zÃ­ &lt;a href=&quot;4count.html&quot; title=&quot;ZÃ¡klad passovÃ¡nÃ­.&quot;&gt;4 count&lt;/a&gt;.</popisek>
     </krok>
 
 </trik>

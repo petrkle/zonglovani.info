@@ -4,9 +4,9 @@ $zverokruh=array(
 'beran'=>array(
 						'popis'=>'Beran','od_mesic'=>'3','od_den'=>'21','do_mesic'=>'4','do_den'=>'20'),
 'byk'=>array(
-						'popis'=>'Bık','od_mesic'=>'4','od_den'=>'21','do_mesic'=>'5','do_den'=>'20'),
+						'popis'=>'BÃ½k','od_mesic'=>'4','od_den'=>'21','do_mesic'=>'5','do_den'=>'20'),
 'blizenci'=>array(
-						'popis'=>'Blí¾enci','od_mesic'=>'5','od_den'=>'21','do_mesic'=>'6','do_den'=>'21'),
+						'popis'=>'BlÃ­Å¾enci','od_mesic'=>'5','od_den'=>'21','do_mesic'=>'6','do_den'=>'21'),
 'rak'=>array(
 						'popis'=>'Rak','od_mesic'=>'6','od_den'=>'22','do_mesic'=>'7','do_den'=>'22'),
 'lev'=>array(
@@ -14,15 +14,15 @@ $zverokruh=array(
 'panna'=>array(
 						'popis'=>'Panna','od_mesic'=>'8','od_den'=>'24','do_mesic'=>'9','do_den'=>'23'),
 'vahy'=>array(
-						'popis'=>'Váhy','od_mesic'=>'9','od_den'=>'24','do_mesic'=>'10','do_den'=>'23'),
+						'popis'=>'VÃ¡hy','od_mesic'=>'9','od_den'=>'24','do_mesic'=>'10','do_den'=>'23'),
 'stir'=>array(
-						'popis'=>'©tír','od_mesic'=>'10','od_den'=>'24','do_mesic'=>'11','do_den'=>'22'),
+						'popis'=>'Å tÃ­r','od_mesic'=>'10','od_den'=>'24','do_mesic'=>'11','do_den'=>'22'),
 'strelec'=>array(
-						'popis'=>'Støelec','od_mesic'=>'11','od_den'=>'23','do_mesic'=>'12','do_den'=>'21'),
+						'popis'=>'StÅ™elec','od_mesic'=>'11','od_den'=>'23','do_mesic'=>'12','do_den'=>'21'),
 'kozoroh'=>array(
 						'popis'=>'Kozoroh','od_mesic'=>'12','od_den'=>'22','do_mesic'=>'1','do_den'=>'20'),
 'vodnar'=>array(
-						'popis'=>'Vodnáø','od_mesic'=>'1','od_den'=>'21','do_mesic'=>'2','do_den'=>'19'),
+						'popis'=>'VodnÃ¡Å™','od_mesic'=>'1','od_den'=>'21','do_mesic'=>'2','do_den'=>'19'),
 'ryby'=>array(
 						'popis'=>'Ryby','od_mesic'=>'2','od_den'=>'20','do_mesic'=>'3','do_den'=>'20')
 );
@@ -32,93 +32,93 @@ $zverokruh=array(
 $vety=array();
 
 $vety[0]=array(
-array('èeká vás','buïte pøipraveni na','oèekávejte','mù¾e pøijít'),
-array('hodnì','málo','trochu','poskrovnu','velmi mnoho','malièko'),
-array('<a href="/kuzely/passing/" title="¾onglování ve více lidech">passingu</a>','zábavy','odpoèinku','spánku','radosti','smutku','<a href="/micky/4/destnik.html" title="">de¹tníkù</a>','<a href="/micky/4/krabice.html" title="">krabic s pøekvapením</a>','<a href="/micky/4/kriz.html" title="">køí¾ù</a>','<a href="/micky/4/sprcha.html" title="">horkou sprchu</a>','<a href="/micky/4/tenis.html" title="">tenis</a>'),
-array('a <a href="/micky/3/kaskada-reverzni.html" title="">reverzní kaskády</a>','a <a href="/micky/3/robot.html" title="">robotù</a>','a <a href="/micky/3/seesaw.html" title="">see saw</a>','a <a href="/micky/3/sloupy.html" title="">sloupù</a>','a <a href="/micky/3/socha.html" title="">soch svobody</a>','a <a href="/micky/3/sprcha.html" title="">studenou sprchu</a>','a <a href="/micky/3/tenis.html" title="">tenis</a>','a <a href="/micky/3/mlyn.html" title="">vìtrnı mlın</a>','a <a href="/micky/3/krk.html" title="">zachycení míèku za krk</a>','a <a href="/micky/3/zkrizene-ruce.html" title="">zkøí¾ení rukou</a>','a <a href="/micky/3/zirafa.html" title="">¾irafa</a>','')
+array('ÄekÃ¡ vÃ¡s','buÄte pÅ™ipraveni na','oÄekÃ¡vejte','mÅ¯Å¾e pÅ™ijÃ­t'),
+array('hodnÄ›','mÃ¡lo','trochu','poskrovnu','velmi mnoho','maliÄko'),
+array('<a href="/kuzely/passing/" title="Å¾onglovÃ¡nÃ­ ve vÃ­ce lidech">passingu</a>','zÃ¡bavy','odpoÄinku','spÃ¡nku','radosti','smutku','<a href="/micky/4/destnik.html" title="">deÅ¡tnÃ­kÅ¯</a>','<a href="/micky/4/krabice.html" title="">krabic s pÅ™ekvapenÃ­m</a>','<a href="/micky/4/kriz.html" title="">kÅ™Ã­Å¾Å¯</a>','<a href="/micky/4/sprcha.html" title="">horkou sprchu</a>','<a href="/micky/4/tenis.html" title="">tenis</a>'),
+array('a <a href="/micky/3/kaskada-reverzni.html" title="">reverznÃ­ kaskÃ¡dy</a>','a <a href="/micky/3/robot.html" title="">robotÅ¯</a>','a <a href="/micky/3/seesaw.html" title="">see saw</a>','a <a href="/micky/3/sloupy.html" title="">sloupÅ¯</a>','a <a href="/micky/3/socha.html" title="">soch svobody</a>','a <a href="/micky/3/sprcha.html" title="">studenou sprchu</a>','a <a href="/micky/3/tenis.html" title="">tenis</a>','a <a href="/micky/3/mlyn.html" title="">vÄ›trnÃ½ mlÃ½n</a>','a <a href="/micky/3/krk.html" title="">zachycenÃ­ mÃ­Äku za krk</a>','a <a href="/micky/3/zkrizene-ruce.html" title="">zkÅ™Ã­Å¾enÃ­ rukou</a>','a <a href="/micky/3/zirafa.html" title="">Å¾irafa</a>','')
 );
 
 $vety[1]=array(
-array('buïte','zkuste bıt','mìli by jste bıt','vyzkou¹ejte bıt','nezkou¹ejte bıt','nebuïte'),
-array('opatrní','odvá¾ní','rozumní','uvá¾liví','obezøetní','upøímní','rázní','neoblomní','rozhodní','pøemı¹livı'),
-array('pøi konzumaci alkoholu','pøi sportu','v soukromí','v zamìstnání','pøi navazování novıch známostí','v tom co dìláte i øíkáte')
+array('buÄte','zkuste bÃ½t','mÄ›li by jste bÃ½t','vyzkouÅ¡ejte bÃ½t','nezkouÅ¡ejte bÃ½t','nebuÄte'),
+array('opatrnÃ­','odvÃ¡Å¾nÃ­','rozumnÃ­','uvÃ¡Å¾livÃ­','obezÅ™etnÃ­','upÅ™Ã­mnÃ­','rÃ¡znÃ­','neoblomnÃ­','rozhodnÃ­','pÅ™emÃ½Å¡livÃ½'),
+array('pÅ™i konzumaci alkoholu','pÅ™i sportu','v soukromÃ­','v zamÄ›stnÃ¡nÃ­','pÅ™i navazovÃ¡nÃ­ novÃ½ch znÃ¡mostÃ­','v tom co dÄ›lÃ¡te i Å™Ã­kÃ¡te')
 );
 
 $vety[2]=array(
-array('pøichází','nastává','budete mít','pro¾ijete','èekejte','oèekávejte','je'),
-array('vcelku','èásteènì','velmi',''),
-array('pøíhodné','vhodné','nevhodné','pøíznivé','nepøíznivé','prùmìrné'),
-array('období','údobí','èasové období'),
+array('pÅ™ichÃ¡zÃ­','nastÃ¡vÃ¡','budete mÃ­t','proÅ¾ijete','Äekejte','oÄekÃ¡vejte','je'),
+array('vcelku','ÄÃ¡steÄnÄ›','velmi',''),
+array('pÅ™Ã­hodnÃ©','vhodnÃ©','nevhodnÃ©','pÅ™Ã­znivÃ©','nepÅ™Ã­znivÃ©','prÅ¯mÄ›rnÃ©'),
+array('obdobÃ­','ÃºdobÃ­','ÄasovÃ© obdobÃ­'),
 array('pro'),
-array('trénink <a href="/micky/5/kaskada.html" title="Obtí¾nı trik s pìti míèky.">kaskády</a>','lásku a flirt','vımìnu názorù','<a href="/kuzely/passing/" title="¾onglování ve více lidech">passing</a>','dovolenou','pozitivní my¹lení')
+array('trÃ©nink <a href="/micky/5/kaskada.html" title="ObtÃ­Å¾nÃ½ trik s pÄ›ti mÃ­Äky.">kaskÃ¡dy</a>','lÃ¡sku a flirt','vÃ½mÄ›nu nÃ¡zorÅ¯','<a href="/kuzely/passing/" title="Å¾onglovÃ¡nÃ­ ve vÃ­ce lidech">passing</a>','dovolenou','pozitivnÃ­ myÅ¡lenÃ­')
 );
 
 $vety[3]=array(
-array('','nacvièenou','vrozenou','neobvyklou','obvyklou','rutinní','neoèekávanou','oèekávanou'),
-array('bystrost','empatii','odolnost','rychlost','galantnost','náklonnost k opaènému pohlaví'),
-array('proká¾í','naleznou','v sobì objeví','v sobì naleznou'),
-array('pøedev¹ím','hlavnì','dokonce i','nejenom','i','také',''),
-array('dìti','dospívající','mu¾i','¾eny','dívky','sourozenci','dùchodci','dùchodkynì','dìvèata','uèitelky','zdravotní sestry','lékaøi','øidièi','prodavaèky','man¾elky','milenky','vdovy','osamìlí lidé','pekaøi','vedoucí pracovníci','studenti')
+array('','nacviÄenou','vrozenou','neobvyklou','obvyklou','rutinnÃ­','neoÄekÃ¡vanou','oÄekÃ¡vanou'),
+array('bystrost','empatii','odolnost','rychlost','galantnost','nÃ¡klonnost k opaÄnÃ©mu pohlavÃ­'),
+array('prokÃ¡Å¾Ã­','naleznou','v sobÄ› objevÃ­','v sobÄ› naleznou'),
+array('pÅ™edevÅ¡Ã­m','hlavnÄ›','dokonce i','nejenom','i','takÃ©',''),
+array('dÄ›ti','dospÃ­vajÃ­cÃ­','muÅ¾i','Å¾eny','dÃ­vky','sourozenci','dÅ¯chodci','dÅ¯chodkynÄ›','dÄ›vÄata','uÄitelky','zdravotnÃ­ sestry','lÃ©kaÅ™i','Å™idiÄi','prodavaÄky','manÅ¾elky','milenky','vdovy','osamÄ›lÃ­ lidÃ©','pekaÅ™i','vedoucÃ­ pracovnÃ­ci','studenti')
 );
 
 $vety[4]=array(
-array('vá¹','dominantní','osudovı',''),
-array('Merkur','Uran','Jupiter','Pluto','Saturn','Mars','Neptun','<a href="/kuzely/passing/4count.html" title="snadné">4 count</a>','<a href="/kuzely/passing/3count.html" title="snadné">valèík</a>','<a href="/kuzely/passing/2count.html" title="snadné">2 count</a>','<a href="/kuzely/passing/australsky-trik.html" title="snadné">australskı trik</a>'),
+array('vÃ¡Å¡','dominantnÃ­','osudovÃ½',''),
+array('Merkur','Uran','Jupiter','Pluto','Saturn','Mars','Neptun','<a href="/kuzely/passing/4count.html" title="snadnÃ©">4 count</a>','<a href="/kuzely/passing/3count.html" title="snadnÃ©">valÄÃ­k</a>','<a href="/kuzely/passing/2count.html" title="snadnÃ©">2 count</a>','<a href="/kuzely/passing/australsky-trik.html" title="snadnÃ©">australskÃ½ trik</a>'),
 array('se'),
-array('tentokrát spojí','pøíznivì míjí','pozitivnì ovlivòuje','negativnì ovlivòuje'),
+array('tentokrÃ¡t spojÃ­','pÅ™Ã­znivÄ› mÃ­jÃ­','pozitivnÄ› ovlivÅˆuje','negativnÄ› ovlivÅˆuje'),
 array('s'),
-array('lunou,','Venu¹í,','Phobosem,','krátery na mìsíci,','kosmickım záøením,'),
-array('to naznaèuje','to znaèí','to napovídá','to dává tu¹it'),
-array('v prùbìhu','bìhem'),
-array('dne¹ka','zítøka','následujícího tıdne','nadcházejícího období'),
-array('pøíchod'),
-array('èehosi','nìèeho'),
-array('neèekaného','neobvyklého','nepravdìpodobného','záva¾ného','úsmìvného','k pousmání','pozitivního','radostného')
+array('lunou,','VenuÅ¡Ã­,','Phobosem,','krÃ¡tery na mÄ›sÃ­ci,','kosmickÃ½m zÃ¡Å™enÃ­m,'),
+array('to naznaÄuje','to znaÄÃ­','to napovÃ­dÃ¡','to dÃ¡vÃ¡ tuÅ¡it'),
+array('v prÅ¯bÄ›hu','bÄ›hem'),
+array('dneÅ¡ka','zÃ­tÅ™ka','nÃ¡sledujÃ­cÃ­ho tÃ½dne','nadchÃ¡zejÃ­cÃ­ho obdobÃ­'),
+array('pÅ™Ã­chod'),
+array('Äehosi','nÄ›Äeho'),
+array('neÄekanÃ©ho','neobvyklÃ©ho','nepravdÄ›podobnÃ©ho','zÃ¡vaÅ¾nÃ©ho','ÃºsmÄ›vnÃ©ho','k pousmÃ¡nÃ­','pozitivnÃ­ho','radostnÃ©ho')
 );
 
 $vety[5]=array(
 array('nebojte se','odhodlejte se'),
-array('nadchnout pro','prozkoumat','objevit','projevit','oprá¹it','provìøit'),
-array('dlouho','dlouhodobì','náhodnì','vytrvale','pøechodnì','stále',''),
-array('odpírané','slibované','sdílené','omezené'),
-array('vá¹nì','city','vzpomínky','zá¾itky','nápady')
+array('nadchnout pro','prozkoumat','objevit','projevit','oprÃ¡Å¡it','provÄ›Å™it'),
+array('dlouho','dlouhodobÄ›','nÃ¡hodnÄ›','vytrvale','pÅ™echodnÄ›','stÃ¡le',''),
+array('odpÃ­ranÃ©','slibovanÃ©','sdÃ­lenÃ©','omezenÃ©'),
+array('vÃ¡Å¡nÄ›','city','vzpomÃ­nky','zÃ¡Å¾itky','nÃ¡pady')
 );
 
 $vety[6]=array(
-array('ráno','dopoledne','veèer','brzy ráno','po obìdì','v noci','odpoledne','celı den','po probuzení','je¹tì chvíli','po jídle','pøed jídlem','náhle','pozvolnì','krátkodobì','za svítání','za soumraku','po návratu ze zamìstnání','po pøíchodu do zamìstnání','obèas','dnes','zítra'),
-array('se budete cítit','se nebudete cítit'),
-array('dobøe','vesele','smutnì','opu¹tìnì','rozmaøile','velmi dobøe','¹patnì','jako v cizí kù¾i','sebejistì','podivnì','vyrovnanì','unavenì','jako na pou¹ti')
+array('rÃ¡no','dopoledne','veÄer','brzy rÃ¡no','po obÄ›dÄ›','v noci','odpoledne','celÃ½ den','po probuzenÃ­','jeÅ¡tÄ› chvÃ­li','po jÃ­dle','pÅ™ed jÃ­dlem','nÃ¡hle','pozvolnÄ›','krÃ¡tkodobÄ›','za svÃ­tÃ¡nÃ­','za soumraku','po nÃ¡vratu ze zamÄ›stnÃ¡nÃ­','po pÅ™Ã­chodu do zamÄ›stnÃ¡nÃ­','obÄas','dnes','zÃ­tra'),
+array('se budete cÃ­tit','se nebudete cÃ­tit'),
+array('dobÅ™e','vesele','smutnÄ›','opuÅ¡tÄ›nÄ›','rozmaÅ™ile','velmi dobÅ™e','Å¡patnÄ›','jako v cizÃ­ kÅ¯Å¾i','sebejistÄ›','podivnÄ›','vyrovnanÄ›','unavenÄ›','jako na pouÅ¡ti')
 );
 
 $vety[7]=array(
-array('sna¾te','pokuste','nesna¾te','nepokou¹ejte'),
+array('snaÅ¾te','pokuste','nesnaÅ¾te','nepokouÅ¡ejte'),
 array('se'),
-array('mít','o','dosáhnout'),
+array('mÃ­t','o','dosÃ¡hnout'),
 array('klid','nadhled'),
 array('a'),
-array('du¹evní','vnitøní','celkovou'),
+array('duÅ¡evnÃ­','vnitÅ™nÃ­','celkovou'),
 array('pohodu','vyrovnanost')
 );
 
 
 $vety[8]=array(
-array('snadno','rychle','dlouhodobì','pomalu','nenápadnì','nápadnì','krátkodobì'),
+array('snadno','rychle','dlouhodobÄ›','pomalu','nenÃ¡padnÄ›','nÃ¡padnÄ›','krÃ¡tkodobÄ›'),
 array('se'),
-array('vám'),
-array('zvy¹uje','sni¾uje','kolísá'),
-array('hladina','podíl','koncentrace'),
-array('adrenalinu','cukru','cholesterolu','endorfinù','tuku'),
-array('v krvi','v tìle','')
+array('vÃ¡m'),
+array('zvyÅ¡uje','sniÅ¾uje','kolÃ­sÃ¡'),
+array('hladina','podÃ­l','koncentrace'),
+array('adrenalinu','cukru','cholesterolu','endorfinÅ¯','tuku'),
+array('v krvi','v tÄ›le','')
 );
 
 
 
 $vety[9]=array(
-array('neopustí'),
-array('vás'),
-array('humor','zdraví','vtip','pøízeò okolí'),
+array('neopustÃ­'),
+array('vÃ¡s'),
+array('humor','zdravÃ­','vtip','pÅ™Ã­zeÅˆ okolÃ­'),
 array('a','ani'),
-array('¹tìstí','dobrá nálada','veselá mysl')
+array('Å¡tÄ›stÃ­','dobrÃ¡ nÃ¡lada','veselÃ¡ mysl')
 );
 
 ?>

@@ -2,16 +2,16 @@
 require('../init.php');
 require('../func.php');
 
-$smarty->assign("titulek","Odeslání vzkazu");
+$smarty->assign("titulek","OdeslÃ¡nÃ­ vzkazu");
 
 if(isset($_GET["status"])){
 	$status=trim($_GET["status"]);
 	if($status=="ok"){
-		$smarty->assign("zprava","Vzkaz byl úspì¹nì odeslán.");
+		$smarty->assign("zprava","Vzkaz byl ÃºspÄ›Å¡nÄ› odeslÃ¡n.");
 	}elseif($status=="verify"){
-		$smarty->assign("zprava","Na tvùj e-mail byla odeslána zpráva potøebná k dokonèení zaslání vzkazu.");
+		$smarty->assign("zprava","Na tvÅ¯j e-mail byla odeslÃ¡na zprÃ¡va potÅ™ebnÃ¡ k dokonÄenÃ­ zaslÃ¡nÃ­ vzkazu.");
 	}else{
-		$smarty->assign("zprava","Oops. Zaslání vzkazu selhalo.");
+		$smarty->assign("zprava","Oops. ZaslÃ¡nÃ­ vzkazu selhalo.");
 	}
 		$smarty->display('hlavicka.tpl');
 		$smarty->display('vzkaz-odeslan.tpl');

@@ -1,8 +1,8 @@
 {if $obrazek}
-{if $predchozi}<a href={$predchozi|escape} title="Zobrazí pøedchozí obrázek">&laquo; Pøedchozí obrázek</a> ~ {/if}<a href="." title="Celá galerie">{$nadpis|escape}</a>{if $dalsi} ~ <a href={$dalsi|escape} title="Zobrazí dal¹í obrázek">Dal¹í obrázek &raquo;</a>{/if}
+{if $predchozi}<a href={$predchozi|escape} title="ZobrazÃ­ pÅ™edchozÃ­ obrÃ¡zek">&laquo; PÅ™edchozÃ­ obrÃ¡zek</a> ~ {/if}<a href="." title="CelÃ¡ galerie">{$nadpis|escape}</a>{if $dalsi} ~ <a href={$dalsi|escape} title="ZobrazÃ­ dalÅ¡Ã­ obrÃ¡zek">DalÅ¡Ã­ obrÃ¡zek &raquo;</a>{/if}
 
 <p>
-{if $dalsi}<a href={$dalsi|escape} title="Zobrazí dal¹í obrázek">{else}<a href="." title="Zobrazí celou galerii">{/if}<img src="{$obrazek.obrazek|escape}" alt="{$nadpis|escape}" width="{$obrazek.fsirka|escape}" height="{$obrazek.fvyska|escape}"/></a>
+{if $dalsi}<a href={$dalsi|escape} title="ZobrazÃ­ dalÅ¡Ã­ obrÃ¡zek">{else}<a href="." title="ZobrazÃ­ celou galerii">{/if}<img src="{$obrazek.obrazek|escape}" alt="{$nadpis|escape}" width="{$obrazek.fsirka|escape}" height="{$obrazek.fvyska|escape}"/></a>
 </p>
 
 {if $gal_info.autor or $gal_info.mail or $gal_info.url}
@@ -22,6 +22,6 @@
 
 {if $nahled and $description}
 <p class="sdileni vpravo">
-Sdílení: <a href="http://www.facebook.com/share.php?u=http://{$smarty.server.SERVER_NAME}{$smarty.server.REQUEST_URI}" class="external" onclick="pageTracker._trackPageview('/goto/facebook.com/share{$smarty.server.REQUEST_URI}');" title="Poslat {$nadpis|escape} na facebook.">facebook</a>, <a href="http://www.google.com/bookmarks/mark?op=edit&bkmk=http://{$smarty.server.SERVER_NAME}{$smarty.server.REQUEST_URI}&title={$titulek_utf|escape:'url'}&hl=cs" title="Pøidat {$nadpis|escape} do zálo¾ek na google." class="external" onclick="pageTracker._trackPageview('/goto/google.com/bookmarks{$smarty.server.REQUEST_URI}');">google</a>
+PÅ™idat na: <a href="http://www.facebook.com/share.php?u=http://{$smarty.server.SERVER_NAME}{$smarty.server.REQUEST_URI}" class="external" onclick="pageTracker._trackPageview('/goto/facebook.com/share{$smarty.server.REQUEST_URI}');" title="Poslat {$nadpis|escape} na facebook.">facebook</a>, <a href="http://www.google.com/bookmarks/mark?op=edit&bkmk=http://{$smarty.server.SERVER_NAME}{$smarty.server.REQUEST_URI}&title={$titulek|escape:'url'}&hl=cs" title="PÅ™idat {$nadpis|escape} do zÃ¡loÅ¾ek na google." class="external" onclick="pageTracker._trackPageview('/goto/google.com/bookmarks{$smarty.server.REQUEST_URI}');">google</a>
 </p>
 {/if}

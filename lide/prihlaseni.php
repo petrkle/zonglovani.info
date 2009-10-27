@@ -2,7 +2,7 @@
 require('../init.php');
 require('../func.php');
 
-$smarty->assign("titulek","Pøihlá¹ení");
+$smarty->assign("titulek","PÅ™ihlÃ¡Å¡enÃ­");
 $smarty->assign("robots",'noindex,follow');
 
 if(isset($_GET["next"]) and ereg("^/",$_GET["next"])){
@@ -31,7 +31,7 @@ if(isset($_POST["login"]) and isset($_POST["heslo"]) and isset($_GET["action"]))
 			header("Location: $next");
 			exit();
 		}else{
-		array_push($chyby,'©patné jméno nebo heslo.','Pro pøihlá¹ení je potøeba povolit cookies. <a class="info" href="#">?<span class="tooltip">Cookies (su¹enky) jsou malé soubory, které slou¾í k rozpoznání spojení mezi tvım poèítaèem a poèítaèem na kterém bì¾í ¾onglérùv slabikáø. V pøípadì problémù kontaktuj místního poèítaèového odborníka.</span></a>');
+		array_push($chyby,'Å patnÃ© jmÃ©no nebo heslo.','Pro pÅ™ihlÃ¡Å¡enÃ­ je potÅ™eba povolit cookies. <a class="info" href="#">?<span class="tooltip">Cookies (suÅ¡enky) jsou malÃ© soubory, kterÃ© slouÅ¾Ã­ k rozpoznÃ¡nÃ­ spojenÃ­ mezi tvÃ½m poÄÃ­taÄem a poÄÃ­taÄem na kterÃ©m bÄ›Å¾Ã­ Å¾onglÃ©rÅ¯v slabikÃ¡Å™. V pÅ™Ã­padÄ› problÃ©mÅ¯ kontaktuj mÃ­stnÃ­ho poÄÃ­taÄovÃ©ho odbornÃ­ka.</span></a>');
 			$smarty->assign("chyby",$chyby);
 			$smarty->assign("login",$input_login);
 			$smarty->display('hlavicka.tpl');
@@ -41,7 +41,7 @@ if(isset($_POST["login"]) and isset($_POST["heslo"]) and isset($_GET["action"]))
 		}
 	
 	}else{
-		array_push($chyby,'©patné jméno nebo heslo.','Pro pøihlá¹ení je potøeba povolit cookies. <a class="info" href="#">?<span class="tooltip">Cookies (su¹enky) jsou malé soubory, které slou¾í k rozpoznání spojení mezi tvım poèítaèem a poèítaèem na kterém bì¾í ¾onglérùv slabikáø. V pøípadì problémù kontaktuj místního poèítaèového odborníka.</span></a>');
+		array_push($chyby,'Å patnÃ© jmÃ©no nebo heslo.','Pro pÅ™ihlÃ¡Å¡enÃ­ je potÅ™eba povolit cookies. <a class="info" href="#">?<span class="tooltip">Cookies (suÅ¡enky) jsou malÃ© soubory, kterÃ© slouÅ¾Ã­ k rozpoznÃ¡nÃ­ spojenÃ­ mezi tvÃ½m poÄÃ­taÄem a poÄÃ­taÄem na kterÃ©m bÄ›Å¾Ã­ Å¾onglÃ©rÅ¯v slabikÃ¡Å™. V pÅ™Ã­padÄ› problÃ©mÅ¯ kontaktuj mÃ­stnÃ­ho poÄÃ­taÄovÃ©ho odbornÃ­ka.</span></a>');
 		$smarty->assign("chyby",$chyby);
 		$smarty->assign("login",$input_login);
 		$smarty->display('hlavicka.tpl');

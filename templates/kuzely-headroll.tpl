@@ -1,28 +1,28 @@
 <p>
-Známé té¾ pod anglickım názvem <strong>headroll</strong>. Provedení s ku¾elkou je sna¾¹í ne¾ stejnı trik s míèkem.
+ZnÃ¡mÃ© tÃ©Å¾ pod anglickÃ½m nÃ¡zvem <strong>headroll</strong>. ProvedenÃ­ s kuÅ¾elkou je snaÅ¾Å¡Ã­ neÅ¾ stejnÃ½ trik s mÃ­Äkem.
 </p>
 
 <p>
 {obrazek soubor="headrolla.png" popisek=""}
-Pøilo¾ si ku¾elku k hlavì asi jako kdy¾ telefonuje¹. Ku¾elka je opøená asi v polovinì dr¾adla o bradu. Koneèky prstù strè ku¾elku proti hlavì.
+PÅ™iloÅ¾ si kuÅ¾elku k hlavÄ› asi jako kdyÅ¾ telefonujeÅ¡. KuÅ¾elka je opÅ™enÃ¡ asi v polovinÄ› drÅ¾adla o bradu. KoneÄky prstÅ¯ strÄ kuÅ¾elku proti hlavÄ›.
 </p>
 
 <p>
 {obrazek soubor="headrollb.png" popisek=""}
-Ku¾elka se ti pøekulí pøes hlavu.
+KuÅ¾elka se ti pÅ™ekulÃ­ pÅ™es hlavu.
 </p>
 
 <p>
 {obrazek soubor="headrollc.png" popisek=""}
-Ku¾elka se celou dobu dotıká tvé hlavy.
+KuÅ¾elka se celou dobu dotÃ½kÃ¡ tvÃ© hlavy.
 </p>
 
 <p>
 {obrazek soubor="headrolld.png" popisek=""}
-Pøekulení ku¾elky pøes hlavu je obtí¾nı trik. Jistotu získá¹ jedinì pravidelnım tréninkem.
+PÅ™ekulenÃ­ kuÅ¾elky pÅ™es hlavu je obtÃ­Å¾nÃ½ trik. Jistotu zÃ­skÃ¡Å¡ jedinÄ› pravidelnÃ½m trÃ©ninkem.
 </p>
 
 <p>
 {obrazek soubor="headrolle.png" popisek=""}
-Na konci pøekulení chytí¹ ku¾elku do levé ruky.
+Na konci pÅ™ekulenÃ­ chytÃ­Å¡ kuÅ¾elku do levÃ© ruky.
 </p>

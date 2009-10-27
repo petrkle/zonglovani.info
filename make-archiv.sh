@@ -2,6 +2,8 @@
 
 ARCHIV=`date "+%Y-%m-%d"`.tar.gz
 
+export LC_ALL=cs_CZ.utf-8
+
 svn log > ChangeLog
 
 [ -f $ARCHIV ] && rm $ARCHIV

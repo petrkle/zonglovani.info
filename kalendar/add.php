@@ -4,10 +4,10 @@ require('../func.php');
 require('cal-init.php');
 
 if(is_logged()){
-	$smarty->assign("titulek","NastavenÌ");
+	$smarty->assign("titulek","Nastaven√≠");
 	$now=time();
 
-$smarty->assign("titulek","P¯idat ud·lost do kalend·¯e");
+$smarty->assign("titulek","P≈ôidat ud√°lost do kalend√°≈ôe");
 
 
 $udalost=get_udalost_post();

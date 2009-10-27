@@ -1,29 +1,29 @@
 <p>
-Jsou ¹i¹atá, køehká a nadìlají spoustu nepoøádku. Av¹ak, kdo by odolal?
+Jsou Å¡iÅ¡atÃ¡, kÅ™ehkÃ¡ a nadÄ›lajÃ­ spoustu nepoÅ™Ã¡dku. AvÅ¡ak, kdo by odolal?
 </p>
 
 <p>
-<a href="/micky/3/kaskada.html" title="Základní trik se tøemi míèky.">Kaskádu</a> se tøemi vajíèky zaène¹ snadno. Problém je a¾ jak skonèit. Chytit dvì vajíèka do jedné ruky není jen tak. Na¹tìstí existuje jednoduchı zpùsob jak se tomu vyhnout.
+<a href="/micky/3/kaskada.html" title="ZÃ¡kladnÃ­ trik se tÅ™emi mÃ­Äky.">KaskÃ¡du</a> se tÅ™emi vajÃ­Äky zaÄneÅ¡ snadno. ProblÃ©m je aÅ¾ jak skonÄit. Chytit dvÄ› vajÃ­Äka do jednÃ© ruky nenÃ­ jen tak. NaÅ¡tÄ›stÃ­ existuje jednoduchÃ½ zpÅ¯sob jak se tomu vyhnout.
 </p>
 
 <p>
 {obrazek soubor="vajickaa.png" popisek=""}
-První vajíèko vyhoï pravou rukou rovnì nahoru.
+PrvnÃ­ vajÃ­Äko vyhoÄ pravou rukou rovnÄ› nahoru.
 </p>
 
 
 <p>
 {obrazek soubor="vajickab.png" popisek=""}
-Zatím co letí, odlo¾ si druhé vajíèko do levé ruky. Vajíèko nehází¹. Jenom ho pøendá¹ z ruky do ruky. ©ance na rozbití jsou minimální.
+ZatÃ­m co letÃ­, odloÅ¾ si druhÃ© vajÃ­Äko do levÃ© ruky. VajÃ­Äko nehÃ¡zÃ­Å¡. Jenom ho pÅ™endÃ¡Å¡ z ruky do ruky. Å ance na rozbitÃ­ jsou minimÃ¡lnÃ­.
 </p>
 
 
 <p>
 {obrazek soubor="vajickac.png" popisek=""}
-Pravá ruka je volná pro zachycení padajícího vajíèka.
+PravÃ¡ ruka je volnÃ¡ pro zachycenÃ­ padajÃ­cÃ­ho vajÃ­Äka.
 </p>
 
 <p>
-Mù¾e¹ trénovat s pokladky ze sádry. Opravdové vajíèko léta pøeci jenom trochu jinak. A hlavnì jinak dopadá.
+MÅ¯Å¾eÅ¡ trÃ©novat s pokladky ze sÃ¡dry. OpravdovÃ© vajÃ­Äko lÃ©ta pÅ™eci jenom trochu jinak. A hlavnÄ› jinak dopadÃ¡.
 </p>
 

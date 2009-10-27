@@ -1,11 +1,11 @@
-<h2>A co dál?</h2>
+<h2>A co dÃ¡l?</h2>
 
-<p>Kdy¾ ovládne¹ pìt míèkù, pak se mù¾e¹ soustøedit na <a href="/micky/3/3v1.html" title="Obtí¾nı trik se tøemi míèky.">3 v 1</a>. Odtud je u¾ jenom krùèek k fontánì s <a href="/micky/6/" title="®onglování s 6 míèky.">¹esti míèky</a>.</p>
+<p>KdyÅ¾ ovlÃ¡dneÅ¡ pÄ›t mÃ­ÄkÅ¯, pak se mÅ¯Å¾eÅ¡ soustÅ™edit na <a href="/micky/3/3v1.html" title="ObtÃ­Å¾nÃ½ trik se tÅ™emi mÃ­Äky.">3 v 1</a>. Odtud je uÅ¾ jenom krÅ¯Äek k fontÃ¡nÄ› s <a href="/micky/6/" title="Å½onglovÃ¡nÃ­ s 6 mÃ­Äky.">Å¡esti mÃ­Äky</a>.</p>
 
-<p>®onglování ov¹em není jenom o poètu. Zále¾í také na pøedmìtech se kterımi ¾ongluje¹. Tyto stránky se vìnují pouze tomu nejlehèímu -- míèkùm. Vìt¹ina popsanıch trikù se v¹ak dá obdobnì provádìt s ku¾ely, kruhy, pochodnìmi nebo dokonce no¾i.</p>
+<p>Å½onglovÃ¡nÃ­ ovÅ¡em nenÃ­ jenom o poÄtu. ZÃ¡leÅ¾Ã­ takÃ© na pÅ™edmÄ›tech se kterÃ½mi Å¾onglujeÅ¡. Tyto strÃ¡nky se vÄ›nujÃ­ pouze tomu nejlehÄÃ­mu -- mÃ­ÄkÅ¯m. VÄ›tÅ¡ina popsanÃ½ch trikÅ¯ se vÅ¡ak dÃ¡ obdobnÄ› provÃ¡dÄ›t s kuÅ¾ely, kruhy, pochodnÄ›mi nebo dokonce noÅ¾i.</p>
 
 <p>
-Pøedmìty se kterımi ¾ongluje¹ lze také libovolnì kombinovat. Napøíklad: kruh + míèek + ku¾el = parádní podívaná. Kdy¾ k jablku a míèku pøipojí¹ vidlièku, mù¾e¹ zakonèit vystoupení efektním napíchnutím jablka ve vzduchu.
+PÅ™edmÄ›ty se kterÃ½mi Å¾onglujeÅ¡ lze takÃ© libovolnÄ› kombinovat. NapÅ™Ã­klad: kruh + mÃ­Äek + kuÅ¾el = parÃ¡dnÃ­ podÃ­vanÃ¡. KdyÅ¾ k jablku a mÃ­Äku pÅ™ipojÃ­Å¡ vidliÄku, mÅ¯Å¾eÅ¡ zakonÄit vystoupenÃ­ efektnÃ­m napÃ­chnutÃ­m jablka ve vzduchu.
 </p>
 
-<p>A nakonec je tøeba zmínit <a href="/micky/poslepu.html" title="®onglování poslepu.">¾onglování poslepu</a>. Mù¾e to znít neuvìøitelnì, ale jde to.</p>
+<p>A nakonec je tÅ™eba zmÃ­nit <a href="/micky/poslepu.html" title="Å½onglovÃ¡nÃ­ poslepu.">Å¾onglovÃ¡nÃ­ poslepu</a>. MÅ¯Å¾e to znÃ­t neuvÄ›Å™itelnÄ›, ale jde to.</p>

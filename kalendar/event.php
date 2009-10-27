@@ -20,7 +20,7 @@ if(isset($_GET["deleted"]) or isset($_POST["deleted"])){
 	$udalost=get_event_data($id.".cal");
 }
 if($udalost){
-		$smarty->assign("titulek","Kalendáø - ".$udalost["title"]);
+		$smarty->assign("titulek","KalendÃ¡Å™ - ".$udalost["title"]);
 		$smarty->assign("nadpis",$udalost["title"]);
 		$smarty->assign("udalost",$udalost);
 		$smarty->assign('aktDate', date('j. ',$now).date('n. ',$now).date(' Y',$now));
@@ -68,7 +68,7 @@ if($udalost){
 							# update, stejny soubor
 							write_event_data($udalost);
 						}else{
-							# update, jiný soubor
+							# update, jinÃ½ soubor
 							$id=$udalost["id"];
 							$udalost["id"]=$newid;
 							write_event_data($udalost);
@@ -79,8 +79,8 @@ if($udalost){
 					exit();
 				}
 			}
-				$smarty->assign("titulek","Úprava události v kalendáøi");
-				$smarty->assign("nadpis","Úprava události v kalendáøi");
+				$smarty->assign("titulek","Ãšprava udÃ¡losti v kalendÃ¡Å™i");
+				$smarty->assign("nadpis","Ãšprava udÃ¡losti v kalendÃ¡Å™i");
 				$smarty->assign("form_action","?action=update");
 				$smarty->display('hlavicka.tpl');
 				$smarty->display('kalendar-edit.tpl');
@@ -95,7 +95,7 @@ if($udalost){
 	}else{
 		# zobrazit
 		$smarty->assign("rsslink",'http://'.$_SERVER["SERVER_NAME"].CALENDAR_URL.'kalendar.rss');
-		$smarty->assign("keywords",make_keywords("¾onglování, kalendáø, ".$udalost["title"]));
+		$smarty->assign("keywords",make_keywords("Å¾onglovÃ¡nÃ­, kalendÃ¡Å™, ".$udalost["title"]));
 		$smarty->display('hlavicka.tpl');
 		$smarty->display('kalendar-event.tpl');
 		$smarty->display('paticka.tpl');

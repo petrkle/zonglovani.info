@@ -2,51 +2,51 @@
 <trik>
 
     <about>
-	     <nazev>Rotující ètverce</nazev>
+	     <nazev>RotujÃ­cÃ­ Ätverce</nazev>
 		 <pocet>12</pocet>
 	     <siteswaps>-</siteswaps>
-		 <obtiznost>tì¾¹í</obtiznost>
+		 <obtiznost>tÄ›Å¾Å¡Ã­</obtiznost>
 		 <oblast>kuzely-passing</oblast>
 	</about>
 
 
 
     <krok>
-			<popisek>Trik pro ètyøi ¾ongléry a dvanáct ku¾elù. V¹ichni hází &lt;a href=&quot;4count.html&quot; title=&quot;Základ passování.&quot;&gt;4 count&lt;/a&gt; z pravé ruky.</popisek>
+			<popisek>Trik pro ÄtyÅ™i Å¾onglÃ©ry a dvanÃ¡ct kuÅ¾elÅ¯. VÅ¡ichni hÃ¡zÃ­ &lt;a href=&quot;4count.html&quot; title=&quot;ZÃ¡klad passovÃ¡nÃ­.&quot;&gt;4 count&lt;/a&gt; z pravÃ© ruky.</popisek>
     </krok>
 
 
     <krok>
 			<obrazek>kuzely-passing-squaresa</obrazek>
-			<popisek>Stoupnìte si do rohù dvou pomyslnıch ètvercù.</popisek>
+			<popisek>StoupnÄ›te si do rohÅ¯ dvou pomyslnÃ½ch ÄtvercÅ¯.</popisek>
     </krok>
 
     <krok>
 			<obrazek>kuzely-passing-squaresb</obrazek>
-			<popisek>První pass. &lt;b&gt;A&lt;/b&gt; hází &lt;b&gt;D&lt;/b&gt; a &lt;b&gt;B&lt;/b&gt; s &lt;b&gt;C&lt;/b&gt;.</popisek>
+			<popisek>PrvnÃ­ pass. &lt;b&gt;A&lt;/b&gt; hÃ¡zÃ­ &lt;b&gt;D&lt;/b&gt; a &lt;b&gt;B&lt;/b&gt; s &lt;b&gt;C&lt;/b&gt;.</popisek>
     </krok>
 
     <krok>
 			<obrazek>kuzely-passing-squaresc</obrazek>
-			<popisek>Za stálého ¾onglování si vymìníte pozice. &lt;b&gt;A&lt;/b&gt; postoupí dozadu, &lt;b&gt;B&lt;/b&gt; dopøedu. &lt;b&gt;C&lt;/b&gt; se pøesunuje doleva a &lt;b&gt;D&lt;/b&gt; doprava.</popisek>
+			<popisek>Za stÃ¡lÃ©ho Å¾onglovÃ¡nÃ­ si vymÄ›nÃ­te pozice. &lt;b&gt;A&lt;/b&gt; postoupÃ­ dozadu, &lt;b&gt;B&lt;/b&gt; dopÅ™edu. &lt;b&gt;C&lt;/b&gt; se pÅ™esunuje doleva a &lt;b&gt;D&lt;/b&gt; doprava.</popisek>
     </krok>
 
     <krok>
 			<obrazek>kuzely-passing-squaresd</obrazek>
-			<popisek>Druhı pass. &lt;b&gt;A&lt;/b&gt; hází s &lt;b&gt;C&lt;/b&gt; a &lt;b&gt;B&lt;/b&gt; s &lt;b&gt;D&lt;/b&gt;.</popisek>
+			<popisek>DruhÃ½ pass. &lt;b&gt;A&lt;/b&gt; hÃ¡zÃ­ s &lt;b&gt;C&lt;/b&gt; a &lt;b&gt;B&lt;/b&gt; s &lt;b&gt;D&lt;/b&gt;.</popisek>
     </krok>
 
     <krok>
 			<obrazek>kuzely-passing-squarese</obrazek>
-			<popisek>Dal¹í pøesun. &lt;b&gt;A&lt;/b&gt; a &lt;b&gt;B&lt;/b&gt; se pøesunují z prava do leva. &lt;b&gt;C&lt;/b&gt; a &lt;b&gt;D&lt;/b&gt; zepøedu dozadu.</popisek>
+			<popisek>DalÅ¡Ã­ pÅ™esun. &lt;b&gt;A&lt;/b&gt; a &lt;b&gt;B&lt;/b&gt; se pÅ™esunujÃ­ z prava do leva. &lt;b&gt;C&lt;/b&gt; a &lt;b&gt;D&lt;/b&gt; zepÅ™edu dozadu.</popisek>
     </krok>
 
     <krok>
-			<popisek>V dal¹ích krocích postupujete po vrcholech ètverce. &lt;b&gt;A&lt;/b&gt; a &lt;b&gt;B&lt;/b&gt; ve smìru hodinovıch ruèièek. &lt;b&gt;C&lt;/b&gt; a &lt;b&gt;D&lt;/b&gt; obrácenì.</popisek>
+			<popisek>V dalÅ¡Ã­ch krocÃ­ch postupujete po vrcholech Ätverce. &lt;b&gt;A&lt;/b&gt; a &lt;b&gt;B&lt;/b&gt; ve smÄ›ru hodinovÃ½ch ruÄiÄek. &lt;b&gt;C&lt;/b&gt; a &lt;b&gt;D&lt;/b&gt; obrÃ¡cenÄ›.</popisek>
     </krok>
 
     <krok>
-			<popisek>Jako jednodu¹í variantu mù¾e¹ vyzkou¹et &lt;a href=&quot;vymeny.html&quot; title=&quot;Podobnı trik.&quot;&gt;vımìny ve ètvercích&lt;/a&gt;.</popisek>
+			<popisek>Jako jednoduÅ¡Ã­ variantu mÅ¯Å¾eÅ¡ vyzkouÅ¡et &lt;a href=&quot;vymeny.html&quot; title=&quot;PodobnÃ½ trik.&quot;&gt;vÃ½mÄ›ny ve ÄtvercÃ­ch&lt;/a&gt;.</popisek>
     </krok>
 
 

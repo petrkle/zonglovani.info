@@ -1,11 +1,11 @@
-<h3>Normální úchop</h3>
+<h3>NormÃ¡lnÃ­ Ãºchop</h3>
 <p>
-{obrazek soubor="kuzely-grip-normal.png" popisek="Normální úchop."}
-Vhodnı pro zaèáteèníky. První ku¾el je nahoøe, pøekøí¾en doleva. První vyhodí¹ horní ku¾el.
+{obrazek soubor="kuzely-grip-normal.png" popisek="NormÃ¡lnÃ­ Ãºchop."}
+VhodnÃ½ pro zaÄÃ¡teÄnÃ­ky. PrvnÃ­ kuÅ¾el je nahoÅ™e, pÅ™ekÅ™Ã­Å¾en doleva. PrvnÃ­ vyhodÃ­Å¡ hornÃ­ kuÅ¾el.
 </p>
 
-<h3>Cirkusovı úchop</h3>
+<h3>CirkusovÃ½ Ãºchop</h3>
 <p>
-{obrazek soubor="kuzely-grip-cirkus.png" popisek="Cirkusovı úchop."}
-První ku¾el je dole, druhı nad ním smìøuje vpravo. První vyhodí¹ spodní ku¾el. Tento zaèátek je tì¾¹í - mù¾e¹ se snadno pra¹tit do nosu, ale pro nìkteré triky je prı lep¹í.
+{obrazek soubor="kuzely-grip-cirkus.png" popisek="CirkusovÃ½ Ãºchop."}
+PrvnÃ­ kuÅ¾el je dole, druhÃ½ nad nÃ­m smÄ›Å™uje vpravo. PrvnÃ­ vyhodÃ­Å¡ spodnÃ­ kuÅ¾el. Tento zaÄÃ¡tek je tÄ›Å¾Å¡Ã­ - mÅ¯Å¾eÅ¡ se snadno praÅ¡tit do nosu, ale pro nÄ›kterÃ© triky je prÃ½ lepÅ¡Ã­.
 </p>

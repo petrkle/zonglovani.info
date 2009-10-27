@@ -1,20 +1,20 @@
 <p>
-Pirueta je otoèení o 360 stupòù. Velmi rychlé otoèení, proto¾e musí¹ chytit míèky které jsi pøedtím vyhodil do vzduchu.
+Pirueta je otoÄenÃ­ o 360 stupÅˆÅ¯. Velmi rychlÃ© otoÄenÃ­, protoÅ¾e musÃ­Å¡ chytit mÃ­Äky kterÃ© jsi pÅ™edtÃ­m vyhodil do vzduchu.
 </p>
 
-<h3>Trénink</h3>
+<h3>TrÃ©nink</h3>
 <p>
-	Nejprve se nauè <a href="/micky/3/blesk.html" title="Trik se tøemi míèky.">blesk</a>. Postupnì pøidej tlesknutí kdy¾ jsou míèky ve vzduchu.
-</p>
-
-<p>
-Pak zaèni trénovat samotnou piruetu. Bez míèkù! Ruce dej mírnì od sebe a pøi otáèení je pøitáhni k tìlu. Zrychlí¹ tak svojí rotaci (viz. krasobruslaøi).
+	Nejprve se nauÄ <a href="/micky/3/blesk.html" title="Trik se tÅ™emi mÃ­Äky.">blesk</a>. PostupnÄ› pÅ™idej tlesknutÃ­ kdyÅ¾ jsou mÃ­Äky ve vzduchu.
 </p>
 
 <p>
-A¾ kdy¾ se nauèí¹ oddìlenì blesk i piruetu zaèni je trénovat spoleènì.
+Pak zaÄni trÃ©novat samotnou piruetu. Bez mÃ­ÄkÅ¯! Ruce dej mÃ­rnÄ› od sebe a pÅ™i otÃ¡ÄenÃ­ je pÅ™itÃ¡hni k tÄ›lu. ZrychlÃ­Å¡ tak svojÃ­ rotaci (viz. krasobruslaÅ™i).
 </p>
 
 <p>
-Ze zaèátku vyhoï pouze jeden míèek. Dva si nech v dlaních, otoè se a pokraèuj v ¾onglování. Postupnì pak pøidávej druhı míèek a¾ nakonec zvládne¹ piruetu se tøemi míèky ve vzduchu.
+AÅ¾ kdyÅ¾ se nauÄÃ­Å¡ oddÄ›lenÄ› blesk i piruetu zaÄni je trÃ©novat spoleÄnÄ›.
+</p>
+
+<p>
+Ze zaÄÃ¡tku vyhoÄ pouze jeden mÃ­Äek. Dva si nech v dlanÃ­ch, otoÄ se a pokraÄuj v Å¾onglovÃ¡nÃ­. PostupnÄ› pak pÅ™idÃ¡vej druhÃ½ mÃ­Äek aÅ¾ nakonec zvlÃ¡dneÅ¡ piruetu se tÅ™emi mÃ­Äky ve vzduchu.
 </p>

@@ -1,62 +1,62 @@
 <p>
-Míèky a kruhy u¾ jsou ti málo? Pak je èas na -- ku¾ely.
+MÃ­Äky a kruhy uÅ¾ jsou ti mÃ¡lo? Pak je Äas na -- kuÅ¾ely.
 </p>
 
-<h3><a href="/kuzely/jak-zacit.html" title="Jak zaèít ¾onglovat s ku¾ely.">Jak zaèít ¾onglovat s ku¾ely</a></h3>
+<h3><a href="/kuzely/jak-zacit.html" title="Jak zaÄÃ­t Å¾onglovat s kuÅ¾ely.">Jak zaÄÃ­t Å¾onglovat s kuÅ¾ely</a></h3>
 <p>
-Jak zaèít ¾onglovat s ku¾ely.
+Jak zaÄÃ­t Å¾onglovat s kuÅ¾ely.
 </p>
 
-<h3><a href="/kuzely/ohen.html" title="®onglování s ohnìm.">Ohnivé ku¾ely</a></h3>
+<h3><a href="/kuzely/ohen.html" title="Å½onglovÃ¡nÃ­ s ohnÄ›m.">OhnivÃ© kuÅ¾ely</a></h3>
 <p>
-®onglování s ohnìm.
-</p>
-
-
-<h3><a href="/kuzely/balanc.html" title="Balancování ku¾elu.">Balancování ku¾elu</a></h3>
-<p>
-S ku¾ely se nemusí jenom házet.
-</p>
-
-<h3><a href="/kuzely/rotace.html" title="Rotace ku¾elu.">Rotace ku¾elu</a></h3>
-<p>
-Základní zpùsoby házení ku¾elu.
-</p>
-
-<h3><a href="/kuzely/headroll.html" title="Headroll.">Pøekulení ku¾elky pøes hlavu</a></h3>
-<p>
-Známé té¾ pod anglickım názvem headroll.
-</p>
-
-<h3><a href="/kuzely/toceni-okolo-palce.html" title="Kolem dokola.">Otáèení ku¾elky okolo palce</a></h3>
-<p>
-Trik kterı mù¾e¹ cvièit i v místnostech s nízkım stropem.
-</p>
-
-<h3><a href="/kuzely/grip.html" title="Jak dr¾et v jedné ruce dva ku¾ely.">Dva ku¾ely v jedné ruce</a></h3>
-<p>
-Jak dr¾et v jedné ruce dva ku¾ely.
-</p>
-
-<h3><a href="/kuzely/kickup.html" title="Zvednutí ku¾elu nohou.">Zvednutí ku¾elu nohou</a></h3>
-<p>
-U¾ se nebude¹ muset shıbat pro spadlé ku¾ely.
+Å½onglovÃ¡nÃ­ s ohnÄ›m.
 </p>
 
 
-<h3><a href="/kuzely/konstrukce.html" title="Co je uvnitø.">Konstrukce ku¾elu</a></h3>
+<h3><a href="/kuzely/balanc.html" title="BalancovÃ¡nÃ­ kuÅ¾elu.">BalancovÃ¡nÃ­ kuÅ¾elu</a></h3>
 <p>
-Jak vypadá ku¾el uvnitø.
+S kuÅ¾ely se nemusÃ­ jenom hÃ¡zet.
 </p>
 
-<h3><a href="/kuzely/vyroba.html" title="Vıroba ku¾elù na ¾onglování.">Vıroba ku¾elù</a></h3>
+<h3><a href="/kuzely/rotace.html" title="Rotace kuÅ¾elu.">Rotace kuÅ¾elu</a></h3>
 <p>
-Ku¾ely levnì, snadno a rychle.
+ZÃ¡kladnÃ­ zpÅ¯soby hÃ¡zenÃ­ kuÅ¾elu.
 </p>
 
-<h3><a href="/kuzely/legenda.html" title="Vysvìtlivky k obrázkùm.">Legenda</a></h3>
+<h3><a href="/kuzely/headroll.html" title="Headroll.">PÅ™ekulenÃ­ kuÅ¾elky pÅ™es hlavu</a></h3>
 <p>
-Vysvìtlivky k obrázkùm.
+ZnÃ¡mÃ© tÃ©Å¾ pod anglickÃ½m nÃ¡zvem headroll.
+</p>
+
+<h3><a href="/kuzely/toceni-okolo-palce.html" title="Kolem dokola.">OtÃ¡ÄenÃ­ kuÅ¾elky okolo palce</a></h3>
+<p>
+Trik kterÃ½ mÅ¯Å¾eÅ¡ cviÄit i v mÃ­stnostech s nÃ­zkÃ½m stropem.
+</p>
+
+<h3><a href="/kuzely/grip.html" title="Jak drÅ¾et v jednÃ© ruce dva kuÅ¾ely.">Dva kuÅ¾ely v jednÃ© ruce</a></h3>
+<p>
+Jak drÅ¾et v jednÃ© ruce dva kuÅ¾ely.
+</p>
+
+<h3><a href="/kuzely/kickup.html" title="ZvednutÃ­ kuÅ¾elu nohou.">ZvednutÃ­ kuÅ¾elu nohou</a></h3>
+<p>
+UÅ¾ se nebudeÅ¡ muset shÃ½bat pro spadlÃ© kuÅ¾ely.
+</p>
+
+
+<h3><a href="/kuzely/konstrukce.html" title="Co je uvnitÅ™.">Konstrukce kuÅ¾elu</a></h3>
+<p>
+Jak vypadÃ¡ kuÅ¾el uvnitÅ™.
+</p>
+
+<h3><a href="/kuzely/vyroba.html" title="VÃ½roba kuÅ¾elÅ¯ na Å¾onglovÃ¡nÃ­.">VÃ½roba kuÅ¾elÅ¯</a></h3>
+<p>
+KuÅ¾ely levnÄ›, snadno a rychle.
+</p>
+
+<h3><a href="/kuzely/legenda.html" title="VysvÄ›tlivky k obrÃ¡zkÅ¯m.">Legenda</a></h3>
+<p>
+VysvÄ›tlivky k obrÃ¡zkÅ¯m.
 </p>
 
 

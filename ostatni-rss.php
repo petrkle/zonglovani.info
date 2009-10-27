@@ -1,7 +1,7 @@
 <?php
 require('init.php');
 
-$smarty->assign("titulek","RSS kanály");
+$smarty->assign("titulek","RSS kanÃ¡ly");
 
 $smarty->display('hlavicka.tpl');
 $smarty->display('ostatni-rss.tpl');

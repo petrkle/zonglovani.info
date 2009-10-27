@@ -1,34 +1,34 @@
 <p>
-Základní pøehled zpùsobù ¾onglování. Nejedná se o úplnı nebo pøesnı seznam. Jde jen o naznaèení jak mù¾e¹ ¾onglovat. S èím v¹ím mù¾e¹ ¾onglovat se dozví¹ v <a href="/nacini.html" title="®ognlérské náèiní.">pøehledu ¾onglérskıch pomùcek</a>.
+ZÃ¡kladnÃ­ pÅ™ehled zpÅ¯sobÅ¯ Å¾onglovÃ¡nÃ­. NejednÃ¡ se o ÃºplnÃ½ nebo pÅ™esnÃ½ seznam. Jde jen o naznaÄenÃ­ jak mÅ¯Å¾eÅ¡ Å¾onglovat. S ÄÃ­m vÅ¡Ã­m mÅ¯Å¾eÅ¡ Å¾onglovat se dozvÃ­Å¡ v <a href="/nacini.html" title="Å½ognlÃ©rskÃ© nÃ¡ÄinÃ­.">pÅ™ehledu Å¾onglÃ©rskÃ½ch pomÅ¯cek</a>.
 </p>
 
-<h3>Házení do vzduchu</h3>
+<h3>HÃ¡zenÃ­ do vzduchu</h3>
 <p>
 {obrazek soubor="druhya.png" popisek=""}
-Pøedmìty vyhazuje¹ vzhùru a ony se pùsobením gravitaèní síly vrací zpìt.
+PÅ™edmÄ›ty vyhazujeÅ¡ vzhÅ¯ru a ony se pÅ¯sobenÃ­m gravitaÄnÃ­ sÃ­ly vracÃ­ zpÄ›t.
 </p>
 
-<h3>Kontaktní ¾onglování</h3>
+<h3>KontaktnÃ­ Å¾onglovÃ¡nÃ­</h3>
 <p>
 {obrazek soubor="druhyb.png" popisek=""}
-Pøedmìty si kutálí¹ po tìle. Vìt¹inou se pou¾ívají míèky.
+PÅ™edmÄ›ty si kutÃ¡lÃ­Å¡ po tÄ›le. VÄ›tÅ¡inou se pouÅ¾Ã­vajÃ­ mÃ­Äky.
 </p>
 
 
-<h3><a href="/kuzely/passing/" title="®onglování ve více lidech.">Passing</a></h3>
+<h3><a href="/kuzely/passing/" title="Å½onglovÃ¡nÃ­ ve vÃ­ce lidech.">Passing</a></h3>
 <p>
-<a href="/kuzely/passing/" title="®onglování ve více lidech.">{obrazek soubor="druhyc.png" popisek=""}</a>
-®onglování ve více lidech. Pro passing jsou ideální ku¾ely.
+<a href="/kuzely/passing/" title="Å½onglovÃ¡nÃ­ ve vÃ­ce lidech.">{obrazek soubor="druhyc.png" popisek=""}</a>
+Å½onglovÃ¡nÃ­ ve vÃ­ce lidech. Pro passing jsou ideÃ¡lnÃ­ kuÅ¾ely.
 </p>
 
-<h3>®onglování se skákacími míèky</h3>
+<h3>Å½onglovÃ¡nÃ­ se skÃ¡kacÃ­mi mÃ­Äky</h3>
 <p>
 {obrazek soubor="druhyd.png" popisek=""}
-Míèky nehází¹ nahoru, ale odrá¾í¹ od podlahy.
+MÃ­Äky nehÃ¡zÃ­Å¡ nahoru, ale odrÃ¡Å¾Ã­Å¡ od podlahy.
 </p>
 
 <h3>Fireshow</h3>
 <p>
 {obrazek soubor="druhye.png" popisek=""}
-®onglování s ohnìm. Existují <a href="/kuzely/ohen.html" title="®onglování s ohnìm.">ohnivé ku¾ely</a>, tyèe, poi-poi a vìjíøe. Oheò se dá i plivat, ale to je velmi nebezpeèné.
+Å½onglovÃ¡nÃ­ s ohnÄ›m. ExistujÃ­ <a href="/kuzely/ohen.html" title="Å½onglovÃ¡nÃ­ s ohnÄ›m.">ohnivÃ© kuÅ¾ely</a>, tyÄe, poi-poi a vÄ›jÃ­Å™e. OheÅˆ se dÃ¡ i plivat, ale to je velmi nebezpeÄnÃ©.
 </p>

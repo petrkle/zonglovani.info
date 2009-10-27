@@ -5,36 +5,36 @@
 	     <nazev>Sloupy ve dvou</nazev>
 		 <pocet>4</pocet>
 	     <siteswaps>-</siteswaps>
-		 <obtiznost>tì¾¹í</obtiznost>
+		 <obtiznost>tÄ›Å¾Å¡Ã­</obtiznost>
 		 <oblast>kuzely-passing</oblast>
 	</about>
 
 
 	<krok>
-		<popisek>Trik pro dva ¾ongléry se ètyømi ku¾ely.</popisek>
+		<popisek>Trik pro dva Å¾onglÃ©ry se ÄtyÅ™mi kuÅ¾ely.</popisek>
   </krok>
 
 	<krok>
 		<obrazek>kuzely-passing-sloupya</obrazek>
-		<popisek>®onglér &lt;b&gt;A&lt;/b&gt; stojí vepøedu a zaèíná se dvìma ku¾ely v pravé ruce. &lt;b&gt;A&lt;/b&gt; i &lt;b&gt;B&lt;/b&gt; vyhodí souèasnì první a druhı ku¾el rovnì nahoru.</popisek>
+		<popisek>Å½onglÃ©r &lt;b&gt;A&lt;/b&gt; stojÃ­ vepÅ™edu a zaÄÃ­nÃ¡ se dvÄ›ma kuÅ¾ely v pravÃ© ruce. &lt;b&gt;A&lt;/b&gt; i &lt;b&gt;B&lt;/b&gt; vyhodÃ­ souÄasnÄ› prvnÃ­ a druhÃ½ kuÅ¾el rovnÄ› nahoru.</popisek>
 	</krok>
 
 	<krok>
 		<obrazek>kuzely-passing-sloupyb</obrazek>
-		<popisek>®onglér &lt;b&gt;B&lt;/b&gt; chytá ku¾el kterı vyhodil &lt;b&gt;A&lt;/b&gt;. A chytá ku¾el od &lt;b&gt;B&lt;/b&gt;.</popisek>
+		<popisek>Å½onglÃ©r &lt;b&gt;B&lt;/b&gt; chytÃ¡ kuÅ¾el kterÃ½ vyhodil &lt;b&gt;A&lt;/b&gt;. A chytÃ¡ kuÅ¾el od &lt;b&gt;B&lt;/b&gt;.</popisek>
 	</krok>
 
 	<krok>
 		<obrazek>kuzely-passing-sloupyc</obrazek>
-		<popisek>®onglér &lt;b&gt;A&lt;/b&gt; prohodí tøetí a ètvrtou ku¾elku levou rukou.</popisek>
+		<popisek>Å½onglÃ©r &lt;b&gt;A&lt;/b&gt; prohodÃ­ tÅ™etÃ­ a Ätvrtou kuÅ¾elku levou rukou.</popisek>
 	</krok>
 
 	<krok>
 		<obrazek>kuzely-passing-sloupyd</obrazek>
-		<popisek>Dal¹í hod je opìt spoleènı. &lt;b&gt;A&lt;/b&gt; hází ku¾el z levé ruky rovnì nahoru. ®onglér &lt;b&gt;B&lt;/b&gt; hází synchronizovanì z pravé ruky.</popisek>
+		<popisek>DalÅ¡Ã­ hod je opÄ›t spoleÄnÃ½. &lt;b&gt;A&lt;/b&gt; hÃ¡zÃ­ kuÅ¾el z levÃ© ruky rovnÄ› nahoru. Å½onglÃ©r &lt;b&gt;B&lt;/b&gt; hÃ¡zÃ­ synchronizovanÄ› z pravÃ© ruky.</popisek>
 	</krok>
 
 	<krok>
-		<popisek>Dál se støídáte ve vyhazování a chytání dvou krajních ku¾elù. Ty létají spoleènì nahoru a dolù.</popisek>
+		<popisek>DÃ¡l se stÅ™Ã­dÃ¡te ve vyhazovÃ¡nÃ­ a chytÃ¡nÃ­ dvou krajnÃ­ch kuÅ¾elÅ¯. Ty lÃ©tajÃ­ spoleÄnÄ› nahoru a dolÅ¯.</popisek>
 	</krok>
 </trik>

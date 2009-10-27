@@ -1,19 +1,19 @@
 <p>
-Mù¾e to znít neuvìøitelnì, ale jde to. Jakı trik bude¹ provádìt poslepu? Zaèni tím nejlehèím, <a href="/micky/3/kaskada.html" title="Kaskáda se tøemi míèky.">kaskádou</a>. Proto¾e na míèek neuvidí¹, je potøeba ¾onglovat nízko. Tvé hody pak budou pøesné a trefí¹ se do druhé ruky. Jak nízko? Asi 15 a¾ 25 cm. Nejprve tedy natrénuj takto nízkou kaskádu.
+MÅ¯Å¾e to znÃ­t neuvÄ›Å™itelnÄ›, ale jde to. JakÃ½ trik budeÅ¡ provÃ¡dÄ›t poslepu? ZaÄni tÃ­m nejlehÄÃ­m, <a href="/micky/3/kaskada.html" title="KaskÃ¡da se tÅ™emi mÃ­Äky.">kaskÃ¡dou</a>. ProtoÅ¾e na mÃ­Äek neuvidÃ­Å¡, je potÅ™eba Å¾onglovat nÃ­zko. TvÃ© hody pak budou pÅ™esnÃ© a trefÃ­Å¡ se do druhÃ© ruky. Jak nÃ­zko? Asi 15 aÅ¾ 25 cm. Nejprve tedy natrÃ©nuj takto nÃ­zkou kaskÃ¡du.
 </p>
 
 <p>
-Dal¹ím krokem je vyøazení kontroly zrakem. Existuje pár fíglù. Zkus se nejdøív dívat jen na vr¹ky oblouèkù po kterıch míèky létají. Pak se dívej jenom na stín míèkù na stìnì. Mù¾e¹ taky zkusit ¾onglovat za svitu mìsíce. No a pak staèí zavøít oèi. Dá to trochu pøemáhání a tak by mo¾ná nìkoho napadlo zavázat si oèi ¹átkem. Jde to, ale musí¹ si ho sundat kdy¾ ti míèky spadnou. Také je daleko snaz¹í zavøít oèi kdy¾ u¾ ¾ongluje¹, ne¾ zaèít rovnou první hod poslepu.
+DalÅ¡Ã­m krokem je vyÅ™azenÃ­ kontroly zrakem. Existuje pÃ¡r fÃ­glÅ¯. Zkus se nejdÅ™Ã­v dÃ­vat jen na vrÅ¡ky oblouÄkÅ¯ po kterÃ½ch mÃ­Äky lÃ©tajÃ­. Pak se dÃ­vej jenom na stÃ­n mÃ­ÄkÅ¯ na stÄ›nÄ›. MÅ¯Å¾eÅ¡ taky zkusit Å¾onglovat za svitu mÄ›sÃ­ce. No a pak staÄÃ­ zavÅ™Ã­t oÄi. DÃ¡ to trochu pÅ™emÃ¡hÃ¡nÃ­ a tak by moÅ¾nÃ¡ nÄ›koho napadlo zavÃ¡zat si oÄi Å¡Ã¡tkem. Jde to, ale musÃ­Å¡ si ho sundat kdyÅ¾ ti mÃ­Äky spadnou. TakÃ© je daleko snazÅ¡Ã­ zavÅ™Ã­t oÄi kdyÅ¾ uÅ¾ Å¾onglujeÅ¡, neÅ¾ zaÄÃ­t rovnou prvnÃ­ hod poslepu.
 </p>
 
 <p>
-Pøi ¾onglování poslepu je dobré sedìt nebo kleèet na zemi. Získá¹ tak vìt¹í stabilitu. Úplnì nejlep¹í je kleèet na posteli, jednak je to mìkèí a také ti míèky neutíkají tak daleko. Èasem, a¾ získá¹ trochu jistoty, zkus ¾onglovat i normálnì ve stoje.
+PÅ™i Å¾onglovÃ¡nÃ­ poslepu je dobrÃ© sedÄ›t nebo kleÄet na zemi. ZÃ­skÃ¡Å¡ tak vÄ›tÅ¡Ã­ stabilitu. ÃšplnÄ› nejlepÅ¡Ã­ je kleÄet na posteli, jednak je to mÄ›kÄÃ­ a takÃ© ti mÃ­Äky neutÃ­kajÃ­ tak daleko. ÄŒasem, aÅ¾ zÃ­skÃ¡Å¡ trochu jistoty, zkus Å¾onglovat i normÃ¡lnÄ› ve stoje.
 </p>
 
 <p>
-Se zavøenıma oèima zaène tvùj mozek víc pou¾ívat ostatní smysly. Hlavnì hmat. Dùle¾ité je udr¾et dokonalı rytmus a pøesnost hodù. Míèky mù¾e¹ sledovat jen svım vnitøním zrakem. Sna¾ se uvolnit a soustøedit na dlanì ve kterıch má¹ míèky.
+Se zavÅ™enÃ½ma oÄima zaÄne tvÅ¯j mozek vÃ­c pouÅ¾Ã­vat ostatnÃ­ smysly. HlavnÄ› hmat. DÅ¯leÅ¾itÃ© je udrÅ¾et dokonalÃ½ rytmus a pÅ™esnost hodÅ¯. MÃ­Äky mÅ¯Å¾eÅ¡ sledovat jen svÃ½m vnitÅ™nÃ­m zrakem. SnaÅ¾ se uvolnit a soustÅ™edit na dlanÄ› ve kterÃ½ch mÃ¡Å¡ mÃ­Äky.
 </p>
 
 <p>
-®onglování poslepu je velmi efektní pro diváky. Mù¾e¹ buï ¾onglovat se ¹átkem pøes oèi nebo nìkoho po¾ádat aby ti zakryl oèi rukama. Kdy¾ toti¾ oèi jenom zavøe¹, není poøádnì poznat jestli náhodou nekouká¹ pod øasami. Na závìr je tøeba poznamenat, ¾e toto asi není nejlep¹í trik pro zaèáteèníky. Vy¾aduje dokonalé zvládnutí kaskády a velké mno¾ství tréninku.
+Å½onglovÃ¡nÃ­ poslepu je velmi efektnÃ­ pro divÃ¡ky. MÅ¯Å¾eÅ¡ buÄ Å¾onglovat se Å¡Ã¡tkem pÅ™es oÄi nebo nÄ›koho poÅ¾Ã¡dat aby ti zakryl oÄi rukama. KdyÅ¾ totiÅ¾ oÄi jenom zavÅ™eÅ¡, nenÃ­ poÅ™Ã¡dnÄ› poznat jestli nÃ¡hodou nekoukÃ¡Å¡ pod Å™asami. Na zÃ¡vÄ›r je tÅ™eba poznamenat, Å¾e toto asi nenÃ­ nejlepÅ¡Ã­ trik pro zaÄÃ¡teÄnÃ­ky. VyÅ¾aduje dokonalÃ© zvlÃ¡dnutÃ­ kaskÃ¡dy a velkÃ© mnoÅ¾stvÃ­ trÃ©ninku.
 </p>

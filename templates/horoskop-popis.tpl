@@ -1,6 +1,6 @@
 <p>
-Pøedpovìdi v horoskopu jsou ka¾dı den nové.
+PÅ™edpovÄ›di v horoskopu jsou kaÅ¾dÃ½ den novÃ©.
 </p>
 <p>
-Vznikají na základì slo¾itıch vıpoètù a vì¹teb pomocí <a href="/nacini.html#crystalball" title="Crystal ball - magická ¾onglérská pomùcka.">crystal ball</a>u. Tím je zaruèena pøesná pøedpovìï pro ka¾dou ¾onglérku i ¾ongléra.
+VznikajÃ­ na zÃ¡kladÄ› sloÅ¾itÃ½ch vÃ½poÄtÅ¯ a vÄ›Å¡teb pomocÃ­ <a href="/nacini.html#crystalball" title="Crystal ball - magickÃ¡ Å¾onglÃ©rskÃ¡ pomÅ¯cka.">crystal ball</a>u. TÃ­m je zaruÄena pÅ™esnÃ¡ pÅ™edpovÄ›Ä pro kaÅ¾dou Å¾onglÃ©rku i Å¾onglÃ©ra.
 </p>

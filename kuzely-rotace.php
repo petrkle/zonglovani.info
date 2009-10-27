@@ -1,7 +1,7 @@
 <?php
 require('init.php');
 
-$smarty->assign("titulek","Rotace ku¾elu");
+$smarty->assign("titulek","Rotace kuÅ¾elu");
 
 $smarty->display('hlavicka.tpl');
 $smarty->display('kuzely-rotace.tpl');

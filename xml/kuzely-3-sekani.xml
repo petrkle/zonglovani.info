@@ -2,30 +2,30 @@
 <trik>
 
     <about>
-	     <nazev>Sekání (chops)</nazev>
+	     <nazev>SekÃ¡nÃ­ (chops)</nazev>
 		 <pocet>3</pocet>
 	     <siteswaps>-</siteswaps>
-		 <obtiznost>tì¾¹í</obtiznost>
+		 <obtiznost>tÄ›Å¾Å¡Ã­</obtiznost>
 		 <oblast>kuzely-3</oblast>
 	</about>
 
 
     <krok>
-			<popisek>Ku¾ely pøesunuje¹ z jedné strany na druhou pomocí sekání. Rychlı pøesun køí¾em shora dolù.</popisek>
+			<popisek>KuÅ¾ely pÅ™esunujeÅ¡ z jednÃ© strany na druhou pomocÃ­ sekÃ¡nÃ­. RychlÃ½ pÅ™esun kÅ™Ã­Å¾em shora dolÅ¯.</popisek>
     </krok>
 		
 		<krok>
 			<obrazek>kuzely-3-sekania</obrazek>
-			<popisek>Ku¾el dr¾í¹ v ruce. Sekne¹ jím ryhchle shora dolù.</popisek>
+			<popisek>KuÅ¾el drÅ¾Ã­Å¡ v ruce. SekneÅ¡ jÃ­m ryhchle shora dolÅ¯.</popisek>
 		</krok>
 		
 		<krok>
 			<obrazek>kuzely-3-sekanib</obrazek>
-			<popisek>A¾ v dolní poloze ku¾el vyhodí¹.</popisek>
+			<popisek>AÅ¾ v dolnÃ­ poloze kuÅ¾el vyhodÃ­Å¡.</popisek>
 		</krok>
 
 		<krok>
-			<popisek>Obdobnì postupuj i na druhou stranu.</popisek>
+			<popisek>ObdobnÄ› postupuj i na druhou stranu.</popisek>
 		</krok>
 
 

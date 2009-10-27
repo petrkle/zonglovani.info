@@ -2,7 +2,7 @@
 
 require('init.php');
 
-$smarty->assign("titulek","Podpoøte ¾onglérùv slabikáø");
+$smarty->assign("titulek","PodpoÅ™te Å¾onglÃ©rÅ¯v slabikÃ¡Å™");
 
 $smarty->display('hlavicka.tpl');
 $smarty->display('ostatni-podporte-zongleruv-slabikar.tpl');

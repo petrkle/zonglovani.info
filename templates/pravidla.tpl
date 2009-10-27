@@ -1,37 +1,37 @@
 <h1>{$titulek}</h1>
 
 <p>
-Pøed vytvoøením úètu si, prosím, pøeèti následující pravidla.
+PÅ™ed vytvoÅ™enÃ­m ÃºÄtu si, prosÃ­m, pÅ™eÄti nÃ¡sledujÃ­cÃ­ pravidla.
 </p>
 
-<h3>Povinnosti u¾ivatele</h3>
+<h3>Povinnosti uÅ¾ivatele</h3>
 <ul>
-<li>Do ¾onglérova slabikáøe budu psát jenom pravdivé informace, které neodporují zákonùm ÈR a dobrım mravùm.</li>
-<li>Vyvaruji se nadmìrného pou¾ívání smajlíkù :-)</li>
+<li>Do Å¾onglÃ©rova slabikÃ¡Å™e budu psÃ¡t jenom pravdivÃ© informace, kterÃ© neodporujÃ­ zÃ¡konÅ¯m ÄŒR a dobrÃ½m mravÅ¯m.</li>
+<li>Vyvaruji se nadmÄ›rnÃ©ho pouÅ¾Ã­vÃ¡nÃ­ smajlÃ­kÅ¯ :-)</li>
 </ul>
 
-<h3>Práva u¾ivatele</h3>
+<h3>PrÃ¡va uÅ¾ivatele</h3>
 <ul>
-<li>Tvùj úèet se objeví v <a href="{$smarty.const.LIDE_URL}" title="Seznam u¾ivatelskıch úètù.">seznamu u¾ivatelù</a> ¾onglérova slabikáøe. Budou tì moct kontaktovat dal¹í ¾ongléøi. Nebo lidé kteøí shánìjí ¾ongléry a chtìjí jim zaplatit za vystoupení.</li>
-<li>Mù¾e¹ zadávat události do <a href="{$smarty.const.CALENDAR_URL}" title="Kalendáø ¾onglérskıch akcí.">kalendáøe</a>.</li>
-<li>Mù¾e¹ psát zprávy do <a href="{$smarty.const.DISKUSE_URL}" title="Diskuse o ¾onglování.">diskuse</a> o ¾onglování.</li>
+<li>TvÅ¯j ÃºÄet se objevÃ­ v <a href="{$smarty.const.LIDE_URL}" title="Seznam uÅ¾ivatelskÃ½ch ÃºÄtÅ¯.">seznamu uÅ¾ivatelÅ¯</a> Å¾onglÃ©rova slabikÃ¡Å™e. Budou tÄ› moct kontaktovat dalÅ¡Ã­ Å¾onglÃ©Å™i. Nebo lidÃ© kteÅ™Ã­ shÃ¡nÄ›jÃ­ Å¾onglÃ©ry a chtÄ›jÃ­ jim zaplatit za vystoupenÃ­.</li>
+<li>MÅ¯Å¾eÅ¡ zadÃ¡vat udÃ¡losti do <a href="{$smarty.const.CALENDAR_URL}" title="KalendÃ¡Å™ Å¾onglÃ©rskÃ½ch akcÃ­.">kalendÃ¡Å™e</a>.</li>
+<li>MÅ¯Å¾eÅ¡ psÃ¡t zprÃ¡vy do <a href="{$smarty.const.DISKUSE_URL}" title="Diskuse o Å¾onglovÃ¡nÃ­.">diskuse</a> o Å¾onglovÃ¡nÃ­.</li>
 </ul>
 
-<h3>Povinnosti správce</h3>
+<h3>Povinnosti sprÃ¡vce</h3>
 <ul>
-<li>Osobní údaje které zadá¹ pøi vytváøení úètu NEBUDOU pou¾ity k rozesílání spamu ani pøedány tøetím osobám.</li>
+<li>OsobnÃ­ Ãºdaje kterÃ© zadÃ¡Å¡ pÅ™i vytvÃ¡Å™enÃ­ ÃºÄtu NEBUDOU pouÅ¾ity k rozesÃ­lÃ¡nÃ­ spamu ani pÅ™edÃ¡ny tÅ™etÃ­m osobÃ¡m.</li>
 </ul>
 
-<h3>Dal¹í pravidla</h3>
+<h3>DalÅ¡Ã­ pravidla</h3>
 <ul>
-<li>U¾ivatelùm poru¹ující tato pravidla bude zablokován úèet.</li>
-<li>Úèty nepou¾ívané déle jak rok budou odstranìny.</li>
+<li>UÅ¾ivatelÅ¯m poruÅ¡ujÃ­cÃ­ tato pravidla bude zablokovÃ¡n ÃºÄet.</li>
+<li>ÃšÄty nepouÅ¾Ã­vanÃ© dÃ©le jak rok budou odstranÄ›ny.</li>
 </ul>
 
 <form action="{$SCRIPT_NAME}" method="post">
 <p class="vpravo">
-<input type="submit" name="ne" value="Nesouhlasím" class="knoflik" />
-<input type="submit" name="jo" value="Souhlasím" class="knoflik" />
+<input type="submit" name="ne" value="NesouhlasÃ­m" class="knoflik" />
+<input type="submit" name="jo" value="SouhlasÃ­m" class="knoflik" />
 </p>
 
 </form>

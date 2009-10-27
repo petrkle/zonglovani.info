@@ -1,7 +1,7 @@
 <?php
 require('init.php');
 
-$smarty->assign("titulek","®onglování s vajíèky");
+$smarty->assign("titulek","Å½onglovÃ¡nÃ­ s vajÃ­Äky");
 
 $smarty->display('hlavicka.tpl');
 $smarty->display('micky-vajicka.tpl');

@@ -5,32 +5,32 @@
 	     <nazev>Orbit</nazev>
 		 <pocet>3</pocet>
 	     <siteswaps>3</siteswaps>
-		 <obtiznost>nároèné</obtiznost>
+		 <obtiznost>nÃ¡roÄnÃ©</obtiznost>
 		 <oblast>micky-3</oblast>
 	</about>
 
 	<krok>
-		<popisek>Orbit, nìkdy té¾ nazıvanı obtoè.</popisek>
+		<popisek>Orbit, nÄ›kdy tÃ©Å¾ nazÃ½vanÃ½ obtoÄ.</popisek>
     </krok>
 
     <krok>
 			<obrazek>micky-3-orbita</obrazek>
-				<popisek>Vyhoï první míèek z levé ruky.</popisek>
+				<popisek>VyhoÄ prvnÃ­ mÃ­Äek z levÃ© ruky.</popisek>
     </krok>
 
     <krok>
 			<obrazek>micky-3-orbitb</obrazek>
-			<popisek>Zatím co první míèek letí, obkrou¾í¹ ho pravou rukou s druhım míèkem.</popisek>
+			<popisek>ZatÃ­m co prvnÃ­ mÃ­Äek letÃ­, obkrouÅ¾Ã­Å¡ ho pravou rukou s druhÃ½m mÃ­Äkem.</popisek>
     </krok>
 
     <krok>
 			<obrazek>micky-3-orbitc</obrazek>
-			<popisek>Ano, je tøeba bıt velmi rychlı.</popisek>
+			<popisek>Ano, je tÅ™eba bÃ½t velmi rychlÃ½.</popisek>
     </krok>
 
     <krok>
 			<obrazek>micky-3-orbitd</obrazek>
-			<popisek>Nakonec staèí druhı míèek pustit. Setrvaèností vyletí správnım smìrem. Do pravé ruky chytne¹ první míèek.</popisek>
+			<popisek>Nakonec staÄÃ­ druhÃ½ mÃ­Äek pustit. SetrvaÄnostÃ­ vyletÃ­ sprÃ¡vnÃ½m smÄ›rem. Do pravÃ© ruky chytneÅ¡ prvnÃ­ mÃ­Äek.</popisek>
     </krok>
 
 

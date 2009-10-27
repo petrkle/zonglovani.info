@@ -3,13 +3,13 @@
 <p>{$predpoved}</p>
 <p>
 {if $zitra=="jo"}
-Zajímá tì co se stane dnes? Pøeèti si <a href="/horoskop/{$znameni}.html" title="Horoskop na dne¹ní den.">horoskop na dne¹ní den</a>.
+ZajÃ­mÃ¡ tÄ› co se stane dnes? PÅ™eÄti si <a href="/horoskop/{$znameni}.html" title="Horoskop na dneÅ¡nÃ­ den.">horoskop na dneÅ¡nÃ­ den</a>.
 {else}
-Neví¹ co se stane zítra? Pøeèti si <a href="/horoskop/zitra/{$znameni}.html" title="Horoskop na zítra.">horoskop na zítra</a>.
+NevÃ­Å¡ co se stane zÃ­tra? PÅ™eÄti si <a href="/horoskop/zitra/{$znameni}.html" title="Horoskop na zÃ­tra.">horoskop na zÃ­tra</a>.
 {/if}
 </p>
 
-<p>Dal¹í znamení: 
+<p>DalÅ¡Ã­ znamenÃ­: 
 {foreach from=$zverokruh item=znam key=klic name=horomenu}
 {if !$smarty.foreach.horomenu.first} ~ {/if}
 {if $klic==$znameni}
@@ -21,5 +21,5 @@ Neví¹ co se stane zítra? Pøeèti si <a href="/horoskop/zitra/{$znameni}.html" tit
 </p>
 {/if}
 <p>
-Jak <a href="/horoskop/popis.html">vzniká horoskop</a>?
+Jak <a href="/horoskop/popis.html">vznikÃ¡ horoskop</a>?
 </p>

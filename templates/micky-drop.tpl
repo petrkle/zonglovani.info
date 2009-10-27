@@ -1,20 +1,20 @@
 <p>
-Míèky se dostanou na zem velmi snadno a rychle, staèí chvilka nepozornosti. Tak¾e co dìlat, kdy¾ u¾ se to stane?
+MÃ­Äky se dostanou na zem velmi snadno a rychle, staÄÃ­ chvilka nepozornosti. TakÅ¾e co dÄ›lat, kdyÅ¾ uÅ¾ se to stane?
 </p>
 
-<h3>Nepøestávej ¾onglovat</h3>
+<h3>NepÅ™estÃ¡vej Å¾onglovat</h3>
 <p>
-I kdy¾ ti jeden míèek upadne, poøád je¹tì mù¾e¹ ¾onglovat. Staèí míèek <a href="/micky/sbirani.html" title="Sbírání míèkù ze zemì.">sebrat ze zemì</a> a pokraèovat v ¾onglování.
+I kdyÅ¾ ti jeden mÃ­Äek upadne, poÅ™Ã¡d jeÅ¡tÄ› mÅ¯Å¾eÅ¡ Å¾onglovat. StaÄÃ­ mÃ­Äek <a href="/micky/sbirani.html" title="SbÃ­rÃ¡nÃ­ mÃ­ÄkÅ¯ ze zemÄ›.">sebrat ze zemÄ›</a> a pokraÄovat v Å¾onglovÃ¡nÃ­.
 </p>
 
-<h3>Prùpovídky</h3>
+<h3>PrÅ¯povÃ­dky</h3>
 <p>
-Dal¹í mo¾ností je <em>vtipnou prùpovídkou</em> pøedstírat, ¾e jsi vlastnì míèky zahodil schválnì. Mù¾e¹ se za nimy rozbìhnout s vıkøikem: "Chy»te jééééééé !" a podobnì. Je dobré si tìchto prùpovídek pøipravit více a pou¾ívat je velmi zøídka.
+DalÅ¡Ã­ moÅ¾nostÃ­ je <em>vtipnou prÅ¯povÃ­dkou</em> pÅ™edstÃ­rat, Å¾e jsi vlastnÄ› mÃ­Äky zahodil schvÃ¡lnÄ›. MÅ¯Å¾eÅ¡ se za nimy rozbÄ›hnout s vÃ½kÅ™ikem: "ChyÅ¥te jÃ©Ã©Ã©Ã©Ã©Ã©Ã© !" a podobnÄ›. Je dobrÃ© si tÄ›chto prÅ¯povÃ­dek pÅ™ipravit vÃ­ce a pouÅ¾Ã­vat je velmi zÅ™Ã­dka.
 </p>
 
 
-<h3>Pou¾ij nohy</h3>
+<h3>PouÅ¾ij nohy</h3>
 <p>
-<a href="kick-up.html" title="Jak dostat míèky ze zemì zpátky do vzduchu.">Pou¾ij nohy</a> a vykopni míèek zpìt do vzduchu.
+<a href="kick-up.html" title="Jak dostat mÃ­Äky ze zemÄ› zpÃ¡tky do vzduchu.">PouÅ¾ij nohy</a> a vykopni mÃ­Äek zpÄ›t do vzduchu.
 </p>
 

@@ -5,25 +5,25 @@
 	     <nazev>Pass pod nohou</nazev>
 		 <pocet>6</pocet>
 	     <siteswaps>-</siteswaps>
-		 <obtiznost>snadné</obtiznost>
+		 <obtiznost>snadnÃ©</obtiznost>
 		 <oblast>kuzely-passing</oblast>
 	</about>
 
 
     <krok>
 			<obrazek>passpodnohoua</obrazek>
-			<popisek>Ku¾elku pøi passování mù¾e¹ hodit pod nohou. Nejjednodu¹í je pøi passování pravou rukou házet pod pravou nohou.</popisek>
+			<popisek>KuÅ¾elku pÅ™i passovÃ¡nÃ­ mÅ¯Å¾eÅ¡ hodit pod nohou. NejjednoduÅ¡Ã­ je pÅ™i passovÃ¡nÃ­ pravou rukou hÃ¡zet pod pravou nohou.</popisek>
     </krok>
 
 
     <krok>
 			<obrazek>passpodnohoub</obrazek>
-			<popisek>Pro pass pod levou honou je potøeba trochu se natoèit.</popisek>
+			<popisek>Pro pass pod levou honou je potÅ™eba trochu se natoÄit.</popisek>
     </krok>
 
     <krok>
 			<obrazek>passpodnohouc</obrazek>
-			<popisek>Tento trik vypadá velmi pìknì pøi synchronizovaném provedení.</popisek>
+			<popisek>Tento trik vypadÃ¡ velmi pÄ›knÄ› pÅ™i synchronizovanÃ©m provedenÃ­.</popisek>
     </krok>
 
 

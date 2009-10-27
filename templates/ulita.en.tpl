@@ -16,8 +16,8 @@ Beginners as well as experienced jugglers are welcome. There are balls and clubs
 
 <h3>Place</h3>
 <p>
-<a href="http://www.ulita.cz" class="external" onclick="pageTracker._trackPageview('/goto/ulita.cz');" title="Ulita - dùm dìtí a mláde¾e">Ulita</a> - house of children and youth<br />
-Na Balkánì 100, Prague, 130 00 - <a href="http://maps.google.com/maps?q=50.094625,+14.481668+(Juggling+at+Ulita)&iwloc=A&z=17" title="Place on google maps." class="external" onclick="pageTracker._trackPageview('/goto/maps.google.com/ulita');">map</a><br />
+<a href="http://www.ulita.cz" class="external" onclick="pageTracker._trackPageview('/goto/ulita.cz');" title="Ulita - dÅ¯m dÄ›tÃ­ a mlÃ¡deÅ¾e">Ulita</a> - house of children and youth<br />
+Na BalkÃ¡nÄ› 100, Prague, 130 00 - <a href="http://maps.google.com/maps?q=50.094625,+14.481668+(Juggling+at+Ulita)&iwloc=A&z=17" title="Place on google maps." class="external" onclick="pageTracker._trackPageview('/goto/maps.google.com/ulita');">map</a><br />
 Phone: +420 271 771 025<br />
 {assign var='mail' value='info@ulita.cz'}
 E-mail: {$mail|mailobfuscate}
@@ -55,7 +55,7 @@ E-mail: {$mail|mailobfuscate}
 <p>Wait for autumn.</p>
 {/if}
 {*
-<p>Pictures from <a href="http://spanker.cz/fotogal/ulita_zonglovani/index.html" title="Photos by Zbyòìk Fojtík." onclick="pageTracker._trackPageview('/goto/spanker.cz/fotogal/ulita_zonglovani');" class="external">last year</a>.</p>
+<p>Pictures from <a href="http://spanker.cz/fotogal/ulita_zonglovani/index.html" title="Photos by ZbyÅˆÄ›k FojtÃ­k." onclick="pageTracker._trackPageview('/goto/spanker.cz/fotogal/ulita_zonglovani');" class="external">last year</a>.</p>
 *}
 <hr />
 <h3>Contributors</h3>
@@ -63,7 +63,7 @@ E-mail: {$mail|mailobfuscate}
 <a href="http://www.ulita.cz" onclick="pageTracker._trackPageview('/goto/ulita.cz');" title="Ulita - house of children and youth">{obrazek soubor='ulita.cz.png' popisek='Ulita'}</a>
 Place is provided by <a href="http://www.ulita.cz" class="external" onclick="pageTracker._trackPageview('/goto/ulita.cz');" title="Ulita - house of children and youth">Ulita</a>, Prague.
 </p>
-<p style="text-align: right; font-size: 0.5em;"><a href="/ulita/">Èeská verze</a></p>
+<p style="text-align: right; font-size: 0.5em;"><a href="/ulita/">ÄŒeskÃ¡ verze</a></p>
 {*
 <p>
 <a href="http://www.fireshow.cz/zonglovani-v-ulite" onclick="pageTracker._trackPageview('/goto/fireshow.cz/zonglovani-v-ulite');" title="FireShow.cz">{obrazek soubor='fireshow.cz.png' popisek='Fireshow.cz'}</a>

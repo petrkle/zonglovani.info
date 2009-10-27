@@ -1,7 +1,7 @@
-<h2>Pro pokroèilé</h2>
+<h2>Pro pokroÄilÃ©</h2>
 
-<p>Nejznámìj¹í a pøitom docela obtí¾nı trik je <a href="/micky/3/sprcha.html" title="Obtí¾nìj¹í trik.">sprcha</a>. Pøi ní hází¹ míèky dokoleèka. Jedna ruka poøád vyhazuje a druhá chytá. Nauèit se to na obì strany u¾ zabere trochu èasu.</p>
+<p>NejznÃ¡mÄ›jÅ¡Ã­ a pÅ™itom docela obtÃ­Å¾nÃ½ trik je <a href="/micky/3/sprcha.html" title="ObtÃ­Å¾nÄ›jÅ¡Ã­ trik.">sprcha</a>. PÅ™i nÃ­ hÃ¡zÃ­Å¡ mÃ­Äky dokoleÄka. Jedna ruka poÅ™Ã¡d vyhazuje a druhÃ¡ chytÃ¡. NauÄit se to na obÄ› strany uÅ¾ zabere trochu Äasu.</p>
 
-<p>Triky jako <a href="/micky/3/blesk.html" title="Obtí¾nìj¹í trik.">blesk</a> nebo <a href="/micky/3/seesaw.html" title="Obtí¾nìj¹í trik.">see saw</a> vy¾adují rychlost, ale dají se zvládnout.</p>
+<p>Triky jako <a href="/micky/3/blesk.html" title="ObtÃ­Å¾nÄ›jÅ¡Ã­ trik.">blesk</a> nebo <a href="/micky/3/seesaw.html" title="ObtÃ­Å¾nÄ›jÅ¡Ã­ trik.">see saw</a> vyÅ¾adujÃ­ rychlost, ale dajÃ­ se zvlÃ¡dnout.</p>
 
-<p>Velmi populární je také  <a href="/micky/3/mm.html" title="Velmi populární trik.">mills' mess</a>. Dej pozor, aby se ti nezapletly ruce. Jako trénink mù¾e¹ zkusit <a href="/micky/3/mm-falesne.html" title="Trik s køí¾ením rukou.">fale¹né mills' mess</a>, <a href="/micky/3/mlyn.html" title="Trik s køí¾ením rukou.">vìtrnı mlın</a> a <a href="/micky/3/zkrizene-ruce.html" title="Trik s køí¾ením rukou">reverzní kaskádu</a> se zkøí¾enıma rukama.</p>
+<p>Velmi populÃ¡rnÃ­ je takÃ©  <a href="/micky/3/mm.html" title="Velmi populÃ¡rnÃ­ trik.">mills' mess</a>. Dej pozor, aby se ti nezapletly ruce. Jako trÃ©nink mÅ¯Å¾eÅ¡ zkusit <a href="/micky/3/mm-falesne.html" title="Trik s kÅ™Ã­Å¾enÃ­m rukou.">faleÅ¡nÃ© mills' mess</a>, <a href="/micky/3/mlyn.html" title="Trik s kÅ™Ã­Å¾enÃ­m rukou.">vÄ›trnÃ½ mlÃ½n</a> a <a href="/micky/3/zkrizene-ruce.html" title="Trik s kÅ™Ã­Å¾enÃ­m rukou">reverznÃ­ kaskÃ¡du</a> se zkÅ™Ã­Å¾enÃ½ma rukama.</p>

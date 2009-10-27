@@ -2,7 +2,7 @@
 require('../init.php');
 require('../func.php');
 
-$smarty->assign("titulek","Jak vzniká horoskop ¾onglování");
+$smarty->assign("titulek","Jak vznikÃ¡ horoskop Å¾onglovÃ¡nÃ­");
 $smarty->display('hlavicka.tpl');
 $smarty->display('horoskop-popis.tpl');
 $smarty->display('paticka.tpl');

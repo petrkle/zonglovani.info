@@ -1,50 +1,50 @@
 <p>
-®onglovat se nenauèí¹ nìjakım kouzlem nebo proto¾e má¹ talent, ale tréninkem. Prostì to zkou¹í¹ tak dlouho a¾ se ti to povede. 
+Å½onglovat se nenauÄÃ­Å¡ nÄ›jakÃ½m kouzlem nebo protoÅ¾e mÃ¡Å¡ talent, ale trÃ©ninkem. ProstÄ› to zkouÅ¡Ã­Å¡ tak dlouho aÅ¾ se ti to povede. 
 </p>
-<h3>Rozcvièka</h3>
+<h3>RozcviÄka</h3>
 <p>
-{obrazek soubor="trenink-navoda.png" popisek="Rozcvièka"}
-Prvním bodem tréninku je rozcvièka. Zvolna rozhıbej svoje ruce, ramena, krk, hlavu ... Protáhni si ¹lachy a pøidej i pár nároènìj¹ích cvikù aby se ti rozproudila krev. Nástrojem ¾ongléra je jeho tìlo a je tøeba ho pøipravit. Rozcvièka by mohla trvat asi pìt minut, ale není tøeba mìøit to na stopkách.
+{obrazek soubor="trenink-navoda.png" popisek="RozcviÄka"}
+PrvnÃ­m bodem trÃ©ninku je rozcviÄka. Zvolna rozhÃ½bej svoje ruce, ramena, krk, hlavu ... ProtÃ¡hni si Å¡lachy a pÅ™idej i pÃ¡r nÃ¡roÄnÄ›jÅ¡Ã­ch cvikÅ¯ aby se ti rozproudila krev. NÃ¡strojem Å¾onglÃ©ra je jeho tÄ›lo a je tÅ™eba ho pÅ™ipravit. RozcviÄka by mohla trvat asi pÄ›t minut, ale nenÃ­ tÅ™eba mÄ›Å™it to na stopkÃ¡ch.
 </p>
-<h3>Zaèínáme</h3>
+<h3>ZaÄÃ­nÃ¡me</h3>
 <p>
-{obrazek soubor="trenink-navodb.png" popisek="První hod"}
-Teï u¾ se mù¾e¹ pustit do vlastního ¾onglování. Je dobré zaèít <a href="/micky/3/kaskada.html" title="Základní trik se tøemi míèky.">lehèími triky</a> a postupnì pøejít a¾ k tìm které se zrovna uèí¹. Trénink nesmí bıt nudnı nebo stereotypní. Tudy cesta nevede, proto¾e tì to pak nebude bavit. Naopak ¾onglování je zábava a mìlo by pøiná¹et potì¹ení. Tak¾e støídej rùzné triky (kaskáda, sprcha, sloupy, ...) a trénuj plynulı pøechod z jednoho triku do druhého. Zkus pøi ¾onglování stát na jedné noze nebo chodit. Inspirovat tì mù¾e i <a href="/horoskop/" title="Horoskop pro ¾ongléry.">horoskop pro ¾ongléry</a>.
+{obrazek soubor="trenink-navodb.png" popisek="PrvnÃ­ hod"}
+TeÄ uÅ¾ se mÅ¯Å¾eÅ¡ pustit do vlastnÃ­ho Å¾onglovÃ¡nÃ­. Je dobrÃ© zaÄÃ­t <a href="/micky/3/kaskada.html" title="ZÃ¡kladnÃ­ trik se tÅ™emi mÃ­Äky.">lehÄÃ­mi triky</a> a postupnÄ› pÅ™ejÃ­t aÅ¾ k tÄ›m kterÃ© se zrovna uÄÃ­Å¡. TrÃ©nink nesmÃ­ bÃ½t nudnÃ½ nebo stereotypnÃ­. Tudy cesta nevede, protoÅ¾e tÄ› to pak nebude bavit. Naopak Å¾onglovÃ¡nÃ­ je zÃ¡bava a mÄ›lo by pÅ™inÃ¡Å¡et potÄ›Å¡enÃ­. TakÅ¾e stÅ™Ã­dej rÅ¯znÃ© triky (kaskÃ¡da, sprcha, sloupy, ...) a trÃ©nuj plynulÃ½ pÅ™echod z jednoho triku do druhÃ©ho. Zkus pÅ™i Å¾onglovÃ¡nÃ­ stÃ¡t na jednÃ© noze nebo chodit. Inspirovat tÄ› mÅ¯Å¾e i <a href="/horoskop/" title="Horoskop pro Å¾onglÃ©ry.">horoskop pro Å¾onglÃ©ry</a>.
 </p>
 <h3>Hudba</h3>
 <p>
-{obrazek soubor="trenink-navodc.png" popisek="Hudební doprovod"}
-Náladu ti urèitì zvednì i nìjaká pohodová hudba. Je to lep¹í ne¾ jen samotné bu¹ení míèkù do podlahy. Údery dopadajích míèkù mù¾e¹ omezit tím ¾e bude¹ ¾onglovat nad postelí, nebo nad peøinou polo¾enou na zem. Míèky se ti nebudou kutálet pryè a zachová¹ si dobré vztahy se sousedy. 
+{obrazek soubor="trenink-navodc.png" popisek="HudebnÃ­ doprovod"}
+NÃ¡ladu ti urÄitÄ› zvednÄ› i nÄ›jakÃ¡ pohodovÃ¡ hudba. Je to lepÅ¡Ã­ neÅ¾ jen samotnÃ© buÅ¡enÃ­ mÃ­ÄkÅ¯ do podlahy. Ãšdery dopadajÃ­ch mÃ­ÄkÅ¯ mÅ¯Å¾eÅ¡ omezit tÃ­m Å¾e budeÅ¡ Å¾onglovat nad postelÃ­, nebo nad peÅ™inou poloÅ¾enou na zem. MÃ­Äky se ti nebudou kutÃ¡let pryÄ a zachovÃ¡Å¡ si dobrÃ© vztahy se sousedy. 
 </p>
 <h3>Jak dlouho?</h3>
 <p>
 {obrazek soubor="trenink-navodd.png" popisek="Hodiny"}
-Délka tréninku je individuální. Dolní hranice je zhruba 10 minut, i s rozcvièkou ètvrt hodinky. Krat¹í trénink asi nemá cenu. Horní hranici urèuje tvoje fyzická zdatnost a tvrdohlavost. Déle ne¾ dvì hodiny v kuse vydr¾í málokdo. To u¾ je lep¹í rozlo¾it trénink na nìkolik úsekù, napø. hodina ráno, hodina po obìdì a hodina veèer. Nemìj pocit ¾e nìco zanedbává¹ kdy¾ netrénuje¹ 3 hodiny dennì, to nedìlá nikdo&nbsp;:^)
+DÃ©lka trÃ©ninku je individuÃ¡lnÃ­. DolnÃ­ hranice je zhruba 10 minut, i s rozcviÄkou Ätvrt hodinky. KratÅ¡Ã­ trÃ©nink asi nemÃ¡ cenu. HornÃ­ hranici urÄuje tvoje fyzickÃ¡ zdatnost a tvrdohlavost. DÃ©le neÅ¾ dvÄ› hodiny v kuse vydrÅ¾Ã­ mÃ¡lokdo. To uÅ¾ je lepÅ¡Ã­ rozloÅ¾it trÃ©nink na nÄ›kolik ÃºsekÅ¯, napÅ™. hodina rÃ¡no, hodina po obÄ›dÄ› a hodina veÄer. NemÄ›j pocit Å¾e nÄ›co zanedbÃ¡vÃ¡Å¡ kdyÅ¾ netrÃ©nujeÅ¡ 3 hodiny dennÄ›, to nedÄ›lÃ¡ nikdo&nbsp;:^)
 </p>
 
-<h3>Jak èasto?</h3>
+<h3>Jak Äasto?</h3>
 <p>
 {obrazek soubor="trenink-navode.png" popisek="Dny"}
-Nejlep¹í je trénovat ka¾dı den. Kdy¾ se jednou za tıden bude¹ hodinu trápit s míèky, daleko se nedostane¹. Naopak ka¾dodenní ètvrthodinka ¾onglování je pøíjemnou relaxací. Zároveò mù¾e¹ sledovat jak se zlep¹uje¹ a postupnì zvládá¹ tì¾¹í a tì¾¹í triky. Zkus sepsat v¹echny triky které umí¹ do tabulky a zmìøit jak dlouho kterı vydr¾í¹ ¾onglovat. Po mìsíci mìøení opakuj a uvidí¹ jak postupuje¹ kupøedu.
+NejlepÅ¡Ã­ je trÃ©novat kaÅ¾dÃ½ den. KdyÅ¾ se jednou za tÃ½den budeÅ¡ hodinu trÃ¡pit s mÃ­Äky, daleko se nedostaneÅ¡. Naopak kaÅ¾dodennÃ­ Ätvrthodinka Å¾onglovÃ¡nÃ­ je pÅ™Ã­jemnou relaxacÃ­. ZÃ¡roveÅˆ mÅ¯Å¾eÅ¡ sledovat jak se zlepÅ¡ujeÅ¡ a postupnÄ› zvlÃ¡dÃ¡Å¡ tÄ›Å¾Å¡Ã­ a tÄ›Å¾Å¡Ã­ triky. Zkus sepsat vÅ¡echny triky kterÃ© umÃ­Å¡ do tabulky a zmÄ›Å™it jak dlouho kterÃ½ vydrÅ¾Ã­Å¡ Å¾onglovat. Po mÄ›sÃ­ci mÄ›Å™enÃ­ opakuj a uvidÃ­Å¡ jak postupujeÅ¡ kupÅ™edu.
 </p>
 
 <h3>Kde?</h3>
 <p>
-{obrazek soubor="trenink-navodf.png" popisek="Místo"}
-Sna¾ se trénovat v rùznou dobu a na rùznıch místech. Získá¹ tak jistotu v odli¹nıch podmínkách a nevyvede tì z míry tøeba protisvìtlo, jiné rozestavìní nábytku nebo okolní ruch. Obèas vezmi do ruky místo svıch oblíbenıch míèkù tøeba <a href="/micky/3/jablko.html" title="®onglování s jablky.">jablka</a> nebo pomeranèe. A¾ se vrátí¹ zpátky k míèkùm tak zjistí¹, ¾e je to s nimi daleko snaz¹í.
+{obrazek soubor="trenink-navodf.png" popisek="MÃ­sto"}
+SnaÅ¾ se trÃ©novat v rÅ¯znou dobu a na rÅ¯znÃ½ch mÃ­stech. ZÃ­skÃ¡Å¡ tak jistotu v odliÅ¡nÃ½ch podmÃ­nkÃ¡ch a nevyvede tÄ› z mÃ­ry tÅ™eba protisvÄ›tlo, jinÃ© rozestavÄ›nÃ­ nÃ¡bytku nebo okolnÃ­ ruch. ObÄas vezmi do ruky mÃ­sto svÃ½ch oblÃ­benÃ½ch mÃ­ÄkÅ¯ tÅ™eba <a href="/micky/3/jablko.html" title="Å½onglovÃ¡nÃ­ s jablky.">jablka</a> nebo pomeranÄe. AÅ¾ se vrÃ¡tÃ­Å¡ zpÃ¡tky k mÃ­ÄkÅ¯m tak zjistÃ­Å¡, Å¾e je to s nimi daleko snazÅ¡Ã­.
 </p>
 
-<h3>Pravá i levá ruka</h3>
+<h3>PravÃ¡ i levÃ¡ ruka</h3>
 <p>
 {obrazek soubor="trenink-navodg.png" popisek="Ruce"}
-Kdy¾ se chce¹ nauèit novı trik zaèni svojí ¹ikovnìj¹í rukou. Kdy¾ jsi pravák a chce¹ zvládnout <a href="/micky/2/2v1.html" title="Trik se dvìma míèky.">2 v 1</a> zaène¹ nejdøív v pravé ruce. A a¾ poté co se to nauèí¹ zkusí¹ to i v levé. Pùjde ti to líp ne¾ zaèínat rovnou pravou i levou. Je dùle¾ité trénovat obì ruce tak aby zvládaly stejné vìci, vìt¹inou to znamená trénovat víc s ne¹ikovnou rukou.
+KdyÅ¾ se chceÅ¡ nauÄit novÃ½ trik zaÄni svojÃ­ Å¡ikovnÄ›jÅ¡Ã­ rukou. KdyÅ¾ jsi pravÃ¡k a chceÅ¡ zvlÃ¡dnout <a href="/micky/2/2v1.html" title="Trik se dvÄ›ma mÃ­Äky.">2 v 1</a> zaÄneÅ¡ nejdÅ™Ã­v v pravÃ© ruce. A aÅ¾ potÃ© co se to nauÄÃ­Å¡ zkusÃ­Å¡ to i v levÃ©. PÅ¯jde ti to lÃ­p neÅ¾ zaÄÃ­nat rovnou pravou i levou. Je dÅ¯leÅ¾itÃ© trÃ©novat obÄ› ruce tak aby zvlÃ¡daly stejnÃ© vÄ›ci, vÄ›tÅ¡inou to znamenÃ¡ trÃ©novat vÃ­c s neÅ¡ikovnou rukou.
 </p>
 
 <h3>Krize</h3>
 <p>
-{obrazek soubor="trenink-navodh.png" popisek="Nìco jiného"}
-Obèas mù¾e pøijít krize, kdy se ti nedaøí zvládnout novı trik. Dej si pauzu a trénuj nìco jiného, za dva dny se ti urèitì povede líp. 
+{obrazek soubor="trenink-navodh.png" popisek="NÄ›co jinÃ©ho"}
+ObÄas mÅ¯Å¾e pÅ™ijÃ­t krize, kdy se ti nedaÅ™Ã­ zvlÃ¡dnout novÃ½ trik. Dej si pauzu a trÃ©nuj nÄ›co jinÃ©ho, za dva dny se ti urÄitÄ› povede lÃ­p. 
 </p>
 
-<a href="#nahore" title="Pøesun na zaèátek stránky" class="nahoru">nahoru&nbsp;^^</a>
+<a href="#nahore" title="PÅ™esun na zaÄÃ¡tek strÃ¡nky" class="nahoru">nahoru&nbsp;^^</a>
 

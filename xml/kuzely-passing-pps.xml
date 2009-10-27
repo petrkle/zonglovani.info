@@ -5,27 +5,27 @@
 	     <nazev>PPS - pass pass self</nazev>
 		 <pocet>6</pocet>
 	     <siteswaps>-</siteswaps>
-		 <obtiznost>tì¾¹í</obtiznost>
+		 <obtiznost>tÄ›Å¾Å¡Ã­</obtiznost>
 		 <oblast>kuzely-passing</oblast>
 	</about>
 
 	<krok>
-		<popisek>Trik pro dva ¾ongléry a ¹est ku¾elù.</popisek>
+		<popisek>Trik pro dva Å¾onglÃ©ry a Å¡est kuÅ¾elÅ¯.</popisek>
   </krok>
 
     <krok>
 			<obrazek>kuzely-passing-ppsa</obrazek>
-			<popisek>Zaèni se dvìma ku¾ely v pravé ruce. První hod z pravé ruky je pass.</popisek>
+			<popisek>ZaÄni se dvÄ›ma kuÅ¾ely v pravÃ© ruce. PrvnÃ­ hod z pravÃ© ruky je pass.</popisek>
     </krok>
 
     <krok>
 			<obrazek>kuzely-passing-ppsb</obrazek>
-			<popisek>Druhı hod z levé ruky je opìt pass.</popisek>
+			<popisek>DruhÃ½ hod z levÃ© ruky je opÄ›t pass.</popisek>
     </krok>
 
     <krok>
 			<obrazek>kuzely-passing-ppsc</obrazek>
-			<popisek>Tøetí hod hází¹ z pravé ruky sám sobì - self.</popisek>
+			<popisek>TÅ™etÃ­ hod hÃ¡zÃ­Å¡ z pravÃ© ruky sÃ¡m sobÄ› - self.</popisek>
     </krok>
 
 

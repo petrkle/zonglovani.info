@@ -2,7 +2,9 @@
 require('init.php');
 require('func.php');
 
-define('MAGPIE_OUTPUT_ENCODING','');
+define('MAGPIE_INPUT_ENCODING','UTF-8');
+define('MAGPIE_OUTPUT_ENCODING','UTF-8');
+define('MAGPIE_DETECT_ENCODING',false);
 require('lib/rss_fetch.inc');
 
 
@@ -24,11 +26,11 @@ foreach($kanaly as $kanal){
 
 usort($udalosti, 'sort_by_rss_date');
 
-foreach($udalosti as $klic=>$udalost){
-	$udalosti[$klic]['description_iso']=iconv('utf8','iso-8859-2',$udalosti[$klic]['description']);
-	$udalosti[$klic]['title_iso']=iconv('utf8','iso-8859-2',$udalosti[$klic]['title']);
-	$udalosti[$klic]['creator_iso']=iconv('utf8','iso-8859-2',$udalosti[$klic]['dc']['creator']);
-}
+#foreach($udalosti as $klic=>$udalost){
+#	$udalosti[$klic]['description_iso']=iconv('utf8','iso-8859-2',$udalosti[$klic]['description']);
+#	$udalosti[$klic]['title_iso']=iconv('utf8','iso-8859-2',$udalosti[$klic]['title']);
+#	$udalosti[$klic]['creator_iso']=iconv('utf8','iso-8859-2',$udalosti[$klic]['dc']['creator']);
+#}
 
 
 for($foo=0;$foo<10;$foo++){

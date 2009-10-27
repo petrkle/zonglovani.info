@@ -1,10 +1,10 @@
 <p>
-Trénuj <a href="/micky/3/3v1.html" title="tì¾ko proveditelnı trik se tøemi míèky.">3 v 1</a> pravou i levou rukou.
+TrÃ©nuj <a href="/micky/3/3v1.html" title="tÄ›Å¾ko proveditelnÃ½ trik se tÅ™emi mÃ­Äky.">3 v 1</a> pravou i levou rukou.
 </p>
 
-<h3>Fontána</h3>
-<p>Základní trik se ¹esti míèky.</p>
+<h3>FontÃ¡na</h3>
+<p>ZÃ¡kladnÃ­ trik se Å¡esti mÃ­Äky.</p>
 <p>
-{obrazek soubor="micky-6-fontanaa.png" popisek="Fontána se ¹esti míèky."}
-Házej pravou i levou rukou stejnì vysoko.
+{obrazek soubor="micky-6-fontanaa.png" popisek="FontÃ¡na se Å¡esti mÃ­Äky."}
+HÃ¡zej pravou i levou rukou stejnÄ› vysoko.
 </p>

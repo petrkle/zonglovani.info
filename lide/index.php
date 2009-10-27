@@ -2,7 +2,7 @@
 require('../init.php');
 require('../func.php');
 
-$smarty->assign("titulek","U¾ivatelské úèty");
+$smarty->assign("titulek","UÅ¾ivatelskÃ© ÃºÄty");
 $smarty->assign("uzivatele",get_loginy());
 $smarty->assign("rsslink",'http://'.$_SERVER["SERVER_NAME"].LIDE_URL.'uzivatele.rss');
 

@@ -65,12 +65,12 @@ require_once("$include_dir/categoryfuncs.php");
 include "$settings_dir/conf.php";
 
 if(isset($query) and strlen($query)>0){
-	$titulek="$query - prohledávání ¾onglérova slabikáøe";
+	$titulek="$query - prohledÃ¡vÃ¡nÃ­ Å¾onglÃ©rova slabikÃ¡Å™e";
 }else{
-	$titulek="®onglérùv slabikáø - vyhledávání";
+	$titulek="Å½onglÃ©rÅ¯v slabikÃ¡Å™ - vyhledÃ¡vÃ¡nÃ­";
 }
 $smarty->assign("titulek",$titulek);
-$smarty->assign("nadpis","Vyhledávání");
+$smarty->assign("nadpis","VyhledÃ¡vÃ¡nÃ­");
 $smarty->assign("notitle",true);
 $smarty->assign("robots",'noindex,nofollow');
 $smarty->display('hlavicka.tpl');

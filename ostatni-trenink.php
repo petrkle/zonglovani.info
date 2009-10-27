@@ -2,7 +2,7 @@
 
 require('init.php');
 
-$smarty->assign("titulek","Trénink");
+$smarty->assign("titulek","TrÃ©nink");
 
 $smarty->display('hlavicka.tpl');
 $smarty->display('trenink.tpl');

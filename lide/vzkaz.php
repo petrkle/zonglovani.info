@@ -2,7 +2,7 @@
 require('../init.php');
 require('../func.php');
 
-$smarty->assign("titulek","Vzkaz pro u¾ivatele");
+$smarty->assign("titulek","Vzkaz pro uÅ¾ivatele");
 $chyby=array();
 
 
@@ -33,13 +33,13 @@ if(isset($_POST["komu"])){
 		}
 
 		if(!is_zs_account($komu)){
-			array_push($chyby,"Úèet nebyl nalezen.");
+			array_push($chyby,"ÃšÄet nebyl nalezen.");
 		}else{
 			$komu=get_user_props($komu);
 		}
 		
 		if($odpoved!=$_SESSION["antispam_odpoved"]){
-			array_push($chyby,"©patná odpovìï na kontrolní otázku.");
+			array_push($chyby,"Å patnÃ¡ odpovÄ›Ä na kontrolnÃ­ otÃ¡zku.");
 			$antispam=get_antispam();
 			$_SESSION["antispam_otazka"]=$antispam[0];
 			$_SESSION["antispam_odpoved"]=$antispam[1];
@@ -47,35 +47,35 @@ if(isset($_POST["komu"])){
 		}
 
 		if(strlen($vzkaz)>1024){
-			array_push($chyby,"Vzkaz je pøíli¹ dlouhı.");
+			array_push($chyby,"Vzkaz je pÅ™Ã­liÅ¡ dlouhÃ½.");
 		}
 
 		if(strlen($vzkaz)<3){
-			array_push($chyby,"Vzkaz je pøíli¹ krátkı.");
+			array_push($chyby,"Vzkaz je pÅ™Ã­liÅ¡ krÃ¡tkÃ½.");
 		}
 		
 		if(!eregi("^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$",$email)){
-			array_push($chyby,"Neplatnı e-mail.");
+			array_push($chyby,"NeplatnÃ½ e-mail.");
 		}
 
 		if(count($chyby)==0){
 
 		if(isset($_SESSION["uzivatel"]["email"])){
-			#pøihlá¹ení u¾ivatelé mohou hned odeslat vzkaz
+			#pÅ™ihlÃ¡Å¡enÃ­ uÅ¾ivatelÃ© mohou hned odeslat vzkaz
 			
 		$to = $komu["email"];
-		$subject = "=?iso-8859-2?Q?".preg_replace("/=\r\n/","",quoted_printable_encode("Vzkaz z ¾onglérova slabikáøe"))."?=";
+		$subject = "=?utf-8?Q?".preg_replace("/=\r\n/","",quoted_printable_encode("Vzkaz z Å¾onglÃ©rova slabikÃ¡Å™e"))."?=";
 
 		$headers = 'Return-Path: '.$email . "\r\n" .
     'From: '.$email . "\r\n" .
     'Reply-To: '.$email . "\r\n" .
-    'Content-Type: text/plain; charset=iso-8859-2' . "\r\n" .
+    'Content-Type: text/plain; charset=utf-8' . "\r\n" .
     'Content-Transfer-Encoding: quoted-printable' . "\r\n" .
     'Precedence: bulk';
 $message = $vzkaz.'
 
 -- 
-Tento vzkaz byl zaslán pomocí ¾onglérova slabikáøe.
+Tento vzkaz byl zaslÃ¡n pomocÃ­ Å¾onglÃ©rova slabikÃ¡Å™e.
 http://zonglovani.info
 ';
 		}else{
@@ -83,24 +83,24 @@ http://zonglovani.info
 
 		$messageid=abs(crc32("$email$komu".time()));
 
-		$subject = "=?iso-8859-2?Q?".preg_replace("/=\r\n/","",quoted_printable_encode("Vzkaz z ¾onglérova slabikáøe"))."?=";
+		$subject = "=?utf-8?Q?".preg_replace("/=\r\n/","",quoted_printable_encode("Vzkaz z Å¾onglÃ©rova slabikÃ¡Å™e"))."?=";
 
 		$headers = 'Return-Path: robot@zonglovani.info' . "\r\n" .
     'From: robot@zonglovani.info' . "\r\n" .
     'Reply-To: robot@zonglovani.info' . "\r\n" .
-    'Content-Type: text/plain; charset=iso-8859-2' . "\r\n" .
+    'Content-Type: text/plain; charset=utf-8' . "\r\n" .
     'Content-Transfer-Encoding: quoted-printable' . "\r\n" .
     'Precedence: bulk';
 $message = 'Ahoj,
 
-pro odeslání vzkazu pro "'.$komu["login"].'" klikni na tento odkaz:
+pro odeslÃ¡nÃ­ vzkazu pro "'.$komu["login"].'" klikni na tento odkaz:
 
 http://'.$_SERVER["SERVER_NAME"].LIDE_URL.'sendmail.php?m='.$messageid.'
 
-Odkaz platí do: '.date("j. n. Y G.i",(time()+TIMEOUT_VZKAZ)).'
+Odkaz platÃ­ do: '.date("j. n. Y G.i",(time()+TIMEOUT_VZKAZ)).'
 
 -- 
-Petr Kleteèka
+Petr KleteÄka
 
 admin@zonglovani.info
 http://zonglovani.info/kontakt.html

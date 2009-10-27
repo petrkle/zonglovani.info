@@ -1,16 +1,16 @@
 <p>
-Doufám ¾e nebudete mít s pou¾íváním tìchto stránek ¾ádné potí¾e. Dodr¾uji následující pravidla:
+DoufÃ¡m Å¾e nebudete mÃ­t s pouÅ¾Ã­vÃ¡nÃ­m tÄ›chto strÃ¡nek Å¾Ã¡dnÃ© potÃ­Å¾e. DodrÅ¾uji nÃ¡sledujÃ­cÃ­ pravidla:
 <ul>
-<li>Odkazy jsou podtr¾ené.</li>
-<li>®ádné otevírání novıch oken. Vıjimkou je <a href="/kalendar" title="Kalendáø ¾onglérskıch akcí">kalendáø</a>, kterı pomocí javascriptu otevírá nová okna.</li>
-<li>Jednoduchá a srozumitelná navigace.</li>
+<li>Odkazy jsou podtrÅ¾enÃ©.</li>
+<li>Å½Ã¡dnÃ© otevÃ­rÃ¡nÃ­ novÃ½ch oken. VÃ½jimkou je <a href="/kalendar" title="KalendÃ¡Å™ Å¾onglÃ©rskÃ½ch akcÃ­">kalendÃ¡Å™</a>, kterÃ½ pomocÃ­ javascriptu otevÃ­rÃ¡ novÃ¡ okna.</li>
+<li>JednoduchÃ¡ a srozumitelnÃ¡ navigace.</li>
 </ul>
 </p>
 
 <p>
-Sna¾ím se dodr¾ovat normu <a href="http://www.w3.org/TR/xhtml1/" class="external" onclick="pageTracker._trackPageview('/goto/w3.org');">X-HTML 1.0 Strict</a>. Vzhled je urèen pomocí kaskádovıch stylù (CSS).
+SnaÅ¾Ã­m se dodrÅ¾ovat normu <a href="http://www.w3.org/TR/xhtml1/" class="external" onclick="pageTracker._trackPageview('/goto/w3.org');">X-HTML 1.0 Strict</a>. Vzhled je urÄen pomocÃ­ kaskÃ¡dovÃ½ch stylÅ¯ (CSS).
 </p>
 <p>
-®onglérùv slabikáø obsahuje <a href="/video/" title="Videa v ¾onglérovì slabikáøi.">odkazy na videa</a>. K jejich shlédnutí budete potøebovat pøehrávaè souborù flv, avi a wmv.
+Å½onglÃ©rÅ¯v slabikÃ¡Å™ obsahuje <a href="/video/" title="Videa v Å¾onglÃ©rovÄ› slabikÃ¡Å™i.">odkazy na videa</a>. K jejich shlÃ©dnutÃ­ budete potÅ™ebovat pÅ™ehrÃ¡vaÄ souborÅ¯ flv, avi a wmv.
 </p>
 

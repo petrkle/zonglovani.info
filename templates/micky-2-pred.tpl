@@ -1,5 +1,5 @@
-<h2>Èím zaèít?</h2>
+<h2>ÄŒÃ­m zaÄÃ­t?</h2>
 
-<p>Nejlehèí trik se dvìma míèky je <a href="/micky/2/2v1.html" title="Nejlehèí trik se dvìma míèky.">2 v 1</a> (dva míèky v jedné ruce).</p>
+<p>NejlehÄÃ­ trik se dvÄ›ma mÃ­Äky je <a href="/micky/2/2v1.html" title="NejlehÄÃ­ trik se dvÄ›ma mÃ­Äky.">2 v 1</a> (dva mÃ­Äky v jednÃ© ruce).</p>
 
-<p>2 v 1 by nemìla bıt úplnì první vìc, kterou se s míèky nauèí¹. Je lep¹í zaèít s <a href="/micky/jak-zacit.html#jeden" title="Úplnı základ.">jedním</a> a <a href="/micky/jak-zacit.html#dva" title="Úplnı základ.">dvìma</a> míèky a¾ se dopracuje¹ ke <a href="/micky/3/kaskada.html" title="Nejlehèí trik s míèky.">kaskádì</a> s tøemi míèky. Potom je èas vrátit se ke dvìma míèkùm. Zvládne¹ je snadnìji a bude¹ moct rovnou pøeskoèit ke <a href="/micky/4/" title="Triky se ètyømi míèky.">ètyøem</a> míèkùm.</p>
+<p>2 v 1 by nemÄ›la bÃ½t ÃºplnÄ› prvnÃ­ vÄ›c, kterou se s mÃ­Äky nauÄÃ­Å¡. Je lepÅ¡Ã­ zaÄÃ­t s <a href="/micky/jak-zacit.html#jeden" title="ÃšplnÃ½ zÃ¡klad.">jednÃ­m</a> a <a href="/micky/jak-zacit.html#dva" title="ÃšplnÃ½ zÃ¡klad.">dvÄ›ma</a> mÃ­Äky aÅ¾ se dopracujeÅ¡ ke <a href="/micky/3/kaskada.html" title="NejlehÄÃ­ trik s mÃ­Äky.">kaskÃ¡dÄ›</a> s tÅ™emi mÃ­Äky. Potom je Äas vrÃ¡tit se ke dvÄ›ma mÃ­ÄkÅ¯m. ZvlÃ¡dneÅ¡ je snadnÄ›ji a budeÅ¡ moct rovnou pÅ™eskoÄit ke <a href="/micky/4/" title="Triky se ÄtyÅ™mi mÃ­Äky.">ÄtyÅ™em</a> mÃ­ÄkÅ¯m.</p>

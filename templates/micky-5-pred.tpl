@@ -1,4 +1,4 @@
-<h2>Èím zaèít?</h2>
+<h2>ÄŒÃ­m zaÄÃ­t?</h2>
 <p>
-Základní trik s pìti míèky je <a href="/micky/5/kaskada.html" title="Základ pro 5 míèkù.">kaskáda</a>. Sepsal jsem <a href="/micky/rady5.html" title="Tipy pro 5 míèkù.">nìkolik rad</a> pro ¾onglování s pìti míèky. Snad ti trochu pomohou. ®ádná zázraèná rada v¹ak není. Nauèit se ¾onglovat s pìti míèky trvá dlouho.
+ZÃ¡kladnÃ­ trik s pÄ›ti mÃ­Äky je <a href="/micky/5/kaskada.html" title="ZÃ¡klad pro 5 mÃ­ÄkÅ¯.">kaskÃ¡da</a>. Sepsal jsem <a href="/micky/rady5.html" title="Tipy pro 5 mÃ­ÄkÅ¯.">nÄ›kolik rad</a> pro Å¾onglovÃ¡nÃ­ s pÄ›ti mÃ­Äky. Snad ti trochu pomohou. Å½Ã¡dnÃ¡ zÃ¡zraÄnÃ¡ rada vÅ¡ak nenÃ­. NauÄit se Å¾onglovat s pÄ›ti mÃ­Äky trvÃ¡ dlouho.
 </p>

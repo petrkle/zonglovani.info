@@ -1,19 +1,19 @@
 <p>
-Nikomu se nechce vìènì shıbat pro spadlé míèky. A skuteènì se tomu lze vyhnout.
+Nikomu se nechce vÄ›ÄnÄ› shÃ½bat pro spadlÃ© mÃ­Äky. A skuteÄnÄ› se tomu lze vyhnout.
 </p>
 
-<h3>Zachycení nohou</h3>
+<h3>ZachycenÃ­ nohou</h3>
 <p>
-Úplnì nejlep¹í je nenechat míèky spadnout na zem. Kdy¾ u¾ na nìj nedosáhne¹ rukou zbıvá zkusit to nohou. Míèek mù¾e¹ buï zachytit na nártu, nebo kopnout zpátky. Kopnutí je snaz¹í, staèí míèek trefit a udat mu správnı smìr. Zachytit míèek na nárt není jen tak, ale je to velmi efektní. Musí¹ zvednout prsty na noze a vytvoøit tak prohlubeò do které míèek zapadne.
+ÃšplnÄ› nejlepÅ¡Ã­ je nenechat mÃ­Äky spadnout na zem. KdyÅ¾ uÅ¾ na nÄ›j nedosÃ¡hneÅ¡ rukou zbÃ½vÃ¡ zkusit to nohou. MÃ­Äek mÅ¯Å¾eÅ¡ buÄ zachytit na nÃ¡rtu, nebo kopnout zpÃ¡tky. KopnutÃ­ je snazÅ¡Ã­, staÄÃ­ mÃ­Äek trefit a udat mu sprÃ¡vnÃ½ smÄ›r. Zachytit mÃ­Äek na nÃ¡rt nenÃ­ jen tak, ale je to velmi efektnÃ­. MusÃ­Å¡ zvednout prsty na noze a vytvoÅ™it tak prohlubeÅˆ do kterÃ© mÃ­Äek zapadne.
 </p>
 
-<h3>Sebrání nohou</h3>
+<h3>SebrÃ¡nÃ­ nohou</h3>
 <p>
-Tento trik se nejlépe provádí bez bot. Míèek si jednou nohou pøesune¹ na nárt druhé nohy. Je potøeba zvednout prsty na noze a vytvoøit tak prohlubeò ve které míèek bude dr¾et. Pak u¾ staèí jen vykopnout nohou prudce nahoru. Míèek vyletí a mù¾e¹ pokraèovat v ¾onglování.
+Tento trik se nejlÃ©pe provÃ¡dÃ­ bez bot. MÃ­Äek si jednou nohou pÅ™esuneÅ¡ na nÃ¡rt druhÃ© nohy. Je potÅ™eba zvednout prsty na noze a vytvoÅ™it tak prohlubeÅˆ ve kterÃ© mÃ­Äek bude drÅ¾et. Pak uÅ¾ staÄÃ­ jen vykopnout nohou prudce nahoru. MÃ­Äek vyletÃ­ a mÅ¯Å¾eÅ¡ pokraÄovat v Å¾onglovÃ¡nÃ­.
 </p>
 
-<h3>Vykopnutí zadem</h3>
+<h3>VykopnutÃ­ zadem</h3>
 <p>
-Míèek mù¾e¹ také sevøít mezi patami, nadskoèit a vykopnout prudce dozadu. Míèek vyletí za tvımi zády obloukem nahoru a pøed tebe. Toto je obtí¾nìj¹í zpùsob. Míèek má¹ za zády a je nutné perfektní naèasování uvolnìní míèku.
+MÃ­Äek mÅ¯Å¾eÅ¡ takÃ© sevÅ™Ã­t mezi patami, nadskoÄit a vykopnout prudce dozadu. MÃ­Äek vyletÃ­ za tvÃ½mi zÃ¡dy obloukem nahoru a pÅ™ed tebe. Toto je obtÃ­Å¾nÄ›jÅ¡Ã­ zpÅ¯sob. MÃ­Äek mÃ¡Å¡ za zÃ¡dy a je nutnÃ© perfektnÃ­ naÄasovÃ¡nÃ­ uvolnÄ›nÃ­ mÃ­Äku.
 </p>
 

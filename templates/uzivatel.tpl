@@ -1,14 +1,14 @@
 {if $uzivatel_props}
 
 {if $uzivatel_props.login==$smarty.session.uzivatel.login}
-<h3>Moje domovská stránka</h3>
+<h3>Moje domovskÃ¡ strÃ¡nka</h3>
 
 <p>
-Nachází¹ se na své veøejné domovské stránce, která slou¾í pro tvojí prezentaci. Tento text je zobrazen pouze tobì.
+NachÃ¡zÃ­Å¡ se na svÃ© veÅ™ejnÃ© domovskÃ© strÃ¡nce, kterÃ¡ slouÅ¾Ã­ pro tvojÃ­ prezentaci. Tento text je zobrazen pouze tobÄ›.
 </p>
 
 <p>
-<a href="{$smarty.const.LIDE_URL}nastaveni.php" title="Nastavení tvého úètu.">Nastavení úètu</a>
+<a href="{$smarty.const.LIDE_URL}nastaveni.php" title="NastavenÃ­ tvÃ©ho ÃºÄtu.">NastavenÃ­ ÃºÄtu</a>
 </p>
 <hr />
 {/if}
@@ -19,9 +19,9 @@ Nachází¹ se na své veøejné domovské stránce, která slou¾í pro tvojí prezentaci. 
 </pre>
 {/if}
 <ul>
-<li>Jméno: {$uzivatel_props.jmeno|escape}</li>
+<li>JmÃ©no: {$uzivatel_props.jmeno|escape}</li>
 <li>Login: {$uzivatel_props.login|escape}</li>
-<li>Úèet vytvoøen: {$uzivatel_props.registrace_hr|escape}</li>
+<li>ÃšÄet vytvoÅ™en: {$uzivatel_props.registrace_hr|escape}</li>
 {if $uzivatel_props.soukromi=="mail"}
 <li>E-mail: {$uzivatel_props.email|escape|mailobfuscate}</li>
 {else}
@@ -35,5 +35,5 @@ Nachází¹ se na své veøejné domovské stránce, která slou¾í pro tvojí prezentaci. 
 </ul>
 {/if}
 <p>
-<a href="{$smarty.const.LIDE_URL}" title="Seznam u¾ivatelù ¾onglérova slabikáøe.">Seznam v¹ech u¾ivatelù</a>.
+<a href="{$smarty.const.LIDE_URL}" title="Seznam uÅ¾ivatelÅ¯ Å¾onglÃ©rova slabikÃ¡Å™e.">Seznam vÅ¡ech uÅ¾ivatelÅ¯</a>.
 </p>

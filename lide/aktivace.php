@@ -11,7 +11,7 @@ if(isset($_GET["mail"])){
 	$smarty->assign("chyba","jo");
 }
 
-$smarty->assign("titulek","Aktivace úètu");
+$smarty->assign("titulek","Aktivace ÃºÄtu");
 $smarty->display('hlavicka.tpl');
 $smarty->display('aktivace.tpl');
 $smarty->display('paticka.tpl');

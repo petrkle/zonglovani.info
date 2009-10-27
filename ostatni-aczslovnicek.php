@@ -1,7 +1,7 @@
 <?php
 require('init.php');
 
-$smarty->assign("titulek","Anglicko-èeský ¾onglérský slovníèek");
+$smarty->assign("titulek","Anglicko-ÄeskÃ½ Å¾onglÃ©rskÃ½ slovnÃ­Äek");
 
 $smarty->display('hlavicka.tpl');
 $smarty->display('ostatni-aczslovnicek.tpl');

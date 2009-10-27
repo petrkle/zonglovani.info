@@ -10,11 +10,11 @@ $zpravy=get_diskuse_zpravy();
 $pagerOptions = array(
     'mode'     => 'Sliding',
     'delta'    => 2,
-		'firstLinkTitle' => 'První stránka',
+		'firstLinkTitle' => 'PrvnÃ­ strÃ¡nka',
     'perPage'  => 10,
-    'altPrev'  => 'Pøedchozí stránka',
-    'altNext'  => 'Dal¹í stránka',
-    'altPage'  => 'Stránka',
+    'altPrev'  => 'PÅ™edchozÃ­ strÃ¡nka',
+    'altNext'  => 'DalÅ¡Ã­ strÃ¡nka',
+    'altPage'  => 'StrÃ¡nka',
     'separator'  => '~',
     'spacesBeforeSeparator'  => 1,
     'spacesAfterSeparator'  => 1,
@@ -32,7 +32,7 @@ if(!isset($_GET["pageID"]) and !isset($_GET["rss"])){
 	exit();
 }
 
-$smarty->assign("titulek","Diskuse o ¾onglování");
+$smarty->assign("titulek","Diskuse o Å¾onglovÃ¡nÃ­");
 $smarty->assign("zpravy",$zpravy);
 $smarty->assign('items', $data);
 $smarty->assign('pager_links', $pager->links);

@@ -2,7 +2,7 @@
 
 require('init.php');
 
-$smarty->assign("titulek","Jak odkazovat na ¾onglérùv slabikáø");
+$smarty->assign("titulek","Jak odkazovat na Å¾onglÃ©rÅ¯v slabikÃ¡Å™");
 
 $smarty->display('hlavicka.tpl');
 $smarty->display('ostatni-jak-odkazovat.tpl');

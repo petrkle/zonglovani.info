@@ -1,44 +1,44 @@
 <p>
-Míèky jsou nejjednodu¹¹í náèiní. Snadno se há¾ou i chytají.
+MÃ­Äky jsou nejjednoduÅ¡Å¡Ã­ nÃ¡ÄinÃ­. Snadno se hÃ¡Å¾ou i chytajÃ­.
 </p>
 
 <a name="jeden" id="jeden"></a>
-<h2>Jeden míèek</h2>
+<h2>Jeden mÃ­Äek</h2>
 <p>
-{obrazek soubor="starta.png" popisek="Hození míèku z pravé ruky do levé."}
-Zaèneme tím nejlehèím, jedním míèkem. Ze zaèátku si s míèkem jenom pohrávej. Pøehazuj ho oblouèkem z pravé ruky do levé. Vrchol oblouèku by mìl bıt asi ve vı¹i nosu.
+{obrazek soubor="starta.png" popisek="HozenÃ­ mÃ­Äku z pravÃ© ruky do levÃ©."}
+ZaÄneme tÃ­m nejlehÄÃ­m, jednÃ­m mÃ­Äkem. Ze zaÄÃ¡tku si s mÃ­Äkem jenom pohrÃ¡vej. PÅ™ehazuj ho oblouÄkem z pravÃ© ruky do levÃ©. Vrchol oblouÄku by mÄ›l bÃ½t asi ve vÃ½Å¡i nosu.
 </p>
 
 <p>
-{obrazek soubor="startb.png" popisek="A zpátky z levé do pravé."}
-A pak zpátky z levé do pravé. Pøi chytání nepohybuj rukou proti míèku. Poèkej si a¾ ti pøiletí do dlanì. Míèky se pøi ¾onglování neodrá¾ejí, ale chytají a há¾ou.
+{obrazek soubor="startb.png" popisek="A zpÃ¡tky z levÃ© do pravÃ©."}
+A pak zpÃ¡tky z levÃ© do pravÃ©. PÅ™i chytÃ¡nÃ­ nepohybuj rukou proti mÃ­Äku. PoÄkej si aÅ¾ ti pÅ™iletÃ­ do dlanÄ›. MÃ­Äky se pÅ™i Å¾onglovÃ¡nÃ­ neodrÃ¡Å¾ejÃ­, ale chytajÃ­ a hÃ¡Å¾ou.
 </p>
 
 <p>
-Vyzkou¹ej i pohazování s míèkem v jedné ruce. Zkus zachytit míèek odra¾enı od zdi. Procvièuj pravou i levou ruku. Dùle¾ité je se s míèkem s¾ít a dostat ho do ruky. Spousta lidí si myslí, ¾e házet si s jedním míèkem pøece umí a sna¾í se zaèít hned alespoò se dvìma nebo tøemi míèky. To ale vìt¹inou není pravda, vìnuj proto dostatek èasu hraní si s jedním míèkem. Získá¹ solidní základ a dal¹í trénink se dvìma a pozdìji i ¾onglování se tøemi míèky ti pùjde snadnìji.
+VyzkouÅ¡ej i pohazovÃ¡nÃ­ s mÃ­Äkem v jednÃ© ruce. Zkus zachytit mÃ­Äek odraÅ¾enÃ½ od zdi. ProcviÄuj pravou i levou ruku. DÅ¯leÅ¾itÃ© je se s mÃ­Äkem sÅ¾Ã­t a dostat ho do ruky. Spousta lidÃ­ si myslÃ­, Å¾e hÃ¡zet si s jednÃ­m mÃ­Äkem pÅ™ece umÃ­ a snaÅ¾Ã­ se zaÄÃ­t hned alespoÅˆ se dvÄ›ma nebo tÅ™emi mÃ­Äky. To ale vÄ›tÅ¡inou nenÃ­ pravda, vÄ›nuj proto dostatek Äasu hranÃ­ si s jednÃ­m mÃ­Äkem. ZÃ­skÃ¡Å¡ solidnÃ­ zÃ¡klad a dalÅ¡Ã­ trÃ©nink se dvÄ›ma a pozdÄ›ji i Å¾onglovÃ¡nÃ­ se tÅ™emi mÃ­Äky ti pÅ¯jde snadnÄ›ji.
 </p>
 
 <a name="dva" id="dva"></a>
-<h2>Dva míèky</h2>
+<h2>Dva mÃ­Äky</h2>
 <p>
-Házet si se dvìma míèky na první pohled vypadá snadnì, ale míèky se ti budou srá¾et a padat. Nenech se odradit a zkou¹ej dál.
+HÃ¡zet si se dvÄ›ma mÃ­Äky na prvnÃ­ pohled vypadÃ¡ snadnÄ›, ale mÃ­Äky se ti budou srÃ¡Å¾et a padat. Nenech se odradit a zkouÅ¡ej dÃ¡l.
 </p>
 <p>
-{obrazek soubor="treninka.png" popisek="Hození prvního míèku z pravé ruky do levé."}
-Vyhoï první míèek oblouèkem nahoru. Vrchol oblouèku by mìl bıt asi ve vı¹i nosu.
-</p>
-
-<p>
-{obrazek soubor="treninkb.png" popisek="Hození druhého míèku z levé ruky do pravé."}
-Kdy¾ první míèek míjí tvùj nos je èas vyhodit druhı míèek. Pak zachytí¹ první míèek do levé ruky. Tou dobou druhı míèek míjí tvùj nos a ty u¾ jenom èeká¹ a¾ doletí do tvé pravé ruky, kterou ho zachytí¹. 
+{obrazek soubor="treninka.png" popisek="HozenÃ­ prvnÃ­ho mÃ­Äku z pravÃ© ruky do levÃ©."}
+VyhoÄ prvnÃ­ mÃ­Äek oblouÄkem nahoru. Vrchol oblouÄku by mÄ›l bÃ½t asi ve vÃ½Å¡i nosu.
 </p>
 
 <p>
-Trénuj nejprve podle obrázkù a pak s obrácenım poøadím rukou.
+{obrazek soubor="treninkb.png" popisek="HozenÃ­ druhÃ©ho mÃ­Äku z levÃ© ruky do pravÃ©."}
+KdyÅ¾ prvnÃ­ mÃ­Äek mÃ­jÃ­ tvÅ¯j nos je Äas vyhodit druhÃ½ mÃ­Äek. Pak zachytÃ­Å¡ prvnÃ­ mÃ­Äek do levÃ© ruky. Tou dobou druhÃ½ mÃ­Äek mÃ­jÃ­ tvÅ¯j nos a ty uÅ¾ jenom ÄekÃ¡Å¡ aÅ¾ doletÃ­ do tvÃ© pravÃ© ruky, kterou ho zachytÃ­Å¡. 
+</p>
+
+<p>
+TrÃ©nuj nejprve podle obrÃ¡zkÅ¯ a pak s obrÃ¡cenÃ½m poÅ™adÃ­m rukou.
 </p>
 
 
-<h2>Tøi míèky</h2>
+<h2>TÅ™i mÃ­Äky</h2>
 <p>
-Kdy¾ u¾ ti to se dvìma míèky jde, pøidej je¹tì tøetí pro úplnou <a href="/micky/3/kaskada.html" title="Kaskáda se tøemi míèky.">kaskádu</a>. Kaskáda je nejlehèí trik, vìt¹ina ¾onglérù se ho nauèí jako první.
+KdyÅ¾ uÅ¾ ti to se dvÄ›ma mÃ­Äky jde, pÅ™idej jeÅ¡tÄ› tÅ™etÃ­ pro Ãºplnou <a href="/micky/3/kaskada.html" title="KaskÃ¡da se tÅ™emi mÃ­Äky.">kaskÃ¡du</a>. KaskÃ¡da je nejlehÄÃ­ trik, vÄ›tÅ¡ina Å¾onglÃ©rÅ¯ se ho nauÄÃ­ jako prvnÃ­.
 </p>

@@ -1,18 +1,18 @@
 <p>
-Neustálé shıbání pro spadlé ku¾ely se stane minulostí.
+NeustÃ¡lÃ© shÃ½bÃ¡nÃ­ pro spadlÃ© kuÅ¾ely se stane minulostÃ­.
 </p>
 
 <p>
-{obrazek soubor="kuzely-kickupa.png" popisek="Ku¾el na nártu nohy."}
-Ku¾el si polo¾ ¹ikmo dr¾adlem pøes nárt pravé nohy.
+{obrazek soubor="kuzely-kickupa.png" popisek="KuÅ¾el na nÃ¡rtu nohy."}
+KuÅ¾el si poloÅ¾ Å¡ikmo drÅ¾adlem pÅ™es nÃ¡rt pravÃ© nohy.
 </p>
 
 
 <p>
-{obrazek soubor="kuzely-kickupb.png" popisek="Vykopnutí ku¾elu do vzduchu."}
-Vykopni nohou do strany. Ku¾el se opøe o holeò a nárt. Vyletí nahoru a mù¾e¹ pokraèovat v ¾onglování.
+{obrazek soubor="kuzely-kickupb.png" popisek="VykopnutÃ­ kuÅ¾elu do vzduchu."}
+Vykopni nohou do strany. KuÅ¾el se opÅ™e o holeÅˆ a nÃ¡rt. VyletÃ­ nahoru a mÅ¯Å¾eÅ¡ pokraÄovat v Å¾onglovÃ¡nÃ­.
 </p>
 
 <p>
-Obdobnı postup mù¾e¹ pou¾ít pro <a href="/micky/kick-up.html" title="Zvednutí míèku nohou.">zvednutí míèku</a>.
+ObdobnÃ½ postup mÅ¯Å¾eÅ¡ pouÅ¾Ã­t pro <a href="/micky/kick-up.html" title="ZvednutÃ­ mÃ­Äku nohou.">zvednutÃ­ mÃ­Äku</a>.
 </p>

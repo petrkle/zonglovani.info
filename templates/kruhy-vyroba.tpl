@@ -1,17 +1,17 @@
-<h3>Kruh z papíru</h3>
+<h3>Kruh z papÃ­ru</h3>
 
 <p>
-K vırobì bude¹ potøebovat kartonovou krabici, lepicí pásku a nù¾ky. Vyrobit jeden kruh trvá asi 15 minut.
+K vÃ½robÄ› budeÅ¡ potÅ™ebovat kartonovou krabici, lepicÃ­ pÃ¡sku a nÅ¯Å¾ky. Vyrobit jeden kruh trvÃ¡ asi 15 minut.
 </p>
 
 <p>
 {obrazek soubor="kruhy-vyrobaa.png" popisek=""}
-Krabici rozlo¾ a pøedkresli si obrys kruhu. Vnìj¹í prùmìr je 30 cm, vnitøní 25 cm.
+Krabici rozloÅ¾ a pÅ™edkresli si obrys kruhu. VnÄ›jÅ¡Ã­ prÅ¯mÄ›r je 30 cm, vnitÅ™nÃ­ 25 cm.
 </p>
 
 
 <p>
 {obrazek soubor="kruhy-vyrobab.png" popisek=""}
-Dva vystøi¾ené kruhy pøilo¾ k sobì a otoè je o 90°. Tak aby, drá¾ky v kartonu byly kolmo na sebe. Teï u¾ staèí jen celı kruh omotat lepící páskou.
+Dva vystÅ™iÅ¾enÃ© kruhy pÅ™iloÅ¾ k sobÄ› a otoÄ je o 90Â°. Tak aby, drÃ¡Å¾ky v kartonu byly kolmo na sebe. TeÄ uÅ¾ staÄÃ­ jen celÃ½ kruh omotat lepÃ­cÃ­ pÃ¡skou.
 </p>
 

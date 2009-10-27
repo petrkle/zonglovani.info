@@ -1,93 +1,93 @@
 <p>
-®onglovat mù¾e¹ se spoustou vìcí. A mnoha <a href="/druhy-zonglovani.html" title="Druhy ¾onglování.">rùznımi zpùsoby</a>.
+Å½onglovat mÅ¯Å¾eÅ¡ se spoustou vÄ›cÃ­. A mnoha <a href="/druhy-zonglovani.html" title="Druhy Å¾onglovÃ¡nÃ­.">rÅ¯znÃ½mi zpÅ¯soby</a>.
 </p>
 
-<h3><a href="/micky/" title="®onglování s míèky.">Míèky</a></h3>
+<h3><a href="/micky/" title="Å½onglovÃ¡nÃ­ s mÃ­Äky.">MÃ­Äky</a></h3>
 <p>
-<a href="/micky/" title="®onglování s míèky.">{obrazek soubor="nacinia.png" popisek="Míèky"}</a>
-Jsou nejlehèí na nauèení. Staèí vyhazovat do vzduchu a chytat. <a href="/micky/druhy.html" title="Druhy míèkù.">Druhy míèkù</a>.
+<a href="/micky/" title="Å½onglovÃ¡nÃ­ s mÃ­Äky.">{obrazek soubor="nacinia.png" popisek="MÃ­Äky"}</a>
+Jsou nejlehÄÃ­ na nauÄenÃ­. StaÄÃ­ vyhazovat do vzduchu a chytat. <a href="/micky/druhy.html" title="Druhy mÃ­ÄkÅ¯.">Druhy mÃ­ÄkÅ¯</a>.
 </p>
 
-<a name="bounce"><h3>Skákací míèky</h3></a>
+<a name="bounce"><h3>SkÃ¡kacÃ­ mÃ­Äky</h3></a>
 <p>
-{obrazek soubor="nacinib.png" popisek="Skákací míèky."}
-Místo vyhazování do vzduchu je odrá¾í¹ o podlahu. S polu s <a href="#cigarbox" title="Cigar boxy">cigar boxy</a> je to nejhluènìj¹í ¾onglérské náèiní.
+{obrazek soubor="nacinib.png" popisek="SkÃ¡kacÃ­ mÃ­Äky."}
+MÃ­sto vyhazovÃ¡nÃ­ do vzduchu je odrÃ¡Å¾Ã­Å¡ o podlahu. S polu s <a href="#cigarbox" title="Cigar boxy">cigar boxy</a> je to nejhluÄnÄ›jÅ¡Ã­ Å¾onglÃ©rskÃ© nÃ¡ÄinÃ­.
 </p>
 
-<h3><a href="/kruhy/" title="®onglování s kruhy.">Kruhy</a></h3>
+<h3><a href="/kruhy/" title="Å½onglovÃ¡nÃ­ s kruhy.">Kruhy</a></h3>
 <p>
-<a href="/kruhy/" title="®onglování s kruhy.">{obrazek soubor="nacinic.png" popisek="Kruhy"}</a>
-Plastové o prùmìru zhruba 35 cm. Jsou vidìt lépe ne¾ míèky. Vhodné i pro <a href="/kuzely/passing/" title="®onglování ve více lidech">passing</a>.
+<a href="/kruhy/" title="Å½onglovÃ¡nÃ­ s kruhy.">{obrazek soubor="nacinic.png" popisek="Kruhy"}</a>
+PlastovÃ© o prÅ¯mÄ›ru zhruba 35 cm. Jsou vidÄ›t lÃ©pe neÅ¾ mÃ­Äky. VhodnÃ© i pro <a href="/kuzely/passing/" title="Å½onglovÃ¡nÃ­ ve vÃ­ce lidech">passing</a>.
 </p>
 
-<h3><a href="/kuzely/" title="®onglování s ku¾ely.">Ku¾ely</a></h3>
+<h3><a href="/kuzely/" title="Å½onglovÃ¡nÃ­ s kuÅ¾ely.">KuÅ¾ely</a></h3>
 <p>
-<a href="/kuzely/" title="®onglování s ku¾ely.">{obrazek soubor="nacinid.png" popisek="Ku¾ely"}</a>
-Ku¾el tvoøí dvì èásti. ©ir¹í - hlava a u¾¹í dr¾adlo. Vyhozením do vzduchu se roztoèí. Zaèátek je tì¾¹í ne¾ s  míèky nebo kruhy.
+<a href="/kuzely/" title="Å½onglovÃ¡nÃ­ s kuÅ¾ely.">{obrazek soubor="nacinid.png" popisek="KuÅ¾ely"}</a>
+KuÅ¾el tvoÅ™Ã­ dvÄ› ÄÃ¡sti. Å irÅ¡Ã­ - hlava a uÅ¾Å¡Ã­ drÅ¾adlo. VyhozenÃ­m do vzduchu se roztoÄÃ­. ZaÄÃ¡tek je tÄ›Å¾Å¡Ã­ neÅ¾ s  mÃ­Äky nebo kruhy.
 </p>
 
-<h3><a href="/kuzely/ohen.html" title="®onglování s ohnìm.">Ohnivé ku¾ely</a></h3>
+<h3><a href="/kuzely/ohen.html" title="Å½onglovÃ¡nÃ­ s ohnÄ›m.">OhnivÃ© kuÅ¾ely</a></h3>
 <p>
-<a href="/kuzely/ohen.html" title="®onglování s ohnìm.">{obrazek soubor="nacinie.png" popisek="Hoøící ku¾ely"}</a>
-Stejné jako ku¾ely, jen místo ¹ir¹í èásti je knot. Napustí se hoølavinou a zapálí.
+<a href="/kuzely/ohen.html" title="Å½onglovÃ¡nÃ­ s ohnÄ›m.">{obrazek soubor="nacinie.png" popisek="HoÅ™Ã­cÃ­ kuÅ¾ely"}</a>
+StejnÃ© jako kuÅ¾ely, jen mÃ­sto Å¡irÅ¡Ã­ ÄÃ¡sti je knot. NapustÃ­ se hoÅ™lavinou a zapÃ¡lÃ­.
 </p>
 
 <h3>Diabolo</h3>
 <p>
 {obrazek soubor="nacinif.png" popisek="Diabolo"}
-Cívka kterou roztáèí¹ pomocí provázkù a hùlek.
+CÃ­vka kterou roztÃ¡ÄÃ­Å¡ pomocÃ­ provÃ¡zkÅ¯ a hÅ¯lek.
 </p>
 
 <h3>Devilstick</h3>
 <p>
 {obrazek soubor="nacinig.png" popisek="Devilstick"}
-Hùlka kterou udr¾uje¹ ve vzduchu dvìma dal¹ími hùlkami.
+HÅ¯lka kterou udrÅ¾ujeÅ¡ ve vzduchu dvÄ›ma dalÅ¡Ã­mi hÅ¯lkami.
 </p>
 
 <h3>Flowerstick</h3>
 <p>
 {obrazek soubor="nacinih.png" popisek="Flowerstick"}
-Hùlka která má na koncích tøásnì. Ve vzduchu jí dr¾í¹ pomocí dvou dal¹ích hùlek.
+HÅ¯lka kterÃ¡ mÃ¡ na koncÃ­ch tÅ™Ã¡snÄ›. Ve vzduchu jÃ­ drÅ¾Ã­Å¡ pomocÃ­ dvou dalÅ¡Ã­ch hÅ¯lek.
 </p>
 
 <h3>Jo-jo</h3>
 <p>
 {obrazek soubor="nacinii.png" popisek="Jo-jo"}
-Cívka uvázaná na provázku.
+CÃ­vka uvÃ¡zanÃ¡ na provÃ¡zku.
 </p>
 
-<a name="poi"></a><h3><a href="/literatura.html#poi" title="Kní¾ka o toèení s poi.">Poi-poi</a></h3>
+<a name="poi"></a><h3><a href="/literatura.html#poi" title="KnÃ­Å¾ka o toÄenÃ­ s poi.">Poi-poi</a></h3>
 <p>
 {obrazek soubor="nacinik.png" popisek="Poi-poi"}
-Míèek pøivázanı na provázku (+- 0,5m). Na druhém konci provázku je smyèka pro dr¾ení. Do ka¾dé ruky si vezme¹ jednu poiku a toèí¹ s nimi okolo sebe. Ucelenı popis najde¹ v <a href="/literatura.html#poi" title="Podrobnosti o toèení.">Richeeho kní¾ce</a>.
+MÃ­Äek pÅ™ivÃ¡zanÃ½ na provÃ¡zku (+- 0,5m). Na druhÃ©m konci provÃ¡zku je smyÄka pro drÅ¾enÃ­. Do kaÅ¾dÃ© ruky si vezmeÅ¡ jednu poiku a toÄÃ­Å¡ s nimi okolo sebe. UcelenÃ½ popis najdeÅ¡ v <a href="/literatura.html#poi" title="Podrobnosti o toÄenÃ­.">Richeeho knÃ­Å¾ce</a>.
 </p>
 
-<h3>Tenisové rakety</h3>
+<h3>TenisovÃ© rakety</h3>
 <p>
-{obrazek soubor="nacinil.png" popisek="Tenisová raketa"}
-Létají skoro stejnì jako ku¾ely. Jen jsou trochu vìt¹í.
+{obrazek soubor="nacinil.png" popisek="TenisovÃ¡ raketa"}
+LÃ©tajÃ­ skoro stejnÄ› jako kuÅ¾ely. Jen jsou trochu vÄ›tÅ¡Ã­.
 </p>
 
 <a name="crystalball"><h3>Crystal ball</h3></a>
 <p>
 {obrazek soubor="nacinim.png" popisek="Crystal ball"}
-Vìt¹í míèek z umìlé hmoty (polyakrylát ?). Vypadá jako sklenìnı. Pou¾ívá se na kontaktní ¾onglování - nehází se sním, ale kutálí se po rukou a jinıch èástech tìla.
+VÄ›tÅ¡Ã­ mÃ­Äek z umÄ›lÃ© hmoty (polyakrylÃ¡t ?). VypadÃ¡ jako sklenÄ›nÃ½. PouÅ¾Ã­vÃ¡ se na kontaktnÃ­ Å¾onglovÃ¡nÃ­ - nehÃ¡zÃ­ se snÃ­m, ale kutÃ¡lÃ­ se po rukou a jinÃ½ch ÄÃ¡stech tÄ›la.
 </p>
 
-<h3>Tyè</h3>
+<h3>TyÄ</h3>
 <p>
-{obrazek soubor="nacinij.png" popisek="Tyè"}
-Dal¹í pøedmìt pro kontaktní ¾onglování. Obvykle s knoty na koncích k zapálení.
+{obrazek soubor="nacinij.png" popisek="TyÄ"}
+DalÅ¡Ã­ pÅ™edmÄ›t pro kontaktnÃ­ Å¾onglovÃ¡nÃ­. Obvykle s knoty na koncÃ­ch k zapÃ¡lenÃ­.
 </p>
 
 <a name="cigarbox"><h3>Cigar boxy</h3></a>
 <p>
 {obrazek soubor="nacinio.png" popisek="Cigar boxy"}
-Cigar boxy jsou døevìné krabièky. Dvì krajní dr¾í¹ rukou a tøetí mezi nimy pøehazuje¹. Vzniká pøi tom skoro stejnı hluk jako pøi ¾onglování se <a href="#bounce" title="Odrá¾ení míèkù o podlahu.">skákacími míèky</a>.
+Cigar boxy jsou dÅ™evÄ›nÃ© krabiÄky. DvÄ› krajnÃ­ drÅ¾Ã­Å¡ rukou a tÅ™etÃ­ mezi nimy pÅ™ehazujeÅ¡. VznikÃ¡ pÅ™i tom skoro stejnÃ½ hluk jako pÅ™i Å¾onglovÃ¡nÃ­ se <a href="#bounce" title="OdrÃ¡Å¾enÃ­ mÃ­ÄkÅ¯ o podlahu.">skÃ¡kacÃ­mi mÃ­Äky</a>.
 </p>
 
-<h3>©átky</h3>
+<h3>Å Ã¡tky</h3>
 <p>
-{obrazek soubor="nacinin.png" popisek="©átky"}
-Údajnì sna¾¹í ne¾ míèky. Doporuèované pro úplné zaèáteèníky.
+{obrazek soubor="nacinin.png" popisek="Å Ã¡tky"}
+ÃšdajnÄ› snaÅ¾Å¡Ã­ neÅ¾ mÃ­Äky. DoporuÄovanÃ© pro ÃºplnÃ© zaÄÃ¡teÄnÃ­ky.
 </p>

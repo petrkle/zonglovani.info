@@ -1,9 +1,9 @@
 <p>
-®onglérùv slabikáø pou¾ívá <a href="http://subversion.tygris.org" title="Stránky projektu Subversion (anglicky)." class="external" onclick="pageTracker._trackPageview('/goto/svn.tygris.org');">systém správy verzí</a>. Na této stránce najde¹ vıpis pøíkazu "<code>svn log</code>".
+Å½onglÃ©rÅ¯v slabikÃ¡Å™ pouÅ¾Ã­vÃ¡ <a href="http://subversion.tygris.org" title="StrÃ¡nky projektu Subversion (anglicky)." class="external" onclick="pageTracker._trackPageview('/goto/svn.tygris.org');">systÃ©m sprÃ¡vy verzÃ­</a>. Na tÃ©to strÃ¡nce najdeÅ¡ vÃ½pis pÅ™Ã­kazu "<code>svn log</code>".
 </p>
 
 <p>
-Jednotlivé revize jsou oddìlené øádkem mínusù. Na dal¹ím øádku je postupnì: èíslo revize, autor zmìny, datum a poèet øádkù popisujících zmìnu. Pak následuje prázdnı øádek a vlastní popis zmìny.
+JednotlivÃ© revize jsou oddÄ›lenÃ© Å™Ã¡dkem mÃ­nusÅ¯. Na dalÅ¡Ã­m Å™Ã¡dku je postupnÄ›: ÄÃ­slo revize, autor zmÄ›ny, datum a poÄet Å™Ã¡dkÅ¯ popisujÃ­cÃ­ch zmÄ›nu. Pak nÃ¡sleduje prÃ¡zdnÃ½ Å™Ã¡dek a vlastnÃ­ popis zmÄ›ny.
 </p>
 
 {if is_array($zmeny)}
@@ -14,12 +14,12 @@ Jednotlivé revize jsou oddìlené øádkem mínusù. Na dal¹ím øádku je postupnì: èísl
 </pre>
 {/if}
 
-<h3>Zmìny ve star¹ím ulo¾i¹ti svn</h3>
+<h3>ZmÄ›ny ve starÅ¡Ã­m uloÅ¾iÅ¡ti svn</h3>
 <pre>{include file='ostatni-changelog-old.tpl'}</pre>
 
-<h3>Star¹í zmìny</h3>
+<h3>StarÅ¡Ã­ zmÄ›ny</h3>
 <p>
 <ul>
-<li>jaro 2005 - <a href="/proc-a-jak.html" title="Proè a jak vznikl ¾onglérùv slabikáø">první verze</a> ¾onglérova slabikáøe</li>
+<li>jaro 2005 - <a href="/proc-a-jak.html" title="ProÄ a jak vznikl Å¾onglÃ©rÅ¯v slabikÃ¡Å™">prvnÃ­ verze</a> Å¾onglÃ©rova slabikÃ¡Å™e</li>
 </ul>
 </p>

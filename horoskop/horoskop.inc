@@ -41,8 +41,8 @@ return $navrat;
 };
 function my_rand_ini($znameni,$time){
 /*
-	vrací pseudo náhodnı øetìzec èísel
-	závislé na aktuálním datu a zamení zvìrokruhu
+	vracÃ­ pseudo nÃ¡hodnÃ½ Å™etÄ›zec ÄÃ­sel
+	zÃ¡vislÃ© na aktuÃ¡lnÃ­m datu a zamenÃ­ zvÄ›rokruhu
 */
 	global $zverokruh;
 
@@ -63,7 +63,7 @@ function prvni_velke($text){
 	$prvni=substr($text,0,1);
 	$zbytek=substr($text,1);
 	$prvni=strtr($prvni,"abcdefghijklmnopqrstuvwxyz", "ABCDEFGHIJKLMNOPQRSTUVWXYZ");
-	$prvni=strtr($prvni,"ì¹èø¾ıáíéòï»úù", "Ì©ÈØ®İÁÍÉÒÏ«ÚÙ");
+	$prvni=strtr($prvni,"Ä›Å¡ÄÅ™Å¾Ã½Ã¡Ã­Ã©ÅˆÄÅ¥ÃºÅ¯", "ÄšÅ ÄŒÅ˜Å½ÃÃÃÃ‰Å‡ÄÅ¤ÃšÅ®");
 	$navrat=$prvni.$zbytek;
 	return $navrat;
 };

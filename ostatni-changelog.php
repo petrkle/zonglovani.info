@@ -2,7 +2,7 @@
 require('init.php');
 require('func.php');
 
-$smarty->assign("titulek","Zmìny v ¾onglérovì slabikáøi");
+$smarty->assign("titulek","ZmÄ›ny v Å¾onglÃ©rovÄ› slabikÃ¡Å™i");
 $smarty->assign("rsslink",'http://'.$_SERVER["SERVER_NAME"].'/ostatni/changelog.rss');
 
 $smarty->display('hlavicka.tpl');

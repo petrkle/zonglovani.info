@@ -1,35 +1,35 @@
 <p>
-Nìkolik slovíèek které se èasto vyskytují v anglicky psanıch textech o ¾onglování.
+NÄ›kolik slovÃ­Äek kterÃ© se Äasto vyskytujÃ­ v anglicky psanÃ½ch textech o Å¾onglovÃ¡nÃ­.
 </p>
 
 <dl>
-<dt>accurate</dt><dd>pøesnı</dd>
-<dt>ball</dt><dd><a href="/micky/druhy.html" title="Popis rùznıch druhù míèkù.">míèek</a></dd>
-<dt><a href="/micky/druhy.html#beanbag" title="©itı míèek.">beanbag</a></dt><dd>fazolové pytlíky, míèky naplnìné zrnky(rı¾e, fazole, proso, ...), neskákavé, obvykle se¹ité z nìkolika èástí</dd>
+<dt>accurate</dt><dd>pÅ™esnÃ½</dd>
+<dt>ball</dt><dd><a href="/micky/druhy.html" title="Popis rÅ¯znÃ½ch druhÅ¯ mÃ­ÄkÅ¯.">mÃ­Äek</a></dd>
+<dt><a href="/micky/druhy.html#beanbag" title="Å itÃ½ mÃ­Äek.">beanbag</a></dt><dd>fazolovÃ© pytlÃ­ky, mÃ­Äky naplnÄ›nÃ© zrnky(rÃ½Å¾e, fazole, proso, ...), neskÃ¡kavÃ©, obvykle seÅ¡itÃ© z nÄ›kolika ÄÃ¡stÃ­</dd>
 <dt>catch</dt><dd>chytit</dd>
-<dt>club</dt><dd>ku¾el</dd>
+<dt>club</dt><dd>kuÅ¾el</dd>
 <dt>columns</dt><dd>sloupy</dd>
 <dt>drop</dt><dd>upustit</dd>
-<dt>even</dt><dd>sudı</dd>
-<dt><a href="/micky/3/blesk.html" title="Blesk.">flash</a></dt><dd>blesk, oznaèuje rychlé vyhození míèkù kdy ruce zùstanou na okam¾ik prázdné, nebo N vyhození a N zachycení N objektù.</dd>
-<dt>headroll</dt><dd><a href="/kuzely/headroll.html" title="Trik s ku¾elkou.">Pøekulení ku¾elky</a> nebo míèku z jednoho spánku na druhı.</dd>
-<dt>juggler</dt><dd>¾onglér</dd>
-<dt>juggling</dt><dd>¾onglování</dd>
-<dt>limb</dt><dd>konèetina</dd>
-<dt><a href="/micky/3/mm.html" title="Kompletní návod na provedení Mills mess.">mess</a></dt><dd>nepoøádek</dd>
-<dt>odd</dt><dd>lichı</dd>
+<dt>even</dt><dd>sudÃ½</dd>
+<dt><a href="/micky/3/blesk.html" title="Blesk.">flash</a></dt><dd>blesk, oznaÄuje rychlÃ© vyhozenÃ­ mÃ­ÄkÅ¯ kdy ruce zÅ¯stanou na okamÅ¾ik prÃ¡zdnÃ©, nebo N vyhozenÃ­ a N zachycenÃ­ N objektÅ¯.</dd>
+<dt>headroll</dt><dd><a href="/kuzely/headroll.html" title="Trik s kuÅ¾elkou.">PÅ™ekulenÃ­ kuÅ¾elky</a> nebo mÃ­Äku z jednoho spÃ¡nku na druhÃ½.</dd>
+<dt>juggler</dt><dd>Å¾onglÃ©r</dd>
+<dt>juggling</dt><dd>Å¾onglovÃ¡nÃ­</dd>
+<dt>limb</dt><dd>konÄetina</dd>
+<dt><a href="/micky/3/mm.html" title="KompletnÃ­ nÃ¡vod na provedenÃ­ Mills mess.">mess</a></dt><dd>nepoÅ™Ã¡dek</dd>
+<dt>odd</dt><dd>lichÃ½</dd>
 <dt>pace</dt><dd>tempo</dd>
-<dt><a href="/kuzely/passing/" title="Základy passingu.">passing</a></dt><dd>pøedávání, více lidí ¾ongluje mezi sebou</dd>
-<dt>pattern</dt><dd>model, ¹ablona, vzor, zpùsob jakım hází¹ míèky. Pøelo¾itelné i jako "trik".</dd>
-<dt>practice</dt><dd><a href="/trenink.html" title="Trénuj, trénuj, trénuj.">trénink</a></dd>
-<dt>rings</dt><dd>krou¾ky</dd>
-<dt>shower</dt><dd><a href="/micky/3/sprcha.html" title="Obrázkovı návod.">sprcha</a></dd>
-<dt><a href="/siteswap.html" title="®onglování s èísly.">siteswaps</a></dt><dd>site = místo, poloha, swap = vymìnit, prohodit, zápis ¾onglování pomocí èísel</dd>
+<dt><a href="/kuzely/passing/" title="ZÃ¡klady passingu.">passing</a></dt><dd>pÅ™edÃ¡vÃ¡nÃ­, vÃ­ce lidÃ­ Å¾ongluje mezi sebou</dd>
+<dt>pattern</dt><dd>model, Å¡ablona, vzor, zpÅ¯sob jakÃ½m hÃ¡zÃ­Å¡ mÃ­Äky. PÅ™eloÅ¾itelnÃ© i jako "trik".</dd>
+<dt>practice</dt><dd><a href="/trenink.html" title="TrÃ©nuj, trÃ©nuj, trÃ©nuj.">trÃ©nink</a></dd>
+<dt>rings</dt><dd>krouÅ¾ky</dd>
+<dt>shower</dt><dd><a href="/micky/3/sprcha.html" title="ObrÃ¡zkovÃ½ nÃ¡vod.">sprcha</a></dd>
+<dt><a href="/siteswap.html" title="Å½onglovÃ¡nÃ­ s ÄÃ­sly.">siteswaps</a></dt><dd>site = mÃ­sto, poloha, swap = vymÄ›nit, prohodit, zÃ¡pis Å¾onglovÃ¡nÃ­ pomocÃ­ ÄÃ­sel</dd>
 <dt>throw</dt><dd>hodit</dd>
-<dt>torch</dt><dd>pochodeò</dd>
+<dt>torch</dt><dd>pochodeÅˆ</dd>
 <dt>toss</dt><dd>hodit</dd>
-<dt>workshop</dt><dd>setkání pøi nìm¾ úèastinící získávají potøebné znalosti na základì diskusí a praktickıch ukázek</dd>
-<dt>wrist</dt><dd>zápìstí</dd>
+<dt>workshop</dt><dd>setkÃ¡nÃ­ pÅ™i nÄ›mÅ¾ ÃºÄastinÃ­cÃ­ zÃ­skÃ¡vajÃ­ potÅ™ebnÃ© znalosti na zÃ¡kladÄ› diskusÃ­ a praktickÃ½ch ukÃ¡zek</dd>
+<dt>wrist</dt><dd>zÃ¡pÄ›stÃ­</dd>
 </dl>
 
-<a href="#nahore" title="Pøesun na zaèátek stránky" class="nahoru">nahoru&nbsp;^^</a>
+<a href="#nahore" title="PÅ™esun na zaÄÃ¡tek strÃ¡nky" class="nahoru">nahoru&nbsp;^^</a>

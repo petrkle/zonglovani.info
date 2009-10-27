@@ -2,74 +2,74 @@
 
 <!-- slabikar-online-link -->
 
-<h5><a href="http://zongluj.eu" title="Abryho stránky o ¾onglování." class="external" onclick="pageTracker._trackPageview('/goto/zongluj.eu');">zongluj.eu</a></h5>
+<h5><a href="http://zongluj.eu" title="Abryho strÃ¡nky o Å¾onglovÃ¡nÃ­." class="external" onclick="pageTracker._trackPageview('/goto/zongluj.eu');">zongluj.eu</a></h5>
 <p>
-<a href="http://zongluj.eu" title="Abryho stránky o ¾onglování." onclick="pageTracker._trackPageview('/goto/zongluj.eu');">{obrazek soubor="odkazy-zongluj.eu.png" popisek="zongluj.eu"}</a>
-Abryho stránky o ¾onglování. Animace ¾onglování s míèky. Doplnìné krátkımi popisky.
+<a href="http://zongluj.eu" title="Abryho strÃ¡nky o Å¾onglovÃ¡nÃ­." onclick="pageTracker._trackPageview('/goto/zongluj.eu');">{obrazek soubor="odkazy-zongluj.eu.png" popisek="zongluj.eu"}</a>
+Abryho strÃ¡nky o Å¾onglovÃ¡nÃ­. Animace Å¾onglovÃ¡nÃ­ s mÃ­Äky. DoplnÄ›nÃ© krÃ¡tkÃ½mi popisky.
 </p>
 
-<h5><a href="http://fireshow.cz" title="Server kterı hoøí." class="external" onclick="pageTracker._trackPageview('/goto/fireshow.cz');">fireshow.cz</a></h5>
+<h5><a href="http://fireshow.cz" title="Server kterÃ½ hoÅ™Ã­." class="external" onclick="pageTracker._trackPageview('/goto/fireshow.cz');">fireshow.cz</a></h5>
 <p>
-<a href="http://fireshow.cz" title="Server kterı hoøí." onclick="pageTracker._trackPageview('/goto/fireshow.cz');">{obrazek soubor="odkazy-fireshow.cz.png" popisek="fireshow.cz"}</a>
-Stránky o ¾onglování s ohnìm.
+<a href="http://fireshow.cz" title="Server kterÃ½ hoÅ™Ã­." onclick="pageTracker._trackPageview('/goto/fireshow.cz');">{obrazek soubor="odkazy-fireshow.cz.png" popisek="fireshow.cz"}</a>
+StrÃ¡nky o Å¾onglovÃ¡nÃ­ s ohnÄ›m.
 </p>
 
 <h5>
-<a href="http://www.zonglovanie.sk" title="Slovenskı server." class="external" onclick="pageTracker._trackPageview('/goto/zonglovanie.sk');">zonglovanie.sk</a>
+<a href="http://www.zonglovanie.sk" title="SlovenskÃ½ server." class="external" onclick="pageTracker._trackPageview('/goto/zonglovanie.sk');">zonglovanie.sk</a>
 </h5>
 <p>
-<a href="http://www.zonglovanie.sk" title="Slovenskı server." onclick="pageTracker._trackPageview('/goto/zonglovanie.sk');">{obrazek soubor="odkazy-zonglovanie.sk.png" popisek="zonglovanie.sk"}</a>
-Skvìlá <a href="literatura.html" title="Dal¹í literatura o ¾onglování.">uèebnice ¾onglování</a> pro samouky. Dostupná ve formátu pdf.
+<a href="http://www.zonglovanie.sk" title="SlovenskÃ½ server." onclick="pageTracker._trackPageview('/goto/zonglovanie.sk');">{obrazek soubor="odkazy-zonglovanie.sk.png" popisek="zonglovanie.sk"}</a>
+SkvÄ›lÃ¡ <a href="literatura.html" title="DalÅ¡Ã­ literatura o Å¾onglovÃ¡nÃ­.">uÄebnice Å¾onglovÃ¡nÃ­</a> pro samouky. DostupnÃ¡ ve formÃ¡tu pdf.
 </p>
 
-<h5><a href="http://didier.arlabosse.free.fr/balles/english/" title="Anglické stránky o ¾onglování." class="external" onclick="pageTracker._trackPageview('/goto/didier.arlabosse.free.fr');">didier.arlabosse.free.fr/balles/english</a></h5>
+<h5><a href="http://didier.arlabosse.free.fr/balles/english/" title="AnglickÃ© strÃ¡nky o Å¾onglovÃ¡nÃ­." class="external" onclick="pageTracker._trackPageview('/goto/didier.arlabosse.free.fr');">didier.arlabosse.free.fr/balles/english</a></h5>
 <p>
-<a href="http://didier.arlabosse.free.fr/balles/english/" title="Anglické stránky o ¾onglování." onclick="pageTracker._trackPageview('/goto/didier.arlabosse.free.fr');">{obrazek soubor="odkazy-didier.png" popisek="didier.arlabosse.free.fr/balles/english"}</a>
-Didierovi stránky o ¾onglování - anglicky a francouzsky.
+<a href="http://didier.arlabosse.free.fr/balles/english/" title="AnglickÃ© strÃ¡nky o Å¾onglovÃ¡nÃ­." onclick="pageTracker._trackPageview('/goto/didier.arlabosse.free.fr');">{obrazek soubor="odkazy-didier.png" popisek="didier.arlabosse.free.fr/balles/english"}</a>
+Didierovi strÃ¡nky o Å¾onglovÃ¡nÃ­ - anglicky a francouzsky.
 </p>
 
-<h5><a href="http://www.jugglingdb.com" title="Anglické stránky o ¾onglování." class="external" onclick="pageTracker._trackPageview('/goto/jugglingdb.com');">Internet Juggling Database</a></h5>
+<h5><a href="http://www.jugglingdb.com" title="AnglickÃ© strÃ¡nky o Å¾onglovÃ¡nÃ­." class="external" onclick="pageTracker._trackPageview('/goto/jugglingdb.com');">Internet Juggling Database</a></h5>
 <p>
-<a href="http://www.jugglingdb.com" title="Anglické stránky o ¾onglování." onclick="pageTracker._trackPageview('/goto/jugglingdb.com');">{obrazek soubor="odkazy-jugglingdb.com.png" popisek="jugglingdb.com"}</a>
-Bezedná studna informací o ¾onglování.
+<a href="http://www.jugglingdb.com" title="AnglickÃ© strÃ¡nky o Å¾onglovÃ¡nÃ­." onclick="pageTracker._trackPageview('/goto/jugglingdb.com');">{obrazek soubor="odkazy-jugglingdb.com.png" popisek="jugglingdb.com"}</a>
+BezednÃ¡ studna informacÃ­ o Å¾onglovÃ¡nÃ­.
 </p>
 
-<h5><a href="http://www.juggling.org/" title="Anglické stránky o ¾onglování." class="external" onclick="pageTracker._trackPageview('/goto/juggling.org');">Juggling Information Service</a></h5>
+<h5><a href="http://www.juggling.org/" title="AnglickÃ© strÃ¡nky o Å¾onglovÃ¡nÃ­." class="external" onclick="pageTracker._trackPageview('/goto/juggling.org');">Juggling Information Service</a></h5>
 <p>
-<a href="http://www.juggling.org/" title="Anglické stránky o ¾onglování." onclick="pageTracker._trackPageview('/goto/juggling.org');">{obrazek soubor="odkazy-juggling.org.png" popisek="juggling.org"}</a>
-Informace pro ¾ongléry.
+<a href="http://www.juggling.org/" title="AnglickÃ© strÃ¡nky o Å¾onglovÃ¡nÃ­." onclick="pageTracker._trackPageview('/goto/juggling.org');">{obrazek soubor="odkazy-juggling.org.png" popisek="juggling.org"}</a>
+Informace pro Å¾onglÃ©ry.
 </p>
 
-<h5><a href="http://www.passingdb.com/" title="Anglické stránky o ¾onglování." class="external" onclick="pageTracker._trackPageview('/goto/passingdb.com');">passingdb.com</a></h5>
+<h5><a href="http://www.passingdb.com/" title="AnglickÃ© strÃ¡nky o Å¾onglovÃ¡nÃ­." class="external" onclick="pageTracker._trackPageview('/goto/passingdb.com');">passingdb.com</a></h5>
 <p>
-<a href="http://www.passingdb.com/" title="Anglické stránky o ¾onglování." onclick="pageTracker._trackPageview('/goto/passingdb.com');">{obrazek soubor="odkazy-passingdb.com.png" popisek="passingdb.com"}</a>
-Informace o passování.
+<a href="http://www.passingdb.com/" title="AnglickÃ© strÃ¡nky o Å¾onglovÃ¡nÃ­." onclick="pageTracker._trackPageview('/goto/passingdb.com');">{obrazek soubor="odkazy-passingdb.com.png" popisek="passingdb.com"}</a>
+Informace o passovÃ¡nÃ­.
 </p>
 
-<h5><a href="http://juggling.tv" title="Anglické stránky o ¾onglování." class="external" onclick="pageTracker._trackPageview('/goto/juggling.tv');">juggling.tv</a></h5>
+<h5><a href="http://juggling.tv" title="AnglickÃ© strÃ¡nky o Å¾onglovÃ¡nÃ­." class="external" onclick="pageTracker._trackPageview('/goto/juggling.tv');">juggling.tv</a></h5>
 <p>
-<a href="http://juggling.tv" title="Anglické stránky o ¾onglování." onclick="pageTracker._trackPageview('/goto/juggling.tv');">{obrazek soubor="odkazy-juggling.tv.png" popisek="juggling.tv"}</a>
-®onglérská televize.
+<a href="http://juggling.tv" title="AnglickÃ© strÃ¡nky o Å¾onglovÃ¡nÃ­." onclick="pageTracker._trackPageview('/goto/juggling.tv');">{obrazek soubor="odkazy-juggling.tv.png" popisek="juggling.tv"}</a>
+Å½onglÃ©rskÃ¡ televize.
 </p>
 
-<h5><a href="http://juggletube.com" title="Anglické stránky o ¾onglování." class="external" onclick="pageTracker._trackPageview('/goto/juggletube.com');">juggletube.com</a></h5>
+<h5><a href="http://juggletube.com" title="AnglickÃ© strÃ¡nky o Å¾onglovÃ¡nÃ­." class="external" onclick="pageTracker._trackPageview('/goto/juggletube.com');">juggletube.com</a></h5>
 <p>
-<a href="http://juggletube.com" title="Anglické stránky o ¾onglování." onclick="pageTracker._trackPageview('/goto/juggletube.com');">{obrazek soubor="odkazy-juggletube.com.png" popisek="juggletube.com"}</a>
-Stránka plná ¾onglérského videa.
-</p>
-
-
-<h5><a href="http://www.twjc.co.uk/tutorials.html" title="Anglické stránky o ¾onglování." class="external" onclick="pageTracker._trackPageview('/goto/twjc.co.uk');">Tunbridge Wells Juggling Club Tutorials</a></h5>
-<p>
-<a href="http://www.twjc.co.uk/tutorials.html" title="Anglické stránky o ¾onglování." onclick="pageTracker._trackPageview('/goto/twjc.co.uk');">{obrazek soubor="odkazy-twjc.png" popisek="twjc.co.uk"}</a>
-Textové návody na ¾onglování.
+<a href="http://juggletube.com" title="AnglickÃ© strÃ¡nky o Å¾onglovÃ¡nÃ­." onclick="pageTracker._trackPageview('/goto/juggletube.com');">{obrazek soubor="odkazy-juggletube.com.png" popisek="juggletube.com"}</a>
+StrÃ¡nka plnÃ¡ Å¾onglÃ©rskÃ©ho videa.
 </p>
 
 
+<h5><a href="http://www.twjc.co.uk/tutorials.html" title="AnglickÃ© strÃ¡nky o Å¾onglovÃ¡nÃ­." class="external" onclick="pageTracker._trackPageview('/goto/twjc.co.uk');">Tunbridge Wells Juggling Club Tutorials</a></h5>
 <p>
-Spousta pìknıch stránek o ¾onglování je v angliètinì. Mo¾ná se ti bude hodit <a href="aczslovnicek.html" title="Anglicko-èeskı ¾onglérskı slovníèek.">malı slovníèek</a>.
+<a href="http://www.twjc.co.uk/tutorials.html" title="AnglickÃ© strÃ¡nky o Å¾onglovÃ¡nÃ­." onclick="pageTracker._trackPageview('/goto/twjc.co.uk');">{obrazek soubor="odkazy-twjc.png" popisek="twjc.co.uk"}</a>
+TextovÃ© nÃ¡vody na Å¾onglovÃ¡nÃ­.
+</p>
+
+
+<p>
+Spousta pÄ›knÃ½ch strÃ¡nek o Å¾onglovÃ¡nÃ­ je v angliÄtinÄ›. MoÅ¾nÃ¡ se ti bude hodit <a href="aczslovnicek.html" title="Anglicko-ÄeskÃ½ Å¾onglÃ©rskÃ½ slovnÃ­Äek.">malÃ½ slovnÃ­Äek</a>.
 </p>
 
 <p>
-Adresy na internetu se mìní. Pokud narazí¹ na ¹patnı odkaz, mù¾e¹ mi <a href="/kontakt.html" title="Nahlá¹ení ¹patného odkazu.">napsat</a>. Zaøídím jeho opravu.
+Adresy na internetu se mÄ›nÃ­. Pokud narazÃ­Å¡ na Å¡patnÃ½ odkaz, mÅ¯Å¾eÅ¡ mi <a href="/kontakt.html" title="NahlÃ¡Å¡enÃ­ Å¡patnÃ©ho odkazu.">napsat</a>. ZaÅ™Ã­dÃ­m jeho opravu.
 </p>

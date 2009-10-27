@@ -1,7 +1,7 @@
 <?php
 require('init.php');
 
-$smarty->assign("titulek","Ohnivé ku¾ely");
+$smarty->assign("titulek","OhnivÃ© kuÅ¾ely");
 
 $smarty->display('hlavicka.tpl');
 $smarty->display('kuzely-ohen.tpl');

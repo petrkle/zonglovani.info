@@ -5,41 +5,41 @@
 	     <nazev>Rotor</nazev>
 		 <pocet>12</pocet>
 	     <siteswaps>-</siteswaps>
-		 <obtiznost>snadné</obtiznost>
+		 <obtiznost>snadnÃ©</obtiznost>
 		 <oblast>kuzely-passing</oblast>
 	</about>
 
 
     <krok>
-			<popisek>Tøi ¾ongléøi stojí do trojúhelníku. Ètvrtı ¾onglér je mezi nimy a otáèí se. V¹ichni ¾ongléøi mají tøi ku¾ely a hází &lt;a href=&quot;4count.html&quot; title=&quot;Základ passování.&quot;&gt;4&nbsp;count&lt;/a&gt; z pravé ruky.</popisek>
+			<popisek>TÅ™i Å¾onglÃ©Å™i stojÃ­ do trojÃºhelnÃ­ku. ÄŒtvrtÃ½ Å¾onglÃ©r je mezi nimy a otÃ¡ÄÃ­ se. VÅ¡ichni Å¾onglÃ©Å™i majÃ­ tÅ™i kuÅ¾ely a hÃ¡zÃ­ &lt;a href=&quot;4count.html&quot; title=&quot;ZÃ¡klad passovÃ¡nÃ­.&quot;&gt;4&nbsp;count&lt;/a&gt; z pravÃ© ruky.</popisek>
     </krok>
 
     <krok>
 			<obrazek>rotora</obrazek>
-			<popisek>První pss hází ¾onglér &lt;b&gt;A&lt;/b&gt; s &lt;b&gt;B&lt;/b&gt;. Zárovìò si &lt;b&gt;B&lt;/b&gt; vymìòuje ku¾elku s &lt;b&gt;C&lt;/b&gt;.</popisek>
+			<popisek>PrvnÃ­ pss hÃ¡zÃ­ Å¾onglÃ©r &lt;b&gt;A&lt;/b&gt; s &lt;b&gt;B&lt;/b&gt;. ZÃ¡rovÄ›Åˆ si &lt;b&gt;B&lt;/b&gt; vymÄ›Åˆuje kuÅ¾elku s &lt;b&gt;C&lt;/b&gt;.</popisek>
     </krok>
 
     <krok>
 			<obrazek>rotorb</obrazek>
-			<popisek>Druhı pass. Zatímco &lt;b&gt;A&lt;/b&gt;, &lt;b&gt;B&lt;/b&gt; a &lt;b&gt;C&lt;/b&gt; hází do &lt;a href=&quot;trojuhelnik.html&quot; title=&quot;Trik pro tøi ¾ongléry.&quot;&gt;trojúhelníku&lt;/a&gt;. Má ¾onglér &lt;b&gt;D&lt;/b&gt; èas na pootoèení.</popisek>
+			<popisek>DruhÃ½ pass. ZatÃ­mco &lt;b&gt;A&lt;/b&gt;, &lt;b&gt;B&lt;/b&gt; a &lt;b&gt;C&lt;/b&gt; hÃ¡zÃ­ do &lt;a href=&quot;trojuhelnik.html&quot; title=&quot;Trik pro tÅ™i Å¾onglÃ©ry.&quot;&gt;trojÃºhelnÃ­ku&lt;/a&gt;. MÃ¡ Å¾onglÃ©r &lt;b&gt;D&lt;/b&gt; Äas na pootoÄenÃ­.</popisek>
     </krok>
 
     <krok>
 			<obrazek>rotorc</obrazek>
-			<popisek>V nové pozici passuje &lt;b&gt;D&lt;/b&gt; s &lt;b&gt;B&lt;/b&gt;. A ¾onglér &lt;b&gt;A&lt;/b&gt; s &lt;b&gt;C&lt;/b&gt;.</popisek>
+			<popisek>V novÃ© pozici passuje &lt;b&gt;D&lt;/b&gt; s &lt;b&gt;B&lt;/b&gt;. A Å¾onglÃ©r &lt;b&gt;A&lt;/b&gt; s &lt;b&gt;C&lt;/b&gt;.</popisek>
     </krok>
 
     <krok>
 			<obrazek>rotord</obrazek>
-			<popisek>Vnìj¹í ¾ongléøi opìt hází trojúhelník a ¾onglér &lt;b&gt;D&lt;/b&gt; se pootoèí.</popisek>
+			<popisek>VnÄ›jÅ¡Ã­ Å¾onglÃ©Å™i opÄ›t hÃ¡zÃ­ trojÃºhelnÃ­k a Å¾onglÃ©r &lt;b&gt;D&lt;/b&gt; se pootoÄÃ­.</popisek>
     </krok>
 
 		<krok>
-			<popisek>K dokonèení cyklu zbıvá pass mezi prostøedním ¾onglérem &lt;b&gt;D&lt;/b&gt; a krajním ¾onglérém &lt;b&gt;C&lt;/b&gt;.</popisek>
+			<popisek>K dokonÄenÃ­ cyklu zbÃ½vÃ¡ pass mezi prostÅ™ednÃ­m Å¾onglÃ©rem &lt;b&gt;D&lt;/b&gt; a krajnÃ­m Å¾onglÃ©rÃ©m &lt;b&gt;C&lt;/b&gt;.</popisek>
 		</krok>
 
 		<krok>
-			<popisek>Pokud se ¾onglér &lt;b&gt;D&lt;/b&gt; otáèí dostateènì rychle, je mo¾né vynechat házení do trojúhelníku. Pak spolu passují v¾dy dvì dvojice.</popisek>
+			<popisek>Pokud se Å¾onglÃ©r &lt;b&gt;D&lt;/b&gt; otÃ¡ÄÃ­ dostateÄnÄ› rychle, je moÅ¾nÃ© vynechat hÃ¡zenÃ­ do trojÃºhelnÃ­ku. Pak spolu passujÃ­ vÅ¾dy dvÄ› dvojice.</popisek>
 		</krok>
 
 </trik>

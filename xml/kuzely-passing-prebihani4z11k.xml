@@ -2,36 +2,36 @@
 <trik>
 
     <about>
-	     <nazev>Pøebíhání - 11 ku¾elù 4 ¾ongléøi</nazev>
+	     <nazev>PÅ™ebÃ­hÃ¡nÃ­ - 11 kuÅ¾elÅ¯ 4 Å¾onglÃ©Å™i</nazev>
 		 <pocet>11</pocet>
 	     <siteswaps>-</siteswaps>
-		 <obtiznost>snadné</obtiznost>
+		 <obtiznost>snadnÃ©</obtiznost>
 		 <oblast>kuzely-passing</oblast>
 	</about>
 
 
     <krok>
-			<popisek>Stoupnìte si do tvaru pìtiúhelníku. Jedno místo zùstane prázdné. V¹ichni hází &lt;a href=&quot;4count.html&quot; title=&quot;Základ passování.&quot;&gt;4 count&lt;/a&gt;. První hod je pass.</popisek>
+			<popisek>StoupnÄ›te si do tvaru pÄ›tiÃºhelnÃ­ku. Jedno mÃ­sto zÅ¯stane prÃ¡zdnÃ©. VÅ¡ichni hÃ¡zÃ­ &lt;a href=&quot;4count.html&quot; title=&quot;ZÃ¡klad passovÃ¡nÃ­.&quot;&gt;4 count&lt;/a&gt;. PrvnÃ­ hod je pass.</popisek>
     </krok>
 
     <krok>
 			<obrazek>kuzely-passing-prebihani4z11ka</obrazek>
-			<popisek>®onglér &lt;b&gt;C&lt;/b&gt; zaèíná se dvìma ku¾ely. První pass &lt;b&gt;A&lt;/b&gt; -&gt; &lt;b&gt;C&lt;/b&gt;, &lt;b&gt;B&lt;/b&gt; -&gt; &lt;b&gt;D&lt;/b&gt;, &lt;b&gt;D&lt;/b&gt; -&gt; &lt;b&gt;A&lt;/b&gt;. ®onglér &lt;b&gt;B&lt;/b&gt; má jenom 2 ku¾ely a vyu¾ije to k pøesunu na nové místo.</popisek>
+			<popisek>Å½onglÃ©r &lt;b&gt;C&lt;/b&gt; zaÄÃ­nÃ¡ se dvÄ›ma kuÅ¾ely. PrvnÃ­ pass &lt;b&gt;A&lt;/b&gt; -&gt; &lt;b&gt;C&lt;/b&gt;, &lt;b&gt;B&lt;/b&gt; -&gt; &lt;b&gt;D&lt;/b&gt;, &lt;b&gt;D&lt;/b&gt; -&gt; &lt;b&gt;A&lt;/b&gt;. Å½onglÃ©r &lt;b&gt;B&lt;/b&gt; mÃ¡ jenom 2 kuÅ¾ely a vyuÅ¾ije to k pÅ™esunu na novÃ© mÃ­sto.</popisek>
     </krok>
 
 
     <krok>
 			<obrazek>kuzely-passing-prebihani4z11kb</obrazek>
-			<popisek>&lt;b&gt;D&lt;/b&gt;ruhı pass. &lt;b&gt;B&lt;/b&gt; se dvìma ku¾ely èeká na pass od &lt;b&gt;C&lt;/b&gt;. &lt;b&gt;D&lt;/b&gt; -&gt; &lt;b&gt;A&lt;/b&gt;, &lt;b&gt;A&lt;/b&gt; -&gt; &lt;b&gt;C&lt;/b&gt;. &lt;b&gt;D&lt;/b&gt; zbudou 2 ku¾ely, tak mù¾e pøebìhnout.</popisek>
+			<popisek>&lt;b&gt;D&lt;/b&gt;ruhÃ½ pass. &lt;b&gt;B&lt;/b&gt; se dvÄ›ma kuÅ¾ely ÄekÃ¡ na pass od &lt;b&gt;C&lt;/b&gt;. &lt;b&gt;D&lt;/b&gt; -&gt; &lt;b&gt;A&lt;/b&gt;, &lt;b&gt;A&lt;/b&gt; -&gt; &lt;b&gt;C&lt;/b&gt;. &lt;b&gt;D&lt;/b&gt; zbudou 2 kuÅ¾ely, tak mÅ¯Å¾e pÅ™ebÄ›hnout.</popisek>
     </krok>
 
     <krok>
 			<obrazek>kuzely-passing-prebihani4z11kc</obrazek>
-			<popisek>Pøi tøetím passu hází &lt;b&gt;C&lt;/b&gt; -&gt; &lt;b&gt;B&lt;/b&gt;, &lt;b&gt;B&lt;/b&gt; -&gt; &lt;b&gt;D&lt;/b&gt;, &lt;b&gt;A&lt;/b&gt; -&gt; &lt;b&gt;C&lt;/b&gt;. &lt;b&gt;A&lt;/b&gt; zbudou dva ku¾ely a pøesune se.</popisek>
+			<popisek>PÅ™i tÅ™etÃ­m passu hÃ¡zÃ­ &lt;b&gt;C&lt;/b&gt; -&gt; &lt;b&gt;B&lt;/b&gt;, &lt;b&gt;B&lt;/b&gt; -&gt; &lt;b&gt;D&lt;/b&gt;, &lt;b&gt;A&lt;/b&gt; -&gt; &lt;b&gt;C&lt;/b&gt;. &lt;b&gt;A&lt;/b&gt; zbudou dva kuÅ¾ely a pÅ™esune se.</popisek>
     </krok>
 
     <krok>
-			<popisek>V dal¹ím kroku pøebìhne ¾onglér &lt;b&gt;C&lt;/b&gt; kterému zbudou jen dva ku¾ely. Pak u¾ se cyklus opakuje podle prvního obrázku.</popisek>
+			<popisek>V dalÅ¡Ã­m kroku pÅ™ebÄ›hne Å¾onglÃ©r &lt;b&gt;C&lt;/b&gt; kterÃ©mu zbudou jen dva kuÅ¾ely. Pak uÅ¾ se cyklus opakuje podle prvnÃ­ho obrÃ¡zku.</popisek>
     </krok>
 
 

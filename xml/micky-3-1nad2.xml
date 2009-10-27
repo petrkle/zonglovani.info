@@ -2,70 +2,70 @@
 <trik>
 
     <about>
-	     <nazev>Jeden nad dvìma</nazev>
+	     <nazev>Jeden nad dvÄ›ma</nazev>
 		 <pocet>3</pocet>
 	     <siteswaps>-</siteswaps>
-		 <obtiznost>nároèné</obtiznost>
+		 <obtiznost>nÃ¡roÄnÃ©</obtiznost>
 		 <oblast>micky-3</oblast>
 	</about>
 
 	<krok>
-					<popisek>Kombinace &lt;a href=&quot;sloupy.html&quot; title=&quot;Trik se tøemi míèky.&quot;&gt;sloupù&lt;/a&gt; s &lt;a href=&quot;tenis.html&quot; title=&quot;Trik se tøemi míèky.&quot;&gt;tenisem&lt;/a&gt;. Jeden míèek léta poøád nad dvìma ostatními.</popisek>
+					<popisek>Kombinace &lt;a href=&quot;sloupy.html&quot; title=&quot;Trik se tÅ™emi mÃ­Äky.&quot;&gt;sloupÅ¯&lt;/a&gt; s &lt;a href=&quot;tenis.html&quot; title=&quot;Trik se tÅ™emi mÃ­Äky.&quot;&gt;tenisem&lt;/a&gt;. Jeden mÃ­Äek lÃ©ta poÅ™Ã¡d nad dvÄ›ma ostatnÃ­mi.</popisek>
     </krok>
 
     <krok>
         <obrazek>tenissloupya</obrazek>
-        <popisek>První a druhı míèek vyhoï rovnì nahoru.</popisek>
+        <popisek>PrvnÃ­ a druhÃ½ mÃ­Äek vyhoÄ rovnÄ› nahoru.</popisek>
     </krok>
 
     <krok>
         <obrazek>tenissloupyb</obrazek>
-        <popisek>Tøetí míèek vyhoï obloukem nad první a druhı.</popisek>
+        <popisek>TÅ™etÃ­ mÃ­Äek vyhoÄ obloukem nad prvnÃ­ a druhÃ½.</popisek>
     </krok>
 
     <krok>
         <obrazek>tenissloupyc</obrazek>
-        <popisek>Zatím co tøetí míèek letí zachytí¹ první a druhı míèek.</popisek>
+        <popisek>ZatÃ­m co tÅ™etÃ­ mÃ­Äek letÃ­ zachytÃ­Å¡ prvnÃ­ a druhÃ½ mÃ­Äek.</popisek>
     </krok>
 
     <krok>
         <obrazek>tenissloupyd</obrazek>
-        <popisek>Kdy¾ jsou první a druhı míèek opìt ve vzduchu zachytí¹ do levé ruky tøetí míèek. Tøetí míèek hodí¹ horním obloukem zpìt do pravé ruky.</popisek>
+        <popisek>KdyÅ¾ jsou prvnÃ­ a druhÃ½ mÃ­Äek opÄ›t ve vzduchu zachytÃ­Å¡ do levÃ© ruky tÅ™etÃ­ mÃ­Äek. TÅ™etÃ­ mÃ­Äek hodÃ­Å¡ hornÃ­m obloukem zpÄ›t do pravÃ© ruky.</popisek>
     </krok>
 
 		<krok>
-			<nadpis>Polovièní oblouk</nadpis>
+			<nadpis>PoloviÄnÃ­ oblouk</nadpis>
     </krok>
 
     <krok>
-        <popisek>V dal¹í obmìnì jeden míèek pøehazuje¹ postupnì nad dvìma zbıvajícími.</popisek>
+        <popisek>V dalÅ¡Ã­ obmÄ›nÄ› jeden mÃ­Äek pÅ™ehazujeÅ¡ postupnÄ› nad dvÄ›ma zbÃ½vajÃ­cÃ­mi.</popisek>
     </krok>
 
 
     <krok>
         <obrazek>sloupyf</obrazek>
-        <popisek>Vyhoï první a druhı míèek rovnì nahoru. Kdy¾ jsou na vrcholu dráhy vyhoï tøetí míèek zprava vysokım obloukem nad první míèek.</popisek>
+        <popisek>VyhoÄ prvnÃ­ a druhÃ½ mÃ­Äek rovnÄ› nahoru. KdyÅ¾ jsou na vrcholu drÃ¡hy vyhoÄ tÅ™etÃ­ mÃ­Äek zprava vysokÃ½m obloukem nad prvnÃ­ mÃ­Äek.</popisek>
     </krok>
 
     <krok>
         <obrazek>sloupyg</obrazek>
-        <popisek>Tøetí míèek míøí zhruba doprostøed mezi tvé ruce. Vyhoï první a druhı míèek rovnì nahoru.</popisek>
+        <popisek>TÅ™etÃ­ mÃ­Äek mÃ­Å™Ã­ zhruba doprostÅ™ed mezi tvÃ© ruce. VyhoÄ prvnÃ­ a druhÃ½ mÃ­Äek rovnÄ› nahoru.</popisek>
     </krok>
 
     <krok>
         <obrazek>sloupyh</obrazek>
-        <popisek>Tøetí míèek zachytí¹ do pravé ruky a opìt vysokım oblouèkem ho vyhodí¹ vlevo nad druhı míèek.</popisek>
+        <popisek>TÅ™etÃ­ mÃ­Äek zachytÃ­Å¡ do pravÃ© ruky a opÄ›t vysokÃ½m oblouÄkem ho vyhodÃ­Å¡ vlevo nad druhÃ½ mÃ­Äek.</popisek>
     </krok>
 
     <krok>
         <obrazek>sloupyi</obrazek>
-        <popisek>Vyhoï první a druhı míèek rovnì nahoru. Tøetí míèek zachytí¹ do levé ruky. Pak se tøetí míèek vrací po stejné dráze zpìt.</popisek>
+        <popisek>VyhoÄ prvnÃ­ a druhÃ½ mÃ­Äek rovnÄ› nahoru. TÅ™etÃ­ mÃ­Äek zachytÃ­Å¡ do levÃ© ruky. Pak se tÅ™etÃ­ mÃ­Äek vracÃ­ po stejnÃ© drÃ¡ze zpÄ›t.</popisek>
     </krok>
 
 
 
     <krok>
-			<popisek>Dal¹ím podobnım trikem jsou &lt;a href=&quot;1okolo2.html&quot; title=&quot;Podobnı trik se tøemi míèky.&quot;&gt;jeden okolo dvou&lt;/a&gt; a &lt;a href=&quot;1mezi2.html&quot; title=&quot;Podobnı trik se tøemi míèky.&quot;&gt;jeden mezi dvìma&lt;/a&gt;.</popisek>
+			<popisek>DalÅ¡Ã­m podobnÃ½m trikem jsou &lt;a href=&quot;1okolo2.html&quot; title=&quot;PodobnÃ½ trik se tÅ™emi mÃ­Äky.&quot;&gt;jeden okolo dvou&lt;/a&gt; a &lt;a href=&quot;1mezi2.html&quot; title=&quot;PodobnÃ½ trik se tÅ™emi mÃ­Äky.&quot;&gt;jeden mezi dvÄ›ma&lt;/a&gt;.</popisek>
     </krok>
 
 </trik>

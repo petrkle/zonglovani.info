@@ -1,31 +1,31 @@
-<h3><a href="http://www.zonglovanie.sk/zonglovanie.pdf" title="Základy ¾onglování s míèky." class="external" onclick="pageTracker._trackPageview('/goto/zonglovanie.sk/zonglovanie.pdf');">®onglovanie pre samoukov</a></h3>
+<h3><a href="http://www.zonglovanie.sk/zonglovanie.pdf" title="ZÃ¡klady Å¾onglovÃ¡nÃ­ s mÃ­Äky." class="external" onclick="pageTracker._trackPageview('/goto/zonglovanie.sk/zonglovanie.pdf');">Å½onglovanie pre samoukov</a></h3>
 <p>
-<a href="http://www.zonglovanie.sk/zonglovanie.pdf" title="Základy ¾onglování s míèky." onclick="pageTracker._trackPageview('/goto/zonglovanie.sk/zonglovanie.pdf');">{obrazek soubor="zonglovanie-pre-samoukov.gif" popisek="®onglovanie pre samoukov - obálka"}</a>
-Základní pøíruèka ka¾dého ¾ongléra. Napsal Palo Blaho.
+<a href="http://www.zonglovanie.sk/zonglovanie.pdf" title="ZÃ¡klady Å¾onglovÃ¡nÃ­ s mÃ­Äky." onclick="pageTracker._trackPageview('/goto/zonglovanie.sk/zonglovanie.pdf');">{obrazek soubor="zonglovanie-pre-samoukov.gif" popisek="Å½onglovanie pre samoukov - obÃ¡lka"}</a>
+ZÃ¡kladnÃ­ pÅ™Ã­ruÄka kaÅ¾dÃ©ho Å¾onglÃ©ra. Napsal Palo Blaho.
 </p>
 
-<h3><a href="http://www.butterfingers.co.uk" title="Stránky vydavatele." class="external" onclick="pageTracker._trackPageview('/goto/butterfingers.co.uk');">The Encyclopaedia of Ball Juggling</a></h3>
+<h3><a href="http://www.butterfingers.co.uk" title="StrÃ¡nky vydavatele." class="external" onclick="pageTracker._trackPageview('/goto/butterfingers.co.uk');">The Encyclopaedia of Ball Juggling</a></h3>
 <p>
-<a href="http://www.butterfingers.co.uk" title="Stránky vydavatele." onclick="pageTracker._trackPageview('/goto/butterfingers.co.uk');">{obrazek soubor="encyclopaedia.jpg" popisek="The Encyclopaedia of Ball Juggling - obálka"}</a>
-Vıborná kní¾ka o ¾onglování s míèky od Carlieho Dancey. Obsahuje spoustou pìknıch obrázkù, díky tomu nemusí¹ ani umìt anglicky a pøesto témìø v¹e pochopí¹. Je vhodná pro zaèáteèníky i pokroèilé.
+<a href="http://www.butterfingers.co.uk" title="StrÃ¡nky vydavatele." onclick="pageTracker._trackPageview('/goto/butterfingers.co.uk');">{obrazek soubor="encyclopaedia.jpg" popisek="The Encyclopaedia of Ball Juggling - obÃ¡lka"}</a>
+VÃ½bornÃ¡ knÃ­Å¾ka o Å¾onglovÃ¡nÃ­ s mÃ­Äky od Carlieho Dancey. Obsahuje spoustou pÄ›knÃ½ch obrÃ¡zkÅ¯, dÃ­ky tomu nemusÃ­Å¡ ani umÄ›t anglicky a pÅ™esto tÃ©mÄ›Å™ vÅ¡e pochopÃ­Å¡. Je vhodnÃ¡ pro zaÄÃ¡teÄnÃ­ky i pokroÄilÃ©.
 </p>
 	
 
-<h3><a href="http://www.butterfingers.co.uk" title="Stránky vydavatele." class="external" onclick="pageTracker._trackPageview('/goto/butterfingers.co.uk');">Compendium of Club Juggling</a></h3>
+<h3><a href="http://www.butterfingers.co.uk" title="StrÃ¡nky vydavatele." class="external" onclick="pageTracker._trackPageview('/goto/butterfingers.co.uk');">Compendium of Club Juggling</a></h3>
 <p>
-<a href="http://www.butterfingers.co.uk" title="Stránky vydavatele." onclick="pageTracker._trackPageview('/goto/butterfingers.co.uk');">{obrazek soubor="compendium.jpg" popisek="Compendium of Club Juggling - obálka"}</a>
-Napsal Charlie Dancey. V této kní¾ce je v¹e o ¾onglování s ku¾ely. Obsahuje spoustou pìknıch obrázkù, díky tomu nemusí¹ ani umìt anglicky a pøesto témìø v¹e pochopí¹. Vhodné pro zaèáteèníky i pokroèilé.
+<a href="http://www.butterfingers.co.uk" title="StrÃ¡nky vydavatele." onclick="pageTracker._trackPageview('/goto/butterfingers.co.uk');">{obrazek soubor="compendium.jpg" popisek="Compendium of Club Juggling - obÃ¡lka"}</a>
+Napsal Charlie Dancey. V tÃ©to knÃ­Å¾ce je vÅ¡e o Å¾onglovÃ¡nÃ­ s kuÅ¾ely. Obsahuje spoustou pÄ›knÃ½ch obrÃ¡zkÅ¯, dÃ­ky tomu nemusÃ­Å¡ ani umÄ›t anglicky a pÅ™esto tÃ©mÄ›Å™ vÅ¡e pochopÃ­Å¡. VhodnÃ© pro zaÄÃ¡teÄnÃ­ky i pokroÄilÃ©.
 </p>
 	
-<h3><a href="http://www.circusplanet.net/addicted/addicted-hans-vanwynsberghe.pdf" title="®onglování s míèky a ku¾ely." class="external" onclick="pageTracker._trackPageview('/goto/circusplanet.net/addicted/addicted-hans-vanwynsberghe.pdf');">Addicted to ball and club juggling</a></h3>
+<h3><a href="http://www.circusplanet.net/addicted/addicted-hans-vanwynsberghe.pdf" title="Å½onglovÃ¡nÃ­ s mÃ­Äky a kuÅ¾ely." class="external" onclick="pageTracker._trackPageview('/goto/circusplanet.net/addicted/addicted-hans-vanwynsberghe.pdf');">Addicted to ball and club juggling</a></h3>
 <p>
-<a href="http://www.circusplanet.net/addicted/addicted-hans-vanwynsberghe.pdf" title="Addicted to ball and club juggling" onclick="pageTracker._trackPageview('/goto/circusplanet.net/addicted/addicted-hans-vanwynsberghe.pdf');">{obrazek soubor="addicted.gif" popisek="Addicted to ball and club juggling - obálka"}</a>
-Anglická kní¾ka kterou sepsal Hans Vanwynsberghe. Nedokonèená, ale i pøesto vıborná.
+<a href="http://www.circusplanet.net/addicted/addicted-hans-vanwynsberghe.pdf" title="Addicted to ball and club juggling" onclick="pageTracker._trackPageview('/goto/circusplanet.net/addicted/addicted-hans-vanwynsberghe.pdf');">{obrazek soubor="addicted.gif" popisek="Addicted to ball and club juggling - obÃ¡lka"}</a>
+AnglickÃ¡ knÃ­Å¾ka kterou sepsal Hans Vanwynsberghe. NedokonÄenÃ¡, ale i pÅ™esto vÃ½bornÃ¡.
 </p>
 
-<a name="poi"></a><h3><a href="/poi-richee.pdf" title="Toèení s poi." onclick="pageTracker._trackPageview('/poi-richee.pdf');">Poi</a></h3>
+<a name="poi"></a><h3><a href="/poi-richee.pdf" title="ToÄenÃ­ s poi." onclick="pageTracker._trackPageview('/poi-richee.pdf');">Poi</a></h3>
 <p>
-<a href="/poi-richee.pdf" title="Poi" onclick="pageTracker._trackPageview('/poi-richee.pdf');">{obrazek soubor="poi.png" popisek="Poi - úvod"}</a>
-Kní¾ka o toèení s poi od Richeeho.
+<a href="/poi-richee.pdf" title="Poi" onclick="pageTracker._trackPageview('/poi-richee.pdf');">{obrazek soubor="poi.png" popisek="Poi - Ãºvod"}</a>
+KnÃ­Å¾ka o toÄenÃ­ s poi od Richeeho.
 </p>
 

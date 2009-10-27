@@ -1,6 +1,6 @@
 <?php
 
-$mesice=array ('Leden','Únor','Bøezen','Duben','Kvìten','Èerven','Èervenec','Srpen','Záøí','Øíjen','Listopad','Prosinec');
+$mesice=array ('Leden','Ãšnor','BÅ™ezen','Duben','KvÄ›ten','ÄŒerven','ÄŒervenec','Srpen','ZÃ¡Å™Ã­','Å˜Ã­jen','Listopad','Prosinec');
 
 require_once CALENDAR_ROOT.'Calendar.php';
 require_once CALENDAR_ROOT.'Month.php';
@@ -62,7 +62,7 @@ class MonthPayload_Decorator extends Calendar_Decorator {
     }
 }
 
-function get_event_data($id,$storage=CALENDAR_DATA,$charset="iso-8859-2"){
+function get_event_data($id,$storage=CALENDAR_DATA){
 			$udalost=array();
 			$navrat=false;
 	if(is_readable($storage."/".$id)){
@@ -81,7 +81,7 @@ function get_event_data($id,$storage=CALENDAR_DATA,$charset="iso-8859-2"){
 				$radek=trim($radek);
 				$zac=strpos($radek,":");
 				$prop=substr($radek,0,$zac);
-				$value=iconv("iso-8859-2",$charset,substr($radek,$zac+1));
+				$value=substr($radek,$zac+1);
 				$udalost[$prop]=$value;
 			}
 
@@ -182,74 +182,74 @@ function event_validation($udalost,$now){
 	$chyby=array();
 
 	if(strlen($udalost["title"])<3){
-		array_push($chyby,"Název není zadán, nebo je pøíli¹ krátkı.");
+		array_push($chyby,"NÃ¡zev nenÃ­ zadÃ¡n, nebo je pÅ™Ã­liÅ¡ krÃ¡tkÃ½.");
 	}
 
 	if(strlen($udalost["title"])>100){
-		array_push($chyby,"Název je pøíli¹ dlouhı.");
+		array_push($chyby,"NÃ¡zev je pÅ™Ã­liÅ¡ dlouhÃ½.");
 	}
 	
 	if(strlen($udalost["desc"])<3){
-		array_push($chyby,"Popis není zadán, nebo je pøíli¹ krátkı.");
+		array_push($chyby,"Popis nenÃ­ zadÃ¡n, nebo je pÅ™Ã­liÅ¡ krÃ¡tkÃ½.");
 	}
 
 	if(strlen($udalost["desc"])>3000){
-		array_push($chyby,"Popis je pøíli¹ dlouhı.");
+		array_push($chyby,"Popis je pÅ™Ã­liÅ¡ dlouhÃ½.");
 	}
 
 	if(strlen($udalost["misto"])<2){
-		array_push($chyby,"Místo není zadané, nebo je pøíli¹ krátké.");
+		array_push($chyby,"MÃ­sto nenÃ­ zadanÃ©, nebo je pÅ™Ã­liÅ¡ krÃ¡tkÃ©.");
 	}
 
 	if(strlen($udalost["misto"])>200200){
-		array_push($chyby,"Místo je pøíli¹ dlouhé.");
+		array_push($chyby,"MÃ­sto je pÅ™Ã­liÅ¡ dlouhÃ©.");
 	}
 
 	if(!ereg("^[0-9]{4}-[0-9]{2}-[0-9]{2} [0-9]{2}:[0-9]{2}$",$udalost["zacatek"])){
-		array_push($chyby,"©patnı formát zaèátku události.");
+		array_push($chyby,"Å patnÃ½ formÃ¡t zaÄÃ¡tku udÃ¡losti.");
 		$zacatek_time=false;
 	}else{
 			$zacatek_time=strtotime($udalost["zacatek"]);
 
 			if($zacatek_time>$now+3600*24*365){
-				array_push($chyby,"Zaèátek události za víc jak jeden rok.");
+				array_push($chyby,"ZaÄÃ¡tek udÃ¡losti za vÃ­c jak jeden rok.");
 			}
 	}
 
 	if(strlen($udalost["url"])>0 and !eregi("^http://",$udalost["url"])){
-		array_push($chyby,"©patnı formát odkazu.");
+		array_push($chyby,"Å patnÃ½ formÃ¡t odkazu.");
 	}
 
 	if(strlen($udalost["mapa"])>0 and !eregi("^http://",$udalost["mapa"])){
-		array_push($chyby,"©patnı formát odkazu na mapu.");
+		array_push($chyby,"Å patnÃ½ formÃ¡t odkazu na mapu.");
 	}
 
 	if(!ereg("^[0-9]{4}-[0-9]{2}-[0-9]{2} [0-9]{2}:[0-9]{2}$",$udalost["konec"])){
-		array_push($chyby,"©patnı formát konce události.");
+		array_push($chyby,"Å patnÃ½ formÃ¡t konce udÃ¡losti.");
 		$konec_time=false;
 	}else{
 		$konec_time=strtotime($udalost["konec"]);
 		
 		if($konec_time<$now){
-				array_push($chyby,"Konec události je v minulosti.");
+				array_push($chyby,"Konec udÃ¡losti je v minulosti.");
 			}
 
 			if($konec_time>$now+3600*24*365){
-				array_push($chyby,"Konec události za víc jak jeden rok.");
+				array_push($chyby,"Konec udÃ¡losti za vÃ­c jak jeden rok.");
 			}
 	}
 
 	if($zacatek_time and $konec_time){
 		if($zacatek_time==$konec_time){
-				array_push($chyby,"Událost musí mít nìjakou délku.");
+				array_push($chyby,"UdÃ¡lost musÃ­ mÃ­t nÄ›jakou dÃ©lku.");
 		}
 	
 		if($zacatek_time>$konec_time){
-				array_push($chyby,"Událost konèí døív ne¾ zaèíná.");
+				array_push($chyby,"UdÃ¡lost konÄÃ­ dÅ™Ã­v neÅ¾ zaÄÃ­nÃ¡.");
 		}
 
 		if(($konec_time-$zacatek_time)>3600*24*30){
-				array_push($chyby,"Událost je pøíli¹ dlouhá.");
+				array_push($chyby,"UdÃ¡lost je pÅ™Ã­liÅ¡ dlouhÃ¡.");
 		}
 	}
 

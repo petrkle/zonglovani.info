@@ -2,7 +2,7 @@
 require('../init.php');
 require('../func.php');
 
-$smarty->assign('titulek','®onglování v Ulitì');
+$smarty->assign('titulek','Å½onglovÃ¡nÃ­ v UlitÄ›');
 
 $podzim=array();
 $jaro=array();

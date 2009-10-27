@@ -11,9 +11,9 @@
 {if !isset($smarty.session.logged)}
 <p>
 <fieldset>
-<legend>Odesílatel</legend>
+<legend>OdesÃ­latel</legend>
 <ul>
-<li><label for="email" accesskey="e" class="kratkypopis" ><u>E</u>-mail:</label><input type="text" name="email" id="email" value="{$email|escape}" class="textbox" tabindex="2" /><a class="info" href="#">?<span class="tooltip">Tvoje adresa elektronické po¹ty. Napø.: kdosi@kdesi.cz</span></a></li>
+<li><label for="email" accesskey="e" class="kratkypopis" ><u>E</u>-mail:</label><input type="text" name="email" id="email" value="{$email|escape}" class="textbox" tabindex="2" /><a class="info" href="#">?<span class="tooltip">Tvoje adresa elektronickÃ© poÅ¡ty. NapÅ™.: kdosi@kdesi.cz</span></a></li>
 </ul>
 </fieldset>
 </p>
@@ -32,7 +32,7 @@
 <fieldset>
 <legend>Kon<u>t</u>rola spamu</legend>
 <ul>
-<li><label for="antispam" class="kratkypopis">{$antispam_otazka}:</label><input type="text" name="antispam" id="antispam" accesskey="t" tabindex="4" class="textbox" /><a class="info" href="#">?<span class="tooltip">Odpovìï na jednoduchou otázku slou¾í k odli¹ení lidí od robotù kteøí posílají spam. Odpovìï napi¹ èíslicí.</span></a></li>
+<li><label for="antispam" class="kratkypopis">{$antispam_otazka}:</label><input type="text" name="antispam" id="antispam" accesskey="t" tabindex="4" class="textbox" /><a class="info" href="#">?<span class="tooltip">OdpovÄ›Ä na jednoduchou otÃ¡zku slouÅ¾Ã­ k odliÅ¡enÃ­ lidÃ­ od robotÅ¯ kteÅ™Ã­ posÃ­lajÃ­ spam. OdpovÄ›Ä napiÅ¡ ÄÃ­slicÃ­.</span></a></li>
 </ul>
 </fieldset>
 </p>

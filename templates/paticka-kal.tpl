@@ -5,7 +5,7 @@
 
 <div id="menu">
 
-<ul><li><h4><a href="/kalendar">Kalendáø</a></h4></li></ul>
+<ul><li><h4><a href="/kalendar">KalendÃ¡Å™</a></h4></li></ul>
 
 </div>
 
@@ -14,7 +14,7 @@
 
 
 <div class="spacer"></div>
-<!-- stránka konec -->
+<!-- strÃ¡nka konec -->
 </div>
 
 

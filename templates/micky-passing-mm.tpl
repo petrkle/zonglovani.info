@@ -1,39 +1,39 @@
 <p>
-Trik pro dva ¾ongléry a pìt míèkù. Pøedpokladem je, ¾e oba umíte <a href="3/mm.html" title="Trik se tøemi míèky">mills' mess</a>.
+Trik pro dva Å¾onglÃ©ry a pÄ›t mÃ­ÄkÅ¯. PÅ™edpokladem je, Å¾e oba umÃ­te <a href="3/mm.html" title="Trik se tÅ™emi mÃ­Äky">mills' mess</a>.
 </p>
 
 <p>
 {obrazek soubor="micky-passingmma.png" popisek=""}
-Dva ¾ongléøi stojí vedle sebe. ¾onglér <b>A</b> má dva míèky v pravé ruce. V levé jeden. ®onglér <b>B</b> má v ka¾dé ruce jeden míèek. Oba mají ¾køí¾ené ruce. Levou pod pravou.
+Dva Å¾onglÃ©Å™i stojÃ­ vedle sebe. Å¾onglÃ©r <b>A</b> mÃ¡ dva mÃ­Äky v pravÃ© ruce. V levÃ© jeden. Å½onglÃ©r <b>B</b> mÃ¡ v kaÅ¾dÃ© ruce jeden mÃ­Äek. Oba majÃ­ Å¾kÅ™Ã­Å¾enÃ© ruce. Levou pod pravou.
 </p>
 
 
 <p>
 {obrazek soubor="micky-passingmmb.png" popisek=""}
-®onglér <b>A</b> hodí první míèek z levé ruky na pravou stranu ¾ongléra <b>B</b>. Oba synchronì pøendáváte ruce.
+Å½onglÃ©r <b>A</b> hodÃ­ prvnÃ­ mÃ­Äek z levÃ© ruky na pravou stranu Å¾onglÃ©ra <b>B</b>. Oba synchronÄ› pÅ™endÃ¡vÃ¡te ruce.
 </p>
 
 
 <p>
 {obrazek soubor="micky-passingmmc.png" popisek=""}
-®onglér <b>B</b> pøi pøekøi¾ování rukou vyhodí druhı míèek. Mù¾e tak chytit míèek hozenı ¾onglérem <b>A</b>.
+Å½onglÃ©r <b>B</b> pÅ™i pÅ™ekÅ™iÅ¾ovÃ¡nÃ­ rukou vyhodÃ­ druhÃ½ mÃ­Äek. MÅ¯Å¾e tak chytit mÃ­Äek hozenÃ½ Å¾onglÃ©rem <b>A</b>.
 </p>
 
 <p>
 {obrazek soubor="micky-passingmmd.png" popisek=""}
-<b>B</b>&nbsp;há¾e tøetí míèek z levé ruky na levou stranu ¾ongléra <b>A</b>.
+<b>B</b>&nbsp;hÃ¡Å¾e tÅ™etÃ­ mÃ­Äek z levÃ© ruky na levou stranu Å¾onglÃ©ra <b>A</b>.
 </p>
 
 <p>
 {obrazek soubor="micky-passingmme.png" popisek=""}
-Zatímco míèek letí, oba ¾ongléøi synchronizovanì mìní polohu rukou.
+ZatÃ­mco mÃ­Äek letÃ­, oba Å¾onglÃ©Å™i synchronizovanÄ› mÄ›nÃ­ polohu rukou.
 </p>
 
 <p>
 {obrazek soubor="micky-passingmmf.png" popisek=""}
-Oba ¾ongléøi mají opìt zkøí¾ené ruce. Pravou pod levou. ®onglér <b>A</b> vyhodí míèek z levé ruky nahoru, pøekøí¾í ruce a do pravé ruky chytá míèek kterı hodil ¾onglér <b>B</b>.
+Oba Å¾onglÃ©Å™i majÃ­ opÄ›t zkÅ™Ã­Å¾enÃ© ruce. Pravou pod levou. Å½onglÃ©r <b>A</b> vyhodÃ­ mÃ­Äek z levÃ© ruky nahoru, pÅ™ekÅ™Ã­Å¾Ã­ ruce a do pravÃ© ruky chytÃ¡ mÃ­Äek kterÃ½ hodil Å¾onglÃ©r <b>B</b>.
 </p>
 
 <p>
-Dal¹í hod ¾ongléra <b>A</b> z pravé ruky bude pass.
+DalÅ¡Ã­ hod Å¾onglÃ©ra <b>A</b> z pravÃ© ruky bude pass.
 </p>

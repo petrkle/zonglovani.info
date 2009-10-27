@@ -2,16 +2,16 @@
 <li>{$smarty.server.SERVER_NAME}{$smarty.server.REQUEST_URI}</li>
 </ul>
 <p>
-Je mi líto, po¾adovaná stránka se bohu¾el v ¾onglérovì slabikáøi nenachází. Patrnì byla odstranìna, pøemístìna nebo pøejmenována. Prùbì¾nì dochází k drobnım úpravám a je proto mo¾né, ¾e nìkteré vnìj¹í odkazy nyní nefungují.
+Je mi lÃ­to, poÅ¾adovanÃ¡ strÃ¡nka se bohuÅ¾el v Å¾onglÃ©rovÄ› slabikÃ¡Å™i nenachÃ¡zÃ­. PatrnÄ› byla odstranÄ›na, pÅ™emÃ­stÄ›na nebo pÅ™ejmenovÃ¡na. PrÅ¯bÄ›Å¾nÄ› dochÃ¡zÃ­ k drobnÃ½m ÃºpravÃ¡m a je proto moÅ¾nÃ©, Å¾e nÄ›kterÃ© vnÄ›jÅ¡Ã­ odkazy nynÃ­ nefungujÃ­.
 </p>
-	<p>Pomoci vám mù¾e následující:
+	<p>Pomoci vÃ¡m mÅ¯Å¾e nÃ¡sledujÃ­cÃ­:
 	<ul>
-		<li>Pokud jsi napsal adresu do prohlí¾eèe ruènì, zkontroluj pøeklepy.</li>
-		<li>Pøejdi na <a href="/" title="Úvodní stránka ¾onglérova slabikáøe.">úvodní stránku ¾onglérova slabikáøe</a> a dál pokraèuj odtud.</li>
-		<li>Pou¾ij <a href="/mapa-stranek.html" title="Mapa stránek">mapu stránek</a>, tj. seznam v¹ech stránek na serveru.</li>
-		<li>Zkus stránku najít pomocí <a href="{$smarty.const.SEARCH_URL}" title="Prohledávání ¾onglérova slabikáøe.">vyhledavani</a>.</li>
+		<li>Pokud jsi napsal adresu do prohlÃ­Å¾eÄe ruÄnÄ›, zkontroluj pÅ™eklepy.</li>
+		<li>PÅ™ejdi na <a href="/" title="ÃšvodnÃ­ strÃ¡nka Å¾onglÃ©rova slabikÃ¡Å™e.">ÃºvodnÃ­ strÃ¡nku Å¾onglÃ©rova slabikÃ¡Å™e</a> a dÃ¡l pokraÄuj odtud.</li>
+		<li>PouÅ¾ij <a href="/mapa-stranek.html" title="Mapa strÃ¡nek">mapu strÃ¡nek</a>, tj. seznam vÅ¡ech strÃ¡nek na serveru.</li>
+		<li>Zkus strÃ¡nku najÃ­t pomocÃ­ <a href="{$smarty.const.SEARCH_URL}" title="ProhledÃ¡vÃ¡nÃ­ Å¾onglÃ©rova slabikÃ¡Å™e.">vyhledavani</a>.</li>
 	</ul>
 	
 	</p>	
 
-<p>Chybové hlá¹ení: <strong>HTTP 404 [Page Not Found]</strong></p>
+<p>ChybovÃ© hlÃ¡Å¡enÃ­: <strong>HTTP 404 [Page Not Found]</strong></p>

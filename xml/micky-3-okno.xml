@@ -2,34 +2,34 @@
 <trik>
 
     <about>
-	     <nazev>Chrámové okno</nazev>
+	     <nazev>ChrÃ¡movÃ© okno</nazev>
 		 <pocet>3</pocet>
 	     <siteswaps>-</siteswaps>
-		 <obtiznost>nároèné</obtiznost>
+		 <obtiznost>nÃ¡roÄnÃ©</obtiznost>
 		 <oblast>micky-3</oblast>
 	</about>
 
 	<krok>
-		<popisek>Pøi tomto triku míèky létají vysokım úzkım obloukem, kterı pøipomíná obrys chrámového okna.</popisek>
+		<popisek>PÅ™i tomto triku mÃ­Äky lÃ©tajÃ­ vysokÃ½m ÃºzkÃ½m obloukem, kterÃ½ pÅ™ipomÃ­nÃ¡ obrys chrÃ¡movÃ©ho okna.</popisek>
 	</krok>
 
 	<krok>
 		<obrazek>oknoa</obrazek>
-    <popisek>První míèek vyhoï doprostøed nahoru.</popisek>
+    <popisek>PrvnÃ­ mÃ­Äek vyhoÄ doprostÅ™ed nahoru.</popisek>
   </krok>
 
 	<krok>
         <obrazek>oknob</obrazek>
-				<popisek>Kdy¾ zaène první míèek padat vyhoï zároveò druhı a tøetí míèek. Míèky letí vysokım obloukem a minou se nad sebou.</popisek>
+				<popisek>KdyÅ¾ zaÄne prvnÃ­ mÃ­Äek padat vyhoÄ zÃ¡roveÅˆ druhÃ½ a tÅ™etÃ­ mÃ­Äek. MÃ­Äky letÃ­ vysokÃ½m obloukem a minou se nad sebou.</popisek>
     </krok>
 
     <krok>
         <obrazek>oknoc</obrazek>
-				<popisek>Zatím co se druhı a tøetí míèek míjí ve vzduchu, zachy» a opìt vyhoï první míèek. První míèek mù¾e¹ chytat støídavì pravou a levou rukou.</popisek>
+				<popisek>ZatÃ­m co se druhÃ½ a tÅ™etÃ­ mÃ­Äek mÃ­jÃ­ ve vzduchu, zachyÅ¥ a opÄ›t vyhoÄ prvnÃ­ mÃ­Äek. PrvnÃ­ mÃ­Äek mÅ¯Å¾eÅ¡ chytat stÅ™Ã­davÄ› pravou a levou rukou.</popisek>
     </krok>
 
     <krok>
-			<popisek>Dál pokraèuj jako na posledních dvou obrázcích. Kdy¾ pøidá¹ je¹tì jeden míèek vznikne &lt;a href=&quot;../4/destnik.html&quot; title=&quot;Trik se ètyømi míèky.&quot;&gt;de¹tník&lt;/a&gt;.</popisek>
+			<popisek>DÃ¡l pokraÄuj jako na poslednÃ­ch dvou obrÃ¡zcÃ­ch. KdyÅ¾ pÅ™idÃ¡Å¡ jeÅ¡tÄ› jeden mÃ­Äek vznikne &lt;a href=&quot;../4/destnik.html&quot; title=&quot;Trik se ÄtyÅ™mi mÃ­Äky.&quot;&gt;deÅ¡tnÃ­k&lt;/a&gt;.</popisek>
     </krok>
 
 </trik>

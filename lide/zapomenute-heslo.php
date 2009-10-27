@@ -2,7 +2,7 @@
 require('../init.php');
 require('../func.php');
 
-$smarty->assign("titulek","Zapomenuté heslo");
+$smarty->assign("titulek","ZapomenutÃ© heslo");
 
 
 if(isset($_GET["send"])){
@@ -41,21 +41,21 @@ if(isset($_POST["odeslat"])){
 
 
 if(!eregi("^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$",$email)){
-	array_push($chyby,"Neplatnı e-mail.");
+	array_push($chyby,"NeplatnÃ½ e-mail.");
 }else{
 	if(!is_zs_email($email)){
-		array_push($chyby,"Úèet s tímto e-mailem nebyl nalezen.");
+		array_push($chyby,"ÃšÄet s tÃ­mto e-mailem nebyl nalezen.");
 	}else{
 		$uzivatel=get_user_props(email2login($email));
 		if($uzivatel["status"]!="ok"){
-			array_push($chyby,"Heslo pro úèet s tímto e-mailem nelze obnovit.");
+			array_push($chyby,"Heslo pro ÃºÄet s tÃ­mto e-mailem nelze obnovit.");
 		}
 	}
 }
 
 
 	if($odpoved!=$_SESSION["antispam_odpoved"]){
-		array_push($chyby,"©patná odpovìï na kontrolní otázku.");
+		array_push($chyby,"Å patnÃ¡ odpovÄ›Ä na kontrolnÃ­ otÃ¡zku.");
 		$antispam=get_antispam();
 		$_SESSION["antispam_otazka"]=$antispam[0];
 		$_SESSION["antispam_odpoved"]=$antispam[1];
@@ -75,24 +75,24 @@ if(!eregi("^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$
 		fclose($foo);
 
 		$to = $uzivatel["email"];
-		$subject = "=?iso-8859-2?Q?".preg_replace("/=\r\n/","",quoted_printable_encode("Obnovení hesla"))."?=";
+		$subject = "=?utf-8?Q?".preg_replace("/=\r\n/","",quoted_printable_encode("ObnovenÃ­ hesla"))."?=";
 
 		$headers = 'Return-Path: robot@zonglovani.info' . "\r\n" .
     'From: robot@zonglovani.info' . "\r\n" .
     'Reply-To: robot@zonglovani.info' . "\r\n" .
-    'Content-Type: text/plain; charset=iso-8859-2' . "\r\n" .
+    'Content-Type: text/plain; charset=utf-8' . "\r\n" .
     'Content-Transfer-Encoding: quoted-printable' . "\r\n" .
     'Precedence: bulk';
 $message = 'Ahoj,
 
-pro obnovení hesla v ¾onglérovì slabikáøi klikni na tento odkaz:
+pro obnovenÃ­ hesla v Å¾onglÃ©rovÄ› slabikÃ¡Å™i klikni na tento odkaz:
 
 http://'.$_SERVER["SERVER_NAME"].LIDE_URL.'obnova-hesla.php?m='.$uzivatel["email"].'&k='.$key.'
 
-Odkaz platí do: '.date("j. n. Y G.i",(time()+TIMEOUT_RESET_PASSWD)).'
+Odkaz platÃ­ do: '.date("j. n. Y G.i",(time()+TIMEOUT_RESET_PASSWD)).'
 
 -- 
-Petr Kleteèka
+Petr KleteÄka
 
 admin@zonglovani.info
 http://zonglovani.info/kontakt.html

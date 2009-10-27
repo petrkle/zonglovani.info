@@ -13,41 +13,41 @@
 {/if}
 <p>
 <fieldset>
-<legend accesskey="i">Základní <u>i</u>nformace</legend>
+<legend accesskey="i">ZÃ¡kladnÃ­ <u>i</u>nformace</legend>
 <ul>
-<li><label class="kratkypopis" for="nazev" accesskey="n" ><u>N</u>ázev</label>:<input type="text" name="title" id="nazev" value="{$udalost.title|escape}" class="textbox" tabindex="1"/><a class="info" href="#">?<span class="tooltip">Název akce. Délka od 3 do 100 zankù.</span></a></li>
-<li><label class="kratkypopis" for="popis" accesskey="p" ><u>P</u>opis</label>:<input type="text" name="desc" id="popis" value="{$udalost.desc|escape}" class="textbox" tabindex="2"/><a class="info" href="#">?<span class="tooltip">Podrobnı popis akce. Délka 3 a¾ 3000 znakù.</span></a></li>
+<li><label class="kratkypopis" for="nazev" accesskey="n" ><u>N</u>Ã¡zev</label>:<input type="text" name="title" id="nazev" value="{$udalost.title|escape}" class="textbox" tabindex="1"/><a class="info" href="#">?<span class="tooltip">NÃ¡zev akce. DÃ©lka od 3 do 100 zankÅ¯.</span></a></li>
+<li><label class="kratkypopis" for="popis" accesskey="p" ><u>P</u>opis</label>:<input type="text" name="desc" id="popis" value="{$udalost.desc|escape}" class="textbox" tabindex="2"/><a class="info" href="#">?<span class="tooltip">PodrobnÃ½ popis akce. DÃ©lka 3 aÅ¾ 3000 znakÅ¯.</span></a></li>
 </ul>
 </fieldset>
 </p>
 
 <p>
 <fieldset>
-<legend accesskey="s">Mí<u>s</u>to a èas konání</legend>
+<legend accesskey="s">MÃ­<u>s</u>to a Äas konÃ¡nÃ­</legend>
 <ul>
-<li><label class="kratkypopis" for="misto" accesskey="m" ><u>M</u>ísto</label>:<input type="text" name="misto" id="misto" value="{$udalost.misto|escape}" class="textbox" tabindex="3"/><a class="info" href="#">?<span class="tooltip">Místo konání události. Délka od 2 do 200 zankù.</span></a></li>
-<li><label class="kratkypopis" for="zacatek" accesskey="z" ><u>Z</u>aèátek</label>: {literal}<script type="text/javascript">new tcal ({'formname': 'cal','controlname': 'zacatek'});</script>{/literal}<input type="text" name="zacatek" id="zacatek" value="{$udalost.zacatek|escape}" class="datebox" tabindex="4"/><a class="info" href="#">?<span class="tooltip">Datum a èas zaèátku události. Formát datumu "YYYY-MM-DD&nbsp;HH:MM"</span></a></li>
-<li><label class="kratkypopis" for="konec" accesskey="k" ><u>K</u>onec</label>: {literal}<script type="text/javascript">new tcal ({'formname': 'cal','controlname': 'konec'});</script>{/literal}<input type="text" name="konec" id="konec" value="{$udalost.konec|escape}" class="datebox" tabindex="5"/><a class="info" href="#">?<span class="tooltip">Datum a èas ukonèení události. Formát datumu "YYYY-MM-DD&nbsp;HH:MM"</span></a></li>
+<li><label class="kratkypopis" for="misto" accesskey="m" ><u>M</u>Ã­sto</label>:<input type="text" name="misto" id="misto" value="{$udalost.misto|escape}" class="textbox" tabindex="3"/><a class="info" href="#">?<span class="tooltip">MÃ­sto konÃ¡nÃ­ udÃ¡losti. DÃ©lka od 2 do 200 zankÅ¯.</span></a></li>
+<li><label class="kratkypopis" for="zacatek" accesskey="z" ><u>Z</u>aÄÃ¡tek</label>: {literal}<script type="text/javascript">new tcal ({'formname': 'cal','controlname': 'zacatek'});</script>{/literal}<input type="text" name="zacatek" id="zacatek" value="{$udalost.zacatek|escape}" class="datebox" tabindex="4"/><a class="info" href="#">?<span class="tooltip">Datum a Äas zaÄÃ¡tku udÃ¡losti. FormÃ¡t datumu "YYYY-MM-DD&nbsp;HH:MM"</span></a></li>
+<li><label class="kratkypopis" for="konec" accesskey="k" ><u>K</u>onec</label>: {literal}<script type="text/javascript">new tcal ({'formname': 'cal','controlname': 'konec'});</script>{/literal}<input type="text" name="konec" id="konec" value="{$udalost.konec|escape}" class="datebox" tabindex="5"/><a class="info" href="#">?<span class="tooltip">Datum a Äas ukonÄenÃ­ udÃ¡losti. FormÃ¡t datumu "YYYY-MM-DD&nbsp;HH:MM"</span></a></li>
 </ul>
 </fieldset>
 </p>
 
 <p>
 <fieldset>
-<legend accesskey="d"><u>D</u>oplòující informace</legend>
+<legend accesskey="d"><u>D</u>oplÅˆujÃ­cÃ­ informace</legend>
 <ul>
-<li><label class="kratkypopis" for="odkaz" accesskey="o" ><u>O</u>dkaz</label>:<input type="text" name="url" id="odkaz" value="{$udalost.url|escape}" class="textbox" tabindex="6"/><a class="info" href="#">?<span class="tooltip">Odkaz na www stránku události. Nepovinnı údaj. Formát http://*</span></a></li>
-<li><label class="kratkypopis" for="mapa" accesskey="a" >M<u>a</u>pa</label>:<input type="text" name="mapa" id="mapa" value="{$udalost.mapa|escape}" class="textbox" tabindex="7"/><a class="info" href="#">?<span class="tooltip">Odkaz na mapu místa kde se událost koná. Nepovinnı údaj. Formát http://*</span></a></li>
+<li><label class="kratkypopis" for="odkaz" accesskey="o" ><u>O</u>dkaz</label>:<input type="text" name="url" id="odkaz" value="{$udalost.url|escape}" class="textbox" tabindex="6"/><a class="info" href="#">?<span class="tooltip">Odkaz na www strÃ¡nku udÃ¡losti. NepovinnÃ½ Ãºdaj. FormÃ¡t http://*</span></a></li>
+<li><label class="kratkypopis" for="mapa" accesskey="a" >M<u>a</u>pa</label>:<input type="text" name="mapa" id="mapa" value="{$udalost.mapa|escape}" class="textbox" tabindex="7"/><a class="info" href="#">?<span class="tooltip">Odkaz na mapu mÃ­sta kde se udÃ¡lost konÃ¡. NepovinnÃ½ Ãºdaj. FormÃ¡t http://*</span></a></li>
 </ul>
 </fieldset>
 </p>
 
 <p class="vpravo">
-<input type="submit" name="odeslat" value="Ulo¾it" class="knoflik" tabindex="8" />
+<input type="submit" name="odeslat" value="UloÅ¾it" class="knoflik" tabindex="8" />
 </p>
 </form>
 
 <p>
-<a href="{$smarty.const.CALENDAR_URL}" title="Návrat do kalendáøe.">&laquo; zpìt do kalendáøe</a>
+<a href="{$smarty.const.CALENDAR_URL}" title="NÃ¡vrat do kalendÃ¡Å™e.">&laquo; zpÄ›t do kalendÃ¡Å™e</a>
 </p>
 

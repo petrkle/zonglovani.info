@@ -5,34 +5,34 @@
 	     <nazev>Orbit II</nazev>
 		 <pocet>3</pocet>
 	     <siteswaps>3</siteswaps>
-		 <obtiznost>snadné</obtiznost>
+		 <obtiznost>snadnÃ©</obtiznost>
 		 <oblast>micky-3</oblast>
 	</about>
 
 	<krok>
-	    <nadpis>Trénink se dvìma míèky</nadpis>
+	    <nadpis>TrÃ©nink se dvÄ›ma mÃ­Äky</nadpis>
     </krok>
 
 
     <krok>
 			<obrazek>micky-3-orbit2ta</obrazek>
-			<popisek>Z levé ruky vyhoï najednou první a druhı míèek. Souèasnì vyrá¾í i pravá ruka.</popisek>
+			<popisek>Z levÃ© ruky vyhoÄ najednou prvnÃ­ a druhÃ½ mÃ­Äek. SouÄasnÄ› vyrÃ¡Å¾Ã­ i pravÃ¡ ruka.</popisek>
     </krok>
 
 
     <krok>
 			<obrazek>micky-3-orbit2tb</obrazek>
-			<popisek>První míèek zachy» do pravé ruky. Elegantním oblouèkem se vra» okolo druhého míèku.</popisek>
+			<popisek>PrvnÃ­ mÃ­Äek zachyÅ¥ do pravÃ© ruky. ElegantnÃ­m oblouÄkem se vraÅ¥ okolo druhÃ©ho mÃ­Äku.</popisek>
     </krok>
 
 
     <krok>
 			<obrazek>micky-3-orbit2tc</obrazek>
-			<popisek>Do pravé ruky zachytí¹ i první míèek.</popisek>
+			<popisek>Do pravÃ© ruky zachytÃ­Å¡ i prvnÃ­ mÃ­Äek.</popisek>
     </krok>
 
     <krok>
-			<popisek>Trénuj støídavì zaèátek z pravé a levé ruky.</popisek>
+			<popisek>TrÃ©nuj stÅ™Ã­davÄ› zaÄÃ¡tek z pravÃ© a levÃ© ruky.</popisek>
     </krok>
 
 	<krok>
@@ -42,25 +42,25 @@
 
     <krok>
 			<obrazek>micky-3-orbit2a</obrazek>
-			<popisek>Zaèíná se trochu neobvykle. Vyhoï první míèek z pravé ruky.</popisek>
+			<popisek>ZaÄÃ­nÃ¡ se trochu neobvykle. VyhoÄ prvnÃ­ mÃ­Äek z pravÃ© ruky.</popisek>
     </krok>
 
 
     <krok>
 			<obrazek>micky-3-orbit2b</obrazek>
-			<popisek>Z levé ruky vyhoï najednou první a druhı míèek. Souèasnì vyrá¾í i pravá ruka.</popisek>
+			<popisek>Z levÃ© ruky vyhoÄ najednou prvnÃ­ a druhÃ½ mÃ­Äek. SouÄasnÄ› vyrÃ¡Å¾Ã­ i pravÃ¡ ruka.</popisek>
     </krok>
 
 
     <krok>
 			<obrazek>micky-3-orbit2c</obrazek>
-			<popisek>Levou rukou chy» první míèek. Pravá ruka sbírá tøetí míèek a vrací se zpìt.</popisek>
+			<popisek>Levou rukou chyÅ¥ prvnÃ­ mÃ­Äek. PravÃ¡ ruka sbÃ­rÃ¡ tÅ™etÃ­ mÃ­Äek a vracÃ­ se zpÄ›t.</popisek>
     </krok>
 
 
     <krok>
 			<obrazek>micky-3-orbit2d</obrazek>
-			<popisek>Zbıvá chytit poslední míèek.</popisek>
+			<popisek>ZbÃ½vÃ¡ chytit poslednÃ­ mÃ­Äek.</popisek>
     </krok>
 
 

@@ -1,75 +1,75 @@
 <p>
-{obrazek soubor="siteswapa.png" popisek="Základní druhy hodù."}
-Zápis ¾onglování pomocí èísel. Jsou to vlastnì takové noty pro ¾onglování. Siteswap vymysleli ¾ongléøi, aby s jejich pomocí <strong>na¹li nové triky</strong>.
+{obrazek soubor="siteswapa.png" popisek="ZÃ¡kladnÃ­ druhy hodÅ¯."}
+ZÃ¡pis Å¾onglovÃ¡nÃ­ pomocÃ­ ÄÃ­sel. Jsou to vlastnÄ› takovÃ© noty pro Å¾onglovÃ¡nÃ­. Siteswap vymysleli Å¾onglÃ©Å™i, aby s jejich pomocÃ­ <strong>naÅ¡li novÃ© triky</strong>.
 </p>
-<h3>Vıhody</h3>
+<h3>VÃ½hody</h3>
 <p>
 <ul>
-<li>Snadné a pøesné pojmenování triku.</li>
-<li>Usnadnìní komunikace mezi ¾ongléry.</li>
-<li>Platí pro míèky, kruhy i ku¾ely.</li>
-<li>Existují <a href="/software.html" title="Simulátory ¾onglování">poèítaèové programy</a> do kterıch napí¹e¹ èíslo a hned uvidí¹ jak trik vypadá.</li>
+<li>SnadnÃ© a pÅ™esnÃ© pojmenovÃ¡nÃ­ triku.</li>
+<li>UsnadnÄ›nÃ­ komunikace mezi Å¾onglÃ©ry.</li>
+<li>PlatÃ­ pro mÃ­Äky, kruhy i kuÅ¾ely.</li>
+<li>ExistujÃ­ <a href="/software.html" title="SimulÃ¡tory Å¾onglovÃ¡nÃ­">poÄÃ­taÄovÃ© programy</a> do kterÃ½ch napÃ­Å¡eÅ¡ ÄÃ­slo a hned uvidÃ­Å¡ jak trik vypadÃ¡.</li>
 </ul>
 </p>
 
-<h3>Základní pravidla</h3>
+<h3>ZÃ¡kladnÃ­ pravidla</h3>
 <p>
 <ul>
-<li>Èísla oznaèují jak vysoko a kterou rukou hází¹.</li>
-<li>Ruce se pøi házení støídají.</li>
-<li>Posloupnost èísel se opakuje dokola.</li>
+<li>ÄŒÃ­sla oznaÄujÃ­ jak vysoko a kterou rukou hÃ¡zÃ­Å¡.</li>
+<li>Ruce se pÅ™i hÃ¡zenÃ­ stÅ™Ã­dajÃ­.</li>
+<li>Posloupnost ÄÃ­sel se opakuje dokola.</li>
 </ul>
 </p>
 
 <h3>0, 1 a 2</h3>
 <p>
-0 znamená pauzu - v ruce nemá¹ míèek. 1 znaèí hod rovnì napøíè a 2 je podobná 0, pauza. Rozdíl je v tom, ¾e 0 je pauza bez míèku, 2 je pauza s míèkem, dr¾ení.
+0 znamenÃ¡ pauzu - v ruce nemÃ¡Å¡ mÃ­Äek. 1 znaÄÃ­ hod rovnÄ› napÅ™Ã­Ä a 2 je podobnÃ¡ 0, pauza. RozdÃ­l je v tom, Å¾e 0 je pauza bez mÃ­Äku, 2 je pauza s mÃ­Äkem, drÅ¾enÃ­.
 </p>
 
 
 <h3>3</h3>
 <p>
-Nejednodu¹í siteswap zapí¹eme èíslem 3. Zaèni pravou rukou a opakuj dokola.
+NejednoduÅ¡Ã­ siteswap zapÃ­Å¡eme ÄÃ­slem 3. ZaÄni pravou rukou a opakuj dokola.
 </p>
 
 <pre>
-P = pravá ruka  L = levá ruka
+P = pravÃ¡ ruka  L = levÃ¡ ruka
 
     P L P L P L P L P L P L ...
     3 3 3 3 3 3 3 3 3 3 3 3 ...
 </pre>
 
 <p>
-<a href="/micky/3/kaskada.html" title="Základní trik se tøemi míèky.">{obrazek soubor="kaskadaa.png" popisek=""}</a>
-Pravá ruka hází míèek tak jako kdy¾ ¾ongluje¹ se tøemi míèky (docela nízko, z jedné ruky do druhé). Levou rukou hodí¹ stejnı hod. Potom pravá, pak levá...</p>
+<a href="/micky/3/kaskada.html" title="ZÃ¡kladnÃ­ trik se tÅ™emi mÃ­Äky.">{obrazek soubor="kaskadaa.png" popisek=""}</a>
+PravÃ¡ ruka hÃ¡zÃ­ mÃ­Äek tak jako kdyÅ¾ Å¾onglujeÅ¡ se tÅ™emi mÃ­Äky (docela nÃ­zko, z jednÃ© ruky do druhÃ©). Levou rukou hodÃ­Å¡ stejnÃ½ hod. Potom pravÃ¡, pak levÃ¡...</p>
 
 <p>
-Trojka znamená, <a href="/micky/3/kaskada.html" title="Základní trik se tøemi míèky.">kaskádu se 3 míèky</a>.
+Trojka znamenÃ¡, <a href="/micky/3/kaskada.html" title="ZÃ¡kladnÃ­ trik se tÅ™emi mÃ­Äky.">kaskÃ¡du se 3 mÃ­Äky</a>.
 </p>
 
 <h3>4</h3>
 <p>
-Dal¹í jednoduchı pøíklad: <a href="/micky/4/fontana.html" title="Základní trik se ètyømi míèky.">fontána se ètyømi míèky</a> se zapí¹e jako 4.
+DalÅ¡Ã­ jednoduchÃ½ pÅ™Ã­klad: <a href="/micky/4/fontana.html" title="ZÃ¡kladnÃ­ trik se ÄtyÅ™mi mÃ­Äky.">fontÃ¡na se ÄtyÅ™mi mÃ­Äky</a> se zapÃ­Å¡e jako 4.
 </p>
 <pre>
     P L P L P L P L P L P L ...
     4 4 4 4 4 4 4 4 4 4 4 4 ...
 </pre>
 <p>
-<a href="/micky/4/fontana.html" title="Základní trik se ètyømi míèky.">{obrazek soubor="fontanaa.png" popisek=""}</a>
-Ètyøi míèky musí¹ háze jako asynchronní fontánu. V siteswap v¹echny sudá èísla zùstávají ve stejné ruce, lichá znaèí hody do druhé ruky.
+<a href="/micky/4/fontana.html" title="ZÃ¡kladnÃ­ trik se ÄtyÅ™mi mÃ­Äky.">{obrazek soubor="fontanaa.png" popisek=""}</a>
+ÄŒtyÅ™i mÃ­Äky musÃ­Å¡ hÃ¡ze jako asynchronnÃ­ fontÃ¡nu. V siteswap vÅ¡echny sudÃ¡ ÄÃ­sla zÅ¯stÃ¡vajÃ­ ve stejnÃ© ruce, lichÃ¡ znaÄÃ­ hody do druhÃ© ruky.
 </p>
 
 <h3>5, 6, ...</h3>
 <p>
-<a href="/micky/6/" title="Trik se ¹esti míèky.">{obrazek soubor="micky-6-fontanaa.png" popisek=""}</a>
-V¹echny základní triky se zapisují jedním èíslem (5 je <a href="/micky/5/kaskada.html" title="Trik s pìti míèky.">kaskáda s pìti</a> míèky, 8 je fontána s osmi míèky, atd.).
+<a href="/micky/6/" title="Trik se Å¡esti mÃ­Äky.">{obrazek soubor="micky-6-fontanaa.png" popisek=""}</a>
+VÅ¡echny zÃ¡kladnÃ­ triky se zapisujÃ­ jednÃ­m ÄÃ­slem (5 je <a href="/micky/5/kaskada.html" title="Trik s pÄ›ti mÃ­Äky.">kaskÃ¡da s pÄ›ti</a> mÃ­Äky, 8 je fontÃ¡na s osmi mÃ­Äky, atd.).
 </p>
 
 <h3>555000</h3>
 <p>
 <a href="/micky/3/blesk.html" title="blesk">{obrazek soubor="bleskc.png" popisek=""}</a>
-Trik se tøemi míèky. První tøi hody jsou jako pøi <a href="/micky/5/kaskada.html" title="Trik s pìti míèky.">kaskádì s pìti</a> míèky. Pak následují dvì pauzy bez míèku (0).
+Trik se tÅ™emi mÃ­Äky. PrvnÃ­ tÅ™i hody jsou jako pÅ™i <a href="/micky/5/kaskada.html" title="Trik s pÄ›ti mÃ­Äky.">kaskÃ¡dÄ› s pÄ›ti</a> mÃ­Äky. Pak nÃ¡sledujÃ­ dvÄ› pauzy bez mÃ­Äku (0).
 </p>
 
 <pre>
@@ -78,13 +78,13 @@ Trik se tøemi míèky. První tøi hody jsou jako pøi <a href="/micky/5/kaskada.html
 </pre>
 
 <p>
-Vìt¹ina ¾onglérù zná tento trik pod názvem <a href="/micky/3/blesk.html" title="blesk">blesk</a>.
+VÄ›tÅ¡ina Å¾onglÃ©rÅ¯ znÃ¡ tento trik pod nÃ¡zvem <a href="/micky/3/blesk.html" title="blesk">blesk</a>.
 </p>
 
 <h3>53</h3>
 <p>
-<a href="/micky/4/sprcha-polovicni.html" title="Trik se ètyømi míèky.">{obrazek soubor="p4sprchac.png" popisek=""}</a>
-Trik se ètyømi míèky. Z pravé ruky hází¹ 5, z levé 3.
+<a href="/micky/4/sprcha-polovicni.html" title="Trik se ÄtyÅ™mi mÃ­Äky.">{obrazek soubor="p4sprchac.png" popisek=""}</a>
+Trik se ÄtyÅ™mi mÃ­Äky. Z pravÃ© ruky hÃ¡zÃ­Å¡ 5, z levÃ© 3.
 </p>
 
 <pre>
@@ -93,32 +93,32 @@ Trik se ètyømi míèky. Z pravé ruky hází¹ 5, z levé 3.
 </pre>
 
 <p>
-Trik se jmenuje <a href="/micky/4/sprcha-polovicni.html" title="Trik se ètyømi míèky.">polovièní sprcha se ètyømi míèky</a>.
+Trik se jmenuje <a href="/micky/4/sprcha-polovicni.html" title="Trik se ÄtyÅ™mi mÃ­Äky.">poloviÄnÃ­ sprcha se ÄtyÅ™mi mÃ­Äky</a>.
 </p>
 
-<h3>Jak poznám s kolika míèky se ¾ongluje&nbsp;53?</h3>
+<h3>Jak poznÃ¡m s kolika mÃ­Äky se Å¾ongluje&nbsp;53?</h3>
 
 <p>
-Seète¹ v¹echny èísla v posloupnosti a vydìlí¹ je délkou posloupnosti. 5+3=8 8/2=4 a tak jde o trik se ètyømi míèky. Jestli¾e nevyjde celé èíslo pak je siteswap ¹patnı.
+SeÄteÅ¡ vÅ¡echny ÄÃ­sla v posloupnosti a vydÄ›lÃ­Å¡ je dÃ©lkou posloupnosti. 5+3=8 8/2=4 a tak jde o trik se ÄtyÅ™mi mÃ­Äky. JestliÅ¾e nevyjde celÃ© ÄÃ­slo pak je siteswap Å¡patnÃ½.
 </p>
 
-<h3>Zápis slo¾itìj¹ích trikù</h3>
+<h3>ZÃ¡pis sloÅ¾itÄ›jÅ¡Ã­ch trikÅ¯</h3>
 <p>
-Vyhození dvou míèkù najednou - synchronní hody se znaèí dvìma èísly v závorce. Souèasné vyhození dvou míèkù rovnì nahoru oznaèí¹ jako:
+VyhozenÃ­ dvou mÃ­ÄkÅ¯ najednou - synchronnÃ­ hody se znaÄÃ­ dvÄ›ma ÄÃ­sly v zÃ¡vorce. SouÄasnÃ© vyhozenÃ­ dvou mÃ­ÄkÅ¯ rovnÄ› nahoru oznaÄÃ­Å¡ jako:
 <pre class="vyrazne">
 [4,4]
 </pre>
 </p>
 
 <p>
-Pøipojení písmene "x" za èíslo znamená hod øí¾em.
+PÅ™ipojenÃ­ pÃ­smene "x" za ÄÃ­slo znamenÃ¡ hod Å™Ã­Å¾em.
 <pre class="vyrazne">
 [4,2x][2x,4]
 </pre>
 </p>
 
 <p>
-Pokud je trik symetrickı, mù¾e se zápis zkrátit a oznaèit hvìzdièkou
+Pokud je trik symetrickÃ½, mÅ¯Å¾e se zÃ¡pis zkrÃ¡tit a oznaÄit hvÄ›zdiÄkou
 <pre class="vyrazne">
 [4,2x]<sup>*</sup>
 </pre>

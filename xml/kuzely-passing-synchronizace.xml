@@ -5,38 +5,38 @@
 	     <nazev>Synchronizace</nazev>
 		 <pocet>?</pocet>
 	     <siteswaps>-</siteswaps>
-		 <obtiznost>snadné</obtiznost>
+		 <obtiznost>snadnÃ©</obtiznost>
 		 <oblast>kuzely-passing</oblast>
 	 </about>
 
 	 <krok>
-		 <popisek>Pøi passování je potøeba sladit první hod.</popisek>
+		 <popisek>PÅ™i passovÃ¡nÃ­ je potÅ™eba sladit prvnÃ­ hod.</popisek>
 	 </krok>
 
     <krok>
-			<nadpis name="fast">Rychlı start</nadpis>
-			<popisek>První hod je pass.</popisek>
+			<nadpis name="fast">RychlÃ½ start</nadpis>
+			<popisek>PrvnÃ­ hod je pass.</popisek>
     </krok>
 
 
 		<krok>
 			<obrazek>kuzely-synchroa</obrazek>
-			<popisek>Zvedni ruku kterou bude¹ házet nahoru.</popisek>
+			<popisek>Zvedni ruku kterou budeÅ¡ hÃ¡zet nahoru.</popisek>
 		</krok>
 
 		<krok>
 			<obrazek>kuzely-synchrob</obrazek>
-			<popisek>Spoleènì s ostatními ¾ongléry máchni rukou dolù.</popisek>
+			<popisek>SpoleÄnÄ› s ostatnÃ­mi Å¾onglÃ©ry mÃ¡chni rukou dolÅ¯.</popisek>
 		</krok>
 
 		<krok>
 			<obrazek>kuzely-synchroc</obrazek>
-			<popisek>První hod je pass.</popisek>
+			<popisek>PrvnÃ­ hod je pass.</popisek>
 		</krok>
 
     <krok>
-			<nadpis name="slow">Pomalı start</nadpis>
-			<popisek>Máchni prvním ku¾elem shora dolù. První tøi hody jsou obyèejné ¾onglování. A¾ ètvrtı hod je pass.</popisek>
+			<nadpis name="slow">PomalÃ½ start</nadpis>
+			<popisek>MÃ¡chni prvnÃ­m kuÅ¾elem shora dolÅ¯. PrvnÃ­ tÅ™i hody jsou obyÄejnÃ© Å¾onglovÃ¡nÃ­. AÅ¾ ÄtvrtÃ½ hod je pass.</popisek>
     </krok>
 
 

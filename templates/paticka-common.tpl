@@ -1,6 +1,6 @@
 
 <div class="spacer"></div>
-<!-- stránka konec -->
+<!-- strÃ¡nka konec -->
 </div>
 
 <div id="paticka">

@@ -2,35 +2,35 @@
 <trik>
 
     <about>
-	     <nazev>Oblouèky</nazev>
+	     <nazev>OblouÄky</nazev>
 		 <pocet>3</pocet>
 	     <siteswaps>-</siteswaps>
-		 <obtiznost>nároèné</obtiznost>
+		 <obtiznost>nÃ¡roÄnÃ©</obtiznost>
 		 <oblast>micky-3</oblast>
 	</about>
 
 	<krok>
-	    <popisek>Ka¾dı míèek má vlastní dráhu, která se nekøí¾í s ostatními.</popisek>
+	    <popisek>KaÅ¾dÃ½ mÃ­Äek mÃ¡ vlastnÃ­ drÃ¡hu, kterÃ¡ se nekÅ™Ã­Å¾Ã­ s ostatnÃ­mi.</popisek>
     </krok>
 
     <krok>
         <obrazek>obloukya</obrazek>
-        <popisek>Pravou rukou vyhoï první míèek nejvy¹¹ím oblouèkem.</popisek>
+        <popisek>Pravou rukou vyhoÄ prvnÃ­ mÃ­Äek nejvyÅ¡Å¡Ã­m oblouÄkem.</popisek>
     </krok>
 
     <krok>
         <obrazek>obloukyb</obrazek>
-        <popisek>Pod nìj levaèkou hoï druhı míèek.</popisek>
+        <popisek>Pod nÄ›j levaÄkou hoÄ druhÃ½ mÃ­Äek.</popisek>
     </krok>
 
     <krok>
         <obrazek>obloukyc</obrazek>
-        <popisek>První míèek chy» do levé ruky. Tøetí míèek hoï pravaèkou pod pøilétající druhı míèek.</popisek>
+        <popisek>PrvnÃ­ mÃ­Äek chyÅ¥ do levÃ© ruky. TÅ™etÃ­ mÃ­Äek hoÄ pravaÄkou pod pÅ™ilÃ©tajÃ­cÃ­ druhÃ½ mÃ­Äek.</popisek>
     </krok>
 
     <krok>
         <obrazek>obloukyd</obrazek>
-        <popisek>Z levé ruky vyhodí¹ první míèek po nejvy¹¹í dráze a chytí¹ do ní tøetí míèek.</popisek>
+        <popisek>Z levÃ© ruky vyhodÃ­Å¡ prvnÃ­ mÃ­Äek po nejvyÅ¡Å¡Ã­ drÃ¡ze a chytÃ­Å¡ do nÃ­ tÅ™etÃ­ mÃ­Äek.</popisek>
     </krok>
 
 

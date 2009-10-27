@@ -1,39 +1,39 @@
 <p>
-Poèítaèové programy které po zadání triku v <a href="/siteswap.html" title="Zápis ¾onglování pomocí èísel.">siteswap</a> zobrazí animaci ¾onglování.
+PoÄÃ­taÄovÃ© programy kterÃ© po zadÃ¡nÃ­ triku v <a href="/siteswap.html" title="ZÃ¡pis Å¾onglovÃ¡nÃ­ pomocÃ­ ÄÃ­sel.">siteswap</a> zobrazÃ­ animaci Å¾onglovÃ¡nÃ­.
 </p>
 
-<h3><a href="http://www.jongl.de" title="Simulátor ¾onglování." class="external" onclick="pageTracker._trackPageview('/goto/jongl.de');">Jongl</a></h3>
+<h3><a href="http://www.jongl.de" title="SimulÃ¡tor Å¾onglovÃ¡nÃ­." class="external" onclick="pageTracker._trackPageview('/goto/jongl.de');">Jongl</a></h3>
 <p>
 <a href="http://www.jongl.de" title="Jongl" onclick="pageTracker._trackPageview('/goto/jongl.de');">{obrazek soubor="jongl.jpg" popisek="Jongl"}</a>
-Simulátor ¾onglování kterı zvládá i <a href="/kuzely/passing/" title="¾onglování ve více lidech.">passing</a>.
+SimulÃ¡tor Å¾onglovÃ¡nÃ­ kterÃ½ zvlÃ¡dÃ¡ i <a href="/kuzely/passing/" title="Å¾onglovÃ¡nÃ­ ve vÃ­ce lidech.">passing</a>.
 </p>
 
 <h3><a href="http://www.koelnvention.de/software/index.html" title="JoePass" class="external" onclick="pageTracker._trackPageview('/goto/koelnvention.de');">JoePass</a></h3>
 <p>
 <a href="http://www.koelnvention.de/software/index.html" title="JoePass" onclick="pageTracker._trackPageview('/goto/koelnvention.de');">{obrazek soubor="joepass.png" popisek="joepass"}</a>
-Simulátor ¾onglování z nìmecka.
+SimulÃ¡tor Å¾onglovÃ¡nÃ­ z nÄ›mecka.
 </p>
 
-<h3><a href="http://juggleanim.sourceforge.net" title="Simulátor napsanı v javì." class="external" onclick="pageTracker._trackPageview('/goto/juggleanim.sourceforge.net');">JuggleAnim</a></h3>
+<h3><a href="http://juggleanim.sourceforge.net" title="SimulÃ¡tor napsanÃ½ v javÄ›." class="external" onclick="pageTracker._trackPageview('/goto/juggleanim.sourceforge.net');">JuggleAnim</a></h3>
 <p>
-<a href="http://juggleanim.sourceforge.net" title="Animace ¾onglování." onclick="pageTracker._trackPageview('/goto/juggleanim.sourceforge.net');">{obrazek soubor="juggleanim.png" popisek="JuggleAnim"}</a>
-Simulátor ¾onglování napsanı v javì.
+<a href="http://juggleanim.sourceforge.net" title="Animace Å¾onglovÃ¡nÃ­." onclick="pageTracker._trackPageview('/goto/juggleanim.sourceforge.net');">{obrazek soubor="juggleanim.png" popisek="JuggleAnim"}</a>
+SimulÃ¡tor Å¾onglovÃ¡nÃ­ napsanÃ½ v javÄ›.
 </p>
 
-<h3><a href="http://jugglinglab.sourceforge.net" title="Simulátor napsanı v javì." class="external" onclick="pageTracker._trackPageview('/goto/jugglinglab.sourceforge.net');">Juggling Lab</a></h3>
+<h3><a href="http://jugglinglab.sourceforge.net" title="SimulÃ¡tor napsanÃ½ v javÄ›." class="external" onclick="pageTracker._trackPageview('/goto/jugglinglab.sourceforge.net');">Juggling Lab</a></h3>
 <p>
-<a href="http://jugglinglab.sourceforge.net" title="Animace ¾onglování." onclick="pageTracker._trackPageview('/goto/jugglinglab.sourceforge.net');">{obrazek soubor="jugglinglab.png" popisek="Juggling Lab"}</a>
-Juggling Lab je pokraèovatel JuggleAnim.
+<a href="http://jugglinglab.sourceforge.net" title="Animace Å¾onglovÃ¡nÃ­." onclick="pageTracker._trackPageview('/goto/jugglinglab.sourceforge.net');">{obrazek soubor="jugglinglab.png" popisek="Juggling Lab"}</a>
+Juggling Lab je pokraÄovatel JuggleAnim.
 </p>
 
-<h3><a href="http://www.tux.org/~bagleyd/xlockmore.html" title="Spoøiè obrazovky pro X Window." class="external" onclick="pageTracker._trackPageview('/goto/tux.org');">xlockmore</a></h3>
+<h3><a href="http://www.tux.org/~bagleyd/xlockmore.html" title="SpoÅ™iÄ obrazovky pro X Window." class="external" onclick="pageTracker._trackPageview('/goto/tux.org');">xlockmore</a></h3>
 <p>
-<a href="http://www.tux.org/~bagleyd/xlockmore.html" title="Spoøiè obrazovky pro X Window." onclick="pageTracker._trackPageview('/goto/tux.org');">{obrazek soubor="xlock.png" popisek="xlockmore"}</a>
-Spoøiè obrazovky pro X&nbsp;Window.
+<a href="http://www.tux.org/~bagleyd/xlockmore.html" title="SpoÅ™iÄ obrazovky pro X Window." onclick="pageTracker._trackPageview('/goto/tux.org');">{obrazek soubor="xlock.png" popisek="xlockmore"}</a>
+SpoÅ™iÄ obrazovky pro X&nbsp;Window.
 </p>
 
 <h3><a href="http://jugglemaster.net" title="Jugglemaster" class="external" onclick="pageTracker._trackPageview('/goto/Jugglemaster.net');">Jugglemaster</a></h3>
 <p>
 <a href="http://jugglemaster.net" title="Jugglemaster" onclick="pageTracker._trackPageview('/goto/Jugglemaster.net');">{obrazek soubor="jugglemaster.png" popisek="jugglemaster"}</a>
-Simulátor ¾onglování i pro kapesní poèítaèe.
+SimulÃ¡tor Å¾onglovÃ¡nÃ­ i pro kapesnÃ­ poÄÃ­taÄe.
 </p>

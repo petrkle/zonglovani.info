@@ -2,7 +2,7 @@
 
 require('init.php');
 require('func.php');
-$titulek="Jak zaèít ¾onglovat s kruhy";
+$titulek="Jak zaÄÃ­t Å¾onglovat s kruhy";
 
 $smarty->assign("titulek",$titulek);
 $smarty->assign("keywords",make_keywords($titulek));

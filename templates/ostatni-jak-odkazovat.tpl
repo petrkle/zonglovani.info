@@ -1,39 +1,39 @@
 <p>
-Pro vlo¾ení odkazu staèí do tvé stránky zkopírovat jeden z následujících kódù.
+Pro vloÅ¾enÃ­ odkazu staÄÃ­ do tvÃ© strÃ¡nky zkopÃ­rovat jeden z nÃ¡sledujÃ­cÃ­ch kÃ³dÅ¯.
 </p>
 
-<h2>Textovı odkaz</h2>
+<h2>TextovÃ½ odkaz</h2>
 <p>
 <code>
 &lt;a href="http://zonglovani.info"
- title="Obrázková uèebnice ¾onglování."&gt;®onglérùv slabikáø&lt;/a&gt;
+ title="ObrÃ¡zkovÃ¡ uÄebnice Å¾onglovÃ¡nÃ­."&gt;Å½onglÃ©rÅ¯v slabikÃ¡Å™&lt;/a&gt;
 </code>
 </p>
 <p>
-<a href="http://zonglovani.info" title="Obrázková uèebnice ¾onglování.">®onglérùv slabikáø</a>
+<a href="http://zonglovani.info" title="ObrÃ¡zkovÃ¡ uÄebnice Å¾onglovÃ¡nÃ­.">Å½onglÃ©rÅ¯v slabikÃ¡Å™</a>
 </p>
 
-<h2>Textovı odkaz s popiskem</h2>
+<h2>TextovÃ½ odkaz s popiskem</h2>
 <p>
 <code>
 &lt;a href="http://zonglovani.info"
- title="Obrázková uèebnice ¾onglování."&gt;®onglérùv slabikáø&lt;/a&gt; - obrázková uèebnice ¾onglování. Prùvodce svìtem létajících míèkù, kruhù a ku¾elù.
+ title="ObrÃ¡zkovÃ¡ uÄebnice Å¾onglovÃ¡nÃ­."&gt;Å½onglÃ©rÅ¯v slabikÃ¡Å™&lt;/a&gt; - obrÃ¡zkovÃ¡ uÄebnice Å¾onglovÃ¡nÃ­. PrÅ¯vodce svÄ›tem lÃ©tajÃ­cÃ­ch mÃ­ÄkÅ¯, kruhÅ¯ a kuÅ¾elÅ¯.
 </code>
 </p>
 <p>
-<a href="http://zonglovani.info" title="Obrázková uèebnice ¾onglování.">®onglérùv slabikáø</a> - obrázková uèebnice ¾onglování. Prùvodce svìtem létajících míèkù, kruhù a ku¾elù.
+<a href="http://zonglovani.info" title="ObrÃ¡zkovÃ¡ uÄebnice Å¾onglovÃ¡nÃ­.">Å½onglÃ©rÅ¯v slabikÃ¡Å™</a> - obrÃ¡zkovÃ¡ uÄebnice Å¾onglovÃ¡nÃ­. PrÅ¯vodce svÄ›tem lÃ©tajÃ­cÃ­ch mÃ­ÄkÅ¯, kruhÅ¯ a kuÅ¾elÅ¯.
 </p>
 
 <h2>Ikonka 88x31</h2>
 <p>
 <code>
 &lt;a href="http://zonglovani.info"
- title="Obrázková uèebnice ¾onglování."&gt;&lt;img src="http://zonglovani.info/img/s/slabikar1.gif" height="31" width="88" border="0" alt="®onglérùv slabikáø." title="®onglérùv slabikáø." /&gt;&lt;/a&gt;
+ title="ObrÃ¡zkovÃ¡ uÄebnice Å¾onglovÃ¡nÃ­."&gt;&lt;img src="http://zonglovani.info/img/s/slabikar1.gif" height="31" width="88" border="0" alt="Å½onglÃ©rÅ¯v slabikÃ¡Å™." title="Å½onglÃ©rÅ¯v slabikÃ¡Å™." /&gt;&lt;/a&gt;
 </code>
 </p>
 
 <p>
-<a href="/img/s/slabikar1.gif" title="®onglérùv slabikáø"><img src="/img/s/slabikar1.gif" height="31" width="88" border="0" style="border: 0;" alt="®onglérùv slabikáø" title="®onglérùv slabikáø" /></a>
+<a href="/img/s/slabikar1.gif" title="Å½onglÃ©rÅ¯v slabikÃ¡Å™"><img src="/img/s/slabikar1.gif" height="31" width="88" border="0" style="border: 0;" alt="Å½onglÃ©rÅ¯v slabikÃ¡Å™" title="Å½onglÃ©rÅ¯v slabikÃ¡Å™" /></a>
 </p>
 
 
@@ -41,9 +41,9 @@ Pro vlo¾ení odkazu staèí do tvé stránky zkopírovat jeden z následujících kódù.
 <p>
 <code>
 &lt;a href="http://zonglovani.info"
- title="Obrázková uèebnice ¾onglování."&gt;&lt;img src="http://zonglovani.info/img/s/slabikar2.gif" height="60" width="120" border="0" alt="®onglérùv slabikáø." title="®onglérùv slabikáø." /&gt;&lt;/a&gt;
+ title="ObrÃ¡zkovÃ¡ uÄebnice Å¾onglovÃ¡nÃ­."&gt;&lt;img src="http://zonglovani.info/img/s/slabikar2.gif" height="60" width="120" border="0" alt="Å½onglÃ©rÅ¯v slabikÃ¡Å™." title="Å½onglÃ©rÅ¯v slabikÃ¡Å™." /&gt;&lt;/a&gt;
 </code>
 </p>
 <p>
-<a href="/img/s/slabikar2.gif" title="®onglérùv slabikáø"><img src="/img/s/slabikar2.gif" height="60" width="120" border="0" style="border: 0;" alt="®onglérùv slabikáø" title="®onglérùv slabikáø" /></a>
+<a href="/img/s/slabikar2.gif" title="Å½onglÃ©rÅ¯v slabikÃ¡Å™"><img src="/img/s/slabikar2.gif" height="60" width="120" border="0" style="border: 0;" alt="Å½onglÃ©rÅ¯v slabikÃ¡Å™" title="Å½onglÃ©rÅ¯v slabikÃ¡Å™" /></a>
 </p>

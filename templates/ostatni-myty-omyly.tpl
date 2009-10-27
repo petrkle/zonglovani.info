@@ -1,12 +1,12 @@
-<h3>®onglování zvìt¹uje mozek</h3>
+<h3>Å½onglovÃ¡nÃ­ zvÄ›tÅ¡uje mozek</h3>
 <p>
 {obrazek soubor="mytya.png" popisek=""}
-Typická zpráva okurkové sezony.
+TypickÃ¡ zprÃ¡va okurkovÃ© sezony.
 </p>
 
 
-<h3>Kdy¾ si stoupnu pøed zeï, pøestanu házet míèky pøíli¹ dopøedu</h3>
+<h3>KdyÅ¾ si stoupnu pÅ™ed zeÄ, pÅ™estanu hÃ¡zet mÃ­Äky pÅ™Ã­liÅ¡ dopÅ™edu</h3>
 <p>
 {obrazek soubor="mytyb.png" popisek=""}
-Zaèínající ¾ongléøi èasto hází míèky dopøedu. Stát èelem ke zdi ale nikomu nepomù¾e.
+ZaÄÃ­najÃ­cÃ­ Å¾onglÃ©Å™i Äasto hÃ¡zÃ­ mÃ­Äky dopÅ™edu. StÃ¡t Äelem ke zdi ale nikomu nepomÅ¯Å¾e.
 </p>

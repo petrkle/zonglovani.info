@@ -1,22 +1,22 @@
 <p>
-Pravidelné nedìlní ¾onglování v <a href="cesta.html" title="Jak se dostat do Ulity">DDM Ulita</a>. ®ongluje se ve <a href="/obrazky/ulita-20091018/0001.jpg" title="Obrázek velkého sálu." onclick="pageTracker._trackPageview('/obrazky/ulita-20091018/0001.jpg');">velkém sále</a> kde je: <strong>vysokı strop</strong>, mìkká podlaha, ozvuèení, pódium  pro pøípadné vystoupení, okna a disco koule.
+PravidelnÃ© nedÄ›lnÃ­ Å¾onglovÃ¡nÃ­ v <a href="cesta.html" title="Jak se dostat do Ulity">DDM Ulita</a>. Å½ongluje se ve <a href="/obrazky/ulita-20091018/0001.jpg" title="ObrÃ¡zek velkÃ©ho sÃ¡lu." onclick="pageTracker._trackPageview('/obrazky/ulita-20091018/0001.jpg');">velkÃ©m sÃ¡le</a> kde je: <strong>vysokÃ½ strop</strong>, mÄ›kkÃ¡ podlaha, ozvuÄenÃ­, pÃ³dium  pro pÅ™Ã­padnÃ© vystoupenÃ­, okna a disco koule.
 </p>
 <div class="obrazkovnik">
-<a href="/obrazky/ulita-20091018/0012.html">{obrazek soubor='usb.jpg' popisek='®onglování v Ulitì'}</a>
-<a href="/obrazky/ulita-20091018/0020.html">{obrazek soubor='usd.jpg' popisek='®onglování v Ulitì'}</a>
-<a href="/obrazky/ulita-20091018/0006.html">{obrazek soubor='usa.jpg' popisek='®onglování v Ulitì'}</a>
-<a href="/obrazky/ulita-20091018/0008.html">{obrazek soubor='usc.jpg' popisek='®onglování v Ulitì'}</a><br />
-<a href="/obrazky/ulita-20091018/" title="Obrázky ¾onglování.">Dal¹í obrázky &raquo;</a>
+<a href="/obrazky/ulita-20091018/0012.html">{obrazek soubor='usb.jpg' popisek='Å½onglovÃ¡nÃ­ v UlitÄ›'}</a>
+<a href="/obrazky/ulita-20091018/0020.html">{obrazek soubor='usd.jpg' popisek='Å½onglovÃ¡nÃ­ v UlitÄ›'}</a>
+<a href="/obrazky/ulita-20091018/0006.html">{obrazek soubor='usa.jpg' popisek='Å½onglovÃ¡nÃ­ v UlitÄ›'}</a>
+<a href="/obrazky/ulita-20091018/0008.html">{obrazek soubor='usc.jpg' popisek='Å½onglovÃ¡nÃ­ v UlitÄ›'}</a><br />
+<a href="/obrazky/ulita-20091018/" title="ObrÃ¡zky Å¾onglovÃ¡nÃ­.">DalÅ¡Ã­ obrÃ¡zky &raquo;</a>
 </div>
 <p>
-Pøijít mohou zaèínající i zku¹ení ¾ongléøi a ¾onglérky. Pro ¹irokou veøejnost budou k dispozici míèky a ku¾ely k zapùjèení. ®onglovat se mù¾e nauèit <strong>opravdu ka¾dı</strong>.
+PÅ™ijÃ­t mohou zaÄÃ­najÃ­cÃ­ i zkuÅ¡enÃ­ Å¾onglÃ©Å™i a Å¾onglÃ©rky. Pro Å¡irokou veÅ™ejnost budou k dispozici mÃ­Äky a kuÅ¾ely k zapÅ¯jÄenÃ­. Å½onglovat se mÅ¯Å¾e nauÄit <strong>opravdu kaÅ¾dÃ½</strong>.
 </p>
 
-<h3><a href="cesta.html" title="Podrobnı popis cesty.">Místo konání</a></h3>
+<h3><a href="cesta.html" title="PodrobnÃ½ popis cesty.">MÃ­sto konÃ¡nÃ­</a></h3>
 <p>
-<a href="cesta.html" title="Ulita - dùm dìtí a mláde¾e">{obrazek soubor='ulita.cz.png' popisek='Ulita'}</a>
-Na Balkánì 100, Praha 3, 130 00<br />
-<a href="http://www.mapy.cz/#mm=ZP@ax=133213920@ay=135976864@at=Ulita@ad=D%C5%AFm%20d%C4%9Bt%C3%AD%20a%20ml%C3%A1de%C5%BEe%20Ulita.@x=133213312@y=135977056@z=16" title="Místo konání na mapì." class="external" onclick="pageTracker._trackPageview('/goto/mapy.cz/ulita');">Zobrazit na mapì</a><br />
+<a href="cesta.html" title="Ulita - dÅ¯m dÄ›tÃ­ a mlÃ¡deÅ¾e">{obrazek soubor='ulita.cz.png' popisek='Ulita'}</a>
+Na BalkÃ¡nÄ› 100, Praha 3, 130 00<br />
+<a href="http://www.mapy.cz/#mm=ZP@ax=133213920@ay=135976864@at=Ulita@ad=D%C5%AFm%20d%C4%9Bt%C3%AD%20a%20ml%C3%A1de%C5%BEe%20Ulita.@x=133213312@y=135977056@z=16" title="MÃ­sto konÃ¡nÃ­ na mapÄ›." class="external" onclick="pageTracker._trackPageview('/goto/mapy.cz/ulita');">Zobrazit na mapÄ›</a><br />
 <a href="cesta.html" title="Jak se dostat do Ulity">Popis cesty</a><br />
 Telefon: 271 771 025<br />
 {assign var='mail' value='info@ulita.cz'}
@@ -24,8 +24,8 @@ E-mail: {$mail|mailobfuscate}
 </p>
 {*
 <p>
-<a href="http://www.ulita.cz" class="external" onclick="pageTracker._trackPageview('/goto/ulita.cz');" title="Ulita - dùm dìtí a mláde¾e">Ulita</a> - dùm dìtí a mláde¾e<br />
-Na Balkánì 100, Praha 3, 130 00 - <a href="cesta.html" title="Podrobnı popis cesty.">popis cesty</a>, <a href="http://www.mapy.cz/#mm=ZP@ax=133213920@ay=135976864@at=Ulita@ad=D%C5%AFm%20d%C4%9Bt%C3%AD%20a%20ml%C3%A1de%C5%BEe%20Ulita.@x=133213312@y=135977056@z=16" title="Místo konání na mapì." class="external" onclick="pageTracker._trackPageview('/goto/mapy.cz/ulita');">mapa</a><br />
+<a href="http://www.ulita.cz" class="external" onclick="pageTracker._trackPageview('/goto/ulita.cz');" title="Ulita - dÅ¯m dÄ›tÃ­ a mlÃ¡deÅ¾e">Ulita</a> - dÅ¯m dÄ›tÃ­ a mlÃ¡deÅ¾e<br />
+Na BalkÃ¡nÄ› 100, Praha 3, 130 00 - <a href="cesta.html" title="PodrobnÃ½ popis cesty.">popis cesty</a>, <a href="http://www.mapy.cz/#mm=ZP@ax=133213920@ay=135976864@at=Ulita@ad=D%C5%AFm%20d%C4%9Bt%C3%AD%20a%20ml%C3%A1de%C5%BEe%20Ulita.@x=133213312@y=135977056@z=16" title="MÃ­sto konÃ¡nÃ­ na mapÄ›." class="external" onclick="pageTracker._trackPageview('/goto/mapy.cz/ulita');">mapa</a><br />
 Telefon: 271 771 025<br />
 {assign var='mail' value='info@ulita.cz'}
 E-mail: {$mail|mailobfuscate}
@@ -33,49 +33,49 @@ E-mail: {$mail|mailobfuscate}
 *}
 
 {if count($podzim)>0}
-<h3>Termíny - podzim 2009</h3>
+<h3>TermÃ­ny - podzim 2009</h3>
 <table class="tabulka" cellspacing="0" cellpadding="0">
 <tr>
 <th>Den</th>
 <th>Datum</th>
-<th>Èas [Hod]</th>
-<th>Vstupné [Kè]</th>
+<th>ÄŒas [Hod]</th>
+<th>VstupnÃ© [KÄ]</th>
 </tr>
 {foreach from=$podzim item=datum}
-<tr><td>Nedìle</td><td><a href="{$smarty.const.CALENDAR_URL}{$datum.url}" title="Ulita v kalendáøi.">{$datum.datum}</a></td><td>15 - 19</td><td>40</td></tr>
+<tr><td>NedÄ›le</td><td><a href="{$smarty.const.CALENDAR_URL}{$datum.url}" title="Ulita v kalendÃ¡Å™i.">{$datum.datum}</a></td><td>15 - 19</td><td>40</td></tr>
 {/foreach}
 </table>
 {/if}
 
 {if count($jaro)>0}
-<h3>Termíny - jaro 2010</h3>
+<h3>TermÃ­ny - jaro 2010</h3>
 <table class="tabulka" cellspacing="0" cellpadding="0">
 <tr>
 <th>Den</th>
 <th>Datum</th>
-<th>Èas [Hod]</th>
-<th>Vstupné [Kè]</th>
+<th>ÄŒas [Hod]</th>
+<th>VstupnÃ© [KÄ]</th>
 </tr>
 {foreach from=$jaro item=datum}
-<tr><td>Nedìle</td><td><a href="{$smarty.const.CALENDAR_URL}{$datum.url}" title="Ulita v kalendáøi.">{$datum.datum}</a></td><td>15 - 19</td><td>40</td></tr>
+<tr><td>NedÄ›le</td><td><a href="{$smarty.const.CALENDAR_URL}{$datum.url}" title="Ulita v kalendÃ¡Å™i.">{$datum.datum}</a></td><td>15 - 19</td><td>40</td></tr>
 {/foreach}
 </table>
 {else}
-<p>Dal¹í ¾onglování v ulitì bude na podzim.</p>
+<p>DalÅ¡Ã­ Å¾onglovÃ¡nÃ­ v ulitÄ› bude na podzim.</p>
 {/if}
-<h3>Plakát</h3>
-<p><a href="/img/u/ulita.big.png" title="Velkı obrázek plakátu." onclick="pageTracker._trackPageview('/ulita/ulita.bit.png');">{obrazek soubor='ulita.nahled.png' popisek='Plakát ¾onglování v Ulitì'}</a>
-<a href="/img/u/ulita.png" title="Obrázkovı plakát na web." onclick="pageTracker._trackPageview('/ulita/ulita.png');">ulita.png</a> - pro vkládání na internet<br />
-<a href="ulita.pdf" title="Tisk plakátu na formát A5." onclick="pageTracker._trackPageview('/ulita/ulita.pdf');">ulita.pdf</a> - pro tisk na formát A5<br />
-<a href="ulita4.pdf" title="Tisk ètyø plakátù najednou." onclick="pageTracker._trackPageview('/ulita/ulita4.pdf');">ulita4.pdf</a> - pro tisk na formát A4
+<h3>PlakÃ¡t</h3>
+<p><a href="/img/u/ulita.big.png" title="VelkÃ½ obrÃ¡zek plakÃ¡tu." onclick="pageTracker._trackPageview('/ulita/ulita.bit.png');">{obrazek soubor='ulita.nahled.png' popisek='PlakÃ¡t Å¾onglovÃ¡nÃ­ v UlitÄ›'}</a>
+<a href="/img/u/ulita.png" title="ObrÃ¡zkovÃ½ plakÃ¡t na web." onclick="pageTracker._trackPageview('/ulita/ulita.png');">ulita.png</a> - pro vklÃ¡dÃ¡nÃ­ na internet<br />
+<a href="ulita.pdf" title="Tisk plakÃ¡tu na formÃ¡t A5." onclick="pageTracker._trackPageview('/ulita/ulita.pdf');">ulita.pdf</a> - pro tisk na formÃ¡t A5<br />
+<a href="ulita4.pdf" title="Tisk ÄtyÅ™ plakÃ¡tÅ¯ najednou." onclick="pageTracker._trackPageview('/ulita/ulita4.pdf');">ulita4.pdf</a> - pro tisk na formÃ¡t A4
 </ul>
 </p>
 {*
 <hr />
-<h3>Na akci se podílejí</h3>
+<h3>Na akci se podÃ­lejÃ­</h3>
 <p>
-<a href="http://www.ulita.cz" onclick="pageTracker._trackPageview('/goto/ulita.cz');" title="Ulita - dùm dìtí a mláde¾e">{obrazek soubor='ulita.cz.png' popisek='Ulita'}</a>
-Prostory poskytl dùm dìtí a mláde¾e <a href="http://www.ulita.cz" class="external" onclick="pageTracker._trackPageview('/goto/ulita.cz');" title="Ulita - dùm dìtí a mláde¾e">Ulita</a>, Praha 3.
+<a href="http://www.ulita.cz" onclick="pageTracker._trackPageview('/goto/ulita.cz');" title="Ulita - dÅ¯m dÄ›tÃ­ a mlÃ¡deÅ¾e">{obrazek soubor='ulita.cz.png' popisek='Ulita'}</a>
+Prostory poskytl dÅ¯m dÄ›tÃ­ a mlÃ¡deÅ¾e <a href="http://www.ulita.cz" class="external" onclick="pageTracker._trackPageview('/goto/ulita.cz');" title="Ulita - dÅ¯m dÄ›tÃ­ a mlÃ¡deÅ¾e">Ulita</a>, Praha 3.
 </p>
 *}
 
@@ -83,13 +83,13 @@ Prostory poskytl dùm dìtí a mláde¾e <a href="http://www.ulita.cz" class="externa
 {*
 <p>
 <a href="http://www.fireshow.cz/zonglovani-v-ulite" onclick="pageTracker._trackPageview('/goto/fireshow.cz/zonglovani-v-ulite');" title="FireShow.cz">{obrazek soubor='fireshow.cz.png' popisek='Fireshow.cz'}</a>
-<a href="http://www.fireshow.cz/zonglovani-v-ulite" title="FireShow.cz - V¹e pro ¾ongléry od ¾onglérù" onclick="pageTracker._trackPageview('/goto/fireshow.cz/zonglovani-v-ulite');" class="external">FireShow.cz</a> - v¹e pro ¾ongléry od ¾onglérù.
+<a href="http://www.fireshow.cz/zonglovani-v-ulite" title="FireShow.cz - VÅ¡e pro Å¾onglÃ©ry od Å¾onglÃ©rÅ¯" onclick="pageTracker._trackPageview('/goto/fireshow.cz/zonglovani-v-ulite');" class="external">FireShow.cz</a> - vÅ¡e pro Å¾onglÃ©ry od Å¾onglÃ©rÅ¯.
 </p>
 
 <!--
 <p>
-<a href="http://www.zongluj.cz" onclick="pageTracker._trackPageview('/goto/zongluj.cz');" title="zongluj.cz">{obrazek soubor='zongluj.cz.jpg' popisek='®ongluj imrvére'}</a>
-<a href="http://www.zongluj.cz" title="®ongluj imrvére" onclick="pageTracker._trackPageview('/goto/zongluj.cz');" class="external">Zongluj.cz</a> - specializovanı obchod s nejvìt¹ím vıbìrem zbo¾í na ¾onglování v èeské republice.
+<a href="http://www.zongluj.cz" onclick="pageTracker._trackPageview('/goto/zongluj.cz');" title="zongluj.cz">{obrazek soubor='zongluj.cz.jpg' popisek='Å½ongluj imrvÃ©re'}</a>
+<a href="http://www.zongluj.cz" title="Å½ongluj imrvÃ©re" onclick="pageTracker._trackPageview('/goto/zongluj.cz');" class="external">Zongluj.cz</a> - specializovanÃ½ obchod s nejvÄ›tÅ¡Ã­m vÃ½bÄ›rem zboÅ¾Ã­ na Å¾onglovÃ¡nÃ­ v ÄeskÃ© republice.
 </p>
 -->
 *}

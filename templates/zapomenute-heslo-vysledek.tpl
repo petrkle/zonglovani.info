@@ -1,7 +1,7 @@
 <p>
 {if $status=="ok"}
-Na tvùj e-mail byla odeslána zpráva potøebná k obnovení hesla.
+Na tvÅ¯j e-mail byla odeslÃ¡na zprÃ¡va potÅ™ebnÃ¡ k obnovenÃ­ hesla.
 {else}
-Pøi obnovì hesla do¹lo k chybì.
+PÅ™i obnovÄ› hesla doÅ¡lo k chybÄ›.
 {/if}
 </p>

@@ -2,14 +2,14 @@
 <li>{$smarty.server.SERVER_NAME}{$smarty.server.REQUEST_URI}</li>
 </ul>
 <p>
-Je mi líto, po¾adovanou stránku nelze zobrazit.
+Je mi lÃ­to, poÅ¾adovanou strÃ¡nku nelze zobrazit.
 </p>
-	<p>Pomoci vám mù¾e následující:
+	<p>Pomoci vÃ¡m mÅ¯Å¾e nÃ¡sledujÃ­cÃ­:
 	<ul>
-<li>Pøejdìte na <a href="/" title="Úvodní stránka" target="_top">úvodní stránku webu</a> a dál pokraèujte odtud.</li>
-<li>Pou¾ijte <a href="/mapa-stranek.html" title="Mapa stránek" target="_top">mapu stránek</a>, tj. seznam v¹ech stránek na serveru.</li>
+<li>PÅ™ejdÄ›te na <a href="/" title="ÃšvodnÃ­ strÃ¡nka" target="_top">ÃºvodnÃ­ strÃ¡nku webu</a> a dÃ¡l pokraÄujte odtud.</li>
+<li>PouÅ¾ijte <a href="/mapa-stranek.html" title="Mapa strÃ¡nek" target="_top">mapu strÃ¡nek</a>, tj. seznam vÅ¡ech strÃ¡nek na serveru.</li>
 	</ul>
 </p>	
 
 
-<p>Chybové hlá¹ení: <strong>HTTP 403 [Forbidden]</strong></p>
+<p>ChybovÃ© hlÃ¡Å¡enÃ­: <strong>HTTP 403 [Forbidden]</strong></p>

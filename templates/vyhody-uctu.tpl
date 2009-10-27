@@ -1,5 +1,5 @@
 {*
 <p>
-U¾ brzo pùjde také psát do <a href="{$smarty.const.DISKUSE_URL}" title="Diskuse o ¾onglování.">diskuse</a>.
+UÅ¾ brzo pÅ¯jde takÃ© psÃ¡t do <a href="{$smarty.const.DISKUSE_URL}" title="Diskuse o Å¾onglovÃ¡nÃ­.">diskuse</a>.
 </p>
 *}

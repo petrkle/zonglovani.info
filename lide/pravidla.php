@@ -1,7 +1,7 @@
 <?php
 require('../init.php');
 
-$smarty->assign("titulek","Pravidla pro vytvoøení úètu");
+$smarty->assign("titulek","Pravidla pro vytvoÅ™enÃ­ ÃºÄtu");
 $smarty->assign("nadpis","none");
 $smarty->assign("notitle",true);
 

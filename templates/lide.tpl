@@ -1,8 +1,8 @@
 {if is_array($uzivatele)}
-<p>Seznam u¾ivatelù ¾onglérova slabikáøe.</p>
+<p>Seznam uÅ¾ivatelÅ¯ Å¾onglÃ©rova slabikÃ¡Å™e.</p>
 <ul>
 {foreach from=$uzivatele item=uzivatel}
-<li><a href="{$smarty.const.LIDE_URL}{$uzivatel}.html" title="Profil u¾ivatele {$uzivatel}">{$uzivatel}</a></li>
+<li><a href="{$smarty.const.LIDE_URL}{$uzivatel}.html" title="Profil uÅ¾ivatele {$uzivatel}">{$uzivatel}</a></li>
 {/foreach}
 </ul>
 {/if}

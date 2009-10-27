@@ -21,9 +21,9 @@
 {/if}
 </p>
 <p>
-Dal¹í <a href="/video/">¾onglérská videa</a>.
+DalÅ¡Ã­ <a href="/video/">Å¾onglÃ©rskÃ¡ videa</a>.
 </p>
 
 <p>
-Videa na internetu se pøesouvají, mizí a zase objevují. Pokud narazí¹ na ¹patnı odkaz, mù¾e¹ mi <a href="/kontakt.html" title="Nahlá¹ení ¹patného odkazu.">napsat</a>. Zaøídím jeho opravu.
+Videa na internetu se pÅ™esouvajÃ­, mizÃ­ a zase objevujÃ­. Pokud narazÃ­Å¡ na Å¡patnÃ½ odkaz, mÅ¯Å¾eÅ¡ mi <a href="/kontakt.html" title="NahlÃ¡Å¡enÃ­ Å¡patnÃ©ho odkazu.">napsat</a>. ZaÅ™Ã­dÃ­m jeho opravu.
 </p>

@@ -72,7 +72,7 @@ $smarty->assign_by_ref('month', $weeksInMonth);
 $monthNumber = date('n',$month->getTimeStamp());
 $monthName = $mesice[$monthNumber-1]." ".date('Y',$month->getTimeStamp());
 $smarty->assign('monthName', $monthName);
-$titulek="Kalendáø ¾onglérskıch akcí";
+$titulek="KalendÃ¡Å™ Å¾onglÃ©rskÃ½ch akcÃ­";
 
 if(date('Y',$now)==$rok and date('m',$now)==$mesic){
 	$smarty->assign('dnesek', date('j',$now));

@@ -5,31 +5,31 @@
 	     <nazev>1 count</nazev>
 		 <pocet>6</pocet>
 	     <siteswaps>-</siteswaps>
-		 <obtiznost>snadné</obtiznost>
+		 <obtiznost>snadnÃ©</obtiznost>
 		 <oblast>kuzely-passing</oblast>
 	</about>
 
 	<krok>
-		<popisek>Ka¾dı hod je pass. Hází¹: &lt;pre&gt; P       L      P       L     P      L&lt;/pre&gt; &lt;pre&gt;pass - pass - pass - pass - pass - pass ...&lt;/pre&gt;</popisek>
+		<popisek>KaÅ¾dÃ½ hod je pass. HÃ¡zÃ­Å¡: &lt;pre&gt; P       L      P       L     P      L&lt;/pre&gt; &lt;pre&gt;pass - pass - pass - pass - pass - pass ...&lt;/pre&gt;</popisek>
   </krok>
 
 	<krok>
-		<popisek>P - pravá ruka; L - levá ruka; pass - hod partnerovi</popisek>
+		<popisek>P - pravÃ¡ ruka; L - levÃ¡ ruka; pass - hod partnerovi</popisek>
   </krok>
 
     <krok>
 			<obrazek>kuzely-passing-1counta</obrazek>
-			<popisek>První hod je pass z pravé ruky.</popisek>
+			<popisek>PrvnÃ­ hod je pass z pravÃ© ruky.</popisek>
     </krok>
 
     <krok>
 			<obrazek>kuzely-passing-1countb</obrazek>
-			 <popisek>I druhı hod je pass. Tentokrát z levé ruky.</popisek>
+			 <popisek>I druhÃ½ hod je pass. TentokrÃ¡t z levÃ© ruky.</popisek>
     </krok>
 
 
     <krok>
-			 <popisek>Dál pokraèuj podle prvního obrázku. V¹echny hody jsou pass.</popisek>
+			 <popisek>DÃ¡l pokraÄuj podle prvnÃ­ho obrÃ¡zku. VÅ¡echny hody jsou pass.</popisek>
     </krok>
 
 

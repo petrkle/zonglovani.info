@@ -2,46 +2,46 @@
 <trik>
 
     <about>
-	     <nazev>Obíhání</nazev>
+	     <nazev>ObÃ­hÃ¡nÃ­</nazev>
 		 <pocet>3</pocet>
 	     <siteswaps>-</siteswaps>
-		 <obtiznost>snadné</obtiznost>
+		 <obtiznost>snadnÃ©</obtiznost>
 		 <oblast>kuzely-passing</oblast>
 	</about>
 
 
     <krok>
-			<popisek>Runarounds - trik pro dva ¾ongléry a tøi ku¾ely.</popisek>
+			<popisek>Runarounds - trik pro dva Å¾onglÃ©ry a tÅ™i kuÅ¾ely.</popisek>
     </krok>
 
     <krok>
 			<obrazek>kuzely-runaroundsa</obrazek>
-			<popisek>&lt;b&gt;A&lt;/b&gt; zaèíná se dvìma ku¾ely. &lt;b&gt;B&lt;/b&gt; stojí tìsnì za ním. &lt;b&gt;B&lt;/b&gt; hází první ku¾el z pravé ruky pod levou rukou &lt;b&gt;A&lt;/b&gt;.</popisek>
+			<popisek>&lt;b&gt;A&lt;/b&gt; zaÄÃ­nÃ¡ se dvÄ›ma kuÅ¾ely. &lt;b&gt;B&lt;/b&gt; stojÃ­ tÄ›snÄ› za nÃ­m. &lt;b&gt;B&lt;/b&gt; hÃ¡zÃ­ prvnÃ­ kuÅ¾el z pravÃ© ruky pod levou rukou &lt;b&gt;A&lt;/b&gt;.</popisek>
     </krok>
 
 
     <krok>
 			<obrazek>kuzely-runaroundsb</obrazek>
-			<popisek>První ku¾el proletí pøed &lt;b&gt;A&lt;/b&gt;. &lt;b&gt;B&lt;/b&gt; se mezitím pøesune a chytne ku¾el do levé ruky.</popisek>
+			<popisek>PrvnÃ­ kuÅ¾el proletÃ­ pÅ™ed &lt;b&gt;A&lt;/b&gt;. &lt;b&gt;B&lt;/b&gt; se mezitÃ­m pÅ™esune a chytne kuÅ¾el do levÃ© ruky.</popisek>
     </krok>
 
 
 
     <krok>
 			<obrazek>kuzely-runaroundsc</obrazek>
-			<popisek>&lt;b&gt;A&lt;/b&gt; hodí druhı ku¾el pøed sebe a pøesunuje se za &lt;b&gt;B&lt;/b&gt;.</popisek>
+			<popisek>&lt;b&gt;A&lt;/b&gt; hodÃ­ druhÃ½ kuÅ¾el pÅ™ed sebe a pÅ™esunuje se za &lt;b&gt;B&lt;/b&gt;.</popisek>
     </krok>
 
 
     <krok>
 			<obrazek>kuzely-runaroundsd</obrazek>
-			<popisek>&lt;b&gt;B&lt;/b&gt; je vepøedu a chytá druhı ku¾el do levé ruky.</popisek>
+			<popisek>&lt;b&gt;B&lt;/b&gt; je vepÅ™edu a chytÃ¡ druhÃ½ kuÅ¾el do levÃ© ruky.</popisek>
     </krok>
 
 
     <krok>
 			<obrazek>kuzely-runaroundse</obrazek>
-			<popisek>Pozice se vymìnily. &lt;b&gt;A&lt;/b&gt; stojí tìsnì za &lt;b&gt;B&lt;/b&gt; a há¾e tøetí ku¾el z pravé ruky pod levou rukou &lt;b&gt;B&lt;/b&gt;.</popisek>
+			<popisek>Pozice se vymÄ›nily. &lt;b&gt;A&lt;/b&gt; stojÃ­ tÄ›snÄ› za &lt;b&gt;B&lt;/b&gt; a hÃ¡Å¾e tÅ™etÃ­ kuÅ¾el z pravÃ© ruky pod levou rukou &lt;b&gt;B&lt;/b&gt;.</popisek>
     </krok>
 
 

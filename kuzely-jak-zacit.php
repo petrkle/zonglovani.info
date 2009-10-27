@@ -1,7 +1,7 @@
 <?php
 require('init.php');
 
-$smarty->assign("titulek","®onglování s ku¾ely");
+$smarty->assign("titulek","Å½onglovÃ¡nÃ­ s kuÅ¾ely");
 
 $smarty->display('hlavicka.tpl');
 $smarty->display('kuzely-jak-zacit.tpl');

@@ -10,9 +10,9 @@ $znameni=filtr(strtolower(trim($znameni)),$zverokruh);
 
 
 if(isset($_GET["zitra"])){
-	$nadpis="Horoskop æonglov·nÌ na zÌtra";
+	$nadpis="Horoskop ≈æonglov√°n√≠ na z√≠tra";
 }else{
-	$nadpis="Horoskop æonglov·nÌ";
+	$nadpis="Horoskop ≈æonglov√°n√≠";
 }
 
 if($_SERVER["REQUEST_URI"]=="/horoskop/"){

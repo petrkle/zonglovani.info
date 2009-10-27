@@ -1,23 +1,23 @@
-<h3>®onglér</h3>
+<h3>Å½onglÃ©r</h3>
 <p>
-{obrazek soubor="zongler.png" popisek="®onglér"}
-S okouzlující lehkostí pøedvádí neuvìøitelné kousky. Usmívá se a v¹echy pobaví.
+{obrazek soubor="zongler.png" popisek="Å½onglÃ©r"}
+S okouzlujÃ­cÃ­ lehkostÃ­ pÅ™edvÃ¡dÃ­ neuvÄ›Å™itelnÃ© kousky. UsmÃ­vÃ¡ se a vÅ¡echy pobavÃ­.
 </p>
 
-<h3><a href="/micky/3/kaskada.html" title="Návod pro 3 míèky.">Kaskáda</a></h3>
+<h3><a href="/micky/3/kaskada.html" title="NÃ¡vod pro 3 mÃ­Äky.">KaskÃ¡da</a></h3>
 <p>
-<a href="/micky/3/kaskada.html" title="Návod pro 3 míèky.">{obrazek soubor="help-kaskada.png" popisek="Kaskáda"}</a>
-Nejsnadnìj¹í zpùsob ¾onglování. ¾ongluje se s lichım poètem pøedmìtù - 3, 5, 7, .... Støídavì hází pravá a levá ruka.
+<a href="/micky/3/kaskada.html" title="NÃ¡vod pro 3 mÃ­Äky.">{obrazek soubor="help-kaskada.png" popisek="KaskÃ¡da"}</a>
+NejsnadnÄ›jÅ¡Ã­ zpÅ¯sob Å¾onglovÃ¡nÃ­. Å¾ongluje se s lichÃ½m poÄtem pÅ™edmÄ›tÅ¯ - 3, 5, 7, .... StÅ™Ã­davÄ› hÃ¡zÃ­ pravÃ¡ a levÃ¡ ruka.
 </p>
 
-<h3><a href="/micky/3/sprcha.html" title="Návod pro 3 míèky.">Sprcha</a></h3>
+<h3><a href="/micky/3/sprcha.html" title="NÃ¡vod pro 3 mÃ­Äky.">Sprcha</a></h3>
 <p>
-<a href="/micky/3/sprcha.html" title="Návod pro 3 míèky.">{obrazek soubor="help-sprcha.png" popisek="Sprcha"}</a>
-¾onglování dokoleèka. Jedna ruka hází vrchem, druhá chytá a hází spodem. Mo¾né s lichım i sudım poètem pøedmìtù.
+<a href="/micky/3/sprcha.html" title="NÃ¡vod pro 3 mÃ­Äky.">{obrazek soubor="help-sprcha.png" popisek="Sprcha"}</a>
+Å¾onglovÃ¡nÃ­ dokoleÄka. Jedna ruka hÃ¡zÃ­ vrchem, druhÃ¡ chytÃ¡ a hÃ¡zÃ­ spodem. MoÅ¾nÃ© s lichÃ½m i sudÃ½m poÄtem pÅ™edmÄ›tÅ¯.
 </p>
 
-<h3><a href="/micky/4/fontana.html" title="Návod pro 4 míèky.">Fontána</a></h3>
+<h3><a href="/micky/4/fontana.html" title="NÃ¡vod pro 4 mÃ­Äky.">FontÃ¡na</a></h3>
 <p>
-<a href="/micky/4/fontana.html" title="Návod pro 4 míèky.">{obrazek soubor="help-fontana.png" popisek="Fontána"}</a>
-®onglování se sudım poètem pøedmìtù - 4, 6, 8, .... V ka¾dé ruce polovina.
+<a href="/micky/4/fontana.html" title="NÃ¡vod pro 4 mÃ­Äky.">{obrazek soubor="help-fontana.png" popisek="FontÃ¡na"}</a>
+Å½onglovÃ¡nÃ­ se sudÃ½m poÄtem pÅ™edmÄ›tÅ¯ - 4, 6, 8, .... V kaÅ¾dÃ© ruce polovina.
 </p>

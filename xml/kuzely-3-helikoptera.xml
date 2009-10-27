@@ -2,32 +2,32 @@
 <trik>
 
     <about>
-	     <nazev>Helikoptéra</nazev>
+	     <nazev>HelikoptÃ©ra</nazev>
 		 <pocet>3</pocet>
 	     <siteswaps>3</siteswaps>
-		 <obtiznost>obtí¾né</obtiznost>
+		 <obtiznost>obtÃ­Å¾nÃ©</obtiznost>
 		 <oblast>kuzely-3</oblast>
 	</about>
 
 	<krok>
-	    <popisek>Efektní, av¹ak velmi obtí¾né.</popisek>
+	    <popisek>EfektnÃ­, avÅ¡ak velmi obtÃ­Å¾nÃ©.</popisek>
     </krok>
 
     <krok>
 			<obrazek>kuzely-3-helikopteraa</obrazek>
-			<popisek>Polo¾ si pravou rukou ku¾el na hlavu a roztoè ho.</popisek>
+			<popisek>PoloÅ¾ si pravou rukou kuÅ¾el na hlavu a roztoÄ ho.</popisek>
     </krok>
 
 
     <krok>
 			<obrazek>kuzely-3-helikopterab</obrazek>
-			<popisek>Ku¾el se ti na hlavì jednou otoèí.</popisek>
+			<popisek>KuÅ¾el se ti na hlavÄ› jednou otoÄÃ­.</popisek>
     </krok>
 
 
     <krok>
 			<obrazek>kuzely-3-helikopterac</obrazek>
-			<popisek>Chy» ku¾el levou rukou a pokraèuj v ¾onglování.</popisek>
+			<popisek>ChyÅ¥ kuÅ¾el levou rukou a pokraÄuj v Å¾onglovÃ¡nÃ­.</popisek>
     </krok>
 
 

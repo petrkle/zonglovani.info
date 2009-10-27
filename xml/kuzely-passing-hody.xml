@@ -2,57 +2,57 @@
 <trik>
 
     <about>
-	     <nazev>Druhy hodù pøi passování</nazev>
+	     <nazev>Druhy hodÅ¯ pÅ™i passovÃ¡nÃ­</nazev>
 		 <pocet>?</pocet>
 	     <siteswaps>-</siteswaps>
-		 <obtiznost>tì¾¹í</obtiznost>
+		 <obtiznost>tÄ›Å¾Å¡Ã­</obtiznost>
 		 <oblast>kuzely-passing</oblast>
 	 </about>
 
 	<krok>
-		<popisek>Ku¾ely lze házet mnoha rùznımi zpùsoby.</popisek>
+		<popisek>KuÅ¾ely lze hÃ¡zet mnoha rÅ¯znÃ½mi zpÅ¯soby.</popisek>
 	</krok>
 
     <krok>
-			<nadpis name="single">Jedna otoèka</nadpis>
+			<nadpis name="single">Jedna otoÄka</nadpis>
 			<obrazek>kuzely-passing-hodya</obrazek>
-			<popisek>Základní pass. Ku¾el si dá¹ podél nohy. Rozmáchne¹ se a hodí¹ ku¾el. Hází¹ hlavnì pøedloktím. Ku¾el se za letu jednou otoèí.</popisek>
+			<popisek>ZÃ¡kladnÃ­ pass. KuÅ¾el si dÃ¡Å¡ podÃ©l nohy. RozmÃ¡chneÅ¡ se a hodÃ­Å¡ kuÅ¾el. HÃ¡zÃ­Å¡ hlavnÄ› pÅ™edloktÃ­m. KuÅ¾el se za letu jednou otoÄÃ­.</popisek>
     </krok>
 
     <krok>
 			<obrazek>kuzely-passing-hodyb</obrazek>
-			<popisek>Pro chycení staèí nastavit ruku pøed sebe.</popisek>
+			<popisek>Pro chycenÃ­ staÄÃ­ nastavit ruku pÅ™ed sebe.</popisek>
     </krok>
 
 
     <krok>
-			<nadpis name="double">Dvì otoèky</nadpis>
+			<nadpis name="double">DvÄ› otoÄky</nadpis>
 			<obrazek>kuzely-passing-hodyc</obrazek>
-			<popisek>Obdnobé jako pøedchozí pass. Pouze ku¾el se za letu otoèí 2x. Musí¹ ho proto hodit o nìco vı¹.</popisek>
+			<popisek>ObdnobÃ© jako pÅ™edchozÃ­ pass. Pouze kuÅ¾el se za letu otoÄÃ­ 2x. MusÃ­Å¡ ho proto hodit o nÄ›co vÃ½Å¡.</popisek>
     </krok>
 
     <krok>
-			<nadpis name="nospin">Bez otoèky</nadpis>
+			<nadpis name="nospin">Bez otoÄky</nadpis>
 			<obrazek>kuzely-passing-hodyd</obrazek>
-			<popisek>Pøi tomto passu se naopak ku¾el neotoèí vùbec. Celou dráhu letí svisle.</popisek>
+			<popisek>PÅ™i tomto passu se naopak kuÅ¾el neotoÄÃ­ vÅ¯bec. Celou drÃ¡hu letÃ­ svisle.</popisek>
     </krok>
 
     <krok>
 			<nadpis name="tomahawk">Tomahawk</nadpis>
 			<obrazek>kuzely-passing-hodye</obrazek>
-			<popisek>Ku¾el hází¹ nad ramenem. Stejnì jako indiáni vrhají tomahawk.</popisek>
+			<popisek>KuÅ¾el hÃ¡zÃ­Å¡ nad ramenem. StejnÄ› jako indiÃ¡ni vrhajÃ­ tomahawk.</popisek>
     </krok>
 
     <krok>
-			<nadpis name="revers">Reverzní hod</nadpis>
+			<nadpis name="revers">ReverznÃ­ hod</nadpis>
 			<obrazek>kuzely-passing-hodyf</obrazek>
-			<popisek>Ku¾el s obrácenou rotací. Mù¾e¹ zkusit jednu i dvì otoèky.</popisek>
+			<popisek>KuÅ¾el s obrÃ¡cenou rotacÃ­. MÅ¯Å¾eÅ¡ zkusit jednu i dvÄ› otoÄky.</popisek>
     </krok>
 
     <krok>
 			<nadpis name="podnohou">Pod nohou</nadpis>
 			<obrazek>kuzely-passing-hodyg</obrazek>
-			<popisek>Ku¾el nehází¹ vedle nohy, ale pod ní.</popisek>
+			<popisek>KuÅ¾el nehÃ¡zÃ­Å¡ vedle nohy, ale pod nÃ­.</popisek>
     </krok>
 
 

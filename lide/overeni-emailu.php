@@ -1,7 +1,7 @@
 <?php
 require('../init.php');
 
-$smarty->assign("titulek","Aktivace úètu");
+$smarty->assign("titulek","Aktivace ÃºÄtu");
 if(isset($_GET["m"]) and isset($_GET["k"])){
 	$mail=$_GET["m"];
 	$key=$_GET["k"];
@@ -29,26 +29,26 @@ if(isset($_GET["m"]) and isset($_GET["k"])){
 			unlink("$tmp/created.time");
 			rmdir($tmp);
 
-			$smarty->assign("chyby",array("Úèet byl úspì¹nì aktivován.","Mù¾e¹ se <a href=\"".LIDE_URL."prihlaseni.php\" title=\"Pøihlá¹ení.\">pøihlásit</a>."));
+			$smarty->assign("chyby",array("ÃšÄet byl ÃºspÄ›Å¡nÄ› aktivovÃ¡n.","MÅ¯Å¾eÅ¡ se <a href=\"".LIDE_URL."prihlaseni.php\" title=\"PÅ™ihlÃ¡Å¡enÃ­.\">pÅ™ihlÃ¡sit</a>."));
 			$smarty->display('hlavicka.tpl');
 			$smarty->display('alert.tpl');
 			$smarty->display('paticka.tpl');
 		
 		}else{
-			$smarty->assign("chyby",array("Úèet u¾ existuje."));
+			$smarty->assign("chyby",array("ÃšÄet uÅ¾ existuje."));
 			$smarty->display('hlavicka.tpl');
 			$smarty->display('alert.tpl');
 			$smarty->display('paticka.tpl');
 		}
 	}else{
-		$smarty->assign("chyby",array("Neplatnı odkaz pro aktivaci úètu."));
+		$smarty->assign("chyby",array("NeplatnÃ½ odkaz pro aktivaci ÃºÄtu."));
 		$smarty->display('hlavicka.tpl');
 		$smarty->display('alert.tpl');
 		$smarty->display('paticka.tpl');
 	}
 
 }else{
-	$smarty->assign("chyby",array("Odkaz pro aktivaci úètu není úplnı.","Úèet NEBYL vytvoøen."));
+	$smarty->assign("chyby",array("Odkaz pro aktivaci ÃºÄtu nenÃ­ ÃºplnÃ½.","ÃšÄet NEBYL vytvoÅ™en."));
 	$smarty->display('hlavicka.tpl');
 	$smarty->display('alert.tpl');
 	$smarty->display('paticka.tpl');

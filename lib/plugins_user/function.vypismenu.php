@@ -2,8 +2,8 @@
 
 function smarty_function_vypismenu($params, &$smarty){
 	$adresy = array('/','/micky/','/kruhy/','/kuzely/','/ostatni.html');
-	$texty = array('Úvodní stránka','Míèky','Kruhy','Ku¾ely','Ostatní');
-	$popis = array('®onglérùv slabikáø - Úvodní stránka','Zaèínáme s míèky','Zaèínáme s kruhy','Zaèínáme s ku¾ely','V¹e ostatní o ¾onglování');
+	$texty = array('ÃšvodnÃ­ strÃ¡nka','MÃ­Äky','Kruhy','KuÅ¾ely','OstatnÃ­');
+	$popis = array('Å½onglÃ©rÅ¯v slabikÃ¡Å™ - ÃšvodnÃ­ strÃ¡nka','ZaÄÃ­nÃ¡me s mÃ­Äky','ZaÄÃ­nÃ¡me s kruhy','ZaÄÃ­nÃ¡me s kuÅ¾ely','VÅ¡e ostatnÃ­ o Å¾onglovÃ¡nÃ­');
 
 	$navrat="<ul>\n";
 
@@ -20,15 +20,15 @@ function smarty_function_vypismenu($params, &$smarty){
 	}
 
 		if(!preg_match('/^\/ulita\/$/',$_SERVER["REQUEST_URI"]) and $_SERVER["REQUEST_URI"]!='/'){
-			$navrat.='<li><h4><a href="/ulita/" title="Nedìlní ¾onglování v DDM Ulita.">®onglování v Ulitì</a></h4></li>';
+			$navrat.='<li><h4><a href="/ulita/" title="NedÄ›lnÃ­ Å¾onglovÃ¡nÃ­ v DDM Ulita.">Å½onglovÃ¡nÃ­ v UlitÄ›</a></h4></li>';
 		}
 
 	$navrat.="\n<ul>\n";
 			if(!preg_match(SEARCH_URL,$_SERVER["REQUEST_URI"])){
 	$navrat.='<form action="'.SEARCH_URL.'" method="get" id="malehledani">
 		<fieldset>
-		<legend>Vyhledávání</legend>
-		<input type="text" name="query" class="policko" /><input type="submit" value="Najít" class="knoflik" />
+		<legend>VyhledÃ¡vÃ¡nÃ­</legend>
+		<input type="text" name="query" class="policko" /><input type="submit" value="NajÃ­t" class="knoflik" />
 		<input type="hidden" name="search" value="1" />
 		</fieldset>
 		</form>';
@@ -43,20 +43,20 @@ function submenu($id){
 
 	if($id==1){
 		$adresy = array('/micky/2/','/micky/3/','/micky/4/','/micky/5/');
-		$texty = array('2 míèky','3 míèky','4 míèky','5 míèkù');
-		$popisky = array('®onglování se dvìma míèky.','®onglování se tøemi míèky.','®onglování se ètyømi míèky.','®onglování s pìti míèky.');
+		$texty = array('2 mÃ­Äky','3 mÃ­Äky','4 mÃ­Äky','5 mÃ­ÄkÅ¯');
+		$popisky = array('Å½onglovÃ¡nÃ­ se dvÄ›ma mÃ­Äky.','Å½onglovÃ¡nÃ­ se tÅ™emi mÃ­Äky.','Å½onglovÃ¡nÃ­ se ÄtyÅ™mi mÃ­Äky.','Å½onglovÃ¡nÃ­ s pÄ›ti mÃ­Äky.');
 	}
 
 	if($id==3){
 		$adresy = array('/kuzely/3/','/kuzely/passing/');
-		$texty = array('3 ku¾ely','Passing');
-		$popisky = array('®onglování se tøemi ku¾ely','®onglování ve více lidech');
+		$texty = array('3 kuÅ¾ely','Passing');
+		$popisky = array('Å½onglovÃ¡nÃ­ se tÅ™emi kuÅ¾ely','Å½onglovÃ¡nÃ­ ve vÃ­ce lidech');
 	}
 
 	if($id==4){
 		$adresy = array('/obrazky/','/video/','/kalendar/','/diskuse/');
-		$texty = array('Obrázky','Video','Kalendáø','Diskuse');
-		$popisky = array('Obrázky ¾onglování','Zajímavá ¾onglérská videa','Kalendáø ¾onglérskıch akcí','Diskuse o ¾onglování');
+		$texty = array('ObrÃ¡zky','Video','KalendÃ¡Å™','Diskuse');
+		$popisky = array('ObrÃ¡zky Å¾onglovÃ¡nÃ­','ZajÃ­mavÃ¡ Å¾onglÃ©rskÃ¡ videa','KalendÃ¡Å™ Å¾onglÃ©rskÃ½ch akcÃ­','Diskuse o Å¾onglovÃ¡nÃ­');
 	}
 
 	if(isset($adresy)){

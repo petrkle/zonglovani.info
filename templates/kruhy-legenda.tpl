@@ -1,22 +1,22 @@
 <p>
-Obrázky znázoròují jak házet kruhy, jejich dráhu a naèasování. Ke ka¾dému obrázku patøí vysvìtlující text umístìnı vpravo od nìj.
+ObrÃ¡zky znÃ¡zorÅˆujÃ­ jak hÃ¡zet kruhy, jejich drÃ¡hu a naÄasovÃ¡nÃ­. Ke kaÅ¾dÃ©mu obrÃ¡zku patÅ™Ã­ vysvÄ›tlujÃ­cÃ­ text umÃ­stÄ›nÃ½ vpravo od nÄ›j.
 </p>
 
 <h3>Kruhy</h3>
 <p>
-{obrazek soubor="kruhy-legendaa.png" popisek="Druhy kruhù."}
-Kruhy jsou rozli¹eny barvou a èíslicí.
+{obrazek soubor="kruhy-legendaa.png" popisek="Druhy kruhÅ¯."}
+Kruhy jsou rozliÅ¡eny barvou a ÄÃ­slicÃ­.
 </p>
 
 
-<h3>Dráhy kruhù</h3>
+<h3>DrÃ¡hy kruhÅ¯</h3>
 <p>
-{obrazek soubor="legendab.png" popisek="Dráha kruhu."}
-Dráha po které by kruh mìl letìt je vyznaèena pøeru¹ovanou èárou. ©ipka na konci urèuje smìr.
+{obrazek soubor="legendab.png" popisek="DrÃ¡ha kruhu."}
+DrÃ¡ha po kterÃ© by kruh mÄ›l letÄ›t je vyznaÄena pÅ™eruÅ¡ovanou ÄÃ¡rou. Å ipka na konci urÄuje smÄ›r.
 </p>
 
 <h3>Ruce</h3>
 <p>
-{obrazek soubor="legendac.png" popisek="Pravá a levá ruka."}
-Pravá ruka je oznaèena písmenem P. Levá ruka písmenem L.
+{obrazek soubor="legendac.png" popisek="PravÃ¡ a levÃ¡ ruka."}
+PravÃ¡ ruka je oznaÄena pÃ­smenem P. LevÃ¡ ruka pÃ­smenem L.
 </p>

@@ -1,64 +1,64 @@
 <p>
-®onglérskı míèek je to s èím bude¹ hodiny a hodiny cvièit. Poøiï si proto takové které se ti líbí a vyhovují. Poøádnı míèek je základ úspìchu.
+Å½onglÃ©rskÃ½ mÃ­Äek je to s ÄÃ­m budeÅ¡ hodiny a hodiny cviÄit. PoÅ™iÄ si proto takovÃ© kterÃ© se ti lÃ­bÃ­ a vyhovujÃ­. PoÅ™Ã¡dnÃ½ mÃ­Äek je zÃ¡klad ÃºspÄ›chu.
 </p>
 
-<h3>Tenisovı míèek</h3>
+<h3>TenisovÃ½ mÃ­Äek</h3>
 <p>
-<a href="/img/t/tenisak.jpg">{obrazek soubor="tenisak-nahled.jpg" popisek="Tenisovı míèek"}</a>
-Nejdostupnìj¹í míèek na ¾onglování. Má dobrou velikost, ale je pøíli¹ lehkı. Zkus ho pro <a href="/micky/jak-zacit.html" title="Úplnı základ.">zaèátek</a>, ne¾ zjistí¹ jestli tì ¾onglování baví.
+<a href="/img/t/tenisak.jpg">{obrazek soubor="tenisak-nahled.jpg" popisek="TenisovÃ½ mÃ­Äek"}</a>
+NejdostupnÄ›jÅ¡Ã­ mÃ­Äek na Å¾onglovÃ¡nÃ­. MÃ¡ dobrou velikost, ale je pÅ™Ã­liÅ¡ lehkÃ½. Zkus ho pro <a href="/micky/jak-zacit.html" title="ÃšplnÃ½ zÃ¡klad.">zaÄÃ¡tek</a>, neÅ¾ zjistÃ­Å¡ jestli tÄ› Å¾onglovÃ¡nÃ­ bavÃ­.
 </p>
 
-<a name="beanbag"><h3>©itı míèek</h3></a>
+<a name="beanbag"><h3>Å itÃ½ mÃ­Äek</h3></a>
 <p>
-<a href="/img/s/sity.jpg">{obrazek soubor="sity-nahled.jpg" popisek="©itı míèek"}</a>
-Míèek se¹itı z nìkolika kusù textilie (ko¾enky, kù¾e, ...), naplnìnı zrnky (rı¾e, proso, fazolky, ...). Jde <a href="vyroba.html#sity" title="Pìkné míèky snadno a rychle.">vyrobit svépomocí</a>.
+<a href="/img/s/sity.jpg">{obrazek soubor="sity-nahled.jpg" popisek="Å itÃ½ mÃ­Äek"}</a>
+MÃ­Äek seÅ¡itÃ½ z nÄ›kolika kusÅ¯ textilie (koÅ¾enky, kÅ¯Å¾e, ...), naplnÄ›nÃ½ zrnky (rÃ½Å¾e, proso, fazolky, ...). Jde <a href="vyroba.html#sity" title="PÄ›knÃ© mÃ­Äky snadno a rychle.">vyrobit svÃ©pomocÃ­</a>.
 </p>
 
-<h3>Gumovı míèek</h3>
+<h3>GumovÃ½ mÃ­Äek</h3>
 <p>
-<a href="/img/g/gumovy.jpg">{obrazek soubor="gumovy-nahled.jpg" popisek="Gumovı míèek"}</a>
-V hraèkáøství lze koupit gumové míèky rùznıch velikostí. Skáèou a jsou trochu lehèí ne¾ je potøeba.
+<a href="/img/g/gumovy.jpg">{obrazek soubor="gumovy-nahled.jpg" popisek="GumovÃ½ mÃ­Äek"}</a>
+V hraÄkÃ¡Å™stvÃ­ lze koupit gumovÃ© mÃ­Äky rÅ¯znÃ½ch velikostÃ­. SkÃ¡Äou a jsou trochu lehÄÃ­ neÅ¾ je potÅ™eba.
 </p>
 
-<h3>Jevi¹tní míèek</h3>
+<h3>JeviÅ¡tnÃ­ mÃ­Äek</h3>
 <p>
-<a href="/img/s/stage.jpg">{obrazek soubor="stage-nahled.jpg" popisek="Jevi¹tní míèek"}</a>
-Míèek pro vystoupení na jevi¹ti. Pìknì kulatı a lesklı. Neskáèe.
+<a href="/img/s/stage.jpg">{obrazek soubor="stage-nahled.jpg" popisek="JeviÅ¡tnÃ­ mÃ­Äek"}</a>
+MÃ­Äek pro vystoupenÃ­ na jeviÅ¡ti. PÄ›knÄ› kulatÃ½ a lesklÃ½. NeskÃ¡Äe.
 </p>
 
-<h3>Míèek naplnìnı pískem</h3>
+<h3>MÃ­Äek naplnÄ›nÃ½ pÃ­skem</h3>
 <p>
-<a href="/img/t/trany.jpg">{obrazek soubor="trany-nahled.jpg" popisek="Míèek plnìnı pískem"}</a>
-Míèek kterı je asi z tøetiny naplnìnı pískem. Snadno se balancuje na hlavì a jinıch èástech tìla.
-</p>
-
-
-<h3>Míèek z balónkù</h3>
-<p>
-<a href="/img/b/balonky.jpg">{obrazek soubor="balonky-nahled.jpg" popisek="Míèek z balónkù"}</a>
-Míèek z balónkù naplnìnıch sypkım materiálem bìhem ¾onglování mìní tvar a kdy¾ spadne na zem tak je z nìj ¹i¹ka.
-</p>
-
-<h3>Háèkovanı míèek</h3>
-<p>
-<a href="/img/h/hakysak.jpg">{obrazek soubor="hakysak-nahled.jpg" popisek="Hakysák"}</a>
-Takzvanı hakysák. Vìt¹inou se do nìj kope, ale dá se pou¾ít i k ¾onglování.
-</p>
-
-<h3>Basebalovı míèek</h3>
-<p>
-<a href="/img/b/baseball.jpg">{obrazek soubor="baseball-nahled.jpg" popisek="Basebalovı míèek"}</a>
-Ne¹piní se, je odolnı, má dobrou velikost i váhu a neskáèe. Ov¹em pozor, je tvrdı tak¾e to nìkdy mù¾e bolet.
-</p>
-
-<h3><a href="/micky/3/jablko.html" title="¾onglování s jablky">Jablko</a>, <a href="/micky/vajicka.html" title="¾onglování s vajíèky">vajíèka</a>, pomeranè, ...</h3>
-<p>
-<a href="/img/p/pomeranc.jpg">{obrazek soubor="pomeranc-nahled.jpg" popisek="Pomeranè"}</a>
-V interiéru by je mìli pou¾ívat pouze zku¹ení ¾ongléøi. Hrozí zapatlání rukou, podlahy a vùbec v¹eho.
+<a href="/img/t/trany.jpg">{obrazek soubor="trany-nahled.jpg" popisek="MÃ­Äek plnÄ›nÃ½ pÃ­skem"}</a>
+MÃ­Äek kterÃ½ je asi z tÅ™etiny naplnÄ›nÃ½ pÃ­skem. Snadno se balancuje na hlavÄ› a jinÃ½ch ÄÃ¡stech tÄ›la.
 </p>
 
 
+<h3>MÃ­Äek z balÃ³nkÅ¯</h3>
 <p>
-Míèkù je nepøebernì, vyrábìjí se speciální míèky pro vystoupení na jevi¹ti (jsou vìt¹í), míèky které svítí pod UV záøením, míèky které se napustí hoølavinou a zapálí.
+<a href="/img/b/balonky.jpg">{obrazek soubor="balonky-nahled.jpg" popisek="MÃ­Äek z balÃ³nkÅ¯"}</a>
+MÃ­Äek z balÃ³nkÅ¯ naplnÄ›nÃ½ch sypkÃ½m materiÃ¡lem bÄ›hem Å¾onglovÃ¡nÃ­ mÄ›nÃ­ tvar a kdyÅ¾ spadne na zem tak je z nÄ›j Å¡iÅ¡ka.
+</p>
+
+<h3>HÃ¡ÄkovanÃ½ mÃ­Äek</h3>
+<p>
+<a href="/img/h/hakysak.jpg">{obrazek soubor="hakysak-nahled.jpg" popisek="HakysÃ¡k"}</a>
+TakzvanÃ½ hakysÃ¡k. VÄ›tÅ¡inou se do nÄ›j kope, ale dÃ¡ se pouÅ¾Ã­t i k Å¾onglovÃ¡nÃ­.
+</p>
+
+<h3>BasebalovÃ½ mÃ­Äek</h3>
+<p>
+<a href="/img/b/baseball.jpg">{obrazek soubor="baseball-nahled.jpg" popisek="BasebalovÃ½ mÃ­Äek"}</a>
+NeÅ¡pinÃ­ se, je odolnÃ½, mÃ¡ dobrou velikost i vÃ¡hu a neskÃ¡Äe. OvÅ¡em pozor, je tvrdÃ½ takÅ¾e to nÄ›kdy mÅ¯Å¾e bolet.
+</p>
+
+<h3><a href="/micky/3/jablko.html" title="Å¾onglovÃ¡nÃ­ s jablky">Jablko</a>, <a href="/micky/vajicka.html" title="Å¾onglovÃ¡nÃ­ s vajÃ­Äky">vajÃ­Äka</a>, pomeranÄ, ...</h3>
+<p>
+<a href="/img/p/pomeranc.jpg">{obrazek soubor="pomeranc-nahled.jpg" popisek="PomeranÄ"}</a>
+V interiÃ©ru by je mÄ›li pouÅ¾Ã­vat pouze zkuÅ¡enÃ­ Å¾onglÃ©Å™i. HrozÃ­ zapatlÃ¡nÃ­ rukou, podlahy a vÅ¯bec vÅ¡eho.
+</p>
+
+
+<p>
+MÃ­ÄkÅ¯ je nepÅ™ebernÄ›, vyrÃ¡bÄ›jÃ­ se speciÃ¡lnÃ­ mÃ­Äky pro vystoupenÃ­ na jeviÅ¡ti (jsou vÄ›tÅ¡Ã­), mÃ­Äky kterÃ© svÃ­tÃ­ pod UV zÃ¡Å™enÃ­m, mÃ­Äky kterÃ© se napustÃ­ hoÅ™lavinou a zapÃ¡lÃ­.
 </p>
 

@@ -1,30 +1,30 @@
 <p>
-Obrázky znázoròují jak házet ku¾ely, jejich dráhu a naèasování. Ke ka¾dému obrázku patøí vysvìtlující text umístìnı vpravo od nìj.
+ObrÃ¡zky znÃ¡zorÅˆujÃ­ jak hÃ¡zet kuÅ¾ely, jejich drÃ¡hu a naÄasovÃ¡nÃ­. Ke kaÅ¾dÃ©mu obrÃ¡zku patÅ™Ã­ vysvÄ›tlujÃ­cÃ­ text umÃ­stÄ›nÃ½ vpravo od nÄ›j.
 </p>
 
-<h3>Ku¾ely</h3>
+<h3>KuÅ¾ely</h3>
 <p>
-{obrazek soubor="kuzely-legendaa.png" popisek="Druhy ku¾elù."}
-Ku¾ely jsou rozli¹eny barvou a èíslicí.
+{obrazek soubor="kuzely-legendaa.png" popisek="Druhy kuÅ¾elÅ¯."}
+KuÅ¾ely jsou rozliÅ¡eny barvou a ÄÃ­slicÃ­.
 </p>
 
 
-<h3>Dráhy ku¾elu</h3>
+<h3>DrÃ¡hy kuÅ¾elu</h3>
 <p>
-{obrazek soubor="kuzely-legendab.png" popisek="Dráha ku¾elu."}
-Dráha po které by ku¾el mìl letìt je vyznaèena pøeru¹ovanou èárou. ©ipka na konci urèuje smìr.
+{obrazek soubor="kuzely-legendab.png" popisek="DrÃ¡ha kuÅ¾elu."}
+DrÃ¡ha po kterÃ© by kuÅ¾el mÄ›l letÄ›t je vyznaÄena pÅ™eruÅ¡ovanou ÄÃ¡rou. Å ipka na konci urÄuje smÄ›r.
 </p>
 
 <h3>Ruce</h3>
 <p>
-{obrazek soubor="legendac.png" popisek="Pravá a levá ruka."}
-Pravá ruka je oznaèena písmenem P. Levá ruka písmenem L.
+{obrazek soubor="legendac.png" popisek="PravÃ¡ a levÃ¡ ruka."}
+PravÃ¡ ruka je oznaÄena pÃ­smenem P. LevÃ¡ ruka pÃ­smenem L.
 </p>
 
 
-<h3><a href="/kuzely/passing/" title="®onglování ve více lidech">Passing</a></h3>
+<h3><a href="/kuzely/passing/" title="Å½onglovÃ¡nÃ­ ve vÃ­ce lidech">Passing</a></h3>
 <p>
 {obrazek soubor="kuzely-legendad.png" popisek="Passing."}
-Zobrazení polohy ¾onglérù pøi passování. Pohled shora. Èerné pøeru¹ované ¹ipky znaèí dráhu ku¾elù. Èervená plná ¹ipka zobrazuje pøesun ¾ongléra.
+ZobrazenÃ­ polohy Å¾onglÃ©rÅ¯ pÅ™i passovÃ¡nÃ­. Pohled shora. ÄŒernÃ© pÅ™eruÅ¡ovanÃ© Å¡ipky znaÄÃ­ drÃ¡hu kuÅ¾elÅ¯. ÄŒervenÃ¡ plnÃ¡ Å¡ipka zobrazuje pÅ™esun Å¾onglÃ©ra.
 </p>
 

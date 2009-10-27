@@ -1,31 +1,31 @@
 <h3>Uvolni se</h3>
 <p>
-Najít a udr¾et správné tempo je tì¾ké. Vìt¹ina lidí hází pìt míèkù moc rychle! Ano, je to tak. Moc rychle a pak je nestaèí chytat. Zkus si k ¾onglování pusti plou¾ák.
+NajÃ­t a udrÅ¾et sprÃ¡vnÃ© tempo je tÄ›Å¾kÃ©. VÄ›tÅ¡ina lidÃ­ hÃ¡zÃ­ pÄ›t mÃ­ÄkÅ¯ moc rychle! Ano, je to tak. Moc rychle a pak je nestaÄÃ­ chytat. Zkus si k Å¾onglovÃ¡nÃ­ pusti plouÅ¾Ã¡k.
 </p>
 
-<h3>Nezapomeò dıchat</h3>
+<h3>NezapomeÅˆ dÃ½chat</h3>
 <p>
-Pìt míèkù je fyzicky nároènı trik. Svaly potøebují kyslík.
-</p>
-
-
-<h3>Fyzièka je dùle¾itá</h3>
-<p>
-Pìt míèkù je i o síle a vytrvalosti. Zvládne¹ 50 klikù? 20 pøita¾ení na hrazdì? Není to nezbytnì nutné, ale pomù¾e to.
+PÄ›t mÃ­ÄkÅ¯ je fyzicky nÃ¡roÄnÃ½ trik. Svaly potÅ™ebujÃ­ kyslÃ­k.
 </p>
 
 
-<h3>3 a 4 míèky</h3>
+<h3>FyziÄka je dÅ¯leÅ¾itÃ¡</h3>
 <p>
-Nauè se co nejvíc trikù se 3 a 4 míèky. <a href="/micky/4/sprcha.html" title="Trik se 4 míèky.">Sprchu se 4</a> míèky obìma smìry. <a href="/micky/3/blesk.html" title="Trik se 3 míèky.">Blesk</a> se tøemi míèky. Zkou¹ej ¾onglovat s tì¾¹ími míèky.
+PÄ›t mÃ­ÄkÅ¯ je i o sÃ­le a vytrvalosti. ZvlÃ¡dneÅ¡ 50 klikÅ¯? 20 pÅ™itaÅ¾enÃ­ na hrazdÄ›? NenÃ­ to nezbytnÄ› nutnÃ©, ale pomÅ¯Å¾e to.
 </p>
 
-<h3>Dal¹í triky</h3>
+
+<h3>3 a 4 mÃ­Äky</h3>
 <p>
-Nezùstávej jen u kaskády. Zkou¹ej i dal¹í triky s pìti míèky. Kaskáda ti bude pøipadat snaz¹í.
+NauÄ se co nejvÃ­c trikÅ¯ se 3 a 4 mÃ­Äky. <a href="/micky/4/sprcha.html" title="Trik se 4 mÃ­Äky.">Sprchu se 4</a> mÃ­Äky obÄ›ma smÄ›ry. <a href="/micky/3/blesk.html" title="Trik se 3 mÃ­Äky.">Blesk</a> se tÅ™emi mÃ­Äky. ZkouÅ¡ej Å¾onglovat s tÄ›Å¾Å¡Ã­mi mÃ­Äky.
 </p>
 
-<h3>Pøidej dal¹í míèek</h3>
+<h3>DalÅ¡Ã­ triky</h3>
 <p>
-Zkus ¾onglovat s <a href="/micky/6/" title="">¹esti míèky</a>. Kaskáda s pìti míèky ti bude pøipadat snaz¹í.
+NezÅ¯stÃ¡vej jen u kaskÃ¡dy. ZkouÅ¡ej i dalÅ¡Ã­ triky s pÄ›ti mÃ­Äky. KaskÃ¡da ti bude pÅ™ipadat snazÅ¡Ã­.
+</p>
+
+<h3>PÅ™idej dalÅ¡Ã­ mÃ­Äek</h3>
+<p>
+Zkus Å¾onglovat s <a href="/micky/6/" title="">Å¡esti mÃ­Äky</a>. KaskÃ¡da s pÄ›ti mÃ­Äky ti bude pÅ™ipadat snazÅ¡Ã­.
 </p>

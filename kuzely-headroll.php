@@ -1,7 +1,7 @@
 <?php
 require('init.php');
 
-$smarty->assign("titulek","Pøekulení ku¾elky pøes hlavu");
+$smarty->assign("titulek","PÅ™ekulenÃ­ kuÅ¾elky pÅ™es hlavu");
 
 $smarty->display('hlavicka.tpl');
 $smarty->display('kuzely-headroll.tpl');

@@ -1,7 +1,7 @@
 <?php
 require_once('init.php');
 
-$smarty->assign("titulek","Pøístup zakázán");
+$smarty->assign("titulek","PÅ™Ã­stup zakÃ¡zÃ¡n");
 
 $smarty->display('hlavicka.tpl');
 $smarty->display('403.tpl');

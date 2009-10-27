@@ -2,7 +2,9 @@
 - u¾ivatelé mù¾ou nahrát svùj obrázek, nastavit domovskou stránku, za¹krtat s èím ¾onglují, jak dlouho ¾onglují
 - pøidávání trikù do oblíbených, hodnocení trikù
 - pøihla¹ování na akce v kalendáøi
-- simplexml v PHP
+- pøedìlat v¹echny texty do xml
+- svn properties link, img
+- fanou¹kovská stránka na facebooku, automatický export rss
 
 
 rec.juggling - popis a nastavení
@@ -24,3 +26,6 @@ export do rss a ical
 vzkazy u¾ivatelùm
 horoskop pro ¾ongléry
 galerie obrázkù
+odkazy pro sdílení na facebooku a google bookmarks
+pøechod na utf8
+simplexml v PHP

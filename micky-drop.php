@@ -1,7 +1,7 @@
 <?php
 require('init.php');
 
-$smarty->assign("titulek","Míèky na zemi");
+$smarty->assign("titulek","MÃ­Äky na zemi");
 
 $smarty->display('hlavicka.tpl');
 $smarty->display('micky-drop.tpl');
