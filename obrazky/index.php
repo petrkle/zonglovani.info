@@ -138,7 +138,7 @@ function get_galerie_obrazky($galerie){
 	$navrat = array();
 	    if ($dir) {
 			   while (($filename = readdir($dir)) !== false) {
-						if (preg_match('/.+\.(jpg|jpeg|png|gif)/',$filename)) {
+						if (preg_match('/.+\.(jpg|jpeg|png|gif)$/',$filename)) {
 							$foo=array();
 							if(is_file(OBRAZKY_DATA.'/'.$galerie.'/nahledy/'.$filename)){
 								$pripona=preg_split('/\./',$filename);

@@ -1,31 +1,32 @@
-- novinky, pøidávání, schvalování
-- u¾ivatelé mù¾ou nahrát svùj obrázek, nastavit domovskou stránku, za¹krtat s èím ¾onglují, jak dlouho ¾onglují
-- pøidávání trikù do oblíbenıch, hodnocení trikù
-- pøihla¹ování na akce v kalendáøi
-- pøedìlat v¹echny texty do xml
+- novinky, pÅ™idÃ¡vÃ¡nÃ­, schvalovÃ¡nÃ­
+- uÅ¾ivatelÃ© mÅ¯Å¾ou nahrÃ¡t svÅ¯j obrÃ¡zek, nastavit domovskou strÃ¡nku, zaÅ¡krtat s ÄÃ­m Å¾onglujÃ­, jak dlouho Å¾onglujÃ­
+- pÅ™idÃ¡vÃ¡nÃ­ trikÅ¯ do oblÃ­benÃ½ch, hodnocenÃ­ trikÅ¯
+- pÅ™ihlaÅ¡ovÃ¡nÃ­ na akce v kalendÃ¡Å™i
+- pÅ™edÄ›lat vÅ¡echny texty do xml
 - svn properties link, img
-- fanou¹kovská stránka na facebooku, automatickı export rss
+- fanouÅ¡kovskÃ¡ strÃ¡nka na facebooku, automatickÃ½ export rss
+- dopsat informace o moÅ¾nostech vystavenÃ­ fotek
 
 
-rec.juggling - popis a nastavení
-¾onglérské vystoupení - správnı postup
-pøera¾ení preclíku
-¾onglérské obchody - tipy pro nákup
-passing - kruhovı objezd
+rec.juggling - popis a nastavenÃ­
+Å¾onglÃ©rskÃ© vystoupenÃ­ - sprÃ¡vnÃ½ postup
+pÅ™eraÅ¾enÃ­ preclÃ­ku
+Å¾onglÃ©rskÃ© obchody - tipy pro nÃ¡kup
+passing - kruhovÃ½ objezd
 
 HOTOVO
 ======
 
-kalendáø ¾onglérskıch akcí
+kalendÃ¡Å™ Å¾onglÃ©rskÃ½ch akcÃ­
 registrace
 obnova hesla
-pøihlá¹ení u¾ivatele
-pøidávání do kalendáøe
-fórum, kniha náv¹tìv
+pÅ™ihlÃ¡Å¡enÃ­ uÅ¾ivatele
+pÅ™idÃ¡vÃ¡nÃ­ do kalendÃ¡Å™e
+fÃ³rum, kniha nÃ¡vÅ¡tÄ›v
 export do rss a ical
-vzkazy u¾ivatelùm
-horoskop pro ¾ongléry
-galerie obrázkù
-odkazy pro sdílení na facebooku a google bookmarks
-pøechod na utf8
+vzkazy uÅ¾ivatelÅ¯m
+horoskop pro Å¾onglÃ©ry
+galerie obrÃ¡zkÅ¯
+odkazy pro sdÃ­lenÃ­ na facebooku a google bookmarks
+pÅ™echod na utf8
 simplexml v PHP

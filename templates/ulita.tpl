@@ -2,14 +2,14 @@
 Pravidelné nedělní žonglování v <a href="cesta.html" title="Jak se dostat do Ulity">DDM Ulita</a>. Žongluje se ve <a href="/obrazky/ulita-20091018/0001.jpg" title="Obrázek velkého sálu." onclick="pageTracker._trackPageview('/obrazky/ulita-20091018/0001.jpg');">velkém sále</a> kde je: <strong>vysoký strop</strong>, měkká podlaha, ozvučení, pódium  pro případné vystoupení, okna a disco koule.
 </p>
 <div class="obrazkovnik">
-<a href="/obrazky/ulita-20091018/0012.html">{obrazek soubor='usb.jpg' popisek='Žonglování v Ulitě'}</a>
-<a href="/obrazky/ulita-20091018/0020.html">{obrazek soubor='usd.jpg' popisek='Žonglování v Ulitě'}</a>
-<a href="/obrazky/ulita-20091018/0006.html">{obrazek soubor='usa.jpg' popisek='Žonglování v Ulitě'}</a>
-<a href="/obrazky/ulita-20091018/0008.html">{obrazek soubor='usc.jpg' popisek='Žonglování v Ulitě'}</a><br />
-<a href="/obrazky/ulita-20091018/" title="Obrázky žonglování.">Další obrázky &raquo;</a>
+{*<a href="/obrazky/ulita-20091101/0000.html">{obrazek soubor='use.jpg' popisek='Žonglování v Ulitě'}</a>*}
+<a href="/obrazky/ulita-20091101/0035.html">{obrazek soubor='ush.jpg' popisek='Žonglování v Ulitě'}</a>
+<a href="/obrazky/ulita-20091101/0041.html">{obrazek soubor='usg.jpg' popisek='Žonglování v Ulitě'}</a>
+<a href="/obrazky/ulita-20091101/0003.html">{obrazek soubor='usf.jpg' popisek='Žonglování v Ulitě'}</a>
+<br /><a href="/obrazky/ulita-20091101/" title="Obrázky žonglování.">Další obrázky &raquo;</a>
 </div>
 <p>
-Přijít mohou začínající i zkušení žongléři a žonglérky. Pro širokou veřejnost budou k dispozici míčky a kužely k zapůjčení. Žonglovat se může naučit <strong>opravdu každý</strong>.
+Přijít mohou začínající i zkušení žongléři a žonglérky. Pro širokou veřejnost jsou k dispozici míčky a kužely k zapůjčení. Žonglovat se může naučit <strong>opravdu každý</strong>.
 </p>
 
 <h3><a href="cesta.html" title="Podrobný popis cesty.">Místo konání</a></h3>
@@ -78,6 +78,10 @@ E-mail: {$mail|mailobfuscate}
 Prostory poskytl dům dětí a mládeže <a href="http://www.ulita.cz" class="external" onclick="pageTracker._trackPageview('/goto/ulita.cz');" title="Ulita - dům dětí a mládeže">Ulita</a>, Praha 3.
 </p>
 *}
+
+<p class="sdileni">
+Přidat na: <a href="http://www.facebook.com/share.php?u=http://{$smarty.server.SERVER_NAME}{$smarty.server.REQUEST_URI}" class="external" onclick="pageTracker._trackPageview('/goto/facebook.com/share{$smarty.server.REQUEST_URI}');" title="Poslat {$titulek|escape} na facebook.">facebook</a>, <a href="http://www.google.com/bookmarks/mark?op=edit&bkmk=http://{$smarty.server.SERVER_NAME}{$smarty.server.REQUEST_URI}&title={$titulek|escape:'url'}&hl=cs" title="Přidat {$titulek|escape} do záložek na google." class="external" onclick="pageTracker._trackPageview('/goto/google.com/bookmarks{$smarty.server.REQUEST_URI}');">google</a>
+</p>
 
 <p style="text-align: right; font-size: 0.5em;"><a href="/ulita/en.html">English version</a></p>
 {*

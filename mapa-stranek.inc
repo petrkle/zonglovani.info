@@ -304,6 +304,9 @@
 			<li><a name="ulita-20091018"></a><a href="/obrazky/ulita-20091018/">Ulita 18. 10. 2009 - obrázky žonglování</a>
 			
 			</li>
+			<li><a name="ulita-20091101"></a><a href="/obrazky/ulita-20091101/">Ulita 1. 11. 2009 - obrázky žonglování</a>
+			
+			</li>
 			<li><a name="zidovske-pece-20090404"></a><a href="/obrazky/zidovske-pece-20090404/">Židovské pece 4. 4. 2009 - obrázky žonglování</a>
 			
 			</li>
@@ -343,7 +346,7 @@
 		<li><a href="/video/yesterday-didnt-happen.html">Yesterday didn&#039;t happen</a></li>
 		</ul>
 		</li>
-		<li><a name="vyhledavani"></a><a href="/vyhledavani/">�ongl�r�v slabik�� - vyhled�v�n�</a>
+		<li><a name="vyhledavani"></a><a href="/vyhledavani/">Žonglérův slabikář - vyhledávání</a>
 		
 		</li>
 	</ul>

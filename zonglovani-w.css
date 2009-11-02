@@ -3,7 +3,7 @@ body {
  font-size: 1em;
  line-height: 1.5em;
  color: #000;
- background: #ccc;
+ background: #eed;
  margin: 0px;
  padding: 0px;
  text-align: center;
@@ -15,7 +15,7 @@ body {
 	height: 100px;
 	padding: 0;
 	margin: 0 auto 0 auto;
-	background: url("img/h/hlavicka-w-l.png") 20px 100% no-repeat #ccc;
+	background: url("img/h/hlavicka-w-l.png") 20px 100% no-repeat #eed;
 	position: relative;
 }
 

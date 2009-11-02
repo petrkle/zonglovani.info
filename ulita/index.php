@@ -3,6 +3,8 @@ require('../init.php');
 require('../func.php');
 
 $smarty->assign('titulek','Žonglování v Ulitě');
+$smarty->assign('nahled','http://'.$_SERVER['SERVER_NAME'].'/img/u/ulita.cz.png');
+$smarty->assign('description','Pravidelné nedělní žonglování v DDM Ulita. Přijít mohou začínající i zkušení žongléři a žonglérky. Pro širokou veřejnost jsou k dispozici míčky a kužely k zapůjčení. Žonglovat se může naučit opravdu každý.');
 
 $podzim=array();
 $jaro=array();

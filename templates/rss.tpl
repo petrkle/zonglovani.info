@@ -20,7 +20,7 @@
     <title>{$udalost.title|escape}</title>
     <link>{$udalost.link}</link>
     <description>{$udalost.description|escape}</description>
-    <dc:creator>{$udalost.creator|escape}</dc:creator>
+    <dc:creator>{$udalost.dc.creator|escape}</dc:creator>
     <dc:date>{$udalost.dc.date|escape}</dc:date>
   </item>
 	{/if}
