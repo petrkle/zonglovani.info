@@ -1,8 +1,9 @@
 {if $obrazek}
-{if $predchozi}<a href={$predchozi|escape} title="Zobrazí předchozí obrázek">&laquo; Předchozí obrázek</a> ~ {/if}<a href="." title="Celá galerie">{$nadpis|escape}</a>{if $dalsi} ~ <a href={$dalsi|escape} title="Zobrazí další obrázek">Další obrázek &raquo;</a>{/if}
+{if $predchozi}<span class="navigace"><a href={$predchozi|escape} title="Zobrazit předchozí obrázek">&laquo; Předchozí obrázek</a> ~ </span>{/if}<a href="." title="Celá galerie">{$nadpis|escape}</a>{if $dalsi}<span class="navigace"> ~ <a href={$dalsi|escape} title="Zobrazit další obrázek">Další obrázek &raquo;</a></span>{/if}
 
-<p>
-{if $dalsi}<a href={$dalsi|escape} title="Zobrazí další obrázek">{else}<a href="." title="Zobrazí celou galerii">{/if}<img src="{$obrazek.obrazek|escape}" alt="{$nadpis|escape}" width="{$obrazek.fsirka|escape}" height="{$obrazek.fvyska|escape}"/></a>
+
+<p class="obrazek">
+{if $dalsi}<a href={$dalsi|escape} title="Zobrazit další obrázek">{else}<a href="." title="Zobrazí celou galerii">{/if}<img src="{$obrazek.obrazek|escape}" alt="{$nadpis|escape}" width="{$obrazek.fsirka|escape}" height="{$obrazek.fvyska|escape}"/></a>
 </p>
 
 {if $gal_info.autor or $gal_info.mail or $gal_info.url}

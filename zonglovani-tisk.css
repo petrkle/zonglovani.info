@@ -5,11 +5,9 @@ body {
  
 
 #hlavicka {
-	height: 110px;
 }
 
 #hlavicka div{
-	height: 110px;
 }
 
 a img{
@@ -73,10 +71,16 @@ dd {
  margin: 2px 10px 7px 40px;
 }
 
-.reklama {
+.reklama, #ucet, .sdileni, .navigace {
 	display: none;
 }
 
-#ucet{
-	display: none;
+.kontakt img {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	background-color: #fff;
+	vertical-align: bottom;
+	clear: none;
+	float: none;
 }

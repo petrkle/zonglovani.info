@@ -154,3 +154,6 @@ a:active {
 	padding-top: 10px;
 	font-size: 0.8em;
 }
+.obrazek {
+	overflow: auto;
+}

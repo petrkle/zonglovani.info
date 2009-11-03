@@ -5,7 +5,7 @@
 - předělat všechny texty do xml
 - svn properties link, img
 - fanouškovská stránka na facebooku, automatický export rss
-- dopsat informace o možnostech vystavení fotek
+- export kalendáře (dalších věcí ?) do pdf online
 
 
 rec.juggling - popis a nastavení
@@ -30,3 +30,5 @@ galerie obrázků
 odkazy pro sdílení na facebooku a google bookmarks
 přechod na utf8
 simplexml v PHP
+posuvník u širokých obrázků v galerii, ala abclinuxu
+dopsat informace o možnostech vystavení fotek
