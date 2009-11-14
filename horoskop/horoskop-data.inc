@@ -32,20 +32,20 @@ $zverokruh=array(
 $vety=array();
 
 $vety[0]=array(
-array('čeká vás','buďte připraveni na','očekávejte','může přijít'),
+array('čeká tě','buď připraven na','očekávej','může přijít'),
 array('hodně','málo','trochu','poskrovnu','velmi mnoho','maličko'),
 array('<a href="/kuzely/passing/" title="žonglování ve více lidech">passingu</a>','zábavy','odpočinku','spánku','radosti','smutku','<a href="/micky/4/destnik.html" title="">deštníků</a>','<a href="/micky/4/krabice.html" title="">krabic s překvapením</a>','<a href="/micky/4/kriz.html" title="">křížů</a>','<a href="/micky/4/sprcha.html" title="">horkou sprchu</a>','<a href="/micky/4/tenis.html" title="">tenis</a>'),
 array('a <a href="/micky/3/kaskada-reverzni.html" title="">reverzní kaskády</a>','a <a href="/micky/3/robot.html" title="">robotů</a>','a <a href="/micky/3/seesaw.html" title="">see saw</a>','a <a href="/micky/3/sloupy.html" title="">sloupů</a>','a <a href="/micky/3/socha.html" title="">soch svobody</a>','a <a href="/micky/3/sprcha.html" title="">studenou sprchu</a>','a <a href="/micky/3/tenis.html" title="">tenis</a>','a <a href="/micky/3/mlyn.html" title="">větrný mlýn</a>','a <a href="/micky/3/krk.html" title="">zachycení míčku za krk</a>','a <a href="/micky/3/zkrizene-ruce.html" title="">zkřížení rukou</a>','a <a href="/micky/3/zirafa.html" title="">žirafa</a>','')
 );
 
 $vety[1]=array(
-array('buďte','zkuste být','měli by jste být','vyzkoušejte být','nezkoušejte být','nebuďte'),
-array('opatrní','odvážní','rozumní','uvážliví','obezřetní','upřímní','rázní','neoblomní','rozhodní','přemýšlivý'),
-array('při konzumaci alkoholu','při sportu','v soukromí','v zaměstnání','při navazování nových známostí','v tom co děláte i říkáte')
+array('buď','zkus být','vyzkoušej být','nezkoušej být','nebuď'),
+array('opatrný','odvážný','rozumný','uvážlivý','obezřetný','upřímný','rázný','neoblomný','rozhodný','přemýšlivý'),
+array('při konzumaci alkoholu','při sportu','v soukromí','v zaměstnání','při navazování nových známostí','v tom co děláš i říkáš')
 );
 
 $vety[2]=array(
-array('přichází','nastává','budete mít','prožijete','čekejte','očekávejte','je'),
+array('přichází','nastává','budeš mít','prožiješ','čekej','očekávej','je'),
 array('vcelku','částečně','velmi',''),
 array('příhodné','vhodné','nevhodné','příznivé','nepříznivé','průměrné'),
 array('období','údobí','časové období'),
@@ -62,7 +62,7 @@ array('děti','dospívající','muži','ženy','dívky','sourozenci','důchodci'
 );
 
 $vety[4]=array(
-array('váš','dominantní','osudový',''),
+array('tvůj','dominantní','osudový',''),
 array('Merkur','Uran','Jupiter','Pluto','Saturn','Mars','Neptun','<a href="/kuzely/passing/4count.html" title="snadné">4 count</a>','<a href="/kuzely/passing/3count.html" title="snadné">valčík</a>','<a href="/kuzely/passing/2count.html" title="snadné">2 count</a>','<a href="/kuzely/passing/australsky-trik.html" title="snadné">australský trik</a>'),
 array('se'),
 array('tentokrát spojí','příznivě míjí','pozitivně ovlivňuje','negativně ovlivňuje'),
@@ -77,7 +77,7 @@ array('nečekaného','neobvyklého','nepravděpodobného','závažného','úsmě
 );
 
 $vety[5]=array(
-array('nebojte se','odhodlejte se'),
+array('neboj se','odhodlej se'),
 array('nadchnout pro','prozkoumat','objevit','projevit','oprášit','prověřit'),
 array('dlouho','dlouhodobě','náhodně','vytrvale','přechodně','stále',''),
 array('odpírané','slibované','sdílené','omezené'),
@@ -86,12 +86,12 @@ array('vášně','city','vzpomínky','zážitky','nápady')
 
 $vety[6]=array(
 array('ráno','dopoledne','večer','brzy ráno','po obědě','v noci','odpoledne','celý den','po probuzení','ještě chvíli','po jídle','před jídlem','náhle','pozvolně','krátkodobě','za svítání','za soumraku','po návratu ze zaměstnání','po příchodu do zaměstnání','občas','dnes','zítra'),
-array('se budete cítit','se nebudete cítit'),
+array('se budeš cítit','se nebudeš cítit'),
 array('dobře','vesele','smutně','opuštěně','rozmařile','velmi dobře','špatně','jako v cizí kůži','sebejistě','podivně','vyrovnaně','unaveně','jako na poušti')
 );
 
 $vety[7]=array(
-array('snažte','pokuste','nesnažte','nepokoušejte'),
+array('snaž','pokus','nesnaž','nepokoušej'),
 array('se'),
 array('mít','o','dosáhnout'),
 array('klid','nadhled'),
@@ -104,7 +104,7 @@ array('pohodu','vyrovnanost')
 $vety[8]=array(
 array('snadno','rychle','dlouhodobě','pomalu','nenápadně','nápadně','krátkodobě'),
 array('se'),
-array('vám'),
+array('ti'),
 array('zvyšuje','snižuje','kolísá'),
 array('hladina','podíl','koncentrace'),
 array('adrenalinu','cukru','cholesterolu','endorfinů','tuku'),
@@ -115,7 +115,7 @@ array('v krvi','v těle','')
 
 $vety[9]=array(
 array('neopustí'),
-array('vás'),
+array('tě'),
 array('humor','zdraví','vtip','přízeň okolí'),
 array('a','ani'),
 array('štěstí','dobrá nálada','veselá mysl')

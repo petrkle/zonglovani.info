@@ -1,4 +1,5 @@
 addicted*http://www.youtube.com/watch?v=tEfjFw1RHh0*Addicted*Volně dostupné <a href="http://www.circuspla.net/addicted/addicted.avi" class="external" onclick="pageTracker._trackPageview('/goto/circuspla.net/addicted/addicted.avi');">DVD o žonglování</a>.
+bratri-v-tricku*http://www.youtube.com/watch?v=tTriLX-Sv3A*Bratři v tricku*Něco z českých luhů a háju - Adam a Vašek.
 shake-that*http://circuspla.net/addicted/shakethat.avi*Shake That*Upoutávka na představení žonglujících barmanů <a href="http://www.shakethat.be/" class="external" onclick="pageTracker._trackPageview('/goto/shakethat.be');">shakethat.be</a>. Nebo snad míchajících žonglérů?
 stepz*http://juggling.tv:1186*Stepz*Čtyři žongléři z Říma.
 catch-this*http://www.passingzone.com/htmdoc/video/passing%20zone%20reel%20large.wmv*Catch This*Představení dua <a href="http://www.passingzone.com" class="external" onclick="pageTracker._trackPageview('/goto/passingzone.com');">The Passing Zone</a>.
@@ -25,3 +26,6 @@ liquid-crystal-live*http://juggling.tv:2789*Matt Hennem - Liquid Crystal live*Vy
 ball-club-scissors*http://juggling.tv:1287*Míček - kužel - nůžky*Ori Roth a kamarádi hrají kámen, nůžky, papír.
 juggle-a-saurus*http://www.youtube.com/watch?v=eHMxyGT4YZM*Alan & Thom the Fourth*Čtvrté video od Alana a Thoma.
 what-the-beepbeep-do-we-know*http://www.youtube.com/watch?v=aSdKVTGZppk*What the (beepbeep) do we know?*Točení s <a href="/nacini.html#poi" title="Podrobnější popis poi">poi</a> ve více lidech.
+c2laballe-0707*http://juggling.tv:917*C2laballe 0707*Emmanuel Perez žongluje se silikonovými míčky ve vzduchu i o zem.
+kopie*http://www.youtube.com/watch?v=cgtSkbl0JU4*копия*Žonglování v Rusku.
+balance-tricks-2*http://juggling.tv:871*Balancování kuželů*Benjamin Thompson balancuje kužely.

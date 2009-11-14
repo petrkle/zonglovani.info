@@ -14,7 +14,7 @@ Teď už se můžeš pustit do vlastního žonglování. Je dobré začít <a hr
 <h3>Hudba</h3>
 <p>
 {obrazek soubor="trenink-navodc.png" popisek="Hudební doprovod"}
-Náladu ti určitě zvedně i nějaká pohodová hudba. Je to lepší než jen samotné bušení míčků do podlahy. Údery dopadajích míčků můžeš omezit tím že budeš žonglovat nad postelí, nebo nad peřinou položenou na zem. Míčky se ti nebudou kutálet pryč a zachováš si dobré vztahy se sousedy. 
+Náladu ti určitě zvedne i nějaká pohodová hudba. Je to lepší než jen samotné bušení míčků do podlahy. Údery dopadajících míčků můžeš omezit tím že budeš žonglovat nad postelí, nebo nad peřinou položenou na zem. Míčky se ti nebudou kutálet pryč a zachováš si dobré vztahy se sousedy. 
 </p>
 <h3>Jak dlouho?</h3>
 <p>
