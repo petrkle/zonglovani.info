@@ -1,12 +1,12 @@
 <p>
-Pravidelné nedělní žonglování v <a href="cesta.html" title="Jak se dostat do Ulity">DDM Ulita</a>. Žongluje se ve <a href="/obrazky/ulita-20091018/0001.jpg" title="Obrázek velkého sálu." onclick="pageTracker._trackPageview('/obrazky/ulita-20091018/0001.jpg');">velkém sále</a> kde je: <strong>vysoký strop</strong>, měkká podlaha, ozvučení, pódium  pro případné vystoupení, okna a disco koule.
+Pravidelné nedělní žonglování v <a href="cesta.html" title="Jak se dostat do Ulity">DDM Ulita</a>. Žongluje se ve <a href="/obrazky/ulita-20091018/0001.jpg" title="Obrázek velkého sálu." onclick="pageTracker._trackPageview('/obrazky/ulita-20091115/0001.jpg');">velkém sále</a> kde je: <strong>vysoký strop</strong>, měkká podlaha, ozvučení, pódium  pro případné vystoupení, okna a disco koule.
 </p>
 <div class="obrazkovnik">
-{*<a href="/obrazky/ulita-20091101/0000.html">{obrazek soubor='use.jpg' popisek='Žonglování v Ulitě'}</a>*}
-<a href="/obrazky/ulita-20091101/0035.html">{obrazek soubor='ush.jpg' popisek='Žonglování v Ulitě'}</a>
-<a href="/obrazky/ulita-20091101/0041.html">{obrazek soubor='usg.jpg' popisek='Žonglování v Ulitě'}</a>
-<a href="/obrazky/ulita-20091101/0003.html">{obrazek soubor='usf.jpg' popisek='Žonglování v Ulitě'}</a>
-<br /><a href="/obrazky/ulita-20091101/" title="Obrázky žonglování.">Další obrázky &raquo;</a>
+{*<a href="/obrazky/ulita-20091101/0000.html">{obrazek soubor='use.jpg' popisek=''}</a>*}
+<a href="/obrazky/ulita-20091115/0006.html">{obrazek soubor='usi.jpg' popisek=''}</a>
+<a href="/obrazky/ulita-20091115/0015.html">{obrazek soubor='usj.jpg' popisek=''}</a>
+<a href="/obrazky/ulita-20091115/0029.html">{obrazek soubor='usk.jpg' popisek=''}</a>
+<br /><a href="/obrazky/ulita-20091115/" title="Další obrázky z žonglování v Ulitě.">Další obrázky &raquo;</a>
 </div>
 <p>
 Přijít mohou začínající i zkušení žongléři a žonglérky. Pro širokou veřejnost jsou k dispozici míčky a kužely k zapůjčení. Žonglovat se může naučit <strong>opravdu každý</strong>.

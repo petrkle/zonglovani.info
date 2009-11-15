@@ -307,6 +307,9 @@
 			<li><a name="ulita-20091101"></a><a href="/obrazky/ulita-20091101/">Ulita 1. 11. 2009 - obrázky žonglování</a>
 			
 			</li>
+			<li><a name="ulita-20091115"></a><a href="/obrazky/ulita-20091115/">Ulita 15. 11. 2009 - obrázky žonglování</a>
+			
+			</li>
 			<li><a name="zidovske-pece-20090404"></a><a href="/obrazky/zidovske-pece-20090404/">Židovské pece 4. 4. 2009 - obrázky žonglování</a>
 			
 			</li>
@@ -324,7 +327,10 @@
 		<li><a href="/video/addicted.html">Addicted</a></li>
 		<li><a href="/video/alan-thom-3.html">Alan &amp; Thom #3</a></li>
 		<li><a href="/video/all-day-baby.html">All Day Baby!</a></li>
+		<li><a href="/video/balance-tricks-2.html">Balancování kuželů</a></li>
 		<li><a href="/video/ball-club-scissors.html">Míček - kužel - nůžky</a></li>
+		<li><a href="/video/bratri-v-tricku.html">Bratři v tricku</a></li>
+		<li><a href="/video/c2laballe-0707.html">C2laballe 0707</a></li>
 		<li><a href="/video/giraffe-theory.html">Giraffe Theory Juggling Glow Clubs</a></li>
 		<li><a href="/video/guava-winter-07-08.html">Guava over winter break 07-08</a></li>
 		<li><a href="/video/hocus-pocus.html">Hocus Pocus</a></li>
@@ -334,6 +340,7 @@
 		<li><a href="/video/jonglage-macabre.html">Jonglage Macabre</a></li>
 		<li><a href="/video/juggle-a-saurus.html">Alan &amp; Thom the Fourth</a></li>
 		<li><a href="/video/juggling-extravaganza.html">Juggling Extravaganza</a></li>
+		<li><a href="/video/kopie.html">копия</a></li>
 		<li><a href="/video/laurent-phil.html">Laurent et Phil, juggling passing demo</a></li>
 		<li><a href="/video/les-bebes.html">Les Bébés</a></li>
 		<li><a href="/video/liquid-crystal-live.html">Matt Hennem - Liquid Crystal live</a></li>

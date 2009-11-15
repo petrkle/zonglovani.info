@@ -6,7 +6,6 @@
 - svn properties link, img
 - fanouškovská stránka na facebooku, automatický export rss
 - export kalendáře (dalších věcí ?) do pdf online
-- tykání v horoskopu
 - obrázky v horoskopu
 
 
@@ -34,3 +33,4 @@ přechod na utf8
 simplexml v PHP
 posuvník u širokých obrázků v galerii, ala abclinuxu
 dopsat informace o možnostech vystavení fotek
+tykání v horoskopu
