@@ -13,14 +13,10 @@
 </div>
 
 <p>
-Žonglérův slabikář je učebnice žonglování se spoustou barevných obrázků. Největší část je věnovaná míčkům. Dozvíš se také něco málo o kruzích, kuželech a <a href="/chudy/" title="Chůdy">chůdách</a>.
+Žonglérův slabikář je učebnice žonglování se spoustou barevných obrázků.
 </p>
 
-<h3>Čím mám začít?</h3>
-
-<p>Nejlehčí je začít <a href="/micky/jak-zacit.html" title="Základní návod.">žonglovat s míčky</a>.</p>
-
-<h3>Další informace o žonglování</h3>
+<h3>Informace o žonglování</h3>
 <p>
 <ul>
 <li><a href="/nacini.html" title="Popis různých žonglovátek.">Žonglérské náčiní</a> - s čím vším se dá žonglovat.</li>
@@ -28,6 +24,13 @@
 <li><a href="/faq.html" title="FAQ">Často kladené otázky</a> a odpovědi na ně.</li>
 </ul>
 </p>
+{if $smarty.session.logged!=true}
+<h3>Přidej se mezi žongléry</h3>
+<p>
+<a href="{$smarty.const.LIDE_URL}" title="Seznam žonglérů.">Registrovaní uživatelé</a> mají možnost psát do <a href="{$smarty.const.DISKUSE_URL}" title="Diskuse o žonglování">diskuse</a> a zadávat události do <a href="{$smarty.const.CALENDAR_URL}">kalendáře</a>.<br/>
+<a href="{$smarty.const.LIDE_URL}pravidla.php" title="Vytvořit uživatelský účet." class="add">Vytvořit nový účet</a>.
+</p>
+{/if}
 <hr />
 <h3><a href="/ulita/" title="Nedělní žonglování v ulitě.">Žonglování v Ulitě</a></h3>
 <p>

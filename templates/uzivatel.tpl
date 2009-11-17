@@ -21,6 +21,9 @@ Nacházíš se na své veřejné domovské stránce, která slouží pro tvojí 
 <ul>
 <li>Jméno: {$uzivatel_props.jmeno|escape}</li>
 <li>Login: {$uzivatel_props.login|escape}</li>
+{if strlen($uzivatel_props.web)>0}
+<li>Web: <a href="{$uzivatel_props.web|escape}" title="Internetová stránka uživatele {$uzivatel_props.jmeno|escape}"{if !preg_match('/^http:\/\/zonglovani.info.*/',$uzivatel_props.web)} class="external" rel="nofollow"{/if}>{$uzivatel_props.web|replace:'http://':''|regex_replace:'/^www\./':''|regex_replace:'/\/$/':''|truncate:40:'...':false|escape}</a></li>
+{/if}
 <li>Účet vytvořen: {$uzivatel_props.registrace_hr|escape}</li>
 {if $uzivatel_props.soukromi=="mail"}
 <li>E-mail: {$uzivatel_props.email|escape|mailobfuscate}</li>

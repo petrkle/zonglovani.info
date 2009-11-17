@@ -42,7 +42,7 @@
 Dnes je: {if $dnesek}{$aktDate}{else}<a href="{$smarty.const.CALENDAR_URL}" title="Zobrazí aktuální měsíc.">{$aktDate}</a>{/if}
 </p>
 <p>
-Přidat <a href="{$smarty.const.CALENDAR_URL}add.php" title="Přidat novou událost do kalendáře.">novou událost</a>.
+<a href="{$smarty.const.CALENDAR_URL}add.php" title="Přidat novou událost do kalendáře." class="add">Přidat novou</a> událost.
 </p>
 {if $smazane}
 <h3>Smazané události</h3>

@@ -4,8 +4,8 @@
 
 // default settins
 var A_TCALDEF = {
-	'months' : ['Leden', 'Únor', 'Bøezen', 'Duben', 'Kvìten', 'Èerven', 'Èervenec', 'Srpen', 'Záøí', 'Øíjen', 'Listopad', 'Prosinec'],
-	'weekdays' : ['Ne', 'Po', 'Út', 'St', 'Èt', 'Pá', 'So'],
+	'months' : ['Leden', 'Ãšnor', 'BÅ™ezen', 'Duben', 'KvÄ›ten', 'ÄŒerven', 'ÄŒervenec', 'Srpen', 'ZÃ¡Å™Ã­', 'Å˜Ã­jen', 'Listopad', 'Prosinec'],
+	'weekdays' : ['Ne', 'Po', 'Ãšt', 'St', 'ÄŒt', 'PÃ¡', 'So'],
 	'yearscroll': false, // show year scroller
 	'weekstart': 1, // first day of week: 0-Su or 1-Mo
 	'centyear'  : 70, // 2 digit years less than 'centyear' are in 20xx, othewise in 19xx.
@@ -16,7 +16,7 @@ function f_tcalParseDate (s_date) {
 
 	var re_date = /^\s*(\d{4})\-(\d{2})\-(\d{2}) (\d{2}):(\d{2})\s*$/;
 	if (!re_date.exec(s_date))
-		return alert ("©patné datum: '" + s_date + "'.\nSprávnı formát je: YYYY-MM-DD HH:MM.")
+		return alert ("Å patnÃ© datum: '" + s_date + "'.\nSprÃ¡vnÃ½ formÃ¡t je: YYYY-MM-DD HH:MM.")
 	var n_day = Number(RegExp.$3),
 		n_month = Number(RegExp.$2),
 		n_hour = Number(RegExp.$4),
@@ -26,14 +26,14 @@ function f_tcalParseDate (s_date) {
 	if (n_year < 100)
 		n_year += (n_year < this.a_tpl.centyear ? 2000 : 1900);
 	if (n_month < 1 || n_month > 12)
-		return alert ("Chybnì zadané èíslo mìsíce: '" + n_month + "'.\nPovolenı rozsah je: 01-12.");
+		return alert ("ChybnÄ› zadanÃ© ÄÃ­slo mÄ›sÃ­ce: '" + n_month + "'.\nPovolenÃ½ rozsah je: 01-12.");
 	if (n_hour < 0 || n_hour > 23)
-		return alert ("Chybnì zadaná hodina: '" + n_hour + "'.\nPovolenı rozsah je: 00-23.");
+		return alert ("ChybnÄ› zadanÃ¡ hodina: '" + n_hour + "'.\nPovolenÃ½ rozsah je: 00-23.");
 	if (n_min < 0 || n_min > 59)
-		return alert ("Chybnì zadaná minuta: '" + n_min + "'.\nPovolenı rozsah je: 00-59.");
+		return alert ("ChybnÄ› zadanÃ¡ minuta: '" + n_min + "'.\nPovolenÃ½ rozsah je: 00-59.");
 	var d_numdays = new Date(n_year, n_month, 0);
 	if (n_day > d_numdays.getDate())
-		return alert("©patnı den v mìsíci: '" + n_day + "'.\nPovolenı rozsah v tomto mìsíci je: 01 - " + d_numdays.getDate() + ".");
+		return alert("Å patnÃ½ den v mÄ›sÃ­ci: '" + n_day + "'.\nPovolenÃ½ rozsah v tomto mÄ›sÃ­ci je: 01 - " + d_numdays.getDate() + ".");
 
 	return new Date (n_year, n_month - 1, n_day, n_hour, n_min);
 }
@@ -74,7 +74,7 @@ function tcal (a_cfg, a_tpl) {
 	this.s_iconId = 'tcalico_' + this.s_id;
 	this.e_icon = f_getElement(this.s_iconId);
 	if (!this.e_icon) {
-		document.write('<img src="' + a_tpl.imgpath + 'cal.gif" id="' + this.s_iconId + '" onclick="A_TCALS[\'' + this.s_id + '\'].f_toggle()" class="tcalIcon" alt="Kalendáø" />');
+		document.write('<img src="' + a_tpl.imgpath + 'cal.gif" id="' + this.s_iconId + '" onclick="A_TCALS[\'' + this.s_id + '\'].f_toggle()" class="tcalIcon" alt="KalendÃ¡Å™" />');
 		this.e_icon = f_getElement(this.s_iconId);
 	}
 	// save received parameters
@@ -137,7 +137,7 @@ function f_tcalShow (d_date) {
 
 	// change icon and status
 	this.e_icon.src = this.a_tpl.imgpath + 'no_cal.gif';
-	this.e_icon.title = 'Zavøít kalendáø';
+	this.e_icon.title = 'ZavÅ™Ã­t kalendÃ¡Å™';
 	this.b_visible = true;
 }
 
@@ -159,7 +159,7 @@ function f_tcalHide (n_date) {
 	// change icon and status
 	this.e_icon = f_getElement(this.s_iconId);
 	this.e_icon.src = this.a_tpl.imgpath + 'cal.gif';
-	this.e_icon.title = 'Otevøít kalendáø';
+	this.e_icon.title = 'OtevÅ™Ã­t kalendÃ¡Å™';
 	this.b_visible = false;
 }
 
@@ -194,9 +194,9 @@ function f_tcalUpdate (d_date) {
 	
 	var a_class, s_html = '<table class="ctrl"><tbody><tr>'
 		+ (this.a_tpl.yearscroll ? '<td' + this.f_relDate(d_date, -1, 'y') + ' title="Previous Year"><img src="' + this.a_tpl.imgpath + 'prev_year.gif" /></td>' : '')
-		+ '<td' + this.f_relDate(d_date, -1) + ' title="Pøedchozí mìsíc"><img src="' + this.a_tpl.imgpath + 'prev_mon.gif" /></td><th>'
+		+ '<td' + this.f_relDate(d_date, -1) + ' title="PÅ™edchozÃ­ mÄ›sÃ­c"><img src="' + this.a_tpl.imgpath + 'prev_mon.gif" /></td><th>'
 		+ this.a_tpl.months[d_date.getMonth()] + ' ' + d_date.getFullYear()
-			+ '</th><td' + this.f_relDate(d_date, 1) + ' title="Dal¹í mìsíc"><img src="' + this.a_tpl.imgpath + 'next_mon.gif" /></td>'
+			+ '</th><td' + this.f_relDate(d_date, 1) + ' title="DalÅ¡Ã­ mÄ›sÃ­c"><img src="' + this.a_tpl.imgpath + 'next_mon.gif" /></td>'
 		+ (this.a_tpl.yearscroll ? '<td' + this.f_relDate(d_date, 1, 'y') + ' title="Next Year"><img src="' + this.a_tpl.imgpath + 'next_year.gif" /></td></td>' : '')
 		+ '</tr></tbody></table><table><tbody><tr class="wd">';
 

@@ -16,7 +16,7 @@
 {/foreach}
 {/if}
 
-<p><a href="{$smarty.const.DISKUSE_URL}add.php" title="Přidat nový vzkaz.">Přidat zprávu</a></p>
+<p><a href="{$smarty.const.DISKUSE_URL}add.php" title="Přidat nový vzkaz." class="add">Přidat zprávu</a>.</p>
 
 {if $page_numbers.total > 1}
 <p>

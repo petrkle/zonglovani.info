@@ -216,12 +216,12 @@ function event_validation($udalost,$now){
 			}
 	}
 
-	if(strlen($udalost["url"])>0 and !eregi("^http://",$udalost["url"])){
-		array_push($chyby,"Špatný formát odkazu.");
+	if(strlen($udalost['url'])>0 and !eregi('^http://',$udalost['url'])){
+		array_push($chyby,'Špatný formát odkazu.');
 	}
 
-	if(strlen($udalost["mapa"])>0 and !eregi("^http://",$udalost["mapa"])){
-		array_push($chyby,"Špatný formát odkazu na mapu.");
+	if(strlen($udalost['mapa'])>0 and !eregi('^http://',$udalost['mapa'])){
+		array_push($chyby,'Špatný formát odkazu na mapu.');
 	}
 
 	if(!ereg("^[0-9]{4}-[0-9]{2}-[0-9]{2} [0-9]{2}:[0-9]{2}$",$udalost["konec"])){

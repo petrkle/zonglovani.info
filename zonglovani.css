@@ -557,3 +557,7 @@ a.edit {
 	padding-top: 10px;
 	font-size: 0.8em;
 }
+.add {
+	background: url("img/a/add.png") 0 50% no-repeat;
+	padding-left: 20px;
+}

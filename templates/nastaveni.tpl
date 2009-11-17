@@ -14,4 +14,5 @@
 <li><a href="{$smarty.const.LIDE_URL}nastaveni.php?uprav=jmeno" title="Změnit zobrazované jméno.">Změnit</a> jméno.</li>
 <li><a href="{$smarty.const.LIDE_URL}nastaveni.php?uprav=soukromi" title="Změnit způsob zobrazování e-mailu.">Změnit</a> způsob zobrazování e-mailu.</li>
 <li><a href="{$smarty.const.LIDE_URL}nastaveni.php?uprav=vzkaz" title="Změnit zobrazovaný vzkaz.">Upravit</a> vzkaz.</li>
+<li><a href="{$smarty.const.LIDE_URL}nastaveni.php?uprav=web" title="Zadat internetovou stránku.">Internetová stránka</a>.</li>
 </ul>

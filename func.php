@@ -208,6 +208,10 @@ function get_user_props($login){
 			$navrat["vzkaz"]=file_get_contents(LIDE_DATA."/$login/vzkaz.txt");
 		}
 
+		if(is_file(LIDE_DATA."/$login/web.txt")){
+			$navrat['web']=trim(file_get_contents(LIDE_DATA."/$login/web.txt"));
+		}
+
 		if(is_file(LIDE_DATA."/$login/registrace.txt")){
 			$navrat["registrace"]=trim(array_pop(file(LIDE_DATA."/$login/registrace.txt")));
 			$navrat["registrace_hr"]=date("j. n. Y",$navrat["registrace"]);
