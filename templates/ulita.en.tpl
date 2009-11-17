@@ -3,11 +3,10 @@ Regular Sunday juggling at <a href="http://www.ulita.cz" class="external" onclic
 </p>
 
 <div class="obrazkovnik">
-<a href="/obrazky/ulita-20091018/0012.html">{obrazek soubor='usb.jpg' popisek='Juggling at Ulita'}</a>
-<a href="/obrazky/ulita-20091018/0020.html">{obrazek soubor='usd.jpg' popisek='Juggling at Ulita'}</a>
-<a href="/obrazky/ulita-20091018/0006.html">{obrazek soubor='usa.jpg' popisek='Juggling at Ulita'}</a>
-<a href="/obrazky/ulita-20091018/0008.html">{obrazek soubor='usc.jpg' popisek='Juggling at Ulita'}</a><br />
-<a href="/obrazky/ulita-20091018/" title="Photos of juggling.">More photos &raquo;</a>
+<a href="/obrazky/ulita-20091115/0006.html">{obrazek soubor='usi.jpg' popisek=''}</a>
+<a href="/obrazky/ulita-20091115/0015.html">{obrazek soubor='usj.jpg' popisek=''}</a>
+<a href="/obrazky/ulita-20091115/0029.html">{obrazek soubor='usk.jpg' popisek=''}</a><br />
+<a href="/obrazky/ulita-20091115/" title="Photos of juggling.">More photos &raquo;</a>
 </div>
 <p>
 <p>
@@ -54,22 +53,16 @@ E-mail: {$mail|mailobfuscate}
 {else}
 <p>Wait for autumn.</p>
 {/if}
-{*
-<p>Pictures from <a href="http://spanker.cz/fotogal/ulita_zonglovani/index.html" title="Photos by Zbyňěk Fojtík." onclick="pageTracker._trackPageview('/goto/spanker.cz/fotogal/ulita_zonglovani');" class="external">last year</a>.</p>
-*}
 <hr />
 <h3>Contributors</h3>
 <p>
 <a href="http://www.ulita.cz" onclick="pageTracker._trackPageview('/goto/ulita.cz');" title="Ulita - house of children and youth">{obrazek soubor='ulita.cz.png' popisek='Ulita'}</a>
 Place is provided by <a href="http://www.ulita.cz" class="external" onclick="pageTracker._trackPageview('/goto/ulita.cz');" title="Ulita - house of children and youth">Ulita</a>, Prague.
 </p>
+
+<p><a href="http://www.radio1.cz" title="Radio 1" onclick="pageTracker._trackPageview('/goto/radio1.cz');">{obrazek soubor='radio1.png' popisek='Radio 1'}</a><a href="http://www.radio1.cz" title="Radio 1" onclick="pageTracker._trackPageview('/goto/radio1.cz');" class="external">Radio 1</a> - media support.</p>
+
 <p style="text-align: right; font-size: 0.5em;"><a href="/ulita/">Česká verze</a></p>
-{*
-<p>
-<a href="http://www.fireshow.cz/zonglovani-v-ulite" onclick="pageTracker._trackPageview('/goto/fireshow.cz/zonglovani-v-ulite');" title="FireShow.cz">{obrazek soubor='fireshow.cz.png' popisek='Fireshow.cz'}</a>
-<a href="http://www.fireshow.cz/zonglovani-v-ulite" title="FireShow.cz - all for jugglers from jugglers" onclick="pageTracker._trackPageview('/goto/fireshow.cz/zonglovani-v-ulite');" class="external">FireShow.cz</a> - all for jugglers from jugglers.
-</p>
-*}
 {literal}
 <style>
 .obrazkovnik {

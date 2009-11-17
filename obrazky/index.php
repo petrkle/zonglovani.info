@@ -23,7 +23,7 @@ if(isset($_GET['rss'])){
 
 if($rss){
 	header('Content-Type: application/rss+xml');
-	$smarty->assign('obrazky',get_galerie(true));
+	$smarty->assign('obrazky',get_galerie());
 	$smarty->display('obrazky.rss.tpl');
 	exit();
 }
@@ -83,7 +83,7 @@ if($id and $photo){
 
 }
 
-function get_galerie($rev=false){
+function get_galerie(){
 	$dir = opendir(OBRAZKY_DATA);
 	$navrat = array();
 	    if ($dir) {
@@ -101,20 +101,12 @@ function get_galerie($rev=false){
 		   }
 	closedir($dir);
 	usort($navrat, 'sort_by_datum');
-	if($rev){
-		usort($navrat, 'sort_by_datum_r');
-	}
  return $navrat;
 }
 
 function sort_by_datum($a, $b)
 {
 		return ($a['datum'] > $b['datum']) ? -1 : 1;
-}
-
-function sort_by_datum_r($a, $b)
-{
-		return ($a['datum'] < $b['datum']) ? -1 : 1;
 }
 
 function get_galerie_info($galerie){

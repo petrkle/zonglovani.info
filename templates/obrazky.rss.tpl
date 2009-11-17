@@ -6,24 +6,23 @@
     <description>Obrázky žonglování, žonglérů a žonglérek</description>
     <items>
       <rdf:Seq>
-				{foreach from=$obrazky item=obrazek name=smycka1}
-				{if $smarty.foreach.smycka1.index < 10}
-        <rdf:li resource="http://{$smarty.server.SERVER_NAME}{$smarty.const.OBRAZKY_URL}{$obrazek.name}/" />
+				{section loop=$obrazky name=smycka1 step=-1}
+				{if $smarty.section.smycka1.index < 10}
+        <rdf:li resource="http://{$smarty.server.SERVER_NAME}{$smarty.const.OBRAZKY_URL}{$obrazky[$smycka1]}/" />
 				{/if}
-				{/foreach}
+				{/section}
       </rdf:Seq>
     </items>
   </channel>
-{foreach from=$obrazky item=obrazek name=smycka2}
-	{if $smarty.foreach.smycka2.index < 10}
-  <item rdf:about="http://{$smarty.server.SERVER_NAME}{$smarty.const.OBRAZKY_URL}{$obrazek.name}/">
-    <title>{$obrazek.title|escape}</title>
-    <link>http://{$smarty.server.SERVER_NAME}{$smarty.const.OBRAZKY_URL}{$obrazek.name}/</link>
-    <description>{$obrazek.title|escape}</description>
-    <dc:creator>{$obrazek.autor|escape}</dc:creator>
-    <dc:date>{$obrazek.datum_mr|escape}</dc:date>
+{section loop=$obrazky name=smycka2 step=-1}
+	{if $smarty.section.smycka2.index < 10}
+  <item rdf:about="http://{$smarty.server.SERVER_NAME}{$smarty.const.OBRAZKY_URL}{$obrazky[$smarty.section.smycka2.index].name}/">
+    <title>{$obrazky[$smarty.section.smycka2.index].title|escape}</title>
+    <link>http://{$smarty.server.SERVER_NAME}{$smarty.const.OBRAZKY_URL}{$obrazky[$smarty.section.smycka2.index].name}/</link>
+    <description>{$obrazky[$smarty.section.smycka2.index].title|escape}</description>
+    <dc:creator>{$obrazky[$smarty.section.smycka2.index].autor|escape}</dc:creator>
+    <dc:date>{$obrazky[$smarty.section.smycka2.index].datum_mr|escape}</dc:date>
   </item>
 	{/if}
-{/foreach}
-
+{/section}
 </rdf:RDF>

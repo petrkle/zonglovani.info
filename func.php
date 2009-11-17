@@ -178,7 +178,7 @@ function get_loginy(){
 	$navrat = array();
 	    if ($dir) {
 			   while (($filename = readdir($dir)) !== false) {
-						if (!ereg("^\.",$filename) and is_dir(LIDE_DATA."/$filename")) {
+						if (!preg_match('/^\./',$filename) and is_dir(LIDE_DATA.'/'.$filename) and $filename!='pek') {
 				      array_push($navrat,$filename);
 					 }
 			   }

@@ -6,15 +6,14 @@ require($lib.'/Smarty.class.php');
 
 session_start();
 
-if(isset($_SESSION["uzivatel"]) and isset($_SESSION["ip"])){
-	if($_SESSION["ip"]!=$_SERVER['REMOTE_ADDR']){
+if(isset($_SESSION['uzivatel']) and isset($_SESSION['ip'])){
+	if($_SESSION['ip']!=$_SERVER['REMOTE_ADDR']){
 		session_destroy();
 	}
 }
 
 $smarty = new Smarty;
 
-#$smarty->debugging = true;
 $smarty->template_dir = $_SERVER['DOCUMENT_ROOT'].'/templates';
 $smarty->config_dir = $lib.'/configs';
 $smarty->cache_dir = $_SERVER['DOCUMENT_ROOT'].'/tmp/cache';

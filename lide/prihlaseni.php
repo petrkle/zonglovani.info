@@ -22,12 +22,16 @@ if(isset($_POST["login"]) and isset($_POST["heslo"]) and isset($_GET["action"]))
 	$uzivatel=get_user_props($input_login);
 	if($uzivatel){
 		$passwd_hash=trim(array_pop(file(LIDE_DATA."/".$uzivatel["login"]."/passwd.sha1")));
-		#var_dump(trim(array_pop(file(LIDE_DATA."/".$uzivatel["login"]."/passwd.sha1"))));
-		#var_dump(sha1($input_heslo.$input_login));
 		if(sha1($input_heslo.$input_login)==$passwd_hash){
-			$_SESSION["uzivatel"]=$uzivatel;
-			$_SESSION["logged"]=true;
-			$_SESSION["ip"]=$_SERVER['REMOTE_ADDR'];
+			# úspěšné přihlášení
+			$_SESSION['uzivatel']=$uzivatel;
+			$_SESSION['logged']=true;
+			$_SESSION['ip']=$_SERVER['REMOTE_ADDR'];
+
+			$foo=fopen(LIDE_DATA.'/'.$uzivatel['login'].'/prihlaseni.txt','a+');
+			fwrite($foo,time().'*'.$_SERVER['REMOTE_ADDR'].'*'.$_SERVER['HTTP_USER_AGENT']."\n");
+			fclose($foo);
+
 			header("Location: $next");
 			exit();
 		}else{

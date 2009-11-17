@@ -2,7 +2,6 @@
 Pravidelné nedělní žonglování v <a href="cesta.html" title="Jak se dostat do Ulity">DDM Ulita</a>. Žongluje se ve <a href="/obrazky/ulita-20091018/0001.jpg" title="Obrázek velkého sálu." onclick="pageTracker._trackPageview('/obrazky/ulita-20091115/0001.jpg');">velkém sále</a> kde je: <strong>vysoký strop</strong>, měkká podlaha, ozvučení, pódium  pro případné vystoupení, okna a disco koule.
 </p>
 <div class="obrazkovnik">
-{*<a href="/obrazky/ulita-20091101/0000.html">{obrazek soubor='use.jpg' popisek=''}</a>*}
 <a href="/obrazky/ulita-20091115/0006.html">{obrazek soubor='usi.jpg' popisek=''}</a>
 <a href="/obrazky/ulita-20091115/0015.html">{obrazek soubor='usj.jpg' popisek=''}</a>
 <a href="/obrazky/ulita-20091115/0029.html">{obrazek soubor='usk.jpg' popisek=''}</a>
@@ -70,33 +69,15 @@ E-mail: {$mail|mailobfuscate}
 <a href="ulita4.pdf" title="Tisk čtyř plakátů najednou." onclick="pageTracker._trackPageview('/ulita/ulita4.pdf');">ulita4.pdf</a> - pro tisk na formát A4
 </ul>
 </p>
-{*
-<hr />
-<h3>Na akci se podílejí</h3>
-<p>
-<a href="http://www.ulita.cz" onclick="pageTracker._trackPageview('/goto/ulita.cz');" title="Ulita - dům dětí a mládeže">{obrazek soubor='ulita.cz.png' popisek='Ulita'}</a>
-Prostory poskytl dům dětí a mládeže <a href="http://www.ulita.cz" class="external" onclick="pageTracker._trackPageview('/goto/ulita.cz');" title="Ulita - dům dětí a mládeže">Ulita</a>, Praha 3.
-</p>
-*}
+
+<p><a href="http://www.radio1.cz" title="Radio 1" onclick="pageTracker._trackPageview('/goto/radio1.cz');">{obrazek soubor='radio1.png' popisek='Radio 1'}</a>O žonglování v Ulitě můžeš slyšet i v <a href="http://www.radio1.cz/kulturniservis/" title="Kulturní servis Rádia 1" onclick="pageTracker._trackPageview('/goto/radio1.cz/kulturniservis');" class="external">kulturním servisu</a> Radia 1.</p>
 
 <p class="sdileni">
 Přidat na: <a href="http://www.facebook.com/share.php?u=http://{$smarty.server.SERVER_NAME}{$smarty.server.REQUEST_URI}" class="external" onclick="pageTracker._trackPageview('/goto/facebook.com/share{$smarty.server.REQUEST_URI}');" title="Poslat {$titulek|escape} na facebook.">facebook</a>, <a href="http://www.google.com/bookmarks/mark?op=edit&bkmk=http://{$smarty.server.SERVER_NAME}{$smarty.server.REQUEST_URI}&title={$titulek|escape:'url'}&hl=cs" title="Přidat {$titulek|escape} do záložek na google." class="external" onclick="pageTracker._trackPageview('/goto/google.com/bookmarks{$smarty.server.REQUEST_URI}');">google</a>
 </p>
 
 <p style="text-align: right; font-size: 0.5em;"><a href="/ulita/en.html">English version</a></p>
-{*
-<p>
-<a href="http://www.fireshow.cz/zonglovani-v-ulite" onclick="pageTracker._trackPageview('/goto/fireshow.cz/zonglovani-v-ulite');" title="FireShow.cz">{obrazek soubor='fireshow.cz.png' popisek='Fireshow.cz'}</a>
-<a href="http://www.fireshow.cz/zonglovani-v-ulite" title="FireShow.cz - Vše pro žongléry od žonglérů" onclick="pageTracker._trackPageview('/goto/fireshow.cz/zonglovani-v-ulite');" class="external">FireShow.cz</a> - vše pro žongléry od žonglérů.
-</p>
 
-<!--
-<p>
-<a href="http://www.zongluj.cz" onclick="pageTracker._trackPageview('/goto/zongluj.cz');" title="zongluj.cz">{obrazek soubor='zongluj.cz.jpg' popisek='Žongluj imrvére'}</a>
-<a href="http://www.zongluj.cz" title="Žongluj imrvére" onclick="pageTracker._trackPageview('/goto/zongluj.cz');" class="external">Zongluj.cz</a> - specializovaný obchod s největším výběrem zboží na žonglování v české republice.
-</p>
--->
-*}
 {literal}
 <style>
 .obrazkovnik {
