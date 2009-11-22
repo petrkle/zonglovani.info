@@ -38,6 +38,7 @@ for($foo=0;$foo<10;$foo++){
 }
 
 $smarty->assign("udalosti",array_reverse($rssu));
+header('Content-Type: application/rss+xml');
 $smarty->display('rss.tpl');
 
 function sort_by_rss_date($a, $b)

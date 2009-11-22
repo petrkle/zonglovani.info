@@ -2,4 +2,5 @@ RewriteEngine	on
 RewriteBase /lide
 
 RewriteRule ^(.+)\.html$ uzivatel.php?id=$1 [L]
+RewriteRule ^foto/(.+)\.jpg$ foto.php?id=$1 [L]
 RewriteRule ^uzivatele.rss$ rss.php [L]

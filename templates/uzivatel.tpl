@@ -13,6 +13,9 @@ Nacházíš se na své veřejné domovské stránce, která slouží pro tvojí 
 <hr />
 {/if}
 <h1>{$titulek}</h1>
+{if $uzivatel_props.foto}
+<p><img src="{$smarty.const.LIDE_URL}foto/{$uzivatel_props.login|escape}.jpg" alt="{$uzivatel_props.jmeno|escape}" width="{$uzivatel_props.foto_sirka}" height="{$uzivatel_props.foto_vyska}"/></p>
+{/if}
 {if strlen($uzivatel_props.vzkaz)>0}
 <pre>
 {$uzivatel_props.vzkaz|wordwrap:45:"\n":true|escape}

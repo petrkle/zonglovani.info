@@ -61,6 +61,42 @@ if(is_logged()){
 				$smarty->display('hlavicka.tpl');
 				$smarty->display('nastaveni-soukromi.tpl');
 				$smarty->display('paticka.tpl');
+		}elseif($uprav=='foto'){
+			if(isset($_FILES['foto']) and isset($_POST['odeslat'])){
+					if($_FILES['foto']['size']>(300*1024)){
+						array_push($chyby,'Obrázek je příliš velký.');
+					}
+					$obrazekinfo=getimagesize($_FILES['foto']['tmp_name']);
+					if(is_array($obrazekinfo)){
+						if($obrazekinfo[0]>400 or $obrazekinfo[1]>400){
+							array_push($chyby,'Rozměry obrázku jsou příliš velké.');
+						}
+						if($obrazekinfo['mime']!='image/jpeg'){
+							array_push($chyby,'Špatný formát souboru.');
+						}
+					}else{
+						array_push($chyby,'Odeslaný soubor není obrázek.');
+					}
+				if(count($chyby)==0){
+					move_uploaded_file($_FILES['foto']['tmp_name'],LIDE_DATA.'/'.$_SESSION['uzivatel']['login'].'/foto.jpg');
+					$_SESSION['uzivatel']=get_user_props($_SESSION['uzivatel']['login']);
+					header('Location: '.LIDE_URL.basename(__FILE__).'?result=ok');
+					exit();
+				}
+
+			}
+			if(isset($_POST['smazat']) and is_file(LIDE_DATA.'/'.$_SESSION['uzivatel']['login'].'/foto.jpg')){
+				unlink(LIDE_DATA.'/'.$_SESSION['uzivatel']['login'].'/foto.jpg');
+				$_SESSION['uzivatel']=get_user_props($_SESSION['uzivatel']['login']);
+				header('Location: '.LIDE_URL.basename(__FILE__).'?result=ok');
+				exit();
+			}
+
+				$smarty->assign('chyby',$chyby);
+				$smarty->display('hlavicka.tpl');
+				$smarty->display('nastaveni-foto.tpl');
+				$smarty->display('paticka.tpl');
+		
 		
 		}elseif($uprav=='web'){
 
