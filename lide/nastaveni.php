@@ -1,6 +1,7 @@
 <?php
 require('../init.php');
 require('../func.php');
+require('dovednosti.php');
 
 if(is_logged()){
 	$smarty->assign('titulek','Nastavení');
@@ -129,6 +130,42 @@ if(is_logged()){
 				$smarty->display('hlavicka.tpl');
 				$smarty->display('nastaveni-web.tpl');
 				$smarty->display('paticka.tpl');
+
+		}elseif($uprav=='dovednosti'){
+
+
+			if(isset($_POST['odeslat'])){
+				#doplnit kontrolu
+					$foo=fopen(LIDE_DATA.'/'.$_SESSION['uzivatel']['login'].'/dovednosti.txt','w');
+					foreach($dovednosti as $nazev=>$obsah){
+						if(isset($_POST[$nazev])){
+							$bar=$_POST[$nazev];
+							if(in_array($bar,$dovednosti[$nazev]['hodnoty']) and $bar!='n'){
+								fwrite($foo,"$nazev:$bar\n");
+							}
+						}
+					}
+					fclose($foo);
+					$_SESSION['uzivatel']['dovednosti']=get_user_dovednosti($_SESSION['uzivatel']['login']);
+					header('Location: '.LIDE_URL.basename(__FILE__).'?result=ok');
+					exit();
+			}
+
+				
+				foreach($dovednosti as $nazev=>$obsah){
+					if(isset($_SESSION['uzivatel']['dovednosti'][$nazev])){
+						$dovednosti[$nazev]['stav']=$_SESSION['uzivatel']['dovednosti'][$nazev];
+					}else{
+						$dovednosti[$nazev]['stav']='n';
+					}
+				}
+
+				$smarty->assign('dovednosti',$dovednosti);
+				$smarty->assign('chyby',$chyby);
+				$smarty->display('hlavicka.tpl');
+				$smarty->display('nastaveni-dovednosti.tpl');
+				$smarty->display('paticka.tpl');
+		
 		
 		}elseif($uprav=='vzkaz'){
 			if(isset($_POST['vzkaz']) and isset($_POST['odeslat'])){

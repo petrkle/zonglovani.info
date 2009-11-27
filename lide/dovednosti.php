@@ -1,0 +1,32 @@
+<?php
+$dovednosti=array();
+$dovednosti['show']=array('nazev'=>'Veřejné vystupování','hodnoty'=>array('n','a'));
+$dovednosti['workshop']=array('nazev'=>'Výuka žonglování','hodnoty'=>array('n','a'));
+$dovednosti['micky']=array('nazev'=>'Míčky','hodnoty'=>array('n',1,2,3,4,5,6,7,8,9));
+$dovednosti['micky_passing']=array('nazev'=>'Passing s míčky','hodnoty'=>array('n','a'));
+$dovednosti['bounce']=array('nazev'=>'Skákací míčky','hodnoty'=>array('n',1,2,3,4,5,6,7,8,9));
+$dovednosti['kruhy']=array('nazev'=>'Kruhy','hodnoty'=>array('n',1,2,3,4,5,6,7,8));
+$dovednosti['kruhy_passingl']=array('nazev'=>'Passing s kruhy','hodnoty'=>array('n','a'));
+$dovednosti['kuzely']=array('nazev'=>'Kužely','hodnoty'=>array('n',1,2,3,4,5,6,7));
+$dovednosti['kuzely_passing']=array('nazev'=>'Passing s kužely','hodnoty'=>array('n','a'));
+$dovednosti['kuzely_ohen']=array('nazev'=>'Ohnivé kužely','hodnoty'=>array('n',1,2,3,4,5,6,7));
+$dovednosti['diabolo']=array('nazev'=>'Diabolo','hodnoty'=>array('n',1,2,3,4));
+$dovednosti['jojo']=array('nazev'=>'Jo-jo','hodnoty'=>array('n',1,2));
+$dovednosti['kontakt']=array('nazev'=>'Kontaktní žonglování','hodnoty'=>array('n',1,2,3,4,5));
+$dovednosti['devilstick']=array('nazev'=>'Devilstick','hodnoty'=>array('n',1,2));
+$dovednosti['flowerstick']=array('nazev'=>'Flowerstick','hodnoty'=>array('n',1,2));
+$dovednosti['poi']=array('nazev'=>'Poi','hodnoty'=>array('n',1,2,3,4));
+$dovednosti['poi_ohen']=array('nazev'=>'Zapálené poi','hodnoty'=>array('n',1,2,3,4));
+$dovednosti['tyc']=array('nazev'=>'Manipulace s tyčí','hodnoty'=>array('n',1,2,3,4));
+$dovednosti['tyc_ohen']=array('nazev'=>'Manipulace se zapálenou tyčí','hodnoty'=>array('n',1,2,3,4));
+$dovednosti['cygarbox']=array('nazev'=>'Cigar boxy','hodnoty'=>array('n',1,2,3,4,5));
+$dovednosti['jednokolka']=array('nazev'=>'Jednokolka','hodnoty'=>array('n','a'));
+$dovednosti['boty']=array('nazev'=>'Skákací boty','hodnoty'=>array('n','a'));
+$dovednosti['hulahop']=array('nazev'=>'Hula hop kruh','hodnoty'=>array('n',1,2,3,4,5));
+$dovednosti['vejir']=array('nazev'=>'Ohnivé vějíře','hodnoty'=>array('n',1,2));
+$dovednosti['lano']=array('nazev'=>'Chůze po laně','hodnoty'=>array('n','a'));
+$dovednosti['chudy']=array('nazev'=>'Chůdy','hodnoty'=>array('n','a'));
+$dovednosti['hrazda']=array('nazev'=>'Visutá hrazda','hodnoty'=>array('n','a'));
+$dovednosti['rolabola']=array('nazev'=>'Rola bola','hodnoty'=>array('n','a'));
+$dovednosti['plivani']=array('nazev'=>'Plivání ohně','hodnoty'=>array('n','a'));
+?>

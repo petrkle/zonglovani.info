@@ -125,12 +125,12 @@
 			<li><a href="/kuzely/passing/7clubs.html">Passing - 7 kuželů</a></li>
 			<li><a href="/kuzely/passing/all-hands.html">Passing - Passování do všechn rukou</a></li>
 			<li><a href="/kuzely/passing/around.html">Passing - Žonglování okolo člověka</a></li>
-			<li><a href="/kuzely/passing/australsky-trik.html">Passing - </a></li>
+			<li><a href="/kuzely/passing/australsky-trik.html">Passing - Australský trik</a></li>
 			<li><a href="/kuzely/passing/bostoncircle.html">Passing - Boston circle</a></li>
 			<li><a href="/kuzely/passing/box.html">Passing - Čtverec</a></li>
 			<li><a href="/kuzely/passing/feeds.html">Passing - Nabíjení</a></li>
 			<li><a href="/kuzely/passing/hody.html">Passing - Druhy hodů při passování</a></li>
-			<li><a href="/kuzely/passing/lichobeznik.html">Passing - </a></li>
+			<li><a href="/kuzely/passing/lichobeznik.html">Passing - Lichoběžník</a></li>
 			<li><a href="/kuzely/passing/line.html">Passing - Řada</a></li>
 			<li><a href="/kuzely/passing/pickup.html">Passing - Zvednutí spadlého kuželu</a></li>
 			<li><a href="/kuzely/passing/pivo.html">Passing - Passování s pivem</a></li>
@@ -143,7 +143,7 @@
 			<li><a href="/kuzely/passing/prebihani5z14k.html">Passing - Přebíhání - 14 kuželů 5 žongléřů</a></li>
 			<li><a href="/kuzely/passing/ps.html">Passing - PS - pass self</a></li>
 			<li><a href="/kuzely/passing/psspspps.html">Passing - Pass self self pass self pass pass self</a></li>
-			<li><a href="/kuzely/passing/rotor.html">Passing - </a></li>
+			<li><a href="/kuzely/passing/rotor.html">Passing - Rotor</a></li>
 			<li><a href="/kuzely/passing/runarounds.html">Passing - Obíhání</a></li>
 			<li><a href="/kuzely/passing/rychla-otocka.html">Passing - Rychlá otočka</a></li>
 			<li><a href="/kuzely/passing/rypsilon.html">Passing - Rotující Y</a></li>

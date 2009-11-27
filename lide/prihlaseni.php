@@ -27,6 +27,7 @@ if(isset($_POST["login"]) and isset($_POST["heslo"]) and isset($_GET["action"]))
 			$_SESSION['uzivatel']=$uzivatel;
 			$_SESSION['logged']=true;
 			$_SESSION['ip']=$_SERVER['REMOTE_ADDR'];
+			$_SESSION['uzivatel']['dovednosti']=get_user_dovednosti($_SESSION['uzivatel']['login']);
 
 			$foo=fopen(LIDE_DATA.'/'.$uzivatel['login'].'/prihlaseni.txt','a+');
 			fwrite($foo,time().'*'.$_SERVER['REMOTE_ADDR'].'*'.$_SERVER['HTTP_USER_AGENT']."\n");

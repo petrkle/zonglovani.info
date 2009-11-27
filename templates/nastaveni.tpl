@@ -13,6 +13,7 @@
 <li><a href="{$smarty.const.LIDE_URL}nastaveni.php?uprav=heslo" title="Změnit heslo.">Změnit heslo</a>.</li>
 <li><a href="{$smarty.const.LIDE_URL}nastaveni.php?uprav=jmeno" title="Změnit zobrazované jméno.">Změnit jméno</a>.</li>
 <li><a href="{$smarty.const.LIDE_URL}nastaveni.php?uprav=soukromi" title="Změnit způsob zobrazování e-mailu.">Změnit</a> způsob zobrazování e-mailu.</li>
+<li><a href="{$smarty.const.LIDE_URL}nastaveni.php?uprav=dovednosti" title="Nastavit žonglérské dovednosti.">Žonglérské dovednosti</a>.</li>
 <li><a href="{$smarty.const.LIDE_URL}nastaveni.php?uprav=vzkaz" title="Změnit zobrazovaný vzkaz.">Upravit vzkaz</a>.</li>
 <li><a href="{$smarty.const.LIDE_URL}nastaveni.php?uprav=web" title="Zadat internetovou stránku.">Internetová stránka</a>.</li>
 <li><a href="{$smarty.const.LIDE_URL}nastaveni.php?uprav=foto" title="Nahrát obrázek.">Nahrát fotku</a>.</li>

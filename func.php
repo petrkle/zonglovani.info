@@ -187,6 +187,24 @@ function get_loginy(){
 	sort($navrat);
  return $navrat;
 }
+function get_user_dovednosti($login){
+		$navrat=array();
+		if(is_file(LIDE_DATA.'/'.$login.'/dovednosti.txt')){
+			$dov=file(LIDE_DATA.'/'.$login.'/dovednosti.txt');
+		}else{
+			$dov=false;
+		}
+		if(is_array($dov)){
+			foreach($dov as $foo){
+				$foo=preg_split('/:/',trim($foo));
+				$navrat[$foo[0]]=$foo[1];
+			}
+		}
+		if(count($navrat)==0){
+			$navrat=false;
+		}
+		return $navrat;
+}
 
 function get_user_props($login){
 	if(is_dir(LIDE_DATA."/$login") and strlen($login)>0){

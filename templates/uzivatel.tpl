@@ -40,6 +40,16 @@ Nacházíš se na své veřejné domovské stránce, která slouží pro tvojí 
 {/if}
 </ul>
 {/if}
+{if is_array($uzivatel_props.dovednosti)}
+<h3>Žonglérské dovednosti</h3>
 <p>
-<a href="{$smarty.const.LIDE_URL}" title="Seznam uživatelů žonglérova slabikáře.">Seznam všech uživatelů</a>.
+<ul>
+{foreach from=$uzivatel_props.dovednosti item=dovednost}
+<li>{$dovednost.nazev|escape}{if $dovednost.hodnota!='a'} - {$dovednost.hodnota|escape}{/if}</li>
+{/foreach}
+</ul>
+</p>
+{/if}
+<p>
+<a href="{$smarty.const.LIDE_URL}" title="Seznam uživatelů žonglérova slabikáře.">Další žongléři a žonglérky &raquo;</a>
 </p>
