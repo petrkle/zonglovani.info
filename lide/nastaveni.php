@@ -37,6 +37,7 @@ if(is_logged()){
 					exit();
 				}
 			}
+				$smarty->assign('titulek','Zobrazované jméno');
 				$smarty->assign('chyby',$chyby);
 				$smarty->display('hlavicka.tpl');
 				$smarty->display('nastaveni-jmeno.tpl');
@@ -60,6 +61,7 @@ if(is_logged()){
 					exit();
 				}
 			}
+				$smarty->assign('titulek','Zobrazování e-mailu');
 				$smarty->display('hlavicka.tpl');
 				$smarty->display('nastaveni-soukromi.tpl');
 				$smarty->display('paticka.tpl');
@@ -94,6 +96,7 @@ if(is_logged()){
 				exit();
 			}
 
+				$smarty->assign('titulek','Fotografie');
 				$smarty->assign('chyby',$chyby);
 				$smarty->display('hlavicka.tpl');
 				$smarty->display('nastaveni-foto.tpl');
@@ -126,6 +129,7 @@ if(is_logged()){
 					$web='';
 				}
 			}
+				$smarty->assign('titulek','Internetová stránka');
 				$smarty->assign('chyby',$chyby);
 				$smarty->assign('web',$web);
 				$smarty->display('hlavicka.tpl');
@@ -165,6 +169,7 @@ if(is_logged()){
 					}
 				}
 
+				$smarty->assign('titulek','Žonglérské dovednosti');
 				$smarty->assign('dovednosti',$dovednosti);
 				$smarty->assign('chyby',$chyby);
 				$smarty->display('hlavicka.tpl');
@@ -199,6 +204,7 @@ if(is_logged()){
 					}
 				}
 
+				$smarty->assign('titulek','Místo(a) kde žongluješ');
 				$smarty->assign('pusobiste',$pusobiste);
 				$smarty->assign('chyby',$chyby);
 				$smarty->display('hlavicka.tpl');
@@ -223,6 +229,7 @@ if(is_logged()){
 					exit();
 				}
 			}
+				$smarty->assign('titulek','Nastavení vzkazu');
 				$smarty->assign('chyby',$chyby);
 				$smarty->display('hlavicka.tpl');
 				$smarty->display('nastaveni-vzkaz.tpl');
@@ -259,6 +266,7 @@ if(is_logged()){
 					exit();
 				}
 			}
+				$smarty->assign('titulek','Heslo');
 				$smarty->assign('chyby',$chyby);
 				$smarty->display('hlavicka.tpl');
 				$smarty->display('nastaveni-heslo.tpl');

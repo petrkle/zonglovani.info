@@ -6,6 +6,10 @@
 </ul>
 {/if}
 <form action="{$smarty.server.REQUEST_URI}" method="post" enctype="multipart/form-data">
+{if $smarty.session.uzivatel.foto}
+<p><img src="{$smarty.session.uzivatel.foto|escape}" alt="{$smarty.session.uzivatel.jmeno|escape}" width="{$smarty.session.uzivatel.foto_sirka}" height="{$smarty.session.uzivatel.foto_vyska}"/> <input type="submit" name="smazat" value="Smazat" class="knoflik" tabindex="4" />
+</p>
+{/if}
 <p>
 <fieldset>
 <legend>Fotografie</legend>
@@ -17,7 +21,6 @@
 
 <p class="vpravo">
 {if $smarty.session.uzivatel.foto}
-<input type="submit" name="smazat" value="Smazat" class="knoflik" tabindex="4" />
 {/if}
 <input type="submit" name="odeslat" value="Nastavit" class="knoflik" tabindex="3" />
 </p>

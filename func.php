@@ -258,7 +258,7 @@ function get_user_props($login){
 
 		if(is_file(LIDE_DATA.'/'.$login.'/foto.jpg')){
 			$obrazekinfo=getimagesize(LIDE_DATA.'/'.$login.'/foto.jpg');
-			$navrat['foto']=LIDE_URL.'/foto/'.$login.'.jpg';
+			$navrat['foto']=LIDE_URL.'foto/'.$login.'.jpg';
 			$navrat['foto_sirka']=$obrazekinfo[0];
 			$navrat['foto_vyska']=$obrazekinfo[1];
 		}

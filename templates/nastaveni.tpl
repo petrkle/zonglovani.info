@@ -1,5 +1,4 @@
 {if $chyby}
-
 <ul class="alert">
 {foreach from=$chyby item=chyba}
 <li>{$chyba}</li>
@@ -17,5 +16,5 @@
 <li><a href="{$smarty.const.LIDE_URL}nastaveni.php?uprav=pusobiste" title="Nastavit působiště.">Nastavit místo</a> kde žongluješ.</li>
 <li><a href="{$smarty.const.LIDE_URL}nastaveni.php?uprav=vzkaz" title="Změnit zobrazovaný vzkaz.">Upravit vzkaz</a>.</li>
 <li><a href="{$smarty.const.LIDE_URL}nastaveni.php?uprav=web" title="Zadat internetovou stránku.">Internetová stránka</a>.</li>
-<li><a href="{$smarty.const.LIDE_URL}nastaveni.php?uprav=foto" title="Nahrát obrázek.">Nahrát fotku</a>.</li>
+<li><a href="{$smarty.const.LIDE_URL}nastaveni.php?uprav=foto" title="Nastavení fotografie.">Nastavit fotografii</a>.</li>
 </ul>
