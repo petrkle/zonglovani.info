@@ -2,6 +2,7 @@
 require('../init.php');
 require('../func.php');
 require('dovednosti.php');
+require('pusobiste.php');
 
 if(is_logged()){
 	$smarty->assign('titulek','Nastavení');
@@ -21,7 +22,7 @@ if(is_logged()){
 				}elseif(eregi("[-\*\.\?\!<>;\^\$\{\}\@%\&\(\)'\"_:´ˇ\\|#`~,ß]",$jmeno)){
 					array_push($chyby,"Jméno obsahuje nepovolené znaky.");
 				}elseif($jmeno==$_SESSION["uzivatel"]["jmeno"]){
-					# nic :-)
+					# nic :^)
 				}else{
 					if(is_zs_jmeno($jmeno)){
 						array_push($chyby,'Zadané jméno už používá jiný uživatel.');
@@ -135,17 +136,21 @@ if(is_logged()){
 
 
 			if(isset($_POST['odeslat'])){
-				#doplnit kontrolu
+					$pocet=0;
 					$foo=fopen(LIDE_DATA.'/'.$_SESSION['uzivatel']['login'].'/dovednosti.txt','w');
 					foreach($dovednosti as $nazev=>$obsah){
 						if(isset($_POST[$nazev])){
 							$bar=$_POST[$nazev];
 							if(in_array($bar,$dovednosti[$nazev]['hodnoty']) and $bar!='n'){
 								fwrite($foo,"$nazev:$bar\n");
+								$pocet++;
 							}
 						}
 					}
 					fclose($foo);
+					if($pocet==0){
+						unlink(LIDE_DATA.'/'.$_SESSION['uzivatel']['login'].'/dovednosti.txt');
+					}
 					$_SESSION['uzivatel']['dovednosti']=get_user_dovednosti($_SESSION['uzivatel']['login']);
 					header('Location: '.LIDE_URL.basename(__FILE__).'?result=ok');
 					exit();
@@ -165,6 +170,41 @@ if(is_logged()){
 				$smarty->display('hlavicka.tpl');
 				$smarty->display('nastaveni-dovednosti.tpl');
 				$smarty->display('paticka.tpl');
+		
+		}elseif($uprav=='pusobiste'){
+
+			if(isset($_POST['odeslat'])){
+					$foo=fopen(LIDE_DATA.'/'.$_SESSION['uzivatel']['login'].'/pusobiste.txt','w');
+					if(is_array($_POST['misto'])){
+						foreach($_POST['misto'] as $nazev){
+								if(isset($pusobiste[$nazev])){
+									fwrite($foo,"$nazev\n");
+								}
+							}
+						}
+					fclose($foo);
+					if(count($_POST['misto'])==0){
+						unlink(LIDE_DATA.'/'.$_SESSION['uzivatel']['login'].'/pusobiste.txt');
+					}
+					$_SESSION['uzivatel']['pusobiste']=get_user_pusobiste($_SESSION['uzivatel']['login']);
+					header('Location: '.LIDE_URL.basename(__FILE__).'?result=ok');
+					exit();
+			}
+
+				foreach($pusobiste as $nazev=>$obsah){
+					if(is_array($_SESSION['uzivatel']['pusobiste']) and in_array($nazev,$_SESSION['uzivatel']['pusobiste'])){
+						$pusobiste[$nazev]['stav']='y';
+					}else{
+						$pusobiste[$nazev]['stav']='n';
+					}
+				}
+
+				$smarty->assign('pusobiste',$pusobiste);
+				$smarty->assign('chyby',$chyby);
+				$smarty->display('hlavicka.tpl');
+				$smarty->display('nastaveni-pusobiste.tpl');
+				$smarty->display('paticka.tpl');
+		
 		
 		
 		}elseif($uprav=='vzkaz'){

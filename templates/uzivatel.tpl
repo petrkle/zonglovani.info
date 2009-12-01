@@ -50,6 +50,17 @@ Nacházíš se na své veřejné domovské stránce, která slouží pro tvojí 
 </ul>
 </p>
 {/if}
+
+{if is_array($uzivatel_props.pusobiste)}
+<h3>Kde žongluji</h3>
+<p>
+<ul>
+{foreach from=$uzivatel_props.pusobiste item=misto}
+<li>{$misto|escape}</li>
+{/foreach}
+</ul>
+</p>
+{/if}
 <p>
 <a href="{$smarty.const.LIDE_URL}" title="Seznam uživatelů žonglérova slabikáře.">Další žongléři a žonglérky &raquo;</a>
 </p>

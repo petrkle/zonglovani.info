@@ -2,6 +2,7 @@
 require('../init.php');
 require('../func.php');
 require('dovednosti.php');
+require('pusobiste.php');
 
 if(isset($_GET['id'])){
 	$id=$_GET['id'];
@@ -29,6 +30,17 @@ if($dov){
 		}
 	}
 	$uzivatel_props['dovednosti']=$bar;
+}
+
+$pus=get_user_pusobiste($id);
+if($pus){
+	$bar=array();
+	foreach($pus as $name){
+		if(isset($pusobiste[$name])){
+			array_push($bar,$pusobiste[$name]['nazev']);
+		}
+	}
+	$uzivatel_props['pusobiste']=$bar;
 }
 
 $smarty->assign("titulek",$uzivatel_props["jmeno"]);

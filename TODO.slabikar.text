@@ -10,7 +10,8 @@
 - víc propagovat seznam uživatelů a výhody registrace
 - učesat výpis "Autor fotografie" u fotek
 - přehled aktivity uživatelů
-- nastavení: působiště
+- rušení účtu
+- dodělat zpracování stavů LOCKED, REVOKED v přihlašování a výpisu uživatelů
 
 
 rec.juggling - popis a nastavení
@@ -18,6 +19,8 @@ rec.juggling - popis a nastavení
 přeražení preclíku
 žonglérské obchody - tipy pro nákup
 passing - kruhový objezd
+svítící míčky
+chůze na míči
 
 HOTOVO
 ======
@@ -44,3 +47,4 @@ uživatelé si mohou nastavit www stránku
 nahrávání fotografie uživatele
 nastavení v profilu - s čím žongluji
 nastavení: nabízím vystoupení, workshopy
+nastavení: působiště

@@ -298,6 +298,9 @@
 			<li><a name="lhotka-20080601"></a><a href="/obrazky/lhotka-20080601/">Vlakem do Lhotky 2008 - obrázky žonglování</a>
 			
 			</li>
+			<li><a name="prazsky-zonglersky-marathon-20091128"></a><a href="/obrazky/prazsky-zonglersky-marathon-20091128/">Pražský žonglérský marathon 2009 - obrázky žonglování</a>
+			
+			</li>
 			<li><a name="predvanocni-vystoupeni-klamovka-20081211"></a><a href="/obrazky/predvanocni-vystoupeni-klamovka-20081211/">Předvánoční vystoupení na Klamovce 2008 - obrázky žonglování</a>
 			
 			</li>
@@ -308,6 +311,9 @@
 			
 			</li>
 			<li><a name="ulita-20091115"></a><a href="/obrazky/ulita-20091115/">Ulita 15. 11. 2009 - obrázky žonglování</a>
+			
+			</li>
+			<li><a name="ulita-20091129"></a><a href="/obrazky/ulita-20091129/">Ulita 29. 11. 2009 - obrázky žonglování</a>
 			
 			</li>
 			<li><a name="zidovske-pece-20090404"></a><a href="/obrazky/zidovske-pece-20090404/">Židovské pece 4. 4. 2009 - obrázky žonglování</a>

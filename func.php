@@ -187,6 +187,7 @@ function get_loginy(){
 	sort($navrat);
  return $navrat;
 }
+
 function get_user_dovednosti($login){
 		$navrat=array();
 		if(is_file(LIDE_DATA.'/'.$login.'/dovednosti.txt')){
@@ -198,6 +199,25 @@ function get_user_dovednosti($login){
 			foreach($dov as $foo){
 				$foo=preg_split('/:/',trim($foo));
 				$navrat[$foo[0]]=$foo[1];
+			}
+		}
+		if(count($navrat)==0){
+			$navrat=false;
+		}
+		return $navrat;
+}
+
+function get_user_pusobiste($login){
+		$navrat=array();
+		if(is_file(LIDE_DATA.'/'.$login.'/pusobiste.txt')){
+			$pus=file(LIDE_DATA.'/'.$login.'/pusobiste.txt');
+		}else{
+			$pus=false;
+		}
+		if(is_array($pus)){
+			foreach($pus as $klic=>$hodnota){
+				$hodnota=trim($hodnota);
+				array_push($navrat,$hodnota);
 			}
 		}
 		if(count($navrat)==0){
@@ -243,10 +263,12 @@ function get_user_props($login){
 			$navrat['foto_vyska']=$obrazekinfo[1];
 		}
 
-		if(is_file(LIDE_DATA."/$login/LOCKED")){
-			$navrat["status"]="locked";
+		if(is_file(LIDE_DATA.'/'.$login.'/LOCKED')){
+			$navrat['status']='locked';
+		}elseif(is_file(LIDE_DATA.'/'.$login.'/REVOKED')){
+			$navrat['status']='revoked';
 		}else{
-			$navrat["status"]="ok";
+			$navrat['status']='ok';
 		}
 
 		$dir = opendir(LIDE_DATA."/$login");
