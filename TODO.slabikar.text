@@ -10,7 +10,8 @@
 - víc propagovat seznam uživatelů a výhody registrace
 - učesat výpis "Autor fotografie" u fotek
 - přehled aktivity uživatelů
-- rušení účtu
+- formulář pro rušení účtu, potvrzení odkazem zaslaným do emailu
+- změna mailu
 - dodělat zpracování stavů LOCKED, REVOKED v přihlašování a výpisu uživatelů
 
 

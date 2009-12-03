@@ -6,9 +6,10 @@ Před vytvořením účtu si, prosím, přečti následující pravidla.
 
 <h3>Práva uživatele</h3>
 <ul>
-<li>Tvůj účet se objeví v <a href="{$smarty.const.LIDE_URL}" title="Seznam uživatelských účtů.">seznamu uživatelů</a> žonglérova slabikáře. Budou tě moct kontaktovat další žongléři. Nebo lidé kteří shánějí žongléry a chtějí jim zaplatit za vystoupení.</li>
-<li>Můžeš zadávat události do <a href="{$smarty.const.CALENDAR_URL}" title="Kalendář žonglérských akcí.">kalendáře</a>.</li>
 <li>Můžeš psát zprávy do <a href="{$smarty.const.DISKUSE_URL}" title="Diskuse o žonglování.">diskuse</a> o žonglování.</li>
+<li>Můžeš zadávat události do <a href="{$smarty.const.CALENDAR_URL}" title="Kalendář žonglérských akcí.">kalendáře</a>.</li>
+<li>V uživatelském účtu můžeš propagovat svoje žonglérské dovednosti, místo kde žongluješ, odkaz na svůj web, vzkaz a nahrát svojí fotografii.</li>
+<li>Účet můžeš kdykoliv zrušit.</li>
 </ul>
 
 <h3>Povinnosti uživatele</h3>
@@ -26,6 +27,7 @@ Před vytvořením účtu si, prosím, přečti následující pravidla.
 <ul>
 <li>Uživatelům porušující tato pravidla bude zablokován účet.</li>
 <li>Účty nepoužívané déle jak rok budou odstraněny.</li>
+<li>Tvůj účet se objeví v <a href="{$smarty.const.LIDE_URL}" title="Seznam uživatelských účtů.">seznamu uživatelů</a> žonglérova slabikáře. Budou tě moct kontaktovat další žongléři. Nebo lidé kteří shánějí žongléry a chtějí jim zaplatit za vystoupení.</li>
 </ul>
 
 <form action="{$SCRIPT_NAME}" method="post">

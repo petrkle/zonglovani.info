@@ -67,12 +67,12 @@ if(is_logged()){
 				$smarty->display('paticka.tpl');
 		}elseif($uprav=='foto'){
 			if(isset($_FILES['foto']) and isset($_POST['odeslat'])){
-					if($_FILES['foto']['size']>(300*1024)){
+					if($_FILES['foto']['size']>(200*1024)){
 						array_push($chyby,'Obrázek je příliš velký.');
 					}
 					$obrazekinfo=getimagesize($_FILES['foto']['tmp_name']);
 					if(is_array($obrazekinfo)){
-						if($obrazekinfo[0]>400 or $obrazekinfo[1]>400){
+						if($obrazekinfo[0]>300 or $obrazekinfo[1]>300){
 							array_push($chyby,'Rozměry obrázku jsou příliš velké.');
 						}
 						if($obrazekinfo['mime']!='image/jpeg'){
@@ -211,7 +211,19 @@ if(is_logged()){
 				$smarty->display('nastaveni-pusobiste.tpl');
 				$smarty->display('paticka.tpl');
 		
-		
+		}elseif($uprav=='zruseni'){
+
+				$smarty->assign('titulek','Zrušení účtu');
+				$smarty->display('hlavicka.tpl');
+				$smarty->display('nastaveni-zruseni.tpl');
+				$smarty->display('paticka.tpl');
+
+		}elseif($uprav=='mail'){
+
+				$smarty->assign('titulek','Změna adresy elektronické pošty');
+				$smarty->display('hlavicka.tpl');
+				$smarty->display('nastaveni-mail.tpl');
+				$smarty->display('paticka.tpl');
 		
 		}elseif($uprav=='vzkaz'){
 			if(isset($_POST['vzkaz']) and isset($_POST['odeslat'])){
