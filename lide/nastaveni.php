@@ -273,7 +273,111 @@ http://zonglovani.info/kontakt.html
 				$smarty->display('paticka.tpl');
 
 		}elseif($uprav=='mail'){
+			$chyby=array();
 
+			if(isset($_POST['odeslat'])){
+
+				if(isset($_POST['email'])){
+					$email=strtolower(trim($_POST['email']));
+				}else{
+					$email='';
+				}
+
+				if(isset($_POST['heslo'])){
+					$heslo=trim($_POST['heslo']);
+				}else{
+					$heslo='';
+				}
+
+				if(isset($_POST['antispam'])){
+					$odpoved=strtolower(trim($_POST['antispam']));
+				}else{
+					$odpoved='';
+				}
+
+				#var_dump($heslo,$_SESSION['uzivatel']['login']);
+				if(sha1($heslo.$_SESSION['uzivatel']['login'])!=$_SESSION['uzivatel']['passwd_sha1']){
+					array_push($chyby,'Špatné heslo.');
+				}
+
+				if($odpoved!=$_SESSION["antispam_odpoved"]){
+					array_push($chyby,"Špatná odpověď na kontrolní otázku.");
+					$antispam=get_antispam();
+					$_SESSION["antispam_otazka"]=$antispam[0];
+					$_SESSION["antispam_odpoved"]=$antispam[1];
+					$smarty->assign("antispam_otazka",$_SESSION["antispam_otazka"]);
+				}
+
+			if(!eregi('^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$',$email)){
+				array_push($chyby,"Neplatný e-mail.");
+			}else{
+				if(is_zs_email($email)){
+					array_push($chyby,'Tento e-mail už používá jiný uživatel žonglérova slabikáře.');
+				}
+			}
+
+				if(count($chyby)==0){
+
+					$tmp=LIDE_TMP.'/'.$email;
+					$key=abs(crc32($_SESSION['uzivatel']['email'].time().$_SESSION['uzivatel']['login']));
+					if(!is_dir($tmp)){
+						mkdir($tmp);
+					}
+
+					$foo=fopen($tmp.'/change.key','w');
+					fwrite($foo,$key);
+					fclose($foo);
+
+					$foo=fopen($tmp.'/change.time','w');
+					fwrite($foo,time());
+					fclose($foo);
+
+					$foo=fopen($tmp.'/login.txt','w');
+					fwrite($foo,$_SESSION['uzivatel']['login']);
+					fclose($foo);
+
+					$foo=fopen($tmp.'/oldmail.txt','w');
+					fwrite($foo,$_SESSION['uzivatel']['email']);
+					fclose($foo);
+
+				$subject = "=?utf-8?Q?".preg_replace("/=\r\n/","",quoted_printable_encode('Změna emailu'))."?=";
+
+				$headers = 'Return-Path: robot@zonglovani.info' . "\r\n" .
+				'From: robot@zonglovani.info' . "\r\n" .
+				'Reply-To: robot@zonglovani.info' . "\r\n" .
+				'Content-Type: text/plain; charset=utf-8' . "\r\n" .
+				'Content-Transfer-Encoding: quoted-printable' . "\r\n" .
+				'Precedence: bulk';
+$message = 'Ahoj,
+
+pro změnu emailu v žonglérově slabikáři klikni na tento odkaz:
+
+http://'.$_SERVER['SERVER_NAME'].LIDE_URL.'zmena-emailu.php?m='.$email.'&k='.$key.'
+
+Odkaz platí do: '.date("j. n. Y G.i",(time()+TIMEOUT_REGISTRATION)).'
+
+-- 
+Petr Kletečka
+
+admin@zonglovani.info
+http://zonglovani.info/kontakt.html
+';
+
+		$vysledek=mail($email, $subject, quoted_printable_encode($message), $headers);
+		if($vysledek){
+			header('Location: '.LIDE_URL.basename(__FILE__).'?result=send');
+		}else{
+			header('Location: '.LIDE_URL.basename(__FILE__).'?result=ko');
+		}
+				}else{
+					$smarty->assign('chyby',$chyby);
+				}
+			}
+
+					$antispam=get_antispam();
+					$_SESSION["antispam_otazka"]=$antispam[0];
+					$_SESSION["antispam_odpoved"]=$antispam[1];
+					$smarty->assign("antispam_otazka",$_SESSION["antispam_otazka"]);
 				$smarty->assign('titulek','Změna adresy elektronické pošty');
 				$smarty->display('hlavicka.tpl');
 				$smarty->display('nastaveni-mail.tpl');

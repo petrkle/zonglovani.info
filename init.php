@@ -1,5 +1,12 @@
 <?php
 
+if($_SERVER['SERVER_NAME']!='zongl.info'){
+	  error_reporting(0);
+}else{
+	  error_reporting(E_ALL);
+};
+
+
 $lib=$_SERVER['DOCUMENT_ROOT'].'/lib';
 
 require($lib.'/Smarty.class.php');

@@ -10,7 +10,6 @@
 - víc propagovat seznam uživatelů a výhody registrace
 - učesat výpis "Autor fotografie" u fotek
 - přehled aktivity uživatelů
-- změna mailu
 - sitemap.xml - generovat a aktualizovat
 
 
@@ -51,3 +50,4 @@ nastavení: nabízím vystoupení, workshopy
 nastavení: působiště
 dodělat zpracování stavů LOCKED, REVOKED v přihlašování a výpisu uživatelů
 formulář pro rušení účtu, potvrzení odkazem zaslaným do emailu
+změna mailu
