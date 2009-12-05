@@ -43,14 +43,19 @@ if($pus){
 	$uzivatel_props['pusobiste']=$bar;
 }
 
-$smarty->assign("titulek",$uzivatel_props["jmeno"]);
-$smarty->assign("nadpis","none");
-$smarty->assign("notitle",true);
-$smarty->assign("uzivatel_props",$uzivatel_props);
+if($uzivatel_props['status']=='ok'){
+	$smarty->assign("titulek",$uzivatel_props["jmeno"]);
+	$smarty->assign("nadpis","none");
+	$smarty->assign("notitle",true);
+	$smarty->assign("uzivatel_props",$uzivatel_props);
 
-$smarty->display('hlavicka.tpl');
-$smarty->display('uzivatel.tpl');
-$smarty->display('paticka.tpl');
+	$smarty->display('hlavicka.tpl');
+	$smarty->display('uzivatel.tpl');
+	$smarty->display('paticka.tpl');
+}else{
+	require("../404.php");
+	exit();
+}
 
 }else{
 	require("../404.php");

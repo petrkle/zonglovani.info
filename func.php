@@ -132,7 +132,17 @@ function get_antispam(){
 }
 
 function is_zs_account($login){
-	if(in_array($login,get_loginy())){
+	$dir = opendir(LIDE_DATA);
+	$loginy = array();
+	    if ($dir) {
+			   while (($filename = readdir($dir)) !== false) {
+						if (!preg_match('/^\./',$filename) and is_dir(LIDE_DATA.'/'.$filename)) {
+				      array_push($loginy,$filename);
+					 }
+			   }
+		   }
+	closedir($dir);
+	if(in_array($login,$loginy)){
 		return true;
 	}else{
 		return false;
@@ -178,7 +188,7 @@ function get_loginy(){
 	$navrat = array();
 	    if ($dir) {
 			   while (($filename = readdir($dir)) !== false) {
-						if (!preg_match('/^\./',$filename) and is_dir(LIDE_DATA.'/'.$filename) and $filename!='pek') {
+						if (!preg_match('/^\./',$filename) and is_dir(LIDE_DATA.'/'.$filename) and !is_file(LIDE_DATA.'/'.$filename.'/LOCKED') and !is_file(LIDE_DATA.'/'.$filename.'/REVOKED') and $filename!='pek') {
 				      array_push($navrat,$filename);
 					 }
 			   }

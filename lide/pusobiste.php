@@ -4,6 +4,7 @@ $pusobiste['cela-cr']=array('nazev'=>'Celá ČR');
 $pusobiste['cechy']=array('nazev'=>'Čechy');
 $pusobiste['morava']=array('nazev'=>'Morava');
 $pusobiste['slezko']=array('nazev'=>'Slezko');
+$pusobiste['slovensko']=array('nazev'=>'Slovenská republika');
 $pusobiste['benesov']=array('nazev'=>'Benešov');
 $pusobiste['beroun']=array('nazev'=>'Beroun');
 $pusobiste['blansko']=array('nazev'=>'Blansko');

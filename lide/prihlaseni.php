@@ -21,6 +21,21 @@ if(isset($_POST["login"]) and isset($_POST["heslo"]) and isset($_GET["action"]))
 	$input_heslo=trim($_POST["heslo"]);
 	$uzivatel=get_user_props($input_login);
 	if($uzivatel){
+		if($uzivatel['status']=='locked'){
+			array_push($chyby,'Účet byl zrušen na žádost uživatele.');
+		}
+		if($uzivatel['status']=='revoked'){
+			array_push($chyby,'Účet je zablokován.');
+		}
+
+		if(count($chyby)!=0){
+			$smarty->assign("chyby",$chyby);
+			$smarty->assign("login",$input_login);
+			$smarty->display('hlavicka.tpl');
+			$smarty->display('prihlaseni.tpl');
+			$smarty->display('paticka.tpl');
+			exit();
+		}
 		$passwd_hash=trim(array_pop(file(LIDE_DATA."/".$uzivatel["login"]."/passwd.sha1")));
 		if(sha1($input_heslo.$input_login)==$passwd_hash){
 			# úspěšné přihlášení

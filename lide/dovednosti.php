@@ -30,5 +30,6 @@ $dovednosti['lano']=array('nazev'=>'Chůze po laně','hodnoty'=>array('n','a'));
 $dovednosti['chudy']=array('nazev'=>'Chůdy','hodnoty'=>array('n','a'));
 $dovednosti['hrazda']=array('nazev'=>'Visutá hrazda','hodnoty'=>array('n','a'));
 $dovednosti['rolabola']=array('nazev'=>'Rola bola','hodnoty'=>array('n','a'));
+$dovednosti['talir']=array('nazev'=>'Točení talířem na tyčce','hodnoty'=>array('n','a'));
 $dovednosti['plivani']=array('nazev'=>'Plivání ohně','hodnoty'=>array('n','a'));
 ?>

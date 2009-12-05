@@ -10,11 +10,11 @@
 - víc propagovat seznam uživatelů a výhody registrace
 - učesat výpis "Autor fotografie" u fotek
 - přehled aktivity uživatelů
-- formulář pro rušení účtu, potvrzení odkazem zaslaným do emailu
 - změna mailu
-- dodělat zpracování stavů LOCKED, REVOKED v přihlašování a výpisu uživatelů
+- sitemap.xml - generovat a aktualizovat
 
 
+náčiní - točicí talíř, záchodové zvony
 rec.juggling - popis a nastavení
 žonglérské vystoupení - správný postup
 přeražení preclíku
@@ -49,3 +49,5 @@ nahrávání fotografie uživatele
 nastavení v profilu - s čím žongluji
 nastavení: nabízím vystoupení, workshopy
 nastavení: působiště
+dodělat zpracování stavů LOCKED, REVOKED v přihlašování a výpisu uživatelů
+formulář pro rušení účtu, potvrzení odkazem zaslaným do emailu

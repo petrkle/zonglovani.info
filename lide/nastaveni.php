@@ -84,7 +84,7 @@ if(is_logged()){
 				if(count($chyby)==0){
 					move_uploaded_file($_FILES['foto']['tmp_name'],LIDE_DATA.'/'.$_SESSION['uzivatel']['login'].'/foto.jpg');
 					$_SESSION['uzivatel']=get_user_props($_SESSION['uzivatel']['login']);
-					header('Location: '.LIDE_URL.basename(__FILE__).'?result=ok');
+					header('Location: '.LIDE_URL.basename(__FILE__).'?result=uploaded');
 					exit();
 				}
 
@@ -92,7 +92,7 @@ if(is_logged()){
 			if(isset($_POST['smazat']) and is_file(LIDE_DATA.'/'.$_SESSION['uzivatel']['login'].'/foto.jpg')){
 				unlink(LIDE_DATA.'/'.$_SESSION['uzivatel']['login'].'/foto.jpg');
 				$_SESSION['uzivatel']=get_user_props($_SESSION['uzivatel']['login']);
-				header('Location: '.LIDE_URL.basename(__FILE__).'?result=ok');
+				header('Location: '.LIDE_URL.basename(__FILE__).'?result=deleted');
 				exit();
 			}
 
@@ -212,6 +212,60 @@ if(is_logged()){
 				$smarty->display('paticka.tpl');
 		
 		}elseif($uprav=='zruseni'){
+			if(isset($_POST['nechat'])){
+					header('Location: '.LIDE_URL.basename(__FILE__));
+					exit();
+			}
+
+			if(isset($_POST['zrusit'])){
+					$tmp=LIDE_TMP.'/'.$_SESSION['uzivatel']['email'];
+					$key=abs(crc32($_SESSION['uzivatel']['email'].time().$_SESSION['uzivatel']['login']));
+					if(!is_dir($tmp)){
+						mkdir($tmp);
+					}
+
+					$foo=fopen($tmp.'/locked.key','w');
+					fwrite($foo,$key);
+					fclose($foo);
+
+					$foo=fopen($tmp.'/locked.time','w');
+					fwrite($foo,time());
+					fclose($foo);
+
+					$foo=fopen($tmp.'/locked.login','w');
+					fwrite($foo,$_SESSION['uzivatel']['login']);
+					fclose($foo);
+
+				$subject = "=?utf-8?Q?".preg_replace("/=\r\n/","",quoted_printable_encode("Zrušení účtu"))."?=";
+
+				$headers = 'Return-Path: robot@zonglovani.info' . "\r\n" .
+				'From: robot@zonglovani.info' . "\r\n" .
+				'Reply-To: robot@zonglovani.info' . "\r\n" .
+				'Content-Type: text/plain; charset=utf-8' . "\r\n" .
+				'Content-Transfer-Encoding: quoted-printable' . "\r\n" .
+				'Precedence: bulk';
+$message = 'Ahoj,
+
+pro zrušení účtu v žonglérově slabikáři klikni na tento odkaz:
+
+http://'.$_SERVER['SERVER_NAME'].LIDE_URL.'zruseni.php?m='.$_SESSION['uzivatel']['email'].'&k='.$key.'
+
+Odkaz platí do: '.date("j. n. Y G.i",(time()+TIMEOUT_REGISTRATION)).'
+
+-- 
+Petr Kletečka
+
+admin@zonglovani.info
+http://zonglovani.info/kontakt.html
+';
+
+		$vysledek=mail($_SESSION['uzivatel']['email'], $subject, quoted_printable_encode($message), $headers);
+		if($vysledek){
+			header('Location: '.LIDE_URL.basename(__FILE__).'?result=send');
+		}else{
+			header('Location: '.LIDE_URL.basename(__FILE__).'?result=ko');
+		}
+			}
 
 				$smarty->assign('titulek','Zrušení účtu');
 				$smarty->display('hlavicka.tpl');
@@ -290,7 +344,18 @@ if(is_logged()){
 	
 	}else{
 		if(isset($_GET['result'])){
-			array_push($chyby,'Nastavení bylo uloženo.');
+			$result=$_GET['result'];
+			if($result=='send'){
+				array_push($chyby,'Zpráva byla odeslána.');
+			}elseif($result=='ok'){
+				array_push($chyby,'Nastavení bylo uloženo.');
+			}elseif($result=='uploaded'){
+				array_push($chyby,'Fotografie byla uložena.');
+			}elseif($result=='deleted'){
+				array_push($chyby,'Fotografie je smazaná.');
+			}else{
+				array_push($chyby,'Došlo k chybě.');
+			}
 			$smarty->assign('chyby',$chyby);
 		}
 		$smarty->display('hlavicka.tpl');
