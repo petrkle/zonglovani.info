@@ -24,15 +24,9 @@
 <li><a href="/faq.html" title="FAQ">Často kladené otázky</a> a odpovědi na ně.</li>
 </ul>
 </p>
-{if $smarty.session.logged!=true}
-<h3>Přidej se mezi žongléry</h3>
-<p>
-<a href="{$smarty.const.LIDE_URL}" title="Seznam žonglérů.">Registrovaní uživatelé</a> mají možnost psát do <a href="{$smarty.const.DISKUSE_URL}" title="Diskuse o žonglování">diskuse</a> a zadávat události do <a href="{$smarty.const.CALENDAR_URL}">kalendáře</a>.<br/>
-<a href="{$smarty.const.LIDE_URL}pravidla.php" title="Vytvořit uživatelský účet." class="add">Vytvořit nový účet</a>.
-</p>
-{/if}
-<hr />
+
 <h3><a href="/ulita/" title="Nedělní žonglování v ulitě.">Žonglování v Ulitě</a></h3>
 <p>
-V domě dětí a mládeže Ulita se pravidelně žongluje. Každou druhou neděli :^)
+<a href="/ulita/" title="Ulita - dům dětí a mládeže">{obrazek soubor='ulita.cz.png' popisek='Žonglování v Ulitě'}</a>
+V domě dětí a mládeže Ulita se pravidelně žongluje. Přijít mohou začínající i zkušení žongléři a žonglérky.
 </p>

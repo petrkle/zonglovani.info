@@ -2,7 +2,7 @@
 $dovednosti=array();
 $dovednosti['show']=array('nazev'=>'Veřejné vystupování','hodnoty'=>array('n','a'));
 $dovednosti['workshop']=array('nazev'=>'Výuka žonglování','hodnoty'=>array('n','a'));
-$dovednosti['manufactury']=array('nazev'=>'Výroba žonglérských hraček','hodnoty'=>array('n','a'));
+$dovednosti['manufactory']=array('nazev'=>'Výroba žonglérských hraček','hodnoty'=>array('n','a'));
 $dovednosti['shop']=array('nazev'=>'Prodej věcí na žonglování','hodnoty'=>array('n','a'));
 $dovednosti['micky']=array('nazev'=>'Míčky','hodnoty'=>array('n',1,2,3,4,5,6,7,8,9));
 $dovednosti['micky_passing']=array('nazev'=>'Passing s míčky','hodnoty'=>array('n','a'));

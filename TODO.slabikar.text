@@ -7,8 +7,6 @@
 - export kalendáře (dalších věcí ?) do pdf online
 - obrázky v horoskopu
 - uživatelé si mohou nastavit znamení horoskopu, to se jim pak bude zobrazovat jako výchozí
-- víc propagovat seznam uživatelů a výhody registrace
-- učesat výpis "Autor fotografie" u fotek
 - přehled aktivity uživatelů
 - sitemap.xml - generovat a aktualizovat
 
@@ -51,3 +49,6 @@ nastavení: působiště
 dodělat zpracování stavů LOCKED, REVOKED v přihlašování a výpisu uživatelů
 formulář pro rušení účtu, potvrzení odkazem zaslaným do emailu
 změna mailu
+učesat výpis "Autor fotografie" u fotek
+víc propagovat seznam uživatelů a výhody registrace
+filtr na dovednosti, místo působení

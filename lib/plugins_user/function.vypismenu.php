@@ -54,9 +54,9 @@ function submenu($id){
 	}
 
 	if($id==4){
-		$adresy = array('/obrazky/','/video/','/kalendar/','/diskuse/');
-		$texty = array('Obrázky','Video','Kalendář','Diskuse');
-		$popisky = array('Obrázky žonglování','Zajímavá žonglérská videa','Kalendář žonglérských akcí','Diskuse o žonglování');
+		$adresy = array('/obrazky/','/video/','/kalendar/','/diskuse/','/lide/');
+		$texty = array('Obrázky','Video','Kalendář','Diskuse','Žongléři');
+		$popisky = array('Obrázky žonglování','Zajímavá žonglérská videa','Kalendář žonglérských akcí','Diskuse o žonglování','Seznam uživatelů žonglérova slabikáře.');
 	}
 
 	if(isset($adresy)){

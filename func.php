@@ -46,18 +46,18 @@ function get_seznam_triku($jake){
 $trans = array("ě" => "ez","š" => "sz","č" => "cz","ř" => "rz","ž" => "zz","ý" => "yz","á" => "az","í" => "iz","é" => "ez","ú" => "uz","ů" => "uz","ď" => "dz","ť" => "tz","ň" => "nz","Ě" => "Ez","Š" => "Sz","Č" => "Cz","Ř" => "Rz","Ž" => "Zz","Ý" => "Yz","Á" => "Az","Í" => "Iz","É" => "Ez","Ú" => "Uz","Ů" => "Uz","Ď" => "Dz","Ť" => "Tz","Ň" => "Nz"," " => "_z");
 
 function sort_by_title($a, $b){
-  /*
-	mojes = moje + setřídění
-	setřídí řádky v tabulce podle názvu triku
-  */
- global $trans;
-
+	global $trans;
   $a['about']['nazev'] = strtr($a['about']['nazev'], $trans);
   $b['about']['nazev'] = strtr($b['about']['nazev'], $trans);
-
-
   return strcmp($a['about']['nazev'], $b['about']['nazev']);
 };
+
+function sort_by_jmeno($a, $b){
+	global $trans;
+	$a['jmeno']=strtr($a['jmeno'],$trans);	
+	$b['jmeno']=strtr($b['jmeno'],$trans);	
+	return strcmp($a['jmeno'],$b['jmeno']);
+}
 
 
 function get_videa($db){

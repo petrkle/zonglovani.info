@@ -1,12 +1,13 @@
 <?php
 require('../init.php');
 require('../func.php');
+require('dovednosti.php');
+$smarty->assign('dovednosti',$dovednosti);
 
-$smarty->assign("titulek","Uživatelské účty");
-$smarty->assign("uzivatele",get_loginy());
-$smarty->assign("rsslink",'http://'.$_SERVER["SERVER_NAME"].LIDE_URL.'uzivatele.rss');
+$smarty->assign('titulek','Seznam žonglérů');
+$smarty->assign('uzivatele',get_loginy());
+$smarty->display('hlavicka.tpl');
+$smarty->display('lide.tpl');
+$smarty->display('paticka.tpl');
 
-	$smarty->display('hlavicka.tpl');
-	$smarty->display('lide.tpl');
-	$smarty->display('paticka.tpl');
 ?>

@@ -70,17 +70,6 @@ a img{
 	padding: 10px 0 0 0;
 }
 
-
-p, pre, hr {
- clear: both;
- margin: 2px 10px 7px 20px;
-}
-
-code {
-	color: #060;
-	font-weight: bold;
-}
-
 p img {
  margin: 0 auto 0 auto;
  border: 1px solid #000;
@@ -145,13 +134,15 @@ a:active {
 	float: none;
 }
 
-
-.vpravo {
-	text-align: right;
+.autor {
+	text-align: left;
+	font-size: 0.8em;
+	float: left;
 }
 .sdileni {
-	padding-top: 10px;
 	font-size: 0.8em;
+	text-align: right;
+	float: right;
 }
 .obrazek {
 	overflow: auto;
