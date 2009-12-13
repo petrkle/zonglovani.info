@@ -12,15 +12,20 @@ Nacházíš se na své veřejné domovské stránce, která slouží pro tvojí 
 </p>
 <hr />
 {/if}
+
+
 <h1>{$titulek}</h1>
 {if $uzivatel_props.foto}
 <p><img src="{$smarty.const.LIDE_URL}foto/{$uzivatel_props.login|escape}.jpg" alt="{$uzivatel_props.jmeno|escape}" width="{$uzivatel_props.foto_sirka}" height="{$uzivatel_props.foto_vyska}"/></p>
 {/if}
+
+<p>
 {if strlen($uzivatel_props.vzkaz)>0}
 <pre>
 {$uzivatel_props.vzkaz|wordwrap:45:"\n":true|escape}
 </pre>
 {/if}
+
 <ul>
 <li>Jméno: {$uzivatel_props.jmeno|escape}</li>
 <li>Login: {$uzivatel_props.login|escape}</li>
@@ -39,13 +44,14 @@ Nacházíš se na své veřejné domovské stránce, která slouží pro tvojí 
 </li>
 {/if}
 </ul>
-{/if}
+</p>
+
 {if is_array($uzivatel_props.dovednosti)}
 <h3>Žonglérské dovednosti</h3>
 <p>
 <ul>
 {foreach from=$uzivatel_props.dovednosti item=dovednost}
-<li>{$dovednost.nazev|escape}{if $dovednost.hodnota!='a'} - {$dovednost.hodnota|escape}{/if}</li>
+<li>{$dovednost.nazev|escape}{if $dovednost.hodnota!='a' and $dovednost.hodnota!=1} - {$dovednost.hodnota|escape}{/if}</li>
 {/foreach}
 </ul>
 </p>
@@ -60,6 +66,8 @@ Nacházíš se na své veřejné domovské stránce, která slouží pro tvojí 
 {/foreach}
 </ul>
 </p>
+{/if}
+
 {/if}
 <p>
 <a href="{$smarty.const.LIDE_URL}" title="Seznam uživatelů žonglérova slabikáře.">Další žongléři a žonglérky &raquo;</a>

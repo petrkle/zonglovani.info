@@ -2,10 +2,10 @@
 Pravidelné nedělní žonglování v <a href="cesta.html" title="Jak se dostat do Ulity">DDM Ulita</a>. Žongluje se ve <a href="/obrazky/ulita-20091115/0001.html" title="Obrázek velkého sálu.">velkém sále</a> kde je: <strong>vysoký strop</strong>, měkká podlaha, ozvučení, pódium  pro případné vystoupení, okna a disco koule.
 </p>
 <div class="obrazkovnik">
-<a href="/obrazky/ulita-20091129/0000.html">{obrazek soubor='usl.jpg' popisek=''}</a>
-<a href="/obrazky/ulita-20091129/0014.html">{obrazek soubor='usm.jpg' popisek=''}</a>
-<a href="/obrazky/ulita-20091129/0018.html">{obrazek soubor='usn.jpg' popisek=''}</a>
-<br /><a href="/obrazky/ulita-20091129/" title="Další obrázky z žonglování v Ulitě.">Další obrázky &raquo;</a>
+<a href="/obrazky/ulita-20091213/0010.html">{obrazek soubor='uso.jpg' popisek=''}</a>
+<a href="/obrazky/ulita-20091213/0012.html">{obrazek soubor='usp.jpg' popisek=''}</a>
+<a href="/obrazky/ulita-20091213/0016.html">{obrazek soubor='usq.jpg' popisek=''}</a>
+<br /><a href="/obrazky/ulita-20091213/" title="Další obrázky z žonglování v Ulitě.">Další obrázky &raquo;</a>
 </div>
 <p>
 Přijít mohou začínající i zkušení žongléři a žonglérky. Pro širokou veřejnost jsou k dispozici míčky a kužely k zapůjčení. Žonglovat se může naučit <strong>opravdu každý</strong>.

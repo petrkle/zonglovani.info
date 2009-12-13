@@ -162,11 +162,17 @@
 			</li>
 		</ul>
 		</li>
-		<li><a name="lide"></a><a href="/lide/">Uživatelské účty</a>
+		<li><a name="lide"></a><a href="/lide/">Seznam žonglérů</a>
 		<ul>
 		<li><a href="/lide/pravidla.php">Pravidla pro vytvoření účtu</a></li>
 		<li><a href="/lide/prihlaseni.php">Přihlášení</a></li>
 		<li><a href="/lide/zapomenute-heslo.php">Zapomenuté heslo</a></li>
+			<li><a name="dovednost"></a><a href="/lide/dovednost/">Žongléři podle dovedností</a>
+			
+			</li>
+			<li><a name="misto"></a><a href="/lide/misto/">Žongléři podle místa působení</a>
+			
+			</li>
 		</ul>
 		</li>
 		<li><a name="micky"></a><a href="/micky/">Žonglování s míčky</a>

@@ -78,11 +78,6 @@ Trocha historie.
 Výpis změn v žonglérově slabikáři (svn&nbsp;log).
 </p>
 
-<h3><a href="{$smarty.const.LIDE_URL}" title="Seznam žonglérů.">Uživatelské účty</a></h3>
-<p>
-Seznam žonglérů kteří mají účet v žonglérově slabikáři.
-</p>
-
 <h3><a href="/rss.html" title="RSS exporty.">RSS kanály</a></h3>
 <p>
 Upozorňování na novinky v žonglérově slabikáři.
