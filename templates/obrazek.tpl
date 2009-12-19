@@ -1,9 +1,9 @@
 {if $obrazek}
 <a name="nahore"></a>
-{if $predchozi}<span class="navigace"><a href="{$predchozi|escape}#nahore" title="Zobrazit předchozí obrázek">&laquo; Předchozí obrázek</a> ~ </span>{/if}<a href="." title="Celá galerie">{$nadpis|escape}</a>{if $dalsi}<span class="navigace"> ~ <a href="{$dalsi|escape}#nahore" title="Zobrazit další obrázek">Další obrázek &raquo;</a></span>{/if}
+{if $predchozi}<span class="navigace"><a href="{$predchozi|escape}" title="Zobrazit předchozí obrázek">&laquo; Předchozí obrázek</a> ~ </span>{/if}<a href="." title="Celá galerie">{$nadpis|escape}</a>{if $dalsi}<span class="navigace"> ~ <a href="{$dalsi|escape}" title="Zobrazit další obrázek">Další obrázek &raquo;</a></span>{/if}
 
 <p class="obrazek">
-{if $dalsi}<a href="{$dalsi|escape}#nahore" title="Zobrazit další obrázek">{else}<a href="." title="Zobrazí celou galerii">{/if}<img src="{$obrazek.obrazek|escape}" alt="{$nadpis|escape}" width="{$obrazek.fsirka|escape}" height="{$obrazek.fvyska|escape}"/></a>
+{if $dalsi}<a href="{$dalsi|escape}" title="Zobrazit další obrázek">{else}<a href="." title="Zobrazí celou galerii">{/if}<img src="{$obrazek.obrazek|escape}" alt="{$nadpis|escape}" width="{$obrazek.fsirka|escape}" height="{$obrazek.fvyska|escape}"/></a>
 </p>
 
 {if $gal_info.autor or $gal_info.mail or $gal_info.url}
@@ -24,6 +24,6 @@ Autor fotografie:
 
 {if $nahled and $description}
 <p class="sdileni">
-Přidat na: <a href="http://www.facebook.com/share.php?u=http://{$smarty.server.SERVER_NAME}{$smarty.server.REQUEST_URI}" class="external" onclick="pageTracker._trackPageview('/goto/facebook.com/share{$smarty.server.REQUEST_URI}');" title="Poslat {$nadpis|escape} na facebook.">facebook</a>, <a href="http://www.google.com/bookmarks/mark?op=edit&bkmk=http://{$smarty.server.SERVER_NAME}{$smarty.server.REQUEST_URI}&title={$titulek|escape:'url'}&hl=cs" title="Přidat {$nadpis|escape} do záložek na google." class="external" onclick="pageTracker._trackPageview('/goto/google.com/bookmarks{$smarty.server.REQUEST_URI}');">google</a>
+{include file='sdileni.tpl'}
 </p>
 {/if}

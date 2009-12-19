@@ -115,7 +115,7 @@ $GLOBALS["nahoda"]=my_rand_ini($znameni,$time);
 $cisla=array();
 
 
-while(count($cisla)<=5){
+while(count($cisla)<=4){
 $cislo=my_rand(0,(count($vety)-1));
 if(!in_array($cislo,$cisla)){
 array_push($cisla,$cislo);

@@ -1,6 +1,9 @@
 {if $predpoved}
 <h3>{$zverokruh.$znameni.od_den}. {$zverokruh.$znameni.od_mesic}. - {$zverokruh.$znameni.do_den}. {$zverokruh.$znameni.do_mesic}.</h3>
-<p>{$predpoved}</p>
+<p>
+<img src="/img/h/horoskop-{$znameni}.png" alt="{$znameni}" height="200" width="200" />
+{$predpoved}
+</p>
 <p>
 {if $zitra=="jo"}
 Zajímá tě co se stane dnes? Přečti si <a href="/horoskop/{$znameni}.html" title="Horoskop na dnešní den.">horoskop na dnešní den</a>.

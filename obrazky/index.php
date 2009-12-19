@@ -41,13 +41,15 @@ if($id and $photo){
 			if(isset($obrazky[intval($photo)-1])){
 				$smarty->assign('predchozi',$obrazky[intval($photo)-1]['url']);
 			}
+			if(isset($gal_info['icbm'])){
+				$smarty->assign('icbm',$gal_info['icbm']);
+			}
 			$smarty->assign('nahled','http://'.$_SERVER['SERVER_NAME'].$obrazky[intval($photo)]['nahled']);
 			$smarty->assign('description',$gal_info['title']);
 			$smarty->assign('titulek',$gal_info['title'].' - '.intval($photo).'. obrázek');
 			$smarty->assign("nadpis",$gal_info['title']);
 			$smarty->assign('gal_info',$gal_info);
 			$smarty->assign('obrazek',$obrazky[intval($photo)]);
-			$smarty->assign("robots",'noindex,follow');
 			$smarty->display('hlavicka-w.tpl');
 			$smarty->display('obrazek.tpl');
 			$smarty->display('paticka-w.tpl');
@@ -63,8 +65,11 @@ if($id and $photo){
 }elseif($id and !$photo){
 	$gal_info=get_galerie_info($id);
 	if(isset($gal_info['title'])){
+		if(isset($gal_info['icbm'])){
+			$smarty->assign('icbm',$gal_info['icbm']);
+		}
 		$smarty->assign('titulek',$gal_info['title'].' - obrázky žonglování');
-		$smarty->assign("nadpis",$gal_info['title']);
+		$smarty->assign('nadpis',$gal_info['title']);
 		$smarty->assign('gal_info',$gal_info);
 		$smarty->assign('obrazky',get_galerie_obrazky($id));
 		$smarty->display('hlavicka.tpl');

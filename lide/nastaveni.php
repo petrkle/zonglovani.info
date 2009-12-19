@@ -19,7 +19,7 @@ if(is_logged()){
 					array_push($chyby,'Jméno není zadané, nebo je příliš krátké.');
 				}elseif(strlen($jmeno)>256){
 					array_push($chyby,"Jméno je příliš dlouhé.");
-				}elseif(eregi("[-\*\.\?\!<>;\^\$\{\}\@%\&\(\)'\"_:´ˇ\\|#`~,ß]",$jmeno)){
+				}elseif(preg_match('/[-\*\.\?\!<>;\^\$\{\}\@%\&\(\)\'"_:´ˇ\\|#`~,]/',$jmeno)){
 					array_push($chyby,"Jméno obsahuje nepovolené znaky.");
 				}elseif($jmeno==$_SESSION["uzivatel"]["jmeno"]){
 					# nic :^)

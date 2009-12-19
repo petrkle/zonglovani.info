@@ -34,6 +34,9 @@
 
 {/if}
 
+<p class="sdileni">
+{include file='sdileni.tpl'}
+</p>
 
 {/if}
 

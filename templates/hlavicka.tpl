@@ -9,14 +9,19 @@
 	<style media="screen,projection" type="text/css">@import url(/zonglovani.css);</style>
 	<style media="print" type="text/css">@import url(/zonglovani-tisk.css);</style>
 	<meta name="robots" content="{if isset($robots)}{$robots|escape}{else}index,follow{/if}" />
-  <link rel="shortcut icon" href="/favicon.ico" />
+	<link rel="shortcut icon" href="/favicon.ico" />
 	<link rel="alternate" title="Žonglérův slabikář" href="http://{$smarty.server.SERVER_NAME}/zonglovani.rss" type="application/rss+xml" />
 	<link rel="alternate" title="Obrázky žonglování" href="http://{$smarty.server.SERVER_NAME}{$smarty.const.OBRAZKY_URL}obrazky.rss" type="application/rss+xml" />
 	<link rel="alternate" title="Kalendář žonglérských akcí" href="http://{$smarty.server.SERVER_NAME}{$smarty.const.CALENDAR_URL}kalendar.rss" type="application/rss+xml" />
 	<link rel="alternate" title="Diskuse o žonglování" href="http://{$smarty.server.SERVER_NAME}{$smarty.const.DISKUSE_URL}zpravy.rss" type="application/rss+xml" />
 	<link rel="alternate" title="Aktualizace žonglérova slabikáře" href="http://{$smarty.server.SERVER_NAME}/ostatni/changelog.rss" type="application/rss+xml" />
-	{*{if isset($rsslink)}<link rel="alternate" title="" href="{$rsslink|escape}" type="application/rss+xml" />{/if}*}
-	{if isset($nahled)}<link rel="image_src" href="{$nahled|escape}" />{/if}
+{*{if isset($rsslink)}<link rel="alternate" title="" href="{$rsslink|escape}" type="application/rss+xml" />{/if}*}
+{if isset($nahled)}
+	<link rel="image_src" href="{$nahled|escape}" />
+{/if}
+{if isset($icbm)}
+	<link rel="ICBM" content="{$icbm|escape}" />
+{/if}
 </head>
 <body>
 
@@ -27,7 +32,7 @@
 </div>
 <a name="nahore" id="nahore"></a>
 <div id="hlavickabg" style="background: {if eregi("/micky.*",$smarty.server.REQUEST_URI)}url('/img/m/micky-logo.gif') no-repeat 95% 100%{elseif eregi("/kruhy.*",$smarty.server.REQUEST_URI)}url('/img/k/kruhy-logo.gif') no-repeat 99% 100%{elseif eregi("/kuzely.*",$smarty.server.REQUEST_URI)}url('/img/k/kuzely-logo.gif') no-repeat 92% 100%{else}transparent{/if};">
-<a href="/" title="Žonglérův slabikář - úvodní stránka."><img src="/img/l/logo.gif" width="442" height="71" title="Žonglérův slabikář - úvodní stránka." alt="Žonglérův slabikář - úvodní stránka." />
+<a href="/" title="Žonglérův slabikář - úvodní stránka." accesskey="2"><img src="/img/l/logo.gif" width="442" height="71" title="Žonglérův slabikář - úvodní stránka." alt="Žonglérův slabikář - úvodní stránka." />
 </a>
 </div>
 </div>
@@ -35,7 +40,6 @@
 <div id="stranka">
 <div id="ramecek">
 <div id="obsah">
-
 {if isset($titulek) and isset($nadpis)}
 {if !isset($notitle)}
 <h1>{$nadpis|escape}</h1>

@@ -289,6 +289,9 @@
 			<li><a name="dejvice-20090425"></a><a href="/obrazky/dejvice-20090425/">Dejvice 25. 4. 2009 - obrázky žonglování</a>
 			
 			</li>
+			<li><a name="den-zonglovani-ujc-rosice-u-brna-20090606"></a><a href="/obrazky/den-zonglovani-ujc-rosice-u-brna-20090606/">Den žonglování s Ultimate Juggling Squad - obrázky žonglování</a>
+			
+			</li>
 			<li><a name="festival-zonglovani-20070713"></a><a href="/obrazky/festival-zonglovani-20070713/">Festival žonglování Praha 2007 - obrázky žonglování</a>
 			
 			</li>
@@ -302,6 +305,9 @@
 			
 			</li>
 			<li><a name="lhotka-20080601"></a><a href="/obrazky/lhotka-20080601/">Vlakem do Lhotky 2008 - obrázky žonglování</a>
+			
+			</li>
+			<li><a name="oslavy-dne-evropy-zamek-rosice-20080510"></a><a href="/obrazky/oslavy-dne-evropy-zamek-rosice-20080510/">Oslavy dne evropy - zámek Rosice - obrázky žonglování</a>
 			
 			</li>
 			<li><a name="prazsky-zonglersky-marathon-20091128"></a><a href="/obrazky/prazsky-zonglersky-marathon-20091128/">Pražský žonglérský marathon 2009 - obrázky žonglování</a>
@@ -320,6 +326,9 @@
 			
 			</li>
 			<li><a name="ulita-20091129"></a><a href="/obrazky/ulita-20091129/">Ulita 29. 11. 2009 - obrázky žonglování</a>
+			
+			</li>
+			<li><a name="ulita-20091213"></a><a href="/obrazky/ulita-20091213/">Ulita 13. 12. 2009 - obrázky žonglování</a>
 			
 			</li>
 			<li><a name="zidovske-pece-20090404"></a><a href="/obrazky/zidovske-pece-20090404/">Židovské pece 4. 4. 2009 - obrázky žonglování</a>

@@ -1,6 +1,7 @@
 - novinky, přidávání, schvalování
 - přidávání triků do oblíbených, hodnocení triků
 - přihlašování na akce v kalendáři
+- obrázek k akci v kalendáři
 - předělat všechny texty do xml
 - svn properties link, img
 - fanouškovská stránka na facebooku, automatický export rss
@@ -9,6 +10,14 @@
 - uživatelé si mohou nastavit znamení horoskopu, to se jim pak bude zobrazovat jako výchozí
 - přehled aktivity uživatelů
 - sitemap.xml - generovat a aktualizovat
+- filtr v galeriích
+- pngcrush, zmenšení obrázků
+- img.zonglovani.info, static.zonglovani.info - bez cookies, více současných stahování, vyzkoušet rychlost x složitost
+- na úvodní stránce velkým číslem kolik má žonglérův slabikář uživatelů, tlačítko pro založení účtu, vyhledání workshopů, kalendář (s obrázkem)
+- tip týdne, automaticky měnit
+- všechny standardní klávesové zkratky, http://www.ippi.cz/standard-klavesovych-zkratek/
+- rozepsat možnosti diskuse, bazar
+- v diskusi nahrazovat zavináč za obrázek
 
 
 náčiní - točicí talíř, záchodové zvony
@@ -52,3 +61,6 @@ změna mailu
 učesat výpis "Autor fotografie" u fotek
 víc propagovat seznam uživatelů a výhody registrace
 filtr na dovednosti, místo působení
+GPS souřadnice do stránky o žonglování v Ulitě, a do galerií
+zrušit noindex u galerií a přidat výjimku do skriptu na tvorbu mapy stránek
+přidat sociální sítě linkuj.cz, vybrali.sme.sk

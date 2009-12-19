@@ -1,12 +1,12 @@
 <p>
-Regular Sunday juggling at <a href="http://www.ulita.cz" class="external" onclick="pageTracker._trackPageview('/goto/ulita.cz');" title="Ulita - house of children and youth">DDM Ulita</a>. It takes place in a <a href="/obrazky/ulita-20091018/0001.jpg" title="Image of hall" onclick="pageTracker._trackPageview('/obrazky/ulita-20091018/0001.jpg');">large hall</a> with a <strong>high ceiling</strong>, a soft floor and big windows, a sound system, a stage for shows and a disco ball.
+Regular Sunday juggling at <a href="http://www.ulita.cz" class="external" onclick="pageTracker._trackPageview('/goto/ulita.cz');" title="Ulita - house of children and youth">DDM Ulita</a>. It takes place in a <a href="/obrazky/ulita-20091213/0059.html" title="Image of hall">large hall</a> with a <strong>high ceiling</strong>, a soft floor and big windows, a sound system, a stage for shows and a disco ball.
 </p>
 
 <div class="obrazkovnik">
-<a href="/obrazky/ulita-20091115/0006.html">{obrazek soubor='usi.jpg' popisek=''}</a>
-<a href="/obrazky/ulita-20091115/0015.html">{obrazek soubor='usj.jpg' popisek=''}</a>
-<a href="/obrazky/ulita-20091115/0029.html">{obrazek soubor='usk.jpg' popisek=''}</a><br />
-<a href="/obrazky/ulita-20091115/" title="Photos of juggling.">More photos &raquo;</a>
+<a href="/obrazky/ulita-20091213/0010.html">{obrazek soubor='uso.jpg' popisek=''}</a>
+<a href="/obrazky/ulita-20091213/0012.html">{obrazek soubor='usp.jpg' popisek=''}</a>
+<a href="/obrazky/ulita-20091213/0016.html">{obrazek soubor='usq.jpg' popisek=''}</a><br/>
+<a href="/obrazky/ulita-20091213/" title="Photos of juggling.">More photos &raquo;</a>
 </div>
 <p>
 <p>

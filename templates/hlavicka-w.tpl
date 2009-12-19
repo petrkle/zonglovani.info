@@ -15,8 +15,13 @@
 	<link rel="alternate" title="Kalendář žonglérských akcí" href="http://{$smarty.server.SERVER_NAME}{$smarty.const.CALENDAR_URL}/kalendar.rss" type="application/rss+xml" />
 	<link rel="alternate" title="Diskuse o žonglování" href="http://{$smarty.server.SERVER_NAME}{$smarty.const.DISKUSE_URL}/zpravy.rss" type="application/rss+xml" />
 	<link rel="alternate" title="Aktualizace žonglérova slabikáře" href="http://{$smarty.server.SERVER_NAME}/ostatni/changelog.rss" type="application/rss+xml" />
-	{*{if isset($rsslink)}<link rel="alternate" title="" href="{$rsslink}" type="application/rss+xml" />{/if}*}
-	{if isset($nahled)}<link rel="image_src" href="{$nahled}" />{/if}
+{*{if isset($rsslink)}<link rel="alternate" title="" href="{$rsslink|escape}" type="application/rss+xml" />{/if}*}
+{if isset($nahled)}
+	<link rel="image_src" href="{$nahled|escape}" />
+{/if}
+{if isset($icbm)}
+	<link rel="ICBM" content="{$icbm|escape}" />
+{/if}
 </head>
 <body>
 
