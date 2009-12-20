@@ -6,7 +6,6 @@
 - svn properties link, img
 - fanouškovská stránka na facebooku, automatický export rss
 - export kalendáře (dalších věcí ?) do pdf online
-- obrázky v horoskopu
 - uživatelé si mohou nastavit znamení horoskopu, to se jim pak bude zobrazovat jako výchozí
 - přehled aktivity uživatelů
 - sitemap.xml - generovat a aktualizovat
@@ -64,3 +63,4 @@ filtr na dovednosti, místo působení
 GPS souřadnice do stránky o žonglování v Ulitě, a do galerií
 zrušit noindex u galerií a přidat výjimku do skriptu na tvorbu mapy stránek
 přidat sociální sítě linkuj.cz, vybrali.sme.sk
+obrázky v horoskopu

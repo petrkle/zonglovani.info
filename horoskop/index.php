@@ -29,6 +29,8 @@ if(isset($_GET["zitra"])){
 	$smarty->assign("predpoved",predpoved($znameni,time()));
 }
 
+$smarty->assign('nahled','http://'.$_SERVER['SERVER_NAME'].'/img/h/horoskop.png');
+$smarty->assign('description','Horoskop pro žonglérky a žongléry. Každý den ti poradí co je nejlepší trénovat.');
 $smarty->assign("titulek",$titulek);
 $smarty->assign("zverokruh",$zverokruh);
 $smarty->assign("znameni",$znameni);
