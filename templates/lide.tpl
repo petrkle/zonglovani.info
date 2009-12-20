@@ -22,7 +22,7 @@
 </p>
 {/if}
 
-<h3>Filtry</h3>
+<a name="filtry"><h3>Filtry</h3></a>
 <p>
 Ze seznamu žonglérů můžeš vybírat podle:
 </p>

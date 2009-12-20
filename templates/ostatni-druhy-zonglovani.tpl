@@ -2,13 +2,14 @@
 Základní přehled způsobů žonglování. Nejedná se o úplný nebo přesný seznam. Jde jen o naznačení jak můžeš žonglovat. S čím vším můžeš žonglovat se dozvíš v <a href="/nacini.html" title="Žognlérské náčiní.">přehledu žonglérských pomůcek</a>.
 </p>
 
-<h3>Házení do vzduchu</h3>
+
+<a name="toss"><h3>Házení do vzduchu</h3></a>
 <p>
 {obrazek soubor="druhya.png" popisek=""}
 Předměty vyhazuješ vzhůru a ony se působením gravitační síly vrací zpět.
 </p>
 
-<h3>Kontaktní žonglování</h3>
+<a name="contact"><h3>Kontaktní žonglování</h3></a>
 <p>
 {obrazek soubor="druhyb.png" popisek=""}
 Předměty si kutálíš po těle. Většinou se používají míčky.
@@ -21,7 +22,7 @@ Předměty si kutálíš po těle. Většinou se používají míčky.
 Žonglování ve více lidech. Pro passing jsou ideální kužely.
 </p>
 
-<h3>Žonglování se skákacími míčky</h3>
+<a name="bounce"><h3>Žonglování se skákacími míčky</h3></a>
 <p>
 {obrazek soubor="druhyd.png" popisek=""}
 Míčky neházíš nahoru, ale odrážíš od podlahy.

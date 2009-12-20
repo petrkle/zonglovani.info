@@ -4,7 +4,6 @@
 - obrázek k akci v kalendáři
 - předělat všechny texty do xml
 - svn properties link, img
-- fanouškovská stránka na facebooku, automatický export rss
 - export kalendáře (dalších věcí ?) do pdf online
 - uživatelé si mohou nastavit znamení horoskopu, to se jim pak bude zobrazovat jako výchozí
 - přehled aktivity uživatelů
@@ -13,7 +12,7 @@
 - pngcrush, zmenšení obrázků
 - img.zonglovani.info, static.zonglovani.info - bez cookies, více současných stahování, vyzkoušet rychlost x složitost
 - na úvodní stránce velkým číslem kolik má žonglérův slabikář uživatelů, tlačítko pro založení účtu, vyhledání workshopů, kalendář (s obrázkem)
-- tip týdne, automaticky měnit
+- tip týdne, automaticky měnit, rss exportovat na facebook
 - všechny standardní klávesové zkratky, http://www.ippi.cz/standard-klavesovych-zkratek/
 - rozepsat možnosti diskuse, bazar
 - v diskusi nahrazovat zavináč za obrázek
@@ -64,3 +63,4 @@ GPS souřadnice do stránky o žonglování v Ulitě, a do galerií
 zrušit noindex u galerií a přidat výjimku do skriptu na tvorbu mapy stránek
 přidat sociální sítě linkuj.cz, vybrali.sme.sk
 obrázky v horoskopu
+fanouškovská stránka na facebooku, automatický export rss

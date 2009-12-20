@@ -62,7 +62,7 @@ E-mail: {$mail|mailobfuscate}
 {else}
 <p>Další žonglování v ulitě bude na podzim.</p>
 {/if}
-<h3>Plakát</h3>
+<a name="plakat"><h3>Plakát</h3></a>
 <p><a href="/img/u/ulita.big.png" title="Velký obrázek plakátu." onclick="pageTracker._trackPageview('/ulita/ulita.big.png');">{obrazek soubor='ulita.nahled.png' popisek='Plakát žonglování v Ulitě'}</a>
 <a href="/img/u/ulita.png" title="Obrázkový plakát na web." onclick="pageTracker._trackPageview('/ulita/ulita.png');">ulita.png</a> - pro vkládání na internet<br />
 <a href="ulita.pdf" title="Tisk plakátu na formát A5." onclick="pageTracker._trackPageview('/ulita/ulita.pdf');">ulita.pdf</a> - pro tisk na formát A5<br />

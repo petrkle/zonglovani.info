@@ -23,11 +23,6 @@ Dovednosti které na první pohled nemusí s žonglováním souviset.
 Otázky na které se lidé často ptají v souvislosti s žonglováním.
 </p>
 
-<h3><a href="/horoskop/" title="Horoskop pro žongléry.">Horoskop žonglování</a></h3>
-<p>
-Horoskop žonglování ti poradí nejvhodnější triky pro trénink.
-</p>
-
 <h3><a href="/literatura.html" title="Něco ke čtení.">Literatura</a></h3>
 <p>
 Knížky o žonglování.

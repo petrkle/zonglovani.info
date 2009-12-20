@@ -1,7 +1,7 @@
 <?php
 
 function nacti_trik($soubor){
-	$xml = simplexml_load_file('xml/'.basename($soubor).'.xml');
+	$xml = simplexml_load_file($_SERVER['DOCUMENT_ROOT'].'/xml/'.basename($soubor).'.xml');
 	$trik=array();
 	$trik['kroky'] = array();
 	$trik['about'] = (array) $xml->about;
@@ -25,7 +25,7 @@ function nacti_trik($soubor){
 }
 
 function get_seznam_triku($jake){
-  $ls="xml";
+  $ls=$_SERVER['DOCUMENT_ROOT'].'/xml';
   if(is_dir($ls) and opendir($ls)){
 	$vypis=array();
 	$adr=opendir($ls);
@@ -325,27 +325,25 @@ function make_keywords($text){
 }
 
 function get_changelog(){
-	if(is_readable("ChangeLog")){
-	$zmeny=array();
-	$changelog=file_get_contents("ChangeLog");
-	$changelog=preg_split("/------------------------------------------------------------------------/",$changelog);
-	foreach($changelog as $foo){
-		if(strlen(trim($foo))>0){
-			array_push($zmeny,array('text'=>$foo));
-		}
+	if(is_readable($_SERVER['DOCUMENT_ROOT'].'/ChangeLog.xml')){
+
+$zmeny=array();
+$xml = simplexml_load_file($_SERVER['DOCUMENT_ROOT'].'/ChangeLog.xml');
+	foreach ($xml->logentry as $verze){
+			$foo=array();
+			$foo['cislo']= (string) $verze['revision'];
+			$foo['autor']= (string) $verze->author;
+			$datum =(string) $verze->date; $datum=preg_split('/\./',$datum);
+			$foo['datum'] = $datum[0]; 
+			$foo['datum_hr'] = date('j. n. Y G.i',strtotime($datum[0])); 
+			$foo['time_mr']=date("c",strtotime($datum[0]));
+			$foo['popis']= (string) $verze->msg;
+			$foo['link']= (string) $verze->revprops->property;
+			if(strlen($foo['autor'])>0){
+				array_push($zmeny,$foo);
+			}
 	}
 
-	$pocet=count($zmeny);
-	$bar=0;
-	foreach($zmeny as $zmena){
-		$foo=preg_split("/\n/",$zmena['text']);
-		$zmeny[$bar]["description"]=$foo[3];
-		$foo=preg_split("/ \| /",$foo[1]);
-		$zmeny[$bar]["time_mr"]=date("c",strtotime(substr($foo[2],0,19)));
-		$zmeny[$bar]["author"]=$foo[1];
-		$zmeny[$bar]["revision"]=$pocet-$bar;
-		$bar++;
-	}
 	return $zmeny;
 }
 }

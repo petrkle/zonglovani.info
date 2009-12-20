@@ -26,7 +26,7 @@
 		<li><a name="diskuse"></a>diskuse/
 		
 		</li>
-		<li><a name="horoskop"></a>horoskop/
+		<li><a name="horoskop"></a><a href="/horoskop/">Horoskop žonglování</a>
 		<ul>
 		<li><a href="/horoskop/beran.html">Horoskop žonglování - Beran</a></li>
 		<li><a href="/horoskop/blizenci.html">Horoskop žonglování - Blíženci</a></li>
@@ -34,14 +34,13 @@
 		<li><a href="/horoskop/kozoroh.html">Horoskop žonglování - Kozoroh</a></li>
 		<li><a href="/horoskop/lev.html">Horoskop žonglování - Lev</a></li>
 		<li><a href="/horoskop/panna.html">Horoskop žonglování - Panna</a></li>
-		<li><a href="/horoskop/popis.html">Jak vzniká horoskop žonglování</a></li>
 		<li><a href="/horoskop/rak.html">Horoskop žonglování - Rak</a></li>
 		<li><a href="/horoskop/ryby.html">Horoskop žonglování - Ryby</a></li>
 		<li><a href="/horoskop/stir.html">Horoskop žonglování - Štír</a></li>
 		<li><a href="/horoskop/strelec.html">Horoskop žonglování - Střelec</a></li>
 		<li><a href="/horoskop/vahy.html">Horoskop žonglování - Váhy</a></li>
 		<li><a href="/horoskop/vodnar.html">Horoskop žonglování - Vodnář</a></li>
-			<li><a name="zitra"></a>horoskop/zitra/
+			<li><a name="zitra"></a><a href="/horoskop/zitra/">Horoskop žonglování na zítra</a>
 			<ul>
 			<li><a href="/horoskop/zitra/beran.html">Horoskop žonglování na zítra - Beran</a></li>
 			<li><a href="/horoskop/zitra/blizenci.html">Horoskop žonglování na zítra - Blíženci</a></li>
@@ -367,6 +366,7 @@
 		<li><a href="/video/liquid-crystal-live.html">Matt Hennem - Liquid Crystal live</a></li>
 		<li><a href="/video/lost-tapes-minneapolis.html">The Lost Tapes of Minneapolis</a></li>
 		<li><a href="/video/more-or-less.html">More or less juggling</a></li>
+		<li><a href="/video/passing-zone.html">The Passing Zone</a></li>
 		<li><a href="/video/prechac-weaves.html">Prechac Weaves</a></li>
 		<li><a href="/video/stepz.html">Stepz</a></li>
 		<li><a href="/video/take-it-out-3.html">Take It Out 3#</a></li>

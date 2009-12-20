@@ -71,7 +71,7 @@ Létají skoro stejně jako kužely. Jen jsou trochu větší.
 <a name="crystalball"><h3>Crystal ball</h3></a>
 <p>
 {obrazek soubor="nacinim.png" popisek="Crystal ball"}
-Větší míček z umělé hmoty (polyakrylát ?). Vypadá jako skleněný. Používá se na kontaktní žonglování - nehází se sním, ale kutálí se po rukou a jiných částech těla.
+Větší míček z umělé hmoty (polyakrylát ?). Vypadá jako skleněný. Používá se na <a href="/druhy-zonglovani.html#contact">kontaktní žonglování</a> - nehází se s ním, ale kutálí se po rukou a jiných částech těla.
 </p>
 
 <h3>Tyč</h3>

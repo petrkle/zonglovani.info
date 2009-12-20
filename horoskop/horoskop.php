@@ -68,6 +68,15 @@ function prvni_velke($text){
 	return $navrat;
 };
 
+function prvni_male($text){
+	$prvni=substr($text,0,1);
+	$zbytek=substr($text,1);
+	$prvni=strtr($prvni,"ABCDEFGHIJKLMNOPQRSTUVWXYZ", "abcdefghijklmnopqrstuvwxyz");
+	$prvni=strtr($prvni,"ĚŠČŘŽÝÁÍÉŇĎŤÚŮ", "ěščřžýáíéňďťúů");
+	$navrat=$prvni.$zbytek;
+	return $navrat;
+};
+
 function my_rand($min,$max){
 global $nahoda;
 $pole=array();
@@ -125,7 +134,7 @@ array_push($cisla,$cislo);
 
 $navrat="";
 for($foo=0;$foo<(sizeof($cisla)-1);$foo++){
-	$navrat.=sestav_vetu($cisla[$foo])." ";
+	$navrat.=prvni_velke(sestav_vetu($cisla[$foo]))." ";
 };	
 
 $navrat=substr($navrat,0,-1);
