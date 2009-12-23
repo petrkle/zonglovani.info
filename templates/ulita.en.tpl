@@ -6,7 +6,7 @@ Regular Sunday juggling at <a href="http://www.ulita.cz" class="external" onclic
 <a href="/obrazky/ulita-20091213/0010.html">{obrazek soubor='uso.jpg' popisek=''}</a>
 <a href="/obrazky/ulita-20091213/0012.html">{obrazek soubor='usp.jpg' popisek=''}</a>
 <a href="/obrazky/ulita-20091213/0016.html">{obrazek soubor='usq.jpg' popisek=''}</a><br/>
-<a href="/obrazky/ulita-20091213/" title="Photos of juggling.">More photos &raquo;</a>
+<a href="/obrazky/filtr/Ulita" title="Photos of juggling.">More photos &raquo;</a>
 </div>
 <p>
 <p>

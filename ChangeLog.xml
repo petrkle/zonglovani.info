@@ -1,0 +1,1305 @@
+<?xml version="1.0"?>
+<log>
+<logentry
+   revision="208">
+<author>petr</author>
+<date>2009-12-20T20:52:06.161531Z</date>
+<msg>Vylepšený seznam změn.</msg>
+<revprops>
+<property
+   name="svn:link">/changelog.html</property>
+</revprops>
+</logentry>
+<logentry
+   revision="207">
+<author>petr</author>
+<date>2009-12-20T12:07:05.413246Z</date>
+<msg>Žonglérův slabikář je na facebooku</msg>
+<revprops>
+<property
+   name="svn:link">/podporte-zongleruv-slabikar.html</property>
+</revprops>
+</logentry>
+<logentry
+   revision="206">
+<author>petr</author>
+<date>2009-12-19T21:57:04.091205Z</date>
+<msg>Obrázky k horoskopu.</msg>
+<revprops>
+<property
+   name="svn:link">/horoskop/</property>
+</revprops>
+</logentry>
+<logentry
+   revision="205">
+<author>petr</author>
+<date>2009-12-13T23:32:34.283398Z</date>
+<msg>Ulita 13. 12. 2009</msg>
+<revprops>
+<property
+   name="svn:link">/obrazky/ulita-20091213/</property>
+</revprops>
+</logentry>
+<logentry
+   revision="204">
+<author>petr</author>
+<date>2009-12-06T16:41:06.473491Z</date>
+<msg>Filtrování uživatelů podle dovedností a místa působení.</msg>
+<revprops>
+<property
+   name="svn:link">/lide/#filtry</property>
+</revprops>
+</logentry>
+<logentry
+   revision="203">
+<author>petr</author>
+<date>2009-12-05T18:38:51.795227Z</date>
+<msg>Možnost změny emailu v uživatelském účtu.</msg>
+<revprops>
+<property
+   name="svn:link">/lide/nastaveni.php</property>
+</revprops>
+</logentry>
+<logentry
+   revision="202">
+<author>petr</author>
+<date>2009-12-05T17:04:56.146406Z</date>
+<msg>Formulář pro rušení účtu.</msg>
+<revprops>
+<property
+   name="svn:link">/lide/nastaveni.php</property>
+</revprops>
+</logentry>
+<logentry
+   revision="201">
+<author>petr</author>
+<date>2009-12-03T22:00:23.806356Z</date>
+<msg>Doplnění možností v nastavení účtu.</msg>
+<revprops>
+<property
+   name="svn:link">/lide/nastaveni.php</property>
+</revprops>
+</logentry>
+<logentry
+   revision="200">
+<author>petr</author>
+<date>2009-12-01T21:05:41.413037Z</date>
+<msg>Rozlišení stránek s nastavením podle titulku.</msg>
+<revprops>
+<property
+   name="svn:link">/lide/nastaveni.php</property>
+</revprops>
+</logentry>
+<logentry
+   revision="199">
+<author>petr</author>
+<date>2009-12-01T19:29:25.989058Z</date>
+<msg>Možnost nastavení místa působiště u registrovaných uživatelů.</msg>
+<revprops>
+<property
+   name="svn:link">/lide/misto/</property>
+</revprops>
+</logentry>
+<logentry
+   revision="198">
+<author>petr</author>
+<date>2009-11-29T21:31:54.825558Z</date>
+<msg>Ulita + marathon.</msg>
+<revprops>
+<property
+   name="svn:link">/obrazky/</property>
+</revprops>
+</logentry>
+<logentry
+   revision="197">
+<author>petr</author>
+<date>2009-11-27T22:08:43.412981Z</date>
+<msg>Nastavení žonglérských dovedností v profilu uživatele.</msg>
+<revprops>
+<property
+   name="svn:link">/lide/dovednost/</property>
+</revprops>
+</logentry>
+<logentry
+   revision="196">
+<author>petr</author>
+<date>2009-11-22T19:43:12.256259Z</date>
+<msg>Nahrávání fotografie uživatele.</msg>
+<revprops>
+<property
+   name="svn:link">/lide/nastaveni.php</property>
+</revprops>
+</logentry>
+<logentry
+   revision="195">
+<author>petr</author>
+<date>2009-11-17T18:43:01.984465Z</date>
+<msg>Nastavení internetové stránky v profilu uživatele.</msg>
+<revprops>
+<property
+   name="svn:link">/lide/nastaveni.php</property>
+</revprops>
+</logentry>
+<logentry
+   revision="194">
+<author>petr</author>
+<date>2009-11-17T13:46:36.781469Z</date>
+<msg>Oprava RSS kanálu obrázků.</msg>
+<revprops>
+<property
+   name="svn:link">/rss.html</property>
+</revprops>
+</logentry>
+<logentry
+   revision="193">
+<author>petr</author>
+<date>2009-11-15T23:08:37.620929Z</date>
+<msg>Obrázky z Ulity.</msg>
+<revprops>
+<property
+   name="svn:link">/obrazky/ulita-20091115/</property>
+</revprops>
+</logentry>
+<logentry
+   revision="192">
+<author>petr</author>
+<date>2009-11-14T22:21:53.542665Z</date>
+<msg>Nová žonglérská videa.</msg>
+<revprops>
+<property
+   name="svn:link">/video/</property>
+</revprops>
+</logentry>
+<logentry
+   revision="191">
+<author>petr</author>
+<date>2009-11-03T19:57:59.134915Z</date>
+<msg>Výzva pro fotografy.</msg>
+<revprops>
+<property
+   name="svn:link">/obrazky/#vyzva</property>
+</revprops>
+</logentry>
+<logentry
+   revision="190">
+<author>petr</author>
+<date>2009-11-02T21:08:02.509255Z</date>
+<msg>Obrázky z Ulity 1. 11. 2009</msg>
+<revprops>
+<property
+   name="svn:link">/obrazky/ulita-20091101/</property>
+</revprops>
+</logentry>
+<logentry
+   revision="189">
+<author>petr</author>
+<date>2009-10-27T11:02:42.896122Z</date>
+<msg>Přechod na utf8.</msg>
+<revprops>
+<property
+   name="svn:link">/</property>
+</revprops>
+</logentry>
+<logentry
+   revision="188">
+<author>petr</author>
+<date>2009-10-26T15:53:51.357176Z</date>
+<msg>Jeden RSS kanál pro celý žonglérův slabikář.</msg>
+<revprops>
+<property
+   name="svn:link">/rss.html</property>
+</revprops>
+</logentry>
+<logentry
+   revision="187">
+<author>petr</author>
+<date>2009-10-26T13:50:13.974969Z</date>
+<msg>RSS kanál pro obrázky žonglování.</msg>
+<revprops>
+<property
+   name="svn:link">/rss.html</property>
+</revprops>
+</logentry>
+<logentry
+   revision="186">
+<author>petr</author>
+<date>2009-10-26T09:09:47.446967Z</date>
+<msg>Odkazy na záložky google.</msg>
+<revprops>
+<property
+   name="svn:link">/</property>
+</revprops>
+</logentry>
+<logentry
+   revision="185">
+<author>petr</author>
+<date>2009-10-26T08:13:50.407780Z</date>
+<msg>Odkazy pro sdílení triků na facebooku.</msg>
+<revprops>
+<property
+   name="svn:link">/</property>
+</revprops>
+</logentry>
+<logentry
+   revision="184">
+<author>petr</author>
+<date>2009-10-25T19:41:07.032737Z</date>
+<msg>Jak se dostat do Ulity</msg>
+<revprops>
+<property
+   name="svn:link">/ulita/cesta.html</property>
+</revprops>
+</logentry>
+<logentry
+   revision="183">
+<author>petr</author>
+<date>2009-10-25T14:07:30.877194Z</date>
+<msg>Vylepšení galerií obrázků.</msg>
+<revprops>
+<property
+   name="svn:link">/obrazky/</property>
+</revprops>
+</logentry>
+<logentry
+   revision="182">
+<author>pek</author>
+<date>2009-10-19T17:32:23.828870Z</date>
+<msg>Obrázky z Ulity 18. 10. 2009</msg>
+<revprops>
+<property
+   name="svn:link">/obrazky/ulita-20091018/</property>
+</revprops>
+</logentry>
+<logentry
+   revision="181">
+<author>pek</author>
+<date>2009-10-12T16:52:33.098703Z</date>
+<msg>Plakát žonglování v Ulitě.</msg>
+<revprops>
+<property
+   name="svn:link">/ulita/#plakat</property>
+</revprops>
+</logentry>
+<logentry
+   revision="180">
+<author>pek</author>
+<date>2009-10-10T21:21:42.779710Z</date>
+<msg>Další obrázky žonglování.</msg>
+<revprops>
+<property
+   name="svn:link">/obrazky/</property>
+</revprops>
+</logentry>
+<logentry
+   revision="179">
+<author>petr</author>
+<date>2009-09-27T21:10:26.245295Z</date>
+<msg>Obrázky žonglování</msg>
+</logentry>
+<logentry
+   revision="178">
+<author>pek</author>
+<date>2009-09-24T18:49:51.202355Z</date>
+<msg>Žonglování v Ulitě.</msg>
+</logentry>
+<logentry
+   revision="177">
+<author>pek</author>
+<date>2009-09-23T21:32:29.003547Z</date>
+<msg>Rozlišení domácích odkazů v kalendáři.</msg>
+</logentry>
+<logentry
+   revision="176">
+<author>pek</author>
+<date>2009-09-22T18:08:45.644151Z</date>
+<msg>Nové video - točení s poi ve více lidech.</msg>
+</logentry>
+<logentry
+   revision="175">
+<author>petr</author>
+<date>2009-09-13T08:17:43.865541Z</date>
+<msg>Nová žonglérská videa.</msg>
+</logentry>
+<logentry
+   revision="174">
+<author>petr</author>
+<date>2009-09-12T23:43:54.820442Z</date>
+<msg>Diskusní fórum.</msg>
+</logentry>
+<logentry
+   revision="173">
+<author>pek</author>
+<date>2009-09-04T19:47:11.371053Z</date>
+<msg>Vyhledávání na stránkách.</msg>
+</logentry>
+<logentry
+   revision="172">
+<author>pek</author>
+<date>2009-08-31T19:33:44.200465Z</date>
+<msg>Popis fungování horoskopu.</msg>
+</logentry>
+<logentry
+   revision="171">
+<author>pek</author>
+<date>2009-08-31T17:59:49.620403Z</date>
+<msg>Návod pro RSS a iCalendar. Seznam RSS kanálů.</msg>
+</logentry>
+<logentry
+   revision="170">
+<author>pek</author>
+<date>2009-08-30T19:40:00.905340Z</date>
+<msg>Export kalendáře do formátu iCalendar.</msg>
+</logentry>
+<logentry
+   revision="169">
+<author>pek</author>
+<date>2009-08-30T18:06:41.621950Z</date>
+<msg>RSS pro seznam změn.</msg>
+</logentry>
+<logentry
+   revision="168">
+<author>pek</author>
+<date>2009-08-30T16:23:40.595598Z</date>
+<msg>RSS kanál pro události v kalendáři.</msg>
+</logentry>
+<logentry
+   revision="167">
+<author>pek</author>
+<date>2009-08-04T20:40:33.593922Z</date>
+<msg>Odstranění ukládání ladících informací při zakládání účtu.</msg>
+</logentry>
+<logentry
+   revision="166">
+<author>petr</author>
+<date>2009-07-29T20:26:04.181261Z</date>
+<msg>Horoskop žonglování</msg>
+</logentry>
+<logentry
+   revision="165">
+<author>petr</author>
+<date>2009-07-12T09:24:38.814741Z</date>
+<msg>Zobrazení emailu a loginu na stránce nastavení účtu.</msg>
+</logentry>
+<logentry
+   revision="164">
+<author>petr</author>
+<date>2009-07-11T21:30:56.645829Z</date>
+<msg>Zasílání vzkazů uživatelům.</msg>
+</logentry>
+<logentry
+   revision="163">
+<author>petr</author>
+<date>2009-07-06T19:51:29.496976Z</date>
+<msg>Výběr datumu JavaScriptovým kalendářem.</msg>
+</logentry>
+<logentry
+   revision="162">
+<author>petr</author>
+<date>2009-07-06T15:13:23.793269Z</date>
+<msg>Kalendář - oprava ověřování vstupních dat.</msg>
+</logentry>
+<logentry
+   revision="161">
+<author>petr</author>
+<date>2009-07-06T15:00:56.134083Z</date>
+<msg>Koš pro smazané události v kalendáři.</msg>
+</logentry>
+<logentry
+   revision="160">
+<author>petr</author>
+<date>2009-07-06T14:56:44.595792Z</date>
+<msg>Vkládání událostí do kalendáře.</msg>
+</logentry>
+<logentry
+   revision="159">
+<author>petr</author>
+<date>2009-07-06T04:42:17.948593Z</date>
+<msg>Servisní soubory</msg>
+</logentry>
+<logentry
+   revision="158">
+<author>petr</author>
+<date>2009-07-05T20:30:09.270421Z</date>
+<msg>Oprava css pro tisk.</msg>
+</logentry>
+<logentry
+   revision="157">
+<author>petr</author>
+<date>2009-07-05T19:46:10.492370Z</date>
+<msg>Možnost změny hesla.</msg>
+</logentry>
+<logentry
+   revision="156">
+<author>petr</author>
+<date>2009-07-05T18:58:12.015818Z</date>
+<msg>Možnost změny jména, zobrazování mailu a vzkazu.</msg>
+</logentry>
+<logentry
+   revision="155">
+<author>petr</author>
+<date>2009-07-05T09:41:24.195486Z</date>
+<msg>Profil uživatele.</msg>
+</logentry>
+<logentry
+   revision="154">
+<author>petr</author>
+<date>2009-07-05T08:37:54.392870Z</date>
+<msg>Přihlašování a odhlašování uživatelů.</msg>
+</logentry>
+<logentry
+   revision="153">
+<author>petr</author>
+<date>2009-07-04T21:01:25.391825Z</date>
+<msg>Odkazy na přihlášení a registraci v hlavičce.</msg>
+</logentry>
+<logentry
+   revision="152">
+<author>petr</author>
+<date>2009-07-04T20:00:21.753329Z</date>
+<msg>Registrace uživatele, obnova zapomenutého hesla, seznam uživatelů,
+zobrazení profilu uživatele a drobné opravy v kalendáři.
+</msg>
+</logentry>
+<logentry
+   revision="151">
+<author>pek</author>
+<date>2009-06-29T21:22:39.314641Z</date>
+<msg>Registrace uživatelů - nápověda pro formuláře, ověření emailu.</msg>
+</logentry>
+<logentry
+   revision="150">
+<author>petr</author>
+<date>2009-06-28T20:34:45.198557Z</date>
+<msg>Formulář pro registraci uživatelů</msg>
+</logentry>
+<logentry
+   revision="149">
+<author>petr</author>
+<date>2009-06-21T18:42:50.649089Z</date>
+<msg>Označení externích odkazů z kalendáře.</msg>
+</logentry>
+<logentry
+   revision="148">
+<author>petr</author>
+<date>2009-06-21T09:23:22.229261Z</date>
+<msg>Odkazy na mapy.</msg>
+</logentry>
+<logentry
+   revision="147">
+<author>petr</author>
+<date>2009-06-21T07:05:00.225067Z</date>
+<msg>Nový kalendář</msg>
+</logentry>
+<logentry
+   revision="146">
+<author>petr</author>
+<date>2009-06-21T06:40:52.332443Z</date>
+<msg>Odstranění starého kalendáře.</msg>
+</logentry>
+<logentry
+   revision="145">
+<author>petr</author>
+<date>2009-06-19T22:08:36.229981Z</date>
+<msg>Podpořte žonglérův slabikář.</msg>
+</logentry>
+<logentry
+   revision="144">
+<author>pek</author>
+<date>2009-06-16T20:03:22.196207Z</date>
+<msg>Oprava odkazů v kalendáři</msg>
+</logentry>
+<logentry
+   revision="143">
+<author>pek</author>
+<date>2009-06-16T18:55:03.003897Z</date>
+<msg>Úpravy kalendáře</msg>
+</logentry>
+<logentry
+   revision="142">
+<author>pek</author>
+<date>2009-06-15T21:01:09.769770Z</date>
+<msg>Oprava robots.txt</msg>
+</logentry>
+<logentry
+   revision="141">
+<author>pek</author>
+<date>2009-06-15T20:35:43.681790Z</date>
+<msg>Kalendář</msg>
+</logentry>
+<logentry
+   revision="140">
+<author>petr</author>
+<date>2009-06-14T07:06:01.850759Z</date>
+<msg>Smazání nepoužívaných souborů.</msg>
+</logentry>
+<logentry
+   revision="139">
+<author>petr</author>
+<date>2009-06-14T06:33:02.094050Z</date>
+<msg>Přechod na šablonovací systém smarty.</msg>
+</logentry>
+<logentry
+   revision="138">
+<author>petr</author>
+<date>2009-06-13T15:29:11.658917Z</date>
+<msg>Míček plněný pískem</msg>
+</logentry>
+<logentry
+   revision="137">
+<author>petr</author>
+<date>2009-06-12T22:01:00.370082Z</date>
+<msg>Přesun na adresu zonglovani.info</msg>
+</logentry>
+<logentry
+   revision="136">
+<date>2009-05-10T19:22:47.340208Z</date>
+<msg>This is an empty revision for padding.</msg>
+</logentry>
+<logentry
+   revision="135">
+<date>2009-05-10T18:32:58.529126Z</date>
+<msg>This is an empty revision for padding.</msg>
+</logentry>
+<logentry
+   revision="134">
+<date>2009-05-10T18:31:38.544299Z</date>
+<msg>This is an empty revision for padding.</msg>
+</logentry>
+<logentry
+   revision="133">
+<date>2009-05-09T08:24:02.517437Z</date>
+<msg>This is an empty revision for padding.</msg>
+</logentry>
+<logentry
+   revision="132">
+<author>pek</author>
+<date>2009-05-09T08:22:36.411930Z</date>
+<msg>Oprava odkazů na nadpisy a stylu pro tisk.</msg>
+</logentry>
+<logentry
+   revision="131">
+<author>petr</author>
+<date>2009-04-26T19:54:17.169445Z</date>
+<msg>Oprava kódů Google Analytics</msg>
+</logentry>
+<logentry
+   revision="130">
+<author>petr</author>
+<date>2009-04-26T19:35:16.369005Z</date>
+<msg>Oprava nečíslovaných seznamů v menu.</msg>
+</logentry>
+<logentry
+   revision="129">
+<date>2009-03-15T15:06:14.291763Z</date>
+<msg>This is an empty revision for padding.</msg>
+</logentry>
+<logentry
+   revision="128">
+<date>2009-03-15T14:14:18.653300Z</date>
+<msg>This is an empty revision for padding.</msg>
+</logentry>
+<logentry
+   revision="127">
+<date>2009-03-15T14:10:57.313163Z</date>
+<msg>This is an empty revision for padding.</msg>
+</logentry>
+<logentry
+   revision="126">
+<date>2009-03-15T12:06:24.381206Z</date>
+<msg>This is an empty revision for padding.</msg>
+</logentry>
+<logentry
+   revision="125">
+<date>2009-03-15T10:35:58.069699Z</date>
+<msg>This is an empty revision for padding.</msg>
+</logentry>
+<logentry
+   revision="124">
+<date>2009-03-14T08:33:02.069565Z</date>
+<msg>This is an empty revision for padding.</msg>
+</logentry>
+<logentry
+   revision="123">
+<author>petr</author>
+<date>2009-03-14T08:32:46.355735Z</date>
+<msg>Oprava odkazů</msg>
+</logentry>
+<logentry
+   revision="122">
+<date>2009-03-01T14:56:39.625759Z</date>
+<msg>This is an empty revision for padding.</msg>
+</logentry>
+<logentry
+   revision="121">
+<author>petr</author>
+<date>2009-03-01T14:52:47.145596Z</date>
+<msg>Náhledy odkazovaných stránek</msg>
+</logentry>
+<logentry
+   revision="120">
+<date>2009-03-01T04:46:55.266151Z</date>
+<msg>This is an empty revision for padding.</msg>
+</logentry>
+<logentry
+   revision="119">
+<date>2009-03-01T04:23:16.698690Z</date>
+<msg>This is an empty revision for padding.</msg>
+</logentry>
+<logentry
+   revision="118">
+<author>petr</author>
+<date>2009-03-01T04:22:44.240198Z</date>
+<msg>Obrázky k tréninku.</msg>
+</logentry>
+<logentry
+   revision="117">
+<author>petr</author>
+<date>2009-02-26T20:36:20.214966Z</date>
+<msg>Doplnění pravidel passování.</msg>
+</logentry>
+<logentry
+   revision="116">
+<author>petr</author>
+<date>2009-02-26T20:08:22.878860Z</date>
+<msg>Obrázky k pravidlům passingu.</msg>
+</logentry>
+<logentry
+   revision="115">
+<author>petr</author>
+<date>2009-02-26T19:50:28.321744Z</date>
+<msg>Oprava generování kotev z xml parametru name.</msg>
+</logentry>
+<logentry
+   revision="114">
+<date>2009-02-26T19:23:34.046246Z</date>
+<msg>This is an empty revision for padding.</msg>
+</logentry>
+<logentry
+   revision="113">
+<author>petr</author>
+<date>2009-02-26T19:22:18.081816Z</date>
+<msg>Passing - podání kuželky.</msg>
+</logentry>
+<logentry
+   revision="112">
+<author>petr</author>
+<date>2009-02-25T21:45:30.899909Z</date>
+<msg>Pomalá otočka při passování.</msg>
+</logentry>
+<logentry
+   revision="111">
+<author>petr</author>
+<date>2009-02-25T21:25:30.418100Z</date>
+<msg>Rychlá otočka při passingu.</msg>
+</logentry>
+<logentry
+   revision="110">
+<author>petr</author>
+<date>2009-02-24T21:15:43.924529Z</date>
+<msg>Pass pod nohou</msg>
+</logentry>
+<logentry
+   revision="109">
+<author>petr</author>
+<date>2009-02-24T20:40:22.327545Z</date>
+<msg>Passing - zrychlená dvojka</msg>
+</logentry>
+<logentry
+   revision="108">
+<author>petr</author>
+<date>2009-02-24T20:13:59.199009Z</date>
+<msg>Passing - zpožděná dvojka</msg>
+</logentry>
+<logentry
+   revision="107">
+<author>petr</author>
+<date>2009-02-24T18:54:38.795890Z</date>
+<msg>Oprava chybějících tabulek hodů - 1, 2, 3, 4 count a psspspps.</msg>
+</logentry>
+<logentry
+   revision="106">
+<author>petr</author>
+<date>2009-02-22T14:54:20.252286Z</date>
+<msg>Úprava úvodní stránky</msg>
+</logentry>
+<logentry
+   revision="105">
+<author>petr</author>
+<date>2009-02-20T20:40:21.543096Z</date>
+<msg>Cigar boxy</msg>
+</logentry>
+<logentry
+   revision="104">
+<author>petr</author>
+<date>2009-02-20T20:22:35.245759Z</date>
+<msg>Doplnění starších změn na stránku historie.</msg>
+</logentry>
+<logentry
+   revision="103">
+<author>petr</author>
+<date>2009-02-16T21:56:55.475001Z</date>
+<msg>Seznam změn - changelog</msg>
+</logentry>
+<logentry
+   revision="102">
+<author>petr</author>
+<date>2009-02-16T21:06:16.877768Z</date>
+<msg>Oprava nadpisu</msg>
+</logentry>
+<logentry
+   revision="101">
+<author>petr</author>
+<date>2009-02-14T21:38:07.955289Z</date>
+<msg>Nová žonglérská videa</msg>
+</logentry>
+<logentry
+   revision="100">
+<date>2009-02-14T15:26:30.265900Z</date>
+<msg>This is an empty revision for padding.</msg>
+</logentry>
+<logentry
+   revision="99">
+<date>2009-02-14T15:21:14.955985Z</date>
+<msg>This is an empty revision for padding.</msg>
+</logentry>
+<logentry
+   revision="98">
+<author>petr</author>
+<date>2009-02-01T19:27:50.835453Z</date>
+<msg>Sledování odkazů - Google Analytics</msg>
+</logentry>
+<logentry
+   revision="97">
+<author>petr</author>
+<date>2009-01-18T09:08:32.394716Z</date>
+<msg>Odkazy přímo na archivy off-line verzí</msg>
+</logentry>
+<logentry
+   revision="96">
+<date>2009-01-17T20:32:40.737171Z</date>
+<msg>This is an empty revision for padding.</msg>
+</logentry>
+<logentry
+   revision="95">
+<date>2009-01-17T20:25:22.576359Z</date>
+<msg>This is an empty revision for padding.</msg>
+</logentry>
+<logentry
+   revision="94">
+<author>petr</author>
+<date>2009-01-17T13:40:55.173217Z</date>
+<msg>Odstranění nefunkčních odkazů.</msg>
+</logentry>
+<logentry
+   revision="93">
+<author>petr</author>
+<date>2009-01-11T16:41:31.289443Z</date>
+<msg>Nové video + oprava odkazu</msg>
+</logentry>
+<logentry
+   revision="92">
+<date>2008-12-31T10:15:45.372259Z</date>
+<msg>This is an empty revision for padding.</msg>
+</logentry>
+<logentry
+   revision="91">
+<author>petr</author>
+<date>2008-12-28T19:56:50.421135Z</date>
+<msg>Obrázky zvedání nohou</msg>
+</logentry>
+<logentry
+   revision="90">
+<date>2008-12-28T10:28:09.765285Z</date>
+<msg>This is an empty revision for padding.</msg>
+</logentry>
+<logentry
+   revision="89">
+<date>2008-12-25T13:22:28.012251Z</date>
+<msg>This is an empty revision for padding.</msg>
+</logentry>
+<logentry
+   revision="88">
+<author>petr</author>
+<date>2008-12-25T13:22:13.782310Z</date>
+<msg>Chybová stránka pro nenalezená videa</msg>
+</logentry>
+<logentry
+   revision="87">
+<date>2008-12-23T18:24:55.120168Z</date>
+<msg>This is an empty revision for padding.</msg>
+</logentry>
+<logentry
+   revision="86">
+<date>2008-12-23T17:40:41.056143Z</date>
+<msg>This is an empty revision for padding.</msg>
+</logentry>
+<logentry
+   revision="85">
+<date>2008-12-23T16:29:21.304336Z</date>
+<msg>This is an empty revision for padding.</msg>
+</logentry>
+<logentry
+   revision="84">
+<date>2008-12-23T15:55:23.575013Z</date>
+<msg>This is an empty revision for padding.</msg>
+</logentry>
+<logentry
+   revision="83">
+<date>2008-12-23T15:50:41.264348Z</date>
+<msg>This is an empty revision for padding.</msg>
+</logentry>
+<logentry
+   revision="82">
+<date>2008-12-23T15:40:47.583962Z</date>
+<msg>This is an empty revision for padding.</msg>
+</logentry>
+<logentry
+   revision="81">
+<date>2008-12-23T14:52:49.121499Z</date>
+<msg>This is an empty revision for padding.</msg>
+</logentry>
+<logentry
+   revision="80">
+<date>2008-12-22T18:03:03.960049Z</date>
+<msg>This is an empty revision for padding.</msg>
+</logentry>
+<logentry
+   revision="79">
+<date>2008-12-22T18:02:46.202596Z</date>
+<msg>This is an empty revision for padding.</msg>
+</logentry>
+<logentry
+   revision="78">
+<date>2008-12-22T16:23:23.933500Z</date>
+<msg>This is an empty revision for padding.</msg>
+</logentry>
+<logentry
+   revision="77">
+<date>2008-12-22T16:18:41.082948Z</date>
+<msg>This is an empty revision for padding.</msg>
+</logentry>
+<logentry
+   revision="76">
+<date>2008-12-22T16:04:05.129885Z</date>
+<msg>This is an empty revision for padding.</msg>
+</logentry>
+<logentry
+   revision="75">
+<date>2008-12-22T16:03:41.006656Z</date>
+<msg>This is an empty revision for padding.</msg>
+</logentry>
+<logentry
+   revision="74">
+<date>2008-12-22T15:14:00.509958Z</date>
+<msg>This is an empty revision for padding.</msg>
+</logentry>
+<logentry
+   revision="73">
+<date>2008-12-22T13:12:03.052000Z</date>
+<msg>This is an empty revision for padding.</msg>
+</logentry>
+<logentry
+   revision="72">
+<date>2008-12-21T10:17:20.438819Z</date>
+<msg>This is an empty revision for padding.</msg>
+</logentry>
+<logentry
+   revision="71">
+<author>petr</author>
+<date>2008-11-07T21:21:59.676174Z</date>
+<msg>Video Prechac Weaves</msg>
+</logentry>
+<logentry
+   revision="70">
+<date>2008-11-01T11:22:25.164062Z</date>
+<msg>This is an empty revision for padding.</msg>
+</logentry>
+<logentry
+   revision="69">
+<author>petr</author>
+<date>2008-10-25T17:09:54.920586Z</date>
+<msg>Oprava překlepu</msg>
+</logentry>
+<logentry
+   revision="68">
+<author>petr</author>
+<date>2008-10-25T17:05:46.509442Z</date>
+<msg>Zrušení rss kanálu</msg>
+</logentry>
+<logentry
+   revision="67">
+<date>2008-10-25T16:57:07.210640Z</date>
+<msg>This is an empty revision for padding.</msg>
+</logentry>
+<logentry
+   revision="66">
+<author>petr</author>
+<date>2008-10-05T14:37:49.324915Z</date>
+<msg>Oprava překlepu</msg>
+</logentry>
+<logentry
+   revision="65">
+<author>petr</author>
+<date>2008-09-27T18:53:12.097775Z</date>
+<msg>Oprava překlepů + jeff &amp; wess</msg>
+</logentry>
+<logentry
+   revision="64">
+<author>petr</author>
+<date>2008-09-27T08:11:15.150347Z</date>
+<msg>Odkaz na knížku o poi.</msg>
+</logentry>
+<logentry
+   revision="63">
+<author>petr</author>
+<date>2008-09-27T07:54:23.995207Z</date>
+<msg>Dvě nová videa</msg>
+</logentry>
+<logentry
+   revision="62">
+<author>petr</author>
+<date>2008-09-26T18:46:07.579011Z</date>
+<msg>Rss kanál žonglérova slabikáře</msg>
+</logentry>
+<logentry
+   revision="61">
+<date>2008-09-12T18:27:02.155071Z</date>
+<msg>This is an empty revision for padding.</msg>
+</logentry>
+<logentry
+   revision="60">
+<author>petr</author>
+<date>2008-09-06T17:33:29.322439Z</date>
+<msg>Joepass</msg>
+</logentry>
+<logentry
+   revision="59">
+<author>petr</author>
+<date>2008-09-06T17:03:56.725358Z</date>
+<msg>Přebíhání - 5 žonglérů</msg>
+</logentry>
+<logentry
+   revision="58">
+<author>petr</author>
+<date>2008-09-06T15:54:54.329394Z</date>
+<msg>Passování s pivem</msg>
+</logentry>
+<logentry
+   revision="57">
+<author>petr</author>
+<date>2008-09-06T15:40:58.449246Z</date>
+<msg>Passing - rotor</msg>
+</logentry>
+<logentry
+   revision="56">
+<author>petr</author>
+<date>2008-09-06T15:24:45.672111Z</date>
+<msg>Označení externích odkazů</msg>
+</logentry>
+<logentry
+   revision="55">
+<author>petr</author>
+<date>2008-09-06T15:00:00.903365Z</date>
+<msg>Střídavý lichoběžník</msg>
+</logentry>
+<logentry
+   revision="54">
+<author>petr</author>
+<date>2008-09-06T11:15:36.288820Z</date>
+<msg>Lichoběžník</msg>
+</logentry>
+<logentry
+   revision="53">
+<author>petr</author>
+<date>2008-09-06T09:47:36.387851Z</date>
+<msg>Mýty a omyly v žonglování</msg>
+</logentry>
+<logentry
+   revision="52">
+<author>petr</author>
+<date>2008-09-06T09:32:15.336302Z</date>
+<msg>Obrázky žonglérského náčiní</msg>
+</logentry>
+<logentry
+   revision="51">
+<author>petr</author>
+<date>2008-09-06T09:15:25.303271Z</date>
+<msg>Obrázky žonglérského náčiní</msg>
+</logentry>
+<logentry
+   revision="50">
+<author>petr</author>
+<date>2008-09-06T08:31:21.443328Z</date>
+<msg>druhy žonglování</msg>
+</logentry>
+<logentry
+   revision="49">
+<author>petr</author>
+<date>2008-09-06T08:08:31.660891Z</date>
+<msg>Cirkusové disciplíny</msg>
+</logentry>
+<logentry
+   revision="48">
+<author>petr</author>
+<date>2008-08-29T07:14:41.913583Z</date>
+<msg>Nová úvodní stránka</msg>
+</logentry>
+<logentry
+   revision="47">
+<author>petr</author>
+<date>2008-08-29T06:10:28.552773Z</date>
+<msg>Odkládání kuželek na bradu</msg>
+</logentry>
+<logentry
+   revision="46">
+<author>petr</author>
+<date>2008-08-28T19:25:00.960945Z</date>
+<msg>Aktualizace off-line verze žonglérova slabikáře.</msg>
+</logentry>
+<logentry
+   revision="45">
+<author>petr</author>
+<date>2008-08-28T18:31:54.225096Z</date>
+<msg>Jugglemaster</msg>
+</logentry>
+<logentry
+   revision="44">
+<author>petr</author>
+<date>2008-08-28T18:17:05.619006Z</date>
+<msg>Počty kruhů čísly</msg>
+</logentry>
+<logentry
+   revision="43">
+<author>petr</author>
+<date>2008-08-28T18:11:41.733650Z</date>
+<msg>Australský trik</msg>
+</logentry>
+<logentry
+   revision="42">
+<author>petr</author>
+<date>2008-08-28T16:37:04.631837Z</date>
+<msg>Sloupy ve dvou</msg>
+</logentry>
+<logentry
+   revision="41">
+<author>petr</author>
+<date>2008-08-28T15:34:35.383940Z</date>
+<msg>Jeden a půl otočky</msg>
+</logentry>
+<logentry
+   revision="40">
+<author>petr</author>
+<date>2008-08-28T15:24:53.020102Z</date>
+<msg>Půl otočky, rybičky, výměny ve čtvercích</msg>
+</logentry>
+<logentry
+   revision="39">
+<author>petr</author>
+<date>2008-08-28T14:34:42.633951Z</date>
+<msg>Odstranění novinek</msg>
+</logentry>
+<logentry
+   revision="38">
+<author>petr</author>
+<date>2008-08-27T20:24:43.881255Z</date>
+<msg>Headroll s kuželkou, točení okolo palce, 423</msg>
+</logentry>
+<logentry
+   revision="37">
+<author>petr</author>
+<date>2008-08-27T19:18:29.696858Z</date>
+<msg>Siteswap, simulátory žonglování</msg>
+</logentry>
+<logentry
+   revision="36">
+<author>petr</author>
+<date>2008-08-27T10:24:48.440035Z</date>
+<msg>Siteswap</msg>
+</logentry>
+<logentry
+   revision="35">
+<author>petr</author>
+<date>2008-08-27T08:25:06.154631Z</date>
+<msg>Zvýraznění písmen žonglérů v textech</msg>
+</logentry>
+<logentry
+   revision="34">
+<author>petr</author>
+<date>2008-08-27T07:45:40.345104Z</date>
+<msg>Přepisování starých adres obrázků, oprava návodu na odkazování</msg>
+</logentry>
+<logentry
+   revision="33">
+<author>petr</author>
+<date>2008-08-26T21:17:31.352819Z</date>
+<msg>Odkazy na ještě nenepsané návody</msg>
+</logentry>
+<logentry
+   revision="32">
+<author>petr</author>
+<date>2008-08-26T20:52:08.421209Z</date>
+<msg>Mills' mess ve dvou</msg>
+</logentry>
+<logentry
+   revision="31">
+<author>petr</author>
+<date>2008-08-26T19:58:38.509403Z</date>
+<msg>Přeskupení obrázků</msg>
+</logentry>
+<logentry
+   revision="30">
+<author>petr</author>
+<date>2008-08-26T19:35:45.776354Z</date>
+<msg>Rozdělení obrázků do adresářů podle prvního písmena</msg>
+</logentry>
+<logentry
+   revision="29">
+<author>petr</author>
+<date>2008-08-26T18:41:18.830541Z</date>
+<msg>Sloučení kruhů v menu. Odkaz na video v menu</msg>
+</logentry>
+<logentry
+   revision="28">
+<date>2008-08-15T20:22:05.324201Z</date>
+<msg>This is an empty revision for padding.</msg>
+</logentry>
+<logentry
+   revision="27">
+<author>petr</author>
+<date>2008-08-15T20:21:26.797917Z</date>
+<msg>Odkaz na Passing Patterns Compendium</msg>
+</logentry>
+<logentry
+   revision="26">
+<author>petr</author>
+<date>2008-08-15T20:21:01.405438Z</date>
+<msg>Nové video J&amp;J</msg>
+</logentry>
+<logentry
+   revision="25">
+<author>petr</author>
+<date>2008-08-09T09:37:25.666363Z</date>
+<msg>Odkazy na žonglérská videa</msg>
+</logentry>
+<logentry
+   revision="24">
+<author>petr</author>
+<date>2008-08-08T18:20:20.515968Z</date>
+<msg>Sjednocení svn</msg>
+</logentry>
+<logentry
+   revision="23">
+<date>2008-05-11T07:06:33.105865Z</date>
+<msg>This is an empty revision for padding.</msg>
+</logentry>
+<logentry
+   revision="22">
+<date>2008-02-10T08:40:26.566168Z</date>
+<msg>This is an empty revision for padding.</msg>
+</logentry>
+<logentry
+   revision="21">
+<date>2007-12-21T21:28:26.875665Z</date>
+<msg>This is an empty revision for padding.</msg>
+</logentry>
+<logentry
+   revision="20">
+<date>2007-12-21T10:03:25.755603Z</date>
+<msg>This is an empty revision for padding.</msg>
+</logentry>
+<logentry
+   revision="19">
+<date>2007-12-20T11:40:14.918246Z</date>
+<msg>This is an empty revision for padding.</msg>
+</logentry>
+<logentry
+   revision="18">
+<date>2007-11-24T13:24:38.569477Z</date>
+<msg>This is an empty revision for padding.</msg>
+</logentry>
+<logentry
+   revision="17">
+<date>2007-11-24T13:10:45.573829Z</date>
+<msg>This is an empty revision for padding.</msg>
+</logentry>
+<logentry
+   revision="16">
+<date>2007-11-23T18:34:15.687975Z</date>
+<msg>This is an empty revision for padding.</msg>
+</logentry>
+<logentry
+   revision="15">
+<date>2007-11-11T20:50:01.945580Z</date>
+<msg>This is an empty revision for padding.</msg>
+</logentry>
+<logentry
+   revision="14">
+<date>2007-11-11T16:40:58.981732Z</date>
+<msg>This is an empty revision for padding.</msg>
+</logentry>
+<logentry
+   revision="13">
+<date>2007-08-26T20:35:08.288411Z</date>
+<msg>This is an empty revision for padding.</msg>
+</logentry>
+<logentry
+   revision="12">
+<date>2007-08-11T12:10:03.737318Z</date>
+<msg>This is an empty revision for padding.</msg>
+</logentry>
+<logentry
+   revision="11">
+<date>2007-05-07T18:03:25.812058Z</date>
+<msg>This is an empty revision for padding.</msg>
+</logentry>
+<logentry
+   revision="10">
+<date>2007-05-06T08:52:55.357073Z</date>
+<msg>This is an empty revision for padding.</msg>
+</logentry>
+<logentry
+   revision="9">
+<date>2007-05-06T06:59:56.266776Z</date>
+<msg>This is an empty revision for padding.</msg>
+</logentry>
+<logentry
+   revision="8">
+<date>2007-05-01T08:04:14.254992Z</date>
+<msg>This is an empty revision for padding.</msg>
+</logentry>
+<logentry
+   revision="7">
+<date>2007-04-07T12:03:09.444579Z</date>
+<msg>This is an empty revision for padding.</msg>
+</logentry>
+<logentry
+   revision="6">
+<date>2007-04-07T11:46:01.871326Z</date>
+<msg>This is an empty revision for padding.</msg>
+</logentry>
+<logentry
+   revision="5">
+<date>2007-03-30T19:51:00.141554Z</date>
+<msg>This is an empty revision for padding.</msg>
+</logentry>
+<logentry
+   revision="4">
+<date>2007-03-25T08:24:06.461969Z</date>
+<msg>This is an empty revision for padding.</msg>
+</logentry>
+<logentry
+   revision="3">
+<date>2007-03-25T08:17:43.425260Z</date>
+<msg>This is an empty revision for padding.</msg>
+</logentry>
+<logentry
+   revision="2">
+<date>2007-03-25T08:09:51.991300Z</date>
+<msg>This is an empty revision for padding.</msg>
+</logentry>
+<logentry
+   revision="1">
+<date>2007-03-17T23:25:24.761097Z</date>
+<msg>This is an empty revision for padding.</msg>
+</logentry>
+</log>

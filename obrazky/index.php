@@ -15,6 +15,12 @@ if(isset($_GET['photo'])){
 	$photo=false;
 }
 
+if(isset($_GET['filtr'])){
+	$filtr=$_GET['filtr'];
+}else{
+	$filtr=false;
+}
+
 if(isset($_GET['rss'])){
 	$rss=$_GET['rss'];
 }else{
@@ -27,8 +33,6 @@ if($rss){
 	$smarty->display('obrazky.rss.tpl');
 	exit();
 }
-
-$smarty->assign("rsslink",'http://'.$_SERVER["SERVER_NAME"].OBRAZKY_URL.'obrazky.rss');
 
 if($id and $photo){
 	$gal_info=get_galerie_info($id);
@@ -79,21 +83,40 @@ if($id and $photo){
 	require("../404.php");
 	exit();
 	}
+}elseif($filtr){
+	$smarty->assign('titulek',$filtr.' - filtr obrázků');
+	$smarty->assign('nadpis',$filtr.' - filtr obrázků');
+	$smarty->assign("notitle",true);
+	$galerie=get_galerie($filtr);
+	if(count($galerie)>0){
+		foreach($galerie as $klic=>$gal){
+			$obrazky=array();
+			$bar=get_galerie_obrazky($gal['name']);
+			$pocet=count($bar);
+			$obrazky[2]=$bar[round($pocet/(($pocet/6)*3))];
+			$obrazky[1]=$bar[round($pocet/(($pocet/6)*2))];
+			$obrazky[0]=$bar[round($pocet/(($pocet/6)*1))];
+			$galerie[$klic]['obrazky']=$obrazky;
+		}
+	}
+	$smarty->assign('galerie',$galerie);
+	$smarty->display('hlavicka.tpl');
+	$smarty->display('obrazky-filtr.tpl');
+	$smarty->display('paticka.tpl');
 }else{
 	$smarty->assign('titulek','Obrázky žonglování');
 	$smarty->assign('galerie',get_galerie());
 	$smarty->display('hlavicka.tpl');
 	$smarty->display('obrazky-index.tpl');
 	$smarty->display('paticka.tpl');
-
 }
 
-function get_galerie(){
+function get_galerie($filtr='.+'){
 	$dir = opendir(OBRAZKY_DATA);
 	$navrat = array();
 	    if ($dir) {
 			   while (($filename = readdir($dir)) !== false) {
-						if (!ereg("^\.",$filename) and is_dir(OBRAZKY_DATA."/$filename")) {
+						if (!preg_match('/^\./',$filename) and is_dir(OBRAZKY_DATA.'/'.$filename) and preg_match('/'.$filtr.'/i',$filename)) {
 							$datum=preg_split('/-/',$filename);
 							$datum=array_pop($datum);
 							$info=get_galerie_info($filename);
