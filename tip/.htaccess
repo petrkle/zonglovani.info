@@ -1,0 +1,13 @@
+RewriteEngine	on
+RewriteBase /tip
+
+RewriteCond %{REQUEST_FILENAME}	^.*\.inc$
+RewriteRule ^(.*)$ $1 [F]
+
+#RewriteRule ^([0-9]{4})/([0-9]{2})$ $1/$2/ [R=301,L]
+#RewriteRule ^([0-9]{4})/([0-9]{2})/$ index.php?rok=$1&tyden=$2 [L]
+
+#RewriteRule ^([0-9]{4})$ $1/ [R=301,L]
+#RewriteRule ^([0-9]{4})/$ index.php?rok=$1 [L]
+
+RewriteRule ^tip.rss$ index.php?rss=jo [L]

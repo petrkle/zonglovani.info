@@ -1,10 +1,9 @@
 <p>Žonglérův slabikář je volně dostupný na internetu. Neobsahuje reklamy a běží na rychlém serveru. Můžeš ho podpořit těmito způsoby:</p>
 
-<h3>Staň se fanouškem</h3>
+<h3><a href="http://www.facebook.com/pages/Zongleruv-slabikar/249578053101" class="external">Staň se fanouškem</a></h3>
 <p>
-Dozvíš se tak o všech novinkách v žonglérově slabikáři.
-<script type="text/javascript" src="http://static.ak.connect.facebook.com/js/api_lib/v0.4/FeatureLoader.js.php/cs_CZ"></script><script type="text/javascript">FB.init("af17336b3734dba65ded7f440545ac97");</script><fb:fan profile_id="249578053101" stream="" connections="10" width="500"></fb:fan>
-<noscript><a href="http://www.facebook.com/pages/Zongleruv-slabikar/249578053101">Žonglérův slabikář na Facebooku</a></noscript>
+<a href="http://www.facebook.com/pages/Zongleruv-slabikar/249578053101">{obrazek soubor='facebook-logo.png' popisek='Žonglérův slabikář na facebooku.'}</a>
+Podpoř <a href="http://www.facebook.com/pages/Zongleruv-slabikar/249578053101" class="external">žonglérův slabikář na facebooku</a>. Dozvíš se tak o všech novinkách v žonglérově slabikáři.
 </p>
 
 <h3><a href="{$smarty.const.LIDE_URL}pravidla.php">Založ si účet</a></h3>

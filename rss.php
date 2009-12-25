@@ -11,6 +11,7 @@ require('lib/rss_fetch.inc');
 $kanaly=array(
 'http://'.$_SERVER['SERVER_NAME'].'/ostatni/changelog.rss',
 'http://'.$_SERVER['SERVER_NAME'].CALENDAR_URL.'kalendar.rss',
+'http://'.$_SERVER['SERVER_NAME'].'/tip/tip.rss',
 'http://'.$_SERVER['SERVER_NAME'].OBRAZKY_URL.'obrazky.rss'
 	);
 
@@ -25,13 +26,6 @@ foreach($kanaly as $kanal){
 }
 
 usort($udalosti, 'sort_by_rss_date');
-
-#foreach($udalosti as $klic=>$udalost){
-#	$udalosti[$klic]['description_iso']=iconv('utf8','iso-8859-2',$udalosti[$klic]['description']);
-#	$udalosti[$klic]['title_iso']=iconv('utf8','iso-8859-2',$udalosti[$klic]['title']);
-#	$udalosti[$klic]['creator_iso']=iconv('utf8','iso-8859-2',$udalosti[$klic]['dc']['creator']);
-#}
-
 
 for($foo=0;$foo<10;$foo++){
 	array_push($rssu,array_pop($udalosti));

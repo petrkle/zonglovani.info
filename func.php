@@ -239,31 +239,31 @@ function get_user_pusobiste($login){
 function get_user_props($login){
 	if(is_dir(LIDE_DATA."/$login") and strlen($login)>0){
 		$navrat=array();
-		$navrat["login"]=$login;
-		if(is_file(LIDE_DATA."/$login/jmeno.txt")){
-			$navrat["jmeno"]=trim(array_pop(file(LIDE_DATA."/$login/jmeno.txt")));
+		$navrat['login']=$login;
+		if(is_file(LIDE_DATA.'/'.$login.'/jmeno.txt')){
+			$navrat['jmeno']=trim(array_pop(file(LIDE_DATA.'/'.$login.'/jmeno.txt')));
 		}
 
-		if(is_file(LIDE_DATA."/$login/passwd.sha1")){
-			$navrat["passwd_sha1"]=trim(array_pop(file(LIDE_DATA."/$login/passwd.sha1")));
+		if(is_file(LIDE_DATA.'/'.$login.'/passwd.sha1')){
+			$navrat['passwd_sha1']=trim(array_pop(file(LIDE_DATA.'/'.$login.'/passwd.sha1')));
 		}
 
-		if(is_file(LIDE_DATA."/$login/soukromi.txt")){
-			$navrat["soukromi"]=trim(array_pop(file(LIDE_DATA."/$login/soukromi.txt")));
+		if(is_file(LIDE_DATA.'/'.$login.'/soukromi.txt')){
+			$navrat['soukromi']=trim(array_pop(file(LIDE_DATA.'/'.$login.'/soukromi.txt')));
 		}
 
-		if(is_file(LIDE_DATA."/$login/vzkaz.txt")){
-			$navrat["vzkaz"]=file_get_contents(LIDE_DATA."/$login/vzkaz.txt");
+		if(is_file(LIDE_DATA.'/'.$login.'/vzkaz.txt')){
+			$navrat['vzkaz']=file_get_contents(LIDE_DATA.'/'.$login.'/vzkaz.txt');
 		}
 
-		if(is_file(LIDE_DATA."/$login/web.txt")){
-			$navrat['web']=trim(file_get_contents(LIDE_DATA."/$login/web.txt"));
+		if(is_file(LIDE_DATA.'/'.$login.'/web.txt')){
+			$navrat['web']=trim(file_get_contents(LIDE_DATA.'/'.$login.'/web.txt'));
 		}
 
-		if(is_file(LIDE_DATA."/$login/registrace.txt")){
-			$navrat["registrace"]=trim(array_pop(file(LIDE_DATA."/$login/registrace.txt")));
-			$navrat["registrace_hr"]=date("j. n. Y",$navrat["registrace"]);
-			$navrat["registrace_mr"]=date("c",$navrat["registrace"]);
+		if(is_file(LIDE_DATA.'/$login/registrace.txt')){
+			$navrat['registrace']=trim(array_pop(file(LIDE_DATA.'/'.$login.'./registrace.txt')));
+			$navrat['registrace_hr']=date('j. n. Y',$navrat['registrace']);
+			$navrat['registrace_mr']=date('c',$navrat['registrace']);
 		}
 
 		if(is_file(LIDE_DATA.'/'.$login.'/foto.jpg')){
@@ -281,7 +281,7 @@ function get_user_props($login){
 			$navrat['status']='ok';
 		}
 
-		$dir = opendir(LIDE_DATA."/$login");
+		$dir = opendir(LIDE_DATA.'/'.$login);
 				if ($dir) {
 					 while (($filename = readdir($dir)) !== false) {
 							if (ereg('\.mail$',$filename)) {
@@ -394,6 +394,23 @@ function get_description($trik){
 #		$popis.=' '.$trik['kroky'][1]['popisek'];
 #	}
 	return strip_tags($popis);
+}
+
+function get_tipy(){
+	$navrat=array();
+	if(is_file(TIPY_DATA)){
+		$db=file(TIPY_DATA);
+		foreach($db as $radek){
+			if(!preg_match('/^.*\#/',$radek) and preg_match('/^[0-9]{4}-[0-9]{2}-[0-9]{2}\*.+\*.+\*.+\*.+$/',$radek)){
+				$radek=preg_split('/\*/',trim($radek));
+				$cas=strtotime($radek[0]);
+				if($cas<time()){
+					array_push($navrat,array('cas'=>$cas,'cas_mr'=>date('c',$cas),'nadpis'=>$radek[1],'link'=>$radek[2],'obrazek'=>$radek[3],'text'=>$radek[4]));
+				}
+			}
+		}
+	}
+return $navrat;
 }
 
 ?>

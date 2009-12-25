@@ -8,7 +8,7 @@
       <rdf:Seq>
 				{section loop=$obrazky name=smycka1 step=-1}
 				{if $smarty.section.smycka1.index < 10}
-        <rdf:li resource="http://{$smarty.server.SERVER_NAME}{$smarty.const.OBRAZKY_URL}{$obrazky[$smycka1]}/" />
+        <rdf:li resource="http://{$smarty.server.SERVER_NAME}{$smarty.const.OBRAZKY_URL}{$obrazky[$smarty.section.smycka1.index].name}/" />
 				{/if}
 				{/section}
       </rdf:Seq>

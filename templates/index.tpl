@@ -25,8 +25,4 @@
 </ul>
 </p>
 
-<h3><a href="/ulita/" title="Nedělní žonglování v ulitě.">Žonglování v Ulitě</a></h3>
-<p>
-<a href="/ulita/" title="Ulita - dům dětí a mládeže">{obrazek soubor='ulita.cz.png' popisek='Žonglování v Ulitě'}</a>
-V domě dětí a mládeže Ulita se pravidelně žongluje. Přijít mohou začínající i zkušení žongléři a žonglérky.
-</p>
+{include file='tip.tpl'}

@@ -1,6 +1,16 @@
 <?xml version="1.0"?>
 <log>
 <logentry
+   revision="209">
+<author>petr</author>
+<date>2009-12-23T13:19:48.069686Z</date>
+<msg>Možnost filtrování obrázků v galerii.</msg>
+<revprops>
+<property
+   name="svn:link">/obrazky/filtr/Ulita</property>
+</revprops>
+</logentry>
+<logentry
    revision="208">
 <author>petr</author>
 <date>2009-12-20T20:52:06.161531Z</date>

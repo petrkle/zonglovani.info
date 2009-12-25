@@ -49,4 +49,6 @@ define('TIMEOUT_REGISTRATION',6*3600);
 define('TIMEOUT_RESET_PASSWD',6*3600); 
 define('TIMEOUT_VZKAZ',6*3600); 
 
+define('TIPY_DATA',$_SERVER['DOCUMENT_ROOT'].'/tip/tipy.inc'); 
+
 ?>

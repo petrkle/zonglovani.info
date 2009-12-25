@@ -69,6 +69,10 @@ if(isset($query) and strlen($query)>0){
 }else{
 	$titulek="Žonglérův slabikář - vyhledávání";
 }
+
+$smarty->assign('nahled','http://'.$_SERVER['SERVER_NAME'].'/img/h/hledani.png');
+$smarty->assign('description','Hledání v žonglérově slabikáři');
+
 $smarty->assign("titulek",$titulek);
 $smarty->assign("nadpis","Vyhledávání");
 $smarty->assign("notitle",true);
