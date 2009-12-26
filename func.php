@@ -260,8 +260,8 @@ function get_user_props($login){
 			$navrat['web']=trim(file_get_contents(LIDE_DATA.'/'.$login.'/web.txt'));
 		}
 
-		if(is_file(LIDE_DATA.'/$login/registrace.txt')){
-			$navrat['registrace']=trim(array_pop(file(LIDE_DATA.'/'.$login.'./registrace.txt')));
+		if(is_file(LIDE_DATA.'/'.$login.'/registrace.txt')){
+			$navrat['registrace']=trim(array_pop(file(LIDE_DATA.'/'.$login.'/registrace.txt')));
 			$navrat['registrace_hr']=date('j. n. Y',$navrat['registrace']);
 			$navrat['registrace_mr']=date('c',$navrat['registrace']);
 		}
@@ -324,7 +324,7 @@ function make_keywords($text){
 	return $navrat;
 }
 
-function get_changelog(){
+function get_changelog($rss=false){
 	if(is_readable($_SERVER['DOCUMENT_ROOT'].'/ChangeLog.xml')){
 
 $zmeny=array();
@@ -340,7 +340,13 @@ $xml = simplexml_load_file($_SERVER['DOCUMENT_ROOT'].'/ChangeLog.xml');
 			$foo['popis']= (string) $verze->msg;
 			$foo['link']= (string) $verze->revprops->property;
 			if(strlen($foo['autor'])>0){
-				array_push($zmeny,$foo);
+				if($rss){
+					if(strlen($foo['link'])>0){
+						array_push($zmeny,$foo);
+					}
+				}else{
+					array_push($zmeny,$foo);
+				}
 			}
 	}
 
@@ -403,7 +409,7 @@ function get_tipy(){
 		foreach($db as $radek){
 			if(!preg_match('/^.*\#/',$radek) and preg_match('/^[0-9]{4}-[0-9]{2}-[0-9]{2}\*.+\*.+\*.+\*.+$/',$radek)){
 				$radek=preg_split('/\*/',trim($radek));
-				$cas=strtotime($radek[0]);
+				$cas=strtotime($radek[0])+(5*3600);
 				if($cas<time()){
 					array_push($navrat,array('cas'=>$cas,'cas_mr'=>date('c',$cas),'nadpis'=>$radek[1],'link'=>$radek[2],'obrazek'=>$radek[3],'text'=>$radek[4]));
 				}

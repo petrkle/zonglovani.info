@@ -1,6 +1,16 @@
 <?xml version="1.0"?>
 <log>
 <logentry
+   revision="210">
+<author>petr</author>
+<date>2009-12-25T21:51:57.618558Z</date>
+<msg>Tip týdne - na úvodní stránce žonglérova slabikáře najdeš každý týden něco nového.</msg>
+<revprops>
+<property
+   name="svn:link">/tip/</property>
+</revprops>
+</logentry>
+<logentry
    revision="209">
 <author>petr</author>
 <date>2009-12-23T13:19:48.069686Z</date>

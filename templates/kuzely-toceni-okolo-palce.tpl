@@ -14,7 +14,7 @@ Cuknutím zápěstí a prsty roztoč kuželku po směru hodinových ručiček.
 
 <p>
 {obrazek soubor="tocenic.png" popisek=""}
-Začíná jennáročnější část otočky. Kuželka je vlastně jen položená na vnější straně palce. Je potřeba pohnout rukou trochu proti pohybu kuželky.
+Začíná náročnější část otočky. Kuželka je vlastně jen položená na vnější straně palce. Je potřeba pohnout rukou trochu proti pohybu kuželky.
 </p>
 
 <p>
@@ -28,5 +28,5 @@ Prsty a palcem udělíš kuželce potřebnou rychlost do další otočky.
 </p>
 
 <p>
-Otáčení kůželky můžeš použít například v triku <a href="/kuzely/3/423.html" title="Trik se třemi míčky">423</a>.
+Otáčení kuželky můžeš použít například v triku <a href="/kuzely/3/423.html" title="Trik se třemi míčky">423</a>.
 </p>

@@ -1,5 +1,5 @@
 <p>
-Žonglérský míček je to s čím budeš hodiny a hodiny cvičit. Pořiď si proto takové které se ti líbí a vyhovují. Pořádný míček je základ úspěchu.
+Žonglérský míček je to s čím budeš hodiny a hodiny cvičit. Pořiď si proto takové, které se ti líbí a vyhovují. Pořádný míček je základ úspěchu.
 </p>
 
 <h3>Tenisový míček</h3>

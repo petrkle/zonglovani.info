@@ -77,8 +77,3 @@ Výpis změn v žonglérově slabikáři (svn&nbsp;log).
 <p>
 Upozorňování na novinky v žonglérově slabikáři.
 </p>
-
-<h3><a href="/tip/" title="Tip týdne.">Tip týdne</a></h3>
-<p>
-V žonglérově slabikáři najdeš každý týden něco nového.
-</p>

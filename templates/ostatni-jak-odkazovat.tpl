@@ -47,3 +47,14 @@ Pro vložení odkazu stačí do tvé stránky zkopírovat jeden z následující
 <p>
 <a href="/img/s/slabikar2.gif" title="Žonglérův slabikář"><img src="/img/s/slabikar2.gif" height="60" width="120" border="0" style="border: 0;" alt="Žonglérův slabikář" title="Žonglérův slabikář" /></a>
 </p>
+
+<h2>Ikonka 200x50</h2>
+<p>
+<code>
+&lt;a href="http://zonglovani.info"
+ title="Obrázková učebnice žonglování."&gt;&lt;img src="http://zonglovani.info/img/s/slabikar-fb.png" height="50" width="200" border="0" alt="Žonglérův slabikář." title="Žonglérův slabikář." /&gt;&lt;/a&gt;
+</code>
+</p>
+<p>
+<a href="/img/s/slabikar-fb.png" title="Žonglérův slabikář"><img src="/img/s/slabikar-fb.png" height="50" width="200" border="0" style="border: 0;" alt="Žonglérův slabikář" title="Žonglérův slabikář" /></a>
+</p>
