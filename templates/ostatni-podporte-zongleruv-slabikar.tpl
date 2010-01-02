@@ -1,9 +1,9 @@
 <p>Žonglérův slabikář je volně dostupný na internetu. Neobsahuje reklamy a běží na rychlém serveru. Můžeš ho podpořit těmito způsoby:</p>
 
-<h3><a href="http://www.facebook.com/pages/Zongleruv-slabikar/249578053101" class="external">Staň se fanouškem</a></h3>
+<h3><a href="http://www.facebook.com/pages/Zongleruv-slabikar/249578053101" class="external" onclick="pageTracker._trackPageview('/goto/facebook.com/pages/Zongleruv-slabikar/249578053101');">Staň se fanouškem</a></h3>
 <p>
-<a href="http://www.facebook.com/pages/Zongleruv-slabikar/249578053101">{obrazek soubor='facebook-logo.png' popisek='Žonglérův slabikář na facebooku.'}</a>
-Podpoř <a href="http://www.facebook.com/pages/Zongleruv-slabikar/249578053101" class="external">žonglérův slabikář na facebooku</a>. Dozvíš se tak o všech novinkách v žonglérově slabikáři.
+<a href="http://www.facebook.com/pages/Zongleruv-slabikar/249578053101" onclick="pageTracker._trackPageview('/goto/facebook.com/pages/Zongleruv-slabikar/249578053101');">{obrazek soubor='facebook-logo.png' popisek='Žonglérův slabikář na facebooku.'}</a>
+Podpoř <a href="http://www.facebook.com/pages/Zongleruv-slabikar/249578053101" class="external" onclick="pageTracker._trackPageview('/goto/facebook.com/pages/Zongleruv-slabikar/249578053101');">žonglérův slabikář na Facebooku</a>. Dozvíš se tak o všech novinkách v žonglérově slabikáři.
 </p>
 
 <h3><a href="{$smarty.const.LIDE_URL}pravidla.php">Založ si účet</a></h3>
@@ -18,7 +18,7 @@ Přinese ti to následující výhody:
 
 <h3><a href="/jak-odkazovat.html" title="Jak vytvořit odkaz na žonglérův slabikář.">Přidej odkaz</a></h3>
 <p>
-{obrazek soubor="podporaa.png" title="Návštěvnost stránek"}
+<a href="/jak-odkazovat.html" title="Jak vytvořit odkaz na žonglérův slabikář.">{obrazek soubor="podporaa.png" title="Návštěvnost stránek"}</a>
 Čím víc lidí bude tyto stránky používat, tím líp. Stačí <a href="/jak-odkazovat.html" title="Jak vytvořit odkaz na žonglérův slabikář.">přidat odkaz</a> na tvoje stránky.</p>
 
 <h3>Hmotné dary</h3>

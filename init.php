@@ -6,6 +6,15 @@ if($_SERVER['SERVER_NAME']!='zongl.info'){
 	  error_reporting(E_ALL);
 };
 
+$srv=explode('.',$_SERVER['SERVER_NAME']);
+
+if($srv[0]=='i' or $srv[0]=='f'){
+	header('HTTP/1.1 301 Moved Permanently');
+	array_shift($srv);
+	$srv=join('.',$srv);
+	header('Location: http://'.$srv.$_SERVER['REQUEST_URI']);
+	exit;
+}
 
 $lib=$_SERVER['DOCUMENT_ROOT'].'/lib';
 
@@ -45,10 +54,13 @@ define('OBRAZKY_DATA',$_SERVER['DOCUMENT_ROOT'].'/obrazky');
 
 define('SEARCH_URL','/vyhledavani/'); 
 
-define('TIMEOUT_REGISTRATION',6*3600); 
-define('TIMEOUT_RESET_PASSWD',6*3600); 
-define('TIMEOUT_VZKAZ',6*3600); 
+define('TIMEOUT_REGISTRATION',8*3600); 
+define('TIMEOUT_RESET_PASSWD',8*3600); 
+define('TIMEOUT_VZKAZ',8*3600); 
 
 define('TIPY_DATA',$_SERVER['DOCUMENT_ROOT'].'/tip/tipy.inc'); 
 
+if (substr_count($_SERVER['HTTP_ACCEPT_ENCODING'], 'gzip')){
+	ob_start('ob_gzhandler');
+}
 ?>

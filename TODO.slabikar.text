@@ -7,12 +7,11 @@
 - uživatelé si mohou nastavit znamení horoskopu, to se jim pak bude zobrazovat jako výchozí
 - přehled aktivity uživatelů
 - sitemap.xml - generovat a aktualizovat
-- pngcrush, zmenšení obrázků
-- img.zonglovani.info, static.zonglovani.info - bez cookies, více současných stahování, vyzkoušet rychlost x složitost
 - na úvodní stránce velkým číslem kolik má žonglérův slabikář uživatelů, tlačítko pro založení účtu, vyhledání workshopů, kalendář (s obrázkem)
 - všechny standardní klávesové zkratky, http://www.ippi.cz/standard-klavesovych-zkratek/
 - rozepsat možnosti diskuse, bazar
 - v diskusi nahrazovat zavináč za obrázek
+- v obrázcích linkovaných z jiných webů doplnit "http://zonglovani.info"
 
 
 náčiní - točicí talíř, záchodové zvony
@@ -64,3 +63,4 @@ fanouškovská stránka na facebooku, automatický export rss
 changelog - doplnění odkazu na změněné stránky
 filtr v galeriích
 tip týdne, automaticky měnit, rss
+i.zonglovani.info, f.zonglovani.info - bez cookies, více současných stahování, vyzkoušet rychlost x složitost

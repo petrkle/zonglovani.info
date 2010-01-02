@@ -2,7 +2,7 @@
 Pro vložení odkazu stačí do tvé stránky zkopírovat jeden z následujících kódů.
 </p>
 
-<h2>Textový odkaz</h2>
+<a name="text"><h2>Textový odkaz</h2></a>
 <p>
 <code>
 &lt;a href="http://zonglovani.info"
@@ -13,7 +13,7 @@ Pro vložení odkazu stačí do tvé stránky zkopírovat jeden z následující
 <a href="http://zonglovani.info" title="Obrázková učebnice žonglování.">Žonglérův slabikář</a>
 </p>
 
-<h2>Textový odkaz s popiskem</h2>
+<a name="longtext"><h2>Textový odkaz s popiskem</h2></a>
 <p>
 <code>
 &lt;a href="http://zonglovani.info"
@@ -24,7 +24,7 @@ Pro vložení odkazu stačí do tvé stránky zkopírovat jeden z následující
 <a href="http://zonglovani.info" title="Obrázková učebnice žonglování.">Žonglérův slabikář</a> - obrázková učebnice žonglování. Průvodce světem létajících míčků, kruhů a kuželů.
 </p>
 
-<h2>Ikonka 88x31</h2>
+<a name="smallico"><h2>Ikonka 88x31</h2></a>
 <p>
 <code>
 &lt;a href="http://zonglovani.info"
@@ -37,7 +37,7 @@ Pro vložení odkazu stačí do tvé stránky zkopírovat jeden z následující
 </p>
 
 
-<h2>Ikonka 120x60</h2>
+<a name="ico"><h2>Ikonka 120x60</h2></a>
 <p>
 <code>
 &lt;a href="http://zonglovani.info"
@@ -48,7 +48,7 @@ Pro vložení odkazu stačí do tvé stránky zkopírovat jeden z následující
 <a href="/img/s/slabikar2.gif" title="Žonglérův slabikář"><img src="/img/s/slabikar2.gif" height="60" width="120" border="0" style="border: 0;" alt="Žonglérův slabikář" title="Žonglérův slabikář" /></a>
 </p>
 
-<h2>Ikonka 200x50</h2>
+<a name="bigico"><h2>Ikonka 200x50</h2></a>
 <p>
 <code>
 &lt;a href="http://zonglovani.info"

@@ -10,7 +10,7 @@ function smarty_function_obrazek($params, &$smarty){
 		$link='/img/m/missing.png';
 	}
 	$rozmery=getimagesize($soubor);
-	return ('<img src="'.$link.'" '.$rozmery[3].' title="'.$popisek.'" alt="'.$popisek.'" />');
+	return ('<img src="http://i.'.$_SERVER['SERVER_NAME'].''.$link.'" '.$rozmery[3].' title="'.$popisek.'" alt="'.$popisek.'" />');
 
 }
 

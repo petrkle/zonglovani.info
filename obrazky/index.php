@@ -48,7 +48,7 @@ if($id and $photo){
 			if(isset($gal_info['icbm'])){
 				$smarty->assign('icbm',$gal_info['icbm']);
 			}
-			$smarty->assign('nahled','http://'.$_SERVER['SERVER_NAME'].$obrazky[intval($photo)]['nahled']);
+			$smarty->assign('nahled','http://i.'.$_SERVER['SERVER_NAME'].$obrazky[intval($photo)]['nahled']);
 			$smarty->assign('description',$gal_info['title']);
 			$smarty->assign('titulek',$gal_info['title'].' - '.intval($photo).'. obrázek');
 			$smarty->assign("nadpis",$gal_info['title']);
@@ -163,7 +163,7 @@ function get_galerie_obrazky($galerie){
 							if(is_file(OBRAZKY_DATA.'/'.$galerie.'/nahledy/'.$filename)){
 								$pripona=preg_split('/\./',$filename);
 								$pripona=array_pop($pripona);
-								$foo['obrazek']=OBRAZKY_URL.$galerie.'/'.$filename;
+								$foo['obrazek']='http://i.'.$_SERVER['SERVER_NAME'].OBRAZKY_URL.$galerie.'/'.$filename;
 								$size = getimagesize(OBRAZKY_DATA.'/'.$galerie.'/nahledy/'.$filename);
 								$fsize = getimagesize(OBRAZKY_DATA.'/'.$galerie.'/'.$filename);
 								$foo['sirka']=$size[0];
@@ -173,7 +173,7 @@ function get_galerie_obrazky($galerie){
 								$foo['url']=OBRAZKY_URL.$galerie.'/'.basename($filename,$pripona).'html';
 								$foo['margin_h']=floor((148-$size[0])/2);
 								$foo['margin_v']=floor((148-$size[1])/2);
-								$foo['nahled']=OBRAZKY_URL.$galerie.'/nahledy/'.$filename;
+								$foo['nahled']='http://i.'.$_SERVER['SERVER_NAME'].OBRAZKY_URL.$galerie.'/nahledy/'.$filename;
 				      	array_push($navrat,$foo);
 							}
 					 }

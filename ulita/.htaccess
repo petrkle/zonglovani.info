@@ -1,4 +1,7 @@
 RewriteEngine	on
 RewriteBase /ulita
 
+RewriteCond %{HTTP_HOST} ^www\.(.*)
+RewriteRule (.*) http://%1/ulita/$1 [R=301,QSA,NE,L]
+
 RewriteRule ^(.+)\.html$ $1.php [L]

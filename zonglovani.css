@@ -30,7 +30,7 @@ body {
 #ucet{
 	position: absolute;
 	text-align: right;
-	width: 720px;
+	width: 740px;
 	height: 10px;
 	top: 0;
 	right: 0;
@@ -559,5 +559,11 @@ a.edit {
 }
 .add {
 	background: url("img/a/add.png") 0 50% no-repeat;
+	padding-left: 20px;
+}
+
+#fblink {
+	float: left;
+	background: url("img/f/fbp.png") 0 50% no-repeat;
 	padding-left: 20px;
 }

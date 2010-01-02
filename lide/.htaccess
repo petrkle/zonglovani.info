@@ -1,6 +1,9 @@
 RewriteEngine	on
 RewriteBase /lide
 
+RewriteCond %{HTTP_HOST} ^www\.(.*)
+RewriteRule (.*) http://%1/lide/$1 [R=301,QSA,NE,L]
+
 RewriteRule ^dovednost$ /lide/dovednost/ [R=301,L]
 RewriteRule ^dovednost/$ dovednost.php [L]
 RewriteRule ^dovednost/(.+)\.html$ dovednost.php?filtr=$1 [L]

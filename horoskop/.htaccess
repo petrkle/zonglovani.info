@@ -1,5 +1,9 @@
 RewriteEngine	on
 RewriteBase /horoskop/
+
+RewriteCond %{HTTP_HOST} ^www\.(.*)
+RewriteRule (.*) http://%1/horoskop/$1 [R=301,QSA,NE,L]
+
 RewriteRule zitra$ /horoskop/zitra/ [R=301,L]
 RewriteRule zitra/?$ index.php?zitra=jo [L]
 RewriteRule zitra/(.*).html index.php?znameni=$1&zitra=jo [L]

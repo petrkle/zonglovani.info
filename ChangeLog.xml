@@ -1,6 +1,12 @@
 <?xml version="1.0"?>
 <log>
 <logentry
+   revision="211">
+<author>petr</author>
+<date>2009-12-26T17:55:45.879626Z</date>
+<msg>Nová inkonka na stránce jak odkazovat.</msg>
+</logentry>
+<logentry
    revision="210">
 <author>petr</author>
 <date>2009-12-25T21:51:57.618558Z</date>
@@ -57,7 +63,7 @@
 <msg>Ulita 13. 12. 2009</msg>
 <revprops>
 <property
-   name="svn:link">/obrazky/ulita-20091213/</property>
+   name="svn:link">/obrazky/ulita-20091213/?changelog</property>
 </revprops>
 </logentry>
 <logentry
@@ -77,7 +83,7 @@
 <msg>Možnost změny emailu v uživatelském účtu.</msg>
 <revprops>
 <property
-   name="svn:link">/lide/nastaveni.php</property>
+   name="svn:link">/lide/nastaveni.php?uprav=mail</property>
 </revprops>
 </logentry>
 <logentry
@@ -87,7 +93,7 @@
 <msg>Formulář pro rušení účtu.</msg>
 <revprops>
 <property
-   name="svn:link">/lide/nastaveni.php</property>
+   name="svn:link">/lide/nastaveni.php?uprav=zruseni</property>
 </revprops>
 </logentry>
 <logentry
@@ -97,7 +103,7 @@
 <msg>Doplnění možností v nastavení účtu.</msg>
 <revprops>
 <property
-   name="svn:link">/lide/nastaveni.php</property>
+   name="svn:link">/lide/nastaveni.php?moznosti</property>
 </revprops>
 </logentry>
 <logentry
@@ -107,7 +113,7 @@
 <msg>Rozlišení stránek s nastavením podle titulku.</msg>
 <revprops>
 <property
-   name="svn:link">/lide/nastaveni.php</property>
+   name="svn:link">/lide/nastaveni.php?titulek</property>
 </revprops>
 </logentry>
 <logentry
@@ -127,7 +133,7 @@
 <msg>Ulita + marathon.</msg>
 <revprops>
 <property
-   name="svn:link">/obrazky/</property>
+   name="svn:link">/obrazky/?ulita-marathon</property>
 </revprops>
 </logentry>
 <logentry
@@ -147,7 +153,7 @@
 <msg>Nahrávání fotografie uživatele.</msg>
 <revprops>
 <property
-   name="svn:link">/lide/nastaveni.php</property>
+   name="svn:link">/lide/nastaveni.php?uprav=foto</property>
 </revprops>
 </logentry>
 <logentry
@@ -157,7 +163,7 @@
 <msg>Nastavení internetové stránky v profilu uživatele.</msg>
 <revprops>
 <property
-   name="svn:link">/lide/nastaveni.php</property>
+   name="svn:link">/lide/nastaveni.php?uprav=web</property>
 </revprops>
 </logentry>
 <logentry

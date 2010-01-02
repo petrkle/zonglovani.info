@@ -19,6 +19,7 @@
 	<li><a href="/siteswap.html">Siteswap</a></li>
 	<li><a href="/software.html">Simulátory žonglování</a></li>
 	<li><a href="/trenink.html">Trénink</a></li>
+	<li><a href="/vanoce-2010.html">Veselé vánoce</a></li>
 	<li><a href="/zakladni-pojmy.html">Žonglování - základní pojmy</a></li>
 		<li><a name="chudy"></a><a href="/chudy/">Chůdy</a>
 		

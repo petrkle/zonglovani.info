@@ -26,4 +26,7 @@
 <h3><a href="http://{$smarty.server.SERVER_NAME}{$smarty.const.OBRAZKY_URL}obrazky.rss">http://{$smarty.server.SERVER_NAME}{$smarty.const.OBRAZKY_URL}obrazky.rss</a></h3>
 <p>Obrázky žonglování.</p>
 
+<h3><a href="http://{$smarty.server.SERVER_NAME}/tip/tip.rss">http://{$smarty.server.SERVER_NAME}/tip/tip.rss</a></h3>
+<p>Tip týdne z žonglérova slabikáře.</p>
+
 <p>Návod <a href="{$smarty.const.CALENDAR_URL}rss-a-icalendar.html#rss">jak nastavit RSS</a>.</p>

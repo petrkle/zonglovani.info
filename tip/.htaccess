@@ -1,6 +1,9 @@
 RewriteEngine	on
 RewriteBase /tip
 
+RewriteCond %{HTTP_HOST} ^www\.(.*)
+RewriteRule (.*) http://%1/tip/$1 [R=301,QSA,NE,L]
+
 RewriteCond %{REQUEST_FILENAME}	^.*\.inc$
 RewriteRule ^(.*)$ $1 [F]
 

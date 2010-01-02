@@ -1,3 +1,7 @@
 RewriteEngine	on
 RewriteBase /img/
+
+RewriteCond %{HTTP_HOST} ^www\.(.*)
+RewriteRule (.*) http://%1/img/$1 [R=301,QSA,NE,L]
+
 RewriteRule ^(.)([^/]*).(png|gif|jpg)$ $1/$1$2.$3 [R=301,L]

@@ -68,12 +68,12 @@ Mýty a omyly o žonglování.
 Trocha historie.
 </p>
 
-<h3><a href="/changelog.html" title="Změny v žonglérově slabikáři.">Změny v žonglérově slabikáři</a></h3>
-<p>
-Výpis změn v žonglérově slabikáři (svn&nbsp;log).
-</p>
-
 <h3><a href="/rss.html" title="RSS exporty.">RSS kanály</a></h3>
 <p>
 Upozorňování na novinky v žonglérově slabikáři.
+</p>
+
+<h3><a href="/changelog.html" title="Změny v žonglérově slabikáři.">Změny v žonglérově slabikáři</a></h3>
+<p>
+Výpis změn v žonglérově slabikáři (svn&nbsp;log).
 </p>
