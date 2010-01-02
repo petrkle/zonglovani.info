@@ -8,3 +8,7 @@ RewriteRule ^filtr/([a-zA-Z0-9]+)$ index.php?filtr=$1 [L]
 RewriteRule ^(.+)/$ index.php?id=$1 [L]
 RewriteRule ^(.+)/(.+).html$ index.php?id=$1&photo=$2 [L]
 RewriteRule ^obrazky.rss$ index.php?rss=jo [L]
+
+RewriteCond %{HTTP_REFERER} !^http://(.*)zongl(.*)\.info [NC]
+RewriteCond %{HTTP_REFERER} !^$
+RewriteRule (.+)\.(jpg|png)$ /img/vodoznak.php?galerie&img=$1.$2 [L]

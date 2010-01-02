@@ -4,4 +4,10 @@ RewriteBase /img/
 RewriteCond %{HTTP_HOST} ^www\.(.*)
 RewriteRule (.*) http://%1/img/$1 [R=301,QSA,NE,L]
 
+RewriteCond %{HTTP_REFERER} !^http://(.*)zongl(.*)\.info [NC]
+RewriteCond %{HTTP_REFERER} !^$
+RewriteCond %{SCRIPT_FILENAME} !.*slabikar-fb.png
+RewriteCond %{SCRIPT_FILENAME} !.*ulita.*.png
+RewriteRule (.+)\.(jpg|png)$ /img/vodoznak.php?img=$1.$2 [L]
+
 RewriteRule ^(.)([^/]*).(png|gif|jpg)$ $1/$1$2.$3 [R=301,L]

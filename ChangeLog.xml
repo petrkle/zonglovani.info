@@ -1,6 +1,12 @@
 <?xml version="1.0"?>
 <log>
 <logentry
+   revision="212">
+<author>petr</author>
+<date>2010-01-02T17:59:01.868369Z</date>
+<msg>Zapnutí komprese stránek + samostatné domény pro obrázky a styly.</msg>
+</logentry>
+<logentry
    revision="211">
 <author>petr</author>
 <date>2009-12-26T17:55:45.879626Z</date>
