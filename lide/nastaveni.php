@@ -210,6 +210,44 @@ if(is_logged()){
 				$smarty->display('hlavicka.tpl');
 				$smarty->display('nastaveni-pusobiste.tpl');
 				$smarty->display('paticka.tpl');
+
+		}elseif($uprav=='znameni'){
+
+				require_once('../horoskop/horoskop-data.php');
+
+				if(isset($_POST['odeslat']) and isset($_POST['znameni'])){
+					$zn=$_POST['znameni'];
+					if(!isset($zverokruh[$zn])){
+						$zn='n';
+					}
+					if($zn=='n'){
+						if(is_file(LIDE_DATA.'/'.$_SESSION['uzivatel']['login'].'/znameni.txt')){
+							unlink(LIDE_DATA.'/'.$_SESSION['uzivatel']['login'].'/znameni.txt');
+						}
+					}else{
+						$foo=fopen(LIDE_DATA.'/'.$_SESSION['uzivatel']['login'].'/znameni.txt','w');
+						fwrite($foo,$zn);
+						fclose($foo);
+					}
+
+					$_SESSION['uzivatel']=get_user_props($_SESSION['uzivatel']['login']);
+					header('Location: '.LIDE_URL.basename(__FILE__).'?result=ok');
+					exit();
+				}
+
+				if(isset($_SESSION['uzivatel']['znameni'])){
+					$znameni=$_SESSION['uzivatel']['znameni'];
+				}else{
+					$znameni='n';
+				}
+
+				$smarty->assign('znameni',$znameni);
+				$smarty->assign('zverokruh',$zverokruh);
+				$smarty->assign('titulek','Znamení zvěrokruhu');
+				$smarty->assign('chyby',$chyby);
+				$smarty->display('hlavicka.tpl');
+				$smarty->display('nastaveni-znameni.tpl');
+				$smarty->display('paticka.tpl');
 		
 		}elseif($uprav=='zruseni'){
 			if(isset($_POST['nechat'])){

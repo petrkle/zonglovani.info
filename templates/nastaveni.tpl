@@ -17,5 +17,6 @@
 <li><a href="{$smarty.const.LIDE_URL}nastaveni.php?uprav=vzkaz" title="Změnit zobrazovaný vzkaz.">Upravit vzkaz</a>.</li>
 <li><a href="{$smarty.const.LIDE_URL}nastaveni.php?uprav=web" title="Zadat internetovou stránku.">Internetová stránka</a>.</li>
 <li><a href="{$smarty.const.LIDE_URL}nastaveni.php?uprav=foto" title="Nastavení fotografie.">Nastavit fotografii</a>.</li>
+<li><a href="{$smarty.const.LIDE_URL}nastaveni.php?uprav=znameni" title="Nastavení znamení zvěrokruhu.">Nastavit znamení zvěrokruhu</a>.</li>
 <li><a href="{$smarty.const.LIDE_URL}nastaveni.php?uprav=zruseni" title="Zrušení účtu.">Zrušit účet</a>.</li>
 </ul>
