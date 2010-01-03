@@ -4,7 +4,6 @@
 - obrázek k akci v kalendáři
 - předělat všechny texty do xml
 - export kalendáře (dalších věcí ?) do pdf online
-- uživatelé si mohou nastavit znamení horoskopu, to se jim pak bude zobrazovat jako výchozí
 - přehled aktivity uživatelů
 - sitemap.xml - generovat a aktualizovat
 - na úvodní stránce velkým číslem kolik má žonglérův slabikář uživatelů, tlačítko pro založení účtu, vyhledání workshopů, kalendář (s obrázkem)
@@ -64,3 +63,5 @@ filtr v galeriích
 tip týdne, automaticky měnit, rss
 i.zonglovani.info, f.zonglovani.info - bez cookies, více současných stahování, vyzkoušet rychlost x složitost
 vodoznak v obrázcích linkovaných z jiných webů - "http://zonglovani.info"
+uživatelé si mohou nastavit znamení horoskopu, to se jim pak bude zobrazovat jako výchozí
+proliknovat působiště a dovednosti u žongléra s filtrem

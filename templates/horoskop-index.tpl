@@ -35,12 +35,3 @@ Nevíš co se stane zítra? Přečti si <a href="/horoskop/zitra/" title="Horosk
 <p>
 Předpovědi v horoskopu jsou každý den nové. Vznikají na základě složitých výpočtů a věšteb pomocí <a href="/nacini.html#crystalball" title="Crystal ball - magická žonglérská pomůcka.">crystal ball</a>u. Tím je zaručena přesná předpověď pro každou žonglérku i žongléra.
 </p>
-
-{literal}
-<style>
-.horotable {
- clear: both;
- margin: 2px 10px 7px 20px;
-}
-</style>
-{/literal}

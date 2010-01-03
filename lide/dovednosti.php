@@ -8,7 +8,7 @@ $dovednosti['micky']=array('nazev'=>'Míčky','hodnoty'=>array('n',1,2,3,4,5,6,7
 $dovednosti['micky_passing']=array('nazev'=>'Passing s míčky','hodnoty'=>array('n','a'));
 $dovednosti['bounce']=array('nazev'=>'Skákací míčky','hodnoty'=>array('n',1,2,3,4,5,6,7,8,9));
 $dovednosti['kruhy']=array('nazev'=>'Kruhy','hodnoty'=>array('n',1,2,3,4,5,6,7,8));
-$dovednosti['kruhy_passingl']=array('nazev'=>'Passing s kruhy','hodnoty'=>array('n','a'));
+$dovednosti['kruhy_passing']=array('nazev'=>'Passing s kruhy','hodnoty'=>array('n','a'));
 $dovednosti['kuzely']=array('nazev'=>'Kužely','hodnoty'=>array('n',1,2,3,4,5,6,7));
 $dovednosti['kuzely_passing']=array('nazev'=>'Passing s kužely','hodnoty'=>array('n','a'));
 $dovednosti['kuzely_ohen']=array('nazev'=>'Ohnivé kužely','hodnoty'=>array('n',1,2,3,4,5,6,7));

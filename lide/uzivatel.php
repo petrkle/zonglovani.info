@@ -3,6 +3,7 @@ require('../init.php');
 require('../func.php');
 require('dovednosti.php');
 require('pusobiste.php');
+require('../horoskop/horoskop-data.php');
 
 if(isset($_GET['id'])){
 	$id=$_GET['id'];
@@ -22,43 +23,33 @@ if($uzivatel_props["login"]=="pek" and $_SESSION["uzivatel"]["login"]!="pek"){
 
 $dov=get_user_dovednosti($id);
 if($dov){
-	$bar=array();
-	foreach($dov as $name=>$hodnota){
-		$bar[$name]['hodnota']=$hodnota;
-		if(isset($dovednosti[$name])){
-			$bar[$name]['nazev']=$dovednosti[$name]['nazev'];
-		}
-	}
-	$uzivatel_props['dovednosti']=$bar;
+	$uzivatel_props['dovednosti']=$dov;
+	$smarty->assign('dovednosti',$dovednosti);
 }
 
 $pus=get_user_pusobiste($id);
 if($pus){
-	$bar=array();
-	foreach($pus as $name){
-		if(isset($pusobiste[$name])){
-			array_push($bar,$pusobiste[$name]['nazev']);
-		}
-	}
-	$uzivatel_props['pusobiste']=$bar;
+	$uzivatel_props['pusobiste']=$pus;
+	$smarty->assign('pusobiste',$pusobiste);
 }
 
 if($uzivatel_props['status']=='ok'){
-	$smarty->assign("titulek",$uzivatel_props["jmeno"]);
-	$smarty->assign("nadpis","none");
-	$smarty->assign("notitle",true);
-	$smarty->assign("uzivatel_props",$uzivatel_props);
+	$smarty->assign('titulek',$uzivatel_props['jmeno']);
+	$smarty->assign('nadpis','none');
+	$smarty->assign('notitle',true);
+	$smarty->assign('zverokruh',$zverokruh);
+	$smarty->assign('uzivatel_props',$uzivatel_props);
 
 	$smarty->display('hlavicka.tpl');
 	$smarty->display('uzivatel.tpl');
 	$smarty->display('paticka.tpl');
 }else{
-	require("../404.php");
+	require('../404.php');
 	exit();
 }
 
 }else{
-	require("../404.php");
+	require('../404.php');
 	exit();
 }
 

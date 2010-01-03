@@ -43,6 +43,9 @@ Nacházíš se na své veřejné domovské stránce, která slouží pro tvojí 
 </form>
 </li>
 {/if}
+{if strlen($uzivatel_props.znameni)>0 and $uzivatel_props.znameni!='n'}
+<li>Znamení zvěrokruhu: <a href="/horoskop/{$uzivatel_props.znameni}.html" title="{$zverokruh[$uzivatel_props.znameni].popis} - horoskop na dnešní den.">{$zverokruh[$uzivatel_props.znameni].popis}</a></li>
+{/if}
 </ul>
 </p>
 
@@ -50,8 +53,8 @@ Nacházíš se na své veřejné domovské stránce, která slouží pro tvojí 
 <h3>Žonglérské dovednosti</h3>
 <p>
 <ul>
-{foreach from=$uzivatel_props.dovednosti item=dovednost}
-<li>{$dovednost.nazev|escape}{if $dovednost.hodnota!='a' and $dovednost.hodnota!=1} - {$dovednost.hodnota|escape}{/if}</li>
+{foreach from=$uzivatel_props.dovednosti item=dov key=nazev}
+<li><a href="{$smarty.const.LIDE_URL}dovednost/{$nazev}.html" title="Další žongléři kteří umí {$dovednosti[$nazev].nazev}.">{$dovednosti[$nazev].nazev}</a>{if $dov.hodnota!='a' and $dov.hodnota!=1} - {$dov.hodnota|escape}{/if}</li>
 {/foreach}
 </ul>
 </p>
@@ -62,7 +65,7 @@ Nacházíš se na své veřejné domovské stránce, která slouží pro tvojí 
 <p>
 <ul>
 {foreach from=$uzivatel_props.pusobiste item=misto}
-<li>{$misto|escape}</li>
+<li><a href="{$smarty.const.LIDE_URL}misto/{$misto}.html" title="Další žongléři z {$pusobiste[$misto].nazev}">{$pusobiste[$misto].nazev}</a></li>
 {/foreach}
 </ul>
 </p>
