@@ -10,6 +10,8 @@
 - všechny standardní klávesové zkratky, http://www.ippi.cz/standard-klavesovych-zkratek/
 - rozepsat možnosti diskuse, bazar
 - v diskusi nahrazovat zavináč za obrázek
+- na úvodní stránce doplnit datum tipu týdne
+- adresář /tip/ - zobrazovat odkazy na starší tipy
 
 
 náčiní - točicí talíř, záchodové zvony
@@ -64,4 +66,5 @@ tip týdne, automaticky měnit, rss
 i.zonglovani.info, f.zonglovani.info - bez cookies, více současných stahování, vyzkoušet rychlost x složitost
 vodoznak v obrázcích linkovaných z jiných webů - "http://zonglovani.info"
 uživatelé si mohou nastavit znamení horoskopu, to se jim pak bude zobrazovat jako výchozí
-proliknovat působiště a dovednosti u žongléra s filtrem
+prolinkovat působiště a dovednosti u žongléra s filtrem
+prověřit registraci a přihlašování - login pouze malá písmena

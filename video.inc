@@ -1,6 +1,6 @@
-addicted*http://www.youtube.com/watch?v=tEfjFw1RHh0*Addicted*Volně dostupné <a href="http://www.circuspla.net/addicted/addicted.avi" class="external" onclick="pageTracker._trackPageview('/goto/circuspla.net/addicted/addicted.avi');">DVD o žonglování</a>.
+addicted*http://www.youtube.com/watch?v=tEfjFw1RHh0*Addicted*Volně dostupné <a href="http://www.circusplanet.net/addicted/addicted.avi" class="external" onclick="pageTracker._trackPageview('/goto/circusplanet.net/addicted/addicted.avi');">DVD o žonglování</a>.
 bratri-v-tricku*http://www.youtube.com/watch?v=tTriLX-Sv3A*Bratři v tricku*Něco z českých luhů a háju - Adam a Vašek.
-shake-that*http://circuspla.net/addicted/shakethat.avi*Shake That*Upoutávka na představení žonglujících barmanů <a href="http://www.shakethat.be/" class="external" onclick="pageTracker._trackPageview('/goto/shakethat.be');">shakethat.be</a>. Nebo snad míchajících žonglérů?
+shake-that*http://circusplanet.net/addicted/shakethat.avi*Shake That*Upoutávka na představení žonglujících barmanů <a href="http://www.shakethat.be/" class="external" onclick="pageTracker._trackPageview('/goto/shakethat.be');">shakethat.be</a>. Nebo snad míchajících žonglérů?
 stepz*http://juggling.tv:1186*Stepz*Čtyři žongléři z Říma.
 passing-zone*http://www.youtube.com/watch?v=lzZ50SbOm-A*The Passing Zone*Owen Morse a Jon Wee předvádí balet s motorovými pilami a spoustu dalších nebezpečných, ale zábavných kousků.
 4000000-extreme-juggling*http://www.youtube.com/watch?v=ZrrVsH5QEeM*4,000,000% Extreme Juggling*Alan a Thom <a href="/kuzely/passing/" title="Více o passingu.">passují</a> s kužely. Video z tréninku který se uskutečnil 5. dubna 2008.

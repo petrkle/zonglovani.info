@@ -22,6 +22,7 @@ document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.
 </script>
 <script type="text/javascript">
 var pageTracker = _gat._getTracker("UA-1140497-3");
+pageTracker._setDomainName("none");
 pageTracker._initData();
 pageTracker._trackPageview();
 </script>

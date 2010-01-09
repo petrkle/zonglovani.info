@@ -60,7 +60,7 @@ define('TIMEOUT_VZKAZ',8*3600);
 
 define('TIPY_DATA',$_SERVER['DOCUMENT_ROOT'].'/tip/tipy.inc'); 
 
-if (substr_count($_SERVER['HTTP_ACCEPT_ENCODING'], 'gzip')){
-	ob_start('ob_gzhandler');
-}
+#if (substr_count($_SERVER['HTTP_ACCEPT_ENCODING'], 'gzip')){
+#	ob_start('ob_gzhandler');
+#}
 ?>

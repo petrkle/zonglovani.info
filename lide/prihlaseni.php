@@ -17,8 +17,8 @@ $smarty->assign("next",$next);
 
 if(isset($_POST["login"]) and isset($_POST["heslo"]) and isset($_GET["action"])){
 	$chyby=array();
-	$input_login=trim($_POST["login"]);
-	$input_heslo=trim($_POST["heslo"]);
+	$input_login=strtolower(trim($_POST['login']));
+	$input_heslo=trim($_POST['heslo']);
 	$uzivatel=get_user_props($input_login);
 	if($uzivatel){
 		if($uzivatel['status']=='locked'){
@@ -36,7 +36,7 @@ if(isset($_POST["login"]) and isset($_POST["heslo"]) and isset($_GET["action"]))
 			$smarty->display('paticka.tpl');
 			exit();
 		}
-		$passwd_hash=trim(array_pop(file(LIDE_DATA."/".$uzivatel["login"]."/passwd.sha1")));
+		$passwd_hash=trim(array_pop(file(LIDE_DATA.'/'.$uzivatel['login'].'/passwd.sha1')));
 		if(sha1($input_heslo.$input_login)==$passwd_hash){
 			# úspěšné přihlášení
 			$_SESSION['uzivatel']=$uzivatel;

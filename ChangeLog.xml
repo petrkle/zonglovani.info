@@ -1,6 +1,24 @@
 <?xml version="1.0"?>
 <log>
 <logentry
+   revision="215">
+<author>petr</author>
+<date>2010-01-03T14:28:55.054934Z</date>
+<msg>Vzájemné odkazy mezi profily uživatelů a filtry působiště a dovedností.</msg>
+</logentry>
+<logentry
+   revision="214">
+<author>petr</author>
+<date>2010-01-03T14:27:02.754995Z</date>
+<msg>Možnost nastavení znamení zvěrokruhu.</msg>
+</logentry>
+<logentry
+   revision="213">
+<author>petr</author>
+<date>2010-01-02T20:20:26.735367Z</date>
+<msg>Vodoznak u obrázků zobrazovaných na jiných serverech.</msg>
+</logentry>
+<logentry
    revision="212">
 <author>petr</author>
 <date>2010-01-02T17:59:01.868369Z</date>
@@ -10,7 +28,7 @@
    revision="211">
 <author>petr</author>
 <date>2009-12-26T17:55:45.879626Z</date>
-<msg>Nová inkonka na stránce jak odkazovat.</msg>
+<msg>Nová ikonka na stránce jak odkazovat.</msg>
 </logentry>
 <logentry
    revision="210">

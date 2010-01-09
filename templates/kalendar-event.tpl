@@ -41,5 +41,5 @@
 {/if}
 
 <p>
-<a href="{$udalost.month_url}" title="Návrat do kalendáře.">&laquo; zpět do kalendáře</a>
+<a href="{$udalost.month_url}" title="Návrat do kalendáře.">&laquo; Zpět do kalendáře</a>
 </p>

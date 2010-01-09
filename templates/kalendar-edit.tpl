@@ -48,6 +48,6 @@
 </form>
 
 <p>
-<a href="{$smarty.const.CALENDAR_URL}" title="Návrat do kalendáře.">&laquo; zpět do kalendáře</a>
+<a href="{$smarty.const.CALENDAR_URL}" title="Návrat do kalendáře.">&laquo; Zpět do kalendáře</a>
 </p>
 

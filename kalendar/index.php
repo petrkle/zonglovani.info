@@ -72,17 +72,18 @@ $smarty->assign_by_ref('month', $weeksInMonth);
 $monthNumber = date('n',$month->getTimeStamp());
 $monthName = $mesice[$monthNumber-1]." ".date('Y',$month->getTimeStamp());
 $smarty->assign('monthName', $monthName);
-$titulek="Kalendář žonglérských akcí";
+$titulek='Kalendář žonglování';
 
 if(date('Y',$now)==$rok and date('m',$now)==$mesic){
 	$smarty->assign('dnesek', date('j',$now));
 	$smarty->assign("titulek",$titulek);
 }else{
 	$smarty->assign('dnesek',false);
-	$smarty->assign("titulek","$titulek - $monthName");
+	$smarty->assign('titulek',$titulek.' - '.$monthName);
 }
 
-$smarty->assign("nadpis","$monthName");
+$smarty->assign('caption',$monthName);
+$smarty->assign('nadpis',$titulek);
 
 $smarty->assign("keywords",make_keywords($titulek).", $monthName");
 
