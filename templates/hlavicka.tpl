@@ -12,7 +12,8 @@
 	<link rel="shortcut icon" href="/favicon.ico" />
 	<link rel="alternate" title="Žonglérův slabikář" href="http://{$smarty.server.SERVER_NAME}/zonglovani.rss" type="application/rss+xml" />
 	<link rel="alternate" title="Obrázky žonglování" href="http://{$smarty.server.SERVER_NAME}{$smarty.const.OBRAZKY_URL}obrazky.rss" type="application/rss+xml" />
-	<link rel="alternate" title="Kalendář žonglérských akcí" href="http://{$smarty.server.SERVER_NAME}{$smarty.const.CALENDAR_URL}kalendar.rss" type="application/rss+xml" />
+	<link rel="alternate" title="Kalendář žonglování" href="http://{$smarty.server.SERVER_NAME}{$smarty.const.CALENDAR_URL}kalendar.rss" type="application/rss+xml" />
+	<link rel="alternate" title="Tip týdne pro žongléry" href="http://{$smarty.server.SERVER_NAME}/tip/tip.rss" type="application/rss+xml" />
 	<link rel="alternate" title="Diskuse o žonglování" href="http://{$smarty.server.SERVER_NAME}{$smarty.const.DISKUSE_URL}zpravy.rss" type="application/rss+xml" />
 	<link rel="alternate" title="Aktualizace žonglérova slabikáře" href="http://{$smarty.server.SERVER_NAME}/ostatni/changelog.rss" type="application/rss+xml" />
 {*{if isset($rsslink)}<link rel="alternate" title="" href="{$rsslink|escape}" type="application/rss+xml" />{/if}*}

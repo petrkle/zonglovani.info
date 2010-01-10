@@ -21,6 +21,7 @@ $dovednosti['poi']=array('nazev'=>'Poi','hodnoty'=>array('n',1,2,3,4));
 $dovednosti['poi_ohen']=array('nazev'=>'Zapálené poi','hodnoty'=>array('n',1,2,3,4));
 $dovednosti['tyc']=array('nazev'=>'Manipulace s tyčí','hodnoty'=>array('n',1,2,3,4));
 $dovednosti['tyc_ohen']=array('nazev'=>'Manipulace se zapálenou tyčí','hodnoty'=>array('n',1,2,3,4));
+$dovednosti['plivani']=array('nazev'=>'Plivání ohně','hodnoty'=>array('n','a'));
 $dovednosti['cygarbox']=array('nazev'=>'Cigar boxy','hodnoty'=>array('n',1,2,3,4,5));
 $dovednosti['jednokolka']=array('nazev'=>'Jednokolka','hodnoty'=>array('n','a'));
 $dovednosti['boty']=array('nazev'=>'Skákací boty','hodnoty'=>array('n','a'));
@@ -31,5 +32,8 @@ $dovednosti['chudy']=array('nazev'=>'Chůdy','hodnoty'=>array('n','a'));
 $dovednosti['hrazda']=array('nazev'=>'Visutá hrazda','hodnoty'=>array('n','a'));
 $dovednosti['rolabola']=array('nazev'=>'Rola bola','hodnoty'=>array('n','a'));
 $dovednosti['talir']=array('nazev'=>'Točení talířem na tyčce','hodnoty'=>array('n','a'));
-$dovednosti['plivani']=array('nazev'=>'Plivání ohně','hodnoty'=>array('n','a'));
+$dovednosti['balonky']=array('nazev'=>'Zvířátka z nafukovacích balónků','hodnoty'=>array('n','a'));
+$dovednosti['pantomima']=array('nazev'=>'Pantomima','hodnoty'=>array('n','a'));
+$dovednosti['klaun']=array('nazev'=>'Klauniáda','hodnoty'=>array('n','a'));
+$dovednosti['mic']=array('nazev'=>'Balancování na míči','hodnoty'=>array('n','a'));
 ?>

@@ -415,7 +415,7 @@ function get_tipy(){
 				$radek=preg_split('/\*/',trim($radek));
 				$cas=strtotime($radek[0])+(5*3600);
 				if($cas<time()){
-					array_push($navrat,array('cas'=>$cas,'cas_mr'=>date('c',$cas),'nadpis'=>$radek[1],'link'=>$radek[2],'obrazek'=>$radek[3],'text'=>$radek[4]));
+					array_push($navrat,array('cas'=>$cas,'cas_mr'=>date('c',$cas),'cas_hr'=>date('j. n. Y',$cas),'nadpis'=>$radek[1],'link'=>$radek[2],'obrazek'=>$radek[3],'text'=>$radek[4]));
 				}
 			}
 		}

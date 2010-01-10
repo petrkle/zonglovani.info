@@ -8,8 +8,8 @@ function smarty_function_vypismenu($params, &$smarty){
 	$navrat="<ul>\n";
 
 	for($foo=0;$foo<count($adresy);$foo++){
-		if($_SERVER["REQUEST_URI"]==$adresy[$foo] and !isset($_GET["show"])){
-			if(($_SERVER["REQUEST_URI"]!="/")){
+		if($_SERVER['REQUEST_URI']==$adresy[$foo] and !isset($_GET['show'])){
+			if(($_SERVER['REQUEST_URI']!='/')){
 				$navrat.="<li><h4>".$texty[$foo]."</h4>\n";
 			};
 		}else{

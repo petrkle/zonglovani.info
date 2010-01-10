@@ -1,10 +1,10 @@
 {if is_array($tipy) and count($tipy)>0}
-<h3>Starší tipy týdne</h3>
 <p>
+Tip týdne a ostatní aktualizace žonglérova slabikáře můžeš sledovat pomocí <a href="/rss.html" title="Automatické doručování informace o změnách">rss</a>.
+</p>
 <ul>
 {foreach from=$tipy item=foo key=datum}
-<li><a href="{$datum|regex_replace:'/^(....)(..)/':'\1/\2'}/" title="">{$foo.nadpis|escape}</a> - {$datum|regex_replace:'/^(....)(..)/':'\2/\1'}</li>
+<li><a href="{$foo.link}" title="{$foo.nadpis|escape}">{$foo.nadpis|escape}</a> - {$foo.cas_hr}</li>
 {/foreach}
 </ul>
-</p>
 {/if}
