@@ -19,7 +19,7 @@ $pagerOptions = array(
     'mode'     => 'Sliding',
     'delta'    => 2,
 		'firstLinkTitle' => 'První stránka',
-    'perPage'  => 50,
+    'perPage'  => 5,
     'altPrev'  => 'Předchozí stránka',
     'altNext'  => 'Další stránka',
     'altPage'  => 'Stránka',
@@ -27,6 +27,7 @@ $pagerOptions = array(
     'spacesBeforeSeparator'  => 1,
     'spacesAfterSeparator'  => 1,
 		'append'   => false,
+		'firstLinkNull'   => true,
 		'fileName' => 'stranka%d/', 
     'itemData' => $loginy,
 );

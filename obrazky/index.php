@@ -34,10 +34,46 @@ if($rss){
 	exit();
 }
 
-if($id and $photo){
+if($id){
 	$gal_info=get_galerie_info($id);
 	if(isset($gal_info['title'])){
+		require($lib.'/Pager/Pager.php');
 		$obrazky=get_galerie_obrazky($id);
+
+		$pagerOptions = array(
+				'mode'     => 'Sliding',
+				'delta'    => 2,
+				'firstLinkTitle' => 'První stránka',
+				'perPage'  => 15,
+				'altPrev'  => 'Předchozí stránka',
+				'altNext'  => 'Další stránka',
+				'altPage'  => 'Stránka',
+				'separator'  => '~',
+				'spacesBeforeSeparator'  => 1,
+				'spacesAfterSeparator'  => 1,
+				'append'   => false,
+				'firstLinkNull'   => true,
+				'path'   => OBRAZKY_URL.$id,
+				'fileName' => 'stranka%d/', 
+				'itemData' => $obrazky,
+		);
+		$pager =& Pager::factory($pagerOptions);
+		$data = $pager->getPageData();
+		$smarty->assign('items', $data);
+		$smarty->assign('pager_links', $pager->links);
+		$smarty->assign(
+				'page_numbers', array(
+						'current' => $pager->getCurrentPageID(),
+						'total'   => $pager->numPages()
+				)
+		);
+
+	}else{
+	require("../404.php");
+	exit();
+	}
+}
+if($id and $photo){
 		if(isset($obrazky[intval($photo)])){
 			if(isset($obrazky[intval($photo)+1])){
 				$smarty->assign('dalsi',$obrazky[intval($photo)+1]['url']);
@@ -48,6 +84,7 @@ if($id and $photo){
 			if(isset($gal_info['icbm'])){
 				$smarty->assign('icbm',$gal_info['icbm']);
 			}
+			$smarty->assign('stranka',$pager->getPageIdByOffset($photo));
 			$smarty->assign('nahled','http://i.'.$_SERVER['SERVER_NAME'].$obrazky[intval($photo)]['nahled']);
 			$smarty->assign('description',$gal_info['title']);
 			$smarty->assign('titulek',$gal_info['title'].' - '.intval($photo).'. obrázek');
@@ -61,28 +98,19 @@ if($id and $photo){
 			require("../404.php");
 			exit();
 		}
-	}else{
-		require("../404.php");
-		exit();
-	}
 
 }elseif($id and !$photo){
-	$gal_info=get_galerie_info($id);
-	if(isset($gal_info['title'])){
+
 		if(isset($gal_info['icbm'])){
 			$smarty->assign('icbm',$gal_info['icbm']);
 		}
 		$smarty->assign('titulek',$gal_info['title'].' - obrázky žonglování');
 		$smarty->assign('nadpis',$gal_info['title']);
 		$smarty->assign('gal_info',$gal_info);
-		$smarty->assign('obrazky',get_galerie_obrazky($id));
 		$smarty->display('hlavicka.tpl');
 		$smarty->display('obrazky.tpl');
 		$smarty->display('paticka.tpl');
-	}else{
-	require("../404.php");
-	exit();
-	}
+
 }elseif($filtr){
 	$smarty->assign('titulek',$filtr.' - filtr obrázků');
 	$smarty->assign('nadpis',$filtr.' - filtr obrázků');

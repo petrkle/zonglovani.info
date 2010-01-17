@@ -1,5 +1,5 @@
 <?php
-require_once 'Pager/Pager.php';
+require_once $_SERVER['DOCUMENT_ROOT'].'/lib'.'/Pager/Pager.php';
 
 //create dummy array of data
 $myData = array();

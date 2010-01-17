@@ -406,6 +406,8 @@ class Pager_Common
      */
     var $_closeSession  = false;
 
+    var $_firstLinkNull  = false;
+
     /**
      * @var string name of the session var for number of items per page
      * @access private
@@ -455,6 +457,8 @@ class Pager_Common
      * @access private
      */
     var $_allowed_options = array(
+        'firstLinkNull',
+        'totalItems',
         'totalItems',
         'perPage',
         'delta',
@@ -832,12 +836,17 @@ class Pager_Common
             if ($this->_append) {
                 $href = '?' . $this->_http_build_query_wrapper($this->_linkData);
             } else {
-                $href = str_replace('%d', $this->_linkData[$this->_urlVar], $this->_fileName);
+                if(($this->_linkData[$this->_urlVar]==1 and $this->_firstLinkNull)){
+                    $href = '';
+                }else{
+                    $href = str_replace('%d', $this->_linkData[$this->_urlVar], $this->_fileName);
+                }
             }
             $onclick = '';
             if (array_key_exists($this->_urlVar, $this->_linkData)) {
                 $onclick = str_replace('%d', $this->_linkData[$this->_urlVar], $this->_onclick);
             }
+
             return sprintf('<a href="%s"%s%s%s%s title="%s">%s</a>',
                            htmlentities($this->_url . $href, ENT_COMPAT, 'UTF-8'),
                            empty($this->_classString) ? '' : ' '.$this->_classString,
@@ -1323,7 +1332,7 @@ class Pager_Common
      */
     function getPerPageSelectBox($start=5, $end=30, $step=5, $showAllData=false, $extraParams=array())
     {
-        include_once 'Pager/HtmlWidgets.php';
+        include_once $_SERVER['DOCUMENT_ROOT'].'/lib/Pager/HtmlWidgets.php';
         $widget = new Pager_HtmlWidgets($this);
         return $widget->getPerPageSelectBox($start, $end, $step, $showAllData, $extraParams);
     }
@@ -1349,7 +1358,7 @@ class Pager_Common
      */
     function getPageSelectBox($params = array(), $extraAttributes = '')
     {
-        include_once 'Pager/HtmlWidgets.php';
+        include_once $_SERVER['DOCUMENT_ROOT'].'/lib/Pager/HtmlWidgets.php';
         $widget = new Pager_HtmlWidgets($this);
         return $widget->getPageSelectBox($params, $extraAttributes);
     }

@@ -1,6 +1,6 @@
 {if $obrazek}
 <a name="nahore"></a>
-{if $predchozi}<span class="navigace"><a href="{$predchozi|escape}" title="Zobrazit předchozí obrázek">&laquo; Předchozí obrázek</a> ~ </span>{/if}<a href="." title="Celá galerie">{$nadpis|escape}</a>{if $dalsi}<span class="navigace"> ~ <a href="{$dalsi|escape}" title="Zobrazit další obrázek">Další obrázek &raquo;</a></span>{/if}
+{if $predchozi}<span class="navigace"><a href="{$predchozi|escape}" title="Zobrazit předchozí obrázek">&laquo; Předchozí obrázek</a> ~ </span>{/if}<a href="{if $stranka==1}.{else}stranka{$stranka}/{/if}" title="Celá galerie">{$nadpis|escape}</a>{if $dalsi}<span class="navigace"> ~ <a href="{$dalsi|escape}" title="Zobrazit další obrázek">Další obrázek &raquo;</a></span>{/if}
 
 <p class="obrazek">
 {if $dalsi}<a href="{$dalsi|escape}" title="Zobrazit další obrázek">{else}<a href="." title="Zobrazí celou galerii">{/if}<img src="{$obrazek.obrazek|escape}" alt="{$nadpis|escape}" width="{$obrazek.fsirka|escape}" height="{$obrazek.fvyska|escape}"/></a>

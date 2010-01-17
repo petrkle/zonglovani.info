@@ -97,6 +97,7 @@ class Pager_Sliding extends Pager_Common
      */
     function getPageIdByOffset($index)
     {
+        return(ceil(($index+1)/$this->_perPage));
     }
 
     // }}}
@@ -235,7 +236,6 @@ class Pager_Sliding extends Pager_Common
                 }
                 for ($i = $this->_currentPage - $this->_delta - $expansion_before; $expansion_before; $expansion_before--, $i++) {
                     $print_separator_flag = ($i != $this->_currentPage + $this->_delta); // && ($i != $this->_totalPages - 1)
-                    
                     $this->range[$i] = false;
                     $this->_linkData[$this->_urlVar] = $i;
                     $links .= $this->_renderLink(str_replace('%d', $i, $this->_altPage), $i)
