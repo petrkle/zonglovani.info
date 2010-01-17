@@ -2,9 +2,9 @@
 Pravidelné nedělní žonglování v <a href="cesta.html" title="Jak se dostat do Ulity">DDM Ulita</a>. Žongluje se ve <a href="/obrazky/ulita-20091213/0059.html" title="Obrázek velkého sálu.">velkém sále</a> kde je: <strong>vysoký strop</strong>, měkká podlaha, ozvučení, pódium  pro případné vystoupení, okna a disco koule.
 </p>
 <div class="obrazkovnik">
-<a href="/obrazky/ulita-20091213/0010.html">{obrazek soubor='uso.jpg' popisek=''}</a>
-<a href="/obrazky/ulita-20091213/0012.html">{obrazek soubor='usp.jpg' popisek=''}</a>
-<a href="/obrazky/ulita-20091213/0016.html">{obrazek soubor='usq.jpg' popisek=''}</a>
+<a href="/obrazky/ulita-20100110/0005.html">{obrazek soubor='ust.jpg' popisek=''}</a>
+<a href="/obrazky/ulita-20100110/0019.html">{obrazek soubor='usu.jpg' popisek=''}</a>
+<a href="/obrazky/ulita-20100110/0001.html">{obrazek soubor='usr.jpg' popisek=''}</a>
 <br /><a href="/obrazky/filtr/Ulita" title="Další obrázky z žonglování v Ulitě.">Další obrázky &raquo;</a>
 </div>
 <p>

@@ -43,7 +43,7 @@ function get_seznam_triku($jake){
 	return $vypis;
 }
 
-$trans = array("ě" => "ez","š" => "sz","č" => "cz","ř" => "rz","ž" => "zz","ý" => "yz","á" => "az","í" => "iz","é" => "ez","ú" => "uz","ů" => "uz","ď" => "dz","ť" => "tz","ň" => "nz","Ě" => "Ez","Š" => "Sz","Č" => "Cz","Ř" => "Rz","Ž" => "Zz","Ý" => "Yz","Á" => "Az","Í" => "Iz","É" => "Ez","Ú" => "Uz","Ů" => "Uz","Ď" => "Dz","Ť" => "Tz","Ň" => "Nz"," " => "_z");
+$trans = array('ě' => 'ez','š' => 'sz','č' => 'cz','ř' => 'rz','ž' => 'zz','ý' => 'yz','á' => 'az','í' => 'iz','é' => 'ez','ú' => 'uz','ů' => 'uz','ď' => 'dz','ť' => 'tz','ň' => 'nz','Ě' => 'Ez','Š' => 'Sz','Č' => 'Cz','Ř' => 'Rz','Ž' => 'Zz','Ý' => 'Yz','Á' => 'Az','Í' => 'Iz','É' => 'Ez','Ú' => 'Uz','Ů' => 'Uz','Ď' => 'Dz','Ť' => 'Tz','Ň' => 'Nz',' ' => '_z');
 
 function sort_by_title($a, $b){
 	global $trans;
@@ -75,22 +75,22 @@ function get_videa($db){
 			$url="$id.html";	
 			$druh="flash";
 
-			if(ereg("^http://juggling\.tv:",$link)){
-				$fid=explode(".tv:",$link);
+			if(ereg('^http://juggling\.tv:',$link)){
+				$fid=explode('.tv:',$link);
 				$fid=$fid[1];
-				$server="juggling.tv";
+				$server='juggling.tv';
 			}else{
-				$fid=explode("watch?v=",$link);
+				$fid=explode('watch?v=',$link);
 				$fid=$fid[1];
-				$server="youtube.com";
+				$server='youtube.com';
 			}
 
 		}else{
-			$druh="file";
-			$fid="";
-			$server="";
+			$druh='file';
+			$fid='';
+			$server='';
 		}
-		array_push($navrat,array("id"=>$id,"url"=>$url,"title"=>$title,"desc"=>$description,"druh"=>$druh,"fid"=>$fid,"server"=>$server));
+		array_push($navrat,array('id'=>$id,'url'=>$url,'title'=>$title,'desc'=>$description,'druh'=>$druh,'fid'=>$fid,'server'=>$server));
 	}
 
 	return $navrat;
@@ -118,14 +118,14 @@ function quoted_printable_encode($sString) {
 }
 
 function get_antispam(){
-	$cislice=array("1"=>"jedna","2"=>"dva","3"=>"tři","5"=>"pět","7"=>"sedm","8"=>"osm","9"=>"devět");
-	$znamenka=array("+"=>"plus","-"=>"mínus","*"=>"krát");
+	$cislice=array('1'=>'jedna','2'=>'dva','3'=>'tři','5'=>'pět','7'=>'sedm','8'=>'osm','9'=>'devět');
+	$znamenka=array('+'=>'plus','-'=>'mínus','*'=>'krát');
 
 	$prvni=array_rand($cislice);
 	$druha=array_rand($cislice);
 	$znamenko=array_rand($znamenka);
 
-	$otazka=ucfirst($cislice[$prvni]." ".$znamenka[$znamenko]." ".$cislice[$druha]);
+	$otazka=ucfirst($cislice[$prvni].' '.$znamenka[$znamenko].' '.$cislice[$druha]);
 	eval("\$odpoved = $prvni $znamenko $druha;");
 
 	return array($otazka,$odpoved);
@@ -311,20 +311,20 @@ function is_logged(){
 
 function make_keywords($text){
 	$navrat=array();
-	$text=preg_replace("/,/"," ",$text);
-	$text=preg_replace("/-/"," ",$text);
-	$text=strtolower(preg_replace("/  /"," ",$text));
-	$text=preg_split("/ /",$text);
+	$text=preg_replace('/,/',' ',$text);
+	$text=preg_replace('/-/',' ',$text);
+	$text=strtolower(preg_replace('/  /',' ',$text));
+	$text=preg_split('/ /',$text);
 	foreach($text as $foo){
 		if(strlen($foo)>=3){
 			array_push($navrat,$foo);
 		}
 	}
 	if(count($navrat)<2){
-		array_push($navrat,"žonglování","míčky","kruhy","kužely");
+		array_push($navrat,'žonglování','míčky','kruhy','kužely');
 	}
 
-	$navrat=preg_replace("/ /",", ",join(" ",$navrat));
+	$navrat=preg_replace('/ /',', ',join(' ',$navrat));
 	return $navrat;
 }
 

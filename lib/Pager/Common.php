@@ -211,7 +211,7 @@ class Pager_Common
      * @var string alt text for "first page" (use "%d" placeholder for page number)
      * @access private
      */
-    var $_altFirst     = 'PrvnÌ str·nka';
+    var $_altFirst     = 'Prvn√≠ str√°nka';
 
     /**
      * @var string alt text for "previous page"
@@ -229,7 +229,7 @@ class Pager_Common
      * @var string alt text for "last page" (use "%d" placeholder for page number)
      * @access private
      */
-    var $_altLast     = 'PoslednÌ str·nka';
+    var $_altLast     = 'Posledn√≠ str√°nka';
 
     /**
      * @var string alt text for "page" (use optional "%d" placeholder for page number)

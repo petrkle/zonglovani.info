@@ -1,10 +1,8 @@
 <?php
 require('../init.php');
 require('../func.php');
+require($lib.'/Pager/Pager.php');
 
-require_once('Pager/Pager.php');
-
-$smarty->assign("rsslink",'http://'.$_SERVER["SERVER_NAME"].DISKUSE_URL.'zpravy.rss');
 $zpravy=get_diskuse_zpravy();
 
 $pagerOptions = array(
@@ -26,14 +24,14 @@ $pager =& Pager::factory($pagerOptions);
 
 //fetch the paged data into the $data variable
 $data = $pager->getPageData();
-if(!isset($_GET["pageID"]) and !isset($_GET["rss"])){
+
+if(!isset($_GET['pageID']) and !isset($_GET['rss'])){
 	header('HTTP/1.1 301 Moved Permanently');
 	header('Location: '.DISKUSE_URL.'stranka'.$pager->numPages().'.html');
 	exit();
 }
 
-$smarty->assign("titulek","Diskuse o žonglování");
-$smarty->assign("zpravy",$zpravy);
+$smarty->assign('titulek','Diskuse o žonglování');
 $smarty->assign('items', $data);
 $smarty->assign('pager_links', $pager->links);
 $smarty->assign(
@@ -44,7 +42,7 @@ $smarty->assign(
 );
 
 
-if(isset($_GET["rss"])){
+if(isset($_GET['rss'])){
 	header('Content-Type: application/rss+xml');
 	$smarty->display('diskuse-rss.tpl');
 }else{

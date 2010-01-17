@@ -1,11 +1,16 @@
-{if is_array($uzivatele)}
+{if is_array($items)}
 <p>
 <ul>
-{foreach from=$uzivatele item=uzivatel}
+{foreach from=$items item=uzivatel}
 <li><a href="{$smarty.const.LIDE_URL}{$uzivatel|escape}.html" title="Profil uživatele {$uzivatel|escape}">{$uzivatel|escape}</a></li>
 {/foreach}
 </ul>
 </p>
+{if $page_numbers.total > 1}
+<p>
+Stránkování: {$pager_links}
+</p>
+{/if}
 {/if}
 {if $smarty.session.logged!=true}
 <h3>Výhody pro registrované uživatele</h3>

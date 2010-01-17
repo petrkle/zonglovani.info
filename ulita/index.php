@@ -2,6 +2,11 @@
 require('../init.php');
 require('../func.php');
 
+if(preg_match('/^\/ulita\/\?.*2010..$/',$_SERVER['REQUEST_URI'])){
+	header('Location: /ulita/');
+	exit();
+}
+
 $smarty->assign('titulek','Žonglování v Ulitě');
 $smarty->assign('nahled','http://'.$_SERVER['SERVER_NAME'].'/img/u/ulita.cz.png');
 $smarty->assign('description','Pravidelné nedělní žonglování v DDM Ulita. Přijít mohou začínající i zkušení žongléři a žonglérky. Pro širokou veřejnost jsou k dispozici míčky a kužely k zapůjčení. Žonglovat se může naučit opravdu každý.');
@@ -41,7 +46,7 @@ function to_ulita($datumy){
 	foreach($datumy as $foo){
 		$datum=strtotime($foo['datum'].$konecakce);
 		if($datum>time()){
-			array_push($navrat,array('datum'=>date("j. n.",$datum),'url'=>$foo['url']));
+			array_push($navrat,array('datum'=>date('j. n.',$datum),'url'=>$foo['url']));
 		}
 	}
 	return $navrat;

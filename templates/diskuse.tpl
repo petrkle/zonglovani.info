@@ -1,4 +1,4 @@
-{if is_array($zpravy)}
+{if is_array($items)}
 {foreach from=$items item=zprava}
 
 <a name="{$zprava.cas|escape}"></a>

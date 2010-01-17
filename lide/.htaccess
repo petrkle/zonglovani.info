@@ -12,6 +12,8 @@ RewriteRule ^misto$ /lide/misto/ [R=301,L]
 RewriteRule ^misto/$ misto.php [L]
 RewriteRule ^misto/(.+)\.html$ misto.php?filtr=$1 [L]
 
+RewriteRule ^stranka([^/]+)$ /lide/stranka$1/ [R=301,L]
+RewriteRule ^stranka(.+)/$ index.php?pageID=$1 [L]
 RewriteRule ^(.+)\.html$ uzivatel.php?id=$1 [L]
 RewriteRule ^foto/(.+)\.jpg$ foto.php?id=$1 [L]
 RewriteRule ^uzivatele.rss$ rss.php [L]

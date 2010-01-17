@@ -170,7 +170,7 @@ class Pager
     {
         $mode = (isset($options['mode']) ? ucfirst($options['mode']) : 'Jumping');
         $classname = 'Pager_' . $mode;
-        $classfile = 'Pager' . DIRECTORY_SEPARATOR . $mode . '.php';
+        $classfile = $_SERVER['DOCUMENT_ROOT'].'/lib/'.'/Pager' . DIRECTORY_SEPARATOR . $mode . '.php';
 
         // Attempt to include a custom version of the named class, but don't treat
         // a failure as fatal.  The caller may have already included their own
