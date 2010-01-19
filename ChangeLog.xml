@@ -1,10 +1,16 @@
 <?xml version="1.0"?>
 <log>
 <logentry
+   revision="220">
+<author>petr</author>
+<date>2010-01-19T20:29:16.308558Z</date>
+<msg>Stránkování obrázků - rozdělení na adresáře.</msg>
+</logentry>
+<logentry
    revision="219">
 <author>petr</author>
 <date>2010-01-17T21:54:05.388413Z</date>
-<msg>Stránkování obrárzků.</msg>
+<msg>Stránkování obrázků.</msg>
 </logentry>
 <logentry
    revision="218">

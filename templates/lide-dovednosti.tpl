@@ -3,7 +3,7 @@
 <p>
 <ul>
 {foreach from=$dovednosti item=dovednost key=nazev}
-<li><a href="{$smarty.const.LIDE_URL}dovednost/{$nazev|escape}.html" title="Žongléři nabízející {$dovednost.nazev|escape}.">{$dovednost.nazev|escape}</a></li>
+<li><a href="{$smarty.const.LIDE_URL}dovednost/{$nazev|escape}.html" title="Žongléři kteří umí {$dovednost.umi|escape}.">{$dovednost.nazev|escape}</a></li>
 {/foreach}
 </ul>
 </p>

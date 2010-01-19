@@ -3,7 +3,7 @@
 <p>
 <ul>
 {foreach from=$pusobiste item=misto key=nazev}
-<li><a href="{$smarty.const.LIDE_URL}misto/{$nazev|escape}.html" title="Žongléři z {$misto.nazev|escape}.">{$misto.nazev|escape}</a></li>
+<li><a href="{$smarty.const.LIDE_URL}misto/{$nazev|escape}.html" title="Žongléři {$misto.odkud|escape}.">{$misto.nazev|escape}</a></li>
 {/foreach}
 </ul>
 </p>

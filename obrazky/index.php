@@ -91,7 +91,7 @@ if($id){
 			}
 		}
 		
-		if(!isset($moznestranky[$stranka])){
+		if($stranka and !isset($moznestranky[$stranka])){
 			require('../404.php');
 			exit();
 		}

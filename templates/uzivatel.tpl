@@ -54,7 +54,7 @@ Nacházíš se na své veřejné domovské stránce, která slouží pro tvojí 
 <p>
 <ul>
 {foreach from=$uzivatel_props.dovednosti item=dov key=nazev}
-<li><a href="{$smarty.const.LIDE_URL}dovednost/{$nazev}.html" title="Další žongléři kteří umí {$dovednosti[$nazev].nazev}.">{$dovednosti[$nazev].nazev}</a>{if $dov.hodnota!='a' and $dov.hodnota!=1} - {$dov.hodnota|escape}{/if}</li>
+<li><a href="{$smarty.const.LIDE_URL}dovednost/{$nazev}.html" title="Další žongléři kteří umí {$dovednosti[$nazev].umi}.">{$dovednosti[$nazev].nazev}</a>{if $dov.hodnota!='a' and $dov.hodnota!=1} - {$dov.hodnota|escape}{/if}</li>
 {/foreach}
 </ul>
 </p>
@@ -65,7 +65,7 @@ Nacházíš se na své veřejné domovské stránce, která slouží pro tvojí 
 <p>
 <ul>
 {foreach from=$uzivatel_props.pusobiste item=misto}
-<li><a href="{$smarty.const.LIDE_URL}misto/{$misto}.html" title="Další žongléři z {$pusobiste[$misto].nazev}">{$pusobiste[$misto].nazev}</a></li>
+<li><a href="{$smarty.const.LIDE_URL}misto/{$misto}.html" title="Další žongléři {$pusobiste[$misto].odkud}.">{$pusobiste[$misto].nazev}</a></li>
 {/foreach}
 </ul>
 </p>

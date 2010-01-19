@@ -7,7 +7,10 @@ $smarty->assign('pusobiste',$pusobiste);
 if(isset($_GET['filtr'])){
 	$filtr=$_GET['filtr'];
 	if(isset($pusobiste[$filtr])){
-		$smarty->assign('titulek',$pusobiste[$filtr]['nazev']);
+		$smarty->assign('titulek','Žonglování - '.$pusobiste[$filtr]['nazev']);
+		$smarty->assign('nadpis','Žongléři '.$pusobiste[$filtr]['odkud']);
+		$smarty->assign('description','Žongléři a žonglérky působící '.$pusobiste[$filtr]['kde'].'.');
+		$smarty->assign('keywords','žonglování, '.$pusobiste[$filtr]['nazev'].', žongléři, žonglérky, žonglér, žonglérka');
 	}else{
 		require('../404.php');
 		exit();
@@ -28,7 +31,7 @@ if($filtr){
 	if(count($uzivatele)>0){
 		$smarty->assign('uzivatele',$uzivatele);
 	}
-	$smarty->assign("robots",'noindex,follow');
+	$smarty->assign('misto',$pusobiste[$filtr]['odkud']);
 	$smarty->display('hlavicka.tpl');
 	$smarty->display('lide-misto.tpl');
 	$smarty->display('paticka.tpl');
