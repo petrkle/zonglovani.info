@@ -3,7 +3,7 @@ Pravidelné nedělní žonglování v <a href="cesta.html" title="Jak se dostat 
 </p>
 <div class="obrazkovnik">
 <a href="/obrazky/ulita-20100110/0005.html">{obrazek soubor='ust.jpg' popisek=''}</a>
-<a href="/obrazky/ulita-20100110/0019.html">{obrazek soubor='usu.jpg' popisek=''}</a>
+<a href="/obrazky/ulita-20100110/stranka2/0019.html">{obrazek soubor='usu.jpg' popisek=''}</a>
 <a href="/obrazky/ulita-20100110/0001.html">{obrazek soubor='usr.jpg' popisek=''}</a>
 <br /><a href="/obrazky/filtr/Ulita" title="Další obrázky z žonglování v Ulitě.">Další obrázky &raquo;</a>
 </div>

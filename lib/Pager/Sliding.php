@@ -67,8 +67,8 @@ class Pager_Sliding extends Pager_Common
     {
         //set default Pager_Sliding options
         $this->_delta                 = 2;
-        $this->_prevImg               = '&laquo;';
-        $this->_nextImg               = '&raquo;';
+        $this->_prevImg               = '&laquo;&nbsp;Předchozí';
+        $this->_nextImg               = 'Další&nbsp;&raquo;';
         $this->_separator             = '|';
         $this->_spacesBeforeSeparator = 3;
         $this->_spacesAfterSeparator  = 3;

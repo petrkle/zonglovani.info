@@ -13,12 +13,14 @@
 	<li><a href="/nacini.html">Žonglérské náčiní</a></li>
 	<li><a href="/odkazy.html">Žonglování na síti</a></li>
 	<li><a href="/ostatni.html">Další informace o žonglování</a></li>
+	<li><a href="/pf-2010.html">PF 2010</a></li>
 	<li><a href="/podporte-zongleruv-slabikar.html">Podpořte žonglérův slabikář</a></li>
 	<li><a href="/proc-a-jak.html">Proč a jak vznikl žognlérův slabikář</a></li>
 	<li><a href="/rss.html">RSS kanály</a></li>
 	<li><a href="/siteswap.html">Siteswap</a></li>
 	<li><a href="/software.html">Simulátory žonglování</a></li>
 	<li><a href="/trenink.html">Trénink</a></li>
+	<li><a href="/vanoce-2010.html">Veselé vánoce</a></li>
 	<li><a href="/zakladni-pojmy.html">Žonglování - základní pojmy</a></li>
 		<li><a name="chudy"></a><a href="/chudy/">Chůdy</a>
 		
@@ -330,10 +332,16 @@
 			<li><a name="ulita-20091213"></a><a href="/obrazky/ulita-20091213/">Ulita 13. 12. 2009 - obrázky žonglování</a>
 			
 			</li>
+			<li><a name="ulita-20100110"></a><a href="/obrazky/ulita-20100110/">Ulita 10. 1. 2010 - obrázky žonglování</a>
+			
+			</li>
 			<li><a name="zidovske-pece-20090404"></a><a href="/obrazky/zidovske-pece-20090404/">Židovské pece 4. 4. 2009 - obrázky žonglování</a>
 			
 			</li>
 		</ul>
+		</li>
+		<li><a name="tip"></a><a href="/tip/">Tip týdne</a>
+		
 		</li>
 		<li><a name="ulita"></a><a href="/ulita/">Žonglování v Ulitě</a>
 		<ul>

@@ -1,7 +1,7 @@
 {if is_array($items)}
 <p>
 {foreach from=$items item=foo}
-<a href="{$foo.url|escape}" class="nahled" title="Zobrazit obrázek v plné velikosti."><img src="{$foo.nahled|escape}" style="width: {$foo.sirka|escape}px; height: {$foo.vyska|escape}px; margin: {$foo.margin_v|escape}px {$foo.margin_h|escape}px;" alt=""/></a>
+<a href="{$smarty.const.OBRAZKY_URL}{$gal_id}/{if $stranka!=1}stranka{$stranka}/{/if}{$foo.url_file|escape}" class="nahled" title="Zobrazit obrázek v plné velikosti."><img src="{$foo.nahled|escape}" style="width: {$foo.sirka|escape}px; height: {$foo.vyska|escape}px; margin: {$foo.margin_v|escape}px {$foo.margin_h|escape}px;" alt=""/></a>
 {/foreach}
 </p>
 

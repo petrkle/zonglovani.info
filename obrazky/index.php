@@ -21,6 +21,12 @@ if(isset($_GET['filtr'])){
 	$filtr=false;
 }
 
+if(isset($_GET['pageID'])){
+	$stranka=$_GET['pageID'];
+}else{
+	$stranka=false;
+}
+
 if(isset($_GET['rss'])){
 	$rss=$_GET['rss'];
 }else{
@@ -37,8 +43,21 @@ if($rss){
 if($id){
 	$gal_info=get_galerie_info($id);
 	if(isset($gal_info['title'])){
+		$smarty->assign('gal_id',$id);
 		require($lib.'/Pager/Pager.php');
 		$obrazky=get_galerie_obrazky($id);
+
+		$poradi=0;
+		foreach($obrazky as $key=>$foo){
+				$obrazky[$key]['cislo']=$poradi;
+			if($poradi!=0){
+				$obrazky[$key]['predchozi_cislo']=sprintf('%04d',$poradi-1);
+			}
+			if($poradi<count($obrazky)-1){
+				$obrazky[$key]['dalsi_cislo']=sprintf('%04d',$poradi+1);
+			}
+			$poradi++;
+		}
 
 		$pagerOptions = array(
 				'mode'     => 'Sliding',
@@ -59,6 +78,24 @@ if($id){
 		);
 		$pager =& Pager::factory($pagerOptions);
 		$data = $pager->getPageData();
+		$moznestranky=array();
+
+		foreach($obrazky as $key=>$foo){
+			$cislostranky=$pager->getPageIdByOffset($foo['cislo']);
+			$obrazky[$key]['stranka']=$cislostranky;
+			$moznestranky[$cislostranky]=true;
+			$predchozi=$pager->getPageIdByOffset(($foo['cislo']-1));
+			$obrazky[$key]['dalsi_stranka']=$pager->getPageIdByOffset($foo['cislo']+1);
+			if($predchozi!=1){
+				$obrazky[$key]['predchozi_stranka']=$predchozi;
+			}
+		}
+		
+		if(!isset($moznestranky[$stranka])){
+			require('../404.php');
+			exit();
+		}
+
 		$smarty->assign('items', $data);
 		$smarty->assign('pager_links', $pager->links);
 		$smarty->assign(
@@ -69,29 +106,38 @@ if($id){
 		);
 
 	}else{
-	require("../404.php");
+	require('../404.php');
 	exit();
 	}
 }
 if($id and $photo){
 		if(isset($obrazky[intval($photo)])){
-			if(isset($obrazky[intval($photo)+1])){
-				$smarty->assign('dalsi',$obrazky[intval($photo)+1]['url']);
-			}
-			if(isset($obrazky[intval($photo)-1])){
-				$smarty->assign('predchozi',$obrazky[intval($photo)-1]['url']);
-			}
 			if(isset($gal_info['icbm'])){
 				$smarty->assign('icbm',$gal_info['icbm']);
 			}
 			$smarty->assign('stranka',$pager->getPageIdByOffset($photo));
 			$smarty->assign('nahled','http://i.'.$_SERVER['SERVER_NAME'].$obrazky[intval($photo)]['nahled']);
 			$smarty->assign('description',$gal_info['title']);
-			$smarty->assign('titulek',$gal_info['title'].' - '.intval($photo).'. obrázek');
+			$titulek=$gal_info['title'].' - '.intval($photo).'. obrázek';
+			$obrazek=&$obrazky[intval($photo)];
+			if($obrazek['stranka']==1){
+				$page='/';
+			}else{
+				$page='/stranka'.$obrazek['stranka'].'/';
+			}
+
+			if($obrazky[intval($photo)]['stranka']!=1){
+				$titulek.=' - stránka '.$obrazek['stranka'];
+			}
+			$smarty->assign('titulek',$titulek);
 			$smarty->assign("nadpis",$gal_info['title']);
 			$smarty->assign('gal_info',$gal_info);
-			$smarty->assign('obrazek',$obrazky[intval($photo)]);
+			$smarty->assign('obrazek',$obrazek);
 			$smarty->display('hlavicka-w.tpl');
+			if($_SERVER['REQUEST_URI']!=OBRAZKY_URL.$id.$page.$obrazek['url_file']){
+				header('Location: '.OBRAZKY_URL.$id.$page.$obrazek['url_file']);
+				exit();
+			}
 			$smarty->display('obrazek.tpl');
 			$smarty->display('paticka-w.tpl');
 		}else{
@@ -104,8 +150,18 @@ if($id and $photo){
 		if(isset($gal_info['icbm'])){
 			$smarty->assign('icbm',$gal_info['icbm']);
 		}
-		$smarty->assign('titulek',$gal_info['title'].' - obrázky žonglování');
+
+		$titulek=$gal_info['title'].' - obrázky žonglování';
+
 		$smarty->assign('nadpis',$gal_info['title']);
+
+		if($stranka){
+			$smarty->assign('stranka',$stranka);
+			if($stranka!=1){
+				$titulek.=' - stránka '.$stranka;
+			}
+		}
+		$smarty->assign('titulek',$titulek);
 		$smarty->assign('gal_info',$gal_info);
 		$smarty->display('hlavicka.tpl');
 		$smarty->display('obrazky.tpl');
@@ -199,6 +255,7 @@ function get_galerie_obrazky($galerie){
 								$foo['fsirka']=$fsize[0];
 								$foo['fvyska']=$fsize[1];
 								$foo['url']=OBRAZKY_URL.$galerie.'/'.basename($filename,$pripona).'html';
+								$foo['url_file']=basename($filename,$pripona).'html';
 								$foo['margin_h']=floor((148-$size[0])/2);
 								$foo['margin_v']=floor((148-$size[1])/2);
 								$foo['nahled']='http://i.'.$_SERVER['SERVER_NAME'].OBRAZKY_URL.$galerie.'/nahledy/'.$filename;

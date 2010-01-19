@@ -1,9 +1,10 @@
 {if $obrazek}
 <a name="nahore"></a>
-{if $predchozi}<span class="navigace"><a href="{$predchozi|escape}" title="Zobrazit předchozí obrázek">&laquo; Předchozí obrázek</a> ~ </span>{/if}<a href="{if $stranka==1}.{else}stranka{$stranka}/{/if}" title="Celá galerie">{$nadpis|escape}</a>{if $dalsi}<span class="navigace"> ~ <a href="{$dalsi|escape}" title="Zobrazit další obrázek">Další obrázek &raquo;</a></span>{/if}
+{if $obrazek.predchozi_cislo}
 
+<span class="navigace"><a href="{if $obrazek.predchozi_stranka}{$smarty.const.OBRAZKY_URL}{$gal_id}/stranka{$obrazek.predchozi_stranka}/{$obrazek.predchozi_cislo}{else}{$smarty.const.OBRAZKY_URL}{$gal_id}/{$obrazek.predchozi_cislo|escape}{/if}.html" title="Zobrazit předchozí obrázek">&laquo; Předchozí obrázek</a> ~ </span>{/if}<a href="{if $obrazek.stranka!=1}{$smarty.const.OBRAZKY_URL}{$gal_id}/stranka{$obrazek.stranka}/{else}.{/if}" title="Celá galerie">{$nadpis|escape}</a>{if $obrazek.dalsi_cislo}<span class="navigace"> ~ <a href="{if $obrazek.dalsi_stranka!=1}{$smarty.const.OBRAZKY_URL}{$gal_id}/stranka{$obrazek.dalsi_stranka}/{$obrazek.dalsi_cislo}{else}{$obrazek.dalsi_cislo|escape}{/if}.html" title="Zobrazit další obrázek">Další obrázek &raquo;</a></span>{/if}
 <p class="obrazek">
-{if $dalsi}<a href="{$dalsi|escape}" title="Zobrazit další obrázek">{else}<a href="." title="Zobrazí celou galerii">{/if}<img src="{$obrazek.obrazek|escape}" alt="{$nadpis|escape}" width="{$obrazek.fsirka|escape}" height="{$obrazek.fvyska|escape}"/></a>
+{if $obrazek.dalsi_cislo}<a href="{if $obrazek.dalsi_stranka!=1}{$smarty.const.OBRAZKY_URL}{$gal_id}/stranka{$obrazek.dalsi_stranka}/{$obrazek.dalsi_cislo}{else}{$obrazek.dalsi_cislo|escape}{/if}.html" title="Zobrazit další obrázek">{else}<a href="." title="Zobrazí celou galerii">{/if}<img src="{$obrazek.obrazek|escape}" alt="{$nadpis|escape}" width="{$obrazek.fsirka|escape}" height="{$obrazek.fvyska|escape}"/></a>
 </p>
 
 {if $gal_info.autor or $gal_info.mail or $gal_info.url}
