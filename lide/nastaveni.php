@@ -8,6 +8,11 @@ if(is_logged()){
 	$smarty->assign('titulek','Nastavení');
 	$chyby=array();
 
+$trail = new Trail();
+$trail->addStep('Seznam žonglérů',LIDE_URL);
+$trail->addStep($_SESSION['uzivatel']['jmeno'],LIDE_URL.$_SESSION['uzivatel']['login'].'.html');
+$trail->addStep('Nastavení',LIDE_URL.'nastaveni.php');
+
 	if(isset($_GET['uprav'])){
 		$uprav=$_GET['uprav'];
 
@@ -38,7 +43,9 @@ if(is_logged()){
 				}
 			}
 				$smarty->assign('titulek','Zobrazované jméno');
+				$trail->addStep('Zobrazované jméno');
 				$smarty->assign('chyby',$chyby);
+				$smarty->assign_by_ref('trail', $trail->path);
 				$smarty->display('hlavicka.tpl');
 				$smarty->display('nastaveni-jmeno.tpl');
 				$smarty->display('paticka.tpl');
@@ -62,6 +69,8 @@ if(is_logged()){
 				}
 			}
 				$smarty->assign('titulek','Zobrazování e-mailu');
+				$trail->addStep('Zobrazování e-mailu');
+				$smarty->assign_by_ref('trail', $trail->path);
 				$smarty->display('hlavicka.tpl');
 				$smarty->display('nastaveni-soukromi.tpl');
 				$smarty->display('paticka.tpl');
@@ -97,7 +106,9 @@ if(is_logged()){
 			}
 
 				$smarty->assign('titulek','Fotografie');
+				$trail->addStep('Fotografie');
 				$smarty->assign('chyby',$chyby);
+				$smarty->assign_by_ref('trail', $trail->path);
 				$smarty->display('hlavicka.tpl');
 				$smarty->display('nastaveni-foto.tpl');
 				$smarty->display('paticka.tpl');
@@ -129,9 +140,11 @@ if(is_logged()){
 					$web='';
 				}
 			}
+				$trail->addStep('Internetová stránka');
 				$smarty->assign('titulek','Internetová stránka');
 				$smarty->assign('chyby',$chyby);
 				$smarty->assign('web',$web);
+				$smarty->assign_by_ref('trail', $trail->path);
 				$smarty->display('hlavicka.tpl');
 				$smarty->display('nastaveni-web.tpl');
 				$smarty->display('paticka.tpl');
@@ -170,8 +183,10 @@ if(is_logged()){
 				}
 
 				$smarty->assign('titulek','Žonglérské dovednosti');
+				$trail->addStep('Dovednosti');
 				$smarty->assign('dovednosti',$dovednosti);
 				$smarty->assign('chyby',$chyby);
+				$smarty->assign_by_ref('trail', $trail->path);
 				$smarty->display('hlavicka.tpl');
 				$smarty->display('nastaveni-dovednosti.tpl');
 				$smarty->display('paticka.tpl');
@@ -205,8 +220,10 @@ if(is_logged()){
 				}
 
 				$smarty->assign('titulek','Místo(a) kde žongluješ');
+				$trail->addStep('Působiště');
 				$smarty->assign('pusobiste',$pusobiste);
 				$smarty->assign('chyby',$chyby);
+				$smarty->assign_by_ref('trail', $trail->path);
 				$smarty->display('hlavicka.tpl');
 				$smarty->display('nastaveni-pusobiste.tpl');
 				$smarty->display('paticka.tpl');
@@ -241,10 +258,12 @@ if(is_logged()){
 					$znameni='n';
 				}
 
+				$trail->addStep('Znamení');
 				$smarty->assign('znameni',$znameni);
 				$smarty->assign('zverokruh',$zverokruh);
 				$smarty->assign('titulek','Znamení zvěrokruhu');
 				$smarty->assign('chyby',$chyby);
+				$smarty->assign_by_ref('trail', $trail->path);
 				$smarty->display('hlavicka.tpl');
 				$smarty->display('nastaveni-znameni.tpl');
 				$smarty->display('paticka.tpl');
@@ -306,6 +325,8 @@ http://zonglovani.info/kontakt.html
 			}
 
 				$smarty->assign('titulek','Zrušení účtu');
+				$trail->addStep('Zrušení účtu');
+				$smarty->assign_by_ref('trail', $trail->path);
 				$smarty->display('hlavicka.tpl');
 				$smarty->display('nastaveni-zruseni.tpl');
 				$smarty->display('paticka.tpl');
@@ -416,7 +437,9 @@ http://zonglovani.info/kontakt.html
 					$_SESSION["antispam_otazka"]=$antispam[0];
 					$_SESSION["antispam_odpoved"]=$antispam[1];
 					$smarty->assign("antispam_otazka",$_SESSION["antispam_otazka"]);
+				$trail->addStep('E-mail');
 				$smarty->assign('titulek','Změna adresy elektronické pošty');
+				$smarty->assign_by_ref('trail', $trail->path);
 				$smarty->display('hlavicka.tpl');
 				$smarty->display('nastaveni-mail.tpl');
 				$smarty->display('paticka.tpl');
@@ -437,8 +460,10 @@ http://zonglovani.info/kontakt.html
 					exit();
 				}
 			}
+				$trail->addStep('Vzkaz');
 				$smarty->assign('titulek','Nastavení vzkazu');
 				$smarty->assign('chyby',$chyby);
+				$smarty->assign_by_ref('trail', $trail->path);
 				$smarty->display('hlavicka.tpl');
 				$smarty->display('nastaveni-vzkaz.tpl');
 				$smarty->display('paticka.tpl');
@@ -475,7 +500,9 @@ http://zonglovani.info/kontakt.html
 				}
 			}
 				$smarty->assign('titulek','Heslo');
+				$trail->addStep('Heslo');
 				$smarty->assign('chyby',$chyby);
+				$smarty->assign_by_ref('trail', $trail->path);
 				$smarty->display('hlavicka.tpl');
 				$smarty->display('nastaveni-heslo.tpl');
 				$smarty->display('paticka.tpl');
@@ -500,6 +527,7 @@ http://zonglovani.info/kontakt.html
 			}
 			$smarty->assign('chyby',$chyby);
 		}
+		$smarty->assign_by_ref('trail', $trail->path);
 		$smarty->display('hlavicka.tpl');
 		$smarty->display('nastaveni.tpl');
 		$smarty->display('paticka.tpl');

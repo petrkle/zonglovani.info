@@ -1,11 +1,16 @@
 <?php
-require("init.php");
-require("func.php");
+require('init.php');
+require('func.php');
 
-$smarty->assign("titulek","Žonglérská videa");
-$smarty->assign("videa",get_videa("./video.inc"));
-$smarty->display("hlavicka.tpl");
-$smarty->display("video-index.tpl");
-$smarty->display("paticka.tpl");
+$titulek='Žonglérská videa';
+$smarty->assign('titulek',$titulek);
+$trail = new Trail();
+$trail->addStep($titulek,'/video/');
+
+$smarty->assign_by_ref('trail', $trail->path);
+$smarty->assign('videa',get_videa('./video.inc'));
+$smarty->display('hlavicka.tpl');
+$smarty->display('video-index.tpl');
+$smarty->display('paticka.tpl');
 
 ?>

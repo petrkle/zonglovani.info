@@ -3,15 +3,17 @@ require('../init.php');
 require('cal-init.php');
 require('../func.php');
 
-if(eregi("index\.php$",$_SERVER["REQUEST_URI"])){
-	header("HTTP/1.1 301 Moved Permanently");
-	header("Location: ".CALENDAR_URL);
+if(eregi('index\.php$',$_SERVER['REQUEST_URI'])){
+	header('HTTP/1.1 301 Moved Permanently');
+	header('Location: '.CALENDAR_URL);
 	exit();
 }
 
 $now=time();
 $akt=false;
 
+$trail = new Trail();
+$trail->addStep('Kalendář',CALENDAR_URL);
 
 if(isset($_GET['y'])){
 	$rok=$_GET['y'];
@@ -62,9 +64,9 @@ $smarty->assign('aktDate', date('j. ',$now).date('n. ',$now).date(' Y',$now));
 
 $smarty->assign('akt', $akt);
 
-if(basename($_SERVER["REQUEST_URI"])==$aktualni){
-	header("HTTP/1.1 301 Moved Permanently");
-	header("Location: ".CALENDAR_URL);
+if(basename($_SERVER['REQUEST_URI'])==$aktualni){
+	header('HTTP/1.1 301 Moved Permanently');
+	header('Location: '.CALENDAR_URL);
 	exit();
 }
 
@@ -76,8 +78,11 @@ $titulek='Kalendář žonglování';
 
 if(date('Y',$now)==$rok and date('m',$now)==$mesic){
 	$smarty->assign('dnesek', date('j',$now));
-	$smarty->assign("titulek",$titulek);
+	$smarty->assign('titulek',$titulek);
 }else{
+
+
+	$trail->addStep($monthName,CALENDAR_URL.$rok.'-'.$mesic.'.html');
 	$smarty->assign('dnesek',false);
 	$smarty->assign('titulek',$titulek.' - '.$monthName);
 }
@@ -85,7 +90,7 @@ if(date('Y',$now)==$rok and date('m',$now)==$mesic){
 $smarty->assign('caption',$monthName);
 $smarty->assign('nadpis',$titulek);
 
-$smarty->assign("keywords",make_keywords($titulek).", $monthName");
+$smarty->assign('keywords',make_keywords($titulek).', '.$monthName);
 
 
 $smazane=get_deleted_events();
@@ -93,6 +98,7 @@ if(count($smazane)>0){
 	$smarty->assign('smazane',$smazane);
 }
 
+$smarty->assign_by_ref('trail', $trail->path);
 $smarty->display('hlavicka.tpl');
 $smarty->display('kalendar-index.tpl');
 $smarty->display('paticka.tpl');

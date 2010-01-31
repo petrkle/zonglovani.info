@@ -16,3 +16,5 @@ Nenabízím neomezenou kapacitu ani okamžité zveřejnění fotografií. Jen to
 <p>
 U každé fotografie bude tvoje jméno, email a případně odkaz na webovou stránku.
 </p>
+<h3>Filtry obrázků</h3>
+{include file='obrazky-filtry.tpl'}

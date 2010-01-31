@@ -2,8 +2,8 @@
 require('../init.php');
 require('../func.php');
 
-$smarty->assign("titulek","Přihlášení");
-$smarty->assign("robots",'noindex,follow');
+$smarty->assign('titulek','Přihlášení');
+$smarty->assign('robots','noindex,follow');
 
 if(isset($_GET["next"]) and ereg("^/",$_GET["next"])){
 	$next=$_GET["next"];
@@ -13,9 +13,13 @@ if(isset($_GET["next"]) and ereg("^/",$_GET["next"])){
 	$next="/";
 }
 
-$smarty->assign("next",$next);
+$trail = new Trail();
+$trail->addStep('Seznam žonglérů',LIDE_URL);
+$trail->addStep('Přihlášení uživatele');
 
-if(isset($_POST["login"]) and isset($_POST["heslo"]) and isset($_GET["action"])){
+$smarty->assign('next',$next);
+
+if(isset($_POST['login']) and isset($_POST['heslo']) and isset($_GET['action'])){
 	$chyby=array();
 	$input_login=strtolower(trim($_POST['login']));
 	$input_heslo=trim($_POST['heslo']);
@@ -31,6 +35,7 @@ if(isset($_POST["login"]) and isset($_POST["heslo"]) and isset($_GET["action"]))
 		if(count($chyby)!=0){
 			$smarty->assign("chyby",$chyby);
 			$smarty->assign("login",$input_login);
+			$smarty->assign_by_ref('trail', $trail->path);
 			$smarty->display('hlavicka.tpl');
 			$smarty->display('prihlaseni.tpl');
 			$smarty->display('paticka.tpl');
@@ -55,6 +60,7 @@ if(isset($_POST["login"]) and isset($_POST["heslo"]) and isset($_GET["action"]))
 		array_push($chyby,'Špatné jméno nebo heslo.','Pro přihlášení je potřeba povolit cookies. <a class="info" href="#">?<span class="tooltip">Cookies (sušenky) jsou malé soubory, které slouží k rozpoznání spojení mezi tvým počítačem a počítačem na kterém běží žonglérův slabikář. V případě problémů kontaktuj místního počítačového odborníka.</span></a>');
 			$smarty->assign("chyby",$chyby);
 			$smarty->assign("login",$input_login);
+			$smarty->assign_by_ref('trail', $trail->path);
 			$smarty->display('hlavicka.tpl');
 			$smarty->display('prihlaseni.tpl');
 			$smarty->display('paticka.tpl');
@@ -65,6 +71,7 @@ if(isset($_POST["login"]) and isset($_POST["heslo"]) and isset($_GET["action"]))
 		array_push($chyby,'Špatné jméno nebo heslo.','Pro přihlášení je potřeba povolit cookies. <a class="info" href="#">?<span class="tooltip">Cookies (sušenky) jsou malé soubory, které slouží k rozpoznání spojení mezi tvým počítačem a počítačem na kterém běží žonglérův slabikář. V případě problémů kontaktuj místního počítačového odborníka.</span></a>');
 		$smarty->assign("chyby",$chyby);
 		$smarty->assign("login",$input_login);
+		$smarty->assign_by_ref('trail', $trail->path);
 		$smarty->display('hlavicka.tpl');
 		$smarty->display('prihlaseni.tpl');
 		$smarty->display('paticka.tpl');
@@ -72,6 +79,7 @@ if(isset($_POST["login"]) and isset($_POST["heslo"]) and isset($_GET["action"]))
 	}
 
 }else{
+	$smarty->assign_by_ref('trail', $trail->path);
 	$smarty->display('hlavicka.tpl');
 	$smarty->display('prihlaseni.tpl');
 	$smarty->display('paticka.tpl');

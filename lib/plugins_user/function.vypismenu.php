@@ -1,17 +1,15 @@
 <?php
 
 function smarty_function_vypismenu($params, &$smarty){
-	$adresy = array('/','/micky/','/kruhy/','/kuzely/','/ostatni.html');
-	$texty = array('Úvodní stránka','Míčky','Kruhy','Kužely','Ostatní');
-	$popis = array('Žonglérův slabikář - Úvodní stránka','Začínáme s míčky','Začínáme s kruhy','Začínáme s kužely','Vše ostatní o žonglování');
+	$adresy = array('/micky/','/kruhy/','/kuzely/','/ostatni.html');
+	$texty = array('Míčky','Kruhy','Kužely','Ostatní');
+	$popis = array('Začínáme s míčky','Začínáme s kruhy','Začínáme s kužely','Vše ostatní o žonglování');
 
 	$navrat="<ul>\n";
 
 	for($foo=0;$foo<count($adresy);$foo++){
 		if($_SERVER['REQUEST_URI']==$adresy[$foo] and !isset($_GET['show'])){
-			if(($_SERVER['REQUEST_URI']!='/')){
-				$navrat.="<li><h4>".$texty[$foo]."</h4>\n";
-			};
+			$navrat.="<li><h4>".$texty[$foo]."</h4>\n";
 		}else{
 			$navrat.="<li><h4><a href=\"".$adresy[$foo]."\" title=\"".$popis[$foo]."\">".$texty[$foo]."</a></h4>\n";
 		};
@@ -41,19 +39,19 @@ function smarty_function_vypismenu($params, &$smarty){
 
 function submenu($id){
 
-	if($id==1){
+	if($id==0){
 		$adresy = array('/micky/2/','/micky/3/','/micky/4/','/micky/5/');
 		$texty = array('2 míčky','3 míčky','4 míčky','5 míčků');
 		$popisky = array('Žonglování se dvěma míčky.','Žonglování se třemi míčky.','Žonglování se čtyřmi míčky.','Žonglování s pěti míčky.');
 	}
 
-	if($id==3){
+	if($id==2){
 		$adresy = array('/kuzely/3/','/kuzely/passing/');
 		$texty = array('3 kužely','Passing');
 		$popisky = array('Žonglování se třemi kužely','Žonglování ve více lidech');
 	}
 
-	if($id==4){
+	if($id==3){
 		$adresy = array('/obrazky/','/video/','/kalendar/','/diskuse/','/lide/','/horoskop/');
 		$texty = array('Obrázky','Video','Kalendář','Diskuse','Žongléři','Horoskop');
 		$popisky = array('Obrázky žonglování','Zajímavá žonglérská videa','Kalendář žonglování','Diskuse o žonglování','Seznam uživatelů žonglérova slabikáře.','Horoskop žonglování');
@@ -71,7 +69,7 @@ function submenu($id){
 		$navrat.="</ul>\n";
 		return $navrat;
 	}else{
-		return "";
+		return '';
 	}
 }
 

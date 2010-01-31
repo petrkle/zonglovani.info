@@ -17,11 +17,6 @@
 {/foreach}
 
 {if count($trik.kroky) > 4}
-<a href="#nahore" title="Přesun na začátek stránky." class="nahoru">nahoru&nbsp;^^</a>
-{/if}
-{if $nahled and $description}
-<p class="sdileni">
-{include file='sdileni.tpl'}
-</p>
+<a href="#nahore" title="Přesun na začátek stránky." class="nahoru">Nahoru&nbsp;^^</a>
 {/if}
 {/if}

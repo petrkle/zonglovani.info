@@ -27,6 +27,11 @@ array_push($jaro,array('datum'=>'2010/4/4','url'=>'udalost-20100404-20100404-pek
 $smarty->assign('podzim',to_ulita($podzim));
 $smarty->assign('jaro',to_ulita($jaro));
 
+$trail = new Trail();
+$trail->addStep('Žonglování v Ulitě','/ulita/');
+$trail->addStep('English version');
+
+$smarty->assign_by_ref('trail', $trail->path);
 $smarty->display('hlavicka.tpl');
 $smarty->display('ulita.en.tpl');
 $smarty->display('paticka.tpl');

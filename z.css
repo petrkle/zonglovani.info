@@ -81,7 +81,7 @@ a.edit{border-left:solid 3px #f00;}
 .tabulka td{border-right:1px solid #ccc;border-bottom:1px solid #ccc;padding:4px 10px;text-align:right;}
 .nahled{display:block;float:left;width:150px;height:150px;background:#eee;border:solid 1px;border-color:#aaa #444 #444 #aaa;margin:5px;}
 .nahled img{border:solid 1px;border-color:#444 #aaa #aaa #444;}
-.sdileni{padding-top:10px;font-size:.8em;}
+.drobky{font-size:.8em;margin-top:-20px}
 .add{background:url("img/a/add.png") 0 50% no-repeat;padding-left:20px;}
 #fblink{float:left;background:url("img/f/fbp.png") 0 50% no-repeat;padding-left:20px;}
 .horotable{clear:both;margin: 2px 10px 7px 20px;}

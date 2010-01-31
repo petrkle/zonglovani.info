@@ -5,6 +5,9 @@ require($lib.'/Pager/Pager.php');
 
 $zpravy=get_diskuse_zpravy();
 
+$trail = new Trail();
+$trail->addStep('Diskuse',DISKUSE_URL);
+
 $pagerOptions = array(
     'mode'     => 'Sliding',
     'delta'    => 2,
@@ -47,6 +50,7 @@ if(isset($_GET['rss'])){
 	$smarty->display('diskuse-rss.tpl');
 	exit();
 }else{
+	$smarty->assign_by_ref('trail', $trail->path);
 	$smarty->display('hlavicka.tpl');
 	$smarty->display('diskuse.tpl');
 	$smarty->display('paticka.tpl');

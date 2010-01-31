@@ -44,11 +44,15 @@ flush();
 <div id="stranka">
 <div id="ramecek">
 <div id="obsah">
+{if $trail}
+<p class="drobky">
+Jste zde: {drobecky trail=$trail}
+</p>
+{/if}
 {if isset($titulek) and isset($nadpis)}
 {if !isset($notitle)}
 <h1>{$nadpis|escape}</h1>
 {/if}
 {else}
 <h1>{$titulek|escape}</h1>
-
 {/if}

@@ -5,6 +5,8 @@ RewriteCond %{HTTP_HOST} ^www\.(.*)
 RewriteRule (.*) http://%1/obrazky/$1 [R=301,QSA,NE,L]
 
 RewriteRule ^filtr/([a-zA-Z0-9]+)$ index.php?filtr=$1 [L]
+RewriteRule ^filtr$ /obrazky/filtr/ [R=301,L]
+RewriteRule ^filtr/$ index.php?filtry [L]
 
 RewriteRule ^([^/]+)/$ index.php?id=$1&pageID=1 [L]
 

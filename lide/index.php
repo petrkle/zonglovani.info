@@ -44,7 +44,12 @@ $smarty->assign(
     )
 );
 
-$smarty->assign('titulek','Seznam žonglérů');
+$titulek='Seznam žonglérů';
+$trail = new Trail();
+$trail->addStep($titulek,LIDE_URL);
+
+$smarty->assign_by_ref('trail', $trail->path);
+$smarty->assign('titulek',$titulek);
 $smarty->display('hlavicka.tpl');
 $smarty->display('lide.tpl');
 $smarty->display('paticka.tpl');

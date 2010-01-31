@@ -2,61 +2,66 @@
 require('../init.php');
 require('../func.php');
 
-$smarty->assign("titulek","Nový uživatelský účet");
+$titulek='Nový uživatelský účet';
+$smarty->assign('titulek',$titulek);
 
-if(!isset($_SESSION["souhlas"])){
+$trail = new Trail();
+$trail->addStep('Seznam žonglérů',LIDE_URL);
+$trail->addStep($titulek);
+
+if(!isset($_SESSION['souhlas'])){
 	session_destroy();
-	header("Location: ".LIDE_URL);
+	header('Location: '.LIDE_URL);
 	exit();
 }
 
-if(isset($_GET["action"])){
+if(isset($_GET['action'])){
 	$chyby=array();
 	
-	if(isset($_POST["jmeno"])){
-		$jmeno=trim($_POST["jmeno"]);
-		$smarty->assign("jmeno",$jmeno);
-		$_SESSION["reg_jmeno"]=$jmeno;
-	}elseif(isset($_SESSION["reg_jmeno"])){
-		$jmeno=$_SESSION["reg_jmeno"];
-		$smarty->assign("jmeno",$jmeno);
+	if(isset($_POST['jmeno'])){
+		$jmeno=trim($_POST['jmeno']);
+		$smarty->assign('jmeno',$jmeno);
+		$_SESSION['reg_jmeno']=$jmeno;
+	}elseif(isset($_SESSION['reg_jmeno'])){
+		$jmeno=$_SESSION['reg_jmeno'];
+		$smarty->assign('jmeno',$jmeno);
 	}else{
-		$jmeno="";
+		$jmeno='';
 	}
 
-	if(isset($_POST["email"])){
-		$email=strtolower(trim($_POST["email"]));
-		$smarty->assign("email",$email);
-		$_SESSION["reg_email"]=$email;
-	}elseif(isset($_SESSION["reg_email"])){
-		$email=$_SESSION["reg_email"];
-		$smarty->assign("email",$email);
+	if(isset($_POST['email'])){
+		$email=strtolower(trim($_POST['email']));
+		$smarty->assign('email',$email);
+		$_SESSION['reg_email']=$email;
+	}elseif(isset($_SESSION['reg_email'])){
+		$email=$_SESSION['reg_email'];
+		$smarty->assign('email',$email);
 	}else{
-		$email="";
+		$email='';
 	}
 
-	if(isset($_POST["login"])){
-		$login=strtolower(trim($_POST["login"]));
-		$smarty->assign("login",$login);
-		$_SESSION["reg_login"]=$login;
-	}elseif(isset($_SESSION["reg_login"])){
-		$login=$_SESSION["reg_login"];
-		$smarty->assign("login",$login);
+	if(isset($_POST['login'])){
+		$login=strtolower(trim($_POST['login']));
+		$smarty->assign('login',$login);
+		$_SESSION['reg_login']=$login;
+	}elseif(isset($_SESSION['reg_login'])){
+		$login=$_SESSION['reg_login'];
+		$smarty->assign('login',$login);
 	}else{
-		$login="";
+		$login='';
 	}
 
-	if(isset($_POST["heslo"])){
-		$heslo=trim($_POST["heslo"]);
-		$_SESSION["reg_heslo"]=$heslo;
+	if(isset($_POST['heslo'])){
+		$heslo=trim($_POST['heslo']);
+		$_SESSION['reg_heslo']=$heslo;
 	}else{
-		$heslo="";
+		$heslo='';
 	}
 
-	if(isset($_POST["heslo2"])){
-		$heslo2=trim($_POST["heslo2"]);
+	if(isset($_POST['heslo2'])){
+		$heslo2=trim($_POST['heslo2']);
 	}else{
-		$heslo2="";
+		$heslo2='';
 	}
 
 if(strlen($jmeno)<3){
@@ -112,15 +117,17 @@ if($heslo!=$heslo2){
 
 
 if(count($chyby)==0){
-	header("Location: /lide/nastaveni-uctu.php");	
+	header('Location: '.LIDE_URL.'nastaveni-uctu.php');	
 }else{
-	$smarty->assign("chyby",$chyby);
+	$smarty->assign_by_ref('trail', $trail->path);
+	$smarty->assign('chyby',$chyby);
 	$smarty->display('hlavicka.tpl');
 	$smarty->display('novy-ucet.tpl');
-		$smarty->display('paticka.tpl');
+	$smarty->display('paticka.tpl');
 	}
 
 }else{
+	$smarty->assign_by_ref('trail', $trail->path);
 	$smarty->display('hlavicka.tpl');
 	$smarty->display('novy-ucet.tpl');
 	$smarty->display('paticka.tpl');

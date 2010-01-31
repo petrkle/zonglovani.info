@@ -16,7 +16,11 @@ if($rss){
 	$smarty->display('tip.rss.tpl');
 	exit();
 }else{
-	$smarty->assign('titulek','Tip týdne');
+	$titulek='Tip týdne';
+	$trail = new Trail();
+	$trail->addStep($titulek);
+	$smarty->assign_by_ref('trail', $trail->path);
+	$smarty->assign('titulek',$titulek);
 	$smarty->display('hlavicka.tpl');
 	$smarty->assign('tipy',array_reverse($tipy));
 	$smarty->display('tip.list.tpl');

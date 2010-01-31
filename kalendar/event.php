@@ -11,31 +11,35 @@ if(isset($_GET['id'])){
 	$id=false;
 }
 
+$trail = new Trail();
+$trail->addStep('Kalendář',CALENDAR_URL);
+
 $now=time();
 
-if(isset($_GET["deleted"]) or isset($_POST["deleted"])){
-	$udalost=get_event_data($id.".cal",CALENDAR_DELETED);
+if(isset($_GET['deleted']) or isset($_POST['deleted'])){
+	$udalost=get_event_data($id.'.cal',CALENDAR_DELETED);
 	$trash=true;
 }else{
-	$udalost=get_event_data($id.".cal");
+	$udalost=get_event_data($id.'.cal');
 }
+
 if($udalost){
-		$smarty->assign("titulek","Kalendář - ".$udalost["title"]);
-		$smarty->assign("nadpis",$udalost["title"]);
-		$smarty->assign("udalost",$udalost);
+		$smarty->assign('titulek','Kalendář - '.$udalost['title']);
+		$smarty->assign('nadpis',$udalost['title']);
+		$smarty->assign('udalost',$udalost);
 		$smarty->assign('aktDate', date('j. ',$now).date('n. ',$now).date(' Y',$now));
 
-		if($udalost["end"]<time()){
-			$smarty->assign("stare",true);
+		if($udalost['end']<time()){
+			$smarty->assign('stare',true);
 			$stare=true;
 		}else{
 			$stare=false;
 		}
 
-		if(isset($trash) and isset($_POST["restore"])){
+		if(isset($trash) and isset($_POST['restore'])){
 		# obnova
-			rename(CALENDAR_DELETED."/".date("Ymd",strtotime($udalost["zacatek"]))."-".date("Ymd",strtotime($udalost["konec"]))."-".$_SESSION["uzivatel"]["login"]."-".$udalost["insert"].".cal",CALENDAR_DATA."/".date("Ymd",strtotime($udalost["zacatek"]))."-".date("Ymd",strtotime($udalost["konec"]))."-".$_SESSION["uzivatel"]["login"]."-".$udalost["insert"].".cal");
-			header("Location: ".CALENDAR_URL);
+			rename(CALENDAR_DELETED.'/'.date('Ymd',strtotime($udalost['zacatek'])).'-'.date('Ymd',strtotime($udalost['konec'])).'-'.$_SESSION['uzivatel']['login'].'-'.$udalost['insert'].'.cal',CALENDAR_DATA.'/'.date('Ymd',strtotime($udalost['zacatek'])).'-'.date('Ymd',strtotime($udalost['konec'])).'-'.$_SESSION['uzivatel']['login'].'-'.$udalost['insert'].'.cal');
+			header('Location: '.CALENDAR_URL);
 			exit();
 		}
 
@@ -45,26 +49,26 @@ if($udalost){
 			exit();
 		}
 
-		if(isset($_POST["odeslat"]) and !$stare){
-			if(isset($_GET["action"])){
-				$udalost=array_merge(get_event_data($id.".cal"),get_udalost_post());
+		if(isset($_POST['odeslat']) and !$stare){
+			if(isset($_GET['action'])){
+				$udalost=array_merge(get_event_data($id.'.cal'),get_udalost_post());
 				$chyby=event_validation($udalost,$now);
-				$smarty->assign("udalost",$udalost);
+				$smarty->assign('udalost',$udalost);
 				$smarty->assign('chyby',$chyby);
 				if(count($chyby)==0){
-					unset($udalost["month_url"]);
-					unset($udalost["update"]);
-					unset($udalost["time"]);
-					unset($udalost["end"]);
-					unset($udalost["insert_hr"]);
-					unset($udalost["start"]);
-					unset($udalost["start_hr"]);
-					unset($udalost["end_hr"]);
-					unset($udalost["update_hr"]);
-					$newid=date("Ymd",strtotime($udalost["zacatek"]))."-".date("Ymd",strtotime($udalost["konec"]))."-".$_SESSION["uzivatel"]["login"]."-".$udalost["insert"];
+					unset($udalost['month_url']);
+					unset($udalost['update']);
+					unset($udalost['time']);
+					unset($udalost['end']);
+					unset($udalost['insert_hr']);
+					unset($udalost['start']);
+					unset($udalost['start_hr']);
+					unset($udalost['end_hr']);
+					unset($udalost['update_hr']);
+					$newid=date('Ymd',strtotime($udalost['zacatek'])).'-'.date('Ymd',strtotime($udalost['konec'])).'-'.$_SESSION['uzivatel']['login'].'-'.$udalost['insert'];
 
-					if($udalost["vlozil"]==$_SESSION["uzivatel"]["login"]){
-						if($udalost["id"]==$newid){
+					if($udalost['vlozil']==$_SESSION['uzivatel']['login']){
+						if($udalost['id']==$newid){
 							# update, stejny soubor
 							write_event_data($udalost);
 						}else{
@@ -79,23 +83,30 @@ if($udalost){
 					exit();
 				}
 			}
-				$smarty->assign("titulek","Úprava události v kalendáři");
-				$smarty->assign("nadpis","Úprava události v kalendáři");
-				$smarty->assign("form_action","?action=update");
+				$trail->addStep($udalost['month_name'],$udalost['month_url']);
+				$trail->addStep($udalost['title'],CALENDAR_URL.'udalost-'.$udalost['id'].'.html');
+				$trail->addStep('Úprava');
+				$smarty->assign('titulek','Úprava události v kalendáři');
+				$smarty->assign('nadpis','Úprava události v kalendáři');
+				$smarty->assign('form_action','?action=update');
+				$smarty->assign_by_ref('trail', $trail->path);
 				$smarty->display('hlavicka.tpl');
 				$smarty->display('kalendar-edit.tpl');
 				$smarty->display('paticka.tpl');
 
-	}elseif(isset($_POST["smazat"]) and !$stare){
-		if($udalost["vlozil"]==$_SESSION["uzivatel"]["login"]){
-			rename(CALENDAR_DATA."/".$udalost["id"].".cal",CALENDAR_DELETED."/".$udalost["id"].".cal");
+	}elseif(isset($_POST['smazat']) and !$stare){
+		if($udalost['vlozil']==$_SESSION['uzivatel']['login']){
+			rename(CALENDAR_DATA.'/'.$udalost['id'].'.cal',CALENDAR_DELETED.'/'.$udalost['id'].'.cal');
 		}
-		header("Location: ".$udalost["month_url"]);
+		header('Location: '.$udalost['month_url']);
 		exit();
 	}else{
 		# zobrazit
+		$trail->addStep($udalost['month_name'],$udalost['month_url']);
+		$trail->addStep($udalost['title']);
 		$smarty->assign('nahled','http://'.$_SERVER['SERVER_NAME'].'/img/k/kalendar.png');
-		$smarty->assign("keywords",make_keywords("žonglování, kalendář, ".$udalost["title"]));
+		$smarty->assign('keywords',make_keywords('žonglování, kalendář, '.$udalost['title']));
+		$smarty->assign_by_ref('trail', $trail->path);
 		$smarty->display('hlavicka.tpl');
 		$smarty->display('kalendar-event.tpl');
 		$smarty->display('paticka.tpl');

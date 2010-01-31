@@ -6,7 +6,7 @@
 	<title>{$titulek|escape}</title>
 	<meta name="description" content="{if isset($description)}{$description|escape}{elseif isset($nadpis)}{$nadpis|escape} - žonglérův slabikář{else}Žonglérův slabikář - obrázková učebnice žonglování.{/if}" />
 	<meta name="keywords" content="{if isset($keywords)}{$keywords|escape}{else}žongování, míčky, kruhy, kužely, návod, kaskáda, mills mess{/if}" />
-	<style media="screen,projection" type="text/css">@import url(http://f.{$smarty.server.SERVER_NAME}/zonglovani-w.css);</style>
+	<style media="screen,projection" type="text/css">@import url(http://f.{$smarty.server.SERVER_NAME}/zw.css);</style>
 	<style media="print" type="text/css">@import url(http://f.{$smarty.server.SERVER_NAME}/zt.css);</style>
 	<meta name="robots" content="{if isset($robots)}{$robots|escape}{else}index,follow{/if}" />
 	<link rel="shortcut icon" href="/favicon.ico" />
@@ -34,3 +34,8 @@
 </div>
 <div id="stranka">
 <div class="spacer">&nbsp;</div>
+{if $trail}
+<p class="drobky">
+Jste zde: {drobecky trail=$trail}
+</p>
+{/if}

@@ -17,39 +17,46 @@ foreach(get_seznam_triku('kuzely-passing') as $klic=>$foo){
 	array_push($vety[5][4],'<a href="/kuzely/passing/'.$klic.'.html" title="'.prvni_velke($foo['about']['obtiznost']).'">'.prvni_male($foo['about']['nazev']).'</a>');
 }
 
-if(isset($_GET["znameni"])){$znameni=$_GET["znameni"];}else{$znameni="";};
+if(isset($_GET['znameni'])){$znameni=$_GET['znameni'];}else{$znameni='';};
 
 $znameni=filtr(strtolower(trim($znameni)),$zverokruh);
 
-$smarty->assign("zverokruh",$zverokruh);
+$smarty->assign('zverokruh',$zverokruh);
 
-if(isset($_GET["zitra"])){
-	$nadpis="Horoskop žonglování na zítra";
+if(isset($_GET['zitra'])){
+	$nadpis='Horoskop žonglování na zítra';
 }else{
-	$nadpis="Horoskop žonglování";
+	$nadpis='Horoskop žonglování';
 }
 
-if(isset($_GET["zitra"])){
-	$smarty->assign("predpoved",predpoved($znameni,(time()+(24*3600))));
-	$smarty->assign("zitra","jo");
+$trail = new Trail();
+$trail->addStep($nadpis,'/horoskop/');
+
+if(isset($_GET['zitra'])){
+	$smarty->assign('predpoved',predpoved($znameni,(time()+(24*3600))));
+	$smarty->assign('zitra','jo');
 }else{
-	$smarty->assign("predpoved",predpoved($znameni,time()));
+	$smarty->assign('predpoved',predpoved($znameni,time()));
 }
 
 $smarty->assign('nahled','http://'.$_SERVER['SERVER_NAME'].'/img/h/horoskop.png');
 $smarty->assign('description','Horoskop pro žonglérky a žongléry. Každý den ti poradí co je nejlepší trénovat.');
 
-if($_SERVER["REQUEST_URI"]=="/horoskop/" or $_SERVER["REQUEST_URI"]=="/horoskop/zitra/"){
-	$smarty->assign("titulek",$nadpis);
+
+if($_SERVER['REQUEST_URI']=='/horoskop/' or $_SERVER['REQUEST_URI']=='/horoskop/zitra/'){
+	$smarty->assign_by_ref('trail', $trail->path);
+	$smarty->assign('titulek',$nadpis);
 	$smarty->display('hlavicka.tpl');
 	$smarty->display('horoskop-index.tpl');
 	$smarty->display('paticka.tpl');
 	exit();
 }
 
-$titulek=$nadpis." - ".$zverokruh[$znameni]["popis"];
+$titulek=$nadpis.' - '.$zverokruh[$znameni]['popis'];
 
 
+$trail->addStep($zverokruh[$znameni]['popis'],'/horoskop/');
+$smarty->assign_by_ref('trail', $trail->path);
 $smarty->assign('nahled','http://'.$_SERVER['SERVER_NAME'].'/img/h/horoskop-'.$znameni.'.png');
 $smarty->assign('description','Žonglérský horoskop znamení - '.$znameni);
 $smarty->assign("titulek",$titulek);

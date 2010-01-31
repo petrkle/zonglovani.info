@@ -11,6 +11,9 @@ if(isset($_GET['id'])){
 	$id='';
 }
 
+$trail = new Trail();
+$trail->addStep('Seznam žonglérů',LIDE_URL);
+
 $uzivatel_props=get_user_props($id);
 
 if($uzivatel_props){
@@ -40,6 +43,8 @@ if($uzivatel_props['status']=='ok'){
 	$smarty->assign('zverokruh',$zverokruh);
 	$smarty->assign('uzivatel_props',$uzivatel_props);
 
+	$trail->addStep($uzivatel_props['jmeno']);
+	$smarty->assign_by_ref('trail', $trail->path);
 	$smarty->display('hlavicka.tpl');
 	$smarty->display('uzivatel.tpl');
 	$smarty->display('paticka.tpl');

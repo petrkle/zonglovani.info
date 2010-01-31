@@ -1,3 +1,4 @@
+{debug}
 {if $chyby}
 <ul class="alert">
 {foreach from=$chyby item=chyba}

@@ -7,10 +7,16 @@ if(preg_match('/^\/ulita\/\?.*2010..$/',$_SERVER['REQUEST_URI'])){
 	exit();
 }
 
-$smarty->assign('titulek','Žonglování v Ulitě');
+$titulek='Žonglování v Ulitě';
+$smarty->assign('titulek',$titulek);
 $smarty->assign('nahled','http://'.$_SERVER['SERVER_NAME'].'/img/u/ulita.cz.png');
 $smarty->assign('description','Pravidelné nedělní žonglování v DDM Ulita. Přijít mohou začínající i zkušení žongléři a žonglérky. Pro širokou veřejnost jsou k dispozici míčky a kužely k zapůjčení. Žonglovat se může naučit opravdu každý.');
 $smarty->assign('icbm','50.094605, 14.481742');
+
+$trail = new Trail();
+$trail->addStep($titulek);
+$smarty->assign_by_ref('trail', $trail->path);
+
 
 $podzim=array();
 $jaro=array();

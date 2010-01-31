@@ -63,18 +63,19 @@ class MonthPayload_Decorator extends Calendar_Decorator {
 }
 
 function get_event_data($id,$storage=CALENDAR_DATA){
+			global $mesice;
 			$udalost=array();
 			$navrat=false;
 	if(is_readable($storage."/".$id)){
 			$file=basename($id);
 			$filename=explode("-",$file);
 
-			$udalost["zacatek"]=substr($filename[0],0,4)."-".substr($filename[0],4,2)."-".substr($filename[0],6,2);
-			$udalost["konec"]=substr($filename[1],0,4)."-".substr($filename[1],4,2)."-".substr($filename[1],6,2);
-			$udalost["id"]=ereg_replace("\.cal$","",$id);
-			$udalost["insert"]=ereg_replace("\.cal$","",$filename[3]);
-			$udalost["vlozil"]=$filename[2];
-			$udalost["month_url"]=CALENDAR_URL.substr($filename[0],0,4)."-".substr($filename[0],4,2).".html";
+			$udalost['zacatek']=substr($filename[0],0,4).'-'.substr($filename[0],4,2).'-'.substr($filename[0],6,2);
+			$udalost['konec']=substr($filename[1],0,4).'-'.substr($filename[1],4,2).'-'.substr($filename[1],6,2);
+			$udalost['id']=ereg_replace('\.cal$','',$id);
+			$udalost['insert']=ereg_replace('\.cal$','',$filename[3]);
+			$udalost['vlozil']=$filename[2];
+			$udalost['month_url']=CALENDAR_URL.substr($filename[0],0,4).'-'.substr($filename[0],4,2).'.html';
 
 			$db=file("$storage/$file");
 			foreach($db as $radek){
@@ -85,24 +86,25 @@ function get_event_data($id,$storage=CALENDAR_DATA){
 				$udalost[$prop]=$value;
 			}
 
-		if(isset($udalost["update"])){
-			$udalost["update"]=strtotime($udalost["update"]);
-			$udalost["update_hr"]=date("j. n. Y",$udalost["update"]);
+		if(isset($udalost['update'])){
+			$udalost['update']=strtotime($udalost['update']);
+			$udalost['update_hr']=date('j. n. Y',$udalost['update']);
 		}
-		if(isset($udalost["url"])){
+		if(isset($udalost['url'])){
 			$udalost['url_hr']=preg_replace('/^http:\/\/zonglovani.info/','',$udalost['url']);
 		}
-		$udalost["zacatek"].=" ".$udalost["time_start"];
-		$udalost["konec"].=" ".$udalost["time_end"];
-		$udalost["start"]=strtotime($udalost["zacatek"]);
-		$udalost["start_hr"]=date("j. n. Y G.i",strtotime($udalost["zacatek"]));
-		$udalost["start_ical"]=date("Ymd\THis\Z",(strtotime($udalost["zacatek"])-date("Z",strtotime($udalost["zacatek"]))));
-		$udalost["time"]=strtotime($udalost["time_start"]);
-		$udalost["end"]=strtotime($udalost["konec"]);
-		$udalost["end_hr"]=date("j. n. Y G.i",strtotime($udalost["konec"]));
-		$udalost["end_ical"]=date("Ymd\THis\Z",(strtotime($udalost["konec"])-date("Z",strtotime($udalost["konec"]))));
-		$udalost["insert_hr"]=date("j. n. Y",$udalost["insert"]);
-		$udalost["insert_mr"]=date("c",$udalost["insert"]);
+		$udalost['zacatek'].=' '.$udalost['time_start'];
+		$udalost['konec'].=' '.$udalost['time_end'];
+		$udalost['start']=strtotime($udalost['zacatek']);
+		$udalost['start_hr']=date('j. n. Y G.i',strtotime($udalost['zacatek']));
+		$udalost['month_name']=$mesice[date('n',strtotime($udalost['zacatek']))-1].' '.date('Y',strtotime($udalost['zacatek']));
+		$udalost['start_ical']=date('Ymd\THis\Z',(strtotime($udalost['zacatek'])-date('Z',strtotime($udalost['zacatek']))));
+		$udalost['time']=strtotime($udalost['time_start']);
+		$udalost['end']=strtotime($udalost['konec']);
+		$udalost['end_hr']=date('j. n. Y G.i',strtotime($udalost['konec']));
+		$udalost['end_ical']=date('Ymd\THis\Z',(strtotime($udalost['konec'])-date('Z',strtotime($udalost['konec']))));
+		$udalost['insert_hr']=date('j. n. Y',$udalost['insert']);
+		$udalost['insert_mr']=date('c',$udalost['insert']);
 		$navrat=$udalost;
 
 }

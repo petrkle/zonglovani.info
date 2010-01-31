@@ -1,7 +1,4 @@
 <p>
-<a href="{$smarty.const.LIDE_URL}" title="Všichni uživatelé žonglérova slabikáře.">Seznamu žonglérů</a> {$misto|escape}.
-</p>
-<p>
 {if is_array($uzivatele)}
 <ul>
 {foreach from=$uzivatele item=uzivatel}

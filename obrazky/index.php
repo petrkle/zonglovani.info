@@ -2,6 +2,8 @@
 require('../init.php');
 require('../func.php');
 
+$trail = new Trail();
+$trail->addStep('Obrázky žonglování','/obrazky/');
 
 if(isset($_GET['id'])){
 	$id=$_GET['id'];
@@ -19,6 +21,12 @@ if(isset($_GET['filtr'])){
 	$filtr=$_GET['filtr'];
 }else{
 	$filtr=false;
+}
+
+if(isset($_GET['filtry'])){
+	$filtry=true;
+}else{
+	$filtry=false;
 }
 
 if(isset($_GET['pageID'])){
@@ -126,11 +134,18 @@ if($id and $photo){
 				$page='/stranka'.$obrazek['stranka'].'/';
 			}
 
+			$trail->addStep($gal_info['title'],OBRAZKY_URL.$id);
+
 			if($obrazky[intval($photo)]['stranka']!=1){
 				$titulek.=' - stránka '.$obrazek['stranka'];
+				$trail->addStep($stranka.'. stránka ',OBRAZKY_URL.$id.'/stranka'.$stranka.'/');
 			}
+
+			$trail->addStep(intval($photo).'. obrázek');
+			
+			$smarty->assign_by_ref('trail', $trail->path);
 			$smarty->assign('titulek',$titulek);
-			$smarty->assign("nadpis",$gal_info['title']);
+			$smarty->assign('nadpis',$gal_info['title']);
 			$smarty->assign('gal_info',$gal_info);
 			$smarty->assign('obrazek',$obrazek);
 			$smarty->display('hlavicka-w.tpl');
@@ -141,7 +156,7 @@ if($id and $photo){
 			$smarty->display('obrazek.tpl');
 			$smarty->display('paticka-w.tpl');
 		}else{
-			require("../404.php");
+			require('../404.php');
 			exit();
 		}
 
@@ -155,12 +170,16 @@ if($id and $photo){
 
 		$smarty->assign('nadpis',$gal_info['title']);
 
+		$trail->addStep($gal_info['title'],OBRAZKY_URL.$id);
+
 		if($stranka){
 			$smarty->assign('stranka',$stranka);
 			if($stranka!=1){
 				$titulek.=' - stránka '.$stranka;
+				$trail->addStep('Stránka '.$stranka,OBRAZKY_URL.$id.'/stranka'.$stranka.'/');
 			}
 		}
+		$smarty->assign_by_ref('trail', $trail->path);
 		$smarty->assign('titulek',$titulek);
 		$smarty->assign('gal_info',$gal_info);
 		$smarty->display('hlavicka.tpl');
@@ -172,6 +191,10 @@ if($id and $photo){
 	$smarty->assign('nadpis',$filtr.' - filtr obrázků');
 	$smarty->assign("notitle",true);
 	$galerie=get_galerie($filtr);
+	
+	$trail->addStep('Filtr obrázků',OBRAZKY_URL.'filtr/');
+	$trail->addStep($filtr);
+	
 	if(count($galerie)>0){
 		foreach($galerie as $klic=>$gal){
 			$obrazky=array();
@@ -184,10 +207,19 @@ if($id and $photo){
 		}
 	}
 	$smarty->assign('galerie',$galerie);
+	$smarty->assign_by_ref('trail', $trail->path);
 	$smarty->display('hlavicka.tpl');
 	$smarty->display('obrazky-filtr.tpl');
 	$smarty->display('paticka.tpl');
+}elseif($filtry){
+	$trail->addStep('Filtr obrázků');
+	$smarty->assign('titulek','Filtry obrázků');
+	$smarty->assign_by_ref('trail', $trail->path);
+	$smarty->display('hlavicka.tpl');
+	$smarty->display('obrazky-filtry.tpl');
+	$smarty->display('paticka.tpl');
 }else{
+	$smarty->assign_by_ref('trail', $trail->path);
 	$smarty->assign('titulek','Obrázky žonglování');
 	$smarty->assign('galerie',get_galerie());
 	$smarty->display('hlavicka.tpl');

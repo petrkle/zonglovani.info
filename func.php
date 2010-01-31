@@ -423,4 +423,24 @@ function get_tipy(){
 return $navrat;
 }
 
+class Trail
+{
+		var $path = array();
+
+		function Trail($includeHome = true, $homeLabel = 'Žonglování', $homeLink = '/')
+		{
+				if ($includeHome)
+						$this->addStep($homeLabel, $homeLink);
+		}
+
+		function addStep($title, $link = '')
+		{
+				$item = array('title' => $title);
+				if (strlen($link) > 0)
+						$item['link'] = $link;
+				$this->path[] = $item;
+		}
+}
+
+
 ?>

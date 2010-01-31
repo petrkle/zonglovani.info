@@ -6,6 +6,9 @@ require('pusobiste.php');
 $smarty->assign('dovednosti',$dovednosti);
 $smarty->assign('pusobiste',$pusobiste);
 
+$trail = new Trail();
+$trail->addStep('Seznam žonglérů',LIDE_URL);
+
 if(isset($_GET['filtr'])){
 	$filtr=$_GET['filtr'];
 	if(isset($dovednosti[$filtr])){
@@ -38,10 +41,15 @@ if($filtr){
 	if(count($uzivatele)>0){
 		$smarty->assign('uzivatele',$uzivatele);
 	}
+	$trail->addStep('Podle dovedností',LIDE_URL.'dovednost/');
+	$trail->addStep($dovednosti[$filtr]['nazev']);
+	$smarty->assign_by_ref('trail', $trail->path);
 	$smarty->display('hlavicka.tpl');
 	$smarty->display('lide-dovednost.tpl');
 	$smarty->display('paticka.tpl');
 }else{
+	$trail->addStep('Podle dovedností',LIDE_URL.'dovednost/');
+	$smarty->assign_by_ref('trail', $trail->path);
 	$smarty->assign('titulek','Žongléři podle dovedností');
 	$smarty->display('hlavicka.tpl');
 	$smarty->display('lide-dovednosti.tpl');

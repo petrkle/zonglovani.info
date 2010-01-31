@@ -2,9 +2,9 @@
 Pravidelné nedělní žonglování v <a href="cesta.html" title="Jak se dostat do Ulity">DDM Ulita</a>. Žongluje se ve <a href="/obrazky/ulita-20091213/0059.html" title="Obrázek velkého sálu.">velkém sále</a> kde je: <strong>vysoký strop</strong>, měkká podlaha, ozvučení, pódium  pro případné vystoupení, okna a disco koule.
 </p>
 <div class="obrazkovnik">
-<a href="/obrazky/ulita-20100110/0005.html">{obrazek soubor='ust.jpg' popisek=''}</a>
-<a href="/obrazky/ulita-20100110/stranka2/0019.html">{obrazek soubor='usu.jpg' popisek=''}</a>
-<a href="/obrazky/ulita-20100110/0001.html">{obrazek soubor='usr.jpg' popisek=''}</a>
+<a href="/obrazky/ulita-20100124/0002.html">{obrazek soubor='usv.jpg' popisek=''}</a>
+<a href="/obrazky/ulita-20100124/0006.html">{obrazek soubor='usw.jpg' popisek=''}</a>
+<a href="/obrazky/ulita-20100124/stranka2/0023.html">{obrazek soubor='usx.jpg' popisek=''}</a>
 <br /><a href="/obrazky/filtr/Ulita" title="Další obrázky z žonglování v Ulitě.">Další obrázky &raquo;</a>
 </div>
 <p>
@@ -71,10 +71,6 @@ E-mail: {$mail|mailobfuscate}
 </p>
 
 <p><a href="http://www.radio1.cz" title="Radio 1" onclick="pageTracker._trackPageview('/goto/radio1.cz');">{obrazek soubor='radio1.png' popisek='Radio 1'}</a>O žonglování v Ulitě můžeš slyšet i v <a href="http://www.radio1.cz/kulturniservis/" title="Kulturní servis Rádia 1" onclick="pageTracker._trackPageview('/goto/radio1.cz/kulturniservis');" class="external">kulturním servisu</a> Radia 1.</p>
-
-<p class="sdileni">
-{include file='sdileni.tpl'}
-</p>
 
 <p style="text-align: right; font-size: 0.5em;"><a href="/ulita/en.html">English version</a></p>
 
