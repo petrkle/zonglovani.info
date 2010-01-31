@@ -1,10 +1,17 @@
 <?php
 require('init.php');
+require('func.php');
 
-$smarty->assign("titulek","Žonglování s kužely");
+$titulek='Jak začít žonglovat s kužely';
 
+$smarty->assign('titulek',$titulek);
+
+$trail = new Trail();
+$trail->addStep('Kužely','/kuzely/');
+$trail->addStep($titulek);
+
+$smarty->assign_by_ref('trail', $trail->path);
 $smarty->display('hlavicka.tpl');
 $smarty->display('kuzely-jak-zacit.tpl');
 $smarty->display('paticka.tpl');
-
 ?>

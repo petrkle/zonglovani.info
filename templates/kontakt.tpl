@@ -1,4 +1,3 @@
-<br />
 <h3>Petr Kletečka</h3>
 <p>{obrazek soubor="pek.jpg" popisek="Petr Kletečka"}</p>
 <p>
@@ -17,3 +16,9 @@ Telefon:
 {obrazek soubor="tel-8.png" popisek="čtyři"}
 {obrazek soubor="tel-9.png" popisek="kolečko"}
 </p>
+<br/>
+<h3>O žonglérově slabikáři</h3>
+<ul>
+<li><a href="/proc-a-jak.html" title="Proč a jak vznikl žonglérův slabikář.">Proč a jak vznikl žonglérův slabikář</a></li>
+<li><a href="/changelog.html" title="Změny v žonglérově slabikáři.">Změny v žonglérově slabikáři</a></li>
+</ul>

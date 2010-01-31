@@ -33,5 +33,5 @@ V některých případech je zvlášť zdůrazněn pohyb rukou. Přerušovaná �
 U složitějších triků je pro názornost nakreslen i obrys postavy.
 </p>
 
-<a href="#nahore" title="Přesun na začátek stránky" class="nahoru">nahoru&nbsp;^^</a>
+<a href="#nahore" title="Přesun na začátek stránky" class="nahoru">Nahoru&nbsp;^^</a>
 

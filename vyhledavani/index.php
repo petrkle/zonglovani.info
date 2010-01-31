@@ -6,6 +6,8 @@
 ********************************************/
 //error_reporting(E_ALL ^ E_NOTICE ^ E_WARNING); 
 require('../init.php');
+require('../func.php');
+
 $include_dir = "./include"; 
 include ("$include_dir/commonfuncs.php");
 
@@ -64,8 +66,12 @@ require_once("$include_dir/categoryfuncs.php");
 
 include "$settings_dir/conf.php";
 
+$trail = new Trail();
+$trail->addStep('Vyhledávání','/vyhledavani/');
+
 if(isset($query) and strlen($query)>0){
 	$titulek="$query - prohledávání žonglérova slabikáře";
+	$trail->addStep('Výsledky vyhledávání');
 }else{
 	$titulek="Žonglérův slabikář - vyhledávání";
 }
@@ -73,10 +79,12 @@ if(isset($query) and strlen($query)>0){
 $smarty->assign('nahled','http://'.$_SERVER['SERVER_NAME'].'/img/h/hledani.png');
 $smarty->assign('description','Hledání v žonglérově slabikáři');
 
-$smarty->assign("titulek",$titulek);
-$smarty->assign("nadpis","Vyhledávání");
-$smarty->assign("notitle",true);
-$smarty->assign("robots",'noindex,nofollow');
+$smarty->assign('titulek',$titulek);
+$smarty->assign('nadpis','Vyhledávání');
+$smarty->assign('notitle',true);
+$smarty->assign('robots','noindex,nofollow');
+
+$smarty->assign_by_ref('trail', $trail->path);
 $smarty->display('hlavicka.tpl');
 
 include "$language_dir/$language-language.php";

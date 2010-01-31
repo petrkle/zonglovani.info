@@ -1,8 +1,14 @@
 <?php
 require('init.php');
+require('func.php');
 
-$smarty->assign("titulek","Dva kužely v jedné ruce");
+$trail = new Trail();
+$trail->addStep('Kužely','/kuzely/');
+$trail->addStep('Úchop');
 
+$smarty->assign_by_ref('trail', $trail->path);
+
+$smarty->assign('titulek','Dva kužely v jedné ruce');
 $smarty->display('hlavicka.tpl');
 $smarty->display('kuzely-grip.tpl');
 $smarty->display('paticka.tpl');

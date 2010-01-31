@@ -46,5 +46,5 @@ Když se chceš naučit nový trik začni svojí šikovnější rukou. Když jsi
 Občas může přijít krize, kdy se ti nedaří zvládnout nový trik. Dej si pauzu a trénuj něco jiného, za dva dny se ti určitě povede líp. 
 </p>
 
-<a href="#nahore" title="Přesun na začátek stránky" class="nahoru">nahoru&nbsp;^^</a>
+<a href="#nahore" title="Přesun na začátek stránky" class="nahoru">Nahoru&nbsp;^^</a>
 

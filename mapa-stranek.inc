@@ -100,21 +100,21 @@
 		<li><a href="/kuzely/rotace.html">Rotace kuželu</a></li>
 		<li><a href="/kuzely/toceni-okolo-palce.html">Otáčení kuželky okolo palce</a></li>
 		<li><a href="/kuzely/vyroba.html">Výroba kuželů</a></li>
-			<li><a name="3"></a><a href="/kuzely/3/">Žonglování třemi kužely</a>
+			<li><a name="3"></a><a href="/kuzely/3/">Žonglování se třemi kužely</a>
 			<ul>
-			<li><a href="/kuzely/3/423.html">Žonglování třemi kužely - 423</a></li>
-			<li><a href="/kuzely/3/brada.html">Žonglování třemi kužely - Odkládání kuželky na bradu</a></li>
-			<li><a href="/kuzely/3/hazenihorem.html">Žonglování třemi kužely - Házení horem</a></li>
-			<li><a href="/kuzely/3/helikoptera.html">Žonglování třemi kužely - Helikoptéra</a></li>
-			<li><a href="/kuzely/3/jeden-a-pul-otocky.html">Žonglování třemi kužely - Jeden a půl otočky</a></li>
-			<li><a href="/kuzely/3/kaskada.html">Žonglování třemi kužely - Kaskáda</a></li>
-			<li><a href="/kuzely/3/nuzky.html">Žonglování třemi kužely - Nůžky</a></li>
-			<li><a href="/kuzely/3/podnohou.html">Žonglování třemi kužely - Hození kuželu pod nohou</a></li>
-			<li><a href="/kuzely/3/pul-otocky.html">Žonglování třemi kužely - Půl otočky</a></li>
-			<li><a href="/kuzely/3/rybicky.html">Žonglování třemi kužely - Rybičky</a></li>
-			<li><a href="/kuzely/3/sekani.html">Žonglování třemi kužely - Sekání (chops)</a></li>
-			<li><a href="/kuzely/3/sloupy.html">Žonglování třemi kužely - Sloupy</a></li>
-			<li><a href="/kuzely/3/zazady.html">Žonglování třemi kužely - Hození za zády</a></li>
+			<li><a href="/kuzely/3/423.html">Žonglování se třemi kužely - 423</a></li>
+			<li><a href="/kuzely/3/brada.html">Žonglování se třemi kužely - Odkládání kuželky na bradu</a></li>
+			<li><a href="/kuzely/3/hazenihorem.html">Žonglování se třemi kužely - Házení horem</a></li>
+			<li><a href="/kuzely/3/helikoptera.html">Žonglování se třemi kužely - Helikoptéra</a></li>
+			<li><a href="/kuzely/3/jeden-a-pul-otocky.html">Žonglování se třemi kužely - Jeden a půl otočky</a></li>
+			<li><a href="/kuzely/3/kaskada.html">Žonglování se třemi kužely - Kaskáda</a></li>
+			<li><a href="/kuzely/3/nuzky.html">Žonglování se třemi kužely - Nůžky</a></li>
+			<li><a href="/kuzely/3/podnohou.html">Žonglování se třemi kužely - Hození kuželu pod nohou</a></li>
+			<li><a href="/kuzely/3/pul-otocky.html">Žonglování se třemi kužely - Půl otočky</a></li>
+			<li><a href="/kuzely/3/rybicky.html">Žonglování se třemi kužely - Rybičky</a></li>
+			<li><a href="/kuzely/3/sekani.html">Žonglování se třemi kužely - Sekání (chops)</a></li>
+			<li><a href="/kuzely/3/sloupy.html">Žonglování se třemi kužely - Sloupy</a></li>
+			<li><a href="/kuzely/3/zazady.html">Žonglování se třemi kužely - Hození za zády</a></li>
 			</ul>
 			</li>
 			<li><a name="passing"></a><a href="/kuzely/passing/">Passing</a>
@@ -296,6 +296,9 @@
 			<li><a name="festival-zonglovani-20070713"></a><a href="/obrazky/festival-zonglovani-20070713/">Festival žonglování Praha 2007 - obrázky žonglování</a>
 			
 			</li>
+			<li><a name="filtr"></a><a href="/obrazky/filtr/">Filtry obrázků</a>
+			
+			</li>
 			<li><a name="klamovka-20080422"></a><a href="/obrazky/klamovka-20080422/">Klamovka 22. 4. 2008 - obrázky žonglování</a>
 			
 			</li>
@@ -333,6 +336,9 @@
 			
 			</li>
 			<li><a name="ulita-20100110"></a><a href="/obrazky/ulita-20100110/">Ulita 10. 1. 2010 - obrázky žonglování</a>
+			
+			</li>
+			<li><a name="ulita-20100124"></a><a href="/obrazky/ulita-20100124/">Ulita 24. 1. 2010 - obrázky žonglování</a>
 			
 			</li>
 			<li><a name="zidovske-pece-20090404"></a><a href="/obrazky/zidovske-pece-20090404/">Židovské pece 4. 4. 2009 - obrázky žonglování</a>

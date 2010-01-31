@@ -6,7 +6,7 @@ $titulek='Další informace o žonglování';
 $smarty->assign('titulek',$titulek);
 
 $trail = new Trail();
-$trail->addStep('Ostatní','/ostatni.html');
+$trail->addStep('Informace o žonglování','/ostatni.html');
 
 $smarty->assign_by_ref('trail', $trail->path);
 $smarty->display('hlavicka.tpl');

@@ -79,4 +79,4 @@ Když ti spadnou dva míčky z pěti, pokračuj kaskádou se třemi. Nohou přes
 </p>
 
 
-<a href="#nahore" title="Přesun na začátek stránky" class="nahoru">nahoru&nbsp;^^</a>
+<a href="#nahore" title="Přesun na začátek stránky" class="nahoru">Nahoru&nbsp;^^</a>

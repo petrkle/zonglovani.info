@@ -13,7 +13,8 @@
 - vyhledávací modul, grafické téma a personas pro firefox
 - při detekci firefoxu nabízet výše uvedené
 - tapety na plochu
-- drobečková navigace - všude
+- přihlášeným uživatelům nabízet formulář pro zaslání vzkazu (mě)
+- doplnit odkazy "Kam dál" ala yahů
 
 náčiní - točicí talíř, záchodové zvony
 rec.juggling - popis a nastavení
@@ -72,3 +73,4 @@ prolinkovat působiště a dovednosti u žongléra s filtrem
 prověřit registraci a přihlašování - login pouze malá písmena
 na úvodní stránce doplnit datum tipu týdne
 adresář /tip/ - zobrazovat odkazy na starší tipy
+drobečková navigace

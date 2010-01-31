@@ -1,10 +1,15 @@
 <?php
 require('init.php');
+require('func.php');
 
-$smarty->assign("titulek","Výroba míčků na žonglování");
+$titulek='Výroba míčků na žonglování';
+$smarty->assign('titulek',$titulek);
 
+$trail = new Trail();
+$trail->addStep('Míčky','/micky/');
+$trail->addStep($titulek);
+$smarty->assign_by_ref('trail', $trail->path);
 $smarty->display('hlavicka.tpl');
 $smarty->display('micky-vyroba.tpl');
 $smarty->display('paticka.tpl');
-
 ?>
