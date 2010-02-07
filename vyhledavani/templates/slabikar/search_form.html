@@ -7,3 +7,12 @@
 	<input type="submit" value="<?php print $sph_messages['Search']?>">
 </fieldset>
 </p>
+<?php 
+if(!isset($_GET['source'])){
+?>
+<p>
+Hledáš často? Zkus <a href="vyhledavani.xml" onClick="window.external.AddSearchProvider('http://zonglovani.info/vyhledavani/vyhledavani.xml');return(false);">vyhledávací modul</a> do prohlížeče.
+</p>
+<?php
+}
+?>

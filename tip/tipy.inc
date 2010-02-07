@@ -5,7 +5,8 @@
 2010-01-11*Hledání v žonglérově slabikáři*/vyhledavani/*hledani.png*Žonglérův slabikář obsahuje rychlé a přesné <a href="/vyhledavani/" title="Fulltextové prohledávání žonglérova slabikáře.">vyhledávání</a>.
 2010-01-18*Žonglování v Ulitě*/ulita/?201003*ulita.cz.png*V domě dětí a mládeže Ulita se pravidelně žongluje. Přijít mohou začínající i zkušení žongléři a žonglérky.
 2010-01-25*Zvedání míčku nohou*/micky/kick-up.html*kickup-micky.png*Tento týden se naučíme zvedání míčku nohou. Podceňovaná a přitom klíčová dovednost.
-2010-02-01*Žonglování v Ulitě*/ulita/?201005*ulita.cz.png*V domě dětí a mládeže Ulita se pravidelně žongluje. Přijít mohou začínající i zkušení žongléři a žonglérky.
+2010-02-01*Bratři v tricku 2*/video/bratri-v-tricku-2.html*bratri2.jpg*Bratři v tricku nelení a jsou tu zas. Adam a Vašek předvádějí <a href="/kuzely/passing/" title="Víc lidí žongluje dohromady.">passing s kužely</a>.
+2010-02-04*Žonglování v Ulitě*/ulita/?201005*ulita.cz.png*V domě dětí a mládeže Ulita se pravidelně žongluje. Přijít mohou začínající i zkušení žongléři a žonglérky.
 2010-02-08*Australský trik*/kuzely/passing/australsky-trik.html*klokan.png*Nauč se něco od klokanů. Australský trik obsahuje přebírání kuželek, třesení rukou a házení kuželky za zády. 
 2010-02-15*Žonglování v Ulitě*/ulita/?201007*ulita.cz.png*V domě dětí a mládeže Ulita se pravidelně žongluje. Přijít mohou začínající i zkušení žongléři a žonglérky.
 2010-02-22*Take It Out 3*/video/take-it-out-3.html*take-it-out3.jpg*Video, kde si Lukas Schütte a Christof Buch přebírají kužely.

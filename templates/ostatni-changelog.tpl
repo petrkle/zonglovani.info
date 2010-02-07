@@ -8,7 +8,6 @@
 <p>
 <ul>
 <li>Datum: {$zmena.datum_hr}</li>
-<li>Autor: {$zmena.autor}</li>
 <li>Popis: {$zmena.popis}</li>
 </ul>
 </p>
@@ -16,11 +15,7 @@
 {/if}
 
 <h3>Změny ve starším uložišti svn</h3>
-<p>
-Jednotlivé revize jsou oddělené řádkem mínusů. Na dalším řádku je postupně: číslo revize, autor změny, datum a počet řádků popisujících změnu. Pak následuje prázdný řádek a vlastní popis změny.
-</p>
 <pre>{include file='ostatni-changelog-old.tpl'}</pre>
-
 <h3>Starší změny</h3>
 <p>
 <ul>

@@ -5,7 +5,7 @@
 * By Ando Saabas		  ando(a t)cs.ioc.ee
 ********************************************/
 
-error_reporting(E_ALL ^ E_NOTICE);
+error_reporting(E_ALL ^ E_NOTICE ^ E_WARNING);
 	
 	function swap_max (&$arr, $start, $domain) {
 		$pos  = $start;
@@ -147,7 +147,7 @@ error_reporting(E_ALL ^ E_NOTICE);
 	}
 
 	function search($searchstr, $category, $start, $per_page, $type, $domain) {
-		global $length_of_link_desc,$mysql_table_prefix, $show_meta_description, $merge_site_results, $stem_words, $did_you_mean_enabled ;
+		global $length_of_link_desc,$mysql_table_prefix, $show_meta_description, $merge_site_results, $stem_words, $did_you_mean_enabled, $smarty ;
 		
 		$possible_to_find = 1;
 		$result = mysql_query("select domain_id from ".$mysql_table_prefix."domains where domain = '$domain'");
@@ -191,7 +191,12 @@ error_reporting(E_ALL ^ E_NOTICE);
 
 			$searchword = addslashes($wordarray[$phrase_words]);
 			$query1 = "SELECT link_id from ".$mysql_table_prefix."links where fulltxt like '% $searchword%'";
-			echo mysql_error();
+			if($mysql_err = mysql_errno()) {
+				$smarty->assign('chyba', 'Chyba dotazu do databáze');
+				$smarty->display('error-db.tpl');
+				$smarty->display('paticka.tpl');
+				exit();
+			}
 			$result = mysql_query($query1);
 			$num_rows = mysql_num_rows($result);
 			if ($num_rows == 0) {
@@ -210,7 +215,12 @@ error_reporting(E_ALL ^ E_NOTICE);
 			$catlist = implode(",", $allcats);
 			$query1 = "select link_id from ".$mysql_table_prefix."links, ".$mysql_table_prefix."sites, ".$mysql_table_prefix."categories, ".$mysql_table_prefix."site_category where ".$mysql_table_prefix."links.site_id = ".$mysql_table_prefix."sites.site_id and ".$mysql_table_prefix."sites.site_id = ".$mysql_table_prefix."site_category.site_id and ".$mysql_table_prefix."site_category.category_id in ($catlist)";
 			$result = mysql_query($query1);
-			echo mysql_error();
+			if($mysql_err = mysql_errno()) {
+				$smarty->assign('chyba', 'Chyba dotazu do databáze');
+				$smarty->display('error-db.tpl');
+				$smarty->display('paticka.tpl');
+				exit();
+			}
 			$num_rows = mysql_num_rows($result);
 			if ($num_rows == 0) {
 				$possible_to_find = 0;
@@ -233,7 +243,12 @@ error_reporting(E_ALL ^ E_NOTICE);
 			}
 			$wordmd5 = substr(md5($searchword), 0, 1);
 			$query1 = "SELECT distinct link_id, weight, domain from ".$mysql_table_prefix."link_keyword$wordmd5, ".$mysql_table_prefix."keywords where ".$mysql_table_prefix."link_keyword$wordmd5.keyword_id= ".$mysql_table_prefix."keywords.keyword_id and keyword='$searchword' $domain_qry order by weight desc";
-			echo mysql_error();
+			if($mysql_err = mysql_errno()) {
+				$smarty->assign('chyba', 'Chyba dotazu do databáze');
+				$smarty->display('error-db.tpl');
+				$smarty->display('paticka.tpl');
+				exit();
+			}
 			$result = mysql_query($query1);
 			$num_rows = mysql_num_rows($result);
 			if ($num_rows == 0) {
@@ -401,7 +416,12 @@ error_reporting(E_ALL ^ E_NOTICE);
 		$query1 = "SELECT distinct link_id, url, title, description,  $fulltxt, size FROM ".$mysql_table_prefix."links WHERE link_id in ($inlist)";
 
 		$result = mysql_query($query1);
-		echo mysql_error();
+			if($mysql_err = mysql_errno()) {
+				$smarty->assign('chyba', 'Chyba dotazu do databáze');
+				$smarty->display('error-db.tpl');
+				$smarty->display('paticka.tpl');
+				exit();
+			}
 
 		$i = 0;
 		while ($row = mysql_fetch_row($result)) {
@@ -424,9 +444,14 @@ error_reporting(E_ALL ^ E_NOTICE);
 		if ($merge_site_results  && $domain_qry == "") {
 			sort_with_domains($res);
 		} else {
-			usort($res, "cmp"); 	
+			usort($res, 'cmp'); 	
 		}
-		echo mysql_error();
+			if($mysql_err = mysql_errno()) {
+				$smarty->assign('chyba', 'Chyba dotazu do databáze');
+				$smarty->display('error-db.tpl');
+				$smarty->display('paticka.tpl');
+				exit();
+			}
 		$res['maxweight'] = $maxweight;
 		$res['results'] = $results;
 		return $res;

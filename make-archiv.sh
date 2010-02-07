@@ -1,5 +1,7 @@
 #!/bin/bash
 
+grep -in '{debug}' templates/*.tpl && ( echo "ZAPOMENUTÝ DEBUG!!!" ; exit )
+
 ARCHIV=`date "+%Y-%m-%d"`.tar.gz
 
 export LC_ALL=cs_CZ.utf-8

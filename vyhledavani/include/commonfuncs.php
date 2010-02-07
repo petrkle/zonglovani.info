@@ -14,13 +14,17 @@
 	/**
 	* Returns the result of a query as an array
 	* 
-	* @param string $query SQL päring stringina
+	* @param string $query SQL pÃ¤ring stringina
 	* @return array|null massiiv
 	 */
 	function sql_fetch_all($query) {
+		global $smarty;
 		$result = mysql_query($query);
 		if($mysql_err = mysql_errno()) {
-			print $query.'<br>'.mysql_error();
+		$smarty->assign('chyba', 'Chyba dotazu do databÃ¡ze');
+		$smarty->display('error-db.tpl');
+		$smarty->display('paticka.tpl');
+		exit();
 		} else {
 			while($row=mysql_fetch_array($result)) {
 				$data[]=$row;
@@ -55,7 +59,7 @@
 	function get_cats($parent) {
 		global $mysql_table_prefix;
 		$query = "SELECT * FROM ".$mysql_table_prefix."categories WHERE parent_num=$parent";
-		echo mysql_error();
+		var_dump(mysql_errno);
 		$result = mysql_query($query);
 		$arr[] = $parent;
 		if (mysql_num_rows($result) <> '') {
@@ -79,72 +83,72 @@
 		(
 		"&amp" => "&",
 		"&apos" => "'",
-		"&THORN;"  => "Ş",
-		"&szlig;"  => "ß",
-		"&agrave;" => "à",
-		"&aacute;" => "á",
-		"&acirc;"  => "â",
-		"&atilde;" => "ã",
-		"&auml;"   => "ä",
-		"&aring;"  => "å",
-		"&aelig;"  => "æ",
-		"&ccedil;" => "ç",
-		"&egrave;" => "è",
-		"&eacute;" => "é",
-		"&ecirc;"  => "ê",
-		"&euml;"   => "ë",
-		"&igrave;" => "ì",
-		"&iacute;" => "í",
-		"&icirc;"  => "î",
-		"&iuml;"   => "ï",
-		"&eth;"    => "ğ",
-		"&ntilde;" => "ñ",
-		"&ograve;" => "ò",
-		"&oacute;" => "ó",
-		"&ocirc;"  => "ô",
-		"&otilde;" => "õ",
-		"&ouml;"   => "ö",
-		"&oslash;" => "ø",
-		"&ugrave;" => "ù",
-		"&uacute;" => "ú",
-		"&ucirc;"  => "û",
-		"&uuml;"   => "ü",
-		"&yacute;" => "ı",
-		"&thorn;"  => "ş",
-		"&yuml;"   => "ÿ",
-		"&THORN;"  => "Ş",
-		"&szlig;"  => "ß",
-		"&Agrave;" => "à",
-		"&Aacute;" => "á",
-		"&Acirc;"  => "â",
-		"&Atilde;" => "ã",
-		"&Auml;"   => "ä",
-		"&Aring;"  => "å",
-		"&Aelig;"  => "æ",
-		"&Ccedil;" => "ç",
-		"&Egrave;" => "è",
-		"&Eacute;" => "é",
-		"&Ecirc;"  => "ê",
-		"&Euml;"   => "ë",
-		"&Igrave;" => "ì",
-		"&Iacute;" => "í",
-		"&Icirc;"  => "î",
-		"&Iuml;"   => "ï",
-		"&ETH;"    => "ğ",
-		"&Ntilde;" => "ñ",
-		"&Ograve;" => "ò",
-		"&Oacute;" => "ó",
-		"&Ocirc;"  => "ô",
-		"&Otilde;" => "õ",
-		"&Ouml;"   => "ö",
-		"&Oslash;" => "ø",
-		"&Ugrave;" => "ù",
-		"&Uacute;" => "ú",
-		"&Ucirc;"  => "û",
-		"&Uuml;"   => "ü",
-		"&Yacute;" => "ı",
-		"&Yhorn;"  => "ş",
-		"&Yuml;"   => "ÿ"
+		"&THORN;"  => "Å¢",
+		"&szlig;"  => "ÃŸ",
+		"&agrave;" => "Å•",
+		"&aacute;" => "Ã¡",
+		"&acirc;"  => "Ã¢",
+		"&atilde;" => "Äƒ",
+		"&auml;"   => "Ã¤",
+		"&aring;"  => "Äº",
+		"&aelig;"  => "Ä‡",
+		"&ccedil;" => "Ã§",
+		"&egrave;" => "Ä",
+		"&eacute;" => "Ã©",
+		"&ecirc;"  => "Ä™",
+		"&euml;"   => "Ã«",
+		"&igrave;" => "Ä›",
+		"&iacute;" => "Ã­",
+		"&icirc;"  => "Ã®",
+		"&iuml;"   => "Ä",
+		"&eth;"    => "Ä‘",
+		"&ntilde;" => "Å„",
+		"&ograve;" => "Åˆ",
+		"&oacute;" => "Ã³",
+		"&ocirc;"  => "Ã´",
+		"&otilde;" => "Å‘",
+		"&ouml;"   => "Ã¶",
+		"&oslash;" => "Å™",
+		"&ugrave;" => "Å¯",
+		"&uacute;" => "Ãº",
+		"&ucirc;"  => "Å±",
+		"&uuml;"   => "Ã¼",
+		"&yacute;" => "Ã½",
+		"&thorn;"  => "Å£",
+		"&yuml;"   => "Ë™",
+		"&THORN;"  => "Å¢",
+		"&szlig;"  => "ÃŸ",
+		"&Agrave;" => "Å•",
+		"&Aacute;" => "Ã¡",
+		"&Acirc;"  => "Ã¢",
+		"&Atilde;" => "Äƒ",
+		"&Auml;"   => "Ã¤",
+		"&Aring;"  => "Äº",
+		"&Aelig;"  => "Ä‡",
+		"&Ccedil;" => "Ã§",
+		"&Egrave;" => "Ä",
+		"&Eacute;" => "Ã©",
+		"&Ecirc;"  => "Ä™",
+		"&Euml;"   => "Ã«",
+		"&Igrave;" => "Ä›",
+		"&Iacute;" => "Ã­",
+		"&Icirc;"  => "Ã®",
+		"&Iuml;"   => "Ä",
+		"&ETH;"    => "Ä‘",
+		"&Ntilde;" => "Å„",
+		"&Ograve;" => "Åˆ",
+		"&Oacute;" => "Ã³",
+		"&Ocirc;"  => "Ã´",
+		"&Otilde;" => "Å‘",
+		"&Ouml;"   => "Ã¶",
+		"&Oslash;" => "Å™",
+		"&Ugrave;" => "Å¯",
+		"&Uacute;" => "Ãº",
+		"&Ucirc;"  => "Å±",
+		"&Uuml;"   => "Ã¼",
+		"&Yacute;" => "Ã½",
+		"&Yhorn;"  => "Å£",
+		"&Yuml;"   => "Ë™"
 		);
 
 	//Apache multi indexes parameters
@@ -168,7 +172,7 @@
 
 
 	function remove_accents($string) {
-		return (strtr($string, "ÀÁÂÃÄÅÆàáâãäåæÒÓÔÕÕÖØòóôõöøÈÉÊËèéêëğÇçĞÌÍÎÏìíîïÙÚÛÜùúûüÑñŞßÿı",
+		return (strtr($string, "Å”ÃÃ‚Ä‚Ã„Ä¹Ä†Å•Ã¡Ã¢ÄƒÃ¤ÄºÄ‡Å‡Ã“Ã”ÅÅÃ–Å˜ÅˆÃ³Ã´Å‘Ã¶Å™ÄŒÃ‰Ä˜Ã‹ÄÃ©Ä™Ã«Ä‘Ã‡Ã§ÄÄšÃÃÄÄ›Ã­Ã®ÄÅ®ÃšÅ°ÃœÅ¯ÃºÅ±Ã¼ÅƒÅ„Å¢ÃŸË™Ã½",
 					  "aaaaaaaaaaaaaaoooooooooooooeeeeeeeeecceiiiiiiiiuuuuuuuunntsyy"));
 	}
 

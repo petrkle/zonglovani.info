@@ -11,20 +11,20 @@ function smarty_function_vypismenu($params, &$smarty){
 		if($_SERVER['REQUEST_URI']==$adresy[$foo] and !isset($_GET['show'])){
 			$navrat.="<li><h4>".$texty[$foo]."</h4>\n";
 		}else{
-			$navrat.="<li><h4><a href=\"".$adresy[$foo]."\" title=\"".$popis[$foo]."\">".$texty[$foo]."</a></h4>\n";
+			$navrat.='<li><h4><a href="'.$adresy[$foo].'" title="'.$popis[$foo].'">'.$texty[$foo].'</a></h4>'."\n";
 		};
 		$navrat.=submenu($foo);
 		$navrat.="</li>\n";
 	}
 
-		if(!preg_match('/^\/ulita\/$/',$_SERVER["REQUEST_URI"])){
+		if(!preg_match('/^\/ulita\/$/',$_SERVER['REQUEST_URI'])){
 			$navrat.='<li><h4><a href="/ulita/" title="Nedělní žonglování v DDM Ulita.">Žonglování v Ulitě</a></h4></li>';
 		}else{
 			$navrat.='<li><h4>Žonglování v Ulitě</h4></li>';
 		}
 
 	$navrat.="\n<ul>\n";
-			if(!preg_match(SEARCH_URL,$_SERVER["REQUEST_URI"])){
+			if(!preg_match(SEARCH_URL,$_SERVER['REQUEST_URI'])){
 	$navrat.='<form action="'.SEARCH_URL.'" method="get" id="malehledani">
 		<fieldset>
 		<legend>Vyhledávání</legend>
@@ -63,9 +63,9 @@ function submenu($id){
 		$navrat="<ul>\n";
 		for($foo=0;$foo<count($adresy);$foo++){
 			if($_SERVER["REQUEST_URI"]==$adresy[$foo] and !isset($_GET["show"])){
-				$navrat.="<li><strong>".$texty[$foo]."</strong></li>\n";
+				$navrat.='<li><strong>'.$texty[$foo].'</strong></li>'."\n";
 			}else{
-				$navrat.="<li><a href=\"".$adresy[$foo]."\" title=\"".$popisky[$foo]."\">".$texty[$foo]."</a>\n";
+				$navrat.='<li><a href="'.$adresy[$foo].'" title="'.$popisky[$foo].'">'.$texty[$foo].'</a>'."\n";
 			};
 		};
 		$navrat.="</ul>\n";

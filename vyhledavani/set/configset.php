@@ -1,101 +1,101 @@
 <?php 
-include "auth.php";
-if ($_index_numbers=="") {
+include 'auth.php';
+if ($_index_numbers=='') {
 	$_index_numbers=0;
 } 
 
-if ($_index_xls=="") {
+if ($_index_xls=='') {
 	$_index_xls=0;
 } 
 
-if ($_index_ppt=="") {
+if ($_index_ppt=='') {
 	$_index_ppt=0;
 }
 
-if ($_index_pdf=="") {
+if ($_index_pdf=='') {
 	$_index_pdf=0;
 } 
 
-if ($_index_doc=="") {
+if ($_index_doc=='') {
 	$_index_doc=0;
 } 
 
-if ($_min_delay=="") {
+if ($_min_delay=='') {
 	$_min_delay=0;
 } 
 
-if ($_index_host=="") {
+if ($_index_host=='') {
 	$_index_host=0;
 }
-if ($_keep_log=="") {
+if ($_keep_log=='') {
 	$_keep_log=0;
 }
-if ($_show_meta_description=="") {
+if ($_show_meta_description=='') {
 	$_show_meta_description=0;
 }
 
-if ($_show_categories=="") {
+if ($_show_categories=='') {
 	$_show_categories=0;
 }
 
-if ($_show_query_scores=="") {
+if ($_show_query_scores=='') {
 	$_show_query_scores=0;
 }
 
-if ($_email_log=="") {
+if ($_email_log=='') {
 	$_email_log=0;
 }
 
-if ($_print_results=="") {
+if ($_print_results=='') {
 	$_print_results=0;
 }
 
 
-if ($_index_meta_keywords=="") {
+if ($_index_meta_keywords=='') {
 	$_index_meta_keywords=0;
 }
 
-if ($_index_host=="") {
+if ($_index_host=='') {
 	$_index_host=0;
 }
 
-if ($_advanced_search=="") {
+if ($_advanced_search=='') {
 	$_advanced_search=0;
 }
 
-if ($_merge_site_results == "") {
+if ($_merge_site_results == '') {
 	$_merge_site_results = 0;
 }
 
-if ($_did_you_mean_enabled == "") {
+if ($_did_you_mean_enabled == '') {
 	$_did_you_mean_enabled = 0;
 }
 
-if ($_stem_words == "") {
+if ($_stem_words == '') {
 	$_stem_words = 0;
 }
 
-if ($_strip_sessids == "") {
+if ($_strip_sessids == '') {
 	$_strip_sessids = 0;
 }
 
-if ($_suggest_enabled == "") {
+if ($_suggest_enabled == '') {
 	$_suggest_enabled = 0;
 }
 
-if ($_suggest_history == "") {
+if ($_suggest_history == '') {
 	$_suggest_history  = 0;
 }
 
-if ($_suggest_phrases == "") {
+if ($_suggest_phrases == '') {
 	$_suggest_phrases = 0;
 }
 
-if ($_suggest_keywords == "") {
+if ($_suggest_keywords == '') {
 	$_suggest_keywords = 0;
 }
 
-if ($_suggest_rows == "") {
+if ($_suggest_rows == '') {
  $_suggest_rows = 0;
 }
 

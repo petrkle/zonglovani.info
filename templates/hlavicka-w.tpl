@@ -23,6 +23,7 @@
 {if isset($icbm)}
 	<link rel="ICBM" content="{$icbm|escape}" />
 {/if}
+	<link rel="search" type="application/opensearchdescription+xml" title="Žonglérův slabikář" href="http://{$smarty.server.SERVER_NAME}/vyhledavani/vyhledavani.xml">
 </head>
 <body>
 

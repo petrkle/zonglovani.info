@@ -10,11 +10,12 @@
 - všechny standardní klávesové zkratky, http://www.ippi.cz/standard-klavesovych-zkratek/
 - rozepsat možnosti diskuse, bazar
 - v diskusi nahrazovat zavináč za obrázek
-- vyhledávací modul, grafické téma a personas pro firefox
+- personas pro firefox
 - při detekci firefoxu nabízet výše uvedené
 - tapety na plochu
 - přihlášeným uživatelům nabízet formulář pro zaslání vzkazu (mě)
 - doplnit odkazy "Kam dál" ala yahů
+- uživatelův s www zobrazovat upozornění na přidání odkazu
 
 náčiní - točicí talíř, záchodové zvony
 rec.juggling - popis a nastavení
@@ -74,3 +75,5 @@ prověřit registraci a přihlašování - login pouze malá písmena
 na úvodní stránce doplnit datum tipu týdne
 adresář /tip/ - zobrazovat odkazy na starší tipy
 drobečková navigace
+pěkné chybové hlášky ve vyhledávání pro případ výpadku mysql
+vyhledávací modul

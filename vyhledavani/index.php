@@ -4,11 +4,10 @@
 * This program is licensed under the GNU GPL.
 * By Ando Saabas          ando(a t)cs.ioc.ee
 ********************************************/
-//error_reporting(E_ALL ^ E_NOTICE ^ E_WARNING); 
 require('../init.php');
 require('../func.php');
 
-$include_dir = "./include"; 
+$include_dir = './include'; 
 include ("$include_dir/commonfuncs.php");
 
 //extract(getHttpVars());
@@ -34,20 +33,20 @@ $_COOKIE[$key][$attr] = strip_tags( substr( $value, 0, 64 ) );
 
 if (isset($_GET['query']))
 	$query = $_GET['query'];
-if (isset($_GET['search']))
+if (isset($_GET['search'])){
 	$search = $_GET['search'];
-if (isset($_GET['domain'])) 
-	$domain = $_GET['domain'];
-if (isset($_GET['type'])) 
-	$type = $_GET['type'];
-if (isset($_GET['catid'])) 
-	$catid = $_GET['catid'];
-if (isset($_GET['category'])) 
-	$category = $_GET['category'];
-if (isset($_GET['results'])) 
-	$results = $_GET['results'];
-if (isset($_GET['start'])) 
-	$start = $_GET['start'];
+}
+
+	$domain = '';
+	$type = 'and';
+	$catid = '';
+	$category = '';
+	$results = '';
+	if (isset($_GET['start'])){
+		$start = $_GET['start'];
+	}else{
+		$start = 0;
+	} 
 if (isset($_GET['adv'])) 
 	$adv = $_GET['adv'];
 	
@@ -90,16 +89,12 @@ $smarty->display('hlavicka.tpl');
 include "$language_dir/$language-language.php";
 
 
-if ($type != "or" && $type != "and" && $type != "phrase") { 
-	$type = "and";
-}
-
-if (preg_match("/[^a-z0-9-.]+/", $domain)) {
-	$domain="";
+if (preg_match('/[^a-z0-9-.]+/', $domain)) {
+	$domain='';
 }
 
 
-if ($results != "") {
+if ($results != '') {
 	$results_per_page = $results;
 }
 
@@ -108,11 +103,11 @@ if (get_magic_quotes_gpc()==1) {
 } 
 
 if (!is_numeric($catid)) {
-	$catid = "";
+	$catid = '';
 }
 
 if (!is_numeric($category)) {
-	$category = "";
+	$category = '';
 } 
 
 
@@ -158,15 +153,14 @@ function saveToLog ($query, $elapsed, $results) {
     $query =  "insert into ".$mysql_table_prefix."query_log (query, time, elapsed, results) values ('$query', now(), '$elapsed', '$results')";
 	mysql_query($query);
                     
-	echo mysql_error();
+	#echo mysql_error();
                         
 }
 
 switch ($search) {
 	case 1:
-
 		if (!isset($results)) {
-			$results = "";
+			$results = '';
 		}
 		$search_results = get_search_results($query, $start, $category, $type, $results, $domain);
 		require("$template_dir/$template/search_results.html");

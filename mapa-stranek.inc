@@ -92,7 +92,7 @@
 		<li><a href="/kuzely/balanc.html">Balancování kuželu</a></li>
 		<li><a href="/kuzely/grip.html">Dva kužely v jedné ruce</a></li>
 		<li><a href="/kuzely/headroll.html">Překulení kuželky přes hlavu</a></li>
-		<li><a href="/kuzely/jak-zacit.html">Žonglování s kužely</a></li>
+		<li><a href="/kuzely/jak-zacit.html">Jak začít žonglovat s kužely</a></li>
 		<li><a href="/kuzely/kickup.html">Zvednutí kuželu nohou</a></li>
 		<li><a href="/kuzely/konstrukce.html">Konstrukce kuželu</a></li>
 		<li><a href="/kuzely/legenda.html">Vysvětlivky k obrázkům - kužely</a></li>
@@ -363,6 +363,7 @@
 		<li><a href="/video/all-day-baby.html">All Day Baby!</a></li>
 		<li><a href="/video/balance-tricks-2.html">Balancování kuželů</a></li>
 		<li><a href="/video/ball-club-scissors.html">Míček - kužel - nůžky</a></li>
+		<li><a href="/video/bratri-v-tricku-2.html">Bratři v tricku 2</a></li>
 		<li><a href="/video/bratri-v-tricku.html">Bratři v tricku</a></li>
 		<li><a href="/video/c2laballe-0707.html">C2laballe 0707</a></li>
 		<li><a href="/video/giraffe-theory.html">Giraffe Theory Juggling Glow Clubs</a></li>
