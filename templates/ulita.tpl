@@ -5,7 +5,7 @@ Pravidelné nedělní žonglování v <a href="cesta.html" title="Jak se dostat 
 <a href="/obrazky/ulita-20100207/0010.html">{obrazek soubor='usaa.jpg' popisek=''}</a>
 <a href="/obrazky/ulita-20100207/stranka3/0037.html">{obrazek soubor='usab.jpg' popisek=''}</a>
 <a href="/obrazky/ulita-20100207/0007.html">{obrazek soubor='usz.jpg' popisek=''}</a>
-<br /><a href="/obrazky/ulita-20100207/" title="Další obrázky z žonglování v Ulitě.">Další obrázky &raquo;</a>
+<br /><a href="/obrazky/filtr/Ulita" title="Další obrázky z žonglování v Ulitě.">Další obrázky &raquo;</a>
 </div>
 <p>
 Přijít mohou začínající i zkušení žongléři a žonglérky. Pro širokou veřejnost jsou k dispozici míčky a kužely k zapůjčení. Žonglovat se může naučit <strong>opravdu každý</strong>.

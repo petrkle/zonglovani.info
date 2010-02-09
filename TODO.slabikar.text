@@ -14,8 +14,9 @@
 - při detekci firefoxu nabízet výše uvedené
 - tapety na plochu
 - přihlášeným uživatelům nabízet formulář pro zaslání vzkazu (mě)
-- doplnit odkazy "Kam dál" ala yahů
-- uživatelův s www zobrazovat upozornění na přidání odkazu
+- doplnit odkazy "Kam dál" ala yahů - u triků, videí, galerií
+- udělat od jednotlivých obrázků žonglování odkazy na příslušné triky
+- asynchroní verge GA - http://code.google.com/intl/cs/apis/analytics/docs/tracking/asyncTracking.html
 
 náčiní - točicí talíř, záchodové zvony
 rec.juggling - popis a nastavení
@@ -78,3 +79,5 @@ drobečková navigace
 pěkné chybové hlášky ve vyhledávání pro případ výpadku mysql
 vyhledávací modul
 zrychlit filtr v galerii
+uživatelům s www zobrazovat upozornění na přidání odkazu
+upravit GA v 404 stránkách

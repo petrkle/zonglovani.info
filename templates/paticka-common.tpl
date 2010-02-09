@@ -24,7 +24,11 @@ document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.
 var pageTracker = _gat._getTracker("UA-1140497-3");
 pageTracker._setDomainName("none");
 pageTracker._initData();
+{if $nenalezeno_404}
+pageTracker._trackPageview("/404/" + document.location.pathname + document.location.search + "&from=" + document.referrer);
+{else}
 pageTracker._trackPageview();
+{/if}
 </script>
 
 {/if}

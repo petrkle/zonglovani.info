@@ -23,7 +23,7 @@ $trail->addStep('Nastavení',LIDE_URL.'nastaveni.php');
 				if(strlen($jmeno)<3){
 					array_push($chyby,'Jméno není zadané, nebo je příliš krátké.');
 				}elseif(strlen($jmeno)>256){
-					array_push($chyby,"Jméno je příliš dlouhé.");
+					array_push($chyby,'Jméno je příliš dlouhé.');
 				}elseif(preg_match('/[-\*\.\?\!<>;\^\$\{\}\@%\&\(\)\'"_:´ˇ\\|#`~,]/',$jmeno)){
 					array_push($chyby,"Jméno obsahuje nepovolené znaky.");
 				}elseif($jmeno==$_SESSION["uzivatel"]["jmeno"]){
@@ -354,7 +354,6 @@ http://zonglovani.info/kontakt.html
 					$odpoved='';
 				}
 
-				#var_dump($heslo,$_SESSION['uzivatel']['login']);
 				if(sha1($heslo.$_SESSION['uzivatel']['login'])!=$_SESSION['uzivatel']['passwd_sha1']){
 					array_push($chyby,'Špatné heslo.');
 				}
@@ -526,6 +525,9 @@ http://zonglovani.info/kontakt.html
 				array_push($chyby,'Došlo k chybě.');
 			}
 			$smarty->assign('chyby',$chyby);
+		}
+		if(isset($_SESSION['uzivatel']['web']) and strlen($_SESSION['uzivatel']['web'])>0){
+			$smarty->assign('web',true);
 		}
 		$smarty->assign_by_ref('trail', $trail->path);
 		$smarty->display('hlavicka.tpl');

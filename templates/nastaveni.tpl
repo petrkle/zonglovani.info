@@ -20,3 +20,10 @@
 <li><a href="{$smarty.const.LIDE_URL}nastaveni.php?uprav=znameni" title="Nastavení znamení zvěrokruhu.">Nastavit znamení zvěrokruhu</a>.</li>
 <li><a href="{$smarty.const.LIDE_URL}nastaveni.php?uprav=zruseni" title="Zrušení účtu.">Zrušit účet</a>.</li>
 </ul>
+
+{if $web}
+<h5>Podpoř žonglérův slabikář</h5>
+<p>
+Čím víc lidí bude tyto stránky používat, tím líp. Stačí <a href="/jak-odkazovat.html" title="Jak vytvořit odkaz na žonglérův slabikář.">přidat odkaz</a> na tvoje stránky.
+</p>
+{/if}
