@@ -1,6 +1,12 @@
 <?xml version="1.0"?>
 <log>
 <logentry
+   revision="224">
+<author>petr</author>
+<date>2010-02-07T09:51:58.133928Z</date>
+<msg>Popis vyhledávání opensearch.</msg>
+</logentry>
+<logentry
    revision="223">
 <author>petr</author>
 <date>2010-01-31T20:13:40.781708Z</date>

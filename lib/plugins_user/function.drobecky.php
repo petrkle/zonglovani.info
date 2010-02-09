@@ -9,7 +9,7 @@ function smarty_function_drobecky($params)
 		if (isset($params['separator']))
 				$separator = $params['separator'];
 		else
-				$separator = ' &raquo; ';
+				$separator = ' &raquo;&nbsp;';
 
 		$length = (int) $params['length'];
 
@@ -20,9 +20,9 @@ function smarty_function_drobecky($params)
 				$title = $trail[$i]['title'];
 
 				if (isset($trail[$i]['link']) && $i < $trailSize - 1)
-						$links[] = '<a href="'.$trail[$i]['link'].'" title="'.htmlSpecialChars($trail[$i]['title']).'">'.$title.'</a>';
+						$links[] = '<a href="'.$trail[$i]['link'].'" title="'.htmlSpecialChars($trail[$i]['title']).'">'.preg_replace('/ /','&nbsp;',$title).'</a>';
 				else
-						$links[] = $title;
+						$links[] = preg_replace('/ /','&nbsp;',$title);
 		}
 
 		return join($separator,$links);

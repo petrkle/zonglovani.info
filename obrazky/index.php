@@ -197,13 +197,7 @@ if($id and $photo){
 	
 	if(count($galerie)>0){
 		foreach($galerie as $klic=>$gal){
-			$obrazky=array();
-			$bar=get_galerie_obrazky($gal['name']);
-			$pocet=count($bar);
-			$obrazky[2]=$bar[round($pocet/(($pocet/6)*3))];
-			$obrazky[1]=$bar[round($pocet/(($pocet/6)*2))];
-			$obrazky[0]=$bar[round($pocet/(($pocet/6)*1))];
-			$galerie[$klic]['obrazky']=$obrazky;
+			$galerie[$klic]['obrazky']=get_nahled_galerie($gal['name']);
 		}
 	}
 	$smarty->assign('galerie',$galerie);
@@ -298,6 +292,38 @@ function get_galerie_obrazky($galerie){
 		   }
 	closedir($dir);
 	sort($navrat);
+ return $navrat;
+}
+
+function get_nahled_galerie($galerie){
+	$dir = opendir(OBRAZKY_DATA.'/'.$galerie);
+	$nahledy=array(2,4,6);
+	$navrat = array();
+	if ($dir) {
+		foreach($nahledy as $bar){
+							$foo=array();
+							$filename=sprintf('%04d',$bar).'.jpg';
+							if(is_file(OBRAZKY_DATA.'/'.$galerie.'/nahledy/'.$filename)){
+								$pripona=preg_split('/\./',$filename);
+								$pripona=array_pop($pripona);
+								$foo['obrazek']='http://i.'.$_SERVER['SERVER_NAME'].OBRAZKY_URL.$galerie.'/'.$filename;
+								$size = getimagesize(OBRAZKY_DATA.'/'.$galerie.'/nahledy/'.$filename);
+								$fsize = getimagesize(OBRAZKY_DATA.'/'.$galerie.'/'.$filename);
+								$foo['sirka']=$size[0];
+								$foo['vyska']=$size[1];
+								$foo['fsirka']=$fsize[0];
+								$foo['fvyska']=$fsize[1];
+								$foo['url']=OBRAZKY_URL.$galerie.'/'.basename($filename,$pripona).'html';
+								$foo['url_file']=basename($filename,$pripona).'html';
+								$foo['margin_h']=floor((148-$size[0])/2);
+								$foo['margin_v']=floor((148-$size[1])/2);
+								$foo['nahled']='http://i.'.$_SERVER['SERVER_NAME'].OBRAZKY_URL.$galerie.'/nahledy/'.$filename;
+				      	array_push($navrat,$foo);
+							}
+		
+		}
+	}
+
  return $navrat;
 }
 
