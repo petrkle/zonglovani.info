@@ -11,7 +11,7 @@ if(is_logged()){
 $trail = new Trail();
 $trail->addStep('Seznam žonglérů',LIDE_URL);
 $trail->addStep($_SESSION['uzivatel']['jmeno'],LIDE_URL.$_SESSION['uzivatel']['login'].'.html');
-$trail->addStep('Nastavení',LIDE_URL.'nastaveni.php');
+$trail->addStep('Nastavení',LIDE_URL.'nastaveni/');
 
 	if(isset($_GET['uprav'])){
 		$uprav=$_GET['uprav'];
@@ -37,8 +37,8 @@ $trail->addStep('Nastavení',LIDE_URL.'nastaveni.php');
 					$foo=fopen(LIDE_DATA."/".$_SESSION["uzivatel"]["login"]."/jmeno.txt","w");
 					fwrite($foo,$jmeno);
 					fclose($foo);
-					$_SESSION['uzivatel']=get_user_props($_SESSION['uzivatel']['login']);
-					header('Location: '.LIDE_URL.basename(__FILE__).'?result=ok');
+					$_SESSION['uzivatel']=get_user_complete($_SESSION['uzivatel']['login']);
+					header('Location: '.LIDE_URL.'/nastaveni/?result=ok');
 					exit();
 				}
 			}
@@ -63,8 +63,8 @@ $trail->addStep('Nastavení',LIDE_URL.'nastaveni.php');
 					$foo=fopen(LIDE_DATA.'/'.$_SESSION['uzivatel']['login'].'/soukromi.txt','w');
 					fwrite($foo,$soukromi);
 					fclose($foo);
-					$_SESSION['uzivatel']=get_user_props($_SESSION['uzivatel']['login']);
-					header('Location: '.LIDE_URL.basename(__FILE__).'?result=ok');
+					$_SESSION['uzivatel']=get_user_complete($_SESSION['uzivatel']['login']);
+					header('Location: '.LIDE_URL.'nastaveni/?result=ok');
 					exit();
 				}
 			}
@@ -92,16 +92,16 @@ $trail->addStep('Nastavení',LIDE_URL.'nastaveni.php');
 					}
 				if(count($chyby)==0){
 					move_uploaded_file($_FILES['foto']['tmp_name'],LIDE_DATA.'/'.$_SESSION['uzivatel']['login'].'/foto.jpg');
-					$_SESSION['uzivatel']=get_user_props($_SESSION['uzivatel']['login']);
-					header('Location: '.LIDE_URL.basename(__FILE__).'?result=uploaded');
+					$_SESSION['uzivatel']=get_user_complete($_SESSION['uzivatel']['login']);
+					header('Location: '.LIDE_URL.'nastaveni/?result=uploaded');
 					exit();
 				}
 
 			}
 			if(isset($_POST['smazat']) and is_file(LIDE_DATA.'/'.$_SESSION['uzivatel']['login'].'/foto.jpg')){
 				unlink(LIDE_DATA.'/'.$_SESSION['uzivatel']['login'].'/foto.jpg');
-				$_SESSION['uzivatel']=get_user_props($_SESSION['uzivatel']['login']);
-				header('Location: '.LIDE_URL.basename(__FILE__).'?result=deleted');
+				$_SESSION['uzivatel']=get_user_complete($_SESSION['uzivatel']['login']);
+				header('Location: '.LIDE_URL.'nastaveni/?result=deleted');
 				exit();
 			}
 
@@ -129,8 +129,8 @@ $trail->addStep('Nastavení',LIDE_URL.'nastaveni.php');
 					$foo=fopen(LIDE_DATA.'/'.$_SESSION['uzivatel']['login'].'/web.txt','w');
 					fwrite($foo,$web);
 					fclose($foo);
-					$_SESSION['uzivatel']=get_user_props($_SESSION['uzivatel']['login']);
-					header('Location: '.LIDE_URL.basename(__FILE__).'?result=ok');
+					$_SESSION['uzivatel']=get_user_complete($_SESSION['uzivatel']['login']);
+					header('Location: '.LIDE_URL.'nastaveni/?result=ok');
 					exit();
 				}
 			}else{
@@ -168,8 +168,8 @@ $trail->addStep('Nastavení',LIDE_URL.'nastaveni.php');
 					if($pocet==0){
 						unlink(LIDE_DATA.'/'.$_SESSION['uzivatel']['login'].'/dovednosti.txt');
 					}
-					$_SESSION['uzivatel']['dovednosti']=get_user_dovednosti($_SESSION['uzivatel']['login']);
-					header('Location: '.LIDE_URL.basename(__FILE__).'?result=ok');
+					$_SESSION['uzivatel']=get_user_complete($_SESSION['uzivatel']['login']);
+					header('Location: '.LIDE_URL.'nastaveni/?result=ok');
 					exit();
 			}
 
@@ -206,8 +206,8 @@ $trail->addStep('Nastavení',LIDE_URL.'nastaveni.php');
 					if(count($_POST['misto'])==0){
 						unlink(LIDE_DATA.'/'.$_SESSION['uzivatel']['login'].'/pusobiste.txt');
 					}
-					$_SESSION['uzivatel']['pusobiste']=get_user_pusobiste($_SESSION['uzivatel']['login']);
-					header('Location: '.LIDE_URL.basename(__FILE__).'?result=ok');
+					$_SESSION['uzivatel']=get_user_complete($_SESSION['uzivatel']['login']);
+					header('Location: '.LIDE_URL.'nastaveni/?result=ok');
 					exit();
 			}
 
@@ -247,8 +247,8 @@ $trail->addStep('Nastavení',LIDE_URL.'nastaveni.php');
 						fclose($foo);
 					}
 
-					$_SESSION['uzivatel']=get_user_props($_SESSION['uzivatel']['login']);
-					header('Location: '.LIDE_URL.basename(__FILE__).'?result=ok');
+					$_SESSION['uzivatel']=get_user_complete($_SESSION['uzivatel']['login']);
+					header('Location: '.LIDE_URL.'nastaveni/?result=ok');
 					exit();
 				}
 
@@ -318,9 +318,9 @@ http://zonglovani.info/kontakt.html
 
 		$vysledek=mail($_SESSION['uzivatel']['email'], $subject, quoted_printable_encode($message), $headers);
 		if($vysledek){
-			header('Location: '.LIDE_URL.basename(__FILE__).'?result=send');
+			header('Location: '.LIDE_URL.'nastaveni/?result=send');
 		}else{
-			header('Location: '.LIDE_URL.basename(__FILE__).'?result=ko');
+			header('Location: '.LIDE_URL.'nastaveni/?result=ko');
 		}
 			}
 
@@ -423,9 +423,9 @@ http://zonglovani.info/kontakt.html
 
 		$vysledek=mail($email, $subject, quoted_printable_encode($message), $headers);
 		if($vysledek){
-			header('Location: '.LIDE_URL.basename(__FILE__).'?result=send');
+			header('Location: '.LIDE_URL.'nastaveni/?result=send');
 		}else{
-			header('Location: '.LIDE_URL.basename(__FILE__).'?result=ko');
+			header('Location: '.LIDE_URL.'nastaveni/?result=ko');
 		}
 				}else{
 					$smarty->assign('chyby',$chyby);
@@ -454,8 +454,8 @@ http://zonglovani.info/kontakt.html
 					$foo=fopen(LIDE_DATA.'/'.$_SESSION['uzivatel']['login'].'/vzkaz.txt','w');
 					fwrite($foo,$vzkaz);
 					fclose($foo);
-					$_SESSION['uzivatel']=get_user_props($_SESSION['uzivatel']['login']);
-					header('Location: '.LIDE_URL.basename(__FILE__).'?result=ok');
+					$_SESSION['uzivatel']=get_user_complete($_SESSION['uzivatel']['login']);
+					header('Location: '.LIDE_URL.'nastaveni/?result=ok');
 					exit();
 				}
 			}
@@ -493,8 +493,8 @@ http://zonglovani.info/kontakt.html
 					$foo=fopen(LIDE_DATA.'/'.$_SESSION['uzivatel']['login'].'/passwd.sha1','w');
 					fwrite($foo,sha1($heslo.$_SESSION['uzivatel']['login']));
 					fclose($foo);
-					$_SESSION['uzivatel']=get_user_props($_SESSION['uzivatel']['login']);
-					header('Location: '.LIDE_URL.basename(__FILE__).'?result=ok');
+					$_SESSION['uzivatel']=get_user_complete($_SESSION['uzivatel']['login']);
+					header('Location: '.LIDE_URL.'nastaveni/?result=ok');
 					exit();
 				}
 			}

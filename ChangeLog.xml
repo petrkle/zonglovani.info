@@ -1,6 +1,18 @@
 <?xml version="1.0"?>
 <log>
 <logentry
+   revision="226">
+<author>petr</author>
+<date>2010-02-09T21:20:31.396335Z</date>
+<msg>Uživatelům s www stránkou se zobrazuje návod jak odkazovat na žonglérův slabikář.</msg>
+</logentry>
+<logentry
+   revision="225">
+<author>petr</author>
+<date>2010-02-09T20:13:20.116715Z</date>
+<msg>Zrychlení filtru obrázků.</msg>
+</logentry>
+<logentry
    revision="224">
 <author>petr</author>
 <date>2010-02-07T09:51:58.133928Z</date>

@@ -442,5 +442,11 @@ class Trail
 		}
 }
 
+function get_user_complete($login){
+	$navrat=get_user_props($login);
+	$navrat['dovednosti']=get_user_dovednosti($login);
+	$navrat['pusobiste']=get_user_pusobiste($login);
+	return $navrat;
+}
 
 ?>

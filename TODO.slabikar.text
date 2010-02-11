@@ -17,6 +17,8 @@
 - doplnit odkazy "Kam dál" ala yahů - u triků, videí, galerií
 - udělat od jednotlivých obrázků žonglování odkazy na příslušné triky
 - asynchroní verge GA - http://code.google.com/intl/cs/apis/analytics/docs/tracking/asyncTracking.html
+- mod_rewrite v nastavení
+- funguje 404?
 
 náčiní - točicí talíř, záchodové zvony
 rec.juggling - popis a nastavení
@@ -81,3 +83,4 @@ vyhledávací modul
 zrychlit filtr v galerii
 uživatelům s www zobrazovat upozornění na přidání odkazu
 upravit GA v 404 stránkách
+výjimka zobrazování GA pro přihlášeného uživatele pek

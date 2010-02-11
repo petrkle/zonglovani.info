@@ -17,3 +17,7 @@ RewriteRule ^stranka(.+)/$ index.php?pageID=$1 [L]
 RewriteRule ^(.+)\.html$ uzivatel.php?id=$1 [L]
 RewriteRule ^foto/(.+)\.jpg$ foto.php?id=$1 [L]
 RewriteRule ^uzivatele.rss$ rss.php [L]
+
+RewriteRule ^nastaveni$ /lide/nastaveni/ [R=301,L]
+RewriteRule ^nastaveni/$ nastaveni.php [L]
+RewriteRule ^nastaveni/(.+)$ nastaveni.php?uprav=$1 [L]

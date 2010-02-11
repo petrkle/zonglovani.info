@@ -13,7 +13,7 @@
 
 <div class="spacer"></div>
 
-{if $smarty.server.SERVER_NAME=="zonglovani.info"}
+{if $smarty.server.SERVER_NAME=='zonglovani.info' and $smarty.session.uzivatel.login!='pek'}
 <!-- start -->
 
 <script type="text/javascript">
