@@ -134,7 +134,7 @@ if($id and $photo){
 				$page='/stranka'.$obrazek['stranka'].'/';
 			}
 
-			$trail->addStep($gal_info['title'],OBRAZKY_URL.$id);
+			$trail->addStep($gal_info['title'],OBRAZKY_URL.$id.'/');
 
 			if($obrazky[intval($photo)]['stranka']!=1){
 				$titulek.=' - stránka '.$obrazek['stranka'];
@@ -170,7 +170,7 @@ if($id and $photo){
 
 		$smarty->assign('nadpis',$gal_info['title']);
 
-		$trail->addStep($gal_info['title'],OBRAZKY_URL.$id);
+		$trail->addStep($gal_info['title'],OBRAZKY_URL.$id.'/');
 
 		if($stranka){
 			$smarty->assign('stranka',$stranka);
