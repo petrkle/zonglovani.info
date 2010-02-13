@@ -59,8 +59,10 @@
 <li>Piš slušně.</li>
 <li>Pro nalezení odpovědí zkus nejprve <a href="{$smarty.const.SEARCH_URL}" title="Prohledávání žonglérova slabikáře.">vyhledávání</a>.</li>
 <li>Zadávej každý dotaz pouze jednou.</li>
+{*
 <li>Odpovídej jenom na to, na co se tazatel ptal. Drž se tématu.</li>
 <li>Piš jen když máš co říct. Tato diskuse není chat ani zábavní server.</li>
+*}
 </ul>
 
 </p>

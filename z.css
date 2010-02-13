@@ -24,7 +24,7 @@ h4{font-size:1.2em;font-weight:bold;margin:5px;clear:both;}
 h5{font-size:1em;font-weight:bold;margin:10px 10px 10px 20px;clear:both;}
 a:link{color:#009;font-weight:bold;}
 a:visited{color:#909;font-weight:bold;}
-a:active{color:#f00;font-weight:bold;}
+a:active,a:hover{color:#f00;font-weight:bold;}
 .nahoru{float:right;display:block;clear:both;margin:5px;}
 .zpet{text-align:right;display:block;clear:both;margin:5px;}
 .spacer{height:20px;width:100%;clear:both;}

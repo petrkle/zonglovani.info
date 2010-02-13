@@ -4,6 +4,7 @@ require('func.php');
 
 $titulek='Žonglování s míčky';
 $smarty->assign('titulek',$titulek);
+$smarty->assign('description','Míčky jsou nejjednodušší žonglérské náčiní. Snadno se hážou i chytají. I ty se můžeš naučit žonglovat za pár minut.');
 
 $trail = new Trail();
 $trail->addStep('Míčky');

@@ -1,21 +1,19 @@
+<p class="drobky">
+Jste zde: <strong>Žonglování</strong>
+</p>
+<h1>Žonglování</h1>
+<p>
+Je bezvadná zábava. I ty se můžeš za pár minut <a href="/micky/jak-zacit.html" title="Základy žonglování s míčky.">naučit žonglovat</a> s míčky, kruhy nebo kužely.
+</p>
 <div style="float: left; margin: 15px 15px 0 20px; text-align: center;">
 <a href="/micky/" title="Žonglování s míčky.">{obrazek soubor="micky.png" popisek="Míčky"}</a>
 </div>
-
-
 <div style="float: left; margin: 15px 15px 0 15px; text-align: center;">
 <a href="/kruhy/" title="Žonglování s kruhy.">{obrazek soubor="kruhy.png" popisek="Kruhy"}</a>
 </div>
-
-
 <div style="float: left; margin: 15px 0px 0 15px; text-align: center;">
 <a href="/kuzely/" title="Žonglování s kužely.">{obrazek soubor="kuzely.png" popisek="Kužely"}</a>
 </div>
-
-<p>
-Žonglérův slabikář je učebnice žonglování se spoustou barevných obrázků.
-</p>
-
 <h3>Informace o žonglování</h3>
 <p>
 <ul>
@@ -24,5 +22,4 @@
 <li><a href="/faq.html" title="FAQ">Často kladené otázky</a> a odpovědi na ně.</li>
 </ul>
 </p>
-
 {include file='tip.tpl'}
