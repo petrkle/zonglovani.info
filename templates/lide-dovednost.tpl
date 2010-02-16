@@ -5,6 +5,7 @@
 {/foreach}
 </ul>
 {else}
+<p>
 V žonglérově slabikáři ještě není žádný uživatel který umí {$umi|escape}. Můžeš být první. <a href="{$smarty.const.LIDE_URL}pravidla.php" title="Vytvořit uživatelský účet." class="add">Vytvořit nový účet</a>.
-{/if}
 </p>
+{/if}

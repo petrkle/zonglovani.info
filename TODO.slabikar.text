@@ -19,8 +19,11 @@
 - asynchroní verge GA - http://code.google.com/intl/cs/apis/analytics/docs/tracking/asyncTracking.html
 - funguje 404?
 - téma a rozšíření pro chromium
-- poslední a první obrázek v galerii, přidat nad obrázek odkaz "Celá galerie" nebo tak nějak
 - přidělat reklamy na žonglérův slabikář na petrkle.wz.cz
+- lokální testování syntaxe stránek - wdg html validator
+- testování validity, doplněk do windows firefoxu ve vboxu
+- todo list na webu s hlasováním
+- možnost zadat telefoní číslo (jen pro učitele, a vystupující ?)
 
 náčiní - točicí talíř, záchodové zvony
 rec.juggling - popis a nastavení
@@ -87,3 +90,4 @@ uživatelům s www zobrazovat upozornění na přidání odkazu
 upravit GA v 404 stránkách
 výjimka zobrazování GA pro přihlášeného uživatele pek
 mod_rewrite v nastavení
+poslední a první obrázek v galerii, přidat nad obrázek odkaz "Celá galerie" nebo tak nějak

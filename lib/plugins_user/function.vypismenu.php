@@ -23,7 +23,7 @@ function smarty_function_vypismenu($params, &$smarty){
 			$navrat.='<li><h4>Žonglování v Ulitě</h4></li>';
 		}
 
-	$navrat.="\n<ul>\n";
+	$navrat.="\n</ul>\n";
 
 	if(!preg_match(SEARCH_URL,$_SERVER['REQUEST_URI'])){
 	$navrat.='<form action="'.SEARCH_URL.'" method="get" id="malehledani">
@@ -66,7 +66,7 @@ function submenu($id){
 			if($_SERVER["REQUEST_URI"]==$adresy[$foo] and !isset($_GET["show"])){
 				$navrat.='<li><strong>'.$texty[$foo].'</strong></li>'."\n";
 			}else{
-				$navrat.='<li><a href="'.$adresy[$foo].'" title="'.$popisky[$foo].'">'.$texty[$foo].'</a>'."\n";
+				$navrat.='<li><a href="'.$adresy[$foo].'" title="'.$popisky[$foo].'">'.$texty[$foo].'</a>'."</li>\n";
 			};
 		};
 		$navrat.="</ul>\n";

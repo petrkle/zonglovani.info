@@ -12,7 +12,7 @@ require('func.php');
 $smarty->assign('titulek','Žonglérův slabikář - žonglování s míčky, kruhy a kužely.');
 $smarty->assign('rsslink','http://'.$_SERVER['SERVER_NAME'].'/zonglovani.rss');
 $smarty->assign('nadpis','');
-$smarty->assign('description','Žonglování.info je adresa kde najdeš návody na žonglování s míčky, kruhy a kužely. V seznamu žonglérů najdeš lidi kteří tě naučí žonglovat a v kalendáři seznam žonglérských srazů. Můžeš se také podivat na spoustu obrázků žonglování a videí.');
+$smarty->assign('description','Žonglování.info je adresa kde najdeš návody na žonglování s míčky, kruhy a kužely. V seznamu žonglérů najdeš lidi kteří tě naučí žonglovat a v kalendáři seznam žonglérských srazů.');
 $smarty->assign('notitle',true);
 $smarty->assign('tip',array_pop(get_tipy()));
 

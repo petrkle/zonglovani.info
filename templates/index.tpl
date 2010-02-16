@@ -15,11 +15,9 @@ Je bezvadná zábava. I ty se můžeš za pár minut <a href="/micky/jak-zacit.h
 <a href="/kuzely/" title="Žonglování s kužely.">{obrazek soubor="kuzely.png" popisek="Kužely"}</a>
 </div>
 <h3>Informace o žonglování</h3>
-<p>
 <ul>
 <li><a href="/nacini.html" title="Popis různých žonglovátek.">Žonglérské náčiní</a> - s čím vším se dá žonglovat.</li>
 <li><a href="/druhy-zonglovani.html" title="Popis způsobů žonglování.">Druhy žonglování</a> - různé způsoby žonglovaní.</li>
 <li><a href="/faq.html" title="FAQ">Často kladené otázky</a> a odpovědi na ně.</li>
 </ul>
-</p>
 {include file='tip.tpl'}

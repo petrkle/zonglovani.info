@@ -1,6 +1,18 @@
 <?xml version="1.0"?>
 <log>
 <logentry
+   revision="229">
+<author>petr</author>
+<date>2010-02-13T15:13:32.690528Z</date>
+<msg>Úprava úvodní stránky.</msg>
+</logentry>
+<logentry
+   revision="228">
+<author>petr</author>
+<date>2010-02-12T23:31:51.762899Z</date>
+<msg>Sjednocení odkazů na stránky v galerii.</msg>
+</logentry>
+<logentry
    revision="227">
 <author>petr</author>
 <date>2010-02-11T21:37:05.975886Z</date>
