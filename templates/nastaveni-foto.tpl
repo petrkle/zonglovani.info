@@ -10,14 +10,12 @@
 <p><img src="{$smarty.session.uzivatel.foto|escape}" alt="{$smarty.session.uzivatel.jmeno|escape}" width="{$smarty.session.uzivatel.foto_sirka}" height="{$smarty.session.uzivatel.foto_vyska}"/> <input type="submit" name="smazat" value="Smazat" class="knoflik" tabindex="4" />
 </p>
 {/if}
-<p>
 <fieldset>
 <legend>Fotografie</legend>
 <ul>
-<li><label for="jmeno" accesskey="f" class="kratkypopis"><u>F</u>otografie:</label><input type="file" name="foto" id="foto" class="textbox" tabindex="1" /><a class="info" href="#">?<span class="tooltip">Tvoje fotografie. Formát JPG, maximální velikost 200KiB. Maximální rozměr 300x300px.</span></a></li>
-</fieldset>
+<li><label for="foto" accesskey="f" class="kratkypopis"><span class="u">F</span>otografie:</label><input type="file" name="foto" id="foto" class="textbox" tabindex="1" /><a class="info" href="#">?<span class="tooltip">Tvoje fotografie. Formát JPG, maximální velikost 200KiB. Maximální rozměr 300x300px.</span></a></li>
 </ul>
-</p>
+</fieldset>
 
 <p class="vpravo">
 {if $smarty.session.uzivatel.foto}

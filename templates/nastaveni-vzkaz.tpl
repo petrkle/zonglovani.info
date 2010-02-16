@@ -6,15 +6,13 @@
 </ul>
 {/if}
 <form action="{$smarty.server.REQUEST_URI}" method="post">
-<p>
 <fieldset>
 <legend>Vzkaz</legend>
 <ul>
-<li>Vzkaz <u>p</u>ro ostatní návštěvníky žonglérova slabikáře <a class="info" href="#">?<span class="tooltip">Vzkaz pro ostatní návštěvníky žonglérova slabikáře. Nepovinné pole.</span></a></li>
+<li>Vzkaz <span class="u">p</span>ro ostatní návštěvníky žonglérova slabikáře <a class="info" href="#">?<span class="tooltip">Vzkaz pro ostatní návštěvníky žonglérova slabikáře. Nepovinné pole.</span></a></li>
 </ul>
-<textarea name="vzkaz" accesskey="p" tabindex="3">{$smarty.session.uzivatel.vzkaz|escape}</textarea>
+<textarea name="vzkaz" accesskey="p" tabindex="3" rows="5" cols="50">{$smarty.session.uzivatel.vzkaz|escape}</textarea>
 </fieldset>
-</p>
 
 <p class="vpravo">
 <input type="submit" name="odeslat" value="Nastavit" class="knoflik" tabindex="3" />

@@ -63,15 +63,3 @@ Place is provided by <a href="http://www.ulita.cz" class="external" onclick="pag
 <p><a href="http://www.radio1.cz" title="Radio 1" onclick="pageTracker._trackPageview('/goto/radio1.cz');">{obrazek soubor='radio1.png' popisek='Radio 1'}</a><a href="http://www.radio1.cz" title="Radio 1" onclick="pageTracker._trackPageview('/goto/radio1.cz');" class="external">Radio 1</a> - media support.</p>
 
 <p style="text-align: right; font-size: 0.5em;"><a href="/ulita/">Česká verze</a></p>
-{literal}
-<style>
-.obrazkovnik {
-	float: left;
-	margin: 15px 0 15px 20px;
-}
-
-.obrazkovnik a img {
-	border: solid 1px #000;
-}
-</style>
-{/literal}

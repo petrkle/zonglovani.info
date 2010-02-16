@@ -20,8 +20,7 @@
 - funguje 404?
 - téma a rozšíření pro chromium
 - přidělat reklamy na žonglérův slabikář na petrkle.wz.cz
-- lokální testování syntaxe stránek - wdg html validator
-- testování validity, doplněk do windows firefoxu ve vboxu
+- automatické testování syntaxe všech stránek - wdg html validator
 - todo list na webu s hlasováním
 - možnost zadat telefoní číslo (jen pro učitele, a vystupující ?)
 
@@ -91,3 +90,4 @@ upravit GA v 404 stránkách
 výjimka zobrazování GA pro přihlášeného uživatele pek
 mod_rewrite v nastavení
 poslední a první obrázek v galerii, přidat nad obrázek odkaz "Celá galerie" nebo tak nějak
+testování validity, doplněk do firefoxu

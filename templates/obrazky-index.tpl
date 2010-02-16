@@ -5,7 +5,7 @@
 {/foreach}
 </ul>
 {/if}
-<a name="vyzva"><h3>Výzva pro fotografy</h3></a>
+<h3><a name="vyzva">Výzva pro fotografy</a></h3>
 <p>
 {obrazek soubor="fotaka.png" popisek="Fotoaparát"}
 Rád uveřejním i tvoje fotografie žonglování. Stačí vědět kde a kdy byly pořízené a <a href="/kontakt.html" title="Stránka s emailem.">napsat</a>. Tvoje fotky pak uvidí hodně lidí které zajímá žonglování.

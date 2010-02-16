@@ -12,7 +12,7 @@ laurent-phil*http://www.youtube.com/watch?v=bVfX26KIOFs*Laurent et Phil, jugglin
 joe-hague*http://www.youtube.com/watch?v=OJsAMXxtDWQ*Joe Hague Fatboy Slim Juggling Video*Procházka Brightnem s kužely.
 juggling-extravaganza*http://www.youtube.com/watch?v=xn95eFgzsYU*Juggling Extravaganza*Passování Bekah Smith a Tio Duermeiera.
 jeremy-perkins-jeremy-fein*http://www.youtube.com/watch?v=MLbMHQnUvbY*Jeremy Perkins and Jeremy Fein Promo 2008*Ukázky z vystoupení.
-all-day-baby*http://www.youtube.com/watch?v=2CDpBgljPaA*All Day Baby!*Další video z produkce J&J.
+all-day-baby*http://www.youtube.com/watch?v=2CDpBgljPaA*All Day Baby!*Další video z produkce J&amp;J.
 giraffe-theory*http://www.youtube.com/watch?v=xaf4Ee9WCdA*Giraffe Theory Juggling Glow Clubs*Nejen žonglování se svítícími kužely. Uvidíte i jak <a href="/kuzely/passing/pickup.html" title="Zvednutí spadlého kuželu">zvednout spadlou kuželku</a>.
 jonglage-macabre*http://www.youtube.com/watch?v=hMtzQhzOvIw*Jonglage Macabre*Záznam žonglérského představení. Passing ve třech.
 hocus-pocus*http://www.youtube.com/watch?v=0h51lXT6tNk*Hocus Pocus*Představení z "Festival du nez rouge".

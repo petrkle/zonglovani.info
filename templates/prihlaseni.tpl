@@ -11,19 +11,18 @@
 Pro zobrazení požadované stránky je nutné přihlášení.
 </p>
 {/if}
-<p>
 <fieldset>
 <legend>Přihlašovací údaje</legend>
 <ul>
-<li><label for="login" accesskey="l" class="kratkypopis"><u>L</u>ogin:</label><input type="text" name="login" id="login" value="{$login|escape}" class="textbox" tabindex="1"/><a class="info" href="#">?<span class="tooltip">Přihlašovací jméno zadané při registraci. Při zadávání ZÁLEŽÍ na velikosti písmen.</span></a></li>
-<li><label for="heslo" accesskey=h" class="kratkypopis"><u>H</u>eslo:</label><input type="password" name="heslo" id="heslo" value="" class="textbox" tabindex="2"/><a class="info" href="#">?<span class="tooltip">Heslo pro přihlášení. Při zadávání ZÁLEŽÍ na velikosti písmen.</span></a></li>
+<li><label for="login" accesskey="l" class="kratkypopis"><span class="u">L</span>ogin:</label><input type="text" name="login" id="login" value="{$login|escape}" class="textbox" tabindex="1"/><a class="info" href="#">?<span class="tooltip">Přihlašovací jméno zadané při registraci. Při zadávání ZÁLEŽÍ na velikosti písmen.</span></a></li>
+<li><label for="heslo" accesskey="h" class="kratkypopis"><span class="u">H</span>eslo:</label><input type="password" name="heslo" id="heslo" value="" class="textbox" tabindex="2"/><a class="info" href="#">?<span class="tooltip">Heslo pro přihlášení. Při zadávání ZÁLEŽÍ na velikosti písmen.</span></a></li>
+</ul>
 </fieldset>
-</p>
 
 <p class="vpravo">
 <input type="submit" name="odeslat" value="Přihlásit" class="knoflik" tabindex="3" />
-</p>
 <input type="hidden" name="next" value="{$next|escape}" />
+</p>
 </form>
 <h3>Další možnosti</h3>
 <ul>

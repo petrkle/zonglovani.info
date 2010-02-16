@@ -10,18 +10,15 @@ Královská disciplína žonglování. Užiješ si při ní nejvíc legrace. Pro
 
 <h3>Základy</h3>
 
-<p>
 <ul>
 	<li><a href="pravidla.html" title="Jak se chovat při passování.">Pravidla passování</a></li>
 	<li><a href="hody.html" title="Základní druhy hodů.">Druhy hodů</a></li>
 	<li><a href="synchronizace.html" title="Jak začít stejně.">Synchronizace</a> prvního hodu</li>
 	<li><a href="pickup.html" title="Žonglování bez přerušení.">Zvednutí spadlého kuželu</a></li>
 </ul>
-</p>
 
 <h3>2 žongléři</h3>
 
-<p>
 <ul>
 	<li><a href="4count.html" title="snadné">4 count</a> - základní trik</li>
 	<li><a href="3count.html" title="snadné">3 count</a> - valčík</li>
@@ -31,11 +28,9 @@ Královská disciplína žonglování. Užiješ si při ní nejvíc legrace. Pro
 	<li><a href="australsky-trik.html" title="snadné">Australský trik</a></li>
 	<li><a href="sloupy.html" title="snadné">Sloupy ve dvou</a></li>
 </ul>
-</p>
 
 <h3>2 žongléři - těžší triky</h3>
 
-<p>
 <ul>
 	<li><a href="1count.html" title="těžší">1 count</a></li>
 	<li><a href="pps.html" title="těžší">PPS - pass pass self</a></li>
@@ -44,10 +39,9 @@ Královská disciplína žonglování. Užiješ si při ní nejvíc legrace. Pro
 	<li><a href="all-hands.html" title="těžší">Passování do všech rukou</a></li>
 	<li><a href="7clubs.html" title="těžší">7 kuželů</a></li>
 </ul>
-</p>
 
 <h3>Více žonglérů</h3>
-<p>
+
 <ul>
 	<li><a href="feeds.html" title="snadné">Nabíjení</a></li>
 	<li><a href="box.html" title="snadné">Čtverec</a></li>
@@ -67,11 +61,9 @@ Královská disciplína žonglování. Užiješ si při ní nejvíc legrace. Pro
 	<li><a href="rotor.html" title="těžší">Rotor</a></li>
 	<li><a href="pivo.html" title="těžší">Passování s pivem</a></li>
 </ul>
-</p>
 
 <h3>Triky při passování</h3>
 
-<p>
 <ul>
 	<li><a href="zpozdena-dvojka.html" title="snadné">Zpožděná dvojka</a></li>
 	<li><a href="zrychlena-dvojka.html" title="snadné">Zrychlená dvojka</a></li>
@@ -84,4 +76,3 @@ TODO
 	<li><a href="dvojka-krizem-valcik.html" title="snadné">Dvojka křížem při valčíku</a></li>
 -->
 </ul>
-</p>

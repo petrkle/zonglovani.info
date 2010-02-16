@@ -23,22 +23,18 @@
 
 <form action="{$SCRIPT_NAME}" method="post">
 
-<p>
 <fieldset class="siroke">
 <legend>Zpráva</legend>
-<textarea name="vzkaz" accesskey="k" tabindex="3">{$vzkaz|escape}</textarea>
+<textarea name="vzkaz" accesskey="k" tabindex="3" rows="5" cols="50">{$vzkaz|escape}</textarea>
 </fieldset>
-</p>
 
 {if $nahled}
-<p>
 <fieldset>
-<legend>Kon<u>t</u>rola spamu</legend>
+<legend>Kon<span class="u">t</span>rola spamu</legend>
 <ul>
 <li><label for="antispam" class="kratkypopis">{$antispam_otazka}:</label><input type="text" name="antispam" id="antispam" accesskey="t" tabindex="4" class="textbox" /><a class="info" href="#">?<span class="tooltip">Odpověď na jednoduchou otázku slouží k odlišení lidí od robotů kteří posílají spam. Odpověď napiš číslicí.</span></a></li>
 </ul>
 </fieldset>
-</p>
 {/if}
 
 <p class="vpravo">
@@ -53,16 +49,9 @@
 </form>
 
 <h3>Než napíšeš do diskuse</h3>
-<p>
 <ul>
 <li>Piš s háčky a čárkami. Delší text rozděl do odstavců. Používej ve větách interpunkci.</li>
 <li>Piš slušně.</li>
 <li>Pro nalezení odpovědí zkus nejprve <a href="{$smarty.const.SEARCH_URL}" title="Prohledávání žonglérova slabikáře.">vyhledávání</a>.</li>
 <li>Zadávej každý dotaz pouze jednou.</li>
-{*
-<li>Odpovídej jenom na to, na co se tazatel ptal. Drž se tématu.</li>
-<li>Piš jen když máš co říct. Tato diskuse není chat ani zábavní server.</li>
-*}
 </ul>
-
-</p>

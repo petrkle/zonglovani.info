@@ -62,27 +62,13 @@ E-mail: {$mail|mailobfuscate}
 {else}
 <p>Další žonglování v ulitě bude na podzim.</p>
 {/if}
-<a name="plakat"><h3>Plakát</h3></a>
+<h3><a name="plakat">Plakát</a></h3>
 <p><a href="/img/u/ulita.big.png" title="Velký obrázek plakátu." onclick="pageTracker._trackPageview('/ulita/ulita.big.png');">{obrazek soubor='ulita.nahled.png' popisek='Plakát žonglování v Ulitě'}</a>
 <a href="/img/u/ulita.png" title="Obrázkový plakát na web." onclick="pageTracker._trackPageview('/ulita/ulita.png');">ulita.png</a> - pro vkládání na internet<br />
 <a href="ulita.pdf" title="Tisk plakátu na formát A5." onclick="pageTracker._trackPageview('/ulita/ulita.pdf');">ulita.pdf</a> - pro tisk na formát A5<br />
 <a href="ulita4.pdf" title="Tisk čtyř plakátů najednou." onclick="pageTracker._trackPageview('/ulita/ulita4.pdf');">ulita4.pdf</a> - pro tisk na formát A4
-</ul>
 </p>
 
 <p><a href="http://www.radio1.cz" title="Radio 1" onclick="pageTracker._trackPageview('/goto/radio1.cz');">{obrazek soubor='radio1.png' popisek='Radio 1'}</a>O žonglování v Ulitě můžeš slyšet i v <a href="http://www.radio1.cz/kulturniservis/" title="Kulturní servis Rádia 1" onclick="pageTracker._trackPageview('/goto/radio1.cz/kulturniservis');" class="external">kulturním servisu</a> Radia 1.</p>
 
 <p style="text-align: right; font-size: 0.5em;"><a href="/ulita/en.html">English version</a></p>
-
-{literal}
-<style>
-.obrazkovnik {
-	float: left;
-	margin: 15px 0 15px 20px;
-}
-
-.obrazkovnik a img {
-	border: solid 1px #000;
-}
-</style>
-{/literal}

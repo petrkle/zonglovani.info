@@ -1,17 +1,18 @@
-<p>
 <form action="<?=SEARCH_URL?>" method="get">
 <fieldset>
 	<legend>Vyhledávání</legend>
+	<p>
 	<input type="text" name="query" id="query" size="40" value="<?php   print quote_replace($query);?>" accesskey="4" />	
 	<input type="hidden" name="search" value="1" />
-	<input type="submit" value="<?php print $sph_messages['Search']?>">
+	<input type="submit" value="<?php print $sph_messages['Search']?>" />
+	</p>
 </fieldset>
-</p>
+</form>
 <?php 
 if(!isset($_GET['source'])){
 ?>
 <p>
-Hledáš často? Zkus <a href="vyhledavani.xml" onClick="window.external.AddSearchProvider('http://zonglovani.info/vyhledavani/vyhledavani.xml');return(false);">vyhledávací modul</a> do prohlížeče.
+Hledáš často? Zkus <a href="vyhledavani.xml" onclick="window.external.AddSearchProvider('http://zonglovani.info/vyhledavani/vyhledavani.xml');return(false);">vyhledávací modul</a> do prohlížeče.
 </p>
 <?php
 }

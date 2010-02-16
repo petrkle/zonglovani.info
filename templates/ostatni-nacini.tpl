@@ -8,7 +8,7 @@
 Jsou nejlehčí na naučení. Stačí vyhazovat do vzduchu a chytat. <a href="/micky/druhy.html" title="Druhy míčků.">Druhy míčků</a>.
 </p>
 
-<a name="bounce"><h3>Skákací míčky</h3></a>
+<a name="bounce"></a><h3>Skákací míčky</h3>
 <p>
 {obrazek soubor="nacinib.png" popisek="Skákací míčky."}
 Místo vyhazování do vzduchu je odrážíš o podlahu. S polu s <a href="#cigarbox" title="Cigar boxy">cigar boxy</a> je to nejhlučnější žonglérské náčiní.
@@ -68,7 +68,7 @@ Míček přivázaný na provázku (+- 0,5m). Na druhém konci provázku je smyč
 Létají skoro stejně jako kužely. Jen jsou trochu větší.
 </p>
 
-<a name="crystalball"><h3>Crystal ball</h3></a>
+<a name="crystalball"></a><h3>Crystal ball</h3>
 <p>
 {obrazek soubor="nacinim.png" popisek="Crystal ball"}
 Větší míček z umělé hmoty (polyakrylát ?). Vypadá jako skleněný. Používá se na <a href="/druhy-zonglovani.html#contact">kontaktní žonglování</a> - nehází se s ním, ale kutálí se po rukou a jiných částech těla.
@@ -80,7 +80,7 @@ Větší míček z umělé hmoty (polyakrylát ?). Vypadá jako skleněný. Pou�
 Další předmět pro kontaktní žonglování. Obvykle s knoty na koncích k zapálení.
 </p>
 
-<a name="cigarbox"><h3>Cigar boxy</h3></a>
+<a name="cigarbox"></a><h3>Cigar boxy</h3>
 <p>
 {obrazek soubor="nacinio.png" popisek="Cigar boxy"}
 Cigar boxy jsou dřevěné krabičky. Dvě krajní držíš rukou a třetí mezi nimy přehazuješ. Vzniká při tom skoro stejný hluk jako při žonglování se <a href="#bounce" title="Odrážení míčků o podlahu.">skákacími míčky</a>.

@@ -20,12 +20,14 @@
     	{elseif $month[week][day]->isSelected()}
 				{assign var=cislodne value=$month[week][day]->thisDay()}
     	   <td class="den udalost{if $cislodne==$dnesek} dnesni{/if}"><strong>{$cislodne}</strong>
+						{if $month[week][day]->entryCount()>0}
             <ul class="kal_entry">
             {section name=entry loop=$month[week][day]->entryCount()}
             {assign var=payload value=$month[week][day]->getEntry()}
              <li><a href="udalost-{$payload.id}.html" title="{$payload.title}"{if $payload.vlozil==$smarty.session.uzivatel.login} class="edit"{/if}>{$payload.title|truncate:30:"...":false}</a></li>
             {/section}
             </ul>
+					{else}&nbsp;{/if}
 </td>
     	{else}
     	{* if it is just a regular day, display it *}

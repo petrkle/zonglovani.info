@@ -9,7 +9,7 @@ E-mail: {$mail|mailobfuscate}<br />
 </p>
 <p>
 <a href="/img/u/ulita.cesta-0.jpg" title="Zastávká MHD Strážní">{obrazek soubor='ulita.cesta.nahled-0.jpg' popisek='Zastávká MHD Strážní'}</a>
-Tramvají <a href="http://portalpid.idos.cz/LineList.aspx?t=2&mi=4&n=0&lc=1" title="Jízdní řád tramvaje 1" class="external" onclick="pageTracker._trackPageview('/goto/portalpid.idos.cz/1');">1</a>, <a href="http://portalpid.idos.cz/LineList.aspx?t=2&mi=4&n=0&lc=9" title="Jízdní řád tramvaje 9" class="external" onclick="pageTracker._trackPageview('/goto/portalpid.idos.cz/9');">9</a> nebo <a href="http://portalpid.idos.cz/LineList.aspx?t=2&mi=4&n=0&lc=16" title="Jízdní řád tramvaje 16" class="external" onclick="pageTracker._trackPageview('/goto/portalpid.idos.cz/16');">16</a> do zastávky <strong>Strážní</strong>.
+Tramvají <a href="http://portalpid.idos.cz/LineList.aspx?t=2&amp;mi=4&amp;n=0&amp;lc=1" title="Jízdní řád tramvaje 1" class="external" onclick="pageTracker._trackPageview('/goto/portalpid.idos.cz/1');">1</a>, <a href="http://portalpid.idos.cz/LineList.aspx?t=2&amp;mi=4&amp;n=0&amp;lc=9" title="Jízdní řád tramvaje 9" class="external" onclick="pageTracker._trackPageview('/goto/portalpid.idos.cz/9');">9</a> nebo <a href="http://portalpid.idos.cz/LineList.aspx?t=2&amp;mi=4&amp;n=0&amp;lc=16" title="Jízdní řád tramvaje 16" class="external" onclick="pageTracker._trackPageview('/goto/portalpid.idos.cz/16');">16</a> do zastávky <strong>Strážní</strong>.
 </p>
 <p>
 <a href="/img/u/ulita.cesta-1.jpg">{obrazek soubor='ulita.cesta.nahled-1.jpg' popisek='Žonglování v Ulitě'}</a>
