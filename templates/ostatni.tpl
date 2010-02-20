@@ -58,6 +58,11 @@ Pravidelný trénink je základ.
 Odkazy na stránky věnované žonglování.
 </p>
 
+<h3><a href="/rec-juggling.html" title="Diskusní skupina rec.juggling">rec.juggling</a></h3>
+<p>
+Celosvětová diskusní skupina o žonglování.
+</p>
+
 <h3><a href="/myty-omyly.html" title="Mýty a omyly o žonglování.">Mýty a omyly</a></h3>
 <p>
 Mýty a omyly o žonglování.

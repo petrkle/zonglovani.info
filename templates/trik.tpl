@@ -16,7 +16,7 @@
 </p>
 {/foreach}
 
-{if count($trik.kroky) > 4}
-<a href="#nahore" title="Přesun na začátek stránky." class="nahoru">Nahoru&nbsp;^^</a>
+{if count($trik.kroky) > 5}
+<a href="#nahore" title="Přesun na začátek stránky." class="nahoru">Nahoru&nbsp;&uarr;</a>
 {/if}
 {/if}

@@ -18,7 +18,7 @@
 2010-04-05*Fotky z Ulity*/obrazky/filtr/Ulita*ulita.cz.png*Fotografie z podzimního a zimního žonglování v Ulitě.
 2010-04-12*Žonglérské míčky*/micky/druhy.html*pomeranc-nahled.jpg*Pořádný míček je základ úspěchu. Pořiď si proto takové, které se ti líbí a vyhovují.
 2010-04-19*Prozkoumej žonglérův slabikář*/mapa-stranek.html*kompas.png*<a href="/mapa-stranek.html" title="Všechny stránky v žonglérově slabikáři.">Mapa stránek</a> obsahuje odkazy na všechny stránky v žonglérově slabikáři.
-2010-04-26*Staň se fanouškem*/podporte-zongleruv-slabikar.html*facebook-logo.png*Žonglérův slabikář je na <a href="http://www.facebook.com/pages/Zongleruv-slabikar/249578053101" title="Podpoř žonglérův slabikář" class="external">facebooku</a>.
+2010-04-26*rec.juggling*/rec-juggling.html*rec.juggling.s.png*Celosvětová diskusní skupina o žonglování.
 2010-05-03*Výzva pro fotografy*/obrazky/*fotaka.png*Rád uveřejním i tvoje fotografie žonglování. Stačí vědět kde a kdy byly pořízené a <a href="/kontakt.html" title="Stránka s emailem.">napsat</a>. Tvoje fotky pak uvidí hodně lidí které zajímá žonglování.
 2010-05-10*Hvězda*/kuzely/passing/star.html*kuzely-passing-stara.png*Passovací trik pro <strong>5 žonglérů</strong>. Někdy se mu také říká pětiúhelník.
 2010-05-17*Neúplná hvězda*/kuzely/passing/prebihani4z11k.html*kuzely-passing-prebihani4z11kc.png*Občas není dostatek žonglérů na úplnou <a href="/kuzely/passing/star.html" title="Trik pro 5 žonglérů.">hvězdu</a> a pak je potřeba trochu běhat.

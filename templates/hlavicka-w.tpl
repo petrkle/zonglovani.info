@@ -6,6 +6,9 @@
 	<title>{$titulek|escape}</title>
 	<meta name="description" content="{if isset($description)}{$description|escape}{elseif isset($nadpis)}{$nadpis|escape} - žonglérův slabikář{else}Žonglérův slabikář - obrázková učebnice žonglování.{/if}" />
 	<meta name="keywords" content="{if isset($keywords)}{$keywords|escape}{else}žongování, míčky, kruhy, kužely, návod, kaskáda, mills mess{/if}" />
+{if isset($icbm)}
+	<meta name="ICBM" content="{$icbm|escape}" />
+{/if}
 	<style media="screen,projection" type="text/css">@import url(http://f.{$smarty.server.SERVER_NAME}/zw.css);</style>
 	<style media="print" type="text/css">@import url(http://f.{$smarty.server.SERVER_NAME}/zt.css);</style>
 	<meta name="robots" content="{if isset($robots)}{$robots|escape}{else}index,follow{/if}" />
@@ -19,9 +22,6 @@
 {*{if isset($rsslink)}<link rel="alternate" title="" href="{$rsslink|escape}" type="application/rss+xml" />{/if}*}
 {if isset($nahled)}
 	<link rel="image_src" href="{$nahled|escape}" />
-{/if}
-{if isset($icbm)}
-	<link rel="ICBM" content="{$icbm|escape}" />
 {/if}
 	<link rel="search" type="application/opensearchdescription+xml" title="Žonglérův slabikář" href="http://{$smarty.server.SERVER_NAME}/vyhledavani/vyhledavani.xml" />
 </head>

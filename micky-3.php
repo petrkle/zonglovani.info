@@ -14,7 +14,7 @@ $trail = new Trail();
 $trail->addStep('Míčky','/micky/');
 $trail->addStep('3 míčky','/micky/3/');
 
-if(strlen($show)>0 and is_file($show.".xml")){
+if(strlen($show)>0 and is_file($show.'.xml')){
 	$trik=nacti_trik($show);
 	$smarty->assign('trik',$trik);
 	$smarty->assign('titulek',$titulek.' - '.$trik['about']['nazev']);
