@@ -10,7 +10,12 @@
 	</about>
 
 	<krok>
-		<popisek>Každý hod je pass. Házíš: &lt;pre&gt; P       L      P       L     P      L&lt;/pre&gt; &lt;pre&gt;pass - pass - pass - pass - pass - pass ...&lt;/pre&gt;</popisek>
+		<popisek>Každý hod je pass. Házíš:</popisek>
+  </krok>
+
+	<krok>
+<pre> P       L      P       L     P      L
+pass - pass - pass - pass - pass - pass ...</pre>
   </krok>
 
 	<krok>

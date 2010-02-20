@@ -8,7 +8,7 @@
 <p><strong>Místo</strong>: {$udalost.misto|escape}{if $udalost.mapa} - <a href="{$udalost.mapa|escape}" onclick="pageTracker._trackPageview('/goto/{$udalost.mapa|replace:'http://':''|regex_replace:"/^www\./":""}');" title="Místo konání na mapě."{if eregi("^http://",$udalost.mapa)} class="external" rel="nofollow"{/if}>mapa</a>{/if}</p>
 
 {if $udalost.url}
-<p><strong>Odkaz</strong>: <a href="{$udalost.url_hr|escape}" onclick="pageTracker._trackPageview('/goto/{$udalost.url_hr|replace:'http://':''|regex_replace:"/^www\./":""}');"{if eregi("^http://",$udalost.url_hr)} class="external" rel="nofollow"{/if}>{$udalost.url|replace:'http://':''|regex_replace:"/^www\./":""|regex_replace:"/\/$/":""|truncate:40:"...":false|escape}</a></p>
+<p><strong>Odkaz</strong>: <a href="{$udalost.url_hr|escape}" onclick="pageTracker._trackPageview('/goto/{$udalost.url_hr|replace:'http://':''|regex_replace:"/^www\./":""|escape}');"{if eregi("^http://",$udalost.url_hr)} class="external" rel="nofollow"{/if}>{$udalost.url|replace:'http://':''|regex_replace:"/^www\./":""|regex_replace:"/\/$/":""|truncate:40:"...":false|escape}</a></p>
 {/if}
 
 {if $udalost.vlozil==$smarty.session.uzivatel.login and !$stare}

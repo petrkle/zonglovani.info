@@ -32,4 +32,4 @@ Několik slovíček které se často vyskytují v anglicky psaných textech o ž
 <dt>wrist</dt><dd>zápěstí</dd>
 </dl>
 
-<a href="#nahore" title="Přesun na začátek stránky" class="nahoru">Nahoru&nbsp;^^</a>
+<a href="#nahore" title="Přesun na začátek stránky" class="nahoru">Nahoru&nbsp;&uarr;</a>

@@ -1,9 +1,7 @@
-<p>
 <ul>
 <li><strong>RSS</strong> - Really Simple Syndication, slouží k upozorňování na aktualizaci stránek</li>
 <li><strong>iCalendar</strong> - formát pro výměnu záznamů v kalendáři mezi počítači</li>
 </ul>
-</p>
 <p>
 <a href="#rss">RSS</a> a <a href="#ical">iCalendar</a> ti umožní jednoduše sledovat novinky v žonglérově slabikáři.
 </p>

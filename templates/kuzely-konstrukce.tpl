@@ -1,15 +1,13 @@
-<p>
 <ol class="vp">
 <li>hlava</li>
 <li>tělo</li>
 <li>rukojeť</li>
 <li>patka</li>
 </ol>
-</p>
+
 <p>
 {obrazek soubor="kuzel-konstrukce.png" popisek="Průřez kuželem"}
 </p>
-
 
 <p>
 Uvnitř kuželu je dřevěná tyčka. Patka a hlava jsou k ní upevněny šroubem. Rukojeť je k tělu kuželu přichycena páskou.

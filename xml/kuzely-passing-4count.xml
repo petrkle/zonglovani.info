@@ -10,7 +10,12 @@
 	</about>
 
 	<krok>
-		<popisek>Základní způsob passování pro 2 žongléry a 6 kuželů. Každý 4. hod je pass. Házíš: &lt;pre&gt;  P     L     P     L      P     L     P&lt;/pre&gt;&lt;pre&gt;pass - raz - dva - tři - pass - raz - dva ...&lt;/pre&gt;</popisek>
+		<popisek>Základní způsob passování pro 2 žongléry a 6 kuželů. Každý 4. hod je pass. Házíš:</popisek>
+  </krok>
+
+	<krok>
+<pre>  P     L     P     L      P     L     P
+pass - raz - dva - tři - pass - raz - dva ...</pre>
   </krok>
 
 	<krok>

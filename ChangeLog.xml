@@ -1,6 +1,16 @@
 <?xml version="1.0"?>
 <log>
 <logentry
+   revision="232">
+<author>petr</author>
+<date>2010-02-20T13:36:34.384194Z</date>
+<msg>rec.juggling</msg>
+<revprops>
+<property
+   name="svn:link">/rec-juggling.html</property>
+</revprops>
+</logentry>
+<logentry
    revision="231">
 <author>petr</author>
 <date>2010-02-16T21:06:48.075840Z</date>

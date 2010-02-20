@@ -3,7 +3,6 @@ Chůdy přinášejí do žonglování ten pravý adrenalin. Takže jak vyrobit c
 </p>
 
 <h2>Materiál</h2>
-<p>
 <ul>
 <li>2x dřevěný hranol 40x40x1500 mm</li>
 <li>prkno 20x140x1500 mm</li>
@@ -13,7 +12,6 @@ Chůdy přinášejí do žonglování ten pravý adrenalin. Takže jak vyrobit c
 <li>páska na koberce</li>
 <li>starý plášť z bicyklu</li>
 </ul>
-</p>
 
 <h2>Výroba chůd</h2>
 <p>
@@ -42,28 +40,22 @@ Chůda v celé své kráse.
 </p>
 
 <h2>Chození na chůdách</h2>
-<p>
 <ol>
 <li>Chůdy si připevni k noze pomocí pruhů látky.</li>
 <li>Sežeň někoho kdo tě bude chytat.</li>
 </ol>
-</p>
 <p>
 Na chůdách se chodí jako když šlapeš zelí. Stačí pořádně zvedat kolena a nemůžeš spadnout :-)
 </p>
 
 <h2>Tipy a triky</h2>
-<p>
 <ul>
 <li>Ušij si dlouhé chůdařské kalhoty.</li>
 <li>Přišroubuj na stupačku pevnou botu.</li>
 </ul>
-</p>
 
 <h3>Chůdařský průkaz</h3>
-<p>
 <ul>
 <li><a href="../chudarsky-prukaz.pdf" title="Portable Document Format" onclick="pageTracker._trackPageview('/chudarsky-prukaz.pdf');">Chůdařský průkaz - PDF</a> - 20kB</li>
 <li><a href="../chudarsky-prukaz.odt" title="Open Document Text" onclick="pageTracker._trackPageview('/chudarsky-prukaz.odt');">Chůdařský průkaz - ODT</a> - 10kB</li>
 </ul>
-</p>

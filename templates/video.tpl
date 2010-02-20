@@ -4,19 +4,24 @@
 
 <p class="youtubevideo">
 {if $video.server=="youtube.com"}
-<object height="380" width="480">
-	<param name="movie" value="http://www.youtube.com/v/{$video.fid}">
-	<embed src="http://www.youtube.com/v/{$video.fid}" type="application/x-shockwave-flash" height="380" width="480">
+<object type="application/x-shockwave-flash" data="http://www.youtube.com/v/{$video.fid}&amp;hl=cs_CZ&amp;rel=0" class="youtubevideo">
+	<param name="movie" value="http://www.youtube.com/v/{$video.fid}&amp;hl=cs_CZ&amp;rel=0" />
+	<param name="wmode" value="transparent" />
+	<param name="allowscriptaccess" value="always" />
+	<param name="allowfullscreen" value="false" />
+	<param name="pluginspage" value="http://get.adobe.com/flashplayer/" />
+Pro přehrávání videa je potřeba <a href="http://get.adobe.com/flashplayer/" class="external" onclick="pageTracker._trackPageview('/goto/get.adobe.com/flashplayer');">Adobe Flash</a>
 </object>
 {/if}
 
 {if $video.server=="juggling.tv"}
-
-	<object type="application/x-shockwave-flash" width="480" height="380"wmode="transparent" data="http://www.juggling.tv/vaults/flvplayer.swf?file=http://www.juggling.tv/vaults/flvideo/{$video.fid}.flv&autostart=false&showfsbutton=true">
-        <param name="movie" value="http://www.juggling.tv/vaults/flvplayer.swf?file=http://www.juggling.tv/vaults/flvideo/{$video.fid}.flv&autostart=false&showfsbutton=true" />
-        <param name="wmode" value="transparent" />
-		<param name="allowScriptAccess" value="sameDomain" />
-<embed src="http://www.juggling.tv/vaults/flvplayer.swf?file=http://www.juggling.tv/vaults/flvideo/{$video.fid}.flv&autostart=false&showfsbutton=true" loop="false" width="480" height="380" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />
+<object type="application/x-shockwave-flash" data="http://juggling.tv/nvplayer.swf?config=http://juggling.tv/nuevo/econfig.php?key={$video.fid}" class="youtubevideo">
+	<param name="movie" value="http://juggling.tv/nvplayer.swf?config=http://juggling.tv/nuevo/econfig.php?key={$video.fid}" />
+	<param name="wmode" value="transparent" />
+	<param name="allowscriptaccess" value="always" />
+	<param name="allowfullscreen" value="false" />
+	<param name="pluginspage" value="http://get.adobe.com/flashplayer/" />
+Pro přehrávání videa je potřeba <a href="http://get.adobe.com/flashplayer/" class="external" onclick="pageTracker._trackPageview('/goto/get.adobe.com/flashplayer');">Adobe Flash</a>
 </object>
 {/if}
 </p>

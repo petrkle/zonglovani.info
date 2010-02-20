@@ -32,7 +32,7 @@ Míček můžeš vyrobit i tak, že naplníš (rýže, proso, mák, ...) neustř
 </p>
 
 
-<a name="sity"><h3>Šitý míček</h3></a>
+<a name="sity"></a><h3>Šitý míček</h3>
 
 <p>
 Výroba tohoto míčku je náročná. Za odměnu získáš vyšší trvanlivost. Míček je ušitý z látky, koženky nebo kůže a naplněný sypkým materiálem. Můžeš zkusit rýži, fazolky nebo i korálky.
@@ -80,4 +80,4 @@ Můžeš vyzkoušet i střih ve tvaru jehlanu. Postup je obdobný.
  /________\/________\
 </pre>
 
-<a href="#nahore" title="Přesun na začátek stránky" class="nahoru">Nahoru&nbsp;^^</a>
+<a href="#nahore" title="Přesun na začátek stránky" class="nahoru">Nahoru&nbsp;&uarr;</a>

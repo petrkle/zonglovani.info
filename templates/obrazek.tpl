@@ -1,14 +1,12 @@
 {if $obrazek}
+{if $obrazek.predchozi_cislo}<a href="{if $obrazek.predchozi_stranka}{$smarty.const.OBRAZKY_URL}{$gal_id}/stranka{$obrazek.predchozi_stranka}/{$obrazek.predchozi_cislo}{else}{$smarty.const.OBRAZKY_URL}{$gal_id}/{$obrazek.predchozi_cislo|escape}{/if}.html" title="Zobrazit předchozí obrázek">&laquo; Předchozí obrázek</a> ~ {/if} <a href="." title="Zobrazí celou galerii">Náhledy</a> {if $obrazek.dalsi_cislo} ~ <a href="{if $obrazek.dalsi_stranka!=1}{$smarty.const.OBRAZKY_URL}{$gal_id}/stranka{$obrazek.dalsi_stranka}/{$obrazek.dalsi_cislo}{else}{$obrazek.dalsi_cislo|escape}{/if}.html" title="Zobrazit další obrázek">Další obrázek &raquo;</a>{/if}
 <a name="nahore"></a>
-{if $obrazek.predchozi_cislo}
-
-<span class="navigace"><a href="{if $obrazek.predchozi_stranka}{$smarty.const.OBRAZKY_URL}{$gal_id}/stranka{$obrazek.predchozi_stranka}/{$obrazek.predchozi_cislo}{else}{$smarty.const.OBRAZKY_URL}{$gal_id}/{$obrazek.predchozi_cislo|escape}{/if}.html" title="Zobrazit předchozí obrázek">&laquo; Předchozí obrázek</a>{else}<a href="." title="Zobrazí celou galerii">{$description|escape}</a>{/if}</span> ~ <span class="navigace">{if $obrazek.dalsi_cislo}<a href="{if $obrazek.dalsi_stranka!=1}{$smarty.const.OBRAZKY_URL}{$gal_id}/stranka{$obrazek.dalsi_stranka}/{$obrazek.dalsi_cislo}{else}{$obrazek.dalsi_cislo|escape}{/if}.html" title="Zobrazit další obrázek">Další obrázek &raquo;</a>{else}<a href="." title="Zobrazí celou galerii">{$description|escape}</a>{/if}</span>
 <p class="obrazek">
-{if $obrazek.dalsi_cislo}<a href="{if $obrazek.dalsi_stranka!=1}{$smarty.const.OBRAZKY_URL}{$gal_id}/stranka{$obrazek.dalsi_stranka}/{$obrazek.dalsi_cislo}{else}{$obrazek.dalsi_cislo|escape}{/if}.html" title="Zobrazit další obrázek">{else}<a href="." title="Zobrazí celou galerii">{/if}<img src="{$obrazek.obrazek|escape}" alt="{$nadpis|escape}" width="{$obrazek.fsirka|escape}" height="{$obrazek.fvyska|escape}"/></a>
+{if $obrazek.dalsi_cislo}<a href="{if $obrazek.dalsi_stranka!=1}{$smarty.const.OBRAZKY_URL}{$gal_id}/stranka{$obrazek.dalsi_stranka}/{$obrazek.dalsi_cislo}{else}{$obrazek.dalsi_cislo|escape}{/if}.html" title="Zobrazit další obrázek" onclick="window.location.href='{if $obrazek.dalsi_stranka!=1}{$smarty.const.OBRAZKY_URL}{$gal_id}/stranka{$obrazek.dalsi_stranka}/{$obrazek.dalsi_cislo}{else}{$obrazek.dalsi_cislo|escape}{/if}.html#nahore';return(false);">{else}<a href="." title="Zobrazí celou galerii">{/if}<img src="{$obrazek.obrazek|escape}" alt="{$nadpis|escape}" width="{$obrazek.fsirka|escape}" height="{$obrazek.fvyska|escape}"/></a>
 </p>
 
 {if $gal_info.autor or $gal_info.mail or $gal_info.url}
-<p class="autor">
+<p class="vlevo">
 Autor fotografie: 
 {if $gal_info.autor}
  <strong>{$gal_info.autor|escape}</strong>
@@ -22,3 +20,6 @@ Autor fotografie:
 {/if}
 </p>
 {/if}
+<p class="vpravo">
+<a href="{$smarty.const.OBRAZKY_URL}#vyzva" title="Přidat vlastní obrázky žonglovaní." class="add">Přidat obrázky</a>
+</p>

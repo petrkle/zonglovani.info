@@ -10,6 +10,9 @@ function nacti_trik($soubor){
 		if($krok->popisek){
 			$foo['popisek'] = (string) $krok->popisek;
 		}
+		if($krok->pre){
+			$foo['pre'] = (string) $krok->pre;
+		}
 		if($krok->obrazek){
 			$foo['obrazek'] = (string) $krok->obrazek.'.png';
 		}

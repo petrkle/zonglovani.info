@@ -1,5 +1,5 @@
 <ul>
-	<li><a name="zongl.info"></a><a href="/">Žonglérův slabikář</a>
+	<li><a name="zongl.info"></a><a href="/">Žonglérův slabikář - žonglování s míčky, kruhy a kužely.</a>
 	<ul>
 	<li><a href="/aczslovnicek.html">Anglicko-český žonglérský slovníček</a></li>
 	<li><a href="/changelog.html">Změny v žonglérově slabikáři</a></li>
@@ -16,6 +16,7 @@
 	<li><a href="/pf-2010.html">PF 2010</a></li>
 	<li><a href="/podporte-zongleruv-slabikar.html">Podpořte žonglérův slabikář</a></li>
 	<li><a href="/proc-a-jak.html">Proč a jak vznikl žognlérův slabikář</a></li>
+	<li><a href="/rec-juggling.html">rec.juggling</a></li>
 	<li><a href="/rss.html">RSS kanály</a></li>
 	<li><a href="/siteswap.html">Siteswap</a></li>
 	<li><a href="/software.html">Simulátory žonglování</a></li>
@@ -339,6 +340,9 @@
 			
 			</li>
 			<li><a name="ulita-20100124"></a><a href="/obrazky/ulita-20100124/">Ulita 24. 1. 2010 - obrázky žonglování</a>
+			
+			</li>
+			<li><a name="ulita-20100207"></a><a href="/obrazky/ulita-20100207/">Ulita 7. 2. 2010 - obrázky žonglování</a>
 			
 			</li>
 			<li><a name="zidovske-pece-20090404"></a><a href="/obrazky/zidovske-pece-20090404/">Židovské pece 4. 4. 2009 - obrázky žonglování</a>

@@ -28,3 +28,7 @@ Stránkování: {$pager_links}
 <p>
 Další <a href="{$smarty.const.OBRAZKY_URL}" title="Další obrázky žonglování.">obrázky žonglování</a>.
 </p>
+
+<p>
+<a href="{$smarty.const.OBRAZKY_URL}#vyzva" title="Přidat vlastní obrázky žonglovaní." class="add">Přidat obrázky</a>
+</p>

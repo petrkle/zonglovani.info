@@ -10,3 +10,6 @@
 {else}
 <h1>Nic nenalezeno</h1>
 {/if}
+<p class="vpravo">
+<a href="{$smarty.const.OBRAZKY_URL}#vyzva" title="Přidat vlastní obrázky žonglovaní." class="add">Přidat obrázky</a>
+</p>

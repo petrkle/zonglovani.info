@@ -1,7 +1,3 @@
-<dl>
-
-<!-- slabikar-online-link -->
-
 <h5><a href="http://zongluj.eu" title="Abryho stránky o žonglování." class="external" onclick="pageTracker._trackPageview('/goto/zongluj.eu');">zongluj.eu</a></h5>
 <p>
 <a href="http://zongluj.eu" title="Abryho stránky o žonglování." onclick="pageTracker._trackPageview('/goto/zongluj.eu');">{obrazek soubor="odkazy-zongluj.eu.png" popisek="zongluj.eu"}</a>
@@ -20,6 +16,12 @@ Stránky o žonglování s ohněm.
 <p>
 <a href="http://www.zonglovanie.sk" title="Slovenský server." onclick="pageTracker._trackPageview('/goto/zonglovanie.sk');">{obrazek soubor="odkazy-zonglovanie.sk.png" popisek="zonglovanie.sk"}</a>
 Skvělá <a href="literatura.html" title="Další literatura o žonglování.">učebnice žonglování</a> pro samouky. Dostupná ve formátu pdf.
+</p>
+
+<h5><a href="http://juggling.tv" title="Domov žonglérského videa na internetu." class="external" onclick="pageTracker._trackPageview('/goto/juggling.tv');">juggling.tv</a></h5>
+<p>
+<a href="http://juggling.tv" title="Domov žonglérského videa na internetu." onclick="pageTracker._trackPageview('/goto/juggling.tv');">{obrazek soubor="juggling.tv.png" popisek="juggling.tv"}</a>
+Žonglérská televize.
 </p>
 
 <h5><a href="http://didier.arlabosse.free.fr/balles/english/" title="Anglické stránky o žonglování." class="external" onclick="pageTracker._trackPageview('/goto/didier.arlabosse.free.fr');">didier.arlabosse.free.fr/balles/english</a></h5>
@@ -46,25 +48,11 @@ Informace pro žongléry.
 Informace o passování.
 </p>
 
-<h5><a href="http://juggling.tv" title="Anglické stránky o žonglování." class="external" onclick="pageTracker._trackPageview('/goto/juggling.tv');">juggling.tv</a></h5>
-<p>
-<a href="http://juggling.tv" title="Anglické stránky o žonglování." onclick="pageTracker._trackPageview('/goto/juggling.tv');">{obrazek soubor="odkazy-juggling.tv.png" popisek="juggling.tv"}</a>
-Žonglérská televize.
-</p>
-
-<h5><a href="http://juggletube.com" title="Anglické stránky o žonglování." class="external" onclick="pageTracker._trackPageview('/goto/juggletube.com');">juggletube.com</a></h5>
-<p>
-<a href="http://juggletube.com" title="Anglické stránky o žonglování." onclick="pageTracker._trackPageview('/goto/juggletube.com');">{obrazek soubor="odkazy-juggletube.com.png" popisek="juggletube.com"}</a>
-Stránka plná žonglérského videa.
-</p>
-
-
 <h5><a href="http://www.twjc.co.uk/tutorials.html" title="Anglické stránky o žonglování." class="external" onclick="pageTracker._trackPageview('/goto/twjc.co.uk');">Tunbridge Wells Juggling Club Tutorials</a></h5>
 <p>
 <a href="http://www.twjc.co.uk/tutorials.html" title="Anglické stránky o žonglování." onclick="pageTracker._trackPageview('/goto/twjc.co.uk');">{obrazek soubor="odkazy-twjc.png" popisek="twjc.co.uk"}</a>
 Textové návody na žonglování.
 </p>
-
 
 <p>
 Spousta pěkných stránek o žonglování je v angličtině. Možná se ti bude hodit <a href="aczslovnicek.html" title="Anglicko-český žonglérský slovníček.">malý slovníček</a>.

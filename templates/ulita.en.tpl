@@ -9,14 +9,13 @@ Regular Sunday juggling at <a href="http://www.ulita.cz" class="external" onclic
 <a href="/obrazky/filtr/Ulita" title="Photos of juggling.">More photos &raquo;</a>
 </div>
 <p>
-<p>
 Beginners as well as experienced jugglers are welcome. There are balls and clubs prepare to lend for newcomers. <strong>Everyone</strong> can learn to juggle!
 </p>
 
 <h3>Place</h3>
 <p>
 <a href="http://www.ulita.cz" class="external" onclick="pageTracker._trackPageview('/goto/ulita.cz');" title="Ulita - dům dětí a mládeže">Ulita</a> - house of children and youth<br />
-Na Balkáně 100, Prague, 130 00 - <a href="http://maps.google.com/maps?q=50.094625,+14.481668+(Juggling+at+Ulita)&iwloc=A&z=17" title="Place on google maps." class="external" onclick="pageTracker._trackPageview('/goto/maps.google.com/ulita');">map</a><br />
+Na Balkáně 100, Prague, 130 00 - <a href="http://maps.google.com/maps?q=50.094625,+14.481668+(Juggling+at+Ulita)&amp;iwloc=A&amp;z=17" title="Place on google maps." class="external" onclick="pageTracker._trackPageview('/goto/maps.google.com/ulita');">map</a><br />
 Phone: +420 271 771 025<br />
 {assign var='mail' value='info@ulita.cz'}
 E-mail: {$mail|mailobfuscate}

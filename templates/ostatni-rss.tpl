@@ -1,8 +1,6 @@
-<p>
 <ul>
 <li><strong>RSS</strong> - Really Simple Syndication, slouží k upozorňování na aktualizaci stránek</li>
 </ul>
-</p>
 
 <p>
 Žonglérův slabikář obsahuje tyto RSS kanály:

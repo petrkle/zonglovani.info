@@ -10,7 +10,12 @@
 	</about>
 
 	<krok>
-		<popisek>Každý 3. hod je pass. Jako valčík, na tři doby. Házíš:	&lt;pre&gt;  P     L     P     L      P     L     P&lt;/pre&gt; &lt;pre&gt;pass - raz - dva - pass - raz - dva - pass ...&lt;/pre&gt;</popisek>
+		<popisek>Každý 3. hod je pass. Jako valčík, na tři doby. Házíš:</popisek>
+  </krok>
+
+	<krok>
+<pre>  P     L     P     L      P     L     P
+pass - raz - dva - pass - raz - dva - pass ...</pre>
   </krok>
 
 	<krok>

@@ -14,6 +14,9 @@
 {$krok.popisek}
 {/if}
 </p>
+{if isset($krok.pre)}
+<pre>{$krok.pre}</pre>
+{/if}
 {/foreach}
 
 {if count($trik.kroky) > 5}

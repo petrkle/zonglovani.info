@@ -4,7 +4,6 @@ Ohnivé kužely mají místo širší části hliníkovou trubku. Na ní je namo
 </p>
 
 <h3>Bezpečnostní pravidla</h3>
-<p>
 <ol>
 <li>Žongluj na volném prostranství kde nemůžeš nic zapálit.</li>
 <li>Obleč se do staršího oblečení z bavlny. Bavlna je důležitá, protože nevzplane snadno jako látky z umělé hmoty.</li>
@@ -12,7 +11,6 @@ Ohnivé kužely mají místo širší části hliníkovou trubku. Na ní je namo
 <li>Hořlaviny nech v originálním obalu v dostatečné vzdálenosti od místa žonglování.</li>
 <li>Žongluj v dostatečné vzdálenosti od diváků.</li>
 </ol>
-</p>
 
 <p>
 Připrav si také vlhký bavlněný hadr nebo azbestovou deku. Do nich zabalíš kužely aby zhasly. A úplně nejlepší je mít i hasicí přístroj.
@@ -31,14 +29,14 @@ U ohnivých kuželů je trénink velmi důležitý. Každé záváhání a spadn
 Takže trénuj za světla s nezapálenými kužely. Pak za světla se zapálenými kužely. A za tmy s ohněm prováděj jen triky které máš plně zvládnuté.
 </p>
 
-<a name="palivo" id="palivo"><h3>Palivo</h3></a>
+<a name="palivo"></a><h3>Palivo</h3>
 <p>
 Jsou vlastně dvě možnosti jakou hořlavinu použít.
+</p>
 <ol>
 <li>petrolej</li>
 <li>lampový olej</li>
 </ol>
-</p>
 <p>
 Osobně dávám přednost petroleji. Bývá levnější a méně zapáchá. Na druhou stranu při hoření vzniká více dýmu. Pokud použiješ lampový olej tak si vyber bezbarvý. Bez přidaných vůní.
 </p>
@@ -89,5 +87,4 @@ Ohnivé kužely nejsou stavěné na nepřetržité hoření. Mezi jednotlivýmí
 Pokročilí žongléři můžou s ohněm i <a href="/kuzely/passing/" title="Žonglování více lidí">passovat</a>.
 </p>
 
-<a href="#nahore" title="Přesun na začátek stránky." class="nahoru">Nahoru&nbsp;^^</a>
-
+<a href="#nahore" title="Přesun na začátek stránky." class="nahoru">Nahoru&nbsp;&uarr;</a>

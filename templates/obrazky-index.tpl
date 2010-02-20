@@ -5,7 +5,9 @@
 {/foreach}
 </ul>
 {/if}
-<h3><a name="vyzva">Výzva pro fotografy</a></h3>
+<h3>Filtry obrázků</h3>
+{include file='obrazky-filtry.tpl'}
+<a name="vyzva"></a><h3>Výzva pro fotografy</h3>
 <p>
 {obrazek soubor="fotaka.png" popisek="Fotoaparát"}
 Rád uveřejním i tvoje fotografie žonglování. Stačí vědět kde a kdy byly pořízené a <a href="/kontakt.html" title="Stránka s emailem.">napsat</a>. Tvoje fotky pak uvidí hodně lidí které zajímá žonglování.
@@ -16,5 +18,3 @@ Nenabízím neomezenou kapacitu ani okamžité zveřejnění fotografií. Jen to
 <p>
 U každé fotografie bude tvoje jméno, email a případně odkaz na webovou stránku.
 </p>
-<h3>Filtry obrázků</h3>
-{include file='obrazky-filtry.tpl'}

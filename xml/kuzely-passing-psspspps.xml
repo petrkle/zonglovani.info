@@ -16,7 +16,12 @@
 
 
 	<krok>
-		<popisek>Házíš podle názvu:	&lt;pre&gt;  P      L      P     L      P       L     P      L&lt;/pre&gt; &lt;pre&gt;pass - self - self - pass - self - pass - pass - self&lt;/pre&gt;</popisek>
+		<popisek>Házíš podle názvu:</popisek>
+  </krok>
+
+	<krok>
+<pre>  P      L      P     L      P       L     P      L
+pass - self - self - pass - self - pass - pass - self</pre>
   </krok>
 
 	<krok>

@@ -8,7 +8,7 @@
 Nejdostupnější míček na žonglování. Má dobrou velikost, ale je příliš lehký. Zkus ho pro <a href="/micky/jak-zacit.html" title="Úplný základ.">začátek</a>, než zjistíš jestli tě žonglování baví.
 </p>
 
-<a name="beanbag"><h3>Šitý míček</h3></a>
+<a name="beanbag"></a><h3>Šitý míček</h3>
 <p>
 <a href="/img/s/sity.jpg">{obrazek soubor="sity-nahled.jpg" popisek="Šitý míček"}</a>
 Míček sešitý z několika kusů textilie (koženky, kůže, ...), naplněný zrnky (rýže, proso, fazolky, ...). Jde <a href="vyroba.html#sity" title="Pěkné míčky snadno a rychle.">vyrobit svépomocí</a>.

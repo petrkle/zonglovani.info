@@ -78,5 +78,4 @@ Házej dál levá, pravá (sebraný míček), levá, ...
 Když ti spadnou dva míčky z pěti, pokračuj kaskádou se třemi. Nohou přesuň spadlé míčky vedle sebe. Klekni si. Míčky jsou každý před jedním kolenem. Vyhoď <a href="/micky/3/blesk.html" title="Trik se třemi míčky.">blesk se třemi</a> a místo tlesknutí nebo <a href="/micky/pirueta.html" title="Otočení dokolečka.">piruety</a> seber oba míčky ze země.
 </p>
 
-
-<a href="#nahore" title="Přesun na začátek stránky" class="nahoru">Nahoru&nbsp;^^</a>
+<a href="#nahore" title="Přesun na začátek stránky" class="nahoru">Nahoru&nbsp;&uarr;</a>

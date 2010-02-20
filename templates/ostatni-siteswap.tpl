@@ -3,23 +3,19 @@
 Zápis žonglování pomocí čísel. Jsou to vlastně takové noty pro žonglování. Siteswap vymysleli žongléři, aby s jejich pomocí <strong>našli nové triky</strong>.
 </p>
 <h3>Výhody</h3>
-<p>
 <ul>
 <li>Snadné a přesné pojmenování triku.</li>
 <li>Usnadnění komunikace mezi žongléry.</li>
 <li>Platí pro míčky, kruhy i kužely.</li>
 <li>Existují <a href="/software.html" title="Simulátory žonglování">počítačové programy</a> do kterých napíšeš číslo a hned uvidíš jak trik vypadá.</li>
 </ul>
-</p>
 
 <h3>Základní pravidla</h3>
-<p>
 <ul>
 <li>Čísla označují jak vysoko a kterou rukou házíš.</li>
 <li>Ruce se při házení střídají.</li>
 <li>Posloupnost čísel se opakuje dokola.</li>
 </ul>
-</p>
 
 <h3>0, 1 a 2</h3>
 <p>
@@ -105,21 +101,21 @@ Sečteš všechny čísla v posloupnosti a vydělíš je délkou posloupnosti. 5
 <h3>Zápis složitějších triků</h3>
 <p>
 Vyhození dvou míčků najednou - synchronní hody se značí dvěma čísly v závorce. Současné vyhození dvou míčků rovně nahoru označíš jako:
+</p>
 <pre class="vyrazne">
 [4,4]
 </pre>
-</p>
 
 <p>
-Připojení písmene "x" za číslo znamená hod řížem.
+Připojení písmene "x" za číslo znamená hod křížem.
+</p>
 <pre class="vyrazne">
 [4,2x][2x,4]
 </pre>
-</p>
 
 <p>
 Pokud je trik symetrický, může se zápis zkrátit a označit hvězdičkou
+</p>
 <pre class="vyrazne">
 [4,2x]<sup>*</sup>
 </pre>
-</p>
