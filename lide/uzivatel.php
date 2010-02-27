@@ -18,11 +18,11 @@ $uzivatel_props=get_user_props($id);
 
 if($uzivatel_props){
 
-if($uzivatel_props['login']=='pek' and isset($_SESSION['uzivatel']['login']) and $_SESSION['uzivatel']['login']!='pek'){
-	header('HTTP/1.1 301 Moved Permanently');
-	header('Location: /kontakt.html');
-	exit();
-}
+#if($uzivatel_props['login']=='pek' and $_SESSION['uzivatel']['login']!='pek'){
+#	header('HTTP/1.1 301 Moved Permanently');
+#	header('Location: /kontakt.html');
+#	exit();
+#}
 
 $dov=get_user_dovednosti($id);
 if($dov){
@@ -34,6 +34,11 @@ $pus=get_user_pusobiste($id);
 if($pus){
 	$uzivatel_props['pusobiste']=$pus;
 	$smarty->assign('pusobiste',$pusobiste);
+}
+
+$oblibene=get_oblibene($id);
+if($oblibene){
+	$uzivatel_props['oblibene']=$oblibene;
 }
 
 if($uzivatel_props['status']=='ok'){

@@ -21,7 +21,7 @@ $trail->addStep('Nastavení',LIDE_URL.'nastaveni/');
 				$jmeno=trim($_POST['jmeno']);
 
 				if(strlen($jmeno)<3){
-					array_push($chyby,'Jméno není zadané, nebo je příliš krátké.');
+					array_push($chyby,'Jméno není zadané, nebo je příliš krátké. Minimální délka je tři znaky.');
 				}elseif(strlen($jmeno)>256){
 					array_push($chyby,'Jméno je příliš dlouhé.');
 				}elseif(preg_match('/[-\*\.\?\!<>;\^\$\{\}\@%\&\(\)\'"_:´ˇ\\|#`~,]/',$jmeno)){
@@ -122,7 +122,7 @@ $trail->addStep('Nastavení',LIDE_URL.'nastaveni/');
 						array_push($chyby,'Adresa je příliš dlouhá.');
 					}
 					if(strlen($web)>0 and !preg_match('/^http:\/\/[a-z0-9]+\.[a-z]{2,4}.*/',$web)){
-						array_push($chyby,'Špatný formát adresy.');
+						array_push($chyby,'Špatný formát adresy. Zadej i úvodní "http://". Např.: http://neco.cz');
 					}
 
 				if(count($chyby)==0){
@@ -154,7 +154,7 @@ $trail->addStep('Nastavení',LIDE_URL.'nastaveni/');
 			if(isset($_POST['tel']) and isset($_POST['odeslat'])){
 					$tel=$_POST['tel'];
 					if(strlen($tel)>0 and !preg_match('/^\+42[01] [0-9]{3} [0-9]{3} [0-9]{3}$/',$tel)){
-						array_push($chyby,'Špatný formát telefonního čísla.');
+						array_push($chyby,'Špatný formát telefonního čísla. Číslo zadej ve formátu "+420&nbsp;aaa&nbsp;bbb&nbsp;ccc" nebo "+421&nbsp;aaa&nbsp;bbb&nbsp;ccc".');
 					}
 
 
@@ -468,9 +468,9 @@ http://zonglovani.info/kontakt.html
 			}
 
 					$antispam=get_antispam();
-					$_SESSION["antispam_otazka"]=$antispam[0];
-					$_SESSION["antispam_odpoved"]=$antispam[1];
-					$smarty->assign("antispam_otazka",$_SESSION["antispam_otazka"]);
+					$_SESSION['antispam_otazka']=$antispam[0];
+					$_SESSION['antispam_odpoved']=$antispam[1];
+					$smarty->assign('antispam_otazka',$_SESSION['antispam_otazka']);
 				$trail->addStep('E-mail');
 				$smarty->assign('titulek','Změna adresy elektronické pošty');
 				$smarty->assign_by_ref('trail', $trail->path);
@@ -482,7 +482,7 @@ http://zonglovani.info/kontakt.html
 			if(isset($_POST['vzkaz']) and isset($_POST['odeslat'])){
 					$vzkaz=$_POST['vzkaz'];
 					if(strlen($vzkaz)>1024){
-						array_push($chyby,'Vzkaz je příliš dlouhý.');
+						array_push($chyby,'Vzkaz je příliš dlouhý. Maximální délka je 1024 znaků.');
 					}
 
 				if(count($chyby)==0){
@@ -509,7 +509,7 @@ http://zonglovani.info/kontakt.html
 					$heslo2=$_POST['heslo2'];
 
 				if(strlen($heslo)<5){
-					array_push($chyby,'Heslo není zadané, nebo je příliš krátké.');
+					array_push($chyby,'Heslo není zadané, nebo je příliš krátké. Minimální délka hesla je 5 znaků.');
 				}
 
 				if(eregi('.*'.$_SESSION['uzivatel']['login'].'.*',$heslo) or eregi('.*'.$_SESSION['uzivatel']['jmeno'].'.*',$heslo) or eregi('.*'.$_SESSION['uzivatel']['email'].'.*',$heslo)){

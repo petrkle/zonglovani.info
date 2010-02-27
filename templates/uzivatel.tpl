@@ -1,18 +1,31 @@
 {if $uzivatel_props}
 
 {if $uzivatel_props.login==$smarty.session.uzivatel.login}
-<h3>Moje domovská stránka</h3>
+<h1>Oblíbené stránky</h1>
 
+{if is_array($uzivatel_props.oblibene)}
+<ul>
+{foreach from=$uzivatel_props.oblibene item=stranka key=url}
+<li><a href="{$url|escape}" title="{$stranka|escape}">{$stranka|escape}</a></li>
+{/foreach}
+</ul>
+{else}
 <p>
-Nacházíš se na své veřejné domovské stránce, která slouží pro tvojí prezentaci. Tento text je zobrazen pouze tobě.
+Na této stránce se zobrazí tvoje oblíbené stránky z žonglérova slabikáře.
 </p>
-
-<p>
-<a href="{$smarty.const.LIDE_URL}nastaveni.php" title="Nastavení tvého účtu.">Nastavení účtu</a>
+<h3>Přidání stránky mezi oblíbené</h3>
+<p class="kontakt">
+Stránku přidáš mezi oblíbené kliknutím na obrázek šedivé hvězdičky {obrazek soubor='star-white.png' popisek='Přidat mezi oblíbené.'} vedle nadpisu.
 </p>
-<hr />
+<h3>Odebrání stránky z oblíbených</h3>
+<p class="kontakt">
+Stránku odebereš z oblíbených kliknutím na obrázek žluté hvězdičky {obrazek soubor='star.png' popisek='Odebrat z oblíbených.'} vedle nadpisu.
+</p>
+<h3>Oblíbené stránky jsou veřejné</h3>
+<p>Seznam tvých oblíbených stránek je veřejně dostupný všem návštěvníkům žonglérova slabikáře. Stejně tak i ty si můžeš prohlížet oblíbené stránky ostatních žonglérů.</p>
 {/if}
 
+{else}
 
 <h1>{$titulek}</h1>
 {if $uzivatel_props.foto}
@@ -72,7 +85,17 @@ Nacházíš se na své veřejné domovské stránce, která slouží pro tvojí 
 </ul>
 {/if}
 
+{if is_array($uzivatel_props.oblibene)}
+<h3>Oblíbené stránky</h3>
+<ul>
+{foreach from=$uzivatel_props.oblibene item=stranka key=url}
+<li><a href="{$url|escape}" title="{$stranka|escape}">{$stranka|escape}</a></li>
+{/foreach}
+</ul>
 {/if}
+<hr />
 <p>
 <a href="{$smarty.const.LIDE_URL}" title="Seznam uživatelů žonglérova slabikáře.">Další žongléři a žonglérky &raquo;</a>
 </p>
+{/if}
+{/if}

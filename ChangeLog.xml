@@ -1,6 +1,22 @@
 <?xml version="1.0"?>
 <log>
 <logentry
+   revision="234">
+<author>petr</author>
+<date>2010-02-27T10:25:31.922164Z</date>
+<msg>Možnost nastavit telefonní číslo v profilu.</msg>
+<revprops>
+<property
+   name="svn:link">/lide/nastaveni/tel</property>
+</revprops>
+</logentry>
+<logentry
+   revision="233">
+<author>petr</author>
+<date>2010-02-20T21:32:55.482314Z</date>
+<msg>Vylepšení odkazů v galeriích + opravy chyb v html.</msg>
+</logentry>
+<logentry
    revision="232">
 <author>petr</author>
 <date>2010-02-20T13:36:34.384194Z</date>

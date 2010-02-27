@@ -453,7 +453,40 @@ function get_user_complete($login){
 	$navrat=get_user_props($login);
 	$navrat['dovednosti']=get_user_dovednosti($login);
 	$navrat['pusobiste']=get_user_pusobiste($login);
+	$navrat['oblibene']=get_oblibene($login);
 	return $navrat;
 }
 
+function get_oblibene($login){
+	$navrat=array();
+	if(is_readable(LIDE_DATA.'/'.$login.'/oblibene.txt')){
+		$obl=file(LIDE_DATA.'/'.$login.'/oblibene.txt');
+		if(count($obl)>0){
+			foreach($obl as $line){
+				$line=trim($line);
+				$line=preg_split('/\*/',$line);
+				$navrat[$line[0]]=$line[1];
+			}
+		}else{
+			$navrat=false;
+		}
+	}else{
+		$navrat=false;
+	}
+	return $navrat;
+}
+
+function set_oblibene($login,$oblibene){
+	if(is_array($oblibene) and count($oblibene)>0){
+		$foo=fopen(LIDE_DATA.'/'.$login.'/oblibene.txt','w');
+		foreach($oblibene as $url=>$title){
+			fwrite($foo,$url.'*'.$title."\n");
+		}
+		fclose($foo);
+	}else{
+		if(is_file(LIDE_DATA.'/'.$login.'/oblibene.txt')){
+			unlink(LIDE_DATA.'/'.$login.'/oblibene.txt');
+		}
+	}
+}
 ?>
