@@ -263,6 +263,10 @@ function get_user_props($login){
 			$navrat['web']=trim(file_get_contents(LIDE_DATA.'/'.$login.'/web.txt'));
 		}
 
+		if(is_file(LIDE_DATA.'/'.$login.'/tel.txt')){
+			$navrat['tel']=trim(file_get_contents(LIDE_DATA.'/'.$login.'/tel.txt'));
+		}
+
 		if(is_file(LIDE_DATA.'/'.$login.'/znameni.txt')){
 			$navrat['znameni']=trim(file_get_contents(LIDE_DATA.'/'.$login.'/znameni.txt'));
 		}

@@ -25,7 +25,7 @@ $trail->addStep('Nastavení',LIDE_URL.'nastaveni/');
 				}elseif(strlen($jmeno)>256){
 					array_push($chyby,'Jméno je příliš dlouhé.');
 				}elseif(preg_match('/[-\*\.\?\!<>;\^\$\{\}\@%\&\(\)\'"_:´ˇ\\|#`~,]/',$jmeno)){
-					array_push($chyby,"Jméno obsahuje nepovolené znaky.");
+					array_push($chyby,'Jméno obsahuje nepovolené znaky.');
 				}elseif($jmeno==$_SESSION["uzivatel"]["jmeno"]){
 					# nic :^)
 				}else{
@@ -34,7 +34,7 @@ $trail->addStep('Nastavení',LIDE_URL.'nastaveni/');
 					}
 				}
 				if(count($chyby)==0){
-					$foo=fopen(LIDE_DATA."/".$_SESSION["uzivatel"]["login"]."/jmeno.txt","w");
+					$foo=fopen(LIDE_DATA.'/'.$_SESSION['uzivatel']['login'].'/jmeno.txt','w');
 					fwrite($foo,$jmeno);
 					fclose($foo);
 					$_SESSION['uzivatel']=get_user_complete($_SESSION['uzivatel']['login']);
@@ -149,6 +149,41 @@ $trail->addStep('Nastavení',LIDE_URL.'nastaveni/');
 				$smarty->display('nastaveni-web.tpl');
 				$smarty->display('paticka.tpl');
 
+		}elseif($uprav=='tel'){
+
+			if(isset($_POST['tel']) and isset($_POST['odeslat'])){
+					$tel=$_POST['tel'];
+					if(strlen($tel)>0 and !preg_match('/^\+42[01] [0-9]{3} [0-9]{3} [0-9]{3}$/',$tel)){
+						array_push($chyby,'Špatný formát telefonního čísla.');
+					}
+
+
+				if(count($chyby)==0){
+					$foo=fopen(LIDE_DATA.'/'.$_SESSION['uzivatel']['login'].'/tel.txt','w');
+					fwrite($foo,$tel);
+					fclose($foo);
+					if(strlen($tel)==0 and is_file(LIDE_DATA.'/'.$_SESSION['uzivatel']['login'].'/tel.txt')){
+						unlink(LIDE_DATA.'/'.$_SESSION['uzivatel']['login'].'/tel.txt');
+					}
+					$_SESSION['uzivatel']=get_user_complete($_SESSION['uzivatel']['login']);
+					header('Location: '.LIDE_URL.'nastaveni/?result=ok');
+					exit();
+				}
+			}else{
+				if(isset($_SESSION['uzivatel']['tel'])){
+					$tel=$_SESSION['uzivatel']['tel'];
+				}else{
+					$tel='';
+				}
+			}
+				$trail->addStep('Telefonní číslo');
+				$smarty->assign('titulek','Telefonní číslo');
+				$smarty->assign('chyby',$chyby);
+				$smarty->assign('tel',$tel);
+				$smarty->assign_by_ref('trail', $trail->path);
+				$smarty->display('hlavicka.tpl');
+				$smarty->display('nastaveni-tel.tpl');
+				$smarty->display('paticka.tpl');
 		}elseif($uprav=='dovednosti'){
 
 
@@ -270,7 +305,7 @@ $trail->addStep('Nastavení',LIDE_URL.'nastaveni/');
 		
 		}elseif($uprav=='zruseni'){
 			if(isset($_POST['nechat'])){
-					header('Location: '.LIDE_URL.basename(__FILE__));
+					header('Location: '.LIDE_URL.'nastaveni/');
 					exit();
 			}
 
@@ -358,12 +393,12 @@ http://zonglovani.info/kontakt.html
 					array_push($chyby,'Špatné heslo.');
 				}
 
-				if($odpoved!=$_SESSION["antispam_odpoved"]){
-					array_push($chyby,"Špatná odpověď na kontrolní otázku.");
+				if($odpoved!=$_SESSION['antispam_odpoved']){
+					array_push($chyby,'Špatná odpověď na kontrolní otázku.');
 					$antispam=get_antispam();
-					$_SESSION["antispam_otazka"]=$antispam[0];
-					$_SESSION["antispam_odpoved"]=$antispam[1];
-					$smarty->assign("antispam_otazka",$_SESSION["antispam_otazka"]);
+					$_SESSION['antispam_otazka']=$antispam[0];
+					$_SESSION['antispam_odpoved']=$antispam[1];
+					$smarty->assign('antispam_otazka',$_SESSION['antispam_otazka']);
 				}
 
 			if(!eregi('^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$',$email)){
@@ -506,7 +541,7 @@ http://zonglovani.info/kontakt.html
 				$smarty->display('nastaveni-heslo.tpl');
 				$smarty->display('paticka.tpl');
 		}else{
-			header('Location: '.LIDE_URL.basename(__FILE__));
+			header('Location: '.LIDE_URL.'nastaveni/');
 			exit();
 		}
 	
@@ -535,7 +570,7 @@ http://zonglovani.info/kontakt.html
 		$smarty->display('paticka.tpl');
 	}
 }else{
-	header('Location: '.LIDE_URL.'prihlaseni.php?next='.LIDE_URL.basename(__FILE__).'&notice');
+	header('Location: '.LIDE_URL.'prihlaseni.php?next='.LIDE_URL.'nastaveni/&notice');
 	exit();
 }
 

@@ -18,9 +18,9 @@ $uzivatel_props=get_user_props($id);
 
 if($uzivatel_props){
 
-if($uzivatel_props["login"]=="pek" and $_SESSION["uzivatel"]["login"]!="pek"){
-	header("HTTP/1.1 301 Moved Permanently");
-	header("Location: /kontakt.html");
+if($uzivatel_props['login']=='pek' and isset($_SESSION['uzivatel']['login']) and $_SESSION['uzivatel']['login']!='pek'){
+	header('HTTP/1.1 301 Moved Permanently');
+	header('Location: /kontakt.html');
 	exit();
 }
 
