@@ -11,18 +11,33 @@
 </ul>
 {else}
 <p>
-Na této stránce se zobrazí tvoje oblíbené stránky z žonglérova slabikáře.
+Na tomto místě se zobrazí tvoje oblíbené stránky z žonglérova slabikáře.
 </p>
-<h3>Přidání stránky mezi oblíbené</h3>
+<h5>Přidání stránky mezi oblíbené</h5>
 <p class="kontakt">
 Stránku přidáš mezi oblíbené kliknutím na obrázek šedivé hvězdičky {obrazek soubor='star-white.png' popisek='Přidat mezi oblíbené.'} vedle nadpisu.
 </p>
-<h3>Odebrání stránky z oblíbených</h3>
+<h5>Odebrání stránky z oblíbených</h5>
 <p class="kontakt">
 Stránku odebereš z oblíbených kliknutím na obrázek žluté hvězdičky {obrazek soubor='star.png' popisek='Odebrat z oblíbených.'} vedle nadpisu.
 </p>
-<h3>Oblíbené stránky jsou veřejné</h3>
+<h5>Oblíbené stránky jsou veřejné</h5>
 <p>Seznam tvých oblíbených stránek je veřejně dostupný všem návštěvníkům žonglérova slabikáře. Stejně tak i ty si můžeš prohlížet oblíbené stránky ostatních žonglérů.</p>
+{/if}
+
+<h2>Hodnocení stránek</h2>
+{if is_array($uzivatel_props.hodnoceni)}
+<ul>
+{foreach from=$uzivatel_props.hodnoceni item=stranka key=url}
+<li{if $stranka.palec==1} class="libi"{/if}{if $stranka.palec==-1} class="nelibi"{/if}><a href="{$url|escape}" title="{$stranka.titulek|escape}">{$stranka.titulek|escape}</a></li>
+{/foreach}
+</ul>
+{else}
+<p>Na tomto místě se zobrazí stránky které ohodnotíš v žonglérova slabikáři.</p>
+<h5>Palce</h5>
+<p>K hodnocení stránek se používá zelený a červený palec v dolní části stránky.</p>
+<h5>Soukromí</h5>
+<p>Seznam tebou hodnocených stránek není veřejný.</p>
 {/if}
 
 {else}

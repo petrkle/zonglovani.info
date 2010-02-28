@@ -88,3 +88,5 @@ a.edit{border-left:solid 3px #f00;}
 .obrazkovnik a img{border:solid 1px #000;}
 .u{text-decoration:underline;}
 .hvezdicka{float:right;}
+li.libi{list-style:url(img/p/palec-nahoru-s.png);}
+li.nelibi{list-style:url(img/p/palec-dolu-s.png);}

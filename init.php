@@ -54,6 +54,8 @@ define('OBRAZKY_DATA',$_SERVER['DOCUMENT_ROOT'].'/obrazky');
 
 define('SEARCH_URL','/vyhledavani/'); 
 
+define('HODNOCENI_DATA',$_SERVER['DOCUMENT_ROOT'].'/data/hodnoceni');
+
 define('TIMEOUT_REGISTRATION',8*3600); 
 define('TIMEOUT_RESET_PASSWD',8*3600); 
 define('TIMEOUT_VZKAZ',8*3600); 
@@ -63,4 +65,28 @@ define('TIPY_DATA',$_SERVER['DOCUMENT_ROOT'].'/tip/tipy.inc');
 #if (substr_count($_SERVER['HTTP_ACCEPT_ENCODING'], 'gzip')){
 #	ob_start('ob_gzhandler');
 #}
+
+$hodnoceni=get_hodnoceni_stranka($_SERVER['REQUEST_URI']);
+$smarty->assign('hodnoceni',$hodnoceni);
+function get_hodnoceni_stranka($url){
+	$url=preg_replace('/(.+)\/$/','\1/index.html',$url);
+	$navrat=array();
+	$navrat['libi']=0;
+	$navrat['nelibi']=0;
+	if(is_readable(HODNOCENI_DATA.$url)){
+		$hod=file(HODNOCENI_DATA.$url);
+		if(count($hod)>0){
+			foreach($hod as $line){
+				$line=trim($line);
+				$line=preg_split('/\*/',$line);
+				if($line[1]>0){$navrat['libi']++;}
+				if($line[1]<0){$navrat['nelibi']++;}
+			}
+		}
+	}else{
+		$navrat=false;
+	}
+	return $navrat;
+}
+
 ?>

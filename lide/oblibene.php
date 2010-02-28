@@ -29,9 +29,13 @@ if(is_logged()){
 		if(isset($_SESSION['uzivatel']['oblibene']) and is_array($_SESSION['uzivatel']['oblibene'])){
 			# dalsi oblibena stranka
 			if($action=='add'){
-				$_SESSION['uzivatel']['oblibene'][$url]=$title;
+				if(preg_match('/^\/.+/',$url)){
+					$_SESSION['uzivatel']['oblibene'][$url]=$title;
+				}
 			}else{
-				unset($_SESSION['uzivatel']['oblibene'][$url]);
+				if(isset($_SESSION['uzivatel']['oblibene'][$url])){
+					unset($_SESSION['uzivatel']['oblibene'][$url]);
+				}
 			}
 		}else{
 			# prvni oblibena stranka

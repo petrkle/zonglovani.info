@@ -1,6 +1,12 @@
 <?xml version="1.0"?>
 <log>
 <logentry
+   revision="235">
+<author>petr</author>
+<date>2010-02-27T18:04:42.733758Z</date>
+<msg>Možnost ukládat oblíbené stránky.</msg>
+</logentry>
+<logentry
    revision="234">
 <author>petr</author>
 <date>2010-02-27T10:25:31.922164Z</date>

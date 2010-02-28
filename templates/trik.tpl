@@ -23,7 +23,3 @@
 <a href="#nahore" title="Přesun na začátek stránky." class="nahoru">Nahoru&nbsp;&uarr;</a>
 {/if}
 {/if}
-{if $smarty.session.logged==true}
-<h5>Hodnocení stránky</h5>
-<p class="kontakt">Nezadáno ~ <a href="#">{obrazek soubor='palec-nahoru.png' popisek='Palec nahoru'}&nbsp;Líbí</a> ~ <a href="#">{obrazek soubor='palec-dolu.png' popisek='Palec dolu'}&nbsp;Nelíbí</a></p>
-{/if}

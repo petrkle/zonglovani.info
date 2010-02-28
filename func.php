@@ -454,6 +454,7 @@ function get_user_complete($login){
 	$navrat['dovednosti']=get_user_dovednosti($login);
 	$navrat['pusobiste']=get_user_pusobiste($login);
 	$navrat['oblibene']=get_oblibene($login);
+	$navrat['hodnoceni']=get_hodnoceni_uzivatel($login);
 	return $navrat;
 }
 
@@ -489,4 +490,25 @@ function set_oblibene($login,$oblibene){
 		}
 	}
 }
+
+function get_hodnoceni_uzivatel($login){
+	$navrat=array();
+	if(is_readable(LIDE_DATA.'/'.$login.'/hodnoceni.txt')){
+		$hod=file(LIDE_DATA.'/'.$login.'/hodnoceni.txt');
+		if(count($hod)>0){
+			foreach($hod as $line){
+				$line=trim($line);
+				$line=preg_split('/\*/',$line);
+				$navrat[$line[0]]['palec']=$line[1];
+				$navrat[$line[0]]['titulek']=$line[2];
+			}
+		}else{
+			$navrat=false;
+		}
+	}else{
+		$navrat=false;
+	}
+	return $navrat;
+}
+
 ?>

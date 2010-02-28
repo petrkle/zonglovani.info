@@ -1,5 +1,4 @@
 - novinky, přidávání, schvalování
-- přidávání triků do oblíbených, hodnocení triků
 - přihlašování na akce v kalendáři
 - obrázek k akci v kalendáři
 - předělat všechny texty do xml
@@ -23,8 +22,7 @@
 - todo list na webu s hlasováním
 - překreslit střihy na šití míčů jako obrázky + pdf
 - automatická kontrola pravopisu na všech stránkách
-- možnost hodnotit a komentovat všechny stránky (pro přihlášené uživatele)
-- přidávat si stránky mezi oblíbené
+- možnost komentovat všechny stránky (pro přihlášené uživatele)
 - u nastavení odkazů dodělat kolonku pro popis a sestavit katalog
 - screenshoty z uživatelského profilu
 - nahrát nějaké fotky na FB (screenshoty z uživatelského profilu?)
@@ -105,3 +103,5 @@ nahradit všude ^^ za šipku
 u každé fotky odkaz "Přidat vlastní fotografie" směřující na "Výzvu pro fotografy"
 otestovat videa v ie6
 možnost zadat telefonní číslo
+přidávání stránek mezi oblíbené
+hodnocení triků - palec nahoru/dolu

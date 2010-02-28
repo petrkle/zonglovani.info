@@ -51,9 +51,9 @@ flush();
 Jste zde: {drobecky trail=$trail}
 </p>
 {/if}
-{if $smarty.session.logged==true and preg_match('/\.html/',$smarty.server.REQUEST_URI)}
+{if $smarty.session.logged==true and $smarty.server.REQUEST_URI!='/'}
 <div class="hvezdicka kontakt">
-{if isset($smarty.session.uzivatel.oblibene[$smarty.server.REQUEST_URI])}<a href="http://{$smarty.server.SERVER_NAME}{$smarty.const.LIDE_URL}oblibene.php?remove&amp;url={$smarty.server.REQUEST_URI|escape}&amp;title={$titulek|escape}">{obrazek soubor='star.png' popisek='Odebrat z oblíbených stránek.'}</a>{else}<a href="http://{$smarty.server.SERVER_NAME}{$smarty.const.LIDE_URL}oblibene.php?add&amp;url={$smarty.server.REQUEST_URI|escape}&amp;title={$titulek|escape}">{obrazek soubor='star-white.png' popisek='Přidat mezi oblíbené stránky.'}</a>{/if}
+{if isset($smarty.session.uzivatel.oblibene[$smarty.server.REQUEST_URI])}<a href="{$smarty.const.LIDE_URL}oblibene.php?remove&amp;url={$smarty.server.REQUEST_URI|escape}&amp;title={$titulek|escape}">{obrazek soubor='star.png' popisek='Odebrat z oblíbených stránek.'}</a>{else}<a href="{$smarty.const.LIDE_URL}oblibene.php?add&amp;url={$smarty.server.REQUEST_URI|escape}&amp;title={$titulek|escape}">{obrazek soubor='star-white.png' popisek='Přidat mezi oblíbené stránky.'}</a>{/if}
 </div>
 {/if}
 {if isset($titulek) and isset($nadpis)}

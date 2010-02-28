@@ -10,11 +10,7 @@ Podpoř <a href="http://www.facebook.com/pages/Zongleruv-slabikar/249578053101" 
 <p>
 Přinese ti to následující výhody:
 </p>
-<ul>
-<li>Můžeš psát zprávy do <a href="{$smarty.const.DISKUSE_URL}" title="Diskuse o žonglování.">diskuse</a> o žonglování.</li>
-<li>Můžeš zadávat události do <a href="{$smarty.const.CALENDAR_URL}" title="Kalendář žonglérských akcí.">kalendáře</a>.</li>
-<li>V uživatelském účtu můžeš propagovat svoje žonglérské dovednosti, místo kde žongluješ, odkaz na svůj web, vzkaz a nahrát svojí fotografii.</li>
-</ul>
+{include file='vyhody-uctu.tpl'}
 
 <h3><a href="/jak-odkazovat.html" title="Jak vytvořit odkaz na žonglérův slabikář.">Přidej odkaz</a></h3>
 <p>

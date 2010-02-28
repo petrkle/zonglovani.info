@@ -14,34 +14,21 @@ if(isset($_GET['id'])){
 $trail = new Trail();
 $trail->addStep('Seznam žonglérů',LIDE_URL);
 
-$uzivatel_props=get_user_props($id);
+$uzivatel_props=get_user_complete($id);
 
 if($uzivatel_props){
 
-#if($uzivatel_props['login']=='pek' and $_SESSION['uzivatel']['login']!='pek'){
-#	header('HTTP/1.1 301 Moved Permanently');
-#	header('Location: /kontakt.html');
-#	exit();
-#}
-
-$dov=get_user_dovednosti($id);
-if($dov){
-	$uzivatel_props['dovednosti']=$dov;
-	$smarty->assign('dovednosti',$dovednosti);
-}
-
-$pus=get_user_pusobiste($id);
-if($pus){
-	$uzivatel_props['pusobiste']=$pus;
-	$smarty->assign('pusobiste',$pusobiste);
-}
-
-$oblibene=get_oblibene($id);
-if($oblibene){
-	$uzivatel_props['oblibene']=$oblibene;
+if($uzivatel_props['login']=='pek' and $_SESSION['uzivatel']['login']!='pek'){
+	header('HTTP/1.1 301 Moved Permanently');
+	header('Location: /kontakt.html');
+	exit();
 }
 
 if($uzivatel_props['status']=='ok'){
+
+	$smarty->assign('pusobiste',$pusobiste);
+	$smarty->assign('dovednosti',$dovednosti);
+
 	$smarty->assign('titulek',$uzivatel_props['jmeno']);
 	$smarty->assign('nadpis','none');
 	$smarty->assign('notitle',true);
