@@ -15,8 +15,16 @@
 </table>
 {/foreach}
 {/if}
-
-<p><a href="{$smarty.const.DISKUSE_URL}add.php" title="Přidat nový vzkaz." class="add">Přidat zprávu</a>.</p>
+{if $smarty.session.logged!=true}
+<p>
+<strong class="add">Přidat zprávu</strong> - pouze pro <a href="{$smarty.const.LIDE_URL}prihlaseni.php?next={$smarty.const.DISKUSE_URL}" title="Přihlášení do žonglérova slabikáře" rel="nofollow">přihlášené</a> uživatele žonglérova slabikáře.
+</p>
+<p>
+<a href="{$smarty.const.LIDE_URL}pravidla.php" title="Vytvořit uživatelský účet." class="add">Vytvořit nový účet</a>.
+</p>
+{else}
+<p><a href="{$smarty.const.DISKUSE_URL}add.php" title="Přidat nový vzkaz." class="add">Přidat zprávu</a></p>
+{/if}
 
 {if $page_numbers.total > 1}
 <p>

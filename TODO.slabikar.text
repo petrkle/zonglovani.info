@@ -22,7 +22,6 @@
 - todo list na webu s hlasováním
 - překreslit střihy na šití míčů jako obrázky + pdf
 - automatická kontrola pravopisu na všech stránkách
-- možnost komentovat všechny stránky (pro přihlášené uživatele)
 - u nastavení odkazů dodělat kolonku pro popis a sestavit katalog
 - screenshoty z uživatelského profilu
 - nahrát nějaké fotky na FB (screenshoty z uživatelského profilu?)
@@ -105,3 +104,4 @@ otestovat videa v ie6
 možnost zadat telefonní číslo
 přidávání stránek mezi oblíbené
 hodnocení triků - palec nahoru/dolu
+možnost komentovat všechny stránky (pro přihlášené uživatele) - vyřešeno odkazem na diskusi

@@ -3,7 +3,7 @@ Jste zde: <strong>Žonglování</strong>
 </p>
 <h1>Žonglování</h1>
 <p>
-Je bezvadná zábava. I ty se můžeš za pár minut <a href="/micky/jak-zacit.html" title="Základy žonglování s míčky.">naučit žonglovat</a> s míčky, kruhy nebo kužely.
+Je bezvadná zábava. Pojď se <a href="/micky/jak-zacit.html" title="Základy žonglování s míčky.">naučit žonglovat</a> s míčky, kruhy nebo kužely.
 </p>
 <div style="float: left; margin: 15px 15px 0 20px; text-align: center;">
 <a href="/micky/" title="Žonglování s míčky.">{obrazek soubor="micky.png" popisek="Míčky"}</a>

@@ -349,7 +349,12 @@ $xml = simplexml_load_file($_SERVER['DOCUMENT_ROOT'].'/ChangeLog.xml');
 			$foo['datum_hr'] = date('j. n. Y G.i',strtotime($datum[0])); 
 			$foo['time_mr']=date("c",strtotime($datum[0]));
 			$foo['popis']= (string) $verze->msg;
-			$foo['link']= (string) $verze->revprops->property;
+			$link=(string) $verze->revprops->property;
+			if(strlen($link)>0){
+				$foo['link']=$link;
+			}else{
+				$foo['link']=$_SERVER['SERVER_NAME'].'/changelog.html#'.$foo['cislo'];
+			}
 			if(strlen($foo['autor'])>0){
 				if($rss){
 					if(strlen($foo['link'])>0){

@@ -6,7 +6,7 @@
 {if is_array($uzivatel_props.oblibene)}
 <ul>
 {foreach from=$uzivatel_props.oblibene item=stranka key=url}
-<li><a href="{$url|escape}" title="{$stranka|escape}">{$stranka|escape}</a></li>
+<li class="star"><a href="{$url|escape}" title="{$stranka|escape}">{$stranka|escape}</a></li>
 {/foreach}
 </ul>
 {else}

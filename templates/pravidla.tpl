@@ -23,6 +23,7 @@ Před vytvořením účtu si, prosím, přečti následující pravidla.
 <li>Uživatelům porušující tato pravidla bude zablokován účet.</li>
 <li>Účty nepoužívané déle jak rok budou odstraněny.</li>
 <li>Tvůj účet se objeví v <a href="{$smarty.const.LIDE_URL}" title="Seznam uživatelských účtů.">seznamu uživatelů</a> žonglérova slabikáře. Budou tě moct kontaktovat další žongléři. Nebo lidé kteří shánějí žongléry a chtějí jim zaplatit za vystoupení.</li>
+<li>Účet můžeš kdykoliv zrušit.</li>
 </ul>
 
 <form action="{$SCRIPT_NAME}" method="post">

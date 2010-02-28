@@ -1,6 +1,12 @@
 <?xml version="1.0"?>
 <log>
 <logentry
+   revision="236">
+<author>petr</author>
+<date>2010-02-28T08:44:09.934920Z</date>
+<msg>Přihlášení uživatelé můžou hodnotit stránky - palec nahoru/dolu.</msg>
+</logentry>
+<logentry
    revision="235">
 <author>petr</author>
 <date>2010-02-27T18:04:42.733758Z</date>
