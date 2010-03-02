@@ -1,6 +1,12 @@
 <?xml version="1.0"?>
 <log>
 <logentry
+   revision="238">
+<author>petr</author>
+<date>2010-03-02T20:43:10.221823Z</date>
+<msg>Soubor crossdomain.xml pro Adobe Flash.</msg>
+</logentry>
+<logentry
    revision="237">
 <author>petr</author>
 <date>2010-02-28T19:50:15.986370Z</date>

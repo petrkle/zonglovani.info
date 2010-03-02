@@ -12,15 +12,11 @@ $tipy=get_tipy();
 
 if($rss){
 	header('Content-Type: application/rss+xml');
-	$smarty->assign('tipy',$tipy);
+	$smarty->assign('tipy',array_reverse($tipy));
 	$smarty->display('tip.rss.tpl');
 	exit();
 }else{
-	$titulek='Tip týdne';
-	$trail = new Trail();
-	$trail->addStep($titulek);
-	$smarty->assign_by_ref('trail', $trail->path);
-	$smarty->assign('titulek',$titulek);
+	$smarty->assign('titulek','Tip týdne');
 	$smarty->display('hlavicka.tpl');
 	$smarty->assign('tipy',array_reverse($tipy));
 	$smarty->display('tip.list.tpl');
