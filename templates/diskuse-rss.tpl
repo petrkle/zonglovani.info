@@ -6,7 +6,7 @@
     <description>Diskuse o žonglování</description>
     <items>
       <rdf:Seq>
-				{foreach from=$zpravy item=zprava name=smycka1}
+				{foreach from=$items item=zprava name=smycka1}
 				{if $smarty.foreach.smycka1.index < 10}
         <rdf:li resource="http://{$smarty.server.SERVER_NAME}{$smarty.const.DISKUSE_URL}stranka{$page_numbers.total}.html#{$zprava.cas}" />
 				{/if}
@@ -14,7 +14,7 @@
       </rdf:Seq>
     </items>
   </channel>
-{foreach from=$zpravy item=zprava name=smycka2}
+{foreach from=$items item=zprava name=smycka2}
 	{if $smarty.foreach.smycka2.index < 10}
   <item rdf:about="http://{$smarty.server.SERVER_NAME}{$smarty.const.DISKUSE_URL}stranka{$page_numbers.total}.html#{$zprava.cas}">
     <title>{$zprava.text|truncate:30:"...":true|escape}</title>

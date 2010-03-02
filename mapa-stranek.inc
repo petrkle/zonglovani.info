@@ -5,6 +5,7 @@
 	<li><a href="/changelog.html">Změny v žonglérově slabikáři</a></li>
 	<li><a href="/cirkusove-discipliny.html">Cirkusové disciplíny</a></li>
 	<li><a href="/druhy-zonglovani.html">Druhy žonglování</a></li>
+	<li><a href="/exkurze.html">Náhled do žonglérova slabikáře</a></li>
 	<li><a href="/faq.html">Často kladené otázky</a></li>
 	<li><a href="/jak-odkazovat.html">Jak odkazovat na žonglérův slabikář</a></li>
 	<li><a href="/kontakt.html">Kontakt</a></li>
@@ -343,6 +344,9 @@
 			
 			</li>
 			<li><a name="ulita-20100207"></a><a href="/obrazky/ulita-20100207/">Ulita 7. 2. 2010 - obrázky žonglování</a>
+			
+			</li>
+			<li><a name="ulita-20100221"></a><a href="/obrazky/ulita-20100221/">Ulita 21. 2. 2010 - obrázky žonglování</a>
 			
 			</li>
 			<li><a name="zidovske-pece-20090404"></a><a href="/obrazky/zidovske-pece-20090404/">Židovské pece 4. 4. 2009 - obrázky žonglování</a>

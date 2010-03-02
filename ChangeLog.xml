@@ -1,6 +1,16 @@
 <?xml version="1.0"?>
 <log>
 <logentry
+   revision="237">
+<author>petr</author>
+<date>2010-02-28T19:50:15.986370Z</date>
+<msg>Náhled do žonglérova slabikáře</msg>
+<revprops>
+<property
+   name="svn:link">/exkurze.html</property>
+</revprops>
+</logentry>
+<logentry
    revision="236">
 <author>petr</author>
 <date>2010-02-28T08:44:09.934920Z</date>
