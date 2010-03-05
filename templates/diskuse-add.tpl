@@ -17,7 +17,7 @@
 <th>Čas</th>
 <td>{$cas_hr|escape}</td>
 </tr>
-<tr><td colspan="6">{$vzkaz|wordwrap:50:"\n":true|escape|nl2br}</td></tr>
+<tr><td colspan="6">{$vzkaz_html}</td></tr>
 </table>
 {/if}
 
@@ -25,14 +25,16 @@
 
 <fieldset class="siroke">
 <legend>Zpráva</legend>
-<textarea name="vzkaz" accesskey="k" tabindex="3" rows="5" cols="50">{$vzkaz|escape}</textarea>
+<script type="text/javascript" src="/ed.js"></script>  
+<script type="text/javascript">edToolbar('vzkaz');</script>
+<textarea name="vzkaz" id="vzkaz" accesskey="k" tabindex="3" rows="5" cols="50">{$vzkaz|escape}</textarea>
 </fieldset>
 
 {if $nahled}
 <fieldset>
 <legend>Kon<span class="u">t</span>rola spamu</legend>
 <ul>
-<li><label for="antispam" class="kratkypopis">{$antispam_otazka}:</label><input type="text" name="antispam" id="antispam" accesskey="t" tabindex="4" class="textbox" /><a class="info" href="#">?<span class="tooltip">Odpověď na jednoduchou otázku slouží k odlišení lidí od robotů kteří posílají spam. Odpověď napiš číslicí.</span></a></li>
+<li><label for="antispam" class="kratkypopis">{$antispam_otazka}:</label><input type="text" name="antispam" id="antispam" accesskey="t" tabindex="4" class="textbox" /><a class="info" href="#">?<span class="tooltip">Odpověď na jednoduchou otázku slouží k odlišení lidí od robotů, kteří posílají spam. Odpověď napiš číslicí.</span></a></li>
 </ul>
 </fieldset>
 {/if}
@@ -55,3 +57,4 @@
 <li>Pro nalezení odpovědí zkus nejprve <a href="{$smarty.const.SEARCH_URL}" title="Prohledávání žonglérova slabikáře.">vyhledávání</a>.</li>
 <li>Zadávej každý dotaz pouze jednou.</li>
 </ul>
+

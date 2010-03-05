@@ -2,7 +2,7 @@
 require('init.php');
 require('func.php');
 
-$titulek='Proč a jak vznikl žognlérův slabikář';
+$titulek='Proč a jak vznikl žonglérův slabikář';
 
 $smarty->assign('titulek',$titulek);
 

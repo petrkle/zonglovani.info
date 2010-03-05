@@ -74,6 +74,7 @@ a.edit{border-left:solid 3px #f00;}
 .diskuse{margin-left:20px;border-left:1px solid #ccc;border-top:1px solid #ccc;line-height:1em;width:520px;margin-bottom:20px;}
 .diskuse th{border-right:1px solid #ccc;border-bottom:1px solid #ccc;font-size:.7em;background:#eee;padding:2px 5px;}
 .diskuse td{border-right:1px solid #ccc;border-bottom:1px solid #ccc;padding:2px 5px;}
+.diskuse td img{vertical-align: bottom;}
 .tabulka{margin-left:20px;border-left:1px solid #ccc;border-top:1px solid #ccc;line-height:1em;width:420px;margin-bottom:20px;}
 .tabulka th{border-right:1px solid #ccc;border-bottom:1px solid #ccc;background:#eee;padding:4px 10px;text-align:center;}
 .tabulka td{border-right:1px solid #ccc;border-bottom:1px solid #ccc;padding:4px 10px;text-align:right;}

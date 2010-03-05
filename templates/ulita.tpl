@@ -56,11 +56,15 @@ E-mail: {$mail|mailobfuscate}
 <th>Vstupné [Kč]</th>
 </tr>
 {foreach from=$jaro item=datum}
+{if $datum.datum=='4. 4.'}
+<tr><td class="skrtanec">Neděle</td><td><span class="skrtanec">{$datum.datum}</span></td><td class="skrtanec">15 - 19</td><td class="skrtanec">40</td></tr>
+{else}
 <tr><td>Neděle</td><td><a href="{$smarty.const.CALENDAR_URL}{$datum.url}" title="Ulita v kalendáři.">{$datum.datum}</a></td><td>15 - 19</td><td>40</td></tr>
+{/if}
 {/foreach}
 </table>
 {else}
-<p>Další žonglování v ulitě bude na podzim.</p>
+<p>Další žonglování v Ulitě bude na podzim.</p>
 {/if}
 <h3><a name="plakat">Plakát</a></h3>
 <p><a href="/img/u/ulita.big.png" title="Velký obrázek plakátu." onclick="pageTracker._trackPageview('/ulita/ulita.big.png');">{obrazek soubor='ulita.nahled.png' popisek='Plakát žonglování v Ulitě'}</a>
@@ -72,3 +76,10 @@ E-mail: {$mail|mailobfuscate}
 <p><a href="http://www.radio1.cz" title="Radio 1" onclick="pageTracker._trackPageview('/goto/radio1.cz');">{obrazek soubor='radio1.png' popisek='Radio 1'}</a>O žonglování v Ulitě můžeš slyšet i v <a href="http://www.radio1.cz/kulturniservis/" title="Kulturní servis Rádia 1" onclick="pageTracker._trackPageview('/goto/radio1.cz/kulturniservis');" class="external">kulturním servisu</a> Radia 1.</p>
 
 <p style="text-align: right; font-size: 0.5em;"><a href="/ulita/en.html">English version</a></p>
+{literal}
+<style>
+.skrtanec {
+	text-decoration: line-through;
+}
+</style>
+{/literal}

@@ -11,7 +11,7 @@
 <th>Čas</th>
 <td>{$zprava.cas_hr|escape}</td>
 </tr>
-<tr><td colspan="6">{$zprava.text|wordwrap:50:"\n":true|escape|nl2br}</td></tr>
+<tr><td colspan="6">{$zprava.text}</td></tr>
 </table>
 {/foreach}
 {/if}

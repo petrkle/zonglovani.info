@@ -1,6 +1,8 @@
 <?php
 require('../init.php');
 require('../func.php');
+require($lib.'/nbbc.php');
+require('bbcode.init.php');
 
 if(is_logged()){
 
@@ -11,10 +13,12 @@ $cas=time();
 	if(isset($_POST['vzkaz'])){
 		$vzkaz=trim($_POST['vzkaz']);
 		$smarty->assign('vzkaz',$vzkaz);
+		$smarty->assign('vzkaz_html',$bbcode->Parse($vzkaz));
 		$_SESSION['vzkaz']=$vzkaz;
 	}elseif(isset($_SESSION['vzkaz'])){
 		$vzkaz=$_SESSION['vzkaz'];
 		$smarty->assign('vzkaz',$vzkaz);
+		$smarty->assign('vzkaz_html',$bbcode->Parse($vzkaz));
 	}else{
 		$vzkaz='';
 	}

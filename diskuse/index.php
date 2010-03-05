@@ -2,8 +2,10 @@
 require('../init.php');
 require('../func.php');
 require($lib.'/Pager/Pager.php');
+require($lib.'/nbbc.php');
+require('bbcode.init.php');
 
-$zpravy=get_diskuse_zpravy();
+$zpravy=get_diskuse_zpravy($bbcode);
 
 $trail = new Trail();
 $trail->addStep('Diskuse',DISKUSE_URL);
@@ -55,5 +57,25 @@ if(isset($_GET['rss'])){
 	$smarty->display('diskuse.tpl');
 	$smarty->display('paticka.tpl');
 }
+
+function get_diskuse_zpravy($bbcode){
+	$dir = opendir(DISKUSE_DATA);
+	$navrat = array();
+	    if ($dir) {
+			   while (($filename = readdir($dir)) !== false) {
+						if (!ereg('^\.',$filename) and is_file(DISKUSE_DATA.'/'.$filename)) {
+							$foo=preg_split('/\./',$filename);
+							$foo=preg_split('/-/',$foo[0]);
+							$cas=$foo[0];
+							$autor=$foo[1];
+				      array_push($navrat,array('cas'=>$cas,'cas_mr'=>date('c',$cas),'cas_hr'=>date('G.i',$cas),'datum_hr'=>date('j. n. Y',$cas),'autor'=>$autor,'text'=>$bbcode->Parse(trim(file_get_contents(DISKUSE_DATA.'/'.$filename)))));
+					 }
+			   }
+		   }
+	closedir($dir);
+	usort($navrat, 'sort_by_time');
+ return $navrat;
+}
+
 
 ?>

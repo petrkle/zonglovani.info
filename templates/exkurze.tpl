@@ -41,7 +41,7 @@ Možnost propagace pro tvůj žonglérský web.
 <h3>Telefonní číslo</h3>
 <p>
 <a href="/img/e/exkurze-2010-2-28-19-44-49.png">{obrazek soubor='exkurze-nahled-2010-2-28-19-44-49.jpg' popisek=''}</a>
-Můžeš zveřejnit i své telefonní číslo. Vhodné zejména pro žongléry kteří nabízejí výuku žonglování nebo veřejné vystupování.
+Můžeš zveřejnit i své telefonní číslo. Vhodné zejména pro žongléry, kteří nabízejí výuku žonglování nebo veřejné vystupování.
 </p>
 
 <h3>Soukromí</h3>
@@ -83,5 +83,5 @@ Formulář pro úpravu už zadané akce.
 <h3>Diskuse</h3>
 <p>
 <a href="/img/e/exkurze-2010-2-28-19-49-47.png">{obrazek soubor='exkurze-nahled-2010-2-28-19-49-47.jpg' popisek=''}</a>
-Máš dotazy ohledně žonglování? Nebo nápady nebo připomínky k žonglérově slabikáři. Můžeš je napsat do diskuse.
+Máš dotazy ohledně žonglování? Nebo nápady nebo připomínky k žonglérovu slabikáři? Můžeš je napsat do diskuse.
 </p>

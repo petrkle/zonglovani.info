@@ -1,6 +1,12 @@
 <?xml version="1.0"?>
 <log>
 <logentry
+   revision="239">
+<author>petr</author>
+<date>2010-03-02T20:57:55.581099Z</date>
+<msg>Oprava RSS pro tip týdne.</msg>
+</logentry>
+<logentry
    revision="238">
 <author>petr</author>
 <date>2010-03-02T20:43:10.221823Z</date>

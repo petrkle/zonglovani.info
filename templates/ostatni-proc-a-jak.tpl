@@ -1,5 +1,5 @@
 <p>
-Když jsem začínal žonglovat (zima 2004), hodně mi pomohli informace z internetu. Bylo snadné najít <a href="/odkazy.html" title="Další stránky o žonglování.">dobré stránky o žonglování</a>, ale žádná nebyla česky!
+Když jsem začínal žonglovat (zima 2004), hodně mi pomohly informace z internetu. Bylo snadné najít <a href="/odkazy.html" title="Další stránky o žonglování.">dobré stránky o žonglování</a>, ale žádná nebyla česky!
 </p>
 
 <p>Proto jsem začal zapisovat triky s míčky, kruhy a kužely. Navíc nakreslení obrázků a popsání triku mi pomáhá při učení. Tak postupně vznikl žonglérův slabikář.</p>

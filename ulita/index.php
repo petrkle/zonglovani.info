@@ -35,6 +35,7 @@ array_push($jaro,array('datum'=>'2010/2/21','url'=>'udalost-20100221-20100221-pe
 array_push($jaro,array('datum'=>'2010/3/7','url'=>'udalost-20100307-20100307-pek-1253740665.html'));
 array_push($jaro,array('datum'=>'2010/3/21','url'=>'udalost-20100321-20100321-pek-1253740740.html'));
 array_push($jaro,array('datum'=>'2010/4/4','url'=>'udalost-20100404-20100404-pek-1253740811.html'));
+array_push($jaro,array('datum'=>'2010/4/11','url'=>'udalost-20100411-20100411-pek-1253740811.html'));
 
 
 
