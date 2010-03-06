@@ -20,7 +20,7 @@
 <li><a href="http://www.gnu.org/software/tar" onclick="pageTracker._trackPageview('/goto/gnu.org/software/tar');" class="external">tar</a> - zálohy</li>
 <li><a href="http://www.bzip.org" onclick="pageTracker._trackPageview('/goto/bzip.org');" class="external">bzip2</a> - zálohy</li>
 <li><a href="http://www.gnupg.org" onclick="pageTracker._trackPageview('/goto/gnupg.org');" class="external">gpg</a> - šifrování záloh</li>
-<li><a href="http://www.htmlhelp.com/tools/validator/offline/index.html.en" title="Offline HTMLHelp.com Validator" onclick="pageTracker._trackPageview('/goto/htmlhelp.com/tools/validator/offline/index.html.en" title="Offline HTMLHelp.com Validator');" class="external">validate</a> - kontrola syntaxe html</li>
+<li><a href="http://www.htmlhelp.com/tools/validator/offline/index.html.en" onclick="pageTracker._trackPageview('/goto/htmlhelp.com/tools/validator/offline/index.html.en" title="Offline HTMLHelp.com Validator');" class="external">validate</a> - kontrola syntaxe html</li>
 <li><a href="http://www.icojoy.com/articles/26" onclick="pageTracker._trackPageview('/goto/icojoy.com/articles/26');" class="external">34aL volume 3.2 SE</a> - ikonky</li>
 <li><a href="http://www.gnu.org/software/bash" onclick="pageTracker._trackPageview('/goto/gnu.org/software/bash');" class="external">bash</a> - automatizace</li>
 <li><a href="http://www.gnu.org/software/sed" onclick="pageTracker._trackPageview('/goto/gnu.org/software/sed');" class="external">sed</a> - automatizace</li>

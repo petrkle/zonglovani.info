@@ -168,8 +168,8 @@ function get_future_data(){
 	while (false!==($file = readdir($adr))) {
 	  if (substr($file,-4) == ".cal")
 		{
-			$konec=substr($file,9,4)."-".substr($file,13,2)."-".substr($file,15,2);
-			if(date("U",strtotime($konec))>time()){
+			$konec=substr($file,9,4).'-'.substr($file,13,2).'-'.substr($file,15,2);
+			if(date('U',strtotime($konec))>time()){
 				array_push($vypis,get_event_data($file));
 			}
 		};
@@ -183,35 +183,35 @@ function get_future_data(){
 function event_validation($udalost,$now){
 	$chyby=array();
 
-	if(strlen($udalost["title"])<3){
-		array_push($chyby,"Název není zadán, nebo je příliš krátký.");
+	if(strlen($udalost['title'])<3){
+		array_push($chyby,'Název není zadán, nebo je příliš krátký.');
 	}
 
-	if(strlen($udalost["title"])>100){
-		array_push($chyby,"Název je příliš dlouhý.");
+	if(strlen($udalost['title'])>100){
+		array_push($chyby,'Název je příliš dlouhý.');
 	}
 	
-	if(strlen($udalost["desc"])<3){
-		array_push($chyby,"Popis není zadán, nebo je příliš krátký.");
+	if(strlen($udalost['desc'])<3){
+		array_push($chyby,'Popis není zadán, nebo je příliš krátký.');
 	}
 
-	if(strlen($udalost["desc"])>3000){
-		array_push($chyby,"Popis je příliš dlouhý.");
+	if(strlen($udalost['desc'])>3000){
+		array_push($chyby,'Popis je příliš dlouhý.');
 	}
 
-	if(strlen($udalost["misto"])<2){
-		array_push($chyby,"Místo není zadané, nebo je příliš krátké.");
+	if(strlen($udalost['misto'])<2){
+		array_push($chyby,'Místo není zadané, nebo je příliš krátké.');
 	}
 
-	if(strlen($udalost["misto"])>200200){
-		array_push($chyby,"Místo je příliš dlouhé.");
+	if(strlen($udalost['misto'])>200200){
+		array_push($chyby,'Místo je příliš dlouhé.');
 	}
 
-	if(!ereg("^[0-9]{4}-[0-9]{2}-[0-9]{2} [0-9]{2}:[0-9]{2}$",$udalost["zacatek"])){
-		array_push($chyby,"Špatný formát začátku události.");
+	if(!ereg('^[0-9]{4}-[0-9]{2}-[0-9]{2} [0-9]{2}:[0-9]{2}$',$udalost['zacatek'])){
+		array_push($chyby,'Špatný formát začátku události.');
 		$zacatek_time=false;
 	}else{
-			$zacatek_time=strtotime($udalost["zacatek"]);
+			$zacatek_time=strtotime($udalost['zacatek']);
 
 			if($zacatek_time>$now+3600*24*365){
 				array_push($chyby,"Začátek události za víc jak jeden rok.");
@@ -226,32 +226,32 @@ function event_validation($udalost,$now){
 		array_push($chyby,'Špatný formát odkazu na mapu.');
 	}
 
-	if(!ereg("^[0-9]{4}-[0-9]{2}-[0-9]{2} [0-9]{2}:[0-9]{2}$",$udalost["konec"])){
-		array_push($chyby,"Špatný formát konce události.");
+	if(!ereg('^[0-9]{4}-[0-9]{2}-[0-9]{2} [0-9]{2}:[0-9]{2}$',$udalost['konec'])){
+		array_push($chyby,'Špatný formát konce události.');
 		$konec_time=false;
 	}else{
-		$konec_time=strtotime($udalost["konec"]);
+		$konec_time=strtotime($udalost['konec']);
 		
 		if($konec_time<$now){
-				array_push($chyby,"Konec události je v minulosti.");
+				array_push($chyby,'Konec události je v minulosti.');
 			}
 
 			if($konec_time>$now+3600*24*365){
-				array_push($chyby,"Konec události za víc jak jeden rok.");
+				array_push($chyby,'Konec události za víc jak jeden rok.');
 			}
 	}
 
 	if($zacatek_time and $konec_time){
 		if($zacatek_time==$konec_time){
-				array_push($chyby,"Událost musí mít nějakou délku.");
+				array_push($chyby,'Událost musí mít nějakou délku.');
 		}
 	
 		if($zacatek_time>$konec_time){
-				array_push($chyby,"Událost končí dřív než začíná.");
+				array_push($chyby,'Událost končí dřív než začíná.');
 		}
 
 		if(($konec_time-$zacatek_time)>3600*24*30){
-				array_push($chyby,"Událost je příliš dlouhá.");
+				array_push($chyby,'Událost je příliš dlouhá.');
 		}
 	}
 
@@ -260,7 +260,7 @@ function event_validation($udalost,$now){
 
 function get_udalost_post(){
 	$udalost=array();
-	$promene=array("id","title","desc","misto","zacatek","konec","url","mapa");
+	$promene=array('id','title','desc','misto','zacatek','konec','url','mapa');
 	foreach($promene as $foo){
 		if(isset($_POST[$foo])){
 			$udalost[$foo]=trim($_POST[$foo]);
@@ -276,7 +276,7 @@ function get_deleted_events(){
   if(is_dir(CALENDAR_DELETED) and opendir(CALENDAR_DELETED)){
 	$adr=opendir(CALENDAR_DELETED);
 	while (false!==($file = readdir($adr))) {
-	  if (substr($file,-4) == ".cal" and ereg(".*-".$_SESSION["uzivatel"]["login"]."-.*\.cal$",$file)){
+	  if (substr($file,-4) == '.cal' and ereg('.*-'.$_SESSION['uzivatel']['login'].'-.*\.cal$',$file)){
 			array_push($vypis,get_event_data($file,CALENDAR_DELETED));
 		};
 	};

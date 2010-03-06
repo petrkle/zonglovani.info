@@ -6,22 +6,19 @@
 - přehled aktivity uživatelů
 - sitemap.xml - generovat a aktualizovat
 - na úvodní stránce velkým číslem kolik má žonglérův slabikář uživatelů, tlačítko pro založení účtu, vyhledání workshopů, kalendář (s obrázkem)
-- všechny standardní klávesové zkratky, http://www.ippi.cz/standard-klavesovych-zkratek/
 - rozepsat možnosti diskuse, bazar
-- personas pro firefox
-- při detekci firefoxu nabízet výše uvedené
 - tapety na plochu
 - přihlášeným uživatelům nabízet formulář pro zaslání vzkazu (mě)
 - doplnit odkazy "Kam dál" ala yahů - u triků, videí, galerií
 - udělat od jednotlivých obrázků žonglování odkazy na příslušné triky
 - asynchroní verge GA - http://code.google.com/intl/cs/apis/analytics/docs/tracking/asyncTracking.html
-- funguje 404?
 - téma a rozšíření pro chromium
 - přidělat reklamy na žonglérův slabikář na petrkle.wz.cz
 - todo list na webu s hlasováním
 - překreslit střihy na šití míčů jako obrázky + pdf
 - automatická kontrola pravopisu na všech stránkách
 - u nastavení odkazů dodělat kolonku pro popis a sestavit katalog
+- funguje 404?
 
 rozšířit návod na výrobu míčků
 kutálení kuželek - i pro nejmenší děti
@@ -111,3 +108,4 @@ kontrola RSS z diskuse
 webslices z typu týdne
 noscript u editoru v diskusi
 seznam použitých programů
+personas pro firefox

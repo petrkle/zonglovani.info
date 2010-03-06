@@ -68,6 +68,11 @@ Celosvětová diskusní skupina o žonglování.
 Mýty a omyly o žonglování.
 </p>
 
+<h3><a href="/doplnky-prohlizece.html" title="Žonglérské doplňky do prohlížeče.">Doplňky do prohlížeče</a></h3>
+<p>
+Žonglérské doplňky do prohlížeče internetu.
+</p>
+
 <h3><a href="/proc-a-jak.html" title="Proč a jak vznikl žonglérův slabikář.">Proč a jak vznikl žonglérův slabikář</a></h3>
 <p>
 Trocha historie.

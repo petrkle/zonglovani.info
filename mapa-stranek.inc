@@ -4,6 +4,7 @@
 	<li><a href="/aczslovnicek.html">Anglicko-český žonglérský slovníček</a></li>
 	<li><a href="/changelog.html">Změny v žonglérově slabikáři</a></li>
 	<li><a href="/cirkusove-discipliny.html">Cirkusové disciplíny</a></li>
+	<li><a href="/doplnky-prohlizece.html">Doplňky do prohlížeče</a></li>
 	<li><a href="/druhy-zonglovani.html">Druhy žonglování</a></li>
 	<li><a href="/exkurze.html">Náhled do žonglérova slabikáře</a></li>
 	<li><a href="/faq.html">Často kladené otázky</a></li>

@@ -76,10 +76,3 @@ E-mail: {$mail|mailobfuscate}
 <p><a href="http://www.radio1.cz" title="Radio 1" onclick="pageTracker._trackPageview('/goto/radio1.cz');">{obrazek soubor='radio1.png' popisek='Radio 1'}</a>O žonglování v Ulitě můžeš slyšet i v <a href="http://www.radio1.cz/kulturniservis/" title="Kulturní servis Rádia 1" onclick="pageTracker._trackPageview('/goto/radio1.cz/kulturniservis');" class="external">kulturním servisu</a> Radia 1.</p>
 
 <p style="text-align: right; font-size: 0.5em;"><a href="/ulita/en.html">English version</a></p>
-{literal}
-<style>
-.skrtanec {
-	text-decoration: line-through;
-}
-</style>
-{/literal}

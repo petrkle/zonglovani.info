@@ -92,10 +92,11 @@ $smarty->assign('nadpis',$titulek);
 
 $smarty->assign('keywords',make_keywords($titulek).', '.$monthName);
 
-
+if(is_logged()){
 $smazane=get_deleted_events();
 if(count($smazane)>0){
 	$smarty->assign('smazane',$smazane);
+}
 }
 
 $smarty->assign_by_ref('trail', $trail->path);

@@ -1,6 +1,16 @@
 <?xml version="1.0"?>
 <log>
 <logentry
+   revision="242">
+<author>petr</author>
+<date>2010-03-06T20:16:29.831728Z</date>
+<msg>Seznam použitého software</msg>
+<revprops>
+<property
+   name="svn:link">/toolbox.html</property>
+</revprops>
+</logentry>
+<logentry
    revision="241">
 <author>petr</author>
 <date>2010-03-06T18:02:52.321256Z</date>
