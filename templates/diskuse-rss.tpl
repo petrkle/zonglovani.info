@@ -19,7 +19,7 @@
   <item rdf:about="http://{$smarty.server.SERVER_NAME}{$smarty.const.DISKUSE_URL}stranka{$page_numbers.total}.html#{$zprava.cas}">
     <title>{$zprava.text|truncate:30:"...":true|escape}</title>
     <link>http://{$smarty.server.SERVER_NAME}{$smarty.const.DISKUSE_URL}stranka{$page_numbers.total}.html#{$zprava.cas}</link>
-    <description>{$zprava.text|wordwrap:50:"\n":true|escape}</description>
+    <description>{$zprava.text|escape}</description>
     <dc:creator>{$zprava.autor|escape}</dc:creator>
     <dc:date>{$zprava.cas_mr|escape}</dc:date>
   </item>

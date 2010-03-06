@@ -8,7 +8,6 @@
 - na úvodní stránce velkým číslem kolik má žonglérův slabikář uživatelů, tlačítko pro založení účtu, vyhledání workshopů, kalendář (s obrázkem)
 - všechny standardní klávesové zkratky, http://www.ippi.cz/standard-klavesovych-zkratek/
 - rozepsat možnosti diskuse, bazar
-- v diskusi nahrazovat zavináč za obrázek
 - personas pro firefox
 - při detekci firefoxu nabízet výše uvedené
 - tapety na plochu
@@ -23,7 +22,7 @@
 - překreslit střihy na šití míčů jako obrázky + pdf
 - automatická kontrola pravopisu na všech stránkách
 - u nastavení odkazů dodělat kolonku pro popis a sestavit katalog
-- nahrát nějaké fotky na FB (screenshoty z uživatelského profilu?)
+- webslices z typu týdne
 
 rozšířit návod na výrobu míčků
 kutálení kuželek - i pro nejmenší děti
@@ -105,3 +104,8 @@ přidávání stránek mezi oblíbené
 hodnocení triků - palec nahoru/dolu
 možnost komentovat všechny stránky (pro přihlášené uživatele) - vyřešeno odkazem na diskusi
 screenshoty z uživatelského profilu
+nahrát nějaké fotky na FB (screenshoty z uživatelského profilu?)
+podpora BBcode v diskusi, nahrazovat zavináč za obrázek
+opravit linky v seznamu změn
+make-upload.sh
+kontrola RSS z diskuse

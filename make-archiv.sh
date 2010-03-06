@@ -1,6 +1,6 @@
 #!/bin/bash
 
-grep -in '{debug}' templates/*.tpl && ( echo "ZAPOMENUTÝ DEBUG!!!" ; exit )
+grep -in '{debug}' templates/*.tpl && ( echo "ZAPOMENUTÝ DEBUG!!!" ; exit 3)
 
 ARCHIV=`date "+%Y-%m-%d"`.tar.gz
 

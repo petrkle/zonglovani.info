@@ -55,7 +55,7 @@ function MyDoURL($bbcode, $action, $name, $default, $params, $content) {
 		if(preg_match('/^\//',$url) or preg_match('/^http:\/\/zongl(|ovani)\.info.*/',$url)){
 			$pridavky='';
 		}else{
-			$pridavky=' class="external" rel="nofollow"';
+			$pridavky=' class="external" rel="nofollow" onclick="pageTracker._trackPageview(\'/goto/'.htmlspecialchars(preg_replace('/^http:\/\//','',$url)).'\');"';
 		}
 	return '<a href="'. $prefix . htmlspecialchars($url) . '"' . $pridavky . '>' . $content . '</a>';
 	}else{

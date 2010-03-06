@@ -353,7 +353,9 @@ $xml = simplexml_load_file($_SERVER['DOCUMENT_ROOT'].'/ChangeLog.xml');
 			if(strlen($link)>0){
 				$foo['link']=$link;
 			}else{
-				$foo['link']=$_SERVER['SERVER_NAME'].'/changelog.html#'.$foo['cislo'];
+				if($rss){
+					$foo['link']='/changelog.html#'.$foo['cislo'];
+				}
 			}
 			if(strlen($foo['autor'])>0){
 				if($rss){

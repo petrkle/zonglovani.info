@@ -5,6 +5,7 @@ require('func.php');
 define('MAGPIE_INPUT_ENCODING','UTF-8');
 define('MAGPIE_OUTPUT_ENCODING','UTF-8');
 define('MAGPIE_DETECT_ENCODING',false);
+define('MAGPIE_CACHE_DIR',$_SERVER['DOCUMENT_ROOT'].'/tmp/cache.rss');
 require('lib/rss_fetch.inc');
 
 

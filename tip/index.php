@@ -16,7 +16,7 @@ if($rss){
 	$smarty->display('tip.rss.tpl');
 	exit();
 }else{
-	$smarty->assign('titulek','Tip týdne');
+	$smarty->assign('titulek','Žonglérský tip týdne');
 	$smarty->display('hlavicka.tpl');
 	$smarty->assign('tipy',array_reverse($tipy));
 	$smarty->display('tip.list.tpl');
