@@ -22,7 +22,6 @@
 - překreslit střihy na šití míčů jako obrázky + pdf
 - automatická kontrola pravopisu na všech stránkách
 - u nastavení odkazů dodělat kolonku pro popis a sestavit katalog
-- webslices z typu týdne
 
 rozšířit návod na výrobu míčků
 kutálení kuželek - i pro nejmenší děti
@@ -109,3 +108,6 @@ podpora BBcode v diskusi, nahrazovat zavináč za obrázek
 opravit linky v seznamu změn
 make-upload.sh
 kontrola RSS z diskuse
+webslices z typu týdne
+noscript u editoru v diskusi
+seznam použitých programů

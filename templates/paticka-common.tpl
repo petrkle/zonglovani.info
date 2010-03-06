@@ -12,7 +12,6 @@
 </div>
 
 <div class="spacer"></div>
-
 {if $smarty.server.SERVER_NAME=='zonglovani.info' and $smarty.session.uzivatel.login!='pek'}
 <!-- start -->
 
@@ -25,7 +24,7 @@ var pageTracker = _gat._getTracker("UA-1140497-3");
 pageTracker._setDomainName("none");
 pageTracker._initData();
 {if $nenalezeno_404}
-pageTracker._trackPageview("/404/" + document.location.pathname + document.location.search + "&from=" + document.referrer);
+pageTracker._trackPageview("/404" + document.location.pathname + document.location.search + "&amp;from=" + document.referrer);
 {else}
 pageTracker._trackPageview();
 {/if}

@@ -27,6 +27,7 @@
 <legend>Zpráva</legend>
 <script type="text/javascript" src="/ed.js"></script>  
 <script type="text/javascript">edToolbar('vzkaz');</script>
+<noscript>Možnosti formátování textu: [b]tučný[/b], [i]kurzíva[/i], [url=http://neco.cz]odkaz[/url], [email]tvoje@adresa.cz[/email]</noscript>
 <textarea name="vzkaz" id="vzkaz" accesskey="k" tabindex="3" rows="5" cols="50">{$vzkaz|escape}</textarea>
 </fieldset>
 

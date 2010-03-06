@@ -16,7 +16,7 @@
 	<li><a href="/ostatni.html">Další informace o žonglování</a></li>
 	<li><a href="/pf-2010.html">PF 2010</a></li>
 	<li><a href="/podporte-zongleruv-slabikar.html">Podpořte žonglérův slabikář</a></li>
-	<li><a href="/proc-a-jak.html">Proč a jak vznikl žognlérův slabikář</a></li>
+	<li><a href="/proc-a-jak.html">Proč a jak vznikl žonglérův slabikář</a></li>
 	<li><a href="/rec-juggling.html">rec.juggling</a></li>
 	<li><a href="/rss.html">RSS kanály</a></li>
 	<li><a href="/siteswap.html">Siteswap</a></li>
@@ -354,7 +354,7 @@
 			</li>
 		</ul>
 		</li>
-		<li><a name="tip"></a><a href="/tip/">Tip týdne</a>
+		<li><a name="tip"></a><a href="/tip/">Žonglérský tip týdne</a>
 		
 		</li>
 		<li><a name="ulita"></a><a href="/ulita/">Žonglování v Ulitě</a>

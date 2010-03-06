@@ -1,5 +1,6 @@
 #!/bin/bash
 
+svn up
 TMP=/home/petr/tmp/upload
 ARCHIV=`./make-archiv.sh | awk '{print $2}'`
 

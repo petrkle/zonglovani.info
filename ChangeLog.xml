@@ -1,6 +1,12 @@
 <?xml version="1.0"?>
 <log>
 <logentry
+   revision="241">
+<author>petr</author>
+<date>2010-03-06T18:02:52.321256Z</date>
+<msg>Webslices pro tip týdne.</msg>
+</logentry>
+<logentry
    revision="240">
 <author>petr</author>
 <date>2010-03-05T21:24:28.000351Z</date>
