@@ -1,6 +1,16 @@
 <?xml version="1.0"?>
 <log>
 <logentry
+   revision="243">
+<author>petr</author>
+<date>2010-03-06T21:22:08.616485Z</date>
+<msg>Žonglérské doplňky do prohlížeče.</msg>
+<revprops>
+<property
+   name="svn:link">/doplnky-prohlizece.html</property>
+</revprops>
+</logentry>
+<logentry
    revision="242">
 <author>petr</author>
 <date>2010-03-06T20:16:29.831728Z</date>

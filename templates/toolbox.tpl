@@ -16,6 +16,7 @@
 <li><a href="http://pear.php.net/package/Calendar" onclick="pageTracker._trackPageview('/goto/pear.php.net/package/Calendar');" class="external">Calendar</a> - kalendář</li>
 <li><a href="http://www.softcomplex.com/products/tigra_calendar" onclick="pageTracker._trackPageview('/goto/softcomplex.com/products/tigra_calendar');" class="external">Tigra Calendar</a> - kalendář</li>
 <li><a href="http://www.danielnaber.de/tree" onclick="pageTracker._trackPageview('/goto/danielnaber.de/tree');" class="external">tree.pl</a> - mapa stránek</li>
+<li><a href="http://sphider.eu" onclick="pageTracker._trackPageview('/goto/sphider.eu');" class="external">sphider</a> - fulltextové vyhledávání</li>
 <li><a href="http://lftp.yar.ru" onclick="pageTracker._trackPageview('/goto/lftp.yar.ru');" class="external">lftp</a> - ftp klient</li>
 <li><a href="http://www.gnu.org/software/tar" onclick="pageTracker._trackPageview('/goto/gnu.org/software/tar');" class="external">tar</a> - zálohy</li>
 <li><a href="http://www.bzip.org" onclick="pageTracker._trackPageview('/goto/bzip.org');" class="external">bzip2</a> - zálohy</li>

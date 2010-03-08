@@ -11,7 +11,7 @@
 - přihlášeným uživatelům nabízet formulář pro zaslání vzkazu (mě)
 - doplnit odkazy "Kam dál" ala yahů - u triků, videí, galerií
 - udělat od jednotlivých obrázků žonglování odkazy na příslušné triky
-- asynchroní verge GA - http://code.google.com/intl/cs/apis/analytics/docs/tracking/asyncTracking.html
+- asynchronní verze GA - http://code.google.com/intl/cs/apis/analytics/docs/tracking/asyncTracking.html
 - téma a rozšíření pro chromium
 - přidělat reklamy na žonglérův slabikář na petrkle.wz.cz
 - todo list na webu s hlasováním
@@ -109,3 +109,4 @@ webslices z typu týdne
 noscript u editoru v diskusi
 seznam použitých programů
 personas pro firefox
+oprava vyznačování akcí do měsíčního kalendáře

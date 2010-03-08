@@ -44,16 +44,11 @@ class MonthPayload_Decorator extends Calendar_Decorator {
     }
     function setSelection($events) {
         foreach ($this->calendar->children as $i=> $child) { 
-            $stamp1 = $this->calendar->cE->dateToStamp(
-                $child->thisYear(), $child->thisMonth(), $child->thisDay());
-            $stamp2 = $this->calendar->cE->dateToStamp(
-                $child->thisYear(), $child->thisMonth(), $child->nextDay());
+            $stamp1 = $this->calendar->cE->dateToStamp($child->thisYear(), $child->thisMonth(), $child->thisDay());
+            $stamp2 = $this->calendar->cE->dateToStamp($child->thisYear(), $child->thisMonth(), $child->nextDay());
             foreach ($events as $event) {
-                if (($stamp1 >= $event['start'] && $stamp1 < $event['end']) ||
-                    ($stamp2 > $event['start'] && $stamp2 < $event['end']) ||
-                    ($stamp1 <= $event['start'] && $stamp2 > $event['end'])
-                /*if (($stamp1 >= $event['start'] && $stamp1 < $event['end']) || 
-                    ($stamp1 <= $event['start'] && $stamp2 > $event['end'])*/ ) {
+                if (($event['start'] > $stamp1 and $event['start'] < $stamp2) or ($event['end'] > $stamp1 and $event['end'] < $stamp2) or ($stamp1 > $event['start'] and $stamp2 < $event['end'] and $stamp2 > $event['start']) and $stamp1< $event['end']) {
+												#print date('Y-m-d H.i',$stamp1).'<br>';
                         $this->calendar->children[$i]->addEntry($event);
                         $this->calendar->children[$i]->setSelected();
                 }
@@ -66,9 +61,9 @@ function get_event_data($id,$storage=CALENDAR_DATA){
 			global $mesice;
 			$udalost=array();
 			$navrat=false;
-	if(is_readable($storage."/".$id)){
+	if(is_readable($storage.'/'.$id)){
 			$file=basename($id);
-			$filename=explode("-",$file);
+			$filename=explode('-',$file);
 
 			$udalost['zacatek']=substr($filename[0],0,4).'-'.substr($filename[0],4,2).'-'.substr($filename[0],6,2);
 			$udalost['konec']=substr($filename[1],0,4).'-'.substr($filename[1],4,2).'-'.substr($filename[1],6,2);
@@ -112,17 +107,17 @@ return $navrat;
 }
 
 function write_event_data($udalost){
-	$udalost["time_start"]=date("H:i",strtotime($udalost["zacatek"]));
-	$udalost["time_end"]=date("H:i",strtotime($udalost["konec"]));
-	$filename=$udalost["id"].".cal";
-	unset($udalost["id"]);
-	unset($udalost["zacatek"]);
-	unset($udalost["konec"]);
-	unset($udalost["vlozil"]);
-	unset($udalost["insert"]);
-	$udalost["update"]=date("Ymd H:i",time());
+	$udalost['time_start']=date('H:i',strtotime($udalost['zacatek']));
+	$udalost['time_end']=date('H:i',strtotime($udalost['konec']));
+	$filename=$udalost['id'].'.cal';
+	unset($udalost['id']);
+	unset($udalost['zacatek']);
+	unset($udalost['konec']);
+	unset($udalost['vlozil']);
+	unset($udalost['insert']);
+	$udalost['update']=date('Ymd H:i',time());
 
-		$foo=fopen(CALENDAR_DATA."/".$filename,"w");
+		$foo=fopen(CALENDAR_DATA.'/'.$filename,'w');
 		foreach($udalost as $klic => $hodnota){
 			fwrite($foo,"$klic:$hodnota\n");
 		}
@@ -134,7 +129,7 @@ function get_cal_data($rok,$mesic){
   if(is_dir(CALENDAR_DATA) and opendir(CALENDAR_DATA)){
 	$adr=opendir(CALENDAR_DATA);
 	while (false!==($file = readdir($adr))) {
-	  if (substr($file,-4) == ".cal" and ereg(".*$rok$mesic.*",$file))
+	  if (substr($file,-4) == '.cal' and ereg(".*$rok$mesic.*",$file))
 		{
 			array_push($vypis,get_event_data($file));
 		};
