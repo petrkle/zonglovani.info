@@ -86,33 +86,33 @@ if(!eregi("^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$
 }
 
 if(strlen($login)<3){
-	array_push($chyby,"Login není zadaný, nebo je příliš krátký.");
+	array_push($chyby,'Login není zadaný, nebo je příliš krátký.');
 }else{
 	if(is_zs_account($login)){
-		array_push($chyby,"Zadaný login už používá jiný uživatel.");
+		array_push($chyby,'Zadaný login už používá jiný uživatel.');
 	}
 }
 
 
-if(eregi("[^-a-z0-9]",$login)){
-	array_push($chyby,"Login obsahuje nepovolené znaky.");
+if(eregi('[^-a-z0-9]',$login)){
+	array_push($chyby,'Login obsahuje nepovolené znaky.');
 }
 
-$reserved_accounts=array("pek","admin","webmaster","root","robot","petr","kletecka","petr-kletecka","petrkletecka","administrator","system","test","tmp");
+$reserved_accounts=array('sendmail','pek','admin','webmaster','root','robot','petr','kletecka','petr-kletecka','petrkletecka','administrator','system','test','tmp');
 if(in_array($login,$reserved_accounts)){
-	array_push($chyby,"Tento login nelze vytvořit.");
+	array_push($chyby,'Tento login nelze vytvořit.');
 }
 
 if(strlen($heslo)<5){
-	array_push($chyby,"Heslo není zadané, nebo je příliš krátké.");
+	array_push($chyby,'Heslo není zadané, nebo je příliš krátké.');
 }
 
 if(eregi(".*$login.*",$heslo) or eregi(".*$jmeno.*",$heslo) or eregi(".*$email.*",$heslo)){
-	array_push($chyby,"Zadané heslo je příliš slabé.");
+	array_push($chyby,'Zadané heslo je příliš slabé.');
 }
 
 if($heslo!=$heslo2){
-	array_push($chyby,"Zadaná hesla se neshodují.");
+	array_push($chyby,'Zadaná hesla se neshodují.');
 }
 
 

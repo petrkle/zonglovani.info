@@ -328,8 +328,10 @@ $trail->addStep('Nastavení',LIDE_URL.'nastaveni/');
 					fwrite($foo,$_SESSION['uzivatel']['login']);
 					fclose($foo);
 
-				$subject = "=?utf-8?Q?".preg_replace("/=\r\n/","",quoted_printable_encode("Zrušení účtu"))."?=";
+				$subject = '=?utf-8?Q?'.preg_replace('/=\r\n/','',quoted_printable_encode('Zrušení účtu')).'?=';
 
+				$splmail=preg_split('/@/',$_SESSION['uzivatel']['email']);
+				
 				$headers = 'Return-Path: robot@zonglovani.info' . "\r\n" .
 				'From: robot@zonglovani.info' . "\r\n" .
 				'Reply-To: robot@zonglovani.info' . "\r\n" .
@@ -340,9 +342,9 @@ $message = 'Ahoj,
 
 pro zrušení účtu v žonglérově slabikáři klikni na tento odkaz:
 
-http://'.$_SERVER['SERVER_NAME'].LIDE_URL.'zruseni.php?m='.$_SESSION['uzivatel']['email'].'&k='.$key.'
+http://'.$_SERVER['SERVER_NAME'].LIDE_URL.'e/'.$splmail[1].'/'.$splmail[0].'/'.$key.'.html
 
-Odkaz platí do: '.date("j. n. Y G.i",(time()+TIMEOUT_REGISTRATION)).'
+Odkaz platí do: '.date('j. n. Y G.i',(time()+TIMEOUT_REGISTRATION)).'
 
 -- 
 Petr Kletečka

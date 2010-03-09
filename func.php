@@ -156,7 +156,7 @@ function is_zs_email($email){
 	$ucty=get_loginy();
 	$navrat=false;
 	foreach($ucty as $ucet){
-		if(is_file(LIDE_DATA."/$ucet/$email.mail")){
+		if(is_file(LIDE_DATA.'/'.$ucet.'/'.$email.'.mail')){
 			$navrat=true;
 		}
 	}
@@ -167,7 +167,7 @@ function email2login($email){
 	$ucty=get_loginy();
 	$navrat=false;
 	foreach($ucty as $ucet){
-		if(is_file(LIDE_DATA."/$ucet/$email.mail")){
+		if(is_file(LIDE_DATA.'/'.$ucet.'/'.$email.'.mail')){
 			$navrat=$ucet;
 		}
 	}
@@ -179,7 +179,7 @@ function is_zs_jmeno($jmeno){
 	$ucty=get_loginy();
 	$navrat=false;
 	foreach($ucty as $ucet){
-		if(trim(array_pop(file(LIDE_DATA."/$ucet/jmeno.txt")))==$jmeno){
+		if(trim(array_pop(file(LIDE_DATA.'/'.$ucet.'/jmeno.txt')))==$jmeno){
 			$navrat=true;
 		}
 	}

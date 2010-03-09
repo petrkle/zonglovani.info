@@ -55,41 +55,42 @@ if(isset($_POST['odeslat'])){
 
 	if(count($chyby)==0){
 		$tmp=LIDE_TMP."/".$_SESSION["reg_email"];
-		$key=abs(crc32($_SESSION["reg_email"].time().$_SESSION["reg_login"]));
+		$key=abs(crc32($_SESSION['reg_email'].time().$_SESSION['reg_login']));
 		if(!is_dir($tmp)){
 			mkdir($tmp);
 		}
 
-		$foo=fopen("$tmp/activation.key","w");
+		$foo=fopen($tmp.'/activation.key','w');
 		fwrite($foo,$key);
 		fclose($foo);
 
-		$foo=fopen("$tmp/passwd.sha1","w");
-		fwrite($foo,sha1($_SESSION["reg_heslo"].$_SESSION["reg_login"]));
+		$foo=fopen($tmp.'/passwd.sha1','w');
+		fwrite($foo,sha1($_SESSION['reg_heslo'].$_SESSION['reg_login']));
 		fclose($foo);
 
-		$foo=fopen("$tmp/jmeno.txt","w");
-		fwrite($foo,$_SESSION["reg_jmeno"]);
+		$foo=fopen($tmp.'/jmeno.txt','w');
+		fwrite($foo,$_SESSION['reg_jmeno']);
 		fclose($foo);
 
-		$foo=fopen("$tmp/login.txt","w");
-		fwrite($foo,$_SESSION["reg_login"]);
+		$foo=fopen($tmp.'/login.txt','w');
+		fwrite($foo,$_SESSION['reg_login']);
 		fclose($foo);
 
-		$foo=fopen("$tmp/soukromi.txt","w");
-		fwrite($foo,$_SESSION["reg_soukromi"]);
+		$foo=fopen($tmp.'/soukromi.txt','w');
+		fwrite($foo,$_SESSION['reg_soukromi']);
 		fclose($foo);
 
-		$foo=fopen("$tmp/vzkaz.txt","w");
-		fwrite($foo,$_SESSION["reg_vzkaz"]);
+		$foo=fopen($tmp.'/vzkaz.txt','w');
+		fwrite($foo,$_SESSION['reg_vzkaz']);
 		fclose($foo);
 
-		$foo=fopen("$tmp/created.time","w");
+		$foo=fopen($tmp.'/created.time','w');
 		fwrite($foo,time());
 		fclose($foo);
 
-		$to = $_SESSION["reg_email"];
-		$subject = "=?utf-8?Q?".preg_replace("/=\r\n/","",quoted_printable_encode("Aktivace účtu"))."?=";
+		$to = $_SESSION['reg_email'];
+		$subject = '=?utf-8?Q?'.preg_replace('/=\r\n/','',quoted_printable_encode('Aktivace účtu')).'?=';
+		$splmail=preg_split('/@/',$_SESSION['reg_email']);
 
 		$headers = 'Return-Path: robot@zonglovani.info' . "\r\n" .
     'From: robot@zonglovani.info' . "\r\n" .
@@ -101,9 +102,9 @@ $message = 'Ahoj,
 
 pro aktivaci účtu v žonglérově slabikáři klikni na tento odkaz:
 
-http://'.$_SERVER["SERVER_NAME"].LIDE_URL.'overeni-emailu.php?m='.$_SESSION["reg_email"].'&k='.$key.'
+http://'.$_SERVER['SERVER_NAME'].LIDE_URL.'o/'.$splmail[1].'/'.$splmail[0].'/'.$key.'.html
 
-Odkaz platí do: '.date("j. n. Y G.i",(time()+TIMEOUT_REGISTRATION)).'
+Odkaz platí do: '.date('j. n. Y G.i',(time()+TIMEOUT_REGISTRATION)).'
 
 -- 
 Petr Kletečka

@@ -2,9 +2,16 @@
 require('../init.php');
 require('../func.php');
 
-$smarty->assign("titulek","Odeslání vzkazu");
-if(isset($_GET["m"])){
-	$messageid=$_GET["m"];
+$titulek='Odeslání vzkazu';
+$smarty->assign('titulek',$titulek);
+
+$trail = new Trail();
+$trail->addStep('Seznam žonglérů',LIDE_URL);
+$trail->addStep($titulek);
+$smarty->assign_by_ref('trail', $trail->path);
+
+if(isset($_GET['m'])){
+	$messageid=$_GET['m'];
 	$foo=LIDE_VZKAZY."/$messageid";
 
 	if(is_dir($foo) and trim(array_pop(file("$foo/created.time")))>(time()-TIMEOUT_VZKAZ)){

@@ -2,56 +2,62 @@
 require('../init.php');
 require('../func.php');
 
-$smarty->assign("titulek","Vzkaz pro uživatele");
+$titulek='Vzkaz pro uživatele';
+$smarty->assign('titulek',$titulek);
 $chyby=array();
 
+$trail = new Trail();
+$trail->addStep('Seznam žonglérů',LIDE_URL);
+$trail->addStep($titulek);
+$smarty->assign_by_ref('trail', $trail->path);
 
-if(isset($_POST["komu"])){
-	$komu=strtolower(trim($_POST["komu"]));
-	if(isset($_POST["odeslat"])){
 
-		if(isset($_POST["antispam"])){
-			$odpoved=strtolower(trim($_POST["antispam"]));
+if(isset($_POST['komu'])){
+	$komu=strtolower(trim($_POST['komu']));
+	if(isset($_POST['odeslat'])){
+
+		if(isset($_POST['antispam'])){
+			$odpoved=strtolower(trim($_POST['antispam']));
 		}else{
-			$odpoved="";
+			$odpoved='';
 		}
 
-		if(isset($_POST["email"])){
-			$email=trim($_POST["email"]);
+		if(isset($_POST['email'])){
+			$email=trim($_POST['email']);
 		}else{
-			$email="";
+			$email='';
 		}
 
-		if(isset($_SESSION["uzivatel"]["email"])){
-			$email=$_SESSION["uzivatel"]["email"];
+		if(isset($_SESSION['uzivatel']['email'])){
+			$email=$_SESSION['uzivatel']['email'];
 		}
 
-		if(isset($_POST["vzkaz"])){
-			$vzkaz=trim($_POST["vzkaz"]);
+		if(isset($_POST['vzkaz'])){
+			$vzkaz=trim($_POST['vzkaz']);
 		}else{
-			$vzkaz="";
+			$vzkaz='';
 		}
 
 		if(!is_zs_account($komu)){
-			array_push($chyby,"Účet nebyl nalezen.");
+			array_push($chyby,'Účet nebyl nalezen.');
 		}else{
 			$komu=get_user_props($komu);
 		}
 		
-		if($odpoved!=$_SESSION["antispam_odpoved"]){
-			array_push($chyby,"Špatná odpověď na kontrolní otázku.");
+		if($odpoved!=$_SESSION['antispam_odpoved']){
+			array_push($chyby,'Špatná odpověď na kontrolní otázku.');
 			$antispam=get_antispam();
-			$_SESSION["antispam_otazka"]=$antispam[0];
-			$_SESSION["antispam_odpoved"]=$antispam[1];
-			$smarty->assign("antispam_otazka",$_SESSION["antispam_otazka"]);
+			$_SESSION['antispam_otazka']=$antispam[0];
+			$_SESSION['antispam_odpoved']=$antispam[1];
+			$smarty->assign('antispam_otazka',$_SESSION['antispam_otazka']);
 		}
 
 		if(strlen($vzkaz)>1024){
-			array_push($chyby,"Vzkaz je příliš dlouhý.");
+			array_push($chyby,'Vzkaz je příliš dlouhý. Maximální délka je 1024 znaků.');
 		}
 
 		if(strlen($vzkaz)<3){
-			array_push($chyby,"Vzkaz je příliš krátký.");
+			array_push($chyby,'Vzkaz je příliš krátký. Minimální délka tři znaky.');
 		}
 		
 		if(!eregi("^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$",$email)){
@@ -60,10 +66,10 @@ if(isset($_POST["komu"])){
 
 		if(count($chyby)==0){
 
-		if(isset($_SESSION["uzivatel"]["email"])){
+		if(isset($_SESSION['uzivatel']['email'])){
 			#přihlášení uživatelé mohou hned odeslat vzkaz
 			
-		$to = $komu["email"];
+		$to = $komu['email'];
 		$subject = "=?utf-8?Q?".preg_replace("/=\r\n/","",quoted_printable_encode("Vzkaz z žonglérova slabikáře"))."?=";
 
 		$headers = 'Return-Path: '.$email . "\r\n" .
@@ -93,9 +99,9 @@ http://zonglovani.info
     'Precedence: bulk';
 $message = 'Ahoj,
 
-pro odeslání vzkazu pro "'.$komu["login"].'" klikni na tento odkaz:
+pro odeslání vzkazu pro "'.$komu['login'].'" klikni na tento odkaz:
 
-http://'.$_SERVER["SERVER_NAME"].LIDE_URL.'sendmail.php?m='.$messageid.'
+http://'.$_SERVER['SERVER_NAME'].LIDE_URL.'sendmail/'.$messageid.'.html
 
 Odkaz platí do: '.date("j. n. Y G.i",(time()+TIMEOUT_VZKAZ)).'
 
@@ -134,20 +140,20 @@ http://zonglovani.info/kontakt.html
 			$vysledek=mail($email, $subject, quoted_printable_encode($message), $headers);
 
 			if($vysledek){
-				if(isset($_SESSION["uzivatel"]["email"])){
-					header("Location: ".LIDE_URL."vzkaz-odeslan.php?status=ok");	
+				if(isset($_SESSION['uzivatel']['email'])){
+					header('Location: '.LIDE_URL.'vzkaz-odeslan.php?status=ok');	
 				}else{
-					header("Location: ".LIDE_URL."vzkaz-odeslan.php?status=verify");	
+					header('Location: '.LIDE_URL.'vzkaz-odeslan.php?status=verify');	
 				}
 			}else{
-				header("Location: ".LIDE_URL."vzkaz-odeslan.php?status=err");	
+				header('Location: '.LIDE_URL.'vzkaz-odeslan.php?status=err');	
 			}
 
 		}else{
-		$smarty->assign("komu",$komu);
-		$smarty->assign("email",$email);
-		$smarty->assign("vzkaz",$vzkaz);
-		$smarty->assign("chyby",$chyby);
+		$smarty->assign('komu',$komu);
+		$smarty->assign('email',$email);
+		$smarty->assign('vzkaz',$vzkaz);
+		$smarty->assign('chyby',$chyby);
 		$smarty->display('hlavicka.tpl');
 		$smarty->display('vzkaz.tpl');
 		$smarty->display('paticka.tpl');
@@ -155,17 +161,17 @@ http://zonglovani.info/kontakt.html
 	
 	}else{
 		$antispam=get_antispam();
-		$_SESSION["antispam_otazka"]=$antispam[0];
-		$_SESSION["antispam_odpoved"]=$antispam[1];
-		$smarty->assign("antispam_otazka",$_SESSION["antispam_otazka"]);
-		$smarty->assign("komu",$komu);
+		$_SESSION['antispam_otazka']=$antispam[0];
+		$_SESSION['antispam_odpoved']=$antispam[1];
+		$smarty->assign('antispam_otazka',$_SESSION['antispam_otazka']);
+		$smarty->assign('komu',$komu);
 		$smarty->display('hlavicka.tpl');
 		$smarty->display('vzkaz.tpl');
 		$smarty->display('paticka.tpl');
 	}
 
 }else{
-	header("Location: ".LIDE_URL);
+	header('Location: '.LIDE_URL);
 	exit();
 }
 
