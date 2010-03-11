@@ -40,7 +40,7 @@ if(isset($_GET['m']) and isset($_GET['k'])){
 			rmdir($tmp);
 
 
-		$subject = '=?utf-8?Q?'.preg_replace('/=\r\n/','',quoted_printable_encode('Vítej v žonglérově slabikáři')).'?=';
+		$subject = '=?utf-8?Q?'.imap_8bit('Vítej v žonglérově slabikáři').'?=';
 
 		$headers = 'Return-Path: robot@zonglovani.info' . "\r\n" .
     'From: robot@zonglovani.info' . "\r\n" .
@@ -72,7 +72,7 @@ admin@zonglovani.info
 http://zonglovani.info/kontakt.html
 ';
 
-		$vysledek=mail($mail, $subject, quoted_printable_encode($message), $headers);
+		$vysledek=mail($mail, $subject, imap_8bit($message), $headers);
 
 			$smarty->assign('chyby',array('Účet byl úspěšně aktivován.','Můžeš se <a href="'.LIDE_URL.'nastaveni/" title="Přihlášení">přihlásit</a>.'));
 			$smarty->display('hlavicka.tpl');

@@ -6,7 +6,7 @@ $smarty->assign('titulek','Změna emailu');
 if(isset($_GET['m']) and isset($_GET['k'])){
 	$mail=$_GET['m'];
 	$key=$_GET['k'];
-	if(is_file(LIDE_TMP."/$mail/change.key") and trim(array_pop(file(LIDE_TMP."/$mail/change.key")))==$key and trim(array_pop(file(LIDE_TMP."/$mail/change.time")))>(time()-TIMEOUT_REGISTRATION)){
+	if(is_file(LIDE_TMP.'/'.$mail.'/change.key') and trim(array_pop(file(LIDE_TMP.'/'.$mail.'/change.key')))==$key and trim(array_pop(file(LIDE_TMP.'/'.$mail.'/change.time')))>(time()-TIMEOUT_REGISTRATION)){
 
 		$tmp=LIDE_TMP."/$mail";
 		$login=trim(array_pop(file(LIDE_TMP."/$mail/login.txt")));

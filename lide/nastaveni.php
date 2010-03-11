@@ -328,7 +328,7 @@ $trail->addStep('Nastavení',LIDE_URL.'nastaveni/');
 					fwrite($foo,$_SESSION['uzivatel']['login']);
 					fclose($foo);
 
-				$subject = '=?utf-8?Q?'.preg_replace('/=\r\n/','',quoted_printable_encode('Zrušení účtu')).'?=';
+				$subject = '=?utf-8?Q?'.imap_8bit('Zrušení účtu').'?=';
 
 				$splmail=preg_split('/@/',$_SESSION['uzivatel']['email']);
 				
@@ -353,7 +353,7 @@ admin@zonglovani.info
 http://zonglovani.info/kontakt.html
 ';
 
-		$vysledek=mail($_SESSION['uzivatel']['email'], $subject, quoted_printable_encode($message), $headers);
+		$vysledek=mail($_SESSION['uzivatel']['email'], $subject, imap_8bit($message), $headers);
 		if($vysledek){
 			header('Location: '.LIDE_URL.'nastaveni/?result=send');
 		}else{
@@ -435,7 +435,7 @@ http://zonglovani.info/kontakt.html
 					fwrite($foo,$_SESSION['uzivatel']['email']);
 					fclose($foo);
 
-				$subject = "=?utf-8?Q?".preg_replace("/=\r\n/","",quoted_printable_encode('Změna emailu'))."?=";
+				$subject = '=?utf-8?Q?'.imap_8bit('Změna emailu').'?=';
 
 				$headers = 'Return-Path: robot@zonglovani.info' . "\r\n" .
 				'From: robot@zonglovani.info' . "\r\n" .
@@ -458,7 +458,7 @@ admin@zonglovani.info
 http://zonglovani.info/kontakt.html
 ';
 
-		$vysledek=mail($email, $subject, quoted_printable_encode($message), $headers);
+		$vysledek=mail($email, $subject, imap_8bit($message), $headers);
 		if($vysledek){
 			header('Location: '.LIDE_URL.'nastaveni/?result=send');
 		}else{

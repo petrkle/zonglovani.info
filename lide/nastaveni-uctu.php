@@ -89,7 +89,7 @@ if(isset($_POST['odeslat'])){
 		fclose($foo);
 
 		$to = $_SESSION['reg_email'];
-		$subject = '=?utf-8?Q?'.preg_replace('/=\r\n/','',quoted_printable_encode('Aktivace účtu')).'?=';
+		$subject = '=?utf-8?Q?'.imap_8bit('Aktivace účtu').'?=';
 		$splmail=preg_split('/@/',$_SESSION['reg_email']);
 
 		$headers = 'Return-Path: robot@zonglovani.info' . "\r\n" .
@@ -113,7 +113,7 @@ admin@zonglovani.info
 http://zonglovani.info/kontakt.html
 ';
 
-		$vysledek=mail($to, $subject, quoted_printable_encode($message), $headers);
+		$vysledek=mail($to, $subject, imap_8bit($message), $headers);
 		if($vysledek){
 			header('Location: '.LIDE_URL.'aktivace.php');	
 		}else{

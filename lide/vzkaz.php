@@ -60,8 +60,8 @@ if(isset($_POST['komu'])){
 			array_push($chyby,'Vzkaz je příliš krátký. Minimální délka tři znaky.');
 		}
 		
-		if(!eregi("^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$",$email)){
-			array_push($chyby,"Neplatný e-mail.");
+		if(!eregi('^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$',$email)){
+			array_push($chyby,'Neplatný e-mail.');
 		}
 
 		if(count($chyby)==0){
@@ -70,7 +70,7 @@ if(isset($_POST['komu'])){
 			#přihlášení uživatelé mohou hned odeslat vzkaz
 			
 		$to = $komu['email'];
-		$subject = "=?utf-8?Q?".preg_replace("/=\r\n/","",quoted_printable_encode("Vzkaz z žonglérova slabikáře"))."?=";
+		$subject = '=?utf-8?Q?'.imap_8bit('Vzkaz z žonglérova slabikáře').'?=';
 
 		$headers = 'Return-Path: '.$email . "\r\n" .
     'From: '.$email . "\r\n" .
@@ -87,9 +87,9 @@ http://zonglovani.info
 		}else{
 			# jinak se na mail odesilatele posle zprava z odkazem k odeslani vzkazu
 
-		$messageid=abs(crc32("$email$komu".time()));
+		$messageid=abs(crc32($email.$komu.time()));
 
-		$subject = "=?utf-8?Q?".preg_replace("/=\r\n/","",quoted_printable_encode("Vzkaz z žonglérova slabikáře"))."?=";
+		$subject = '=?utf-8?Q?'.imap_8bit('Vzkaz z žonglérova slabikáře').'?=';
 
 		$headers = 'Return-Path: robot@zonglovani.info' . "\r\n" .
     'From: robot@zonglovani.info' . "\r\n" .
@@ -112,32 +112,32 @@ admin@zonglovani.info
 http://zonglovani.info/kontakt.html
 ';
 			
-		$tmp=LIDE_VZKAZY."/".$messageid;
+		$tmp=LIDE_VZKAZY.'/'.$messageid;
 
 		if(!is_dir($tmp)){
 			mkdir($tmp);
 		}
 
-		$foo=fopen("$tmp/odesilatel.txt","w");
+		$foo=fopen($tmp.'/odesilatel.txt','w');
 		fwrite($foo,$email);
 		fclose($foo);
 
-		$foo=fopen("$tmp/prijemce.txt","w");
-		fwrite($foo,$komu["email"]);
+		$foo=fopen($tmp.'/prijemce.txt','w');
+		fwrite($foo,$komu['email']);
 		fclose($foo);
 
 
-		$foo=fopen("$tmp/vzkaz.txt","w");
+		$foo=fopen($tmp.'/vzkaz.txt','w');
 		fwrite($foo,$vzkaz);
 		fclose($foo);
 
-		$foo=fopen("$tmp/created.time","w");
+		$foo=fopen($tmp.'/created.time','w');
 		fwrite($foo,time());
 		fclose($foo);
 
 		}
 			
-			$vysledek=mail($email, $subject, quoted_printable_encode($message), $headers);
+			$vysledek=mail($email, $subject, imap_8bit($message), $headers);
 
 			if($vysledek){
 				if(isset($_SESSION['uzivatel']['email'])){

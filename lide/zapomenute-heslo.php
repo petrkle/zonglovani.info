@@ -83,7 +83,7 @@ if(!eregi('^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$
 		fclose($foo);
 
 		$to = $uzivatel['email'];
-		$subject = '=?utf-8?Q?'.preg_replace('/=\r\n/','',quoted_printable_encode('Obnovení hesla')).'?=';
+		$subject = '=?utf-8?Q?'.imap_8bit('Obnovení hesla').'?=';
 		$splmail=preg_split('/@/',$uzivatel['email']);
 
 		$headers = 'Return-Path: robot@zonglovani.info' . "\r\n" .
@@ -96,9 +96,9 @@ $message = 'Ahoj,
 
 pro obnovení hesla v žonglérově slabikáři klikni na tento odkaz:
 
-http://'.$_SERVER["SERVER_NAME"].LIDE_URL.'z/'.$splmail[1].'/'.$splmail[0].'/'.$key.'.html
+http://'.$_SERVER['SERVER_NAME'].LIDE_URL.'z/'.$splmail[1].'/'.$splmail[0].'/'.$key.'.html
 
-Odkaz platí do: '.date("j. n. Y G.i",(time()+TIMEOUT_RESET_PASSWD)).'
+Odkaz platí do: '.date('j. n. Y G.i',(time()+TIMEOUT_RESET_PASSWD)).'
 
 -- 
 Petr Kletečka
@@ -107,32 +107,32 @@ admin@zonglovani.info
 http://zonglovani.info/kontakt.html
 ';
 
-		$vysledek=mail($to, $subject, quoted_printable_encode($message), $headers);
+		$vysledek=mail($to, $subject, imap_8bit($message), $headers);
 		if($vysledek){
 			session_destroy();
-			header("Location: ".LIDE_URL.basename(__FILE__)."?send=ok");	
+			header('Location: '.LIDE_URL.basename(__FILE__).'?send=ok');	
 			exit();
 		}else{
 			session_destroy();
-			header("Location: ".LIDE_URL.basename(__FILE__)."?send=err");	
+			header('Location: '.LIDE_URL.basename(__FILE__).'?send=err');	
 			exit();
 		}
 
 	}else{
 		$antispam=get_antispam();
-		$_SESSION["antispam_otazka"]=$antispam[0];
-		$_SESSION["antispam_odpoved"]=$antispam[1];
-		$smarty->assign("antispam_otazka",$_SESSION["antispam_otazka"]);
-		$smarty->assign("chyby",$chyby);
+		$_SESSION['antispam_otazka']=$antispam[0];
+		$_SESSION['antispam_odpoved']=$antispam[1];
+		$smarty->assign('antispam_otazka',$_SESSION['antispam_otazka']);
+		$smarty->assign('chyby',$chyby);
 		$smarty->display('hlavicka.tpl');
 		$smarty->display('zapomenute-heslo.tpl');
 		$smarty->display('paticka.tpl');
 	}
 }else{
 	$antispam=get_antispam();
-	$_SESSION["antispam_otazka"]=$antispam[0];
-	$_SESSION["antispam_odpoved"]=$antispam[1];
-	$smarty->assign("antispam_otazka",$_SESSION["antispam_otazka"]);
+	$_SESSION['antispam_otazka']=$antispam[0];
+	$_SESSION['antispam_odpoved']=$antispam[1];
+	$smarty->assign('antispam_otazka',$_SESSION['antispam_otazka']);
 	$smarty->display('hlavicka.tpl');
 	$smarty->display('zapomenute-heslo.tpl');
 	$smarty->display('paticka.tpl');
