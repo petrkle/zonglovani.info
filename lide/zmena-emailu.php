@@ -2,15 +2,22 @@
 require('../init.php');
 require('../func.php');
 
-$smarty->assign('titulek','Změna emailu');
+$titulek='Změna emailu';
+
+$smarty->assign('titulek',$titulek);
+$trail = new Trail();
+$trail->addStep('Seznam žonglérů',LIDE_URL);
+$trail->addStep($titulek);
+$smarty->assign_by_ref('trail', $trail->path);
+
 if(isset($_GET['m']) and isset($_GET['k'])){
 	$mail=$_GET['m'];
 	$key=$_GET['k'];
 	if(is_file(LIDE_TMP.'/'.$mail.'/change.key') and trim(array_pop(file(LIDE_TMP.'/'.$mail.'/change.key')))==$key and trim(array_pop(file(LIDE_TMP.'/'.$mail.'/change.time')))>(time()-TIMEOUT_REGISTRATION)){
 
-		$tmp=LIDE_TMP."/$mail";
-		$login=trim(array_pop(file(LIDE_TMP."/$mail/login.txt")));
-		$oldmail=trim(array_pop(file(LIDE_TMP."/$mail/oldmail.txt")));
+		$tmp=LIDE_TMP.'/'.$mail;
+		$login=trim(array_pop(file(LIDE_TMP.'/'.$mail.'/login.txt')));
+		$oldmail=trim(array_pop(file(LIDE_TMP.'/'.$mail.'/oldmail.txt')));
 		$usr=LIDE_DATA.'/'.$login;
 
 		if(is_dir($usr)){

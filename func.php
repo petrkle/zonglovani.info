@@ -285,7 +285,7 @@ function get_user_props($login){
 				if ($dir) {
 					 while (($filename = readdir($dir)) !== false) {
 							if (ereg('\.mail$',$filename)) {
-								$navrat["email"]=eregi_replace('\.mail$','',$filename);
+								$navrat['email']=eregi_replace('\.mail$','',$filename);
 						 }
 					 }
 				 }

@@ -1,6 +1,18 @@
 <?xml version="1.0"?>
 <log>
 <logentry
+   revision="247">
+<author>petr</author>
+<date>2010-03-11T20:02:29.581689Z</date>
+<msg>Emaily v html + text. Odstranění funkce imap_8bit.</msg>
+</logentry>
+<logentry
+   revision="246">
+<author>petr</author>
+<date>2010-03-11T17:25:51.349994Z</date>
+<msg>Kódování emailů funkcí imap_8bit.</msg>
+</logentry>
+<logentry
    revision="245">
 <author>petr</author>
 <date>2010-03-09T21:09:36.419619Z</date>
