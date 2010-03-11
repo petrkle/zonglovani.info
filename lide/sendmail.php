@@ -19,13 +19,14 @@ if(isset($_GET['m'])){
 		$prijemce=trim(array_pop(file($foo.'/prijemce.txt')));
 		$vzkaz=file_get_contents($foo.'/vzkaz.txt');
 
-		$subject = '=?utf-8?Q?'.imap_8bit('Vzkaz z žonglérova slabikáře').'?=';
+		$subject_plain='Vzkaz z žonglérova slabikáře';
+		$subject = quoted_printable_header($subject_plain);
 
 		$headers = 'Return-Path: '.$odesilatel . "\r\n" .
     'From: '.$odesilatel . "\r\n" .
     'Reply-To: '.$odesilatel . "\r\n" .
     'Content-Type: text/plain; charset=utf-8' . "\r\n" .
-    'Content-Transfer-Encoding: quoted-printable' . "\r\n" .
+    'Content-Transfer-Encoding: 8bit' . "\r\n" .
     'Precedence: bulk';
 $message = $vzkaz.'
 
@@ -34,7 +35,7 @@ Tento vzkaz byl zaslán pomocí žonglérova slabikáře.
 http://zonglovani.info
 ';
 
-			$vysledek=mail($prijemce, $subject, imap_8bit($message), $headers);
+			$vysledek=mail($prijemce, $subject, $message, $headers);
 
 
 		if($vysledek){
@@ -42,10 +43,10 @@ http://zonglovani.info
 			$smarty->display('hlavicka.tpl');
 			$smarty->display('alert.tpl');
 			$smarty->display('paticka.tpl');
-			unlink('$foo/odesilatel.txt');
-			unlink('$foo/prijemce.txt');
-			unlink('$foo/vzkaz.txt');
-			unlink('$foo/created.time');
+			unlink($foo.'/odesilatel.txt');
+			unlink($foo.'/prijemce.txt');
+			unlink($foo.'/vzkaz.txt');
+			unlink($foo.'/created.time');
 			rmdir($foo);
 		}else{
 			$smarty->assign('chyby',array('Při odesílání vzkazu nastala chyba.'));

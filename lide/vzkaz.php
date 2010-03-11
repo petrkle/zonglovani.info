@@ -66,17 +66,19 @@ if(isset($_POST['komu'])){
 
 		if(count($chyby)==0){
 
+		$subject_plain='Vzkaz z žonglérova slabikáře';
+		$subject = quoted_printable_header($subject_plain);
+
 		if(isset($_SESSION['uzivatel']['email'])){
 			#přihlášení uživatelé mohou hned odeslat vzkaz
-			
+
 		$to = $komu['email'];
-		$subject = '=?utf-8?Q?'.imap_8bit('Vzkaz z žonglérova slabikáře').'?=';
 
 		$headers = 'Return-Path: '.$email . "\r\n" .
     'From: '.$email . "\r\n" .
     'Reply-To: '.$email . "\r\n" .
     'Content-Type: text/plain; charset=utf-8' . "\r\n" .
-    'Content-Transfer-Encoding: quoted-printable' . "\r\n" .
+    'Content-Transfer-Encoding: 8bit' . "\r\n" .
     'Precedence: bulk';
 $message = $vzkaz.'
 
@@ -89,15 +91,23 @@ http://zonglovani.info
 
 		$messageid=abs(crc32($email.$komu.time()));
 
-		$subject = '=?utf-8?Q?'.imap_8bit('Vzkaz z žonglérova slabikáře').'?=';
 
-		$headers = 'Return-Path: robot@zonglovani.info' . "\r\n" .
-    'From: robot@zonglovani.info' . "\r\n" .
-    'Reply-To: robot@zonglovani.info' . "\r\n" .
-    'Content-Type: text/plain; charset=utf-8' . "\r\n" .
-    'Content-Transfer-Encoding: quoted-printable' . "\r\n" .
-    'Precedence: bulk';
-$message = 'Ahoj,
+		$mime_boundary = '--zs--'.abs(crc32(time()));
+
+$headers = "Return-Path: robot@zonglovani.info\n";
+$headers .= "From: robot@zonglovani.info\n";
+$headers .= "Reply-To: robot@zonglovani.info\n";
+$headers .= "Precedence: bulk\n";
+$headers .= "MIME-Version: 1.0\n";
+$headers .= "Content-Type: multipart/alternative; boundary=\"$mime_boundary\"\n";
+
+# -=-=-=- TEXT EMAIL PART
+
+$message = "--$mime_boundary\n";
+$message .= "Content-Type: text/plain; charset=UTF-8\n";
+$message .= "Content-Transfer-Encoding: 8bit\n\n";
+
+$message .= 'Ahoj,
 
 pro odeslání vzkazu pro "'.$komu['login'].'" klikni na tento odkaz:
 
@@ -111,7 +121,41 @@ Petr Kletečka
 admin@zonglovani.info
 http://zonglovani.info/kontakt.html
 ';
-			
+
+# -=-=-=- HTML EMAIL PART
+ 
+$message .= "--$mime_boundary\n";
+$message .= "Content-Type: text/html; charset=UTF-8\n";
+$message .= "Content-Transfer-Encoding: 8bit\n\n";
+
+$message .= "<html>\n";
+$message .= "<head><meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" />\n";
+$message .= "<title>$subject_plain</title></head>\n";
+$message .= "<body style=\"font-family: sans-serif; font-size:1em; color:#000;\">\n";
+
+$message .= 'Ahoj,<br /><br />
+
+pro odeslání vzkazu pro "'.$komu['login'].'" klikni na tento odkaz:<br />
+
+<a href="http://'.$_SERVER['SERVER_NAME'].LIDE_URL.'sendmail/'.$messageid.'.html">http://'.$_SERVER['SERVER_NAME'].LIDE_URL.'sendmail/'.$messageid.'.html</a><br />
+
+Odkaz platí do: '.date("j. n. Y G.i",(time()+TIMEOUT_VZKAZ)).'<br />
+
+-- <br/>
+Petr Kletečka<br/>
+
+<a href="mailto:admin@zonglovani.info">admin@zonglovani.info</a><br/>
+<a href="http://zonglovani.info/kontakt.html">http://zonglovani.info/kontakt.html</a>
+';
+
+$message .= "</body>\n";
+$message .= "</html>\n";
+
+# -=-=-=- FINAL BOUNDARY
+
+$message .= "--$mime_boundary--\n\n";
+
+
 		$tmp=LIDE_VZKAZY.'/'.$messageid;
 
 		if(!is_dir($tmp)){
@@ -137,7 +181,7 @@ http://zonglovani.info/kontakt.html
 
 		}
 			
-			$vysledek=mail($email, $subject, imap_8bit($message), $headers);
+			$vysledek=mail($email, $subject, $message, $headers);
 
 			if($vysledek){
 				if(isset($_SESSION['uzivatel']['email'])){

@@ -40,15 +40,25 @@ if(isset($_GET['m']) and isset($_GET['k'])){
 			rmdir($tmp);
 
 
-		$subject = '=?utf-8?Q?'.imap_8bit('Vítej v žonglérově slabikáři').'?=';
+		$subject_plain='Vítej v žonglérově slabikáři';
+		$subject = quoted_printable_header($subject_plain);
 
-		$headers = 'Return-Path: robot@zonglovani.info' . "\r\n" .
-    'From: robot@zonglovani.info' . "\r\n" .
-    'Reply-To: robot@zonglovani.info' . "\r\n" .
-    'Content-Type: text/plain; charset=utf-8' . "\r\n" .
-    'Content-Transfer-Encoding: quoted-printable' . "\r\n" .
-    'Precedence: bulk';
-$message = 'Ahoj,
+		$mime_boundary = '--zs--'.abs(crc32(time()));
+
+$headers = "Return-Path: robot@zonglovani.info\n";
+$headers .= "From: robot@zonglovani.info\n";
+$headers .= "Reply-To: robot@zonglovani.info\n";
+$headers .= "Precedence: bulk\n";
+$headers .= "MIME-Version: 1.0\n";
+$headers .= "Content-Type: multipart/alternative; boundary=\"$mime_boundary\"\n";
+
+# -=-=-=- TEXT EMAIL PART
+
+$message = "--$mime_boundary\n";
+$message .= "Content-Type: text/plain; charset=UTF-8\n";
+$message .= "Content-Transfer-Encoding: 8bit\n\n";
+
+$message .= 'Ahoj,
 
 tvůj účet v žonglérově slabikáři je aktivní. Na adrese:
 
@@ -72,7 +82,49 @@ admin@zonglovani.info
 http://zonglovani.info/kontakt.html
 ';
 
-		$vysledek=mail($mail, $subject, imap_8bit($message), $headers);
+# -=-=-=- HTML EMAIL PART
+ 
+$message .= "--$mime_boundary\n";
+$message .= "Content-Type: text/html; charset=UTF-8\n";
+$message .= "Content-Transfer-Encoding: 8bit\n\n";
+
+$message .= "<html>\n";
+$message .= "<head><meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" />\n";
+$message .= "<title>$subject_plain</title></head>\n";
+$message .= "<body style=\"font-family: sans-serif; font-size:1em; color:#000;\">\n";
+
+$message .= 'Ahoj,<br /><br/>
+
+tvůj účet v žonglérově slabikáři je aktivní. Na adrese:<br />
+
+<a href="http://'.$_SERVER['SERVER_NAME'].LIDE_URL.'nastaveni">http://'.$_SERVER['SERVER_NAME'].LIDE_URL.'nastaveni</a><br />
+
+můžeš doladit nastavení účtu.<br />
+
+Tvoje přihlašovací údaje jsou:<br />
+
+Login: '.$login.'<br />
+Heslo: zadané při registraci<br />
+
+Zapomenuté heslo jde jednoduše obnovit na adrese:<br />
+
+<a href="http://'.$_SERVER['SERVER_NAME'].LIDE_URL.'zapomenute-heslo.php">http://'.$_SERVER['SERVER_NAME'].LIDE_URL.'zapomenute-heslo.php</a><br />
+
+-- <br/>
+Petr Kletečka<br/>
+
+<a href="mailto:admin@zonglovani.info">admin@zonglovani.info</a><br/>
+<a href="http://zonglovani.info/kontakt.html">http://zonglovani.info/kontakt.html</a>
+';
+
+$message .= "</body>\n";
+$message .= "</html>\n";
+
+# -=-=-=- FINAL BOUNDARY
+
+$message .= "--$mime_boundary--\n\n";
+
+		$vysledek=mail($mail, $subject, $message, $headers);
 
 			$smarty->assign('chyby',array('Účet byl úspěšně aktivován.','Můžeš se <a href="'.LIDE_URL.'nastaveni/" title="Přihlášení">přihlásit</a>.'));
 			$smarty->display('hlavicka.tpl');

@@ -83,22 +83,34 @@ if(!eregi('^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$
 		fclose($foo);
 
 		$to = $uzivatel['email'];
-		$subject = '=?utf-8?Q?'.imap_8bit('Obnovení hesla').'?=';
+
+		$subject_plain='Obnovení hesla';
+		$subject = quoted_printable_header($subject_plain);
+
 		$splmail=preg_split('/@/',$uzivatel['email']);
 
-		$headers = 'Return-Path: robot@zonglovani.info' . "\r\n" .
-    'From: robot@zonglovani.info' . "\r\n" .
-    'Reply-To: robot@zonglovani.info' . "\r\n" .
-    'Content-Type: text/plain; charset=utf-8' . "\r\n" .
-    'Content-Transfer-Encoding: quoted-printable' . "\r\n" .
-    'Precedence: bulk';
-$message = 'Ahoj,
+		$mime_boundary = '--zs--'.abs(crc32(time()));
+
+$headers = "Return-Path: robot@zonglovani.info\n";
+$headers .= "From: robot@zonglovani.info\n";
+$headers .= "Reply-To: robot@zonglovani.info\n";
+$headers .= "Precedence: bulk\n";
+$headers .= "MIME-Version: 1.0\n";
+$headers .= "Content-Type: multipart/alternative; boundary=\"$mime_boundary\"\n";
+
+# -=-=-=- TEXT EMAIL PART
+
+$message = "--$mime_boundary\n";
+$message .= "Content-Type: text/plain; charset=UTF-8\n";
+$message .= "Content-Transfer-Encoding: 8bit\n\n";
+
+$message .= 'Ahoj,
 
 pro obnovení hesla v žonglérově slabikáři klikni na tento odkaz:
 
 http://'.$_SERVER['SERVER_NAME'].LIDE_URL.'z/'.$splmail[1].'/'.$splmail[0].'/'.$key.'.html
 
-Odkaz platí do: '.date('j. n. Y G.i',(time()+TIMEOUT_RESET_PASSWD)).'
+Odkaz platí do: '.date('j. n. Y G.i',(time()+TIMEOUT_REGISTRATION)).'
 
 -- 
 Petr Kletečka
@@ -107,7 +119,40 @@ admin@zonglovani.info
 http://zonglovani.info/kontakt.html
 ';
 
-		$vysledek=mail($to, $subject, imap_8bit($message), $headers);
+# -=-=-=- HTML EMAIL PART
+ 
+$message .= "--$mime_boundary\n";
+$message .= "Content-Type: text/html; charset=UTF-8\n";
+$message .= "Content-Transfer-Encoding: 8bit\n\n";
+
+$message .= "<html>\n";
+$message .= "<head><meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" />\n";
+$message .= "<title>$subject_plain</title></head>\n";
+$message .= "<body style=\"font-family: sans-serif; font-size:1em; color:#000;\">\n";
+
+$message .= 'Ahoj,<br /><br/>
+
+pro aktivaci účtu v žonglérově slabikáři klikni na tento odkaz:<br /><br/>
+
+<a href="http://'.$_SERVER['SERVER_NAME'].LIDE_URL.'z/'.$splmail[1].'/'.$splmail[0].'/'.$key.'.html">http://'.$_SERVER['SERVER_NAME'].LIDE_URL.'z/'.$splmail[1].'/'.$splmail[0].'/'.$key.'.html</a><br/>
+
+Odkaz platí do: '.date('j. n. Y G.i',(time()+TIMEOUT_REGISTRATION)).'<br/>
+
+-- <br/>
+Petr Kletečka<br/>
+
+<a href="mailto:admin@zonglovani.info">admin@zonglovani.info</a><br/>
+<a href="http://zonglovani.info/kontakt.html">http://zonglovani.info/kontakt.html</a>
+';
+
+$message .= "</body>\n";
+$message .= "</html>\n";
+
+# -=-=-=- FINAL BOUNDARY
+
+$message .= "--$mime_boundary--\n\n";
+
+		$vysledek=mail($to, $subject, $message, $headers);
 		if($vysledek){
 			session_destroy();
 			header('Location: '.LIDE_URL.basename(__FILE__).'?send=ok');	
