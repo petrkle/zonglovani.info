@@ -22,6 +22,13 @@
 <li><a href="{$smarty.const.LIDE_URL}nastaveni/zruseni" title="Zrušení účtu.">Zrušit účet</a>.</li>
 </ul>
 
+{if $misto}
+<h5>Tvoje působiště</h5>
+<p>
+Umíš {foreach from=$proc item=duvod name=duvody}{if $smarty.foreach.duvody.last}{if $smarty.foreach.duvody.first}{$duvod.umi}.{else}a {$duvod.umi}.{/if}{else}{if $smarty.foreach.duvody.first}{$duvod.umi}{else}, {$duvod.umi}{/if}{/if}{/foreach} Zvaž také <a href="{$smarty.const.LIDE_URL}nastaveni/pusobiste" title="Nastavit působiště.">nastavení působiště</a>.
+</p>
+{/if}
+
 {if $web}
 <h5>Podpoř žonglérův slabikář</h5>
 <p>

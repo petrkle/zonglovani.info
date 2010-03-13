@@ -661,6 +661,21 @@ $message .= "--$mime_boundary--\n\n";
 		if(isset($_SESSION['uzivatel']['web']) and strlen($_SESSION['uzivatel']['web'])>0){
 			$smarty->assign('web',true);
 		}
+
+		if((isset($_SESSION['uzivatel']['dovednosti']['show']) or
+			isset($_SESSION['uzivatel']['dovednosti']['workshop']) or
+			isset($_SESSION['uzivatel']['dovednosti']['manufactory']) or
+			isset($_SESSION['uzivatel']['dovednosti']['shop'])) and $_SESSION['uzivatel']['pusobiste']==false
+		){
+			$proc=array();
+			if(isset($_SESSION['uzivatel']['dovednosti']['show'])){$proc['show']=$dovednosti['show'];}
+			if(isset($_SESSION['uzivatel']['dovednosti']['workshop'])){$proc['workshop']=$dovednosti['workshop'];}
+			if(isset($_SESSION['uzivatel']['dovednosti']['manufactory'])){$proc['manufactory']=$dovednosti['manufactory'];}
+			if(isset($_SESSION['uzivatel']['dovednosti']['shop'])){$proc['shop']=$dovednosti['shop'];}
+			$smarty->assign('misto',true);
+			$smarty->assign('proc',$proc);
+		}
+
 		$smarty->assign_by_ref('trail', $trail->path);
 		$smarty->display('hlavicka.tpl');
 		$smarty->display('nastaveni.tpl');
