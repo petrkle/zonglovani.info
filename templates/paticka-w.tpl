@@ -16,4 +16,45 @@
 {/if}
 </div>
 {/if}
+
+{if $obrazek.dalsi_cislo}
+{literal}
+<script type="text/javascript">
+		<!--//--><![CDATA[//><!--
+function preloader() {
+	if (document.images) {
+{/literal}
+{if $obrazek.dalsi_cislo}
+		var img1 = new Image();
+		img1.src = "http://i.{$smarty.server.SERVER_NAME}{$smarty.const.OBRAZKY_URL}{$gal_id}/{$obrazek.dalsi_cislo}.jpg";
+{/if}
+{if $obrazek.dalsi_cislo2}
+		var img2 = new Image();
+		img2.src = "http://i.{$smarty.server.SERVER_NAME}{$smarty.const.OBRAZKY_URL}{$gal_id}/{$obrazek.dalsi_cislo2}.jpg";
+{/if}
+{if $obrazek.dalsi_cislo3}
+		var img3 = new Image();
+		img3.src = "http://i.{$smarty.server.SERVER_NAME}{$smarty.const.OBRAZKY_URL}{$gal_id}/{$obrazek.dalsi_cislo3}.jpg";
+{/if}
+{literal}
+	}
+}
+function addLoadEvent(func) {
+	var oldonload = window.onload;
+	if (typeof window.onload != 'function') {
+		window.onload = func;
+	} else {
+		window.onload = function() {
+			if (oldonload) {
+				oldonload();
+			}
+			func();
+		}
+	}
+}
+setTimeout('addLoadEvent(preloader)',1000);
+		//--><!]]>
+	</script>
+{/literal}
+{/if}
 {include file='paticka-common.tpl'}

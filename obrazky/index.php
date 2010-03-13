@@ -64,6 +64,12 @@ if($id){
 			if($poradi<count($obrazky)-1){
 				$obrazky[$key]['dalsi_cislo']=sprintf('%04d',$poradi+1);
 			}
+			if($poradi<count($obrazky)-2){
+				$obrazky[$key]['dalsi_cislo2']=sprintf('%04d',$poradi+2);
+			}
+			if($poradi<count($obrazky)-3){
+				$obrazky[$key]['dalsi_cislo3']=sprintf('%04d',$poradi+3);
+			}
 			$poradi++;
 		}
 
@@ -253,7 +259,7 @@ function get_galerie_info($galerie){
 		$foo=file(OBRAZKY_DATA.'/'.$galerie.'/index.txt');
 			foreach($foo as $radek){
 				$radek=trim($radek);
-				$zac=strpos($radek,":");
+				$zac=strpos($radek,':');
 				$navrat[substr($radek,0,$zac)]=substr($radek,$zac+1);
 			}
 	}
