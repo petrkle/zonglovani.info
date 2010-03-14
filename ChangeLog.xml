@@ -1,6 +1,16 @@
 <?xml version="1.0"?>
 <log>
 <logentry
+   revision="251">
+<author>petr</author>
+<date>2010-03-14T15:53:03.087101Z</date>
+<msg>Mapa stránek pro vyhledávací roboty.</msg>
+<revprops>
+<property
+   name="svn:link">/sitemap.xml</property>
+</revprops>
+</logentry>
+<logentry
    revision="250">
 <author>petr</author>
 <date>2010-03-13T21:30:57.458879Z</date>
