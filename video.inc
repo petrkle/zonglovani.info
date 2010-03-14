@@ -30,3 +30,4 @@ what-the-beepbeep-do-we-know*http://www.youtube.com/watch?v=aSdKVTGZppk*What the
 c2laballe-0707*http://juggling.tv:c5d489242e60ebcbaf98*C2laballe 0707*Emmanuel Perez žongluje se silikonovými míčky ve vzduchu i o zem.
 kopie*http://www.youtube.com/watch?v=cgtSkbl0JU4*копия*Žonglování v Rusku.
 balance-tricks-2*http://juggling.tv:aa55373822c010763dd5*Balancování kuželů*Benjamin Thompson balancuje kužely.
+club2ring*http://juggling.tv:d7083b050476733207ea*Bláznivá žehlička*Krátký příběh o tom, co provedla splašená žehlička.

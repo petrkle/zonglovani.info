@@ -1581,6 +1581,12 @@
    </url>
 			
    <url>
+      <loc>http://zonglovani.info/video/club2ring.html</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
       <loc>http://zonglovani.info/video/giraffe-theory.html</loc>
       <changefreq>monthly</changefreq>
       <priority>0.4</priority>

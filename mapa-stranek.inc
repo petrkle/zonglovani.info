@@ -381,6 +381,7 @@
 		<li><a href="/video/bratri-v-tricku-2.html">Bratři v tricku 2</a></li>
 		<li><a href="/video/bratri-v-tricku.html">Bratři v tricku</a></li>
 		<li><a href="/video/c2laballe-0707.html">C2laballe 0707</a></li>
+		<li><a href="/video/club2ring.html">Bláznivá žehlička</a></li>
 		<li><a href="/video/giraffe-theory.html">Giraffe Theory Juggling Glow Clubs</a></li>
 		<li><a href="/video/guava-winter-07-08.html">Guava over winter break 07-08</a></li>
 		<li><a href="/video/hocus-pocus.html">Hocus Pocus</a></li>
