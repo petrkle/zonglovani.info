@@ -4,7 +4,6 @@
 - předělat všechny texty do xml
 - export kalendáře (dalších věcí ?) do pdf online
 - přehled aktivity uživatelů
-- sitemap.xml - generovat a aktualizovat
 - na úvodní stránce velkým číslem kolik má žonglérův slabikář uživatelů, tlačítko pro založení účtu, vyhledání workshopů, kalendář (s obrázkem)
 - rozepsat možnosti diskuse, bazar
 - tapety na plochu
@@ -112,3 +111,4 @@ seznam použitých programů
 personas pro firefox
 oprava vyznačování akcí do měsíčního kalendáře
 upozornění pro žongléry kteří mají nastavenou výuku žonglování, vystoupení nebo prodej věcí na možnost nastavení místa
+sitemap.xml - generovat a aktualizovat

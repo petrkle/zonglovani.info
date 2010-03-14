@@ -2,9 +2,9 @@
 require('init.php');
 require('func.php');
 
-$titulek='Literatura';
+$titulek='Anglicko-český žonglérský slovníček';
 
-$smarty->assign('titulek','Anglicko-český žonglérský slovníček');
+$smarty->assign('titulek',$titulek);
 
 $trail = new Trail();
 $trail->addStep('Informace o žonglování','/ostatni.html');

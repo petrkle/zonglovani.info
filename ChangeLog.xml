@@ -1,6 +1,12 @@
 <?xml version="1.0"?>
 <log>
 <logentry
+   revision="250">
+<author>petr</author>
+<date>2010-03-13T21:30:57.458879Z</date>
+<msg>Předběžné načítání obrázků v galerii.</msg>
+</logentry>
+<logentry
    revision="249">
 <author>petr</author>
 <date>2010-03-13T18:51:02.570988Z</date>
