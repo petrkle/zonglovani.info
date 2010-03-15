@@ -1,6 +1,16 @@
 <?xml version="1.0"?>
 <log>
 <logentry
+   revision="253">
+<author>petr</author>
+<date>2010-03-14T20:23:29.743279Z</date>
+<msg>Bláznivá žehlička</msg>
+<revprops>
+<property
+   name="svn:link">/video/club2ring.html</property>
+</revprops>
+</logentry>
+<logentry
    revision="252">
 <author>petr</author>
 <date>2010-03-14T17:45:44.473535Z</date>
