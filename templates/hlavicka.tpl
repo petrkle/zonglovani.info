@@ -9,8 +9,8 @@
 {if isset($icbm)}
 	<meta name="ICBM" content="{$icbm|escape}" />
 {/if}
-	<style media="screen,projection" type="text/css">@import url(http://f.{$smarty.server.SERVER_NAME}/z.css);</style>
-	<style media="print" type="text/css">@import url(http://f.{$smarty.server.SERVER_NAME}/zt.css);</style>
+	<link rel="stylesheet" media="screen,projection" type="text/css" href="/z.css" />
+	<link rel="stylesheet" media="print" type="text/css" href="/zt.css" />
 	<meta name="robots" content="{if isset($robots)}{$robots|escape}{else}index,follow{/if}" />
 	<link rel="shortcut icon" href="/favicon.ico" />
 	<link rel="alternate" title="Žonglérův slabikář" href="http://{$smarty.server.SERVER_NAME}/zonglovani.rss" type="application/rss+xml" />
@@ -37,7 +37,8 @@ flush();
 <div id="fblink">Podpoř <a href="http://www.facebook.com/pages/Zongleruv-slabikar/249578053101" class="external" title="Stránky žonglérova slabikáře na Facebooku." onclick="pageTracker._trackPageview('/goto/facebook.com/pages/Zongleruv-slabikar/249578053101');">žonglérův slabikář</a> na Facebooku.</div> {if basename($smarty.server.SCRIPT_NAME)!="prihlaseni.php"}<a href="{$smarty.const.LIDE_URL}prihlaseni.php{if $smarty.server.REQUEST_URI!="/"}?next={$smarty.server.REQUEST_URI}{/if}" title="Přihlášení do žonglérova slabikáře" rel="nofollow">Přihlášení</a> ~ {/if}<a href="{$smarty.const.LIDE_URL}pravidla.php" title="Vytvořit nový účet v žonglérově slabikáři.">Nový účet</a>{/if}
 </div>
 <a name="nahore" id="nahore"></a>
-<div id="hlavickabg" style="background: {if eregi("/micky.*",$smarty.server.REQUEST_URI)}url('/img/m/micky-logo.gif') no-repeat 95% 100%{elseif eregi("/kruhy.*",$smarty.server.REQUEST_URI)}url('/img/k/kruhy-logo.gif') no-repeat 99% 100%{elseif eregi("/kuzely.*",$smarty.server.REQUEST_URI)}url('/img/k/kuzely-logo.gif') no-repeat 92% 100%{else}transparent{/if};">
+<div class="hlavickabg{if eregi('/micky.*',$smarty.server.REQUEST_URI)} hlm{elseif eregi('/kruhy.*',$smarty.server.REQUEST_URI)} hlkr{elseif eregi('/kuzely.*',$smarty.server.REQUEST_URI)} hlkz{/if}">
+{*<div id="hlavickabg" style="background: {if eregi("/micky.*",$smarty.server.REQUEST_URI)}url('/img/m/micky-logo.gif') no-repeat 95% 100%{elseif eregi("/kruhy.*",$smarty.server.REQUEST_URI)}url('/img/k/kruhy-logo.gif') no-repeat 99% 100%{elseif eregi("/kuzely.*",$smarty.server.REQUEST_URI)}url('/img/k/kuzely-logo.gif') no-repeat 92% 100%{else}transparent{/if};">*}
 <a href="/" title="Žonglérův slabikář - úvodní stránka." accesskey="2"><img src="/img/l/logo.gif" width="442" height="71" title="Žonglérův slabikář - úvodní stránka." alt="Žonglérův slabikář - úvodní stránka." />
 </a>
 </div>

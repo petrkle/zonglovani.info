@@ -9,8 +9,8 @@
 {if isset($icbm)}
 	<meta name="ICBM" content="{$icbm|escape}" />
 {/if}
-	<style media="screen,projection" type="text/css">@import url(http://f.{$smarty.server.SERVER_NAME}/zw.css);</style>
-	<style media="print" type="text/css">@import url(http://f.{$smarty.server.SERVER_NAME}/zt.css);</style>
+	<link rel="stylesheet" media="screen,projection" type="text/css" href="/zw.css" />
+	<link rel="stylesheet" media="print" type="text/css" href="/zt.css" />
 	<meta name="robots" content="{if isset($robots)}{$robots|escape}{else}index,follow{/if}" />
 	<link rel="shortcut icon" href="/favicon.ico" />
 	<link rel="alternate" title="Žonglérův slabikář" href="http://{$smarty.server.SERVER_NAME}/zonglovani.rss" type="application/rss+xml" />

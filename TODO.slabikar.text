@@ -15,9 +15,13 @@
 - todo list na webu s hlasováním
 - automatická kontrola pravopisu na všech stránkách
 - u nastavení odkazů dodělat kolonku pro popis a sestavit katalog
-- funguje 404?
 - odhad města podle IP adresy
 - přidat google mapy k akcím do kalendáře, do seznamu žonglérů
+- schovávat hodnocení u nehodnocených stránek, palce ukazovat jenom přihlášeným uživatelům
+- zmenšit odkazy na komentování a hodnocení, oddělit je čárou?
+- hitparáda hodnocených stránek, aktualizace žebříčku cronem 
+- hodnocení a hlasování ukazovat jen na stránkách kde je ve smartym nastavená proměnná. Např {if $feedback}hlasování a komentáře{/if}
+- vylepšit hlavně stránky které jsou na prvních místech ve vyhledávačích
 
 překreslit střihy na šití míčů jako obrázky + pdf
 rozšířit návod na výrobu míčků
@@ -114,3 +118,6 @@ oprava vyznačování akcí do měsíčního kalendáře
 upozornění pro žongléry kteří mají nastavenou výuku žonglování, vystoupení nebo prodej věcí na možnost nastavení místa
 sitemap.xml - generovat a aktualizovat
 přehled aktivity uživatelů
+opravit souradnice polohy u fotek z marathonu
+prozkoumat rychlost vkládání pomocí link x import - předěláno na link, zmenšení počtu dns dotazů doména i.zonglovani.info je jen u obrázků
+css sprites (hlavička, patička)

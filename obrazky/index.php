@@ -130,7 +130,7 @@ if($id and $photo){
 				$smarty->assign('icbm',$gal_info['icbm']);
 			}
 			$smarty->assign('stranka',$pager->getPageIdByOffset($photo));
-			$smarty->assign('nahled','http://i.'.$_SERVER['SERVER_NAME'].$obrazky[intval($photo)]['nahled']);
+			$smarty->assign('nahled',$obrazky[intval($photo)]['nahled']);
 			$smarty->assign('description',$gal_info['title']);
 			$titulek=$gal_info['title'].' - '.intval($photo).'. obrázek';
 			$obrazek=&$obrazky[intval($photo)];

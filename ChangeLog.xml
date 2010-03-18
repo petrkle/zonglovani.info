@@ -1,6 +1,16 @@
 <?xml version="1.0"?>
 <log>
 <logentry
+   revision="254">
+<author>petr</author>
+<date>2010-03-15T19:40:55.062021Z</date>
+<msg>Odkaz na JuggleDude 2.0</msg>
+<revprops>
+<property
+   name="svn:link">/software.html#juggledude</property>
+</revprops>
+</logentry>
+<logentry
    revision="253">
 <author>petr</author>
 <date>2010-03-14T20:23:29.743279Z</date>
