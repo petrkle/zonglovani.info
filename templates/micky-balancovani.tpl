@@ -2,8 +2,6 @@
 Použij pevný kulatý míček.
 </p>
 
-
-
 <p>
 {obrazek soubor="balanca.png" popisek="Balancování míčku na hlavě."}
 Balancovat můžeš na vršku hlavy. Míček pokládej na hlavu střídavě levou a pravou rukou.

@@ -2,8 +2,6 @@
 Elegantní způsob jak zvednout míček ze země.
 </p>
 
-
-
 <p>
 {obrazek soubor="kickupa.png" popisek="Míček na zemi."}
 Míček leží na zemi.

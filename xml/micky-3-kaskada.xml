@@ -1,6 +1,5 @@
 <?xml version="1.0"?>
 <trik>
-
     <about>
 	     <nazev>Kaskáda</nazev>
 		 <pocet>3</pocet>
@@ -10,7 +9,7 @@
 	</about>
 
 	<krok>
-	    <popisek>Kaskáda je nejjednodušší způsob žonglování se třemi míčky.</popisek>
+		<popisek>Kaskáda je nejjednodušší způsob žonglování se třemi míčky. Než se do něj pustíš nauč se &lt;a href=&quot;/micky/jak-zacit.html&quot;&gt;základy s míčky&lt;/a&gt;.</popisek>
     </krok>
 
     <krok>

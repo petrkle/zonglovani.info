@@ -48,6 +48,11 @@ Několik slovíček které se často vyskytují v anglicky psaných textech o ž
 Pravidelný trénink je základ.
 </p>
 
+<h3><a href="/horoskop/" title="Žonglérský horoskop pro dnešek a zítřek.">Horoskop žonglování</a></h3>
+<p>
+Horoskop pro žonglérky a žongléry. Každý den ti poradí co je nejlepší trénovat.
+</p>
+
 <h3><a href="/chudy/" title="Žonglování na chůdách">Chůdy</a></h3>
 <p>
 Žonglování na chůdách.
