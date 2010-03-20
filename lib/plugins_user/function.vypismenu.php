@@ -57,7 +57,7 @@ function submenu($id){
 	if($id==4){
 		$adresy = array('/obrazky/','/video/','/kalendar/','/diskuse/','/lide/','/horoskop/');
 		$texty = array('Obrázky','Video','Kalendář','Diskuse','Žongléři','Horoskop');
-		$popisky = array('Obrázky žonglování','Zajímavá žonglérská videa','Kalendář žonglování','Diskuse o žonglování','Seznam uživatelů žonglérova slabikáře.','Horoskop žonglování');
+		$popisky = array('Obrázky žonglování','Zajímavá žonglérská videa','Kalendář žonglování','Diskuse a komentáře','Seznam uživatelů žonglérova slabikáře.','Horoskop žonglování');
 	}
 
 	if(isset($adresy)){

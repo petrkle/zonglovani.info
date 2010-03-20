@@ -8,6 +8,7 @@ $smarty->assign('pusobiste',$pusobiste);
 
 $trail = new Trail();
 $trail->addStep('Seznam žonglérů',LIDE_URL);
+$smarty->assign('feedback',true);
 
 if(isset($_GET['filtr'])){
 	$filtr=$_GET['filtr'];

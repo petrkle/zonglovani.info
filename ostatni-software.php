@@ -3,6 +3,7 @@ require('init.php');
 require('func.php');
 
 $titulek='Literatura';
+$smarty->assign('feedback',true);
 
 $smarty->assign('titulek','Simulátory žonglování');
 

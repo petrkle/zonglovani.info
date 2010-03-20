@@ -5,6 +5,7 @@ require('func.php');
 $titulek='Žonglování s kruhy';
 
 $smarty->assign('titulek',$titulek);
+$smarty->assign('feedback',true);
 $smarty->assign('keywords',make_keywords($titulek));
 
 $trail = new Trail();

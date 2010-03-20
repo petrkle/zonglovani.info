@@ -3,6 +3,7 @@ require('init.php');
 require('func.php');
 
 $titulek='Míčky na zemi';
+$smarty->assign('feedback',true);
 
 $smarty->assign('titulek',$titulek);
 

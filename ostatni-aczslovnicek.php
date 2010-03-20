@@ -3,6 +3,7 @@ require('init.php');
 require('func.php');
 
 $titulek='Anglicko-český žonglérský slovníček';
+$smarty->assign('feedback',true);
 
 $smarty->assign('titulek',$titulek);
 

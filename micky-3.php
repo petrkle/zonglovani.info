@@ -9,6 +9,7 @@ if (isset($_GET['show'])) {
 }
 
 $titulek='Žonglování se třemi míčky';
+$smarty->assign('feedback',true);
 
 $trail = new Trail();
 $trail->addStep('Míčky','/micky/');

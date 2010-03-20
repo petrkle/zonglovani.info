@@ -5,6 +5,7 @@ require('func.php');
 $titulek='Rotace kuželu';
 
 $smarty->assign('titulek',$titulek);
+$smarty->assign('feedback',true);
 
 $trail = new Trail();
 $trail->addStep('Kužely','/kuzely/');

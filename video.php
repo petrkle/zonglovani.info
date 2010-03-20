@@ -13,6 +13,7 @@ $video=get_video_info(get_videa('./video.inc'),$v);
 
 if(is_array($video)){
 
+	$smarty->assign('feedback',true);
 	$trail = new Trail();
 	$trail->addStep('Žonglérská videa','/video/');
 	$trail->addStep($video['title']);

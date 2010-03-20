@@ -3,6 +3,7 @@ require('init.php');
 require('func.php');
 
 $smarty->assign('titulek','Žonglování - základní pojmy');
+$smarty->assign('feedback',true);
 
 $trail = new Trail();
 $trail->addStep('Informace o žonglování','/ostatni.html');

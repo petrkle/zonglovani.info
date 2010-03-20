@@ -3,6 +3,7 @@ require('init.php');
 require('func.php');
 
 $titulek='Náhled do žonglérova slabikáře';
+$smarty->assign('feedback',true);
 $smarty->assign('titulek',$titulek);
 
 $trail = new Trail();

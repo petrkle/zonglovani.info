@@ -13,6 +13,7 @@ $trail->addStep('Headrool');
 $smarty->assign_by_ref('trail', $trail->path);
 
 $smarty->assign('titulek','Překulení kuželky přes hlavu');
+$smarty->assign('feedback',true);
 
 $smarty->display('hlavicka.tpl');
 $smarty->display('kuzely-headroll.tpl');

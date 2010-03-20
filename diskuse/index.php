@@ -36,7 +36,7 @@ if(!isset($_GET['pageID']) and !isset($_GET['rss'])){
 	exit();
 }
 
-$smarty->assign('titulek','Diskuse o žonglování');
+$smarty->assign('titulek','Diskuse a komentáře');
 $smarty->assign('items', $data);
 $smarty->assign('pager_links', $pager->links);
 $smarty->assign(

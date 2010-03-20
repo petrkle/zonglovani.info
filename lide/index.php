@@ -47,6 +47,7 @@ $smarty->assign(
 $titulek='Seznam žonglérů';
 $trail = new Trail();
 $trail->addStep($titulek,LIDE_URL);
+$smarty->assign('feedback',true);
 
 $smarty->assign_by_ref('trail', $trail->path);
 $smarty->assign('titulek',$titulek);

@@ -3,6 +3,7 @@ require('init.php');
 require('func.php');
 
 $smarty->assign('titulek','Výroba kruhů');
+$smarty->assign('feedback',true);
 $trail = new Trail();
 $trail->addStep('Kruhy','/kruhy/');
 $trail->addStep('Výroba kruhů');

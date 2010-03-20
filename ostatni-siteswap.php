@@ -2,7 +2,8 @@
 require('init.php');
 require('func.php');
 
-$titulek="Siteswap";
+$titulek='Siteswap';
+$smarty->assign('feedback',true);
 
 $smarty->assign('titulek',$titulek);
 

@@ -2,8 +2,9 @@
 require('init.php');
 require('func.php');
 
-$smarty->assign("titulek","Vysvětlivky k obrázkům - míčky");
-$smarty->assign("nadpis","Vysvětlivky k obrázkům");
+$smarty->assign('titulek','Vysvětlivky k obrázkům - míčky');
+$smarty->assign('nadpis','Vysvětlivky k obrázkům');
+$smarty->assign('feedback',true);
 
 $trail = new Trail();
 $trail->addStep('Míčky','/micky/');

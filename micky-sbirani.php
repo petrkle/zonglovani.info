@@ -3,6 +3,7 @@ require('init.php');
 require('func.php');
 
 $titulek='Sbírání spadlých míčků';
+$smarty->assign('feedback',true);
 $smarty->assign('titulek',$titulek);
 $trail = new Trail();
 $trail->addStep('Míčky','/micky/');

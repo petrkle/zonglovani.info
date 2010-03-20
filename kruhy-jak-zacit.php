@@ -3,6 +3,7 @@
 require('init.php');
 require('func.php');
 $titulek='Jak začít žonglovat s kruhy';
+$smarty->assign('feedback',true);
 
 $trail = new Trail();
 $trail->addStep('Kruhy','/kruhy/');

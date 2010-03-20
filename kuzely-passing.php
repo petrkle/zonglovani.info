@@ -9,6 +9,7 @@ if (isset($_GET['show'])) {
 }
 
 $titulek='Passing';
+$smarty->assign('feedback',true);
 
 $trail = new Trail();
 $trail->addStep('Kužely','/kuzely/');

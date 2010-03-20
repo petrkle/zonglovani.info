@@ -4,6 +4,7 @@ require('func.php');
 
 $titulek='rec.juggling';
 $smarty->assign('titulek',$titulek);
+$smarty->assign('feedback',true);
 
 $trail = new Trail();
 $trail->addStep('Informace o žonglování','/ostatni.html');

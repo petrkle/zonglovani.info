@@ -41,6 +41,8 @@ if(isset($_GET['rss'])){
 	$rss=false;
 }
 
+$smarty->assign('feedback',true);
+
 if($rss){
 	header('Content-Type: application/rss+xml');
 	$smarty->assign('obrazky',get_galerie());

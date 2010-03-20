@@ -22,6 +22,7 @@
 - hitparáda hodnocených stránek, aktualizace žebříčku cronem 
 - hodnocení a hlasování ukazovat jen na stránkách kde je ve smartym nastavená proměnná. Např {if $feedback}hlasování a komentáře{/if}
 - vylepšit hlavně stránky které jsou na prvních místech ve vyhledávačích
+- kvíz
 
 překreslit střihy na šití míčů jako obrázky + pdf
 rozšířit návod na výrobu míčků

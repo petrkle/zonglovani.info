@@ -5,6 +5,7 @@ require('func.php');
 #nastavení linku
 #svn propset --revprop -r 206 svn:link "/horoskop/"
 $titulek='Změny v žonglérově slabikáři';
+$smarty->assign('feedback',true);
 $smarty->assign('titulek',$titulek);
 
 $trail = new Trail();

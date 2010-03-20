@@ -3,6 +3,7 @@ require('init.php');
 require('func.php');
 
 $titulek='Mýty a omyly';
+$smarty->assign('feedback',true);
 
 $smarty->assign('titulek',$titulek);
 

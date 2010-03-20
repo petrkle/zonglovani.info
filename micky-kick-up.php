@@ -2,8 +2,9 @@
 require('init.php');
 require('func.php');
 
-$titulek="Zvednutí míčku nohou";
-$smarty->assign("titulek",$titulek);
+$titulek='Zvednutí míčku nohou';
+$smarty->assign('feedback',true);
+$smarty->assign('titulek',$titulek);
 
 $trail = new Trail();
 $trail->addStep('Míčky','/micky/');
