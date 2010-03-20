@@ -1,5 +1,5 @@
 <ul>
-	<li><a name="zongl.info"></a><a href="/">Žonglérův slabikář - žonglování s míčky, kruhy a kužely.</a>
+	<li><a name="top"></a><a href="/">Žonglérův slabikář - žonglování s míčky, kruhy a kužely.</a>
 	<ul>
 	<li><a href="/aczslovnicek.html">Anglicko-český žonglérský slovníček</a></li>
 	<li><a href="/changelog.html">Změny v žonglérově slabikáři</a></li>

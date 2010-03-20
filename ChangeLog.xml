@@ -1,6 +1,12 @@
 <?xml version="1.0"?>
 <log>
 <logentry
+   revision="256">
+<author>petr</author>
+<date>2010-03-20T11:26:05.821892Z</date>
+<msg>Hodnocení a komentáře pouze u vybraných stránek.</msg>
+</logentry>
+<logentry
    revision="255">
 <author>petr</author>
 <date>2010-03-18T21:08:33.134799Z</date>

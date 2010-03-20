@@ -41,7 +41,12 @@
 Dnes je: {if $dnesek}{$aktDate}{else}<a href="{$smarty.const.CALENDAR_URL}" title="Zobrazí aktuální měsíc.">{$aktDate}</a>{/if}
 </p>
 <p>
+
+{if $smarty.session.logged!=true}
+<strong class="add">Přidat novou</strong> událost - do kalendáře můžou psát jen <a href="{$smarty.const.LIDE_URL}prihlaseni.php?next={$smarty.const.CALENDAR_URL}" title="Přihlášení do žonglérova slabikáře" rel="nofollow">přihlášení</a> uživatele žonglérova slabikáře.
+{else}
 <a href="{$smarty.const.CALENDAR_URL}add.php" title="Přidat novou událost do kalendáře." class="add">Přidat novou</a> událost.
+{/if}
 </p>
 {if $smazane}
 <h3>Smazané události</h3>

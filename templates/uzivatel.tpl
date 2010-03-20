@@ -44,6 +44,7 @@ Stránku odebereš z oblíbených kliknutím na obrázek žluté hvězdičky {ob
 
 <h1>{$titulek}</h1>
 {if $uzivatel_props.foto}
+<div class="szn">
 <p><img src="{$smarty.const.LIDE_URL}foto/{$uzivatel_props.login|escape}.jpg" alt="{$uzivatel_props.jmeno|escape}" width="{$uzivatel_props.foto_sirka}" height="{$uzivatel_props.foto_vyska}"/></p>
 {/if}
 
@@ -81,7 +82,9 @@ Stránku odebereš z oblíbených kliknutím na obrázek žluté hvězdičky {ob
 <li>Znamení zvěrokruhu: <a href="/horoskop/{$uzivatel_props.znameni}.html" title="{$zverokruh[$uzivatel_props.znameni].popis} - horoskop na dnešní den.">{$zverokruh[$uzivatel_props.znameni].popis}</a></li>
 </ul>
 {/if}
-
+{if $uzivatel_props.foto}
+</div>
+{/if}
 {if is_array($uzivatel_props.dovednosti)}
 <h3>Žonglérské dovednosti</h3>
 <ul>

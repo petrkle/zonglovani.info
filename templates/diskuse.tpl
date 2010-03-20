@@ -17,7 +17,7 @@
 {/if}
 {if $smarty.session.logged!=true}
 <p>
-<strong class="add">Přidat zprávu</strong> - pouze pro <a href="{$smarty.const.LIDE_URL}prihlaseni.php?next={$smarty.const.DISKUSE_URL}" title="Přihlášení do žonglérova slabikáře" rel="nofollow">přihlášené</a> uživatele žonglérova slabikáře.
+<strong class="add">Přidat zprávu</strong> - do diskuse můžou psát jen <a href="{$smarty.const.LIDE_URL}prihlaseni.php?next={$smarty.const.DISKUSE_URL}" title="Přihlášení do žonglérova slabikáře" rel="nofollow">přihlášení</a> uživatele žonglérova slabikáře.
 </p>
 <p>
 <a href="{$smarty.const.LIDE_URL}pravidla.php" title="Vytvořit uživatelský účet." class="add">Vytvořit nový účet</a>.
