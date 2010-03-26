@@ -20,13 +20,13 @@ Uživatelský účet můžeš jednoduše nastavit k obrazu svému.
 Pro nastavení slouží jednoduché formuláře s podrobnou nápovědou. Příklad změny hesla.
 </p>
 
-<h3>Žonglérské dovednosti</h3>
+<h3><a href="{$smarty.const.LIDE_URL}dovednost">Žonglérské dovednosti</a></h3>
 <p>
 <a href="/img/e/exkurze-2010-2-28-19-44-28.png">{obrazek soubor='exkurze-nahled-2010-2-28-19-44-28.jpg' popisek=''}</a>
 Formulář pro nastavení tvých oblíbených žonglovátek. Obsahuje i volby pro profesionální žongléry.
 </p>
 
-<h3>Místo kde žongluješ</h3>
+<h3><a href="{$smarty.const.LIDE_URL}misto">Místo kde žongluješ</a></h3>
 <p>
 <a href="/img/e/exkurze-2010-2-28-19-44-33.png">{obrazek soubor='exkurze-nahled-2010-2-28-19-44-33.jpg' popisek=''}</a>
 Nastavení míst kde žongluješ. Díky tomu můžeš poznat další žongléry z okolí.
@@ -62,7 +62,7 @@ Tak uvidí tvůj profil ostatní návštěvníci žonglérova slabikáře.
 Na konci každé stránky jsou odkazy pro hodnocení a komentáře ke stránce.
 </p>
 
-<h3>Kalendář</h3>
+<h3><a href="{$smarty.const.CALENDAR_URL}">Kalendář</a></h3>
 <p>
 <a href="/img/e/exkurze-2010-2-28-19-48-35.png">{obrazek soubor='exkurze-nahled-2010-2-28-19-48-35.jpg' popisek=''}</a>
 Můžeš přidávat akce do kalendáře žonglérských akcí.
@@ -80,7 +80,7 @@ Formulář pro zadání nové akce.
 Formulář pro úpravu už zadané akce.
 </p>
 
-<h3>Diskuse</h3>
+<h3><a href="{$smarty.const.DISKUSE_URL}">Diskuse</a></h3>
 <p>
 <a href="/img/e/exkurze-2010-2-28-19-49-47.png">{obrazek soubor='exkurze-nahled-2010-2-28-19-49-47.jpg' popisek=''}</a>
 Máš dotazy ohledně žonglování? Nebo nápady nebo připomínky k žonglérovu slabikáři? Můžeš je napsat do diskuse.

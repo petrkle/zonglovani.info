@@ -1,5 +1,5 @@
 <p class="drobky">
-Jste zde: <strong>Žonglování</strong>
+Jste zde: <strong>Žonglování</strong> &raquo; úvodní stránka
 </p>
 <h1>Žonglování</h1>
 <p><a href="/micky/jak-zacit.html" title="Základy žonglování s míčky.">{obrazek soubor='zonglovania.png' popisek='Jak začít žonglovat s míčky'}</a>

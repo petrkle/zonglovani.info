@@ -16,7 +16,7 @@
 2010-03-22*Kalendář žonglérských akcí*/kalendar/*kalendar.png*Přehledný seznam míst, kde by správný žonglér neměl chybět. I ty můžeš přidat svojí akci.
 2010-03-29*Žonglování s vajíčky*/micky/vajicka.html*vajickaa.png*Jsou šišatá, křehká a nadělají spoustu nepořádku. Ale kdo by odolal? Navíc, za chvíli jsou tu velikonoce.
 2010-04-05*Žonglování v Ulitě*/ulita/?201013*ulita.cz.png*Poslední jarní žonglování v domě dětí a mládeže Ulita. Přijít mohou začínající i zkušení žongléři a žonglérky.
-2010-04-12*Fotky z Ulity*/obrazky/filtr/Ulita*ulita.cz.png*Fotografie z podzimního a zimního žonglování v Ulitě.
+2010-04-12*Fotky z Ulity*/obrazky/filtr/Ulita*ulita.cz.png*Fotografie z podzimního, zimního a jarního žonglování v Ulitě.
 2010-04-19*Žonglérské míčky*/micky/druhy.html*pomeranc-nahled.jpg*Pořádný míček je základ úspěchu. Pořiď si proto takové, které se ti líbí a vyhovují.
 2010-04-26*Prozkoumej žonglérův slabikář*/mapa-stranek.html*kompas.png*<a href="/mapa-stranek.html" title="Všechny stránky v žonglérově slabikáři.">Mapa stránek</a> obsahuje odkazy na všechny stránky v žonglérově slabikáři.
 2010-05-03*rec.juggling*/rec-juggling.html*rec.juggling.s.png*Celosvětová diskusní skupina o žonglování.

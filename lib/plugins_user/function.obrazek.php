@@ -10,7 +10,12 @@ function smarty_function_obrazek($params, &$smarty){
 		$link='/img/m/missing.png';
 	}
 	$rozmery=getimagesize($soubor);
-	return ('<img src="'.$link.'" '.$rozmery[3].' title="'.$popisek.'" alt="'.$popisek.'" />');
+	if(isset($absolute)){
+		$abs='http://'.$_SERVER['SERVER_NAME'];
+	}else{
+		$abs='';
+	};
+	return ('<img src="'.$abs.$link.'" '.$rozmery[3].' title="'.$popisek.'" alt="'.$popisek.'" />');
 
 }
 

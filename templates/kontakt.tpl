@@ -24,4 +24,5 @@ Telefon: {$tel|telobfuscate}
 <ul>
 <li><a href="/proc-a-jak.html" title="Proč a jak vznikl žonglérův slabikář.">Proč a jak vznikl žonglérův slabikář</a></li>
 <li><a href="/changelog.html" title="Změny v žonglérově slabikáři.">Seznam změn</a></li>
+<li><a href="/toolbox.html" title="Seznam nástrojů použitých při tvorbě žonglérova slabikáře.">Použitý software</a></li>
 </ul>

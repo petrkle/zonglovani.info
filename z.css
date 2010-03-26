@@ -12,7 +12,7 @@ a img{border-width:0;}
 #menu{padding:0;float:right;margin:0;display:inline;width:180px;text-align:left;}
 #menu ul{margin:0;padding:0;list-style:none;}
 #menu ul li{margin:0;padding:0;list-style:none;}
-#menu ul li ul{padding:0;margin:0 0 0 1em;list-style:circle;}
+#menu ul li ul{padding:0;margin:0 0 0 1em;}
 #menu ul li ul li{padding:0;margin:0 0 0 1em;list-style:circle;}
 #paticka{text-align:center;width:750px;height:50px;padding:0;margin:0 auto 0 auto;background:url("img/o/okraje.png") 50% 100% no-repeat #eed;clear:both;line-height:1em;}
 #paticka a{font-weight:normal;}
@@ -97,5 +97,6 @@ li.nelibi{list-style:url(img/p/palec-dolu-s.png);}
 li.star{list-style:url(img/s/star-s.png);}
 .skrtanec{text-decoration:line-through;}
 .feedback{clear:both;padding-top:30px;font-size:0.7em;color:#333;}
-.szn{margin:0;padding:0;}
+ul{list-style:circle;}
+.szn{margin:0;padding:0;list-style:circle;}
 .szn li{list-style-position:inside;}

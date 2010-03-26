@@ -3,7 +3,6 @@
 - obrázek k akci v kalendáři
 - předělat všechny texty do xml
 - export kalendáře (dalších věcí ?) do pdf online
-- na úvodní stránce velkým číslem kolik má žonglérův slabikář uživatelů, tlačítko pro založení účtu, vyhledání workshopů, kalendář (s obrázkem)
 - rozepsat možnosti diskuse, bazar
 - tapety na plochu
 - přihlášeným uživatelům nabízet formulář pro zaslání vzkazu (mě)
@@ -17,10 +16,7 @@
 - u nastavení odkazů dodělat kolonku pro popis a sestavit katalog
 - odhad města podle IP adresy
 - přidat google mapy k akcím do kalendáře, do seznamu žonglérů
-- schovávat hodnocení u nehodnocených stránek, palce ukazovat jenom přihlášeným uživatelům
-- zmenšit odkazy na komentování a hodnocení, oddělit je čárou?
 - hitparáda hodnocených stránek, aktualizace žebříčku cronem 
-- hodnocení a hlasování ukazovat jen na stránkách kde je ve smartym nastavená proměnná. Např {if $feedback}hlasování a komentáře{/if}
 - vylepšit hlavně stránky které jsou na prvních místech ve vyhledávačích
 - kvíz
 
@@ -122,3 +118,6 @@ přehled aktivity uživatelů
 opravit souradnice polohy u fotek z marathonu
 prozkoumat rychlost vkládání pomocí link x import - předěláno na link, zmenšení počtu dns dotazů doména i.zonglovani.info je jen u obrázků
 css sprites (hlavička, patička)
+hodnocení a hlasování ukazovat jen na stránkách kde je ve smartym nastavená proměnná. Např {if $feedback}hlasování a komentáře{/if}
+zmenšit odkazy na komentování a hodnocení
+schovávat hodnocení u nehodnocených stránek, palce ukazovat jenom přihlášeným uživatelům

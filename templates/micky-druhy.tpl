@@ -26,12 +26,11 @@ V hračkářství lze koupit gumové míčky různých velikostí. Skáčou a js
 Míček pro vystoupení na jevišti. Pěkně kulatý a lesklý. Neskáče.
 </p>
 
-<h3>Míček naplněný pískem</h3>
+<h3>Ruský míček</h3>
 <p>
 <a href="/img/t/trany.jpg">{obrazek soubor="trany-nahled.jpg" popisek="Míček plněný pískem"}</a>
-Míček který je asi z třetiny naplněný pískem. Snadno se balancuje na hlavě a jiných částech těla.
+Míček který je asi z třetiny naplněný pískem. Snadno se balancuje na hlavě a jiných částech těla. Po dopadu na zem se neodkutálí, ale zůstane na místě.
 </p>
-
 
 <h3>Míček z balónků</h3>
 <p>

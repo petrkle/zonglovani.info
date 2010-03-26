@@ -4,7 +4,6 @@
 <div class="upozorneni">
 <h3>Příští <a href="/ulita" title="Žonglování v Ulitě">Ulita</a></h3>
 <ul>
-<li><a href="/kalendar/udalost-20100321-20100321-pek-1253740740.html" title="Předposlední jarní Ulita.">21.&nbsp;3.</a></li>
 <li><a href="/kalendar/udalost-20100411-20100411-pek-1253740811.html" title="Poslední jarní Ulita.">11.&nbsp;4.</a></li>
 </ul>
 </div>
