@@ -1,6 +1,26 @@
 <?xml version="1.0"?>
 <log>
 <logentry
+   revision="261">
+<author>petr</author>
+<date>2010-03-27T19:41:01.550791Z</date>
+<msg>Záchodové zvony</msg>
+<revprops>
+<property
+   name="svn:link">/nacini.html#zvony</property>
+</revprops>
+</logentry>
+<logentry
+   revision="260">
+<author>petr</author>
+<date>2010-03-27T19:39:43.739458Z</date>
+<msg>Míček SIL-X</msg>
+<revprops>
+<property
+   name="svn:link">/micky/druhy.html#silx</property>
+</revprops>
+</logentry>
+<logentry
    revision="259">
 <author>petr</author>
 <date>2010-03-26T23:26:04.372313Z</date>

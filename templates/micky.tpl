@@ -34,17 +34,19 @@ S míčky nemusíš jenom házet. Vyzkoušej balancování míčku - třeba na h
 
 <h3><a href="/micky/vajicka.html" title="Žonglování s vajíčky.">Žonglování s vajíčky</a></h3>
 <p>
-<a href="/micky/vajicka.html" title="Žonglování s vajíčky.">{obrazek soubor="vajickaa.png" popisek=""}</a>
+<a href="/micky/vajicka.html" title="Žonglování s vajíčky.">{obrazek soubor="vajickaa.png" popisek="Vajíčka"}</a>
 Jsou šišatá, křehká a nadělají spoustu nepořádku. Avšak, kdo by odolal?
 </p>
 
 <h3><a href="/micky/sbirani.html" title="Sbírání spadlých míčků.">Sbírání spadlých míčků</a></h3>
 <p>
+<a href="/micky/sbirani.html" title="Sbírání spadlých míčků.">{obrazek soubor="micky-sbirania.png" popisek="Sebrání míčku při žonglování."}</a>
 Když ti spadne míček, nepřestávej žonglovat.
 </p>
 
 <h3><a href="/micky/poslepu.html" title="Žonglování poslepu.">Žonglování poslepu</a></h3>
 <p>
+{obrazek soubor="poslepua.png" popisek="Žonglování s kyblem na hlavě."}
 Může to znít neuvěřitelně, ale jde to.
 </p>
 
