@@ -1,7 +1,10 @@
-<ul>
+<p>
+{obrazek soubor="rss.png" popisek="RSS"}
+</p>
+
+<ul class="szn">
 <li><strong>RSS</strong> - Really Simple Syndication, slouží k upozorňování na aktualizaci stránek</li>
 </ul>
-
 <p>
 Žonglérův slabikář obsahuje tyto RSS kanály:
 </p>

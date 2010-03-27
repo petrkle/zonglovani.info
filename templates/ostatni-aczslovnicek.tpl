@@ -1,7 +1,8 @@
 <p>
+{obrazek soubor="slovnik.jpg" popisek="Slovník"}
 Několik slovíček které se často vyskytují v anglicky psaných textech o žonglování.
 </p>
-
+<br class="spacer"/>
 <dl>
 <dt>accurate</dt><dd>přesný</dd>
 <dt>ball</dt><dd><a href="/micky/druhy.html" title="Popis různých druhů míčků.">míček</a></dd>

@@ -3,7 +3,7 @@
 <a href="/obrazky/prazsky-zonglersky-marathon-20091128/0010.html" class="nahled" title="Pražský žonglérský marathon 2009"><img src="http://i.zongl.info/obrazky/prazsky-zonglersky-marathon-20091128/nahledy/0010.jpg" style="width: 72px; height: 96px; margin: 26px 38px;" alt=""/></a>
 <a href="/obrazky/carodejnice-klamovka-20080422/0014.html" class="nahled" title="Čarodějnice na klamovce"><img src="http://i.zongl.info/obrazky/carodejnice-klamovka-20080422/nahledy/0014.jpg" style="width: 128px; height: 86px; margin: 31px 10px;" alt=""/></a>
 </p>
-<br style="clear: both"/>
+<br class="spacer"/>
 {if is_array($galerie)}
 <ul>
 {foreach from=$galerie item=foo}
