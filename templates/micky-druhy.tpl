@@ -20,16 +20,22 @@ Míček sešitý z několika kusů textilie (koženky, kůže, ...), naplněný 
 V hračkářství lze koupit gumové míčky různých velikostí. Skáčou a jsou trochu lehčí než je potřeba.
 </p>
 
-<h3>Jevištní míček</h3>
+<a name="stage"></a><h3>Jevištní míček</h3>
 <p>
 <a href="/img/s/stage.jpg">{obrazek soubor="stage-nahled.jpg" popisek="Jevištní míček"}</a>
-Míček pro vystoupení na jevišti. Pěkně kulatý a lesklý. Neskáče.
+Míček pro vystoupení na jevišti. Pěkně kulatý a lesklý. Neskáče. Většinou se mu říká <a href="/aczslovnicek.html#stage" title="Anglicko-Český žonglérský slovníček.">stage ball</a>.
 </p>
 
 <h3>Ruský míček</h3>
 <p>
 <a href="/img/t/trany.jpg">{obrazek soubor="trany-nahled.jpg" popisek="Míček plněný pískem"}</a>
 Míček který je asi z třetiny naplněný pískem. Snadno se balancuje na hlavě a jiných částech těla. Po dopadu na zem se neodkutálí, ale zůstane na místě.
+</p>
+
+<a name="silx"></a><h3>SIL-X</h3>
+<p>
+<a href="/img/s/sil-x.jpg">{obrazek soubor="sil-x-nahled.jpg" popisek="SIL-X"}</a>
+SIL-X je asi z třetiny naplněný tekutým silikonem. Má podobné vlastnosti jako ruský míček a navíc při házení neslyšíš přesýpání písku.
 </p>
 
 <h3>Míček z balónků</h3>
