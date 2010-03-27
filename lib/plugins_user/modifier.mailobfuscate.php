@@ -2,7 +2,7 @@
 
 function smarty_modifier_mailobfuscate($string){
 	$tecka='<img src="/img/t/tecka.png" width="5" height="20" alt="tečka" />';
-	$zavinac='<img src="/img/z/zavinac.png" width="20" height="20" alt="zavináč" />';
+	$zavinac='<img src="/img/z/zavinac.serif.png" width="16" height="15" alt="zavináč" />';
 
 	$navrat='<span class="kontakt">';
 	$adr=explode('@',$string);

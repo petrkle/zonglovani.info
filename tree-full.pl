@@ -43,7 +43,7 @@ $conf::baseurl = "/";		# Set first part of any URL (leave empty if unsure)
 # List all files:
 #@conf::file_suffixes = ();
 # Only list typical web files:
-@conf::file_suffixes = ('html', 'htm', 'php');
+@conf::file_suffixes = ('html', 'htm', 'php', 'rss');
 # Only list typical multimedia files:
 #@conf::file_suffixes = ('mp3', 'wav', 'avi', 'wmv', 'mpg', 'mpeg');
 # Only list files that have no suffix:

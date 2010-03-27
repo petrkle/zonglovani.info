@@ -89,5 +89,11 @@ Cigar boxy jsou dřevěné krabičky. Dvě krajní držíš rukou a třetí mezi
 <h3>Šátky</h3>
 <p>
 {obrazek soubor="nacinin.png" popisek="Šátky"}
-Údajně snažší než míčky. Doporučované pro úplné začátečníky.
+Údajně snazší než míčky. Doporučované pro úplné začátečníky.
+</p>
+
+<a name="zvony"></a><h3>Záchodové zvony</h3>
+<p>
+{obrazek soubor="zvona.png" popisek="Záchodové zvony"}
+Se záchodovými zvony se žongluje stejně jako s kužely.
 </p>

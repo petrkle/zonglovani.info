@@ -27,12 +27,14 @@
 	<li><a href="/trenink.html">Trénink</a></li>
 	<li><a href="/vanoce-2010.html">Veselé vánoce</a></li>
 	<li><a href="/zakladni-pojmy.html">Žonglování - základní pojmy</a></li>
+	<li><a href="/zonglovani.rss">Žonglérův slabikář</a></li>
 		<li><a name="chudy"></a><a href="/chudy/">Chůdy</a>
 		
 		</li>
 		<li><a name="diskuse"></a>diskuse/
 		<ul>
 		<li><a href="/diskuse/stranka1.html">Diskuse a komentáře</a></li>
+		<li><a href="/diskuse/zpravy.rss">Diskuse o žonglování</a></li>
 		</ul>
 		</li>
 		<li><a name="horoskop"></a><a href="/horoskop/">Horoskop žonglování</a>
@@ -77,6 +79,7 @@
 		<li><a href="/kalendar/2010-05.html">Kalendář žonglování - Květen 2010</a></li>
 		<li><a href="/kalendar/2010-06.html">Kalendář žonglování - Červen 2010</a></li>
 		<li><a href="/kalendar/2010-07.html">Kalendář žonglování - Červenec 2010</a></li>
+		<li><a href="/kalendar/kalendar.rss">Kalendář žonglérských akcí</a></li>
 		<li><a href="/kalendar/rss-a-icalendar.html">Nastavení RSS a iCalendar</a></li>
 		<li><a href="/kalendar/udalost-20091205-20091205-pek-1258482472.html">Kalendář - Mikulášská fireshow</a></li>
 		<li><a href="/kalendar/udalost-20091213-20091213-pek-1253740425.html">Kalendář - Ulita</a></li>
@@ -96,6 +99,7 @@
 		<li><a href="/kalendar/udalost-20100326-20100326-pek-1267956985.html">Kalendář - Žonglování v Jihlavě</a></li>
 		<li><a href="/kalendar/udalost-20100409-20100411-pek-1266301787.html">Kalendář - Žonglérská víkendovka</a></li>
 		<li><a href="/kalendar/udalost-20100411-20100411-pek-1253740811.html">Kalendář - Ulita</a></li>
+		<li><a href="/kalendar/udalost-20100417-20100417-summer-1269243438.html">Kalendář - FLIČONGOVIL</a></li>
 		<li><a href="/kalendar/udalost-20100423-20100423-pek-1267956985.html">Kalendář - Žonglování v Jihlavě</a></li>
 		<li><a href="/kalendar/udalost-20100528-20100528-pek-1267957236.html">Kalendář - Žonglování v Jihlavě</a></li>
 		<li><a href="/kalendar/udalost-20100625-20100625-pek-1267957291.html">Kalendář - Žonglování v Jihlavě</a></li>
@@ -234,8 +238,10 @@
 		<li><a href="/lide/sigurd.html">Adam Šťastný</a></li>
 		<li><a href="/lide/spanker.html">Zbyněk Fojtík</a></li>
 		<li><a href="/lide/ssttaannaa.html">ssttaannaa</a></li>
+		<li><a href="/lide/summer.html">Summer</a></li>
 		<li><a href="/lide/suro.html">Pavel Surovy</a></li>
 		<li><a href="/lide/tommy.html">Thomas</a></li>
+		<li><a href="/lide/uzivatele.rss">Seznam žonglérů</a></li>
 		<li><a href="/lide/vitek.html">Vítek kumštýř mnoha tváří</a></li>
 		<li><a href="/lide/vokis.html">Honza</a></li>
 		<li><a href="/lide/zapomenute-heslo.php">Zapomenuté heslo</a></li>
@@ -471,6 +477,7 @@
 		</li>
 		<li><a name="obrazky"></a><a href="/obrazky/">Obrázky žonglování</a>
 		<ul>
+		<li><a href="/obrazky/obrazky.rss">Obrázky žonglování</a></li>
 			<li><a name="carodejnice-klamovka-20080422"></a><a href="/obrazky/carodejnice-klamovka-20080422/">Čarodějnice na Klamovce 2008 - obrázky žonglování</a>
 			<ul>
 			<li><a href="/obrazky/carodejnice-klamovka-20080422/0000.html">Čarodějnice na Klamovce 2008 - 0. obrázek</a></li>
@@ -1530,8 +1537,16 @@
 			</li>
 		</ul>
 		</li>
+		<li><a name="ostatni"></a>ostatni/
+		<ul>
+		<li><a href="/ostatni/changelog.rss">Změny v žonglérově slabikáři</a></li>
+		</ul>
+		</li>
 		<li><a name="tip"></a><a href="/tip/">Žonglérský tip týdne</a>
-		
+		<ul>
+		<li><a href="/tip/tip-img.rss">Žonglování - tip týdne</a></li>
+		<li><a href="/tip/tip.rss">Žonglování - tip týdne</a></li>
+		</ul>
 		</li>
 		<li><a name="ulita"></a><a href="/ulita/">Žonglování v Ulitě</a>
 		<ul>

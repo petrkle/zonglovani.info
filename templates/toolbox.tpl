@@ -8,7 +8,7 @@
 <li><a href="http://www.xfig.org" onclick="pageTracker._trackPageview('/goto/xfig.org');" class="external">xfig</a> - grafika</li>
 <li><a href="http://www.gimp.org" onclick="pageTracker._trackPageview('/goto/gimp.org');" class="external">gimp</a> - grafika</li>
 <li><a href="http://www.imagemagick.org" onclick="pageTracker._trackPageview('/goto/imagemagick.org');" class="external">ImageMagick</a> - grafika</li>
-<li><a href="http://subversion.tigris.org" onclick="pageTracker._trackPageview('/goto/subversion.tigris.org');" class="external">svn</a> - správa verzí</li>
+<li><a href="http://subversion.apache.org" onclick="pageTracker._trackPageview('/goto/subversion.apache.org');" class="external">svn</a> - správa verzí</li>
 <li><a href="http://magpierss.sourceforge.net" onclick="pageTracker._trackPageview('/goto/magpierss.sourceforge.net');" class="external">MagpieRSS</a> - RSS</li>
 <li><a href="http://nbbc.sourceforge.net" onclick="pageTracker._trackPageview('/goto/nbbc.sourceforge.net');" class="external">nbbc</a> - zpracování BB kódu</li>
 <li><a href="http://corpocrat.com/2008/08/15/free-wysiwyg-bbcode-editor-in-javascript" onclick="pageTracker._trackPageview('/goto/corpocrat.com/2008/08/15/free-wysiwyg-bbcode-editor-in-javascript');" class="external">ed.js</a> - pomůcka pro psaní BB kódu</li>

@@ -18,12 +18,13 @@
 - přidat google mapy k akcím do kalendáře, do seznamu žonglérů
 - hitparáda hodnocených stránek, aktualizace žebříčku cronem 
 - vylepšit hlavně stránky které jsou na prvních místech ve vyhledávačích
-- kvíz
+- kvíz, průvodce výběrem míčků
+- lupa u obrázků na které jde kliknout a zvětšit
 
 překreslit střihy na šití míčů jako obrázky + pdf
 rozšířit návod na výrobu míčků
 kutálení kuželek - i pro nejmenší děti
-náčiní - točicí talíř, záchodové zvony
+náčiní - točicí talíř
 žonglérské vystoupení - správný postup
 přeražení preclíku
 žonglérské obchody - tipy pro nákup
@@ -121,3 +122,4 @@ css sprites (hlavička, patička)
 hodnocení a hlasování ukazovat jen na stránkách kde je ve smartym nastavená proměnná. Např {if $feedback}hlasování a komentáře{/if}
 zmenšit odkazy na komentování a hodnocení
 schovávat hodnocení u nehodnocených stránek, palce ukazovat jenom přihlášeným uživatelům
+záchodové zvony

@@ -1,5 +1,5 @@
 <p>
-Známé též pod anglickým názvem <strong>headroll</strong>. Provedení s kuželkou je snažší než stejný trik s míčkem.
+Známé též pod anglickým názvem <strong>headroll</strong>. Provedení s kuželkou je snazší než stejný trik s míčkem.
 </p>
 
 <p>
