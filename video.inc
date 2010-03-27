@@ -31,3 +31,4 @@ c2laballe-0707*http://juggling.tv:c5d489242e60ebcbaf98*C2laballe 0707*Emmanuel P
 kopie*http://www.youtube.com/watch?v=cgtSkbl0JU4*копия*Žonglování v Rusku.
 balance-tricks-2*http://juggling.tv:aa55373822c010763dd5*Balancování kuželů*Benjamin Thompson balancuje kužely.
 club2ring*http://juggling.tv:d7083b050476733207ea*Bláznivá žehlička*Krátký příběh o tom, co provedla splašená žehlička.
+neta-oren*http://www.youtube.com/watch?v=tklOOffQ_cE*Neta Oren*Neta Oren z Izraele to s míčky opravdu umí.

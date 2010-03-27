@@ -16,22 +16,22 @@
 2010-03-22*Kalendář žonglérských akcí*/kalendar/*kalendar.png*Přehledný seznam míst, kde by správný žonglér neměl chybět. I ty můžeš přidat svojí akci.
 2010-03-29*Žonglování s vajíčky*/micky/vajicka.html*vajickaa.png*Jsou šišatá, křehká a nadělají spoustu nepořádku. Ale kdo by odolal? Navíc, za chvíli jsou tu velikonoce.
 2010-04-05*Žonglování v Ulitě*/ulita/?201013*ulita.cz.png*Poslední jarní žonglování v domě dětí a mládeže Ulita. Přijít mohou začínající i zkušení žongléři a žonglérky.
-2010-04-12*Fotky z Ulity*/obrazky/filtr/Ulita*ulita.cz.png*Fotografie z podzimního, zimního a jarního žonglování v Ulitě.
-2010-04-19*Žonglérské míčky*/micky/druhy.html*pomeranc-nahled.jpg*Pořádný míček je základ úspěchu. Pořiď si proto takové, které se ti líbí a vyhovují.
-2010-04-26*Prozkoumej žonglérův slabikář*/mapa-stranek.html*kompas.png*<a href="/mapa-stranek.html" title="Všechny stránky v žonglérově slabikáři.">Mapa stránek</a> obsahuje odkazy na všechny stránky v žonglérově slabikáři.
-2010-05-03*rec.juggling*/rec-juggling.html*rec.juggling.s.png*Celosvětová diskusní skupina o žonglování.
-2010-05-10*Výzva pro fotografy*/obrazky/*fotaka.png*Rád uveřejním i tvoje fotografie žonglování. Stačí vědět kde a kdy byly pořízené a <a href="/kontakt.html" title="Stránka s emailem.">napsat</a>. Tvoje fotky pak uvidí hodně lidí které zajímá žonglování.
-2010-05-17*Hvězda*/kuzely/passing/star.html*kuzely-passing-stara.png*Passovací trik pro <strong>5 žonglérů</strong>. Někdy se mu také říká pětiúhelník.
-2010-05-24*Neúplná hvězda*/kuzely/passing/prebihani4z11k.html*kuzely-passing-prebihani4z11kc.png*Občas není dostatek žonglérů na úplnou <a href="/kuzely/passing/star.html" title="Trik pro 5 žonglérů.">hvězdu</a> a pak je potřeba trochu běhat.
-2010-05-31*Deštník*/micky/4/destnik.html*destnikc.png*Kdo má po ruce 4 míčky, toho ani déšť nepřekvapí.
-2010-06-07*Siteswap*/siteswap.html*p4sprchac.png*Jsou to vlastně takové noty pro žonglování. Siteswap vymysleli žongléři, aby s jejich pomocí <strong>našli nové triky</strong>.
-2010-06-14*Helikoptéra*/kuzely/3/helikoptera.html*kuzely-3-helikopterac.png*Trik s kuželkou. Ale pozor, je trochu na hlavu :^)
-2010-06-21*Prechac Weaves*/video/prechac-weaves.html*prechac-weaves.jpg*Trochu propletené žonglování.
-2010-06-28*Chůdy*/chudy/*cirkusc.png*Diváci milují chůdy. Hlavně proto, že jsou zvědaví kdy chůdař spadne a šeredně si natluče. <a href="/chudy/" title="Návod na výrobu chůd.">Návod na výrobu chůd</a>.
-2010-07-05*Otáčení kuželky okolo palce*/kuzely/toceni-okolo-palce.html*tocenib.png*Trik který můžeš trénovat i v místnostech s nízkým stropem.
-2010-07-12*Literatura*/literatura.html*encyclopaedia.jpg*Přehled nejlepších knížek o žonglování.
-2010-07-19*Sloupy ve dvou*/kuzely/passing/sloupy.html*kuzely-passing-sloupyd.png*Trik pro dva žongléry se čtyřmi kužely.
-2010-07-26
+2010-04-12*Neta Oren*/video/neta-oren.html*/img/n/neta-oren-balls.jpg*Neta Oren z Izraele to s míčky opravdu umí. Uvidíš tři až sedm míčků.
+2010-04-19*Fotky z Ulity*/obrazky/filtr/Ulita*ulita.cz.png*Fotografie z podzimního, zimního a jarního žonglování v Ulitě.
+2010-04-26*Žonglérské míčky*/micky/druhy.html*pomeranc-nahled.jpg*Pořádný míček je základ úspěchu. Pořiď si proto takové, které se ti líbí a vyhovují.
+2010-05-03*Prozkoumej žonglérův slabikář*/mapa-stranek.html*kompas.png*<a href="/mapa-stranek.html" title="Všechny stránky v žonglérově slabikáři.">Mapa stránek</a> obsahuje odkazy na všechny stránky v žonglérově slabikáři.
+2010-05-10*rec.juggling*/rec-juggling.html*rec.juggling.s.png*Celosvětová diskusní skupina o žonglování.
+2010-05-17*Výzva pro fotografy*/obrazky/*fotaka.png*Rád uveřejním i tvoje fotografie žonglování. Stačí vědět kde a kdy byly pořízené a <a href="/kontakt.html" title="Stránka s emailem.">napsat</a>. Tvoje fotky pak uvidí hodně lidí které zajímá žonglování.
+2010-05-24*Hvězda*/kuzely/passing/star.html*kuzely-passing-stara.png*Passovací trik pro <strong>5 žonglérů</strong>. Někdy se mu také říká pětiúhelník.
+2010-05-31*Neúplná hvězda*/kuzely/passing/prebihani4z11k.html*kuzely-passing-prebihani4z11kc.png*Občas není dostatek žonglérů na úplnou <a href="/kuzely/passing/star.html" title="Trik pro 5 žonglérů.">hvězdu</a> a pak je potřeba trochu běhat.
+2010-06-07*Deštník*/micky/4/destnik.html*destnikc.png*Kdo má po ruce 4 míčky, toho ani déšť nepřekvapí.
+2010-06-14*Siteswap*/siteswap.html*p4sprchac.png*Jsou to vlastně takové noty pro žonglování. Siteswap vymysleli žongléři, aby s jejich pomocí <strong>našli nové triky</strong>.
+2010-06-21*Helikoptéra*/kuzely/3/helikoptera.html*kuzely-3-helikopterac.png*Trik s kuželkou. Ale pozor, je trochu na hlavu :^)
+2010-06-28*Prechac Weaves*/video/prechac-weaves.html*prechac-weaves.jpg*Trochu propletené žonglování.
+2010-07-05*Chůdy*/chudy/*cirkusc.png*Diváci milují chůdy. Hlavně proto, že jsou zvědaví kdy chůdař spadne a šeredně si natluče. <a href="/chudy/" title="Návod na výrobu chůd.">Návod na výrobu chůd</a>.
+2010-07-12*Otáčení kuželky okolo palce*/kuzely/toceni-okolo-palce.html*tocenib.png*Trik který můžeš trénovat i v místnostech s nízkým stropem.
+2010-07-19*Literatura*/literatura.html*encyclopaedia.jpg*Přehled nejlepších knížek o žonglování.
+2010-07-26*Sloupy ve dvou*/kuzely/passing/sloupy.html*kuzely-passing-sloupyd.png*Trik pro dva žongléry se čtyřmi kužely.
 2010-08-02
 2010-08-09
 2010-08-16
