@@ -78,7 +78,7 @@ Upozorňování na novinky v žonglérově slabikáři.
 
 <h3><a href="/changelog.html" title="Změny v žonglérově slabikáři.">Změny v žonglérově slabikáři</a></h3>
 <p>
-<a href="/changelog.html" title="Změny v žonglérově slabikáři.">{obrazek soubor="trenink-navodd.png" popisek="Seznam změn."}</a>
+<a href="/changelog.html" title="Změny v žonglérově slabikáři.">{obrazek soubor="budik.jpg" popisek="Seznam změn."}</a>
 Výpis změn v žonglérově slabikáři (svn&nbsp;log).
 </p>
 

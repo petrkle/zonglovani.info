@@ -23,13 +23,10 @@
         <popisek>Pak vyhoď druhý a třetí míček. První míček chytej střídavě do pravé a levé ruky.</popisek>
     </krok>
 
-		<krok>
-			<popisek>Na sloupy navazují triky jako &lt;a href=&quot;1mezi2.html&quot; title=&quot;Podobný trik se třemi míčky.&quot;&gt;jeden mezi dvěma&lt;/a&gt;, &lt;a href=&quot;1okolo2.html&quot; title=&quot;Podobný trik se třemi míčky.&quot;&gt;jeden okolo dvou&lt;/a&gt; nebo &lt;a href=&quot;1nad2.html&quot; title=&quot;Podobný trik se třemi míčky.&quot;&gt;jeden nad dvěma&lt;/a&gt;.</popisek>
-		</krok>
-
+	<dalsi>
+		<link url="1mezi2.html" title="Podobný trik se třemi míčky">Jeden mezi dvěma</link>
+		<link url="1okolo2.html" title="Podobný trik se třemi míčky">Jeden okolo dvou</link>
+		<link url="1nad2.html" title="Podobný trik se třemi míčky">Jeden nad dvěma</link>
+	</dalsi>
 
 </trik>
-
-
-
-

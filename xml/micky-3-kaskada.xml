@@ -1,16 +1,16 @@
 <?xml version="1.0"?>
 <trik>
-    <about>
-	     <nazev>Kaskáda</nazev>
-		 <pocet>3</pocet>
-	     <siteswaps>3</siteswaps>
-		 <obtiznost>snadné</obtiznost>
-		 <oblast>micky-3</oblast>
+	<about>
+		<nazev>Kaskáda</nazev>
+		<pocet>3</pocet>
+		<siteswaps>3</siteswaps>
+		<obtiznost>snadné</obtiznost>
+		<oblast>micky-3</oblast>
 	</about>
 
 	<krok>
 		<popisek>Kaskáda je nejjednodušší způsob žonglování se třemi míčky. Než se do něj pustíš nauč se &lt;a href=&quot;/micky/jak-zacit.html&quot;&gt;základy s míčky&lt;/a&gt;.</popisek>
-    </krok>
+   </krok>
 
     <krok>
         <obrazek>kaskadaa</obrazek>
@@ -29,6 +29,12 @@
 
 	<krok>
 	    <popisek>Tak a už umíš žonglovat se třemi míčky.</popisek>
-    </krok>
+  </krok>
+
+	<dalsi>
+		<link url="/micky/vyroba.html" title="Pěkné míčky na žonglování snadno a rychle">Návod na výrobu míčků</link>
+		<link url="/trenink.html" title="Tipy a triky pro trénink">Jak trénovat žonglování</link>
+		<link url="/micky/3/kaskada-reverzni.html" title="Druhý základní trik">Reverzní kaskáda</link>
+	</dalsi>
 
 </trik>

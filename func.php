@@ -24,6 +24,19 @@ function nacti_trik($soubor){
 		}
 		array_push($trik['kroky'],$foo);
 	}
+	if(isset($xml->dalsi)){
+		$trik['dalsi']=array();
+		foreach ($xml->dalsi->link as $odkaz){
+			if(isset($odkaz['url'])){
+				$url = (string) $odkaz['url'];
+				$text= (string) $odkaz;
+				$trik['dalsi'][$url]['text']=$text;
+				if(isset($odkaz['title'])){
+					$trik['dalsi'][$url]['title']= (string) $odkaz['title'];
+				}
+			}
+		}
+	}
 	return $trik;
 }
 

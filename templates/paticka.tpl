@@ -1,3 +1,11 @@
+{if $dalsi}
+<h5>Kam dál</h5>
+<ul>
+{foreach from=$dalsi item=odkaz}
+<li><a href="{$odkaz.url|escape}"{if $odkaz.title} title="{$odkaz.title|escape}"{/if}>{$odkaz.text|escape}</a></li>
+{/foreach}
+</ul>
+{/if}
 {if $feedback}
 <div class="feedback">
 {if $hodnoceni.libi!=0 or $hodnoceni.nelibi!=0 or $smarty.session.logged==true}

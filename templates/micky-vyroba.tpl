@@ -79,5 +79,3 @@ Můžeš vyzkoušet i střih ve tvaru jehlanu. Postup je obdobný.
   /      \  /      \
  /________\/________\
 </pre>
-
-<a href="#nahore" title="Přesun na začátek stránky" class="nahoru">Nahoru&nbsp;&uarr;</a>

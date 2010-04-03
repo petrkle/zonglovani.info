@@ -46,7 +46,7 @@ Když ti spadne míček, nepřestávej žonglovat.
 
 <h3><a href="/micky/poslepu.html" title="Žonglování poslepu.">Žonglování poslepu</a></h3>
 <p>
-{obrazek soubor="poslepua.png" popisek="Žonglování s kyblem na hlavě."}
+<a href="/micky/poslepu.html" title="Žonglování poslepu.">{obrazek soubor="poslepua.png" popisek="Žonglování s kyblem na hlavě."}</a>
 Může to znít neuvěřitelně, ale jde to.
 </p>
 

@@ -7,6 +7,12 @@ $smarty->assign('feedback',true);
 
 $smarty->assign('titulek',$titulek);
 
+$dalsi=array(
+	array('url'=>'/software.html','text'=>'Simulátory žonglování','title'=>'Počítačové programy které kreslí animace žonglování.'),
+	array('url'=>'/literatura.html','text'=>'Knížky o žonglování','title'=>'Seznam knížek o žonglování.')
+	);
+$smarty->assign_by_ref('dalsi',$dalsi);
+
 $trail = new Trail();
 $trail->addStep('Informace o žonglování','/ostatni.html');
 $trail->addStep($titulek);
