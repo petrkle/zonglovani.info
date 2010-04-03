@@ -2,15 +2,24 @@
 S trochou šikovnosti lze vyrobit míčky pro žonglování doma na koleně.
 </p>
 
-<h3>Míček z balónků</h3>
+<a name="tenisak"></a><h3>Míček z tenisáku</h3>
 
 <p>
-Nejsnadnější je vyrobit míček pomocí nafukovacích balónků.
+Nejsnadnější je vyrobit míček pomocí nafukovacích balónků a tenisáku.
 </p>
+<h5>Materiál</h5>
+<ul>
+<li>Tenisový míček - 3 kusy</li>
+<li>Nafukovací balonek - 10 kusů</li>
+<li>Rýže nebo proso</li>
+<li>Trychtýř</li>
+<li>Ostré nůžky</li>
+<li>Lepidlo (Chemoprén)</li>
+</ul>
 
 <p>
 <a href="/img/t/tenisak.jpg">{obrazek soubor="tenisak-nahled.jpg" popisek="Tenisový míček"}</a>
-Základem je tenisový míček. Míček na jednom místě provrtej a naplň ho sypkým materiálem. Hodí se rýže, proso a spousta dalších věcí, třeba i písek nebo korálky. Když míček naplníš zalep dírku lepidlem. Zalep jí pořádně, protože není nic horšího než písek v očích a na koberci.
+Základem je tenisový míček. Míček na jednom místě nařízni a pomocí trychtýře naplň sypkým materiálem. Hodí se rýže nebo proso. Když míček naplníš zalep dírku lepidlem.
 </p>
 
 <p>
@@ -20,15 +29,11 @@ Další věcí, kterou budeš potřebovat je nafukovací balónek. Balónku odst
 
 <p>
 {obrazek soubor="micek2.gif" popisek="Balónek navlečený na míčku."}
-Ustřižený balónek navlékni na míček. Pak ustřihni ještě jeden balónek a navlékni ho na míček tak, aby překrýval otvor v prvním balónku. Tím je míček hotov.
+Ustřižený balónek navlékni na míček. Pak ustřihni ještě dva balónky a navlékni je na míček. Vždy tak, aby překrýval otvor v předchozím balónku. Hurá, míček hotový.
 </p>
 
 <p>
-Jádro míčku nemusí tvořit tenisák. Můžeš použít jakýkoliv jiný míček. Osobně používám gumový míček z hračkářství. Je plný a skáče. Jeho jedinou vadou byl lesklý klouzavý povrch. Stačilo přes něj přetáhnout dva ustřižené balónky.
-</p>
-
-<p>
-Míček můžeš vyrobit i tak, že naplníš (rýže, proso, mák, ...) neustřižený balónek. Přes něj pak navlékneš další, už ustřižené, balónky. Takový míček se po dopadu na zem neodkutálí. Na druhou stranu není moc kulatý a při žonglování mění tvar.
+Míček můžeš vyrobit i bez tenisáků. Jako základ naplníš mikrotenový pytlík. Přes něj pak navlékneš ustřižené balónky. Takový míček se po dopadu na zem neodkutálí. Na druhou stranu není moc kulatý a při žonglování mění tvar.
 </p>
 
 
@@ -38,25 +43,24 @@ Míček můžeš vyrobit i tak, že naplníš (rýže, proso, mák, ...) neustř
 Výroba tohoto míčku je náročná. Za odměnu získáš vyšší trvanlivost. Míček je ušitý z látky, koženky nebo kůže a naplněný sypkým materiálem. Můžeš zkusit rýži, fazolky nebo i korálky.
 </p>
 
+<h5>Materiál</h5>
+<ul>
+<li>Látka</li>
+<li>Jehla a niť</li>
+<li>Rýže nebo proso</li>
+<li>Nůžky</li>
+<li>Papír a tužka</li>
+</ul>
+
+
 <p>
 Nejdřív si nakresli na papír střih. Střih tvoří šest čtverců rozměru přibližně 4x4 cm. Počítej i s okraji kterými bude látka sešitá. Střih pak obkreslíš na látku a díky tomu budou mít všechny míčky stejnou velikost. Když chceš mít míček vícebarevný vystříhej čtverečky z různých látek a sešij je dohromady. Jo, je to docela piplačka.
 </p>
 
-<pre>
-         -----
-        |     |
-        |     |
-        |     |
-   ----- ----- ----- -----
-  |     |     |     |     |
-  |     |     |     |     |
-  |     |     |     |     |
-   ----- ----- ----- -----
-        |     |
-        |     |
-        |     |     
-         -----  
-</pre>
+<h5>Střih na míček z látky</h5>
+<p>
+{obrazek soubor="micky-striha.png" popisek="Střih na míček z látky"}
+</p>
 
 <p>
 Látku sešij okraji k sobě tak, aby tvořila krychli. Není potřeba žádný speciální steh, ale nech alespoň 0.5 cm okraj. To proto, aby se látka nevytrhla když míček spadne na zem. Když už máš všechny švy a zbývá jenom malinká dírka míček otoč naruby. Nepěkné okraje se schovají dovnitř. Pak stačí už jenom míček naplnit a zašít zbývající dírku.
@@ -65,17 +69,5 @@ Látku sešij okraji k sobě tak, aby tvořila krychli. Není potřeba žádný 
 
 <p>
 Můžeš vyzkoušet i střih ve tvaru jehlanu. Postup je obdobný.
+{obrazek soubor="micky-strihb.png" popisek="Střih na míček z látky"}
 </p>
-
-<pre>
-          /\
-         /  \
-        /    \
-       /      \
-      /________\
-     /\        /\
-    /  \      /  \
-   /    \    /    \
-  /      \  /      \
- /________\/________\
-</pre>

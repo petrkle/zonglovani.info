@@ -1,6 +1,12 @@
 <?xml version="1.0"?>
 <log>
 <logentry
+   revision="265">
+<author>petr</author>
+<date>2010-04-03T19:42:43.680999Z</date>
+<msg>Odkazy mazi stránkami - kam dál.</msg>
+</logentry>
+<logentry
    revision="264">
 <author>petr</author>
 <date>2010-03-27T22:57:40.931099Z</date>
