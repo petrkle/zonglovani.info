@@ -351,12 +351,6 @@
    </url>
 			
    <url>
-      <loc>http://zonglovani.info/kalendar/2009-11.html</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.6</priority>
-   </url>
-			
-   <url>
       <loc>http://zonglovani.info/kalendar/2009-12.html</loc>
       <changefreq>weekly</changefreq>
       <priority>0.6</priority>
@@ -375,7 +369,7 @@
    </url>
 			
    <url>
-      <loc>http://zonglovani.info/kalendar/2010-04.html</loc>
+      <loc>http://zonglovani.info/kalendar/2010-03.html</loc>
       <changefreq>weekly</changefreq>
       <priority>0.6</priority>
    </url>
@@ -399,6 +393,12 @@
    </url>
 			
    <url>
+      <loc>http://zonglovani.info/kalendar/2010-08.html</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.6</priority>
+   </url>
+			
+   <url>
       <loc>http://zonglovani.info/kalendar/kalendar.rss</loc>
       <changefreq>weekly</changefreq>
       <priority>0.6</priority>
@@ -408,18 +408,6 @@
       <loc>http://zonglovani.info/kalendar/rss-a-icalendar.html</loc>
       <changefreq>weekly</changefreq>
       <priority>0.6</priority>
-   </url>
-			
-   <url>
-      <loc>http://zonglovani.info/kalendar/udalost-20091205-20091205-pek-1258482472.html</loc>
-      <changefreq>monthly</changefreq>
-      <priority>0.7</priority>
-   </url>
-			
-   <url>
-      <loc>http://zonglovani.info/kalendar/udalost-20091213-20091213-pek-1253740425.html</loc>
-      <changefreq>monthly</changefreq>
-      <priority>0.7</priority>
    </url>
 			
    <url>
@@ -538,6 +526,18 @@
 			
    <url>
       <loc>http://zonglovani.info/kalendar/udalost-20100625-20100625-pek-1267957291.html</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.7</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/kalendar/udalost-20100705-20100711-pek-1268070475.html</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.7</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/kalendar/udalost-20100724-20100801-pek-1267957805.html</loc>
       <changefreq>monthly</changefreq>
       <priority>0.7</priority>
    </url>
@@ -7882,6 +7882,12 @@
 			
    <url>
       <loc>http://zonglovani.info/video/more-or-less.html</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/video/neta-oren.html</loc>
       <changefreq>monthly</changefreq>
       <priority>0.4</priority>
    </url>

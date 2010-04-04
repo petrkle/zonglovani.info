@@ -11,6 +11,13 @@ $trail = new Trail();
 $trail->addStep('Kužely','/kuzely/');
 $trail->addStep($titulek);
 
+$dalsi=array(
+	array('url'=>'/kuzely/3/kaskada.html','text'=>'Kaskáda se třemi kužely','title'=>'Nejjednodušší způsob žonglování'),
+	array('url'=>'/kuzely/vyroba.html','text'=>'Výroba kuželů na žonglování','title'=>'Jak vyrobit pěkné a levné kužely na žonglování'),
+	array('url'=>'/trenink.html','text'=>'Jak trénovat žonglování','title'=>'Tipy a triky pro trénink'),
+	);
+$smarty->assign_by_ref('dalsi',$dalsi);
+
 $smarty->assign_by_ref('trail', $trail->path);
 $smarty->display('hlavicka.tpl');
 $smarty->display('kuzely-jak-zacit.tpl');

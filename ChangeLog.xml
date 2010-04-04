@@ -1,6 +1,12 @@
 <?xml version="1.0"?>
 <log>
 <logentry
+   revision="267">
+<author>petr</author>
+<date>2010-04-04T07:53:50.864029Z</date>
+<msg>Odkazy mezi dokumenty - passing</msg>
+</logentry>
+<logentry
    revision="266">
 <author>petr</author>
 <date>2010-04-03T20:32:22.228456Z</date>

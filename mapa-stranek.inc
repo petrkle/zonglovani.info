@@ -144,7 +144,7 @@
 			<li><a href="/kuzely/passing/pps.html">Passing - PPS - pass pass self</a></li>
 			<li><a href="/kuzely/passing/pravidla.html">Passing - Pravidla passování</a></li>
 			<li><a href="/kuzely/passing/prebihani4z11k.html">Passing - Přebíhání - 11 kuželů 4 žongléři</a></li>
-			<li><a href="/kuzely/passing/prebihani5z14k.html">Passing - Přebíhání - 14 kuželů 5 žongléřů</a></li>
+			<li><a href="/kuzely/passing/prebihani5z14k.html">Passing - Přebíhání - 14 kuželů 5 žonglérů</a></li>
 			<li><a href="/kuzely/passing/ps.html">Passing - PS - pass self</a></li>
 			<li><a href="/kuzely/passing/psspspps.html">Passing - Pass self self pass self pass pass self</a></li>
 			<li><a href="/kuzely/passing/rotor.html">Passing - Rotor</a></li>
@@ -403,6 +403,7 @@
 		<li><a href="/video/liquid-crystal-live.html">Matt Hennem - Liquid Crystal live</a></li>
 		<li><a href="/video/lost-tapes-minneapolis.html">The Lost Tapes of Minneapolis</a></li>
 		<li><a href="/video/more-or-less.html">More or less juggling</a></li>
+		<li><a href="/video/neta-oren.html">Neta Oren</a></li>
 		<li><a href="/video/passing-zone.html">The Passing Zone</a></li>
 		<li><a href="/video/prechac-weaves.html">Prechac Weaves</a></li>
 		<li><a href="/video/stepz.html">Stepz</a></li>

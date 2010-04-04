@@ -71,18 +71,16 @@
 		</li>
 		<li><a name="kalendar"></a><a href="/kalendar/">Kalendář žonglování</a>
 		<ul>
-		<li><a href="/kalendar/2009-11.html">Kalendář žonglování - Listopad 2009</a></li>
 		<li><a href="/kalendar/2009-12.html">Kalendář žonglování - Prosinec 2009</a></li>
 		<li><a href="/kalendar/2010-01.html">Kalendář žonglování - Leden 2010</a></li>
 		<li><a href="/kalendar/2010-02.html">Kalendář žonglování - Únor 2010</a></li>
-		<li><a href="/kalendar/2010-04.html">Kalendář žonglování - Duben 2010</a></li>
+		<li><a href="/kalendar/2010-03.html">Kalendář žonglování - Březen 2010</a></li>
 		<li><a href="/kalendar/2010-05.html">Kalendář žonglování - Květen 2010</a></li>
 		<li><a href="/kalendar/2010-06.html">Kalendář žonglování - Červen 2010</a></li>
 		<li><a href="/kalendar/2010-07.html">Kalendář žonglování - Červenec 2010</a></li>
+		<li><a href="/kalendar/2010-08.html">Kalendář žonglování - Srpen 2010</a></li>
 		<li><a href="/kalendar/kalendar.rss">Kalendář žonglérských akcí</a></li>
 		<li><a href="/kalendar/rss-a-icalendar.html">Nastavení RSS a iCalendar</a></li>
-		<li><a href="/kalendar/udalost-20091205-20091205-pek-1258482472.html">Kalendář - Mikulášská fireshow</a></li>
-		<li><a href="/kalendar/udalost-20091213-20091213-pek-1253740425.html">Kalendář - Ulita</a></li>
 		<li><a href="/kalendar/udalost-20100110-20100110-pek-1253740481.html">Kalendář - Ulita</a></li>
 		<li><a href="/kalendar/udalost-20100124-20100124-pek-1253740517.html">Kalendář - Ulita</a></li>
 		<li><a href="/kalendar/udalost-20100127-20100127-pek-1264452366.html">Kalendář - Žonglování na Klamovce</a></li>
@@ -103,6 +101,8 @@
 		<li><a href="/kalendar/udalost-20100423-20100423-pek-1267956985.html">Kalendář - Žonglování v Jihlavě</a></li>
 		<li><a href="/kalendar/udalost-20100528-20100528-pek-1267957236.html">Kalendář - Žonglování v Jihlavě</a></li>
 		<li><a href="/kalendar/udalost-20100625-20100625-pek-1267957291.html">Kalendář - Žonglování v Jihlavě</a></li>
+		<li><a href="/kalendar/udalost-20100705-20100711-pek-1268070475.html">Kalendář - Oheň a pohyb</a></li>
+		<li><a href="/kalendar/udalost-20100724-20100801-pek-1267957805.html">Kalendář - European Juggling Convention</a></li>
 		</ul>
 		</li>
 		<li><a name="kruhy"></a><a href="/kruhy/">Žonglování s kruhy</a>
@@ -183,7 +183,7 @@
 			<li><a href="/kuzely/passing/pps.html">Passing - PPS - pass pass self</a></li>
 			<li><a href="/kuzely/passing/pravidla.html">Passing - Pravidla passování</a></li>
 			<li><a href="/kuzely/passing/prebihani4z11k.html">Passing - Přebíhání - 11 kuželů 4 žongléři</a></li>
-			<li><a href="/kuzely/passing/prebihani5z14k.html">Passing - Přebíhání - 14 kuželů 5 žongléřů</a></li>
+			<li><a href="/kuzely/passing/prebihani5z14k.html">Passing - Přebíhání - 14 kuželů 5 žonglérů</a></li>
 			<li><a href="/kuzely/passing/ps.html">Passing - PS - pass self</a></li>
 			<li><a href="/kuzely/passing/psspspps.html">Passing - Pass self self pass self pass pass self</a></li>
 			<li><a href="/kuzely/passing/rotor.html">Passing - Rotor</a></li>
@@ -1581,6 +1581,7 @@
 		<li><a href="/video/liquid-crystal-live.html">Matt Hennem - Liquid Crystal live</a></li>
 		<li><a href="/video/lost-tapes-minneapolis.html">The Lost Tapes of Minneapolis</a></li>
 		<li><a href="/video/more-or-less.html">More or less juggling</a></li>
+		<li><a href="/video/neta-oren.html">Neta Oren</a></li>
 		<li><a href="/video/passing-zone.html">The Passing Zone</a></li>
 		<li><a href="/video/prechac-weaves.html">Prechac Weaves</a></li>
 		<li><a href="/video/stepz.html">Stepz</a></li>
