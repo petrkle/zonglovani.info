@@ -32,6 +32,12 @@ Trik který můžeš cvičit i v místnostech s nízkým stropem.
 S kužely se nemusí jenom házet.
 </p>
 
+<h3><a href="/kuzely/konstrukce.html" title="Co je uvnitř.">Konstrukce kuželu</a></h3>
+<p>
+<a href="/kuzely/konstrukce.html" title="Co je uvnitř.">{obrazek soubor="kuzel-konstrukce-s.png" popisek="Konstrukce kuželu."}</a>
+Jak vypadá kužel uvnitř.
+</p>
+
 <h3><a href="/kuzely/rotace.html" title="Rotace kuželu.">Rotace kuželu</a></h3>
 <p>
 Základní způsoby házení kuželu.
@@ -45,11 +51,6 @@ Jak držet v jedné ruce dva kužely.
 <h3><a href="/kuzely/kickup.html" title="Zvednutí kuželu nohou.">Zvednutí kuželu nohou</a></h3>
 <p>
 Už se nebudeš muset shýbat pro spadlé kužely.
-</p>
-
-<h3><a href="/kuzely/konstrukce.html" title="Co je uvnitř.">Konstrukce kuželu</a></h3>
-<p>
-Jak vypadá kužel uvnitř.
 </p>
 
 <h3><a href="/kuzely/vyroba.html" title="Výroba kuželů na žonglování.">Výroba kuželů</a></h3>

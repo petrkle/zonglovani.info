@@ -86,5 +86,3 @@ Ohnivé kužely nejsou stavěné na nepřetržité hoření. Mezi jednotlivýmí
 <p>
 Pokročilí žongléři můžou s ohněm i <a href="/kuzely/passing/" title="Žonglování více lidí">passovat</a>.
 </p>
-
-<a href="#nahore" title="Přesun na začátek stránky." class="nahoru">Nahoru&nbsp;&uarr;</a>

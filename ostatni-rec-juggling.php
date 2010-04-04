@@ -6,6 +6,12 @@ $titulek='rec.juggling';
 $smarty->assign('titulek',$titulek);
 $smarty->assign('feedback',true);
 
+$dalsi=array(
+	array('url'=>'/odkazy.html','text'=>'Žonglování na síti','title'=>'Odkazy na stránky věnované žonglování'),
+	array('url'=>'/aczslovnicek.html','text'=>'Žonglérský slovníček','title'=>'Anglicko-český žonglérský slovníček'),
+	);
+$smarty->assign_by_ref('dalsi',$dalsi);
+
 $trail = new Trail();
 $trail->addStep('Informace o žonglování','/ostatni.html');
 $trail->addStep($titulek);

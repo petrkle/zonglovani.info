@@ -28,4 +28,9 @@
 				<popisek>Tvé ruce jsou na okamžik prázdné. Tuto pauzu lze využít například k tlesknutí nebo &lt;a href=&quot;../pirueta.html&quot; title=&quot;Otočení o 360 stupňů.&quot;&gt;piruetě&lt;/a&gt;.</popisek>
     </krok>
 
+	<dalsi>
+		<link url="/micky/pirueta.html" title="Otočení při žonglování">Pirueta</link>
+		<link url="/micky/5/kaskada.html" title="Obtížný trik s pěti míčky">Kaskáda s pěti míčky</link>
+	</dalsi>
+
 </trik>

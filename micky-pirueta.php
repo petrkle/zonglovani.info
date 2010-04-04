@@ -7,6 +7,12 @@ $smarty->assign('feedback',true);
 
 $smarty->assign('titulek',$titulek);
 
+$dalsi=array(
+	array('url'=>'/micky/3/blesk.html','text'=>'Blesk','title'=>'Rychlé vyhození tří míčků'),
+	array('url'=>'/kuzely/passing/rychla-otocka.html','text'=>'Rychlá otočka','title'=>'Rychlá otočka při passování s kužely'),
+	);
+
+$smarty->assign_by_ref('dalsi',$dalsi);
 $trail = new Trail();
 $trail->addStep('Míčky','/micky/');
 $trail->addStep($titulek);

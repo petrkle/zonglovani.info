@@ -6,7 +6,6 @@
 - rozepsat možnosti diskuse, bazar
 - tapety na plochu
 - přihlášeným uživatelům nabízet formulář pro zaslání vzkazu (mě)
-- doplnit odkazy "Kam dál" ala yahů - u triků, videí, galerií
 - udělat od jednotlivých obrázků žonglování odkazy na příslušné triky
 - asynchronní verze GA - http://code.google.com/intl/cs/apis/analytics/docs/tracking/asyncTracking.html
 - téma a rozšíření pro chromium
@@ -17,7 +16,6 @@
 - odhad města podle IP adresy
 - přidat google mapy k akcím do kalendáře, do seznamu žonglérů
 - hitparáda hodnocených stránek, aktualizace žebříčku cronem 
-- vylepšit hlavně stránky které jsou na prvních místech ve vyhledávačích
 - kvíz, průvodce výběrem míčků
 
 sáčky, obaly a baťohy na míčky, kužely a další žonglovátka
@@ -36,4 +34,5 @@ výzdoba kuželů
 
 HOTOVO
 ======
-
+doplnit odkazy "Kam dál" ala yahů 
+vylepšit hlavně stránky které jsou na prvních místech ve vyhledávačích

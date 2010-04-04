@@ -35,4 +35,10 @@
 		<popisek>Zaměř se na správný rytmus a plynulost provedení.</popisek>
     </krok>
 
+	<dalsi>
+		<link url="/micky/sbirani.html" title="Když ti spadne míček, nepřestávej žonglovat">Sbírání spadlých míčků</link>
+		<link url="/micky/kick-up.html" title="Elegantní způsob jak zvednout míček ze země">Zvednutí míčku nohou</link>
+		<link url="/micky/drop.html" title="Co dělat když ti spadne míček na zem">Míčky na zemi</link>
+	</dalsi>
+
 </trik>

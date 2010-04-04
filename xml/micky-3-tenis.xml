@@ -33,4 +33,10 @@
         <popisek>A pokračuješ dál s prvním míčkem. Ten musíš hodit jako při reverzní kaskádě, vrchem.</popisek>
     </krok>
 
+	<dalsi>
+		<link url="/micky/3/tenis-2v1.html" title="Kombinace 2 v 1 s tenisem">2 v 1 tenis</link>
+		<link url="/micky/3/kaskada.html" title="Žonglování se třemi míčky">Kaskáda</link>
+		<link url="/micky/3/kaskada-reverzni.html" title="Druhý základní trik">Reverzní kaskáda</link>
+	</dalsi>
+
 </trik>

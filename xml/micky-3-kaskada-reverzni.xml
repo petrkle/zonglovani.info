@@ -28,4 +28,10 @@
         <popisek>A když je druhý míček na vrcholu své dráhy hoď pravou rukou třetí míček.</popisek>
     </krok>
 
+	<dalsi>
+		<link url="/micky/jak-zacit.html" title="Základy s míčky">Jak začít žonglovat s míčky</link>
+		<link url="/micky/3/kaskada.html" title="Žonglování se třemi míčky">Kaskáda</link>
+		<link url="/micky/3/kaskada-reverzni-siroka.html" title="Široká reverzní kaskáda">Reverzní kaskáda široká</link>
+	</dalsi>
+
 </trik>
