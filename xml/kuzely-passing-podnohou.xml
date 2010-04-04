@@ -26,5 +26,10 @@
 			<popisek>Tento trik vypadá velmi pěkně při synchronizovaném provedení.</popisek>
     </krok>
 
+	<dalsi>
+		<link url="/kuzely/passing/zrychlena-dvojka.html" title="Trik pro ozvláštnění 2 count nebo 4 count">Zrychlená dvojka</link>
+		<link url="/kuzely/passing/hody.html" title="Kužely lze házet mnoha různými způsoby">Druhy hodů při passování</link>
+		<link url="/kuzely/passing/rychla-otocka.html" title="Rychlé otoční při passingu">Rychlá otočka</link>
+	</dalsi>
 
 </trik>

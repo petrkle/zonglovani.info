@@ -37,4 +37,10 @@
 	<krok>
 		<popisek>Dál se střídáte ve vyhazování a chytání dvou krajních kuželů. Ty létají společně nahoru a dolů.</popisek>
 	</krok>
+
+	<dalsi>
+		<link url="/kuzely/passing/australsky-trik.html" title="Trik který pochází až z daleké austrálie">Australský trik</link>
+		<link url="/kuzely/passing/runarounds.html" title="Obíhačka se třemi kužely">Obíhání</link>
+		<link url="/kuzely/passing/pivo.html" title="POZOR! Tento trik je pouze pro starší osmnácti let.">Passování s pivem</link>
+	</dalsi>
 </trik>

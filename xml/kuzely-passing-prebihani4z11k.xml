@@ -34,5 +34,10 @@
 			<popisek>V dalším kroku přeběhne žonglér &lt;b&gt;C&lt;/b&gt; kterému zbudou jen dva kužely. Pak už se cyklus opakuje podle prvního obrázku.</popisek>
     </krok>
 
+	<dalsi>
+		<link url="/kuzely/passing/star.html" title="Základní trik pro pět žonglérů">Hvězda</link>
+		<link url="/kuzely/passing/prebihani5z14k.html" title="Běhavý trik pro pět žonglérů">Přebíhání - 14 kuželů 5 žonglérů</link>
+		<link url="/kuzely/passing/bostoncircle.html" title="Trik při kterém passuje každý s každým">Boston circle</link>
+	</dalsi>
 
 </trik>

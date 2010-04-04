@@ -44,5 +44,8 @@
 			<popisek>Dál pokračuj podle &lt;a href=&quot;#first&quot; title=&quot;Začátek triku.&quot;&gt;prvního obrázku&lt;/a&gt;.</popisek>
     </krok>
 
+	<dalsi>
+		<link url="/kuzely/passing/ypsilon.html" title="Jednodušší varianta">Ypsilon</link>
+	</dalsi>
 
 </trik>

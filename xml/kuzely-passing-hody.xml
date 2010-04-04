@@ -55,6 +55,10 @@
 			<popisek>Kužel neházíš vedle nohy, ale pod ní.</popisek>
     </krok>
 
-
+	<dalsi>
+		<link url="/kuzely/passing/synchronizace.html" title="Při passování je potřeba sladit první hod. ">Synchronizace prvního hodu</link>
+		<link url="/kuzely/passing/pickup.html" title="Jednoduchý trik který ti dovolí passovat celé dny bez přestávky. ">Zvednutí spadlého kuželu</link>
+		<link url="/kuzely/passing/pravidla.html" title="Základní pravidla pro passing">Pravidla passování</link>
+	</dalsi>
 
 </trik>

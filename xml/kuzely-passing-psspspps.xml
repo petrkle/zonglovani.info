@@ -42,5 +42,11 @@ pass - self - self - pass - self - pass - pass - self</pre>
 		<popisek>Následuje pass z levé ruky. Jeden self, dva passy za sebou a self. Pak se celý trik opakuje.</popisek>
 	</krok>
 
+	<dalsi>
+		<link url="/kuzely/passing/1count.html" title="Každý hod je pass">1 count</link>
+		<link url="/kuzely/passing/ps.html" title="PS">Pass self</link>
+		<link url="/kuzely/passing/pps.html" title="PPS">Pass pass self</link>
+	</dalsi>
+
 
 </trik>

@@ -44,6 +44,11 @@
 			<popisek>Pak se celý cyklus opakuje od prvího obrázku</popisek>
     </krok>
 
+	<dalsi>
+		<link url="/kuzely/passing/rotor.html" title="Tři žongléři stojí do trojúhelníku. Čtvrtý žonglér je mezi nimy a otáčí se.">Rotor</link>
+		<link url="/kuzely/passing/lichobeznik.html" title="Trik pro čtyři žongléry a dvanáct kuželů">Lichoběžník</link>
+		<link url="/kuzely/passing/prebihani4z11k.html" title="Přebíhání s kužely">Přebíhání - 11 kuželů 4 žongléři</link>
+	</dalsi>
 
 
 </trik>

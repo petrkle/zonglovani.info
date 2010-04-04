@@ -57,6 +57,10 @@
 			<popisek>Na čtvrtou dobu hází &lt;b&gt;A&lt;/b&gt; i &lt;b&gt;B&lt;/b&gt; pass. Dál pokračují jako by jim nic nespadlo.</popisek>
     </krok>
 
+	<dalsi>
+		<link url="/kuzely/passing/pravidla.html" title="Základní pravidla passování">Pravidla passování</link>
+		<link url="/kuzely/passing/4count.html" title="Základní způsob passování">4 count</link>
+	</dalsi>
 
 
 </trik>

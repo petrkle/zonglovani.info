@@ -40,6 +40,12 @@ pass - raz - dva - pass - raz - dva - pass ...</pre>
 			<popisek>Jako trénink zkus házet &lt;a href=&quot;4count.html&quot; title=&quot;Základ passování.&quot;&gt;4 count&lt;/a&gt; levou rukou.</popisek>
     </krok>
 
+	<dalsi>
+		<link url="/kuzely/passing/4count.html" title="Základní způsob passování">4 count</link>
+		<link url="/kuzely/passing/2count.html" title="Rychlejší passing">2 count</link>
+		<link url="/kuzely/passing/1count.html" title="Každý hod je pass">1 count</link>
+		<link url="/kuzely/passing/pps.html" title="PPS">Pass pass self</link>
+	</dalsi>
 
 
 </trik>

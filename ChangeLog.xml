@@ -1,10 +1,20 @@
 <?xml version="1.0"?>
 <log>
 <logentry
+   revision="266">
+<author>petr</author>
+<date>2010-04-03T20:32:22.228456Z</date>
+<msg>Vylepšení návodu na výrobu míčků</msg>
+<revprops>
+<property
+   name="svn:link">/micky/vyroba.html</property>
+</revprops>
+</logentry>
+<logentry
    revision="265">
 <author>petr</author>
 <date>2010-04-03T19:42:43.680999Z</date>
-<msg>Odkazy mazi stránkami - kam dál.</msg>
+<msg>Odkazy mezi stránkami - kam dál.</msg>
 </logentry>
 <logentry
    revision="264">

@@ -49,5 +49,11 @@
 			<popisek>Jako jednoduší variantu můžeš vyzkoušet &lt;a href=&quot;vymeny.html&quot; title=&quot;Podobný trik.&quot;&gt;výměny ve čtvercích&lt;/a&gt;.</popisek>
     </krok>
 
+	<dalsi>
+		<link url="vymeny.html" title="Podobný trik">Výměny ve čtvercích</link>
+		<link url="/kuzely/passing/rypsilon.html" title="Obtížnější varianta tohoto triku">Rotující Y</link>
+		<link url="/kuzely/passing/4count.html" title="Základní způsob passování">4 count</link>
+	</dalsi>
+
 
 </trik>

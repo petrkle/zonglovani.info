@@ -60,4 +60,10 @@
 		<popisek>Dál pokračuj podle prvního obrázku.</popisek>
 	</krok>
 
+	<dalsi>
+		<link url="/kuzely/passing/ps.html" title="PS">Pass self</link>
+		<link url="/kuzely/passing/1count.html" title="Každý hod je pass">1 count</link>
+		<link url="/kuzely/passing/7clubs.html" title="Sedm kuželů na dvě otočky">7 kuželů</link>
+	</dalsi>
+
 </trik>

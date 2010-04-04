@@ -30,4 +30,11 @@
 			<popisek>Druhý žonglér si vezme podávanou kuželku a ty zároveň chytáš do levé ruky jeho pass.</popisek>
     </krok>
 
+	<dalsi>
+		<link url="/kuzely/passing/rychla-otocka.html" title="Otočení při passingu">Rychlá otočka</link>
+		<link url="/kuzely/passing/pomala-otocka.html" title="Při házení 4 count je dostatek času i na otočku">Pomalá otočka</link>
+		<link url="/kuzely/passing/podnohou.html" title="Házení kuželky pod nohou">Pass pod nohou</link>
+		<link url="/kuzely/passing/zrychlena-dvojka.html" title="Trik pro ozvláštnění 2 count nebo 4 count">Zrychlená dvojka</link>
+	</dalsi>
+
 </trik>

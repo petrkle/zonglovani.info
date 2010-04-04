@@ -2,7 +2,7 @@
 <trik>
 
     <about>
-	     <nazev>Přebíhání - 14 kuželů 5 žongléřů</nazev>
+	     <nazev>Přebíhání - 14 kuželů 5 žonglérů</nazev>
 		 <pocet>11</pocet>
 	     <siteswaps>-</siteswaps>
 		 <obtiznost>snadné</obtiznost>
@@ -29,6 +29,12 @@
     <krok>
 			<popisek>Tak se postupně prostřídají všichni žongléri. Všechny passy jsou ob dvě pozice, a mezi stejnými lidmi</popisek>
     </krok>
+
+	<dalsi>
+		<link url="/kuzely/passing/prebihani4z11k.html" title="Přebíhání s kužely">Přebíhání - 11 kuželů 4 žongléři</link>
+		<link url="/kuzely/passing/rotor.html" title="Tři žongléři stojí do trojúhelníku. Čtvrtý žonglér je mezi nimy a otáčí se.">Rotor</link>
+		<link url="/kuzely/passing/bostoncircle.html" title="Trik při kterém passuje každý s každým">Boston circle</link>
+	</dalsi>
 
 
 </trik>

@@ -32,9 +32,14 @@
     </krok>
 
     <krok>
-			<popisek>V dalším  kroku si opět vyměníte místa. Složitější varianta tohoto triku se jmenuje &lt;a href=&quot;squares.html&quot; title=&quot;Podobný trik.&quot;&gt;rotující čtverce&lt;/a&gt;.</popisek>
+			<popisek>V dalším  kroku si opět vyměníte místa.</popisek>
     </krok>
 
+	<dalsi>
+		<link url="/kuzely/passing/box.html" title="Jednoduchý trik pro čtyři žongléry">Čtverec</link>
+		<link url="squares.html" title="Podobný trik">Rotující čtverce</link>
+		<link url="/kuzely/passing/4count.html" title="Základní způsob passování">4 count</link>
+	</dalsi>
 
 
 </trik>
