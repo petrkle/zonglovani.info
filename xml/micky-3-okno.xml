@@ -32,4 +32,9 @@
 			<popisek>Dál pokračuj jako na posledních dvou obrázcích. Když přidáš ještě jeden míček vznikne &lt;a href=&quot;../4/destnik.html&quot; title=&quot;Trik se čtyřmi míčky.&quot;&gt;deštník&lt;/a&gt;.</popisek>
     </krok>
 
+	<dalsi>
+		<link url="/micky/4/destnik.html" title="Trik se čtyřmi míčky">Deštník</link>
+		<link url="/micky/3/sloupy.html" title="Házení míčků rovně nahoru">Sloupy</link>
+	</dalsi>
+
 </trik>

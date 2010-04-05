@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <trik>
 
-    <about>
-	     <nazev>Čáp</nazev>
-		 <pocet>3</pocet>
-	     <siteswaps>-</siteswaps>
-		 <obtiznost>náročné</obtiznost>
-		 <oblast>micky-3</oblast>
+	<about>
+		<nazev>Čáp</nazev>
+		<pocet>3</pocet>
+		<siteswaps>-</siteswaps>
+		<obtiznost>náročné</obtiznost>
+		<oblast>micky-3</oblast>
 	</about>
 
 	<krok>
@@ -38,9 +38,11 @@
 			<popisek>Trik vypadá dobře, když hážeš míčky z pravé i levé ruky do stejné výšky a v pravidelném rytmu. V ideálním případě by nemělo být znát, že z jedné strany házíš míčky pod nohou.</popisek>
 		</krok>
 
-		<krok>
-				<popisek>Můžeš zkusit napodobit i další zvířátka. Třeba &lt;a href=&quot;zirafa.html&quot; title=&quot;Trik se třemi míčky.&quot;&gt;žirafu&lt;/a&gt;, &lt;a href=&quot;klokan.html&quot; title=&quot;Trik se třemi míčky.&quot;&gt;klokana&lt;/a&gt; nebo &lt;a href=&quot;orangutan.html&quot; title=&quot;Trik se třemi míčky.&quot;&gt;orangutana&lt;/a&gt;.</popisek>
-    </krok>
-
+	<dalsi>
+		<link url="/micky/3/noha.html" title="Hoď si míček pod nohou">Prohození míčku pod nohou</link>
+		<link url="/micky/3/zirafa.html" title="Žirafa je vlastně poloviční sprcha s jednou rukou nahoře">Žirafa</link>
+		<link url="/micky/3/klokan.html" title="Tak se žongluje v Austrálii">Klokan</link>
+		<link url="/micky/3/orangutan.html" title="Tento trik sice není až tak žonglování, ale publikum zaručeně pobaví">Orangutan</link>
+	</dalsi>
 	
 </trik>

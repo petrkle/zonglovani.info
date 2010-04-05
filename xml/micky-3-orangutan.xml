@@ -29,8 +29,13 @@
     </krok>
  
     <krok>
-			<popisek>Při přendavání míčků můžeš i vydávat zvuky jako orangutan. Úgg, Grrr a tak podobně. Pokud tě to zaujalo, můžeš zkusit napodobit i další zvířátka. Třeba &lt;a href=&quot;zirafa.html&quot; title=&quot;Trik se třemi míčky.&quot;&gt;žirafu&lt;/a&gt;, &lt;a href=&quot;klokan.html&quot; title=&quot;Trik se třemi míčky.&quot;&gt;klokana&lt;/a&gt; nebo &lt;a href=&quot;cap.html&quot; title=&quot;Trik se třemi míčky.&quot;&gt;čápa&lt;/a&gt;.</popisek>
+			<popisek>Při přendavání míčků můžeš i vydávat zvuky jako orangutan. Úgg, Grrr a tak podobně.</popisek>
     </krok>
 
+	<dalsi>
+		<link url="/micky/3/klokan.html" title="Tak se žongluje v Austrálii">Klokan</link>
+		<link url="/micky/3/zirafa.html" title="Žirafa je vlastně poloviční sprcha s jednou rukou nahoře">Žirafa</link>
+		<link url="/micky/3/cap.html" title="Stojí na jedné noze a žongluje">Čáp</link>
+	</dalsi>
 		
 </trik>

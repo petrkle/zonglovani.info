@@ -53,5 +53,10 @@
         <obrazek>micky-3-bmi</obrazek>
 				<popisek>Z levé ruky vyhodíš druhý míček. Pravá ruka chytá třetí míček.</popisek>
     </krok>
+	<dalsi>
+		<link url="/micky/3/sloupy.html" title="Házení míčků rovně nahoru">Sloupy</link>
+		<link url="/micky/3/mm.html" title="Millsův nepořádek">Mills' mess</link>
+		<link url="/micky/3/mm-falesne.html" title="Jednodušší varianta Mills' messu">Falešné mills' mess</link>
+	</dalsi>
 
 </trik>

@@ -33,8 +33,10 @@
         <popisek>Druhý míček se vrací obloukem zpět do pravé ruky. Zatím co letí zachytíš zpět do levé ruky třetí míček.</popisek>
     </krok>
 
-		<krok>
-			<popisek>Až trik zvládneš, můžeš pokračovat &lt;a href=&quot;1nad2.html&quot; title=&quot;Podobný trik se třemi míčky.&quot;&gt;jedením nad dvěma&lt;/a&gt;.</popisek>
-		</krok>
+	<dalsi>
+		<link url="/micky/3/1nad2.html" title="Kombinace sloupů s tenisem">Jeden nad dvěma</link>
+		<link url="/micky/3/sloupy.html" title="Házení míčků rovně nahoru">Sloupy</link>
+		<link url="/micky/3/tenis.html" title="Tenis je kombinace kaskády s reverzní kaskádou">Tenis</link>
+	</dalsi>
 		
 </trik>

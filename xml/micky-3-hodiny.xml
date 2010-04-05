@@ -39,5 +39,10 @@
 			<popisek>Do pravé ruky zachytíš třetí míček, do levé druhý. Můžeš pokračovat dál podle prvního obrázku.</popisek>
     </krok>
 
+	<dalsi>
+		<link url="/micky/3/orbit.html" title="Někdy též nazývaný obtoč">Orbit</link>
+		<link url="/micky/3/sloupy.html" title="Trik se třemi míčky">Sloupy</link>
+		<link url="/micky/3/osmicka.html" title="Trik se třemi míčky">Osmička</link>
+	</dalsi>
 
 </trik>

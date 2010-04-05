@@ -27,4 +27,10 @@
 			<popisek>Víš jak vypadá &lt;a href=&quot;ojoj.html&quot; title=&quot;Podobný trik.&quot;&gt;jo-jo v Austrálii&lt;/a&gt;?</popisek>
     </krok>
 
+	<dalsi>
+		<link url="/micky/3/dvojite-jojo.html" title="Jo-jo na obě strany">Dvojité jo-jo</link>
+		<link url="/micky/3/ojoj.html" title="Australské jo-jo">Australské jo-jo</link>
+		<link url="/micky/2/2v1.html" title="Trik se dvěma míčky">2 v 1</link>
+	</dalsi>
+
 </trik>

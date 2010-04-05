@@ -33,5 +33,10 @@
         <popisek>Z levé ruky vyhodíš první míček po nejvyšší dráze a chytíš do ní třetí míček.</popisek>
     </krok>
 
+	<dalsi>
+		<link url="/micky/3/tenis.html" title="Tenis je kombinace kaskády s reverzní kaskádou">Tenis</link>
+		<link url="/micky/3/1nad2.html" title="Kombinace sloupů s tenisem">Jeden nad dvěma</link>
+	</dalsi>
+
 
 </trik>

@@ -28,5 +28,10 @@
 				<popisek>A zároveň v pravé &lt;a href=&quot;../3/3v1.html&quot; title=&quot;Žonglování se třemi míčky.&quot;&gt;3 v 1&lt;/a&gt;.</popisek>
     </krok>
 
+	<dalsi>
+		<link url="/micky/5/kaskada.html" title="Kaskáda s pěti míčky">Kaskáda</link>
+		<link url="/micky/5/kaskada-reverzni.html" title="Těžší varianta kaskády s pěti míčky">Reverzní kaskáda</link>
+		<link url="/micky/5/kaskada-multiplex.html" title="Usnadnění kaskády s pěti míčky">Kaskáda (multiplex)</link>
+	</dalsi>
 
 </trik>

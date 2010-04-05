@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <trik>
 
-    <about>
-	     <nazev>Kaskáda</nazev>
-		 <pocet>5</pocet>
-	     <siteswaps>5</siteswaps>
-		 <obtiznost>těžko proveditelné</obtiznost>
-		 <oblast>micky-5</oblast>
+	<about>
+		<nazev>Kaskáda</nazev>
+		<pocet>5</pocet>
+		<siteswaps>5</siteswaps>
+		<obtiznost>těžko proveditelné</obtiznost>
+		<oblast>micky-5</oblast>
 	</about>
 
 	<krok>
@@ -45,5 +45,11 @@
 		<popisek>Sepsal jsem &lt;a href=&quot;../rady5.html&quot; title=&quot;Tipy pro 5 míčků.&quot;&gt;několik rad&lt;/a&gt; pro žonglování s pěti míčky. Snad ti trochu pomohou. Žádný zázračný tip však není. Naučit se žonglovat s pěti míčky trvá dlouho.</popisek>
 
     </krok>
+
+	<dalsi>
+		<link url="/micky/rady5.html" title="Jak na žonglování s pěti míčky">Rady pro žonglování s pěti míčky</link>
+		<link url="/micky/5/kaskada-reverzni.html" title="Těžší varianta kaskády s pěti míčky">Reverzní kaskáda</link>
+		<link url="/micky/6/" title="Žonglování s šesti míčky">Šest míčků</link>
+	</dalsi>
 
 </trik>

@@ -27,4 +27,9 @@
 			<popisek>Pravou rukou opisuj mezi prvním a druhým míčkem ležatou osmičku.</popisek>
     </krok>
 
+	<dalsi>
+		<link url="/micky/3/orbit.html" title="Někdy též nazývaný obtoč">Orbit</link>
+		<link url="/micky/3/orbit2.html" title="Dvojitý obtoč">Orbit II</link>
+	</dalsi>
+
 </trik>

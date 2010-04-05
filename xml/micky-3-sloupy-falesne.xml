@@ -28,5 +28,10 @@
 						<popisek>Tento trik je základem pro &lt;a href=&quot;jojo.html&quot; title=&quot;Podobný trik.&quot;&gt;jo - jo&lt;/a&gt; a &lt;a href=&quot;ojoj.html&quot; title=&quot;Podobný trik.&quot;&gt;oj - oj&lt;/a&gt;.</popisek>
     </krok>
 
+	<dalsi>
+		<link url="/micky/3/sloupy.html" title="Trik se třemi míčky">Sloupy</link>
+		<link url="/micky/3/jojo.html" title="Snadný a velmi hezký trik">Jo - jo</link>
+		<link url="/micky/3/ojoj.html" title="Australské jo-jo">Oj - oj</link>
+	</dalsi>
 
 </trik>

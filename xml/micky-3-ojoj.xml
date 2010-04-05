@@ -24,5 +24,10 @@
 				<popisek>S třetím míčkem pohybuj v ruce pod druhým míčkem. Je důležité držet míček tak, aby ho viděli diváci.</popisek>
     </krok>
 
+	<dalsi>
+		<link url="/micky/3/jojo.html" title="Obyčejné jo-jo">Jo-jo</link>
+		<link url="/micky/3/dvojite-jojo.html" title="Jo-jo na obě strany">Dvojité jo-jo</link>
+		<link url="/micky/2/2v1.html" title="Trik se dvěma míčky">2 v 1</link>
+	</dalsi>
 
 </trik>

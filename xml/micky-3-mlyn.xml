@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <trik>
 
-    <about>
-	     <nazev>Větrný mlýn</nazev>
-		 <pocet>3</pocet>
-	     <siteswaps>-</siteswaps>
-		 <obtiznost>obtížné</obtiznost>
-		 <oblast>micky-3</oblast>
+	<about>
+		<nazev>Větrný mlýn</nazev>
+		<pocet>3</pocet>
+		<siteswaps>-</siteswaps>
+		<obtiznost>obtížné</obtiznost>
+		<oblast>micky-3</oblast>
 	</about>
 
 	<krok>
@@ -28,6 +28,10 @@
         <popisek>Ruce jsou překřížené. Z pravé ruky vyhoď třetí míček. A opět přesuň ruce.</popisek>
     </krok>
 
-
+	<dalsi>
+		<link url="/micky/3/sprcha.html" title="Těžší trik se třemi míčky">Sprcha</link>
+		<link url="/micky/3/sprcha-polovicni.html" title="Poloviční sprch je o trochu snazší než normální sprcha">Poloviční sprcha</link>
+		<link url="/micky/3/mm.html" title="Obtížnější trik se třemi míčky">Mills' mess</link>
+	</dalsi>
 
 </trik>

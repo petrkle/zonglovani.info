@@ -27,5 +27,10 @@
 		<obrazek>sfontanac</obrazek>
 		<popisek>Vyzkoušej také obrácený směr hodů. Z vnějšku dovnitř.</popisek>
 	</krok>
+
+	<dalsi>
+		<link url="/micky/4/sloupy.html" title="Sloupy se čtyřmi míčky">Sloupy</link>
+		<link url="/micky/4/fontana.html" title="Každá ruka provádí samostatně 2 v 1">Fontána</link>
+	</dalsi>
 	
 </trik>

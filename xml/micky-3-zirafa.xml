@@ -28,10 +28,11 @@
         <popisek>Z pravé ruky vyhodíš třetí míček trochu jí posuneš vlevo a chytíš do ní druhý míček.</popisek>
     </krok>
 
-		<krok>
-			<popisek>Můžeš napodobit i další zvířátka. Třeba &lt;a href=&quot;klokan.html&quot; title=&quot;Trik se třemi míčky.&quot;&gt;klokana&lt;/a&gt;, &lt;a href=&quot;orangutan.html&quot; title=&quot;Trik se třemi míčky.&quot;&gt;orangutana&lt;/a&gt; nebo &lt;a href=&quot;cap.html&quot; title=&quot;Trik se třemi míčky.&quot;&gt;čápa&lt;/a&gt;.</popisek>
-    </krok>
-
+	<dalsi>
+		<link url="/micky/3/klokan.html" title="Tak se žongluje v Austrálii">Klokan</link>
+		<link url="/micky/3/cap.html" title="Stojí na jedné noze a žongluje">Čáp</link>
+		<link url="/micky/3/orangutan.html" title="Tento trik sice není až tak žonglování, ale publikum zaručeně pobaví">Orangutan</link>
+	</dalsi>
 
 
 </trik>

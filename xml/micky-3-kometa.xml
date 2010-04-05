@@ -18,5 +18,9 @@
 				<popisek>Pokud nemáš šátek, zkus strčit míček do ponožky.</popisek>
     </krok>
 
+	<dalsi>
+		<link url="/micky/3/" title="Triky se třemi míčky">Seznam triků se třemi míčky</link>
+		<link url="/literatura.html#poi" title="Knížka o točení s poi od Richeeho">Knížka o točení s poi</link>
+	</dalsi>
 		
 </trik>

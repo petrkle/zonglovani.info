@@ -5,7 +5,7 @@
 <h3>Tenisový míček</h3>
 <p>
 <a href="/img/t/tenisak.jpg">{obrazek soubor="tenisak-nahled.jpg" popisek="Tenisový míček"}</a>
-Nejdostupnější míček na žonglování. Má dobrou velikost, ale je příliš lehký. Zkus ho pro <a href="/micky/jak-zacit.html" title="Úplný základ.">začátek</a>, než zjistíš jestli tě žonglování baví.
+Nejdostupnější míček na žonglování. Tenisák má dobrou velikost, ale je příliš lehký. Zkus ho pro <a href="/micky/jak-zacit.html" title="Úplný základ.">začátek</a>, než zjistíš jestli tě žonglování baví.
 </p>
 
 <a name="beanbag"></a><h3>Šitý míček</h3>

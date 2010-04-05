@@ -28,10 +28,12 @@
 				<popisek>Odraž míček tričkem jako na trampolíně. Dál pokračuj v kaskádě.</popisek>
     </krok>
 
-		<krok>
-			<popisek>Můžeš napodobit i další zvířátka. Třeba &lt;a href=&quot;zirafa.html&quot; title=&quot;Trik se třemi míčky.&quot;&gt;žirafu&lt;/a&gt;, &lt;a href=&quot;orangutan.html&quot; title=&quot;Trik se třemi míčky.&quot;&gt;orangutana&lt;/a&gt; nebo &lt;a href=&quot;cap.html&quot; title=&quot;Trik se třemi míčky.&quot;&gt;čápa&lt;/a&gt;.</popisek>
-    </krok>
-
+	<dalsi>
+		<link url="/kuzely/passing/australsky-trik.html" title="Další trik z Austrálie">Australský trik</link>
+		<link url="/micky/3/cap.html" title="Stojí na jedné noze a žongluje">Čáp</link>
+		<link url="/micky/3/orangutan.html" title="Tento trik sice není až tak žonglování, ale publikum zaručeně pobaví">Orangutan</link>
+		<link url="/micky/3/zirafa.html" title="Žirafa je vlastně poloviční sprcha s jednou rukou nahoře">Žirafa</link>
+	</dalsi>
 	
 		
 </trik>

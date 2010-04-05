@@ -23,4 +23,10 @@
         <popisek>Míček zachytíš do prohlubně vytvořené na krku zakloněním hlavy a předkloněním těla.</popisek>
     </krok>
 
+	<dalsi>
+		<link url="/micky/3/koleno.html" title="Podobný trik se třemi míčky">Odražení míčku kolenem</link>
+		<link url="/micky/3/celo.html" title="Podobný trik se třemi míčky">Odražení míčku čelem</link>
+		<link url="/micky/balancovani.html" title="Výborný trénink rovnováhy">Balancování míčku</link>
+	</dalsi>
+
 </trik>

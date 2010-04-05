@@ -28,4 +28,9 @@
 						<popisek>Můžeš zkusit odrazit míček několikrát za sebou a pak ho zachytit &lt;a href=&quot;krk.html&quot; title=&quot;Podobný trik se třemi míčky.&quot;&gt;za krk&lt;/a&gt;.</popisek>
     </krok>
 		
+	<dalsi>
+		<link url="/micky/3/koleno.html" title="Podobný trik se třemi míčky">Odražení míčku kolenem</link>
+		<link url="/micky/3/krk.html" title="Třešničku na dortu můžeš na konec vystoupení">Zachycení míčku za krk</link>
+	</dalsi>
+
 </trik>

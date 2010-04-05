@@ -33,5 +33,9 @@
 			<popisek>Nakonec stačí druhý míček pustit. Setrvačností vyletí správným směrem. Do pravé ruky chytneš první míček.</popisek>
     </krok>
 
+	<dalsi>
+		<link url="/micky/3/orbit2.html" title="Dvojitý obtoč">Orbit II</link>
+		<link url="/micky/3/osmicka.html" title="Trik se třemi míčky">Osmička</link>
+	</dalsi>
 
 </trik>

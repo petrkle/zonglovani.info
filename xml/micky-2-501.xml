@@ -37,6 +37,11 @@
         <popisek>Dál pokračuj jako na posledních dvou obrázcích.</popisek>
     </krok>
 
+	<dalsi>
+		<link url="/micky/2/" title="">Seznam triků se děma míčky</link>
+		<link url="/siteswap.html" title="Zápis žonglování pomocí čísel">Siteswap</link>
+		<link url="/micky/5/kaskada.html" title="Obtížný trik s pěti míčky">Kaskáda s pěti míčky</link>
+	</dalsi>
 
 
 </trik>

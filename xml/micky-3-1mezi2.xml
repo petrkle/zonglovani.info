@@ -56,6 +56,10 @@
         <popisek>Když je třetí míček na vrcholu své dráhy vyhoď rovně nahoru první a druhý míček. </popisek>
     </krok>
 
-
+	<dalsi>
+		<link url="/micky/3/sloupy.html" title="Trik se třemi míčky">Sloupy</link>
+		<link url="/micky/3/1okolo2.html" title="Rozšíření sloupů">Jeden okolo dvou</link>
+		<link url="/micky/3/1nad2.html" title="Další rozšíření sloupů">Jeden nad dvěma</link>
+	</dalsi>
 
 </trik>

@@ -19,9 +19,15 @@
         <popisek>Zatímco první míček padá, prohoď si druhý míček pod nohou.</popisek>
     </krok>
 
-
 		<krok>
 			<popisek>Prohodit si míček pod nohou můžeš i při &lt;a href=&quot;../3/noha.html&quot; title=&quot;Prohození míčku pod nohou při kaskádě se třemi míčky.&quot;&gt;kaskádě&lt;/a&gt; se třemi míčky, nebo dokonce při &lt;a href=&quot;../4/fontana.html&quot; title=&quot;Trik se čtyřmi míčky.&quot;&gt;fontáně&lt;/a&gt; se čtyřmi míčky.</popisek>
 		</krok>
+
+	<dalsi>
+		<link url="/micky/3/noha.html" title="Ještě jeden míček navíc">Prohození míčku pod nohou - tři míčky</link>
+		<link url="/micky/3/kaskada.html" title="">Kaskáda se třemi míčky</link>
+		<link url="/micky/4/fontana.html" title="">Fontána se čtyřmi míčky</link>
+		<link url="/micky/2/" title="">Seznam triků se děma míčky</link>
+	</dalsi>
 		
 </trik>
