@@ -17,7 +17,7 @@
 {/if}
 {/foreach}
 {if $trik.dalsi}
-<h5>Kam dál</h5>
+<a name="kam-dal"></a><h5>Kam dál</h5>
 <ul>
 {foreach from=$trik.dalsi item=odkaz key=url}
 <li><a href="{$url|escape}"{if $odkaz.title} title="{$odkaz.title|escape}"{/if}>{$odkaz.text|escape}</a></li>

@@ -9,6 +9,7 @@ $trail->addStep('Jak vyrobit kužel na žonglování');
 $smarty->assign_by_ref('trail', $trail->path);
 
 $dalsi=array(
+	array('url'=>'/kuzely/jak-zacit.html','text'=>'Jak začít žonglovat s kužely','title'=>'Rychlý návod na žonglování s kužely'),
 	array('url'=>'/micky/vyroba.html','text'=>'Výroba míčků na žonglování','title'=>'Míčky na žonglování snadno a rychle'),
 	array('url'=>'/kruhy/vyroba.html','text'=>'Jak vyrobit kruhy na žonglování','title'=>'Návod na výrobu kruhů z novin.')
 	);

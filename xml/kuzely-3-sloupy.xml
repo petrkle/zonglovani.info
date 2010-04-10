@@ -21,4 +21,9 @@
 			<popisek>Druhý a třetí kužel letí také rovně nahoru.</popisek>
     </krok>
 
+	<dalsi>
+		<link url="/kuzely/3/kaskada.html" title="Nejjednodušší způsob žonglování se třemi kužely">Kaskáda s kužely</link>
+		<link url="/micky/3/sloupy.html" title="Obdobný trik s míčky">Sloupy s míčky</link>
+	</dalsi>
+
 </trik>

@@ -28,5 +28,9 @@
 			<popisek>Pokračuj třetím kruhem z pravé ruky.</popisek>
     </krok>
 		
+	<dalsi>
+		<link url="/kruhy/3/kaskada.html" title="Trik se třemi kruhy">Kaskáda</link>
+		<link url="/kruhy/2/2v1.html" title="Dva kruhy v jedné ruce">2 v 1</link>
+	</dalsi>
 
 </trik>

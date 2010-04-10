@@ -10,6 +10,11 @@ $trail = new Trail();
 $trail->addStep('Mapa stránek');
 $smarty->assign_by_ref('trail', $trail->path);
 
+$dalsi=array(
+	array('url'=>'/vyhledavani/','text'=>'Vyhledávání v žonglérově slabikáři','title'=>'Fulltext'),
+	);
+$smarty->assign_by_ref('dalsi',$dalsi);
+
 $smarty->display('hlavicka.tpl');
 $smarty->display('mapa-stranek.tpl');
 $mapa='mapa-stranek.inc';

@@ -19,10 +19,3 @@ Telefon: {$tel|telobfuscate}
 <li><a href="{$smarty.const.LIDE_URL}dovednost/manufactory.html" title="Žongléři kteří výrábějí žonglérské hračky.">Vyrábět žonglérské hračky</a></li>
 <li><a href="{$smarty.const.LIDE_URL}dovednost/shop.html" title="Žongléři kteří prodávají věci na žonglování.">Prodej věcí na žonglování</a></li>
 </ul>
-
-<h3>O žonglérově slabikáři</h3>
-<ul>
-<li><a href="/proc-a-jak.html" title="Proč a jak vznikl žonglérův slabikář.">Proč a jak vznikl žonglérův slabikář</a></li>
-<li><a href="/changelog.html" title="Změny v žonglérově slabikáři.">Seznam změn</a></li>
-<li><a href="/toolbox.html" title="Seznam nástrojů použitých při tvorbě žonglérova slabikáře.">Použitý software</a></li>
-</ul>

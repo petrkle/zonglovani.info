@@ -21,5 +21,10 @@
 			<popisek>Všechny další kužely házíš bokem.</popisek>
     </krok>
 
+	<dalsi>
+		<link url="/kuzely/3/helikoptera.html" title="Velmi obtížný trik">Helikoptéra</link>
+		<link url="/kuzely/3/brada.html" title="Trik při kterém jedna ruka kuželky hází a druhá je odkládá na bradu">Odkládání kuželky na bradu</link>
+		<link url="/micky/balancovani.html" title="Trénink rovnováhy">Balancování míčku</link>
+	</dalsi>
 
 </trik>

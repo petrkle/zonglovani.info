@@ -408,7 +408,7 @@ function get_tipy(){
 	if(is_file(TIPY_DATA)){
 		$db=file(TIPY_DATA);
 		foreach($db as $radek){
-			if(!preg_match('/^.*\#/',$radek) and preg_match('/^[0-9]{4}-[0-9]{2}-[0-9]{2}\*.+\*.+\*.+\*.+$/',$radek)){
+			if(!preg_match('/^\#/',$radek) and preg_match('/^[0-9]{4}-[0-9]{2}-[0-9]{2}\*.+\*.+\*.+\*.+$/',$radek)){
 				$radek=preg_split('/\*/',trim($radek));
 				$cas=strtotime($radek[0])+(5*3600);
 				if($cas<time()){

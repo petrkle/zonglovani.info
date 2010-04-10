@@ -32,4 +32,10 @@
 	    <popisek>Tak a už umíš žonglovat se třemi kruhy.</popisek>
     </krok>
 
+	<dalsi>
+		<link url="/kruhy/vyroba.html" title="Kruhy na žonglování snadno a rychle">Návod na výrobu kruhů</link>
+		<link url="/kruhy/jak-zacit.html" title="Jak začít žonglovat s kruhy">Jak začít s kruhy</link>
+		<link url="/kruhy/3/noha.html" title="Jak házet kruh pod nohou">Prohození kruhu pod nohou</link>
+	</dalsi>
+
 </trik>

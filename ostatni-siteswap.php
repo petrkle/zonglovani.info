@@ -2,7 +2,10 @@
 require('init.php');
 require('func.php');
 
-$titulek='Siteswap';
+$titulek='Siteswap - popis žonglování pomocí čísel';
+$smarty->assign('description','Siteswap je popis žonglování pomocí čísel. Jsou to vlastně takové noty pro žonglování.');
+$smarty->assign('nadpis','Siteswap');
+
 $smarty->assign('feedback',true);
 
 $smarty->assign('titulek',$titulek);

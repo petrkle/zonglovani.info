@@ -28,4 +28,9 @@
         <popisek>Tajemství triku se skrývá v házení kuželek z pravé ruky do levé. Protože levou ruku máš nahoře u hlavy, postavení kuželky na bradu je rychlé a tím získáš čas na výměnu dvou zbylých kuželek.</popisek>
     </krok>
 
+	<dalsi>
+		<link url="/kuzely/3/sekani.html" title="Sekání s kužely">Sekání (chops)</link>
+		<link url="/kuzely/3/kaskada.html" title="Nejjednodušší způsob žonglování se třemi kužely">Kaskáda</link>
+	</dalsi>
+
 </trik>

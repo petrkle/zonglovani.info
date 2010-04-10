@@ -28,5 +28,9 @@
 				<popisek>První kruh házej uprostřed mezi druhým a třetím kruhem. Používej střídavě pravou a levou ruku.</popisek>
     </krok>
 
+	<dalsi>
+		<link url="/kruhy/3/noha.html" title="Jak házet kruh pod nohou">Prohození kruhu pod nohou</link>
+		<link url="/kruhy/3/kaskada.html" title="Trik se třemi kruhy">Kaskáda</link>
+	</dalsi>
 
 </trik>

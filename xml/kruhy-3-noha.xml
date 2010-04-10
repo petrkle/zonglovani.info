@@ -24,6 +24,10 @@
 				<popisek>Dál pokračuj v kaskádě.</popisek>
     </krok>
 
+	<dalsi>
+		<link url="/kruhy/3/sloupy.html" title="Sloupy s kruhy">Sloupy</link>
+		<link url="/kruhy/3/kaskada.html" title="Trik se třemi kruhy">Kaskáda</link>
+	</dalsi>
 		
 		
 </trik>

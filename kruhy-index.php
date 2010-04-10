@@ -11,6 +11,13 @@ $smarty->assign('keywords',make_keywords($titulek));
 $trail = new Trail();
 $trail->addStep('Kruhy','/kruhy/');
 
+$dalsi=array(
+	array('url'=>'/kuzely/','text'=>'Žonglování s kužely','title'=>'Jak žonglovat s kužely'),
+	array('url'=>'/kuzely/passing/','text'=>'Passing','title'=>'Žonglování ve více lidech'),
+	);
+
+$smarty->assign_by_ref('dalsi',$dalsi);
+
 $smarty->assign_by_ref('trail', $trail->path);
 $smarty->display('hlavicka.tpl');
 $smarty->display('kruhy.tpl');

@@ -17,6 +17,11 @@ $trail = new Trail();
 $trail->addStep($titulek);
 $smarty->assign_by_ref('trail', $trail->path);
 
+$dalsi=array(
+	array('url'=>'/ulita/cesta.html','text'=>'Jak se dostat do Ulity','title'=>'Popis cesty'),
+	array('url'=>CALENDAR_URL,'text'=>'Kalendář žonglérských akcí','title'=>'Kam jít žonglovat'),
+	);
+$smarty->assign_by_ref('dalsi',$dalsi);
 
 $podzim=array();
 $jaro=array();

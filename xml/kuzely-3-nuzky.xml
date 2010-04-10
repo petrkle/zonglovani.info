@@ -31,6 +31,10 @@
 			<popisek>Švihnutím rukou a uvolněním sevření nůžek vyhodíš kužel zpět do vzduchu. Můžeš pokračovat v žonglování.</popisek>
     </krok>
 
+	<dalsi>
+		<link url="/kuzely/grip.html" title="Jak držet v jedné ruce dva kužely.">Dva kužely v jedné ruce</link>
+		<link url="/kuzely/rotace.html" title="Základní způsoby házení kuželu">Rotace kuželu</link>
+	</dalsi>
 
 
 </trik>

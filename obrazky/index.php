@@ -221,6 +221,10 @@ if($id and $photo){
 	$smarty->display('obrazky-filtry.tpl');
 	$smarty->display('paticka.tpl');
 }else{
+	$dalsi=array(
+		array('url'=>'/video/','text'=>'Žonglérská videa','title'=>'Pohyblivé obrázky'),
+		);
+	$smarty->assign_by_ref('dalsi',$dalsi);
 	$smarty->assign_by_ref('trail', $trail->path);
 	$smarty->assign('titulek','Obrázky žonglování');
 	$smarty->assign('galerie',get_galerie());
