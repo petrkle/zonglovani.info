@@ -1,5 +1,5 @@
 <ul>
-	<li><a name="top"></a><a href="/">Žonglérův slabikář - žonglování s míčky, kruhy a kužely.</a>
+	<li><a name="top"></a><a href="/">Žonglérův slabikář - žonglování s míčky, kruhy a kužely</a>
 	<ul>
 	<li><a href="/aczslovnicek.html">Anglicko-český žonglérský slovníček</a></li>
 	<li><a href="/changelog.html">Změny v žonglérově slabikáři</a></li>
@@ -20,7 +20,7 @@
 	<li><a href="/proc-a-jak.html">Proč a jak vznikl žonglérův slabikář</a></li>
 	<li><a href="/rec-juggling.html">rec.juggling</a></li>
 	<li><a href="/rss.html">RSS kanály</a></li>
-	<li><a href="/siteswap.html">Siteswap</a></li>
+	<li><a href="/siteswap.html">Siteswap - popis žonglování pomocí čísel</a></li>
 	<li><a href="/software.html">Simulátory žonglování</a></li>
 	<li><a href="/trenink.html">Trénink</a></li>
 	<li><a href="/vanoce-2010.html">Veselé vánoce</a></li>
@@ -193,6 +193,8 @@
 		<li><a href="/micky/rady5.html">Jak na žonglování s pěti míčky</a></li>
 		<li><a href="/micky/sbirani.html">Sbírání spadlých míčků</a></li>
 		<li><a href="/micky/vajicka.html">Žonglování s vajíčky</a></li>
+		<li><a href="/micky/vyroba-balonky.html">Míček z balónků</a></li>
+		<li><a href="/micky/vyroba-tenisak.html">Míček z tenisáku</a></li>
 		<li><a href="/micky/vyroba.html">Výroba míčků na žonglování</a></li>
 			<li><a name="2"></a><a href="/micky/2/">Žonglování se dvěma míčky</a>
 			<ul>
@@ -354,6 +356,9 @@
 			
 			</li>
 			<li><a name="ulita-20100321"></a><a href="/obrazky/ulita-20100321/">Ulita 21. 3. 2010 - obrázky žonglování</a>
+			
+			</li>
+			<li><a name="ulita-20100411"></a><a href="/obrazky/ulita-20100411/">Ulita 11. 4. 2010 - obrázky žonglování</a>
 			
 			</li>
 			<li><a name="ulita-zbynkuv-vyber-20100312"></a><a href="/obrazky/ulita-zbynkuv-vyber-20100312/">Ulita - Zbyňkův výběr - obrázky žonglování</a>

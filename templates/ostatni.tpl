@@ -82,6 +82,11 @@ Upozorňování na novinky v žonglérově slabikáři.
 Výpis změn v žonglérově slabikáři (svn&nbsp;log).
 </p>
 
+<h3><a href="/ulita/" title="Nedělní žonglování v Ulitě.">Žonglování v Ulitě</a></h3>
+<p>
+<a href="/ulita/" title="Odkazy.">{obrazek soubor="ulita.cz.png" popisek="Ulita"}</a>
+Nedělní žonglování v DDM Ulita.</p>
+
 <h3><a href="/odkazy.html" title="Odkazy.">Žonglování na síti</a></h3>
 <p>
 Odkazy na stránky věnované žonglování.

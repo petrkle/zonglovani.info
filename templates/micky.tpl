@@ -16,7 +16,7 @@ Popis různý druhů míčků. Od tenisáků až k míčkům pro profesionální
 
 <h3><a href="/micky/vyroba.html" title="Výroba míčků na žonglování.">Výroba míčků</a></h3>
 <p>
-<a href="/micky/vyroba.html" title="Výroba míčků na žonglování.">{obrazek soubor="balonek.gif" popisek="Nafukovací balónek."}</a>
+<a href="/micky/vyroba.html" title="Výroba míčků na žonglování.">{obrazek soubor="balonek.png" popisek="Výroba míčků na žonglování"}</a>
 Návody na výrobu žonglérských míčků. Sadu tří pěkných míčků na žonglování je hotová za odpoledne a stojí míň než 100 Kč.
 </p>
 

@@ -6,7 +6,7 @@
 {if is_array($uzivatel_props.oblibene)}
 <ul>
 {foreach from=$uzivatel_props.oblibene item=stranka key=url}
-<li class="star"><a href="{$url|escape}" title="{$stranka|escape}">{$stranka|escape}</a></li>
+<li class="star"><a href="{$url|escape}" title="{$stranka|escape}">{$stranka|regex_replace:'/ \- stránka [0-9]+$/':''|escape}</a></li>
 {/foreach}
 </ul>
 {else}
@@ -29,7 +29,7 @@ Stránku odebereš z oblíbených kliknutím na obrázek žluté hvězdičky {ob
 {if is_array($uzivatel_props.hodnoceni)}
 <ul>
 {foreach from=$uzivatel_props.hodnoceni item=stranka key=url}
-<li{if $stranka.palec==1} class="libi"{/if}{if $stranka.palec==-1} class="nelibi"{/if}><a href="{$url|escape}" title="{$stranka.titulek|escape}">{$stranka.titulek|escape}</a></li>
+<li{if $stranka.palec==1} class="libi"{/if}{if $stranka.palec==-1} class="nelibi"{/if}><a href="{$url|escape}" title="{$stranka.titulek|escape}">{$stranka.titulek|regex_replace:'/ \- stránka [0-9]+$/':''|escape}</a></li>
 {/foreach}
 </ul>
 {else}

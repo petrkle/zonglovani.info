@@ -2,40 +2,19 @@
 S trochou šikovnosti lze vyrobit míčky pro žonglování doma na koleně.
 </p>
 
-<a name="tenisak"></a><h3>Míček z tenisáku</h3>
+<h3><a href="vyroba-balonky.html" title="Jak vyrobit míček z nafukovacích balónků">Míček z nafukovacích balónků</a></h3>
 
 <p>
-Nejsnadnější je vyrobit míček pomocí nafukovacích balónků a tenisáku.
+<a href="vyroba-balonky.html">{obrazek soubor="micek-z-balonku-3.s.jpg" popisek="Míček z nafukovacích balónků"}</a>
+Nejjednodušší způsob jak vyrobit míček na žonglování.
 </p>
-<h5>Materiál</h5>
-<ul>
-<li>Tenisový míček - 3 kusy</li>
-<li>Nafukovací balonek - 10 kusů</li>
-<li>Rýže nebo proso</li>
-<li>Trychtýř</li>
-<li>Ostré nůžky</li>
-<li>Lepidlo (Chemoprén)</li>
-</ul>
+
+<h3><a href="vyroba-tenisak.html" title="Jak vyrobit míček z tenisáku">Míček z tenisáku</a></h3>
 
 <p>
-<a href="/img/t/tenisak.jpg">{obrazek soubor="tenisak-nahled.jpg" popisek="Tenisový míček"}</a>
-Základem je tenisový míček. Míček na jednom místě nařízni a pomocí trychtýře naplň sypkým materiálem. Hodí se rýže nebo proso. Když míček naplníš zalep dírku lepidlem.
+<a href="vyroba-tenisak.html">{obrazek soubor="tenisak-v-balonku-3.s.jpg" popisek="Míček z tenisáku a nafukovacích balónků"}</a>
+Pěkný míček na žonglování z tenisáku a nafukovacích balónků.
 </p>
-
-<p>
-{obrazek soubor="balonek.gif" popisek="Nafukovací balónek."}
-Další věcí, kterou budeš potřebovat je nafukovací balónek. Balónku odstřihni náustek. Je třeba použít velmi ostré nůžky a odstřihnout náustek najednou. Jinak se ti bude balónek při navlékání na míček trhat.
-</p>
-
-<p>
-{obrazek soubor="micek2.gif" popisek="Balónek navlečený na míčku."}
-Ustřižený balónek navlékni na míček. Pak ustřihni ještě dva balónky a navlékni je na míček. Vždy tak, aby překrýval otvor v předchozím balónku. Hurá, míček hotový.
-</p>
-
-<p>
-Míček můžeš vyrobit i bez tenisáků. Jako základ naplníš mikrotenový pytlík. Přes něj pak navlékneš ustřižené balónky. Takový míček se po dopadu na zem neodkutálí. Na druhou stranu není moc kulatý a při žonglování mění tvar.
-</p>
-
 
 <a name="sity"></a><h3>Šitý míček</h3>
 
@@ -65,7 +44,6 @@ Nejdřív si nakresli na papír střih. Střih tvoří šest čtverců rozměru 
 <p>
 Látku sešij okraji k sobě tak, aby tvořila krychli. Není potřeba žádný speciální steh, ale nech alespoň 0.5 cm okraj. To proto, aby se látka nevytrhla když míček spadne na zem. Když už máš všechny švy a zbývá jenom malinká dírka míček otoč naruby. Nepěkné okraje se schovají dovnitř. Pak stačí už jenom míček naplnit a zašít zbývající dírku.
 </p>
-
 
 <p>
 Můžeš vyzkoušet i střih ve tvaru jehlanu. Postup je obdobný.

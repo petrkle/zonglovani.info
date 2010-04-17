@@ -1,5 +1,5 @@
 <ul>
-	<li><a name="top"></a><a href="/">Žonglérův slabikář - žonglování s míčky, kruhy a kužely.</a>
+	<li><a name="top"></a><a href="/">Žonglérův slabikář - žonglování s míčky, kruhy a kužely</a>
 	<ul>
 	<li><a href="/aczslovnicek.html">Anglicko-český žonglérský slovníček</a></li>
 	<li><a href="/changelog.html">Změny v žonglérově slabikáři</a></li>
@@ -21,7 +21,7 @@
 	<li><a href="/proc-a-jak.html">Proč a jak vznikl žonglérův slabikář</a></li>
 	<li><a href="/rec-juggling.html">rec.juggling</a></li>
 	<li><a href="/rss.html">RSS kanály</a></li>
-	<li><a href="/siteswap.html">Siteswap</a></li>
+	<li><a href="/siteswap.html">Siteswap - popis žonglování pomocí čísel</a></li>
 	<li><a href="/software.html">Simulátory žonglování</a></li>
 	<li><a href="/toolbox.html">Použitý software</a></li>
 	<li><a href="/trenink.html">Trénink</a></li>
@@ -97,6 +97,7 @@
 		<li><a href="/kalendar/udalost-20100326-20100326-pek-1267956985.html">Kalendář - Žonglování v Jihlavě</a></li>
 		<li><a href="/kalendar/udalost-20100409-20100411-pek-1266301787.html">Kalendář - Žonglérská víkendovka</a></li>
 		<li><a href="/kalendar/udalost-20100411-20100411-pek-1253740811.html">Kalendář - Ulita</a></li>
+		<li><a href="/kalendar/udalost-20100414-20100414-pek-1269711295.html">Kalendář - Sraz Triba Fuega</a></li>
 		<li><a href="/kalendar/udalost-20100417-20100417-summer-1269243438.html">Kalendář - FLIČONGOVIL</a></li>
 		<li><a href="/kalendar/udalost-20100423-20100423-pek-1267956985.html">Kalendář - Žonglování v Jihlavě</a></li>
 		<li><a href="/kalendar/udalost-20100528-20100528-pek-1267957236.html">Kalendář - Žonglování v Jihlavě</a></li>
@@ -218,6 +219,7 @@
 		<li><a href="/lide/em-em.html">Michal</a></li>
 		<li><a href="/lide/grohy.html">Dominik Grohmann</a></li>
 		<li><a href="/lide/haniha.html">Hana</a></li>
+		<li><a href="/lide/hrabje.html">Martin Khek</a></li>
 		<li><a href="/lide/jabko.html">Jan Holubec</a></li>
 		<li><a href="/lide/jitka.html">Jitka</a></li>
 		<li><a href="/lide/juggleman.html">Tomáš Ullrich</a></li>
@@ -225,6 +227,7 @@
 		<li><a href="/lide/martin.html">Martin Perlík</a></li>
 		<li><a href="/lide/mefistofeles.html">Marek Hnátek</a></li>
 		<li><a href="/lide/mizu.html">Mižu</a></li>
+		<li><a href="/lide/mrgin.html">Kolmen</a></li>
 		<li><a href="/lide/niggy.html">Niggy</a></li>
 		<li><a href="/lide/paulie.html">Pavel Veselý</a></li>
 		<li><a href="/lide/pravidla.php">Pravidla pro vytvoření účtu</a></li>
@@ -232,6 +235,7 @@
 		<li><a href="/lide/pyroterra.html">Fireshow Pyroterra</a></li>
 		<li><a href="/lide/rammik.html">Marian</a></li>
 		<li><a href="/lide/razor.html">Adam Jenčík</a></li>
+		<li><a href="/lide/rodo1991.html">Roman</a></li>
 		<li><a href="/lide/romanmihalka.html">Roman Mihálka</a></li>
 		<li><a href="/lide/sherak.html">Tomáš</a></li>
 		<li><a href="/lide/shkarpa.html">Mark Karpilovsky</a></li>
@@ -240,6 +244,7 @@
 		<li><a href="/lide/ssttaannaa.html">ssttaannaa</a></li>
 		<li><a href="/lide/summer.html">Summer</a></li>
 		<li><a href="/lide/suro.html">Pavel Surovy</a></li>
+		<li><a href="/lide/svaty.html">Svaty</a></li>
 		<li><a href="/lide/tommy.html">Thomas</a></li>
 		<li><a href="/lide/uzivatele.rss">Seznam žonglérů</a></li>
 		<li><a href="/lide/vitek.html">Vítek kumštýř mnoha tváří</a></li>
@@ -383,6 +388,8 @@
 		<li><a href="/micky/rady5.html">Jak na žonglování s pěti míčky</a></li>
 		<li><a href="/micky/sbirani.html">Sbírání spadlých míčků</a></li>
 		<li><a href="/micky/vajicka.html">Žonglování s vajíčky</a></li>
+		<li><a href="/micky/vyroba-balonky.html">Míček z balónků</a></li>
+		<li><a href="/micky/vyroba-tenisak.html">Míček z tenisáku</a></li>
 		<li><a href="/micky/vyroba.html">Výroba míčků na žonglování</a></li>
 			<li><a name="2"></a><a href="/micky/2/">Žonglování se dvěma míčky</a>
 			<ul>
@@ -1495,6 +1502,61 @@
 				<li><a href="/obrazky/ulita-20100321/stranka2/0025.html">Ulita 21. 3. 2010 - 25. obrázek - stránka 2</a></li>
 				<li><a href="/obrazky/ulita-20100321/stranka2/0026.html">Ulita 21. 3. 2010 - 26. obrázek - stránka 2</a></li>
 				<li><a href="/obrazky/ulita-20100321/stranka2/0027.html">Ulita 21. 3. 2010 - 27. obrázek - stránka 2</a></li>
+				</ul>
+				</li>
+			</ul>
+			</li>
+			<li><a name="ulita-20100411"></a><a href="/obrazky/ulita-20100411/">Ulita 11. 4. 2010 - obrázky žonglování</a>
+			<ul>
+			<li><a href="/obrazky/ulita-20100411/0000.html">Ulita 11. 4. 2010 - 0. obrázek</a></li>
+			<li><a href="/obrazky/ulita-20100411/0001.html">Ulita 11. 4. 2010 - 1. obrázek</a></li>
+			<li><a href="/obrazky/ulita-20100411/0002.html">Ulita 11. 4. 2010 - 2. obrázek</a></li>
+			<li><a href="/obrazky/ulita-20100411/0003.html">Ulita 11. 4. 2010 - 3. obrázek</a></li>
+			<li><a href="/obrazky/ulita-20100411/0004.html">Ulita 11. 4. 2010 - 4. obrázek</a></li>
+			<li><a href="/obrazky/ulita-20100411/0005.html">Ulita 11. 4. 2010 - 5. obrázek</a></li>
+			<li><a href="/obrazky/ulita-20100411/0006.html">Ulita 11. 4. 2010 - 6. obrázek</a></li>
+			<li><a href="/obrazky/ulita-20100411/0007.html">Ulita 11. 4. 2010 - 7. obrázek</a></li>
+			<li><a href="/obrazky/ulita-20100411/0008.html">Ulita 11. 4. 2010 - 8. obrázek</a></li>
+			<li><a href="/obrazky/ulita-20100411/0009.html">Ulita 11. 4. 2010 - 9. obrázek</a></li>
+			<li><a href="/obrazky/ulita-20100411/0010.html">Ulita 11. 4. 2010 - 10. obrázek</a></li>
+			<li><a href="/obrazky/ulita-20100411/0011.html">Ulita 11. 4. 2010 - 11. obrázek</a></li>
+			<li><a href="/obrazky/ulita-20100411/0012.html">Ulita 11. 4. 2010 - 12. obrázek</a></li>
+			<li><a href="/obrazky/ulita-20100411/0013.html">Ulita 11. 4. 2010 - 13. obrázek</a></li>
+			<li><a href="/obrazky/ulita-20100411/0014.html">Ulita 11. 4. 2010 - 14. obrázek</a></li>
+				<li><a name="stranka2"></a><a href="/obrazky/ulita-20100411/stranka2/">Ulita 11. 4. 2010 - obrázky žonglování - stránka 2</a>
+				<ul>
+				<li><a href="/obrazky/ulita-20100411/stranka2/0015.html">Ulita 11. 4. 2010 - 15. obrázek - stránka 2</a></li>
+				<li><a href="/obrazky/ulita-20100411/stranka2/0016.html">Ulita 11. 4. 2010 - 16. obrázek - stránka 2</a></li>
+				<li><a href="/obrazky/ulita-20100411/stranka2/0017.html">Ulita 11. 4. 2010 - 17. obrázek - stránka 2</a></li>
+				<li><a href="/obrazky/ulita-20100411/stranka2/0018.html">Ulita 11. 4. 2010 - 18. obrázek - stránka 2</a></li>
+				<li><a href="/obrazky/ulita-20100411/stranka2/0019.html">Ulita 11. 4. 2010 - 19. obrázek - stránka 2</a></li>
+				<li><a href="/obrazky/ulita-20100411/stranka2/0020.html">Ulita 11. 4. 2010 - 20. obrázek - stránka 2</a></li>
+				<li><a href="/obrazky/ulita-20100411/stranka2/0021.html">Ulita 11. 4. 2010 - 21. obrázek - stránka 2</a></li>
+				<li><a href="/obrazky/ulita-20100411/stranka2/0022.html">Ulita 11. 4. 2010 - 22. obrázek - stránka 2</a></li>
+				<li><a href="/obrazky/ulita-20100411/stranka2/0023.html">Ulita 11. 4. 2010 - 23. obrázek - stránka 2</a></li>
+				<li><a href="/obrazky/ulita-20100411/stranka2/0024.html">Ulita 11. 4. 2010 - 24. obrázek - stránka 2</a></li>
+				<li><a href="/obrazky/ulita-20100411/stranka2/0025.html">Ulita 11. 4. 2010 - 25. obrázek - stránka 2</a></li>
+				<li><a href="/obrazky/ulita-20100411/stranka2/0026.html">Ulita 11. 4. 2010 - 26. obrázek - stránka 2</a></li>
+				<li><a href="/obrazky/ulita-20100411/stranka2/0027.html">Ulita 11. 4. 2010 - 27. obrázek - stránka 2</a></li>
+				<li><a href="/obrazky/ulita-20100411/stranka2/0028.html">Ulita 11. 4. 2010 - 28. obrázek - stránka 2</a></li>
+				<li><a href="/obrazky/ulita-20100411/stranka2/0029.html">Ulita 11. 4. 2010 - 29. obrázek - stránka 2</a></li>
+				</ul>
+				</li>
+				<li><a name="stranka3"></a><a href="/obrazky/ulita-20100411/stranka3/">Ulita 11. 4. 2010 - obrázky žonglování - stránka 3</a>
+				<ul>
+				<li><a href="/obrazky/ulita-20100411/stranka3/0030.html">Ulita 11. 4. 2010 - 30. obrázek - stránka 3</a></li>
+				<li><a href="/obrazky/ulita-20100411/stranka3/0031.html">Ulita 11. 4. 2010 - 31. obrázek - stránka 3</a></li>
+				<li><a href="/obrazky/ulita-20100411/stranka3/0032.html">Ulita 11. 4. 2010 - 32. obrázek - stránka 3</a></li>
+				<li><a href="/obrazky/ulita-20100411/stranka3/0033.html">Ulita 11. 4. 2010 - 33. obrázek - stránka 3</a></li>
+				<li><a href="/obrazky/ulita-20100411/stranka3/0034.html">Ulita 11. 4. 2010 - 34. obrázek - stránka 3</a></li>
+				<li><a href="/obrazky/ulita-20100411/stranka3/0035.html">Ulita 11. 4. 2010 - 35. obrázek - stránka 3</a></li>
+				<li><a href="/obrazky/ulita-20100411/stranka3/0036.html">Ulita 11. 4. 2010 - 36. obrázek - stránka 3</a></li>
+				<li><a href="/obrazky/ulita-20100411/stranka3/0037.html">Ulita 11. 4. 2010 - 37. obrázek - stránka 3</a></li>
+				<li><a href="/obrazky/ulita-20100411/stranka3/0038.html">Ulita 11. 4. 2010 - 38. obrázek - stránka 3</a></li>
+				<li><a href="/obrazky/ulita-20100411/stranka3/0039.html">Ulita 11. 4. 2010 - 39. obrázek - stránka 3</a></li>
+				<li><a href="/obrazky/ulita-20100411/stranka3/0040.html">Ulita 11. 4. 2010 - 40. obrázek - stránka 3</a></li>
+				<li><a href="/obrazky/ulita-20100411/stranka3/0041.html">Ulita 11. 4. 2010 - 41. obrázek - stránka 3</a></li>
+				<li><a href="/obrazky/ulita-20100411/stranka3/0042.html">Ulita 11. 4. 2010 - 42. obrázek - stránka 3</a></li>
 				</ul>
 				</li>
 			</ul>

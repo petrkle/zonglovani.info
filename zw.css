@@ -18,7 +18,7 @@ a:active{color:#ff0000;font-weight:bold;}
 .spacer{height:2px;width:100%;clear:both;}
 .external{background: url("img/e/external.png") 100% 50% no-repeat;padding-right:16px;}
 .download{background: url("img/d/download.png") 100% 50% no-repeat;padding-right:30px;}
-.kontakt img{margin:0;padding:0;border:0;background-color:#fff;vertical-align:bottom;clear: none;float: none;}
+.kontakt img{margin:0;padding:0;border:0;background-color:#fff;vertical-align:text-bottom;clear:none;float:none;}
 .vlevo{text-align:left;}
 .vpravo{text-align:right;float:right}
 .sdileni{font-size:0.8em;text-align: right;float: right;}
@@ -28,4 +28,3 @@ a:active{color:#ff0000;font-weight:bold;}
 p{margin:0;padding:0;}
 .hvezdicka{float:right;}
 .celek{position:relative;}
-.upozorneni{position:absolute;top:40px;right:0;background:#ff9;border:solid 1px #000;text-align:left;}
