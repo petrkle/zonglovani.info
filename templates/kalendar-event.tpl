@@ -1,14 +1,16 @@
 {if isset($udalost)}
+<div class="vevent">
+<span class="skryte summary">{$udalost.title}</span>
 {if $stare}
 <ul class="alert"><li><strong>Pozor:</strong> tato událost už skončila.</li></ul>
 {/if}
-<p><strong>Začátek</strong>: {$udalost.start_hr|escape}</p>
-<p><strong>Konec:</strong> {$udalost.end_hr|escape}</p>
-<p><strong>Popis</strong>: {$udalost.desc|escape}</p>
-<p><strong>Místo</strong>: {$udalost.misto|escape}{if $udalost.mapa} - <a href="{$udalost.mapa|escape}" onclick="pageTracker._trackPageview('/goto/{$udalost.mapa|replace:'http://':''|regex_replace:"/^www\./":""}');" title="Místo konání na mapě."{if eregi("^http://",$udalost.mapa)} class="external" rel="nofollow"{/if}>mapa</a>{/if}</p>
+<p><strong>Začátek</strong>: <abbr class="dtstart" title="{$udalost.start_ical|escape}">{$udalost.start_hr|escape}</abbr></p>
+<p><strong>Konec:</strong> <abbr class="dtend" title="{$udalost.end_ical|escape}">{$udalost.end_hr|escape}</abbr></p>
+<p><strong>Popis</strong>: <span class="description">{$udalost.desc|escape}</span></p>
+<p><strong>Místo</strong>: <span class="location">{$udalost.misto|escape}</span>{if $udalost.mapa} - <a href="{$udalost.mapa|escape}" onclick="pageTracker._trackPageview('/goto/{$udalost.mapa|replace:'http://':''|regex_replace:"/^www\./":""}');" title="Místo konání na mapě."{if eregi("^http://",$udalost.mapa)} class="external" rel="nofollow"{/if}>mapa</a>{/if}</p>
 
 {if $udalost.url}
-<p><strong>Odkaz</strong>: <a href="{$udalost.url_hr|escape}" onclick="pageTracker._trackPageview('/goto/{$udalost.url_hr|replace:'http://':''|regex_replace:"/^www\./":""|escape}');"{if eregi("^http://",$udalost.url_hr)} class="external" rel="nofollow"{/if}>{$udalost.url|replace:'http://':''|regex_replace:"/^www\./":""|regex_replace:"/\/$/":""|truncate:40:"...":false|escape}</a></p>
+<p><strong>Odkaz</strong>: <a href="{$udalost.url_hr|escape}" onclick="pageTracker._trackPageview('/goto/{$udalost.url_hr|replace:'http://':''|regex_replace:"/^www\./":""|escape}');"{if eregi("^http://",$udalost.url_hr)} class="external url" rel="nofollow"{/if}>{$udalost.url|replace:'http://':''|regex_replace:"/^www\./":""|regex_replace:"/\/$/":""|truncate:40:"...":false|escape}</a></p>
 {/if}
 
 {if $udalost.vlozil==$smarty.session.uzivatel.login and !$stare}
@@ -34,6 +36,7 @@
 
 {/if}
 
+</div>
 {/if}
 
 <p>

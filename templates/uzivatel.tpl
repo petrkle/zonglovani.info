@@ -43,22 +43,23 @@ Stránku odebereš z oblíbených kliknutím na obrázek žluté hvězdičky {ob
 {else}
 
 <h1>{$titulek}</h1>
+<div class="vcard">
 {if $uzivatel_props.foto}
 <div class="szn">
-<p><img src="{$smarty.const.LIDE_URL}foto/{$uzivatel_props.login|escape}.jpg" alt="{$uzivatel_props.jmeno|escape}" width="{$uzivatel_props.foto_sirka}" height="{$uzivatel_props.foto_vyska}"/></p>
+<p><img src="{$smarty.const.LIDE_URL}foto/{$uzivatel_props.login|escape}.jpg" alt="{$uzivatel_props.jmeno|escape}" width="{$uzivatel_props.foto_sirka}" height="{$uzivatel_props.foto_vyska}" class="photo" /></p>
 {/if}
 
 {if strlen($uzivatel_props.vzkaz)>0}
-<pre>
+<pre class="note">
 {$uzivatel_props.vzkaz|wordwrap:45:"\n":true|escape}
 </pre>
 {/if}
 
 <ul>
-<li>Jméno: {$uzivatel_props.jmeno|escape}</li>
-<li>Login: {$uzivatel_props.login|escape}</li>
+<li>Jméno: <span class="fn">{$uzivatel_props.jmeno|escape}</span></li>
+<li>Login: <span class="nickname">{$uzivatel_props.login|escape}</span></li>
 {if strlen($uzivatel_props.web)>0}
-<li>Web: <a href="{$uzivatel_props.web|escape}" title="Internetová stránka uživatele {$uzivatel_props.jmeno|escape}"{if !preg_match('/^http:\/\/zonglovani.info.*/',$uzivatel_props.web)} class="external" rel="nofollow"{/if}>{$uzivatel_props.web|replace:'http://':''|regex_replace:'/^www\./':''|regex_replace:'/\/$/':''|truncate:40:'...':false|escape}</a></li>
+<li>Web: <a href="{$uzivatel_props.web|escape}" title="Internetová stránka uživatele {$uzivatel_props.jmeno|escape}"{if !preg_match('/^http:\/\/zonglovani.info.*/',$uzivatel_props.web)} class="external url" rel="nofollow"{/if}>{$uzivatel_props.web|replace:'http://':''|regex_replace:'/^www\./':''|regex_replace:'/\/$/':''|truncate:40:'...':false|escape}</a></li>
 {/if}
 <li>Účet vytvořen: {$uzivatel_props.registrace_hr|escape}</li>
 {if $uzivatel_props.tel}
@@ -67,7 +68,7 @@ Stránku odebereš z oblíbených kliknutím na obrázek žluté hvězdičky {ob
 </ul>
 {if $uzivatel_props.soukromi=='mail'}
 <ul>
-<li>E-mail: {$uzivatel_props.email|escape|mailobfuscate}</li>
+<li>E-mail: <span class="email">{$uzivatel_props.email|escape|mailobfuscate}</span></li>
 </ul>
 {else}
 <form action="{$smarty.const.LIDE_URL}vzkaz.php" method="post">
@@ -98,7 +99,7 @@ Stránku odebereš z oblíbených kliknutím na obrázek žluté hvězdičky {ob
 <h3>Kde žongluji</h3>
 <ul>
 {foreach from=$uzivatel_props.pusobiste item=misto}
-<li><a href="{$smarty.const.LIDE_URL}misto/{$misto}.html" title="Další žongléři {$pusobiste[$misto].odkud}.">{$pusobiste[$misto].nazev}</a></li>
+<li class="adr"><a href="{$smarty.const.LIDE_URL}misto/{$misto}.html" title="Další žongléři {$pusobiste[$misto].odkud}." class="locality">{$pusobiste[$misto].nazev}</a></li>
 {/foreach}
 </ul>
 {/if}
@@ -116,4 +117,5 @@ Stránku odebereš z oblíbených kliknutím na obrázek žluté hvězdičky {ob
 <a href="{$smarty.const.LIDE_URL}" title="Seznam uživatelů žonglérova slabikáře.">Další žongléři a žonglérky &raquo;</a>
 </p>
 {/if}
+</div>
 {/if}

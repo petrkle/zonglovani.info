@@ -1,6 +1,8 @@
 #!/usr/bin/php
 <?php
 
+if(isset($_SERVER['HTTP_HOST'])){exit();};
+
 $sitemap=file('mapa-stranek.full');
 
 print '<?xml version="1.0" encoding="UTF-8"?>

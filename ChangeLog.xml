@@ -1,6 +1,16 @@
 <?xml version="1.0"?>
 <log>
 <logentry
+   revision="272">
+<author>petr</author>
+<date>2010-04-17T17:10:32.673704Z</date>
+<msg>Obrázkové návody na výrobu míčků</msg>
+<revprops>
+<property
+   name="svn:link">/micky/vyroba-tenisak.html</property>
+</revprops>
+</logentry>
+<logentry
    revision="271">
 <author>petr</author>
 <date>2010-04-10T16:43:55.429968Z</date>

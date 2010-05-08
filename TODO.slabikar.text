@@ -1,6 +1,5 @@
 Aktuální
 ========
-- přihlášeným uživatelům nabízet formulář pro zaslání vzkazu (mě)
 - hitparáda hodnocených stránek, aktualizace žebříčku cronem 
 - u nastavení odkazů dodělat kolonku pro popis a sestavit katalog
 
@@ -11,6 +10,8 @@ Kalendář
 - obrázek k akci v kalendáři
 - export kalendáře (dalších věcí ?) do pdf online
 - http://www.google.com/support/webmasters/bin/answer.py?hl=en&answer=164506
+- mikroformáty k akcím v kalendáři
+- odkazy další, předchozí akce
 
 Etc
 ===
@@ -19,10 +20,10 @@ Etc
 - udělat od jednotlivých obrázků žonglování odkazy na příslušné triky
 - asynchronní verze GA - http://code.google.com/intl/cs/apis/analytics/docs/tracking/asyncTracking.html
 - téma a rozšíření pro chromium
-- přidělat reklamy na žonglérův slabikář na petrkle.wz.cz
 - todo list na webu s hlasováním
 - ankety?
 - kvíz, průvodce výběrem míčků
+- PDF listy s návodem na kaskádu, výrobu míčků, ...?
 
 Automatizace
 ============
@@ -34,10 +35,8 @@ Automatizace
 Obsah
 =====
 - tapety na plochu - zátiší míčků a kužel u vody, na louce, na stromě, pomocí stativu
-- nafotit výrobu míčku z tenisáku, z balonků s mikroteňákem
 - sáčky, obaly a baťohy na míčky, kužely a další žonglovátka
 - překreslit střihy na šití míčů jako obrázky + pdf
-- rozšířit návod na výrobu míčků
 - kutálení kuželek - i pro nejmenší děti
 - náčiní - točicí talíř
 - žonglérské vystoupení - správný postup
@@ -53,3 +52,6 @@ HOTOVO
 ======
 doplnit odkazy "Kam dál" ala yahů 
 vylepšit hlavně stránky které jsou na prvních místech ve vyhledávačích
+nafotit výrobu míčku z tenisáku, z balonků s mikroteňákem
+rozšířit návod na výrobu míčků
+přidělat reklamy na žonglérův slabikář na petrkle.wz.cz

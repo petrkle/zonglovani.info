@@ -17,7 +17,7 @@ giraffe-theory*http://www.youtube.com/watch?v=xaf4Ee9WCdA*Giraffe Theory Jugglin
 jonglage-macabre*http://www.youtube.com/watch?v=hMtzQhzOvIw*Jonglage Macabre*Záznam žonglérského představení. Passing ve třech.
 hocus-pocus*http://www.youtube.com/watch?v=0h51lXT6tNk*Hocus Pocus*Představení z "Festival du nez rouge".
 les-bebes*http://www.youtube.com/watch?v=exsEDu0cgw8*Les Bébés*Dva komici z Francie.
-jeff-wes*http://www.jugglethis.net/filemgmt/singlefile.php?lid=526*Jeff Lutkus & Wes Peden*Video z roku 2006.
+jeff-wes*http://www.jugglethis.net/files/videos/Wes%20and%20Jeff%20Lutkus.mpg*Jeff Lutkus & Wes Peden*Video z roku 2006.
 prechac-weaves*http://juggling.tv:a32a9fb13e93d1c8f310*Prechac Weaves*Propletené žonglování.
 more-or-less*http://www.youtube.com/watch?v=yTtm-K3QV_Y*More or less juggling*Více nebo méně žonglování.
 take-it-out-3*http://www.youtube.com/watch?v=0LArzv9Trmk*Take It Out 3#*Lukas Schütte a Christof Buch - jsou prostě dobří.

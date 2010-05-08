@@ -3,14 +3,10 @@ a img{border-width:0;}
 a:link{color:#000;}
 a:visited{color:#000;}
 a:active{color:#000;}
-#menu{display:none;}
-#paticka{display:none;}
 p,pre{clear:both;margin:2px 10px 7px 20px;}
 p img{margin:0 15px 15px 0;border:1px solid #000;float:left;clear:both;background-color:#ccc;}
-.nahoru{display:none;}
-.zpet{display:none;}
 .spacer{height:20px;width:100%;clear:both;}
 dt{font-weight:bold;margin:2px 10px 7px 20px;}
 dd{margin:2px 10px 7px 40px;}
-.reklama,#ucet,.sdileni,.navigace{display:none;}
 .kontakt img{margin:0;padding:0;border:0;background-color:#fff;vertical-align:bottom;clear:none;float:none;}
+#menu,#paticka,.nahoru,.zpet,.skryte,.reklama,#ucet,.sdileni,.navigace,.drobky,.feedback,.kamdal{display:none;}

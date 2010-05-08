@@ -10,9 +10,9 @@
 {foreach from=$prihlaseni item=loginy name=poradi}
 <tr>
 <td>{$smarty.foreach.poradi.iteration}</td>
-<td><a href="?detail={$loginy.login}">{$loginy.login}</a></td>
+<td><a href="{$smarty.const.LIDE_URL}{$loginy.login}.html">{$loginy.login}</a></td>
 <td>{$loginy.poprve}</td>
-<td>{$loginy.naposled}</td>
+<td><a href="?detail={$loginy.login}">{$loginy.naposled}</a></td>
 <td>{$loginy.pocet}</td>
 </tr>
 {/foreach}

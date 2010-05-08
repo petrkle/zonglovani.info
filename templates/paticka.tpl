@@ -1,10 +1,12 @@
 {if $dalsi}
+<div class="kamdal">
 <a name="kam-dal"></a><h5>Kam dál</h5>
 <ul>
 {foreach from=$dalsi item=odkaz}
 <li><a href="{$odkaz.url|escape}"{if $odkaz.title} title="{$odkaz.title|escape}"{/if}>{$odkaz.text|escape}</a></li>
 {/foreach}
 </ul>
+</div>
 {/if}
 {if $feedback}
 <div class="feedback">

@@ -71,19 +71,16 @@
 		</li>
 		<li><a name="kalendar"></a><a href="/kalendar/">Kalendář žonglování</a>
 		<ul>
-		<li><a href="/kalendar/2009-12.html">Kalendář žonglování - Prosinec 2009</a></li>
 		<li><a href="/kalendar/2010-01.html">Kalendář žonglování - Leden 2010</a></li>
 		<li><a href="/kalendar/2010-02.html">Kalendář žonglování - Únor 2010</a></li>
 		<li><a href="/kalendar/2010-03.html">Kalendář žonglování - Březen 2010</a></li>
-		<li><a href="/kalendar/2010-05.html">Kalendář žonglování - Květen 2010</a></li>
+		<li><a href="/kalendar/2010-04.html">Kalendář žonglování - Duben 2010</a></li>
 		<li><a href="/kalendar/2010-06.html">Kalendář žonglování - Červen 2010</a></li>
 		<li><a href="/kalendar/2010-07.html">Kalendář žonglování - Červenec 2010</a></li>
 		<li><a href="/kalendar/2010-08.html">Kalendář žonglování - Srpen 2010</a></li>
+		<li><a href="/kalendar/2010-09.html">Kalendář žonglování - Září 2010</a></li>
 		<li><a href="/kalendar/kalendar.rss">Kalendář žonglérských akcí</a></li>
 		<li><a href="/kalendar/rss-a-icalendar.html">Nastavení RSS a iCalendar</a></li>
-		<li><a href="/kalendar/udalost-20100110-20100110-pek-1253740481.html">Kalendář - Ulita</a></li>
-		<li><a href="/kalendar/udalost-20100124-20100124-pek-1253740517.html">Kalendář - Ulita</a></li>
-		<li><a href="/kalendar/udalost-20100127-20100127-pek-1264452366.html">Kalendář - Žonglování na Klamovce</a></li>
 		<li><a href="/kalendar/udalost-20100202-20100202-pek-1264451966.html">Kalendář - Kurzy cirkusových technik</a></li>
 		<li><a href="/kalendar/udalost-20100203-20100203-pek-1264452602.html">Kalendář - Žonglování na Klamovce</a></li>
 		<li><a href="/kalendar/udalost-20100205-20100205-pek-1265196628.html">Kalendář - Žonglování na ledě</a></li>
@@ -100,10 +97,12 @@
 		<li><a href="/kalendar/udalost-20100414-20100414-pek-1269711295.html">Kalendář - Sraz Triba Fuega</a></li>
 		<li><a href="/kalendar/udalost-20100417-20100417-summer-1269243438.html">Kalendář - FLIČONGOVIL</a></li>
 		<li><a href="/kalendar/udalost-20100423-20100423-pek-1267956985.html">Kalendář - Žonglování v Jihlavě</a></li>
+		<li><a href="/kalendar/udalost-20100428-20100428-pek-1271566283.html">Kalendář - Sraz Triba Fuega</a></li>
 		<li><a href="/kalendar/udalost-20100528-20100528-pek-1267957236.html">Kalendář - Žonglování v Jihlavě</a></li>
 		<li><a href="/kalendar/udalost-20100625-20100625-pek-1267957291.html">Kalendář - Žonglování v Jihlavě</a></li>
 		<li><a href="/kalendar/udalost-20100705-20100711-pek-1268070475.html">Kalendář - Oheň a pohyb</a></li>
 		<li><a href="/kalendar/udalost-20100724-20100801-pek-1267957805.html">Kalendář - European Juggling Convention</a></li>
+		<li><a href="/kalendar/udalost-20100821-20100828-pek-1267957575.html">Kalendář - Aleje 2010</a></li>
 		</ul>
 		</li>
 		<li><a name="kruhy"></a><a href="/kruhy/">Žonglování s kruhy</a>
@@ -210,6 +209,7 @@
 		<ul>
 		<li><a href="/lide/adamj.html">Adam J</a></li>
 		<li><a href="/lide/adekcz.html">Michal KEda</a></li>
+		<li><a href="/lide/amater1994.html">David</a></li>
 		<li><a href="/lide/apo.html">Apo</a></li>
 		<li><a href="/lide/bloke.html">Tessi</a></li>
 		<li><a href="/lide/brekeke.html">brekeke</a></li>
@@ -250,6 +250,7 @@
 		<li><a href="/lide/vitek.html">Vítek kumštýř mnoha tváří</a></li>
 		<li><a href="/lide/vokis.html">Honza</a></li>
 		<li><a href="/lide/zapomenute-heslo.php">Zapomenuté heslo</a></li>
+		<li><a href="/lide/zonglerka.html">zdenka Škropekova</a></li>
 		<li><a href="/lide/zongluj.html">Žongluj imrvére</a></li>
 			<li><a name="dovednost"></a><a href="/lide/dovednost/">Žongléři podle dovedností</a>
 			<ul>

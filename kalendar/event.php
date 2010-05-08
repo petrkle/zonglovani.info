@@ -103,6 +103,7 @@ if($udalost){
 	}else{
 		# zobrazit
 		$smarty->assign('feedback',true);
+		$smarty->assign('hcalendar',true);
 		$trail->addStep($udalost['month_name'],$udalost['month_url']);
 		$trail->addStep($udalost['title']);
 		$smarty->assign('nahled','http://'.$_SERVER['SERVER_NAME'].'/img/k/kalendar.png');
