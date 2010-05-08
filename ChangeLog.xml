@@ -1,6 +1,16 @@
 <?xml version="1.0"?>
 <log>
 <logentry
+   revision="274">
+<author>petr</author>
+<date>2010-05-08T10:38:37.082771Z</date>
+<msg>Gamiballs</msg>
+<revprops>
+<property
+   name="svn:link">/micky/vyroba.html#gmiball</property>
+</revprops>
+</logentry>
+<logentry
    revision="273">
 <author>petr</author>
 <date>2010-05-08T09:44:43.832327Z</date>

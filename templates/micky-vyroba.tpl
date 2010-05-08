@@ -16,11 +16,11 @@ Nejjednodušší způsob jak vyrobit míček na žonglování.
 Pěkný míček na žonglování z tenisáku a nafukovacích balónků.
 </p>
 
-<a name="gmiball"></a><h3><a href="/gmiball.pdf" title="Návod na ušití míčku">Gamiballs</a></h3>
+<a name="gmiball"></a><h3><a href="/gmiball.pdf" title="Návod na ušití míčku" onclick="pageTracker._trackPageview('/gmiball.pdf');">Gamiballs</a></h3>
 
 <p>
-<a href="/gmiball.pdf">{obrazek soubor="gmiball.jpg" popisek="Gamiballs"}</a>
-Obrázkový návod od <a href="http://www.barf.cc/diagrams/PDF_diagrams/pdf_diagrams.html" class="external">Jeremyho Shafera</a> jak ušít míček z jednoho kusu látky. Popis je anglicky.
+<a href="/gmiball.pdf" onclick="pageTracker._trackPageview('/gmiball.pdf');">{obrazek soubor="gmiball.jpg" popisek="Gamiballs"}</a>
+Obrázkový návod od <a href="http://www.barf.cc/diagrams/PDF_diagrams/pdf_diagrams.html" class="external" onclick="pageTracker._trackPageview('/goto/barf.cc/diagrams/PDF_diagrams/pdf_diagrams.html');">Jeremyho Shafera</a> jak ušít míček z jednoho kusu látky. Popis je anglicky.
 </p>
 
 <a name="sity"></a><h3>Šitý míček</h3>
