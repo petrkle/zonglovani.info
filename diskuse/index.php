@@ -48,6 +48,7 @@ $smarty->assign(
 
 
 if(isset($_GET['rss'])){
+	$smarty->assign_by_ref('zpravy',$zpravy);
 	header('Content-Type: application/rss+xml');
 	$smarty->display('diskuse-rss.tpl');
 	exit();

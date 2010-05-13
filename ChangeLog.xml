@@ -1,6 +1,16 @@
 <?xml version="1.0"?>
 <log>
 <logentry
+   revision="275">
+<author>petr</author>
+<date>2010-05-08T10:56:55.083015Z</date>
+<msg>Juggling in your Right Mind</msg>
+<revprops>
+<property
+   name="svn:link">/literatura.html#pp</property>
+</revprops>
+</logentry>
+<logentry
    revision="274">
 <author>petr</author>
 <date>2010-05-08T10:38:37.082771Z</date>
