@@ -1,6 +1,12 @@
 <?xml version="1.0"?>
 <log>
 <logentry
+   revision="276">
+<author>petr</author>
+<date>2010-05-13T18:14:13.180411Z</date>
+<msg>RSS v knize návštěv - částečná oprava</msg>
+</logentry>
+<logentry
    revision="275">
 <author>petr</author>
 <date>2010-05-08T10:56:55.083015Z</date>

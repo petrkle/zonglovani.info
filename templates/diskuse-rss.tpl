@@ -8,7 +8,7 @@
       <rdf:Seq>
 				{section loop=$zpravy name=smycka1 step=-1}
 				{if $smarty.section.smycka1.rownum < 10}
-        <rdf:li resource="http://{$smarty.server.SERVER_NAME}{$smarty.const.DISKUSE_URL}stranka{$page_numbers.total}.html#{$zpravy[$smarty.section.smycka1.index].cas}" />
+        <rdf:li resource="http://{$smarty.server.SERVER_NAME}{$smarty.const.DISKUSE_URL}stranka{$zpravy[$smarty.section.smycka1.index].stranka}.html#{$zpravy[$smarty.section.smycka1.index].cas}" />
 				{/if}
 				{/section}
       </rdf:Seq>
@@ -16,11 +16,11 @@
   </channel>
 {section loop=$zpravy name=smycka2 step=-1}
 	{if $smarty.section.smycka2.rownum < 10}
-  <item rdf:about="http://{$smarty.server.SERVER_NAME}{$smarty.const.DISKUSE_URL}stranka{$page_numbers.total}.html#{$zpravy[$smarty.section.smycka2.index].cas}">
-    <title>{$zpravy[$smarty.section.smycka2.index].text|truncate:30:"...":true|escape}</title>
-    <link>http://{$smarty.server.SERVER_NAME}{$smarty.const.DISKUSE_URL}stranka{$page_numbers.total}.html#{$zpravy[$smarty.section.smycka2.index].cas}</link>
+  <item rdf:about="http://{$smarty.server.SERVER_NAME}{$smarty.const.DISKUSE_URL}stranka{$zpravy[$smarty.section.smycka2.index].stranka}.html#{$zpravy[$smarty.section.smycka2.index].cas}">
+    <title>{$zpravy[$smarty.section.smycka2.index].text|strip_tags:false|truncate:30:"...":true|escape}</title>
+    <link>http://{$smarty.server.SERVER_NAME}{$smarty.const.DISKUSE_URL}stranka{$zpravy[$smarty.section.smycka2.index].stranka}.html#{$zpravy[$smarty.section.smycka2.index].cas}</link>
     <description>{$zpravy[$smarty.section.smycka2.index].text|escape}</description>
-    <dc:creator>{$zprava.autor|escape}</dc:creator>
+    <dc:creator>{$zpravy[$smarty.section.smycka2.index].autor|escape}</dc:creator>
     <dc:date>{$zpravy[$smarty.section.smycka2.index].cas_mr}</dc:date>
   </item>
 	{/if}

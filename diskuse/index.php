@@ -4,8 +4,9 @@ require('../func.php');
 require($lib.'/Pager/Pager.php');
 require($lib.'/nbbc.php');
 require('bbcode.init.php');
+$zprav_na_stranku=10;
 
-$zpravy=get_diskuse_zpravy($bbcode);
+$zpravy=get_diskuse_zpravy($bbcode,$zprav_na_stranku);
 
 $trail = new Trail();
 $trail->addStep('Diskuse',DISKUSE_URL);
@@ -14,7 +15,7 @@ $pagerOptions = array(
     'mode'     => 'Sliding',
     'delta'    => 2,
 		'firstLinkTitle' => 'První stránka',
-    'perPage'  => 10,
+    'perPage'  => $zprav_na_stranku,
     'altPrev'  => 'Předchozí stránka',
     'altNext'  => 'Další stránka',
     'altPage'  => 'Stránka',
@@ -59,7 +60,7 @@ if(isset($_GET['rss'])){
 	$smarty->display('paticka.tpl');
 }
 
-function get_diskuse_zpravy($bbcode){
+function get_diskuse_zpravy($bbcode,$zprav_na_stranku){
 	$dir = opendir(DISKUSE_DATA);
 	$navrat = array();
 	    if ($dir) {
@@ -75,6 +76,16 @@ function get_diskuse_zpravy($bbcode){
 		   }
 	closedir($dir);
 	usort($navrat, 'sort_by_time');
+	$pocet=count($navrat);
+	$stranka=1;
+	$foo=1;
+	foreach($navrat as $key=>$value){
+		$navrat[$key]['stranka']=$stranka;
+		if($foo==$zprav_na_stranku*$stranka){
+			$stranka++;
+		}
+		$foo++;
+	}
  return $navrat;
 }
 
