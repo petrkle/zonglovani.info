@@ -8247,6 +8247,12 @@
    </url>
 			
    <url>
+      <loc>http://zonglovani.info/video/interrobang.html</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
       <loc>http://zonglovani.info/video/jen-slaw.html</loc>
       <changefreq>monthly</changefreq>
       <priority>0.4</priority>

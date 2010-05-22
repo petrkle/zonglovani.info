@@ -60,12 +60,7 @@ function my_rand_ini($znameni,$time){
 };
 
 function prvni_velke($text){
-	$prvni=substr($text,0,1);
-	$zbytek=substr($text,1);
-	$prvni=strtr($prvni,"abcdefghijklmnopqrstuvwxyz", "ABCDEFGHIJKLMNOPQRSTUVWXYZ");
-	$prvni=strtr($prvni,"ěščřžýáíéňďťúů", "ĚŠČŘŽÝÁÍÉŇĎŤÚŮ");
-	$navrat=$prvni.$zbytek;
-	return $navrat;
+	return mb_convert_case(mb_substr($text,0,1,'UTF-8'), MB_CASE_TITLE, 'UTF-8').preg_replace('/^./u','',$text);
 };
 
 function prvni_male($text){
