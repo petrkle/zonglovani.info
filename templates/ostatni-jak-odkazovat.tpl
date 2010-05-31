@@ -6,22 +6,21 @@ Pro vložení odkazu stačí do tvé stránky zkopírovat jeden z následující
 <p>
 <code>
 &lt;a href="http://zonglovani.info"
- title="Obrázková učebnice žonglování."&gt;Žonglérův slabikář&lt;/a&gt;
+ title="Žonglérův slabikář - obrázková učebnice žonglování"&gt;Žonglování&lt;/a&gt;
 </code>
 </p>
 <p>
-<a href="http://zonglovani.info" title="Obrázková učebnice žonglování.">Žonglérův slabikář</a>
+<a href="http://zonglovani.info" title="Žonglérův slabikář - obrázková učebnice žonglování">Žonglování</a>
 </p>
 
 <h2><a name="longtext">Textový odkaz s popiskem</a></h2>
 <p>
 <code>
-&lt;a href="http://zonglovani.info"
- title="Obrázková učebnice žonglování."&gt;Žonglérův slabikář&lt;/a&gt; - obrázková učebnice žonglování. Průvodce světem létajících míčků, kruhů a kuželů.
+&lt;strong&gt;Žonglérův slabikář&lt;/strong&gt; - obrázková učebnice &lt;a href="http://zonglovani.info" title="Obrázková učebnice žonglování"&gt;žonglování&lt;/a&gt;. Průvodce světem létajících míčků, kruhů a kuželů.
 </code>
 </p>
 <p>
-<a href="http://zonglovani.info" title="Obrázková učebnice žonglování.">Žonglérův slabikář</a> - obrázková učebnice žonglování. Průvodce světem létajících míčků, kruhů a kuželů.
+<strong>Žonglérův slabikář</strong> - obrázková učebnice <a href="http://zonglovani.info" title="Obrázková učebnice žonglování">žonglování</a>. Průvodce světem létajících míčků, kruhů a kuželů.
 </p>
 
 <h2><a name="smallico">Ikonka 88x31</a></h2>
