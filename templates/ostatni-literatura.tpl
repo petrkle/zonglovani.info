@@ -29,9 +29,15 @@ Anglická knížka kterou sepsal Hans Vanwynsberghe. Nedokončená, ale i přest
 Knížka o točení s poi od Richeeho.
 </p>
 
-<a name="pp"></a><h3><a href="/passing-patterns.pdf" title="Točení s poi." onclick="pageTracker._trackPageview('/passing-patterns.pdf');">Juggling in your Right Mind</a></h3>
+<a name="pp"></a><h3><a href="/passing-patterns.pdf" title="Juggling in your Right Mind" onclick="pageTracker._trackPageview('/passing-patterns.pdf');">Juggling in your Right Mind</a></h3>
 <p>
 <a href="/passing-patterns.pdf" title="Juggling in your Right Mind" onclick="pageTracker._trackPageview('/passing-patterns.pdf');">{obrazek soubor="passing-patterns.jpg" popisek="Juggling in your Right Mind"}</a>
 Návody na passování které sepsal Lee Kolinsky.
+</p>
+
+<a name="hpp"></a><h3><a href="/highgate-passing-patterns.pdf" title="Točení s poi." onclick="pageTracker._trackPageview('/passing-patterns.pdf');">The Highgate Collection</a></h3>
+<p>
+<a href="/highgate-passing-patterns.pdf" title="The Highgate Collection" onclick="pageTracker._trackPageview('/highgate-passing-patterns.pdf');">{obrazek soubor="highgate-passing-patterns.png" popisek="The Highgate Collection"}</a>
+Návody na passování pro dva až čtyři lidi od Aidana Burnse.
 </p>
 
