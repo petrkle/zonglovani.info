@@ -19,6 +19,7 @@
 <p>Diskuse o žonglování.</p>
 
 <h3><a href="http://{$smarty.server.SERVER_NAME}{$smarty.const.LIDE_URL}uzivatele.rss">http://{$smarty.server.SERVER_NAME}{$smarty.const.LIDE_URL}uzivatele.rss</a></h3>
+<h5><a href="http://{$smarty.server.SERVER_NAME}{$smarty.const.LIDE_URL}uzivatele.xml">http://{$smarty.server.SERVER_NAME}{$smarty.const.LIDE_URL}uzivatele.xml</a></h5>
 <p>Nově zaregistrovaní uživatelé žonglérova slabikáře.</p>
 
 <h3><a href="http://{$smarty.server.SERVER_NAME}/ostatni/changelog.rss">http://{$smarty.server.SERVER_NAME}/ostatni/changelog.rss</a></h3>

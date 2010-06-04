@@ -277,6 +277,7 @@ function get_user_props($login){
 			$navrat['registrace']=trim(array_pop(file(LIDE_DATA.'/'.$login.'/registrace.txt')));
 			$navrat['registrace_hr']=date('j. n. Y',$navrat['registrace']);
 			$navrat['registrace_mr']=date('c',$navrat['registrace']);
+			$navrat['registrace_rss2']=date('r',$navrat['registrace']);
 		}
 
 		if(is_file(LIDE_DATA.'/'.$login.'/foto.jpg')){

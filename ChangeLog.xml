@@ -1,6 +1,16 @@
 <?xml version="1.0"?>
 <log>
 <logentry
+   revision="282">
+<author>petr</author>
+<date>2010-06-01T16:08:06.041053Z</date>
+<msg>The Highgate Collection</msg>
+<revprops>
+<property
+   name="svn:link">/literatura.html#hpp</property>
+</revprops>
+</logentry>
+<logentry
    revision="281">
 <author>petr</author>
 <date>2010-05-31T19:23:54.949729Z</date>
