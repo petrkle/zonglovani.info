@@ -51,7 +51,11 @@ $smarty->assign(
 if(isset($_GET['rss'])){
 	$smarty->assign_by_ref('zpravy',$zpravy);
 	header('Content-Type: application/rss+xml');
-	$smarty->display('diskuse-rss.tpl');
+	if(isset($_GET['v'])){
+		$smarty->display('diskuse-rss2.tpl');
+	}else{
+		$smarty->display('diskuse-rss.tpl');
+	}
 	exit();
 }else{
 	$smarty->assign_by_ref('trail', $trail->path);
@@ -70,7 +74,7 @@ function get_diskuse_zpravy($bbcode,$zprav_na_stranku){
 							$foo=preg_split('/-/',$foo[0]);
 							$cas=$foo[0];
 							$autor=$foo[1];
-				      array_push($navrat,array('cas'=>$cas,'cas_mr'=>date('c',$cas),'cas_hr'=>date('G.i',$cas),'datum_hr'=>date('j. n. Y',$cas),'autor'=>$autor,'text'=>$bbcode->Parse(trim(file_get_contents(DISKUSE_DATA.'/'.$filename)))));
+				      array_push($navrat,array('cas'=>$cas,'cas_rss2'=>date('r',$cas),'cas_mr'=>date('c',$cas),'cas_hr'=>date('G.i',$cas),'datum_hr'=>date('j. n. Y',$cas),'autor'=>$autor,'text'=>$bbcode->Parse(trim(file_get_contents(DISKUSE_DATA.'/'.$filename)))));
 					 }
 			   }
 		   }

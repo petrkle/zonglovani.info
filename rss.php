@@ -29,12 +29,19 @@ foreach($kanaly as $kanal){
 usort($udalosti, 'sort_by_rss_date');
 
 for($foo=0;$foo<10;$foo++){
-	array_push($rssu,array_pop($udalosti));
+	$udalost=array_pop($udalosti);
+	$udalost['datum_rss2']=date('r',strtotime($udalost['dc']['date']));
+	array_push($rssu,$udalost);
 }
 
-$smarty->assign("udalosti",array_reverse($rssu));
+$smarty->assign('udalosti',array_reverse($rssu));
 header('Content-Type: application/rss+xml');
-$smarty->display('rss.tpl');
+
+if(isset($_GET['v'])){
+	$smarty->display('rss2.tpl');
+}else{
+	$smarty->display('rss.tpl');
+}
 
 function sort_by_rss_date($a, $b)
 {

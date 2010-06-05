@@ -8,6 +8,7 @@ RewriteRule ^udalost-(..*)\.html$ event.php?id=$1 [L]
 RewriteRule ^smazane-(..*)\.html$ event.php?id=$1&deleted [L]
 RewriteRule ^(....)-(.*)\.html$ index.php?y=$1&m=$2 [L]
 RewriteRule ^kalendar.rss$ rss.php [L]
+RewriteRule ^kalendar.xml$ rss.php?v=2 [L]
 RewriteRule ^kalendar.ics$ ical.php [L]
 
 RewriteRule (.*).html $1.php [L]

@@ -41,6 +41,7 @@ RewriteRule video$ /video/ [R=301,L]
 RewriteRule video/$ video-index.php [L]
 
 RewriteRule ostatni/changelog\.rss$ ostatni-changelog-rss.php [L]
+RewriteRule ostatni/changelog\.xml$ ostatni-changelog-rss.php?v=2 [L]
 RewriteRule ostatni\.html$ ostatni-index.php [L]
 RewriteRule (.*).html ostatni-$1.php [L]
 
@@ -48,3 +49,4 @@ RewriteRule chudy$ /chudy/ [R=301,L]
 RewriteRule chudy/?$ chudy-index.php [L]
 
 RewriteRule ^zonglovani.rss$ rss.php [L]
+RewriteRule ^zonglovani.xml$ rss.php?v=2 [L]

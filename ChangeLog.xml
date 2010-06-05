@@ -1,6 +1,12 @@
 <?xml version="1.0"?>
 <log>
 <logentry
+   revision="283">
+<author>petr</author>
+<date>2010-06-04T20:13:53.028124Z</date>
+<msg>RSS2 pro seznam žonglérů.</msg>
+</logentry>
+<logentry
    revision="282">
 <author>petr</author>
 <date>2010-06-01T16:08:06.041053Z</date>

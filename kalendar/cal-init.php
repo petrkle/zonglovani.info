@@ -100,6 +100,7 @@ function get_event_data($id,$storage=CALENDAR_DATA){
 		$udalost['end_ical']=date('Ymd\THis\Z',(strtotime($udalost['konec'])-date('Z',strtotime($udalost['konec']))));
 		$udalost['insert_hr']=date('j. n. Y',$udalost['insert']);
 		$udalost['insert_mr']=date('c',$udalost['insert']);
+		$udalost['insert_rss2']=date('r',$udalost['insert']);
 		$navrat=$udalost;
 
 }
@@ -161,7 +162,7 @@ function get_future_data(){
   if(is_dir(CALENDAR_DATA) and opendir(CALENDAR_DATA)){
 	$adr=opendir(CALENDAR_DATA);
 	while (false!==($file = readdir($adr))) {
-	  if (substr($file,-4) == ".cal")
+	  if (substr($file,-4) == '.cal')
 		{
 			$konec=substr($file,9,4).'-'.substr($file,13,2).'-'.substr($file,15,2);
 			if(date('U',strtotime($konec))>time()){
@@ -171,8 +172,13 @@ function get_future_data(){
 	};
 	closedir($adr); 
   };
-
+  uasort($vypis, 'sort_by_insertime'); 
 	return $vypis;
+}
+
+function sort_by_insertime($a, $b)
+{
+		return ($a['insert'] > $b['insert']) ? -1 : 1;
 }
 
 function event_validation($udalost,$now){

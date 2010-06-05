@@ -5,5 +5,10 @@ require('../func.php');
 
 header('Content-Type: application/rss+xml');
 $smarty->assign('events',get_future_data());
-$smarty->display('kalendar-rss.tpl');
+
+if(isset($_GET['v'])){
+	$smarty->display('kalendar-rss2.tpl');
+}else{
+	$smarty->display('kalendar-rss.tpl');
+}
 ?>

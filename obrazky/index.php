@@ -46,7 +46,11 @@ $smarty->assign('feedback',true);
 if($rss){
 	header('Content-Type: application/rss+xml');
 	$smarty->assign('obrazky',get_galerie());
-	$smarty->display('obrazky.rss.tpl');
+	if(isset($_GET['v'])){
+		$smarty->display('obrazky.rss2.tpl');
+	}else{
+		$smarty->display('obrazky.rss.tpl');
+	}
 	exit();
 }
 
@@ -244,7 +248,8 @@ function get_galerie($filtr='.+'){
 							$info=get_galerie_info($filename);
 							if($info){
 								$datum_mr=substr($datum,0,4).'-'.substr($datum,4,2).'-'.substr($datum,6,2).'T'.date('H:i:s', filemtime(OBRAZKY_DATA.'/'.$filename.'/index.txt')).'+02:00';
-				      	array_push($navrat,array('name'=>$filename,'title'=>$info['title'],'datum'=>$datum,'autor'=>$info['autor'],'datum_mr'=>$datum_mr));
+								$datum_rss2=date('r',strtotime($datum));
+				      	array_push($navrat,array('name'=>$filename,'title'=>$info['title'],'datum'=>$datum,'autor'=>$info['autor'],'datum_mr'=>$datum_mr,'datum_rss2'=>$datum_rss2));
 							}
 					 }
 			   }

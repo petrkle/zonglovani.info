@@ -350,7 +350,8 @@ $xml = simplexml_load_file($_SERVER['DOCUMENT_ROOT'].'/ChangeLog.xml');
 			$datum =(string) $verze->date; $datum=preg_split('/\./',$datum);
 			$foo['datum'] = $datum[0]; 
 			$foo['datum_hr'] = date('j. n. Y G.i',strtotime($datum[0])); 
-			$foo['time_mr']=date("c",strtotime($datum[0]));
+			$foo['time_mr']=date('c',strtotime($datum[0]));
+			$foo['time_rss2']=date('r',strtotime($datum[0]));
 			$foo['popis']= (string) $verze->msg;
 			$link=(string) $verze->revprops->property;
 			if(strlen($link)>0){

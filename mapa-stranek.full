@@ -72,24 +72,16 @@
 		</li>
 		<li><a name="kalendar"></a><a href="/kalendar/">Kalendář žonglování</a>
 		<ul>
-		<li><a href="/kalendar/2010-01.html">Kalendář žonglování - Leden 2010</a></li>
 		<li><a href="/kalendar/2010-02.html">Kalendář žonglování - Únor 2010</a></li>
 		<li><a href="/kalendar/2010-03.html">Kalendář žonglování - Březen 2010</a></li>
 		<li><a href="/kalendar/2010-04.html">Kalendář žonglování - Duben 2010</a></li>
-		<li><a href="/kalendar/2010-06.html">Kalendář žonglování - Červen 2010</a></li>
+		<li><a href="/kalendar/2010-05.html">Kalendář žonglování - Květen 2010</a></li>
 		<li><a href="/kalendar/2010-07.html">Kalendář žonglování - Červenec 2010</a></li>
 		<li><a href="/kalendar/2010-08.html">Kalendář žonglování - Srpen 2010</a></li>
 		<li><a href="/kalendar/2010-09.html">Kalendář žonglování - Září 2010</a></li>
+		<li><a href="/kalendar/2010-10.html">Kalendář žonglování - Říjen 2010</a></li>
 		<li><a href="/kalendar/kalendar.rss">Kalendář žonglérských akcí</a></li>
 		<li><a href="/kalendar/rss-a-icalendar.html">Nastavení RSS a iCalendar</a></li>
-		<li><a href="/kalendar/udalost-20100202-20100202-pek-1264451966.html">Kalendář - Kurzy cirkusových technik</a></li>
-		<li><a href="/kalendar/udalost-20100203-20100203-pek-1264452602.html">Kalendář - Žonglování na Klamovce</a></li>
-		<li><a href="/kalendar/udalost-20100205-20100205-pek-1265196628.html">Kalendář - Žonglování na ledě</a></li>
-		<li><a href="/kalendar/udalost-20100207-20100207-pek-1253740566.html">Kalendář - Ulita</a></li>
-		<li><a href="/kalendar/udalost-20100210-20100210-pek-1264371757.html">Kalendář - Sraz Triba Fuega</a></li>
-		<li><a href="/kalendar/udalost-20100210-20100210-pek-1264452670.html">Kalendář - Žonglování na Klamovce</a></li>
-		<li><a href="/kalendar/udalost-20100217-20100217-pek-1264452742.html">Kalendář - Žonglování na Klamovce</a></li>
-		<li><a href="/kalendar/udalost-20100221-20100221-pek-1253740621.html">Kalendář - Ulita</a></li>
 		<li><a href="/kalendar/udalost-20100307-20100307-pek-1253740665.html">Kalendář - Ulita</a></li>
 		<li><a href="/kalendar/udalost-20100321-20100321-pek-1253740740.html">Kalendář - Ulita</a></li>
 		<li><a href="/kalendar/udalost-20100326-20100326-pek-1267956985.html">Kalendář - Žonglování v Jihlavě</a></li>
@@ -105,6 +97,9 @@
 		<li><a href="/kalendar/udalost-20100526-20100526-pek-1273861108.html">Kalendář - Sraz Triba Fuega</a></li>
 		<li><a href="/kalendar/udalost-20100528-20100528-pek-1267957236.html">Kalendář - Žonglování v Jihlavě</a></li>
 		<li><a href="/kalendar/udalost-20100529-20100529-pek-1273868363.html">Kalendář - UlitaFEST</a></li>
+		<li><a href="/kalendar/udalost-20100607-20100607-luciaska-1275493733.html">Kalendář - Žonglujte s námi!</a></li>
+		<li><a href="/kalendar/udalost-20100608-20100608-luciaska-1275493864.html">Kalendář - Oslava rekordu v žonglování</a></li>
+		<li><a href="/kalendar/udalost-20100609-20100609-pek-1275391597.html">Kalendář - Sraz Triba Fuega</a></li>
 		<li><a href="/kalendar/udalost-20100613-20100613-pek-1272998353.html">Kalendář - Den žonglování v Brně</a></li>
 		<li><a href="/kalendar/udalost-20100619-20100619-pek-1273860571.html">Kalendář - Den žonglování</a></li>
 		<li><a href="/kalendar/udalost-20100619-20100619-pek-1273894229.html">Kalendář - Den žonglování s UJS</a></li>
@@ -234,6 +229,7 @@
 		<li><a href="/lide/grohy.html">Dominik Grohmann</a></li>
 		<li><a href="/lide/haniha.html">Hana</a></li>
 		<li><a href="/lide/hrabje.html">Martin Khek</a></li>
+		<li><a href="/lide/hubis.html">Hubis</a></li>
 		<li><a href="/lide/jabko.html">Jan Holubec</a></li>
 		<li><a href="/lide/jitka.html">Jitka</a></li>
 		<li><a href="/lide/juggleman.html">Tomáš Ullrich</a></li>
@@ -260,6 +256,7 @@
 		<li><a href="/lide/sigurd.html">Adam Šťastný</a></li>
 		<li><a href="/lide/spanker.html">Zbyněk Fojtík</a></li>
 		<li><a href="/lide/ssttaannaa.html">ssttaannaa</a></li>
+		<li><a href="/lide/stewe.html">Štěpán Pícha</a></li>
 		<li><a href="/lide/summer.html">Summer</a></li>
 		<li><a href="/lide/suro.html">Pavel Surovy</a></li>
 		<li><a href="/lide/svaty.html">Svaty</a></li>

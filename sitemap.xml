@@ -357,12 +357,6 @@
    </url>
 			
    <url>
-      <loc>http://zonglovani.info/kalendar/2010-01.html</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.6</priority>
-   </url>
-			
-   <url>
       <loc>http://zonglovani.info/kalendar/2010-02.html</loc>
       <changefreq>weekly</changefreq>
       <priority>0.6</priority>
@@ -381,7 +375,7 @@
    </url>
 			
    <url>
-      <loc>http://zonglovani.info/kalendar/2010-06.html</loc>
+      <loc>http://zonglovani.info/kalendar/2010-05.html</loc>
       <changefreq>weekly</changefreq>
       <priority>0.6</priority>
    </url>
@@ -405,6 +399,12 @@
    </url>
 			
    <url>
+      <loc>http://zonglovani.info/kalendar/2010-10.html</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.6</priority>
+   </url>
+			
+   <url>
       <loc>http://zonglovani.info/kalendar/kalendar.rss</loc>
       <changefreq>weekly</changefreq>
       <priority>0.6</priority>
@@ -414,54 +414,6 @@
       <loc>http://zonglovani.info/kalendar/rss-a-icalendar.html</loc>
       <changefreq>weekly</changefreq>
       <priority>0.6</priority>
-   </url>
-			
-   <url>
-      <loc>http://zonglovani.info/kalendar/udalost-20100202-20100202-pek-1264451966.html</loc>
-      <changefreq>monthly</changefreq>
-      <priority>0.7</priority>
-   </url>
-			
-   <url>
-      <loc>http://zonglovani.info/kalendar/udalost-20100203-20100203-pek-1264452602.html</loc>
-      <changefreq>monthly</changefreq>
-      <priority>0.7</priority>
-   </url>
-			
-   <url>
-      <loc>http://zonglovani.info/kalendar/udalost-20100205-20100205-pek-1265196628.html</loc>
-      <changefreq>monthly</changefreq>
-      <priority>0.7</priority>
-   </url>
-			
-   <url>
-      <loc>http://zonglovani.info/kalendar/udalost-20100207-20100207-pek-1253740566.html</loc>
-      <changefreq>monthly</changefreq>
-      <priority>0.7</priority>
-   </url>
-			
-   <url>
-      <loc>http://zonglovani.info/kalendar/udalost-20100210-20100210-pek-1264371757.html</loc>
-      <changefreq>monthly</changefreq>
-      <priority>0.7</priority>
-   </url>
-			
-   <url>
-      <loc>http://zonglovani.info/kalendar/udalost-20100210-20100210-pek-1264452670.html</loc>
-      <changefreq>monthly</changefreq>
-      <priority>0.7</priority>
-   </url>
-			
-   <url>
-      <loc>http://zonglovani.info/kalendar/udalost-20100217-20100217-pek-1264452742.html</loc>
-      <changefreq>monthly</changefreq>
-      <priority>0.7</priority>
-   </url>
-			
-   <url>
-      <loc>http://zonglovani.info/kalendar/udalost-20100221-20100221-pek-1253740621.html</loc>
-      <changefreq>monthly</changefreq>
-      <priority>0.7</priority>
    </url>
 			
    <url>
@@ -550,6 +502,24 @@
 			
    <url>
       <loc>http://zonglovani.info/kalendar/udalost-20100529-20100529-pek-1273868363.html</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.7</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/kalendar/udalost-20100607-20100607-luciaska-1275493733.html</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.7</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/kalendar/udalost-20100608-20100608-luciaska-1275493864.html</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.7</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/kalendar/udalost-20100609-20100609-pek-1275391597.html</loc>
       <changefreq>monthly</changefreq>
       <priority>0.7</priority>
    </url>
@@ -1167,6 +1137,12 @@
    </url>
 			
    <url>
+      <loc>http://zonglovani.info/lide/hubis.html</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+   </url>
+			
+   <url>
       <loc>http://zonglovani.info/lide/jabko.html</loc>
       <changefreq>monthly</changefreq>
       <priority>0.6</priority>
@@ -1318,6 +1294,12 @@
 			
    <url>
       <loc>http://zonglovani.info/lide/ssttaannaa.html</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/lide/stewe.html</loc>
       <changefreq>monthly</changefreq>
       <priority>0.6</priority>
    </url>
