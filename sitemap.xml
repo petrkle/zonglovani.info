@@ -8103,6 +8103,12 @@
    </url>
 			
    <url>
+      <loc>http://zonglovani.info/obrazky-na-plochu/</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
       <loc>http://zonglovani.info/ostatni/changelog.rss</loc>
       <changefreq>weekly</changefreq>
       <priority>0.6</priority>

@@ -369,6 +369,9 @@
 			</li>
 		</ul>
 		</li>
+		<li><a name="obrazky-na-plochu"></a><a href="/obrazky-na-plochu/">Obrázky na plochu</a>
+		
+		</li>
 		<li><a name="ostatni"></a>ostatni/
 		
 		</li>

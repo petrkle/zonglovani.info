@@ -1,6 +1,16 @@
 <?xml version="1.0"?>
 <log>
 <logentry
+   revision="285">
+<author>petr</author>
+<date>2010-06-06T13:12:50.601415Z</date>
+<msg>Obrázky na plochu</msg>
+<revprops>
+<property
+   name="svn:link">/obrazky-na-plochu/</property>
+</revprops>
+</logentry>
+<logentry
    revision="284">
 <author>petr</author>
 <date>2010-06-05T12:18:50.470005Z</date>
