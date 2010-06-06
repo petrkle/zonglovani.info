@@ -226,6 +226,7 @@ if($id and $photo){
 	$smarty->display('paticka.tpl');
 }else{
 	$dalsi=array(
+		array('url'=>'/obrazky-na-plochu/','text'=>'Obrázky na plochu','title'=>'Tapety s žonglérskou tématikou.'),
 		array('url'=>'/video/','text'=>'Žonglérská videa','title'=>'Pohyblivé obrázky'),
 		);
 	$smarty->assign_by_ref('dalsi',$dalsi);

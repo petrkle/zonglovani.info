@@ -1,6 +1,16 @@
 <?xml version="1.0"?>
 <log>
 <logentry
+   revision="284">
+<author>petr</author>
+<date>2010-06-05T12:18:50.470005Z</date>
+<msg>Přidání RSS verze 2.</msg>
+<revprops>
+<property
+   name="svn:link">/rss.html</property>
+</revprops>
+</logentry>
+<logentry
    revision="283">
 <author>petr</author>
 <date>2010-06-04T20:13:53.028124Z</date>

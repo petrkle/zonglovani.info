@@ -85,7 +85,15 @@ Výpis změn v žonglérově slabikáři (svn&nbsp;log).
 <h3><a href="/ulita/" title="Nedělní žonglování v Ulitě.">Žonglování v Ulitě</a></h3>
 <p>
 <a href="/ulita/" title="Odkazy.">{obrazek soubor="ulita.cz.png" popisek="Ulita"}</a>
-Nedělní žonglování v DDM Ulita.</p>
+Nedělní žonglování v DDM Ulita.
+</p>
+
+<h3><a href="/obrazky-na-plochu/" title="Žonglérské wallpapery">Obrázky na plochu</a></h3>
+<p>
+<a href="/obrazky-na-plochu/" title="Žonglérské wallpapery">{obrazek soubor="kuzelky-na-trave.jpg" popisek="Wallpapers"}</a>
+Obrázky na plochu počítače s žonglérskou tématikou
+</p>
+
 
 <h3><a href="/odkazy.html" title="Odkazy.">Žonglování na síti</a></h3>
 <p>

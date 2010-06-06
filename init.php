@@ -62,6 +62,9 @@ define('TIMEOUT_VZKAZ',8*3600);
 
 define('TIPY_DATA',$_SERVER['DOCUMENT_ROOT'].'/tip/tipy.inc'); 
 
+define('WALLPAPERS_URL','/obrazky-na-plochu/'); 
+define('WALLPAPERS_DATA',$_SERVER['DOCUMENT_ROOT'].'/obrazky-na-plochu'); 
+
 #if (substr_count($_SERVER['HTTP_ACCEPT_ENCODING'], 'gzip')){
 #	ob_start('ob_gzhandler');
 #}
