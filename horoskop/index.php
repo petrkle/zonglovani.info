@@ -35,12 +35,14 @@ $trail->addStep($nadpis,'/horoskop/');
 if(isset($_GET['zitra'])){
 	$smarty->assign('predpoved',predpoved($znameni,(time()+(24*3600))));
 	$smarty->assign('zitra','jo');
+	$smarty->assign('description','Horoskop pro žonglérky a žongléry na zítra. Poradí co je nejlepší trénovat.');
 }else{
 	$smarty->assign('predpoved',predpoved($znameni,time()));
+	$smarty->assign('description','Horoskop pro žonglérky a žongléry. Každý den poradí co je nejlepší trénovat.');
 }
 
 $smarty->assign('nahled','http://'.$_SERVER['SERVER_NAME'].'/img/h/horoskop.png');
-$smarty->assign('description','Horoskop pro žonglérky a žongléry. Každý den ti poradí co je nejlepší trénovat.');
+$smarty->assign('keywords','horoskop, žonglování, trénink');
 
 
 if($_SERVER['REQUEST_URI']=='/horoskop/' or $_SERVER['REQUEST_URI']=='/horoskop/zitra/'){
@@ -59,9 +61,10 @@ $titulek=$nadpis.' - '.$zverokruh[$znameni]['popis'];
 $trail->addStep($zverokruh[$znameni]['popis'],'/horoskop/');
 $smarty->assign_by_ref('trail', $trail->path);
 $smarty->assign('nahled','http://'.$_SERVER['SERVER_NAME'].'/img/h/horoskop-'.$znameni.'.png');
-$smarty->assign('description','Žonglérský horoskop znamení - '.$znameni);
-$smarty->assign("titulek",$titulek);
-$smarty->assign("znameni",$znameni);
+$smarty->assign('description','Žonglérský horoskop znamení '.mb_convert_case($zverokruh[$znameni]['popis'], MB_CASE_LOWER, 'UTF-8').'.');
+$smarty->assign('keywords','horoskop, žonglování, '.mb_convert_case($zverokruh[$znameni]['popis'], MB_CASE_LOWER, 'UTF-8'));
+$smarty->assign('titulek',$titulek);
+$smarty->assign('znameni',$znameni);
 $smarty->display('hlavicka.tpl');
 $smarty->display('horoskop.tpl');
 $smarty->display('paticka.tpl');

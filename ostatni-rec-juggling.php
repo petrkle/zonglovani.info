@@ -6,6 +6,9 @@ $titulek='rec.juggling';
 $smarty->assign('titulek',$titulek);
 $smarty->assign('feedback',true);
 
+$smarty->assign('keywords',make_keywords($titulek).', žonglování');
+$smarty->assign('description','Celosvětová diskusní skupina o žonglování - rec.juggling');
+
 $dalsi=array(
 	array('url'=>'/odkazy.html','text'=>'Žonglování na síti','title'=>'Odkazy na stránky věnované žonglování'),
 	array('url'=>'/aczslovnicek.html','text'=>'Žonglérský slovníček','title'=>'Anglicko-český žonglérský slovníček'),

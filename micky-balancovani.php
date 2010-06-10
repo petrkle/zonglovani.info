@@ -6,6 +6,8 @@ $titulek='Balancování míčku';
 $smarty->assign('feedback',true);
 
 $smarty->assign('titulek',$titulek);
+$smarty->assign('keywords',make_keywords($titulek));
+$smarty->assign('description','Odkládání míčku na hlavu, ruku i jinde. Trénink rovnováhy.');
 
 $dalsi=array(
 	array('url'=>'/micky/druhy.html#silx','text'=>'Míček SIL-X','title'=>'Míček velmi vhodný pro balancování'),

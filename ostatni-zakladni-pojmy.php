@@ -5,6 +5,9 @@ require('func.php');
 $smarty->assign('titulek','Žonglování - základní pojmy');
 $smarty->assign('feedback',true);
 
+$smarty->assign('keywords',make_keywords($titulek).', žonglování');
+$smarty->assign('description','Základní žonglérská terminologie.');
+
 $trail = new Trail();
 $trail->addStep('Informace o žonglování','/ostatni.html');
 $trail->addStep('Základní pojmy');

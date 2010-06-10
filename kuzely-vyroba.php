@@ -8,6 +8,9 @@ $trail->addStep('Jak vyrobit kužel na žonglování');
 
 $smarty->assign_by_ref('trail', $trail->path);
 
+$smarty->assign('keywords','kužel, výroba, žonglování');
+$smarty->assign('description','Návod na výrobu žonglovacích kuželů.');
+
 $dalsi=array(
 	array('url'=>'/kuzely/jak-zacit.html','text'=>'Jak začít žonglovat s kužely','title'=>'Rychlý návod na žonglování s kužely'),
 	array('url'=>'/micky/vyroba.html','text'=>'Výroba míčků na žonglování','title'=>'Míčky na žonglování snadno a rychle'),

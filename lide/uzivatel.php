@@ -27,6 +27,9 @@ if($uzivatel_props['login']=='pek' and $_SESSION['uzivatel']['login']!='pek'){
 if($uzivatel_props['status']=='ok'){
 	$smarty->assign('feedback',true);
 
+$smarty->assign('keywords',make_keywords($uzivatel_props['jmeno'].' '.' žonglér, žonglérka'));
+$smarty->assign('description',$uzivatel_props['jmeno'].' - žonglování');
+
 	$smarty->assign('pusobiste',$pusobiste);
 	$smarty->assign('dovednosti',$dovednosti);
 

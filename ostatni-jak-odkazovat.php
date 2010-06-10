@@ -6,6 +6,9 @@ $titulek='Jak odkazovat na žonglérův slabikář';
 $smarty->assign('feedback',true);
 $smarty->assign('titulek',$titulek);
 
+$smarty->assign('keywords',make_keywords($titulek));
+$smarty->assign('description','Připravené kusy html kódu pro vytváření odkazů na žonglérův slabikář.');
+
 $dalsi=array(
 	array('url'=>'/obrazky-na-plochu/','text'=>'Obrázky na plochu','title'=>'Tapety s žonglérskou tématikou.'),
 	array('url'=>'/podporte-zongleruv-slabikar.html','text'=>'Podpoř žonglérův slabikář','title'=>'Jak dál podpoři žonglérův slabikář'),

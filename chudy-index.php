@@ -6,6 +6,9 @@ $titulek='Chůdy';
 
 $smarty->assign('titulek',$titulek);
 
+$smarty->assign('keywords','chůdy, návod, dřevěné chůdy, chůdaři, chůdař, žonglování');
+$smarty->assign('description','Návod na výrobu chůd a žonglování na chůdách.');
+
 $trail = new Trail();
 $trail->addStep($titulek);
 

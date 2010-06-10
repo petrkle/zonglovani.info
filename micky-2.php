@@ -32,6 +32,8 @@ if(strlen($show)>0 and is_file($show.'.xml')){
 	require('404.php');
 	exit();
 }else{
+	$smarty->assign('keywords','žonglování, dva, míčky, návod');
+	$smarty->assign('description','Obrázkový návod na žonglování se dvěma míčky.');
 	$smarty->assign_by_ref('trail', $trail->path);
 	$smarty->assign('titulek',$titulek);
 	$smarty->display('hlavicka.tpl');

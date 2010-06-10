@@ -11,7 +11,7 @@
 
 <h3>Hlavní RSS kanál</h3>
 <ul>
-<li><a href="http://{$smarty.server.SERVER_NAME}/zonglovani.rss">http://{$smarty.server.SERVER_NAME}/zonglovani.rss</li>
+<li><a href="http://{$smarty.server.SERVER_NAME}/zonglovani.rss">http://{$smarty.server.SERVER_NAME}/zonglovani.rss</a></li>
 <li><a href="http://{$smarty.server.SERVER_NAME}/zonglovani.xml">http://{$smarty.server.SERVER_NAME}/zonglovani.xml</a></li>
 </ul>
 

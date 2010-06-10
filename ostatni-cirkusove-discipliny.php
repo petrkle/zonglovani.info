@@ -7,6 +7,9 @@ $smarty->assign('feedback',true);
 
 $smarty->assign('titulek',$titulek);
 
+$smarty->assign('keywords','cirkus, cirgus,  žonglování, disciplíny');
+$smarty->assign('description','Seznam cirkusových disciplín. Chůze po laně, jednokolka, chůdy i visutá hrazda jsou klasické cirkusové disciplíny.');
+
 $trail = new Trail();
 $trail->addStep('Informace o žonglování','/ostatni.html');
 $trail->addStep($titulek);

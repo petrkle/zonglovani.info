@@ -1,6 +1,16 @@
 <?xml version="1.0"?>
 <log>
 <logentry
+   revision="286">
+<author>petr</author>
+<date>2010-06-06T15:15:15.983739Z</date>
+<msg>Žonglérská víkendovka</msg>
+<revprops>
+<property
+   name="svn:link">/literatura.html#zv</property>
+</revprops>
+</logentry>
+<logentry
    revision="285">
 <author>petr</author>
 <date>2010-06-06T13:12:50.601415Z</date>

@@ -24,7 +24,7 @@ if(isset($_GET['deleted']) or isset($_POST['deleted'])){
 }
 
 if($udalost){
-		$smarty->assign('titulek','Kalendář - '.$udalost['title']);
+		$smarty->assign('titulek',$udalost['title'].' - kalendář žonglování');
 		$smarty->assign('nadpis',$udalost['title']);
 		$smarty->assign('udalost',$udalost);
 		$smarty->assign('aktDate', date('j. ',$now).date('n. ',$now).date(' Y',$now));
@@ -43,9 +43,9 @@ if($udalost){
 			exit();
 		}
 
-		if(isset($trash) and isset($_POST["shred"])){
-			unlink(CALENDAR_DELETED."/".date("Ymd",strtotime($udalost["zacatek"]))."-".date("Ymd",strtotime($udalost["konec"]))."-".$_SESSION["uzivatel"]["login"]."-".$udalost["insert"].".cal");
-			header("Location: ".CALENDAR_URL);
+		if(isset($trash) and isset($_POST['shred'])){
+			unlink(CALENDAR_DELETED.'/'.date('Ymd',strtotime($udalost['zacatek'])).'-'.date('Ymd',strtotime($udalost['konec'])).'-'.$_SESSION['uzivatel']['login'].'-'.$udalost['insert'].'.cal');
+			header('Location: '.CALENDAR_URL);
 			exit();
 		}
 

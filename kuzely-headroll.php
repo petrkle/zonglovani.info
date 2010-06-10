@@ -6,6 +6,9 @@ $titulek='Jak začít žonglovat s kužely';
 
 $smarty->assign('titulek',$titulek);
 
+$smarty->assign('keywords',make_keywords($titulek));
+$smarty->assign('description','Návod na žonglování se třemi kužely');
+
 $dalsi=array(
 	array('url'=>'/kuzely/balanc.html','text'=>'Balancování kuželu','title'=>'Balancování kuželu'),
 	array('url'=>'/kuzely/toceni-okolo-palce.html','text'=>'Otáčení kuželky okolo palce','title'=>'Trik který můžeš trénovat i v místnostech s nízkým stropem'),

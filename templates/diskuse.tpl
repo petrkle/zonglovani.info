@@ -1,4 +1,9 @@
 {if is_array($items)}
+{if $page_numbers.total > 1 and count($items)>5}
+<p>
+Stránkování: {$pager_links}
+</p>
+{/if}
 {foreach from=$items item=zprava}
 
 <a name="{$zprava.cas|escape}"></a>
@@ -14,6 +19,13 @@
 <tr><td colspan="6">{$zprava.text}</td></tr>
 </table>
 {/foreach}
+
+{if $page_numbers.total > 1}
+<p>
+Stránkování: {$pager_links}
+</p>
+{/if}
+
 {/if}
 {if $smarty.session.logged!=true}
 <p>
@@ -26,11 +38,6 @@
 <p><a href="{$smarty.const.DISKUSE_URL}add.php" title="Přidat nový vzkaz." class="add">Přidat zprávu</a></p>
 {/if}
 
-{if $page_numbers.total > 1}
-<p>
-Stránkování: {$pager_links}
-</p>
-{/if}
 
 <p>Diskusi můžeš sledovat pomocí <a href="{$smarty.const.DISKUSE_URL}zpravy.rss" title="RSS kanál">RSS</a> <a class="info" href="#">?<span class="tooltip">RSS slouží k upozorňování na aktualizaci stránek.</span></a></p>
 <p>Návod <a href="{$smarty.const.CALENDAR_URL}rss-a-icalendar.html#rss">jak nastavit RSS</a>.</p>

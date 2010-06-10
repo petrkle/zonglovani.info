@@ -8,6 +8,9 @@ $trail->addStep($titulek,WALLPAPERS_URL);
 
 $smarty->assign_by_ref('trail', $trail->path);
 
+$smarty->assign('keywords','obrázky, žonglování, wallpaper, pozadí na plochu');
+$smarty->assign('description','Tapety na plochu počítače s žonglérskou tématikou.');
+
 $dalsi=array(
 	array('url'=>'/obrazky/','text'=>'Obrázky žonglování','title'=>'Obrázky žonglérů a žonglérek'),
 	);

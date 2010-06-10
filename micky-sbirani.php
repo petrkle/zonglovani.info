@@ -9,6 +9,9 @@ $trail = new Trail();
 $trail->addStep('Míčky','/micky/');
 $trail->addStep($titulek);
 
+$smarty->assign('keywords',make_keywords($titulek));
+$smarty->assign('description','Sbírání spadlých žonglovacích míčků ze země.');
+
 $dalsi=array(
 	array('url'=>'/micky/3/neviditelny.html','text'=>'Neviditelný míček','title'=>'Nejlevnější a nejdostupnější míček'),
 	array('url'=>'/micky/drop.html','text'=>'Míčky na zemi','title'=>'Výmluvy'),

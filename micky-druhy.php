@@ -3,6 +3,9 @@ require('init.php');
 require('func.php');
 
 $titulek='Žonglérské míčky';
+$smarty->assign('keywords',make_keywords($titulek).', druhy');
+$smarty->assign('description','Obrázky a popis různých druhů míčků na žonglování.');
+
 $smarty->assign('feedback',true);
 $smarty->assign('titulek',$titulek);
 

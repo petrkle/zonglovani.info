@@ -7,6 +7,9 @@ $smarty->assign('titulek',$titulek);
 $smarty->assign('nadpis',$titulek);
 $smarty->assign('notitle',true);
 
+$smarty->assign('keywords',make_keywords($titulek.', žonglování'));
+$smarty->assign('description','Kontakt na autora žonglérova slabikáře.');
+
 $dalsi=array(
 	array('url'=>'/proc-a-jak.html','text'=>'Proč a jak vznikl žonglérův slabikář','title'=>'Proč a jak vznikl žonglérův slabikář'),
 	array('url'=>'/changelog.html','text'=>'Seznam změn','title'=>'Změny v žonglérově slabikáři'),

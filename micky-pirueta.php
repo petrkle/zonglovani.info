@@ -5,6 +5,9 @@ require('func.php');
 $titulek='Pirueta';
 $smarty->assign('feedback',true);
 
+$smarty->assign('keywords',make_keywords($titulek).', žonglování');
+$smarty->assign('description','Pirueta při žonglování s míčky.');
+
 $smarty->assign('titulek',$titulek);
 
 $dalsi=array(

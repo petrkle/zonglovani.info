@@ -7,6 +7,9 @@ $smarty->assign('feedback',true);
 
 $smarty->assign('titulek',$titulek);
 
+$smarty->assign('keywords',make_keywords($titulek).', fireshow');
+$smarty->assign('description','Žonglování s ohnivými kužely.');
+
 $trail = new Trail();
 $trail->addStep('Kužely','/kuzely/');
 $trail->addStep($titulek);

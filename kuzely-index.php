@@ -9,6 +9,9 @@ $smarty->assign('titulek',$titulek);
 $trail = new Trail();
 $trail->addStep('Kužely','/kuzely/');
 
+$smarty->assign('keywords',make_keywords($titulek));
+$smarty->assign('description','Jak žonglovat s kužely. Základní návod pro tři kuželky, ale i pokročilé passovací vzory.');
+
 $dalsi=array(
 	array('url'=>'/kuzely/passing/','text'=>'Passing','title'=>'Žonglování ve více lidech'),
 	);

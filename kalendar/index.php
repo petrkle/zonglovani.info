@@ -90,7 +90,8 @@ if(date('Y',$now)==$rok and date('m',$now)==$mesic){
 $smarty->assign('caption',$monthName);
 $smarty->assign('nadpis',$titulek);
 
-$smarty->assign('keywords',make_keywords($titulek).', '.$monthName);
+$smarty->assign('description','Kalendář žonglování pro '.mb_convert_case($monthName, MB_CASE_LOWER, 'UTF-8'));
+$smarty->assign('keywords',make_keywords($titulek.' '.mb_convert_case($monthName, MB_CASE_LOWER, 'UTF-8')));
 
 if(is_logged()){
 $smazane=get_deleted_events();

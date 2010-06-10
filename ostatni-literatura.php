@@ -7,6 +7,9 @@ $titulek='Literatura';
 $smarty->assign('titulek',$titulek);
 $smarty->assign('feedback',true);
 
+$smarty->assign('keywords',make_keywords($titulek).', žonglování, tisk, pdf');
+$smarty->assign('description','Česká a anglická literatura o žonglování. Volně ke stažení - formát pdf, vhodný pro tisk.');
+
 $trail = new Trail();
 $trail->addStep('Informace o žonglování','/ostatni.html');
 $trail->addStep($titulek);
@@ -16,15 +19,6 @@ $dalsi=array(
 	array('url'=>'/aczslovnicek.html','text'=>'žonglérský slovníček','title'=>'Anglicko-český žonglérský slovníček')
 	);
 $smarty->assign_by_ref('dalsi',$dalsi);
-
-/*
-$dalsi=array(
-	array('url'=>'','text'=>'','title'=>''),
-	array('url'=>'','text'=>'','title'=>''),
-	array('url'=>'','text'=>'','title'=>'')
-	);
-$smarty->assign_by_ref('dalsi',$dalsi);
- */
 
 $smarty->assign_by_ref('trail', $trail->path);
 $smarty->display('hlavicka.tpl');

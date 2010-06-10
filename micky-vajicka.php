@@ -13,6 +13,9 @@ $dalsi=array(
 	);
 $smarty->assign_by_ref('dalsi',$dalsi);
 
+$smarty->assign('keywords',make_keywords($titulek).' ,vajíčka, vajíčko');
+$smarty->assign('description','Jsou šišatá, křehká a nadělají spoustu nepořádku. Avšak, kdo by odolal?');
+
 $trail = new Trail();
 $trail->addStep('Míčky','/micky/');
 $trail->addStep($titulek);

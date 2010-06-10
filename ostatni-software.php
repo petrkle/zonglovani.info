@@ -6,6 +6,8 @@ $titulek='Literatura';
 $smarty->assign('feedback',true);
 
 $smarty->assign('titulek','Simulátory žonglování');
+$smarty->assign('keywords',make_keywords($titulek));
+$smarty->assign('description','Programy pro animaci žonglování na počítači.');
 
 $dalsi=array(
 	array('url'=>'/literatura.html','text'=>'Knížky o žonglování','title'=>'Seznam knížek o žonglování.'),

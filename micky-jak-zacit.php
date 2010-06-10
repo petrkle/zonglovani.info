@@ -6,6 +6,9 @@ $titulek='Jak začít žonglovat s míčky';
 $smarty->assign('feedback',true);
 $smarty->assign('titulek',$titulek);
 
+$smarty->assign('keywords',make_keywords($titulek));
+$smarty->assign('description','Obrázkový návod na žonglování s míčky.');
+
 $trail = new Trail();
 $trail->addStep('Míčky','/micky/');
 $trail->addStep($titulek);

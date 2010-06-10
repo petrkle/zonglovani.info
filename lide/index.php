@@ -19,7 +19,7 @@ $pagerOptions = array(
     'mode'     => 'Sliding',
     'delta'    => 2,
 		'firstLinkTitle' => 'První stránka',
-    'perPage'  => 50,
+    'perPage'  => 30,
     'altPrev'  => 'Předchozí stránka',
     'altNext'  => 'Další stránka',
     'altPage'  => 'Stránka',
@@ -44,7 +44,10 @@ $smarty->assign(
     )
 );
 
-$titulek='Seznam žonglérů';
+$titulek='Seznam žonglérů - '.$pager->getCurrentPageID().'. stránka';
+$smarty->assign('nadpis','Seznamu žonglérů');
+$smarty->assign('keywords','žonglování, workshop, žongléři, dílna, žonglér, žonglérka, sezna žonglérů, vystoupení, fireshow, akrobacie');
+$smarty->assign('description',$pager->getCurrentPageID().'. stránka seznamu žonglérů a žonglérek kteří umí veřejné vystoupení, fireshow i žonglérské dílny.');
 $trail = new Trail();
 $trail->addStep($titulek,LIDE_URL);
 $smarty->assign('feedback',true);

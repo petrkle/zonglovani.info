@@ -7,6 +7,9 @@ $smarty->assign('feedback',true);
 
 $smarty->assign('titulek',$titulek);
 
+$smarty->assign('keywords',make_keywords($titulek));
+$smarty->assign('description','Základní návod pro žonglování se třemi kužely.');
+
 $trail = new Trail();
 $trail->addStep('Kužely','/kuzely/');
 $trail->addStep($titulek);

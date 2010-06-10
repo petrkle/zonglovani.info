@@ -6,6 +6,9 @@ $titulek='Podpořte žonglérův slabikář';
 $smarty->assign('feedback',true);
 $smarty->assign('titulek',$titulek);
 
+$smarty->assign('keywords',make_keywords($titulek));
+$smarty->assign('description','Jak můžeš pomoct při tvorbě žonglérova slabikáře.');
+
 $dalsi=array(
 	array('url'=>'/kontakt.html','text'=>'Kontakt','title'=>'Kontaktní údaje'),
 	array('url'=>LIDE_URL.'pravidla.php','text'=>'Založit účet','title'=>'Nový účet v žonglérově slabikáři'),

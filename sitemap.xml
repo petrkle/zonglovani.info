@@ -189,6 +189,12 @@
    </url>
 			
    <url>
+      <loc>http://zonglovani.info/diskuse/stranka3.html</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
       <loc>http://zonglovani.info/diskuse/zpravy.rss</loc>
       <changefreq>weekly</changefreq>
       <priority>0.6</priority>
@@ -525,6 +531,12 @@
    </url>
 			
    <url>
+      <loc>http://zonglovani.info/kalendar/udalost-20100612-20100612-pek-1276153295.html</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.7</priority>
+   </url>
+			
+   <url>
       <loc>http://zonglovani.info/kalendar/udalost-20100613-20100613-pek-1272998353.html</loc>
       <changefreq>monthly</changefreq>
       <priority>0.7</priority>
@@ -544,6 +556,12 @@
 			
    <url>
       <loc>http://zonglovani.info/kalendar/udalost-20100625-20100625-pek-1267957291.html</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.7</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/kalendar/udalost-20100625-20100626-pek-1276147898.html</loc>
       <changefreq>monthly</changefreq>
       <priority>0.7</priority>
    </url>
@@ -1071,6 +1089,12 @@
    </url>
 			
    <url>
+      <loc>http://zonglovani.info/lide/australan.html</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+   </url>
+			
+   <url>
       <loc>http://zonglovani.info/lide/bloke.html</loc>
       <changefreq>monthly</changefreq>
       <priority>0.6</priority>
@@ -1192,6 +1216,12 @@
 			
    <url>
       <loc>http://zonglovani.info/lide/mefistofeles.html</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/lide/misslulinka.html</loc>
       <changefreq>monthly</changefreq>
       <priority>0.6</priority>
    </url>
@@ -2055,6 +2085,12 @@
    </url>
 			
    <url>
+      <loc>http://zonglovani.info/lide/stranka2/</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
       <loc>http://zonglovani.info/micky/</loc>
       <changefreq>monthly</changefreq>
       <priority>0.9</priority>
@@ -2092,6 +2128,12 @@
 			
    <url>
       <loc>http://zonglovani.info/micky/legenda.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.7</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/micky/nohy.html</loc>
       <changefreq>yearly</changefreq>
       <priority>0.7</priority>
    </url>
@@ -8104,8 +8146,8 @@
 			
    <url>
       <loc>http://zonglovani.info/obrazky-na-plochu/</loc>
-      <changefreq>monthly</changefreq>
-      <priority>0.4</priority>
+      <changefreq>yearly</changefreq>
+      <priority>0.5</priority>
    </url>
 			
    <url>
@@ -8158,200 +8200,200 @@
 			
    <url>
       <loc>http://zonglovani.info/video/4000000-extreme-juggling.html</loc>
-      <changefreq>monthly</changefreq>
-      <priority>0.4</priority>
+      <changefreq>yearly</changefreq>
+      <priority>0.5</priority>
    </url>
 			
    <url>
       <loc>http://zonglovani.info/video/addicted.html</loc>
-      <changefreq>monthly</changefreq>
-      <priority>0.4</priority>
+      <changefreq>yearly</changefreq>
+      <priority>0.5</priority>
    </url>
 			
    <url>
       <loc>http://zonglovani.info/video/alan-thom-3.html</loc>
-      <changefreq>monthly</changefreq>
-      <priority>0.4</priority>
+      <changefreq>yearly</changefreq>
+      <priority>0.5</priority>
    </url>
 			
    <url>
       <loc>http://zonglovani.info/video/all-day-baby.html</loc>
-      <changefreq>monthly</changefreq>
-      <priority>0.4</priority>
+      <changefreq>yearly</changefreq>
+      <priority>0.5</priority>
    </url>
 			
    <url>
       <loc>http://zonglovani.info/video/balance-tricks-2.html</loc>
-      <changefreq>monthly</changefreq>
-      <priority>0.4</priority>
+      <changefreq>yearly</changefreq>
+      <priority>0.5</priority>
    </url>
 			
    <url>
       <loc>http://zonglovani.info/video/ball-club-scissors.html</loc>
-      <changefreq>monthly</changefreq>
-      <priority>0.4</priority>
+      <changefreq>yearly</changefreq>
+      <priority>0.5</priority>
    </url>
 			
    <url>
       <loc>http://zonglovani.info/video/bratri-v-tricku-2.html</loc>
-      <changefreq>monthly</changefreq>
-      <priority>0.4</priority>
+      <changefreq>yearly</changefreq>
+      <priority>0.5</priority>
    </url>
 			
    <url>
       <loc>http://zonglovani.info/video/bratri-v-tricku.html</loc>
-      <changefreq>monthly</changefreq>
-      <priority>0.4</priority>
+      <changefreq>yearly</changefreq>
+      <priority>0.5</priority>
    </url>
 			
    <url>
       <loc>http://zonglovani.info/video/c2laballe-0707.html</loc>
-      <changefreq>monthly</changefreq>
-      <priority>0.4</priority>
+      <changefreq>yearly</changefreq>
+      <priority>0.5</priority>
    </url>
 			
    <url>
       <loc>http://zonglovani.info/video/club2ring.html</loc>
-      <changefreq>monthly</changefreq>
-      <priority>0.4</priority>
+      <changefreq>yearly</changefreq>
+      <priority>0.5</priority>
    </url>
 			
    <url>
       <loc>http://zonglovani.info/video/giraffe-theory.html</loc>
-      <changefreq>monthly</changefreq>
-      <priority>0.4</priority>
+      <changefreq>yearly</changefreq>
+      <priority>0.5</priority>
    </url>
 			
    <url>
       <loc>http://zonglovani.info/video/guava-winter-07-08.html</loc>
-      <changefreq>monthly</changefreq>
-      <priority>0.4</priority>
+      <changefreq>yearly</changefreq>
+      <priority>0.5</priority>
    </url>
 			
    <url>
       <loc>http://zonglovani.info/video/hocus-pocus.html</loc>
-      <changefreq>monthly</changefreq>
-      <priority>0.4</priority>
+      <changefreq>yearly</changefreq>
+      <priority>0.5</priority>
    </url>
 			
    <url>
       <loc>http://zonglovani.info/video/interrobang.html</loc>
-      <changefreq>monthly</changefreq>
-      <priority>0.4</priority>
+      <changefreq>yearly</changefreq>
+      <priority>0.5</priority>
    </url>
 			
    <url>
       <loc>http://zonglovani.info/video/jen-slaw.html</loc>
-      <changefreq>monthly</changefreq>
-      <priority>0.4</priority>
+      <changefreq>yearly</changefreq>
+      <priority>0.5</priority>
    </url>
 			
    <url>
       <loc>http://zonglovani.info/video/jeremy-perkins-jeremy-fein.html</loc>
-      <changefreq>monthly</changefreq>
-      <priority>0.4</priority>
+      <changefreq>yearly</changefreq>
+      <priority>0.5</priority>
    </url>
 			
    <url>
       <loc>http://zonglovani.info/video/joe-hague.html</loc>
-      <changefreq>monthly</changefreq>
-      <priority>0.4</priority>
+      <changefreq>yearly</changefreq>
+      <priority>0.5</priority>
    </url>
 			
    <url>
       <loc>http://zonglovani.info/video/jonglage-macabre.html</loc>
-      <changefreq>monthly</changefreq>
-      <priority>0.4</priority>
+      <changefreq>yearly</changefreq>
+      <priority>0.5</priority>
    </url>
 			
    <url>
       <loc>http://zonglovani.info/video/juggle-a-saurus.html</loc>
-      <changefreq>monthly</changefreq>
-      <priority>0.4</priority>
+      <changefreq>yearly</changefreq>
+      <priority>0.5</priority>
    </url>
 			
    <url>
       <loc>http://zonglovani.info/video/juggling-extravaganza.html</loc>
-      <changefreq>monthly</changefreq>
-      <priority>0.4</priority>
+      <changefreq>yearly</changefreq>
+      <priority>0.5</priority>
    </url>
 			
    <url>
       <loc>http://zonglovani.info/video/kopie.html</loc>
-      <changefreq>monthly</changefreq>
-      <priority>0.4</priority>
+      <changefreq>yearly</changefreq>
+      <priority>0.5</priority>
    </url>
 			
    <url>
       <loc>http://zonglovani.info/video/laurent-phil.html</loc>
-      <changefreq>monthly</changefreq>
-      <priority>0.4</priority>
+      <changefreq>yearly</changefreq>
+      <priority>0.5</priority>
    </url>
 			
    <url>
       <loc>http://zonglovani.info/video/les-bebes.html</loc>
-      <changefreq>monthly</changefreq>
-      <priority>0.4</priority>
+      <changefreq>yearly</changefreq>
+      <priority>0.5</priority>
    </url>
 			
    <url>
       <loc>http://zonglovani.info/video/liquid-crystal-live.html</loc>
-      <changefreq>monthly</changefreq>
-      <priority>0.4</priority>
+      <changefreq>yearly</changefreq>
+      <priority>0.5</priority>
    </url>
 			
    <url>
       <loc>http://zonglovani.info/video/lost-tapes-minneapolis.html</loc>
-      <changefreq>monthly</changefreq>
-      <priority>0.4</priority>
+      <changefreq>yearly</changefreq>
+      <priority>0.5</priority>
    </url>
 			
    <url>
       <loc>http://zonglovani.info/video/more-or-less.html</loc>
-      <changefreq>monthly</changefreq>
-      <priority>0.4</priority>
+      <changefreq>yearly</changefreq>
+      <priority>0.5</priority>
    </url>
 			
    <url>
       <loc>http://zonglovani.info/video/neta-oren.html</loc>
-      <changefreq>monthly</changefreq>
-      <priority>0.4</priority>
+      <changefreq>yearly</changefreq>
+      <priority>0.5</priority>
    </url>
 			
    <url>
       <loc>http://zonglovani.info/video/passing-zone.html</loc>
-      <changefreq>monthly</changefreq>
-      <priority>0.4</priority>
+      <changefreq>yearly</changefreq>
+      <priority>0.5</priority>
    </url>
 			
    <url>
       <loc>http://zonglovani.info/video/prechac-weaves.html</loc>
-      <changefreq>monthly</changefreq>
-      <priority>0.4</priority>
+      <changefreq>yearly</changefreq>
+      <priority>0.5</priority>
    </url>
 			
    <url>
       <loc>http://zonglovani.info/video/stepz.html</loc>
-      <changefreq>monthly</changefreq>
-      <priority>0.4</priority>
+      <changefreq>yearly</changefreq>
+      <priority>0.5</priority>
    </url>
 			
    <url>
       <loc>http://zonglovani.info/video/take-it-out-3.html</loc>
-      <changefreq>monthly</changefreq>
-      <priority>0.4</priority>
+      <changefreq>yearly</changefreq>
+      <priority>0.5</priority>
    </url>
 			
    <url>
       <loc>http://zonglovani.info/video/what-the-beepbeep-do-we-know.html</loc>
-      <changefreq>monthly</changefreq>
-      <priority>0.4</priority>
+      <changefreq>yearly</changefreq>
+      <priority>0.5</priority>
    </url>
 			
    <url>
       <loc>http://zonglovani.info/video/yesterday-didnt-happen.html</loc>
-      <changefreq>monthly</changefreq>
-      <priority>0.4</priority>
+      <changefreq>yearly</changefreq>
+      <priority>0.5</priority>
    </url>
 			
    <url>

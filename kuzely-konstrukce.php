@@ -6,6 +6,8 @@ $titulek='Konstrukce kuželu';
 $smarty->assign('feedback',true);
 
 $smarty->assign('titulek',$titulek);
+$smarty->assign('keywords',make_keywords($titulek).', kužel, žonglování');
+$smarty->assign('description','Jak vypadá kužel na žonglování uvnitř.');
 
 $trail = new Trail();
 $trail->addStep('Kužely','/kuzely/');

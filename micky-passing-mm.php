@@ -5,6 +5,9 @@ require('func.php');
 $titulek='Passing s míčky - mills\' mess';
 $smarty->assign('feedback',true);
 
+$smarty->assign('keywords',make_keywords($titulek));
+$smarty->assign('description','Žonglování mills\' mess pro dva lidi.');
+
 $dalsi=array(
 	array('url'=>'/kuzely/passing/','text'=>'Passing s kužely','title'=>'Královská disciplína žonglování'),
 	array('url'=>'/kuzely/passing/australsky-trik.html','text'=>'Australský trik','title'=>'Trik při passování s kužely'),

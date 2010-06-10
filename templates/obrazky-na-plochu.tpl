@@ -10,7 +10,7 @@ Tapety na plochu počítače s žonglérskou tématikou.
 <li><a href="1024x768/{$obrazek.soubor}" title="{$obrazek.basename} rozlišení 1024x768" onclick="pageTracker._trackPageview('{$smarty.const.WALLPAPERS_URL}1021x768/{$obrazek.soubor}');">1024x768</a></li>
 <li><a href="1280x800/{$obrazek.soubor}" title="{$obrazek.basename} rozlišení 1280x800" onclick="pageTracker._trackPageview('{$smarty.const.WALLPAPERS_URL}1280x800/{$obrazek.soubor}');">1280x800</a></li>
 <li><a href="1280x1024/{$obrazek.soubor}" title="{$obrazek.basename} rozlišení 1280x1024" onclick="pageTracker._trackPageview('{$smarty.const.WALLPAPERS_URL}1280x1024/{$obrazek.soubor}');">1280x1024</a></li>
-<li><a href="1600x1280/{$obrazek.soubor}" title="{$obrazek.basename} rozlišení 1600x1280" onclick="pageTracker._trackPageview('{$smarty.const.WALLPAPERS_URL}1600x1280/{$obrazek.soubor}');">1600x1280</a></li>
+<li><a href="1680x1050/{$obrazek.soubor}" title="{$obrazek.basename} rozlišení 1680x1050" onclick="pageTracker._trackPageview('{$smarty.const.WALLPAPERS_URL}1680x1050/{$obrazek.soubor}');">1680x1050</a></li>
 </ul>
 {/foreach}
 {/if}

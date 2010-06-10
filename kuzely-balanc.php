@@ -7,6 +7,9 @@ $smarty->assign('feedback',true);
 
 $smarty->assign('titulek',$titulek);
 
+$smarty->assign('keywords','balancování, kužel, brada, nos');
+$smarty->assign('description','Balancování žonglérského kuželu na nose');
+
 $dalsi=array(
 	array('url'=>'/micky/balancovani.html','text'=>'Balancování míčku','title'=>'Balancování mičků'),
 	array('url'=>'/obrazky/ulita-zbynkuv-vyber-20100312/0011.html','text'=>'Balancování kuželu na kuželu','title'=>'Obázek'),

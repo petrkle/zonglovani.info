@@ -2,9 +2,13 @@
 require('init.php');
 require('func.php');
 
-$smarty->assign('titulek','Výroba kruhů');
+$titulek='Výroba kruhů';
+
+$smarty->assign('titulek',$titulek);
 $smarty->assign('feedback',true);
 
+$smarty->assign('keywords',make_keywords($titulek).', žonglování');
+$smarty->assign('description','Jak vyrobit kruhy na žonglování.');
 
 $dalsi=array(
 	array('url'=>'/micky/vyroba.html','text'=>'Výroba žonglovacích míčků','title'=>'Jak vyrobit pěkné a levné míčky na žonglování'),

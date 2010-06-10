@@ -6,6 +6,9 @@ $titulek='Další informace o žonglování';
 $smarty->assign('feedback',true);
 $smarty->assign('titulek',$titulek);
 
+$smarty->assign('keywords','žonglování, informace, jak žonglovat, žongléři');
+$smarty->assign('description','Podrobnější informace o žonglování, literatura, odkazy i obrázky na plochu.');
+
 $trail = new Trail();
 $trail->addStep('Informace o žonglování','/ostatni.html');
 

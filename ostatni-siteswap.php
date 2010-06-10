@@ -4,6 +4,7 @@ require('func.php');
 
 $titulek='Siteswap - popis žonglování pomocí čísel';
 $smarty->assign('description','Siteswap je popis žonglování pomocí čísel. Jsou to vlastně takové noty pro žonglování.');
+$smarty->assign('keywords',make_keywords($titulek));
 $smarty->assign('nadpis','Siteswap');
 
 $smarty->assign('feedback',true);

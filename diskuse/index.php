@@ -37,9 +37,13 @@ if(!isset($_GET['pageID']) and !isset($_GET['rss'])){
 	exit();
 }
 
-$smarty->assign('titulek','Diskuse a komentáře');
+$smarty->assign('titulek','Diskuse a komentáře - '.$pager->getCurrentPageID().'. stránka');
 $smarty->assign('items', $data);
 $smarty->assign('pager_links', $pager->links);
+$smarty->assign('nadpis','Diskuse a komentáře');
+if($pager->getCurrentPageID()!=$pager->numPages()){
+	$trail->addStep($pager->getCurrentPageID().'. stránka',DISKUSE_URL.$pager->getCurrentPageID().'.html');
+}
 $smarty->assign(
     'page_numbers', array(
         'current' => $pager->getCurrentPageID(),
@@ -47,6 +51,8 @@ $smarty->assign(
     )
 );
 
+$smarty->assign('description','Diskuse o žonglování '.$pager->getCurrentPageID().'. stránka.');
+$smarty->assign('keywords','diskuse, žonglování, aktuality, akce, žonglérské novinky');
 
 if(isset($_GET['rss'])){
 	$smarty->assign_by_ref('zpravy',$zpravy);

@@ -18,6 +18,7 @@ array_push($znamkovani,array('vzor'=>'^\/(micky|kruhy|kuzely)\/$','priorita'=>0.
 array_push($znamkovani,array('vzor'=>'^\/(obrazky|kalendar|lide|diskuse)\/$','priorita'=>0.9,'zmena'=>'weekly'));
 array_push($znamkovani,array('vzor'=>'^\/ostatni.html$','priorita'=>0.8,'zmena'=>'yearly'));
 array_push($znamkovani,array('vzor'=>'^\/video\/$','priorita'=>0.7,'zmena'=>'monthly'));
+array_push($znamkovani,array('vzor'=>'^\/video\/.+\.html$','priorita'=>0.5,'zmena'=>'yearly'));
 array_push($znamkovani,array('vzor'=>'^\/(micky|kruhy|kuzely)\/[2345]\/.+\.html$','priorita'=>0.8,'zmena'=>'yearly'));
 array_push($znamkovani,array('vzor'=>'^\/(micky|kruhy|kuzely)\/[^\/]+\.html$','priorita'=>0.7,'zmena'=>'yearly'));
 array_push($znamkovani,array('vzor'=>'^\/kuzely\/passing\/$','priorita'=>0.9,'zmena'=>'monthly'));
@@ -33,6 +34,7 @@ array_push($znamkovani,array('vzor'=>'^\/lide\/dovednost\/.+\.html$','priorita'=
 array_push($znamkovani,array('vzor'=>'^\/lide\/misto\/.+\.html$','priorita'=>0.6,'zmena'=>'weekly'));
 array_push($znamkovani,array('vzor'=>'^\/kalendar\/.+\.html$','priorita'=>0.6,'zmena'=>'weekly'));
 array_push($znamkovani,array('vzor'=>'^\/kalendar\/udalost.+\.html$','priorita'=>0.7,'zmena'=>'monthly'));
+array_push($znamkovani,array('vzor'=>'^\/obrazky-na-plochu.*','priorita'=>0.5,'zmena'=>'yearly'));
 
 foreach($sitemap as $radek){
 	$radek=trim($radek);

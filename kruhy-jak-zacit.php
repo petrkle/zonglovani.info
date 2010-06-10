@@ -5,6 +5,9 @@ require('func.php');
 $titulek='Jak začít žonglovat s kruhy';
 $smarty->assign('feedback',true);
 
+$smarty->assign('keywords',make_keywords($titulek));
+$smarty->assign('description','Obrázkový návod na žonglování s kruhy');
+
 $dalsi=array(
 	array('url'=>'/kruhy/3/kaskada.html','text'=>'Kaskáda se třemi kruhy','title'=>'Nejjednodušší způsob žonglování'),
 	array('url'=>'/kruhy/vyroba.html','text'=>'Výroba žonglovacích kruhů','title'=>'Jak vyrobit pěkné a levné kruhy na žonglování'),

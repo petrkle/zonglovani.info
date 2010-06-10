@@ -166,7 +166,7 @@
 			</li>
 		</ul>
 		</li>
-		<li><a name="lide"></a><a href="/lide/">Seznam žonglérů</a>
+		<li><a name="lide"></a><a href="/lide/">Seznam žonglérů - 1. stránka</a>
 		<ul>
 		<li><a href="/lide/pravidla.php">Pravidla pro vytvoření účtu</a></li>
 		<li><a href="/lide/prihlaseni.php">Přihlášení</a></li>
@@ -175,6 +175,9 @@
 			
 			</li>
 			<li><a name="misto"></a><a href="/lide/misto/">Žongléři podle místa působení</a>
+			
+			</li>
+			<li><a name="stranka2"></a><a href="/lide/stranka2/">Seznam žonglérů - 2. stránka</a>
 			
 			</li>
 		</ul>
@@ -187,6 +190,7 @@
 		<li><a href="/micky/jak-zacit.html">Jak začít žonglovat s míčky</a></li>
 		<li><a href="/micky/kick-up.html">Zvednutí míčku nohou</a></li>
 		<li><a href="/micky/legenda.html">Vysvětlivky k obrázkům - míčky</a></li>
+		<li><a href="/micky/nohy.html">Použij nohy</a></li>
 		<li><a href="/micky/passing-mm.html">Passing s míčky - mills&#039; mess</a></li>
 		<li><a href="/micky/pirueta.html">Pirueta</a></li>
 		<li><a href="/micky/poslepu.html">Žonglování poslepu</a></li>

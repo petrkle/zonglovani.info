@@ -7,6 +7,7 @@ $titulek='Žonglování s kruhy';
 $smarty->assign('titulek',$titulek);
 $smarty->assign('feedback',true);
 $smarty->assign('keywords',make_keywords($titulek));
+$smarty->assign('description','Návod na žonglování s kruhy.');
 
 $trail = new Trail();
 $trail->addStep('Kruhy','/kruhy/');

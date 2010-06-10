@@ -34,6 +34,8 @@ if(strlen($show)>0 and is_file($show.'.xml')){
 	exit();
 }else{
 	$smarty->assign_by_ref('trail', $trail->path);
+	$smarty->assign('keywords','žonglování, tři, míčky, návod, tenisáky');
+	$smarty->assign('description','Obrázkový návod na žonglování se třemi míčky.');
 	$smarty->assign('titulek',$titulek);
 	$smarty->display('hlavicka.tpl');
 	$smarty->display('micky-3-pred.tpl');

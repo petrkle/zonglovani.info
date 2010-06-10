@@ -1,4 +1,9 @@
 {if is_array($items)}
+{if $page_numbers.total > 1 and count($items)>10}
+<p>
+Stránkování: {$pager_links}
+</p>
+{/if}
 <ul>
 {foreach from=$items item=uzivatel}
 <li><a href="{$smarty.const.LIDE_URL}{$uzivatel|escape}.html" title="Profil uživatele {$uzivatel|escape}">{$uzivatel|escape}</a></li>
