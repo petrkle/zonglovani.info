@@ -32,6 +32,7 @@ array_push($znamkovani,array('vzor'=>'^\/obrazky\/.+\.html$','priorita'=>0.4,'zm
 array_push($znamkovani,array('vzor'=>'^\/lide\/.+\.html$','priorita'=>0.6,'zmena'=>'monthly'));
 array_push($znamkovani,array('vzor'=>'^\/lide\/dovednost\/.+\.html$','priorita'=>0.6,'zmena'=>'weekly'));
 array_push($znamkovani,array('vzor'=>'^\/lide\/misto\/.+\.html$','priorita'=>0.6,'zmena'=>'weekly'));
+array_push($znamkovani,array('vzor'=>'^\/lide\/stranka[0-9]+\/$','priorita'=>0.6,'zmena'=>'weekly'));
 array_push($znamkovani,array('vzor'=>'^\/kalendar\/.+\.html$','priorita'=>0.6,'zmena'=>'weekly'));
 array_push($znamkovani,array('vzor'=>'^\/kalendar\/udalost.+\.html$','priorita'=>0.7,'zmena'=>'monthly'));
 array_push($znamkovani,array('vzor'=>'^\/obrazky-na-plochu.*','priorita'=>0.5,'zmena'=>'yearly'));

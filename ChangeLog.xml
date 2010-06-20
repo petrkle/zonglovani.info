@@ -1,6 +1,12 @@
 <?xml version="1.0"?>
 <log>
 <logentry
+   revision="287">
+<author>petr</author>
+<date>2010-06-10T20:26:28.113344Z</date>
+<msg>Popisky v hlavičkách stránek</msg>
+</logentry>
+<logentry
    revision="286">
 <author>petr</author>
 <date>2010-06-06T15:15:15.983739Z</date>

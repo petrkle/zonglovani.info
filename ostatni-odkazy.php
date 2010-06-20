@@ -2,7 +2,8 @@
 require('init.php');
 require('func.php');
 
-$smarty->assign('titulek','Žonglování na síti');
+$titulek='Žonglování na síti';
+$smarty->assign('titulek',$titulek);
 $smarty->assign('feedback',true);
 
 $smarty->assign('keywords',make_keywords($titulek).', odkazy');

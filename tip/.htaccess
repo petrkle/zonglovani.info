@@ -8,4 +8,5 @@ RewriteCond %{REQUEST_FILENAME}	^.*\.inc$
 RewriteRule ^(.*)$ $1 [F]
 
 RewriteRule ^tip.rss$ index.php?rss=jo [L]
-RewriteRule ^tip-img.rss$ index.php?imgrss=jo [L]
+RewriteRule ^tip-img.rss$ tip.xml [R=301,L]
+RewriteRule ^tip.xml$ index.php?imgrss=jo [L]

@@ -137,8 +137,9 @@ if($id and $photo){
 			}
 			$smarty->assign('stranka',$pager->getPageIdByOffset($photo));
 			$smarty->assign('nahled',$obrazky[intval($photo)]['nahled']);
-			$smarty->assign('description',$gal_info['title']);
 			$titulek=$gal_info['title'].' - '.intval($photo).'. obrázek';
+			$smarty->assign('description',$titulek);
+			$smarty->assign('keywords','žonglování, fotky, '.intval($photo).'. obrázek, '.make_keywords($gal_info['title']));
 			$obrazek=&$obrazky[intval($photo)];
 			if($obrazek['stranka']==1){
 				$page='/';
@@ -184,11 +185,16 @@ if($id and $photo){
 
 		$trail->addStep($gal_info['title'],OBRAZKY_URL.$id.'/');
 
+		$smarty->assign('description',$gal_info['title'].' - fotky žonglování.');
+		$smarty->assign('keywords',make_keywords('žonglování, fotky, '.$gal_info['title']));
+
 		if($stranka){
 			$smarty->assign('stranka',$stranka);
 			if($stranka!=1){
 				$titulek.=' - stránka '.$stranka;
 				$trail->addStep('Stránka '.$stranka,OBRAZKY_URL.$id.'/stranka'.$stranka.'/');
+				$smarty->assign('description',$gal_info['title'].', fotky žonglování - stránka '.$stranka);
+				$smarty->assign('keywords',make_keywords('žonglování, fotky, '.$gal_info['title']).', '.$stranka.'. stránka');
 			}
 		}
 		$smarty->assign_by_ref('trail', $trail->path);
@@ -275,8 +281,11 @@ function get_galerie_info($galerie){
 				$navrat[substr($radek,0,$zac)]=substr($radek,$zac+1);
 			}
 	}
-	if(isset($navrat["url"])){
+	if(isset($navrat['url'])){
 		$navrat['url_hr']=preg_replace('/^http:\/\/zonglovani.info/','',$navrat['url']);
+	}
+	if(!isset($navrat['autor'])){
+		$navrat['autor']='';
 	}
 	return $navrat;
 }

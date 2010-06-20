@@ -103,8 +103,10 @@
 		<li><a href="/kalendar/udalost-20100609-20100609-pek-1275391597.html">Sraz Triba Fuega - kalendář žonglování</a></li>
 		<li><a href="/kalendar/udalost-20100612-20100612-pek-1276153295.html">Fortitudo - kalendář žonglování</a></li>
 		<li><a href="/kalendar/udalost-20100613-20100613-pek-1272998353.html">Den žonglování v Brně - kalendář žonglování</a></li>
-		<li><a href="/kalendar/udalost-20100619-20100619-pek-1273860571.html">Den žonglování - kalendář žonglování</a></li>
+		<li><a href="/kalendar/udalost-20100619-20100619-pek-1273860571.html">Světový den žonglování - kalendář žonglování</a></li>
 		<li><a href="/kalendar/udalost-20100619-20100619-pek-1273894229.html">Den žonglování s UJS - kalendář žonglování</a></li>
+		<li><a href="/kalendar/udalost-20100619-20100619-pek-1276598980.html">Žonglování v Teplé - kalendář žonglování</a></li>
+		<li><a href="/kalendar/udalost-20100623-20100623-pek-1276838540.html">Sraz Triba Fuega - kalendář žonglování</a></li>
 		<li><a href="/kalendar/udalost-20100625-20100625-pek-1267957291.html">Žonglování v Jihlavě - kalendář žonglování</a></li>
 		<li><a href="/kalendar/udalost-20100625-20100626-pek-1276147898.html">Polná v plamenech - kalendář žonglování</a></li>
 		<li><a href="/kalendar/udalost-20100705-20100711-pek-1268070475.html">Oheň a pohyb - kalendář žonglování</a></li>
@@ -226,6 +228,7 @@
 		<li><a href="/lide/brekeke.html">brekeke</a></li>
 		<li><a href="/lide/bujty.html">Tomáš Bujtár</a></li>
 		<li><a href="/lide/cerna543.html">Nikola</a></li>
+		<li><a href="/lide/cibulis.html">Jakub</a></li>
 		<li><a href="/lide/cozzi.html">Tomáš Kinzel</a></li>
 		<li><a href="/lide/danda.html">Daniela</a></li>
 		<li><a href="/lide/djembeman.html">Glofak Peter</a></li>
@@ -235,11 +238,13 @@
 		<li><a href="/lide/hrabje.html">Martin Khek</a></li>
 		<li><a href="/lide/hubis.html">Hubis</a></li>
 		<li><a href="/lide/jabko.html">Jan Holubec</a></li>
+		<li><a href="/lide/jan.html">Jan</a></li>
 		<li><a href="/lide/jitka.html">Jitka</a></li>
 		<li><a href="/lide/juggleman.html">Tomáš Ullrich</a></li>
 		<li><a href="/lide/kalkaja.html">Kája</a></li>
 		<li><a href="/lide/luciaska.html">Luciaska</a></li>
 		<li><a href="/lide/magnis.html">Michal Halačka</a></li>
+		<li><a href="/lide/mark.html">Mark</a></li>
 		<li><a href="/lide/maro2130.html">Marek</a></li>
 		<li><a href="/lide/martin.html">Martin Perlík</a></li>
 		<li><a href="/lide/mefistofeles.html">Marek Hnátek</a></li>
@@ -248,6 +253,7 @@
 		<li><a href="/lide/mrgin.html">Kolmen</a></li>
 		<li><a href="/lide/niggy.html">Niggy</a></li>
 		<li><a href="/lide/ondrator.html">ondra</a></li>
+		<li><a href="/lide/patrix.html">Patrix</a></li>
 		<li><a href="/lide/paulie.html">Pavel Veselý</a></li>
 		<li><a href="/lide/pravidla.php">Pravidla pro vytvoření účtu</a></li>
 		<li><a href="/lide/prihlaseni.php">Přihlášení</a></li>
@@ -259,6 +265,7 @@
 		<li><a href="/lide/sherak.html">Tomáš</a></li>
 		<li><a href="/lide/shkarpa.html">Mark Karpilovsky</a></li>
 		<li><a href="/lide/sigurd.html">Adam Šťastný</a></li>
+		<li><a href="/lide/siko97.html">Martin</a></li>
 		<li><a href="/lide/spanker.html">Zbyněk Fojtík</a></li>
 		<li><a href="/lide/ssttaannaa.html">ssttaannaa</a></li>
 		<li><a href="/lide/stewe.html">Štěpán Pícha</a></li>
@@ -1634,7 +1641,6 @@
 		</li>
 		<li><a name="tip"></a><a href="/tip/">Žonglérský tip týdne</a>
 		<ul>
-		<li><a href="/tip/tip-img.rss">Žonglování - tip týdne</a></li>
 		<li><a href="/tip/tip.rss">Žonglování - tip týdne</a></li>
 		</ul>
 		</li>

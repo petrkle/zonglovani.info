@@ -2,7 +2,8 @@
 require('init.php');
 require('func.php');
 
-$smarty->assign('titulek','Žonglování - základní pojmy');
+$titulek='Žonglování - základní pojmy';
+$smarty->assign('titulek',$titulek);
 $smarty->assign('feedback',true);
 
 $smarty->assign('keywords',make_keywords($titulek).', žonglování');

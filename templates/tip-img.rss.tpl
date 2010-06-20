@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
+<language>cs</language>
 <title>Žonglování - tip týdne</title>
-<atom:link href="http://{$smarty.server.SERVER_NAME}/tip/tip-img.rss" rel="self" type="application/rss+xml" />
+<atom:link href="http://{$smarty.server.SERVER_NAME}/tip/tip.xml" rel="self" type="application/rss+xml" />
 <link>http://{$smarty.server.SERVER_NAME}/tip/</link>
 <description>Tip týdne z žonglérova slabikáře.</description>
 <copyright>pek - {$smarty.server.SERVER_NAME}</copyright>
 <image>
-<url>http://{$smarty.server.SERVER_NAME}/img/s/slabikar-fb.png</url>
+<url>http://{$smarty.server.SERVER_NAME}/img/s/slabikar1.gif</url>
 <title>Žonglování - tip týdne</title>
 <link>http://{$smarty.server.SERVER_NAME}/tip/</link>
 </image>

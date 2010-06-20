@@ -27,21 +27,21 @@
 2010-06-07*Oheň a pohyb*/kalendar/udalost-20100705-20100711-pek-1268070475.html*ohen-a-pohyb.jpg*Žonglování, tanec, akrobacie, šerm, bubnování a mnoho dalšího. To všechno tě čeká na semináři Oheň a pohyb.
 2010-06-14*Deštník*/micky/4/destnik.html*destnikc.png*Kdo má po ruce 4 míčky, toho ani déšť nepřekvapí.
 2010-06-21*EJC 2010*/kalendar/udalost-20100724-20100801-pek-1267957805.html*ejc2010.jpg*Za měsíc začíná evropské setkání žonglérů v Joensuu. Nejvyšší čas sehnat si odvoz do Finska.
-2010-06-28*Helikoptéra*/kuzely/3/helikoptera.html*kuzely-3-helikopterac.png*Trik s kuželkou. Ale pozor, je trochu na hlavu :^)
+2010-06-28*Žonglérská víkendovka*/literatura.html#zv*zonglerska-vikendovka.png*Brožura pro výuku žonglování na víkendových kurzech. Popisuje základy žonglování s míčky a točení s poi.
 2010-07-05*Prechac Weaves*/video/prechac-weaves.html*prechac-weaves.jpg*Trochu propletené žonglování.
 2010-07-12*Chůdy*/chudy/*cirkusc.png*Diváci milují chůdy. Hlavně proto, že jsou zvědaví kdy chůdař spadne a šeredně si natluče. <a href="http://zonglovani.info/chudy/" title="Návod na výrobu chůd.">Návod na výrobu chůd</a>.
 2010-07-19*Aleje 2010*/kalendar/udalost-20100821-20100828-pek-1267957575.html*aleje-logo.jpg*Za měsíc začne 9. mezinárodní žonglérská a divadelní dílna Aleje 2010.
-2010-07-26*Otáčení kuželky okolo palce*/kuzely/toceni-okolo-palce.html*tocenib.png*Trik který můžeš trénovat i v místnostech s nízkým stropem.
-2010-08-02*Literatura*/literatura.html*encyclopaedia.jpg*Přehled nejlepších knížek o žonglování.
+2010-07-26*Výuka žonglování*/lide/dovednost/workshop.html*usx.jpg*Seznam žonglérů a žonglérek kteří tě naučí žonglovat.
+2010-08-02*Výzva pro fotografy*/obrazky/*fotaka.png*Rád uveřejním i tvoje fotografie žonglování. Stačí vědět kde a kdy byly pořízené a <a href="http://zonglovani.info/kontakt.html" title="Stránka s emailem.">napsat</a>. Tvoje fotky pak uvidí hodně lidí které zajímá žonglování.
 2010-08-09*Sloupy ve dvou*/kuzely/passing/sloupy.html*kuzely-passing-sloupyd.png*Trik pro dva žongléry se čtyřmi kužely.
 2010-08-16*Siteswap*/siteswap.html*p4sprchac.png*Jsou to vlastně takové noty pro žonglování. Siteswap vymysleli žongléři, aby s jejich pomocí <strong>našli nové triky</strong>.
 2010-08-23*Fotky z Ulity*/obrazky/filtr/Ulita*ulita.cz.png*Fotografie z podzimního, zimního a jarního žonglování v Ulitě.
 2010-08-30*Neúplná hvězda*/kuzely/passing/prebihani4z11k.html*kuzely-passing-prebihani4z11kc.png*Občas není dostatek žonglérů na úplnou <a href="http://zonglovani.info/kuzely/passing/star.html" title="Trik pro 5 žonglérů.">hvězdu</a> a pak je potřeba trochu běhat.
-2010-09-06*Výzva pro fotografy*/obrazky/*fotaka.png*Rád uveřejním i tvoje fotografie žonglování. Stačí vědět kde a kdy byly pořízené a <a href="http://zonglovani.info/kontakt.html" title="Stránka s emailem.">napsat</a>. Tvoje fotky pak uvidí hodně lidí které zajímá žonglování.
-2010-09-13
-2010-09-20
-2010-09-27
-2010-10-04
+2010-09-06*Výhody pro registrované uživatele*/exkurze.html*exkurze-nahled-2010-2-28-19-49-47.jpg*Obrázky a popis výhod pro registrované uživatele žonglérova slabikáře.
+2010-09-13*Obrázky na plochu*/obrazky-na-plochu/*kuzelky-na-trave.jpg*Obrázky na plochu počítače s žonglérskou tématikou.
+2010-09-20*Literatura*/literatura.html*encyclopaedia.jpg*Přehled nejlepších knížek o žonglování.
+2010-09-27*Helikoptéra*/kuzely/3/helikoptera.html*kuzely-3-helikopterac.png*Trik s kuželkou. Ale pozor, je trochu na hlavu :^)
+2010-10-04*Otáčení kuželky okolo palce*/kuzely/toceni-okolo-palce.html*tocenib.png*Trik který můžeš trénovat i v místnostech s nízkým stropem.
 2010-10-11
 2010-10-18
 2010-10-25
