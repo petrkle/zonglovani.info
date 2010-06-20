@@ -5,8 +5,8 @@ Stránkování: {$pager_links}
 </p>
 {/if}
 <ul>
-{foreach from=$items item=uzivatel}
-<li><a href="{$smarty.const.LIDE_URL}{$uzivatel|escape}.html" title="Profil uživatele {$uzivatel|escape}">{$uzivatel|escape}</a></li>
+{foreach from=$items key=login item=uzivatel}
+<li><a href="{$smarty.const.LIDE_URL}{$login|escape}.html" title="Profil uživatele {$uzivatel|escape}">{$uzivatel|escape}</a></li>
 {/foreach}
 </ul>
 {if $page_numbers.total > 1}

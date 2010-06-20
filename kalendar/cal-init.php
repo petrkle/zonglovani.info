@@ -70,6 +70,7 @@ function get_event_data($id,$storage=CALENDAR_DATA){
 			$udalost['id']=ereg_replace('\.cal$','',$id);
 			$udalost['insert']=ereg_replace('\.cal$','',$filename[3]);
 			$udalost['vlozil']=$filename[2];
+			$udalost['vlozil_hr']=get_name($filename[2]);
 			$udalost['month_url']=CALENDAR_URL.substr($filename[0],0,4).'-'.substr($filename[0],4,2).'.html';
 
 			$db=file("$storage/$file");

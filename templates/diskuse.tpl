@@ -10,7 +10,7 @@ Stránkování: {$pager_links}
 <table class="diskuse" cellspacing="0" cellpadding="0">
 <tr>
 <th>Uživatel</th>
-<td><a href="{$smarty.const.LIDE_URL}{$zprava.autor|escape}.html" title="Podrobnosti o uživateli {$zprava.autor|escape}.">{$zprava.autor|escape}</a></td>
+<td><a href="{$smarty.const.LIDE_URL}{$zprava.autor|escape}.html" title="Podrobnosti o uživateli {$zprava.autor|escape}.">{$zprava.autor_hr|escape}</a></td>
 <th>Datum</th>
 <td>{$zprava.datum_hr|escape}</td>
 <th>Čas</th>

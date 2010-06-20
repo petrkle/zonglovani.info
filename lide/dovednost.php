@@ -37,10 +37,12 @@ if($filtr){
 		}
 	}
 
+
 	$smarty->assign('umi',$dovednosti[$filtr]['umi']);
 	
 	if(count($uzivatele)>0){
-		$smarty->assign('uzivatele',$uzivatele);
+		uasort($uzivatele, 'sort_by_jmeno_zonglera'); 
+		$smarty->assign_by_ref('uzivatele',$uzivatele);
 	}
 	$trail->addStep('Podle dovedností',LIDE_URL.'dovednost/');
 	$trail->addStep($dovednosti[$filtr]['nazev']);

@@ -14,6 +14,11 @@ if($_SERVER['REQUEST_URI']=='/lide/stranka1/'){
 }
 
 $loginy=get_loginy();
+$lide=array();
+foreach($loginy as $login){
+	$lide[$login]=get_name($login);
+}
+uasort($lide, 'sort_by_jmeno'); 
 
 $pagerOptions = array(
     'mode'     => 'Sliding',
@@ -29,7 +34,7 @@ $pagerOptions = array(
 		'append'   => false,
 		'firstLinkNull'   => true,
 		'fileName' => 'stranka%d/', 
-    'itemData' => $loginy,
+    'itemData' => $lide,
 );
 $pager =& Pager::factory($pagerOptions);
 $data = $pager->getPageData();
@@ -45,7 +50,7 @@ $smarty->assign(
 );
 
 $titulek='Seznam žonglérů - '.$pager->getCurrentPageID().'. stránka';
-$smarty->assign('nadpis','Seznamu žonglérů');
+$smarty->assign('nadpis','Seznam žonglérů');
 $smarty->assign('keywords','žonglování, workshop, žongléři, dílna, žonglér, žonglérka, sezna žonglérů, vystoupení, fireshow, akrobacie');
 $smarty->assign('description',$pager->getCurrentPageID().'. stránka seznamu žonglérů a žonglérek kteří umí veřejné vystoupení, fireshow i žonglérské dílny.');
 $trail = new Trail();

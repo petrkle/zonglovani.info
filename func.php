@@ -70,11 +70,17 @@ function sort_by_title($a, $b){
 
 function sort_by_jmeno($a, $b){
 	global $trans;
-	$a['jmeno']=strtr($a['jmeno'],$trans);	
-	$b['jmeno']=strtr($b['jmeno'],$trans);	
-	return strcmp($a['jmeno'],$b['jmeno']);
+	$a=strtr($a,$trans);	
+	$b=strtr($b,$trans);	
+	return strcasecmp($a,$b);
 }
 
+function sort_by_jmeno_zonglera($a, $b){
+	global $trans;
+	$a['jmeno']=strtr($a['jmeno'],$trans);	
+	$b['jmeno']=strtr($b['jmeno'],$trans);	
+	return strcasecmp($a['jmeno'],$b['jmeno']);
+}
 
 function get_videa($db){
 	$allvideos=file("$db");
@@ -186,6 +192,10 @@ function is_zs_jmeno($jmeno){
 		}
 	}
 	return $navrat;
+}
+
+function get_name($login){
+	return trim(array_pop(file(LIDE_DATA.'/'.$login.'/jmeno.txt')));
 }
 
 function get_loginy(){

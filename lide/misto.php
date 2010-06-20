@@ -33,6 +33,7 @@ if($filtr){
 		}
 	}
 	if(count($uzivatele)>0){
+		uasort($uzivatele, 'sort_by_jmeno_zonglera'); 
 		$smarty->assign('uzivatele',$uzivatele);
 	}
 	$trail->addStep('Podle místa',LIDE_URL.'misto/');

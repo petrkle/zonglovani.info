@@ -29,7 +29,7 @@
 </p>
 </form>
 {else}
-<p><strong>Vložil</strong>: <a href="{$smarty.const.LIDE_URL}{$udalost.vlozil|escape}.html" title="Podrobnosti o {$udalost.vlozil|escape}">{$udalost.vlozil|escape}</a> {$udalost.insert_hr|escape}</p>
+<p><strong>Vložil</strong>: <a href="{$smarty.const.LIDE_URL}{$udalost.vlozil|escape}.html" title="Podrobnosti o {$udalost.vlozil|escape}">{$udalost.vlozil_hr|escape}</a> {$udalost.insert_hr|escape}</p>
 {if isset($udalost.update) and $udalost.update_hr!=$udalost.insert_hr}
 <p><strong>Poslední úprava</strong>: {$udalost.update_hr|escape}</p>
 {/if}

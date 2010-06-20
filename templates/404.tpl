@@ -11,12 +11,10 @@ Je mi líto, požadovaná stránka se bohužel v žonglérově slabikáři nenac
 	<li>Použij <a href="/mapa-stranek.html" title="Mapa stránek">mapu stránek</a>, tj. seznam všech stránek na serveru.</li>
 	<li>Zkus stránku najít pomocí <a href="{$smarty.const.SEARCH_URL}" title="Prohledávání žonglérova slabikáře.">vyhledavani</a>.</li>
 </ul>
-<h3>Kontakt</h3>
+<h3><a href="/kontakt.html" title="Kompletní kontaktní údaje">Kontakt</a></h3>
 {assign var='mail' value='admin@zonglovani.info'}
-{assign var='tel' value='+420 732 766 740'}
 <ul>
 	<li>Elektronická pošta: {$mail|mailobfuscate}</li>
-	<li>Telefon: {$tel|telobfuscate}</li>
 </ul>
-
+<hr />
 <p>Chybové hlášení: <strong>HTTP 404 [Page Not Found]</strong></p>
