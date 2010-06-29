@@ -317,6 +317,9 @@
 			<li><a name="klamovka-20091007"></a><a href="/obrazky/klamovka-20091007/">Klamovka 7. 10. 2009 - obrázky žonglování</a>
 			
 			</li>
+			<li><a name="ledce-rozmaryna-20100612"></a><a href="/obrazky/ledce-rozmaryna-20100612/">Ledce voní Rozmarýnou 12. 6. 2010 - obrázky žonglování</a>
+			
+			</li>
 			<li><a name="lhotka-20080601"></a><a href="/obrazky/lhotka-20080601/">Vlakem do Lhotky 2008 - obrázky žonglování</a>
 			
 			</li>
@@ -377,6 +380,9 @@
 		
 		</li>
 		<li><a name="ostatni"></a>ostatni/
+		
+		</li>
+		<li><a name="pro-novinare"></a><a href="/pro-novinare/">Pro novináře</a>
 		
 		</li>
 		<li><a name="tip"></a><a href="/tip/">Žonglérský tip týdne</a>

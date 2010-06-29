@@ -229,6 +229,13 @@ $trail->addStep('Nastavení',LIDE_URL.'nastaveni/');
 		}elseif($uprav=='pusobiste'){
 
 			if(isset($_POST['odeslat'])){
+
+					if(count($_POST['misto'])>6){
+						array_push($chyby,'Jako působiště můžeš vybrat nejvíc 6 míst.');
+					}
+
+				if(count($chyby)==0){
+
 					$foo=fopen(LIDE_DATA.'/'.$_SESSION['uzivatel']['login'].'/pusobiste.txt','w');
 					if(is_array($_POST['misto'])){
 						foreach($_POST['misto'] as $nazev){
@@ -244,6 +251,7 @@ $trail->addStep('Nastavení',LIDE_URL.'nastaveni/');
 					$_SESSION['uzivatel']=get_user_complete($_SESSION['uzivatel']['login']);
 					header('Location: '.LIDE_URL.'nastaveni/?result=ok');
 					exit();
+				}
 			}
 
 				foreach($pusobiste as $nazev=>$obsah){
