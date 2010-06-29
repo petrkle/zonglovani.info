@@ -71,6 +71,7 @@ define('WALLPAPERS_DATA',$_SERVER['DOCUMENT_ROOT'].'/obrazky-na-plochu');
 
 $hodnoceni=get_hodnoceni_stranka($_SERVER['REQUEST_URI']);
 $smarty->assign('hodnoceni',$hodnoceni);
+$smarty->assign('fblink',get_fblink());
 function get_hodnoceni_stranka($url){
 	$url=preg_replace('/(.+)\/$/','\1/index.html',$url);
 	$navrat=array();
@@ -90,6 +91,30 @@ function get_hodnoceni_stranka($url){
 		$navrat=false;
 	}
 	return $navrat;
+}
+
+function get_fblink(){
+$texty=array(
+'Jsem žonglér',
+'Mám rád žonglování',
+'Míčky a kužely jsou moje',
+'Passing je můj šálek čaje',
+'Aktuality ze světa žonglování',
+'Miluju žonglování!',
+'Žonglérské novinky',
+'Ukaž žonglérův slabikář kamarádům',
+'Novinky o žonglování',
+'Najít další žongléry',
+'Zůstaň v kontaktu',
+'Poslat odkaz na žonglování kámošům',
+'Hážu, hážeš, hážeme',
+'Spousta žonglérů na Facebooku.',
+'Podpoř žonglérův slabikář',
+'To se mi líbí',
+'Doporučit žonglérův slabikář kamarádům',
+'Žonglérský tip týdne');
+$stridacka=date('z',time()) % count($texty);
+	return '<a href="http://www.facebook.com/pages/Zongleruv-slabikar/249578053101" class="external" title="Stránky žonglérova slabikáře na Facebooku." onclick="pageTracker._trackPageview(\'/goto/facebook.com/pages/Zongleruv-slabikar/249578053101\');">'.$texty[$stridacka].'</a>';
 }
 
 ?>

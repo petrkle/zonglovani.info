@@ -1,6 +1,12 @@
 <?xml version="1.0"?>
 <log>
 <logentry
+   revision="290">
+<author>petr</author>
+<date>2010-06-29T16:24:28.241052Z</date>
+<msg>Omezení počtu působišť.</msg>
+</logentry>
+<logentry
    revision="289">
 <author>petr</author>
 <date>2010-06-20T14:45:58.021767Z</date>
