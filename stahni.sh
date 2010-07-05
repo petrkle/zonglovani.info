@@ -2,7 +2,7 @@
 
 wget \
 	-e "robots=off" \
-	--accept=.html,.php,.rss \
+	--accept=.html,.php,.xml \
 	--recursive \
  	--quiet \
 	http://zongl.info/ \

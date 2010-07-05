@@ -11,6 +11,11 @@
 {/if}
 	<link rel="stylesheet" media="screen,projection" type="text/css" href="/z.css" />
 	<link rel="stylesheet" media="print" type="text/css" href="/zt.css" />
+{if $styly}
+{foreach from=$styly item=styl}
+	<link rel="stylesheet" media="screen,projection" type="text/css" href="{$styl}" />
+{/foreach}
+{/if}
 	<meta name="robots" content="{if isset($robots)}{$robots|escape}{else}index,follow{/if}" />
 	<link rel="shortcut icon" href="/favicon.ico" />
 	<link rel="alternate" title="Žonglérův slabikář" href="http://{$smarty.server.SERVER_NAME}/zonglovani.rss" type="application/rss+xml" />

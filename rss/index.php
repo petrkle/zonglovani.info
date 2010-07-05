@@ -15,6 +15,7 @@ if(isset($_GET['rss'])){
 
 $smarty->assign_by_ref('trail', $trail->path);
 
+$smarty->assign('styly','/rss/r.css');
 $smarty->assign('keywords','rss, žonglování, agregátor');
 $smarty->assign('description','RSS agregátor novinek z žonglérského světa');
 
@@ -28,7 +29,7 @@ $smarty->assign_by_ref('rss_zdroje',$rss_zdroje);
 $smarty->assign_by_ref('novinky',get_news(40));
 
 if($rss){
-#	header('Content-Type: application/rss+xml');
+	header('Content-Type: application/rss+xml');
 	$smarty->display('rss-agregator.xml.tpl');
 	exit();
 }
@@ -60,12 +61,13 @@ function get_news($pocet){
 		$baz=preg_split('/\./',$novinky[$foo]);
 		$baz=preg_split('/-/',$baz[0]);
 		$navrat[$foo]['titulek']=trim($bar[0]);
+		$navrat[$foo]['description']=trim($bar[2]);
 		$navrat[$foo]['url']=trim($bar[1]);
 		$navrat[$foo]['timestamp']=trim($baz[0]);
 		$navrat[$foo]['rssid']=trim($baz[1]);
 		$navrat[$foo]['rss']=$rss_zdroje[$navrat[$foo]['rssid']];
 		$navrat[$foo]['time_hr']=date('j. n. Y G.i',$navrat[$foo]['timestamp']);
-		$navrat[$foo]['time_mr']=date('c',$navrat[$foo]['timestamp']);
+		$navrat[$foo]['time_mr']=date('r',$navrat[$foo]['timestamp']);
 	}
 	return $navrat;
 }

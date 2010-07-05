@@ -1,6 +1,12 @@
 <?xml version="1.0"?>
 <log>
 <logentry
+   revision="293">
+<author>petr</author>
+<date>2010-07-05T10:19:52.717733Z</date>
+<msg>Chybně ukončený div</msg>
+</logentry>
+<logentry
    revision="292">
 <author>petr</author>
 <date>2010-07-05T09:58:14.680464Z</date>

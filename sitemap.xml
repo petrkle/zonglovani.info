@@ -165,12 +165,6 @@
    </url>
 			
    <url>
-      <loc>http://zonglovani.info/zonglovani.rss</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.6</priority>
-   </url>
-			
-   <url>
       <loc>http://zonglovani.info/chudy/</loc>
       <changefreq>monthly</changefreq>
       <priority>0.4</priority>
@@ -192,12 +186,6 @@
       <loc>http://zonglovani.info/diskuse/stranka3.html</loc>
       <changefreq>monthly</changefreq>
       <priority>0.4</priority>
-   </url>
-			
-   <url>
-      <loc>http://zonglovani.info/diskuse/zpravy.rss</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.6</priority>
    </url>
 			
    <url>
@@ -406,12 +394,6 @@
 			
    <url>
       <loc>http://zonglovani.info/kalendar/2010-11.html</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.6</priority>
-   </url>
-			
-   <url>
-      <loc>http://zonglovani.info/kalendar/kalendar.rss</loc>
       <changefreq>weekly</changefreq>
       <priority>0.6</priority>
    </url>
@@ -1402,12 +1384,6 @@
 			
    <url>
       <loc>http://zonglovani.info/lide/tommy.html</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.6</priority>
-   </url>
-			
-   <url>
-      <loc>http://zonglovani.info/lide/uzivatele.rss</loc>
       <changefreq>weekly</changefreq>
       <priority>0.6</priority>
    </url>
@@ -2700,12 +2676,6 @@
       <loc>http://zonglovani.info/obrazky/</loc>
       <changefreq>weekly</changefreq>
       <priority>0.9</priority>
-   </url>
-			
-   <url>
-      <loc>http://zonglovani.info/obrazky/obrazky.rss</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.6</priority>
    </url>
 			
    <url>
@@ -8349,12 +8319,6 @@
    </url>
 			
    <url>
-      <loc>http://zonglovani.info/ostatni/changelog.rss</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.6</priority>
-   </url>
-			
-   <url>
       <loc>http://zonglovani.info/pro-novinare/</loc>
       <changefreq>yearly</changefreq>
       <priority>0.5</priority>
@@ -8370,12 +8334,6 @@
       <loc>http://zonglovani.info/tip/</loc>
       <changefreq>weekly</changefreq>
       <priority>0.8</priority>
-   </url>
-			
-   <url>
-      <loc>http://zonglovani.info/tip/tip.rss</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.6</priority>
    </url>
 			
    <url>
