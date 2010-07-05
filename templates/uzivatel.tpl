@@ -116,6 +116,6 @@ Stránku odebereš z oblíbených kliknutím na obrázek žluté hvězdičky {ob
 <p>
 <a href="{$smarty.const.LIDE_URL}" title="Seznam uživatelů žonglérova slabikáře.">Další žongléři a žonglérky &raquo;</a>
 </p>
-{/if}
 </div>
+{/if}
 {/if}

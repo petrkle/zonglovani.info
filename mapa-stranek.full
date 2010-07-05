@@ -73,14 +73,14 @@
 		</li>
 		<li><a name="kalendar"></a><a href="/kalendar/">Kalendář žonglování</a>
 		<ul>
-		<li><a href="/kalendar/2010-02.html">Kalendář žonglování - Únor 2010</a></li>
 		<li><a href="/kalendar/2010-03.html">Kalendář žonglování - Březen 2010</a></li>
 		<li><a href="/kalendar/2010-04.html">Kalendář žonglování - Duben 2010</a></li>
 		<li><a href="/kalendar/2010-05.html">Kalendář žonglování - Květen 2010</a></li>
-		<li><a href="/kalendar/2010-07.html">Kalendář žonglování - Červenec 2010</a></li>
+		<li><a href="/kalendar/2010-06.html">Kalendář žonglování - Červen 2010</a></li>
 		<li><a href="/kalendar/2010-08.html">Kalendář žonglování - Srpen 2010</a></li>
 		<li><a href="/kalendar/2010-09.html">Kalendář žonglování - Září 2010</a></li>
 		<li><a href="/kalendar/2010-10.html">Kalendář žonglování - Říjen 2010</a></li>
+		<li><a href="/kalendar/2010-11.html">Kalendář žonglování - Listopad 2010</a></li>
 		<li><a href="/kalendar/kalendar.rss">Kalendář žonglérských akcí</a></li>
 		<li><a href="/kalendar/rss-a-icalendar.html">Nastavení RSS a iCalendar</a></li>
 		<li><a href="/kalendar/udalost-20100307-20100307-pek-1253740665.html">Ulita - kalendář žonglování</a></li>
@@ -104,12 +104,13 @@
 		<li><a href="/kalendar/udalost-20100612-20100612-pek-1276153295.html">Fortitudo - kalendář žonglování</a></li>
 		<li><a href="/kalendar/udalost-20100613-20100613-pek-1272998353.html">Den žonglování v Brně - kalendář žonglování</a></li>
 		<li><a href="/kalendar/udalost-20100619-20100619-pek-1273860571.html">Světový den žonglování - kalendář žonglování</a></li>
-		<li><a href="/kalendar/udalost-20100619-20100619-pek-1273894229.html">Den žonglování s UJS - kalendář žonglování</a></li>
 		<li><a href="/kalendar/udalost-20100619-20100619-pek-1276598980.html">Žonglování v Teplé - kalendář žonglování</a></li>
 		<li><a href="/kalendar/udalost-20100623-20100623-pek-1276838540.html">Sraz Triba Fuega - kalendář žonglování</a></li>
+		<li><a href="/kalendar/udalost-20100623-20100623-pek-1277049010.html">Klamovka - kalendář žonglování</a></li>
 		<li><a href="/kalendar/udalost-20100625-20100625-pek-1267957291.html">Žonglování v Jihlavě - kalendář žonglování</a></li>
 		<li><a href="/kalendar/udalost-20100625-20100626-pek-1276147898.html">Polná v plamenech - kalendář žonglování</a></li>
 		<li><a href="/kalendar/udalost-20100705-20100711-pek-1268070475.html">Oheň a pohyb - kalendář žonglování</a></li>
+		<li><a href="/kalendar/udalost-20100707-20100707-pek-1277451324.html">Tribo Fuego - kalendář žonglování</a></li>
 		<li><a href="/kalendar/udalost-20100718-20100728-pek-1273864102.html">Počůvadlo - kalendář žonglování</a></li>
 		<li><a href="/kalendar/udalost-20100724-20100801-pek-1267957805.html">European Juggling Convention - kalendář žonglování</a></li>
 		<li><a href="/kalendar/udalost-20100813-20100815-pek-1273863829.html">Slovenská umelecká letná oslava žonglovania - kalendář žonglování</a></li>
@@ -245,7 +246,7 @@
 		<li><a href="/lide/luciaska.html">Luciaska</a></li>
 		<li><a href="/lide/magnis.html">Michal Halačka</a></li>
 		<li><a href="/lide/mark.html">Mark</a></li>
-		<li><a href="/lide/maro2130.html">Marek</a></li>
+		<li><a href="/lide/maro2130.html">maro</a></li>
 		<li><a href="/lide/martin.html">Martin Perlík</a></li>
 		<li><a href="/lide/mefistofeles.html">Marek Hnátek</a></li>
 		<li><a href="/lide/misslulinka.html">Lucie Janovská</a></li>
@@ -276,6 +277,7 @@
 		<li><a href="/lide/uzivatele.rss">Seznam žonglérů</a></li>
 		<li><a href="/lide/vitek.html">Vítek kumštýř mnoha tváří</a></li>
 		<li><a href="/lide/vokis.html">Honza</a></li>
+		<li><a href="/lide/yufi.html">Yufi Zongler CZ</a></li>
 		<li><a href="/lide/zapomenute-heslo.php">Zapomenuté heslo</a></li>
 		<li><a href="/lide/zonglerka.html">zdenka Škropekova</a></li>
 		<li><a href="/lide/zongluj.html">Žongluj imrvére</a></li>
@@ -1670,6 +1672,9 @@
 		</ul>
 		</li>
 		<li><a name="pro-novinare"></a><a href="/pro-novinare/">Pro novináře</a>
+		
+		</li>
+		<li><a name="rss"></a><a href="/rss/">RSS agregátor</a>
 		
 		</li>
 		<li><a name="tip"></a><a href="/tip/">Žonglérský tip týdne</a>

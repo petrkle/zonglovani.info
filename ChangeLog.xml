@@ -1,6 +1,16 @@
 <?xml version="1.0"?>
 <log>
 <logentry
+   revision="292">
+<author>petr</author>
+<date>2010-07-05T09:58:14.680464Z</date>
+<msg>RSS agregátor</msg>
+<revprops>
+<property
+   name="svn:link">/rss/</property>
+</revprops>
+</logentry>
+<logentry
    revision="291">
 <author>petr</author>
 <date>2010-06-29T17:29:17.620248Z</date>

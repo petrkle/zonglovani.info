@@ -385,6 +385,9 @@
 		<li><a name="pro-novinare"></a><a href="/pro-novinare/">Pro novináře</a>
 		
 		</li>
+		<li><a name="rss"></a><a href="/rss/">RSS agregátor</a>
+		
+		</li>
 		<li><a name="tip"></a><a href="/tip/">Žonglérský tip týdne</a>
 		
 		</li>

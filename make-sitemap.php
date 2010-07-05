@@ -13,6 +13,7 @@ print '<?xml version="1.0" encoding="UTF-8"?>
 $znamkovani=array();
 array_push($znamkovani,array('vzor'=>'^\/$','priorita'=>1,'zmena'=>'weekly'));
 array_push($znamkovani,array('vzor'=>'^\/tip\/$','priorita'=>0.8,'zmena'=>'weekly'));
+array_push($znamkovani,array('vzor'=>'^\/rss\/$','priorita'=>0.4,'zmena'=>'daily'));
 array_push($znamkovani,array('vzor'=>'^.+\.rss$','priorita'=>0.6,'zmena'=>'weekly'));
 array_push($znamkovani,array('vzor'=>'^\/(micky|kruhy|kuzely)\/$','priorita'=>0.9,'zmena'=>'monthly'));
 array_push($znamkovani,array('vzor'=>'^\/(obrazky|kalendar|lide|diskuse)\/$','priorita'=>0.9,'zmena'=>'weekly'));
@@ -29,7 +30,7 @@ array_push($znamkovani,array('vzor'=>'^\/changelog.html$','priorita'=>0.4,'zmena
 array_push($znamkovani,array('vzor'=>'^\/mapa-stranek.html$','priorita'=>0.4,'zmena'=>'weekly'));
 array_push($znamkovani,array('vzor'=>'^\/obrazky\/.+\/$','priorita'=>0.6,'zmena'=>'yearly'));
 array_push($znamkovani,array('vzor'=>'^\/obrazky\/.+\.html$','priorita'=>0.4,'zmena'=>'yearly'));
-array_push($znamkovani,array('vzor'=>'^\/lide\/.+\.html$','priorita'=>0.6,'zmena'=>'monthly'));
+array_push($znamkovani,array('vzor'=>'^\/lide\/.+\.html$','priorita'=>0.6,'zmena'=>'weekly'));
 array_push($znamkovani,array('vzor'=>'^\/lide\/dovednost\/.+\.html$','priorita'=>0.6,'zmena'=>'weekly'));
 array_push($znamkovani,array('vzor'=>'^\/lide\/misto\/.+\.html$','priorita'=>0.6,'zmena'=>'weekly'));
 array_push($znamkovani,array('vzor'=>'^\/lide\/stranka[0-9]+\/$','priorita'=>0.6,'zmena'=>'weekly'));
