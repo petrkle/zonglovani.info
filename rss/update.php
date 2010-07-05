@@ -1,0 +1,49 @@
+<?php
+require('../init.php');
+require('../func.php');
+require('rss.php');
+
+define('MAGPIE_INPUT_ENCODING','UTF-8');
+define('MAGPIE_OUTPUT_ENCODING','UTF-8');
+define('MAGPIE_DETECT_ENCODING',false);
+define('MAGPIE_CACHE_DIR',$_SERVER['DOCUMENT_ROOT'].'/tmp/cache.rss');
+require('../lib/rss_fetch.inc');
+print '<pre>';
+
+$maxpocet=10;
+$udalosti=array();
+
+foreach($rss_zdroje as $id=>$kanal){
+	print $kanal['feed_url']."\n";
+	$rss = fetch_rss($kanal['feed_url']);
+	$items=$rss->items;
+	foreach($items as $item){
+		if(isset($item['published']) and !isset($item['date_timestamp'])){
+			$item['date_timestamp'] = strtotime($item['published']);
+		}
+		if(preg_match('/facebook/',$kanal['feed_url'])){
+			$item['link']=preg_replace('/^\//','http://facebook.com/',$item['link']);
+		}
+		$foo=fopen(RSS_AGREGATOR_DATA.'/'.$item['date_timestamp'].'-'.$id.'.txt','w');
+		fwrite($foo,substr($item['title'],0,120)."\n");
+		fwrite($foo,$item['link']."\n");
+		fclose($foo);
+	}
+
+	# uklid
+	$dir = opendir(RSS_AGREGATOR_DATA);
+	$novinky = array();
+	    if ($dir) {
+			   while (($filename = readdir($dir)) !== false) {
+						if (preg_match('/-'.$id.'\.txt$/',$filename)) {
+				      array_push($novinky,$filename);
+					 }
+			   }
+		   }
+	closedir($dir);
+	rsort($novinky,SORT_NUMERIC);
+	for($foo=count($novinky)-1;$foo>$maxpocet;$foo--){
+		unlink(RSS_AGREGATOR_DATA.'/'.$novinky[$foo]);
+	}
+}
+?>

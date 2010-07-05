@@ -1,6 +1,12 @@
 <?xml version="1.0"?>
 <log>
 <logentry
+   revision="291">
+<author>petr</author>
+<date>2010-06-29T17:29:17.620248Z</date>
+<msg>Proměnlivé odkazy na facebook.</msg>
+</logentry>
+<logentry
    revision="290">
 <author>petr</author>
 <date>2010-06-29T16:24:28.241052Z</date>

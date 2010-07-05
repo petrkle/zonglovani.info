@@ -46,6 +46,8 @@ define('LIDE_DATA',$_SERVER['DOCUMENT_ROOT'].'/data/lide');
 define('LIDE_TMP',$_SERVER['DOCUMENT_ROOT'].'/data/lide.tmp'); 
 define('LIDE_VZKAZY',$_SERVER['DOCUMENT_ROOT'].'/data/vzkazy'); 
 
+define('RSS_AGREGATOR_DATA',$_SERVER['DOCUMENT_ROOT'].'/data/rss'); 
+
 define('DISKUSE_URL','/diskuse/'); 
 define('DISKUSE_DATA',$_SERVER['DOCUMENT_ROOT'].'/data/diskuse'); 
 

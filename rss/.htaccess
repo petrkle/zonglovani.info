@@ -1,0 +1,7 @@
+RewriteEngine	on
+RewriteBase /rss
+
+RewriteCond %{HTTP_HOST} ^www\.(.*)
+RewriteRule (.*) http://%1/rss/$1 [R=301,QSA,NE,L]
+
+RewriteRule ^agregator.xml$ index.php?rss=jo [L]
