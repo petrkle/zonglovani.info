@@ -1,5 +1,5 @@
 <p>
-RSS agregátor novinek ze světa žonglování.
+Přehled novinek na stránkách o žonglování.
 </p>
 {if $novinky}
 {foreach from=$novinky item=novinka}
@@ -13,6 +13,7 @@ RSS agregátor novinek ze světa žonglování.
 {/if}
 
 {if $rss_zdroje}
+<a name="zdroje"></a>
 <h3>Seznam zdrojů</h3>
 <ul>
 {foreach from=$rss_zdroje key=id item=rss}

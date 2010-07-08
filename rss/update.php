@@ -2,6 +2,7 @@
 require('../init.php');
 require('../func.php');
 require('rss.php');
+shuffle($rss_zdroje);
 if (function_exists('date_default_timezone_set')) {
 	    date_default_timezone_set('Europe/Prague');
 }

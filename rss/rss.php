@@ -3,6 +3,8 @@
 $rss_zdroje=array();
 	
 $rss_zdroje['fireshow']=array('popis'=>'fireshow.cz','url'=>'http://fireshow.cz','feed_url'=>'http://feeds.feedburner.com/fireshowcz?format=xml');
+$rss_zdroje['tribo']=array('popis'=>'tribofuego.org','url'=>'http://tribofuego.org','feed_url'=>'http://www.facebook.com/feeds/page.php?format=atom10&id=51726915625');
+$rss_zdroje['infinitos']=array('popis'=>'infinitos.cz','url'=>'http://infinitos.cz','feed_url'=>'http://www.facebook.com/feeds/page.php?format=atom10&id=314458838078');
 $rss_zdroje['lideczongl']=array('popis'=>'Lidé.cz - žonglování','url'=>'http://forum.lide.cz/forum.fcgi?akce=forum_data&auth=&forum_ID=7547','feed_url'=>'http://forum.lide.cz/rss/7547');
 $rss_zdroje['flow']=array('popis'=>'The Flow','url'=>'http://www.theflow.cz','feed_url'=>'http://www.theflow.cz/frontpage/rss.html');
 $rss_zdroje['zonglujcz']=array('popis'=>'zongluj.cz','url'=>'http://zongluj.cz','feed_url'=>'http://www.facebook.com/feeds/page.php?format=atom10&id=283517950634');
