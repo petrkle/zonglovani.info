@@ -32,5 +32,18 @@ pageTracker._trackPageview();
 
 {/if}
 
+{if $smarty.session.logged!=true and $smarty.server.SERVER_NAME=='zonglovani.info'}
+{literal}
+<div style="width:750px;margin:0 auto;">
+<!-- Kontextová reklama Sklik -->
+<div id="sklikReklama_1894"></div>
+<script type="text/javascript">
+    var sklikData = { elm: "sklikReklama_1894", zoneId: 1894, w: 728, h: 90 };
+</script>
+<script type="text/javascript" src="http://out.sklik.cz/js/script.js"></script>
+</div>
+{/literal}
+{/if}
+
 </body>
 </html>
