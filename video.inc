@@ -33,3 +33,4 @@ balance-tricks-2*http://juggling.tv:aa55373822c010763dd5*Balancování kuželů*
 club2ring*http://juggling.tv:d7083b050476733207ea*Bláznivá žehlička*Krátký příběh o tom, co provedla splašená žehlička.
 neta-oren*http://www.youtube.com/watch?v=tklOOffQ_cE*Neta Oren*Neta Oren z Izraele to s míčky opravdu umí.
 interrobang*http://juggling.tv:e69bb4fb19211fc442c2*Interrobang*Aaron DeWitt a Shane Miclon passují s kužely.
+roucoulette-sauce-poisson*http://juggling.tv:3c0a354615432832d9e8*Roucoulette sauce poisson*Úžasná manipulace s kužely.

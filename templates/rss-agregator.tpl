@@ -13,7 +13,6 @@ Přehled novinek na stránkách o žonglování.
 {/if}
 
 {if $rss_zdroje}
-<a name="zdroje"></a>
 <h3>Seznam zdrojů</h3>
 <ul>
 {foreach from=$rss_zdroje key=id item=rss}

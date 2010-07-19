@@ -5,7 +5,6 @@ require('rss.php');
 if (function_exists('date_default_timezone_set')) {
 	    date_default_timezone_set('Europe/Prague');
 }
-uasort($rss_zdroje, 'u_shuffle');
 
 define('MAGPIE_INPUT_ENCODING','UTF-8');
 define('MAGPIE_OUTPUT_ENCODING','UTF-8');
@@ -57,9 +56,5 @@ foreach($rss_zdroje as $id=>$kanal){
 	for($foo=count($novinky)-1;$foo>$maxpocet;$foo--){
 		unlink(RSS_AGREGATOR_DATA.'/'.$novinky[$foo]);
 	}
-}
-
-function u_shuffle( $a, $b ) {
-	     return rand(-1,1);
 }
 ?>
