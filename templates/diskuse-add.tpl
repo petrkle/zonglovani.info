@@ -11,7 +11,7 @@
 <table class="diskuse" cellspacing="0" cellpadding="0">
 <tr>
 <th>Uživatel</th>
-<td><a href="{$smarty.const.LIDE_URL}{$smarty.session.uzivatel.login|escape}.html" title="Podrobnosti o uživateli {$smarty.session.uzivatel.login|escape}.">{$smarty.session.uzivatel.login|escape}</a></td>
+<td><a href="{$smarty.const.LIDE_URL}{$smarty.session.uzivatel.login|escape}.html" title="Podrobnosti o uživateli {$smarty.session.uzivatel.jmeno|escape}.">{$smarty.session.uzivatel.jmeno|escape}</a></td>
 <th>Datum</th>
 <td>{$datum_hr|escape}</td>
 <th>Čas</th>
