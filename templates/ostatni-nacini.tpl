@@ -74,7 +74,7 @@ Létají skoro stejně jako kužely. Jen jsou trochu větší.
 Větší míček z umělé hmoty (polyakrylát ?). Vypadá jako skleněný. Používá se na <a href="/druhy-zonglovani.html#contact">kontaktní žonglování</a> - nehází se s ním, ale kutálí se po rukou a jiných částech těla.
 </p>
 
-<h3>Tyč</h3>
+<a name="tyc"></a><h3>Tyč</h3>
 <p>
 {obrazek soubor="nacinij.png" popisek="Tyč"}
 Další předmět pro kontaktní žonglování. Obvykle s knoty na koncích k zapálení.

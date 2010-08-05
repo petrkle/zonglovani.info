@@ -35,6 +35,7 @@
 		<li><a href="/diskuse/stranka1.html">Diskuse a komentáře - 1. stránka</a></li>
 		<li><a href="/diskuse/stranka2.html">Diskuse a komentáře - 2. stránka</a></li>
 		<li><a href="/diskuse/stranka3.html">Diskuse a komentáře - 3. stránka</a></li>
+		<li><a href="/diskuse/stranka4.html">Diskuse a komentáře - 4. stránka</a></li>
 		</ul>
 		</li>
 		<li><a name="horoskop"></a><a href="/horoskop/">Horoskop žonglování</a>
@@ -71,18 +72,15 @@
 		</li>
 		<li><a name="kalendar"></a><a href="/kalendar/">Kalendář žonglování</a>
 		<ul>
-		<li><a href="/kalendar/2010-03.html">Kalendář žonglování - Březen 2010</a></li>
 		<li><a href="/kalendar/2010-04.html">Kalendář žonglování - Duben 2010</a></li>
 		<li><a href="/kalendar/2010-05.html">Kalendář žonglování - Květen 2010</a></li>
 		<li><a href="/kalendar/2010-06.html">Kalendář žonglování - Červen 2010</a></li>
-		<li><a href="/kalendar/2010-08.html">Kalendář žonglování - Srpen 2010</a></li>
+		<li><a href="/kalendar/2010-07.html">Kalendář žonglování - Červenec 2010</a></li>
 		<li><a href="/kalendar/2010-09.html">Kalendář žonglování - Září 2010</a></li>
 		<li><a href="/kalendar/2010-10.html">Kalendář žonglování - Říjen 2010</a></li>
 		<li><a href="/kalendar/2010-11.html">Kalendář žonglování - Listopad 2010</a></li>
+		<li><a href="/kalendar/2010-12.html">Kalendář žonglování - Prosinec 2010</a></li>
 		<li><a href="/kalendar/rss-a-icalendar.html">Nastavení RSS a iCalendar</a></li>
-		<li><a href="/kalendar/udalost-20100307-20100307-pek-1253740665.html">Ulita - kalendář žonglování</a></li>
-		<li><a href="/kalendar/udalost-20100321-20100321-pek-1253740740.html">Ulita - kalendář žonglování</a></li>
-		<li><a href="/kalendar/udalost-20100326-20100326-pek-1267956985.html">Žonglování v Jihlavě - kalendář žonglování</a></li>
 		<li><a href="/kalendar/udalost-20100409-20100411-pek-1266301787.html">Žonglérská víkendovka - kalendář žonglování</a></li>
 		<li><a href="/kalendar/udalost-20100411-20100411-pek-1253740811.html">Ulita - kalendář žonglování</a></li>
 		<li><a href="/kalendar/udalost-20100414-20100414-pek-1269711295.html">Sraz Triba Fuega - kalendář žonglování</a></li>
@@ -219,7 +217,9 @@
 		<ul>
 		<li><a href="/lide/adamj.html">Adam J</a></li>
 		<li><a href="/lide/adekcz.html">Michal KEda</a></li>
+		<li><a href="/lide/alice.html">Alice</a></li>
 		<li><a href="/lide/amater1994.html">David</a></li>
+		<li><a href="/lide/andyhardluck.html">Ondřej Pech</a></li>
 		<li><a href="/lide/apo.html">Apo</a></li>
 		<li><a href="/lide/australan.html">David Valenta</a></li>
 		<li><a href="/lide/bloke.html">Tessi</a></li>
@@ -246,6 +246,7 @@
 		<li><a href="/lide/maro2130.html">maro</a></li>
 		<li><a href="/lide/martin.html">Martin Perlík</a></li>
 		<li><a href="/lide/mefistofeles.html">Marek Hnátek</a></li>
+		<li><a href="/lide/millda.html">Pavel Zeman</a></li>
 		<li><a href="/lide/misslulinka.html">Lucie Janovská</a></li>
 		<li><a href="/lide/mizu.html">Mižu</a></li>
 		<li><a href="/lide/mrgin.html">Kolmen</a></li>
@@ -264,6 +265,7 @@
 		<li><a href="/lide/shkarpa.html">Mark Karpilovsky</a></li>
 		<li><a href="/lide/sigurd.html">Adam Šťastný</a></li>
 		<li><a href="/lide/siko97.html">Martin</a></li>
+		<li><a href="/lide/snek.html">Šnek</a></li>
 		<li><a href="/lide/spanker.html">Zbyněk Fojtík</a></li>
 		<li><a href="/lide/ssttaannaa.html">ssttaannaa</a></li>
 		<li><a href="/lide/stewe.html">Štěpán Pícha</a></li>
@@ -399,6 +401,9 @@
 			</ul>
 			</li>
 			<li><a name="stranka2"></a><a href="/lide/stranka2/">Seznam žonglérů - 2. stránka</a>
+			
+			</li>
+			<li><a name="stranka3"></a><a href="/lide/stranka3/">Seznam žonglérů - 3. stránka</a>
 			
 			</li>
 		</ul>
@@ -621,6 +626,49 @@
 				<ul>
 				<li><a href="/obrazky/den-zonglovani-ujc-rosice-u-brna-20090606/stranka4/0045.html">Den žonglování s Ultimate Juggling Squad - 45. obrázek - stránka 4</a></li>
 				<li><a href="/obrazky/den-zonglovani-ujc-rosice-u-brna-20090606/stranka4/0046.html">Den žonglování s Ultimate Juggling Squad - 46. obrázek - stránka 4</a></li>
+				</ul>
+				</li>
+			</ul>
+			</li>
+			<li><a name="ejc-20100801"></a><a href="/obrazky/ejc-20100801/">EJC 2010 - obrázky žonglování</a>
+			<ul>
+			<li><a href="/obrazky/ejc-20100801/0000.html">EJC 2010 - 0. obrázek</a></li>
+			<li><a href="/obrazky/ejc-20100801/0001.html">EJC 2010 - 1. obrázek</a></li>
+			<li><a href="/obrazky/ejc-20100801/0002.html">EJC 2010 - 2. obrázek</a></li>
+			<li><a href="/obrazky/ejc-20100801/0003.html">EJC 2010 - 3. obrázek</a></li>
+			<li><a href="/obrazky/ejc-20100801/0004.html">EJC 2010 - 4. obrázek</a></li>
+			<li><a href="/obrazky/ejc-20100801/0005.html">EJC 2010 - 5. obrázek</a></li>
+			<li><a href="/obrazky/ejc-20100801/0006.html">EJC 2010 - 6. obrázek</a></li>
+			<li><a href="/obrazky/ejc-20100801/0007.html">EJC 2010 - 7. obrázek</a></li>
+			<li><a href="/obrazky/ejc-20100801/0008.html">EJC 2010 - 8. obrázek</a></li>
+			<li><a href="/obrazky/ejc-20100801/0009.html">EJC 2010 - 9. obrázek</a></li>
+			<li><a href="/obrazky/ejc-20100801/0010.html">EJC 2010 - 10. obrázek</a></li>
+			<li><a href="/obrazky/ejc-20100801/0011.html">EJC 2010 - 11. obrázek</a></li>
+			<li><a href="/obrazky/ejc-20100801/0012.html">EJC 2010 - 12. obrázek</a></li>
+			<li><a href="/obrazky/ejc-20100801/0013.html">EJC 2010 - 13. obrázek</a></li>
+			<li><a href="/obrazky/ejc-20100801/0014.html">EJC 2010 - 14. obrázek</a></li>
+				<li><a name="stranka2"></a><a href="/obrazky/ejc-20100801/stranka2/">EJC 2010 - obrázky žonglování - stránka 2</a>
+				<ul>
+				<li><a href="/obrazky/ejc-20100801/stranka2/0015.html">EJC 2010 - 15. obrázek - stránka 2</a></li>
+				<li><a href="/obrazky/ejc-20100801/stranka2/0016.html">EJC 2010 - 16. obrázek - stránka 2</a></li>
+				<li><a href="/obrazky/ejc-20100801/stranka2/0017.html">EJC 2010 - 17. obrázek - stránka 2</a></li>
+				<li><a href="/obrazky/ejc-20100801/stranka2/0018.html">EJC 2010 - 18. obrázek - stránka 2</a></li>
+				<li><a href="/obrazky/ejc-20100801/stranka2/0019.html">EJC 2010 - 19. obrázek - stránka 2</a></li>
+				<li><a href="/obrazky/ejc-20100801/stranka2/0020.html">EJC 2010 - 20. obrázek - stránka 2</a></li>
+				<li><a href="/obrazky/ejc-20100801/stranka2/0021.html">EJC 2010 - 21. obrázek - stránka 2</a></li>
+				<li><a href="/obrazky/ejc-20100801/stranka2/0022.html">EJC 2010 - 22. obrázek - stránka 2</a></li>
+				<li><a href="/obrazky/ejc-20100801/stranka2/0023.html">EJC 2010 - 23. obrázek - stránka 2</a></li>
+				<li><a href="/obrazky/ejc-20100801/stranka2/0024.html">EJC 2010 - 24. obrázek - stránka 2</a></li>
+				<li><a href="/obrazky/ejc-20100801/stranka2/0025.html">EJC 2010 - 25. obrázek - stránka 2</a></li>
+				<li><a href="/obrazky/ejc-20100801/stranka2/0026.html">EJC 2010 - 26. obrázek - stránka 2</a></li>
+				<li><a href="/obrazky/ejc-20100801/stranka2/0027.html">EJC 2010 - 27. obrázek - stránka 2</a></li>
+				<li><a href="/obrazky/ejc-20100801/stranka2/0028.html">EJC 2010 - 28. obrázek - stránka 2</a></li>
+				<li><a href="/obrazky/ejc-20100801/stranka2/0029.html">EJC 2010 - 29. obrázek - stránka 2</a></li>
+				</ul>
+				</li>
+				<li><a name="stranka3"></a><a href="/obrazky/ejc-20100801/stranka3/">EJC 2010 - obrázky žonglování - stránka 3</a>
+				<ul>
+				<li><a href="/obrazky/ejc-20100801/stranka3/0030.html">EJC 2010 - 30. obrázek - stránka 3</a></li>
 				</ul>
 				</li>
 			</ul>
@@ -1710,13 +1758,14 @@
 		<li><a href="/video/neta-oren.html">Neta Oren</a></li>
 		<li><a href="/video/passing-zone.html">The Passing Zone</a></li>
 		<li><a href="/video/prechac-weaves.html">Prechac Weaves</a></li>
+		<li><a href="/video/roucoulette-sauce-poisson.html">Roucoulette sauce poisson</a></li>
 		<li><a href="/video/stepz.html">Stepz</a></li>
 		<li><a href="/video/take-it-out-3.html">Take It Out 3#</a></li>
 		<li><a href="/video/what-the-beepbeep-do-we-know.html">What the (beepbeep) do we know?</a></li>
 		<li><a href="/video/yesterday-didnt-happen.html">Yesterday didn&#039;t happen</a></li>
 		</ul>
 		</li>
-		<li><a name="vyhledavani"></a><a href="/vyhledavani/">Žonglérův slabikář - vyhledávání</a>
+		<li><a name="vyhledavani"></a><a href="/vyhledavani/">Vyhledávání</a>
 		
 		</li>
 	</ul>

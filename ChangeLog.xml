@@ -1,6 +1,12 @@
 <?xml version="1.0"?>
 <log>
 <logentry
+   revision="298">
+<author>petr</author>
+<date>2010-07-26T19:12:18.955516Z</date>
+<msg>Oprava náhledu zprávy při vkládání do diskuse.</msg>
+</logentry>
+<logentry
    revision="297">
 <author>petr</author>
 <date>2010-07-19T19:31:04.764006Z</date>

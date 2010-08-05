@@ -1,0 +1,5 @@
+title:Ulita - Zbyňkův výběr
+autor:Zbyněk Fojtík
+mail:zbynek@spanker.cz
+url:http://spanker.cz/zonglovani
+icbm:50.094605, 14.481742

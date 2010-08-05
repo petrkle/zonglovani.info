@@ -180,6 +180,9 @@
 			<li><a name="stranka2"></a><a href="/lide/stranka2/">Seznam žonglérů - 2. stránka</a>
 			
 			</li>
+			<li><a name="stranka3"></a><a href="/lide/stranka3/">Seznam žonglérů - 3. stránka</a>
+			
+			</li>
 		</ul>
 		</li>
 		<li><a name="micky"></a><a href="/micky/">Žonglování s míčky</a>
@@ -300,6 +303,9 @@
 			
 			</li>
 			<li><a name="den-zonglovani-ujc-rosice-u-brna-20090606"></a><a href="/obrazky/den-zonglovani-ujc-rosice-u-brna-20090606/">Den žonglování s Ultimate Juggling Squad - obrázky žonglování</a>
+			
+			</li>
+			<li><a name="ejc-20100801"></a><a href="/obrazky/ejc-20100801/">EJC 2010 - obrázky žonglování</a>
 			
 			</li>
 			<li><a name="festival-zonglovani-20070713"></a><a href="/obrazky/festival-zonglovani-20070713/">Festival žonglování Praha 2007 - obrázky žonglování</a>
@@ -428,13 +434,14 @@
 		<li><a href="/video/neta-oren.html">Neta Oren</a></li>
 		<li><a href="/video/passing-zone.html">The Passing Zone</a></li>
 		<li><a href="/video/prechac-weaves.html">Prechac Weaves</a></li>
+		<li><a href="/video/roucoulette-sauce-poisson.html">Roucoulette sauce poisson</a></li>
 		<li><a href="/video/stepz.html">Stepz</a></li>
 		<li><a href="/video/take-it-out-3.html">Take It Out 3#</a></li>
 		<li><a href="/video/what-the-beepbeep-do-we-know.html">What the (beepbeep) do we know?</a></li>
 		<li><a href="/video/yesterday-didnt-happen.html">Yesterday didn&#039;t happen</a></li>
 		</ul>
 		</li>
-		<li><a name="vyhledavani"></a><a href="/vyhledavani/">Žonglérův slabikář - vyhledávání</a>
+		<li><a name="vyhledavani"></a><a href="/vyhledavani/">Vyhledávání</a>
 		
 		</li>
 	</ul>

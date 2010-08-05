@@ -15,7 +15,7 @@
 {section loop=$zpravy name=smycka2 step=-1}
 	{if $smarty.section.smycka2.rownum < 10}
   <item>
-    <title>{$zpravy[$smarty.section.smycka2.index].text|strip_tags:false|truncate:30:"...":true|escape}</title>
+    <title>{$zpravy[$smarty.section.smycka2.index].text|strip_tags:false|truncate:30:"...":false|escape}</title>
     <link>http://{$smarty.server.SERVER_NAME}{$smarty.const.DISKUSE_URL}stranka{$zpravy[$smarty.section.smycka2.index].stranka}.html#{$zpravy[$smarty.section.smycka2.index].cas}</link>
     <description>{$zpravy[$smarty.section.smycka2.index].text|escape}</description>
     <author>{$zpravy[$smarty.section.smycka2.index].autor|escape}</author>
