@@ -3,7 +3,6 @@ Aktuální
 - hitparáda hodnocených stránek, aktualizace žebříčku cronem 
 - u nastavení odkazů dodělat kolonku pro popis a sestavit katalog
 - tiskové zprávy pro novináře, návod na kaskádu pdf, odt, doc, obrázky v tiskové kvalitě
-- RSS agregátor z stránek o žonglování
 
 Kalendář
 ========
@@ -58,3 +57,4 @@ mikroformáty k akcím v kalendáři
 RSS z knihy návštěv obsahuje v odkazech špatné číslo stránky
 RSS2 - jako sitemapy pro google
 tapety na plochu - zátiší míčků a kužel u vody, na louce, na stromě, pomocí stativu
+RSS agregátor z stránek o žonglování

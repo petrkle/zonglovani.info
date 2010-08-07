@@ -32,7 +32,7 @@
 2010-07-12*Chůdy*/chudy/*cirkusc.png*Diváci milují chůdy. Hlavně proto, že jsou zvědaví kdy chůdař spadne a šeredně si natluče. <a href="http://zonglovani.info/chudy/" title="Návod na výrobu chůd.">Návod na výrobu chůd</a>.
 2010-07-19*Aleje 2010*/kalendar/udalost-20100821-20100828-pek-1267957575.html*aleje-logo.jpg*Za měsíc začne 9. mezinárodní žonglérská a divadelní dílna Aleje 2010.
 2010-07-26*Roucoulette sauce poisson*/video/roucoulette-sauce-poisson.html*roucoulette-sauce-poisson.jpg*Úžasná manipulace s kužely.
-2010-08-02*Výzva pro fotografy*/obrazky/*fotaka.png*Rád uveřejním i tvoje fotografie žonglování. Stačí vědět kde a kdy byly pořízené a <a href="http://zonglovani.info/kontakt.html" title="Stránka s emailem.">napsat</a>. Tvoje fotky pak uvidí hodně lidí které zajímá žonglování.
+2010-08-02*Výzva pro fotografy*/obrazky/*fotaka.png*Rád uveřejním i tvoje fotografie žonglování. Stačí vědět kde a kdy byly pořízené a <a href="http://zonglovani.info/kontakt.html" title="Stránka s emailem.">napsat</a>. Tvoje fotky pak uvidí hodně lidí, které zajímá žonglování.
 2010-08-09*Sloupy ve dvou*/kuzely/passing/sloupy.html*kuzely-passing-sloupyd.png*Trik pro dva žongléry se čtyřmi kužely.
 2010-08-16*Siteswap*/siteswap.html*p4sprchac.png*Jsou to vlastně takové noty pro žonglování. Siteswap vymysleli žongléři, aby s jejich pomocí <strong>našli nové triky</strong>.
 2010-08-23*Fotky z Ulity*/obrazky/filtr/Ulita*ulita.cz.png*Fotografie z podzimního, zimního a jarního žonglování v Ulitě.

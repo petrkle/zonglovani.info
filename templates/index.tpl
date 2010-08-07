@@ -7,7 +7,7 @@ Je bezvadná zábava. Pojď se <a href="/micky/jak-zacit.html" title="Základy �
 </p>
 <h2><a href="{$smarty.const.LIDE_URL}" title="Seznam žonglérů.">Žongléři</a></h2>
 <p><a href="{$smarty.const.LIDE_URL}" title="Seznam uživatelů žonglérova slabikáře.">{obrazek soubor='zongleri.png' popisek='Žongléři'}</a>
-Koukni do <a href="{$smarty.const.LIDE_URL}" title="Seznam uživatelů žonglérova slabikáře.">seznamu žonglérů</a>. Jsou tam lidé kteří umí:</p>
+Koukni do <a href="{$smarty.const.LIDE_URL}" title="Seznam uživatelů žonglérova slabikáře.">seznamu žonglérů</a>. Jsou tam lidé, kteří umí:</p>
 <ul class="szn">
 <li><a href="{$smarty.const.LIDE_URL}dovednost/show.html" title="Žongléři kteří umí veřejně vystupovat.">Žonglérské vystoupení</a></li>
 <li><a href="{$smarty.const.LIDE_URL}dovednost/workshop.html" title="Žongléři kteří tě naučí žonglovat.">Naučit žonglovat</a></li>

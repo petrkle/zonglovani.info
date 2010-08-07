@@ -12,7 +12,7 @@ Telefon: {$tel|telobfuscate}
 <p>Lepší je použít elektronickou poštu. Přece jen telefon nemám pořád u sebe a zapnutý.</p>
 
 <h3>Sháníš žongléry?</h3>
-<p>Koukni do <a href="{$smarty.const.LIDE_URL}" title="Seznam uživatelů žonglérova slabikáře.">seznamu žonglérů</a>. Jsou tam lidé kteří umí:</p>
+<p>Koukni do <a href="{$smarty.const.LIDE_URL}" title="Seznam uživatelů žonglérova slabikáře.">seznamu žonglérů</a>. Jsou tam lidé, kteří umí:</p>
 <ul>
 <li><a href="{$smarty.const.LIDE_URL}dovednost/show.html" title="Žongléři kteří umí veřejně vystupovat.">Žonglérské vystoupení</a></li>
 <li><a href="{$smarty.const.LIDE_URL}dovednost/workshop.html" title="Žongléři kteří tě naučí žonglovat.">Naučit žonglovat</a></li>

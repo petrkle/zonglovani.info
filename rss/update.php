@@ -31,6 +31,9 @@ foreach($rss_zdroje as $id=>$kanal){
 		if(preg_match('/facebook/',$kanal['feed_url'])){
 			$item['link']=preg_replace('/^\//','http://facebook.com/',$item['link']);
 		}
+		if(preg_match('/rajce\.idnes\.cz/',$kanal['feed_url'])){
+			$item['link']=preg_replace('/^(http:\/\/.*)http:\/\/.*$/','\1',$item['link']);
+		}
 		$foo=fopen(RSS_AGREGATOR_DATA.'/'.$item['date_timestamp'].'-'.$id.'.txt','w');
 		fwrite($foo,preg_replace('/\n/',' ',mb_substr($item['title'],0,120))."\n");
 		fwrite($foo,preg_replace('/\n/',' ',$item['link'])."\n");
