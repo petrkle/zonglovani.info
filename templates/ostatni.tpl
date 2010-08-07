@@ -94,6 +94,10 @@ Nedělní žonglování v DDM Ulita.
 Obrázky na plochu počítače s žonglérskou tématikou
 </p>
 
+<h3><a href="/animace/" title="Názorná videa žonglování s míčky.">Animace žonglování</a></h3>
+<p>
+Animace žonglování s míčky.
+</p>
 
 <h3><a href="/odkazy.html" title="Odkazy.">Žonglování na síti</a></h3>
 <p>

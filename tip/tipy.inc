@@ -43,9 +43,9 @@
 2010-09-27*Helikoptéra*/kuzely/3/helikoptera.html*kuzely-3-helikopterac.png*Trik s kuželkou. Ale pozor, je trochu na hlavu :^)
 2010-10-04*Otáčení kuželky okolo palce*/kuzely/toceni-okolo-palce.html*tocenib.png*Trik který můžeš trénovat i v místnostech s nízkým stropem.
 2010-10-11*Výuka žonglování*/lide/dovednost/workshop.html*usx.jpg*Seznam žonglérů a žonglérek kteří tě naučí žonglovat.
-2010-10-18
-2010-10-25
-2010-11-01
+2010-10-18*RSS agregátor*/rss/*rss.png*Přehled novinek na stránkách o žonglování.
+2010-10-25*What the (beepbeep) do we know?*/video/what-the-beepbeep-do-we-know.html*partnerpoi.jpg*Točení s poi ve více lidech.
+2010-11-01*Bláznivá žehlička*/video/club2ring.html*club2ring.png*Krátký příběh o tom, co provedla splašená žehlička.
 2010-11-08
 2010-11-15
 2010-11-22

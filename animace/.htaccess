@@ -1,0 +1,7 @@
+RewriteEngine	on
+RewriteBase /animace
+
+RewriteCond %{HTTP_HOST} ^www\.(.*)
+RewriteRule (.*) http://%1/animace/$1 [R=301,QSA,NE,L]
+
+RewriteRule ^(.+)\.html$ index.php?id=$1 [L]

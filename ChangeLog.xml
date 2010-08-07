@@ -1,6 +1,12 @@
 <?xml version="1.0"?>
 <log>
 <logentry
+   revision="300">
+<author>petr</author>
+<date>2010-08-07T08:50:58.918424Z</date>
+<msg>Oprava odkazů na rajce.net z rss agregátoru</msg>
+</logentry>
+<logentry
    revision="299">
 <author>petr</author>
 <date>2010-08-05T20:23:07.917039Z</date>
