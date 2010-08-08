@@ -8,11 +8,24 @@ if(isset($_GET['id'])){
 	$id=false;
 }
 
-$animace=get_animace();
+if(isset($_GET['nameless'])){
+	$nameless=true;
+}else{
+	$nameless=false;
+}
+
+$animace=get_animace($nameless);
 
 $titulek='Animace žonglování';
 $trail = new Trail();
 $trail->addStep($titulek,'/animace/');
+if($nameless){
+	$titulek='Animace žonglování - anglické názvy';
+	$smarty->assign('nadpis','Animace žonglování');
+	$trail->addStep('Anglické názvy','/animace/en/');
+}
+
+$smarty->assign('nameless',$nameless);
 
 if($id){
 	if(isset($animace[$id])){
@@ -66,18 +79,28 @@ function get_link($id){
 	return $navrat;
 }
 
-function get_animace(){
+function get_animace($nameless=false){
 	$foo=file('popisky.txt');
 	$navrat=array();
 	foreach($foo as $radek){
 		$radek=trim($radek);
 		$radek=preg_split('/\*/',$radek);
-		if(count($radek)==4){
-			$link=basename($radek[2],'.gif');
-			$navrat[$link]['sirka']=$radek[0];
-			$navrat[$link]['vyska']=$radek[1];
-			$navrat[$link]['img']=$radek[2];
-			$navrat[$link]['popis']=$radek[3];
+		if(!$nameless){
+			if(count($radek)==4){
+				$link=basename($radek[2],'.gif');
+				$navrat[$link]['sirka']=$radek[0];
+				$navrat[$link]['vyska']=$radek[1];
+				$navrat[$link]['img']=$radek[2];
+				$navrat[$link]['popis']=$radek[3];
+			}
+		}else{
+			if(count($radek)==3){
+				$link=basename($radek[2],'.gif');
+				$navrat[$link]['sirka']=$radek[0];
+				$navrat[$link]['vyska']=$radek[1];
+				$navrat[$link]['img']=$radek[2];
+				$navrat[$link]['popis']=basename($radek[2],'.gif');
+			}
 		}
 	}
 	uasort($navrat, 'sort_by_nazev');

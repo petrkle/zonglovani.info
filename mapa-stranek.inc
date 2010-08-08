@@ -26,7 +26,11 @@
 	<li><a href="/vanoce-2010.html">Veselé vánoce</a></li>
 	<li><a href="/zakladni-pojmy.html">Žonglování - základní pojmy</a></li>
 		<li><a name="animace"></a><a href="/animace/">Animace žonglování</a>
-		
+		<ul>
+			<li><a name="en"></a><a href="/animace/en/">Animace žonglování - anglické názvy</a>
+			
+			</li>
+		</ul>
 		</li>
 		<li><a name="chudy"></a><a href="/chudy/">Chůdy</a>
 		

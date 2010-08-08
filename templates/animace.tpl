@@ -1,6 +1,6 @@
 {if $animace}
 <p>
-<img src="img/{$animace.img|escape}" width="{$animace.sirka}" height="{$animace.vyska}" alt="{$animace.popis}" />
+<img src="/animace/img/{$animace.img|escape}" width="{$animace.sirka}" height="{$animace.vyska}" alt="{$animace.popis}" />
 </p>
 {if $navod}
 <p>

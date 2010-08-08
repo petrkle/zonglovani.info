@@ -4,4 +4,7 @@ RewriteBase /animace
 RewriteCond %{HTTP_HOST} ^www\.(.*)
 RewriteRule (.*) http://%1/animace/$1 [R=301,QSA,NE,L]
 
+RewriteRule ^en$ /animace/en/ [R=301,L]
+RewriteRule ^en/$ index.php?nameless=jo [L]
+RewriteRule ^en/(.+)\.html$ index.php?id=$1&nameless=jo [L]
 RewriteRule ^(.+)\.html$ index.php?id=$1 [L]

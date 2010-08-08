@@ -39,6 +39,7 @@ array_push($znamkovani,array('vzor'=>'^\/kalendar\/udalost.+\.html$','priorita'=
 array_push($znamkovani,array('vzor'=>'^\/obrazky-na-plochu.*','priorita'=>0.5,'zmena'=>'yearly'));
 array_push($znamkovani,array('vzor'=>'^\/pro-novinare.*','priorita'=>0.5,'zmena'=>'yearly'));
 array_push($znamkovani,array('vzor'=>'^\/animace\/$','priorita'=>0.6,'zmena'=>'yearly'));
+array_push($znamkovani,array('vzor'=>'^\/animace\/en\/$','priorita'=>0.5,'zmena'=>'yearly'));
 array_push($znamkovani,array('vzor'=>'^\/animace\/.+\.html$','priorita'=>0.4,'zmena'=>'yearly'));
 
 foreach($sitemap as $radek){
