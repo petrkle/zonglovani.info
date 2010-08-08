@@ -1,6 +1,12 @@
 <?xml version="1.0"?>
 <log>
 <logentry
+   revision="301">
+<author>petr</author>
+<date>2010-08-07T20:30:55.507861Z</date>
+<msg>Animace žonglování</msg>
+</logentry>
+<logentry
    revision="300">
 <author>petr</author>
 <date>2010-08-07T08:50:58.918424Z</date>

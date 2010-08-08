@@ -17,7 +17,7 @@ Simulátor žonglování z německa.
 <a name="juggleanim"></a><h3><a href="http://juggleanim.sourceforge.net" title="Simulátor napsaný v javě." class="external" onclick="pageTracker._trackPageview('/goto/juggleanim.sourceforge.net');">JuggleAnim</a></h3>
 <p>
 <a href="http://juggleanim.sourceforge.net" title="Animace žonglování." onclick="pageTracker._trackPageview('/goto/juggleanim.sourceforge.net');">{obrazek soubor="juggleanim.png" popisek="JuggleAnim"}</a>
-Simulátor žonglování napsaný v javě.
+Simulátor žonglování napsaný v javě. Umí zapsat <a href="/animace/" title="Animace žonglování s míčky">animace žonglování</a> do souborů gif.
 </p>
 
 <a name="jugglinglab"></a><h3><a href="http://jugglinglab.sourceforge.net" title="Simulátor napsaný v javě." class="external" onclick="pageTracker._trackPageview('/goto/jugglinglab.sourceforge.net');">Juggling Lab</a></h3>

@@ -16,6 +16,9 @@
 <pre>{$krok.pre}</pre>
 {/if}
 {/foreach}
+{if $trik.anim}
+<p class="animace"><a href="/animace/{$trik.anim.id|escape}.html" title="Animace">{obrazek soubor='animace.png' popisek=''} Přehrát animaci</a></p>
+{/if}
 {if $trik.dalsi}
 <div class="kamdal">
 <a name="kam-dal"></a><h5>Kam dál</h5>

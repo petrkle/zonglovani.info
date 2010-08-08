@@ -22,6 +22,7 @@ if($id){
 		$smarty->assign('description',$animace[$id]['popis'].' - animace žonglování s míčky');
 		$smarty->assign('titulek',$animace[$id]['popis'].' - animace');
 		$smarty->assign('nadpis',$animace[$id]['popis']);
+		$smarty->assign('navod',get_link($id));
 		$smarty->assign_by_ref('animace',$animace[$id]);
 		$smarty->display('hlavicka.tpl');
 		$smarty->display('animace.tpl');
@@ -48,6 +49,22 @@ $dalsi=array(
 	);
 $smarty->assign_by_ref('dalsi',$dalsi);
 
+function get_link($id){
+	$foo=file('odkazy.txt');
+	$linky=array();
+	$navrat=false;
+	foreach($foo as $radek){
+		$radek=trim($radek);
+		$radek=preg_split('/\*/',$radek);
+		if(count($radek)==3){
+			$linky[$radek[0]]=array('url'=>$radek[1],'popis'=>$radek[2]);
+		}
+	}
+	if(isset($linky[$id])){
+		$navrat=$linky[$id];
+	}
+	return $navrat;
+}
 
 function get_animace(){
 	$foo=file('popisky.txt');
@@ -63,7 +80,15 @@ function get_animace(){
 			$navrat[$link]['popis']=$radek[3];
 		}
 	}
+	uasort($navrat, 'sort_by_nazev');
 	return $navrat;
 }
+
+function sort_by_nazev($a, $b){
+	global $trans;
+  $a['popis'] = strtr($a['popis'], $trans);
+  $b['popis'] = strtr($b['popis'], $trans);
+  return strcmp($a['popis'], $b['popis']);
+};
 
 ?>

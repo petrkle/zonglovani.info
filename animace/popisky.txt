@@ -45,7 +45,7 @@
 375*486*reachunder-alternate.gif
 374*483*reachunder.gif*Chytání pod rukou
 374*483*reverse-mills-mess.gif*Obrácené Mills' mess
-375*486*robot-machine,factory.gif*Robot II
+375*486*robot-machine-factory.gif*Robot II
 375*486*rubenstein_s-revenge.gif
 374*483*see-saw-shuffle-luke_s-shuffle.gif
 374*483*shuffle-the-slam.gif

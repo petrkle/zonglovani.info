@@ -1,0 +1,34 @@
+arches*/micky/3/oblouky.html*Obloučky
+boston-mess-a*/micky/3/boston-mess.html*Boston mess
+box-see-saw*/micky/3/seesaw.html*krabici
+robot-machine-factory*/micky/3/robot.html*robota
+double-box*/micky/3/dvojita-krabice.html*dvojitou krabici
+6-fountain*/micky/6/*šest míčků
+eating-an-apple-for-light-eaters*/micky/3/jablko.html*jíst jablko
+false-shower-windmill*/micky/3/mlyn.html*větrný mlýn
+flash*/micky/3/blesk.html*blesk
+chase*/micky/3/had.html*hada
+juggler_s-tennis*/micky/3/tenis.html*žonglérský tenis
+over-the-head*/micky/3/nadhlavou.html*žonglovat nad hlavou
+oy-oy*/micky/3/ojoj.html*oj-oj
+weave*/micky/3/osmicka.html*osmičku
+statue-of-liberty-a*/micky/3/socha.html*sochu svobody
+throw-twice*/micky/jak-zacit.html#dva*házet dva míčky
+throw-3-times*/micky/jak-zacit.html*žonglovat s míčky
+wide-reverse-cascade*/micky/3/kaskada-reverzni-siroka.html*širokou reverzní kaskádu
+yo-yo*/micky/3/jojo.html*jo-jo
+1-ball-out-of-a-3-cascade*/micky/jak-zacit.html#jeden*házet jeden míček
+2-ball-columns-in-one-hand*/micky/2/2v1.html*dva míčky v jedné ruce
+2-in-one-hand*/micky/2/2v1.html*dva míčky v jedné ruce
+3-cascade*/micky/3/kaskada.html*kaskádu
+4-half-shower*/micky/4/sprcha-polovicni.html*poloviční sprchu
+4-reverse-fountain*/micky/4/fontana.html*fontánu
+4-reverse-synchronous-fountain*/micky/4/fontana.html*fontánu
+4-shower*/micky/4/sprcha.html*sprchu
+4-synchronous-columns-asymmetry*/micky/4/sloupy.html*sloupy
+4-synchronous-columns-splits*/micky/4/sloupy-ii.html*sloupy
+4-synchronous-columns-symmetry*/micky/4/sloupy.html*sloupy
+441*/micky/3/441.html*441
+5-ball-multiplex-a*/micky/5/kaskada-multiplex.html*multiplexovanou kaskádu
+5-cascade*/micky/5/kaskada.html*kaskádu s pěti míčky
+5-reverse-cascade*/micky/5/kaskada-reverzni.html*reverzní kaskádu s pěti míčky

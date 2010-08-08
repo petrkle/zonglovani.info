@@ -24,6 +24,7 @@ function nacti_trik($soubor){
 		}
 		array_push($trik['kroky'],$foo);
 	}
+	$trik['anim']=get_anim($_SERVER['REQUEST_URI']);
 	if(isset($xml->dalsi)){
 		$trik['dalsi']=array();
 		foreach ($xml->dalsi->link as $odkaz){
@@ -39,6 +40,21 @@ function nacti_trik($soubor){
 	}
 	return $trik;
 }
+
+function get_anim($url){
+	$foo=file('animace/odkazy.txt');
+	$linky=array();
+	$navrat=false;
+	foreach($foo as $radek){
+		$radek=trim($radek);
+		$radek=preg_split('/\*/',$radek);
+		if(count($radek)==3 and $radek[1]==$url){
+			$navrat=array('id'=>$radek[0]);
+		}
+	}
+	return $navrat;
+}
+
 
 function get_seznam_triku($jake){
   $ls=$_SERVER['DOCUMENT_ROOT'].'/xml';
