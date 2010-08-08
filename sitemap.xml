@@ -177,6 +177,12 @@
    </url>
 			
    <url>
+      <loc>http://zonglovani.info/animace/1up-2up-e.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
       <loc>http://zonglovani.info/animace/2-ball-columns-in-one-hand.html</loc>
       <changefreq>yearly</changefreq>
       <priority>0.4</priority>
@@ -207,6 +213,12 @@
    </url>
 			
    <url>
+      <loc>http://zonglovani.info/animace/3-half-shower-b.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
       <loc>http://zonglovani.info/animace/4-ball-box-a.html</loc>
       <changefreq>yearly</changefreq>
       <priority>0.4</priority>
@@ -214,6 +226,12 @@
 			
    <url>
       <loc>http://zonglovani.info/animace/4-ball-cross-a.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/animace/4-columns-switch.html</loc>
       <changefreq>yearly</changefreq>
       <priority>0.4</priority>
    </url>
@@ -274,6 +292,12 @@
 			
    <url>
       <loc>http://zonglovani.info/animace/5-cascade.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/animace/5-half-shower-b.html</loc>
       <changefreq>yearly</changefreq>
       <priority>0.4</priority>
    </url>
@@ -519,6 +543,12 @@
    </url>
 			
    <url>
+      <loc>http://zonglovani.info/animace/standard-mills-mess.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
       <loc>http://zonglovani.info/animace/statue-of-liberty-a.html</loc>
       <changefreq>yearly</changefreq>
       <priority>0.4</priority>
@@ -550,6 +580,12 @@
 			
    <url>
       <loc>http://zonglovani.info/animace/wide-reverse-cascade.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/animace/yo-yo-columns-fake-c.html</loc>
       <changefreq>yearly</changefreq>
       <priority>0.4</priority>
    </url>
@@ -598,12 +634,6 @@
 			
    <url>
       <loc>http://zonglovani.info/animace/en/1up-2up-d.html</loc>
-      <changefreq>yearly</changefreq>
-      <priority>0.4</priority>
-   </url>
-			
-   <url>
-      <loc>http://zonglovani.info/animace/en/1up-2up-e.html</loc>
       <changefreq>yearly</changefreq>
       <priority>0.4</priority>
    </url>
@@ -688,12 +718,6 @@
 			
    <url>
       <loc>http://zonglovani.info/animace/en/3-half-shower-a.html</loc>
-      <changefreq>yearly</changefreq>
-      <priority>0.4</priority>
-   </url>
-			
-   <url>
-      <loc>http://zonglovani.info/animace/en/3-half-shower-b.html</loc>
       <changefreq>yearly</changefreq>
       <priority>0.4</priority>
    </url>
@@ -801,12 +825,6 @@
    </url>
 			
    <url>
-      <loc>http://zonglovani.info/animace/en/4-columns-switch.html</loc>
-      <changefreq>yearly</changefreq>
-      <priority>0.4</priority>
-   </url>
-			
-   <url>
       <loc>http://zonglovani.info/animace/en/4-half-shower-like-trick.html</loc>
       <changefreq>yearly</changefreq>
       <priority>0.4</priority>
@@ -892,12 +910,6 @@
 			
    <url>
       <loc>http://zonglovani.info/animace/en/5-half-shower-a.html</loc>
-      <changefreq>yearly</changefreq>
-      <priority>0.4</priority>
-   </url>
-			
-   <url>
-      <loc>http://zonglovani.info/animace/en/5-half-shower-b.html</loc>
       <changefreq>yearly</changefreq>
       <priority>0.4</priority>
    </url>
@@ -1107,12 +1119,6 @@
    </url>
 			
    <url>
-      <loc>http://zonglovani.info/animace/en/standard-mills-mess.html</loc>
-      <changefreq>yearly</changefreq>
-      <priority>0.4</priority>
-   </url>
-			
-   <url>
       <loc>http://zonglovani.info/animace/en/statue-of-liberty-b.html</loc>
       <changefreq>yearly</changefreq>
       <priority>0.4</priority>
@@ -1144,12 +1150,6 @@
 			
    <url>
       <loc>http://zonglovani.info/animace/en/yo-yo-columns-fake-b.html</loc>
-      <changefreq>yearly</changefreq>
-      <priority>0.4</priority>
-   </url>
-			
-   <url>
-      <loc>http://zonglovani.info/animace/en/yo-yo-columns-fake-c.html</loc>
       <changefreq>yearly</changefreq>
       <priority>0.4</priority>
    </url>

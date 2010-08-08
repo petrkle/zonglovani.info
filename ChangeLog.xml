@@ -1,6 +1,16 @@
 <?xml version="1.0"?>
 <log>
 <logentry
+   revision="303">
+<author>petr</author>
+<date>2010-08-08T15:45:46.796733Z</date>
+<msg>Anglicky pojmenované animace</msg>
+<revprops>
+<property
+   name="svn:link">/animace/en/</property>
+</revprops>
+</logentry>
+<logentry
    revision="302">
 <author>petr</author>
 <date>2010-08-08T11:24:44.866718Z</date>

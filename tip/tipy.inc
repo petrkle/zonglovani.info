@@ -33,7 +33,7 @@
 2010-07-19*Aleje 2010*/kalendar/udalost-20100821-20100828-pek-1267957575.html*aleje-logo.jpg*Za měsíc začne 9. mezinárodní žonglérská a divadelní dílna Aleje 2010.
 2010-07-26*Roucoulette sauce poisson*/video/roucoulette-sauce-poisson.html*roucoulette-sauce-poisson.jpg*Úžasná manipulace s kužely.
 2010-08-02*Výzva pro fotografy*/obrazky/*fotaka.png*Rád uveřejním i tvoje fotografie žonglování. Stačí vědět kde a kdy byly pořízené a <a href="http://zonglovani.info/kontakt.html" title="Stránka s emailem.">napsat</a>. Tvoje fotky pak uvidí hodně lidí, které zajímá žonglování.
-2010-08-09*Sloupy ve dvou*/kuzely/passing/sloupy.html*kuzely-passing-sloupyd.png*Trik pro dva žongléry se čtyřmi kužely.
+2010-08-09*Animace žonglování*/animace/*animace-panacek.png*Žonglérův slabikář nově obsahuje i animace žonglování z programu JuggleAnim.
 2010-08-16*Siteswap*/siteswap.html*p4sprchac.png*Jsou to vlastně takové noty pro žonglování. Siteswap vymysleli žongléři, aby s jejich pomocí <strong>našli nové triky</strong>.
 2010-08-23*Fotky z Ulity*/obrazky/filtr/Ulita*ulita.cz.png*Fotografie z podzimního, zimního a jarního žonglování v Ulitě.
 2010-08-30*Neúplná hvězda*/kuzely/passing/prebihani4z11k.html*kuzely-passing-prebihani4z11kc.png*Občas není dostatek žonglérů na úplnou <a href="http://zonglovani.info/kuzely/passing/star.html" title="Trik pro 5 žonglérů.">hvězdu</a> a pak je potřeba trochu běhat.
@@ -46,7 +46,7 @@
 2010-10-18*RSS agregátor*/rss/*rss.png*Přehled novinek na stránkách o žonglování.
 2010-10-25*What the (beepbeep) do we know?*/video/what-the-beepbeep-do-we-know.html*partnerpoi.jpg*Točení s poi ve více lidech.
 2010-11-01*Bláznivá žehlička*/video/club2ring.html*club2ring.png*Krátký příběh o tom, co provedla splašená žehlička.
-2010-11-08
+2010-11-08*Sloupy ve dvou*/kuzely/passing/sloupy.html*kuzely-passing-sloupyd.png*Trik pro dva žongléry se čtyřmi kužely.
 2010-11-15
 2010-11-22
 2010-11-29

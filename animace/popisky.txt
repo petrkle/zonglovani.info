@@ -50,7 +50,7 @@
 374*483*see-saw-shuffle-luke_s-shuffle.gif
 374*483*shuffle-the-slam.gif
 375*486*slower-3-cascade.gif
-374*483*standard-mills-mess.gif
+374*483*standard-mills-mess.gif*Mills' mess
 375*486*statue-of-liberty-a.gif*Socha svobody
 375*486*statue-of-liberty-b.gif
 375*486*throw-twice.gif*Výměna dvou míčků
@@ -63,7 +63,7 @@
 375*486*wide-reverse-cascade.gif*Široká reverzní kaskáda
 374*483*yo-yo-columns-fake-a.gif
 374*483*yo-yo-columns-fake-b.gif
-374*483*yo-yo-columns-fake-c.gif
+374*483*yo-yo-columns-fake-c.gif*Falešné sloupy
 374*483*yo-yo.gif*Jo-jo
 375*486*yo-yo-tornado.gif*Tornádo
 374*483*yo-yo-traverse.gif*Osmička
@@ -72,7 +72,7 @@
 375*486*1up-2up-b.gif
 374*483*1up-2up-c.gif
 375*486*1up-2up-d.gif
-375*486*1up-2up-e.gif
+375*486*1up-2up-e.gif*Jeden okolo dvou
 375*486*1up-2up-f.gif
 374*483*2-ball-columns-in-one-hand.gif*Sloupy s dvěma míčky
 375*486*2-balls-out-of-a-3-cascade.gif
@@ -92,7 +92,7 @@
 375*486*3-cascade.gif*Kaskáda
 375*486*3-cascade-5-cascade.gif
 375*486*3-half-shower-a.gif
-375*486*3-half-shower-b.gif
+375*486*3-half-shower-b.gif*Poloviční sprcha se třemi míčky
 375*486*3-high-low-shower-a.gif
 374*483*3-high-low-shower-b.gif
 375*486*3-high-low-shower-c.gif
@@ -111,7 +111,7 @@
 375*486*4-balls-out-of-a-5-cascade.gif
 374*483*4-ball-tennis.gif
 374*483*4-columns-pistons.gif
-374*483*4-columns-switch.gif
+374*483*4-columns-switch.gif*Deštník
 375*486*4-half-shower.gif*Poloviční sprcha se čtyřmi míčky
 375*486*4-half-shower-like-trick.gif
 375*486*4-high-low-shower.gif
@@ -138,7 +138,7 @@
 375*486*5-cascade.gif*Kaskáda s pěti míčky
 375*486*5-columns.gif
 375*486*5-half-shower-a.gif
-375*486*5-half-shower-b.gif
+375*486*5-half-shower-b.gif*Poloviční sprcha s pěti míčky
 375*486*5-half-shower-c.gif
 374*483*5-mills-mess-columns-a.gif
 374*483*5-mills-mess-columns-b.gif

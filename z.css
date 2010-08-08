@@ -100,4 +100,5 @@ li.star{list-style:url(img/s/star-s.png);}
 .feedback{clear:both;padding-top:30px;font-size:0.7em;color:#333;}
 ul{list-style:circle;}
 .szn{margin:0;padding:0;list-style:circle;}.szn li{list-style-position:inside;}
-.skryte{display:none;}.animace img{border: solid 0px;}
+.skryte{display:none;}
+.animace {padding-top:15px;}.animace a{line-height:2em;}.animace img{border: solid 0px;margin-top:-13px;margin-right:5px;}

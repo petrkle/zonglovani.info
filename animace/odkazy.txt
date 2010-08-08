@@ -32,3 +32,11 @@ yo-yo*/micky/3/jojo.html*jo-jo
 5-ball-multiplex-a*/micky/5/kaskada-multiplex.html*multiplexovanou kaskádu
 5-cascade*/micky/5/kaskada.html*kaskádu s pěti míčky
 5-reverse-cascade*/micky/5/kaskada-reverzni.html*reverzní kaskádu s pěti míčky
+standard-mills-mess*/micky/3/mm.html*Mills' mess
+3-half-shower-b*/micky/3/sprcha-polovicni.html*poloviční sprchu
+5-half-shower-b*/micky/5/sprcha-polovicni.html*poloviční sprchu s pěti míčky
+3-ball-in-one-hand*/micky/3/3v1.html*tři míčky v jedné ruce
+6-fountain*/micky/6/*šest míčků
+4-columns-switch*/micky/4/destnik.html*žonglovat deštník
+1up-2up-e*/micky/3/1okolo2.html*házet jeden míček okolo dvou
+yo-yo-columns-fake-c*/micky/3/sloupy-falesne.html*falešné sloupy

@@ -34,6 +34,7 @@ if($id){
 		$smarty->assign('keywords',$animace[$id]['popis'].', animace, žonglování, siteswap, juggleanim');
 		$smarty->assign('description',$animace[$id]['popis'].' - animace žonglování s míčky');
 		$smarty->assign('titulek',$animace[$id]['popis'].' - animace');
+		$smarty->assign('nahled','http://'.$_SERVER['SERVER_NAME'].'/animace/nahledy/'.$id.'.png');
 		$smarty->assign('nadpis',$animace[$id]['popis']);
 		$smarty->assign('navod',get_link($id));
 		$smarty->assign_by_ref('animace',$animace[$id]);
@@ -51,6 +52,7 @@ if($id){
 	$smarty->assign('description','Animace žonglování s míčky.');
 	$smarty->assign('titulek',$titulek);
 	$smarty->assign_by_ref('animace',$animace);
+	$smarty->assign('nahled','http://'.$_SERVER['SERVER_NAME'].'/img/a/animace-panacek.png');
 	$smarty->display('hlavicka.tpl');
 	$smarty->display('animace-index.tpl');
 	$smarty->display('paticka.tpl');
