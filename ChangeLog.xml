@@ -1,6 +1,12 @@
 <?xml version="1.0"?>
 <log>
 <logentry
+   revision="304">
+<author>petr</author>
+<date>2010-08-08T18:39:50.221863Z</date>
+<msg>Náhledy pro animace</msg>
+</logentry>
+<logentry
    revision="303">
 <author>petr</author>
 <date>2010-08-08T15:45:46.796733Z</date>

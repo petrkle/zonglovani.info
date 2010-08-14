@@ -24,7 +24,16 @@ if(isset($_GET['deleted']) or isset($_POST['deleted'])){
 }
 
 if($udalost){
-		$smarty->assign('titulek',$udalost['title'].' - kalendář žonglování');
+		$start_day=date('j. n. Y',$udalost['start']);
+		$end_day=date('j. n. Y',$udalost['end']);
+		if($start_day == $end_day){
+			$doba=$start_day;
+		}else{
+			$doba=$start_day.' až '.$end_day;
+		}
+		$titulek=$udalost['title'].' '.$doba.' - kalendář žonglování';
+		$smarty->assign('titulek',$titulek);
+		$smarty->assign('description',$titulek);
 		$smarty->assign('nadpis',$udalost['title']);
 		$smarty->assign('udalost',$udalost);
 		$smarty->assign('aktDate', date('j. ',$now).date('n. ',$now).date(' Y',$now));

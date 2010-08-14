@@ -61,7 +61,12 @@ $titulek=$nadpis.' - '.$zverokruh[$znameni]['popis'];
 $trail->addStep($zverokruh[$znameni]['popis'],'/horoskop/');
 $smarty->assign_by_ref('trail', $trail->path);
 $smarty->assign('nahled','http://'.$_SERVER['SERVER_NAME'].'/img/h/horoskop-'.$znameni.'.png');
-$smarty->assign('description','Žonglérský horoskop znamení '.mb_convert_case($zverokruh[$znameni]['popis'], MB_CASE_LOWER, 'UTF-8').'.');
+if(isset($_GET['zitra'])){
+	$dodatek=' na zítra';
+}else{
+	$dodatek='';
+}
+$smarty->assign('description','Žonglérský horoskop'.$dodatek.' pro znamení '.mb_convert_case($zverokruh[$znameni]['popis'], MB_CASE_LOWER, 'UTF-8').'.');
 $smarty->assign('keywords','horoskop, žonglování, '.mb_convert_case($zverokruh[$znameni]['popis'], MB_CASE_LOWER, 'UTF-8'));
 $smarty->assign('titulek',$titulek);
 $smarty->assign('znameni',$znameni);

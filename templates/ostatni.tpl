@@ -96,6 +96,7 @@ Obrázky na plochu počítače s žonglérskou tématikou
 
 <h3><a href="/animace/" title="Názorná videa žonglování s míčky.">Animace žonglování</a></h3>
 <p>
+<a href="/animace/" title="Názorná videa žonglování s míčky.">{obrazek soubor="animace-panacek.png" popisek="Animace žonglování s míčky"}</a>
 Animace žonglování s míčky.
 </p>
 
