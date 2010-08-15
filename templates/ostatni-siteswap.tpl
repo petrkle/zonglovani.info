@@ -34,13 +34,16 @@ P = pravá ruka  L = levá ruka
     P L P L P L P L P L P L ...
     3 3 3 3 3 3 3 3 3 3 3 3 ...
 </pre>
-
 <p>
 <a href="/micky/3/kaskada.html" title="Základní trik se třemi míčky.">{obrazek soubor="kaskadaa.png" popisek=""}</a>
 Pravá ruka hází míček tak jako když žongluješ se třemi míčky (docela nízko, z jedné ruky do druhé). Levou rukou hodíš stejný hod. Potom pravá, pak levá...</p>
 
 <p>
 Trojka znamená, <a href="/micky/3/kaskada.html" title="Základní trik se třemi míčky.">kaskádu se 3 míčky</a>.
+</p>
+
+<p class="animace">
+<a href="/animace/siteswap/3.html" title="Animace kaskády">{obrazek soubor='animace.png' popisek=''} Přehrát animaci</a>
 </p>
 
 <h3>4</h3>
@@ -51,9 +54,14 @@ Další jednoduchý příklad: <a href="/micky/4/fontana.html" title="Základní
     P L P L P L P L P L P L ...
     4 4 4 4 4 4 4 4 4 4 4 4 ...
 </pre>
+
 <p>
 <a href="/micky/4/fontana.html" title="Základní trik se čtyřmi míčky.">{obrazek soubor="fontanaa.png" popisek=""}</a>
 Čtyři míčky musíš háze jako asynchronní fontánu. V siteswap všechny sudá čísla zůstávají ve stejné ruce, lichá značí hody do druhé ruky.
+</p>
+
+<p class="animace">
+<a href="/animace/siteswap/4.html" title="Animace fontány">{obrazek soubor='animace.png' popisek=''} Přehrát animaci</a>
 </p>
 
 <h3>5, 6, ...</h3>
@@ -62,7 +70,7 @@ Další jednoduchý příklad: <a href="/micky/4/fontana.html" title="Základní
 Všechny základní triky se zapisují jedním číslem (5 je <a href="/micky/5/kaskada.html" title="Trik s pěti míčky.">kaskáda s pěti</a> míčky, 8 je fontána s osmi míčky, atd.).
 </p>
 
-<h3>555000</h3>
+<h3>55500</h3>
 <p>
 <a href="/micky/3/blesk.html" title="blesk">{obrazek soubor="bleskc.png" popisek=""}</a>
 Trik se třemi míčky. První tři hody jsou jako při <a href="/micky/5/kaskada.html" title="Trik s pěti míčky.">kaskádě s pěti</a> míčky. Pak následují dvě pauzy bez míčku (0).
@@ -77,6 +85,10 @@ Trik se třemi míčky. První tři hody jsou jako při <a href="/micky/5/kaskad
 Většina žonglérů zná tento trik pod názvem <a href="/micky/3/blesk.html" title="blesk">blesk</a>.
 </p>
 
+<p class="animace">
+<a href="/animace/siteswap/55500.html" title="Animace žonglování blesku">{obrazek soubor='animace.png' popisek=''} Přehrát animaci</a>
+</p>
+
 <h3>53</h3>
 <p>
 <a href="/micky/4/sprcha-polovicni.html" title="Trik se čtyřmi míčky.">{obrazek soubor="p4sprchac.png" popisek=""}</a>
@@ -88,12 +100,12 @@ Trik se čtyřmi míčky. Z pravé ruky házíš 5, z levé 3.
     5 3 5 3 5 3 5 3 5 3 5 3 ...
 </pre>
 
-<p class="animace">
-<a href="/animace/siteswap/53.html" title="Animace poloviční sprchy">{obrazek soubor='animace.png' popisek=''} Přehrát animaci</a>
-</p>
-
 <p>
 Trik se jmenuje <a href="/micky/4/sprcha-polovicni.html" title="Trik se čtyřmi míčky.">poloviční sprcha se čtyřmi míčky</a>.
+</p>
+
+<p class="animace">
+<a href="/animace/siteswap/53.html" title="Animace poloviční sprchy">{obrazek soubor='animace.png' popisek=''} Přehrát animaci</a>
 </p>
 
 <h3>Jak poznám s kolika míčky se žongluje&nbsp;53?</h3>

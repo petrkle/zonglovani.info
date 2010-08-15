@@ -35,7 +35,7 @@ foreach($rss_zdroje as $id=>$kanal){
 			$item['link']=preg_replace('/^(http:\/\/.*)http:\/\/.*$/','\1',$item['link']);
 		}
 		$foo=fopen(RSS_AGREGATOR_DATA.'/'.$item['date_timestamp'].'-'.$id.'.txt','w');
-		fwrite($foo,preg_replace('/\n/',' ',mb_substr($item['title'],0,120))."\n");
+		fwrite($foo,preg_replace('/\n/',' ',mb_substr($item['title'],0,120,'UTF-8'))."\n");
 		fwrite($foo,preg_replace('/\n/',' ',$item['link'])."\n");
 		if(isset($item['description'])){
 			fwrite($foo,preg_replace('/\n/',' ',$item['description'])."\n");

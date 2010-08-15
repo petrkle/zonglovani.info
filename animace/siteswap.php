@@ -14,6 +14,7 @@ $nazvy=array(
 	'4-sync'=>'Čtyři míčky synchronně',
 	'5'=>'Pět míčků',
 	'5-sync'=>'Pět míčků synchronně',
+	'n'=>'Mnoho míčků'
 	);
 
 $titulek='Siteswap';
