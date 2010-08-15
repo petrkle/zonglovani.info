@@ -19,10 +19,18 @@ $animace=get_animace($nameless);
 $titulek='Animace žonglování';
 $trail = new Trail();
 $trail->addStep($titulek,'/animace/');
+
+$dalsi=array(
+	array('url'=>'/animace/siteswap/','text'=>'Animace siteswapů','title'=>'Animace žonglérských siteswapů'),
+	);
+
 if($nameless){
 	$titulek='Animace žonglování - anglické názvy';
 	$smarty->assign('nadpis','Animace žonglování');
 	$trail->addStep('Anglické názvy','/animace/en/');
+	array_push($dalsi,array('url'=>'/animace/','text'=>'Česky pojmenované animace','title'=>'Česky pojmenované animace žonglování'));
+}else{
+	array_push($dalsi,array('url'=>'/animace/en/','text'=>'Anglicky pojmenované animace','title'=>'Anglicky pojmenované animace žonglování'));
 }
 
 $smarty->assign('nameless',$nameless);
@@ -31,9 +39,9 @@ if($id){
 	if(isset($animace[$id])){
 		$trail->addStep($animace[$id]['popis']);
 		$smarty->assign_by_ref('trail', $trail->path);
-		$smarty->assign('keywords',$animace[$id]['popis'].', animace, žonglování, siteswap, juggleanim');
+		$smarty->assign('keywords',$animace[$id]['popis'].', animace, žonglování, siteswap, juggleanim, návod');
 		$smarty->assign('description',$animace[$id]['popis'].' - animace žonglování s míčky');
-		$smarty->assign('titulek',$animace[$id]['popis'].' - animace');
+		$smarty->assign('titulek',$animace[$id]['popis'].' - animovaný návod na žonglování');
 		$smarty->assign('nahled','http://'.$_SERVER['SERVER_NAME'].'/animace/nahledy/'.$id.'.png');
 		$smarty->assign('nadpis',$animace[$id]['popis']);
 		$smarty->assign('navod',get_link($id));
@@ -47,6 +55,7 @@ if($id){
 	}
 
 }else{
+	$smarty->assign_by_ref('dalsi',$dalsi);
 	$smarty->assign_by_ref('trail', $trail->path);
 	$smarty->assign('keywords','animace, žonglování, siteswap, juggleanim');
 	$smarty->assign('description','Animace žonglování s míčky.');
@@ -58,11 +67,6 @@ if($id){
 	$smarty->display('paticka.tpl');
 }
 
-
-$dalsi=array(
-	array('url'=>'/obrazky/','text'=>'Obrázky žonglování','title'=>'Obrázky žonglérů a žonglérek'),
-	);
-$smarty->assign_by_ref('dalsi',$dalsi);
 
 function get_link($id){
 	$foo=file('odkazy.txt');

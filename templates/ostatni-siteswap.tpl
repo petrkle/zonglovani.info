@@ -88,6 +88,10 @@ Trik se čtyřmi míčky. Z pravé ruky házíš 5, z levé 3.
     5 3 5 3 5 3 5 3 5 3 5 3 ...
 </pre>
 
+<p class="animace">
+<a href="/animace/siteswap/53.html" title="Animace poloviční sprchy">{obrazek soubor='animace.png' popisek=''} Přehrát animaci</a>
+</p>
+
 <p>
 Trik se jmenuje <a href="/micky/4/sprcha-polovicni.html" title="Trik se čtyřmi míčky.">poloviční sprcha se čtyřmi míčky</a>.
 </p>

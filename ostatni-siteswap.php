@@ -12,6 +12,7 @@ $smarty->assign('feedback',true);
 $smarty->assign('titulek',$titulek);
 
 $dalsi=array(
+	array('url'=>'/animace/siteswap/','text'=>'Animace siteswapů','title'=>'Animace žonglérských siteswapů'),
 	array('url'=>'/software.html','text'=>'Simulátory žonglování','title'=>'Počítačové programy které kreslí animace žonglování.'),
 	array('url'=>'/literatura.html','text'=>'Knížky o žonglování','title'=>'Seznam knížek o žonglování.')
 	);

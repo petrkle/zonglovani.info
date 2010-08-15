@@ -37,7 +37,7 @@ if($filtr){
 		$smarty->assign('uzivatele',$uzivatele);
 	}
 	$trail->addStep('Podle místa',LIDE_URL.'misto/');
-	$trail->addStep($pusobiste[$filtr]['odkud']);
+	$trail->addStep($pusobiste[$filtr]['nazev']);
 	$smarty->assign_by_ref('trail', $trail->path);
 
 	$smarty->assign('misto',$pusobiste[$filtr]['odkud']);

@@ -1,6 +1,12 @@
 <?xml version="1.0"?>
 <log>
 <logentry
+   revision="305">
+<author>petr</author>
+<date>2010-08-14T15:32:14.252945Z</date>
+<msg>Vylepšení titulků a popisů v kalendáři a horoskopu.</msg>
+</logentry>
+<logentry
    revision="304">
 <author>petr</author>
 <date>2010-08-08T18:39:50.221863Z</date>

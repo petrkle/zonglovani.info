@@ -59,8 +59,8 @@ $pusobiste['pribram']=array('nazev'=>'Příbram','odkud'=>'z Příbrami','kde'=>
 $pusobiste['rakovnik']=array('nazev'=>'Rakovník','odkud'=>'z Rakovníka','kde'=>'v Rakovníku');
 $pusobiste['rokycany']=array('nazev'=>'Rokycany','odkud'=>'z Rokycan','kde'=>'v Rokycanech');
 $pusobiste['rychnov-nad-kneznou']=array('nazev'=>'Rychnov nad Kněžnou','odkud'=>'z Rychnova nad Kněžnou','kde'=>'v Rychnově nad Kněžnou');
-$pusobiste['semily']=array('nazev'=>'Semily','odkud'=>'z Semil','kde'=>'v Semilech');
-$pusobiste['sokolov']=array('nazev'=>'Sokolov','odkud'=>'ze Sokolov','kde'=>'v Sokolově');
+$pusobiste['semily']=array('nazev'=>'Semily','odkud'=>'ze Semil','kde'=>'v Semilech');
+$pusobiste['sokolov']=array('nazev'=>'Sokolov','odkud'=>'ze Sokolova','kde'=>'v Sokolově');
 $pusobiste['strakonice']=array('nazev'=>'Strakonice','odkud'=>'ze Strakonic','kde'=>'ve Strakonicích');
 $pusobiste['svitavy']=array('nazev'=>'Svitavy','odkud'=>'ze Svitav','kde'=>'ve Svitavech');
 $pusobiste['sumperk']=array('nazev'=>'Šumperk','odkud'=>'z Šumperka','kde'=>'v Šumperku');

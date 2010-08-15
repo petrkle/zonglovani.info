@@ -30,6 +30,9 @@
 			<li><a name="en"></a><a href="/animace/en/">Animace žonglování - anglické názvy</a>
 			
 			</li>
+			<li><a name="siteswap"></a><a href="/animace/siteswap/">Siteswap</a>
+			
+			</li>
 		</ul>
 		</li>
 		<li><a name="chudy"></a><a href="/chudy/">Chůdy</a>
@@ -448,7 +451,7 @@
 		<li><a href="/video/yesterday-didnt-happen.html">Yesterday didn&#039;t happen</a></li>
 		</ul>
 		</li>
-		<li><a name="vyhledavani"></a><a href="/vyhledavani/">Žonglérův slabikář - vyhledávání</a>
+		<li><a name="vyhledavani"></a><a href="/vyhledavani/">Vyhledávání</a>
 		
 		</li>
 	</ul>

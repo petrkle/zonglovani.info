@@ -7,4 +7,9 @@ RewriteRule (.*) http://%1/animace/$1 [R=301,QSA,NE,L]
 RewriteRule ^en$ /animace/en/ [R=301,L]
 RewriteRule ^en/$ index.php?nameless=jo [L]
 RewriteRule ^en/(.+)\.html$ index.php?id=$1&nameless=jo [L]
+
+RewriteRule ^siteswap$ /animace/siteswap/ [R=301,L]
+RewriteRule ^siteswap/$ siteswap.php [L]
+RewriteRule ^siteswap/(.+)\.html$ siteswap.php?id=$1 [L]
+
 RewriteRule ^(.+)\.html$ index.php?id=$1 [L]

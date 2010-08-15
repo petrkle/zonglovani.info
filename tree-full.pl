@@ -537,7 +537,8 @@ sub my_uri_escape($)
 	my $ends_in_string = ($str =~ m/\/$/);
 	my @parts = split("/", $str);
 	foreach my $part (@parts) {
-		$part = CGI::escape($part);
+		#$part = CGI::escape($part);
+		$part = $part;
 	}
 	$str = join("/", @parts);
 	if( $ends_in_string ) {
