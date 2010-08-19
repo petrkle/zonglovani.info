@@ -1,5 +1,6 @@
 {if preg_match('/^\/.+/',$smarty.server.REQUEST_URI)}
-<div class="vlevo">
+{if $feedback}
+<div class="vlevo feedback">
 {if $smarty.session.logged==true}
 <p class="kontakt">Hodnocení obrázku: 
 {if isset($smarty.session.uzivatel.hodnoceni[$smarty.server.REQUEST_URI])}<a href="{$smarty.const.LIDE_URL}palec.php?zrusit&amp;url={$smarty.server.REQUEST_URI|escape}&amp;title={$titulek|escape}" title="Nehodnotím tuto stránku.">Nezadáno</a>{else}Nezadáno{/if}
@@ -15,6 +16,7 @@
 <p>Obrázky můžou hodnotit a komentovat <a href="{$smarty.const.LIDE_URL}prihlaseni.php{if $smarty.server.REQUEST_URI!="/"}?next={$smarty.server.REQUEST_URI}#hodnoceni{/if}" title="Přihlášení do žonglérova slabikáře" rel="nofollow">přihlášení</a> uživatelé.</p>
 {/if}
 </div>
+{/if}
 {/if}
 
 {if $obrazek.dalsi_cislo}

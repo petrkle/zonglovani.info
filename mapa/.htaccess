@@ -1,0 +1,5 @@
+RewriteEngine	on
+RewriteBase /mapa
+
+RewriteCond %{HTTP_HOST} ^www\.(.*)
+RewriteRule (.*) http://%1/mapa/$1 [R=301,QSA,NE,L]
