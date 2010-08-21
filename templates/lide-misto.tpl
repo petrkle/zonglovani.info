@@ -10,4 +10,4 @@ V žonglérově slabikáři ještě není žádný uživatel {$misto|escape}. M�
 </p>
 {/if}
 <h3>Mapa</h3>
-<p><img src="http://maps.google.com/maps/api/staticmap?center=49.94,15.46&zoom=7&size=700x400&sensor=false&markers=icon:http://zonglovani.info/mapa/sipka.png|color:red|label:a|{$misto|escape},CZ" width="500" heigth="400" alt=""/></p>
+<p>{obrazek soubor="$id.png" popisek="Mapa - $jmeno" path='/mapa/static/'}</p>

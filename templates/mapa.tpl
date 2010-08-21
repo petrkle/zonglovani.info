@@ -1,4 +1,5 @@
 {literal}
+<script type="text/javascript" src="/mapa/geoxml3.js"></script>
 <script type="text/javascript">
 function initialize() {
 	var myLatlng = new google.maps.LatLng(49.8,15.8);
@@ -8,6 +9,8 @@ function initialize() {
 		mapTypeId: google.maps.MapTypeId.ROADMAP
 	}
 	var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
+			var geoXml = new geoXML3.parser({map: map});
+      geoXml.parse('/mapa/mapa.kml');
 }
 
 function loadScript() {

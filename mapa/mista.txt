@@ -1,0 +1,150 @@
+cela-cr:Celá ČR:z celé ČR:v celé ČR::CZ::
+cechy:Čechy:z Čech:v Čechách::CZ::
+morava:Morava:z Moravy:na Moravě::CZ::
+slezko:Slezko:ze Slezka:na Slezku::CZ::
+slovensko:Celé Slovensko:ze Slovenska:na Slovensku::SK::
+vychodni-slovensko:Východní Slovensko:z východního Slovenska:na východním Slovensku::SK::
+zapadni-slovensko:Západní Slovensko:ze západního Slovenska:na západním Slovensku::SK::
+benesov:Benešov:z Benešova:v Benešově:kr-stredocesky:CZ:49.7817045:14.6865747
+beroun:Beroun:z Berouna:v Berouně:kr-stredocesky:CZ:49.9634209:14.0718660
+blansko:Blansko:z Blanska:v Blansku:kr-jihomoravsky:CZ:49.3632154:16.6447933
+breclav:Břeclav:z Břeclavi:v Břeclavi:kr-jihomoravsky:CZ:48.7602079:16.8807398
+brno:Brno:z Brna:v Brně:kr-jihomoravsky:CZ:49.1909804:16.6115347
+bruntal:Bruntál:z Bruntálu:v Bruntále:kraj-moravskoslezsky:CZ:49.9881706:17.4642582
+ceska-lipa:Česká Lípa:z České Lípy:v Česká Lípě:kr-liberecky:CZ:50.6866491:14.5371282
+ceske-budejovice:České Budějovice:z Českých Budějovic:v Českých Budějovicích:kraj-jihocesky:CZ:48.9739084:14.4750235
+cesky-krumlov:Český Krumlov:z Českého Krumlova:v Českém Krumlově:kraj-jihocesky:CZ:48.8107194:14.3150239
+decin:Děčín:z Děčína:v Děčíně:kraj-ustecky:CZ:50.7817726:14.2145834
+domazlice:Domažlice:z Domažlic:v Domažlicích:kraj-plzensky:CZ:49.4413117:12.9260061
+frydek-mistek:Frýdek-Místek:z Frýdku-Místku:ve Frýdku-Místku:kraj-moravskoslezsky:CZ:49.6852722:18.3480339
+havlickuv-brod:Havlíčkův Brod:z Havlíčkova Brodu:v Havlíčkově Brodě:kraj-pardubicky:CZ:49.6069448:15.5793480
+hodonin:Hodonín:z Hodonína:v Hodoníně:kr-jihomoravsky:CZ:48.8510819:17.1270503
+hradec-kralove:Hradec Králové:z Hradce Králové:v Hradci Králové:kraj-kralovehradecky:CZ:50.2094261:15.8326259
+cheb:Cheb:z Chebu:v Chebu:kraj-karlovarsky:CZ:50.0777871:12.3757816
+chomutov:Chomutov:z Chomutova:v Chomutově:kraj-ustecky:CZ:50.4605452:13.4181515
+chrudim:Chrudim:z Chrudimi:v Chrudimi:kraj-pardubicky:CZ:49.9511407:15.7947727
+jablonec-nad-nisou:Jablonec nad Nisou:z Jablonce nad Nisou:v Jablonci nad Nisou:kr-liberecky:CZ:50.7249076:15.1693976
+jesenik:Jeseník:z Jeseníku:v Jeseníku:kraj-olomoucky:CZ:50.2298994:17.2045079
+jicin:Jičín:z Jičína:v Jičíně:kraj-kralovehradecky:CZ:50.4370003:15.3513126
+jihlava:Jihlava:z Jihlavy:v Jihlavě:kraj-pardubicky:CZ:49.3954732:15.5909541
+jindrichuv-hradec:Jindřichův Hradec:z Jindřichova Hradce:v Jindřichově Hradci:kraj-jihocesky:CZ:49.1515019:15.0107945
+karlovy-vary:Karlovy Vary:z Karlových Varů:v Karlových Varech:kraj-karlovarsky:CZ:50.2322052:12.8712765
+karvina:Karviná:z Karviné:v Karviné:kraj-moravskoslezsky:CZ:49.8534622:18.5408115
+kladno:Kladno:z Kladna:v Kladně:kr-stredocesky:CZ:50.1470184:14.1032667
+klatovy:Klatovy:z Klatov:v Klatovech:kraj-plzensky:CZ:49.3954468:13.2947531
+kolin:Kolín:z Kolína:v Kolíně:kr-stredocesky:CZ:50.0280075:15.2011665
+kromeriz:Kroměříž:z Kroměříže:v Kroměříži:kraj-zlinsky:CZ:49.2989616:17.3906059
+kutna-hora:Kutná Hora:z Kutné Hory:v Kutné Hoře:kr-stredocesky:CZ:49.9482540:15.2679677
+liberec:Liberec:z Liberece:v Liberci:kr-liberecky:CZ:50.7670199:15.0561346
+litomerice:Litoměřice:z Litoměřic:v Litoměřicích:kraj-ustecky:CZ:50.5338588:14.1312228
+louny:Louny:z Loun:v Lounech:kraj-ustecky:CZ:50.3567009:13.7968578
+melnik:Mělník:z Mělníka:v Mělníce:kr-stredocesky:CZ:50.3520371:14.4747279
+mlada-boleslav:Mladá Boleslav:z Mladé Boleslavi:v Mladé Boleslavi:kr-stredocesky:CZ:50.4107450:14.9028046
+most:Most:z Mostu:v Mostě:kraj-ustecky:CZ:50.5031890:13.6362569
+nachod:Náchod:z Náchoda:v Náchodě:kraj-kralovehradecky:CZ:50.4165382:16.1631489
+novy-jicin:Nový Jičín:z Nového Jičína:v Novém Jičíně:kraj-moravskoslezsky:CZ:49.5953794:18.0101377
+nymburk:Nymburk:z Nymburka:v Nymburku:kr-stredocesky:CZ:50.1861000:15.0415603
+olomouc:Olomouc:z Olomouce:v Olomouci:kraj-olomoucky:CZ:49.5953879:17.2518721
+opava:Opava:z Opavy:v Opavě:kraj-moravskoslezsky:CZ:49.9387627:17.9024582
+ostrava:Ostrava:z Ostravy:v Ostravě:kraj-moravskoslezsky:CZ:49.8412715:18.2902483
+pardubice:Pardubice:z Pardubic:v Pardubicích:kraj-pardubicky:CZ:50.0378281:15.7808335
+pelhrimov:Pelhřimov:z Pelhřimova:v Pelhřimově:kraj-pardubicky:CZ:49.4324611:15.2271504
+pisek:Písek:z Písku:v Písku:kraj-jihocesky:CZ:49.3083158:14.1474693
+plzen:Plzeň:z Plzně:v Plzni:kraj-plzensky:CZ:49.7474848:13.3776036
+praha:Praha:z Prahy:v Praze:kr-stredocesky:CZ:50.0878114:14.4204598
+prachatice:Prachatice:z Prachatic:v Prachaticích:kraj-jihocesky:CZ:49.0127106:13.9971905
+prerov:Přerov:z Přerova:v Přerově:kraj-olomoucky:CZ:49.4553909:17.4503078
+pribram:Příbram:z Příbrami:v Příbrami:kr-stredocesky:CZ:49.6239823:13.9948135
+prostejov:Prostějov:z Prostějova:v Prostějově:kraj-olomoucky:CZ:49.4715080:17.1124191
+rakovnik:Rakovník:z Rakovníka:v Rakovníku:kr-stredocesky:CZ:50.1041874:13.7317170
+rokycany:Rokycany:z Rokycan:v Rokycanech:kraj-plzensky:CZ:49.7422142:13.5946522
+rychnov-nad-kneznou:Rychnov nad Kněžnou:z Rychnova nad Kněžnou:v Rychnově nad Kněžnou:kraj-kralovehradecky:CZ:50.1632374:16.2747809
+semily:Semily:z Semil:v Semilech:kr-liberecky:CZ:50.6027296:15.3343858
+sokolov:Sokolov:ze Sokolov:v Sokolově:kraj-karlovarsky:CZ:50.1813973:12.6397362
+strakonice:Strakonice:ze Strakonic:ve Strakonicích:kraj-jihocesky:CZ:49.2617480:13.9034534
+sumperk:Šumperk:z Šumperka:v Šumperku:kraj-olomoucky:CZ:49.9654901:16.9700535
+svitavy:Svitavy:ze Svitav:ve Svitavech:kraj-pardubicky:CZ:49.7559562:16.4694603
+tabor:Tábor:z Tábora:v Táboře:kraj-jihocesky:CZ:49.4141617:14.6577921
+tachov:Tachov:z Tachova:v Tachově:kraj-plzensky:CZ:49.7955894:12.6335945
+teplice:Teplice:z Teplic:v Teplicích:kraj-ustecky:CZ:50.6399608:13.8245447
+trebic:Třebíč:z Třebíče:v Třebíči:kraj-pardubicky:CZ:49.2158467:15.8799192
+trutnov:Trutnov:z Trutnova:v Trutnově:kraj-kralovehradecky:CZ:50.5608982:15.9128070
+uherske-hradiste:Uherské Hradiště:z Uherského Hradiště:v Uherském Hradišti:kraj-zlinsky:CZ:49.0683317:17.4605112
+usti-nad-labem:Ústí nad Labem:z Ústí nad Labem:v Ústí nad Labem:kraj-ustecky:CZ:50.6610266:14.0329968
+usti-nad-orlici:Ústí nad Orlicí:z Ústí nad Orlicí:v Ústí nad Orlicí:kraj-pardubicky:CZ:49.9736137:16.3942966
+vsetin:Vsetín:ze Vsetína:ve Vsetíně:kraj-zlinsky:CZ:49.3402653:17.9929739
+vyskov:Vyškov:z Vyškova:ve Vyškově:kr-jihomoravsky:CZ:49.2768858:16.9982272
+zdar-nad-sazavou:Žďár nad Sázavou:ze Žďáru nad Sázavou:ve Žďáru nad Sázavou:kraj-pardubicky:CZ:49.5626831:15.9398127
+zlin:Zlín:ze Zlína:ve Zlíně:kraj-zlinsky:CZ:49.2268877:17.6689027
+znojmo:Znojmo:ze Znojma:ve Znojmě:kr-jihomoravsky:CZ:48.8557968:16.0488300
+banovce-nad-bebravou:Bánovce nad Bebravou:z Bánovce nad Bebravou:v Bánovci nad Bebravou:kraj-trenciansky:SK:48.7191500:18.2592440
+banska-bystrica:Banská Bystrica:z Banskej Bystrice:v Banskej Bystrici:kraj-banskobystricky:SK:48.7362770:19.1461917
+banska-stiavnica:Banská Štiavnica:z Banskej Štiavnice:v Banskej Štiavnici:kraj-banskobystricky:SK:48.4257162:18.9125063
+bardejov:Bardejov:z Bardejova:v Bardejove:kraj-presovsky:SK:49.2946849:21.2764409
+bratislava:Bratislava:z Bratislavy:Bratislava:kraj-bratislavsky:SK:48.1483765:17.1073105
+brezno:Brezno:z Brezna:v Brezne:kraj-banskobystricky:SK:48.8063560:19.6438876
+bytca:Bytča:z Bytče:v Bytče:kraj-zilinsky:SK:49.2231897:18.5584905
+cadca:Čadca:z Čadce:v Čadce:kraj-zilinsky:SK:49.4379367:18.7897011
+detva:Detva:z Detvy:v Detve:kraj-banskobystricky:SK:48.5603755:19.4191434
+dolny-kubin:Dolný Kubín:z Dolného Kubína:v Dolnem Kubíne:kraj-zilinsky:SK:49.2090236:19.2953678
+dunajska-streda:Dunajská Streda:v Dunajské Strede:z Dunajské Stredy:kraj-trnavsky:SK:47.9923894:17.6170548
+galanta:Galanta:v Galante:z Galanty:kraj-trnavsky:SK:48.1895413:17.7266636
+gelnica:Gelnica:v Gelnici:z Gelnice:kraj-kosicky:SK:48.8518087:20.9339431
+hlohovec:Hlohovec:v Hlohovci:z Hlohovece:kraj-trnavsky:SK:48.4248462:17.8040044
+humenne:Humenné:z Humenné:v Humenné:kraj-presovsky:SK:48.9338752:21.9107213
+ilava:Ilava:z Ilavy:v Ilave:kraj-trenciansky:SK:48.9985733:18.2348862
+kezmarok:Kežmarok:z Kežmarku:v Kežmarku:kraj-presovsky:SK:49.1373227:20.4295429
+komarno:Komárno:z Komárna:v Komárne:kraj-nitriansky:SK:47.7632894:18.1282656
+kosice:Košice:z Košic:v Košiciach:kraj-kosicky:SK:48.7209956:21.2577477
+krupina:Krupina:z Krupiny:v Krupine:kraj-banskobystricky:SK:48.3542872:19.0668757
+kysucke-nove-mesto:Kysucké Nové Mesto:v Kysuckém Novém Meste:z Kysuckého Nového Mestoa:kraj-zilinsky:SK:49.3019440:18.7866296
+levice:Levice:z Levice:v Levici:kraj-nitriansky:SK:48.2192923:18.6011482
+levoca:Levoča:z Levoče:v Levoči:kraj-presovsky:SK:49.0260192:20.5888751
+liptovsky-mikulas:Liptovský Mikuláš:z Liptovského Mikuláše:v Liptovském Mikuláši:kraj-zilinsky:SK:49.0700843:19.6442897
+lucenec:Lučenec:z Lučence:v Lučenci:kraj-banskobystricky:SK:48.3298602:19.6637354
+malacky:Malacky:z Malacek:v Malackach:kraj-bratislavsky:SK:48.4363404:17.0182641
+martin:Martin:z Martina:v Martine:kraj-zilinsky:SK:49.0628380:18.9218407
+medzilaborce:Medzilaborce:z Medzilaborců:v Medzilaborcích:kraj-presovsky:SK:49.2712185:21.9035368
+michalovce:Michalovce:z Michalovcu:v Michalovcích:kraj-kosicky:SK:48.7559954:21.9148577
+myjava:Myjava:z Myjavy:v Myjave:kraj-trenciansky:SK:48.7504728:17.5651643
+namestovo:Námestovo:z Námestova:v Námestove:kraj-zilinsky:SK:49.4063730:19.4838841
+nitra:Nitra:z Nitry:v Nitre:kraj-nitriansky:SK:48.3128725:18.0860380
+nove-mesto-nad-vahom:Nové Mesto nad Váhom:z Nového Mesta nad Váhom:v Novém Meste nad Váhom:kraj-trenciansky:SK:48.7563795:17.8326971
+nove-zamky:Nové Zámky:z Nových Zámků:v Nových Zámcích:kraj-nitriansky:SK:47.9860672:18.1640649
+partizanske:Partizánske:z Partizánskeho:v Partizánskem:kraj-trenciansky:SK:48.6275765:18.3614156
+pezinok:Pezinok:z Pezinku:v Pezinku:kraj-bratislavsky:SK:48.2887323:17.2678143
+piestany:Piešťany:z Piešťan:v Piešťanech:kraj-trnavsky:SK:48.5892019:17.8341050
+poltar:Poltár:z Poltára:v Poltáre:kraj-banskobystricky:SK:48.4323391:19.7932419
+poprad:Poprad:z Popradu:v Poprade:kraj-presovsky:SK:49.0570032:20.3047448
+povazska-bystrica:Považská Bystrica:z Považské Bystrice:v Považské Bystrici:kraj-trenciansky:SK:49.1169161:18.4481529
+presov:Prešov:z Prešova:v Prešove:kraj-presovsky:SK:49.0016751:21.2400295
+prievidza:Prievidza:z Prievidze:v Prievidzi:kraj-trenciansky:SK:48.7729271:18.6221523
+puchov:Púchov:z Púchova:v Púchove:kraj-trenciansky:SK:49.1249356:18.3301705
+revuca:Revúca:z Revúci:v Revúci:kraj-banskobystricky:SK:48.6835829:20.1143883
+rimavska-sobota:Rimavská Sobota:z Rimavskej Soboty:v Rimavskej Sobote:kraj-banskobystricky:SK:48.3833442:20.0183580
+roznava:Rožňava:z Rožňavy:v Rožňave:kraj-kosicky:SK:48.7150900:20.4483976
+ruzomberok:Ružomberok:z Ružomberka:v Ružomberku:kraj-zilinsky:SK:49.0815474:19.3043230
+sabinov:Sabinov:ze Sabinova:v Sabinove:kraj-presovsky:SK:49.1028212:21.0978550
+sala:Šaľa:z Šaľi:v Šaľi:kraj-nitriansky:SK:48.1536621:17.8768323
+senec:Senec:z Sence:v Senci:kraj-bratislavsky:SK:48.2209000:17.3986949
+senica:Senica:z Senice:v Senici:kraj-trnavsky:SK:48.6765247:17.3639576
+skalica:Skalica:ze Skalice:ve Skalici:kraj-trnavsky:SK:48.8460561:17.2278639
+snina:Snina:ze Snine:ve Snine:kraj-presovsky:SK:48.9875164:22.1519570
+sobrance:Sobrance:ze Sobrance:v Sobranci:kraj-kosicky:SK:48.7458654:22.1797662
+spisska-nova-ves:Spišská Nová Ves:ze Spišskej Novej Vsi:ve Spišskej Novej Vsi:kraj-kosicky:SK:48.9433762:20.5678887
+stara-lubovna:Stará Ľubovňa:ze Stará Ľubovňe:ve Starej Ľubovňe:kraj-presovsky:SK:49.3022127:20.6905301
+stropkov:Stropkov:ze Stropkova:ve Stropkove:kraj-presovsky:SK:49.2026191:21.6518245
+svidnik:Svidník:ze Svidníka:ve Svidníce:kraj-presovsky:SK:49.3062472:21.5683369
+topolcany:Topoľčany:z Topoľčan:v Topoľčianech:kraj-nitriansky:SK:48.5584441:18.1716970
+trebisov:Trebišov:z Trebišova:v Trebišove:kraj-kosicky:SK:48.6233816:21.7199735
+trencin:Trenčín:z Trenčína:v Trenčíne:kraj-trenciansky:SK:48.8939462:18.0378496
+trnava:Trnava:z Trnavy:v Trnave:kraj-trnavsky:SK:48.3735186:17.5951127
+turcianske-teplice:Turčianske Teplice:z Turčianských Teplic:v Turčianských Tepliciach:kraj-zilinsky:SK:48.8636263:18.8633405
+tvrdosin:Tvrdošín:z Tvrdošína:v Tvrdošíne:kraj-zilinsky:SK:49.2664211:19.7235167
+velky-krtis:Veľký Krtíš:z Veľkého Krtíša:ve Veľkém Krtíši:kraj-banskobystricky:SK:48.1711346:19.3112873
+vranov-nad-toplou:Vranov nad Topľou:z Vranova nad Topľou:ve Vranove nad Topľou:kraj-presovsky:SK:48.8905980:21.6818146
+zlate-moravce:Zlaté Moravce:ze Zlatých Moravců:v Zlatých Moravcích:kraj-nitriansky:SK:48.3832287:18.3976342
+zvolen:Zvolen:ze Zvolena:ve Zvoleni:kraj-banskobystricky:SK:48.5758623:19.1256291
+zarnovica:Žarnovica:z Žarnovice:v Žarnovici:kraj-banskobystricky:SK:48.4883608:18.7077948
+ziar-nad-hronom:ze Žiaru nad Hronom:v Žiaru nad Hronom:Žiar nad Hronom:kraj-banskobystricky:SK:48.5882665:18.8493777
+zilina:Žilina:ze Žiliny:v Žilině:kraj-zilinsky:SK:49.2208147:18.7405030

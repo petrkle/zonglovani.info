@@ -2,6 +2,7 @@
 require('../init.php');
 require('../func.php');
 require('pusobiste.php');
+
 $smarty->assign('pusobiste',$pusobiste);
 
 $trail = new Trail();
@@ -11,6 +12,8 @@ $smarty->assign('feedback',true);
 if(isset($_GET['filtr'])){
 	$filtr=$_GET['filtr'];
 	if(isset($pusobiste[$filtr])){
+		$smarty->assign('id',$filtr);
+		$smarty->assign('jmeno',$pusobiste[$filtr]['nazev']);
 		$smarty->assign('titulek','Žonglování - '.$pusobiste[$filtr]['nazev']);
 		$smarty->assign('nadpis','Žongléři '.$pusobiste[$filtr]['odkud']);
 		$smarty->assign('description','Žongléři a žonglérky působící '.$pusobiste[$filtr]['kde'].'.');
@@ -45,6 +48,9 @@ if($filtr){
 	$smarty->display('lide-misto.tpl');
 	$smarty->display('paticka.tpl');
 }else{
+	$smarty->assign('pusobiste',get_large_places($pusobiste));
+	$smarty->assign('pusobiste_cz',get_places('CZ',$pusobiste));
+	$smarty->assign('pusobiste_sk',get_places('SK',$pusobiste));
 	$trail->addStep('Podle místa',LIDE_URL.'misto/');
 	$smarty->assign_by_ref('trail', $trail->path);
 	$smarty->assign('titulek','Žongléři podle místa působení');
@@ -54,4 +60,3 @@ if($filtr){
 }
 
 ?>
-

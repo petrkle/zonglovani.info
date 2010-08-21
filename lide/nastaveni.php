@@ -264,7 +264,9 @@ $trail->addStep('Nastavení',LIDE_URL.'nastaveni/');
 
 				$smarty->assign('titulek','Místo(a) kde žongluješ');
 				$trail->addStep('Působiště');
-				$smarty->assign('pusobiste',$pusobiste);
+				$smarty->assign('pusobiste',get_large_places($pusobiste));
+				$smarty->assign('pusobiste_cz',get_places('CZ',$pusobiste));
+				$smarty->assign('pusobiste_sk',get_places('SK',$pusobiste));
 				$smarty->assign('chyby',$chyby);
 				$smarty->assign_by_ref('trail', $trail->path);
 				$smarty->display('hlavicka.tpl');

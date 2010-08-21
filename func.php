@@ -569,4 +569,24 @@ function quoted_printable_header($str, $charset='utf-8', $linesize=76) {
     return $out.'?=';
 }
 
+function get_places($country,$pusobiste,$special=false){
+	$navrat=array();
+	foreach($pusobiste as $id=>$misto){
+		if($misto['stat']==$country and ($misto['lat']!='' or $misto['lng']!='')){
+			$navrat[$id]=$misto;
+		}
+	}
+return $navrat;
+}
+
+function get_large_places($pusobiste){
+	$navrat=array();
+	foreach($pusobiste as $id=>$misto){
+		if($misto['lat']=='' or $misto['lng']==''){
+			$navrat[$id]=$misto;
+		}
+	}
+return $navrat;
+}
+
 ?>
