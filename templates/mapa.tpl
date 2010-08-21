@@ -10,7 +10,7 @@ function initialize() {
 	}
 	var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
 			var geoXml = new geoXML3.parser({map: map});
-      geoXml.parse('/mapa/mapa.kml');
+      geoXml.parse('/mapa/mapa-cz.kml');
 }
 
 function loadScript() {
@@ -24,4 +24,12 @@ window.onload = loadScript;
 </script> 
 {/literal}
 
-<div id="map_canvas"></div>
+<div class="kontejner">
+<div id="map_canvas"></div><div id="legenda">
+<h3>Beta</h3>
+<p>
+Zkušební verze mapy žonglování v České republice.
+</p>
+</div>
+<div class="clear">&nbsp;</div>
+</div>

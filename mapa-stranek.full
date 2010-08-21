@@ -606,6 +606,7 @@
 		<li><a href="/kalendar/udalost-20100818-20100822-pek-1280397031.html">EUC 2010 18. 8. 2010 až 22. 8. 2010 - kalendář žonglování</a></li>
 		<li><a href="/kalendar/udalost-20100821-20100828-pek-1267957575.html">Aleje 2010 21. 8. 2010 až 28. 8. 2010 - kalendář žonglování</a></li>
 		<li><a href="/kalendar/udalost-20100827-20100829-luciaska-1274354274.html">16. Česko-německé setkání žonglérů a kejklířů ve Waldmünchenu 27. 8. 2010 až 29. 8. 2010 - kalendář žonglování</a></li>
+		<li><a href="/kalendar/udalost-20100901-20100901-pek-1282218275.html">Tribo Fuego 1. 9. 2010 - kalendář žonglování</a></li>
 		<li><a href="/kalendar/udalost-20100904-20100904-niggy-1280746414.html">Den žonglováni s Ultimate Juggling Squad vol.2 4. 9. 2010 - kalendář žonglování</a></li>
 		</ul>
 		</li>
@@ -719,14 +720,18 @@
 		<li><a href="/lide/apo.html">Apo</a></li>
 		<li><a href="/lide/australan.html">David Valenta</a></li>
 		<li><a href="/lide/bloke.html">Tessi</a></li>
+		<li><a href="/lide/bopher.html">David Foltýn</a></li>
 		<li><a href="/lide/brekeke.html">brekeke</a></li>
 		<li><a href="/lide/bujty.html">Tomáš Bujtár</a></li>
 		<li><a href="/lide/cerna543.html">Nikola</a></li>
 		<li><a href="/lide/cibulis.html">Jakub</a></li>
 		<li><a href="/lide/cozzi.html">Tomáš Kinzel</a></li>
 		<li><a href="/lide/danda.html">Danda</a></li>
+		<li><a href="/lide/dedasd.html">Pavel Raus</a></li>
 		<li><a href="/lide/djembeman.html">Glofak Peter</a></li>
 		<li><a href="/lide/em-em.html">Michal</a></li>
+		<li><a href="/lide/fry121.html">Filip Zahradil</a></li>
+		<li><a href="/lide/grib0.html">Grib0</a></li>
 		<li><a href="/lide/grohy.html">Dominik Grohmann</a></li>
 		<li><a href="/lide/haniha.html">Hana</a></li>
 		<li><a href="/lide/hany.html">Tomáš Hanák</a></li>
@@ -751,7 +756,7 @@
 		<li><a href="/lide/niggy.html">Niggy</a></li>
 		<li><a href="/lide/ondrator.html">ondra</a></li>
 		<li><a href="/lide/opicak.html">David Svoboda</a></li>
-		<li><a href="/lide/patrix.html">Patrix</a></li>
+		<li><a href="/lide/patrix.html">patriksoldan</a></li>
 		<li><a href="/lide/paulie.html">Pavel Veselý</a></li>
 		<li><a href="/lide/pravidla.php">Pravidla pro vytvoření účtu</a></li>
 		<li><a href="/lide/prihlaseni.php">Přihlášení</a></li>
@@ -823,12 +828,20 @@
 			</li>
 			<li><a name="misto"></a><a href="/lide/misto/">Žongléři podle místa působení</a>
 			<ul>
+			<li><a href="/lide/misto/banovce-nad-bebravou.html">Žonglování - Bánovce nad Bebravou</a></li>
+			<li><a href="/lide/misto/banska-bystrica.html">Žonglování - Banská Bystrica</a></li>
+			<li><a href="/lide/misto/banska-stiavnica.html">Žonglování - Banská Štiavnica</a></li>
+			<li><a href="/lide/misto/bardejov.html">Žonglování - Bardejov</a></li>
 			<li><a href="/lide/misto/benesov.html">Žonglování - Benešov</a></li>
 			<li><a href="/lide/misto/beroun.html">Žonglování - Beroun</a></li>
 			<li><a href="/lide/misto/blansko.html">Žonglování - Blansko</a></li>
+			<li><a href="/lide/misto/bratislava.html">Žonglování - Bratislava</a></li>
 			<li><a href="/lide/misto/breclav.html">Žonglování - Břeclav</a></li>
+			<li><a href="/lide/misto/brezno.html">Žonglování - Brezno</a></li>
 			<li><a href="/lide/misto/brno.html">Žonglování - Brno</a></li>
 			<li><a href="/lide/misto/bruntal.html">Žonglování - Bruntál</a></li>
+			<li><a href="/lide/misto/bytca.html">Žonglování - Bytča</a></li>
+			<li><a href="/lide/misto/cadca.html">Žonglování - Čadca</a></li>
 			<li><a href="/lide/misto/cechy.html">Žonglování - Čechy</a></li>
 			<li><a href="/lide/misto/cela-cr.html">Žonglování - Celá ČR</a></li>
 			<li><a href="/lide/misto/ceska-lipa.html">Žonglování - Česká Lípa</a></li>
@@ -838,11 +851,19 @@
 			<li><a href="/lide/misto/chomutov.html">Žonglování - Chomutov</a></li>
 			<li><a href="/lide/misto/chrudim.html">Žonglování - Chrudim</a></li>
 			<li><a href="/lide/misto/decin.html">Žonglování - Děčín</a></li>
+			<li><a href="/lide/misto/detva.html">Žonglování - Detva</a></li>
+			<li><a href="/lide/misto/dolny-kubin.html">Žonglování - Dolný Kubín</a></li>
 			<li><a href="/lide/misto/domazlice.html">Žonglování - Domažlice</a></li>
+			<li><a href="/lide/misto/dunajska-streda.html">Žonglování - Dunajská Streda</a></li>
 			<li><a href="/lide/misto/frydek-mistek.html">Žonglování - Frýdek-Místek</a></li>
+			<li><a href="/lide/misto/galanta.html">Žonglování - Galanta</a></li>
+			<li><a href="/lide/misto/gelnica.html">Žonglování - Gelnica</a></li>
 			<li><a href="/lide/misto/havlickuv-brod.html">Žonglování - Havlíčkův Brod</a></li>
+			<li><a href="/lide/misto/hlohovec.html">Žonglování - Hlohovec</a></li>
 			<li><a href="/lide/misto/hodonin.html">Žonglování - Hodonín</a></li>
 			<li><a href="/lide/misto/hradec-kralove.html">Žonglování - Hradec Králové</a></li>
+			<li><a href="/lide/misto/humenne.html">Žonglování - Humenné</a></li>
+			<li><a href="/lide/misto/ilava.html">Žonglování - Ilava</a></li>
 			<li><a href="/lide/misto/jablonec-nad-nisou.html">Žonglování - Jablonec nad Nisou</a></li>
 			<li><a href="/lide/misto/jesenik.html">Žonglování - Jeseník</a></li>
 			<li><a href="/lide/misto/jicin.html">Žonglování - Jičín</a></li>
@@ -850,56 +871,113 @@
 			<li><a href="/lide/misto/jindrichuv-hradec.html">Žonglování - Jindřichův Hradec</a></li>
 			<li><a href="/lide/misto/karlovy-vary.html">Žonglování - Karlovy Vary</a></li>
 			<li><a href="/lide/misto/karvina.html">Žonglování - Karviná</a></li>
+			<li><a href="/lide/misto/kezmarok.html">Žonglování - Kežmarok</a></li>
 			<li><a href="/lide/misto/kladno.html">Žonglování - Kladno</a></li>
 			<li><a href="/lide/misto/klatovy.html">Žonglování - Klatovy</a></li>
 			<li><a href="/lide/misto/kolin.html">Žonglování - Kolín</a></li>
+			<li><a href="/lide/misto/komarno.html">Žonglování - Komárno</a></li>
+			<li><a href="/lide/misto/kosice.html">Žonglování - Košice</a></li>
 			<li><a href="/lide/misto/kromeriz.html">Žonglování - Kroměříž</a></li>
+			<li><a href="/lide/misto/krupina.html">Žonglování - Krupina</a></li>
 			<li><a href="/lide/misto/kutna-hora.html">Žonglování - Kutná Hora</a></li>
+			<li><a href="/lide/misto/kysucke-nove-mesto.html">Žonglování - Kysucké Nové Mesto</a></li>
+			<li><a href="/lide/misto/levice.html">Žonglování - Levice</a></li>
+			<li><a href="/lide/misto/levoca.html">Žonglování - Levoča</a></li>
 			<li><a href="/lide/misto/liberec.html">Žonglování - Liberec</a></li>
+			<li><a href="/lide/misto/liptovsky-mikulas.html">Žonglování - Liptovský Mikuláš</a></li>
 			<li><a href="/lide/misto/litomerice.html">Žonglování - Litoměřice</a></li>
 			<li><a href="/lide/misto/louny.html">Žonglování - Louny</a></li>
+			<li><a href="/lide/misto/lucenec.html">Žonglování - Lučenec</a></li>
+			<li><a href="/lide/misto/malacky.html">Žonglování - Malacky</a></li>
+			<li><a href="/lide/misto/martin.html">Žonglování - Martin</a></li>
+			<li><a href="/lide/misto/medzilaborce.html">Žonglování - Medzilaborce</a></li>
 			<li><a href="/lide/misto/melnik.html">Žonglování - Mělník</a></li>
+			<li><a href="/lide/misto/michalovce.html">Žonglování - Michalovce</a></li>
 			<li><a href="/lide/misto/mlada-boleslav.html">Žonglování - Mladá Boleslav</a></li>
 			<li><a href="/lide/misto/morava.html">Žonglování - Morava</a></li>
 			<li><a href="/lide/misto/most.html">Žonglování - Most</a></li>
+			<li><a href="/lide/misto/myjava.html">Žonglování - Myjava</a></li>
 			<li><a href="/lide/misto/nachod.html">Žonglování - Náchod</a></li>
+			<li><a href="/lide/misto/namestovo.html">Žonglování - Námestovo</a></li>
+			<li><a href="/lide/misto/nitra.html">Žonglování - Nitra</a></li>
+			<li><a href="/lide/misto/nove-mesto-nad-vahom.html">Žonglování - Nové Mesto nad Váhom</a></li>
+			<li><a href="/lide/misto/nove-zamky.html">Žonglování - Nové Zámky</a></li>
 			<li><a href="/lide/misto/novy-jicin.html">Žonglování - Nový Jičín</a></li>
 			<li><a href="/lide/misto/nymburk.html">Žonglování - Nymburk</a></li>
 			<li><a href="/lide/misto/olomouc.html">Žonglování - Olomouc</a></li>
 			<li><a href="/lide/misto/opava.html">Žonglování - Opava</a></li>
 			<li><a href="/lide/misto/ostrava.html">Žonglování - Ostrava</a></li>
 			<li><a href="/lide/misto/pardubice.html">Žonglování - Pardubice</a></li>
+			<li><a href="/lide/misto/partizanske.html">Žonglování - Partizánske</a></li>
 			<li><a href="/lide/misto/pelhrimov.html">Žonglování - Pelhřimov</a></li>
+			<li><a href="/lide/misto/pezinok.html">Žonglování - Pezinok</a></li>
+			<li><a href="/lide/misto/piestany.html">Žonglování - Piešťany</a></li>
 			<li><a href="/lide/misto/pisek.html">Žonglování - Písek</a></li>
 			<li><a href="/lide/misto/plzen.html">Žonglování - Plzeň</a></li>
+			<li><a href="/lide/misto/poltar.html">Žonglování - Poltár</a></li>
+			<li><a href="/lide/misto/poprad.html">Žonglování - Poprad</a></li>
+			<li><a href="/lide/misto/povazska-bystrica.html">Žonglování - Považská Bystrica</a></li>
 			<li><a href="/lide/misto/prachatice.html">Žonglování - Prachatice</a></li>
 			<li><a href="/lide/misto/praha.html">Žonglování - Praha</a></li>
 			<li><a href="/lide/misto/prerov.html">Žonglování - Přerov</a></li>
+			<li><a href="/lide/misto/presov.html">Žonglování - Prešov</a></li>
 			<li><a href="/lide/misto/pribram.html">Žonglování - Příbram</a></li>
+			<li><a href="/lide/misto/prievidza.html">Žonglování - Prievidza</a></li>
 			<li><a href="/lide/misto/prostejov.html">Žonglování - Prostějov</a></li>
+			<li><a href="/lide/misto/puchov.html">Žonglování - Púchov</a></li>
 			<li><a href="/lide/misto/rakovnik.html">Žonglování - Rakovník</a></li>
+			<li><a href="/lide/misto/revuca.html">Žonglování - Revúca</a></li>
+			<li><a href="/lide/misto/rimavska-sobota.html">Žonglování - Rimavská Sobota</a></li>
 			<li><a href="/lide/misto/rokycany.html">Žonglování - Rokycany</a></li>
+			<li><a href="/lide/misto/roznava.html">Žonglování - Rožňava</a></li>
+			<li><a href="/lide/misto/ruzomberok.html">Žonglování - Ružomberok</a></li>
 			<li><a href="/lide/misto/rychnov-nad-kneznou.html">Žonglování - Rychnov nad Kněžnou</a></li>
+			<li><a href="/lide/misto/sabinov.html">Žonglování - Sabinov</a></li>
+			<li><a href="/lide/misto/sala.html">Žonglování - Šaľa</a></li>
 			<li><a href="/lide/misto/semily.html">Žonglování - Semily</a></li>
+			<li><a href="/lide/misto/senec.html">Žonglování - Senec</a></li>
+			<li><a href="/lide/misto/senica.html">Žonglování - Senica</a></li>
+			<li><a href="/lide/misto/skalica.html">Žonglování - Skalica</a></li>
 			<li><a href="/lide/misto/slezko.html">Žonglování - Slezko</a></li>
-			<li><a href="/lide/misto/slovensko.html">Žonglování - Slovensko</a></li>
+			<li><a href="/lide/misto/slovensko.html">Žonglování - Celé Slovensko</a></li>
+			<li><a href="/lide/misto/snina.html">Žonglování - Snina</a></li>
+			<li><a href="/lide/misto/sobrance.html">Žonglování - Sobrance</a></li>
 			<li><a href="/lide/misto/sokolov.html">Žonglování - Sokolov</a></li>
+			<li><a href="/lide/misto/spisska-nova-ves.html">Žonglování - Spišská Nová Ves</a></li>
+			<li><a href="/lide/misto/stara-lubovna.html">Žonglování - Stará Ľubovňa</a></li>
 			<li><a href="/lide/misto/strakonice.html">Žonglování - Strakonice</a></li>
+			<li><a href="/lide/misto/stropkov.html">Žonglování - Stropkov</a></li>
 			<li><a href="/lide/misto/sumperk.html">Žonglování - Šumperk</a></li>
+			<li><a href="/lide/misto/svidnik.html">Žonglování - Svidník</a></li>
 			<li><a href="/lide/misto/svitavy.html">Žonglování - Svitavy</a></li>
 			<li><a href="/lide/misto/tabor.html">Žonglování - Tábor</a></li>
 			<li><a href="/lide/misto/tachov.html">Žonglování - Tachov</a></li>
 			<li><a href="/lide/misto/teplice.html">Žonglování - Teplice</a></li>
+			<li><a href="/lide/misto/topolcany.html">Žonglování - Topoľčany</a></li>
 			<li><a href="/lide/misto/trebic.html">Žonglování - Třebíč</a></li>
+			<li><a href="/lide/misto/trebisov.html">Žonglování - Trebišov</a></li>
+			<li><a href="/lide/misto/trencin.html">Žonglování - Trenčín</a></li>
+			<li><a href="/lide/misto/trnava.html">Žonglování - Trnava</a></li>
 			<li><a href="/lide/misto/trutnov.html">Žonglování - Trutnov</a></li>
+			<li><a href="/lide/misto/turcianske-teplice.html">Žonglování - Turčianske Teplice</a></li>
+			<li><a href="/lide/misto/tvrdosin.html">Žonglování - Tvrdošín</a></li>
 			<li><a href="/lide/misto/uherske-hradiste.html">Žonglování - Uherské Hradiště</a></li>
 			<li><a href="/lide/misto/usti-nad-labem.html">Žonglování - Ústí nad Labem</a></li>
 			<li><a href="/lide/misto/usti-nad-orlici.html">Žonglování - Ústí nad Orlicí</a></li>
+			<li><a href="/lide/misto/velky-krtis.html">Žonglování - Veľký Krtíš</a></li>
+			<li><a href="/lide/misto/vranov-nad-toplou.html">Žonglování - Vranov nad Topľou</a></li>
 			<li><a href="/lide/misto/vsetin.html">Žonglování - Vsetín</a></li>
+			<li><a href="/lide/misto/vychodni-slovensko.html">Žonglování - Východní Slovensko</a></li>
 			<li><a href="/lide/misto/vyskov.html">Žonglování - Vyškov</a></li>
+			<li><a href="/lide/misto/zapadni-slovensko.html">Žonglování - Západní Slovensko</a></li>
+			<li><a href="/lide/misto/zarnovica.html">Žonglování - Žarnovica</a></li>
 			<li><a href="/lide/misto/zdar-nad-sazavou.html">Žonglování - Žďár nad Sázavou</a></li>
+			<li><a href="/lide/misto/ziar-nad-hronom.html">Žonglování - ze Žiaru nad Hronom</a></li>
+			<li><a href="/lide/misto/zilina.html">Žonglování - Žilina</a></li>
+			<li><a href="/lide/misto/zlate-moravce.html">Žonglování - Zlaté Moravce</a></li>
 			<li><a href="/lide/misto/zlin.html">Žonglování - Zlín</a></li>
 			<li><a href="/lide/misto/znojmo.html">Žonglování - Znojmo</a></li>
+			<li><a href="/lide/misto/zvolen.html">Žonglování - Zvolen</a></li>
 			</ul>
 			</li>
 			<li><a name="stranka2"></a><a href="/lide/stranka2/">Seznam žonglérů - 2. stránka</a>
@@ -2267,7 +2345,7 @@
 		<li><a href="/video/yesterday-didnt-happen.html">Yesterday didn&#039;t happen</a></li>
 		</ul>
 		</li>
-		<li><a name="vyhledavani"></a><a href="/vyhledavani/">Vyhledávání</a>
+		<li><a name="vyhledavani"></a><a href="/vyhledavani/">Žonglérův slabikář - vyhledávání</a>
 		
 		</li>
 	</ul>

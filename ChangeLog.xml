@@ -1,6 +1,12 @@
 <?xml version="1.0"?>
 <log>
 <logentry
+   revision="310">
+<author>petr</author>
+<date>2010-08-21T16:40:44.266959Z</date>
+<msg>Možnost nastavení slovenských měst v profilu</msg>
+</logentry>
+<logentry
    revision="309">
 <author>petr</author>
 <date>2010-08-19T21:33:40.624573Z</date>
