@@ -11,11 +11,19 @@ Stránky o žonglování s ohněm.
 </p>
 
 <h5>
-<a href="http://www.zonglovanie.sk" title="Slovenský server." class="external" onclick="pageTracker._trackPageview('/goto/zonglovanie.sk');">zonglovanie.sk</a>
+<a href="http://www.zonglovanie.ariesa.sk" title="Slovenský server." class="external" onclick="pageTracker._trackPageview('/goto/zonglovanie.ariesa.sk');">zonglovanie.ariesa.sk</a>
 </h5>
 <p>
-<a href="http://www.zonglovanie.sk" title="Slovenský server." onclick="pageTracker._trackPageview('/goto/zonglovanie.sk');">{obrazek soubor="odkazy-zonglovanie.sk.png" popisek="zonglovanie.sk"}</a>
+<a href="http://www.zonglovanie.ariesa.sk" title="Slovenský server." onclick="pageTracker._trackPageview('/goto/zonglovanie.ariesa.sk');">{obrazek soubor="odkazy-zonglovanie.ariesa.sk.png" popisek="zonglovanie.ariesa.sk"}</a>
 Skvělá <a href="literatura.html" title="Další literatura o žonglování.">učebnice žonglování</a> pro samouky. Dostupná ve formátu pdf.
+</p>
+
+<h5>
+<a href="http://juggle.sk" title="Slovenský server." class="external" onclick="pageTracker._trackPageview('/goto/juggle.sk');">juggle.sk</a>
+</h5>
+<p>
+<a href="http://juggle.sk" title="Slovenský server." onclick="pageTracker._trackPageview('/goto/juggle.sk');">{obrazek soubor="odkazy-juggle.sk.png" popisek="juggle.sk"}</a>
+Další příspěvek ze <a href="{$smarty.const.LIDE_URL}misto/#sk" title="Seznam žonglérů ze Slovenska">Slovenska</a>. Mižův žonglérský portál.
 </p>
 
 <h5><a href="http://juggling.tv" title="Domov žonglérského videa na internetu." class="external" onclick="pageTracker._trackPageview('/goto/juggling.tv');">juggling.tv</a></h5>

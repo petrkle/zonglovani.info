@@ -1,6 +1,12 @@
 <?xml version="1.0"?>
 <log>
 <logentry
+   revision="314">
+<author>petr</author>
+<date>2010-08-22T17:59:22.279346Z</date>
+<msg>Odkazy na mapu - menu+sitemap.</msg>
+</logentry>
+<logentry
    revision="313">
 <author>petr</author>
 <date>2010-08-22T09:50:17.577163Z</date>
