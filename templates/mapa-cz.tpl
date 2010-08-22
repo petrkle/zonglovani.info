@@ -4,12 +4,38 @@
   <name>Žognlování v ČR</name>
   <description><![CDATA[Žonglérská mapa České republiky]]></description>
 
+<Style id="spendlik">
+    <BalloonStyle>
+      <!-- a background color for the balloon -->
+      <bgColor>ff336699</bgColor>
+      <!-- styling of the balloon text -->
+      <text><![CDATA[
+			<h3 class="baloontitle">$[name]</h3>
+      $[description]
+      ]]></text>
+    </BalloonStyle>
+      <Icon>
+         <color>ffff0000</color>
+      </Icon>
+  </Style>
+<Style id="red">
+  <IconStyle>
+    <Icon>
+      <href>http://www.google.com/intl/en_us/mapfiles/ms/icons/red-dot.png</href>
+    </Icon>
+  </IconStyle>
+</Style>
+
 {foreach from=$mista item=misto key=id}
 {if is_array($misto.lide)}
 <Placemark>
+<styleUrl>#spendlik</styleUrl>
+<styleUrl>#red</styleUrl>
 <name>{$misto.nazev|escape}</name>
 <description><![CDATA[
-<h3>{$misto.nazev|escape}</h3>
+<p>
+Žongléři {$misto.odkud|escape}.
+</p>
 <ul>
 {foreach from=$misto.lide item=clovek name=vypislidi}
 {if $smarty.foreach.vypislidi.index<=8}

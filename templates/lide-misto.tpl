@@ -10,4 +10,4 @@ V žonglérově slabikáři ještě není žádný uživatel {$misto|escape}. M�
 </p>
 {/if}
 <h3><a href="/mapa/" title="Interaktivní žonglérská mapa">Mapa</a></h3>
-<p>{obrazek soubor="$id.png" popisek="Mapa - $jmeno" path='/mapa/static/'}</p>
+<p><a href="/mapa/" title="Interaktivní žonglérská mapa">{obrazek soubor="$id.png" popisek="Mapa - $jmeno" path='/mapa/static/'}</a></p>

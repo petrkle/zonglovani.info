@@ -2,8 +2,9 @@
 #map_canvas{width:800px;height:500px;float:left;border-left:solid 1px #000;border-top:solid 1px #000;border-bottom:solid 1px #000;background:#eee;}
 .gmnoprint{text-align:left;}
 .gmnoprint h3{margin:0;padding:0;}
+.gmnoprint ul{margin:0 0 0 15px;padding:0;}
 #legenda{width:197px;height:500px;float:right;border-right:solid 1px #000;border-top:solid 1px #000;border-bottom:solid 1px #000;border-left:dashed 1px #000;background:#eee;}
 .cleaner{clear:all;}
 #legenda{text-align:left;}
-#legenda h3{color:#f00;}
+h3{color:#c00;}
 #legenda p{padding:5px;}

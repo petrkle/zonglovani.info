@@ -12,14 +12,19 @@ function initialize() {
 	}
 	var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
 
-var ctaLayer = new google.maps.KmlLayer('http://{/literal}{$smarty.server.SERVER_NAME}/mapa/mapa-cz.kml?v{$smarty.now}{literal}',{suppressInfoWindows: true});
+var ctaLayer = new google.maps.KmlLayer('http://{/literal}{$smarty.server.SERVER_NAME}/mapa/mapa-cz.kml?v{$smarty.now}{literal}');
 ctaLayer.setMap(map);
 
+google.maps.event.addListener(ctaLayer, 'click', function(kmlEvent) {
+  kmlEvent.featureData.description = kmlEvent.featureData.description.replace(/ target="_blank"/ig, "");
+});
+
+/*
 google.maps.event.addListener(ctaLayer, 'click', function(kmlEvent) {
   var text = kmlEvent.featureData.description.replace(/ target="_blank"/ig, "")
   showInDiv(text);
 });
-
+*/
 
 }
 function showInDiv(text) {
@@ -50,9 +55,12 @@ window.onload = loadScript;
 
 <div class="kontejner">
 <div id="map_canvas"></div><div id="legenda">
-<h3>Beta</h3>
+<h3>Žonglérská mapa</h3>
 <p>
-Zkušební verze mapy žonglování v České republice.
+Mapa s vyznačením měst kde jsou žongléři.
+</p>
+<p>
+Přidat se můžeš tak, že si <a href="/lide/pravidla.php" class="add">založíš účet</a> v žonglérově slabikáři.
 </p>
 </div>
 <div class="clear">&nbsp;</div>
