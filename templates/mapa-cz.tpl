@@ -9,14 +9,14 @@
 <Placemark>
 <name>{$misto.nazev|escape}</name>
 <description><![CDATA[
-Žongléři {$misto.odkud|escape}
+<h3>{$misto.nazev|escape}</h3>
 <ul>
 {foreach from=$misto.lide item=clovek name=vypislidi}
-{if $smarty.foreach.vypislidi.index<=4}
-<li><a href="http://{$smarty.server.SERVER_NAME}{$smarty.const.LIDE_URL}{$clovek.login|escape}.html" title="Detail uživatele {$clovek.jmeno|escape}">{$clovek.jmeno|escape}</a></li>
+{if $smarty.foreach.vypislidi.index<=8}
+<li><a href="http://{$smarty.server.SERVER_NAME}{$smarty.const.LIDE_URL}{$clovek.login|escape}.html" title="Detail uživatele {$clovek.jmeno|escape}" class="mlink">{$clovek.jmeno|escape}</a></li>
 {/if}
-{if $smarty.foreach.vypislidi.index==5}
-<li><a href="http://{$smarty.server.SERVER_NAME}{$smarty.const.LIDE_URL}misto/{$id}.html" title="Další uživatelé.">Další ...</a></li>
+{if $smarty.foreach.vypislidi.index==9}
+<li><a href="http://{$smarty.server.SERVER_NAME}{$smarty.const.LIDE_URL}misto/{$id}.html" title="Další uživatelé." class="mlink">Další ...</a></li>
 {/if}
 {/foreach}
 </ul>
