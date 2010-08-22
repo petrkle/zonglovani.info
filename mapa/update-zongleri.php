@@ -3,7 +3,7 @@ require('../init.php');
 require('../func.php');
 require('../lide/pusobiste.php');
 
-$mista=get_places('CZ',$pusobiste);
+$mista=array_merge(get_places('CZ',$pusobiste),get_places('SK',$pusobiste));
 $zongleri=array();
 
 foreach(get_loginy() as $login){
@@ -22,11 +22,11 @@ foreach(get_loginy() as $login){
 
 $smarty->assign_by_ref('mista',$mista);
 
-$mapa=$smarty->fetch('mapa-cz.tpl');
+$mapa=$smarty->fetch('mapa-zongleri.tpl');
 print '<pre>'.htmlspecialchars($mapa).'</pre>';
 
 
-$foo=fopen('../mapa/mapa-cz.kml','w');
+$foo=fopen('../data/kml/mapa-zongleri.kml','w');
 fwrite($foo,$mapa);
 fclose($foo);
 ?>

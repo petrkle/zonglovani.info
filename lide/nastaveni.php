@@ -249,6 +249,8 @@ $trail->addStep('Nastavení',LIDE_URL.'nastaveni/');
 						unlink(LIDE_DATA.'/'.$_SESSION['uzivatel']['login'].'/pusobiste.txt');
 					}
 					$_SESSION['uzivatel']=get_user_complete($_SESSION['uzivatel']['login']);
+					$handle = fopen('http://'.$_SERVER['SERVER_NAME'].'/mapa/update-zongleri.php', 'r');
+					fclose($handle);
 					header('Location: '.LIDE_URL.'nastaveni/?result=ok');
 					exit();
 				}

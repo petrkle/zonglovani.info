@@ -195,6 +195,9 @@
 			</li>
 		</ul>
 		</li>
+		<li><a name="mapa"></a><a href="/mapa/">Žonglérská mapa</a>
+		
+		</li>
 		<li><a name="micky"></a><a href="/micky/">Žonglování s míčky</a>
 		<ul>
 		<li><a href="/micky/balancovani.html">Balancování míčku</a></li>

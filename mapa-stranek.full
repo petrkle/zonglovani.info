@@ -776,6 +776,7 @@
 		<li><a href="/lide/summer.html">Summer</a></li>
 		<li><a href="/lide/suro.html">Pavel Surovy</a></li>
 		<li><a href="/lide/svaty.html">Svaty</a></li>
+		<li><a href="/lide/terminator.html">Terminátor</a></li>
 		<li><a href="/lide/tikev.html">Vítězslav Dvořák</a></li>
 		<li><a href="/lide/tomas.html">Tomáš Mudroch</a></li>
 		<li><a href="/lide/tommy.html">Thomas</a></li>
@@ -972,7 +973,7 @@
 			<li><a href="/lide/misto/zapadni-slovensko.html">Žonglování - Západní Slovensko</a></li>
 			<li><a href="/lide/misto/zarnovica.html">Žonglování - Žarnovica</a></li>
 			<li><a href="/lide/misto/zdar-nad-sazavou.html">Žonglování - Žďár nad Sázavou</a></li>
-			<li><a href="/lide/misto/ziar-nad-hronom.html">Žonglování - ze Žiaru nad Hronom</a></li>
+			<li><a href="/lide/misto/ziar-nad-hronom.html">Žonglování - Žiar nad Hronom</a></li>
 			<li><a href="/lide/misto/zilina.html">Žonglování - Žilina</a></li>
 			<li><a href="/lide/misto/zlate-moravce.html">Žonglování - Zlaté Moravce</a></li>
 			<li><a href="/lide/misto/zlin.html">Žonglování - Zlín</a></li>
@@ -987,6 +988,9 @@
 			
 			</li>
 		</ul>
+		</li>
+		<li><a name="mapa"></a><a href="/mapa/">Žonglérská mapa</a>
+		
 		</li>
 		<li><a name="micky"></a><a href="/micky/">Žonglování s míčky</a>
 		<ul>

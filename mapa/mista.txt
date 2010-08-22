@@ -146,5 +146,5 @@ vranov-nad-toplou:Vranov nad Topľou:z Vranova nad Topľou:ve Vranove nad Topľo
 zlate-moravce:Zlaté Moravce:ze Zlatých Moravců:v Zlatých Moravcích:kraj-nitriansky:SK:48.3832287:18.3976342
 zvolen:Zvolen:ze Zvolena:ve Zvoleni:kraj-banskobystricky:SK:48.5758623:19.1256291
 zarnovica:Žarnovica:z Žarnovice:v Žarnovici:kraj-banskobystricky:SK:48.4883608:18.7077948
-ziar-nad-hronom:ze Žiaru nad Hronom:v Žiaru nad Hronom:Žiar nad Hronom:kraj-banskobystricky:SK:48.5882665:18.8493777
+ziar-nad-hronom:Žiar nad Hronom:ze Žiaru nad Hronom:v Žiaru nad Hronom:kraj-banskobystricky:SK:48.5882665:18.8493777
 zilina:Žilina:ze Žiliny:v Žilině:kraj-zilinsky:SK:49.2208147:18.7405030

@@ -1,9 +1,9 @@
 <?php
 
 function smarty_function_vypismenu($params, &$smarty){
-	$adresy = array('/','/micky/','/kruhy/','/kuzely/','/lide/','/kalendar/','/ostatni.html');
-	$texty = array('Úvodní stránka','Míčky','Kruhy','Kužely','Žongléři','Kalendář','Ostatní');
-	$popis = array('Úvodní stránka žonglérova slabikáře','Začínáme s míčky','Začínáme s kruhy','Začínáme s kužely','Seznam uživatelů žonglérova slabikáře.','Kalendář žonglování','Vše ostatní o žonglování');
+	$adresy = array('/','/micky/','/kruhy/','/kuzely/','/lide/','/ostatni.html');
+	$texty = array('Úvodní stránka','Míčky','Kruhy','Kužely','Žongléři','Ostatní');
+	$popis = array('Úvodní stránka žonglérova slabikáře','Začínáme s míčky','Začínáme s kruhy','Začínáme s kužely','Seznam uživatelů žonglérova slabikáře.','Vše ostatní o žonglování');
 	
 	$navrat="<ul>\n";
 
@@ -49,12 +49,12 @@ function submenu($id){
 	}
 
 	if($id==4){
-		$adresy = array('/diskuse/');
-		$texty = array('Diskuse');
-		$popisky = array('Diskuse a komentáře');
+		$adresy = array('/kalendar/','/mapa/','/diskuse/');
+		$texty = array('Kalendář','Mapa','Diskuse');
+		$popisky = array('Kalendář žonglování','Žonglérská mapa','Diskuse a komentáře');
 	}
 
-	if($id==6){
+	if($id==5){
 		$adresy = array('/obrazky/','/video/');
 		$texty = array('Obrázky','Video');
 		$popisky = array('Obrázky žonglování','Zajímavá žonglérská videa');
