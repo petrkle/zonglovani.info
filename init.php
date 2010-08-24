@@ -132,7 +132,7 @@ $texty=array(
 'facebook.com/zongleruv.slabikar',
 'Tajemství gravitace',
 'g = 9,80665 m/s<sup>2</sup>',
-'Žonglování není žločin',
+'Žonglování není zločin',
 'I♥ juggling',
 'Žonglérův slabikář na facebooku',
 'Přidej se',

@@ -11,11 +11,12 @@ function initialize() {
 	}
 	var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
 
-	var ctaLayer = new google.maps.KmlLayer('http://{/literal}{$smarty.server.SERVER_NAME}/mapa/mapa-zongleri.kml?v{$smarty.now}{literal}');
+	var ctaLayer = new google.maps.KmlLayer('http://{/literal}zonglovani.info/mapa/mapa-zongleri.kml?v{$smarty.now}{literal}');
 	ctaLayer.setMap(map);
 
 	google.maps.event.addListener(ctaLayer, 'click', function(kmlEvent) {
-		kmlEvent.featureData.description = kmlEvent.featureData.description.replace(/ target="_blank"/ig, "");
+		kmlEvent.featureData.info_window_html = kmlEvent.featureData.info_window_html.replace('_blank','_self');
+		kmlEvent.featureData.description = kmlEvent.featureData.description.replace('_blank','_self');
 	});
 }
 function loadScript() {
