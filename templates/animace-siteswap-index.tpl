@@ -1,5 +1,5 @@
 <p>
-Siteswap je zápis žonglování pomocí čísel.<br /><a href="" title="Jak funguje siteswap">Podrobný popis &raquo;</a>
+Siteswap je zápis žonglování pomocí čísel.<br /><a href="/siteswap.html" title="Jak funguje siteswap">Podrobný popis &raquo;</a>
 </p>
 {if is_array($nazvy)}
 {foreach from=$nazvy item=nazev key=odkaz}

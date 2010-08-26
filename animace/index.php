@@ -26,10 +26,12 @@ $dalsi=array(
 
 if($nameless){
 	$titulek='Animace žonglování - anglické názvy';
+	$smarty->assign('description','Animace žonglování s míčky - anglické názvy.');
 	$smarty->assign('nadpis','Animace žonglování');
 	$trail->addStep('Anglické názvy','/animace/en/');
 	array_push($dalsi,array('url'=>'/animace/','text'=>'Česky pojmenované animace','title'=>'Česky pojmenované animace žonglování'));
 }else{
+	$smarty->assign('description','Animace žonglování s míčky.');
 	array_push($dalsi,array('url'=>'/animace/en/','text'=>'Anglicky pojmenované animace','title'=>'Anglicky pojmenované animace žonglování'));
 }
 
@@ -58,7 +60,6 @@ if($id){
 	$smarty->assign_by_ref('dalsi',$dalsi);
 	$smarty->assign_by_ref('trail', $trail->path);
 	$smarty->assign('keywords','animace, žonglování, siteswap, juggleanim');
-	$smarty->assign('description','Animace žonglování s míčky.');
 	$smarty->assign('titulek',$titulek);
 	$smarty->assign_by_ref('animace',$animace);
 	$smarty->assign('nahled','http://'.$_SERVER['SERVER_NAME'].'/img/a/animace-panacek.png');
