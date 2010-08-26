@@ -2,21 +2,24 @@
 <script type="text/javascript" src="/mapa/jquery-1.4.2.min.js"></script>
 <script type="text/javascript">
 function initialize() {
-	var myLatlng = new google.maps.LatLng(49.8,15.8);
+	var myLatlng = new google.maps.LatLng(49.453567975668975,16.816765);
 	var myOptions = {
-		zoom: 7,
+		zoom: 6,
 		center: myLatlng,
 		mapTypeId: google.maps.MapTypeId.ROADMAP,
 		mapTypeControl: false
 	}
 	var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
 
-	var ctaLayer = new google.maps.KmlLayer('http://{/literal}zonglovani.info/mapa/mapa-zongleri.kml?v{$smarty.now}{literal}');
+	var ctaLayer = new google.maps.KmlLayer('http://{/literal}zonglovani.info/mapa/mapa-zongleri.kml?v{$smarty.now}{literal}',{preserveViewport:true});
 	ctaLayer.setMap(map);
 
 	google.maps.event.addListener(ctaLayer, 'click', function(kmlEvent) {
 		kmlEvent.featureData.info_window_html = kmlEvent.featureData.info_window_html.replace('_blank','_self');
 		kmlEvent.featureData.description = kmlEvent.featureData.description.replace('_blank','_self');
+		if(!window.location.hash.match(kmlEvent.featureData.id)){
+			window.location.hash = window.location.hash+'@p='+kmlEvent.featureData.id;
+		}
 	});
 }
 function loadScript() {

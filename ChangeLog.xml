@@ -1,6 +1,12 @@
 <?xml version="1.0"?>
 <log>
 <logentry
+   revision="316">
+<author>petr</author>
+<date>2010-08-24T21:25:05.679709Z</date>
+<msg>Otvírání odkazů na mapě ve stejném okně.</msg>
+</logentry>
+<logentry
    revision="315">
 <author>petr</author>
 <date>2010-08-22T18:59:34.753222Z</date>
