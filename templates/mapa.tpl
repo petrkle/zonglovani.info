@@ -1,5 +1,4 @@
 {literal}
-<script type="text/javascript" src="/mapa/jquery-1.4.2.min.js"></script>
 <script type="text/javascript">
 function initialize() {
 	var myLatlng = new google.maps.LatLng(49.453567975668975,16.816765);
@@ -17,10 +16,8 @@ function initialize() {
 	google.maps.event.addListener(ctaLayer, 'click', function(kmlEvent) {
 		kmlEvent.featureData.info_window_html = kmlEvent.featureData.info_window_html.replace('_blank','_self');
 		kmlEvent.featureData.description = kmlEvent.featureData.description.replace('_blank','_self');
-		if(!window.location.hash.match(kmlEvent.featureData.id)){
-			window.location.hash = window.location.hash+'@p='+kmlEvent.featureData.id;
-		}
 	});
+
 }
 function loadScript() {
 	var script = document.createElement("script");

@@ -1,6 +1,18 @@
 <?xml version="1.0"?>
 <log>
 <logentry
+   revision="318">
+<author>petr</author>
+<date>2010-08-26T20:35:57.750852Z</date>
+<msg>Oprava popisků stránek se seznamem siteswapů a odkazu na siteswapy.</msg>
+</logentry>
+<logentry
+   revision="317">
+<author>petr</author>
+<date>2010-08-26T20:26:29.491036Z</date>
+<msg>Změna výchozího měřítka mapy</msg>
+</logentry>
+<logentry
    revision="316">
 <author>petr</author>
 <date>2010-08-24T21:25:05.679709Z</date>
