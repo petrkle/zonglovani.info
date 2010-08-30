@@ -1,6 +1,8 @@
 addicted*http://www.youtube.com/watch?v=tEfjFw1RHh0*Addicted*Volně dostupné <a href="http://www.circusplanet.net/addicted/addicted.avi" class="external" onclick="pageTracker._trackPageview('/goto/circusplanet.net/addicted/addicted.avi');">DVD o žonglování</a>.
 bratri-v-tricku*http://juggling.tv:3fe93657587cb9c469f0*Bratři v tricku*Něco z českých luhů a háju - Adam a Vašek.
 bratri-v-tricku-2*http://juggling.tv:634d580161c603422437*Bratři v tricku 2*Bratři v tricku nelení a jsou tu zas.
+bratri-v-tricku-training-day*http://juggling.tv:deed2e3bae3a5077675f*Bratři v tricku - trénink*Letní trénink bratrů v triku.
+sun*http://juggling.tv:ec7f2218042a5b612457*Sluníčko*Sluníčko, Jirka z Ostravy a diabolo.
 shake-that*http://circusplanet.net/addicted/shakethat.avi*Shake That*Upoutávka na představení žonglujících barmanů <a href="http://www.shakethat.be/" class="external" onclick="pageTracker._trackPageview('/goto/shakethat.be');">shakethat.be</a>. Nebo snad míchajících žonglérů?
 stepz*http://juggling.tv:45c4271ab9076ead5605*Stepz*Čtyři žongléři z Říma.
 passing-zone*http://www.youtube.com/watch?v=lzZ50SbOm-A*The Passing Zone*Owen Morse a Jon Wee předvádí balet s motorovými pilami a spoustu dalších nebezpečných, ale zábavných kousků.

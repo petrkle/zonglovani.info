@@ -38,18 +38,18 @@
 2010-08-23*Žonglérská mapa*/mapa/*mapa.png*Mapa s vyznačením měst kde jsou žongléři. Přidat se můžeš tak, že si založíš účet v žonglérově slabikáři.
 2010-08-30*Fotky z Ulity*/obrazky/filtr/Ulita*ulita.cz.png*Fotografie z podzimního, zimního a jarního žonglování v Ulitě.
 2010-09-06*Neúplná hvězda*/kuzely/passing/prebihani4z11k.html*kuzely-passing-prebihani4z11kc.png*Občas není dostatek žonglérů na úplnou <a href="http://zonglovani.info/kuzely/passing/star.html" title="Trik pro 5 žonglérů.">hvězdu</a> a pak je potřeba trochu běhat.
-2010-09-13*Výhody pro registrované uživatele*/exkurze.html*exkurze-nahled-2010-2-28-19-49-47.jpg*Obrázky a popis výhod pro registrované uživatele žonglérova slabikáře.
-2010-09-20*Obrázky na plochu*/obrazky-na-plochu/*kuzelky-na-trave.jpg*Obrázky na plochu počítače s žonglérskou tématikou.
-2010-09-27*Literatura*/literatura.html*encyclopaedia.jpg*Přehled nejlepších knížek o žonglování.
-2010-10-04*Helikoptéra*/kuzely/3/helikoptera.html*kuzely-3-helikopterac.png*Trik s kuželkou. Ale pozor, je trochu na hlavu :^)
-2010-10-11*Otáčení kuželky okolo palce*/kuzely/toceni-okolo-palce.html*tocenib.png*Trik který můžeš trénovat i v místnostech s nízkým stropem.
-2010-10-18*Výuka žonglování*/lide/dovednost/workshop.html*usx.jpg*Seznam žonglérů a žonglérek kteří tě naučí žonglovat.
-2010-10-25*RSS agregátor*/rss/*rss.png*Přehled novinek na stránkách o žonglování.
-2010-11-01*What the (beepbeep) do we know?*/video/what-the-beepbeep-do-we-know.html*partnerpoi.jpg*Točení s poi ve více lidech.
-2010-11-08*Bláznivá žehlička*/video/club2ring.html*club2ring.png*Krátký příběh o tom, co provedla splašená žehlička.
-2010-11-15*Sloupy ve dvou*/kuzely/passing/sloupy.html*kuzely-passing-sloupyd.png*Trik pro dva žongléry se čtyřmi kužely.
-2010-11-22
-2010-11-29
+2010-09-13*Bratři v tricku - trénink*/video/bratri-v-tricku-training-day.html*training-day.jpg*Letní trénink bratrů v triku.
+2010-09-20*Výhody pro registrované uživatele*/exkurze.html*exkurze-nahled-2010-2-28-19-49-47.jpg*Obrázky a popis výhod pro registrované uživatele žonglérova slabikáře.
+2010-09-27*Sun*/video/sun.html*sun.jpg*Sluníčko, Jirka z Ostravy a diabolo.
+2010-10-04*Obrázky na plochu*/obrazky-na-plochu/*kuzelky-na-trave.jpg*Obrázky na plochu počítače s žonglérskou tématikou.
+2010-10-11*Literatura*/literatura.html*encyclopaedia.jpg*Přehled nejlepších knížek o žonglování.
+2010-10-18*Helikoptéra*/kuzely/3/helikoptera.html*kuzely-3-helikopterac.png*Trik s kuželkou. Ale pozor, je trochu na hlavu :^)
+2010-10-25*Otáčení kuželky okolo palce*/kuzely/toceni-okolo-palce.html*tocenib.png*Trik který můžeš trénovat i v místnostech s nízkým stropem.
+2010-11-01*Výuka žonglování*/lide/dovednost/workshop.html*usx.jpg*Seznam žonglérů a žonglérek kteří tě naučí žonglovat.
+2010-11-08*RSS agregátor*/rss/*rss.png*Přehled novinek na stránkách o žonglování.
+2010-11-15*What the (beepbeep) do we know?*/video/what-the-beepbeep-do-we-know.html*partnerpoi.jpg*Točení s poi ve více lidech.
+2010-11-22*Bláznivá žehlička*/video/club2ring.html*club2ring.png*Krátký příběh o tom, co provedla splašená žehlička.
+2010-11-29*Sloupy ve dvou*/kuzely/passing/sloupy.html*kuzely-passing-sloupyd.png*Trik pro dva žongléry se čtyřmi kužely.
 2010-12-06
 2010-12-13
 2010-12-20
