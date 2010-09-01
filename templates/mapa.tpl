@@ -10,7 +10,7 @@ function initialize() {
 	}
 	var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
 
-	var ctaLayer = new google.maps.KmlLayer('http://{/literal}zonglovani.info/mapa/mapa-zongleri.kml?v{$smarty.now}{literal}',{preserveViewport:true});
+	var ctaLayer = new google.maps.KmlLayer('http://zonglovani.info/mapa/mapa-zongleri.kml',{preserveViewport:true});
 	ctaLayer.setMap(map);
 
 	google.maps.event.addListener(ctaLayer, 'click', function(kmlEvent) {

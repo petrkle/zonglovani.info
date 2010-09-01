@@ -37,6 +37,8 @@ $trail->addStep('Nastavení',LIDE_URL.'nastaveni/');
 					$foo=fopen(LIDE_DATA.'/'.$_SESSION['uzivatel']['login'].'/jmeno.txt','w');
 					fwrite($foo,$jmeno);
 					fclose($foo);
+					$handle = fopen('http://'.$_SERVER['SERVER_NAME'].'/mapa/update-zongleri.php', 'r');
+					fclose($handle);
 					$_SESSION['uzivatel']=get_user_complete($_SESSION['uzivatel']['login']);
 					header('Location: '.LIDE_URL.'/nastaveni/?result=ok');
 					exit();
