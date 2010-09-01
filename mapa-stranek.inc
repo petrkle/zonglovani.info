@@ -425,6 +425,7 @@
 		<li><a href="/video/balance-tricks-2.html">Balancování kuželů</a></li>
 		<li><a href="/video/ball-club-scissors.html">Míček - kužel - nůžky</a></li>
 		<li><a href="/video/bratri-v-tricku-2.html">Bratři v tricku 2</a></li>
+		<li><a href="/video/bratri-v-tricku-training-day.html">Bratři v tricku - trénink</a></li>
 		<li><a href="/video/bratri-v-tricku.html">Bratři v tricku</a></li>
 		<li><a href="/video/c2laballe-0707.html">C2laballe 0707</a></li>
 		<li><a href="/video/club2ring.html">Bláznivá žehlička</a></li>
@@ -449,12 +450,13 @@
 		<li><a href="/video/prechac-weaves.html">Prechac Weaves</a></li>
 		<li><a href="/video/roucoulette-sauce-poisson.html">Roucoulette sauce poisson</a></li>
 		<li><a href="/video/stepz.html">Stepz</a></li>
+		<li><a href="/video/sun.html">Sluníčko</a></li>
 		<li><a href="/video/take-it-out-3.html">Take It Out 3#</a></li>
 		<li><a href="/video/what-the-beepbeep-do-we-know.html">What the (beepbeep) do we know?</a></li>
 		<li><a href="/video/yesterday-didnt-happen.html">Yesterday didn&#039;t happen</a></li>
 		</ul>
 		</li>
-		<li><a name="vyhledavani"></a><a href="/vyhledavani/">Žonglérův slabikář - vyhledávání</a>
+		<li><a name="vyhledavani"></a><a href="/vyhledavani/">Vyhledávání</a>
 		
 		</li>
 	</ul>

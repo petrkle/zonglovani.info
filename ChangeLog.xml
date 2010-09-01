@@ -1,6 +1,12 @@
 <?xml version="1.0"?>
 <log>
 <logentry
+   revision="321">
+<author>petr</author>
+<date>2010-08-30T18:36:20.698454Z</date>
+<msg>Video - sluníčko + Bratři v triku - trénink</msg>
+</logentry>
+<logentry
    revision="320">
 <author>petr</author>
 <date>2010-08-30T16:41:10.747094Z</date>
