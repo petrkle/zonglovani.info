@@ -1,5 +1,6 @@
 {literal}
 <script type="text/javascript">
+//<![CDATA[
 function initialize() {
 	var myLatlng = new google.maps.LatLng(49.453567975668975,16.816765);
 	var myOptions = {
@@ -26,6 +27,7 @@ function loadScript() {
 	document.body.appendChild(script);
 }
 window.onload = loadScript;
+//]]>
 </script> 
 {/literal}
 
