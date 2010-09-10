@@ -8,7 +8,7 @@ RewriteRule ^(.+)\.css$ css.php?style=$1 [L]
 RewriteCond %{HTTP_HOST} ^www\.(.*)
 RewriteRule (.*) http://%1/$1 [R=301,QSA,NE,L]
 
-RewriteCond %{REQUEST_FILENAME}	^.*\.inc$
+RewriteCond %{REQUEST_FILENAME}	^.*\.(inc|sh)$
 RewriteRule ^(.*)$ $1 [F]
 
 RewriteRule micky$ /micky/ [R=301,L]

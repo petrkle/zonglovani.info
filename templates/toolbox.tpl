@@ -29,10 +29,4 @@
 <li><a href="http://www.gnu.org/software/findutils" onclick="pageTracker._trackPageview('/goto/gnu.org/software/findutils');" class="external">find</a> - automatizace</li>
 <li><a href="/software.html#juggleanim" title="Program JuggleAnim">JuggleAnim</a> - animace žonglování</li>
 <li><a href="http://www.semicomplete.com/projects/xdotool/" onclick="pageTracker._trackPageview('/goto/semicomplete.com/projects/xdotool');" class="external">xdotool</a> - automatizace</li>
-<li><a href="make-archiv.sh">make-archiv.sh</a> - automatizace</li>
-<li><a href="make-backup.sh">make-backup.sh</a> - automatizace</li>
-<li><a href="make-sitemap.sh">make-sitemap.sh</a> - automatizace</li>
-<li><a href="make-tests.sh">make-tests.sh</a> - automatizace</li>
-<li><a href="make-upload.sh">make-upload.sh</a> - automatizace</li>
-<li><a href="/animace/make-gif.sh">make-gif.sh</a> - automatizace</li>
 </ul>
