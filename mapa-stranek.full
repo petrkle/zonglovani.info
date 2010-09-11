@@ -526,6 +526,7 @@
 		<li><a href="/diskuse/stranka2.html">Diskuse a komentáře - 2. stránka</a></li>
 		<li><a href="/diskuse/stranka3.html">Diskuse a komentáře - 3. stránka</a></li>
 		<li><a href="/diskuse/stranka4.html">Diskuse a komentáře - 4. stránka</a></li>
+		<li><a href="/diskuse/stranka5.html">Diskuse a komentáře - 5. stránka</a></li>
 		</ul>
 		</li>
 		<li><a name="horoskop"></a><a href="/horoskop/">Horoskop žonglování</a>
@@ -566,10 +567,11 @@
 		<li><a href="/kalendar/2010-05.html">Kalendář žonglování - Květen 2010</a></li>
 		<li><a href="/kalendar/2010-06.html">Kalendář žonglování - Červen 2010</a></li>
 		<li><a href="/kalendar/2010-07.html">Kalendář žonglování - Červenec 2010</a></li>
-		<li><a href="/kalendar/2010-09.html">Kalendář žonglování - Září 2010</a></li>
+		<li><a href="/kalendar/2010-08.html">Kalendář žonglování - Srpen 2010</a></li>
 		<li><a href="/kalendar/2010-10.html">Kalendář žonglování - Říjen 2010</a></li>
 		<li><a href="/kalendar/2010-11.html">Kalendář žonglování - Listopad 2010</a></li>
 		<li><a href="/kalendar/2010-12.html">Kalendář žonglování - Prosinec 2010</a></li>
+		<li><a href="/kalendar/2011-01.html">Kalendář žonglování - Leden 2011</a></li>
 		<li><a href="/kalendar/rss-a-icalendar.html">Nastavení RSS a iCalendar</a></li>
 		<li><a href="/kalendar/udalost-20100409-20100411-pek-1266301787.html">Žonglérská víkendovka 9. 4. 2010 až 11. 4. 2010 - kalendář žonglování</a></li>
 		<li><a href="/kalendar/udalost-20100411-20100411-pek-1253740811.html">Ulita 11. 4. 2010 - kalendář žonglování</a></li>
@@ -608,6 +610,8 @@
 		<li><a href="/kalendar/udalost-20100827-20100829-luciaska-1274354274.html">16. Česko-německé setkání žonglérů a kejklířů ve Waldmünchenu 27. 8. 2010 až 29. 8. 2010 - kalendář žonglování</a></li>
 		<li><a href="/kalendar/udalost-20100901-20100901-pek-1282218275.html">Tribo Fuego 1. 9. 2010 - kalendář žonglování</a></li>
 		<li><a href="/kalendar/udalost-20100904-20100904-niggy-1280746414.html">Den žonglováni s Ultimate Juggling Squad vol.2 4. 9. 2010 - kalendář žonglování</a></li>
+		<li><a href="/kalendar/udalost-20100915-20100915-pek-1284052950.html">Tribo Fuego 15. 9. 2010 - kalendář žonglování</a></li>
+		<li><a href="/kalendar/udalost-20100917-20100919-pek-1283238409.html">Žonglérský kout 17. 9. 2010 až 19. 9. 2010 - kalendář žonglování</a></li>
 		</ul>
 		</li>
 		<li><a name="kruhy"></a><a href="/kruhy/">Žonglování s kruhy</a>
@@ -719,15 +723,17 @@
 		<li><a href="/lide/amater1994.html">David</a></li>
 		<li><a href="/lide/andyhardluck.html">Ondřej Pech</a></li>
 		<li><a href="/lide/apo.html">Apo</a></li>
+		<li><a href="/lide/aratron.html">Duo Aratron Aspis</a></li>
 		<li><a href="/lide/australan.html">David Valenta</a></li>
 		<li><a href="/lide/bloke.html">Tessi</a></li>
 		<li><a href="/lide/bopher.html">David Foltýn</a></li>
 		<li><a href="/lide/brekeke.html">brekeke</a></li>
 		<li><a href="/lide/bujty.html">Tomáš Bujtár</a></li>
 		<li><a href="/lide/cerna543.html">Nikola</a></li>
+		<li><a href="/lide/cibulator.html">Jirka BRŠ</a></li>
 		<li><a href="/lide/cibulis.html">Jakub</a></li>
 		<li><a href="/lide/cozzi.html">Tomáš Kinzel</a></li>
-		<li><a href="/lide/danda.html">Danda</a></li>
+		<li><a href="/lide/danda.html">Daniela Paličková</a></li>
 		<li><a href="/lide/dedasd.html">Pavel Raus</a></li>
 		<li><a href="/lide/djembeman.html">Glofak Peter</a></li>
 		<li><a href="/lide/em-em.html">Michal</a></li>
@@ -744,6 +750,8 @@
 		<li><a href="/lide/jitka.html">Jitka</a></li>
 		<li><a href="/lide/juggleman.html">Tomáš Ullrich</a></li>
 		<li><a href="/lide/kalkaja.html">Kája</a></li>
+		<li><a href="/lide/lampiczka.html">Ondřej Němeček</a></li>
+		<li><a href="/lide/lorddrake.html">Radek</a></li>
 		<li><a href="/lide/luciaska.html">Luciaska</a></li>
 		<li><a href="/lide/magnis.html">Michal Halačka</a></li>
 		<li><a href="/lide/mark.html">Mark</a></li>
@@ -755,7 +763,9 @@
 		<li><a href="/lide/mizu.html">Mižu</a></li>
 		<li><a href="/lide/mrgin.html">Kolmen</a></li>
 		<li><a href="/lide/nabuchandekonodozor.html">Matyáš Borna</a></li>
+		<li><a href="/lide/nicolevrtikova.html">Nicole Vrtíková</a></li>
 		<li><a href="/lide/niggy.html">Niggy</a></li>
+		<li><a href="/lide/olda.html">Oldřich</a></li>
 		<li><a href="/lide/ondrator.html">ondra</a></li>
 		<li><a href="/lide/opicak.html">David Svoboda</a></li>
 		<li><a href="/lide/patrix.html">patriksoldan</a></li>
@@ -778,7 +788,6 @@
 		<li><a href="/lide/summer.html">Summer</a></li>
 		<li><a href="/lide/suro.html">Pavel Surovy</a></li>
 		<li><a href="/lide/svaty.html">Svaty</a></li>
-		<li><a href="/lide/terminator.html">Terminátor</a></li>
 		<li><a href="/lide/tikev.html">Vítězslav Dvořák</a></li>
 		<li><a href="/lide/tomas.html">Tomáš Mudroch</a></li>
 		<li><a href="/lide/tommy.html">Thomas</a></li>
@@ -2353,7 +2362,7 @@
 		<li><a href="/video/yesterday-didnt-happen.html">Yesterday didn&#039;t happen</a></li>
 		</ul>
 		</li>
-		<li><a name="vyhledavani"></a><a href="/vyhledavani/">Vyhledávání</a>
+		<li><a name="vyhledavani"></a><a href="/vyhledavani/">Žonglérův slabikář - vyhledávání</a>
 		
 		</li>
 	</ul>

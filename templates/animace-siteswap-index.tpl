@@ -8,7 +8,7 @@ Siteswap je zápis žonglování pomocí čísel.<br /><a href="/siteswap.html" 
 <ul>
 {foreach from=$animace item=foo key=link}
 {if $foo.pocet==$odkaz}
-<li><a href="{$link|escape}.html" title="{$link|escape}">{$foo.siteswap|escape}</a></li>
+<li><a href="{$link|escape:'url'}.html" title="{$link|escape}">{$foo.siteswap|escape}</a></li>
 {/if}
 {/foreach}
 </ul>

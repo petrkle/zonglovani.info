@@ -38,7 +38,7 @@ $keep_log			= 0;
 $log_dir	= 'log';
 
 // Log format
-$log_format			= 'html';
+$log_format			= 'text';
 
 //  Send log file to email 
 $email_log			= 0;

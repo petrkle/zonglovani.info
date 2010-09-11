@@ -26,7 +26,7 @@ TRUNCATE \`search_query_log\`;\
 TRUNCATE \`search_sites\`;\
 TRUNCATE \`search_site_category\`;\
 TRUNCATE \`search_temp\`;\
-INSERT INTO \`search-zonglovan\`.\`search_sites\` (\`site_id\` ,\`url\` ,\`title\` ,\`short_desc\` ,\`indexdate\` ,\`spider_depth\` ,\`required\` ,\`disallowed\` ,\`can_leave_domain\`)VALUES ('1', 'http://zongl.info/', 'slabikar', 'zongleruv slabikar', NULL , '-1', NULL, 'prihlaseni.php?next=\n.*/obrazky\\\/.*html/\n*/horoskop\\\/.*html/' , NULL);\
+INSERT INTO \`search-zonglovan\`.\`search_sites\` (\`site_id\` ,\`url\` ,\`title\` ,\`short_desc\` ,\`indexdate\` ,\`spider_depth\` ,\`required\` ,\`disallowed\` ,\`can_leave_domain\`)VALUES ('1', 'http://zongl.info/', 'slabikar', 'zongleruv slabikar', NULL , '-1', NULL, 'prihlaseni.php?next=\n*/obrazky.*html/\n*/horoskop.*html/' , NULL);\
 	\\q" | \
 	mysql -u search-zonglovan --password=ah62QorEx -h localhost search-zonglovan
 
@@ -37,4 +37,4 @@ wget --load-cookies .cookies -qO .index-log.html --delete-after "http://zongl.in
 
 mysqldump -u search-zonglovan --password=ah62QorEx -h localhost --opt search-zonglovan | sed "s/zongl\.info/zonglovani.info/g" | bzip2 -9 > data/dump.sql.bz2
 
-lftp -u www.zonglovani.info ftp://zonglovani.info -e "cd data; put admin/dump.sql.bz2; exit" && wget --post-data="updatedb=jo&passwd=e6wcHTth6" -qO - "http://zonglovani.info/admin/db-import.php"
+lftp -u www.zonglovani.info ftp://zonglovani.info -e "cd data; put data/dump.sql.bz2; exit" && wget --post-data="updatedb=jo&passwd=e6wcHTth6" -qO - "http://zonglovani.info/admin/db-import.php"

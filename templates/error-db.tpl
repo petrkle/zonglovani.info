@@ -8,4 +8,11 @@ Jejda, vyhledávání přestalo fungovat. Je to dočasná chyba a brzy jí oprav
 	<li>Použít <a href="/mapa-stranek.html" title="Mapa stránek">mapu stránek</a>, tj. seznam všech stránek na serveru.</li>
 </ul>
 
+<h3><a href="/kontakt.html" title="Kompletní kontaktní údaje">Kontakt</a></h3>
+{assign var='mail' value='admin@zonglovani.info'}
+<ul>
+	<li>Elektronická pošta: {$mail|mailobfuscate}</li>
+</ul>
+<hr />
+
 <p>Chybové hlášení: <strong>{$chyba|escape}</strong></p>

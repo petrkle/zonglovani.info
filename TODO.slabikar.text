@@ -13,6 +13,7 @@ Kalendář
 - obrázek k akci v kalendáři
 - export kalendáře (dalších věcí ?) do pdf online
 - odkazy další, předchozí u akce
+- při zadávání jména nepovolit všechna písmena velká
 
 Etc
 ===
@@ -28,7 +29,6 @@ Etc
 
 Automatizace
 ============
-- skript pro aktualizaci databáze fultextu: ./make-fulltext-update.sh
 - skript pro synchronizaci adresáře data z webu
 - skript pro zálohování - šifrovat zálohu, automaticky vymazávat staré zálohy z flashky
 - skript pro aktualizaci z flasky na disk: ./make-restore.sh
@@ -63,3 +63,4 @@ RSS agregátor z stránek o žonglování
 siteswaps, animace z juggle anim
 doplnit do článeku o siteswapech odkazy na animace
 dodělat k animacím siteswapů náhledy
+skript pro aktualizaci databáze fultextu: ./make-fulltext-update.sh
