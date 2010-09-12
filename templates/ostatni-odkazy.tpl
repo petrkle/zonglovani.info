@@ -38,9 +38,9 @@ Skvělá <a href="literatura.html" title="Další literatura o žonglování.">u
 Další příspěvek ze <a href="{$smarty.const.LIDE_URL}misto/#sk" title="Seznam žonglérů ze Slovenska">Slovenska</a>. Mižův žonglérský portál.
 </p>
 
-<h5><a href="http://juggling.tv" title="Domov žonglérského videa na internetu." class="external" onclick="pageTracker._trackPageview('/goto/juggling.tv');">juggling.tv</a></h5>
+<h5><a href="/juggling-tv.html" title="Domov žonglérského videa na internetu.">juggling.tv</a></h5>
 <p>
-<a href="http://juggling.tv" title="Domov žonglérského videa na internetu." onclick="pageTracker._trackPageview('/goto/juggling.tv');">{obrazek soubor="juggling.tv.png" popisek="juggling.tv"}</a>
+<a href="/juggling-tv.html" title="Domov žonglérského videa na internetu.">{obrazek soubor="juggling.tv.png" popisek="juggling.tv"}</a>
 Žonglérská televize.
 </p>
 

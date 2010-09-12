@@ -100,6 +100,12 @@ Obrázky na plochu počítače s žonglérskou tématikou
 Animace žonglování s míčky.
 </p>
 
+<h3><a href="/juggling-tv.html" title="Žonglérská televize">juggling.tv</a></h3>
+<p>
+<a href="/juggling-tv.html" title="Žonglérská televize">{obrazek soubor="juggling.tv.png" popisek="juggling.tv"}</a>
+Žonglérská televize.
+</p>
+
 <h3><a href="/odkazy.html" title="Odkazy.">Žonglování na síti</a></h3>
 <p>
 Odkazy na stránky věnované žonglování.

@@ -38,8 +38,8 @@
 2010-08-23*Žonglérská mapa*/mapa/*mapa.png*Mapa s vyznačením měst kde jsou žongléři. Přidat se můžeš tak, že si založíš účet v žonglérově slabikáři.
 2010-08-30*Fotky z Ulity*/obrazky/filtr/Ulita*ulita.cz.png*Fotografie z podzimního, zimního a jarního žonglování v Ulitě.
 2010-09-06*Neúplná hvězda*/kuzely/passing/prebihani4z11k.html*kuzely-passing-prebihani4z11kc.png*Občas není dostatek žonglérů na úplnou <a href="http://zonglovani.info/kuzely/passing/star.html" title="Trik pro 5 žonglérů.">hvězdu</a> a pak je potřeba trochu běhat.
-2010-09-13*Bratři v tricku - trénink*/video/bratri-v-tricku-training-day.html*training-day.jpg*Letní trénink bratrů v triku.
-2010-09-20*Výhody pro registrované uživatele*/exkurze.html*exkurze-nahled-2010-2-28-19-49-47.jpg*Obrázky a popis výhod pro registrované uživatele žonglérova slabikáře.
+2010-09-13*Juggling.tv*/juggling-tv.html*juggling.tv.png*Domov žonglérského videa na internetu.
+2010-09-20*Bratři v tricku - trénink*/video/bratri-v-tricku-training-day.html*training-day.jpg*Letní trénink bratrů v triku.
 2010-09-27*Sun*/video/sun.html*sun.jpg*Sluníčko, Jirka z Ostravy a diabolo.
 2010-10-04*Obrázky na plochu*/obrazky-na-plochu/*kuzelky-na-trave.jpg*Obrázky na plochu počítače s žonglérskou tématikou.
 2010-10-11*Literatura*/literatura.html*encyclopaedia.jpg*Přehled nejlepších knížek o žonglování.
@@ -50,7 +50,7 @@
 2010-11-15*What the (beepbeep) do we know?*/video/what-the-beepbeep-do-we-know.html*partnerpoi.jpg*Točení s poi ve více lidech.
 2010-11-22*Bláznivá žehlička*/video/club2ring.html*club2ring.png*Krátký příběh o tom, co provedla splašená žehlička.
 2010-11-29*Sloupy ve dvou*/kuzely/passing/sloupy.html*kuzely-passing-sloupyd.png*Trik pro dva žongléry se čtyřmi kužely.
-2010-12-06
+2010-12-06*Výhody pro registrované uživatele*/exkurze.html*exkurze-nahled-2010-2-28-19-49-47.jpg*Obrázky a popis výhod pro registrované uživatele žonglérova slabikáře.
 2010-12-13
 2010-12-20
 2010-12-27

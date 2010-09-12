@@ -9,6 +9,7 @@
 	<li><a href="/exkurze.html">Náhled do žonglérova slabikáře</a></li>
 	<li><a href="/faq.html">Často kladené otázky</a></li>
 	<li><a href="/jak-odkazovat.html">Jak odkazovat na žonglérův slabikář</a></li>
+	<li><a href="/juggling-tv.html">juggling.tv</a></li>
 	<li><a href="/kontakt.html">Kontakt</a></li>
 	<li><a href="/literatura.html">Literatura</a></li>
 	<li><a href="/myty-omyly.html">Mýty a omyly</a></li>

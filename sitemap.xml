@@ -63,6 +63,12 @@
    </url>
 			
    <url>
+      <loc>http://zonglovani.info/juggling-tv.html</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.7</priority>
+   </url>
+			
+   <url>
       <loc>http://zonglovani.info/kontakt.html</loc>
       <changefreq>monthly</changefreq>
       <priority>0.7</priority>
