@@ -20,6 +20,8 @@ $titulek='Animace žonglování';
 $trail = new Trail();
 $trail->addStep($titulek,'/animace/');
 
+$smarty->assign('styly',array('/a.css'));
+
 $dalsi=array(
 	array('url'=>'/animace/siteswap/','text'=>'Animace siteswapů','title'=>'Animace žonglérských siteswapů'),
 	);
@@ -39,6 +41,30 @@ $smarty->assign('nameless',$nameless);
 
 if($id){
 	if(isset($animace[$id])){
+		$klice=array_keys($animace);
+		$pozice=array_search($id,$klice);
+		if(isset($klice[$pozice+1])){
+			$dalsi_trik=$animace[$klice[$pozice+1]];
+			$dalsi_trik['id']=$klice[$pozice+1];
+		}else{
+			$dalsi_trik=$animace[$klice[0]];
+			$dalsi_trik['id']=$klice[0];
+		}
+
+		if(isset($klice[$pozice-1])){
+			$predchozi_trik=$animace[$klice[$pozice-1]];
+			$predchozi_trik['id']=$klice[$pozice-1];
+		}else{
+			$predchozi_trik=$animace[$klice[count($klice)-1]];
+			$predchozi_trik['id']=$klice[count($klice)-1];
+		}
+		$navigace=array();
+		$navod=get_link($id);
+		if($navod){
+			$navigace['navod']=$navod;
+		}
+		$navigace['dalsi']=array('url'=>$dalsi_trik['id'].'.html','text'=>$dalsi_trik['popis'],'title'=>'Další trik '.$dalsi_trik['popis']);
+		$navigace['predchozi']=array('url'=>$predchozi_trik['id'].'.html','text'=>$predchozi_trik['popis'],'title'=>'Předchozí trik '.$predchozi_trik['popis']);
 		$trail->addStep($animace[$id]['popis']);
 		$smarty->assign_by_ref('trail', $trail->path);
 		$smarty->assign('keywords',$animace[$id]['popis'].', animace, žonglování, siteswap, juggleanim, návod');
@@ -46,7 +72,7 @@ if($id){
 		$smarty->assign('titulek',$animace[$id]['popis'].' - animovaný návod na žonglování');
 		$smarty->assign('nahled','http://'.$_SERVER['SERVER_NAME'].'/animace/nahledy/'.$id.'.png');
 		$smarty->assign('nadpis',$animace[$id]['popis']);
-		$smarty->assign('navod',get_link($id));
+		$smarty->assign_by_ref('navigace',$navigace);
 		$smarty->assign_by_ref('animace',$animace[$id]);
 		$smarty->display('hlavicka.tpl');
 		$smarty->display('animace.tpl');

@@ -9,11 +9,11 @@ if(isset($_GET['id'])){
 }
 
 $nazvy=array(
-	'3'=>'Tři míčky',
-	'4'=>'Čtyři míčky',
-	'4-sync'=>'Čtyři míčky synchronně',
-	'5'=>'Pět míčků',
-	'5-sync'=>'Pět míčků synchronně',
+	'tri'=>'Tři míčky',
+	'ctyri'=>'Čtyři míčky',
+	'ctyri-sync'=>'Čtyři míčky synchronně',
+	'pet'=>'Pět míčků',
+	'pet-sync'=>'Pět míčků synchronně',
 	'n'=>'Mnoho míčků'
 	);
 
@@ -21,6 +21,8 @@ $titulek='Siteswap';
 $trail = new Trail();
 $trail->addStep('Animace žonglování','/animace/');
 $trail->addStep('Siteswap','/animace/siteswap/');
+
+$smarty->assign('styly',array('/a.css'));
 
 $animace=get_siteswap($nazvy);
 
@@ -31,9 +33,30 @@ $dalsi=array(
 
 if($id){
 	if(isset($animace[$id])){
-		$dalsi=array(
-			array('url'=>'/siteswap.html','text'=>'Siteswap - podrobný návod','title'=>'Podrobné vysvětlení siteswapů.'),
-		);
+		$klice=array_keys($animace);
+		$pozice=array_search($id,$klice);
+		if(isset($klice[$pozice+1])){
+			$dalsi_trik=$animace[$klice[$pozice+1]];
+			$dalsi_trik['id']=$klice[$pozice+1];
+		}else{
+			$dalsi_trik=$animace[$klice[0]];
+			$dalsi_trik['id']=$klice[0];
+		}
+
+		if(isset($klice[$pozice-1])){
+			$predchozi_trik=$animace[$klice[$pozice-1]];
+			$predchozi_trik['id']=$klice[$pozice-1];
+		}else{
+			$predchozi_trik=$animace[$klice[count($klice)-1]];
+			$predchozi_trik['id']=$klice[count($klice)-1];
+		}
+
+		$navigace=array();
+		$navigace['popis']=array('url'=>'/siteswap.html','text'=>'Siteswap - podrobný návod','title'=>'Podrobné vysvětlení siteswapů.');
+
+		$navigace['dalsi']=array('url'=>$dalsi_trik['id'].'.html','text'=>$dalsi_trik['siteswap'],'title'=>'Siteswap '.$dalsi_trik['siteswap']);
+		$navigace['predchozi']=array('url'=>$predchozi_trik['id'].'.html','text'=>$predchozi_trik['siteswap'],'title'=>'Siteswap '.$predchozi_trik['siteswap']);
+
 		$trail->addStep($animace[$id]['skupina'],'/animace/siteswap/#'.$animace[$id]['pocet']);
 		$trail->addStep($id);
 		$smarty->assign_by_ref('trail', $trail->path);
@@ -42,7 +65,7 @@ if($id){
 		$smarty->assign('titulek',$id.' - siteswap');
 		$smarty->assign('nahled','http://'.$_SERVER['SERVER_NAME'].'/animace/nahledy/'.$id.'.png');
 		$smarty->assign('nadpis',$id);
-		$smarty->assign_by_ref('dalsi',$dalsi);
+		$smarty->assign_by_ref('navigace',$navigace);
 		$smarty->assign_by_ref('animace',$animace[$id]);
 		$smarty->display('hlavicka.tpl');
 		$smarty->display('animace-siteswap.tpl');
@@ -81,8 +104,6 @@ function get_siteswap($nazvy){
 			$navrat[$link]['skupina']=$nazvy[$radek[0]];
 		}
 	}
-	ksort($navrat);
 	return $navrat;
 }
-
 ?>

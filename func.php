@@ -42,7 +42,7 @@ function nacti_trik($soubor){
 }
 
 function get_anim($url){
-	$foo=file('animace/odkazy.txt');
+	$foo=file($_SERVER['DOCUMENT_ROOT'].'/animace/odkazy.txt');
 	$linky=array();
 	$navrat=false;
 	foreach($foo as $radek){

@@ -1,6 +1,5 @@
 Aktuální
 ========
-- procházení siteswapů, animací a triků < předchozí , další >
 - hitparáda hodnocených stránek, aktualizace žebříčku cronem 
 - u nastavení odkazů dodělat kolonku pro popis a sestavit katalog
 - tiskové zprávy pro novináře, návod na kaskádu pdf, odt, doc, obrázky v tiskové kvalitě
@@ -66,3 +65,4 @@ siteswaps, animace z juggle anim
 doplnit do článeku o siteswapech odkazy na animace
 dodělat k animacím siteswapů náhledy
 skript pro aktualizaci databáze fultextu: ./make-fulltext-update.sh
+procházení siteswapů a animací < předchozí , další >
