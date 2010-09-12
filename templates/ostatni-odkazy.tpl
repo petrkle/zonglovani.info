@@ -10,6 +10,18 @@ Abryho stránky o žonglování. Animace žonglování s míčky. Doplněné kr�
 Stránky o žonglování s ohněm.
 </p>
 
+<h5><a href="http://www.bratrivtricku.cz/" title="Asociace pro současný cirkus" class="external" onclick="pageTracker._trackPageview('/goto/bratrivtricku.cz');">bratrivtricku.cz</a></h5>
+<p>
+<a href="http://www.bratrivtricku.cz/" title="Asociace pro současný cirkus" onclick="pageTracker._trackPageview('/goto/bratrivtricku.cz');">{obrazek soubor="odkazy-bratrivtricku.cz.png" popisek="bratrivtricku.cz"}</a>
+Žonglérské duo Bratři v tricku.
+</p>
+
+<h5><a href="http://www.cirqueon.cz/" title="Asociace pro současný cirkus" class="external" onclick="pageTracker._trackPageview('/goto/cirqueon.cz');">cirqueon.cz</a></h5>
+<p>
+<a href="http://www.cirqueon.cz/" title="Asociace pro současný cirkus" onclick="pageTracker._trackPageview('/goto/cirqueon.cz');">{obrazek soubor="odkazy-cirqueon.cz.png" popisek="cirqueon.cz"}</a>
+Asociace pro současný cirkus.
+</p>
+
 <h5>
 <a href="http://www.zonglovanie.ariesa.sk" title="Slovenský server." class="external" onclick="pageTracker._trackPageview('/goto/zonglovanie.ariesa.sk');">zonglovanie.ariesa.sk</a>
 </h5>

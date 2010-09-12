@@ -1,6 +1,18 @@
 <?xml version="1.0"?>
 <log>
 <logentry
+   revision="329">
+<author>petr</author>
+<date>2010-09-12T11:40:14.740732Z</date>
+<msg>Odkaz na další a předchozí animaci</msg>
+</logentry>
+<logentry
+   revision="328">
+<author>petr</author>
+<date>2010-09-12T07:53:28.648348Z</date>
+<msg>Kontrola velkých písmen.</msg>
+</logentry>
+<logentry
    revision="327">
 <author>petr</author>
 <date>2010-09-11T21:25:33.919517Z</date>

@@ -31,6 +31,11 @@ foreach($rss_zdroje as $id=>$kanal){
 		if(preg_match('/facebook/',$kanal['feed_url'])){
 			$item['link']=preg_replace('/^\//','http://facebook.com/',$item['link']);
 		}
+
+		if(isset($item['feedburner']['origlink'])){
+			$item['link']=$item['feedburner']['origlink'];
+		}
+
 		if(preg_match('/rajce\.idnes\.cz/',$kanal['feed_url'])){
 			$item['link']=preg_replace('/^(http:\/\/.*)http:\/\/.*$/','\1',$item['link']);
 		}
