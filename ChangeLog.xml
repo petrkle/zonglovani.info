@@ -1,6 +1,12 @@
 <?xml version="1.0"?>
 <log>
 <logentry
+   revision="327">
+<author>petr</author>
+<date>2010-09-11T21:25:33.919517Z</date>
+<msg>Oprava odkazů na siteswapy, doplnění chybové hlášky při výpadku databáze, aktualizace mapy stránek a vyhledávání.</msg>
+</logentry>
+<logentry
    revision="326">
 <author>petr</author>
 <date>2010-09-10T17:22:59.542271Z</date>

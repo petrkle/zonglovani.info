@@ -192,9 +192,17 @@ function event_validation($udalost,$now){
 	if(strlen($udalost['title'])>100){
 		array_push($chyby,'Název je příliš dlouhý.');
 	}
+
+	if(preg_match('/[A-ZĚŠČŘŽÝÁÍÉ]{4,}/',$udalost['title'])){
+		array_push($chyby,'Název obsahuje příliš mnoho VELKÝCH písmen.');
+	}
 	
 	if(strlen($udalost['desc'])<3){
 		array_push($chyby,'Popis není zadán, nebo je příliš krátký.');
+	}
+
+	if(preg_match('/[A-ZĚŠČŘŽÝÁÍÉ]{4,}/',$udalost['desc'])){
+		array_push($chyby,'Popis obsahuje příliš mnoho VELKÝCH písmen.');
 	}
 
 	if(strlen($udalost['desc'])>3000){
@@ -207,6 +215,10 @@ function event_validation($udalost,$now){
 
 	if(strlen($udalost['misto'])>200200){
 		array_push($chyby,'Místo je příliš dlouhé.');
+	}
+
+	if(preg_match('/[A-ZĚŠČŘŽÝÁÍÉ]{4,}/',$udalost['misto'])){
+		array_push($chyby,'Místo obsahuje příliš mnoho VELKÝCH písmen.');
 	}
 
 	if(!ereg('^[0-9]{4}-[0-9]{2}-[0-9]{2} [0-9]{2}:[0-9]{2}$',$udalost['zacatek'])){

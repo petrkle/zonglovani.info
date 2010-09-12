@@ -26,12 +26,15 @@ $trail->addStep('Nastavení',LIDE_URL.'nastaveni/');
 					array_push($chyby,'Jméno je příliš dlouhé.');
 				}elseif(preg_match('/[-\*\.\?\!<>;\^\$\{\}\@%\&\(\)\'"_:´ˇ\\|#`~,]/',$jmeno)){
 					array_push($chyby,'Jméno obsahuje nepovolené znaky.');
-				}elseif($jmeno==$_SESSION["uzivatel"]["jmeno"]){
+				}elseif($jmeno==$_SESSION['uzivatel']['jmeno']){
 					# nic :^)
 				}else{
 					if(is_zs_jmeno($jmeno)){
 						array_push($chyby,'Zadané jméno už používá jiný uživatel.');
 					}
+				}
+				if(preg_match('/[A-ZĚŠČŘŽÝÁÍÉ]{4,}/',$jmeno)){
+					array_push($chyby,'Jméno obsahuje příliš mnoho VELKÝCH písmen.');
 				}
 				if(count($chyby)==0){
 					$foo=fopen(LIDE_DATA.'/'.$_SESSION['uzivatel']['login'].'/jmeno.txt','w');
@@ -43,11 +46,14 @@ $trail->addStep('Nastavení',LIDE_URL.'nastaveni/');
 					header('Location: '.LIDE_URL.'/nastaveni/?result=ok');
 					exit();
 				}
+			}else{
+				$jmeno=$_SESSION['uzivatel']['jmeno'];
 			}
 				$smarty->assign('titulek','Zobrazované jméno');
 				$trail->addStep('Zobrazované jméno');
 				$smarty->assign('chyby',$chyby);
 				$smarty->assign_by_ref('trail', $trail->path);
+				$smarty->assign_by_ref('jmeno', $jmeno);
 				$smarty->display('hlavicka.tpl');
 				$smarty->display('nastaveni-jmeno.tpl');
 				$smarty->display('paticka.tpl');
