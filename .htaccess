@@ -3,17 +3,13 @@ ErrorDocument 403 /403.php
 RewriteEngine	on
 RewriteBase /
 
-RewriteRule ^(.+)\.css$ css.php?style=$1 [L]
+RewriteRule ^(.+)\.css$ css/css.php?style=$1 [L]
 
 RewriteCond %{HTTP_HOST} ^www\.(.*)
 RewriteRule (.*) http://%1/$1 [R=301,QSA,NE,L]
 
 RewriteCond %{REQUEST_FILENAME}	^.*\.(inc|sh)$
 RewriteRule ^(.*)$ $1 [F]
-
-RewriteRule video/(.*)\.html video.php?v=$1 [L]
-RewriteRule video$ /video/ [R=301,L]
-RewriteRule video/$ video-index.php [L]
 
 RewriteRule ostatni\.html$ ostatni/index.php [L]
 RewriteRule (.*).html ostatni/$1.php [L]

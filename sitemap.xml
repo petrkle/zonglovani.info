@@ -3063,7 +3063,7 @@
    </url>
 			
    <url>
-      <loc>http://zonglovani.info/chudy/</loc>
+      <loc>http://zonglovani.info/css/</loc>
       <changefreq>monthly</changefreq>
       <priority>0.4</priority>
    </url>
@@ -3550,6 +3550,12 @@
 			
    <url>
       <loc>http://zonglovani.info/kalendar/udalost-20100917-20100919-pek-1283238409.html</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.7</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/kalendar/udalost-20100925-20100925-pek-1284352395.html</loc>
       <changefreq>monthly</changefreq>
       <priority>0.7</priority>
    </url>

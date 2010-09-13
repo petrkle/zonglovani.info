@@ -13,6 +13,11 @@ $smarty->assign('titulek',$titulek);
 $trail = new Trail();
 $trail->addStep($titulek);
 
+$dalsi=array(
+	array('url'=>'/css/','text'=>'Kaskádové styly','title'=>'Seznam kaskádových stylů'),
+	);
+$smarty->assign_by_ref('dalsi',$dalsi);
+
 $smarty->assign_by_ref('trail', $trail->path);
 $smarty->display('hlavicka.tpl');
 $smarty->display('toolbox.tpl');

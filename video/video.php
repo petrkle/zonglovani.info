@@ -1,6 +1,6 @@
 <?php
-require('init.php');
-require('func.php');
+require('../init.php');
+require('../func.php');
 
 if(isset($_GET['v'])){
 	$v=trim($_GET['v']);

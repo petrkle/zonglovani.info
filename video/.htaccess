@@ -1,0 +1,10 @@
+RewriteEngine	on
+RewriteBase /video
+
+RewriteCond %{HTTP_HOST} ^www\.(.*)
+RewriteRule (.*) http://%1/video/$1 [R=301,QSA,NE,L]
+
+RewriteRule ^(.*)\.html video.php?v=$1 [L]
+
+RewriteCond %{REQUEST_FILENAME}	^.*\.(inc|sh)$
+RewriteRule ^(.*)$ $1 [F]

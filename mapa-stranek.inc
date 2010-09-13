@@ -36,7 +36,7 @@
 			</li>
 		</ul>
 		</li>
-		<li><a name="chudy"></a><a href="/chudy/">Chůdy</a>
+		<li><a name="css"></a><a href="/css/">Kaskádové styly</a>
 		
 		</li>
 		<li><a name="diskuse"></a>diskuse/

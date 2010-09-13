@@ -1,6 +1,18 @@
 <?xml version="1.0"?>
 <log>
 <logentry
+   revision="334">
+<author>petr</author>
+<date>2010-09-13T07:04:56.630933Z</date>
+<msg>Přeskupení souborů</msg>
+</logentry>
+<logentry
+   revision="333">
+<author>petr</author>
+<date>2010-09-13T07:04:34.407768Z</date>
+<msg>Vylepšení skriptu pro aktualizaci fulltextu</msg>
+</logentry>
+<logentry
    revision="332">
 <author>petr</author>
 <date>2010-09-12T19:30:27.943636Z</date>

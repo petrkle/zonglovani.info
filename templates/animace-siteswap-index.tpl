@@ -3,7 +3,7 @@ Siteswap je zápis žonglování pomocí čísel.<br /><a href="/siteswap.html" 
 </p>
 {if is_array($nazvy)}
 {foreach from=$nazvy item=nazev key=odkaz}
-<a name="{$odkaz|escape}"><h2>{$nazev|escape}</h2></a>
+<a name="{$odkaz|escape}"></a><h2>{$nazev|escape}</h2>
 {if is_array($animace)}
 <ul>
 {foreach from=$animace item=foo key=link}
