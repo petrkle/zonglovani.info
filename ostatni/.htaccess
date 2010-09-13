@@ -1,0 +1,10 @@
+RewriteEngine	on
+RewriteBase /ostatni
+
+RewriteCond %{HTTP_HOST} ^www\.(.*)
+RewriteRule (.*) http://%1/ostatni/$1 [R=301,QSA,NE,L]
+
+RewriteRule ^$ /ostatni.html [R=301,QSA,NE,L]
+
+RewriteRule ^changelog\.rss$ changelog-rss.php [L]
+RewriteRule ^changelog\.xml$ changelog-rss.php?v=2 [L]

@@ -62,10 +62,10 @@ function get_seznam_triku($jake){
 	$vypis=array();
 	$adr=opendir($ls);
 	while (false!==($file = readdir($adr))) {
-	  if (substr($file,-4) == '.xml' and ereg(basename($jake,'.php'),$file))
-		{
+		$vzor=str_replace('.php','',str_replace('/','-',str_replace($_SERVER['DOCUMENT_ROOT'].'/','',$jake)));
+	  if (substr($file,-4) == '.xml' and preg_match('/'.$vzor.'/',$file)){
 		  $file = substr($file, 0, -4);
-		  $vypis[preg_replace('/'.basename($jake,'.php').'-/','',basename($file,'.xml'))]=nacti_trik($file);
+		  $vypis[preg_replace('/'.$vzor.'-/','',basename($file,'.xml'))]=nacti_trik($file);
 		};
 	};
 	closedir($adr); 

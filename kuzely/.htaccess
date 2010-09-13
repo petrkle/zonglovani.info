@@ -1,0 +1,14 @@
+RewriteEngine	on
+RewriteBase /kuzely
+
+RewriteCond %{HTTP_HOST} ^www\.(.*)
+RewriteRule (.*) http://%1/kuzely/$1 [R=301,QSA,NE,L]
+
+RewriteRule ^([3])$ $1/ [R=301,QSA,NE]
+RewriteRule ^([3])/?$ $1.php [L]
+RewriteRule ^([3])/(.*).html $1.php?show=kuzely-$1-$2 [L]
+
+RewriteRule ^passing$ /kuzely/passing/ [R=301,L]
+RewriteRule ^passing/?$ passing.php [L]
+RewriteRule ^passing/(.*).html passing.php?show=kuzely-passing-$1 [L]
+RewriteRule ^(.*).html $1.php [L]
