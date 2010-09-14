@@ -12075,6 +12075,12 @@
    </url>
 			
    <url>
+      <loc>http://zonglovani.info/scripts/</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
       <loc>http://zonglovani.info/tip/</loc>
       <changefreq>weekly</changefreq>
       <priority>0.8</priority>

@@ -15,6 +15,7 @@ $trail->addStep($titulek);
 
 $dalsi=array(
 	array('url'=>'/css/','text'=>'Kaskádové styly','title'=>'Seznam kaskádových stylů'),
+	array('url'=>'/scripts/','text'=>'Skripty','title'=>'Skripty pro správu webu'),
 	);
 $smarty->assign_by_ref('dalsi',$dalsi);
 

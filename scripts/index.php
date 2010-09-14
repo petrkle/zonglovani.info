@@ -2,23 +2,27 @@
 require('../init.php');
 require('../func.php');
 
-$titulek='Kaskádové styly';
+$titulek='Skripty';
 $smarty->assign('titulek',$titulek);
-$smarty->assign('description','Kaskádové styly použité v žonglérově slabikáři');
+$smarty->assign('description','Skripty pro správu žonglérova slabikáře');
 
 $vypis=array();
 $adr=opendir('.');
 while (false!==($file = readdir($adr))) {
-	if (preg_match('/.+\.css$/',$file)){
-		array_push($vypis,$file);
+	if (preg_match('/.+\.(sh|pl)$/',$file)){
+		$vypis[$file]='/scripts/'.$file;
 	};
 };
 closedir($adr); 
-sort($vypis);
+
+$vypis['Makefile']='/Makefile';
+$vypis['fig2png']='/img/fig2png.sh';
+
+ksort($vypis);
 
 $dalsi=array(
 	array('url'=>'/toolbox.html','text'=>'Použitý software','title'=>'Seznam použitých programů'),
-	array('url'=>'/scripts/','text'=>'Skripty','title'=>'Skripty pro správu webu'),
+	array('url'=>'/css/','text'=>'Kaskádové styly','title'=>'Seznam kaskádových stylů')
 	);
 $smarty->assign_by_ref('dalsi',$dalsi);
 
@@ -28,7 +32,7 @@ $smarty->assign_by_ref('trail', $trail->path);
 $smarty->assign_by_ref('vypis', $vypis);
 
 $smarty->display('hlavicka.tpl');
-$smarty->display('css.tpl');
+$smarty->display('scripts.tpl');
 $smarty->display('paticka.tpl');
 
 ?>

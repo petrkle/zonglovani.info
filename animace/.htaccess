@@ -4,7 +4,7 @@ RewriteBase /animace
 RewriteCond %{HTTP_HOST} ^www\.(.*)
 RewriteRule (.*) http://%1/animace/$1 [R=301,QSA,NE,L]
 
-RewriteCond %{REQUEST_FILENAME}	^.*\.(inc|sh)$
+RewriteCond %{REQUEST_FILENAME}	^.*\.(inc|sh|txt)$
 RewriteRule ^(.*)$ $1 [F,L]
 
 RewriteRule ^en$ /animace/en/ [R=301,L]
