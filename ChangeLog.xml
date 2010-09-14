@@ -1,6 +1,16 @@
 <?xml version="1.0"?>
 <log>
 <logentry
+   revision="335">
+<author>petr</author>
+<date>2010-09-13T18:37:01.413008Z</date>
+<msg>Seznam kaskádových stylů</msg>
+<revprops>
+<property
+   name="svn:link">/css/</property>
+</revprops>
+</logentry>
+<logentry
    revision="334">
 <author>petr</author>
 <date>2010-09-13T07:04:56.630933Z</date>
