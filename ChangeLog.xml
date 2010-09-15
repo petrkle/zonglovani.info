@@ -1,6 +1,16 @@
 <?xml version="1.0"?>
 <log>
 <logentry
+   revision="337">
+<author>petr</author>
+<date>2010-09-14T17:59:44.729526Z</date>
+<msg>Seznam skriptů</msg>
+<revprops>
+<property
+   name="svn:link">/scripts/</property>
+</revprops>
+</logentry>
+<logentry
    revision="336">
 <author>petr</author>
 <date>2010-09-14T17:26:01.501674Z</date>
