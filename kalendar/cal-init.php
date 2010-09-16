@@ -102,6 +102,8 @@ function get_event_data($id,$storage=CALENDAR_DATA){
 		$udalost['insert_hr']=date('j. n. Y',$udalost['insert']);
 		$udalost['insert_mr']=date('c',$udalost['insert']);
 		$udalost['insert_rss2']=date('r',$udalost['insert']);
+		$udalost['start_micro']=date('c',$udalost['start']);
+		$udalost['end_micro']=date('c',$udalost['end']);
 		$navrat=$udalost;
 
 }

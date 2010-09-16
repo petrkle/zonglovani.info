@@ -1,9 +1,7 @@
-{*
 <p>
-Regular Sunday juggling at <a href="http://www.ulita.cz" class="external" onclick="pageTracker._trackPageview('/goto/ulita.cz');" title="Ulita - house of children and youth">DDM Ulita</a>. It takes place in a <a href="/obrazky/ulita-20091213/0059.html" title="Image of hall">large hall</a> with a <strong>high ceiling</strong>, a soft floor and big windows, a sound system, a stage for shows and a disco ball.
+Regular Sunday juggling at <a href="http://www.ulita.cz" class="external" onclick="pageTracker._trackPageview('/goto/ulita.cz');" title="Ulita - house of children and youth">DDM Ulita</a>. It takes place in a <a href="/obrazky/ulita-20091213/0059.jpg" title="Image of hall" onclick="pageTracker._trackPageview('/obrazky/ulita-20091213/0059.jpg');">large hall</a> with a <strong>high ceiling</strong>, a soft floor and big windows, a sound system, a stage for shows and a disco ball.
 </p>
 
-*}
 <div class="obrazkovnik">
 <a href="/obrazky/ulita-20100411/0004.html">{obrazek soubor='usam.jpg' popisek=''}</a>
 <a href="/obrazky/ulita-20100411/0005.html">{obrazek soubor='usan.jpg' popisek=''}</a>

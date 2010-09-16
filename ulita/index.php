@@ -2,7 +2,7 @@
 require('../init.php');
 require('../func.php');
 
-if(preg_match('/^\/ulita\/\?.*2010..$/',$_SERVER['REQUEST_URI'])){
+if(preg_match('/^\/ulita\/\?.*201.+$/',$_SERVER['REQUEST_URI'])){
 	header('Location: /ulita/');
 	exit();
 }
