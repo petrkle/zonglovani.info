@@ -15,7 +15,7 @@ E-mail: {$mail|mailobfuscate}
 *}
 
 {if count($podzim)>0}
-<h3>Termíny - podzim 2009</h3>
+<h3>Termíny - podzim 2010</h3>
 <table class="tabulka" cellspacing="0" cellpadding="0">
 <tr>
 <th>Den</th>
@@ -24,13 +24,14 @@ E-mail: {$mail|mailobfuscate}
 <th>Vstupné [Kč]</th>
 </tr>
 {foreach from=$podzim item=datum}
-<tr><td>Neděle</td><td><a href="{$smarty.const.CALENDAR_URL}{$datum.url}" title="Ulita v kalendáři.">{$datum.datum}</a></td><td>15 - 19</td><td>40</td></tr>
+<tr><td>Neděle</td><td><a href="{$smarty.const.CALENDAR_URL}{$datum.url}" title="Ulita v kalendáři.">{$datum.datum}</a></td><td>16 - 19</td><td>40</td></tr>
 {/foreach}
 </table>
 {/if}
 
+{*
 {if count($jaro)>0}
-<h3>Termíny - jaro 2010</h3>
+<h3>Termíny - jaro 2011</h3>
 <table class="tabulka" cellspacing="0" cellpadding="0">
 <tr>
 <th>Den</th>
@@ -39,17 +40,14 @@ E-mail: {$mail|mailobfuscate}
 <th>Vstupné [Kč]</th>
 </tr>
 {foreach from=$jaro item=datum}
-{if $datum.datum=='4. 4.'}
-<tr><td class="skrtanec">Neděle</td><td><span class="skrtanec">{$datum.datum}</span></td><td class="skrtanec">15 - 19</td><td class="skrtanec">40</td></tr>
-{else}
 <tr><td>Neděle</td><td><a href="{$smarty.const.CALENDAR_URL}{$datum.url}" title="Ulita v kalendáři.">{$datum.datum}</a></td><td>15 - 19</td><td>40</td></tr>
-{/if}
 {/foreach}
 </table>
 {else}
 <h3>Termíny</h3>
 <p>Příští žonglování v Ulitě bude na podzim.</p>
 {/if}
+*}
 
 <h3><a href="cesta.html" title="Podrobný popis cesty.">Místo konání</a></h3>
 <p>

@@ -7,23 +7,23 @@ $smarty->assign('titulek','Juggling at Ulita');
 $podzim=array();
 $jaro=array();
 
-array_push($podzim,array('datum'=>'2009/10/18','url'=>'udalost-20091018-20091018-pek-1253739218.html'));
-array_push($podzim,array('datum'=>'2009/11/1','url'=>'udalost-20091101-20091101-pek-1253740284.html'));
-array_push($podzim,array('datum'=>'2009/11/15','url'=>'udalost-20091115-20091115-pek-1253740320.html'));
-array_push($podzim,array('datum'=>'2009/11/29','url'=>'udalost-20091129-20091129-pek-1253740371.html'));
-array_push($podzim,array('datum'=>'2009/12/13','url'=>'udalost-20091213-20091213-pek-1253740425.html'));
 
+array_push($podzim,array('datum'=>'2010/10/3','url'=>'udalost-20101003-20101003-pek-1284638162.html'));
+array_push($podzim,array('datum'=>'2010/10/17','url'=>'udalost-20101017-20101017-pek-1284638265.html'));
+array_push($podzim,array('datum'=>'2010/10/31','url'=>'udalost-20101031-20101031-pek-1284638445.html'));
+array_push($podzim,array('datum'=>'2010/11/14','url'=>'udalost-20101114-20101114-pek-1284638655.html'));
+array_push($podzim,array('datum'=>'2010/11/21','url'=>'udalost-20101121-20101121-pek-1284638694.html'));
+array_push($podzim,array('datum'=>'2010/12/5','url'=>'udalost-20101205-20101205-pek-1284638791.html'));
+array_push($podzim,array('datum'=>'2010/12/19','url'=>'udalost-20101219-20101219-pek-1284638839.html'));
 
-array_push($jaro,array('datum'=>'2010/1/10','url'=>'udalost-20100110-20100110-pek-1253740481.html'));
-array_push($jaro,array('datum'=>'2010/1/24','url'=>'udalost-20100124-20100124-pek-1253740517.html'));
-array_push($jaro,array('datum'=>'2010/2/7','url'=>'udalost-20100207-20100207-pek-1253740566.html'));
-array_push($jaro,array('datum'=>'2010/2/21','url'=>'udalost-20100221-20100221-pek-1253740621.html'));
-array_push($jaro,array('datum'=>'2010/3/7','url'=>'udalost-20100307-20100307-pek-1253740665.html'));
-array_push($jaro,array('datum'=>'2010/3/21','url'=>'udalost-20100321-20100321-pek-1253740740.html'));
-array_push($jaro,array('datum'=>'2010/4/4','url'=>'udalost-20100404-20100404-pek-1253740811.html'));
-array_push($jaro,array('datum'=>'2010/4/11','url'=>'udalost-20100411-20100411-pek-1253740811.html'));
-
-
+array_push($jaro,array('datum'=>'2010/1/10','url'=>''));
+array_push($jaro,array('datum'=>'2010/1/24','url'=>''));
+array_push($jaro,array('datum'=>'2010/2/7','url'=>''));
+array_push($jaro,array('datum'=>'2010/2/21','url'=>''));
+array_push($jaro,array('datum'=>'2010/3/7','url'=>''));
+array_push($jaro,array('datum'=>'2010/3/21','url'=>''));
+array_push($jaro,array('datum'=>'2010/4/4','url'=>''));
+array_push($jaro,array('datum'=>'2010/4/11','url'=>''));
 
 $smarty->assign('podzim',to_ulita($podzim));
 $smarty->assign('jaro',to_ulita($jaro));

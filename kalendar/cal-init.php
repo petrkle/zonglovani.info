@@ -45,7 +45,7 @@ class MonthPayload_Decorator extends Calendar_Decorator {
     function setSelection($events) {
         foreach ($this->calendar->children as $i=> $child) { 
             $stamp1 = $this->calendar->cE->dateToStamp($child->thisYear(), $child->thisMonth(), $child->thisDay());
-            $stamp2 = $this->calendar->cE->dateToStamp($child->thisYear(), $child->thisMonth(), $child->nextDay());
+            $stamp2 = $stamp1+(3600*24);
             foreach ($events as $event) {
                 if (($event['start'] > $stamp1 and $event['start'] < $stamp2) or ($event['end'] > $stamp1 and $event['end'] < $stamp2) or ($stamp1 > $event['start'] and $stamp2 < $event['end'] and $stamp2 > $event['start']) and $stamp1< $event['end']) {
 												#print date('Y-m-d H.i',$stamp1).'<br>';
@@ -131,14 +131,12 @@ function get_cal_data($rok,$mesic){
   if(is_dir(CALENDAR_DATA) and opendir(CALENDAR_DATA)){
 	$adr=opendir(CALENDAR_DATA);
 	while (false!==($file = readdir($adr))) {
-	  if (substr($file,-4) == '.cal' and ereg(".*$rok$mesic.*",$file))
-		{
+	  if (substr($file,-4) == '.cal' and ereg(".*$rok$mesic.*",$file)){
 			array_push($vypis,get_event_data($file));
 		};
 	};
 	closedir($adr); 
   };
-
 	return $vypis;
 }
 

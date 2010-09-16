@@ -1,6 +1,16 @@
 <?xml version="1.0"?>
 <log>
 <logentry
+   revision="338">
+<author>petr</author>
+<date>2010-09-15T20:33:05.285144Z</date>
+<msg>Statistiky</msg>
+<revprops>
+<property
+   name="svn:link">/statistiky.html</property>
+</revprops>
+</logentry>
+<logentry
    revision="337">
 <author>petr</author>
 <date>2010-09-14T17:59:44.729526Z</date>
