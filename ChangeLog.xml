@@ -1,6 +1,16 @@
 <?xml version="1.0"?>
 <log>
 <logentry
+   revision="340">
+<author>petr</author>
+<date>2010-09-16T18:57:31.580897Z</date>
+<msg>Ulita - plakát</msg>
+<revprops>
+<property
+   name="svn:link">/img/u/ulita.png</property>
+</revprops>
+</logentry>
+<logentry
    revision="339">
 <author>petr</author>
 <date>2010-09-16T12:23:31.230032Z</date>

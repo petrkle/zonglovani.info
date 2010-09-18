@@ -24,6 +24,7 @@
 	<li><a href="/rss.html">RSS kanály</a></li>
 	<li><a href="/siteswap.html">Siteswap - popis žonglování pomocí čísel</a></li>
 	<li><a href="/software.html">Simulátory žonglování</a></li>
+	<li><a href="/statistiky.html">Statistiky</a></li>
 	<li><a href="/toolbox.html">Použitý software</a></li>
 	<li><a href="/trenink.html">Trénink</a></li>
 	<li><a href="/vanoce-2010.html">Veselé vánoce</a></li>
@@ -518,6 +519,9 @@
 			</li>
 		</ul>
 		</li>
+		<li><a name="chudy"></a><a href="/chudy/">Chůdy</a>
+		
+		</li>
 		<li><a name="css"></a><a href="/css/">Kaskádové styly</a>
 		
 		</li>
@@ -573,6 +577,10 @@
 		<li><a href="/kalendar/2010-11.html">Kalendář žonglování - Listopad 2010</a></li>
 		<li><a href="/kalendar/2010-12.html">Kalendář žonglování - Prosinec 2010</a></li>
 		<li><a href="/kalendar/2011-01.html">Kalendář žonglování - Leden 2011</a></li>
+		<li><a href="/kalendar/2011-02.html">Kalendář žonglování - Únor 2011</a></li>
+		<li><a href="/kalendar/2011-03.html">Kalendář žonglování - Březen 2011</a></li>
+		<li><a href="/kalendar/2011-04.html">Kalendář žonglování - Duben 2011</a></li>
+		<li><a href="/kalendar/2011-05.html">Kalendář žonglování - Květen 2011</a></li>
 		<li><a href="/kalendar/rss-a-icalendar.html">Nastavení RSS a iCalendar</a></li>
 		<li><a href="/kalendar/udalost-20100409-20100411-pek-1266301787.html">Žonglérská víkendovka 9. 4. 2010 až 11. 4. 2010 - kalendář žonglování</a></li>
 		<li><a href="/kalendar/udalost-20100411-20100411-pek-1253740811.html">Ulita 11. 4. 2010 - kalendář žonglování</a></li>
@@ -614,6 +622,21 @@
 		<li><a href="/kalendar/udalost-20100915-20100915-pek-1284052950.html">Tribo Fuego 15. 9. 2010 - kalendář žonglování</a></li>
 		<li><a href="/kalendar/udalost-20100917-20100919-pek-1283238409.html">Žonglérský kout 17. 9. 2010 až 19. 9. 2010 - kalendář žonglování</a></li>
 		<li><a href="/kalendar/udalost-20100925-20100925-pek-1284352395.html">Rožnovské ohňování 25. 9. 2010 - kalendář žonglování</a></li>
+		<li><a href="/kalendar/udalost-20101003-20101003-pek-1284638162.html">Ulita 3. 10. 2010 - kalendář žonglování</a></li>
+		<li><a href="/kalendar/udalost-20101017-20101017-pek-1284638265.html">Ulita 17. 10. 2010 - kalendář žonglování</a></li>
+		<li><a href="/kalendar/udalost-20101031-20101031-pek-1284638445.html">Ulita 31. 10. 2010 - kalendář žonglování</a></li>
+		<li><a href="/kalendar/udalost-20101114-20101114-pek-1284638655.html">Ulita 14. 11. 2010 - kalendář žonglování</a></li>
+		<li><a href="/kalendar/udalost-20101121-20101121-pek-1284638694.html">Ulita 21. 11. 2010 - kalendář žonglování</a></li>
+		<li><a href="/kalendar/udalost-20101205-20101205-pek-1284638791.html">Ulita 5. 12. 2010 - kalendář žonglování</a></li>
+		<li><a href="/kalendar/udalost-20101219-20101219-pek-1284638839.html">Ulita 19. 12. 2010 - kalendář žonglování</a></li>
+		<li><a href="/kalendar/udalost-20110116-20110116-pek-1284720961.html">Ulita 16. 1. 2011 - kalendář žonglování</a></li>
+		<li><a href="/kalendar/udalost-20110130-20110130-pek-1284720999.html">Ulita 30. 1. 2011 - kalendář žonglování</a></li>
+		<li><a href="/kalendar/udalost-20110213-20110213-pek-1284721119.html">Ulita 13. 2. 2011 - kalendář žonglování</a></li>
+		<li><a href="/kalendar/udalost-20110227-20110227-pek-1284721165.html">Ulita 27. 2. 2011 - kalendář žonglování</a></li>
+		<li><a href="/kalendar/udalost-20110306-20110306-pek-1284721221.html">Ulita 6. 3. 2011 - kalendář žonglování</a></li>
+		<li><a href="/kalendar/udalost-20110320-20110320-pek-1284721302.html">Ulita 20. 3. 2011 - kalendář žonglování</a></li>
+		<li><a href="/kalendar/udalost-20110403-20110403-pek-1284721347.html">Ulita 3. 4. 2011 - kalendář žonglování</a></li>
+		<li><a href="/kalendar/udalost-20110417-20110417-pek-1284721417.html">Ulita 17. 4. 2011 - kalendář žonglování</a></li>
 		</ul>
 		</li>
 		<li><a name="kruhy"></a><a href="/kruhy/">Žonglování s kruhy</a>
@@ -739,6 +762,7 @@
 		<li><a href="/lide/dedasd.html">Pavel Raus</a></li>
 		<li><a href="/lide/djembeman.html">Glofak Peter</a></li>
 		<li><a href="/lide/em-em.html">Michal</a></li>
+		<li><a href="/lide/esteladefuego.html">Estela de Fuego</a></li>
 		<li><a href="/lide/feela.html">filip</a></li>
 		<li><a href="/lide/fry121.html">Filip Zahradil</a></li>
 		<li><a href="/lide/grib0.html">Grib0</a></li>

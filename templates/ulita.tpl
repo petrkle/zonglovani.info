@@ -1,5 +1,6 @@
+<div class="vevent">
 <p>
-Pravidelné nedělní žonglování v <a href="http://www.ulita.cz" class="external" onclick="pageTracker._trackPageview('/goto/ulita.cz');" title="Ulita - dům dětí a mládeže">DDM Ulita</a>. Žongluje se ve <a href="/obrazky/ulita-20091213/0059.jpg" title="Obrázek velkého sálu." onclick="pageTracker._trackPageview('/obrazky/ulita-20091213/0059.jpg');">velkém sále</a> kde je: <strong>vysoký strop</strong>, měkká podlaha, ozvučení, pódium  pro případné vystoupení, okna a disco koule.
+<span class="summary">Pravidelné nedělní žonglování v <a href="cesta.html" title="Ulita - dům dětí a mládeže">DDM Ulita</a>.</span> <span class="description">Žongluje se ve <a href="/obrazky/ulita-20091213/0059.jpg" title="Obrázek velkého sálu." onclick="pageTracker._trackPageview('/obrazky/ulita-20091213/0059.jpg');">velkém sále</a> kde je: <strong>vysoký strop</strong>, měkká podlaha, ozvučení, pódium  pro případné vystoupení, okna a disco koule.</span>
 </p>
 <div class="obrazkovnik">
 <a href="/obrazky/ulita-20100411/0004.html">{obrazek soubor='usam.jpg' popisek=''}</a>
@@ -27,12 +28,11 @@ E-mail: {$mail|mailobfuscate}
 <th>Vstupné [Kč]</th>
 </tr>
 {foreach from=$podzim item=datum}
-<tr><td>Neděle</td><td><a href="{$smarty.const.CALENDAR_URL}{$datum.url}" title="Ulita v kalendáři.">{$datum.datum}</a></td><td>16 - 19</td><td>40</td></tr>
+<tr><td>Neděle</td><td><a href="{$smarty.const.CALENDAR_URL}{$datum.url}" title="Ulita v kalendáři."><abbr class="dtstart" title="{$datum.mz|escape}">{$datum.datum}</abbr></a></td><td>16 - <abbr class="dtend" title="{$datum.mk|escape}">19</abbr></td><td>40</td></tr>
 {/foreach}
 </table>
 {/if}
 
-{*
 {if count($jaro)>0}
 <h3>Termíny - jaro 2011</h3>
 <table class="tabulka" cellspacing="0" cellpadding="0">
@@ -43,19 +43,18 @@ E-mail: {$mail|mailobfuscate}
 <th>Vstupné [Kč]</th>
 </tr>
 {foreach from=$jaro item=datum}
-<tr><td>Neděle</td><td><a href="{$smarty.const.CALENDAR_URL}{$datum.url}" title="Ulita v kalendáři.">{$datum.datum}</a></td><td>15 - 19</td><td>40</td></tr>
+<tr><td>Neděle</td><td><a href="{$smarty.const.CALENDAR_URL}{$datum.url}" title="Ulita v kalendáři."><abbr class="dtstart" title="{$datum.mz|escape}">{$datum.datum}</abbr></a></td><td>16 - <abbr class="dtend" title="{$datum.mk|escape}">19</abbr></td><td>40</td></tr>
 {/foreach}
 </table>
 {else}
 <h3>Termíny</h3>
 <p>Příští žonglování v Ulitě bude na podzim.</p>
 {/if}
-*}
 
 <h3><a href="cesta.html" title="Podrobný popis cesty.">Místo konání</a></h3>
 <p>
 <a href="cesta.html" title="Ulita - dům dětí a mládeže">{obrazek soubor='ulita.cz.png' popisek='Ulita'}</a>
-Na Balkáně 100, Praha 3, 130 00<br />
+<span class="location">Na Balkáně 100, Praha 3, 130 00</span><br />
 <a href="http://www.mapy.cz/#mm=ZP@ax=133213920@ay=135976864@at=Ulita@ad=D%C5%AFm%20d%C4%9Bt%C3%AD%20a%20ml%C3%A1de%C5%BEe%20Ulita.@x=133213312@y=135977056@z=16" title="Místo konání na mapě." class="external" onclick="pageTracker._trackPageview('/goto/mapy.cz/ulita');">Zobrazit na mapě</a><br />
 <a href="cesta.html" title="Jak se dostat do Ulity">Popis cesty</a><br />
 {*Telefon: 271 771 025<br />*}
@@ -72,3 +71,4 @@ E-mail: {$mail|mailobfuscate}
 <p><a href="http://www.radio1.cz" title="Radio 1" onclick="pageTracker._trackPageview('/goto/radio1.cz');">{obrazek soubor='radio1.png' popisek='Radio 1'}</a>O žonglování v Ulitě můžeš slyšet i v <a href="http://www.radio1.cz/kulturniservis/" title="Kulturní servis Rádia 1" onclick="pageTracker._trackPageview('/goto/radio1.cz/kulturniservis');" class="external">kulturním servisu</a> Radia 1.</p>
 *}
 <p style="text-align: right; font-size: 0.5em;"><a href="/ulita/en.html">English version</a></p>
+</div>

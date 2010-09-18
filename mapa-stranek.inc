@@ -23,6 +23,7 @@
 	<li><a href="/rss.html">RSS kanály</a></li>
 	<li><a href="/siteswap.html">Siteswap - popis žonglování pomocí čísel</a></li>
 	<li><a href="/software.html">Simulátory žonglování</a></li>
+	<li><a href="/statistiky.html">Statistiky</a></li>
 	<li><a href="/trenink.html">Trénink</a></li>
 	<li><a href="/vanoce-2010.html">Veselé vánoce</a></li>
 	<li><a href="/zakladni-pojmy.html">Žonglování - základní pojmy</a></li>
@@ -35,6 +36,9 @@
 			
 			</li>
 		</ul>
+		</li>
+		<li><a name="chudy"></a><a href="/chudy/">Chůdy</a>
+		
 		</li>
 		<li><a name="css"></a><a href="/css/">Kaskádové styly</a>
 		
