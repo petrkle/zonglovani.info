@@ -2,21 +2,21 @@
 <p>
 <span class="summary">Pravidelné nedělní žonglování v <a href="cesta.html" title="Ulita - dům dětí a mládeže">DDM Ulita</a>.</span> <span class="description">Žongluje se ve <a href="/obrazky/ulita-20091213/0059.jpg" title="Obrázek velkého sálu." onclick="pageTracker._trackPageview('/obrazky/ulita-20091213/0059.jpg');">velkém sále</a> kde je: <strong>vysoký strop</strong>, měkká podlaha, ozvučení, pódium  pro případné vystoupení, okna a disco koule.</span>
 </p>
+
+<p>
+Přijít mohou začínající i zkušení žongléři a žonglérky. Pro širokou veřejnost budou k dispozici míčky a kužely k zapůjčení. Žonglovat se může naučit <strong>opravdu každý</strong>.
+</p>
+
 <div class="obrazkovnik">
 <a href="/obrazky/ulita-20100411/0004.html">{obrazek soubor='usam.jpg' popisek=''}</a>
 <a href="/obrazky/ulita-20100411/0005.html">{obrazek soubor='usan.jpg' popisek=''}</a>
 <a href="/obrazky/ulita-20100411/stranka2/0027.html">{obrazek soubor='usao.jpg' popisek=''}</a>
 <br /><a href="/obrazky/filtr/Ulita" title="Další obrázky z žonglování v Ulitě.">Další obrázky &raquo;</a>
 </div>
-{*
+
 <p>
-<a href="http://www.ulita.cz" class="external" onclick="pageTracker._trackPageview('/goto/ulita.cz');" title="Ulita - dům dětí a mládeže">Ulita</a> - dům dětí a mládeže<br />
-Na Balkáně 100, Praha 3, 130 00 - <a href="cesta.html" title="Podrobný popis cesty.">popis cesty</a>, <a href="http://www.mapy.cz/#mm=ZP@ax=133213920@ay=135976864@at=Ulita@ad=D%C5%AFm%20d%C4%9Bt%C3%AD%20a%20ml%C3%A1de%C5%BEe%20Ulita.@x=133213312@y=135977056@z=16" title="Místo konání na mapě." class="external" onclick="pageTracker._trackPageview('/goto/mapy.cz/ulita');">mapa</a><br />
-Telefon: 271 771 025<br />
-{assign var='mail' value='info@ulita.cz'}
-E-mail: {$mail|mailobfuscate}
+Sleduj žonglérův slabikář na <a href="http://www.facebook.com/zongleruv.slabikar" id="fblink" onclick="pageTracker._trackPageview('/goto/facebook.com/pages/zongleruv.slabikar');">Facebooku</a> - žádná Ulita ti neuteče.
 </p>
-*}
 
 {if count($podzim)>0}
 <h3>Termíny - podzim 2010</h3>

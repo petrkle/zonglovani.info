@@ -55,9 +55,9 @@ function submenu($id){
 	}
 
 	if($id==5){
-		$adresy = array('/obrazky/','/video/');
-		$texty = array('Obrázky','Video');
-		$popisky = array('Obrázky žonglování','Zajímavá žonglérská videa');
+		$adresy = array('/obrazky/','/video/','/animace/');
+		$texty = array('Obrázky','Video','Animace');
+		$popisky = array('Obrázky žonglování','Zajímavá žonglérská videa','Animace žonglování s míčky');
 	}
 
 	if(isset($adresy)){
