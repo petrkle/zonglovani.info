@@ -1,6 +1,18 @@
 <?xml version="1.0"?>
 <log>
 <logentry
+   revision="342">
+<author>petr</author>
+<date>2010-09-18T08:29:08.218954Z</date>
+<msg>Oprava formuláře pro přidávání událostí do kalendáře.</msg>
+</logentry>
+<logentry
+   revision="341">
+<author>petr</author>
+<date>2010-09-18T08:28:29.383371Z</date>
+<msg>Datumy v odděleném souboru</msg>
+</logentry>
+<logentry
    revision="340">
 <author>petr</author>
 <date>2010-09-16T18:57:31.580897Z</date>
