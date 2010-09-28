@@ -1,6 +1,12 @@
 <?xml version="1.0"?>
 <log>
 <logentry
+   revision="344">
+<author>petr</author>
+<date>2010-09-27T21:10:13.710009Z</date>
+<msg>Aktualizace nbbc.</msg>
+</logentry>
+<logentry
    revision="343">
 <author>petr</author>
 <date>2010-09-27T19:15:34.043150Z</date>

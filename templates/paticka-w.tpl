@@ -45,6 +45,7 @@ function addLoadEvent(func) {
 	var oldonload = window.onload;
 	if (typeof window.onload != 'function') {
 		window.onload = func;
+			func();
 	} else {
 		window.onload = function() {
 			if (oldonload) {
@@ -54,7 +55,32 @@ function addLoadEvent(func) {
 		}
 	}
 }
-setTimeout('addLoadEvent(preloader)',1000);
+setTimeout(function() {
+addLoadEvent(preloader);
+}, 2000); 
+
+document.onkeydown = KeyPressHappened;
+
+function KeyPressHappened(e)
+{
+  if (!e) e=window.event;
+  var code;
+  if ((e.charCode) && (e.keyCode==0))
+    code = e.charCode
+  else
+    code = e.keyCode;
+	if(code==39){
+{/literal}{if $obrazek.dalsi_cislo}
+		window.top.location.href="{if $obrazek.dalsi_stranka!=1}{$smarty.const.OBRAZKY_URL}{$gal_id}/stranka{$obrazek.dalsi_stranka}/{$obrazek.dalsi_cislo}{else}{$obrazek.dalsi_cislo|escape}{/if}.html#nahore";
+{/if}{literal}
+	}
+	if(code==37){
+{/literal}{if $obrazek.predchozi_cislo}
+		window.top.location.href="{if $obrazek.predchozi_stranka}{$smarty.const.OBRAZKY_URL}{$gal_id}/stranka{$obrazek.predchozi_stranka}/{$obrazek.predchozi_cislo}{else}{$smarty.const.OBRAZKY_URL}{$gal_id}/{$obrazek.predchozi_cislo|escape}{/if}.html#nahore";
+{/if}{literal}
+	}
+}
+
 		//--><!]]>
 	</script>
 {/literal}
