@@ -28,7 +28,7 @@ Sleduj žonglérův slabikář na <a href="http://www.facebook.com/zongleruv.sla
 <th>Vstupné [Kč]</th>
 </tr>
 {foreach from=$podzim item=datum}
-<tr><td>Neděle</td><td><a href="{$smarty.const.CALENDAR_URL}{$datum.url}" title="Ulita v kalendáři."><abbr class="dtstart" title="{$datum.mz|escape}">{$datum.datum}</abbr></a></td><td>16 - <abbr class="dtend" title="{$datum.mk|escape}">19</abbr></td><td>40</td></tr>
+<tr><td>Neděle</td><td><a href="{$smarty.const.CALENDAR_URL}{$datum.url}" title="Ulita v kalendáři."><abbr class="dtstart" title="{$datum.mz|escape}">{$datum.datum}</abbr></a></td><td>16 - <abbr class="dtend" title="{$datum.mk|escape}">19</abbr></td><td>50</td></tr>
 {/foreach}
 </table>
 {/if}
@@ -43,7 +43,7 @@ Sleduj žonglérův slabikář na <a href="http://www.facebook.com/zongleruv.sla
 <th>Vstupné [Kč]</th>
 </tr>
 {foreach from=$jaro item=datum}
-<tr><td>Neděle</td><td><a href="{$smarty.const.CALENDAR_URL}{$datum.url}" title="Ulita v kalendáři."><abbr class="dtstart" title="{$datum.mz|escape}">{$datum.datum}</abbr></a></td><td>16 - <abbr class="dtend" title="{$datum.mk|escape}">19</abbr></td><td>40</td></tr>
+<tr><td>Neděle</td><td><a href="{$smarty.const.CALENDAR_URL}{$datum.url}" title="Ulita v kalendáři."><abbr class="dtstart" title="{$datum.mz|escape}">{$datum.datum}</abbr></a></td><td>16 - <abbr class="dtend" title="{$datum.mk|escape}">19</abbr></td><td>50</td></tr>
 {/foreach}
 </table>
 {else}

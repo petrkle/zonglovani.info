@@ -1,6 +1,12 @@
 <?xml version="1.0"?>
 <log>
 <logentry
+   revision="345">
+<author>petr</author>
+<date>2010-09-28T06:52:52.708958Z</date>
+<msg>Procházení galerií pomocí šipek na klávesnici</msg>
+</logentry>
+<logentry
    revision="344">
 <author>petr</author>
 <date>2010-09-27T21:10:13.710009Z</date>

@@ -24,7 +24,7 @@ Beginners as well as experienced jugglers are welcome. There are balls and clubs
 <th>Fee [CZK]</th>
 </tr>
 {foreach from=$podzim item=datum}
-<tr><td>Sunday</td><td><a href="{$smarty.const.CALENDAR_URL}{$datum.url}" title="Ulita in calendar.">{$datum.datum}</a></td><td>16 - 19</td><td>40</td></tr>
+<tr><td>Sunday</td><td><a href="{$smarty.const.CALENDAR_URL}{$datum.url}" title="Ulita in calendar.">{$datum.datum}</a></td><td>16 - 19</td><td>50</td></tr>
 {/foreach}
 </table>
 {/if}
@@ -39,7 +39,7 @@ Beginners as well as experienced jugglers are welcome. There are balls and clubs
 <th>Fee [CZK]</th>
 </tr>
 {foreach from=$jaro item=datum}
-<tr><td>Sunday</td><td><a href="{$smarty.const.CALENDAR_URL}{$datum.url}" title="Ulita in calendar.">{$datum.datum}</a></td><td>16 - 19</td><td>40</td></tr>
+<tr><td>Sunday</td><td><a href="{$smarty.const.CALENDAR_URL}{$datum.url}" title="Ulita in calendar.">{$datum.datum}</a></td><td>16 - 19</td><td>50</td></tr>
 {/foreach}
 </table>
 {else}

@@ -1,7 +1,7 @@
 #!/bin/bash
 
 svn up
-TMP=/home/petr/tmp/upload
+TMP=$HOME/tmp/upload
 ARCHIV=`./scripts/archiv.sh | awk '{print $2}'`
 
 [ -n "$ARCHIV" ] || exit 0
