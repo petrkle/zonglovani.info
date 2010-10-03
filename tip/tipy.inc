@@ -41,7 +41,8 @@
 2010-09-13*Juggling.tv*/juggling-tv.html*juggling.tv.png*Domov žonglérského videa na internetu.
 2010-09-20*Bratři v tricku - trénink*/video/bratri-v-tricku-training-day.html*training-day.jpg*Letní trénink bratrů v triku.
 2010-09-27*Žonglování v Ulitě*/ulita/?20101003*ulita.cz.png*V domě dětí a mládeže Ulita se pravidelně žongluje. Přijít mohou začínající i zkušení žongléři a žonglérky.
-2010-10-04*Obrázky na plochu*/obrazky-na-plochu/*kuzelky-na-trave.jpg*Obrázky na plochu počítače s žonglérskou tématikou.
+2010-10-04*Fotky z Ulity*/obrazky/ulita-20101003/0000.html*ucho.jpg*Fotky z prvního podzimního žonglování v Ulitě.
+2010-10-07*Obrázky na plochu*/obrazky-na-plochu/*kuzelky-na-trave.jpg*Obrázky na plochu počítače s žonglérskou tématikou.
 2010-10-11*Žonglování v Ulitě*/ulita/?20101017*ulita.cz.png*V domě dětí a mládeže Ulita se pravidelně žongluje. Přijít mohou začínající i zkušení žongléři a žonglérky.
 2010-10-18*Helikoptéra*/kuzely/3/helikoptera.html*kuzely-3-helikopterac.png*Trik s kuželkou. Ale pozor, je trochu na hlavu :^)
 2010-10-25*Žonglování v Ulitě*/ulita/?20101031*ulita.cz.png*V domě dětí a mládeže Ulita se pravidelně žongluje. Přijít mohou začínající i zkušení žongléři a žonglérky.

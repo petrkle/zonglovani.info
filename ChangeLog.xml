@@ -1,6 +1,12 @@
 <?xml version="1.0"?>
 <log>
 <logentry
+   revision="346">
+<author>pek</author>
+<date>2010-09-29T09:20:08.236659Z</date>
+<msg>Ulita - oprava, vstupné je 50 Kč.</msg>
+</logentry>
+<logentry
    revision="345">
 <author>petr</author>
 <date>2010-09-28T06:52:52.708958Z</date>
