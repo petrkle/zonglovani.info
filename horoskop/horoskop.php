@@ -1,14 +1,14 @@
 <?php
 
-if(eregi("index\.php\?znameni",$_SERVER["REQUEST_URI"])){
-	header("HTTP/1.1 301 Moved Permanently");
-	header("Location: http://".$_SERVER["HTTP_HOST"].ereg_replace("index\.php\?znameni=(.*)$","\\1.html",$_SERVER["REQUEST_URI"]));
+if(preg_match('/index\.php\?znameni/',$_SERVER['REQUEST_URI'])){
+	header('HTTP/1.1 301 Moved Permanently');
+	header('Location: http://'.$_SERVER['HTTP_HOST'].preg_replace("/index\.php\?znameni=(.*)$/","\\1.html",$_SERVER["REQUEST_URI"]));
 	exit();
 }
 
-if(eregi("horoskop-zitra\.php\?znameni",$_SERVER["REQUEST_URI"])){
-	header("HTTP/1.1 301 Moved Permanently");
-	header("Location: http://".$_SERVER["HTTP_HOST"].ereg_replace("horoskop-zitra\.php\?znameni=(.*)$","zitra/\\1.html",$_SERVER["REQUEST_URI"]));
+if(preg_match('/horoskop-zitra\.php\?znameni/',$_SERVER['REQUEST_URI'])){
+	header('HTTP/1.1 301 Moved Permanently');
+	header("Location: http://".$_SERVER["HTTP_HOST"].preg_replace("/horoskop-zitra\.php\?znameni=(.*)$/","zitra/\\1.html",$_SERVER["REQUEST_URI"]));
 	exit();
 }
 

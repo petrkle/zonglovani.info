@@ -48,7 +48,7 @@ flush();
  {if basename($smarty.server.SCRIPT_NAME)!="prihlaseni.php"}<a href="{$smarty.const.LIDE_URL}prihlaseni.php{if $smarty.server.REQUEST_URI!="/"}?next={$smarty.server.REQUEST_URI|escape}{/if}" title="Přihlášení do žonglérova slabikáře" rel="nofollow">Přihlášení</a> ~ {/if}<a href="{$smarty.const.LIDE_URL}pravidla.php" title="Vytvořit nový účet v žonglérově slabikáři.">Nový účet</a>{/if}
 </div>
 <a name="nahore" id="nahore"></a>
-<div class="hlavickabg{if eregi('/micky.*',$smarty.server.REQUEST_URI)} hlm{elseif eregi('/kruhy.*',$smarty.server.REQUEST_URI)} hlkr{elseif eregi('/kuzely.*',$smarty.server.REQUEST_URI)} hlkz{/if}">
+<div class="hlavickabg{if preg_match('/\/micky.*/',$smarty.server.REQUEST_URI)} hlm{elseif preg_match('/\/kruhy.*/',$smarty.server.REQUEST_URI)} hlkr{elseif preg_match('/\/kuzely.*/',$smarty.server.REQUEST_URI)} hlkz{/if}">
 <a href="/" title="Žonglérův slabikář - úvodní stránka." accesskey="2"><img src="/img/l/logo.gif" width="442" height="71" title="Žonglérův slabikář - úvodní stránka." alt="Žonglérův slabikář - úvodní stránka." />
 </a>
 </div>

@@ -34,7 +34,7 @@ class MonthPayload_Decorator extends Calendar_Decorator {
         parent::build($selectedDays); 
         foreach ($this->calendar->children as $i=> $child) {
             // be very careful since we are passing $child by reference to DiaryEvent
-            $this->calendar->children[$i] = &new DiaryEvent($child);
+            $this->calendar->children[$i] = new DiaryEvent($child);
             unset($child); // unset the pointer!
         }
         if (count($events) > 0) { 
@@ -67,8 +67,8 @@ function get_event_data($id,$storage=CALENDAR_DATA){
 
 			$udalost['zacatek']=substr($filename[0],0,4).'-'.substr($filename[0],4,2).'-'.substr($filename[0],6,2);
 			$udalost['konec']=substr($filename[1],0,4).'-'.substr($filename[1],4,2).'-'.substr($filename[1],6,2);
-			$udalost['id']=ereg_replace('\.cal$','',$id);
-			$udalost['insert']=ereg_replace('\.cal$','',$filename[3]);
+			$udalost['id']=preg_replace('/\.cal$/','',$id);
+			$udalost['insert']=preg_replace('/\.cal$/','',$filename[3]);
 			$udalost['vlozil']=$filename[2];
 			$udalost['vlozil_hr']=get_name($filename[2]);
 			$udalost['month_url']=CALENDAR_URL.substr($filename[0],0,4).'-'.substr($filename[0],4,2).'.html';
@@ -133,7 +133,7 @@ function get_cal_data($rok,$mesic){
   if(is_dir(CALENDAR_DATA) and opendir(CALENDAR_DATA)){
 	$adr=opendir(CALENDAR_DATA);
 	while (false!==($file = readdir($adr))) {
-	  if (substr($file,-4) == '.cal' and ereg(".*$rok$mesic.*",$file)){
+		if (substr($file,-4) == '.cal' and preg_match("/.*$rok$mesic.*/",$file)){
 			array_push($vypis,get_event_data($file));
 		};
 	};

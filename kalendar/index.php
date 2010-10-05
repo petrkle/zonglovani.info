@@ -3,7 +3,7 @@ require('../init.php');
 require('cal-init.php');
 require('../func.php');
 
-if(eregi('index\.php$',$_SERVER['REQUEST_URI'])){
+if(preg_match('/index\.php$/',$_SERVER['REQUEST_URI'])){
 	header('HTTP/1.1 301 Moved Permanently');
 	header('Location: '.CALENDAR_URL);
 	exit();

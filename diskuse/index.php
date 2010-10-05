@@ -75,7 +75,7 @@ function get_diskuse_zpravy($bbcode,$zprav_na_stranku){
 	$navrat = array();
 	    if ($dir) {
 			   while (($filename = readdir($dir)) !== false) {
-						if (!ereg('^\.',$filename) and is_file(DISKUSE_DATA.'/'.$filename)) {
+						if (!preg_match('/^\./',$filename) and is_file(DISKUSE_DATA.'/'.$filename)) {
 							$foo=preg_split('/\./',$filename);
 							$foo=preg_split('/-/',$foo[0]);
 							$cas=$foo[0];

@@ -108,12 +108,12 @@ function get_videa($db){
 		$url=$video[1];
 		$title=$video[2];
 		$description=$video[3];
-		if(ereg("^http://www\.youtube\.com/watch\?v=",$url) or ereg("^http://juggling\.tv:",$url)){
+		if(preg_match('/^http:\/\/www\.youtube\.com\/watch\?v=/',$url) or preg_match('/^http:\/\/juggling\.tv:/',$url)){
 			$link=$url;	
-			$url="$id.html";	
-			$druh="flash";
+			$url=$id.'.html';	
+			$druh='flash';
 
-			if(ereg('^http://juggling\.tv:',$link)){
+			if(preg_match('/^http:\/\/juggling\.tv:/',$link)){
 				$fid=explode('.tv:',$link);
 				$fid=$fid[1];
 				$server='juggling.tv';
@@ -324,8 +324,8 @@ function get_user_props($login){
 		$dir = opendir(LIDE_DATA.'/'.$login);
 				if ($dir) {
 					 while (($filename = readdir($dir)) !== false) {
-							if (ereg('\.mail$',$filename)) {
-								$navrat['email']=eregi_replace('\.mail$','',$filename);
+							if (preg_match('/\.mail$/',$filename)) {
+								$navrat['email']=preg_replace('/\.mail$/','',$filename);
 						 }
 					 }
 				 }

@@ -6,6 +6,8 @@ if($_SERVER['SERVER_NAME']!='zongl.info'){
 	  error_reporting(E_ALL);
 };
 
+date_default_timezone_set('Europe/Prague');
+
 $srv=explode('.',$_SERVER['SERVER_NAME']);
 
 if($srv[0]=='i' or $srv[0]=='f'){

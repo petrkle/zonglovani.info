@@ -5,9 +5,9 @@ require('../func.php');
 $smarty->assign('titulek','Přihlášení');
 $smarty->assign('robots','noindex,follow');
 
-if(isset($_GET['next']) and ereg('^/',$_GET['next'])){
+if(isset($_GET['next']) and preg_match('/^\//',$_GET['next'])){
 	$next=$_GET['next'];
-}elseif(isset($_POST['next']) and ereg('^/',$_POST['next'])){
+}elseif(isset($_POST['next']) and preg_match('/^\//',$_POST['next'])){
 	$next=$_POST['next'];
 }else{
 	$next='/';
