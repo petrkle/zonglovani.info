@@ -1,6 +1,18 @@
 <?xml version="1.0"?>
 <log>
 <logentry
+   revision="350">
+<author>petr</author>
+<date>2010-10-13T16:12:59.020958Z</date>
+<msg>Testy funkčnosti stránek.</msg>
+</logentry>
+<logentry
+   revision="349">
+<author>petr</author>
+<date>2010-10-13T16:05:17.607564Z</date>
+<msg>Facebook social plugin pod menu.</msg>
+</logentry>
+<logentry
    revision="348">
 <author>petr</author>
 <date>2010-10-05T16:31:56.781909Z</date>

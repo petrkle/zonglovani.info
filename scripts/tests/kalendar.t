@@ -20,4 +20,4 @@ ok(defined($response), 'Stránka kalendáře je dostupná');
 ok($content =~ /.*<title>Kalendář žonglování<\/title>/, 'Správný titulek');
 ok($content =~ /<strong class="add">Přidat novou<\/strong>/, 'Přidávat mohou přihlášení uživatelé.');
 ok($content =~ /<caption>$mesicrok<\/caption>/, 'Aktuální měsíc');
-ok($content =~ /Dnes je: $mday\. $mesic\.  $year/, 'Dnešní den');
+ok($content =~ /Dnes je: $mday\. $mesic\. $year/, 'Dnešní den');

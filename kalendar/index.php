@@ -60,7 +60,7 @@ if(($nextStamp-time())<3600*24*365*2){
 
 $aktualni = date('Y',$now).'-'.date('m',$now).'.html';
 $smarty->assign('aktMonth', $aktualni);
-$smarty->assign('aktDate', date('j. ',$now).date('n. ',$now).date(' Y',$now));
+$smarty->assign('aktDate', date('j. ',$now).date('n. ',$now).date('Y',$now));
 
 $smarty->assign('akt', $akt);
 

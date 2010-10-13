@@ -4,12 +4,12 @@ use WWW::Mechanize;
 use Test::More tests => 35;
 use Net::Netrc;
 use String::MkPasswd qw(mkpasswd);
-require('func.pl');
+require('scripts/tests/func.pl');
 
 my $heslo = mkpasswd(-length => 13, -minnum => 4, -minlower => 4, -minupper => 2, -minspecial => 3);
 my $nove_heslo = mkpasswd(-length => 13, -minnum => 4, -minlower => 4, -minupper => 2, -minspecial => 3);
 my $jmeno = mkpasswd(-length => 10, -minnum => 0, -minlower => 4, -minupper => 2, -minspecial => 0);
-my $login = mkpasswd(-length => 7, -minnum => 0, -minlower => 4, -minupper => 0, -minspecial => 0);
+my $login = 'tst'.mkpasswd(-length => 7, -minnum => 0, -minlower => 4, -minupper => 0, -minspecial => 0);
 
 my $tld = mkpasswd(-length => 2, -minnum => 0, -minlower => 2, -minupper => 0, -minspecial => 0);
 my $domain = mkpasswd(-length => 7, -minnum => 0, -minlower => 2, -minupper => 0, -minspecial => 0);
