@@ -4,7 +4,8 @@ help:
 	@echo "upload   - nahraje zmenene soubory na ftp"
 	@echo "time     - soubory zmenene pred timto datem nebudou nahrany na ftp"
 	@echo "fupdate  - aktualizuje db pro fulltextove hledani"
-	@echo "tests    - otestuje html validitu stranek"
+	@echo "tests    - otestuje funkčnost stranek"
+	@echo "htmlval  - otestuje html validitu stranek"
 	@echo "backup   - vytvori zalohu na flash disk"
 	@echo "archiv   - vytvori archiv se zmenenymi soubory"
 	@echo "clean    - smaze archiv se zmenenymi soubory"
@@ -22,6 +23,9 @@ fupdate:
 	./scripts/fulltext-update.sh
 
 tests:
+	./scripts/tests/tests.pl
+
+htmlval:
 	./scripts/tests.sh
 
 backup:

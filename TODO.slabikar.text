@@ -26,7 +26,6 @@ Etc
 - kvíz, průvodce výběrem míčků
 - PDF listy s návodem na kaskádu, výrobu míčků, ...?
 - video - stránkování, štítky, náhledy, info o délce
-- php 5.3, DOCUMENT_ROOT - ošetřit nastavení koncového /
 
 Automatizace
 ============

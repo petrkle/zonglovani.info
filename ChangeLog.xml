@@ -1,6 +1,12 @@
 <?xml version="1.0"?>
 <log>
 <logentry
+   revision="348">
+<author>petr</author>
+<date>2010-10-05T16:31:56.781909Z</date>
+<msg>Odstranění zastaralých php funkcí.</msg>
+</logentry>
+<logentry
    revision="347">
 <author>petr</author>
 <date>2010-10-03T20:56:16.575413Z</date>
