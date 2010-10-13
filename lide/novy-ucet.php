@@ -77,8 +77,8 @@ if(strlen($jmeno)<3){
 }
 
 
-if(!eregi("^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$",$email)){
-	array_push($chyby,"Neplatný e-mail.");
+if(!preg_match("/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$/i",$email)){
+	array_push($chyby,'Neplatný e-mail.');
 }else{
 	if(is_zs_email($email)){
 		array_push($chyby,"Účet s tímto e-mailem už byl vytvořen. Zapomenuté&nbsp;<a href=\"zapomenute-heslo.php\" title=\"Zaslat zapomenuté heslo emailem.\">heslo</a>?");
@@ -94,7 +94,7 @@ if(strlen($login)<3){
 }
 
 
-if(eregi('[^-a-z0-9]',$login)){
+if(preg_match('/[^-a-z0-9]/i',$login)){
 	array_push($chyby,'Login obsahuje nepovolené znaky.');
 }
 
@@ -107,7 +107,7 @@ if(strlen($heslo)<5){
 	array_push($chyby,'Heslo není zadané, nebo je příliš krátké.');
 }
 
-if(eregi(".*$login.*",$heslo) or eregi(".*$jmeno.*",$heslo) or eregi(".*$email.*",$heslo)){
+if(preg_match("/.*$login.*/i",$heslo) or preg_match("/.*$jmeno.*/i",$heslo) or preg_match("/.*$email.*/i",$heslo)){
 	array_push($chyby,'Zadané heslo je příliš slabé.');
 }
 

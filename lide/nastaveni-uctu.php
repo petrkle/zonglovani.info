@@ -54,7 +54,7 @@ if(isset($_POST['odeslat'])){
 	}
 
 	if(count($chyby)==0){
-		$tmp=LIDE_TMP."/".$_SESSION["reg_email"];
+		$tmp=LIDE_TMP.'/'.$_SESSION['reg_email'];
 		$key=abs(crc32($_SESSION['reg_email'].time().$_SESSION['reg_login']));
 		if(!is_dir($tmp)){
 			mkdir($tmp);

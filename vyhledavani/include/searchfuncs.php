@@ -42,7 +42,7 @@ error_reporting(E_ALL ^ E_NOTICE ^ E_WARNING);
 	}
 
 	function addmarks($a) {
-		$a = eregi_replace("[ ]+", " ", $a);
+		$a = preg_replace("/[ ]+/", " ", $a);
 		$a = str_replace(" +", "+", $a);
 		$a = str_replace(" ", "+", $a);
 		return $a;
@@ -51,15 +51,15 @@ error_reporting(E_ALL ^ E_NOTICE ^ E_WARNING);
 	function makeboollist($a) {
 		global $entities, $stem_words;
 		while ($char = each($entities)) {
-			$a = eregi_replace($char[0], $char[1], $a);
+			$a = preg_replace('/'.$char[0].'/', $char[1], $a);
 		}
 		$a = trim($a);
 
-		$a = eregi_replace("&quot;", "\"", $a);
+		$a = preg_replace("/&quot;/", "\"", $a);
 		$returnWords = array();
 		//get all phrases
 		$regs = Array();
-		while (eregi("([-]?)\"([^\"]+)\"", $a, $regs)) {
+		while (preg_match("/([-]?)\"([^\"]+)\"/", $a, $regs)) {
 			if ($regs[1] == '') {
 				$returnWords['+s'][] = $regs[2];
 				$returnWords['hilight'][] = $regs[2];
@@ -68,7 +68,7 @@ error_reporting(E_ALL ^ E_NOTICE ^ E_WARNING);
 			}
 			$a = str_replace($regs[0], "", $a);
 		}
-		$a = strtolower(eregi_replace("[ ]+", " ", $a));
+		$a = strtolower(preg_replace("/[ ]+/", " ", $a));
 //		$a = remove_accents($a);
 		$a = trim($a);
 		$words = explode(' ', $a);
@@ -139,7 +139,7 @@ error_reporting(E_ALL ^ E_NOTICE ^ E_WARNING);
 		} else {
 			$pattern = "[a-z]+";
 		}
-		if (strlen($word) < $min_word_length || (!eregi($pattern, remove_accents($word))) || ($common[$word] == 1)) {
+		if (strlen($word) < $min_word_length || (!preg_match("/$pattern/", remove_accents($word))) || ($common[$word] == 1)) {
 			return 1;
 		} else {
 			return 0;
@@ -600,15 +600,15 @@ function get_search_results($query, $start, $category, $searchtype, $results, $d
 			}
 			foreach($words['hilight'] as $change) {
 				while (@eregi("[^\>](".$change.")[^\<]", " ".$title." ", $regs)) {
-					$title = eregi_replace($regs[1], "<b>".$regs[1]."</b>", $title);
+					$title = preg_replace('/'.$regs[1].'/i', "<b>".$regs[1]."</b>", $title);
 				}
 
 				while (@eregi("[^\>](".$change.")[^\<]", " ".$fulltxt." ", $regs)) {
-					$fulltxt = eregi_replace($regs[1], "<b>".$regs[1]."</b>", $fulltxt);
+					$fulltxt = preg_replace('/'.$regs[1].'/i', "<b>".$regs[1]."</b>", $fulltxt);
 				}
 				$url2 = $url;
 				while (@eregi("[^\>](".$change.")[^\<]", $url2, $regs)) {
-					$url2 = eregi_replace($regs[1], "<b>".$regs[1]."</b>", $url2);
+					$url2 = preg_replace('/'.$regs[1].'/i', "<b>".$regs[1]."</b>", $url2);
 				}
 			}
 
