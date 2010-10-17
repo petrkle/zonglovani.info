@@ -1,6 +1,12 @@
 <?xml version="1.0"?>
 <log>
 <logentry
+   revision="354">
+<author>petr</author>
+<date>2010-10-17T11:14:33.931969Z</date>
+<msg>Facebook plugin u obrázků.</msg>
+</logentry>
+<logentry
    revision="353">
 <author>petr</author>
 <date>2010-10-13T19:24:02.623229Z</date>
