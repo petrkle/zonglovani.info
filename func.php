@@ -98,52 +98,6 @@ function sort_by_jmeno_zonglera($a, $b){
 	return strcasecmp($a['jmeno'],$b['jmeno']);
 }
 
-function get_videa($db){
-	$allvideos=file("$db");
-	$navrat=array();
-
-	foreach($allvideos as $video){
-		$video=explode("*",$video);
-		$id=$video[0];
-		$url=$video[1];
-		$title=$video[2];
-		$description=$video[3];
-		if(preg_match('/^http:\/\/www\.youtube\.com\/watch\?v=/',$url) or preg_match('/^http:\/\/juggling\.tv:/',$url)){
-			$link=$url;	
-			$url=$id.'.html';	
-			$druh='flash';
-
-			if(preg_match('/^http:\/\/juggling\.tv:/',$link)){
-				$fid=explode('.tv:',$link);
-				$fid=$fid[1];
-				$server='juggling.tv';
-			}else{
-				$fid=explode('watch?v=',$link);
-				$fid=$fid[1];
-				$server='youtube.com';
-			}
-
-		}else{
-			$druh='file';
-			$fid='';
-			$server='';
-		}
-		array_push($navrat,array('id'=>$id,'url'=>$url,'title'=>$title,'desc'=>$description,'druh'=>$druh,'fid'=>$fid,'server'=>$server));
-	}
-
-	return $navrat;
-}
-
-function get_video_info($videa,$id){
-	$navrat=false;
-	foreach($videa as $video){
-		if($video["id"]==$id){
-			$navrat=$video;
-		}
-	}
-	return $navrat;
-}
-
 function get_antispam(){
 	$cislice=array('1'=>'jedna','2'=>'dva','3'=>'tři','5'=>'pět','7'=>'sedm','8'=>'osm','9'=>'devět');
 	$znamenka=array('+'=>'plus','-'=>'mínus','*'=>'krát');

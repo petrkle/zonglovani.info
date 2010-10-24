@@ -13815,6 +13815,12 @@
    </url>
 			
    <url>
+      <loc>http://zonglovani.info/video/jeff-wes.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.5</priority>
+   </url>
+			
+   <url>
       <loc>http://zonglovani.info/video/jen-slaw.html</loc>
       <changefreq>yearly</changefreq>
       <priority>0.5</priority>
@@ -13911,9 +13917,63 @@
    </url>
 			
    <url>
+      <loc>http://zonglovani.info/video/shake-that.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.5</priority>
+   </url>
+			
+   <url>
       <loc>http://zonglovani.info/video/stepz.html</loc>
       <changefreq>yearly</changefreq>
       <priority>0.5</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/video/stranka1.html</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/video/stranka2.html</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/video/stranka3.html</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/video/stranka4.html</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/video/stranka5.html</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/video/stranka6.html</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/video/stranka7.html</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/video/stranka8.html</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
    </url>
 			
    <url>

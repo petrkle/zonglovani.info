@@ -447,6 +447,7 @@
 		<li><a href="/video/guava-winter-07-08.html">Guava over winter break 07-08</a></li>
 		<li><a href="/video/hocus-pocus.html">Hocus Pocus</a></li>
 		<li><a href="/video/interrobang.html">Interrobang</a></li>
+		<li><a href="/video/jeff-wes.html">Jeff Lutkus &amp; Wes Peden</a></li>
 		<li><a href="/video/jen-slaw.html">Jen Slaw Juggling Promo</a></li>
 		<li><a href="/video/jeremy-perkins-jeremy-fein.html">Jeremy Perkins and Jeremy Fein Promo 2008</a></li>
 		<li><a href="/video/joe-hague.html">Joe Hague Fatboy Slim Juggling Video</a></li>
@@ -463,7 +464,16 @@
 		<li><a href="/video/passing-zone.html">The Passing Zone</a></li>
 		<li><a href="/video/prechac-weaves.html">Prechac Weaves</a></li>
 		<li><a href="/video/roucoulette-sauce-poisson.html">Roucoulette sauce poisson</a></li>
+		<li><a href="/video/shake-that.html">Shake That</a></li>
 		<li><a href="/video/stepz.html">Stepz</a></li>
+		<li><a href="/video/stranka1.html">Žonglérská videa</a></li>
+		<li><a href="/video/stranka2.html">Žonglérská videa</a></li>
+		<li><a href="/video/stranka3.html">Žonglérská videa</a></li>
+		<li><a href="/video/stranka4.html">Žonglérská videa</a></li>
+		<li><a href="/video/stranka5.html">Žonglérská videa</a></li>
+		<li><a href="/video/stranka6.html">Žonglérská videa</a></li>
+		<li><a href="/video/stranka7.html">Žonglérská videa</a></li>
+		<li><a href="/video/stranka8.html">Žonglérská videa</a></li>
 		<li><a href="/video/sun.html">Sluníčko</a></li>
 		<li><a href="/video/take-it-out-3.html">Take It Out 3#</a></li>
 		<li><a href="/video/what-the-beepbeep-do-we-know.html">What the (beepbeep) do we know?</a></li>

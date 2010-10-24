@@ -26,6 +26,7 @@ array_push($znamkovani,array('vzor'=>'^\/(obrazky|kalendar|lide|diskuse)\/$','pr
 array_push($znamkovani,array('vzor'=>'^\/ostatni.html$','priorita'=>0.8,'zmena'=>'yearly'));
 array_push($znamkovani,array('vzor'=>'^\/video\/$','priorita'=>0.7,'zmena'=>'monthly'));
 array_push($znamkovani,array('vzor'=>'^\/video\/.+\.html$','priorita'=>0.5,'zmena'=>'yearly'));
+array_push($znamkovani,array('vzor'=>'^\/video\/stranka.*\.html$','priorita'=>0.6,'zmena'=>'monthly'));
 array_push($znamkovani,array('vzor'=>'^\/(micky|kruhy|kuzely)\/[2345]\/.+\.html$','priorita'=>0.8,'zmena'=>'yearly'));
 array_push($znamkovani,array('vzor'=>'^\/(micky|kruhy|kuzely)\/[^\/]+\.html$','priorita'=>0.7,'zmena'=>'yearly'));
 array_push($znamkovani,array('vzor'=>'^\/kuzely\/passing\/$','priorita'=>0.9,'zmena'=>'monthly'));
