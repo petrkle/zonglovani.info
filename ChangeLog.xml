@@ -1,6 +1,12 @@
 <?xml version="1.0"?>
 <log>
 <logentry
+   revision="358">
+<author>petr</author>
+<date>2010-10-24T19:56:35.522549Z</date>
+<msg>Náhledy a stránkování u videa.</msg>
+</logentry>
+<logentry
    revision="357">
 <author>petr</author>
 <date>2010-10-24T13:19:00.449113Z</date>

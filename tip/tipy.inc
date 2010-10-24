@@ -46,7 +46,8 @@
 2010-10-11*Žonglování v Ulitě*/ulita/?20101017*ulita.cz.png*V domě dětí a mládeže Ulita se pravidelně žongluje. Přijít mohou začínající i zkušení žongléři a žonglérky.
 2010-10-18*Fotky z Ulity*/obrazky/ulita-20101017/0001.html*pass-ulita.jpg*Fotky z druhého podzimního žonglování v Ulitě.
 2010-10-21*Helikoptéra*/kuzely/3/helikoptera.html*kuzely-3-helikopterac.png*Trik s kuželkou. Ale pozor, je trochu na hlavu :^)
-2010-10-25*Žonglování v Ulitě*/ulita/?20101031*ulita.cz.png*V domě dětí a mládeže Ulita se pravidelně žongluje. Přijít mohou začínající i zkušení žongléři a žonglérky.
+2010-10-25*Žonglérská videa*/video/stranka7.html*videa.jpg*U videí v žonglérově slabikáři jsou nově obrázkové náhledy.
+2010-10-27*Žonglování v Ulitě*/ulita/?20101031*ulita.cz.png*V domě dětí a mládeže Ulita se pravidelně žongluje. Přijít mohou začínající i zkušení žongléři a žonglérky.
 2010-11-01*Výuka žonglování*/lide/dovednost/workshop.html*usx.jpg*Seznam žonglérů a žonglérek kteří tě naučí žonglovat.
 2010-11-08*Žonglování v Ulitě*/ulita/?20101114*ulita.cz.png*V domě dětí a mládeže Ulita se pravidelně žongluje. Přijít mohou začínající i zkušení žongléři a žonglérky.
 2010-11-15*Žonglování v Ulitě*/ulita/?20101121*ulita.cz.png*V domě dětí a mládeže Ulita se pravidelně žongluje. Přijít mohou začínající i zkušení žongléři a žonglérky.
