@@ -30,6 +30,11 @@ $pager =& Pager::factory($pagerOptions);
 
 //fetch the paged data into the $data variable
 $data = $pager->getPageData();
+if($pager->getCurrentPageID()>1){
+	$predchozi=$pager->getPageData($pager->getCurrentPageID()-1);
+	array_unshift($data,array_pop($predchozi));
+	array_unshift($data,array_pop($predchozi));
+}
 
 if(!isset($_GET['pageID']) and !isset($_GET['rss'])){
 	header('HTTP/1.1 301 Moved Permanently');

@@ -1,6 +1,12 @@
 <?xml version="1.0"?>
 <log>
 <logentry
+   revision="356">
+<author>petr</author>
+<date>2010-10-24T12:34:39.272978Z</date>
+<msg>Zobrazení většího časového úseku v kalendáři.</msg>
+</logentry>
+<logentry
    revision="355">
 <author>petr</author>
 <date>2010-10-17T20:33:11.832451Z</date>
