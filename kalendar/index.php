@@ -47,13 +47,13 @@ $weeksInMonth = array_chunk($daysInMonth, 7);
 
 // Create links
 $prevStamp = $month->prevMonth(true);
-if((time()-$prevStamp)<3600*24*150){
+if((time()-$prevStamp)<3600*24*365*5){
 	$prev = date('Y',$prevStamp).'-'.date('m',$prevStamp).'.html';
 	$smarty->assign('prevMonth', $prev);
 }
 
 $nextStamp = $month->nextMonth(true);
-if(($nextStamp-time())<3600*24*365*2){
+if(($nextStamp-time())<3600*24*365*5){
 	$next = date('Y',$nextStamp).'-'.date('m',$nextStamp).'.html';
 	$smarty->assign('nextMonth', $next);
 }

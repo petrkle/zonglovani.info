@@ -1,6 +1,12 @@
 <?xml version="1.0"?>
 <log>
 <logentry
+   revision="355">
+<author>petr</author>
+<date>2010-10-17T20:33:11.832451Z</date>
+<msg>Fotky z Ulity</msg>
+</logentry>
+<logentry
    revision="354">
 <author>petr</author>
 <date>2010-10-17T11:14:33.931969Z</date>
