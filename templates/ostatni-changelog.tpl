@@ -1,10 +1,6 @@
 {if is_array($zmeny)}
 {foreach from=$zmeny item=zmena}
-{if strlen($zmena.link)>0}
-<h3><a name="{$zmena.cislo}"></a><a href="{$zmena.link}" title="Revize {$zmena.cislo}">{$zmena.popis|truncate:30:'':false}</a></h3>
-{else}
 <h3><a name="{$zmena.cislo}"></a>Revize č. {$zmena.cislo}</h3>
-{/if}
 <ul>
 <li>Datum: {$zmena.datum_hr}</li>
 <li>Popis: {$zmena.popis|escape}</li>

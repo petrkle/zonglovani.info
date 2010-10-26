@@ -1,6 +1,5 @@
 #!/bin/bash
 
-svn up
 TMP=$HOME/tmp/upload
 ARCHIV=`./scripts/archiv.sh | awk '{print $2}'`
 

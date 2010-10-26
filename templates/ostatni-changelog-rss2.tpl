@@ -16,11 +16,11 @@
 {if $smarty.foreach.smycka2.index < 10}
   <item>
     <title>{$zmena.popis|truncate:30:'':false}</title>
-    <link>http://{$smarty.server.SERVER_NAME}{$zmena.link}</link>
+    <link>http://{$smarty.server.SERVER_NAME}/changelog.html#{$zmena.cislo}</link>
     <description>{$zmena.popis}</description>
-    <author>{$zmena.autor}</author>
+    <author>petr</author>
     <pubDate>{$zmena.time_rss2}</pubDate>
-    <guid>http://{$smarty.server.SERVER_NAME}{$zmena.link}</guid>
+    <guid>http://{$smarty.server.SERVER_NAME}/changelog.html#{$zmena.cislo}</guid>
   </item>
 {/if}
 {/foreach}

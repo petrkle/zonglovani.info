@@ -319,40 +319,22 @@ function make_keywords($text){
 }
 
 function get_changelog($rss=false){
-	if(is_readable($_SERVER['DOCUMENT_ROOT'].'/ChangeLog.xml')){
+	if(is_readable($_SERVER['DOCUMENT_ROOT'].'/ChangeLog')){
 
 $zmeny=array();
-$xml = simplexml_load_file($_SERVER['DOCUMENT_ROOT'].'/ChangeLog.xml');
-	foreach ($xml->logentry as $verze){
-			$foo=array();
-			$foo['cislo']= (string) $verze['revision'];
-			$foo['autor']= (string) $verze->author;
-			$datum =(string) $verze->date; $datum=preg_split('/\./',$datum);
-			$foo['datum'] = $datum[0]; 
-			$foo['datum_hr'] = date('j. n. Y G.i',strtotime($datum[0])); 
-			$foo['time_mr']=date('c',strtotime($datum[0]));
-			$foo['time_rss2']=date('r',strtotime($datum[0]));
-			$foo['popis']= (string) $verze->msg;
-			$link=(string) $verze->revprops->property;
-			if(strlen($link)>0){
-				$foo['link']=$link;
-			}else{
-				if($rss){
-					$foo['link']='/changelog.html#'.$foo['cislo'];
-				}
-			}
-			if(strlen($foo['autor'])>0){
-				if($rss){
-					if(strlen($foo['link'])>0){
-						array_push($zmeny,$foo);
-					}
-				}else{
-					array_push($zmeny,$foo);
-				}
-			}
+$rn=1;
+$changelog = array_reverse(file($_SERVER['DOCUMENT_ROOT'].'/ChangeLog'));
+	foreach ($changelog as $change){
+		$change=preg_split('/\*/',trim($change));
+		$zmeny[$rn]['cislo']=$rn;
+		$zmeny[$rn]['hash']=$change[0];
+		$zmeny[$rn]['datum_hr'] = date('j. n. Y G.i',$change[1]); 
+		$zmeny[$rn]['time_mr']=date('c',$change[1]);
+		$zmeny[$rn]['time_rss2']=date('r',$change[1]);
+		$zmeny[$rn]['popis']=$change[2];
+		$rn++;
 	}
-
-	return $zmeny;
+	return array_reverse($zmeny);
 }
 }
 
