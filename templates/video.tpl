@@ -15,6 +15,9 @@ Pro přehrávání videa je potřeba <a href="http://get.adobe.com/flashplayer/"
 </object>
 </p>
 <p>
+{if $video.delka}Délka: {$video.delka|escape}{/if}{if $video.rozliseni} Rozlišení: {$video.rozliseni|escape}{/if}
+</p>
+<p>
 Adresa videa: <a href="http://youtube.com?v={$video.fid|escape}" class="external" onclick="pageTracker._trackPageview('/goto/youtube.com?v={$video.fid|escape}');">http://youtube.com?v={$video.fid|escape}</a>
 </p>
 {/if}
@@ -32,12 +35,18 @@ Pro přehrávání videa je potřeba <a href="http://get.adobe.com/flashplayer/"
 </p>
 {if $video.download}
 <p><a href="{$video.download|escape}" class="external" onclick="pageTracker._trackPageview('/goto/{$video.download|replace:"http://":""|regex_replace:"/^www\./":""|escape}');">Stáhnout video</a> ze stránky <a href="{if $video.originalurl}{$video.originalurl|escape}{else}http://juggling.tv{/if}" class="external" onclick="pageTracker._trackPageview('/goto/{$video.originalurl|replace:"http://":""|regex_replace:"/^www\./":""|escape}');">juggling.tv</a></p>
+<p>
+{if $video.delka}Délka: {$video.delka|escape}{/if}{if $video.velikost} Velikost: {$video.velikost|escape}{/if}{if $video.rozliseni} Rozlišení: {$video.rozliseni|escape}{/if}
+</p>
 {/if}
 {/if}
 {else}
 <p>
 {obrazek soubor=$video.nahled popisek=$video.nazev path='/video/img/'}
 <a href="{$video.link|escape}" class="external">Stáhnout video</a>
+</p>
+<p>
+{if $video.delka}Délka: {$video.delka|escape}{/if}{if $video.velikost} Velikost: {$video.velikost|escape}{/if}{if $video.rozliseni} Rozlišení: {$video.rozliseni|escape}{/if}
 </p>
 {/if}
 <p>

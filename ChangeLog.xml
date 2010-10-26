@@ -1,6 +1,12 @@
 <?xml version="1.0"?>
 <log>
 <logentry
+   revision="360">
+<author>petr</author>
+<date>2010-10-26T05:58:13.230466Z</date>
+<msg>Aktualizace letáků pro Ulitu.</msg>
+</logentry>
+<logentry
    revision="359">
 <author>petr</author>
 <date>2010-10-24T20:07:29.526117Z</date>
