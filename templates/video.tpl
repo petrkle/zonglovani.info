@@ -49,6 +49,16 @@ Pro přehrávání videa je potřeba <a href="http://get.adobe.com/flashplayer/"
 {if $video.delka}Délka: {$video.delka|escape}{/if}{if $video.velikost} Velikost: {$video.velikost|escape}{/if}{if $video.rozliseni} Rozlišení: {$video.rozliseni|escape}{/if}
 </p>
 {/if}
-<p>
-Další <a href="{$dalsividea}">žonglérská videa</a>.
-</p>
+{if $navigace}
+<div class="kamdal">
+<a name="kam-dal"></a><h5>Kam dál</h5>
+<ul>
+{if $navigace.dalsi}
+	<li class="link_next">Další video: <a href="{$navigace.dalsi.url|escape}" title="{$navigace.dalsi.title|escape}">{$navigace.dalsi.text|escape}</a></li>
+{/if}
+{if $navigace.predchozi}
+	<li class="link_prev">Předchozí video: <a href="{$navigace.predchozi.url|escape}" title="{$navigace.predchozi.title|escape}">{$navigace.predchozi.text|escape}</a></li>
+{/if}
+</ul>
+</div>
+{/if}

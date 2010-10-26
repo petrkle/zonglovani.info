@@ -53,7 +53,6 @@ $data = $pager->getPageData();
 		$video['fid']=$fid[1];
 	}
 
-	$smarty->assign('feedback',true);
 	$trail = new Trail();
 	$trail->addStep('Žonglérská videa','/video/');
 	if($cislostranky>1){
@@ -62,6 +61,23 @@ $data = $pager->getPageData();
 	}else{
 		$smarty->assign('dalsividea','/video/');
 	}
+
+	$navigace=array();
+	if(isset($videa[$idcka[$v]+1])){
+		$navigace['dalsi']=array('url'=>$videa[$idcka[$v]+1]['id'].'.html','text'=>$videa[$idcka[$v]+1]['nazev'],'title'=>'Video '.$videa[$idcka[$v]+1]['nazev'].', délka '.$videa[$idcka[$v]+1]['delka']);
+	}else{
+		$navigace['dalsi']=array('url'=>$videa[0]['id'].'.html','text'=>$videa[0]['nazev'],'title'=>'Video '.$videa[0]['nazev'].', délka '.$videa[0]['delka']);
+	}
+
+	if(isset($videa[$idcka[$v]-1])){
+		$navigace['predchozi']=array('url'=>$videa[$idcka[$v]-1]['id'].'.html','text'=>$videa[$idcka[$v]-1]['nazev'],'title'=>'Video '.$videa[$idcka[$v]-1]['nazev'].', délka '.$videa[$idcka[$v]-1]['delka']);
+	}else{
+		$navigace['predchozi']=array('url'=>$videa[count($videa)-1]['id'].'.html','text'=>$videa[count($videa)-1]['nazev'],'title'=>'Video '.$videa[count($videa)-1]['nazev'].', délka '.$videa[count($videa)-1]['delka']);
+	}
+
+
+	$smarty->assign('styly',array('/a.css'));
+	$smarty->assign_by_ref('navigace',$navigace);
 	$trail->addStep($video['nazev']);
 	$smarty->assign_by_ref('trail', $trail->path);
 	$smarty->assign('titulek',$video['nazev']);
