@@ -1,6 +1,12 @@
 <?xml version="1.0"?>
 <log>
 <logentry
+   revision="359">
+<author>petr</author>
+<date>2010-10-24T20:07:29.526117Z</date>
+<msg>Video - tip týdne</msg>
+</logentry>
+<logentry
    revision="358">
 <author>petr</author>
 <date>2010-10-24T19:56:35.522549Z</date>
