@@ -88,7 +88,7 @@ $data = $pager->getPageData();
 	$smarty->display('video.tpl');
 	$smarty->display('paticka.tpl');
 }else{
-	require('404.php');
+	require('../404.php');
 	exit();
 }
 

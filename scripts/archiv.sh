@@ -10,7 +10,7 @@ git log --pretty="%h*%at*%s" > ChangeLog.new
 
 diff ChangeLog ChangeLog.new &>/dev/null || mv ChangeLog.new ChangeLog
 
-rm -f ChangeLog.xml.new $ARCHIV
+rm -f ChangeLog.new $ARCHIV
 
 find . -type f -newer DATE -not -wholename '*templates_c*' -not -wholename '*cache*' -not -wholename '*mapa-stranek.full*' -not -wholename '*data*' -not -iregex '.*\.git.*' -not -iregex '.*\.\(fig\|bak\)$' | xargs --no-run-if-empty tar -czf $ARCHIV
 
