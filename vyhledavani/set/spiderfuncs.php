@@ -580,7 +580,7 @@ function clean_file($file, $url, $type) {
 	$file = preg_replace("/<link rel[^<>]*>/i", " ", $file);
 	$file = preg_replace("@<!--sphider_noindex-->.*?<!--\/sphider_noindex-->@si", " ",$file);	
 	$file = preg_replace('/.*Jste zde:.*/','',$file);	
-	$file = preg_replace("@<div id=\"fblink\">.*?et</a></div>@siU", " ",$file);	
+	$file = preg_replace("@<div id=\"ulink\">.*?tì</a></div>@siU", " ",$file);	
 	$file = preg_replace("@<div id=\"menu\">.*?<!-- ramecek konec -->@siU", " ",$file);	
 	$file = preg_replace("@<div id=\"paticka\">.*?</div>@siU", " ",$file);	
 	$file = preg_replace("@<script[^>]*?>.*?</script>@si", " ",$file);
