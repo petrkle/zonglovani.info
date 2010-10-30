@@ -34,4 +34,16 @@ function to_ulita($datumy){
 	return $navrat;
 }
 
+function get_next_ulita($datumy){
+	$now=time();
+	$pristi=false;
+	foreach($datumy as $foo){
+		$datum=strtotime($foo['datum'].' 19:00:00');
+		if($datum>$now and $pristi==false){
+			$pristi=array('datum'=>date('j. n. Y',$datum),'url'=>$foo['url'],'mz'=>date('c',$datum),'mk'=>date('c',$datum));
+		}
+	}
+	return $pristi;
+}
+
 ?>

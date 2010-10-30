@@ -31,7 +31,7 @@ function smarty_function_vypismenu($params, &$smarty){
 
 	
 	$navrat.='<script type="text/javascript">//<![CDATA[
-		document.write(\'<br /><ul><li><iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fzongleruv.slabikar&amp;width=155&amp;colorscheme=light&amp;connections=0&amp;stream=false&amp;header=false&amp;height=220" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:155px; height:220px;" allowTransparency="true"></iframe></li></ul>\');
+		document.write(\'<br /><ul><li><iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fzongleruv.slabikar&amp;width=155&amp;colorscheme=light&amp;connections=6&amp;stream=false&amp;header=false&amp;height=420" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:155px; height:420px;" allowTransparency="true"></iframe></li></ul>\');
 //]]></script>
 ';
 		
