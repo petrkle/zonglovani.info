@@ -8,6 +8,7 @@ help:
 	@echo "htmlval  - otestuje html validitu stranek"
 	@echo "backup   - vytvori zalohu na flash disk"
 	@echo "archiv   - vytvori archiv se zmenenymi soubory"
+	@echo "datasync - zalohuje data uzivatelu
 	@echo "clean    - smaze archiv se zmenenymi soubory"
 
 sitemap:
@@ -36,3 +37,6 @@ archiv:
 
 clean:
 	rm -v ????-??-??.tar.gz
+
+datasync:
+	./scripts/datasync.sh
