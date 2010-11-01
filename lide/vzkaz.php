@@ -60,7 +60,7 @@ if(isset($_POST['komu'])){
 			array_push($chyby,'Vzkaz je příliš krátký. Minimální délka tři znaky.');
 		}
 		
-		if(!eregi('^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$',$email)){
+		if(!preg_match('/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$/',$email)){
 			array_push($chyby,'Neplatný e-mail.');
 		}
 
@@ -86,6 +86,18 @@ $message = $vzkaz.'
 Tento vzkaz byl zaslán pomocí žonglérova slabikáře.
 http://zonglovani.info
 ';
+			$vysledek=mail($to, $subject, $message, $headers);
+
+			if($vysledek){
+				if(isset($_SESSION['uzivatel']['email'])){
+					header('Location: '.LIDE_URL.'vzkaz-odeslan.php?status=ok');	
+				}else{
+					header('Location: '.LIDE_URL.'vzkaz-odeslan.php?status=verify');	
+				}
+			}else{
+				header('Location: '.LIDE_URL.'vzkaz-odeslan.php?status=err');	
+			}
+
 		}else{
 			# jinak se na mail odesilatele posle zprava z odkazem k odeslani vzkazu
 
@@ -179,7 +191,6 @@ $message .= "--$mime_boundary--\n\n";
 		fwrite($foo,time());
 		fclose($foo);
 
-		}
 			
 			$vysledek=mail($email, $subject, $message, $headers);
 
@@ -192,6 +203,7 @@ $message .= "--$mime_boundary--\n\n";
 			}else{
 				header('Location: '.LIDE_URL.'vzkaz-odeslan.php?status=err');	
 			}
+		}
 
 		}else{
 		$smarty->assign('komu',$komu);
