@@ -9,15 +9,13 @@
 
 var textarea;
 var content;
-document.write("<link href=\"/ed.css\" rel=\"stylesheet\" type=\"text/css\">");
-
 
 function edToolbar(obj) {
 document.write("<div class=\"edtoolbar\">");
-document.write("<img class=\"edbutton\" src=\"/img/e/ed.bold.gif\" width=\"22\" height=\"22\" name=\"btnBold\" title=\"Tučný text\" onClick=\"doAddTags('[b]','[/b]','" + obj + "')\">");
-document.write("<img class=\"edbutton\" src=\"/img/e/ed.italic.gif\" width=\"22\" height=\"22\" name=\"btnItalic\" title=\"Kurzíva\" onClick=\"doAddTags('[i]','[/i]','" + obj + "')\">");
-document.write("<img class=\"edbutton\" src=\"/img/e/ed.ln.gif\" width=\"22\" height=\"22\" name=\"btnLink\" title=\"Odkaz\" onClick=\"doURL('" + obj + "')\">");
-document.write("<img class=\"edbutton\" src=\"/img/e/ed.email.gif\" width=\"22\" height=\"22\" name=\"btnEmail\" title=\"E-mail\" onClick=\"doAddTags('[email]','[/email]','" + obj + "')\">");
+document.write("<input type=\"button\" title=\"Tučný text\" onclick=\"doAddTags('[b]','[/b]','" + obj + "')\" value=\"Tučné písmo\" /> ");
+document.write("<input type=\"button\" title=\"Kurzíva\" onclick=\"doAddTags('[i]','[/i]','" + obj + "')\" value=\"Šikmé písmo\" /> ");
+document.write("<input type=\"button\" title=\"Odkaz\" onclick=\"doURL('" + obj + "')\" value=\"Vložit odkaz\"> ");
+document.write("<input type=\"button\" title=\"E-mail\" onclick=\"doAddTags('[email]','[/email]','" + obj + "')\" value=\"Vložit email\">");
 document.write("</div>");
 }
 

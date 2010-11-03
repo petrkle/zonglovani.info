@@ -26,9 +26,9 @@
 <fieldset class="siroke">
 <legend>Zpráva</legend>
 <script type="text/javascript" src="/ed.js"></script>  
-<script type="text/javascript">edToolbar('vzkaz');</script>
-<noscript><p>Možnosti formátování textu: [b]tučný[/b], [i]kurzíva[/i], [url=http://neco.cz]odkaz[/url], [email]tvoje@adresa.cz[/email]</p></noscript>
 <textarea name="vzkaz" id="vzkaz" accesskey="k" tabindex="3" rows="5" cols="50">{$vzkaz|escape}</textarea>
+<script type="text/javascript">edToolbar('vzkaz');</script>
+<noscript><p>Možnosti: [b]tučné písmo[/b], [i]šikmé písmo[/i], [url=http://neco.cz]odkaz[/url], [email]tvoje@adresa.cz[/email]</p></noscript>
 </fieldset>
 
 {if $nahled}
