@@ -5,13 +5,6 @@ require('func-video.php');
 require($lib.'/Pager/Pager.php');
 
 
-$titulek='Žonglérská videa';
-$smarty->assign('titulek',$titulek);
-$trail = new Trail();
-$trail->addStep($titulek,'/video/');
-
-$smarty->assign('keywords','žonglování, video, fireshow, žonglshow, představení');
-$smarty->assign('description','Výběr povedených žonglérských videí.');
 
 $videa=get_videa();
 
@@ -33,12 +26,27 @@ $pagerOptions = array(
 $pager =& Pager::factory($pagerOptions);
 $data = $pager->getPageData();
 
+$smarty->assign('keywords','žonglování, video, fireshow, žonglshow, představení');
+$titulek='Žonglérská videa';
+$desc='Výběr povedených žonglérských videí.';
+$nadpis=$titulek;
+if($pager->getCurrentPageID()>1){
+	$titulek.=' '.$pager->getCurrentPageID().'. stránka';
+	$desc.=' '.$pager->getCurrentPageID().'. stránka';
+	$smarty->assign('nadpis',$nadpis);
+}
+$smarty->assign('titulek',$titulek);
+$trail = new Trail();
+$trail->addStep($nadpis,'/video/');
+
+$smarty->assign('description',$desc);
+
 $dalsi=array(
 	array('url'=>'/animace/','text'=>'Animace žonglování','title'=>'Animace triků s míčky'),
 	array('url'=>'/obrazky/','text'=>'Obrázky žonglování','title'=>'Fotografie žonglování'),
 	);
 
-if($pager->getCurrentPageID()!=$pager->numPages()){
+if($pager->getCurrentPageID()!=0){
 	$trail->addStep($pager->getCurrentPageID().'. stránka','/video/stranka'.$pager->getCurrentPageID().'.html');
 }
 $smarty->assign(

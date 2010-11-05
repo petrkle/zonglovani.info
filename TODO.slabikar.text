@@ -10,7 +10,7 @@ Aktuální
 - skrip do cronu, upozornění na rok neaktivní účet, do 7. 12
 - do videí přidat readingroundabouts
 - v seznamu animací nadpisy podle počtu míčků
-- přidávání zprávy do diskuse - místo obrázků odkazy
+- v diskusi nahradit prompt() který blokuje IE za http://www.anyexample.com/webdev/javascript/ie7_javascript_prompt()_alternative.xml
 
 Kalendář
 ========
@@ -73,3 +73,5 @@ procházení siteswapů a animací < předchozí , další >
 rss agregátor - aktualizace zdrojů, feedproxy - původní odkaz
 při zadávání jména (události v kalendáři) nepovolit všechna písmena velká
 skript pro synchronizaci adresáře data z webu
+přidávání zprávy do diskuse - místo obrázků odkazy
+rozdílné titulky u stránkování videa
