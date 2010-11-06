@@ -11,6 +11,7 @@ $trail->addStep('Kužely','/kuzely/');
 
 $smarty->assign('keywords',make_keywords($titulek));
 $smarty->assign('description','Jak žonglovat s kužely. Základní návod pro tři kuželky, ale i pokročilé passovací vzory.');
+$smarty->assign('nahled','http://'.$_SERVER['SERVER_NAME'].'/img/n/nacinid.png');
 
 $dalsi=array(
 	array('url'=>'/kuzely/passing/','text'=>'Passing','title'=>'Žonglování ve více lidech'),

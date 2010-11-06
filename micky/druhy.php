@@ -11,7 +11,8 @@ $smarty->assign('titulek',$titulek);
 
 $dalsi=array(
 	array('url'=>'/micky/vyroba.html','text'=>'Výroba míčků na žonglování','title'=>'Jak vyrobit míček na žonglování'),
-	array('url'=>'/micky/jak-zacit.html','text'=>'Jak začít žonglovat s míčky','title'=>'Základ pro žonglování se třemi míčky')
+	array('url'=>'/micky/jak-zacit.html','text'=>'Jak začít žonglovat s míčky','title'=>'Základ pro žonglování se třemi míčky'),
+	array('url'=>'/kuzely/druhy.html','text'=>'Druhy žonglovacích kuželek','title'=>'Obrázky kuželů na žonglování')
 	);
 $smarty->assign_by_ref('dalsi',$dalsi);
 
