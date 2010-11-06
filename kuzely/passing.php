@@ -35,6 +35,7 @@ if(strlen($show)>0 and is_file('../'.$show.'.xml')){
 }else{
 	$smarty->assign_by_ref('trail', $trail->path);
 	$smarty->assign('titulek',$titulek);
+	$smarty->assign('nahled','http://'.$_SERVER['SERVER_NAME'].'/img/k/kuzely-passing-introb.png');
 	$smarty->display('hlavicka.tpl');
 	$smarty->display('kuzely-passing.tpl');
 	$smarty->display('paticka.tpl');

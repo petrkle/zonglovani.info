@@ -9,12 +9,10 @@ Aktuální
 - napsat test na posílání vzkazů
 - skrip do cronu, upozornění na rok neaktivní účet, do 7. 12
 - do videí přidat readingroundabouts
-- v seznamu animací nadpisy podle počtu míčků
 - rozdělit changelog podle roků
 - u starých novinek zobrazovat i text, rozdělit podle roků, kvartálů
 - další, předchozí - odkazy v seznamu žonglérů, seznamu míst
 - popisky k obrázkům, obrázkové sitemapy
-
 
 Kalendář
 ========
@@ -35,7 +33,7 @@ Etc
 - ankety?
 - kvíz, průvodce výběrem míčků
 - PDF listy s návodem na kaskádu, výrobu míčků, ...?
-- video - stránkování, štítky, náhledy, info o délce
+- video - štítky
 
 Automatizace
 ============
@@ -80,3 +78,6 @@ skript pro synchronizaci adresáře data z webu
 přidávání zprávy do diskuse - místo obrázků odkazy
 rozdílné titulky u stránkování videa
 v diskusi nahradit prompt() který blokuje IE za http://www.anyexample.com/webdev/javascript/ie7_javascript_prompt()_alternative.xml
+v seznamu animací nadpisy podle počtu míčků
+video - stránkování, náhledy, info o délce
+katalog kuželek

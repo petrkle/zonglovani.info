@@ -5,6 +5,7 @@ require('../func.php');
 $titulek='Žonglérské míčky';
 $smarty->assign('keywords',make_keywords($titulek).', druhy');
 $smarty->assign('description','Obrázky a popis různých druhů míčků na žonglování.');
+$smarty->assign('nahled','http://'.$_SERVER['SERVER_NAME'].'/img/s/sity-nahled.jpg');
 
 $smarty->assign('feedback',true);
 $smarty->assign('titulek',$titulek);

@@ -211,7 +211,7 @@ if($id and $photo){
 }elseif($filtr){
 	$smarty->assign('titulek',$filtr.' - filtr obrázků');
 	$smarty->assign('nadpis',$filtr.' - filtr obrázků');
-	$smarty->assign("notitle",true);
+	$smarty->assign('notitle',true);
 	$galerie=get_galerie($filtr);
 	
 	$trail->addStep('Filtr obrázků',OBRAZKY_URL.'filtr/');
@@ -229,6 +229,7 @@ if($id and $photo){
 	$smarty->display('paticka.tpl');
 }elseif($filtry){
 	$trail->addStep('Filtr obrázků');
+	$smarty->assign('description','Filtry žonglérských obrázků.');
 	$smarty->assign('titulek','Filtry obrázků');
 	$smarty->assign_by_ref('trail', $trail->path);
 	$smarty->display('hlavicka.tpl');
