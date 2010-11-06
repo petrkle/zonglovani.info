@@ -36,7 +36,7 @@ if (file_exists($filename)) {
 
 $stat=array();
 
-$stat['aktualizace']=date('j. n. Y G.i', filectime('../ChangeLog.xml'));
+$stat['aktualizace']=date('j. n. Y G.i', filectime('../ChangeLog'));
 $stat['pocet_lide']=count(get_loginy());
 $stat['pocet_diskuse']=$diskuse_pocet;
 $stat['pocet_kalendar']=$kal_pocet;

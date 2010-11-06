@@ -16,3 +16,5 @@ RewriteRule (.*).html ostatni/$1.php [L]
 
 RewriteRule ^zonglovani.rss$ rss.php [L]
 RewriteRule ^zonglovani.xml$ rss.php?v=2 [L]
+
+RewriteRule ^stat$ /statistiky.html [R=301,L]
