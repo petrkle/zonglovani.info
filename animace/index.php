@@ -14,6 +14,16 @@ if(isset($_GET['nameless'])){
 	$nameless=false;
 }
 
+$nazvy=array(
+	'jeden'=>'Jeden míček',
+	'dva'=>'Dva míčky',
+	'tri'=>'Tři míčky',
+	'ctyri'=>'Čtyři míčky',
+	'pet'=>'Pět míčků',
+	'n'=>'Mnoho míčků'
+	);
+
+$smarty->assign_by_ref('nazvy', $nazvy);
 $animace=get_animace($nameless);
 
 $titulek='Animace žonglování';
@@ -65,6 +75,11 @@ if($id){
 		}
 		$navigace['dalsi']=array('url'=>$dalsi_trik['id'].'.html','text'=>$dalsi_trik['popis'],'title'=>'Další trik '.$dalsi_trik['popis']);
 		$navigace['predchozi']=array('url'=>$predchozi_trik['id'].'.html','text'=>$predchozi_trik['popis'],'title'=>'Předchozí trik '.$predchozi_trik['popis']);
+		if($nameless){
+			$trail->addStep($nazvy[$animace[$id]['pocet']],'/animace/en/#'.$animace[$id]['pocet']);
+		}else{
+			$trail->addStep($nazvy[$animace[$id]['pocet']],'/animace/#'.$animace[$id]['pocet']);
+		}
 		$trail->addStep($animace[$id]['popis']);
 		$smarty->assign_by_ref('trail', $trail->path);
 		$smarty->assign('keywords',$animace[$id]['popis'].', animace, žonglování, siteswap, juggleanim, návod');
@@ -113,26 +128,30 @@ function get_link($id){
 }
 
 function get_animace($nameless=false){
-	$foo=file('popisky.txt');
+	$foo=file('animace.txt');
 	$navrat=array();
 	foreach($foo as $radek){
 		$radek=trim($radek);
 		$radek=preg_split('/\*/',$radek);
 		if(!$nameless){
-			if(count($radek)==4){
-				$link=basename($radek[2],'.gif');
-				$navrat[$link]['sirka']=$radek[0];
-				$navrat[$link]['vyska']=$radek[1];
-				$navrat[$link]['img']=$radek[2];
-				$navrat[$link]['popis']=$radek[3];
+			if(count($radek)==6){
+				$link=basename($radek[4],'.gif');
+				$navrat[$link]['pocet']=$radek[0];
+				$navrat[$link]['siteswap']=$radek[1];
+				$navrat[$link]['sirka']=$radek[2];
+				$navrat[$link]['vyska']=$radek[3];
+				$navrat[$link]['img']=$radek[4];
+				$navrat[$link]['popis']=$radek[5];
 			}
 		}else{
-			if(count($radek)==3){
-				$link=basename($radek[2],'.gif');
-				$navrat[$link]['sirka']=$radek[0];
-				$navrat[$link]['vyska']=$radek[1];
-				$navrat[$link]['img']=$radek[2];
-				$navrat[$link]['popis']=basename($radek[2],'.gif');
+			if(count($radek)==5){
+				$link=basename($radek[4],'.gif');
+				$navrat[$link]['pocet']=$radek[0];
+				$navrat[$link]['siteswap']=$radek[1];
+				$navrat[$link]['sirka']=$radek[2];
+				$navrat[$link]['vyska']=$radek[3];
+				$navrat[$link]['img']=$radek[4];
+				$navrat[$link]['popis']=preg_replace('/[-_]/',' ',basename($radek[4],'.gif'));
 			}
 		}
 	}
