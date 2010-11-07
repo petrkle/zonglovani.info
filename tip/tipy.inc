@@ -50,7 +50,8 @@
 2010-10-27*Žonglování v Ulitě*/ulita/?20101031*ulita.cz.png*V domě dětí a mládeže Ulita se pravidelně žongluje. Přijít mohou začínající i zkušení žongléři a žonglérky.
 2010-11-01*Fotky z Ulity*/obrazky/ulita-20101031/0000.html*mimina-v-ulite.jpg*Fotky z dalšího nedělního žonglování v Ulitě.
 2010-11-04*Výuka žonglování*/lide/dovednost/workshop.html*usx.jpg*Seznam žonglérů a žonglérek kteří tě naučí žonglovat.
-2010-11-08*Žonglování v Ulitě*/ulita/?20101114*ulita.cz.png*V domě dětí a mládeže Ulita se pravidelně žongluje. Přijít mohou začínající i zkušení žongléři a žonglérky.
+2010-11-08*Pražský žonglérský marathon 2*/kalendar/udalost-20101113-20101114-pek-1284723047.html*pzm2.png*Druhý ročník pražského žonglérského marathonu.
+2010-11-10*Žonglování v Ulitě*/ulita/?20101114*ulita.cz.png*V domě dětí a mládeže Ulita se pravidelně žongluje. Přijít mohou začínající i zkušení žongléři a žonglérky.
 2010-11-15*Žonglování v Ulitě*/ulita/?20101121*ulita.cz.png*V domě dětí a mládeže Ulita se pravidelně žongluje. Přijít mohou začínající i zkušení žongléři a žonglérky.
 2010-11-22*Bláznivá žehlička*/video/club2ring.html*club2ring.png*Krátký příběh o tom, co provedla splašená žehlička.
 2010-11-29*Žonglování v Ulitě*/ulita/?20101205*ulita.cz.png*V domě dětí a mládeže Ulita se pravidelně žongluje. Přijít mohou začínající i zkušení žongléři a žonglérky.

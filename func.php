@@ -381,7 +381,7 @@ function get_tipy(){
 			}
 		}
 	}
-return $navrat;
+return array_reverse($navrat);
 }
 
 class Trail

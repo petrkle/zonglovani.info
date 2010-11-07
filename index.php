@@ -15,7 +15,7 @@ $smarty->assign('keywords','žonglování, míčky, kruhy, kužely, seznam žong
 $smarty->assign('description','Žonglování s míčky, kruhy a kužely. Seznamu žonglérů, kalendář žongléřských srazů a obrázky žonglování.');
 $smarty->assign('nahled','http://'.$_SERVER['SERVER_NAME'].'/img/m/micky-logo.gif');
 $smarty->assign('notitle',true);
-$smarty->assign('tip',array_pop(get_tipy()));
+$smarty->assign('tip',array_shift(get_tipy()));
 
 $smarty->display('hlavicka.tpl');
 $smarty->display('index.tpl');

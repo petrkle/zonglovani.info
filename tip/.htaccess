@@ -10,3 +10,6 @@ RewriteRule ^(.*)$ $1 [F]
 RewriteRule ^tip.rss$ index.php?rss=jo [L]
 RewriteRule ^tip-img.rss$ tip.xml [R=301,L]
 RewriteRule ^tip.xml$ index.php?imgrss=jo [L]
+
+RewriteRule ^archiv1\.html$ /tip/ [R=301,L]
+RewriteRule ^archiv(.*)\.html$ index.php?pageID=$1 [L]

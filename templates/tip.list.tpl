@@ -1,10 +1,17 @@
-{if is_array($tipy) and count($tipy)>0}
+{if is_array($tipy)}
 <p>
-Tip týdne a ostatní aktualizace žonglérova slabikáře můžeš sledovat pomocí <a href="/rss.html" title="Automatické doručování informace o změnách">rss</a> a na <a href="http://www.facebook.com/zongleruv.slabikar" class="external" onclick="pageTracker._trackPageview('/goto/facebook.com/pages/zongleruv.slabikar');">Facebooku</a>.
+Tip týdne a ostatní aktualizace žonglérova slabikáře můžeš sledovat pomocí <a href="/rss.html" title="Automatické doručování informace o změnách">rss</a> a na <a href="http://www.facebook.com/zongleruv.slabikar" class="external" onclick="pageTracker._trackPageview('/goto/facebook.com/zongleruv.slabikar');">Facebooku</a>.
 </p>
-<ul>
 {foreach from=$tipy item=foo key=datum}
-<li><a href="{$foo.link}" title="{$foo.nadpis|escape}">{$foo.nadpis|escape}</a> - {$foo.cas_hr}</li>
+<h3 id="nadpistipu"><a href="{$foo.link}" title="{$foo.nadpis|escape}">{$foo.nadpis|escape}</a></h3>
+<ul id="datum"><li>{$foo.cas_hr|escape}</li></ul>
+<p><a href="{$foo.link}" title="{$foo.nadpis|escape}">{obrazek soubor=$foo.obrazek}</a>
+{$foo.text}
+</p>
 {/foreach}
-</ul>
+{if $page_numbers.total > 1}
+<p>
+Stránkování: {$pager_links}
+</p>
+{/if}
 {/if}
