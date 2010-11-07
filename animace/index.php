@@ -41,6 +41,7 @@ if($nameless){
 	$smarty->assign('description','Animace žonglování s míčky - anglické názvy.');
 	$smarty->assign('nadpis','Animace žonglování');
 	$trail->addStep('Anglické názvy','/animace/en/');
+	unset($nazvy['jeden']);
 	array_push($dalsi,array('url'=>'/animace/','text'=>'Česky pojmenované animace','title'=>'Česky pojmenované animace žonglování'));
 }else{
 	$smarty->assign('description','Animace žonglování s míčky.');

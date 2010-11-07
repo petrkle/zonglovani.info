@@ -9,8 +9,6 @@ Aktuální
 - napsat test na posílání vzkazů
 - skrip do cronu, upozornění na rok neaktivní účet, do 7. 12
 - do videí přidat readingroundabouts
-- rozdělit changelog podle roků
-- u starých novinek zobrazovat i text, rozdělit podle roků, kvartálů
 - další, předchozí - odkazy v seznamu žonglérů, seznamu míst
 - popisky k obrázkům, obrázkové sitemapy
 
@@ -81,3 +79,5 @@ v diskusi nahradit prompt() který blokuje IE za http://www.anyexample.com/webde
 v seznamu animací nadpisy podle počtu míčků
 video - stránkování, náhledy, info o délce
 katalog kuželek
+rozdělit changelog na stránky
+u starých novinek zobrazovat i text, rozdělit na stránky
