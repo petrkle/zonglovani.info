@@ -11,6 +11,9 @@ RewriteRule (.*) http://%1/$1 [R=301,QSA,NE,L]
 RewriteCond %{REQUEST_FILENAME}	^.*\.inc$
 RewriteRule ^(.*)$ $1 [F]
 
+RewriteRule ^changelog-1\.html$ /changelog.html [R=301,L]
+RewriteRule ^changelog-(.*)\.html$ ostatni/changelog.php?pageID=$1 [L]
+
 RewriteRule ostatni\.html$ ostatni/index.php [L]
 RewriteRule (.*).html ostatni/$1.php [L]
 
