@@ -25,7 +25,6 @@
 
 <fieldset class="siroke">
 <legend>Zpráva</legend>
-<script type="text/javascript" src="/md_propmt.js"></script>  
 <script type="text/javascript" src="/ed.js"></script>  
 <textarea name="vzkaz" id="vzkaz" accesskey="k" tabindex="3" rows="5" cols="50">{$vzkaz|escape}</textarea>
 <script type="text/javascript">edToolbar('vzkaz');</script>
