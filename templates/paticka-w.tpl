@@ -14,7 +14,7 @@
 {else}
 <div style="clear:both;">
 <script type="text/javascript">//<![CDATA[
-		document.write('<iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fzongleruv.slabikar&amp;width=800&amp;colorscheme=light&amp;connections=15&amp;stream=false&amp;header=false&amp;height=160" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:800px; height:160px;" allowTransparency="true"></iframe>');
+		document.write('<iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Ffacebook.com%2Fzongleruv.slabikar&amp;layout=standard&amp;show_faces=false&amp;width=800&amp;action=like&amp;colorscheme=light&amp;height=80" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:800px; height:80px;" allowTransparency="true"></iframe>');
 //]]></script>
 </div>
 {*
