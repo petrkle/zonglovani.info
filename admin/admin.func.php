@@ -7,6 +7,7 @@ function get_login_stat($loginy){
 		if(is_readable($fn)){
 			$prihlaseni[$login]['vse']=file($fn);
 			$prihlaseni[$login]['login']=$login;
+			$prihlaseni[$login]['jmeno']=get_name($login);
 			$prihlaseni[$login]['pocet']=count($prihlaseni[$login]['vse']);
 			$poprve=preg_split('/\*/',$prihlaseni[$login]['vse'][0]);
 			$poprve=date('j. n. Y H.i',$poprve[0]);

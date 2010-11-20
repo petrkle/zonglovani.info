@@ -2,4 +2,8 @@ RewriteEngine	on
 RewriteBase /admin
 
 RewriteCond %{HTTP_HOST} ^www\.(.*)
-RewriteRule (.*) http://%1/obrazky/$1 [R=301,QSA,NE,L]
+RewriteRule (.*) http://%1/admin/$1 [R=301,QSA,NE,L]
+
+RewriteRule ^detail/(.*)\.html$ index.php?detail=$1 [L]
+RewriteRule ^stranka1\.html$ /admin/ [R=301,L]
+RewriteRule ^stranka(.*)\.html$ index.php?pageID=$1 [L]
