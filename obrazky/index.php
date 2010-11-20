@@ -306,7 +306,7 @@ function get_galerie_obrazky($galerie){
 							if(is_file(OBRAZKY_DATA.'/'.$galerie.'/nahledy/'.$filename)){
 								$pripona=preg_split('/\./',$filename);
 								$pripona=array_pop($pripona);
-								$foo['obrazek']='http://i.'.$_SERVER['SERVER_NAME'].OBRAZKY_URL.$galerie.'/'.$filename;
+								$foo['obrazek']='http://'.$_SERVER['SERVER_NAME'].OBRAZKY_URL.$galerie.'/'.$filename;
 								$size = getimagesize(OBRAZKY_DATA.'/'.$galerie.'/nahledy/'.$filename);
 								$fsize = getimagesize(OBRAZKY_DATA.'/'.$galerie.'/'.$filename);
 								$foo['sirka']=$size[0];
@@ -339,7 +339,7 @@ function get_nahled_galerie($galerie){
 							if(is_file(OBRAZKY_DATA.'/'.$galerie.'/nahledy/'.$filename)){
 								$pripona=preg_split('/\./',$filename);
 								$pripona=array_pop($pripona);
-								$foo['obrazek']='http://i.'.$_SERVER['SERVER_NAME'].OBRAZKY_URL.$galerie.'/'.$filename;
+								$foo['obrazek']='http://'.$_SERVER['SERVER_NAME'].OBRAZKY_URL.$galerie.'/'.$filename;
 								$size = getimagesize(OBRAZKY_DATA.'/'.$galerie.'/nahledy/'.$filename);
 								$fsize = getimagesize(OBRAZKY_DATA.'/'.$galerie.'/'.$filename);
 								$foo['sirka']=$size[0];
