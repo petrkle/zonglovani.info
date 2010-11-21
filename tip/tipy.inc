@@ -56,7 +56,8 @@
 2010-11-16*Fotky z marathonu II.*/obrazky/prazsky-zonglersky-marathon-2-souteze-a-vystoupeni-20101113/0000.html*pzm2-souteze.jpg*Další fotky z pražského žonglérského marathonu. Soutěže a večerní vystoupení.
 2010-11-17*Fotky z Ulity*/obrazky/ulita-20101114/0000.html*nadseny-zongler.jpg*Fotky z nedělního žonglování v Ulitě.
 2010-11-18*Žonglování v Ulitě*/ulita/?20101121*ulita.cz.png*Už v neděli se opět žongluje v Ulitě. Přijít mohou začínající i zkušení žongléři a žonglérky.
-2010-11-22*Bláznivá žehlička*/video/club2ring.html*club2ring.png*Krátký příběh o tom, co provedla splašená žehlička.
+2010-11-22*Fotky z Ulity*/obrazky/ulita-20101121/0001.html*mlady-zongler.jpg*Fotky z nedělního žonglování v Ulitě.
+2010-11-25*Bláznivá žehlička*/video/club2ring.html*club2ring.png*Krátký příběh o tom, co provedla splašená žehlička.
 2010-11-29*Žonglování v Ulitě*/ulita/?20101205*ulita.cz.png*V domě dětí a mládeže Ulita se pravidelně žongluje. Přijít mohou začínající i zkušení žongléři a žonglérky.
 2010-12-06*Výhody pro registrované uživatele*/exkurze.html*exkurze-nahled-2010-2-28-19-49-47.jpg*Obrázky a popis výhod pro registrované uživatele žonglérova slabikáře.
 2010-12-13*Žonglování v Ulitě*/ulita/?20101219*ulita.cz.png*V domě dětí a mládeže Ulita se pravidelně žongluje. Přijít mohou začínající i zkušení žongléři a žonglérky.

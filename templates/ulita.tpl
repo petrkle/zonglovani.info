@@ -8,10 +8,10 @@ Přijít mohou začínající i zkušení žongléři a žonglérky. Pro široko
 </p>
 
 <div class="obrazkovnik">
-<a href="/obrazky/ulita-20101114/0000.html">{obrazek soubor='snek010.jpg' popisek='' path='/ulita/img/'}</a>
-<a href="/obrazky/ulita-20101114/0003.html">{obrazek soubor='snek011.jpg' popisek='' path='/ulita/img/'}</a>
-<a href="/obrazky/ulita-20101114/0006.html">{obrazek soubor='snek012.jpg' popisek='' path='/ulita/img/'}</a>
-<br /><a href="/obrazky/ulita-20101114/" title="Další obrázky z žonglování v Ulitě.">Další obrázky &raquo;</a>
+<a href="/obrazky/ulita-20101121/0001.html">{obrazek soubor='snek013.jpg' popisek='' path='/ulita/img/'}</a>
+<a href="/obrazky/ulita-20101121/0002.html">{obrazek soubor='snek014.jpg' popisek='' path='/ulita/img/'}</a>
+<a href="/obrazky/ulita-20101121/0012.html">{obrazek soubor='snek015.jpg' popisek='' path='/ulita/img/'}</a>
+<br /><a href="/obrazky/ulita-20101121/" title="Další obrázky z žonglování v Ulitě.">Další obrázky &raquo;</a>
 </div>
 
 <p>
