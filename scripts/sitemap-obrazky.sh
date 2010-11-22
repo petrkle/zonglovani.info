@@ -47,5 +47,6 @@ echo '<?xml version="1.0" encoding="UTF-8"?>
 	do
 echo "<sitemap><loc>http://zonglovani.info/$foo</loc></sitemap>" >> obrazky/imgmapmap.xml
 	done
+echo "<sitemap><loc>http://zonglovani.info/img/triky.xml</loc></sitemap>" >> obrazky/imgmapmap.xml
 echo '</sitemapindex>' >> obrazky/imgmapmap.xml
 fi

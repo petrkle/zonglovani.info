@@ -2,6 +2,7 @@ help:
 	@echo "help     - napoveda"
 	@echo "sitemap  - aktualizuje mapu stranek"
 	@echo "obrmap   - aktualizuje mapu obrázků"
+	@echo "trikimg  - aktualizuje mapu obrázků z triků"
 	@echo "upload   - nahraje zmenene soubory na ftp"
 	@echo "time     - soubory zmenene pred timto datem nebudou nahrany na ftp"
 	@echo "fupdate  - aktualizuje db pro fulltextove hledani"
@@ -17,6 +18,9 @@ sitemap:
 
 obrmap:
 	./scripts/sitemap-obrazky.sh
+
+trikimg:
+	./scripts/sitemap-trik-img.sh
 
 upload:
 	./scripts/upload.sh
