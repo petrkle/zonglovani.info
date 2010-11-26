@@ -55,5 +55,3 @@
 <ul>
 <li><a href="http://{$smarty.server.SERVER_NAME}/rss/agregator.xml" title="RSS 2.0">http://{$smarty.server.SERVER_NAME}/rss/agregator.xml</a></li>
 </ul>
-
-<p>Návod <a href="{$smarty.const.CALENDAR_URL}rss-a-icalendar.html#rss" title="Návod na nastavení speciálniho programu pro čtení RSS.">jak nastavit RSS</a>.</p>

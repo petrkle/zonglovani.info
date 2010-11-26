@@ -21,7 +21,7 @@ $smarty->assign('keywords','rss, žonglování, agregátor');
 $smarty->assign('description','RSS agregátor novinek z žonglérského světa');
 
 $dalsi=array(
-	array('url'=>'http://'.$_SERVER['SERVER_NAME'].'/rss/agregator.xml','text'=>'http://'.$_SERVER['SERVER_NAME'].'/rss/agregator.xml','title'=>'RSS kanál'),
+	array('url'=>'/rss/agregator.xml','text'=>'http://'.$_SERVER['SERVER_NAME'].'/rss/agregator.xml','title'=>'RSS kanál'),
 	array('url'=>'/rss.html','text'=>'RSS kanály žonglérova slabikáře','title'=>'RSS kanály žonglérova slabikáře'),
 	array('url'=>CALENDAR_URL.'rss-a-icalendar.html#rss','text'=>'Jak nastavit RSS','title'=>'Jak nastavivt RSS čtečku'),
 	);
