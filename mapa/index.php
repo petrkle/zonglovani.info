@@ -13,8 +13,8 @@ $dalsi=array(
 $smarty->assign_by_ref('dalsi',$dalsi);
 $smarty->assign_by_ref('trail', $trail->path);
 $smarty->assign('styly',array('/m.css'));
-$smarty->assign('keywords','animace, žonglování, siteswap, juggleanim');
-$smarty->assign('description','Animace žonglování s míčky.');
+$smarty->assign('keywords','mapa, žonglování, žongléři');
+$smarty->assign('description','Mapa žonglérů v České a Slovenské republice.');
 $smarty->assign('titulek',$titulek);
 $smarty->display('hlavicka-w.tpl');
 $smarty->display('mapa.tpl');
