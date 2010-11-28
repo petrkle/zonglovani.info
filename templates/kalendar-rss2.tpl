@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/">
    <channel>
     <title>Kalendář žonglérských akcí</title>
     <link>http://{$smarty.server.SERVER_NAME}{$smarty.const.CALENDAR_URL}</link>
@@ -15,12 +15,25 @@
 {foreach from=$events item=udalost name=smycka2}
 	{if $smarty.foreach.smycka2.index < 10}
   <item>
-    <title>{$udalost.title}</title>
-    <link>http://{$smarty.server.SERVER_NAME}{$smarty.const.CALENDAR_URL}udalost-{$udalost.id}.html</link>
-    <description>{$udalost.desc}</description>
-    <author>{$udalost.vlozil}</author>
+    <title>{$udalost.title|escape}</title>
+    <link>http://{$smarty.server.SERVER_NAME}{$smarty.const.CALENDAR_URL}udalost-{$udalost.id|escape}.html</link>
+{if $udalost.img}
+<description>
+<![CDATA[
+<p>
+<div style="float:left;margin:0 5px;">
+<img src="http://{$smarty.server.SERVER_NAME}{$smarty.const.CALENDAR_URL}obrazek-{$udalost.img}" />
+</div>
+{$udalost.desc|escape}
+</p>
+]]>
+</description>
+{else}
+    <description>{$udalost.desc|escape}</description>
+{/if}
+		<dc:creator>{$udalost.vlozil|escape}</dc:creator>
     <pubDate>{$udalost.insert_rss2}</pubDate>
-		<guid>http://{$smarty.server.SERVER_NAME}{$smarty.const.CALENDAR_URL}udalost-{$udalost.id}.html</guid>
+		<guid>http://{$smarty.server.SERVER_NAME}{$smarty.const.CALENDAR_URL}udalost-{$udalost.id|escape}.html</guid>
   </item>
 	{/if}
 {/foreach}

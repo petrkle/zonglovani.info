@@ -54,8 +54,21 @@ if($udalost){
 
 		if(isset($trash) and isset($_POST['shred'])){
 			unlink(CALENDAR_DELETED.'/'.date('Ymd',strtotime($udalost['zacatek'])).'-'.date('Ymd',strtotime($udalost['konec'])).'-'.$_SESSION['uzivatel']['login'].'-'.$udalost['insert'].'.cal');
+			if(isset($udalost['img']) and is_readable(CALENDAR_IMG.'/'.$udalost['img'])){
+				unlink(CALENDAR_IMG.'/'.$udalost['img']);
+			}
 			header('Location: '.CALENDAR_URL);
 			exit();
+		}
+
+		if(isset($_POST['smazatimg'])){
+					if($udalost['vlozil']==$_SESSION['uzivatel']['login']){
+						unset($udalost['img']);
+						unlink(CALENDAR_IMG.'/'.$udalost['img']);
+						write_event_data($udalost);
+						header('Location: '.CALENDAR_URL.'udalost-'.$udalost['id'].'.html');
+						exit();
+					}
 		}
 
 		if(isset($_POST['odeslat']) and !$stare){
@@ -89,7 +102,7 @@ if($udalost){
 							rename(CALENDAR_DATA."/$id.cal",CALENDAR_DELETED."/$id.cal");
 						}
 					}
-					header("Location: ".CALENDAR_URL."udalost-".$udalost["id"].".html");
+					header('Location: '.CALENDAR_URL.'udalost-'.$udalost['id'].'.html');
 					exit();
 				}
 			}
@@ -116,7 +129,11 @@ if($udalost){
 		$smarty->assign('hcalendar',true);
 		$trail->addStep($udalost['month_name'],$udalost['month_url']);
 		$trail->addStep($udalost['title']);
-		$smarty->assign('nahled','http://'.$_SERVER['SERVER_NAME'].'/img/k/kalendar.png');
+		if(isset($udalost['img'])){
+			$smarty->assign('nahled','http://'.$_SERVER['SERVER_NAME'].'/kalendar/obrazek-'.$udalost['img']);
+		}else{
+			$smarty->assign('nahled','http://'.$_SERVER['SERVER_NAME'].'/img/k/kalendar.png');
+		}
 		$smarty->assign('keywords',make_keywords('žonglování, kalendář, '.$udalost['title']));
 		$smarty->assign_by_ref('trail', $trail->path);
 		$smarty->display('hlavicka.tpl');

@@ -42,6 +42,7 @@ define('CALENDAR_URL','/kalendar/');
 define('CALENDAR_ROOT',$lib.'/calendar/'); 
 define('CALENDAR_DATA',$_SERVER['DOCUMENT_ROOT'].'/data/kalendar'); 
 define('CALENDAR_DELETED',$_SERVER['DOCUMENT_ROOT'].'/data/kalendar.deleted'); 
+define('CALENDAR_IMG',$_SERVER['DOCUMENT_ROOT'].'/data/kalendar.img'); 
 
 define('LIDE_URL','/lide/'); 
 define('LIDE_DATA',$_SERVER['DOCUMENT_ROOT'].'/data/lide'); 

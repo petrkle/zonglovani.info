@@ -1,7 +1,7 @@
 <?php
 require('../init.php');
 if(isset($_GET['id'])){
-	$id=$_GET['id'];
+	$id=trim(preg_replace('/[\.\/]/','',$_GET['id']));
 }else{
 	require("../404.php");
 	exit();

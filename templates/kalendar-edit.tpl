@@ -7,7 +7,7 @@
 {/if}
 
 {include file='kalendar-selector.tpl'}
-<form action="{$smarty.server.SCRIPT_NAME}{$form_action}" method="post" id="cal">
+<form action="{$smarty.server.SCRIPT_NAME}{$form_action}" method="post" id="cal" enctype="multipart/form-data">
 <fieldset>
 <legend accesskey="i">Základní <span class="u">i</span>nformace</legend>
 <ul>
@@ -30,7 +30,15 @@
 <ul>
 <li><label class="kratkypopis" for="odkaz" accesskey="o" ><span class="u">O</span>dkaz</label>:<input type="text" name="url" id="odkaz" value="{$udalost.url|escape}" class="textbox" tabindex="6"/><a class="info" href="#">?<span class="tooltip">Odkaz na www stránku události. Nepovinný údaj. Formát http://*</span></a></li>
 <li><label class="kratkypopis" for="mapa" accesskey="a" >M<span class="u">a</span>pa</label>:<input type="text" name="mapa" id="mapa" value="{$udalost.mapa|escape}" class="textbox" tabindex="7"/><a class="info" href="#">?<span class="tooltip">Odkaz na mapu místa kde se událost koná. Nepovinný údaj. Formát http://*</span></a></li>
+{if !$udalost.img}
+<li><label class="kratkypopis" for="obrazek" accesskey="b" >O<span class="b">b</span>rázek</label>:<input type="file" name="obrazek" id="obrazek" class="textbox" tabindex="8"/><a class="info" href="#">?<span class="tooltip">Leták k akci.</span></a></li>
+{else}
+<li><label class="kratkypopis" for="obrazek" accesskey="b" >O<span class="b">b</span>rázek</label>: <input type="submit" name="smazatimg" value="Smazat obrázek" /></li>
+{/if}
 </ul>
+{if $udalost.img}
+<p><img src="/kalendar/obrazek-{$udalost.img|escape}" alt="{$udalost.title|escape}" width="{$udalost.img_sirka|escape}" height="{$udalost.img_vyska|escape}" /></p>
+{/if}
 </fieldset>
 
 <p class="vpravo">

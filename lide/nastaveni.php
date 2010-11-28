@@ -85,15 +85,15 @@ $trail->addStep('Nastavení',LIDE_URL.'nastaveni/');
 		}elseif($uprav=='foto'){
 			if(isset($_FILES['foto']) and isset($_POST['odeslat'])){
 					if($_FILES['foto']['size']>(200*1024)){
-						array_push($chyby,'Obrázek je příliš velký.');
+						array_push($chyby,'Obrázek je příliš velký. Maximální velikost 200 kb.');
 					}
 					$obrazekinfo=getimagesize($_FILES['foto']['tmp_name']);
 					if(is_array($obrazekinfo)){
 						if($obrazekinfo[0]>300 or $obrazekinfo[1]>300){
-							array_push($chyby,'Rozměry obrázku jsou příliš velké.');
+							array_push($chyby,'Rozměry obrázku jsou příliš velké. Maximální velikost 300x300 px.');
 						}
 						if($obrazekinfo['mime']!='image/jpeg'){
-							array_push($chyby,'Špatný formát souboru.');
+							array_push($chyby,'Špatný formát souboru. Přidávat jde pouze obrázky formátu JPG.');
 						}
 					}else{
 						array_push($chyby,'Odeslaný soubor není obrázek.');

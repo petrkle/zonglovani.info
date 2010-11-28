@@ -1,9 +1,14 @@
 {if isset($udalost)}
 <div class="vevent">
-<span class="skryte summary">{$udalost.title}</span>
+<span class="skryte summary">{$udalost.title|escape}</span>
 {if $stare}
 <ul class="alert"><li><strong>Pozor:</strong> tato událost už skončila.</li></ul>
 {/if}
+
+{if $udalost.img}
+<p><img src="/kalendar/obrazek-{$udalost.img|escape}" alt="{$udalost.title|escape}" width="{$udalost.img_sirka|escape}" height="{$udalost.img_vyska|escape}" /></p>
+{/if}
+
 <p><strong>Začátek</strong>: <abbr class="dtstart" title="{$udalost.start_micro|escape}">{$udalost.start_hr|escape}</abbr></p>
 <p><strong>Konec:</strong> <abbr class="dtend" title="{$udalost.end_micro|escape}">{$udalost.end_hr|escape}</abbr></p>
 <p><strong>Popis</strong>: <span class="description">{$udalost.desc|escape}</span></p>
@@ -35,7 +40,6 @@
 {/if}
 
 {/if}
-
 </div>
 {/if}
 

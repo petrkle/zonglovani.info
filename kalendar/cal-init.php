@@ -89,6 +89,19 @@ function get_event_data($id,$storage=CALENDAR_DATA){
 		if(isset($udalost['url'])){
 			$udalost['url_hr']=preg_replace('/^http:\/\/zonglovani.info/','',$udalost['url']);
 		}
+
+		if(isset($udalost['img']) and is_readable(CALENDAR_IMG.'/'.$udalost['img'])){
+		$obrazekinfo=getimagesize(CALENDAR_IMG.'/'.$udalost['img']);
+		if(is_array($obrazekinfo)){
+			$udalost['img_sirka']=$obrazekinfo[0];
+			$udalost['img_vyska']=$obrazekinfo[1];
+		}else{
+			$udalost['img_sirka']='';
+			$udalost['img_vyska']='';
+		}
+		}else{
+			unset($udalost['img']);
+		}
 		$udalost['zacatek'].=' '.$udalost['time_start'];
 		$udalost['konec'].=' '.$udalost['time_end'];
 		$udalost['start']=strtotime($udalost['zacatek']);
@@ -114,6 +127,29 @@ function write_event_data($udalost){
 	$udalost['time_start']=date('H:i',strtotime($udalost['zacatek']));
 	$udalost['time_end']=date('H:i',strtotime($udalost['konec']));
 	$filename=$udalost['id'].'.cal';
+	if(isset($udalost['obrazek'])){
+		$obrazek=$udalost['obrazek'];
+		if($obrazek['type']=='image/png'){
+			$pripona='.png';
+		}else{
+			$pripona='.jpg';
+		}
+		move_uploaded_file($obrazek['tmp_name'],CALENDAR_IMG.'/'.$udalost['id'].$pripona);
+		$obrazekinfo=getimagesize(CALENDAR_IMG.'/'.$udalost['id'].$pripona);
+		if($obrazekinfo[0]>500 or $obrazekinfo[1]>600){
+			# moc velký obrázek - potřebuje zmenšit
+			include($_SERVER['DOCUMENT_ROOT'].'/lib/SimpleImage.php');
+			 $image = new SimpleImage();
+			 $image->load(CALENDAR_IMG.'/'.$udalost['id'].$pripona);
+			 $image->resizeToMax(500,600);
+			 $image->save(CALENDAR_IMG.'/resized-'.$udalost['id'].$pripona);
+			 rename(CALENDAR_IMG.'/resized-'.$udalost['id'].$pripona,CALENDAR_IMG.'/'.$udalost['id'].$pripona);
+		}
+		$udalost['img']=$udalost['id'].$pripona;
+	}
+	unset($udalost['img_sirka']);
+	unset($udalost['img_vyska']);
+	unset($udalost['obrazek']);
 	unset($udalost['id']);
 	unset($udalost['zacatek']);
 	unset($udalost['konec']);
@@ -221,7 +257,7 @@ function event_validation($udalost,$now){
 		array_push($chyby,'Místo obsahuje příliš mnoho VELKÝCH písmen.');
 	}
 
-	if(!ereg('^[0-9]{4}-[0-9]{2}-[0-9]{2} [0-9]{2}:[0-9]{2}$',$udalost['zacatek'])){
+	if(!preg_match('/^[0-9]{4}-[0-9]{2}-[0-9]{2} [0-9]{2}:[0-9]{2}$/',$udalost['zacatek'])){
 		array_push($chyby,'Špatný formát začátku události.');
 		$zacatek_time=false;
 	}else{
@@ -232,15 +268,15 @@ function event_validation($udalost,$now){
 			}
 	}
 
-	if(strlen($udalost['url'])>0 and !eregi('^http://',$udalost['url'])){
+	if(strlen($udalost['url'])>0 and !preg_match('/^http:\/\//',$udalost['url'])){
 		array_push($chyby,'Špatný formát odkazu.');
 	}
 
-	if(strlen($udalost['mapa'])>0 and !eregi('^http://',$udalost['mapa'])){
+	if(strlen($udalost['mapa'])>0 and !preg_match('/^http:\/\//',$udalost['mapa'])){
 		array_push($chyby,'Špatný formát odkazu na mapu.');
 	}
 
-	if(!ereg('^[0-9]{4}-[0-9]{2}-[0-9]{2} [0-9]{2}:[0-9]{2}$',$udalost['konec'])){
+	if(!preg_match('/^[0-9]{4}-[0-9]{2}-[0-9]{2} [0-9]{2}:[0-9]{2}$/',$udalost['konec'])){
 		array_push($chyby,'Špatný formát konce události.');
 		$konec_time=false;
 	}else{
@@ -269,6 +305,23 @@ function event_validation($udalost,$now){
 		}
 	}
 
+	if(isset($udalost['obrazek']) and is_array($udalost['obrazek'])){
+		if($udalost['obrazek']['size']>(500*1024)){
+			array_push($chyby,'Obrázek je příliš velký. Maximální velikost 500 kb.');
+		}
+		$obrazekinfo=getimagesize($udalost['obrazek']['tmp_name']);
+		if(is_array($obrazekinfo)){
+			if($obrazekinfo[0]>1280 or $obrazekinfo[1]>1280){
+				array_push($chyby,'Rozměry obrázku jsou příliš velké. Maximální velikost 1280x1280 px.');
+			}
+			if(!($obrazekinfo['mime']=='image/jpeg' or $obrazekinfo['mime']=='image/png')){
+				array_push($chyby,'Špatný formát souboru. Přidávat jde pouze obrázky ve formátech JPG a PNG.');
+			}
+		}else{
+			array_push($chyby,'Odeslaný soubor není obrázek.');
+		}
+	}
+
 	return $chyby;
 }
 
@@ -282,6 +335,9 @@ function get_udalost_post(){
 			$udalost[$foo]="";
 		}
 	}
+	if(isset($_FILES['obrazek']) and $_FILES['obrazek']['error']==0){
+		$udalost['obrazek']=$_FILES['obrazek'];
+	}
 	return $udalost;
 }
 
@@ -290,7 +346,7 @@ function get_deleted_events(){
   if(is_dir(CALENDAR_DELETED) and opendir(CALENDAR_DELETED)){
 	$adr=opendir(CALENDAR_DELETED);
 	while (false!==($file = readdir($adr))) {
-	  if (substr($file,-4) == '.cal' and ereg('.*-'.$_SESSION['uzivatel']['login'].'-.*\.cal$',$file)){
+	  if (substr($file,-4) == '.cal' and preg_match('/.*-'.$_SESSION['uzivatel']['login'].'-.*\.cal$/',$file)){
 			array_push($vypis,get_event_data($file,CALENDAR_DELETED));
 		};
 	};

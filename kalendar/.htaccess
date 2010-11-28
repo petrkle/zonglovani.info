@@ -4,8 +4,9 @@ RewriteBase /kalendar
 RewriteCond %{HTTP_HOST} ^www\.(.*)
 RewriteRule (.*) http://%1/kalendar/$1 [R=301,QSA,NE,L]
 
-RewriteRule ^udalost-(..*)\.html$ event.php?id=$1 [L]
-RewriteRule ^smazane-(..*)\.html$ event.php?id=$1&deleted [L]
+RewriteRule ^obrazek-(.*)\.(jpg|png)$ obrazek.php?jmeno=$1&pripona=$2 [L]
+RewriteRule ^udalost-(.*)\.html$ event.php?id=$1 [L]
+RewriteRule ^smazane-(.*)\.html$ event.php?id=$1&deleted [L]
 RewriteRule ^(....)-(.*)\.html$ index.php?y=$1&m=$2 [L]
 RewriteRule ^kalendar.rss$ rss.php [L]
 RewriteRule ^kalendar.xml$ rss.php?v=2 [L]
