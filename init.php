@@ -61,9 +61,9 @@ define('SEARCH_URL','/vyhledavani/');
 
 define('HODNOCENI_DATA',$_SERVER['DOCUMENT_ROOT'].'/data/hodnoceni');
 
-define('TIMEOUT_REGISTRATION',8*3600); 
-define('TIMEOUT_RESET_PASSWD',8*3600); 
-define('TIMEOUT_VZKAZ',8*3600); 
+define('TIMEOUT_REGISTRATION',24*3600); 
+define('TIMEOUT_RESET_PASSWD',24*3600); 
+define('TIMEOUT_VZKAZ',24*3600); 
 
 define('TIPY_DATA',$_SERVER['DOCUMENT_ROOT'].'/tip/tipy.inc'); 
 
