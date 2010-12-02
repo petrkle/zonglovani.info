@@ -1,5 +1,5 @@
 #datum*titulek*odkaz*obrazek*text
-2009-12-21*Veselé vánoce*/vanoce-2010.html*vanoce.png*Na úvodní stránce žonglérova slabikáře najdeš každý týden něco nového. A jako první je tu vánoční přání.
+2009-12-21*Veselé vánoce*/vanoce-2009.html*vanoce.png*Na úvodní stránce žonglérova slabikáře najdeš každý týden něco nového. A jako první je tu vánoční přání.
 2009-12-28*PF 2010*/pf-2010.html*pf-2010b.png*Hodně štěstí a zdraví v novém roce. Ať vám to lítá :^)
 2010-01-04*Žonglování v Ulitě*/ulita/?201001*ulita.cz.png*V neděli se koná první letošní žonglování v Ulitě. Přijít mohou začínající i zkušení žongléři a žonglérky.
 2010-01-11*Hledání v žonglérově slabikáři*/vyhledavani/*hledani.png*Žonglérův slabikář obsahuje rychlé a přesné <a href="http://zonglovani.info/vyhledavani/" title="Fulltextové prohledávání žonglérova slabikáře.">vyhledávání</a>.
