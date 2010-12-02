@@ -1,12 +1,14 @@
 <?php
 require('../init.php');
 require('../func.php');
+require('../cron/navstevnost-func.php');
 
 $titulek='Statistiky';
 $smarty->assign('titulek',$titulek);
-
 $smarty->assign('keywords',make_keywords($titulek).', žonglování');
 $smarty->assign('description','Statistiky žonglérova slabikáře.');
+
+$smarty->assign('styly',array('/s.css'));
 
 $diskuse_pocet=0;
 $adr=opendir(DISKUSE_DATA);
@@ -35,12 +37,15 @@ if (file_exists($filename)) {
 
 
 $stat=array();
+$navstevnost=nav_load_data();
+arsort($navstevnost);
 
 $stat['aktualizace']=date('j. n. Y G.i', filectime('../ChangeLog'));
 $stat['pocet_lide']=count(get_loginy());
 $stat['pocet_diskuse']=$diskuse_pocet;
 $stat['pocet_kalendar']=$kal_pocet;
 $stat['fupdate']=$fupdate;
+$stat['navstevnost']=$navstevnost;
 
 $trail = new Trail();
 $trail->addStep($titulek);
