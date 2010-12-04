@@ -13,8 +13,9 @@ Příspěvků v <a href="/diskuse/" title="O žonglování">diskusi</a>: {$stat.
 <p>
 Záznamů v <a href="/kalendar/" title="Kalendář žonglérských akcí">kalendáři</a>: {$stat.pocet_kalendar|escape}
 </p>
-<a name="navst"><h3>Návštěvnost</h3></a>
 {if is_array($stat.navstevnost)}
+<a name="navst"><h3>Návštěvnost</h3></a>
+<p>Návštěvnost žonglérova slabikáře za posledních 30 dní.</p>
 <table class="navstevnost" cellspacing="0" cellpadding="0">
 <tr>
 <th>Datum</th>

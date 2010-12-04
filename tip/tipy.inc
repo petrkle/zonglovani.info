@@ -60,29 +60,30 @@
 2010-11-25*Bláznivá žehlička*/video/club2ring.html*club2ring.png*Krátký příběh o tom, co provedla splašená žehlička.
 2010-11-29*Žonglování v Ulitě*/ulita/?20101205*ulita.cz.png*V domě dětí a mládeže Ulita se pravidelně žongluje. Přijít mohou začínající i zkušení žongléři a žonglérky.
 2010-12-06*Výhody pro registrované uživatele*/exkurze.html*exkurze-nahled-2010-2-28-19-49-47.jpg*Obrázky a popis výhod pro registrované uživatele žonglérova slabikáře.
+2010-12-09*Všežonglérský slet*/kalendar/udalost-20101212-20101212-pek-1290799311.html*vsezonglersky-slet.png*Nedělní odpoledne v žižkovské sokolovně plné žonglování, her a workshopů.
 2010-12-13*Žonglování v Ulitě*/ulita/?20101219*ulita.cz.png*V domě dětí a mládeže Ulita se pravidelně žongluje. Přijít mohou začínající i zkušení žongléři a žonglérky.
-2010-12-20*Sun*/video/sun.html*sun.jpg*Sluníčko, Jirka z Ostravy a diabolo.
-2010-12-27*Otáčení kuželky okolo palce*/kuzely/toceni-okolo-palce.html*tocenib.png*Trik který můžeš trénovat i v místnostech s nízkým stropem.
-2011-01-03*RSS agregátor*/rss/*rss.png*Přehled novinek na stránkách o žonglování.
-2011-01-10*What the (beepbeep) do we know?*/video/what-the-beepbeep-do-we-know.html*partnerpoi.jpg*Točení s poi ve více lidech.
+2010-12-22*Veselé vánoce*/vanoce-2010.html*vanoce-2010.s.jpg*Veselé vánoční svátky. Ať vám to lítá :^)
+2010-12-27*PF 2011*/pf-2011.html*pf-2011.png*Hodně štěstí a zdraví v novém roce. Ať vám to lítá :^)
+2011-01-03*Statistika*/statistika.html*podporaa.png*Trocha bilancování uplynulého roku. Podívej se kolik lidí používá žonglérův slabikář.
+2011-01-10*Žonglování v Ulitě*/ulita/?20110116*ulita.cz.png*V domě dětí a mládeže Ulita se pravidelně žongluje. Přijít mohou začínající i zkušení žongléři a žonglérky.
 2011-01-17*Sloupy ve dvou*/kuzely/passing/sloupy.html*kuzely-passing-sloupyd.png*Trik pro dva žongléry se čtyřmi kužely.
-2011-01-24*Literatura*/literatura.html*encyclopaedia.jpg*Přehled nejlepších knížek o žonglování.
-2011-01-31
-2011-02-07
-2011-02-14
-2011-02-21
-2011-02-28
-2011-03-07
-2011-03-14
-2011-03-21
-2011-03-28
-2011-04-04
-2011-04-11
-2011-04-18
-2011-04-25
-2011-05-02
-2011-05-09
-2011-05-16
+2011-01-24*Žonglování v Ulitě*/ulita/?20110130*ulita.cz.png*V domě dětí a mládeže Ulita se pravidelně žongluje. Přijít mohou začínající i zkušení žongléři a žonglérky.
+2011-01-31*Obrázky kuželů*/kuzely/druhy.html*kuzelka-albatros-s.jpg*Obrázky žonglérských kuželů.
+2011-02-07*Žonglování v Ulitě*/ulita/?20110213*ulita.cz.png*V domě dětí a mládeže Ulita se pravidelně žongluje. Přijít mohou začínající i zkušení žongléři a žonglérky.
+2011-02-14*Sun*/video/sun.html*sun.jpg*Sluníčko, Jirka z Ostravy a diabolo.
+2011-02-21*Žonglování v Ulitě*/ulita/?20110227*ulita.cz.png*V domě dětí a mládeže Ulita se pravidelně žongluje. Přijít mohou začínající i zkušení žongléři a žonglérky.
+2011-02-28*Žonglování v Ulitě*/ulita/?20110306*ulita.cz.png*V domě dětí a mládeže Ulita se pravidelně žongluje. Přijít mohou začínající i zkušení žongléři a žonglérky.
+2011-03-07*What the (beepbeep) do we know?*/video/what-the-beepbeep-do-we-know.html*partnerpoi.jpg*Točení s poi ve více lidech.
+2011-03-14*Žonglování v Ulitě*/ulita/?20110320*ulita.cz.png*V domě dětí a mládeže Ulita se pravidelně žongluje. Přijít mohou začínající i zkušení žongléři a žonglérky.
+2011-03-21*Literatura*/literatura.html*encyclopaedia.jpg*Přehled nejlepších knížek o žonglování.
+2011-03-28*Žonglování v Ulitě*/ulita/?20110403*ulita.cz.png*V domě dětí a mládeže Ulita se pravidelně žongluje. Přijít mohou začínající i zkušení žongléři a žonglérky.
+2011-04-04*Otáčení kuželky okolo palce*/kuzely/toceni-okolo-palce.html*tocenib.png*Trik který můžeš trénovat i v místnostech s nízkým stropem.
+2011-04-11*Žonglování v Ulitě*/ulita/?20110417*ulita.cz.png*V domě dětí a mládeže Ulita se pravidelně žongluje. Přijít mohou začínající i zkušení žongléři a žonglérky.
+2011-04-18*RSS agregátor*/rss/*rss.png*Přehled novinek na stránkách o žonglování.
+2011-04-25*
+2011-05-02*
+2011-05-09*
+2011-05-16*
 2011-05-23
 2011-05-30
 2011-06-06
