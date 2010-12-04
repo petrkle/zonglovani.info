@@ -34,6 +34,7 @@ array_push($znamkovani,array('vzor'=>'^\/kuzely\/passing\/.+\.html$','priorita'=
 array_push($znamkovani,array('vzor'=>'^\/horoskop.*$','priorita'=>0.2,'zmena'=>'daily'));
 array_push($znamkovani,array('vzor'=>'^\/[^\/]+\.html$','priorita'=>0.7,'zmena'=>'monthly'));
 array_push($znamkovani,array('vzor'=>'^\/changelog.html$','priorita'=>0.4,'zmena'=>'weekly'));
+array_push($znamkovani,array('vzor'=>'^\/statistiky.html$','priorita'=>0.4,'zmena'=>'daily'));
 array_push($znamkovani,array('vzor'=>'^\/changelog-.*.html$','priorita'=>0.4,'zmena'=>'monthly'));
 array_push($znamkovani,array('vzor'=>'^\/mapa-stranek.html$','priorita'=>0.4,'zmena'=>'weekly'));
 array_push($znamkovani,array('vzor'=>'^\/obrazky\/.+\/$','priorita'=>0.6,'zmena'=>'yearly'));

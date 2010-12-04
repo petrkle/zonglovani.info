@@ -3,11 +3,9 @@ Aktuální
 - hitparáda hodnocených stránek, aktualizace žebříčku cronem 
 - u nastavení odkazů dodělat kolonku pro popis, ověření stránky, sestavit katalog
 - tiskové zprávy pro novináře, návod na kaskádu pdf, odt, doc, obrázky v tiskové kvalitě
-- stránka se statistikou
 - mapy - působiště člověka - živá mapa, okresy, přesunout místa pod mapu
 - posílání vzkazů - kontrolovat jestli má člověk nastavené zasílání vzkazů, všechny zprávy multipart text/html
 - napsat test na posílání vzkazů
-- skrip do cronu, upozornění na rok neaktivní účet, do 7. 12
 - další, předchozí - odkazy v seznamu žonglérů, seznamu míst
 - popisky k obrázkům
 
@@ -17,7 +15,6 @@ Kalendář
 - přihlašování na akce v kalendáři
 - export kalendáře (dalších věcí ?) do pdf online
 - odkazy další, předchozí u akce
-- obrázky i v rss
 
 Etc
 ===
@@ -83,3 +80,6 @@ u starých novinek zobrazovat i text, rozdělit na stránky
 obrázkové sitemapy
 do videí přidat readingroundabouts
 obrázek k akci v kalendáři
+stránka se statistikou
+obrázky i v rss
+skrip do cronu, upozornění na rok neaktivní účet

@@ -33,7 +33,7 @@ function nav_load_data(){
 				$foo=preg_split('/:/',trim($foo));
 				$data[$foo[0]]=$foo[1];
 			}
-			$navrat[$datum]=array_merge(array('datum'=>$datum,'datum_unix'=>$datum_unix),$data);
+			$navrat[$datum]=array_merge(array('datum'=>$datum,'datum_unix'=>$datum_unix,'datum_hr'=>date('j. m. Y',$datum_unix)),$data);
 		};
 	};
 	closedir($adr); 
