@@ -62,6 +62,11 @@ Nešpiní se, je odolný, má dobrou velikost i váhu a neskáče. Ovšem pozor,
 V interiéru by je měli používat pouze zkušení žongléři. Hrozí zapatlání rukou, podlahy a vůbec všeho.
 </p>
 
+<h3>Velký míč</h3>
+<p>
+<a href="/img/v/velky-mic.jpg">{obrazek soubor="velky-mic-nahled.jpg" popisek="Velký míč"}</a>
+Opravdu velký míč. K žonglování se třemi velkými nafukovacími míči jsou potřeba dva žongléři. Pro srovnání velikosti je vedle míče <a href="/kuzely/druhy.html#pirouete" title="Délka 52cm.">kužel pirouete</a>.
+</p>
 
 <p>
 Míčků je nepřeberně, vyrábějí se speciální míčky pro vystoupení na jevišti (jsou větší), míčky které svítí pod UV zářením, míčky které se napustí hořlavinou a zapálí.
