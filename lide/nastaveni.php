@@ -84,13 +84,14 @@ $trail->addStep('Nastavení',LIDE_URL.'nastaveni/');
 				$smarty->display('paticka.tpl');
 		}elseif($uprav=='foto'){
 			if(isset($_FILES['foto']) and isset($_POST['odeslat'])){
-					if($_FILES['foto']['size']>(200*1024)){
-						array_push($chyby,'Obrázek je příliš velký. Maximální velikost 200 kb.');
+
+					if($_FILES['foto']['size']>(500*1024)){
+						array_push($chyby,'Obrázek je příliš velký. Maximální velikost 500 kb.');
 					}
 					$obrazekinfo=getimagesize($_FILES['foto']['tmp_name']);
 					if(is_array($obrazekinfo)){
-						if($obrazekinfo[0]>300 or $obrazekinfo[1]>300){
-							array_push($chyby,'Rozměry obrázku jsou příliš velké. Maximální velikost 300x300 px.');
+						if($obrazekinfo[0]>1280 or $obrazekinfo[1]>1280){
+							array_push($chyby,'Rozměry obrázku jsou příliš velké. Maximální velikost 1280x1280px.');
 						}
 						if($obrazekinfo['mime']!='image/jpeg'){
 							array_push($chyby,'Špatný formát souboru. Přidávat jde pouze obrázky formátu JPG.');
@@ -100,6 +101,15 @@ $trail->addStep('Nastavení',LIDE_URL.'nastaveni/');
 					}
 				if(count($chyby)==0){
 					move_uploaded_file($_FILES['foto']['tmp_name'],LIDE_DATA.'/'.$_SESSION['uzivatel']['login'].'/foto.jpg');
+					if($obrazekinfo[0]>300 or $obrazekinfo[1]>300){
+						# zmenšení velkých obrázků
+						include($_SERVER['DOCUMENT_ROOT'].'/lib/SimpleImage.php');
+						 $image = new SimpleImage();
+						 $image->load(LIDE_DATA.'/'.$_SESSION['uzivatel']['login'].'/foto.jpg');
+						 $image->resizeToMax(300,300);
+						 $image->save(LIDE_DATA.'/'.$_SESSION['uzivatel']['login'].'/resized-foto.jpg');
+						 rename(LIDE_DATA.'/'.$_SESSION['uzivatel']['login'].'/resized-foto.jpg',LIDE_DATA.'/'.$_SESSION['uzivatel']['login'].'/foto.jpg');
+					}
 					$_SESSION['uzivatel']=get_user_complete($_SESSION['uzivatel']['login']);
 					header('Location: '.LIDE_URL.'nastaveni/?result=uploaded');
 					exit();

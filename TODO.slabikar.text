@@ -7,7 +7,7 @@ Aktuální
 - posílání vzkazů - kontrolovat jestli má člověk nastavené zasílání vzkazů, všechny zprávy multipart text/html
 - napsat test na posílání vzkazů
 - další, předchozí - odkazy v seznamu žonglérů, seznamu míst
-- popisky k obrázkům
+- kalendář api, rozšíření do chrome
 
 Kalendář
 ========
@@ -84,3 +84,4 @@ obrázek k akci v kalendáři
 stránka se statistikou
 obrázky i v rss
 skrip do cronu, upozornění na rok neaktivní účet
+automatické zmenšení obrázků v profilu
