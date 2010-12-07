@@ -13,6 +13,11 @@ if(isset($_GET['next']) and preg_match('/^\//',$_GET['next'])){
 	$next='/';
 }
 
+if(is_logged()){
+	header('Location: '.LIDE_URL.'nastaveni');
+	exit();
+}
+
 $trail = new Trail();
 $trail->addStep('Seznam žonglérů',LIDE_URL);
 $trail->addStep('Přihlášení uživatele');

@@ -68,8 +68,8 @@ Na adrese:
 
 http://'.$_SERVER['SERVER_NAME'].LIDE_URL.'nastaveni
 
-můžeš aktualizovat údaje v profilu, nebo počkat dalších 30 dní
-a účet bude zrušen úplně.
+můžeš aktualizovat údaje v profilu a tím prodloužit platnost účtu
+o další rok. Nebo počkat dalších 30 dní a účet bude zrušen úplně.
 
 -- 
 Petr Kletečka
@@ -102,8 +102,8 @@ Na adrese:<br />
 
 <a href="http://'.$_SERVER['SERVER_NAME'].LIDE_URL.'nastaveni" title="Nastavení účtu">http://'.$_SERVER['SERVER_NAME'].LIDE_URL.'nastaveni</a><br />
 
-můžeš aktualizovat údaje v profilu, nebo počkat dalších 30 dní<br />
-a účet bude zrušen úplně.<br /><br />
+můžeš aktualizovat údaje v profilu a tím prodloužit platnost účtu<br />
+o další rok. Nebo počkat dalších 30 dní a účet bude zrušen úplně.<br /><br />
 
 -- <br/>
 Petr Kletečka<br/>
@@ -132,7 +132,8 @@ $message .= "--$mime_boundary--\n\n";
 	}else{
 		# obnoveny ucet
 		if(is_file(SENDMAIL_DATA.'/'.$info['email'].'.spici')){
-			unlink(SENDMAIL_DATA.'/'.$info['email'].'.spici','w');
+			unlink(SENDMAIL_DATA.'/'.$info['email'].'.spici');
+			var_dump($info['email']);
 		}	
 	}
 

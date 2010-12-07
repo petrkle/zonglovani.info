@@ -22,12 +22,6 @@ Stránky o žonglování s ohněm.
 Profesionální fireshow skupina.
 </p>
 
-<a name="cirqueon"></a><h5><a href="http://www.cirqueon.cz/" title="Asociace pro současný cirkus" class="external" onclick="pageTracker._trackPageview('/goto/cirqueon.cz');">cirqueon.cz</a></h5>
-<p>
-<a href="http://www.cirqueon.cz/" title="Asociace pro současný cirkus" onclick="pageTracker._trackPageview('/goto/cirqueon.cz');">{obrazek soubor="odkazy-cirqueon.cz.png" popisek="cirqueon.cz"}</a>
-Asociace pro současný cirkus.
-</p>
-
 <a name="zonglovanie"></a><h5><a href="http://www.zonglovanie.ariesa.sk" title="Slovenský server." class="external" onclick="pageTracker._trackPageview('/goto/zonglovanie.ariesa.sk');">zonglovanie.ariesa.sk</a></h5>
 <p>
 <a href="http://www.zonglovanie.ariesa.sk" title="Slovenský server." onclick="pageTracker._trackPageview('/goto/zonglovanie.ariesa.sk');">{obrazek soubor="odkazy-zonglovanie.ariesa.sk.png" popisek="zonglovanie.ariesa.sk"}</a>

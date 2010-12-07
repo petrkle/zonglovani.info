@@ -59,9 +59,9 @@
 2010-11-22*Fotky z Ulity*/obrazky/ulita-20101121/0001.html*mlady-zongler.jpg*Fotky z nedělního žonglování v Ulitě.
 2010-11-25*Bláznivá žehlička*/video/club2ring.html*club2ring.png*Krátký příběh o tom, co provedla splašená žehlička.
 2010-11-29*Žonglování v Ulitě*/ulita/?20101205*ulita.cz.png*V domě dětí a mládeže Ulita se pravidelně žongluje. Přijít mohou začínající i zkušení žongléři a žonglérky.
-2010-12-06*Výhody pro registrované uživatele*/exkurze.html*exkurze-nahled-2010-2-28-19-49-47.jpg*Obrázky a popis výhod pro registrované uživatele žonglérova slabikáře.
+2010-12-06*RSS agregátor*/rss/*rss.png*Přehled novinek na stránkách o žonglování.
 2010-12-09*Všežonglérský slet*/kalendar/udalost-20101212-20101212-pek-1290799311.html*vsezonglersky-slet.png*Nedělní odpoledne v žižkovské sokolovně plné žonglování, her a workshopů.
-2010-12-13*Žonglování v Ulitě*/ulita/?20101219*ulita.cz.png*V domě dětí a mládeže Ulita se pravidelně žongluje. Přijít mohou začínající i zkušení žongléři a žonglérky.
+2010-12-13*Otáčení kuželky okolo palce*/kuzely/toceni-okolo-palce.html*tocenib.png*Trik který můžeš trénovat i v místnostech s nízkým stropem.
 2010-12-22*Veselé vánoce*/vanoce-2010.html*vanoce-2010.s.jpg*Veselé vánoční svátky. Ať vám to lítá :^)
 2010-12-27*PF 2011*/pf-2011.html*pf-2011.png*Hodně štěstí a zdraví v novém roce. Ať vám to lítá :^)
 2011-01-03*Statistika*/statistika.html*podporaa.png*Trocha bilancování uplynulého roku. Podívej se kolik lidí používá žonglérův slabikář.
@@ -77,9 +77,9 @@
 2011-03-14*Žonglování v Ulitě*/ulita/?20110320*ulita.cz.png*V domě dětí a mládeže Ulita se pravidelně žongluje. Přijít mohou začínající i zkušení žongléři a žonglérky.
 2011-03-21*Literatura*/literatura.html*encyclopaedia.jpg*Přehled nejlepších knížek o žonglování.
 2011-03-28*Žonglování v Ulitě*/ulita/?20110403*ulita.cz.png*V domě dětí a mládeže Ulita se pravidelně žongluje. Přijít mohou začínající i zkušení žongléři a žonglérky.
-2011-04-04*Otáčení kuželky okolo palce*/kuzely/toceni-okolo-palce.html*tocenib.png*Trik který můžeš trénovat i v místnostech s nízkým stropem.
+2011-04-04*Výhody pro registrované uživatele*/exkurze.html*exkurze-nahled-2010-2-28-19-49-47.jpg*Obrázky a popis výhod pro registrované uživatele žonglérova slabikáře.
 2011-04-11*Žonglování v Ulitě*/ulita/?20110417*ulita.cz.png*V domě dětí a mládeže Ulita se pravidelně žongluje. Přijít mohou začínající i zkušení žongléři a žonglérky.
-2011-04-18*RSS agregátor*/rss/*rss.png*Přehled novinek na stránkách o žonglování.
+2011-04-18*
 2011-04-25*
 2011-05-02*
 2011-05-09*

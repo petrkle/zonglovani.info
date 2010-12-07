@@ -9,7 +9,7 @@ array_push($podzim,array('datum'=>'2010/10/31','url'=>'udalost-20101031-20101031
 array_push($podzim,array('datum'=>'2010/11/14','url'=>'udalost-20101114-20101114-pek-1284638655.html'));
 array_push($podzim,array('datum'=>'2010/11/21','url'=>'udalost-20101121-20101121-pek-1284638694.html'));
 array_push($podzim,array('datum'=>'2010/12/5','url'=>'udalost-20101205-20101205-pek-1284638791.html'));
-array_push($podzim,array('datum'=>'2010/12/19','url'=>'udalost-20101219-20101219-pek-1284638839.html'));
+#array_push($podzim,array('datum'=>'2010/12/19','url'=>'udalost-20101219-20101219-pek-1284638839.html'));
 
 array_push($jaro,array('datum'=>'2011/1/16','url'=>'udalost-20110116-20110116-pek-1284720961.html'));
 array_push($jaro,array('datum'=>'2011/1/30','url'=>'udalost-20110130-20110130-pek-1284720999.html'));

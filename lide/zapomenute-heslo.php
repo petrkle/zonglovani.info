@@ -12,6 +12,10 @@ $trail->addStep($titulek);
 
 $smarty->assign_by_ref('trail', $trail->path);
 
+if(is_logged()){
+	header('Location: '.LIDE_URL.'nastaveni');
+	exit();
+}
 
 if(isset($_GET['send'])){
 	if($_GET['send']=='ok'){

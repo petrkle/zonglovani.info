@@ -3,9 +3,16 @@
 <span class="summary">Pravidelné nedělní žonglování v <a href="cesta.html" title="Ulita - dům dětí a mládeže">DDM Ulita</a>.</span> <span class="description">Žongluje se ve <a href="/obrazky/ulita-20091213/0059.jpg" title="Obrázek velkého sálu." onclick="pageTracker._trackPageview('/obrazky/ulita-20091213/0059.jpg');">velkém sále</a> kde je: <strong>vysoký strop</strong>, měkká podlaha, ozvučení, pódium  pro případné vystoupení, okna a disco koule.</span>
 </p>
 
+<a name="cancel"><h3>19. 12. - zrušeno</h3></a>
+<p>
+Pro malý zájem se ruší žonglování v neděli 19. 12. 2010. Další termíny zatím platí. Uvidíme, jaká bude návštěvnost.
+</p>
+
+{*
 <p>
 Přijít mohou začínající i zkušení žongléři a žonglérky. Pro širokou veřejnost budou k dispozici míčky a kužely k zapůjčení. Žonglovat se může naučit <strong>opravdu každý</strong>.
 </p>
+*}
 
 <div class="obrazkovnik">
 <a href="/obrazky/ulita-20101121/0001.html">{obrazek soubor='snek013.jpg' popisek='' path='/ulita/img/'}</a>
@@ -18,7 +25,21 @@ Přijít mohou začínající i zkušení žongléři a žonglérky. Pro široko
 Sleduj žonglérův slabikář na <a href="http://www.facebook.com/zongleruv.slabikar" id="fblink" onclick="pageTracker._trackPageview('/goto/facebook.com/pages/zongleruv.slabikar');">Facebooku</a> - žádná Ulita ti neuteče.
 </p>
 
+<h3>Termíny - podzim 2010</h3>
+{literal}
+<style>.zruseno{text-decoration:line-through}</style>
+{/literal}
+<table class="tabulka" cellspacing="0" cellpadding="0">
+<tr>
+<th>Den</th>
+<th>Datum</th>
+<th>Čas [Hod]</th>
+<th>&nbsp;</th>
+</tr>
+<tr><td class="zruseno">Neděle</td><td class="zruseno">19. 12.</td><td class="zruseno">16 - 19</td><td><strong><a href="#cancel">ZRUŠENO</a></strong></td></tr>
+</table>
 {if count($podzim)>0}
+{*
 <h3>Termíny - podzim 2010</h3>
 <table class="tabulka" cellspacing="0" cellpadding="0">
 <tr>
@@ -31,6 +52,7 @@ Sleduj žonglérův slabikář na <a href="http://www.facebook.com/zongleruv.sla
 <tr><td>Neděle</td><td><a href="{$smarty.const.CALENDAR_URL}{$datum.url}" title="Ulita v kalendáři."><abbr class="dtstart" title="{$datum.mz|escape}">{$datum.datum}</abbr></a></td><td>16 - <abbr class="dtend" title="{$datum.mk|escape}">19</abbr></td><td>50</td></tr>
 {/foreach}
 </table>
+*}
 {/if}
 
 {if count($jaro)>0}
