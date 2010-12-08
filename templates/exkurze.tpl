@@ -2,22 +2,22 @@
 Po <a href="{$smarty.const.LIDE_URL}pravidla.php" title="Vytvořit uživatelský účet.">vytvoření účtu</a> v žonglérově slabikáři získáš přístup ke spoustě zajímavých stránek. Tady jsou jejich obrázky s popisem. Kliknutím na obrázek se zobrazí jeho plná velikost.
 </p>
 
-<h3>Domovská stránka</h3>
+<h3><a href="/navody" title="Vhodné k tisku">Návody na žonglování v pdf</a></h3>
 <p>
-<a href="/img/e/exkurze-2010-2-28-19-44-10.png">{obrazek soubor='exkurze-nahled-2010-2-28-19-44-10.jpg' popisek=''}</a>
-Na svojí domovské stránce najdeš seznam oblíbených a hodnocených stránek.
+<a href="/img/e/exkurze-20101208193510.png">{obrazek soubor='exkurze-nahled-20101208193510.png' popisek=''}</a>
+Registrovaným uživatelům jsou přístupné návody na žonglování v pdf. Zdarma si je můžeš stáhnout a pro pohodlné studium vytisknout.
 </p>
 
-<h3>Nastavení účtu</h3>
+<h3><a href="{$smarty.const.CALENDAR_URL}">Kalendář</a></h3>
 <p>
-<a href="/img/e/exkurze-2010-2-28-19-44-16.png">{obrazek soubor='exkurze-nahled-2010-2-28-19-44-16.jpg' popisek=''}</a>
-Uživatelský účet můžeš jednoduše nastavit k obrazu svému.
+<a href="/img/e/exkurze-2010-10-20101208194825.png">{obrazek soubor='exkurze-nahled-2010-10-20101208194825.png' popisek=''}</a>
+Můžeš přidávat srazy, workshopy a představení do kalendáře žonglérských akcí.
 </p>
 
-<h3>Změna hesla</h3>
+<h3><a href="{$smarty.const.DISKUSE_URL}">Diskuse</a></h3>
 <p>
-<a href="/img/e/exkurze-2010-2-28-19-44-21.png">{obrazek soubor='exkurze-nahled-2010-2-28-19-44-21.jpg' popisek=''}</a>
-Pro nastavení slouží jednoduché formuláře s podrobnou nápovědou. Příklad změny hesla.
+<a href="/img/e/exkurze-20101208195313.png">{obrazek soubor='exkurze-nahled-20101208195313.png' popisek=''}</a>
+Máš dotazy ohledně žonglování? Nebo nápady nebo připomínky k žonglérovu slabikáři? Můžeš je napsat do diskuse.
 </p>
 
 <h3><a href="{$smarty.const.LIDE_URL}dovednost">Žonglérské dovednosti</a></h3>
@@ -49,39 +49,14 @@ Můžeš zveřejnit i své telefonní číslo. Vhodné zejména pro žongléry, 
 <a href="/img/e/exkurze-2010-2-28-19-45-17.png">{obrazek soubor='exkurze-nahled-2010-2-28-19-45-17.jpg' popisek=''}</a>
 Většina údajů je nepovinná. Na tvůj email nebude chodit žádný spam. Jde nastavit posílání vzkazů přes formulář.
 </p>
-
-<h3>Veřejný profil</h3>
-<p>
-<a href="/img/e/exkurze-2010-2-28-19-47-46.png">{obrazek soubor='exkurze-nahled-2010-2-28-19-47-46.jpg' popisek=''}</a>
-Tak uvidí tvůj profil ostatní návštěvníci žonglérova slabikáře.
-</p>
-
-<h3>Hodnocení stránek</h3>
-<p>
-<a href="/img/e/exkurze-2010-2-28-19-48-20.png">{obrazek soubor='exkurze-nahled-2010-2-28-19-48-20.jpg' popisek=''}</a>
-Na konci každé stránky jsou odkazy pro hodnocení a komentáře ke stránce.
-</p>
-
-<h3><a href="{$smarty.const.CALENDAR_URL}">Kalendář</a></h3>
-<p>
-<a href="/img/e/exkurze-2010-2-28-19-48-35.png">{obrazek soubor='exkurze-nahled-2010-2-28-19-48-35.jpg' popisek=''}</a>
-Můžeš přidávat akce do kalendáře žonglérských akcí.
-</p>
-
 <h3>Nová akce</h3>
 <p>
 <a href="/img/e/exkurze-2010-2-28-19-48-44.png">{obrazek soubor='exkurze-nahled-2010-2-28-19-48-44.jpg' popisek=''}</a>
-Formulář pro zadání nové akce.
+Formulář pro zadání nové akce do kalendáře.
 </p>
 
-<h3>Úprava akce</h3>
+<h3>Nastavení účtu</h3>
 <p>
-<a href="/img/e/exkurze-2010-2-28-19-49-2.png">{obrazek soubor='exkurze-nahled-2010-2-28-19-49-2.jpg' popisek=''}</a>
-Formulář pro úpravu už zadané akce.
-</p>
-
-<h3><a href="{$smarty.const.DISKUSE_URL}">Diskuse</a></h3>
-<p>
-<a href="/img/e/exkurze-2010-2-28-19-49-47.png">{obrazek soubor='exkurze-nahled-2010-2-28-19-49-47.jpg' popisek=''}</a>
-Máš dotazy ohledně žonglování? Nebo nápady nebo připomínky k žonglérovu slabikáři? Můžeš je napsat do diskuse.
+<a href="/img/e/exkurze-2010-2-28-19-44-16.png">{obrazek soubor='exkurze-nahled-2010-2-28-19-44-16.jpg' popisek=''}</a>
+Uživatelský účet můžeš jednoduše nastavit k obrazu svému.
 </p>

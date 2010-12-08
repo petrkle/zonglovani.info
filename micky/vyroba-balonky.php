@@ -19,6 +19,7 @@ $dalsi=array(
 	array('url'=>'/micky/vyroba-tenisak.html','text'=>'Míček na žonglování z tenisáku','title'=>'Jak vyrobit pěkný míček na žonglování z tenisáku'),
 	array('url'=>'/micky/jak-zacit.html','text'=>'Jak začít žonglovat s míčky','title'=>'Jak začít žonglovat s míčky'),
 	array('url'=>'/micky/druhy.html','text'=>'Druhy míčků','title'=>'Druhy míčků na žonglování'),
+	array('url'=>'/navody/','text'=>'Návod k vytištění','title'=>'Návod na výrobu míčku v PDF - formát vhodný k tisku.'),
 	);
 $smarty->assign_by_ref('dalsi',$dalsi);
 

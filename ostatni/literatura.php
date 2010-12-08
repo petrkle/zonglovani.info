@@ -15,6 +15,7 @@ $trail->addStep('Informace o žonglování','/ostatni.html');
 $trail->addStep($titulek);
 
 $dalsi=array(
+	array('url'=>'/navody/','text'=>'Návody na žonglování v pdf','title'=>'Formát vhodný k tisku'),
 	array('url'=>'/odkazy.html','text'=>'Žonglování na síti','title'=>'Odkazy na žonglérské stránky'),
 	array('url'=>'/aczslovnicek.html','text'=>'žonglérský slovníček','title'=>'Anglicko-český žonglérský slovníček')
 	);
