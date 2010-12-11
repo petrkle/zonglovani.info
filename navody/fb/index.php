@@ -16,8 +16,8 @@ require_once 'config.php';
 Návody na žonglování ve formátu PDF. Vhodné pro tisk.
 </p>
 
-<h3><a href="http://zonglovani.info/navody/download/vyroba-micku.pdf?fb" title="Návod v pdf" class="pdf" target="_top">Výroba míčků na žonglování</a></h3> 
-<p><a href="http://zonglovani.info/navody/download/vyroba-micku.pdf?fb" target="_top" title="Návod v pdf"><img src="/img/n/navodb.jpg" width="200" height="200" title="" alt="" /></a> 
+<h3><a href="http://zonglovani.info/navody/download/vyroba-micku.pdf?fb" title="Návod v pdf" class="pdf">Výroba míčků na žonglování</a></h3> 
+<p><a href="http://zonglovani.info/navody/download/vyroba-micku.pdf?fb" title="Návod v pdf"><img src="/img/n/navodb.jpg" width="200" height="200" title="" alt="" /></a> 
 Podrobný návod na výrobu míčku z tenisáku, rýže a nafukovacích balónků.
 </p> 
 <ul class="szn"> 
@@ -27,8 +27,8 @@ Podrobný návod na výrobu míčku z tenisáku, rýže a nafukovacích balónk�
 <li><a href="/micky/vyroba-tenisak.html" title="Náhled souboru" target="_top">Náhled</a></li> 
 </ul> 
  
-<h3><a href="http://zonglovani.info/navody/download/navod-na-zonglovani.pdf?fb" title="Návod v pdf" class="pdf" target="_top">Žonglování se třemi míčky</a></h3> 
-<p><a href="http://zonglovani.info/navody/download/navod-na-zonglovani.pdf?fb" title="Návod v pdf" target="_top"><img src="/img/n/navod3.jpg" width="200" height="200" title="" alt="" /></a> 
+<h3><a href="http://zonglovani.info/navody/download/navod-na-zonglovani.pdf?fb" class="pdf" target="_top">Žonglování se třemi míčky</a></h3> 
+<p><a href="http://zonglovani.info/navody/download/navod-na-zonglovani.pdf?fb" title="Návod v pdf"><img src="/img/n/navod3.jpg" width="200" height="200" title="" alt="" /></a> 
 Přehledně popsané základy žonglování se třemi míčky.
 </p> 
 <ul class="szn"> 
@@ -47,5 +47,10 @@ Přehledně popsané základy žonglování se třemi míčky.
 <a href="status_add.php" class="add" title="Poslat zprávu na tvůj profil">Přidat na profil</a>
 </div>
 </div>
+<script type="text/javascript">
+if (top.location != 'http://apps.facebook.com/zonglovani/') {
+	    top.location.href = 'http://apps.facebook.com/zonglovani/' ;
+}
+</script>
 </body>
 </html>

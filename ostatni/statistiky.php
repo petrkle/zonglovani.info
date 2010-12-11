@@ -10,6 +10,14 @@ $smarty->assign('description','Statistiky žonglérova slabikáře.');
 
 $smarty->assign('styly',array('/s.css'));
 
+$dalsi=array(
+	array('url'=>'/jak-odkazovat.html','text'=>'Jak odkazovat na žonglérův slabikář','title'=>'Přidej odkaz na svůj web'),
+	array('url'=>'/rss.html','text'=>'RSS kanály','title'=>'RSS kanály žonglérova slabikáře'),
+	array('url'=>'/changelog.html','text'=>'Seznam změn','title'=>'Seznam změn v žonglérově slabikáři'),
+
+	);
+$smarty->assign_by_ref('dalsi',$dalsi);
+
 $diskuse_pocet=0;
 $adr=opendir(DISKUSE_DATA);
 while (false!==($file = readdir($adr))) {

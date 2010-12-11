@@ -23,5 +23,6 @@ Přehledný <a href="{$smarty.const.CALENDAR_URL}" title="Kalendář žonglérsk
 <li><a href="/druhy-zonglovani.html" title="Popis způsobů žonglování.">Druhy žonglování</a> - různé způsoby žonglovaní.</li>
 <li><a href="/faq.html" title="FAQ">Často kladené otázky</a> a odpovědi na ně.</li>
 <li><a href="/micky/vyroba.html" title="Výroba míčků na žonglování.">Výroba míčků</a> na žonglování.</li>
+<li><a href="/navody/" title="Vhodné pro tisk">Návody v PDF</a> - vhodné pro tisk.</li>
 </ul>
 {include file='tip.tpl'}

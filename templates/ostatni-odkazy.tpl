@@ -40,6 +40,12 @@ Další příspěvek ze <a href="{$smarty.const.LIDE_URL}misto/#sk" title="Sezna
 Žonglérská televize.
 </p>
 
+<a name="cirqueon"></a><h5><a href="http://www.cirqueon.cz/" title="Asociace pro současný cirkus" class="external" onclick="pageTracker._trackPageview('/goto/cirqueon.cz');">cirqueon.cz</a></h5>
+<p>
+<a href="http://www.cirqueon.cz/" title="Asociace pro současný cirkus" onclick="pageTracker._trackPageview('/goto/cirqueon.cz');">{obrazek soubor="odkazy-cirqueon.cz.png" popisek="cirqueon.cz"}</a>
+Asociace pro současný cirkus.
+</p>
+
 <a name="didier"></a><h5><a href="http://didier.arlabosse.free.fr/balles/english/" title="Anglické stránky o žonglování." class="external" onclick="pageTracker._trackPageview('/goto/didier.arlabosse.free.fr');">didier.arlabosse.free.fr/balles/english</a></h5>
 <p>
 <a href="http://didier.arlabosse.free.fr/balles/english/" title="Anglické stránky o žonglování." onclick="pageTracker._trackPageview('/goto/didier.arlabosse.free.fr');">{obrazek soubor="odkazy-didier.png" popisek="didier.arlabosse.free.fr/balles/english"}</a>
