@@ -1,0 +1,18 @@
+body{font-family:sans-serif;color:#000;background:#fff;}
+a img{border-width:0;}
+h1{font-size:2.5em;margin:0;padding:0}
+h3{font-size:1.4em;line-height:1em;font-weight:bold;margin:5px 0;clear:both;}
+h4{font-size:1.2em;font-weight:bold;margin:5px;clear:both;}
+#container{width:700px;padding:0;margin:0;}
+#obsah{width:540px;padding:1em 0;margin:0;background:#fff;float:left;}
+a:link{color:#009;font-weight:bold;text-decoration:underline;}
+a:visited{color:#909;font-weight:bold;text-decoration:underline;}
+a:active,a:hover,a:focus{color:#f00;font-weight:bold;text-decoration:underline;}
+ul, ol {margin:1em 1em 1em 0;padding-left:3.4em;list-style-type:circle;}
+.szn{margin:0;padding:0;list-style:circle;}.szn li{list-style-position:inside;}
+p img{margin:0 15px 15px 0;border:1px solid #000;float:left;clear:both;background-color:#ccc;}
+.pdf{background:url("http://zonglovani.info/img/p/pdf.png") 100% 50% no-repeat;padding-right:18px;}
+#nastroje{float:right;width:150px;padding:35px 0 0 0;}
+.add{background:url("http://zonglovani.info/img/a/add.png") 0 50% no-repeat;padding-left:20px;}
+.fbl{list-style-image:url("http://zonglovani.info/img/f/fbp.png");}
+.zs{list-style-image:url("http://zonglovani.info/img/z/zs.png");}

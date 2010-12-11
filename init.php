@@ -71,7 +71,7 @@ define('WALLPAPERS_URL','/obrazky-na-plochu/');
 define('WALLPAPERS_DATA',$_SERVER['DOCUMENT_ROOT'].'/obrazky-na-plochu'); 
 
 define('STAT_DATA',$_SERVER['DOCUMENT_ROOT'].'/data/stat'); 
-define('STAT_EXPIRE',20); 
+define('STAT_EXPIRE',30); 
 
 #if (substr_count($_SERVER['HTTP_ACCEPT_ENCODING'], 'gzip')){
 #	ob_start('ob_gzhandler');

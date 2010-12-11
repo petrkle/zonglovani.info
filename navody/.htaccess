@@ -4,5 +4,5 @@ RewriteBase /navody
 RewriteCond %{HTTP_HOST} ^www\.(.*)
 RewriteRule (.*) http://%1/navody/$1 [R=301,QSA,NE,L]
 
-RewriteRule ^download/(.*)\.pdf$ pdf.php?file=$1 [L]
+RewriteRule ^download/(.*)\.pdf$ pdf.php?file=$1 [L,QSA]
 RewriteRule (.*).html $1.php [L]
