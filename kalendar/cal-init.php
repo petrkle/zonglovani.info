@@ -218,6 +218,12 @@ function sort_by_insertime($a, $b)
 		return ($a['insert'] > $b['insert']) ? -1 : 1;
 }
 
+function sort_by_zacatek($a, $b)
+{
+		return ($a['zacatek'] > $b['zacatek']) ? -1 : 1;
+}
+
+
 function event_validation($udalost,$now){
 	$chyby=array();
 

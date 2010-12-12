@@ -54,6 +54,7 @@ $stat['pocet_diskuse']=$diskuse_pocet;
 $stat['pocet_kalendar']=$kal_pocet;
 $stat['fupdate']=$fupdate;
 $stat['navstevnost']=$navstevnost;
+$stat['navstevnost_dni']=count($navstevnost);
 
 $trail = new Trail();
 $trail->addStep($titulek);

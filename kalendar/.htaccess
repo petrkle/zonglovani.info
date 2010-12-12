@@ -11,5 +11,6 @@ RewriteRule ^(....)-(.*)\.html$ index.php?y=$1&m=$2 [L]
 RewriteRule ^kalendar.rss$ rss.php [L]
 RewriteRule ^kalendar.xml$ rss.php?v=2 [L]
 RewriteRule ^kalendar.ics$ ical.php [L]
+RewriteRule ^next.js$ next.php [L]
 
 RewriteRule (.*).html $1.php [L]

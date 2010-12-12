@@ -22,19 +22,19 @@ Máš dotazy ohledně žonglování? Nebo nápady nebo připomínky k žongléro
 
 <h3><a href="{$smarty.const.LIDE_URL}dovednost">Žonglérské dovednosti</a></h3>
 <p>
-<a href="/img/e/exkurze-2010-2-28-19-44-28.png">{obrazek soubor='exkurze-nahled-2010-2-28-19-44-28.jpg' popisek=''}</a>
+<a href="/img/e/exkurze-1292161260929.png">{obrazek soubor='exkurze-nahled-1292161260929.png' popisek=''}</a>
 Formulář pro nastavení tvých oblíbených žonglovátek. Obsahuje i volby pro profesionální žongléry.
 </p>
 
 <h3><a href="{$smarty.const.LIDE_URL}misto">Místo kde žongluješ</a></h3>
 <p>
-<a href="/img/e/exkurze-2010-2-28-19-44-33.png">{obrazek soubor='exkurze-nahled-2010-2-28-19-44-33.jpg' popisek=''}</a>
+<a href="/img/e/exkurze-1292161531772.png">{obrazek soubor='exkurze-nahled-1292161531772.png' popisek=''}</a>
 Nastavení míst kde žongluješ. Díky tomu můžeš poznat další žongléry z okolí.
 </p>
 
 <h3>Internetová stránky</h3>
 <p>
-<a href="/img/e/exkurze-2010-2-28-19-44-40.png">{obrazek soubor='exkurze-nahled-2010-2-28-19-44-40.jpg' popisek=''}</a>
+<a href="/img/e/exkurze-1292161779420.png">{obrazek soubor='exkurze-nahled-1292161779420.png' popisek=''}</a>
 Možnost propagace pro tvůj žonglérský web.
 </p>
 

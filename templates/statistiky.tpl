@@ -15,7 +15,7 @@ Záznamů v <a href="/kalendar/" title="Kalendář žonglérských akcí">kalend
 </p>
 {if is_array($stat.navstevnost)}
 <a name="navst"><h3>Návštěvnost</h3></a>
-<p>Návštěvnost žonglérova slabikáře za posledních {$smarty.const.STAT_EXPIRE} dní.</p>
+<p>Návštěvnost žonglérova slabikáře za posledních {$stat.navstevnost_dni|escape} dní.</p>
 <table class="navstevnost" cellspacing="0" cellpadding="0">
 <tr>
 <th>Datum</th>

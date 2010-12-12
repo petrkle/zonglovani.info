@@ -1,5 +1,11 @@
 <p>Žonglérské doplňky do internetových prohlížečů.</p>
 
+<h3>Google Chrome</h3>
+<p>Rychlý seznam žonglérských akcí:</p>
+<ul>
+<li><a href="https://chrome.google.com/extensions/detail/dojgpamkkdlccihbhgnflimdjkigimad" class="external" onclick="pageTracker._trackPageview('/goto/chrome.google.com/extensions/detail/dojgpamkkdlccihbhgnflimdjkigimad');">Rozšíření žonglování</a></li>
+</ul>
+
 <h3>Mozilla Firefox</h3>
 
 <p>Firefox si můžeš obarvit pomocí personas:</p>
