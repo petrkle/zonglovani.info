@@ -81,7 +81,7 @@
 2011-04-11*Žonglování v Ulitě*/ulita/?20110417*ulita.cz.png*V domě dětí a mládeže Ulita se pravidelně žongluje. Přijít mohou začínající i zkušení žongléři a žonglérky.
 2011-04-18*Sloupy ve dvou*/kuzely/passing/sloupy.html*kuzely-passing-sloupyd.png*Trik pro dva žongléry se čtyřmi kužely.
 2011-04-25*Twitter*/twitter.html*twiter.png*Co si vrabci štěbetají o žonglování? Přes twitter se dozvíš o všech novinkách.
-2011-05-02*
+2011-05-02*Doplňky do prohlížeče*/doplnky-prohlizece.html*browsers.png*Žonglérské doplňky do internetových prohlížečů.
 2011-05-09*
 2011-05-16*
 2011-05-23

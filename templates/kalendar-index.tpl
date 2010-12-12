@@ -58,3 +58,6 @@ Dnes je: {if $dnesek}{$aktDate}{else}<a href="{$smarty.const.CALENDAR_URL}" titl
 {/if}
 <p>Kalendář můžeš sledovat pomocí <a href="{$smarty.const.CALENDAR_URL}kalendar.xml" title="RSS kanál">RSS</a> <a class="info" href="#">?<span class="tooltip">RSS slouží k upozorňování na aktualizaci stránek.</span></a> a <a href="{$smarty.const.CALENDAR_URL}kalendar.ics" title="Ical export">iCalendar</a> <a class="info" href="#">?<span class="tooltip">iCalendar je formát pro výměnu záznamů v kalendáři mezi počítači.</span></a>.</p>
 <p>Návod <a href="rss-a-icalendar.html">jak nastavit RSS a iCalendar</a>.</p>
+{if preg_match('/.*AppleWebKit.*Chrome.*/',$smarty.server.HTTP_USER_AGENT)}
+<p>Používáš Google Chrome? Vyzkoušej <a href="https://chrome.google.com/extensions/detail/dojgpamkkdlccihbhgnflimdjkigimad" class="external" onclick="pageTracker._trackPageview('/goto/chrome.google.com/extensions/detail/dojgpamkkdlccihbhgnflimdjkigimad');">rozšíření pro kalendář</a> do prohlížeče.</p>
+{/if}

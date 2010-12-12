@@ -100,7 +100,6 @@ if(count($smazane)>0){
 }
 }
 
-$smarty->assign('feedback',true);
 $smarty->assign_by_ref('trail', $trail->path);
 $smarty->assign('hcalendar',true);
 $smarty->display('hlavicka.tpl');

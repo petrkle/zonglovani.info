@@ -12,6 +12,7 @@ $smarty->assign('titulek',$titulek);
 
 $trail = new Trail();
 $trail->addStep($titulek);
+$smarty->assign('nahled','http://'.$_SERVER['SERVER_NAME'].'/img/b/browsers.png');
 
 $smarty->assign_by_ref('trail', $trail->path);
 $smarty->display('hlavicka.tpl');

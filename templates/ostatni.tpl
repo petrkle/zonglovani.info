@@ -84,7 +84,7 @@ Výpis změn v žonglérově slabikáři (svn&nbsp;log).
 
 <h3><a href="/ulita/" title="Nedělní žonglování v Ulitě.">Žonglování v Ulitě</a></h3>
 <p>
-<a href="/ulita/" title="Odkazy.">{obrazek soubor="ulita.cz.png" popisek="Ulita"}</a>
+<a href="/ulita/" title="Žonglování v Ulitě">{obrazek soubor="ulita.cz.png" popisek="Ulita"}</a>
 Nedělní žonglování v DDM Ulita.
 </p>
 
@@ -108,21 +108,24 @@ Animace žonglování s míčky.
 
 <h3><a href="/odkazy.html" title="Odkazy.">Žonglování na síti</a></h3>
 <p>
+<a href="/odkazy.html" title="Odkazy.">{obrazek soubor="www.png" popisek="Odkazy"}</a>
 Odkazy na stránky věnované žonglování.
 </p>
 
 <h3><a href="/rec-juggling.html" title="Diskusní skupina rec.juggling">rec.juggling</a></h3>
 <p>
+<a href="/rec-juggling.html" title="Diskusní skupina rec.juggling">{obrazek soubor="rj.png" popisek="rec.juggling"}</a>
 Celosvětová diskusní skupina o žonglování.
 </p>
 
 <h3><a href="/myty-omyly.html" title="Mýty a omyly o žonglování.">Mýty a omyly</a></h3>
 <p>
-Mýty a omyly o žonglování.
+<a href="/myty-omyly.html" title="Mýty a omyly o žonglování.">{obrazek soubor="mytya.png" popisek="Omyl"}</a>Mýty a omyly o žonglování.
 </p>
 
 <h3><a href="/doplnky-prohlizece.html" title="Žonglérské doplňky do prohlížeče.">Doplňky do prohlížeče</a></h3>
 <p>
+<a href="/doplnky-prohlizece.html" title="Žonglérské doplňky do prohlížeče.">{obrazek soubor="browsers.png" popisek="Prohlížeče"}</a>
 Žonglérské doplňky do prohlížeče internetu.
 </p>
 

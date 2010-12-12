@@ -14,6 +14,7 @@ $dalsi=array(
 	array('url'=>'/aczslovnicek.html','text'=>'Žonglérský slovníček','title'=>'Anglicko-český žonglérský slovníček'),
 	);
 $smarty->assign_by_ref('dalsi',$dalsi);
+$smarty->assign('nahled','http://'.$_SERVER['SERVER_NAME'].'/img/r/rj.png');
 
 $trail = new Trail();
 $trail->addStep('Informace o žonglování','/ostatni.html');

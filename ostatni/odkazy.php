@@ -12,6 +12,7 @@ $smarty->assign('description','Odkazy na další dobré stránky o žonglování
 $trail = new Trail();
 $trail->addStep('Informace o žonglování','/ostatni.html');
 $trail->addStep('Odkazy');
+$smarty->assign('nahled','http://'.$_SERVER['SERVER_NAME'].'/img/w/www.png');
 
 $smarty->assign_by_ref('trail', $trail->path);
 $smarty->display('hlavicka.tpl');
