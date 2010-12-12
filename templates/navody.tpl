@@ -1,4 +1,5 @@
 <p>
+{obrazek soubor="navod-tisk.png" popisek="Návod na žonglování"}
 Návody na žonglování ve formátu <strong>PDF</strong>. Vhodné pro tisk.
 </p>
 
@@ -10,7 +11,7 @@ Podrobný návod na výrobu míčku z tenisáku, rýže a nafukovacích balónk�
 <li>Počet stran: 4</li>
 <li>Formát: pdf</li>
 <li>Velikost: 150K</li>
-<li><a href="/micky/vyroba-tenisak.html" title="Náhled souboru">Náhled</a></li>
+<li><a href="/micky/vyroba-tenisak.html" popisek="Náhled souboru">Náhled</a></li>
 </ul>
 
 <h3><a href="download/navod-na-zonglovani.pdf" title="Návod v pdf" class="pdf" onclick="pageTracker._trackPageview('/navody/navod-na-zonglovani.pdf');">Žonglování se třemi míčky</a></h3>
@@ -21,5 +22,5 @@ Přehledně popsané základy žonglování se třemi míčky.
 <li>Počet stran: 3</li>
 <li>Formát: pdf</li>
 <li>Velikost: 35K</li>
-<li><a href="/micky/jak-zacit.html" title="Náhled souboru">Náhled</a></li>
+<li><a href="/micky/jak-zacit.html" popisek="Náhled souboru">Náhled</a></li>
 </ul>
