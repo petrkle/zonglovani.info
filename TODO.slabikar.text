@@ -8,6 +8,8 @@ Aktuální
 - další, předchozí - odkazy v seznamu žonglérů, seznamu míst
 - JSON api (kalendář, horoskop, tip týdne) rozšíření do google chrome
 - test na stahování pdf
+- hlavičky pro chrome, ie 9 - odkaz na aplikaci
+- rozšíření pro operu 11
 
 Kalendář
 ========
@@ -84,3 +86,4 @@ skrip do cronu, upozornění na rok neaktivní účet
 automatické zmenšení obrázků v profilu
 PDF listy s návodem na kaskádu, výrobu míčků - dostupné po registraci
 návody v pdf - facebook aplikace
+ikona pro iphone
