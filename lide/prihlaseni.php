@@ -1,6 +1,7 @@
 <?php
 require('../init.php');
 require('../func.php');
+require($_SERVER['DOCUMENT_ROOT'].'/rss/rss.php');
 
 $smarty->assign('titulek','Přihlášení');
 $smarty->assign('robots','noindex,follow');
@@ -72,7 +73,15 @@ if(isset($_POST['login']) and isset($_POST['heslo']) and isset($_GET['action']))
 						$zpravy[$key]['typ']='diskuse';
 					}
 				}
-				$news=array_merge($zmeny,$zpravy,$tipy);
+				$rss=get_news(40,'/.*-slabikar.*\.txt/');
+				foreach($rss as $key=>$clanek){
+					if($clanek['cas']<$lastlogin[0]){
+						unset($rss[$key]);
+					}else{
+						$rss[$key]['typ']='rss';
+					}
+				}
+				$news=array_merge($zmeny,$zpravy,$tipy,$rss);
 				usort($news, 'sort_by_time');
 				if(count($news)>0){
 					$_SESSION['changes']=array_reverse($news);

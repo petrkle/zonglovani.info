@@ -25,5 +25,13 @@
 </ul>
 <p><a href="/tip/#{$zmena.cas|escape}">{obrazek soubor=$zmena.obrazek popisek=$zmena.nadpis|escape}</a></p>
 {/if}
+
+{if $zmena.typ=='rss'}
+<h3>RSS</h3>
+<ul>
+<li>Datum: {$zmena.time_hr|escape}, Zdroj: {$rss_zdroje[$zmena.rssid].popis|escape}</li>
+<li><a href="/rss/#{$zmena.cas|escape}">{$zmena.titulek|escape|default:'Bez titulku'}</a></li>
+</ul>
+{/if}
 {/foreach}
 {/if}

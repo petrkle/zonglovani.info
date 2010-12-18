@@ -3,7 +3,7 @@ Přehled novinek na stránkách o žonglování.
 </p>
 {if $novinky}
 {foreach from=$novinky item=novinka}
-<h5><a href="{$novinka.url|escape}" title="{$novinka.titulek|escape}"{if !preg_match('/^http:\/\/zonglovani.info/',$novinka.url)} class="external" rel="nofollow" onclick="pageTracker._trackPageview('/goto/{$novinka.url|replace:'http://':''|regex_replace:"/^www\./":""|escape}');"{/if}>{$novinka.titulek|escape}</a></h5>
+<a name="{$novinka.cas|escape}"></a><h5><a href="{$novinka.url|escape}" title="{$novinka.titulek|escape}"{if !preg_match('/^http:\/\/zonglovani.info/',$novinka.url)} class="external" rel="nofollow" onclick="pageTracker._trackPageview('/goto/{$novinka.url|replace:'http://':''|regex_replace:"/^www\./":""|escape}');"{/if}>{$novinka.titulek|escape|default:'Bez titulku'}</a></h5>
 <p>{$novinka.description|strip_tags|escape}</p>
 <ul>
 <li>Datum: {$novinka.time_hr|escape}</li>

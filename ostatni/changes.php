@@ -1,6 +1,7 @@
 <?php
 require('../init.php');
 require('../func.php');
+require($_SERVER['DOCUMENT_ROOT'].'/rss/rss.php');
 
 if(is_logged() and isset($_SESSION['changes']) and is_array($_SESSION['changes']) and count($_SESSION['changes']>0)){
 
@@ -22,6 +23,7 @@ if(is_logged() and isset($_SESSION['changes']) and is_array($_SESSION['changes']
 	$smarty->assign('nadpis',$nadpis);
 	$smarty->assign('keywords','změny, žonglérův slabikář, changelog');
 	$smarty->assign('description',$popis);
+	$smarty->assign_by_ref('rss_zdroje',$rss_zdroje);
 	$smarty->assign('titulek',$titulek);
 
 	$smarty->assign_by_ref('trail', $trail->path);
