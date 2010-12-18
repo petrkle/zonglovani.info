@@ -344,6 +344,11 @@ function sort_by_time($a, $b)
 		return ($a['cas'] < $b['cas']) ? -1 : 1;
 }
 
+function sort_by_time_reverse($a, $b)
+{
+		return ($a['cas'] > $b['cas']) ? -1 : 1;
+}
+
 function get_nahled($trik){
 	$nahled="";
 	foreach($trik['kroky'] as $krok){
@@ -525,5 +530,37 @@ function get_large_places($pusobiste){
 	}
 return $navrat;
 }
+
+function get_diskuse_zpravy(){
+	require($_SERVER['DOCUMENT_ROOT'].'/lib/nbbc.php');
+	require($_SERVER['DOCUMENT_ROOT'].'/lib/bbcode.init.php');
+	$dir = opendir(DISKUSE_DATA);
+	$navrat = array();
+	    if ($dir) {
+			   while (($filename = readdir($dir)) !== false) {
+						if (!preg_match('/^\./',$filename) and is_file(DISKUSE_DATA.'/'.$filename)) {
+							$foo=preg_split('/\./',$filename);
+							$foo=preg_split('/-/',$foo[0]);
+							$cas=$foo[0];
+							$autor=$foo[1];
+				      array_push($navrat,array('cas'=>$cas,'cas_rss2'=>date('r',$cas),'cas_mr'=>date('c',$cas),'cas_hr'=>date('G.i',$cas),'datum_hr'=>date('j. n. Y',$cas),'autor'=>$autor,'autor_hr'=>get_name($autor),'text'=>$bbcode->Parse(trim(file_get_contents(DISKUSE_DATA.'/'.$filename)))));
+					 }
+			   }
+		   }
+	closedir($dir);
+	usort($navrat, 'sort_by_time');
+	$pocet=count($navrat);
+	$stranka=1;
+	$foo=1;
+	foreach($navrat as $key=>$value){
+		$navrat[$key]['stranka']=$stranka;
+		if($foo==ZPRAV_NA_STRANKU*$stranka){
+			$stranka++;
+		}
+		$foo++;
+	}
+ return $navrat;
+}
+
 
 ?>

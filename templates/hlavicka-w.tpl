@@ -53,7 +53,7 @@
 Jste zde: {drobecky trail=$trail}
 </p>
 <div class="ucet">
-{if $smarty.session.logged==true}{if isset($smarty.session.changes)}<a href="/changes.html" title="Novinky v žonglérově slabikáři">Novinky ({$smarty.session.changes_pocet})</a> ~ {/if}<a href="{$smarty.const.LIDE_URL}{$smarty.session.uzivatel.login|escape}.html" title="Tvůj účet.">{$smarty.session.uzivatel.jmeno|escape}</a> ~ <a href="{$smarty.const.LIDE_URL}nastaveni/" title="Nastavení tvého účtu.">Nastavení</a> ~ <a href="{$smarty.const.LIDE_URL}odhlaseni.php" title="Odhlásit se">Odhlásit</a>{else}
+{if $smarty.session.logged==true}{if isset($smarty.session.changes)}<a href="/changes.html" title="Novinky v žonglérově slabikáři">Novinky{if $smarty.session.changes_pocet} ({$smarty.session.changes_pocet}){/if}</a> ~ {/if}<a href="{$smarty.const.LIDE_URL}{$smarty.session.uzivatel.login|escape}.html" title="Tvůj účet.">{$smarty.session.uzivatel.jmeno|escape}</a> ~ <a href="{$smarty.const.LIDE_URL}nastaveni/" title="Nastavení tvého účtu.">Nastavení</a> ~ <a href="{$smarty.const.LIDE_URL}odhlaseni.php" title="Odhlásit se">Odhlásit</a>{else}
 {if basename($smarty.server.SCRIPT_NAME)!="prihlaseni.php"}<a href="{$smarty.const.LIDE_URL}prihlaseni.php{if $smarty.server.REQUEST_URI!="/"}?next={$smarty.server.REQUEST_URI|escape}{/if}" title="Přihlášení do žonglérova slabikáře" rel="nofollow">Přihlášení</a> ~ {/if}<a href="{$smarty.const.LIDE_URL}pravidla.php" title="Vytvořit nový účet v žonglérově slabikáři.">Nový účet</a>{/if}
 {/if}
 </div>

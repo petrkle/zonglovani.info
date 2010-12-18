@@ -15,9 +15,7 @@ if(isset($_GET['imgrss'])){
 	$imgrss=false;
 }
 
-
 $tipy=get_tipy();
-
 
 if($rss){
 	header('Content-Type: application/rss+xml');
@@ -35,7 +33,7 @@ $pagerOptions = array(
     'mode'     => 'Sliding',
     'delta'    => 2,
 		'firstLinkTitle' => 'První stránka',
-    'perPage'  => 10,
+    'perPage'  => ZPRAV_NA_STRANKU,
     'altPrev'  => 'Předchozí stránka',
     'altNext'  => 'Další stránka',
     'altPage'  => 'Stránka',

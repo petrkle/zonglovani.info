@@ -55,16 +55,28 @@ if(isset($_POST['login']) and isset($_POST['heslo']) and isset($_GET['action']))
 			if(is_readable(LIDE_DATA.'/'.$uzivatel['login'].'/prihlaseni.txt')){
 				$prihlaseni=file(LIDE_DATA.'/'.$uzivatel['login'].'/prihlaseni.txt');
 				$lastlogin=preg_split('/\*/',array_pop($prihlaseni));
-				$zmeny=get_changelog();
-				$news=array();
-				foreach($zmeny as $zmena){
-					if($zmena['time_unix']>$lastlogin[0]){
-						array_push($news,$zmena);
+				$zmeny=get_simple_changelog($lastlogin[0]);
+				$zpravy=array_reverse(get_diskuse_zpravy());
+				$baz=get_tipy();
+				$tipy=array();
+				for($foo=0;$foo<ZPRAV_NA_STRANKU;$foo++){
+					if($baz[$foo]['cas']>$lastlogin[0]){
+						$tipy[$foo]=$baz[$foo];
+						$tipy[$foo]['typ']='tip';
 					}
 				}
+				foreach($zpravy as $key=>$zprava){
+					if($zprava['cas']<$lastlogin[0]){
+						unset($zpravy[$key]);
+					}else{
+						$zpravy[$key]['typ']='diskuse';
+					}
+				}
+				$news=array_merge($zmeny,$zpravy,$tipy);
+				usort($news, 'sort_by_time');
 				if(count($news)>0){
-				$_SESSION['changes']=$news;
-				$_SESSION['changes_pocet']=count($news);
+					$_SESSION['changes']=array_reverse($news);
+					$_SESSION['changes_pocet']=count($news);
 				}
 			}
 
@@ -101,6 +113,28 @@ if(isset($_POST['login']) and isset($_POST['heslo']) and isset($_GET['action']))
 	$smarty->display('hlavicka.tpl');
 	$smarty->display('prihlaseni.tpl');
 	$smarty->display('paticka.tpl');
+}
+
+function get_simple_changelog($cas){
+	if(is_readable($_SERVER['DOCUMENT_ROOT'].'/ChangeLog')){
+
+$zmeny=array();
+$rn=1;
+$changelog = array_reverse(file($_SERVER['DOCUMENT_ROOT'].'/ChangeLog'));
+	foreach ($changelog as $change){
+		$change=preg_split('/\*/',trim($change));
+		if($change[1]>$cas){
+			$zmeny[$rn]['cislo']=$rn;
+			$zmeny[$rn]['hash']=$change[0];
+			$zmeny[$rn]['datum_hr'] = date('j. n. Y G.i',$change[1]); 
+			$zmeny[$rn]['cas']=$change[1];
+			$zmeny[$rn]['popis']=$change[2];
+			$zmeny[$rn]['typ']='change';
+		}
+		$rn++;
+	}
+}
+return array_reverse($zmeny);
 }
 
 ?>

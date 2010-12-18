@@ -70,6 +70,8 @@ define('TIPY_DATA',$_SERVER['DOCUMENT_ROOT'].'/tip/tipy.inc');
 define('WALLPAPERS_URL','/obrazky-na-plochu/'); 
 define('WALLPAPERS_DATA',$_SERVER['DOCUMENT_ROOT'].'/obrazky-na-plochu'); 
 
+define('ZPRAV_NA_STRANKU',10); 
+
 define('STAT_DATA',$_SERVER['DOCUMENT_ROOT'].'/data/stat'); 
 define('STAT_EXPIRE',30); 
 

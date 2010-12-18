@@ -1,5 +1,4 @@
 <?php
-
 	$bbcode = new BBCode;
 	$bbcode->SetEnableSmileys(false);
 	
