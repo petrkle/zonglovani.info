@@ -56,7 +56,6 @@ if($pager->getCurrentPageID()>1){
 $smarty->assign('nadpis',$nadpis);
 $smarty->assign('keywords','změny, žonglérův slabikář, changelog');
 $smarty->assign('description',$popis);
-$smarty->assign('feedback',true);
 $smarty->assign('titulek',$titulek);
 
 $smarty->assign_by_ref('trail', $trail->path);

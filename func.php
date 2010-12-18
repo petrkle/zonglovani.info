@@ -331,6 +331,7 @@ $changelog = array_reverse(file($_SERVER['DOCUMENT_ROOT'].'/ChangeLog'));
 		$zmeny[$rn]['datum_hr'] = date('j. n. Y G.i',$change[1]); 
 		$zmeny[$rn]['time_mr']=date('c',$change[1]);
 		$zmeny[$rn]['time_rss2']=date('r',$change[1]);
+		$zmeny[$rn]['time_unix']=$change[1];
 		$zmeny[$rn]['popis']=$change[2];
 		$rn++;
 	}

@@ -31,7 +31,7 @@ if(isset($_POST['login']) and isset($_POST['heslo']) and isset($_GET['action']))
 	$uzivatel=get_user_props($input_login);
 	if($uzivatel){
 		if($uzivatel['status']=='locked'){
-			array_push($chyby,'Účet byl zrušen na žádost uživatele.');
+			array_push($chyby,'Účet byl zrušen.');
 		}
 		if($uzivatel['status']=='revoked'){
 			array_push($chyby,'Účet je zablokován.');
@@ -52,6 +52,21 @@ if(isset($_POST['login']) and isset($_POST['heslo']) and isset($_GET['action']))
 			$_SESSION['logged']=true;
 			$_SESSION['ip']=$_SERVER['REMOTE_ADDR'];
 			$_SESSION['uzivatel']=get_user_complete($uzivatel['login']);
+			if(is_readable(LIDE_DATA.'/'.$uzivatel['login'].'/prihlaseni.txt')){
+				$prihlaseni=file(LIDE_DATA.'/'.$uzivatel['login'].'/prihlaseni.txt');
+				$lastlogin=preg_split('/\*/',array_pop($prihlaseni));
+				$zmeny=get_changelog();
+				$news=array();
+				foreach($zmeny as $zmena){
+					if($zmena['time_unix']>$lastlogin[0]){
+						array_push($news,$zmena);
+					}
+				}
+				if(count($news)>0){
+				$_SESSION['changes']=$news;
+				$_SESSION['changes_pocet']=count($news);
+				}
+			}
 
 			$foo=fopen(LIDE_DATA.'/'.$uzivatel['login'].'/prihlaseni.txt','a+');
 			fwrite($foo,time().'*'.$_SERVER['REMOTE_ADDR'].'*'.$_SERVER['HTTP_USER_AGENT']."\n");
