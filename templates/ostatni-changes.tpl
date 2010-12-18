@@ -1,6 +1,6 @@
+<p>Od tvého <a href="{$smarty.const.LIDE_URL}pristupy.php" title="Seznam přihlášení do žonglérova slabikáře.">posledního přihlášení</a>.</p>
 {if is_array($zmeny)}
 {foreach from=$zmeny item=zmena}
-
 {if $zmena.typ=='change'}
 <h3></a>Revize č. {$zmena.cislo}</h3>
 <ul>

@@ -49,7 +49,7 @@ $navstevnost=nav_load_data();
 arsort($navstevnost);
 
 $stat['aktualizace']=date('j. n. Y G.i', filectime('../ChangeLog'));
-$stat['pocet_lide']=count(get_loginy());
+$stat['pocet_lide']=count(get_loginy())-1;
 $stat['pocet_diskuse']=$diskuse_pocet;
 $stat['pocet_kalendar']=$kal_pocet;
 $stat['fupdate']=$fupdate;

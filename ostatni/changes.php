@@ -2,10 +2,7 @@
 require('../init.php');
 require('../func.php');
 
-#print '<pre>';
-#var_dump($_SESSION['changes']);
-#exit();
-if(isset($_SESSION['changes']) and is_array($_SESSION['changes']) and count($_SESSION['changes']>0)){
+if(is_logged() and isset($_SESSION['changes']) and is_array($_SESSION['changes']) and count($_SESSION['changes']>0)){
 
 	$dalsi=array(
 		array('url'=>'/changelog.html','text'=>'Kompletní seznam změn','title'=>'Kompletní seznam změn v žonglérově slabikáři'),
