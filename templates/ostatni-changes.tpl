@@ -30,7 +30,7 @@
 <h3>RSS</h3>
 <ul>
 <li>Datum: {$zmena.time_hr|escape}, Zdroj: {$rss_zdroje[$zmena.rssid].popis|escape}</li>
-<li><a href="/rss/#{$zmena.cas|escape}">{$zmena.titulek|escape|default:'Bez titulku'}</a></li>
+<li><a href="/rss/#{$zmena.cas|escape}">{$zmena.titulek|truncate:60:"...":false|escape|default:'Bez titulku'}</a></li>
 </ul>
 {/if}
 {/foreach}

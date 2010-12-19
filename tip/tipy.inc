@@ -62,6 +62,7 @@
 2010-12-06*RSS agregátor*/rss/*rss.png*Přehled novinek na stránkách o žonglování.
 2010-12-09*Všežonglérský slet*/kalendar/udalost-20101212-20101212-pek-1290799311.html#*vsezonglersky-slet.png*Nedělní odpoledne v žižkovské sokolovně plné žonglování, her a workshopů.
 2010-12-13*Návody na žonglování*/navody/*navod-tisk.png*Návody na žonglování a výrobu míčků ve formátu PDF. Vhodné pro tisk.
+2010-12-20*White balance*/video/white-balance.html*wbt.jpg*Balancování kuželek. Shane Miclon a Aaron DeWitt balancují s kužely.
 2010-12-22*Veselé vánoce*/vanoce-2010.html*vanoce-2010.s.jpg*Veselé vánoční svátky. Ať vám to lítá :^)
 2010-12-27*PF 2011*/pf-2011.html*pf-2011.png*Hodně štěstí a zdraví v novém roce. Ať vám to lítá :^)
 2011-01-03*Statistika*/statistika.html*podporaa.png*Trocha bilancování uplynulého roku. Podívej se kolik lidí používá žonglérův slabikář.
