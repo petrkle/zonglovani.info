@@ -4,6 +4,8 @@
 <p>{obrazek soubor="browser-chrome.png" popisek="Google Chrome"}</p>
 <ul class="szn">
 <li><a href="https://chrome.google.com/extensions/detail/dojgpamkkdlccihbhgnflimdjkigimad" class="external" onclick="pageTracker._trackPageview('/goto/chrome.google.com/extensions/detail/dojgpamkkdlccihbhgnflimdjkigimad');">Rozšíření žonglování</a></li>
+<li><a href="/vyhledavani/vyhledavani.xml" onclick="window.external.AddSearchProvider('http://zonglovani.info/vyhledavani/vyhledavani.xml');return(false);">Vyhledávací modul</a></li>
+<li>Podpora vytváření odkazů na aplikaci.</li>
 </ul>
 
 <a name="ff"></a><h3>Mozilla Firefox</h3>
@@ -19,9 +21,16 @@
 Jednoduší hledání zařídí <a href="/vyhledavani/vyhledavani.xml" onclick="window.external.AddSearchProvider('http://zonglovani.info/vyhledavani/vyhledavani.xml');return(false);">vyhledávací modul</a>.
 </p>
 
-<a name="ie"></a><h3>Internet Explorer 8</h3>
+<a name="ie"></a><h3>Internet Explorer</h3>
 <p>{obrazek soubor="browser-ie.png" popisek="Internet Explorer"}</p>
 <ul class="szn">
 <li>Webslices z tipu týdne na <a href="/" title="Úvodní stránka">úvodní stránce</a>.</li>
 <li><a href="/vyhledavani/vyhledavani.xml" onclick="window.external.AddSearchProvider('http://zonglovani.info/vyhledavani/vyhledavani.xml');return(false);">Vyhledávací modul</a>.</li>
+<li>Podpora "pined sites".</li>
+</ul>
+
+<a name="opera"></a><h3>Opera</h3>
+<p>{obrazek soubor="browser-opera.png" popisek="Opera"}</p>
+<ul class="szn">
+<li><a href="/ostatni/zonglovani.oex" onclick="pageTracker._trackPageview('/ostatni/zonglovani.oex');" title="Rozšíření pro rychlý přístup do kalendáře z Opery 11">Rozšíření žonglování</a></li>
 </ul>

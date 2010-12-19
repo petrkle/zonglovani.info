@@ -8,7 +8,7 @@ Aktuální
 - další, předchozí - odkazy v seznamu žonglérů, seznamu míst
 - JSON api (kalendář, horoskop, tip týdne) rozšíření do google chrome
 - test na stahování pdf
-- rozšíření pro operu 11
+- rss návštěvnosti
 
 Kalendář
 ========
@@ -47,6 +47,8 @@ Obsah
 - bublifuk - návod na výrobu
 - výzdoba kuželů
 - hula-hop kruh - návod na výrobu
+- výroba flowersticku
+- základy diabolo, flowerstick, poi
 
 HOTOVO
 ======
@@ -89,3 +91,4 @@ ikona pro iphone
 hlavičky pro chrome, ie 9 - odkaz na aplikaci
 v novinkách i rss
 přidat video white balance
+rozšíření pro operu 11
