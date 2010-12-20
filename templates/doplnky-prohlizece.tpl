@@ -3,7 +3,7 @@
 <a name="chrome"></a><h3>Google Chrome</h3>
 <p>{obrazek soubor="browser-chrome.png" popisek="Google Chrome"}</p>
 <ul class="szn">
-<li><a href="https://chrome.google.com/extensions/detail/dojgpamkkdlccihbhgnflimdjkigimad" class="external" onclick="pageTracker._trackPageview('/goto/chrome.google.com/extensions/detail/dojgpamkkdlccihbhgnflimdjkigimad');">Rozšíření žonglování</a></li>
+<li><a href="https://chrome.google.com/extensions/detail/dojgpamkkdlccihbhgnflimdjkigimad" class="external" onclick="pageTracker._trackPageview('/goto/chrome.google.com/extensions/detail/dojgpamkkdlccihbhgnflimdjkigimad');">Rozšíření žonglování</a> - rychlý přístup do kalendáře žonglérských akcí.</li>
 <li><a href="/vyhledavani/vyhledavani.xml" onclick="window.external.AddSearchProvider('http://zonglovani.info/vyhledavani/vyhledavani.xml');return(false);">Vyhledávací modul</a></li>
 <li>Podpora vytváření odkazů na aplikaci.</li>
 </ul>
@@ -32,5 +32,5 @@ Jednoduší hledání zařídí <a href="/vyhledavani/vyhledavani.xml" onclick="
 <a name="opera"></a><h3>Opera</h3>
 <p>{obrazek soubor="browser-opera.png" popisek="Opera"}</p>
 <ul class="szn">
-<li><a href="/ostatni/zonglovani.oex" onclick="pageTracker._trackPageview('/ostatni/zonglovani.oex');" title="Rozšíření pro rychlý přístup do kalendáře z Opery 11">Rozšíření žonglování</a></li>
+<li><a href="/ostatni/zonglovani.oex" onclick="pageTracker._trackPageview('/ostatni/zonglovani.oex');" title="Rozšíření pro rychlý přístup do kalendáře z Opery 11">Rozšíření žonglování</a> - rychlý přístup do kalendáře žonglérských akcí.</li>
 </ul>
