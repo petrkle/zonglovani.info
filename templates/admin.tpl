@@ -4,7 +4,7 @@
 Stránkování: {$pager_links}
 </p>
 {/if}
-<table border="1">
+<table class="navstevnost" cellspacing="0" cellpadding="0">
 <tr>
 <th>#</th>
 <th>Jméno</th>

@@ -7,6 +7,7 @@ if(is_logged() and $_SESSION['uzivatel']['login']=='pek'){
 
 $titulek='admin';
 
+$smarty->assign('styly',array('/s.css'));
 $trail = new Trail();
 $trail->addStep($titulek,'/admin');
 
