@@ -10,11 +10,20 @@
 			p{margin:0 5px;}
 			#zs{background:url("micky19.png") 0 50% no-repeat;padding-left:25px;}
 		</style>
+		<script type="text/javascript" src="jquery-1.4.4.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+					$.getJSON("http://zonglovani.info/kalendar/next.json",function(data,status){
+					$.each(data,function(id,akce){
+						$('#szn').append('<li>'+akce[0].start+' - <a href="'+akce[0].url+'" title="'+akce[0].desc+'" target="_blank">'+akce[0].title+'</a></li>');
+					});
+						});
+			});
+		</script>
 	</head>
 	<body>
 		<h1>Kalendář žonglérských akcí</h1>
-		<ul>
-		<script type="text/javascript" src="http://zonglovani.info/kalendar/next.js"></script>
+		<ul id="szn">
 		</ul>
 		<a href="http://zonglovani.info/" title="Žonglérův slabikář" id="zs" target="_blank">Žonglérův slabikář</div>
 	</body>

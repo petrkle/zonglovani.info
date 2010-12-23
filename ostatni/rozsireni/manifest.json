@@ -1,6 +1,6 @@
 {
   "name": "Žonglování",
-  "version": "0.1",
+  "version": "0.2",
   "description": "Kalendář žonglérských akcí.",
 "icons": { "16": "micky16.png",
            "48": "micky48.png",
@@ -9,5 +9,8 @@
     "default_icon": "micky19.png",
 		"default_title": "Kalendář žonglérských akcí.",
 		"popup": "popup.html"
-  }
+  },
+"permissions": [
+  "http://zonglovani.info/"
+]
 }
