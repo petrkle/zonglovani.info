@@ -13,6 +13,9 @@ Příspěvků v <a href="/diskuse/" title="O žonglování">diskusi</a>: {$stat.
 <p>
 Záznamů v <a href="/kalendar/" title="Kalendář žonglérských akcí">kalendáři</a>: {$stat.pocet_kalendar|escape}
 </p>
+<p>
+Žonglérská <a href="/video/" title="Žonglérská videa">videa</a>: {$stat.pocet_video|escape}
+</p>
 {if is_array($stat.navstevnost)}
 <a name="navst"><h3>Návštěvnost</h3></a>
 <p>Návštěvnost žonglérova slabikáře za posledních {$stat.navstevnost_dni|escape} dní.</p>

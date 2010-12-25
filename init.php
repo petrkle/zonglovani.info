@@ -73,7 +73,7 @@ define('WALLPAPERS_DATA',$_SERVER['DOCUMENT_ROOT'].'/obrazky-na-plochu');
 define('ZPRAV_NA_STRANKU',10); 
 
 define('STAT_DATA',$_SERVER['DOCUMENT_ROOT'].'/data/stat'); 
-define('STAT_EXPIRE',30); 
+define('STAT_EXPIRE',31); 
 
 #if (substr_count($_SERVER['HTTP_ACCEPT_ENCODING'], 'gzip')){
 #	ob_start('ob_gzhandler');

@@ -27,6 +27,15 @@ while (false!==($file = readdir($adr))) {
 };
 closedir($adr); 
 
+$video_pocet=0;
+$adr=opendir('../video/klip');
+while (false!==($file = readdir($adr))) {
+	if (preg_match('/.+\.xml$/',$file)){
+		$video_pocet++;
+	};
+};
+closedir($adr); 
+
 $kal_pocet=0;
 $adr=opendir(CALENDAR_DATA);
 while (false!==($file = readdir($adr))) {
@@ -52,6 +61,7 @@ $stat['aktualizace']=date('j. n. Y G.i', filectime('../ChangeLog'));
 $stat['pocet_lide']=count(get_loginy())-1;
 $stat['pocet_diskuse']=$diskuse_pocet;
 $stat['pocet_kalendar']=$kal_pocet;
+$stat['pocet_video']=$video_pocet;
 $stat['fupdate']=$fupdate;
 $stat['navstevnost']=$navstevnost;
 $stat['navstevnost_dni']=count($navstevnost);

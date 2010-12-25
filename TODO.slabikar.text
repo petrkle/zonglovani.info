@@ -6,9 +6,9 @@ Aktuální
 - posílání vzkazů - kontrolovat jestli má člověk nastavené zasílání vzkazů, všechny zprávy multipart text/html
 - napsat test na posílání vzkazů
 - další, předchozí - odkazy v seznamu žonglérů, seznamu míst
-- JSON api (kalendář, horoskop, tip týdne) rozšíření do google chrome
 - test na stahování pdf
 - rss návštěvnosti
+- widget pro cizí stránky - použití JSON api z kalendáře
 
 Kalendář
 ========
@@ -92,3 +92,4 @@ hlavičky pro chrome, ie 9 - odkaz na aplikaci
 v novinkách i rss
 přidat video white balance
 rozšíření pro operu 11
+JSON api (kalendář) rozšíření do google chrome
