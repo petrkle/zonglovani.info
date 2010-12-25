@@ -26,7 +26,7 @@ Záznamů v <a href="/kalendar/" title="Kalendář žonglérských akcí">kalend
 <th>Zobrazené stránky</th>
 </tr>
 {foreach from=$stat.navstevnost item=den}
-<tr{cycle values=', class="suda"'}><td>{$den.datum_hr|escape}</td><td>{$den.vis|escape}</td><td>{$den.pag|escape}</td></tr>
+<tr{cycle values=', class="suda"'}><td><a name="{$den.datum_unix|escape}"></a>{$den.datum_hr|escape}</td><td>{$den.vis|escape}</td><td>{$den.pag|escape}</td></tr>
 {/foreach}
 </table>
 {/if}

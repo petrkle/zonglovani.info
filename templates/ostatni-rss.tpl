@@ -55,3 +55,8 @@
 <ul>
 <li><a href="http://{$smarty.server.SERVER_NAME}/rss/agregator.xml" title="RSS 2.0">http://{$smarty.server.SERVER_NAME}/rss/agregator.xml</a></li>
 </ul>
+
+<h3><a href="/statistiky.html" title="Statistika žonglérova slabikáře">Statistika</a></h3>
+<ul>
+<li><a href="http://{$smarty.server.SERVER_NAME}/stat.xml" title="RSS 2.0">http://{$smarty.server.SERVER_NAME}/stat.xml</a></li>
+</ul>

@@ -3,6 +3,13 @@ require('../init.php');
 require('../func.php');
 require('../cron/navstevnost-func.php');
 
+if(isset($_GET['rss'])){
+	$navstevnost=nav_load_data();
+	asort($navstevnost);
+	header('Content-Type: application/rss+xml');
+	$smarty->assign_by_ref('navstevnost', $navstevnost);
+	$smarty->display('statistiky.rss.tpl');
+}else{
 $titulek='Statistiky';
 $smarty->assign('titulek',$titulek);
 $smarty->assign('keywords',make_keywords($titulek).', žonglování');
@@ -74,5 +81,5 @@ $smarty->assign_by_ref('stat', $stat);
 $smarty->display('hlavicka.tpl');
 $smarty->display('statistiky.tpl');
 $smarty->display('paticka.tpl');
-
+}
 ?>

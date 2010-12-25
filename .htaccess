@@ -21,3 +21,4 @@ RewriteRule ^zonglovani.rss$ rss.php [L]
 RewriteRule ^zonglovani.xml$ rss.php?v=2 [L]
 
 RewriteRule ^stat$ /statistiky.html [R=301,L]
+RewriteRule ^stat\.xml$ ostatni/statistiky.php?rss [L]

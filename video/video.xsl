@@ -10,7 +10,7 @@
     <head> 
     <title>Žonglérská videa</title> 
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 
-    <style type="text/css">body{font-family:sans-serif;font-size:1em;line-height:1.5em;color:#000;background:#eed;margin:0;padding:0;}.labnol{margin:10px;float:left;border-top-width:1px;border-right-width:2px;border-bottom-width:2px;border-left-width:1px;border-top-style:solid;border-right-style:solid;border-bottom-style:solid;border-left-style:solid;border-top-color:#ccc;border-right-color:#ccc;border-bottom-color:#ccc;border-left-color:#ccc;width:350px;height:110px;overflow:hidden;padding-top:5px;padding-right:5px;padding-bottom:10px;padding-left:5px}.labnol h1{font-size:1.2em;margin:0;padding:0 0 5px}.labnol p{color:#666;margin:0px;padding-top:10px}.labnol img{float:right;padding-top:0;padding-bottom:5px;padding-left:10px;border:none}</style> 
+		<style type="text/css">body{font-family:sans-serif;font-size:1em;line-height:1.5em;color:#000;background:#fff;margin:0;padding:0;}.labnol{margin:10px;float:left;border-top-width:1px;border-right-width:2px;border-bottom-width:2px;border-left-width:1px;border-top-style:solid;border-right-style:solid;border-bottom-style:solid;border-left-style:solid;border-top-color:#ccc;border-right-color:#ccc;border-bottom-color:#ccc;border-left-color:#ccc;width:350px;height:110px;overflow:hidden;padding-top:5px;padding-right:5px;padding-bottom:10px;padding-left:5px;background:#eed;}.labnol h1{font-size:1.2em;margin:0;padding:0 0 5px}.labnol p{color:#000;margin:0px;padding-top:10px}.labnol img{float:right;padding-top:0;padding-bottom:5px;padding-left:10px;border:none}/style> 
     </head> 
     <body> 
     <xsl:for-each select="sitemap:urlset/sitemap:url"> 

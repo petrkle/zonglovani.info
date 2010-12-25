@@ -1,13 +1,11 @@
 Aktuální
 ========
 - hitparáda hodnocených stránek, aktualizace žebříčku cronem 
-- u nastavení odkazů dodělat kolonku pro popis, ověření stránky, sestavit katalog
 - mapy - působiště člověka - živá mapa, okresy, přesunout místa pod mapu
 - posílání vzkazů - kontrolovat jestli má člověk nastavené zasílání vzkazů, všechny zprávy multipart text/html
 - napsat test na posílání vzkazů
 - další, předchozí - odkazy v seznamu žonglérů, seznamu míst
 - test na stahování pdf
-- rss návštěvnosti
 - widget pro cizí stránky - použití JSON api z kalendáře
 
 Kalendář
@@ -52,44 +50,4 @@ Obsah
 
 HOTOVO
 ======
-doplnit odkazy "Kam dál" ala yahů 
-vylepšit hlavně stránky které jsou na prvních místech ve vyhledávačích
-nafotit výrobu míčku z tenisáku, z balonků s mikroteňákem
-rozšířit návod na výrobu míčků
-přidělat reklamy na žonglérův slabikář na petrkle.wz.cz
-mikroformáty k akcím v kalendáři
-RSS z knihy návštěv obsahuje v odkazech špatné číslo stránky
-RSS2 - jako sitemapy pro google
-tapety na plochu - zátiší míčků a kužel u vody, na louce, na stromě, pomocí stativu
-RSS agregátor z stránek o žonglování
-siteswaps, animace z juggle anim
-doplnit do článeku o siteswapech odkazy na animace
-dodělat k animacím siteswapů náhledy
-skript pro aktualizaci databáze fultextu: ./make-fulltext-update.sh
-procházení siteswapů a animací < předchozí , další >
-rss agregátor - aktualizace zdrojů, feedproxy - původní odkaz
-při zadávání jména (události v kalendáři) nepovolit všechna písmena velká
-skript pro synchronizaci adresáře data z webu
-přidávání zprávy do diskuse - místo obrázků odkazy
-rozdílné titulky u stránkování videa
-v diskusi nahradit prompt() který blokuje IE za http://www.anyexample.com/webdev/javascript/ie7_javascript_prompt()_alternative.xml
-v seznamu animací nadpisy podle počtu míčků
-video - stránkování, náhledy, info o délce
-katalog kuželek
-rozdělit changelog na stránky
-u starých novinek zobrazovat i text, rozdělit na stránky
-obrázkové sitemapy
-do videí přidat readingroundabouts
-obrázek k akci v kalendáři
-stránka se statistikou
-obrázky i v rss
-skrip do cronu, upozornění na rok neaktivní účet
-automatické zmenšení obrázků v profilu
-PDF listy s návodem na kaskádu, výrobu míčků - dostupné po registraci
-návody v pdf - facebook aplikace
-ikona pro iphone
-hlavičky pro chrome, ie 9 - odkaz na aplikaci
-v novinkách i rss
-přidat video white balance
-rozšíření pro operu 11
-JSON api (kalendář) rozšíření do google chrome
+rss návštěvnosti
