@@ -2,7 +2,7 @@
 require('../init.php');
 require('../func.php');
 require($lib.'/nbbc.php');
-require('bbcode.init.php');
+require($lib.'/bbcode.init.php');
 
 if(is_logged()){
 
