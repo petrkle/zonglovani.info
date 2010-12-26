@@ -31,7 +31,6 @@ Automatizace
 
 Testy
 =====
-- upload fotky, zmenšení
 - kalendář, přidání akce, upload fotky
 - základní funkce - 200 OK na stránky z hlavního menu, kaskádu
 - cron - mazání starých účtů, upozornění na expiraci, prodloužení účtu
