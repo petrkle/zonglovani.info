@@ -5,7 +5,6 @@ use List::Util qw(shuffle);
 use File::Slurp;
 use File::Basename;
 use Test::More tests => 14;
-use Data::Dumper;
 use Net::Netrc;
 require('scripts/tests/func.pl');
 

@@ -33,8 +33,6 @@ Testy
 =====
 - upload fotky, zmenšení
 - kalendář, přidání akce, upload fotky
-- rss, mime typ, platné odkazy, validace
-- css, mime typ, existující obrázky, validace
 - základní funkce - 200 OK na stránky z hlavního menu, kaskádu
 - diskuse, přidání příspěvku, vložení mailu, odkazu, bold, kurziva
 - cron - mazání starých účtů, upozornění na expiraci, prodloužení účtu
