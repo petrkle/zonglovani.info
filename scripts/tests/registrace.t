@@ -212,3 +212,5 @@ my $ignore_bot = WWW::Mechanize->new(autocheck => 0);
 
 my $response = $ignore_bot->get("http://zongl.info/lide/$login.html");
 ok($ignore_bot->status() == 404, 'Stránka uživatele neexistuje');
+
+system("sudo /bin/bash /home/www/zonglovani.info/scripts/tests/clean.sh")

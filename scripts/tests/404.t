@@ -1,14 +1,25 @@
 #!/usr/bin/perl -w
 use strict;
 use WWW::Mechanize;
-use Test::More tests => 4;
+use Test::More tests => 24;
+
+my @adresy=(
+"nesmysl",
+"admin",
+"video/neexistujicivideo.html",
+"lide/neexistujiciuzivatel.html",
+"diskuse/neexistujicistranka.html",
+"obrazky/neexistujiciobrazek.html"
+);
 
 my $bot = WWW::Mechanize->new(autocheck => 0);
 $bot->cookie_jar(HTTP::Cookies->new());
-my $response = $bot->get('http://zongl.info/nesmysl');
-my $content=$response->content();
 
-ok(defined($response), 'Stránka 404');
-ok($bot->status() == 404, 'Návratový kód 404.');
-ok($content =~ /<title>Stránka nalezena<\/title>/, 'Správný titulek');
-ok($content =~ /Můžeš zkusit následující/, 'Další možnosti');
+foreach my $url(@adresy){
+	my $response = $bot->get("http://zongl.info/$url");
+	my $content=$response->content();
+	ok(defined($response), "Stránka 404 pro $url");
+	ok($bot->status() == 404, "Návratový kód 404 pro $url");
+	ok($content =~ /<title>Stránka nenalezena<\/title>/, "Správný titulek pro $url");
+	ok($content =~ /Můžeš zkusit následující/, "Další možnosti pro $url");
+}

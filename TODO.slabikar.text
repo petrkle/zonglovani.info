@@ -3,9 +3,7 @@ Aktuální
 - hitparáda hodnocených stránek, aktualizace žebříčku cronem 
 - mapy - působiště člověka - živá mapa, okresy, přesunout místa pod mapu
 - posílání vzkazů - kontrolovat jestli má člověk nastavené zasílání vzkazů, všechny zprávy multipart text/html
-- napsat test na posílání vzkazů
 - další, předchozí - odkazy v seznamu žonglérů, seznamu míst
-- test na stahování pdf
 - widget pro cizí stránky - použití JSON api z kalendáře
 
 Kalendář
@@ -24,11 +22,22 @@ Etc
 - témata pro chromium
 - kvíz, průvodce výběrem míčků
 - video - štítky
+- seznam sitemap
 
 Automatizace
 ============
 - skript pro zálohování - šifrovat zálohu, automaticky vymazávat staré zálohy z flashky
 - skript pro aktualizaci z flasky na disk: ./make-restore.sh
+
+Testy
+=====
+- upload fotky, zmenšení
+- kalendář, přidání akce, upload fotky
+- rss, mime typ, platné odkazy, validace
+- css, mime typ, existující obrázky, validace
+- základní funkce - 200 OK na stránky z hlavního menu, kaskádu
+- diskuse, přidání příspěvku, vložení mailu, odkazu, bold, kurziva
+- cron - mazání starých účtů, upozornění na expiraci, prodloužení účtu
 
 Obsah
 =====
@@ -51,3 +60,5 @@ Obsah
 HOTOVO
 ======
 rss návštěvnosti
+test na stahování pdf
+test na posílání vzkazů

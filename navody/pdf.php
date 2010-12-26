@@ -14,7 +14,7 @@ if(isset($_GET['fb'])){
 }
 
 if(is_readable('doc/'.$jmeno.'.pdf')){
-	if(is_logged() or !is_null($facebook->getUser())){
+	if(is_logged() or (isset($_GET['fb']) and !is_null($facebook->getUser()))){
 		header('Content-Disposition: attachment; filename='.$jmeno.'.pdf');
 		header('Content-Type: application/octet-stream');
 		header('Content-Length: '.filesize('doc/'.$jmeno.'.pdf'));

@@ -11,7 +11,6 @@ $trail->addStep('Seznam žonglérů',LIDE_URL);
 $trail->addStep($titulek);
 $smarty->assign_by_ref('trail', $trail->path);
 
-
 if(isset($_POST['komu'])){
 	$komu=strtolower(trim($_POST['komu']));
 	if(isset($_POST['odeslat'])){
@@ -41,7 +40,10 @@ if(isset($_POST['komu'])){
 		if(!is_zs_account($komu)){
 			array_push($chyby,'Účet nebyl nalezen.');
 		}else{
-			$komu=get_user_props($komu);
+			$komu_props=get_user_props($komu);
+			if($komu_props['soukromi']!='formular'){
+				array_push($chyby,'Úživatel nemá povolené zasílání vzkazů.');
+			}
 		}
 		
 		if($odpoved!=$_SESSION['antispam_odpoved']){
@@ -72,20 +74,54 @@ if(isset($_POST['komu'])){
 		if(isset($_SESSION['uzivatel']['email'])){
 			#přihlášení uživatelé mohou hned odeslat vzkaz
 
-		$to = $komu['email'];
+		$to = $komu_props['email'];
 
-		$headers = 'Return-Path: '.$email . "\r\n" .
-    'From: '.$email . "\r\n" .
-    'Reply-To: '.$email . "\r\n" .
-    'Content-Type: text/plain; charset=utf-8' . "\r\n" .
-    'Content-Transfer-Encoding: 8bit' . "\r\n" .
-    'Precedence: bulk';
-$message = $vzkaz.'
+		$mime_boundary = '--zs--'.abs(crc32(time()));
 
+$headers = "Return-Path: $email\n";
+$headers .= "From: $email\n";
+$headers .= "Reply-To: $email\n";
+$headers .= "Precedence: bulk\n";
+$headers .= "MIME-Version: 1.0\n";
+$headers .= "Content-Type: multipart/alternative; boundary=\"$mime_boundary\"\n";
+
+# -=-=-=- TEXT EMAIL PART
+
+$message = "--$mime_boundary\n";
+$message .= "Content-Type: text/plain; charset=UTF-8\n";
+$message .= "Content-Transfer-Encoding: 8bit\n\n";
+
+$message .= $vzkaz.'
 -- 
 Tento vzkaz byl zaslán pomocí žonglérova slabikáře.
 http://zonglovani.info
 ';
+
+# -=-=-=- HTML EMAIL PART
+ 
+$message .= "--$mime_boundary\n";
+$message .= "Content-Type: text/html; charset=UTF-8\n";
+$message .= "Content-Transfer-Encoding: 8bit\n\n";
+
+$message .= "<html>\n";
+$message .= "<head><meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" />\n";
+$message .= "<title>$subject_plain</title></head>\n";
+$message .= "<body style=\"font-family: sans-serif; font-size:1em; color:#000;\">\n";
+
+$message .= $vzkaz.'<br/>
+-- <br/>
+Tento vzkaz byl zaslán pomocí žonglérova slabikáře.<br/>
+<a href="http://zonglovani.info/">http://zonglovani.info/</a>
+';
+
+$message .= "</body>\n";
+$message .= "</html>\n";
+
+# -=-=-=- FINAL BOUNDARY
+
+$message .= "--$mime_boundary--\n\n";
+
+
 			$vysledek=mail($to, $subject, $message, $headers);
 
 			if($vysledek){
@@ -101,7 +137,7 @@ http://zonglovani.info
 		}else{
 			# jinak se na mail odesilatele posle zprava z odkazem k odeslani vzkazu
 
-		$messageid=abs(crc32($email.$komu.time()));
+		$messageid=abs(crc32($email.$komu_props['email'].time()));
 
 
 		$mime_boundary = '--zs--'.abs(crc32(time()));
@@ -121,7 +157,7 @@ $message .= "Content-Transfer-Encoding: 8bit\n\n";
 
 $message .= 'Ahoj,
 
-pro odeslání vzkazu pro "'.$komu['login'].'" klikni na tento odkaz:
+pro odeslání vzkazu pro "'.$komu_props['login'].'" klikni na tento odkaz:
 
 http://'.$_SERVER['SERVER_NAME'].LIDE_URL.'sendmail/'.$messageid.'.html
 
@@ -147,7 +183,7 @@ $message .= "<body style=\"font-family: sans-serif; font-size:1em; color:#000;\"
 
 $message .= 'Ahoj,<br /><br />
 
-pro odeslání vzkazu pro "'.$komu['login'].'" klikni na tento odkaz:<br />
+pro odeslání vzkazu pro "'.$komu_props['login'].'" klikni na tento odkaz:<br />
 
 <a href="http://'.$_SERVER['SERVER_NAME'].LIDE_URL.'sendmail/'.$messageid.'.html">http://'.$_SERVER['SERVER_NAME'].LIDE_URL.'sendmail/'.$messageid.'.html</a><br />
 
@@ -179,7 +215,7 @@ $message .= "--$mime_boundary--\n\n";
 		fclose($foo);
 
 		$foo=fopen($tmp.'/prijemce.txt','w');
-		fwrite($foo,$komu['email']);
+		fwrite($foo,$komu_props['email']);
 		fclose($foo);
 
 

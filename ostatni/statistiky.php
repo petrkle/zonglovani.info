@@ -43,6 +43,17 @@ while (false!==($file = readdir($adr))) {
 };
 closedir($adr); 
 
+$testy_pocet=0;
+$adr=opendir('../scripts/tests');
+while (false!==($file = readdir($adr))) {
+	if (preg_match('/.+\.t$/',$file)){
+		$test=file_get_contents("../scripts/tests/$file");
+		$pocet=preg_replace('/([^0-9]*)/','',preg_replace('/.*More tests ([^;]*).*/s','\1',$test));
+		$testy_pocet=$testy_pocet+$pocet;
+	};
+};
+closedir($adr); 
+
 $kal_pocet=0;
 $adr=opendir(CALENDAR_DATA);
 while (false!==($file = readdir($adr))) {
@@ -70,6 +81,7 @@ $stat['pocet_diskuse']=$diskuse_pocet;
 $stat['pocet_kalendar']=$kal_pocet;
 $stat['pocet_video']=$video_pocet;
 $stat['fupdate']=$fupdate;
+$stat['testy']=$testy_pocet;
 $stat['navstevnost']=$navstevnost;
 $stat['navstevnost_dni']=count($navstevnost);
 

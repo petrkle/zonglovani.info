@@ -16,26 +16,59 @@ if(isset($_GET['m'])){
 
 	if(is_dir($foo) and trim(array_pop(file($foo.'/created.time')))>(time()-TIMEOUT_VZKAZ)){
 		$odesilatel=trim(array_pop(file($foo.'/odesilatel.txt')));
-		$prijemce=trim(array_pop(file($foo.'/prijemce.txt')));
+		$to=trim(array_pop(file($foo.'/prijemce.txt')));
 		$vzkaz=file_get_contents($foo.'/vzkaz.txt');
 
 		$subject_plain='Vzkaz z žonglérova slabikáře';
 		$subject = quoted_printable_header($subject_plain);
 
-		$headers = 'Return-Path: '.$odesilatel . "\r\n" .
-    'From: '.$odesilatel . "\r\n" .
-    'Reply-To: '.$odesilatel . "\r\n" .
-    'Content-Type: text/plain; charset=utf-8' . "\r\n" .
-    'Content-Transfer-Encoding: 8bit' . "\r\n" .
-    'Precedence: bulk';
-$message = $vzkaz.'
+		$mime_boundary = '--zs--'.abs(crc32(time()));
 
+$headers = "Return-Path: $odesilatel\n";
+$headers .= "From: $odesilatel\n";
+$headers .= "Reply-To: $odesilatel\n";
+$headers .= "Precedence: bulk\n";
+$headers .= "MIME-Version: 1.0\n";
+$headers .= "Content-Type: multipart/alternative; boundary=\"$mime_boundary\"\n";
+
+# -=-=-=- TEXT EMAIL PART
+
+$message = "--$mime_boundary\n";
+$message .= "Content-Type: text/plain; charset=UTF-8\n";
+$message .= "Content-Transfer-Encoding: 8bit\n\n";
+
+$message .= $vzkaz.'
 -- 
 Tento vzkaz byl zaslán pomocí žonglérova slabikáře.
 http://zonglovani.info
 ';
 
-			$vysledek=mail($prijemce, $subject, $message, $headers);
+# -=-=-=- HTML EMAIL PART
+ 
+$message .= "--$mime_boundary\n";
+$message .= "Content-Type: text/html; charset=UTF-8\n";
+$message .= "Content-Transfer-Encoding: 8bit\n\n";
+
+$message .= "<html>\n";
+$message .= "<head><meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" />\n";
+$message .= "<title>$subject_plain</title></head>\n";
+$message .= "<body style=\"font-family: sans-serif; font-size:1em; color:#000;\">\n";
+
+$message .= $vzkaz.'<br/>
+-- <br/>
+Tento vzkaz byl zaslán pomocí žonglérova slabikáře.<br/>
+<a href="http://zonglovani.info/">http://zonglovani.info/</a>
+';
+
+$message .= "</body>\n";
+$message .= "</html>\n";
+
+# -=-=-=- FINAL BOUNDARY
+
+$message .= "--$mime_boundary--\n\n";
+
+
+			$vysledek=mail($to, $subject, $message, $headers);
 
 
 		if($vysledek){

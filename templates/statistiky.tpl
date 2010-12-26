@@ -16,6 +16,9 @@ Záznamů v <a href="/kalendar/" title="Kalendář žonglérských akcí">kalend
 <p>
 Žonglérská <a href="/video/" title="Žonglérská videa">videa</a>: {$stat.pocet_video|escape}
 </p>
+<p>
+Automatizované testy: {$stat.testy|escape}
+</p>
 {if is_array($stat.navstevnost)}
 <a name="navst"><h3>Návštěvnost</h3></a>
 <p>Návštěvnost žonglérova slabikáře za posledních {$stat.navstevnost_dni|escape} dní.</p>
