@@ -19,8 +19,49 @@ foreach($videa as $key=>$video){
 
 if(isset($idcka[$v])){
 	$video=$videa[$idcka[$v]];
+
+	if($video['typ']=='juggling.tv'){
+		$fid=preg_split('/\.tv:/',$video['link']);
+		$video['fid']=$fid[1];
+	}
+
+	if($video['typ']=='youtube.com'){
+		$fid=preg_split('/watch\?v=/',$video['link']);
+		$video['fid']=$fid[1];
+	}
+
+	$hlavicky=array();
 	if(isset($video['nahled'])){
 		$smarty->assign('nahled','http://'.$_SERVER['SERVER_NAME'].'/video/img/'.substr($video['nahled'],0,1).'/'.$video['nahled']);
+	}
+	if(isset($video['rozliseni'])){
+		$rozliseni=preg_split('/x/',$video['rozliseni']);
+		$hlavicky['sirka']='<meta name="video_width" content="'.$rozliseni[0].'" />';
+		$hlavicky['vyska']='<meta name="video_height" content="'.$rozliseni[1].'" />';
+	}
+
+	if(isset($video['typ']) and $video['typ']!='file'){
+		$hlavicky['typ']='<meta name="video_type" content="application/x-shockwave-flash" />';
+	}
+
+	if(isset($video['typ']) and $video['typ']=='juggling.tv'){
+		#$hlavicky['video_src']='<link rel="video_src" href="http://juggling.tv/nvplayer.swf?config=http://juggling.tv/nuevo/econfig.php?key='.$video['fid'].'" />';
+		$hlavicky['video_src']='<meta name="og:video" src="http://juggling.tv/nvplayer.swf?config=http://juggling.tv/nuevo/econfig.php?key='.$video['fid'].'" />';
+		$hlavicky['nahled']='<meta property="og:image" content="http://'.$_SERVER['SERVER_NAME'].'/video/img/'.substr($video['nahled'],0,1).'/'.$video['nahled'].'" />';
+		$hlavicky['titulek']='<meta property="og:title" content="'.$video['nazev'].'" />';
+		$hlavicky['popis']='<meta name="og:description" content="'.$video['popis'].'" />';
+		$hlavicky['sirka']='<meta name="og:video:height" content="'.$rozliseni[1].'" />';
+		$hlavicky['vyska']='<meta name="og:video:width" content="'.$rozliseni[0].'" />';
+		$hlavicky['typ']='<meta name="og:video:type" content="application/x-shockwave-flash" />';
+
+	}
+
+	if(isset($video['typ']) and $video['typ']=='youtube.com'){
+		$hlavicky['video_src']='<link rel="video_src" href="http://www.youtube.com/v/'.$video['fid'].'&amp;hl=cs_CZ&amp;rel=0" />';
+	}
+
+	if(count($hlavicky)>0){
+		$smarty->assign_by_ref('custom_headers',$hlavicky);
 	}
 
 $pagerOptions = array(
@@ -43,15 +84,6 @@ $data = $pager->getPageData();
 
 		$cislostranky=$pager->getPageIdByOffset($idcka[$v]);
 
-	if($video['typ']=='juggling.tv'){
-		$fid=preg_split('/\.tv:/',$video['link']);
-		$video['fid']=$fid[1];
-	}
-
-	if($video['typ']=='youtube.com'){
-		$fid=preg_split('/watch\?v=/',$video['link']);
-		$video['fid']=$fid[1];
-	}
 
 	$trail = new Trail();
 	$trail->addStep('Žonglérská videa','/video/');

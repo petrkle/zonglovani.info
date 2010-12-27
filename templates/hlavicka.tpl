@@ -16,6 +16,11 @@
 	<link rel="stylesheet" media="screen,projection" type="text/css" href="{$styl}" />
 {/foreach}
 {/if}
+{if $custom_headers}
+{foreach from=$custom_headers item=hlavicka}
+	{$hlavicka}
+{/foreach}
+{/if}
 	<meta name="robots" content="{if isset($robots)}{$robots|escape}{else}index,follow{/if}" />
 	<link rel="shortcut icon" href="/favicon.ico" />
 	<link rel="alternate" title="Žonglérův slabikář" href="http://{$smarty.server.SERVER_NAME}/zonglovani.rss" type="application/rss+xml" />
