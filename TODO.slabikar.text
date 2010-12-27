@@ -25,7 +25,7 @@ Etc
 - seznam sitemap
 - přehrávání videa z jugglng.tv přímo na facebooku, whitelist, meta, lint
 - video z Ulity
-- opravit v kalendáří zobrazování akcí 0.00 - 0.00
+- opravit v kalendáří zobrazování akcí 0.00 - 0.00, doplnit do testu
 
 Automatizace
 ============
@@ -35,7 +35,6 @@ Automatizace
 
 Testy
 =====
-- kalendář, přidání akce, upload fotky, json api
 
 Obsah
 =====

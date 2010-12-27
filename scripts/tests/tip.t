@@ -2,7 +2,6 @@
 use strict;
 use WWW::Mechanize;
 use Test::More tests => 1;
-use Data::Dumper;
 use Time::Local;
 use Date::Parse;
 
