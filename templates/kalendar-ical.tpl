@@ -1,3 +1,4 @@
+{* /* vim: set ff=dos: */ *}
 BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//zongleruv-slabikar
@@ -21,11 +22,13 @@ END:STANDARD
 END:VTIMEZONE
 {foreach from=$events item=udalost}
 BEGIN:VEVENT
-DTSTART;TZID=Europe/Prague:{$udalost.start_ical|escape}
-DTEND;TZID=Europe/Prague:{$udalost.end_ical|escape}
-SUMMARY:{$udalost.title|escape}
-DESCRIPTION:{$udalost.desc|escape}
-LOCATION:{$udalost.misto|escape}
+DTSTART:{$udalost.start_ical|escape}
+DTEND:{$udalost.end_ical|escape}
+SUMMARY:{$udalost.title|replace:',':'\\,'|escape}
+DESCRIPTION:{$udalost.desc|escape|replace:';':'\\;'|replace:',':'\\,'}
+LOCATION:{$udalost.misto|escape|replace:';':'\\;'|replace:',':'\\,'}
+DTSTAMP:{$udalost.insert_ical|escape}
+UID:{$udalost.id|escape}-zonglovani.info
 END:VEVENT
 {/foreach}
 END:VCALENDAR

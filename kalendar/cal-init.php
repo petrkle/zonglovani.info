@@ -113,6 +113,7 @@ function get_event_data($id,$storage=CALENDAR_DATA){
 		$udalost['end_hr']=date('j. n. Y G.i',strtotime($udalost['konec']));
 		$udalost['end_ical']=date('Ymd\THis\Z',(strtotime($udalost['konec'])-date('Z',strtotime($udalost['konec']))));
 		$udalost['insert_hr']=date('j. n. Y',$udalost['insert']);
+		$udalost['insert_ical']=date('Ymd\THis\Z',(strtotime($udalost['insert'])-date('Z',strtotime($udalost['insert']))));
 		$udalost['insert_mr']=date('c',$udalost['insert']);
 		$udalost['insert_rss2']=date('r',$udalost['insert']);
 		$udalost['start_micro']=date('c',$udalost['start']);

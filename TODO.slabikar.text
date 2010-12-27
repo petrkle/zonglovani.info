@@ -36,7 +36,6 @@ Automatizace
 Testy
 =====
 - kalendář, přidání akce, upload fotky, json api
-- ical, ics soubor
 
 Obsah
 =====
@@ -61,3 +60,4 @@ HOTOVO
 rss návštěvnosti
 test na stahování pdf
 test na posílání vzkazů
+validní ical - http://arnout.engelen.eu/icalendar-validator, vyzkoušet v sunbirdu, google calendar (má bug s letním časem)

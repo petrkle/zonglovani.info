@@ -1,7 +1,7 @@
 #!/usr/bin/perl -w
 use strict;
 use WWW::Mechanize;
-use Test::More tests => 100;
+use Test::More tests => 118;
 
 my $bot = WWW::Mechanize->new(autocheck => 1);
 $bot->cookie_jar(HTTP::Cookies->new());
@@ -57,6 +57,16 @@ my @stranky = (
 	{'a'=>'/mapa-stranek.html', 't'=>'Mapa stránek', 'o'=>'<li><a href="\/juggling-tv.html">juggling.tv<'},
 	{'a'=>'/podporte-zongleruv-slabikar.html', 't'=>'Podpořte žonglérův slabikář', 'o'=>'Provoz adresy zonglovani.info stojí 1500 Kč ročně'},
 	{'a'=>'/ulita/', 't'=>'Žonglování v Ulitě', 'o'=>'<a href="cesta.html" title="Podrobný popis cesty.">Místo konání<'},
+	{'a'=>'/lide/misto/morava.html', 't'=>'Žonglování - Morava', 'o'=>'title="Profil uživatele '},
+	{'a'=>'/lide/misto/', 't'=>'Žongléři podle místa působení', 'o'=>' title="Žongléři z '},
+	{'a'=>'/lide/misto/praha.html', 't'=>'Žonglování - Praha', 'o'=>' title="Profil uživatele '},
+	{'a'=>'/lide/dovednost/', 't'=>'Žongléři podle dovedností', 'o'=>'title="Žongléři kteří umí výrábět žonglérské hračky"'},
+	{'a'=>'/lide/dovednost/kuzely_passing.html', 't'=>'Žonglování - Passing s kužely', 'o'=>' title="Profil uživatele '},
+	{'a'=>'/chudy/', 't'=>'Chůdy', 'o'=>'Sežeň někoho kdo tě bude chytat'},
+	{'a'=>'/rss/', 't'=>'RSS agregátor', 'o'=>'<a name="[0-9]+"><\/a>'},
+	{'a'=>'/obrazky-na-plochu/', 't'=>'Obrázky na plochu', 'o'=>'<li><a href="1680x1050\/kuzelky-na-trave.jpg"'},
+	{'a'=>'/changelog.html', 't'=>'Změny v žonglérově slabikáři', 'o'=>'Stránkování: <b>1<'},
+	#{'a'=>'', 't'=>'', 'o'=>''},
 );
 
 foreach my $stranka (@stranky){
