@@ -24,18 +24,19 @@ Etc
 - video - štítky
 - seznam sitemap
 - přehrávání videa z jugglng.tv přímo na facebooku, whitelist, meta, lint
-- make stats - sestaví některé statistiky a zapíše je do txt souboru
 - video z Ulity
+- opravit v kalendáří zobrazování akcí 0.00 - 0.00
 
 Automatizace
 ============
 - skript pro zálohování - šifrovat zálohu, automaticky vymazávat staré zálohy z flashky
 - skript pro aktualizaci z flasky na disk: ./make-restore.sh
+- make stats - sestaví některé statistiky a zapíše je do txt souboru
 
 Testy
 =====
-- kalendář, přidání akce, upload fotky
-- základní funkce - 200 OK na stránky z hlavního menu, kaskádu
+- kalendář, přidání akce, upload fotky, json api
+- ical, ics soubor
 
 Obsah
 =====
