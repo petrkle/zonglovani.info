@@ -74,7 +74,7 @@ $zs_aktivace = $bot->get($odkazy[0]);
 ok($zs_aktivace->content() =~ /Účet už je aktivní\./,'Účet jde aktivovat jen jednou aktivován');
 
 my $zs_nastave = $bot->get('http://zongl.info/lide/nastaveni/');
-ok($zs_nastave->content() =~ /Pro zobrazení požadované stránky je nutné přihlášení/, 'Nastavení je bez odhlášení nepřístupné');
+ok($zs_nastave->content() =~ /Pro zobrazení požadované stránky je nutné přihlášení/, 'Nastavení je bez přihlášení nepřístupné');
 
 my $prihlaseni = {
 	'login' => $login,

@@ -23,6 +23,9 @@ Etc
 - kvíz, průvodce výběrem míčků
 - video - štítky
 - seznam sitemap
+- přehrávání videa z jugglng.tv přímo na facebooku, whitelist, meta, lint
+- make stats - sestaví některé statistiky a zapíše je do txt souboru
+- video z Ulity
 
 Automatizace
 ============
@@ -33,7 +36,6 @@ Testy
 =====
 - kalendář, přidání akce, upload fotky
 - základní funkce - 200 OK na stránky z hlavního menu, kaskádu
-- cron - mazání starých účtů, upozornění na expiraci, prodloužení účtu
 
 Obsah
 =====

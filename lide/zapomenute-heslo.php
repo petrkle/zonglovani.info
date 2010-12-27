@@ -52,7 +52,7 @@ if(isset($_POST['odeslat'])){
 	}
 
 
-if(!eregi('^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$',$email)){
+if(!preg_match('/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$/',$email)){
 	array_push($chyby,'Neplatný e-mail.');
 }else{
 	if(!is_zs_email($email)){
