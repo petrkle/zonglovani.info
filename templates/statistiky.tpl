@@ -55,13 +55,13 @@ Podrobný <a href="/changelog.html" title="Historie změn">seznam změn</a>.
 </tr>
 
 <tr>
-<td>Obrázky u triků</td>
-<td>{$stat.img|escape}</td>
+<td><a href="/obrazky/" title="Obrázky žonglování">Obrázky žonglování</a></td>
+<td>{$stat.obrazky|escape}</td>
 </tr>
 
 <tr class="suda">
-<td><a href="/obrazky/" title="Obrázky žonglování">Obrázky žonglování</a></td>
-<td>{$stat.obrazky|escape}</td>
+<td>Ostatní obrázky</td>
+<td>{$stat.img|escape}</td>
 </tr>
 
 <tr>

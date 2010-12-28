@@ -5,9 +5,9 @@ Aktuální
 - posílání vzkazů - kontrolovat jestli má člověk nastavené zasílání vzkazů, všechny zprávy multipart text/html
 - další, předchozí - odkazy v seznamu žonglérů, seznamu míst
 - widget pro cizí stránky - použití JSON api z kalendáře
-- do seznamu míst přidat Velmez, Valmez, Kopřivnici, Vlašim, Ledeč, Zruč a Alberovice
 - make test před každým uploadem?
 - rss update, kml update - nepřepisovat vždy
+- kr-pardubicky opravit na vysočinu
 
 
 Kalendář
@@ -68,3 +68,4 @@ rss návštěvnosti
 test na stahování pdf
 test na posílání vzkazů
 validní ical - http://arnout.engelen.eu/icalendar-validator, vyzkoušet v sunbirdu, google calendar (má bug s letním časem)
+do seznamu míst přidat Velmez, Valmez, Kopřivnici, Vlašim, Ledeč a Zruč

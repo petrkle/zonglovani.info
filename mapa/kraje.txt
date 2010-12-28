@@ -10,6 +10,7 @@ kraj-moravskoslezsky:Moravskoslezský kraj
 kraj-nitriansky:Nitriansky kraj
 kraj-olomoucky:Olomoucký kraj
 kraj-pardubicky:Pardubický kraj
+kraj-vysocina:Vysočina
 kraj-plzensky:Plzeňský kraj
 kraj-presovsky:Prešovský kraj
 kraj-stredocesky:Středočeský kraj

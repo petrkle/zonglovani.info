@@ -21,7 +21,8 @@ $dalsi=array(
 	array('url'=>'/jak-odkazovat.html','text'=>'Jak odkazovat na žonglérův slabikář','title'=>'Přidej odkaz na svůj web'),
 	array('url'=>'/rss.html','text'=>'RSS kanály','title'=>'RSS kanály žonglérova slabikáře'),
 	array('url'=>'/changelog.html','text'=>'Seznam změn','title'=>'Seznam změn v žonglérově slabikáři'),
-
+	array('url'=>'/scripts/','text'=>'Skripty','title'=>'Skripty pro správu webu'),
+	array('url'=>'/css/','text'=>'Kaskádové styly','title'=>'Seznam kaskádových stylů')
 	);
 $smarty->assign_by_ref('dalsi',$dalsi);
 

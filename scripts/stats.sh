@@ -14,14 +14,13 @@ echo "testy*"`grep -h "^use Test::More.*" scripts/tests/*.t | sed 's/\([^0-9]*\)
 FUPDATE=`bzcat data/dump.sql.bz2 | tail -1 | sed "s/.*completed on //"`
 echo "fulltext_update*"`date +%s -d "$FUPDATE"` >> $S
 
-LUPDATE=`cat DATE`
-echo "last_update*"`date +%s -d "$LUPDATE"` >> $S
+echo "last_update*"`head -n1 ChangeLog | cut -d* -f2` >> $S
 
 echo "animated_gif*"`find animace/img/ -type f -name "*.gif" | wc -l` >> $S
 
 echo "animated_siteswaps*"`find animace/siteswap -type f -name "*.gif" | wc -l` >> $S
 
-echo "img*"`find img/ rss/ikonky/ ulita/img/ kalendar/img/ -type f -name "*.jpg" -o -name "*.png" -o -name "*.gif" | wc -l` >> $S
+echo "img*"`find img/ rss/ikonky/ ulita/img/ kalendar/img/ mapa/static/ -type f -name "*.jpg" -o -name "*.png" -o -name "*.gif" | wc -l` >> $S
 
 diff $S $ST &>/dev/null || mv $S $ST
 

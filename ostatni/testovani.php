@@ -10,7 +10,7 @@ $smarty->assign('description','Automatické testy webu pomocí perlu');
 
 $dalsi=array(
 	array('url'=>'/statistiky.html','text'=>'Statistiky','title'=>'Statistiky žonlérova slabikáře'),
-	array('url'=>'/software.html','text'=>'Použitý software','title'=>'Seznam použitého software'),
+	array('url'=>'/toolbox.html','text'=>'Použitý software','title'=>'Seznam použitého software'),
 
 	);
 $smarty->assign_by_ref('dalsi',$dalsi);

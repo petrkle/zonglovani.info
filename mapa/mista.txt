@@ -33,8 +33,10 @@ karvina:Karviná:z Karviné:v Karviné:kraj-moravskoslezsky:CZ:49.8534622:18.540
 kladno:Kladno:z Kladna:v Kladně:kr-stredocesky:CZ:50.1470184:14.1032667
 klatovy:Klatovy:z Klatov:v Klatovech:kraj-plzensky:CZ:49.3954468:13.2947531
 kolin:Kolín:z Kolína:v Kolíně:kr-stredocesky:CZ:50.0280075:15.2011665
+koprivnice:Kopřivnice:z Kopřivnice:v Kopřivnici:kr-moravskoslezsky:CZ:49.5999069:18.1440430
 kromeriz:Kroměříž:z Kroměříže:v Kroměříži:kraj-zlinsky:CZ:49.2989616:17.3906059
 kutna-hora:Kutná Hora:z Kutné Hory:v Kutné Hoře:kr-stredocesky:CZ:49.9482540:15.2679677
+ledec-nad-sazavou:Ledeč nad Sázavou:v Ledče nad Sázavou:v Ledeči nad Sázavou:kr-vysocina:CZ:49.6949558:15.2779260
 liberec:Liberec:z Liberece:v Liberci:kr-liberecky:CZ:50.7670199:15.0561346
 litomerice:Litoměřice:z Litoměřic:v Litoměřicích:kraj-ustecky:CZ:50.5338588:14.1312228
 louny:Louny:z Loun:v Lounech:kraj-ustecky:CZ:50.3567009:13.7968578
@@ -72,7 +74,10 @@ trutnov:Trutnov:z Trutnova:v Trutnově:kraj-kralovehradecky:CZ:50.5608982:15.912
 uherske-hradiste:Uherské Hradiště:z Uherského Hradiště:v Uherském Hradišti:kraj-zlinsky:CZ:49.0683317:17.4605112
 usti-nad-labem:Ústí nad Labem:z Ústí nad Labem:v Ústí nad Labem:kraj-ustecky:CZ:50.6610266:14.0329968
 usti-nad-orlici:Ústí nad Orlicí:z Ústí nad Orlicí:v Ústí nad Orlicí:kraj-pardubicky:CZ:49.9736137:16.3942966
+valasske-mezirici:Valašské Meziříčí:z Valašského Meziříčí:ve Valašském Meziříčí:kraj-zlinsky:CZ:49.4717598:17.9715538
+velke-mezirici:Velké Meziříčí:z Velkého Meziříčí:ve Velkém Meziříčí:kraj-vysocina:CZ:49.3547421:16.0129193
 vsetin:Vsetín:ze Vsetína:ve Vsetíně:kraj-zlinsky:CZ:49.3402653:17.9929739
+vlasim:Vlašim:z Vlašimi:ve Vlašimi:kr-stredocesky:CZ:49.7061462:14.8980579
 vyskov:Vyškov:z Vyškova:ve Vyškově:kr-jihomoravsky:CZ:49.2768858:16.9982272
 zdar-nad-sazavou:Žďár nad Sázavou:ze Žďáru nad Sázavou:ve Žďáru nad Sázavou:kraj-pardubicky:CZ:49.5626831:15.9398127
 zlin:Zlín:ze Zlína:ve Zlíně:kraj-zlinsky:CZ:49.2268877:17.6689027
