@@ -25,31 +25,40 @@ $dalsi=array(
 	);
 $smarty->assign_by_ref('dalsi',$dalsi);
 
+function load_stats(){
+	$sf='stat.txt';
+	$navrat=array();
+	if(is_file($sf)){
+		$stat=file($sf);
+		if(is_array($stat)){
+			foreach($stat as $radek){
+				$radek=preg_split('/\*/',trim($radek));
+				if(count($radek)==2){
+					$navrat[$radek[0]]=$radek[1];
+				}
+			}
+			if(isset($navrat['last_update'])){
+				$navrat['last_update_hr']=date('j. n. Y G.i',$navrat['last_update']);
+			}
+			if(isset($navrat['fulltext_update'])){
+				$navrat['fulltext_update_hr']=date('j. n. Y G.i',$navrat['fulltext_update']);
+			}
+		}else{
+			$navrat=false;
+		}
+	}else{
+		$navrat=false;
+	}
+	return $navrat;
+};
+
+$stats_from_file=load_stats();
+
 $diskuse_pocet=0;
 $adr=opendir(DISKUSE_DATA);
 while (false!==($file = readdir($adr))) {
 	if (preg_match('/.+\.txt$/',$file)){
 		$diskuse_pocet++;
-	};
-};
-closedir($adr); 
-
-$video_pocet=0;
-$adr=opendir('../video/klip');
-while (false!==($file = readdir($adr))) {
-	if (preg_match('/.+\.xml$/',$file)){
-		$video_pocet++;
-	};
-};
-closedir($adr); 
-
-$testy_pocet=0;
-$adr=opendir('../scripts/tests');
-while (false!==($file = readdir($adr))) {
-	if (preg_match('/.+\.t$/',$file)){
-		$test=file_get_contents("../scripts/tests/$file");
-		$pocet=preg_replace('/([^0-9]*)/','',preg_replace('/.*More tests ([^;]*).*/s','\1',$test));
-		$testy_pocet=$testy_pocet+$pocet;
 	};
 };
 closedir($adr); 
@@ -63,27 +72,18 @@ while (false!==($file = readdir($adr))) {
 };
 closedir($adr); 
 
-$filename = $_SERVER['DOCUMENT_ROOT'].'/data/dump.sql.bz2';
-if (file_exists($filename)) {
-  $fupdate=date('j. n. Y G.i', filectime($filename));
-}else{
-	$fupdate='?';
-}
+$live_stat=array();
+$live_stat['pocet_lide']=count(get_loginy())-1;
+$live_stat['pocet_diskuse']=$diskuse_pocet;
+$live_stat['pocet_kalendar']=$kal_pocet;
 
-
-$stat=array();
 $navstevnost=nav_load_data();
 arsort($navstevnost);
 
-$stat['aktualizace']=date('j. n. Y G.i', filectime('../ChangeLog'));
-$stat['pocet_lide']=count(get_loginy())-1;
-$stat['pocet_diskuse']=$diskuse_pocet;
-$stat['pocet_kalendar']=$kal_pocet;
-$stat['pocet_video']=$video_pocet;
-$stat['fupdate']=$fupdate;
-$stat['testy']=$testy_pocet;
-$stat['navstevnost']=$navstevnost;
-$stat['navstevnost_dni']=count($navstevnost);
+$stats_from_file['navstevnost']=$navstevnost;
+$stats_from_file['navstevnost_dni']=count($navstevnost);
+
+$stat=array_merge($live_stat,$stats_from_file);
 
 $trail = new Trail();
 $trail->addStep($titulek);

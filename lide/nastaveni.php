@@ -478,7 +478,7 @@ $message .= "--$mime_boundary--\n\n";
 					$smarty->assign('antispam_otazka',$_SESSION['antispam_otazka']);
 				}
 
-			if(!eregi('^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$',$email)){
+			if(!preg_patch('/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$/i',$email)){
 				array_push($chyby,'Neplatný e-mail.');
 			}else{
 				if(is_zs_email($email)){
@@ -639,9 +639,13 @@ $message .= "--$mime_boundary--\n\n";
 					array_push($chyby,'Heslo není zadané, nebo je příliš krátké. Minimální délka hesla je 5 znaků.');
 				}
 
-				if(eregi('.*'.$_SESSION['uzivatel']['login'].'.*',$heslo) or eregi('.*'.$_SESSION['uzivatel']['jmeno'].'.*',$heslo) or eregi('.*'.$_SESSION['uzivatel']['email'].'.*',$heslo)){
-					array_push($chyby,'Zadané heslo je příliš slabé.');
-				}
+					if(
+						preg_match('/.*'.$_SESSION['uzivatel']['login'].'.*/i',$heslo) or 
+						preg_match('/.*'.$_SESSION['uzivatel']['jmeno'].'.*/i',$heslo) or
+						preg_match('/.*'.$_SESSION['uzivatel']['email'].'.*/i',$heslo))
+					{
+						array_push($chyby,'Zadané heslo je příliš slabé.');
+					}
 
 				if($heslo!=$heslo2){
 					array_push($chyby,'Nově zadaná hesla se neshodují.');

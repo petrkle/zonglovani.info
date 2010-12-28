@@ -1,7 +1,7 @@
 #!/usr/bin/perl -w
 use strict;
 use WWW::Mechanize;
-use Test::More tests => 1;
+use Test::More tests => 2;
 use Time::Local;
 use Date::Parse;
 
@@ -19,6 +19,7 @@ $year = $year + 1900;
 my $mesic = $mon+1;
 
 my $spravne_tipy = 0;
+my $spatne_tipy = 0;
 
 foreach my $tip(@radky){
 	chomp($tip);
@@ -37,20 +38,26 @@ foreach my $tip(@radky){
 			my $popis=$parts[4];
 			if(length($titulek)<=0 || length($popis)<=0){
 				$chyby++;
+				diag("Chybějící titulek nebo popis $tip");
 			}
 			$bot->get("http://zongl.info$url");
 			if($bot->status() !~ /(200|301|302)/){
 				$chyby++;
+				diag("http://zongl.info$url return ".$bot->status());
 			}
 			$bot->get("http://zongl.info/img/$fl/$img");
 			if($bot->status() !~ /(200|301|302)/){
 				$chyby++;
+				diag("http://zongl.info/img/$fl/$img return ".$bot->status());
 			}
 			if($chyby==0){
 				$spravne_tipy++;
+			}else{
+				$spatne_tipy++;
 			}
 		}
 	}
 }
 
 ok($spravne_tipy>5,"$spravne_tipy správných tipů v zásobě");
+ok($spatne_tipy==0,"Tipy neobsahují chybný odkaz, obrázek, text nebo popis");

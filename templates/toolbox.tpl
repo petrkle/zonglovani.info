@@ -20,7 +20,7 @@
 <li><a href="http://lftp.yar.ru" onclick="pageTracker._trackPageview('/goto/lftp.yar.ru');" class="external">lftp</a> - ftp klient</li>
 <li><a href="http://www.gnu.org/software/tar" onclick="pageTracker._trackPageview('/goto/gnu.org/software/tar');" class="external">tar</a> - zálohy</li>
 <li><a href="http://www.gzip.org" onclick="pageTracker._trackPageview('/goto/gzip.org');" class="external">gzip</a> - zálohy</li>
-<li><a href="http://www.perl.org" onclick="pageTracker._trackPageview('/goto/perl.org');" class="external">perl</a> - testování</li>
+<li><a name="perl"></a><a href="http://www.perl.org" onclick="pageTracker._trackPageview('/goto/perl.org');" class="external">perl</a> a jeho <a href="/testovani.html#pm" title="Seznam použitých perlovských modulů">moduly</a> - testování</li>
 <li><a href="http://www.sno.phy.queensu.ca/~phil/exiftool" onclick="pageTracker._trackPageview('/goto/sno.phy.queensu.ca/~phil/exiftool');" class="external">ExifTool</a> - informace o multimediálních souborech</li>
 <li><a href="http://www.gnupg.org" onclick="pageTracker._trackPageview('/goto/gnupg.org');" class="external">gpg</a> - šifrování záloh</li>
 <li><a href="http://www.htmlhelp.com/tools/validator/offline/index.html.en" onclick="pageTracker._trackPageview('/goto/htmlhelp.com/tools/validator/offline/index.html.en" title="Offline HTMLHelp.com Validator');" class="external">validate</a> - kontrola syntaxe html</li>
@@ -31,4 +31,8 @@
 <li><a href="http://www.gnu.org/software/findutils" onclick="pageTracker._trackPageview('/goto/gnu.org/software/findutils');" class="external">find</a> - automatizace</li>
 <li><a href="/software.html#juggleanim" title="Program JuggleAnim">JuggleAnim</a> - animace žonglování</li>
 <li><a href="http://www.semicomplete.com/projects/xdotool/" onclick="pageTracker._trackPageview('/goto/semicomplete.com/projects/xdotool');" class="external">xdotool</a> - automatizace</li>
+<li><a href="http://www.postfix.org" onclick="pageTracker._trackPageview('/goto/postfix.org');" class="external">Postfix</a> - MTA</li>
+<li><a name="fakemail"></a><a href="http://www.lastcraft.com/fakemail.php" onclick="pageTracker._trackPageview('/goto/lastcraft.com/fakemail.php');" class="external">Fakemail</a> - testování</li>
+{*<li><a href="http://" onclick="pageTracker._trackPageview('/goto/');" class="external"></a> - </li>*}
 </ul>
+{* vim: set nonumber nowrap: *}

@@ -1,11 +1,9 @@
 #!/bin/bash
 
-export IFS='
-'
+T=scripts/tests
 
-echo -n "cpan"
-for foo in `grep -h "^use" scripts/tests/*.t | grep -v strict | sed "s/use //;s/ .*//;s/;//" | sort | uniq`
-do
-	echo -n " $foo"
-done
-echo ""
+grep -h "^use" $T/*.t | grep -v strict | sed "s/use //;s/ .*//;s/;//" | sort | uniq > $T/pm.txt.new
+
+diff $T/pm.txt $T/pm.txt.new &>/dev/null || mv $T/pm.txt.new $T/pm.txt
+
+rm -f $T/pm.txt.new

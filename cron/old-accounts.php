@@ -21,7 +21,9 @@ foreach($loginy as $login){
 	if(($now-$lastlogin)>(365*24*3600)){
 		# zablokovat ucet
 		print "lock - $login\n";
-		unlink(SENDMAIL_DATA.'/'.$info['email'].'.spici','w');
+		if(is_file(SENDMAIL_DATA.'/'.$info['email'].'.spici')){
+			unlink(SENDMAIL_DATA.'/'.$info['email'].'.spici');
+		}
 		$foo=fopen(LIDE_DATA.'/'.$login.'/LOCKED','w');
 		fwrite($foo,time());
 		fclose($foo);

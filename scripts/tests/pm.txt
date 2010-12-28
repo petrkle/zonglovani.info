@@ -1,0 +1,14 @@
+Date::Format
+Date::Parse
+Encode
+File::Basename
+File::Compare
+File::Slurp
+Image::Size
+List::Util
+Net::Netrc
+POSIX
+String::MkPasswd
+Test::More
+Time::Local
+WWW::Mechanize

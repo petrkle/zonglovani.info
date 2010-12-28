@@ -66,7 +66,7 @@
 2010-12-21*Don Texas*/video/don-texas.html*dtt.jpg*Malte a Nils si hrají s míčky.
 2010-12-22*Veselé vánoce*/vanoce-2010.html*vanocni-kometa.s.jpg*Veselé vánoční svátky. Ať vám to lítá :^)
 2010-12-27*PF 2011*/pf-2011.html*pf-2011.png*Hodně štěstí a zdraví v novém roce. Ať vám to lítá :^)
-2011-01-03*Statistika*/statistika.html*podporaa.png*Trocha bilancování uplynulého roku. Podívej se kolik lidí používá žonglérův slabikář.
+2011-01-03*Statistika*/statistiky.html*podporaa.png*Trocha bilancování uplynulého roku. Podívej se kolik lidí používá žonglérův slabikář.
 2011-01-10*Žonglování v Ulitě*/ulita/?20110116*ulita.cz.png*V domě dětí a mládeže Ulita se pravidelně žongluje. Přijít mohou začínající i zkušení žongléři a žonglérky.
 2011-01-17*Otáčení kuželky okolo palce*/kuzely/toceni-okolo-palce.html*tocenib.png*Trik který můžeš trénovat i v místnostech s nízkým stropem.
 2011-01-24*Žonglování v Ulitě*/ulita/?20110130*ulita.cz.png*V domě dětí a mládeže Ulita se pravidelně žongluje. Přijít mohou začínající i zkušení žongléři a žonglérky.
@@ -82,7 +82,7 @@
 2011-04-04*Výhody pro registrované uživatele*/exkurze.html*exkurze-nahled-2010-2-28-19-49-47.jpg*Obrázky a popis výhod pro registrované uživatele žonglérova slabikáře.
 2011-04-11*Žonglování v Ulitě*/ulita/?20110417*ulita.cz.png*V domě dětí a mládeže Ulita se pravidelně žongluje. Přijít mohou začínající i zkušení žongléři a žonglérky.
 2011-04-18*Sloupy ve dvou*/kuzely/passing/sloupy.html*kuzely-passing-sloupyd.png*Trik pro dva žongléry se čtyřmi kužely.
-2011-04-25*Twitter*/twitter.html*twiter.png*Co si vrabci štěbetají o žonglování? Přes twitter se dozvíš o všech novinkách.
+2011-04-25*Twitter*/twitter.html*twitter.png*Co si vrabci štěbetají o žonglování? Přes twitter se dozvíš o všech novinkách.
 2011-05-02*Doplňky do prohlížeče*/doplnky-prohlizece.html*browsers.png*Žonglérské doplňky do internetových prohlížečů.
 2011-05-09*
 2011-05-16*
@@ -109,3 +109,4 @@
 2011-10-10
 2011-10-17
 2011-10-24
+# vim: set nonumber nowrap:

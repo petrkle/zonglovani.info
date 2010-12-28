@@ -5,6 +5,10 @@ Aktuální
 - posílání vzkazů - kontrolovat jestli má člověk nastavené zasílání vzkazů, všechny zprávy multipart text/html
 - další, předchozí - odkazy v seznamu žonglérů, seznamu míst
 - widget pro cizí stránky - použití JSON api z kalendáře
+- do seznamu míst přidat Velmez, Valmez, Kopřivnici, Vlašim, Ledeč, Zruč a Alberovice
+- make test před každým uploadem?
+- rss update, kml update - nepřepisovat vždy
+
 
 Kalendář
 ========
@@ -31,10 +35,14 @@ Automatizace
 ============
 - skript pro zálohování - šifrovat zálohu, automaticky vymazávat staré zálohy z flashky
 - skript pro aktualizaci z flasky na disk: ./make-restore.sh
-- make stats - sestaví některé statistiky a zapíše je do txt souboru
 
 Testy
 =====
+- všechny úlohy v cronu
+- rss update
+- on-line test - dostupnost rss zdrojů, stránky v odkazech
+- mapa žonglérů, kml soubor
+- doplnit do testů diag("Popis chyby $promena");
 
 Obsah
 =====

@@ -1,0 +1,3 @@
+Cmnd_Alias CRYPT_DISK = /sbin/cryptsetup luksOpen /dev/sdg2 flashdisk, /sbin/cryptsetup luksClose /dev/mapper/flashdisk
+Cmnd_Alias ZS_TESTS = /bin/bash /home/www/zonglovani.info/scripts/tests/clean.sh
+%users ALL=NOPASSWD: CRYPT_DISK, ZS_TESTS

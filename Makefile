@@ -23,6 +23,7 @@ trikimg:
 	./scripts/sitemap-trik-img.sh
 
 upload:
+	./scripts/stats.sh
 	./scripts/upload.sh
 
 time:
@@ -32,6 +33,7 @@ fupdate:
 	./scripts/fulltext-update.sh
 
 tests:
+	./scripts/tests/zavislosti.sh
 	./scripts/tests/tests.pl
 
 htmlval:

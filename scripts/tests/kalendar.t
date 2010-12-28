@@ -60,6 +60,9 @@ my $zs_udalost = $bot->submit_form(form_number => 0 ,fields => {
 	}, button=>'odeslat');
 
 my $event=$zs_udalost->content();
+my $event_url=$bot->uri();
+my $idpart=$event_url;
+$idpart =~ s/.*\/kalendar\/udalost-(.+)\.html/$1/;
 my $zacatek_hr=time2str("%e\. %L\. %Y",$zacatek);
 $zacatek_hr =~ s/^ //;
 
@@ -80,7 +83,7 @@ $zs_udalost = $bot->submit_form(form_number => 0 , button=>'smazat');
 
 ok($zs_udalost->content() =~ /<h3>Smazané události<\/h3>/, 'Seznam smazaných událostí');
 
-my $mazani = $bot->follow_link(url_regex => qr/.*smazane.*/, n=>1);
+my $mazani = $bot->follow_link(url_regex => qr/.*smazane-$idpart.*/, n=>1);
 my $vymaz = $mazani->content();
 
 ok($vymaz =~ /<title>Testovací nadpis $zacatek_hr až $konec_hr - kalendář žonglování<\/title>/,'Správný titulek - smazaná událost');
@@ -95,4 +98,4 @@ ok($vymaz =~ /<input type="submit" name="restore" value="Obnovit"/,'Knoflík na 
 
 $zs_udalost = $bot->submit_form(form_number => 0 , button=>'shred');
 
-ok($zs_udalost->content() !~ /Testovací nadpis/, 'Uspěšně smazáno');
+ok($zs_udalost->content() !~ /.*$idpart.*/, 'Uspěšně smazáno');

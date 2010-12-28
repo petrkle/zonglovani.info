@@ -9,8 +9,8 @@ my $warn_after=335;
 my $lock_after=365;
 
 my $DATA_LIDE='/home/www/zonglovani.info/data/lide';
-my $heslo = mkpasswd(-length => 13, -minnum => 4, -minlower => 4, -minupper => 2, -minspecial => 3);
-my $nove_heslo = mkpasswd(-length => 13, -minnum => 4, -minlower => 4, -minupper => 2, -minspecial => 3);
+my $heslo = mkpasswd(-length => 13, -minnum => 4, -minlower => 4, -minupper => 2, -minspecial => 0);
+my $nove_heslo = mkpasswd(-length => 13, -minnum => 4, -minlower => 4, -minupper => 2, -minspecial => 0);
 my $jmeno = mkpasswd(-length => 10, -minnum => 0, -minlower => 4, -minupper => 2, -minspecial => 0);
 my $login = 'tst'.mkpasswd(-length => 7, -minnum => 0, -minlower => 4, -minupper => 0, -minspecial => 0);
 
@@ -116,4 +116,4 @@ $zs_prihlaseni = $bot->submit_form(form_number => 0,fields => {'login'=>$login,'
 ok($zs_prihlaseni->content() =~ /Účet byl zrušen/,'Neaktivní účet je zrušený');
 
 system("rm -rf $DATA_LIDE/$login");
-system("sudo /bin/bash /home/www/zonglovani.info/scripts/tests/clean.sh")
+system("sudo /bin/bash /home/www/zonglovani.info/scripts/tests/clean.sh");
