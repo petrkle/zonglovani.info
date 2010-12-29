@@ -1,0 +1,43 @@
+{
+  "status": "OK",
+  "results": [ {
+    "types": [ "administrative_area_level_1", "political" ],
+    "formatted_address": "Usti nad Labem, Czech Republic",
+    "address_components": [ {
+      "long_name": "Usti nad Labem",
+      "short_name": "Usti nad Labem",
+      "types": [ "administrative_area_level_1", "political" ]
+    }, {
+      "long_name": "Czech Republic",
+      "short_name": "CZ",
+      "types": [ "country", "political" ]
+    } ],
+    "geometry": {
+      "location": {
+        "lat": 50.6119037,
+        "lng": 13.7870086
+      },
+      "location_type": "APPROXIMATE",
+      "viewport": {
+        "southwest": {
+          "lat": 50.1565653,
+          "lng": 12.7625335
+        },
+        "northeast": {
+          "lat": 51.0628771,
+          "lng": 14.8114837
+        }
+      },
+      "bounds": {
+        "southwest": {
+          "lat": 50.0774319,
+          "lng": 12.9400687
+        },
+        "northeast": {
+          "lat": 51.0556480,
+          "lng": 14.6526210
+        }
+      }
+    }
+  } ]
+}

@@ -1,0 +1,43 @@
+{
+  "status": "OK",
+  "results": [ {
+    "types": [ "administrative_area_level_1", "political" ],
+    "formatted_address": "Pilsen, Czech Republic",
+    "address_components": [ {
+      "long_name": "Pilsen",
+      "short_name": "Pilsen",
+      "types": [ "administrative_area_level_1", "political" ]
+    }, {
+      "long_name": "Czech Republic",
+      "short_name": "CZ",
+      "types": [ "country", "political" ]
+    } ],
+    "geometry": {
+      "location": {
+        "lat": 49.4134812,
+        "lng": 13.3157246
+      },
+      "location_type": "APPROXIMATE",
+      "viewport": {
+        "southwest": {
+          "lat": 48.9466830,
+          "lng": 12.2912495
+        },
+        "northeast": {
+          "lat": 49.8758820,
+          "lng": 14.3401997
+        }
+      },
+      "bounds": {
+        "southwest": {
+          "lat": 48.9420780,
+          "lng": 12.4000651
+        },
+        "northeast": {
+          "lat": 50.1033335,
+          "lng": 13.8351029
+        }
+      }
+    }
+  } ]
+}

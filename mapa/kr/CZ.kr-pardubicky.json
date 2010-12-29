@@ -1,0 +1,43 @@
+{
+  "status": "OK",
+  "results": [ {
+    "types": [ "administrative_area_level_1", "political" ],
+    "formatted_address": "Pardubice, Czech Republic",
+    "address_components": [ {
+      "long_name": "Pardubice",
+      "short_name": "Pardubice",
+      "types": [ "administrative_area_level_1", "political" ]
+    }, {
+      "long_name": "Czech Republic",
+      "short_name": "CZ",
+      "types": [ "country", "political" ]
+    } ],
+    "geometry": {
+      "location": {
+        "lat": 49.9444479,
+        "lng": 16.2856916
+      },
+      "location_type": "APPROXIMATE",
+      "viewport": {
+        "southwest": {
+          "lat": 49.4827018,
+          "lng": 15.2612165
+        },
+        "northeast": {
+          "lat": 50.4018100,
+          "lng": 17.3101667
+        }
+      },
+      "bounds": {
+        "southwest": {
+          "lat": 49.5719643,
+          "lng": 15.3635982
+        },
+        "northeast": {
+          "lat": 50.2077483,
+          "lng": 16.8665981
+        }
+      }
+    }
+  } ]
+}

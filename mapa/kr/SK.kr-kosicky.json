@@ -1,0 +1,43 @@
+{
+  "status": "OK",
+  "results": [ {
+    "types": [ "administrative_area_level_1", "political" ],
+    "formatted_address": "Košický kraj, Slovakia",
+    "address_components": [ {
+      "long_name": "Košický kraj",
+      "short_name": "Košický kraj",
+      "types": [ "administrative_area_level_1", "political" ]
+    }, {
+      "long_name": "Slovakia",
+      "short_name": "SK",
+      "types": [ "country", "political" ]
+    } ],
+    "geometry": {
+      "location": {
+        "lat": 48.6375737,
+        "lng": 21.0834225
+      },
+      "location_type": "APPROXIMATE",
+      "viewport": {
+        "southwest": {
+          "lat": 48.1634661,
+          "lng": 20.0589474
+        },
+        "northeast": {
+          "lat": 49.1072670,
+          "lng": 22.1078976
+        }
+      },
+      "bounds": {
+        "southwest": {
+          "lat": 48.3325145,
+          "lng": 20.1811034
+        },
+        "northeast": {
+          "lat": 49.0197463,
+          "lng": 22.3867713
+        }
+      }
+    }
+  } ]
+}

@@ -1,3 +1,4 @@
+#map_canvas div div div {text-align:left;}
 .kontejner{width:1000px;margin:10px auto 10px auto;}
 #map_canvas{width:800px;height:500px;float:left;border-left:solid 1px #000;border-top:solid 1px #000;border-bottom:solid 1px #000;background:#eee;}
 .gmnoprint{text-align:left;}
@@ -8,3 +9,10 @@
 #legenda{text-align:left;}
 h3{color:#c00;}
 #legenda p{padding:5px;}
+.oblasti{text-align:left;}
+.oblasti h3{color:#000;}
+.oblasti table{padding:0 0 0 50px;text-align:left;}
+.oblasti tr{padding:0;margin:0;text-align:left;}
+.oblasti h4{margin:0;padding:0;text-align:left;}
+.oblasti td{width:300px;vertical-align:top;}
+.oblasti ul{margin-top:0;padding-top:0;}

@@ -1,0 +1,43 @@
+{
+  "status": "OK",
+  "results": [ {
+    "types": [ "administrative_area_level_1", "political" ],
+    "formatted_address": "Trenciansky kraj, Slovakia",
+    "address_components": [ {
+      "long_name": "Trenčiansky kraj",
+      "short_name": "Trenčiansky kraj",
+      "types": [ "administrative_area_level_1", "political" ]
+    }, {
+      "long_name": "Slovakia",
+      "short_name": "SK",
+      "types": [ "country", "political" ]
+    } ],
+    "geometry": {
+      "location": {
+        "lat": 48.8086758,
+        "lng": 18.2324027
+      },
+      "location_type": "APPROXIMATE",
+      "viewport": {
+        "southwest": {
+          "lat": 48.3361725,
+          "lng": 17.2079276
+        },
+        "northeast": {
+          "lat": 49.2767682,
+          "lng": 19.2568778
+        }
+      },
+      "bounds": {
+        "southwest": {
+          "lat": 48.4855211,
+          "lng": 17.3541977
+        },
+        "northeast": {
+          "lat": 49.3195315,
+          "lng": 18.8268418
+        }
+      }
+    }
+  } ]
+}

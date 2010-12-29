@@ -1,0 +1,43 @@
+{
+  "status": "OK",
+  "results": [ {
+    "types": [ "administrative_area_level_1", "political" ],
+    "formatted_address": "Nitriansky kraj, Slovakia",
+    "address_components": [ {
+      "long_name": "Nitriansky kraj",
+      "short_name": "Nitriansky kraj",
+      "types": [ "administrative_area_level_1", "political" ]
+    }, {
+      "long_name": "Slovakia",
+      "short_name": "SK",
+      "types": [ "country", "political" ]
+    } ],
+    "geometry": {
+      "location": {
+        "lat": 48.0143765,
+        "lng": 18.5416505
+      },
+      "location_type": "APPROXIMATE",
+      "viewport": {
+        "southwest": {
+          "lat": 47.5344619,
+          "lng": 17.5171754
+        },
+        "northeast": {
+          "lat": 48.4898656,
+          "lng": 19.5661256
+        }
+      },
+      "bounds": {
+        "southwest": {
+          "lat": 47.7313888,
+          "lng": 17.7072783
+        },
+        "northeast": {
+          "lat": 48.7145273,
+          "lng": 19.0717403
+        }
+      }
+    }
+  } ]
+}

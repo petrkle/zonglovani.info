@@ -1,0 +1,43 @@
+{
+  "status": "OK",
+  "results": [ {
+    "types": [ "administrative_area_level_1", "political" ],
+    "formatted_address": "Olomouc, Czech Republic",
+    "address_components": [ {
+      "long_name": "Olomouc",
+      "short_name": "Olomouc",
+      "types": [ "administrative_area_level_1", "political" ]
+    }, {
+      "long_name": "Czech Republic",
+      "short_name": "CZ",
+      "types": [ "country", "political" ]
+    } ],
+    "geometry": {
+      "location": {
+        "lat": 49.6586549,
+        "lng": 17.0811406
+      },
+      "location_type": "APPROXIMATE",
+      "viewport": {
+        "southwest": {
+          "lat": 49.1941845,
+          "lng": 16.0566655
+        },
+        "northeast": {
+          "lat": 50.1187339,
+          "lng": 18.1056157
+        }
+      },
+      "bounds": {
+        "southwest": {
+          "lat": 49.2669760,
+          "lng": 16.7116089
+        },
+        "northeast": {
+          "lat": 50.4479637,
+          "lng": 17.9172214
+        }
+      }
+    }
+  } ]
+}

@@ -1,0 +1,43 @@
+{
+  "status": "OK",
+  "results": [ {
+    "types": [ "administrative_area_level_1", "political" ],
+    "formatted_address": "Moravian-Silesia, Czech Republic",
+    "address_components": [ {
+      "long_name": "Moravian-Silesia",
+      "short_name": "Moravian-Silesia",
+      "types": [ "administrative_area_level_1", "political" ]
+    }, {
+      "long_name": "Czech Republic",
+      "short_name": "CZ",
+      "types": [ "country", "political" ]
+    } ],
+    "geometry": {
+      "location": {
+        "lat": 49.7305327,
+        "lng": 18.2332637
+      },
+      "location_type": "APPROXIMATE",
+      "viewport": {
+        "southwest": {
+          "lat": 49.2667463,
+          "lng": 17.2087886
+        },
+        "northeast": {
+          "lat": 50.1899295,
+          "lng": 19.2577388
+        }
+      },
+      "bounds": {
+        "southwest": {
+          "lat": 49.3925763,
+          "lng": 17.1462629
+        },
+        "northeast": {
+          "lat": 50.3282720,
+          "lng": 18.8599103
+        }
+      }
+    }
+  } ]
+}

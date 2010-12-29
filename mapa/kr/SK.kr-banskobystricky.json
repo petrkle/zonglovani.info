@@ -1,0 +1,43 @@
+{
+  "status": "OK",
+  "results": [ {
+    "types": [ "administrative_area_level_1", "political" ],
+    "formatted_address": "Banskobystrický kraj, Slovakia",
+    "address_components": [ {
+      "long_name": "Banskobystrický kraj",
+      "short_name": "Banskobystrický kraj",
+      "types": [ "administrative_area_level_1", "political" ]
+    }, {
+      "long_name": "Slovakia",
+      "short_name": "SK",
+      "types": [ "country", "political" ]
+    } ],
+    "geometry": {
+      "location": {
+        "lat": 48.5312499,
+        "lng": 19.3828740
+      },
+      "location_type": "APPROXIMATE",
+      "viewport": {
+        "southwest": {
+          "lat": 48.0561475,
+          "lng": 18.3583989
+        },
+        "northeast": {
+          "lat": 49.0019360,
+          "lng": 20.4073491
+        }
+      },
+      "bounds": {
+        "southwest": {
+          "lat": 48.0536523,
+          "lng": 18.4786903
+        },
+        "northeast": {
+          "lat": 48.9469507,
+          "lng": 20.4696516
+        }
+      }
+    }
+  } ]
+}

@@ -1,0 +1,43 @@
+{
+  "status": "OK",
+  "results": [ {
+    "types": [ "administrative_area_level_1", "political" ],
+    "formatted_address": "Žilinský kraj, Slovakia",
+    "address_components": [ {
+      "long_name": "Žilinský kraj",
+      "short_name": "Žilinský kraj",
+      "types": [ "administrative_area_level_1", "political" ]
+    }, {
+      "long_name": "Slovakia",
+      "short_name": "SK",
+      "types": [ "country", "political" ]
+    } ],
+    "geometry": {
+      "location": {
+        "lat": 49.2031435,
+        "lng": 19.3645733
+      },
+      "location_type": "APPROXIMATE",
+      "viewport": {
+        "southwest": {
+          "lat": 48.7343552,
+          "lng": 18.3400982
+        },
+        "northeast": {
+          "lat": 49.6675295,
+          "lng": 20.3890484
+        }
+      },
+      "bounds": {
+        "southwest": {
+          "lat": 48.7412598,
+          "lng": 18.3226368
+        },
+        "northeast": {
+          "lat": 49.6138237,
+          "lng": 20.0600768
+        }
+      }
+    }
+  } ]
+}

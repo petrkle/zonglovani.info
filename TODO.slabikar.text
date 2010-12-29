@@ -1,13 +1,13 @@
 Aktuální
 ========
 - hitparáda hodnocených stránek, aktualizace žebříčku cronem 
-- mapy - působiště člověka - živá mapa, okresy, přesunout místa pod mapu
+- mapy - působiště člověka - živá mapa, přesunout místa pod mapu
 - posílání vzkazů - kontrolovat jestli má člověk nastavené zasílání vzkazů, všechny zprávy multipart text/html
 - další, předchozí - odkazy v seznamu žonglérů, seznamu míst
 - widget pro cizí stránky - použití JSON api z kalendáře
 - make test před každým uploadem?
 - rss update, kml update - nepřepisovat vždy
-- kr-pardubicky opravit na vysočinu
+- obrázky na plochu, doplnit popisky a img sitemapu
 
 
 Kalendář
@@ -69,3 +69,4 @@ test na stahování pdf
 test na posílání vzkazů
 validní ical - http://arnout.engelen.eu/icalendar-validator, vyzkoušet v sunbirdu, google calendar (má bug s letním časem)
 do seznamu míst přidat Velmez, Valmez, Kopřivnici, Vlašim, Ledeč a Zruč
+kraje na mapě

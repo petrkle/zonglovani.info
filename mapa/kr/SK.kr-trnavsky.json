@@ -1,0 +1,43 @@
+{
+  "status": "OK",
+  "results": [ {
+    "types": [ "administrative_area_level_1", "political" ],
+    "formatted_address": "Trnavský kraj, Slovakia",
+    "address_components": [ {
+      "long_name": "Trnavský kraj",
+      "short_name": "Trnavský kraj",
+      "types": [ "administrative_area_level_1", "political" ]
+    }, {
+      "long_name": "Slovakia",
+      "short_name": "SK",
+      "types": [ "country", "political" ]
+    } ],
+    "geometry": {
+      "location": {
+        "lat": 48.3943898,
+        "lng": 17.7216205
+      },
+      "location_type": "APPROXIMATE",
+      "viewport": {
+        "southwest": {
+          "lat": 47.9180094,
+          "lng": 16.6971454
+        },
+        "northeast": {
+          "lat": 48.8663513,
+          "lng": 18.7460956
+        }
+      },
+      "bounds": {
+        "southwest": {
+          "lat": 47.7574458,
+          "lng": 16.9334638
+        },
+        "northeast": {
+          "lat": 48.8781714,
+          "lng": 17.9854106
+        }
+      }
+    }
+  } ]
+}

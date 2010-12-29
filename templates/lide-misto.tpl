@@ -9,5 +9,6 @@
 V žonglérově slabikáři ještě není žádný uživatel {$misto|escape}. Můžeš být první. <a href="{$smarty.const.LIDE_URL}pravidla.php" title="Vytvořit uživatelský účet." class="add">Vytvořit nový účet</a>.
 </p>
 {/if}
-<h3><a href="/mapa/" title="Interaktivní žonglérská mapa">Mapa</a></h3>
-<p><a href="/mapa/" title="Interaktivní žonglérská mapa">{obrazek soubor="$id.png" popisek="Mapa - $jmeno" path='/mapa/static/'}</a></p>
+
+<h3><a href="/mapa/kraj/{$pusobiste[$id].kraj}/" title="Mapa - {$jmeno|escape} a okolí">Mapa</a></h3>
+<p><a href="/mapa/kraj/{$pusobiste[$id].kraj}/" title="Mapa - {$jmeno|escape} a okolí">{obrazek soubor="$id.png" popisek="Mapa - $jmeno" path='/mapa/static/'}</a></p>

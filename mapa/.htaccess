@@ -4,4 +4,7 @@ RewriteBase /mapa
 RewriteCond %{HTTP_HOST} ^www\.(.*)
 RewriteRule (.*) http://%1/mapa/$1 [R=301,QSA,NE,L]
 
+RewriteRule ^kraj\/(.+)/$ index.php?kraj=$1 [L]
+RewriteRule ^(cr|sk)\.html$ index.php?country=$1 [L]
+
 RewriteRule ^mapa\-(.+)\.kml.*$ kml-dump.php?file=$1 [L]
