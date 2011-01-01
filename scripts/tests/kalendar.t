@@ -56,7 +56,7 @@ my $zs_udalost = $bot->submit_form(form_number => 0 ,fields => {
 		'konec'=>time2str("%Y-%m-%d %H:%M",$konec),
 		'url'=>decode_utf8('http://nekde.cz'),
 		'mapa'=>decode_utf8('http://mapy.cz/obrazek.jpg'),
-		'obrazek'=>'/home/www/zonglovani.info/scripts/tests/600x800.jpg',
+		'obrazek'=>'/home/www/zonglovani.info/scripts/tests/img/600x800.jpg',
 	}, button=>'odeslat');
 
 my $event=$zs_udalost->content();

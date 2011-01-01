@@ -39,7 +39,10 @@ foreach($rss_zdroje as $id=>$kanal){
 		if(preg_match('/rajce\.idnes\.cz/',$kanal['feed_url'])){
 			$item['link']=preg_replace('/^(http:\/\/.*)http:\/\/.*$/','\1',$item['link']);
 		}
-		$foo=fopen(RSS_AGREGATOR_DATA.'/'.$item['date_timestamp'].'-'.$id.'.txt','w');
+
+		$baz=RSS_AGREGATOR_DATA.'/'.$item['date_timestamp'].'-'.$id.'.txt';
+
+		$foo=fopen($baz.'.new','w');
 		fwrite($foo,preg_replace('/\n/',' ',mb_substr($item['title'],0,120,'UTF-8'))."\n");
 		fwrite($foo,preg_replace('/\n/',' ',$item['link'])."\n");
 		if(isset($item['description'])){
@@ -48,6 +51,17 @@ foreach($rss_zdroje as $id=>$kanal){
 			fwrite($foo,preg_replace('/\n/',' ',$item['title'])."\n");
 		}
 		fclose($foo);
+		if(is_file($baz)){
+			if(md5(file_get_contents($baz.'.new'))==md5(file_get_contents($baz.'.new'))){
+				unlink($baz.'.new');
+			}else{
+				print "rename $baz.new\n";
+			}
+		}else{
+			rename($baz.'.new',$baz);
+		}
+
+		
 	}
 
 	# uklid

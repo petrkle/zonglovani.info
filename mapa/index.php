@@ -37,9 +37,9 @@ if(isset($_GET['country'])){
 		'zoom'=>'7',
 			);
 		$trail->addStep('Česká republika','/mapa/cr.html');
-		$description='Žongléři v Čechách, na moravě a ve Slezku.';
+		$description='Žongléři v Čechách, na Moravě a ve Slezsku.';
 		$titulek.=' - ČR';
-		$smarty->assign('nahled','http://'.$_SERVER['SERVER_NAME'].'/img/m/mapa-cr.png');
+		$smarty->assign('nahled','http://'.$_SERVER['SERVER_NAME'].'/mapa/static/m/mapa-cr.png');
 	}else{
 		$country='sk';
 		$smarty->assign('sk',true);
@@ -51,6 +51,7 @@ if(isset($_GET['country'])){
 		$trail->addStep('Slovenská republika','/mapa/sk.html');
 		$description='Žongléři na Slovensku.';
 		$titulek.=' - SR';
+		$smarty->assign('nahled','http://'.$_SERVER['SERVER_NAME'].'/mapa/static/m/mapa-sk.png');
 	}
 }else{
 	$country='false';
@@ -78,15 +79,13 @@ if($kraj){
 }
 
 if(!$poloha){
-
-$poloha=array(
-'lat'=>'49.453567975668975',
-'lng'=>'16.816765',
-'zoom'=>'6',
-	);
-
-$smarty->assign('nahled','http://'.$_SERVER['SERVER_NAME'].'/img/m/mapa-cr.png');
-
+	$poloha=array(
+	'lat'=>'49.453567975668975',
+	'lng'=>'16.816765',
+	'zoom'=>'6',
+		);
+	$smarty->assign('nahled','http://'.$_SERVER['SERVER_NAME'].'/mapa/static/m/mapa-crsk.png');
+	#$smarty->assign('nahled','http://'.$_SERVER['SERVER_NAME'].'/img/m/mapa.png');
 }
 
 $smarty->assign_by_ref('dalsi',$dalsi);

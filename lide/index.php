@@ -49,7 +49,11 @@ $smarty->assign(
     )
 );
 
-$titulek='Seznam žonglérů - '.$pager->getCurrentPageID().'. stránka';
+$titulek='Seznam žonglérů';
+if($pager->getCurrentPageID()!=1){
+	$titulek.=' - '.$pager->getCurrentPageID().'. stránka';
+}
+
 $smarty->assign('nadpis','Seznam žonglérů');
 $smarty->assign('keywords','žonglování, workshop, žongléři, dílna, žonglér, žonglérka, sezna žonglérů, vystoupení, fireshow, akrobacie');
 $smarty->assign('description',$pager->getCurrentPageID().'. stránka seznamu žonglérů a žonglérek kteří umí veřejné vystoupení, fireshow i žonglérské dílny.');

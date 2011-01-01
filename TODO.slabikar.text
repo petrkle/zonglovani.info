@@ -1,13 +1,12 @@
 Aktuální
 ========
 - hitparáda hodnocených stránek, aktualizace žebříčku cronem 
-- mapy - působiště člověka - živá mapa, přesunout místa pod mapu
-- posílání vzkazů - kontrolovat jestli má člověk nastavené zasílání vzkazů, všechny zprávy multipart text/html
 - další, předchozí - odkazy v seznamu žonglérů, seznamu míst
 - widget pro cizí stránky - použití JSON api z kalendáře
 - make test před každým uploadem?
-- rss update, kml update - nepřepisovat vždy
 - obrázky na plochu, doplnit popisky a img sitemapu
+- nastavení - místo kde žongluju, přidat obrázky čř, sk, cz+sk jako odkazy na mapu
+
 
 
 Kalendář
@@ -25,11 +24,12 @@ Etc
 - asynchronní verze GA - http://code.google.com/intl/cs/apis/analytics/docs/tracking/asyncTracking.html
 - témata pro chromium
 - kvíz, průvodce výběrem míčků
-- video - štítky
+- video - štítky, přidat pžm2 a sdílet na fb
 - seznam sitemap
-- přehrávání videa z jugglng.tv přímo na facebooku, whitelist, meta, lint
 - video z Ulity
 - opravit v kalendáří zobrazování akcí 0.00 - 0.00, doplnit do testu
+- Abryho RSS, je validní? Přidat?
+- dovednosti- seznam žonglérů, přidělat obrázek + link na podrobný popis
 
 Automatizace
 ============
@@ -70,3 +70,5 @@ test na posílání vzkazů
 validní ical - http://arnout.engelen.eu/icalendar-validator, vyzkoušet v sunbirdu, google calendar (má bug s letním časem)
 do seznamu míst přidat Velmez, Valmez, Kopřivnici, Vlašim, Ledeč a Zruč
 kraje na mapě
+posílání vzkazů - kontrolovat jestli má člověk nastavené zasílání vzkazů, všechny zprávy multipart text/html
+přehrávání videa z jugglng.tv přímo na facebooku, whitelist, meta, lint - funguje, ale jsou ty meta tagy správně?

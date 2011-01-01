@@ -66,7 +66,8 @@
 2010-12-21*Don Texas*/video/don-texas.html*dtt.jpg*Malte a Nils si hrají s míčky.
 2010-12-22*Veselé vánoce*/vanoce-2010.html*vanocni-kometa.s.jpg*Veselé vánoční svátky. Ať vám to lítá :^)
 2010-12-27*PF 2011*/pf-2011.html*pf-2011.png*Hodně štěstí a zdraví v novém roce. Ať vám to lítá :^)
-2011-01-03*Statistika*/statistiky.html*podporaa.png*Trocha bilancování uplynulého roku. Podívej se kolik lidí používá žonglérův slabikář.
+2011-01-03*Statistiky*/statistiky.html*podporaa.png*Trocha bilancování uplynulého roku. Podívej se kolik lidí používá žonglérův slabikář a na další statistiky.
+2011-01-04*Liquid Crystal*/video/liquid-crystal-live.html*matt-hennem.jpg*Představení Liquid Crystal - Matt Hennem na živo.
 2011-01-10*Žonglování v Ulitě*/ulita/?20110116*ulita.cz.png*V domě dětí a mládeže Ulita se pravidelně žongluje. Přijít mohou začínající i zkušení žongléři a žonglérky.
 2011-01-17*Otáčení kuželky okolo palce*/kuzely/toceni-okolo-palce.html*tocenib.png*Trik který můžeš trénovat i v místnostech s nízkým stropem.
 2011-01-24*Žonglování v Ulitě*/ulita/?20110130*ulita.cz.png*V domě dětí a mládeže Ulita se pravidelně žongluje. Přijít mohou začínající i zkušení žongléři a žonglérky.

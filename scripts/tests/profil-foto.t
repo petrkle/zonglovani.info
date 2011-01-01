@@ -38,7 +38,7 @@ if($zs_fotka->content() =~ /<input type="submit" name="smazat" value="Smazat"/){
 
 $zs_fotka = $bot->get('http://zongl.info/lide/nastaveni/foto');
 
-my $zs_foto = $bot->submit_form(form_number => 0 , fields => {'foto'=> '/home/www/zonglovani.info/scripts/tests/pek-s.jpg' }, button=>'odeslat');
+my $zs_foto = $bot->submit_form(form_number => 0 , fields => {'foto'=> '/home/www/zonglovani.info/scripts/tests/img/pek-s.jpg' }, button=>'odeslat');
 
 ok($zs_foto->content() =~ /Fotografie byla uložena/, 'Nahrání malé fotky');
 
@@ -49,7 +49,7 @@ open F, "> $fotka_tmp_filename";
 print F $pic->content();
 close F;
 
-ok(compare($fotka_tmp_filename,"/home/www/zonglovani.info/scripts/tests/pek-s.jpg")==0,"Stažená fotka je stejná jako předloha");
+ok(compare($fotka_tmp_filename,"/home/www/zonglovani.info/scripts/tests/img/pek-s.jpg")==0,"Stažená fotka je stejná jako předloha");
 unlink("$fotka_tmp_filename");
 
 $zs_fotka = $bot->get('http://zongl.info/lide/nastaveni/foto');
@@ -66,10 +66,10 @@ ok($crashbot->status() == 404, "Fotka po smazání není dostupná");
 $zs_fotka = $bot->get('http://zongl.info/lide/nastaveni/foto');
 ok($zs_fotka->content() =~ /<legend>Fotografie<\/legend>/,'Formulář pro další nahrání fotografie');
 
-$zs_foto = $bot->submit_form(form_number => 0 , fields => {'foto'=> '/home/www/zonglovani.info/scripts/tests/800x600.png' }, button=>'odeslat');
+$zs_foto = $bot->submit_form(form_number => 0 , fields => {'foto'=> '/home/www/zonglovani.info/scripts/tests/img/800x600.png' }, button=>'odeslat');
 ok($zs_foto->content() =~ /Špatný formát souboru. Přidávat jde pouze obrázky formátu JPG/, 'Nahrát jde jen JPG');
 
-$zs_foto = $bot->submit_form(form_number => 0 , fields => {'foto'=> '/home/www/zonglovani.info/scripts/tests/800x600.jpg' }, button=>'odeslat');
+$zs_foto = $bot->submit_form(form_number => 0 , fields => {'foto'=> '/home/www/zonglovani.info/scripts/tests/img/800x600.jpg' }, button=>'odeslat');
 ok($zs_foto->content() =~ /Fotografie byla uložena/, 'Nahrání velké fotky');
 
 $pic = $bot->get('http://zongl.info/lide/foto/pek.jpg');
@@ -86,5 +86,5 @@ ok($zs_fotka->content() =~ /Fotografie je smazaná/, 'Smazání zmenšené fotky
 
 
 $zs_fotka = $bot->get('http://zongl.info/lide/nastaveni/foto');
-$zs_foto = $bot->submit_form(form_number => 0 , fields => {'foto'=> '/home/www/zonglovani.info/scripts/tests/pek-s.jpg' }, button=>'odeslat');
+$zs_foto = $bot->submit_form(form_number => 0 , fields => {'foto'=> '/home/www/zonglovani.info/scripts/tests/img/pek-s.jpg' }, button=>'odeslat');
 ok($zs_foto->content() =~ /Fotografie byla uložena/, 'Nahrání původní fotky');
