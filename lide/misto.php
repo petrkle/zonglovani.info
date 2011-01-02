@@ -7,7 +7,6 @@ $smarty->assign('pusobiste',$pusobiste);
 
 $trail = new Trail();
 $trail->addStep('Seznam žonglérů',LIDE_URL);
-$smarty->assign('feedback',true);
 
 if(isset($_GET['filtr'])){
 	$filtr=$_GET['filtr'];
@@ -43,6 +42,25 @@ if($filtr){
 	$trail->addStep($pusobiste[$filtr]['nazev']);
 	$smarty->assign_by_ref('trail', $trail->path);
 
+$pozice=array_keys($pusobiste);
+$mojepozice=array_search($filtr,$pozice);
+
+	$navigace=array();
+
+	if(isset($pozice[$mojepozice+1])){
+		$navigace['dalsi']=array('url'=>$pozice[$mojepozice+1].'.html','text'=>$pusobiste[$pozice[$mojepozice+1]]['nazev'],'title'=>'Další místo: '.$pusobiste[$pozice[$mojepozice+1]]['nazev']);
+	}else{
+		$navigace['dalsi']=array('url'=>$pozice[0].'.html','text'=>$pusobiste[$pozice[0]]['nazev'],'title'=>'Další dovednost: '.$dovednosti[$pozice[0]]['nazev']);
+	}
+
+	if(isset($pozice[$mojepozice-1])){
+		$navigace['predchozi']=array('url'=>$pozice[$mojepozice-1].'.html','text'=>$pusobiste[$pozice[$mojepozice-1]]['nazev'],'title'=>'Předchozí místo: '.$pusobiste[$pozice[$mojepozice-1]]['nazev']);
+	}else{
+		$navigace['predchozi']=array('url'=>$pozice[count($pozice)-1].'.html','text'=>$pusobiste[$pozice[count($pozice)-1]]['nazev'],'title'=>'Předchozí místo: '.$pusobiste[$pozice[count($pozice)-1]]['nazev']);
+	}
+
+	$smarty->assign('styly',array('/a.css'));
+	$smarty->assign_by_ref('navigace',$navigace);
 	$smarty->assign('misto',$pusobiste[$filtr]['odkud']);
 	$smarty->display('hlavicka.tpl');
 	$smarty->display('lide-misto.tpl');

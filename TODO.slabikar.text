@@ -1,13 +1,9 @@
 Aktuální
 ========
 - hitparáda hodnocených stránek, aktualizace žebříčku cronem 
-- další, předchozí - odkazy v seznamu žonglérů, seznamu míst
 - widget pro cizí stránky - použití JSON api z kalendáře
 - make test před každým uploadem?
 - obrázky na plochu, doplnit popisky a img sitemapu
-- nastavení - místo kde žongluju, přidat obrázky čř, sk, cz+sk jako odkazy na mapu
-
-
 
 Kalendář
 ========
@@ -28,7 +24,6 @@ Etc
 - seznam sitemap
 - video z Ulity
 - opravit v kalendáří zobrazování akcí 0.00 - 0.00, doplnit do testu
-- Abryho RSS, je validní? Přidat?
 - dovednosti- seznam žonglérů, přidělat obrázek + link na podrobný popis
 
 Automatizace
@@ -41,7 +36,6 @@ Testy
 - všechny úlohy v cronu
 - rss update
 - on-line test - dostupnost rss zdrojů, stránky v odkazech
-- mapa žonglérů, kml soubor
 - doplnit do testů diag("Popis chyby $promena");
 
 Obsah
@@ -72,3 +66,6 @@ do seznamu míst přidat Velmez, Valmez, Kopřivnici, Vlašim, Ledeč a Zruč
 kraje na mapě
 posílání vzkazů - kontrolovat jestli má člověk nastavené zasílání vzkazů, všechny zprávy multipart text/html
 přehrávání videa z jugglng.tv přímo na facebooku, whitelist, meta, lint - funguje, ale jsou ty meta tagy správně?
+nastavení - místo kde žongluju, přidat obrázky čř, sk, cz+sk jako odkazy na mapu
+mapa žonglérů, kml soubor
+další, předchozí - odkazy v seznamu žonglérů, seznamu míst a dovedností

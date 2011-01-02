@@ -58,6 +58,13 @@ Dnes je: {if $dnesek}{$aktDate}{else}<a href="{$smarty.const.CALENDAR_URL}" titl
 {/if}
 <p>Kalendář můžeš sledovat pomocí <a href="{$smarty.const.CALENDAR_URL}kalendar.xml" title="RSS kanál">RSS</a> <a class="info" href="#">?<span class="tooltip">RSS slouží k upozorňování na aktualizaci stránek.</span></a> a <a href="{$smarty.const.CALENDAR_URL}kalendar.ics" title="Ical export">iCalendar</a> <a class="info" href="#">?<span class="tooltip">iCalendar je formát pro výměnu záznamů v kalendáři mezi počítači.</span></a>.</p>
 <p>Návod <a href="rss-a-icalendar.html">jak nastavit RSS a iCalendar</a>.</p>
+
 {if preg_match('/.*AppleWebKit.*Chrome.*/',$smarty.server.HTTP_USER_AGENT)}
-<p>Používáš Google Chrome? Vyzkoušej <a href="https://chrome.google.com/extensions/detail/dojgpamkkdlccihbhgnflimdjkigimad" class="external" onclick="pageTracker._trackPageview('/goto/chrome.google.com/extensions/detail/dojgpamkkdlccihbhgnflimdjkigimad');">rozšíření pro kalendář</a> do prohlížeče.</p>
+<div class="cleaner">&nbsp;</div>
+<p><a href="https://chrome.google.com/extensions/detail/dojgpamkkdlccihbhgnflimdjkigimad" onclick="pageTracker._trackPageview('/goto/chrome.google.com/extensions/detail/dojgpamkkdlccihbhgnflimdjkigimad');">{obrazek soubor="browser-chrome.png" popisek="Google Chrome"}</a>Používáš Google Chrome? Vyzkoušej <a href="https://chrome.google.com/extensions/detail/dojgpamkkdlccihbhgnflimdjkigimad" class="external" onclick="pageTracker._trackPageview('/goto/chrome.google.com/extensions/detail/dojgpamkkdlccihbhgnflimdjkigimad');">rozšíření pro kalendář</a> do prohlížeče.</p>
+{/if}
+
+{if preg_match('/.*opera.*/i',$smarty.server.HTTP_USER_AGENT)}
+<div class="cleaner">&nbsp;</div>
+<p><a href="https://addons.opera.com/addons/extensions/details/zonglovani/?display=cs" onclick="pageTracker._trackPageview('/goto/addons.opera.com/addons/extensions/details/zonglovani');">{obrazek soubor="browser-opera.png" popisek="Opera"}</a>Používáš Operu? Vyzkoušej <a href="https://addons.opera.com/addons/extensions/details/zonglovani/?display=cs" class="external" onclick="pageTracker._trackPageview('/goto/addons.opera.com/addons/extensions/details/zonglovani');">rozšíření pro kalendář</a> do prohlížeče.</p>
 {/if}
