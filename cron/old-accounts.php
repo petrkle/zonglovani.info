@@ -140,6 +140,4 @@ $message .= "--$mime_boundary--\n\n";
 	}
 
 }
-
-
 ?>

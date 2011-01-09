@@ -2,6 +2,7 @@
 require('../init.php');
 require('../func.php');
 require('dovednosti.php');
+require('dovednosti-links.php');
 require('pusobiste.php');
 $smarty->assign('dovednosti',$dovednosti);
 $smarty->assign('pusobiste',$pusobiste);
@@ -25,9 +26,12 @@ if(isset($_GET['filtr'])){
 }
 
 if($filtr){
-		$smarty->assign('styly',array('/a.css'));
+		$smarty->assign('styly',array('/a.css','/d.css'));
 		$klice=array_keys($dovednosti);
 		$pozice=array_search($filtr,$klice);
+		if(isset($dovednosti_link[$filtr])){
+			$smarty->assign_by_ref('dovednost_link',$dovednosti_link[$filtr]);
+		}
 	$uzivatele=array();
 	foreach(get_loginy() as $login){
 		$foo=get_user_dovednosti($login);

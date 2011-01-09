@@ -1,9 +1,4 @@
 {if is_array($prihlaseni)}
-{if $page_numbers.total > 1}
-<p>
-Stránkování: {$pager_links}
-</p>
-{/if}
 <table class="navstevnost" cellspacing="0" cellpadding="0">
 <tr>
 <th>#</th>
@@ -22,10 +17,5 @@ Stránkování: {$pager_links}
 </tr>
 {/foreach}
 </table>
-{if $page_numbers.total > 1}
-<p>
-Stránkování: {$pager_links}
-</p>
-{/if}
 {/if}
 <br />

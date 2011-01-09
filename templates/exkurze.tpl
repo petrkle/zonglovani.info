@@ -41,7 +41,7 @@ Možnost propagace pro tvůj žonglérský web.
 <h3>Telefonní číslo</h3>
 <p>
 <a href="/img/e/exkurze-2010-2-28-19-44-49.png">{obrazek soubor='exkurze-nahled-2010-2-28-19-44-49.jpg' popisek=''}</a>
-Můžeš zveřejnit i své telefonní číslo. Vhodné zejména pro žongléry, kteří nabízejí výuku žonglování nebo veřejné vystupování.
+Můžeš zveřejnit i své telefonní číslo. Vhodné zejména pro žongléry, kteří nabízejí <a href="{$smarty.const.LIDE_URL}nastaveni/dovednosti" title="Nastavení dovedností">výuku žonglování</a> nebo <a href="{$smarty.const.LIDE_URL}nastaveni/dovednosti" title="Nastavení dovedností">veřejné vystupování</a>.
 </p>
 
 <h3>Soukromí</h3>

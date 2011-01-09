@@ -11,6 +11,7 @@ $smarty->assign('styly',array('/s.css'));
 $trail = new Trail();
 $trail->addStep($titulek,'/admin');
 
+$prihlaseni=get_login_stat(get_loginy());
 $smarty->assign_by_ref('prihlaseni', $prihlaseni);
 
 if(isset($_GET['detail'])){
@@ -25,9 +26,6 @@ if(isset($_GET['detail'])){
 	$smarty->display('paticka-w.tpl');
 	exit();
 }
-
-$prihlaseni=get_login_stat(get_loginy());
-
 
 $smarty->assign_by_ref('trail', $trail->path);
 $smarty->assign('titulek',$titulek);

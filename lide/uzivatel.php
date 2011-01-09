@@ -48,6 +48,9 @@ $mojepozice=array_search($id,$pozice);
 	}else{
 		$navigace['predchozi']=array('url'=>$pozice[count($pozice)-1].'.html','text'=>$lide[$pozice[count($pozice)-1]],'title'=>'Předchozí žonglér: '.$lide[$pozice[count($pozice)-1]]);
 	}
+	if(isset($uzivatel_props['foto'])){
+		$smarty->assign('nahled','http://'.$_SERVER['SERVER_NAME'].LIDE_URL.'foto/'.$id.'.jpg');
+	}
 
 	$smarty->assign('styly',array('/a.css'));
 	$smarty->assign_by_ref('navigace',$navigace);

@@ -1,7 +1,7 @@
 #!/usr/bin/perl -w
 use strict;
 use WWW::Mechanize;
-use Test::More tests => 11;
+use Test::More tests => 13;
 use String::MkPasswd qw(mkpasswd);
 
 my $now=time();
@@ -46,7 +46,9 @@ if($mesic<10){
 	$mesic="0$mesic";
 }
 
-system("touch -t $year$mesic$mday"."1200.00 $DATA_LIDE/$login/prihlaseni.txt");
+my $warn_time="$year$mesic$mday";
+
+system("touch -t $warn_time"."1200.00 $DATA_LIDE/$login/prihlaseni.txt");
 system("chmod -R oug+w $DATA_LIDE/$login");
 
 my $bot = WWW::Mechanize->new(autocheck => 1);
@@ -114,6 +116,17 @@ $zs_prihlaseni = $bot->get('http://zongl.info/lide/prihlaseni.php');
 $zs_prihlaseni = $bot->submit_form(form_number => 0,fields => {'login'=>$login,'heslo'=>$heslo});
 
 ok($zs_prihlaseni->content() =~ /Účet byl zrušen/,'Neaktivní účet je zrušený');
+
+system("touch -t $warn_time"."1200.00 $DATA_LIDE/$login/prihlaseni.txt");
+$pozadavek = $bot->get('http://zongl.info/cron/old-accounts.php');
+sleep 1;
+ok(!-f "/home/fakemail/$mail.2", 'Připomínací email nechodí na účty zrušené uživateli');
+unlink("$DATA_LIDE/$login/LOCKED");
+
+system("touch $DATA_LIDE/$login/REVOKED");
+$pozadavek = $bot->get('http://zongl.info/cron/old-accounts.php');
+sleep 1;
+ok(!-f "/home/fakemail/$mail.2", 'Připomínací email nechodí na zablokované účty zlobivých uživatelů');
 
 system("rm -rf $DATA_LIDE/$login");
 system("sudo /bin/bash /home/www/zonglovani.info/scripts/tests/clean.sh");

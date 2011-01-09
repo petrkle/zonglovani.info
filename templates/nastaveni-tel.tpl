@@ -5,6 +5,7 @@
 {/foreach}
 </ul>
 {/if}
+<p>Tvoje telefonní číslo ve tvaru "+420&nbsp;aaa&nbsp;bbb&nbsp;ccc" nebo "+421&nbsp;aaa&nbsp;bbb&nbsp;ccc". Vhodné zejména pro žongléry, kteří nabízejí <a href="{$smarty.const.LIDE_URL}nastaveni/dovednosti" title="Nastavení dovedností">výuku žonglování</a> nebo <a href="{$smarty.const.LIDE_URL}nastaveni/dovednosti" title="Nastavení dovedností">veřejné vystupování</a>.</p>
 <form action="{$smarty.server.REQUEST_URI}" method="post">
 <fieldset>
 <legend>Tvoje telefonní číslo</legend>

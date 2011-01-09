@@ -1,30 +1,22 @@
 Aktuální
 ========
-- hitparáda hodnocených stránek, aktualizace žebříčku cronem 
 - widget pro cizí stránky - použití JSON api z kalendáře
-- make test před každým uploadem?
 - obrázky na plochu, doplnit popisky a img sitemapu
+- odkazy další, předchozí v horoskopu
 
 Kalendář
 ========
 - přidat google mapy k akcím do kalendáře
-- přihlašování na akce v kalendáři
 - export kalendáře (dalších věcí ?) do pdf online
 - odkazy další, předchozí u akce
 
 Etc
 ===
-- novinky, přidávání, schvalování
-- rozepsat možnosti diskuse, bazar
 - udělat od jednotlivých obrázků žonglování odkazy na příslušné triky
 - asynchronní verze GA - http://code.google.com/intl/cs/apis/analytics/docs/tracking/asyncTracking.html
-- témata pro chromium
-- kvíz, průvodce výběrem míčků
 - video - štítky, přidat pžm2 a sdílet na fb
 - seznam sitemap
-- video z Ulity
 - opravit v kalendáří zobrazování akcí 0.00 - 0.00, doplnit do testu
-- dovednosti- seznam žonglérů, přidělat obrázek + link na podrobný popis
 
 Automatizace
 ============
@@ -34,9 +26,19 @@ Automatizace
 Testy
 =====
 - všechny úlohy v cronu
+- doplnit do testů diag("Popis chyby $promena");
+- přihlašování na akce v kalendáři
+
+Odložené na neurčito
+====================
 - rss update
 - on-line test - dostupnost rss zdrojů, stránky v odkazech
-- doplnit do testů diag("Popis chyby $promena");
+- video z Ulity
+- hitparáda hodnocených stránek, aktualizace žebříčku cronem 
+- novinky, přidávání, schvalování
+- rozepsat možnosti diskuse, bazar
+- témata pro chromium
+- kvíz, průvodce výběrem míčků
 
 Obsah
 =====
@@ -69,3 +71,4 @@ přehrávání videa z jugglng.tv přímo na facebooku, whitelist, meta, lint - 
 nastavení - místo kde žongluju, přidat obrázky čř, sk, cz+sk jako odkazy na mapu
 mapa žonglérů, kml soubor
 další, předchozí - odkazy v seznamu žonglérů, seznamu míst a dovedností
+dovednosti- seznam žonglérů, přidělat obrázek + link na podrobný popis

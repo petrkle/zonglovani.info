@@ -5,6 +5,7 @@
 {/foreach}
 </ul>
 {/if}
+<p>Změna hesla pro přístup do žonglérova slabikáře.</p>
 <form action="{$smarty.server.REQUEST_URI}" method="post">
 <fieldset>
 <legend>Změna hesla</legend>
