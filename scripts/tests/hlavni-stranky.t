@@ -35,7 +35,7 @@ my @stranky = (
 	{'a'=>'/mapa/', 't'=>'Žonglérská mapa', 'o'=>'Mapa s vyznačením měst kde jsou žongléři'},
 	{'a'=>'/lide/prihlaseni.php', 't'=>'Přihlášení', 'o'=>'<legend>Přihlašovací údaje<'},
 	{'a'=>'/diskuse/', 't'=>'Diskuse a komentáře - [0-9]+. stránka', 'o'=>'<th>Uživatel<\/th>'},
-	{'a'=>'/lide/pravidla.php', 't'=>'Pravidla pro vytvoření účtu', 'o'=>'<input type="submit" name="jo" value="Souhlasím"'},
+	{'a'=>'/lide/pravidla.php', 't'=>'Založení nového účtu', 'o'=>'<input type="submit" name="jo" value="Souhlasím"'},
 	{'a'=>'/ostatni.html', 't'=>'Další informace o žonglování', 'o'=>'rec.juggling'},
 	{'a'=>'/nacini.html', 't'=>'Žonglérské náčiní', 'o'=>'<a name="zvony"><\/a><h3>Záchodové zvony<\/h3>'},
 	{'a'=>'/obrazky/', 't'=>'Obrázky žonglování', 'o'=>'<li><a href="ulita-20100110/" title="Ulita 10. 1. 2010">Ulita 10. 1. 2010<'},

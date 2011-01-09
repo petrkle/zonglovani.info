@@ -66,7 +66,7 @@ if(!preg_match('/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{
 }
 
 
-	if($odpoved!=$_SESSION['antispam_odpoved']){
+	if(isset($_SESSION['antispam_odpoved']) and $odpoved!=$_SESSION['antispam_odpoved']){
 		array_push($chyby,'Špatná odpověď na kontrolní otázku.');
 		$antispam=get_antispam();
 		$_SESSION['antispam_otazka']=$antispam[0];
@@ -136,7 +136,7 @@ $message .= "<body style=\"font-family: sans-serif; font-size:1em; color:#000;\"
 
 $message .= 'Ahoj,<br /><br/>
 
-pro aktivaci účtu v žonglérově slabikáři klikni na tento odkaz:<br /><br/>
+pro obnovení hesla v žonglérově slabikáři klikni na tento odkaz:<br /><br/>
 
 <a href="http://'.$_SERVER['SERVER_NAME'].LIDE_URL.'z/'.$splmail[1].'/'.$splmail[0].'/'.$key.'.html">http://'.$_SERVER['SERVER_NAME'].LIDE_URL.'z/'.$splmail[1].'/'.$splmail[0].'/'.$key.'.html</a><br/>
 

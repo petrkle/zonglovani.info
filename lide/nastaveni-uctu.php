@@ -14,6 +14,11 @@ if(!isset($_SESSION['souhlas'])){
 	exit();
 }
 
+if(isset($_SESSION['logged']) and $_SESSION['logged']==true){
+	header('Location: '.LIDE_URL.'nastaveni/');
+	exit();
+}
+
 if(isset($_POST['odeslat'])){
 	$chyby=array();
 
@@ -25,7 +30,7 @@ if(isset($_POST['odeslat'])){
 		$soukromi=$_SESSION['reg_soukromi'];
 		$smarty->assign('soukromi',$soukromi);
 	}else{
-		$soukromi='';
+		$soukromi='formular';
 	}
 
 	if(isset($_POST['vzkaz'])){
@@ -80,9 +85,11 @@ if(isset($_POST['odeslat'])){
 		fwrite($foo,$_SESSION['reg_soukromi']);
 		fclose($foo);
 
-		$foo=fopen($tmp.'/vzkaz.txt','w');
-		fwrite($foo,$_SESSION['reg_vzkaz']);
-		fclose($foo);
+		if(strlen($_SESSION['reg_vzkaz'])>0){
+			$foo=fopen($tmp.'/vzkaz.txt','w');
+			fwrite($foo,$_SESSION['reg_vzkaz']);
+			fclose($foo);
+		}
 
 		$foo=fopen($tmp.'/created.time','w');
 		fwrite($foo,time());

@@ -39,7 +39,10 @@ Stránku odebereš z oblíbených kliknutím na obrázek žluté hvězdičky {ob
 <h5>Soukromí</h5>
 <p>Seznam tebou hodnocených stránek není veřejný.</p>
 {/if}
-<p><a href="{$smarty.const.LIDE_URL}pristupy.php" title="Seznam přihlášení do žonglérova slabikáře.">Seznam tvých přihlášení</a> do žonglérova slabikáře.</p>
+<ul>
+<li><a href="{$smarty.const.LIDE_URL}pristupy.php" title="Seznam přihlášení do žonglérova slabikáře.">Seznam tvých přihlášení</a> do žonglérova slabikáře.</li>
+<li><a href="{$smarty.const.LIDE_URL}pravidla.php" title="">Pravidla používání</a> účtu v žonglérově slabikáři</li>
+</ul>
 {else}
 
 <h1>{$titulek}</h1>

@@ -15,6 +15,11 @@ if(!isset($_SESSION['souhlas'])){
 	exit();
 }
 
+if(isset($_SESSION['logged']) and $_SESSION['logged']==true){
+	header('Location: '.LIDE_URL.'nastaveni/');
+	exit();
+}
+
 if(isset($_GET['action'])){
 	$chyby=array();
 	

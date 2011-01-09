@@ -27,5 +27,5 @@ Pro zobrazení požadované stránky je nutné přihlášení.
 <h3>Další možnosti</h3>
 <ul>
 <li>Obnovit <a href="zapomenute-heslo.php" title="Zapomenuté heslo.">zapomenuté heslo</a>.</li>
-<li><a href="{$smarty.const.LIDE_URL}pravidla.php" title="Vytvořit uživatelský účet." class="add">Vytvořit nový účet</a>.</li>
+<li><a href="{$smarty.const.LIDE_URL}pravidla.php" title="Vytvořit uživatelský účet." class="add">Založit nový účet</a>.</li>
 </ul>

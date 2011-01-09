@@ -106,7 +106,7 @@ my $odhlaseni=$zs_logout->content();
 
 ok(defined($odhlaseni), 'Odhlašovací stránka je dostupná');
 ok($odhlaseni =~ />Přihlášení<\/a>/, 'Odkaz na přihlášení');
-ok($odhlaseni =~ />Nový účet<\/a>/, 'Odkaz na založení účtu');
+ok($odhlaseni =~ />Založit účet<\/a>/, 'Odkaz na založení účtu');
 
 my $zs_nas= $bot->get('http://zongl.info/lide/nastaveni');
 ok($zs_nas->content() =~ /Pro zobrazení požadované stránky je nutné přihlášení/, 'Nastavení je po odhlášení nepřístupné');
