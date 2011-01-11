@@ -22,6 +22,12 @@ Stránky o žonglování s ohněm.
 Profesionální fireshow skupina.
 </p>
 
+<a name="firelovers"></a><h5><a href="http://firelovers.cz/" title="Fireshow firelovers" class="external" onclick="pageTracker._trackPageview('/goto/firelovers.cz');">firelovers.cz</a></h5>
+<p>
+<a href="http://firelovers.cz/" title="Fireshow firelovers" class="external" onclick="pageTracker._trackPageview('/goto/firelovers.cz');">{obrazek soubor="odkazy-firelovers.jpg" popisek="firelovers.cz"}</a>
+Skupina žonglérů kteří milují oheň.
+</p>
+
 <a name="zonglovanie"></a><h5><a href="http://www.zonglovanie.ariesa.sk" title="Slovenský server." class="external" onclick="pageTracker._trackPageview('/goto/zonglovanie.ariesa.sk');">zonglovanie.ariesa.sk</a></h5>
 <p>
 <a href="http://www.zonglovanie.ariesa.sk" title="Slovenský server." onclick="pageTracker._trackPageview('/goto/zonglovanie.ariesa.sk');">{obrazek soubor="odkazy-zonglovanie.ariesa.sk.png" popisek="zonglovanie.ariesa.sk"}</a>

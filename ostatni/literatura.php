@@ -2,7 +2,7 @@
 require('../init.php');
 require('../func.php');
 
-$titulek='Literatura';
+$titulek='Literatura o žonglování';
 
 $smarty->assign('titulek',$titulek);
 $smarty->assign('feedback',true);
@@ -12,7 +12,7 @@ $smarty->assign('description','Česká a anglická literatura o žonglování. V
 
 $trail = new Trail();
 $trail->addStep('Informace o žonglování','/ostatni.html');
-$trail->addStep($titulek);
+$trail->addStep($nadpis);
 
 $dalsi=array(
 	array('url'=>'/navody/','text'=>'Návody na žonglování v pdf','title'=>'Formát vhodný k tisku'),
