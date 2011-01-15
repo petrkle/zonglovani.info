@@ -1,8 +1,9 @@
 Aktuální
 ========
-- widget pro cizí stránky - použití JSON api z kalendáře
 - obrázky na plochu, doplnit popisky a img sitemapu
 - odkazy další, předchozí v horoskopu
+- progress bar u registrace?
+- po přihlášení zobrazovat na stránkách k registraci hlášku, že je potřeba se odhlásit
 
 Kalendář
 ========
@@ -72,3 +73,4 @@ nastavení - místo kde žongluju, přidat obrázky čř, sk, cz+sk jako odkazy 
 mapa žonglérů, kml soubor
 další, předchozí - odkazy v seznamu žonglérů, seznamu míst a dovedností
 dovednosti- seznam žonglérů, přidělat obrázek + link na podrobný popis
+widget pro cizí stránky - použití JSON api z kalendáře

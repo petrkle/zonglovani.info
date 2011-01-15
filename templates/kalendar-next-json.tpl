@@ -1,3 +1,4 @@
+{if $callback}{$callback|escape} ( {/if}
 {literal}{{/literal}
 {foreach from=$events item=udalost name=smycka}
 "{$smarty.foreach.smycka.index}":[
@@ -10,3 +11,4 @@
 ]{if !$smarty.foreach.smycka.last},{/if}
 {/foreach}
 {literal}}{/literal}
+{if $callback} ) {/if}

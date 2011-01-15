@@ -195,13 +195,17 @@ function get_all_cal_data(){
 	return $vypis;
 }
 
-function get_future_data(){
+function get_future_data($filtr=false){
 	$vypis=array();
   if(is_dir(CALENDAR_DATA) and opendir(CALENDAR_DATA)){
 	$adr=opendir(CALENDAR_DATA);
+	if($filtr and is_zs_account($filtr)){
+		$filtr='.+\-'.$filtr.'\-.+\.cal$';
+	}else{
+		$filtr='.+\.cal$';
+	}
 	while (false!==($file = readdir($adr))) {
-	  if (substr($file,-4) == '.cal')
-		{
+	  if(preg_match('/'.$filtr.'/',$file)){
 			$konec=substr($file,9,4).'-'.substr($file,13,2).'-'.substr($file,15,2);
 			if(date('U',strtotime($konec))>time()){
 				array_push($vypis,get_event_data($file));

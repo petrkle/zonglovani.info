@@ -42,6 +42,7 @@ Dnes je: {if $dnesek}{$aktDate}{else}<a href="{$smarty.const.CALENDAR_URL}" titl
 </p>
 <p>
 
+<a name="add"></a>
 {if $smarty.session.logged!=true}
 <strong class="add">Přidat novou</strong> událost - do kalendáře můžou psát jen <a href="{$smarty.const.LIDE_URL}prihlaseni.php?next={$smarty.const.CALENDAR_URL}" title="Přihlášení do žonglérova slabikáře" rel="nofollow">přihlášení</a> uživatele žonglérova slabikáře.
 {else}
@@ -68,3 +69,6 @@ Dnes je: {if $dnesek}{$aktDate}{else}<a href="{$smarty.const.CALENDAR_URL}" titl
 <div class="cleaner">&nbsp;</div>
 <p><a href="https://addons.opera.com/addons/extensions/details/zonglovani/?display=cs" onclick="pageTracker._trackPageview('/goto/addons.opera.com/addons/extensions/details/zonglovani');">{obrazek soubor="browser-opera.png" popisek="Opera"}</a>Používáš Operu? Vyzkoušej <a href="https://addons.opera.com/addons/extensions/details/zonglovani/?display=cs" class="external" onclick="pageTracker._trackPageview('/goto/addons.opera.com/addons/extensions/details/zonglovani');">rozšíření pro kalendář</a> do prohlížeče.</p>
 {/if}
+<p>
+<a href="widget.html" title="Widget na webové stránky">Výpis z kalendáře</a> na tvém webu.
+</p>
