@@ -28,6 +28,11 @@ foreach($rss_zdroje as $id=>$kanal){
 		if($id=='lideczongl'){
 			$item['date_timestamp'] = $item['date_timestamp']-(25*3600);
 		}
+
+		if($id=='zonglujeu'){
+			$item['link'] = $item['guid'];
+		}
+
 		if(preg_match('/facebook/',$kanal['feed_url'])){
 			$item['link']=preg_replace('/^\//','http://facebook.com/',$item['link']);
 		}
@@ -45,6 +50,7 @@ foreach($rss_zdroje as $id=>$kanal){
 		$foo=fopen($baz.'.new','w');
 		fwrite($foo,preg_replace('/\n/',' ',mb_substr($item['title'],0,120,'UTF-8'))."\n");
 		fwrite($foo,preg_replace('/\n/',' ',$item['link'])."\n");
+
 		if(isset($item['description'])){
 			fwrite($foo,preg_replace('/\n/',' ',$item['description'])."\n");
 		}else{

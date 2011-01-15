@@ -10,8 +10,9 @@ $smarty->assign('keywords',make_keywords($titulek));
 $smarty->assign('description','Připravené kusy html kódu pro vytváření odkazů na žonglérův slabikář.');
 
 $dalsi=array(
-	array('url'=>'/obrazky-na-plochu/','text'=>'Obrázky na plochu','title'=>'Tapety s žonglérskou tématikou.'),
 	array('url'=>'/podporte-zongleruv-slabikar.html','text'=>'Podpoř žonglérův slabikář','title'=>'Jak dál podpoři žonglérův slabikář'),
+	array('url'=>CALENDAR_URL.'widget.html','text'=>'Výpis akcí z kalendáře - widget','title'=>'Widget na twůj web'),
+	array('url'=>'/obrazky-na-plochu/','text'=>'Obrázky na plochu','title'=>'Tapety s žonglérskou tématikou.'),
 	);
 $smarty->assign_by_ref('dalsi',$dalsi);
 

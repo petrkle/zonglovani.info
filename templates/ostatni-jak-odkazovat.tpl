@@ -57,3 +57,13 @@ Pro vložení odkazu stačí do tvé stránky zkopírovat jeden z následující
 <p>
 <a href="/img/s/slabikar-fb.png" title="Žonglérův slabikář"><img src="/img/s/slabikar-fb.png" height="50" width="200" style="border: 0;" alt="Žonglérův slabikář" title="Žonglérův slabikář" /></a>
 </p>
+
+<h2><a name="widget">Výpis z kalendáře</a></h2>
+
+<p>
+<code>
+&lt;div id="zs-kalendar"&gt;&lt;/div&gt;<br />
+&lt;script src="http://zonglovani.info/kalendar/widget.js" type="text/javascript" charset="utf-8"&gt;&lt;/script&gt;
+</code>
+</p>
+<p><a href="{$smarty.const.CALENDAR_URL}widget.html" title="Podrobnosti o widgetu">{obrazek soubor='widget-light.png' popisek='Widget - světlá varianta'}</a></p>
