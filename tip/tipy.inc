@@ -69,7 +69,8 @@
 2011-01-03*Statistiky*/statistiky.html*podporaa.png*Trocha bilancování uplynulého roku. Podívej se kolik lidí používá žonglérův slabikář a na další statistiky.
 2011-01-04*Liquid Crystal*/video/liquid-crystal-live.html*matt-hennem.jpg*Představení Liquid Crystal - Matt Hennem na živo.
 2011-01-10*Žonglování v Ulitě*/ulita/?20110116*ulita.cz.png*V domě dětí a mládeže Ulita se pravidelně žongluje. Přijít mohou začínající i zkušení žongléři a žonglérky.
-2011-01-17*Otáčení kuželky okolo palce*/kuzely/toceni-okolo-palce.html*tocenib.png*Trik který můžeš trénovat i v místnostech s nízkým stropem.
+2011-01-17*Fotky z Ulity*/obrazky/ulita-20110116/0000.html*mizu.jpg*Fotky z nedělního žonglování v Ulitě.
+2011-01-19*Otáčení kuželky okolo palce*/kuzely/toceni-okolo-palce.html*tocenib.png*Trik který můžeš trénovat i v místnostech s nízkým stropem.
 2011-01-24*Žonglování v Ulitě*/ulita/?20110130*ulita.cz.png*V domě dětí a mládeže Ulita se pravidelně žongluje. Přijít mohou začínající i zkušení žongléři a žonglérky.
 2011-01-31*Obrázky kuželů*/kuzely/druhy.html*kuzelka-albatros-s.jpg*Obrázky žonglérských kuželů.
 2011-02-07*Žonglování v Ulitě*/ulita/?20110213*ulita.cz.png*V domě dětí a mládeže Ulita se pravidelně žongluje. Přijít mohou začínající i zkušení žongléři a žonglérky.

@@ -3,9 +3,9 @@ Regular Sunday juggling at <a href="http://www.ulita.cz" class="external" onclic
 </p>
 
 <div class="obrazkovnik">
-<a href="/obrazky/ulita-20100411/0004.html">{obrazek soubor='usam.jpg' popisek=''}</a>
-<a href="/obrazky/ulita-20100411/0005.html">{obrazek soubor='usan.jpg' popisek=''}</a>
-<a href="/obrazky/ulita-20100411/stranka2/0027.html">{obrazek soubor='usao.jpg' popisek=''}</a>
+<a href="/obrazky/ulita-20110116/0000.html">{obrazek soubor='snek016.jpg' popisek='' path='/ulita/img/'}</a>
+<a href="/obrazky/ulita-20110116/0001.html">{obrazek soubor='snek017.jpg' popisek='' path='/ulita/img/'}</a>
+<a href="/obrazky/ulita-20110116/0026.html">{obrazek soubor='snek018.jpg' popisek='' path='/ulita/img/'}</a>
 <br /><a href="/obrazky/filtr/Ulita" title="Photos of juggling.">More photos &raquo;</a>
 </div>
 {*

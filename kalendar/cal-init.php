@@ -206,7 +206,7 @@ function get_future_data($filtr=false){
 	}
 	while (false!==($file = readdir($adr))) {
 	  if(preg_match('/'.$filtr.'/',$file)){
-			$konec=substr($file,9,4).'-'.substr($file,13,2).'-'.substr($file,15,2);
+			$konec=substr($file,9,4).'-'.substr($file,13,2).'-'.substr($file,15,2).' 22:00:00';
 			if(date('U',strtotime($konec))>time()){
 				array_push($vypis,get_event_data($file));
 			}

@@ -4,6 +4,7 @@ Aktuální
 - odkazy další, předchozí v horoskopu
 - progress bar u registrace?
 - po přihlášení zobrazovat na stránkách k registraci hlášku, že je potřeba se odhlásit
+- přidat do jsonu z kalendáře odkaz,obrázek - malý, velký, kdo vložil, místo, ...
 
 Kalendář
 ========
@@ -28,11 +29,9 @@ Testy
 =====
 - všechny úlohy v cronu
 - doplnit do testů diag("Popis chyby $promena");
-- přihlašování na akce v kalendáři
 
 Odložené na neurčito
 ====================
-- rss update
 - on-line test - dostupnost rss zdrojů, stránky v odkazech
 - video z Ulity
 - hitparáda hodnocených stránek, aktualizace žebříčku cronem 
@@ -40,6 +39,7 @@ Odložené na neurčito
 - rozepsat možnosti diskuse, bazar
 - témata pro chromium
 - kvíz, průvodce výběrem míčků
+- přihlašování na akce v kalendáři
 
 Obsah
 =====
