@@ -72,8 +72,8 @@ class Pager_Sliding extends Pager_Common
         $this->_separator             = '|';
         $this->_spacesBeforeSeparator = 3;
         $this->_spacesAfterSeparator  = 3;
-        $this->_curPageSpanPre        = '<b>';
-        $this->_curPageSpanPost       = '</b>';
+        $this->_curPageSpanPre        = '<strong class="ps">';
+        $this->_curPageSpanPost       = '</strong>';
 
         //set custom options
         $err = $this->setOptions($options);
@@ -253,10 +253,17 @@ class Pager_Sliding extends Pager_Common
 
                 // check when to print separator
                 $print_separator_flag = (($i != $this->_currentPage + $this->_delta) && ($i != $this->_totalPages));
+                if($i>9){
+                    $pre='';
+                    $post='';
+                }else{
+                    $pre='&nbsp;';
+                    $post='&nbsp;';
+                }
 
                 if ($i == $this->_currentPage) {
                     $this->range[$i] = true;
-                    $links .= $this->_curPageSpanPre . $i . $this->_curPageSpanPost;
+                    $links .= $this->_curPageSpanPre . $pre . $i . $post. $this->_curPageSpanPost;
                 } else {
                     $this->range[$i] = false;
                     $this->_linkData[$this->_urlVar] = $i;
@@ -281,13 +288,20 @@ class Pager_Sliding extends Pager_Common
         } else {
             //if $this->_totalPages <= (2*Delta+1) show them all
             for ($i=1; $i<=$this->_totalPages; $i++) {
+                    if($i>9){
+                        $pre='';
+                        $post='';
+                    }else{
+                        $pre='&nbsp;';
+                        $post='&nbsp;';
+                    }
                 if ($i != $this->_currentPage) {
                     $this->range[$i] = false;
                     $this->_linkData[$this->_urlVar] = $i;
                     $links .= $this->_renderLink(str_replace('%d', $i, $this->_altPage), $i);
                 } else {
                     $this->range[$i] = true;
-                    $links .= $this->_curPageSpanPre . $i . $this->_curPageSpanPost;
+                    $links .= $this->_curPageSpanPre . $pre . $i . $post. $this->_curPageSpanPost;
                 }
                 $links .= $this->_spacesBefore
                        . (($i != $this->_totalPages) ? $this->_separator.$this->_spacesAfter : '');

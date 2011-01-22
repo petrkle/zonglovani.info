@@ -40,7 +40,7 @@ $mojepozice=array_search($id,$pozice);
 	if(isset($pozice[$mojepozice+1])){
 		$navigace['dalsi']=array('url'=>$pozice[$mojepozice+1].'.html','text'=>$lide[$pozice[$mojepozice+1]],'title'=>'Další žonglér: '.$lide[$pozice[$mojepozice+1]]);
 	}else{
-		$navigace['dalsi']=array('url'=>$pozice[0].'.html','text'=>$lide[$pozice[0]],'title'=>'Další dovednost: '.$dovednosti[$pozice[0]]);
+		$navigace['dalsi']=array('url'=>$pozice[0].'.html','text'=>$lide[$pozice[0]],'title'=>'Další žonglér: '.$lide[$pozice[0]]);
 	}
 
 	if(isset($pozice[$mojepozice-1])){

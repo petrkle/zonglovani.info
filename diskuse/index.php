@@ -10,17 +10,20 @@ $trail->addStep('Diskuse',DISKUSE_URL);
 
 $pagerOptions = array(
     'mode'     => 'Sliding',
-    'delta'    => 2,
+    'delta'    => 3,
 		'firstLinkTitle' => 'První stránka',
     'perPage'  => ZPRAV_NA_STRANKU,
-    'altPrev'  => 'Předchozí stránka',
-    'altNext'  => 'Další stránka',
+    'altPrev'  => 'Starší příspěvky',
+    'altNext'  => 'Novější příspěvky',
     'altPage'  => 'Stránka',
-    'separator'  => '~',
+    'prevImg' => '&laquo;&nbsp;Starší',
+    'nextImg' => 'Novější&nbsp;&raquo;',
+    'separator'  => '&nbsp;',
     'spacesBeforeSeparator'  => 1,
     'spacesAfterSeparator'  => 1,
 		'append'   => false,
 		'fileName' => 'stranka%d.html', 
+		'linkClass' => 'pl',
     'itemData' => $zpravy,
 );
 $pager =& Pager::factory($pagerOptions);

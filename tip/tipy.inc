@@ -72,7 +72,8 @@
 2011-01-17*Fotky z Ulity*/obrazky/ulita-20110116/0000.html*mizu.jpg*Fotky z nedělního žonglování v Ulitě.
 2011-01-19*Otáčení kuželky okolo palce*/kuzely/toceni-okolo-palce.html*tocenib.png*Trik který můžeš trénovat i v místnostech s nízkým stropem.
 2011-01-24*Žonglování v Ulitě*/ulita/?20110130*ulita.cz.png*V domě dětí a mládeže Ulita se pravidelně žongluje. Přijít mohou začínající i zkušení žongléři a žonglérky.
-2011-01-31*Obrázky kuželů*/kuzely/druhy.html*kuzelka-albatros-s.jpg*Obrázky žonglérských kuželů.
+2011-01-31*Žonglování na ledě*/kalendar/udalost-20110204-20110204-pek-1295125652.html#*zongl-led.jpg*Tradiční zimní taškařice cirkusu LeGrando.
+2011-02-03*Všežonglérský slet*/kalendar/udalost-20110206-20110206-pek-1295365358.html#*vsezonglersky-slet-ii.png*Druhé nedělní žonglování v Žižkovské sokolovně.
 2011-02-07*Žonglování v Ulitě*/ulita/?20110213*ulita.cz.png*V domě dětí a mládeže Ulita se pravidelně žongluje. Přijít mohou začínající i zkušení žongléři a žonglérky.
 2011-02-14*Sun*/video/sun.html*sun.jpg*Sluníčko, Jirka z Ostravy a diabolo.
 2011-02-21*Žonglování v Ulitě*/ulita/?20110227*ulita.cz.png*V domě dětí a mládeže Ulita se pravidelně žongluje. Přijít mohou začínající i zkušení žongléři a žonglérky.
@@ -86,7 +87,7 @@
 2011-04-18*Sloupy ve dvou*/kuzely/passing/sloupy.html*kuzely-passing-sloupyd.png*Trik pro dva žongléry se čtyřmi kužely.
 2011-04-25*Twitter*/twitter.html*twitter.png*Co si vrabci štěbetají o žonglování? Přes twitter se dozvíš o všech novinkách.
 2011-05-02*Doplňky do prohlížeče*/doplnky-prohlizece.html*browsers.png*Žonglérské doplňky do internetových prohlížečů.
-2011-05-09*
+2011-05-09*Obrázky kuželů*/kuzely/druhy.html*kuzelka-albatros-s.jpg*Obrázky žonglérských kuželů.
 2011-05-16*
 2011-05-23
 2011-05-30

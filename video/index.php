@@ -16,10 +16,11 @@ $pagerOptions = array(
     'altPrev'  => 'Předchozí stránka',
     'altNext'  => 'Další stránka',
     'altPage'  => 'Stránka',
-    'separator'  => '~',
+    'separator'  => '&nbsp;',
     'spacesBeforeSeparator'  => 1,
     'spacesAfterSeparator'  => 1,
 		'append'   => false,
+		'linkClass' => 'pl',
 		'fileName' => 'stranka%d.html', 
     'itemData' => $videa,
 );
