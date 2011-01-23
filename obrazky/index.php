@@ -41,7 +41,6 @@ if(isset($_GET['rss'])){
 	$rss=false;
 }
 
-$smarty->assign('feedback',true);
 
 if($rss){
 	header('Content-Type: application/rss+xml');
@@ -82,11 +81,11 @@ if($id){
 		$pagerOptions = array(
 				'mode'     => 'Sliding',
 				'delta'    => 2,
-				'firstLinkTitle' => 'První stránka',
+				'firstLinkTitle' => 'První stránka náhledů',
 				'perPage'  => 15,
-				'altPrev'  => 'Předchozí stránka',
-				'altNext'  => 'Další stránka',
-				'altPage'  => 'Stránka',
+				'altPrev'  => 'Předchozí stránka náhledů',
+				'altNext'  => 'Další stránka náhledů',
+				'altPage'  => 'Stránka náhledů',
 				'linkClass' => 'pl',
 				'separator'  => '&nbsp;',
 				'spacesBeforeSeparator'  => 1,
@@ -132,6 +131,7 @@ if($id){
 	}
 }
 if($id and $photo){
+		$smarty->assign('feedback',true);
 		if(isset($obrazky[intval($photo)])){
 			if(isset($gal_info['icbm'])){
 				$smarty->assign('icbm',$gal_info['icbm']);
@@ -202,6 +202,12 @@ if($id and $photo){
 				$smarty->assign('keywords',make_keywords('žonglování, fotky, '.$gal_info['title']).', '.$stranka.'. stránka');
 			}
 		}
+	$dalsi=array(
+		array('url'=>OBRAZKY_URL,'text'=>'Další obrázky žonglování','title'=>'Další obrázky žonglování'),
+		array('url'=>OBRAZKY_URL.'#vyzva','text'=>'Přidat vlastní obrázky','title'=>'Zveřejni v žonglérově slabikáři vlastní fotky žonglování')
+		);
+
+		$smarty->assign_by_ref('dalsi',$dalsi);
 		$smarty->assign_by_ref('trail', $trail->path);
 		$smarty->assign('titulek',$titulek);
 		$smarty->assign('gal_info',$gal_info);
@@ -242,10 +248,62 @@ if($id and $photo){
 		array('url'=>'/video/','text'=>'Žonglérská videa','title'=>'Pohyblivé obrázky'),
 		array('url'=>'/animace/','text'=>'Animace žonglování','title'=>'Animace triků s míčky')
 		);
+	require($lib.'/Pager/Pager.php');
+	$galerie=get_galerie();
+
+		$pagerOptions = array(
+				'mode'     => 'Sliding',
+				'delta'    => 2,
+				'firstLinkTitle' => 'První stránka obrázků',
+				'perPage'  => 6,
+				'altPrev'  => 'Předchozí stránka obrázků',
+				'altNext'  => 'Další stránka obrázků',
+				'altPage'  => 'Stránka obrázků',
+				'linkClass' => 'pl',
+				'separator'  => '&nbsp;',
+				'spacesBeforeSeparator'  => 1,
+				'spacesAfterSeparator'  => 1,
+				'append'   => false,
+				'firstLinkNull'   => true,
+				'fileName' => 'stranka%d.html', 
+				'itemData' => $galerie,
+		);
+		$pager =& Pager::factory($pagerOptions);
+		$data = $pager->getPageData();
+
+	if($stranka){
+		if($stranka!=$pager->getCurrentPageID()){
+			require('../404.php');
+			exit();
+		}
+	}
+
+	if(count($data)>0){
+		foreach($data as $klic=>$gal){
+			$data[$klic]['obrazky']=get_nahled_galerie($gal['name']);
+		}
+	}
+	$smarty->assign('pager_links', $pager->links);
+	$smarty->assign(
+			'page_numbers', array(
+					'current' => $pager->getCurrentPageID(),
+					'total'   => $pager->numPages()
+			)
+	);
+	$titulek='Obrázky žonglování';
+	$desc='Obrázky žonglování s míčky, kruhy a kužely.';
+	if($pager->getCurrentPageID()>1){
+		$smarty->assign('nadpis',$titulek);
+		$titulek.=' - '.$pager->getCurrentPageID().'. stránka';
+		$desc.=' '.$pager->getCurrentPageID().'. stránka';
+		$trail->addStep($pager->getCurrentPageID().'. stránka');
+	}
+
+	$smarty->assign('description',$desc);
 	$smarty->assign_by_ref('dalsi',$dalsi);
 	$smarty->assign_by_ref('trail', $trail->path);
-	$smarty->assign('titulek','Obrázky žonglování');
-	$smarty->assign('galerie',get_galerie());
+	$smarty->assign('titulek',$titulek);
+	$smarty->assign_by_ref('galerie',$data);
 	$smarty->display('hlavicka.tpl');
 	$smarty->display('obrazky-index.tpl');
 	$smarty->display('paticka.tpl');

@@ -8,7 +8,7 @@
 <th>Prohlížeč</th>
 </tr>
 {foreach from=$prihlaseni item=login name=poradi}
-<tr>
+<tr{cycle values=', class="suda"'}>
 <td>{$smarty.foreach.poradi.total-$smarty.foreach.poradi.index}</td>
 <td>{$login.cas_hr|escape}</td>
 <td>{$login.ip|escape}</td>

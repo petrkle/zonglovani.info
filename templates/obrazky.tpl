@@ -1,3 +1,8 @@
+{if $page_numbers.total > 1}
+<p>
+Stránkování: {$pager_links}
+</p>
+{/if}
 {if is_array($items)}
 <p>
 {foreach from=$items item=foo}
@@ -25,10 +30,3 @@ Stránkování: {$pager_links}
 {/if}
 {/if}
 {/if}
-<p>
-Další <a href="{$smarty.const.OBRAZKY_URL}" title="Další obrázky žonglování.">obrázky žonglování</a>.
-</p>
-
-<p>
-<a href="{$smarty.const.OBRAZKY_URL}#vyzva" title="Přidat vlastní obrázky žonglovaní." class="add">Přidat obrázky</a>
-</p>

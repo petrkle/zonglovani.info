@@ -1,18 +1,26 @@
-<p>
-<a href="/obrazky/ulita-20091213/stranka4/0055.html" class="nahled" title="Ulita 13. 12. 2009"><img src="http://i.{$smarty.server.SERVER_NAME}/obrazky/ulita-20091213/nahledy/0055.jpg" style="width: 128px; height: 96px; margin: 26px 10px;" alt=""/></a>
-<a href="/obrazky/prazsky-zonglersky-marathon-20091128/0010.html" class="nahled" title="Pražský žonglérský marathon 2009"><img src="http://i.{$smarty.server.SERVER_NAME}/obrazky/prazsky-zonglersky-marathon-20091128/nahledy/0010.jpg" style="width: 72px; height: 96px; margin: 26px 38px;" alt=""/></a>
-<a href="/obrazky/carodejnice-klamovka-20080422/0014.html" class="nahled" title="Čarodějnice na klamovce"><img src="http://i.{$smarty.server.SERVER_NAME}/obrazky/carodejnice-klamovka-20080422/nahledy/0014.jpg" style="width: 128px; height: 86px; margin: 31px 10px;" alt=""/></a>
-</p>
-<br class="spacer"/>
 {if is_array($galerie)}
-<ul>
+{if $page_numbers.total > 1}
+<p>
+Stránkování: {$pager_links}
+</p>
+{/if}
 {foreach from=$galerie item=foo}
-<li><a href="{$foo.name|escape}/" title="{$foo.title|escape}">{$foo.title|escape}</a></li>
+<h3><a href="{$smarty.const.OBRAZKY_URL}{$foo.name|escape}/" title="{$foo.title|escape}">{$foo.title|escape}</a></h3>
+<p>
+{foreach from=$foo.obrazky item=bar}
+<a href="{$bar.url|escape}" class="nahled" title="Zobrazit obrázek v plné velikosti."><img src="{$bar.nahled|escape}" style="width: {$bar.sirka|escape}px; height: {$bar.vyska|escape}px; margin: {$bar.margin_v|escape}px {$bar.margin_h|escape}px;" alt=""/></a>
 {/foreach}
-</ul>
+</p>
+{/foreach}
+{/if}
+{if $page_numbers.total > 1}
+<p>
+Stránkování: {$pager_links}
+</p>
 {/if}
 <h3>Filtry obrázků</h3>
 {include file='obrazky-filtry.tpl'}
+{if $page_numbers.current==1}
 <a name="vyzva"></a><h3>Výzva pro fotografy</h3>
 <p>
 {obrazek soubor="fotaka.png" popisek="Fotoaparát"}
@@ -24,3 +32,4 @@ Nenabízím neomezenou kapacitu ani okamžité zveřejnění fotografií. Jen to
 <p>
 U každé fotografie bude tvoje jméno, email a případně odkaz na webovou stránku.
 </p>
+{/if}

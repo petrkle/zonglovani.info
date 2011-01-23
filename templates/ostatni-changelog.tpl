@@ -1,3 +1,8 @@
+{if $page_numbers.total > 1}
+<p>
+Stránkování: {$pager_links}
+</p>
+{/if}
 {if is_array($zmeny)}
 {foreach from=$zmeny item=zmena}
 <h3><a name="{$zmena.cislo}"></a>Revize č. {$zmena.cislo}</h3>

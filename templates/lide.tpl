@@ -16,13 +16,12 @@ Stránkování: {$pager_links}
 {/if}
 {/if}
 {if $smarty.session.logged!=true}
-<p>
-<a href="{$smarty.const.LIDE_URL}pravidla.php" title="Vytvořit uživatelský účet." class="add">Vytvořit nový účet</a>.
-</p>
 <h3>Výhody pro registrované uživatele</h3>
 {include file='vyhody-uctu.tpl'}
+<p>
+<a href="{$smarty.const.LIDE_URL}pravidla.php" title="Vytvořit uživatelský účet." class="add">Založit nový účet</a>.
+</p>
 {/if}
-
 <h3><a name="filtry">Filtry</a></h3>
 <p>
 Ze seznamu žonglérů můžeš vybírat podle:

@@ -41,7 +41,7 @@ Stránku odebereš z oblíbených kliknutím na obrázek žluté hvězdičky {ob
 {/if}
 <ul>
 <li><a href="{$smarty.const.LIDE_URL}pristupy.php" title="Seznam přihlášení do žonglérova slabikáře.">Seznam tvých přihlášení</a> do žonglérova slabikáře.</li>
-<li><a href="{$smarty.const.LIDE_URL}pravidla.php" title="">Pravidla používání</a> účtu v žonglérově slabikáři</li>
+<li><a href="{$smarty.const.LIDE_URL}pravidla.php" title="Pravidla pro používání žonglérova slabikáře.">Pravidla používání</a> účtu v žonglérově slabikáři</li>
 </ul>
 {else}
 

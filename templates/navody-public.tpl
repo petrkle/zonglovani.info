@@ -4,7 +4,7 @@ Návody na žonglování ve formátu <strong>PDF</strong>. Po <a href="{$smarty.
 </p>
 <p></p>
 <ul>
-<li><a href="{$smarty.const.LIDE_URL}pravidla.php" title="Vytvořit uživatelský účet." class="add">Vytvořit nový účet</a> v žonglérově slabikáři</li>
+<li><a href="{$smarty.const.LIDE_URL}pravidla.php" title="Vytvořit uživatelský účet." class="add">Založit nový účet</a> v žonglérově slabikáři</li>
 <li><a href="http://zonglovani.info/navody/fb/" title="Použít existující účet na Facebooku." class="fblink">Přihlásit se přes Facebook</a> - nemusíš se registrovat do žonglérova slabikáře, tyto návody jsou dostupné i na Facebooku.</li>
 </ul>
 <h3>Výroba míčků na žonglování</h3>

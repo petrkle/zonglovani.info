@@ -47,7 +47,7 @@ $dalsi=array(
 	array('url'=>'/obrazky/','text'=>'Obrázky žonglování','title'=>'Fotografie žonglování'),
 	);
 
-if($pager->getCurrentPageID()!=0){
+if($pager->getCurrentPageID()>1){
 	$trail->addStep($pager->getCurrentPageID().'. stránka','/video/stranka'.$pager->getCurrentPageID().'.html');
 }
 $smarty->assign(
