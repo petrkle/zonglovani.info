@@ -79,7 +79,7 @@ Upozorňování na novinky v žonglérově slabikáři.
 <h3><a href="/changelog.html" title="Změny v žonglérově slabikáři.">Změny v žonglérově slabikáři</a></h3>
 <p>
 <a href="/changelog.html" title="Změny v žonglérově slabikáři.">{obrazek soubor="budik.jpg" popisek="Seznam změn."}</a>
-Výpis změn v žonglérově slabikáři (svn&nbsp;log).
+Výpis změn a úprav v žonglérově slabikáři.
 </p>
 
 <h3><a href="/ulita/" title="Nedělní žonglování v Ulitě.">Žonglování v Ulitě</a></h3>

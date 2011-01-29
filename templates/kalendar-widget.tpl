@@ -7,6 +7,14 @@
 </code>
 </p>
 <p>{obrazek soubor='widget-light.png' popisek='Widget - světlá varianta'}</p>
+<h3>Světlá varianta na šířku</h3>
+<p>
+<code>
+&lt;div id="zs-kalendar"&gt;&lt;/div&gt;<br />
+&lt;script src="http://zonglovani.info/kalendar/widget.js?css=http://zonglovani.info/css/ww-light.css" type="text/javascript" charset="utf-8"&gt;&lt;/script&gt;
+</code>
+</p>
+<p><a href="/img/w/widget-light-w.png" title="Světlá varianta na šířku">{obrazek soubor='widget-light-w.s.png' popisek='Widget - světlá varianta na šířku'}</a></p>
 <h3>Tmavá varianta</h3>
 <p>
 <code>
@@ -25,6 +33,14 @@ Pomocí parametru <code>css</code> můžeš nastavit vlastní kaskádový styl p
 &lt;script src="http://zonglovani.info/kalendar/widget.js?css=http://kdesi.cz/zongl.css&amp;filtr=nekdo" type="text/javascript" charset="utf-8"&gt;&lt;/script&gt;</code>
 </p>
 <p>Zobrazí pouze události zadané uživatelem který má login "nekdo". Navíc se použije vlastní kaskádový styl. Login uživatele zjistíš z adresy profilu. Např.: http://zonglovani.info/lide/nekdo.html</p>
+
+<p>Parametr <code>ukaz=obrazky</code> přidá k událostem obrázky. Příklad použití:</p>
+<p>
+<code>&lt;div id="zs-kalendar"&gt;&lt;/div&gt;<br />
+&lt;script src="http://zonglovani.info/kalendar/widget.js?ukaz=obrazky" type="text/javascript" charset="utf-8"&gt;&lt;/script&gt;</code>
+</p>
+<p><a href="/img/w/widget-img.png" title="Widget s obrázky">{obrazek soubor='widget-img.s.png' popisek='Widget s obrázky'}</a></p>
+
 <h3>API</h3>
 <p>
 Data z kalendáře jsou přístupná ve formátu json na adrese: <a href="{$smarty.const.CALENDAR_URL}next.json">http://zonglovani.info/kalendar/next.json</a>

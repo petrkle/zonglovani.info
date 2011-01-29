@@ -44,6 +44,12 @@ function main() {
 					var filtr = "";
 				}
 
+				if($.urlParam('ukaz')){
+					var obrazky = 'jo';
+				}else{
+					var obrazky = 'ne';
+				}
+
         var css_link = $("<link>",{rel:"stylesheet",type:"text/css",href:csslink,media:"screen,projection"});
         css_link.appendTo('head');          
 
@@ -55,12 +61,19 @@ function main() {
 
           $('#zs-kalendar').html('<div class="zs-event-list"><h4 class="zs-head zs-link"><a href="http://zonglovani.info/kalendar/" title="Kalendář žonglérských akcí" class="zs-link" tartet="_top">Kalendář žonglování</a></h4></div>');
 					$.each(data,function(id,akce){
-						$('.zs-event-list').append('<h5 class="zs-nadpis"><a href="'+akce[0].url+'" title="'+akce[0].desc+'" target="_top" class="zs-link">'+akce[0].title+'</a></h5><div class="zs-datum">'+akce[0].start+'</div><div class="zs-popis">'+akce[0].desc+'</div>');
+						var udalost='<div class="zs-event"><h5 class="zs-nadpis"><a href="'+akce[0].url+'" title="'+akce[0].desc+'" target="_top" class="zs-link">'+akce[0].title+'</a></h5>';
+						udalost=udalost+'<div class="zs-datum">'+akce[0].start+'</div>';
+						if(obrazky=='jo' && akce[0].img){
+							udalost=udalost+'<a href="'+akce[0].url+'" title="'+akce[0].desc+'" target="_top"><img src="'+akce[0].img+'" width="130" class="zs-img" /></a>';
+						}
+						udalost=udalost+'<div class="zs-popis">'+akce[0].desc+'</div></div>';
+						$('.zs-event-list').append(udalost);
 						pocet++;
 					});
 					if(pocet==0){
 						$('.zs-event-list').append('<div class="zs-pridej">Žádná naplánovaná akce.<br /><a href="http://zonglovani.info/kalendar/#add" title="Přidat akci do kalendáře žonglování" class="zs-addlink">Přidat</a></div>');
 					}
+					$('.zs-event-list').append('<div class="zs-cleaner"></div>');
         }});
     });
 }

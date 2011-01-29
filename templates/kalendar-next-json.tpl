@@ -6,6 +6,9 @@
 "start": "{$udalost.start_hr}",
 "url": "http://{$smarty.server.SERVER_NAME}{$smarty.const.CALENDAR_URL}udalost-{$udalost.id}.html",
 "desc": "{$udalost.desc|escape}",
+{if $udalost.img}
+"img": "http://{$smarty.server.SERVER_NAME}{$smarty.const.CALENDAR_URL}obrazek-{$udalost.img|escape}",
+{/if}
 "title": "{$udalost.title|escape}"
 {literal}}{/literal}
 ]{if !$smarty.foreach.smycka.last},{/if}
