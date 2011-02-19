@@ -42,9 +42,11 @@ Pravá ruka hází míček tak jako když žongluješ se třemi míčky (docela 
 Trojka znamená, <a href="/micky/3/kaskada.html" title="Základní trik se třemi míčky.">kaskádu se 3 míčky</a>.
 </p>
 
+<!-- start -->
 <p class="animace">
 <a href="/animace/siteswap/3.html" title="Animace kaskády">{obrazek soubor='animace.png' popisek=''} Přehrát animaci</a>
 </p>
+<!-- stop -->
 
 <h3>4</h3>
 <p>
@@ -60,9 +62,11 @@ Další jednoduchý příklad: <a href="/micky/4/fontana.html" title="Základní
 Čtyři míčky musíš háze jako asynchronní fontánu. V siteswap všechny sudá čísla zůstávají ve stejné ruce, lichá značí hody do druhé ruky.
 </p>
 
+<!-- start -->
 <p class="animace">
 <a href="/animace/siteswap/4.html" title="Animace fontány">{obrazek soubor='animace.png' popisek=''} Přehrát animaci</a>
 </p>
+<!-- stop -->
 
 <h3>5, 6, ...</h3>
 <p>
@@ -85,9 +89,11 @@ Trik se třemi míčky. První tři hody jsou jako při <a href="/micky/5/kaskad
 Většina žonglérů zná tento trik pod názvem <a href="/micky/3/blesk.html" title="blesk">blesk</a>.
 </p>
 
+<!-- start -->
 <p class="animace">
 <a href="/animace/siteswap/55500.html" title="Animace žonglování blesku">{obrazek soubor='animace.png' popisek=''} Přehrát animaci</a>
 </p>
+<!-- stop -->
 
 <h3>53</h3>
 <p>
@@ -104,9 +110,11 @@ Trik se čtyřmi míčky. Z pravé ruky házíš 5, z levé 3.
 Trik se jmenuje <a href="/micky/4/sprcha-polovicni.html" title="Trik se čtyřmi míčky.">poloviční sprcha se čtyřmi míčky</a>.
 </p>
 
+<!-- start -->
 <p class="animace">
 <a href="/animace/siteswap/53.html" title="Animace poloviční sprchy">{obrazek soubor='animace.png' popisek=''} Přehrát animaci</a>
 </p>
+<!-- stop -->
 
 <h3>Jak poznám s kolika míčky se žongluje&nbsp;53?</h3>
 

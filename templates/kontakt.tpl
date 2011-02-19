@@ -1,15 +1,19 @@
 <h3>Petr Kletečka</h3>
+<!-- start -->
 <p>{obrazek soubor="pek.jpg" popisek="Petr Kletečka"}</p>
 <h3>Zeptej se na cokoliv</h3>
+<!-- stop -->
 <p>
 {assign var='mail' value='admin@zonglovani.info'}
 Elektronická pošta: {$mail|mailobfuscate}
 </p>
+<!-- start -->
 <p>
 {assign var='tel' value='+420 732 766 740'}
 Telefon: {$tel|telobfuscate}
 </p>
 <p>Lepší je použít elektronickou poštu. Přece jen telefon nemám pořád u sebe a zapnutý.</p>
+<!-- stop -->
 
 <h3>Sháníš žongléry?</h3>
 <p>Koukni do <a href="{$smarty.const.LIDE_URL}" title="Seznam uživatelů žonglérova slabikáře.">seznamu žonglérů</a>. Jsou tam lidé, kteří umí:</p>

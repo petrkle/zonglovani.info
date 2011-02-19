@@ -9,6 +9,7 @@
 </div>
 {/if}
 {if $feedback}
+<!-- start -->
 <div class="feedback">
 {if $hodnoceni.libi!=0 or $hodnoceni.nelibi!=0 or $smarty.session.logged==true}
 <a name="hodnoceni"></a><h5>Hodnocení stránky</h5>
@@ -32,6 +33,7 @@
 <p>Stránky můžou komentovat a hodnotit <a href="{$smarty.const.LIDE_URL}prihlaseni.php{if $smarty.server.REQUEST_URI!="/"}?next={$smarty.server.REQUEST_URI}#hodnoceni{/if}" title="Přihlášení do žonglérova slabikáře" rel="nofollow">přihlášení</a> uživatelé.</p>
 {/if}
 </div>
+<!-- stop -->
 {/if}
 <!-- obsah konec -->
 </div>

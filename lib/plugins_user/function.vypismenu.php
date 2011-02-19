@@ -8,6 +8,10 @@ function smarty_function_vypismenu($params, &$smarty){
 	$navrat="<ul>\n";
 
 	for($foo=0;$foo<count($adresy);$foo++){
+	if($foo==4){
+			$navrat.="\n<!-- start -->\n";
+	}
+
 		if($_SERVER['REQUEST_URI']==$adresy[$foo] and !isset($_GET['show'])){
 			$navrat.="<li><h4>".$texty[$foo]."</h4>\n";
 		}else{
@@ -15,24 +19,34 @@ function smarty_function_vypismenu($params, &$smarty){
 		};
 		$navrat.=submenu($foo);
 		$navrat.="</li>\n";
+	if($foo==4){
+			$navrat.="\n<!-- stop -->\n";
+	}
 	}
 
 	$navrat.="\n</ul>\n";
 
 	if(!preg_match(SEARCH_URL,$_SERVER['REQUEST_URI'])){
-	$navrat.='<form action="'.SEARCH_URL.'" method="get" id="malehledani">
+		$navrat.='
+		<!-- start -->
+			<form action="'.SEARCH_URL.'" method="get" id="malehledani">
 		<fieldset>
 		<legend>Vyhledávání</legend>
 		<input type="text" name="query" class="policko" accesskey="4" /><input type="submit" value="Najít" class="knoflik" />
 		<input type="hidden" name="search" value="1" />
 		</fieldset>
-		</form>';
+		</form>
+		<!-- stop -->
+		';
 			}
 
 	
-	$navrat.='<script type="text/javascript">//<![CDATA[
+	$navrat.='
+		<!-- start -->
+		<script type="text/javascript">//<![CDATA[
 		document.write(\'<br /><ul><li><iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fzongleruv.slabikar&amp;width=155&amp;colorscheme=light&amp;connections=6&amp;stream=false&amp;header=false&amp;height=420" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:155px; height:420px;" allowTransparency="true"></iframe></li></ul>\');
 //]]></script>
+<!-- stop -->
 ';
 		
 	return $navrat;
@@ -65,7 +79,9 @@ function submenu($id){
 	}
 
 	if(isset($adresy)){
-		$navrat="<ul>\n";
+		$navrat='';
+		if($id==5){$navrat.="\n<!-- start -->\n";}
+		$navrat.="<ul>\n";
 		for($foo=0;$foo<count($adresy);$foo++){
 			if($_SERVER['REQUEST_URI']==$adresy[$foo] and !isset($_GET['show'])){
 				$navrat.='<li><strong>'.$texty[$foo].'</strong></li>'."\n";
@@ -74,6 +90,7 @@ function submenu($id){
 			};
 		};
 		$navrat.="</ul>\n";
+		if($id==5){$navrat.="\n<!-- stop -->\n";}
 		return $navrat;
 	}else{
 		return '';

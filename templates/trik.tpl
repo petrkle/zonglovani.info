@@ -17,7 +17,9 @@
 {/if}
 {/foreach}
 {if $trik.anim}
+<!-- start -->
 <p class="animace"><a href="/animace/{$trik.anim.id|escape}.html" title="Animace">{obrazek soubor='animace.png' popisek=''} Přehrát animaci</a></p>
+<!-- stop -->
 {/if}
 {if $trik.dalsi}
 <div class="kamdal">

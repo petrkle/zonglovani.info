@@ -53,11 +53,13 @@ ob_flush();
 flush();
 {/php}
 <div id="hlavicka">
+<!-- start -->
 <div id="ucet">
 {if $smarty.session.logged==true}<div id="ulink">{if $smarty.server.REQUEST_URI!='/ulita/'}<a href="/ulita/" title="Nedělní žonglování v DDM Ulita.">Žonglování v Ulitě</a>{else}<strong>Žonglování v Ulitě</strong>{/if}</div>{if isset($smarty.session.changes)}<a href="/changes.html" title="Novinky v žonglérově slabikáři">Novinky{if $smarty.session.changes_pocet} ({$smarty.session.changes_pocet}){/if}</a> ~ {/if}<a href="{$smarty.const.LIDE_URL}{$smarty.session.uzivatel.login|escape}.html" title="Tvůj účet.">{$smarty.session.uzivatel.jmeno|escape}</a> ~ <a href="{$smarty.const.LIDE_URL}nastaveni/" title="Nastavení tvého účtu.">Nastavení</a> ~ <a href="{$smarty.const.LIDE_URL}odhlaseni.php" title="Odhlásit se">Odhlásit</a>{else}
 <div id="ulink">{if $smarty.server.REQUEST_URI!='/ulita/'}<a href="/ulita/" title="Nedělní žonglování v DDM Ulita.">Žonglování v Ulitě</a>{else}<strong>Žonglování v Ulitě</strong>{/if}</div>
  {if basename($smarty.server.SCRIPT_NAME)!="prihlaseni.php"}<a href="{$smarty.const.LIDE_URL}prihlaseni.php{if $smarty.server.REQUEST_URI!="/"}?next={$smarty.server.REQUEST_URI|escape}{/if}" title="Přihlášení do žonglérova slabikáře" rel="nofollow">Přihlášení</a> ~ {/if}<a href="{$smarty.const.LIDE_URL}pravidla.php" title="Vytvořit nový účet v žonglérově slabikáři.">Založit účet</a>{/if}
 </div>
+<!-- stop -->
 <a name="nahore" id="nahore"></a>
 <div class="hlavickabg{if preg_match('/\/micky.*/',$smarty.server.REQUEST_URI)} hlm{elseif preg_match('/\/kruhy.*/',$smarty.server.REQUEST_URI)} hlkr{elseif preg_match('/\/kuzely.*/',$smarty.server.REQUEST_URI)} hlkz{/if}">
 <a href="/" title="Žonglérův slabikář - úvodní stránka." accesskey="2"><img src="/img/l/logo.gif" width="442" height="71" title="Žonglérův slabikář - úvodní stránka." alt="Žonglérův slabikář - úvodní stránka." />

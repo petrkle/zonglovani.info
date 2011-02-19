@@ -306,6 +306,21 @@
 </video:video>
 </url>
 <url>
+<loc>http://zonglovani.info/video/klamovka.html</loc>
+<video:video>
+<video:thumbnail_loc>http://zonglovani.info/video/img/k/klamovka.jpg</video:thumbnail_loc>
+<video:title>Žongléři z Klamovky</video:title>
+<video:description>Passing s kužely, přebírání kuželů a odrážení o strop.</video:description>
+<video:content_loc>http://juggling.tv/download/encoded/5353/ongli-z-klamovky.mp4</video:content_loc>
+<video:player_loc>http://juggling.tv/nvplayer.swf?config=http://juggling.tv/nuevo/config.php?key=510442f2fd40f2100b05</video:player_loc>
+<video:duration>289</video:duration>
+<video:tag>Žonglování</video:tag>
+<video:category>Žonglování</video:category>
+<video:gallery_loc title="Žonglérská videa">http://zonglovani.info/video/</video:gallery_loc>
+<video:requires_subscription>no</video:requires_subscription>
+</video:video>
+</url>
+<url>
 <loc>http://zonglovani.info/video/kopie.html</loc>
 <video:video>
 <video:thumbnail_loc>http://zonglovani.info/video/img/k/kopie.jpg</video:thumbnail_loc>
