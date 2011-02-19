@@ -33,6 +33,8 @@
 <li><a href="http://www.semicomplete.com/projects/xdotool/" onclick="pageTracker._trackPageview('/goto/semicomplete.com/projects/xdotool');" class="external">xdotool</a> - automatizace</li>
 <li><a href="http://www.postfix.org" onclick="pageTracker._trackPageview('/goto/postfix.org');" class="external">Postfix</a> - MTA</li>
 <li><a name="fakemail"></a><a href="http://www.lastcraft.com/fakemail.php" onclick="pageTracker._trackPageview('/goto/lastcraft.com/fakemail.php');" class="external">Fakemail</a> - testování</li>
+<li><a href="http://wix.sourceforge.net" onclick="pageTracker._trackPageview('/goto/wix.sourceforge.net');" class="external">Windows Installer XML</a> - instalační balíček pro Windows</li>
+<li><a href="http://www.autoitscript.com/site/autoit/" onclick="pageTracker._trackPageview('/goto/autoitscript.com');" class="external">AutoIt</a> - spouštěč v instalačním balíčku</li>
 {*<li><a href="http://" onclick="pageTracker._trackPageview('/goto/');" class="external"></a> - </li>*}
 </ul>
 {* vim: set nonumber nowrap: *}
