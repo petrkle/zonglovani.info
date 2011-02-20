@@ -5,7 +5,7 @@ require('../func.php');
 $titulek='Soubory ke stažení';
 $smarty->assign('titulek',$titulek);
 $smarty->assign('robots','noindex,nofollow');
-$smarty->assign('nahled','http://'.$_SERVER['SERVER_NAME'].'/img/n/nacinia.png');
+$smarty->assign('nahled','http://'.$_SERVER['SERVER_NAME'].'/img/d/download.png');
 $smarty->assign('description','Soubory ke stažení - žonglování.');
 
 $trail = new Trail();

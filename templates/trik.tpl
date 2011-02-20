@@ -22,6 +22,8 @@
 <!-- stop -->
 {/if}
 {if $trik.dalsi}
+
+
 <div class="kamdal">
 <a name="kam-dal"></a><h5>Kam dál</h5>
 <ul>

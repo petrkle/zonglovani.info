@@ -1,4 +1,5 @@
 {if $dalsi}
+
 <div class="kamdal">
 <a name="kam-dal"></a><h5>Kam dál</h5>
 <ul>
@@ -9,6 +10,7 @@
 </div>
 {/if}
 {if $feedback}
+
 <!-- start -->
 <div class="feedback">
 {if $hodnoceni.libi!=0 or $hodnoceni.nelibi!=0 or $smarty.session.logged==true}
