@@ -78,7 +78,8 @@
 2011-02-14*Fotky z Ulity*/obrazky/ulita-20110213/0000.html*zonglerka-v-modrem.jpg*Fotky z nedělního žonglování v Ulitě.
 2011-02-21*Instalace žonglérova slabikáře*/download*download.png*Nainstaluj si žonglérův slabikář do počítače. Zjednodušená verze která jde používat i bez připojení k internetu. 
 2011-02-23*Žonglování v Ulitě*/ulita/?20110227*ulita.cz.png*V neděli se opět žongluje v DDM Ulita. Začátek v 16.00. Vezmi svoje žonglovátka a přijď si zaházet.
-2011-02-28*Žonglování v Ulitě*/ulita/?20110306*ulita.cz.png*V domě dětí a mládeže Ulita se pravidelně žongluje. Přijít mohou začínající i zkušení žongléři a žonglérky.
+2011-02-28*Fotky z Ulity*/obrazky/ulita-20110227/*hula-hop.jpg*Fotky z nedělního žonglování žonglování v Ulitě. POZOR! Ulita je opět příští víkend.
+2011-03-02*Žonglování v Ulitě*/ulita/?20110306*ulita.cz.png*Už v neděli je další žonglování v Ulitě. Pro širokou veřejnost jsou k zapůjčení míčky, kruhy a kužely. Přijď potrénovat žonglování.
 2011-03-07*What the (beepbeep) do we know?*/video/what-the-beepbeep-do-we-know.html*partnerpoi.jpg*Točení s poi ve více lidech.
 2011-03-14*Žonglování v Ulitě*/ulita/?20110320*ulita.cz.png*V domě dětí a mládeže Ulita se pravidelně žongluje. Přijít mohou začínající i zkušení žongléři a žonglérky.
 2011-03-21*Literatura*/literatura.html*encyclopaedia.jpg*Přehled nejlepších knížek o žonglování.

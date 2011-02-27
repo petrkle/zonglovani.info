@@ -1,6 +1,6 @@
 #!/bin/bash
 
-PERPAGE=`grep perPage obrazky/index.php | sed "s/[^0-9]*//g"`
+PERPAGE=`grep perPage obrazky/index.php | head -1 | sed "s/[^0-9]*//g"`
 
 for foo in `find obrazky -type d -mindepth 1 -maxdepth 1`
 do
