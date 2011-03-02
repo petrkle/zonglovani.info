@@ -1,16 +1,12 @@
 {
-  "name": "Žonglování",
-  "version": "0.2",
-  "description": "Kalendář žonglérských akcí.",
-"icons": { "16": "micky16.png",
-           "48": "micky48.png",
-          "128": "micky128.png" },
-  "browser_action": {
-    "default_icon": "micky19.png",
-		"default_title": "Kalendář žonglérských akcí.",
-		"popup": "popup.html"
-  },
-"permissions": [
-  "http://zonglovani.info/"
-]
+	"name": "Žonglování",
+	"version": "0.3",
+	"description": "Kalendář žonglérských akcí.",
+	"icons": { "16": "micky16.png",
+						 "48": "micky48.png",
+						"128": "micky128.png" },
+	"browser_action": {
+			"default_icon": "micky19.png",
+			"default_title": "Kalendář žonglérských akcí.",
+			"popup": "popup.html"}
 }
