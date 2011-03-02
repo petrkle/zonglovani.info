@@ -24,10 +24,21 @@ if(isset($_GET['deleted']) or isset($_POST['deleted'])){
 }
 
 if($udalost){
-		$start_day=date('j. n. Y',$udalost['start']);
+	if(date('Y',$udalost['start']) != date('Y',$udalost['end'])){
+		$append_y=' Y';
+	}else{
+		$append_y='';
+	}
+
+	if(date('nY',$udalost['start']) != date('nY',$udalost['end'])){
+		$append_m=' n.';
+	}else{
+		$append_m='';
+	}
+		$start_day=date('j.'.$append_m.$append_y,$udalost['start']);
 		$end_day=date('j. n. Y',$udalost['end']);
-		if($start_day == $end_day){
-			$doba=$start_day;
+		if(date('j. n. Y',$udalost['start']) == date('j. n. Y',$udalost['end'])){
+			$doba=date('j. n. Y',$udalost['start']);
 		}else{
 			$doba=$start_day.' až '.$end_day;
 		}

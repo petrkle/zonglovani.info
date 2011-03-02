@@ -63,13 +63,13 @@ my $event=$zs_udalost->content();
 my $event_url=$bot->uri();
 my $idpart=$event_url;
 $idpart =~ s/.*\/kalendar\/udalost-(.+)\.html/$1/;
-my $zacatek_hr=time2str("%e\. %L\. %Y",$zacatek);
+my $zacatek_hr=time2str("%e\. %L\.",$zacatek);
 $zacatek_hr =~ s/^ //;
 
 my $konec_hr=time2str("%e\. %L\. %Y",$konec);
 $konec_hr =~ s/^ //;
 
-ok($event =~ /<title>Testovací nadpis $zacatek_hr až $konec_hr - kalendář žonglování<\/title>/,'Správný titulek');
+ok($event =~ /<title>Testovací nadpis $zacatek_hr.* až $konec_hr - kalendář žonglování<\/title>/,'Správný titulek');
 ok($event =~ /<h1>Testovací nadpis</,'Správný nadpis');
 ok($event =~ /<span class="description">Testovací popis</,'Správný popis');
 ok($event =~ /<a href="http:\/\/nekde.cz"/,'Správný odkaz na web');
