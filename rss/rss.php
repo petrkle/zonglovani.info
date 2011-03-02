@@ -51,6 +51,7 @@ function get_news($pocet,$filtr=false){
 		$baz=preg_split('/-/',$baz[0]);
 		$navrat[$foo]['titulek']=trim($bar[0]);
 		$navrat[$foo]['description']=trim($bar[2]);
+		$navrat[$foo]['description_plain']=trim(strip_tags($bar[2]));
 		$navrat[$foo]['url']=trim($bar[1]);
 		$navrat[$foo]['timestamp']=trim($baz[0]);
 		$navrat[$foo]['cas']=trim($baz[0]);

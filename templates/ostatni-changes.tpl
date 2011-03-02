@@ -10,10 +10,10 @@
 {/if}
 
 {if $zmena.typ=='diskuse'}
-<h3>Diskuse</h3>
+<h3><a href="{$smarty.const.DISKUSE_URL}stranka{$zmena.stranka|escape}.html#{$zmena.cas|escape}" title="Zobrazit příspěvek">{$zmena.autor_hr|escape}</a></h3>
 <ul>
 <li>Datum: {$zmena.datum_hr|escape} {$zmena.cas_hr|escape}</li>
-<li><a href="{$smarty.const.LIDE_URL}{$zmena.autor|escape}.html" title="Podrobnosti o {$zmena.autor_hr|escape}">{$zmena.autor_hr|escape}</a> - nový příspěvek v <a href="{$smarty.const.DISKUSE_URL}stranka{$zmena.stranka|escape}.html#{$zmena.cas|escape}" title="Zobrazit příspěvek">diskusi</a></li>
+<li><strong>Diskuse:</strong> {$zmena.text|strip_tags|escape}</a></li>
 </ul>
 {/if}
 
@@ -27,10 +27,12 @@
 {/if}
 
 {if $zmena.typ=='rss'}
-<h3>RSS</h3>
+<h3><a href="{$zmena.url|escape}" title="Stránka {$zmena.popis|escape}"{if !preg_match('/^http:\/\/zonglovani.info/',$zmena.url)} class="external" rel="nofollow" onclick="pageTracker._trackPageview('/goto/{$zmena.url|replace:'http://':''|regex_replace:"/^www\./":""|escape}');"{/if}>{$zmena.titulek|strip_tags|truncate:60:"...":false|escape|default:'Bez titulku'}</a></h3>
 <ul>
-<li>Datum: {$zmena.time_hr|escape}, Zdroj: {$rss_zdroje[$zmena.rssid].popis|escape}</li>
-<li><a href="/rss/#{$zmena.cas|escape}">{$zmena.titulek|truncate:60:"...":false|escape|default:'Bez titulku'}</a></li>
+<li>Datum: {$zmena.time_hr|escape}, Zdroj: <a href="{$rss_zdroje[$zmena.rssid].url|escape}" title="{$rss_zdroje[$zmena.rssid].popis|escape}"{if !preg_match('/^http:\/\/zonglovani.info/',$rss_zdroje[$novinka.rssid].url)} class="external" rel="nofollow" onclick="pageTracker._trackPageview('/goto/{$rss_zdroje[$novinka.rssid].url|replace:'http://':''|regex_replace:"/^www\./":""|escape}');"{/if}>{$rss_zdroje[$zmena.rssid].popis|escape}</a></li>
+{if strlen($zmena.description_plain)>0}
+<li>{$zmena.description_plain|escape}</li>
+{/if}
 </ul>
 {/if}
 {/foreach}

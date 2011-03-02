@@ -56,7 +56,6 @@ if(isset($_POST['login']) and isset($_POST['heslo']) and isset($_GET['action']))
 			if(is_readable(LIDE_DATA.'/'.$uzivatel['login'].'/prihlaseni.txt')){
 				$prihlaseni=file(LIDE_DATA.'/'.$uzivatel['login'].'/prihlaseni.txt');
 				$lastlogin=preg_split('/\*/',array_pop($prihlaseni));
-				$zmeny=get_simple_changelog($lastlogin[0]);
 				$zpravy=array_reverse(get_diskuse_zpravy());
 				$baz=get_tipy();
 				$tipy=array();
@@ -81,7 +80,7 @@ if(isset($_POST['login']) and isset($_POST['heslo']) and isset($_GET['action']))
 						$rss[$key]['typ']='rss';
 					}
 				}
-				$news=array_merge($zmeny,$zpravy,$tipy,$rss);
+				$news=array_merge($zpravy,$tipy,$rss);
 				usort($news, 'sort_by_time');
 				if(count($news)>0){
 					$_SESSION['changes']=array_reverse($news);
