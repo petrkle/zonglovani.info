@@ -129,8 +129,15 @@ Celosvětová diskusní skupina o žonglování.
 Žonglérské doplňky do prohlížeče internetu.
 </p>
 
+<!-- start -->
+<h3><a href="/download/" title="Off-line verze žonglérova slabikáře.">Soubory ke stažení</a></h3>
+<p>
+<a href="/download/" title="Off-line verze žonglérova slabikáře.">{obrazek soubor='download.png' popisek='Soubory ke stažení'}</a>
+Stažení žonglérova slabikáře pro použití na počítačích bez internetu.
+</p>
+<!-- stop -->
+
 <h3><a href="/proc-a-jak.html" title="Proč a jak vznikl žonglérův slabikář.">Proč a jak vznikl žonglérův slabikář</a></h3>
 <p>
 Trocha historie.
 </p>
-

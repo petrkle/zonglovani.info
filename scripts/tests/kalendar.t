@@ -63,7 +63,7 @@ my $event=$zs_udalost->content();
 my $event_url=$bot->uri();
 my $idpart=$event_url;
 $idpart =~ s/.*\/kalendar\/udalost-(.+)\.html/$1/;
-my $zacatek_hr=time2str("%e\. %L\.",$zacatek);
+my $zacatek_hr=time2str("%e\.",$zacatek);
 $zacatek_hr =~ s/^ //;
 
 my $konec_hr=time2str("%e\. %L\. %Y",$konec);

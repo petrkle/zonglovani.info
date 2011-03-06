@@ -1,13 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
-   <Product Id='54713a12-2a98-4033-bdee-182e1cce5799' Name='Žonglérův slabikář' Language='1029' 
-            Version='0.0.1.0' Manufacturer='www.zonglovani.info' UpgradeCode='28fae9a7-5822-43a8-bf8c-f306f573a1fc' >
+   <Product Id='e61d539c-6b59-4157-b0b9-a781aacee856' Name='Žonglérův slabikář' Language='1029' 
+            Version='0.2.0.0' Manufacturer='www.zonglovani.info' UpgradeCode='28fae9a7-5822-43a8-bf8c-f306f573a1fc' >
       <Package Description='Obrázková učebnice žonglování s míčky, kruhy a kužely.'
                Comments='Žonglérův slabikář'
-							 Manufacturer='www.zonglovani.info' InstallerVersion='200' Compressed='yes'
+							 Manufacturer='www.zonglovani.info' InstallerVersion='202' Compressed='yes'
 							 InstallPrivileges="elevated"
 							 InstallScope="perMachine" />
 
+						 <InstallExecuteSequence>
+							     <RemoveExistingProducts After="InstallInitialize" />
+								 </InstallExecuteSequence>
+<Upgrade Id='28fae9a7-5822-43a8-bf8c-f306f573a1fc'>
+  <UpgradeVersion OnlyDetect='no' Property='PREVIOUSFOUND'
+    Minimum='0.0.1' IncludeMinimum='yes'
+    Maximum='0.2.0' IncludeMaximum='no' />
+</Upgrade>
+
+
+						 <!--
 <UI Id="WixUI_Minimal">
     <TextStyle Id="WixUI_Font_Normal" FaceName="Tahoma" Size="10" />
     <TextStyle Id="WixUI_Font_Bigger" FaceName="Tahoma" Size="14" />
@@ -41,11 +52,13 @@
 
     <Property Id="ARPNOMODIFY" Value="1" />
   </UI>
+	-->
 
-  <UIRef Id="WixUI_Common" />
+  <UIRef Id="WixUI_Minimal" />
 
  <WixVariable Id="WixUIBannerBmp" Value="img\top.bmp" />
  <WixVariable Id="WixUIDialogBmp" Value="img\bg.bmp" />
+ <WixVariable Id="WixUILicenseRtf" Value="LICENCE.rtf" />
  <Icon Id="ProductIcon" SourceFile="img\zonglovani.ico"/>
  <Property Id="ARPPRODUCTICON" Value="ProductIcon" />
 	<Property Id='ARPCOMMENTS'>Žonglérův slabikář - obrázková učebnice žonglování s míčky, kruhy a kužely.</Property>
@@ -309,7 +322,6 @@
 	<ComponentRef Id="cmp72CE14FE3C80863ACFAFDB16FB0050CC" />
 	<ComponentRef Id="cmp3AD224DC6F322287C9A0688D11A1DA33" />
 	<ComponentRef Id="cmpEE8DE08E2F933FCD2D0B0F79BF090388" />
-	<ComponentRef Id="cmp352EAB658885AD187124B1BF9A51AF62" />
 	<ComponentRef Id="cmpA1FBFC429D5A855BFCCDBCDBF7D8CF40" />
 	<ComponentRef Id="cmp4AAE2BA5EBEE23354E0BC887A1AAD53A" />
 	<ComponentRef Id="cmpCC81F2D1B8F5B9E88283A12713E4D2F9" />
@@ -510,15 +522,12 @@
 	<ComponentRef Id="cmp1E515CD48B034DECCD9F9A2E75EE3C63" />
 	<ComponentRef Id="cmp4EABCE24F55782C2047AE1B724127AAA" />
 	<ComponentRef Id="cmp7D130C54B45D92D84BA6A58688A78527" />
-	<ComponentRef Id="cmp784EA097ED477465641E9C510D7C5A24" />
 	<ComponentRef Id="cmpFA255BFE9A57CCAF6FA70DC295337F89" />
 	<ComponentRef Id="cmp4CA01B9C18C449B01E27709BF20AEE4B" />
 	<ComponentRef Id="cmpFC2058FD6217F8FE29819DF878C0D6ED" />
 	<ComponentRef Id="cmpA7E158BBCC691E525AF1829A38C8277A" />
 	<ComponentRef Id="cmp78E767886D6806B23056A200BB86C1B6" />
 	<ComponentRef Id="cmp6B43AF0CEE0ABD6B671D380CEBEFC408" />
-	<ComponentRef Id="cmp04B663FAA1B1AC6BBB3166D416271B8C" />
-	<ComponentRef Id="cmp6946B9CAC6CC6440848851C06F3EBECC" />
 	<ComponentRef Id="cmpA3887E98FA5637DD73949FC9E5DEBB18" />
 	<ComponentRef Id="cmp3B3FBFD717C20A157C1636FAAF1B5DC1" />
 	<ComponentRef Id="cmpB0D89C1D292CC7D43DB203F165786B6F" />
@@ -529,8 +538,6 @@
 	<ComponentRef Id="cmpB0891999CE702B5C682C4734D647EF61" />
 	<ComponentRef Id="cmp47A26FEC4F3DA44480A018DD0E1FDAD5" />
 	<ComponentRef Id="cmp68160EF83E68DD8950F088288C7C3CF0" />
-	<ComponentRef Id="cmp80339D15C99DD2C8E4AEA04EDCC16127" />
-	<ComponentRef Id="cmpD8F330A52CD594BFAAE964AF7A717F2A" />
 	<ComponentRef Id="cmpDD6A8C39B05379DBD0A0D387768B9180" />
 	<ComponentRef Id="cmp2E42B092B4EDCC3784C3C9BC624B6E70" />
 	<ComponentRef Id="cmp66142ABB34C431E8A1E1176739611363" />
@@ -543,13 +550,9 @@
 	<ComponentRef Id="cmpD2EDA99B1C3586D3ED4FFC75CEB90CBA" />
 	<ComponentRef Id="cmp43EAC61E90AFA9C2701810C4702AA38E" />
 	<ComponentRef Id="cmp3C8DC9BA254B9430CDA032CA8E203706" />
-	<ComponentRef Id="cmpA559E9E56B2CA6D2431CA678019B2A69" />
-	<ComponentRef Id="cmp2C67011AFC8F3661AA8F7434CAB2383C" />
 	<ComponentRef Id="cmpF8E9E03C569F9DC75F7FA1DCBE17466F" />
 	<ComponentRef Id="cmpEFB96540073107650277DE537CCAA8F6" />
 	<ComponentRef Id="cmpDEFE89822725BE8ADF38031078E678CD" />
-	<ComponentRef Id="cmpFFF4675C15A8EA01935C9C096059B369" />
-	<ComponentRef Id="cmpEA9E2F614DC61E69F1DECE0CB0225E53" />
 	<ComponentRef Id="cmpFC2DC91AAE4AC651EFE623BAF466CA8A" />
 	<ComponentRef Id="cmp5B19CDB97A311934718AC4BF678BF089" />
 	<ComponentRef Id="cmpC3ED1E02CCB7A388A05207B1B5748A92" />
@@ -1137,6 +1140,7 @@
 	<ComponentRef Id="cmp0DC12DE6F49C77FA56E4D5C266B0B38E" />
 	<ComponentRef Id="cmp8D701772CB52BD8BA56A72FAC6B6F2A2" />
 	<ComponentRef Id="cmp0CF87355555A3E8AA44EF5B29AA6300D" />
+	<ComponentRef Id="cmpE38EC3A89FBB4D17882F842B4A4D62E2" />
 </Feature>
 
 <Media Id="1" Cabinet="zonglovani.cab" EmbedCab="yes" />
@@ -1149,6 +1153,9 @@
 					</Component>
 					<Component Id="cmpB29C4E8656D97D8A41CBA7AA46D5CD83" Guid="1934C6E1-3436-459F-A864-93ABEAF1D7DA">
 							<File Id="fil7BB52A6FAF8A9705EDC2733A754ECEB7" KeyPath="yes" Source="zongleruv-slabikar\changelog-4.html" />
+					</Component>
+					<Component Id="cmpE38EC3A89FBB4D17882F842B4A4D62E2" Guid="E38EC3A8-9FBB-4D17-882F-842B4A4D62E2">
+							<File Id="filE38EC3A89FBB4D17882F842B4A4D62E2" KeyPath="yes" Source="zongleruv-slabikar\LICENCE.txt" />
 					</Component>
 					<Component Id="cmpBDCBAA280D21363E2FF9EBF417EA44F9" Guid="511F6FCC-8309-4C35-9AD7-D8736C32A5A7">
 							<File Id="fil719FB7D1F2DD9E953855D551F0EDC25F" KeyPath="yes" Source="zongleruv-slabikar\nacini.html" />
@@ -1939,9 +1946,6 @@
 									<Component Id="cmpEE8DE08E2F933FCD2D0B0F79BF090388" Guid="159E3754-D19D-4CE7-B565-21491C178411">
 											<File Id="fil2637DD05264B6CE23B0D74F11BF3F9C3" KeyPath="yes" Source="zongleruv-slabikar\img\z\zacatekc.png" />
 									</Component>
-									<Component Id="cmp352EAB658885AD187124B1BF9A51AF62" Guid="655FC88B-0D7A-4C1A-9FE3-5499A8FF3C9E">
-											<File Id="fil2631C3B71C8A3A57C4B2AB644985FF8E" KeyPath="yes" Source="zongleruv-slabikar\img\z\zonglerka-v-modrem.jpg" />
-									</Component>
 									<Component Id="cmpA1FBFC429D5A855BFCCDBCDBF7D8CF40" Guid="17C91F90-E863-4882-9AAD-6414E08EF7E6">
 											<File Id="fil7EFACC5994654A1F4B5152AE1E59EB04" KeyPath="yes" Source="zongleruv-slabikar\img\z\zvonya.jpg" />
 									</Component>
@@ -2572,9 +2576,6 @@
 									<Component Id="cmp7D130C54B45D92D84BA6A58688A78527" Guid="3699C3E8-E793-41E4-8324-D71157CF3908">
 											<File Id="fil5A7E65CBCEC6FFCF55285D6D8EC914E8" KeyPath="yes" Source="zongleruv-slabikar\img\t\trany-nahled.jpg" />
 									</Component>
-									<Component Id="cmp784EA097ED477465641E9C510D7C5A24" Guid="E29C82C2-9A20-464E-A166-6943F3D24748">
-											<File Id="filA105F1586283DA11667103E515D8E797" KeyPath="yes" Source="zongleruv-slabikar\img\t\tel-c7.png" />
-									</Component>
 									<Component Id="cmpFA255BFE9A57CCAF6FA70DC295337F89" Guid="141CF101-8383-4F5B-A689-E72F20F8D5A2">
 											<File Id="fil9997E93E74D3CF141808FF17E4779063" KeyPath="yes" Source="zongleruv-slabikar\img\t\trenink-navodh.png" />
 									</Component>
@@ -2592,12 +2593,6 @@
 									</Component>
 									<Component Id="cmp6B43AF0CEE0ABD6B671D380CEBEFC408" Guid="783CD1EF-253C-4584-96E7-DFD0AF2533F2">
 											<File Id="fil300773CA9BA717838059AB6B11F48414" KeyPath="yes" Source="zongleruv-slabikar\img\t\tenisb.png" />
-									</Component>
-									<Component Id="cmp04B663FAA1B1AC6BBB3166D416271B8C" Guid="DB65C4D0-A8AF-4115-85AB-BA8277ED8098">
-											<File Id="filBB56D81822AE07BB84520921ACED118D" KeyPath="yes" Source="zongleruv-slabikar\img\t\tel-i7.png" />
-									</Component>
-									<Component Id="cmp6946B9CAC6CC6440848851C06F3EBECC" Guid="61512D99-1CCF-416D-8069-3AD9BB43AE4C">
-											<File Id="filDF1B438891A0124E68FFDF0CF3E63F77" KeyPath="yes" Source="zongleruv-slabikar\img\t\tel-c0.png" />
 									</Component>
 									<Component Id="cmpA3887E98FA5637DD73949FC9E5DEBB18" Guid="B6BC5707-78A4-45E0-810E-8A026183797A">
 											<File Id="fil6FAD343CBEB1BA724ED39D95045CC4DA" KeyPath="yes" Source="zongleruv-slabikar\img\t\treninkb.png" />
@@ -2628,12 +2623,6 @@
 									</Component>
 									<Component Id="cmp68160EF83E68DD8950F088288C7C3CF0" Guid="8FD5C2EA-E248-4CAD-8DF9-074B6EF3F56E">
 											<File Id="filC3C96A195DEE7435E5D52B2D6212C0AD" KeyPath="yes" Source="zongleruv-slabikar\img\t\tocenie.png" />
-									</Component>
-									<Component Id="cmp80339D15C99DD2C8E4AEA04EDCC16127" Guid="4D553889-C78B-47A2-BFD3-A9463C7B014D">
-											<File Id="fil7E805EBED7F3F6BC03262281DABAE73F" KeyPath="yes" Source="zongleruv-slabikar\img\t\tel-a4.png" />
-									</Component>
-									<Component Id="cmpD8F330A52CD594BFAAE964AF7A717F2A" Guid="2D8A7031-4755-45C2-9401-9BF33A425226">
-											<File Id="filE43E3F9F09801DB5E67AD225F3E5049D" KeyPath="yes" Source="zongleruv-slabikar\img\t\tel-r6.png" />
 									</Component>
 									<Component Id="cmpDD6A8C39B05379DBD0A0D387768B9180" Guid="183B1FC6-FFD7-4CEF-A96A-910256D7A96A">
 											<File Id="fil0B2680AF05E266720CE82EAB94F7C053" KeyPath="yes" Source="zongleruv-slabikar\img\t\trenink-navode.png" />
@@ -2671,12 +2660,6 @@
 									<Component Id="cmp3C8DC9BA254B9430CDA032CA8E203706" Guid="675D06ED-A3CF-47F4-A307-0DAAC471A076">
 											<File Id="filC448262F3BF46B26F904B72872E747EC" KeyPath="yes" Source="zongleruv-slabikar\img\t\trenink-navodf.png" />
 									</Component>
-									<Component Id="cmpA559E9E56B2CA6D2431CA678019B2A69" Guid="9FC38B1A-6F83-43D2-BD50-676D4D7A14C0">
-											<File Id="fil9B06CCD42A826CAAD0C54C18AC179D64" KeyPath="yes" Source="zongleruv-slabikar\img\t\tel-i6.png" />
-									</Component>
-									<Component Id="cmp2C67011AFC8F3661AA8F7434CAB2383C" Guid="C9F801EB-D729-4A8F-A40F-4D522A766F79">
-											<File Id="fil83DB37174566D64B689C9EE4C6DDC428" KeyPath="yes" Source="zongleruv-slabikar\img\t\tel-r2.png" />
-									</Component>
 									<Component Id="cmpF8E9E03C569F9DC75F7FA1DCBE17466F" Guid="31F8D01B-ABAC-40A0-BDD6-A16541E26CD6">
 											<File Id="filDA0ADF506B62B69C759111EC50B8A761" KeyPath="yes" Source="zongleruv-slabikar\img\t\tenisak-nahled.jpg" />
 									</Component>
@@ -2685,12 +2668,6 @@
 									</Component>
 									<Component Id="cmpDEFE89822725BE8ADF38031078E678CD" Guid="BD39EF5F-8F67-4F34-8D87-1E5E8FF77632">
 											<File Id="filB1922950053122B612AB4C44FC906FBB" KeyPath="yes" Source="zongleruv-slabikar\img\t\telo.gif" />
-									</Component>
-									<Component Id="cmpFFF4675C15A8EA01935C9C096059B369" Guid="BD88FB1F-8A0C-46FB-8FE5-AF34F329F9F7">
-											<File Id="fil5296D1AF58D04BEBE7C7EA19D5620839" KeyPath="yes" Source="zongleruv-slabikar\img\t\tel-a7.png" />
-									</Component>
-									<Component Id="cmpEA9E2F614DC61E69F1DECE0CB0225E53" Guid="F8A8398F-F178-4E28-8D0C-3C7B3099BF5A">
-											<File Id="fil4F649CCCECD3D9D777C4F01F6AB6ED85" KeyPath="yes" Source="zongleruv-slabikar\img\t\tel-i3.png" />
 									</Component>
 									<Component Id="cmpFC2DC91AAE4AC651EFE623BAF466CA8A" Guid="2FB69038-2403-4270-B8DE-53BA24551D96">
 											<File Id="fil66EFC86BE966F73FAB2CD85086000D5F" KeyPath="yes" Source="zongleruv-slabikar\img\t\trenink-navodc.png" />
