@@ -82,6 +82,7 @@
 2011-03-02*Žonglování v Ulitě*/ulita/?20110306*ulita.cz.png*Už v neděli je další žonglování v Ulitě. Pro širokou veřejnost jsou k zapůjčení míčky, kruhy a kužely. Přijď potrénovat žonglování.
 2011-03-07*Fotky z Ulity*/obrazky/ulita-20110306/0000.html*toceni-kruhem.jpg*Fotky z nedělního žonglování žonglování v Ulitě.
 2011-03-08*Dresdner Jonglierfest*/kalendar/udalost-20110311-20110313-pek-1299016806.html*djf11.jpg*V pátek začíná festival žonglování v Drážďanech.
+2011-03-09*Elektronická kniha o žonglování*/download/mobi.html*package-mobi.png*Žonglérův slabikář jako elektronická kniha. Dostupné jsou formáty mobi a epub které zobrazí většina čteček.
 2011-03-14*Žonglování v Ulitě*/ulita/?20110320*ulita.cz.png*V domě dětí a mládeže Ulita se pravidelně žongluje. Přijít mohou začínající i zkušení žongléři a žonglérky.
 2011-03-21*Literatura*/literatura.html*encyclopaedia.jpg*Přehled nejlepších knížek o žonglování.
 2011-03-28*Žonglování v Ulitě*/ulita/?20110403*ulita.cz.png*V domě dětí a mládeže Ulita se pravidelně žongluje. Přijít mohou začínající i zkušení žongléři a žonglérky.
