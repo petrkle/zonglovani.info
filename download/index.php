@@ -17,6 +17,40 @@ if(isset($_GET['id'])){
 	if(isset($downloads[$_GET['id']])){
 	$id=$_GET['id'];
 
+	if($id=='mobi'){
+		$dalsi=array(
+			array('url'=>'/download/epub.html','text'=>'Žonglérův slabikář - epub','title'=>'Žonglérův slabikář ve formátu epub.'),
+			);
+	}
+
+	if($id=='epub'){
+		$dalsi=array(
+			array('url'=>'/download/mobi.html','text'=>'Žonglérův slabikář - mobi','title'=>'Žonglérův slabikář ve formátu mobi.'),
+			);
+	}
+
+	if($id=='exe'){
+		$dalsi=array(
+			array('url'=>'/download/msi.html','text'=>'Instalační balíček MSI','title'=>'Žonglérův slabikář ve formátu msi.'),
+			);
+	}
+
+	if($id=='msi'){
+		$dalsi=array(
+			array('url'=>'/download/exe.html','text'=>'Instalační balíček EXE','title'=>'Žonglérův slabikář ve formátu exe.'),
+			array('url'=>'/download/tar.bz2.html','text'=>'Archiv tar.bz2','title'=>'Žonglérův slabikář ve formátu tar.bz2.'),
+			);
+	}
+
+	if($id=='tar.bz2'){
+		$dalsi=array(
+			array('url'=>'/download/msi.html','text'=>'Instalační balíček MSI','title'=>'Žonglérův slabikář ve formátu msi.'),
+			);
+	}
+
+
+	$smarty->assign_by_ref('dalsi',$dalsi);
+
 	$smarty->assign('titulek',$titulek.' - '.$id);
 	$smarty->assign('nadpis','Žonglérův slabikář - '.$id);
 	$smarty->assign('description','Soubory ke stažení - žonglérův slabikář ve formátu '.$id);
