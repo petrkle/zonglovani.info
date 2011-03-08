@@ -35,6 +35,10 @@
 <li><a name="fakemail"></a><a href="http://www.lastcraft.com/fakemail.php" onclick="pageTracker._trackPageview('/goto/lastcraft.com/fakemail.php');" class="external">Fakemail</a> - testování</li>
 <li><a href="http://wix.sourceforge.net" onclick="pageTracker._trackPageview('/goto/wix.sourceforge.net');" class="external">Windows Installer XML</a> - instalační balíček pro Windows</li>
 <li><a href="http://www.autoitscript.com/site/autoit/" onclick="pageTracker._trackPageview('/goto/autoitscript.com');" class="external">AutoIt</a> - spouštěč v instalačním balíčku</li>
+<li><a href="http://www.amazon.com/gp/feature.html?docId=1000234621" onclick="pageTracker._trackPageview('/goto/amazon.com/gp/feature.html?docId=1000234621');" class="external">KindleGen</a> - vytvoření mobi souboru.</li>
+<li><a href="http://www.amazon.com/gp/feature.html?docId=1000234621" onclick="pageTracker._trackPageview('/goto/amazon.com/gp/feature.html?docId=1000234621');" class="external">Kindle Previewer</a> - emulace Amazon Kindle.</li>
+<li><a href="http://calibre-ebook.com/" onclick="pageTracker._trackPageview('/goto/calibre-ebook.com');" class="external">Calibre</a> - Převod z formátu mobi do epub.</li>
+<li><a href="http://www.7-zip.org/" onclick="pageTracker._trackPageview('/goto/7-zip.org');" class="external">7-zip</a> - instalátor pro Windows.</li>
 {*<li><a href="http://" onclick="pageTracker._trackPageview('/goto/');" class="external"></a> - </li>*}
 </ul>
 {* vim: set nonumber nowrap: *}

@@ -1,15 +1,14 @@
 Aktuální
 ========
-- download index, nofollow
 - obrázky na plochu, doplnit popisky a img sitemapu
 - odkazy další, předchozí v horoskopu
 - rozšíření - horoskop
-- licence do instalačky windows
 - sestavit mobi a epub vydání
 - progress bar u registrace?
 - po přihlášení zobrazovat na stránkách k registraci hlášku, že je potřeba se odhlásit
 - v rozšířeních zobrazovat akce stejně jako ve widgetu + obrázky, používat cache
 - propojit obrázky s kalendářem
+- downloady - dopsat testy, doplnit md5sum všade
 
 Kalendář
 ========
@@ -82,3 +81,4 @@ widget pro cizí stránky - použití JSON api z kalendáře
 stránkování - odkazy do čtverečků, větší plocha ke kliknutí
 přidat do jsonu z kalendáře obrázek
 z přehledu novinek vyhodit changelog
+licence do instalačky windows

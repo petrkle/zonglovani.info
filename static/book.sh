@@ -1,8 +1,15 @@
 #!/bin/bash
 
 OUTDIR=zs
+INDIR=zongleruv-slabikar
 export IFS='
 '
+
+[ -d $OUTDIR ] || cp -r $INDIR $OUTDIR
+
+cp obalka.png $OUTDIR
+cp zaver.html $INDIR
+cat aktualizace.html | sed "s/RELEASE_VERSION/$1/;s/RELEASE_DATE/`date '+%d. %m. %Y' | sed "s/^0//;s/\. 0/. /"`/" > $INDIR/aktualizace.html
 
 echo '
 <html><head>
@@ -39,25 +46,41 @@ for foo in `cat kniha.url`
 do
 	PART=`echo $foo | cut -d: -f1`
 	FILE=`echo $foo | cut -d: -f2`
-	H1="`cat zongleruv-slabikar/$FILE | grep "<h1>" | sed "s/<h1>\(.*\)<\/h1>/\1/"`"
+	H1="`cat $INDIR/$FILE | grep "<h1>" | sed "s/<h1>\(.*\)<\/h1>/\1/"`"
 	if [ "$PART" != "$PREV" ]
 	then
-		[ $POS -ne 1 ] && echo "</ul>" >> $OUTDIR/obsah.html
+		# zmena kapitoly
+		[ $POS -ne 1 ] && echo "</ul>" >> $OUTDIR/obsah.html # konec kapitoly
+		[ $POS -ne 1 ] && echo "</navPoint>" >> $OUTDIR/slabikar.ncx # konec kapitoly
+
 		echo "<h2>$PART</h2>" >> $OUTDIR/obsah.html
-		[ $POS -ne $POCET ] && echo "<ul>" >> $OUTDIR/obsah.html
-		echo "<li><a href="$FILE">$H1</a></li>" >> $OUTDIR/obsah.html
+    echo "<navPoint class=\"chapter\" id=\"chapter$PO\" playOrder=\"$PO\"><content src=\"$FILE\" /><navLabel><text>$PART</text></navLabel>" >> $OUTDIR/slabikar.ncx
+
+		[ $POS -ne $POCET ] && echo "<ul>" >> $OUTDIR/obsah.html #zacatek dalsi kapitoly
+		echo "<li><a href="$FILE">$H1</a></li>" >> $OUTDIR/obsah.html # prvni trik v kapitole
+
+		echo "
+		<navPoint class=\"section\" id=\"navpoint$PO\" playOrder=\"$PO\">
+		<navLabel><text>$H1</text></navLabel>
+		<content src=\"$FILE\"/>
+		</navPoint>
+	" >> $OUTDIR/slabikar.ncx
+
 	else
+		# polozky v kapitole
 		echo "<li><a href="$FILE">$H1</a></li>" >> $OUTDIR/obsah.html
-	fi
 
 	echo "
-	<navPoint id=\"navpoint$PO\" playOrder=\"$PO\">
+	<navPoint class=\"section\" id=\"navpoint$PO\" playOrder=\"$PO\">
 	<navLabel><text>$H1</text></navLabel>
 	<content src=\"$FILE\"/>
 	</navPoint>
 " >> $OUTDIR/slabikar.ncx
 
-	cat zongleruv-slabikar/$FILE | \
+	fi
+
+
+	cat $INDIR/$FILE | \
 	sed /'<!-- start -->'/,/'<!-- stop -->'/d |\
 	sed /'<\?xml.*>'/,/'<div id="obsah">'/d |\
 	sed /'<p class="drobky">'/,/'<\/p>'/d |\
@@ -85,6 +108,13 @@ done
 echo '</ul>' >> $OUTDIR/obsah.html
 
 echo '
+	</navPoint>
+	<!--<navPoint class="appendix" id="appendix" playOrder="$PO">
+		<navLabel>
+			<text>Závěr</text>
+		</navLabel>
+		<content src="zaver.html"/>
+	</navPoint>-->
   </navMap>
 </ncx>
 ' >> $OUTDIR/slabikar.ncx
@@ -98,8 +128,11 @@ echo '<?xml version="1.0" encoding="utf-8"?>
     <dc:creator>zonglovani.info</dc:creator>
     <dc:publisher>zonglovani.info</dc:publisher>
     <dc:subject>Žonglérův slabikář</dc:subject>
-    <dc:date></dc:date>
-  <dc:description>Obrázková učebnice žonglování s míčky, kruhy a kužely.</dc:description>
+    <dc:date>'`date '+%Y-%m-%d'`'</dc:date>
+	  <dc:description>Obrázková učebnice žonglování s míčky, kruhy a kužely.</dc:description>
+		<x-metadata>
+			<DatabaseName>ZongleruvSlabikar</DatabaseName>
+		</x-metadata>
 </metadata>
 <manifest>' > $OUTDIR/slabikar.opf
 echo '<item id="obsah" media-type="application/xhtml+xml" href="obsah.html"></item>' >> $OUTDIR/slabikar.opf

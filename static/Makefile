@@ -1,3 +1,5 @@
+VERSION=0.2
+
 help:
 	@echo "help     - napoveda"
 	@echo "offline  - vytvori offline verzi"
@@ -11,10 +13,10 @@ offline:
 	./zabal.sh
 
 book:
-	./book.sh
+	./book.sh ${VERSION}
 
 mobi:
-	cd zs && kindlegen -c1 -unicode slabikar.opf -o zonglovani.mobi && cd ..
+	cd zs && kindlegen -c1 -unicode slabikar.opf -o zongleruv-slabikar-${VERSION}.mobi && cd ..
 
 img:
 	find zs/img/ -name "*.png" -exec convert \{\} -shave 1x1 -bordercolor black -border 1 \{\} \;
