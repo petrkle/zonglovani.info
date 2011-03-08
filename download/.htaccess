@@ -4,4 +4,5 @@ RewriteBase /download
 RewriteCond %{HTTP_HOST} ^www\.(.*)
 RewriteRule (.*) http://%1/download/$1 [R=301,QSA,NE,L]
 
+RewriteRule licence\.html$ licence.php [L]
 RewriteRule ^(.+)\.html$ index.php?id=$1 [L]
