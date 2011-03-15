@@ -73,6 +73,10 @@ if(isset($_GET['id'])){
 		exit();
 	}
 }else{
+		$dalsi=array(
+			array('url'=>'/literatura.html','text'=>'Literatura o žonglování','title'=>'Knížky o žonglování'),
+			);
+	$smarty->assign_by_ref('dalsi',$dalsi);
 	$smarty->assign_by_ref('trail', $trail->path);
 	$smarty->display('hlavicka.tpl');
 	$smarty->display('download.tpl');

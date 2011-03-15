@@ -8,6 +8,9 @@ Aktuální
 - v rozšířeních zobrazovat akce stejně jako ve widgetu + obrázky, používat cache
 - propojit obrázky s kalendářem
 - download - dopsat testy
+- speciální stránka o ejc
+- juggling in czech republic - eng, informace o žonglování v čechách pro cizince
+- video jak se registrovat do žonglérova slabikáře
 
 Kalendář
 ========
@@ -82,3 +85,4 @@ přidat do jsonu z kalendáře obrázek
 z přehledu novinek vyhodit changelog
 licence do instalačky windows
 sestavit mobi a epub vydání
+odkazy mezi literaturou a downloadem
