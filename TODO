@@ -11,6 +11,7 @@ Aktuální
 - speciální stránka o ejc
 - juggling in czech republic - eng, informace o žonglování v čechách pro cizince
 - video jak se registrovat do žonglérova slabikáře
+- detekovat accepted-lang v hlavičkách od prohlížeče mimo češtinu a slovenštinu vypisovat javascript s odkazem na překlad pomocí google translate
 
 Kalendář
 ========
