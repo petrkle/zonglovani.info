@@ -74,7 +74,7 @@ function submenu($id){
 
 	if($id==5){
 		$adresy = array('/obrazky/','/video/','/animace/','/download/');
-		$texty = array('Obrázky','Video','Animace','Soubory ke stažení');
+		$texty = array('Obrázky','Video','Animace','Soubory<br/>ke stažení');
 		$popisky = array('Obrázky žonglování','Zajímavá žonglérská videa','Animace žonglování s míčky','Žonglérův slabikář jako elektronická kniha, nebo program do počítače');
 	}
 

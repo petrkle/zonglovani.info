@@ -19,28 +19,28 @@ if(isset($_GET['id'])){
 
 	if($id=='mobi'){
 		$dalsi=array(
-			array('url'=>'/download/licence.html','text'=>'Licence','title'=>'Licence k souboru'),
+			array('url'=>'/download/licence.html','text'=>'Licence - CC BY-ND','title'=>'Licence k souboru'),
 			array('url'=>'/download/epub.html','text'=>'Žonglérův slabikář - epub','title'=>'Žonglérův slabikář ve formátu epub.'),
 			);
 	}
 
 	if($id=='epub'){
 		$dalsi=array(
-			array('url'=>'/download/licence.html','text'=>'Licence','title'=>'Licence k souboru'),
+			array('url'=>'/download/licence.html','text'=>'Licence - CC BY-ND','title'=>'Licence k souboru'),
 			array('url'=>'/download/mobi.html','text'=>'Žonglérův slabikář - mobi','title'=>'Žonglérův slabikář ve formátu mobi.'),
 			);
 	}
 
 	if($id=='exe'){
 		$dalsi=array(
-			array('url'=>'/download/licence.html','text'=>'Licence','title'=>'Licence k souboru'),
+			array('url'=>'/download/licence.html','text'=>'Licence - CC BY-ND','title'=>'Licence k souboru'),
 			array('url'=>'/download/msi.html','text'=>'Instalační balíček MSI','title'=>'Žonglérův slabikář ve formátu msi.'),
 			);
 	}
 
 	if($id=='msi'){
 		$dalsi=array(
-			array('url'=>'/download/licence.html','text'=>'Licence','title'=>'Licence k souboru'),
+			array('url'=>'/download/licence.html','text'=>'Licence - CC BY-ND','title'=>'Licence k souboru'),
 			array('url'=>'/download/exe.html','text'=>'Instalační balíček EXE','title'=>'Žonglérův slabikář ve formátu exe.'),
 			array('url'=>'/download/tar.bz2.html','text'=>'Archiv tar.bz2','title'=>'Žonglérův slabikář ve formátu tar.bz2.'),
 			);
@@ -48,7 +48,7 @@ if(isset($_GET['id'])){
 
 	if($id=='tar.bz2'){
 		$dalsi=array(
-			array('url'=>'/download/licence.html','text'=>'Licence','title'=>'Licence k souboru'),
+			array('url'=>'/download/licence.html','text'=>'Licence - CC BY-ND','title'=>'Licence k souboru'),
 			array('url'=>'/download/msi.html','text'=>'Instalační balíček MSI','title'=>'Žonglérův slabikář ve formátu msi.'),
 			);
 	}
