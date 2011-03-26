@@ -24,7 +24,6 @@ Etc
 - asynchronní verze GA - http://code.google.com/intl/cs/apis/analytics/docs/tracking/asyncTracking.html
 - video - štítky, přidat pžm2 a sdílet na fb
 - seznam sitemap
-- opravit v kalendáří zobrazování akcí 0.00 - 0.00, doplnit do testu
 
 Automatizace
 ============
@@ -87,3 +86,4 @@ licence do instalačky windows
 sestavit mobi a epub vydání
 odkazy mezi literaturou a downloadem
 speciální stránka o ejc
+opravit v kalendáří zobrazování akcí 0.00 - 0.00

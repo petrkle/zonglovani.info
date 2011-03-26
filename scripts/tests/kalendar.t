@@ -86,7 +86,7 @@ ok($zs_udalost->content() =~ /<h3>Smazané události<\/h3>/, 'Seznam smazaných 
 my $mazani = $bot->follow_link(url_regex => qr/.*smazane-$idpart.*/, n=>1);
 my $vymaz = $mazani->content();
 
-ok($vymaz =~ /<title>Testovací nadpis $zacatek_hr až $konec_hr - kalendář žonglování<\/title>/,'Správný titulek - smazaná událost');
+ok($vymaz =~ /<title>Testovací nadpis $zacatek_hr.*- kalendář žonglování<\/title>/,'Správný titulek - smazaná událost');
 ok($vymaz =~ /<h1>Testovací nadpis</,'Správný nadpis - smazaná událost');
 ok($vymaz =~ /<span class="description">Testovací popis</,'Správný popis - smazaná událost');
 ok($vymaz =~ /<a href="http:\/\/nekde.cz"/,'Správný odkaz na web - smazaná událost');

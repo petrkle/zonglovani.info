@@ -47,7 +47,15 @@ class MonthPayload_Decorator extends Calendar_Decorator {
             $stamp1 = $this->calendar->cE->dateToStamp($child->thisYear(), $child->thisMonth(), $child->thisDay());
             $stamp2 = $stamp1+(3600*24);
             foreach ($events as $event) {
-                if (($event['start'] > $stamp1 and $event['start'] < $stamp2) or ($event['end'] > $stamp1 and $event['end'] < $stamp2) or ($stamp1 > $event['start'] and $stamp2 < $event['end'] and $stamp2 > $event['start']) and $stamp1< $event['end']) {
+							if($event['title']=='aaa'){
+								#print '<pre>';
+								#var_dump($event);
+								#exit();
+							}
+							if (
+								($event['start'] >= $stamp1 and $event['start'] < $stamp2) or
+								($event['end'] > $stamp1 and $event['end'] <= $stamp2) or
+								($stamp1 > $event['start'] and $stamp2 < $event['end'] and $stamp2 > $event['start']) and $stamp1< $event['end']) {
 												#print date('Y-m-d H.i',$stamp1).'<br>';
                         $this->calendar->children[$i]->addEntry($event);
                         $this->calendar->children[$i]->setSelected();
