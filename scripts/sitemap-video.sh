@@ -4,7 +4,7 @@ echo '<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="video.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">' > video/video.xml.new
 
-for foo in video/klip/*.xml
+for foo in video/klip/*.xml video/klip/*/*.xml
 do
 	TYP=`grep "<typ>" $foo | sed "s/.*<typ>\(.*\)<\/typ>.*/\1/"`
 	if [ $TYP == "youtube.com" ] || [ $TYP == "juggling.tv" ]
@@ -17,9 +17,10 @@ do
 		DELKA=`echo "($DELKA_M*60)+$DELKA_S" | bc`
 		POPIS=`grep "<popis>" $foo | sed "s/.*<popis>\(.*\)<\/popis>.*/\1/;s/&lt;/</g;s/&gt;/>/g;s/&quot;/\"/g;s/<[^>]*>//g"`
 		ID=`basename $foo .xml`
+		LOC=`echo $foo | sed "s/video\/klip\///;s/\.xml//"`
 		FL=`echo $ID | sed "s/^\(.\).*/\1/"`
 		NAHLED="http://zonglovani.info/video/img/$FL/$ID.jpg"
-		URL="http://zonglovani.info/video/$ID.html"
+		URL="http://zonglovani.info/video/$LOC.html"
 		echo "<loc>$URL</loc>" >> video/video.xml.new
 		echo "<video:video>" >> video/video.xml.new
 		echo "<video:thumbnail_loc>$NAHLED</video:thumbnail_loc>" >> video/video.xml.new

@@ -5,7 +5,14 @@ require('func-video.php');
 require('events.php');
 require($lib.'/Pager/Pager.php');
 
-$videa=get_videa();
+if(isset($_GET['id'])){
+	$id=trim($_GET['id']);
+	if(!isset($juggling_events[$id])){
+		require('../404.php');
+	}
+}
+
+$videa=get_videa($id);
 
 $pagerOptions = array(
     'mode'     => 'Sliding',
@@ -20,15 +27,15 @@ $pagerOptions = array(
     'spacesAfterSeparator'  => 1,
 		'append'   => false,
 		'linkClass' => 'pl',
-		'fileName' => 'stranka%d.html', 
+		'fileName' => $id.'/stranka%d.html', 
     'itemData' => $videa,
 );
 $pager =& Pager::factory($pagerOptions);
 $data = $pager->getPageData();
 
-$smarty->assign('keywords','žonglování, video, fireshow, žonglshow, představení');
-$titulek='Žonglérská videa';
-$desc='Výběr povedených žonglérských videí.';
+$smarty->assign('keywords','žonglování, video, '.$juggling_events[$id]);
+$titulek=$juggling_events[$id];
+$desc=$juggling_events[$id];
 $nadpis=$titulek;
 if($pager->getCurrentPageID()>1){
 	$titulek.=' '.$pager->getCurrentPageID().'. stránka';
@@ -36,25 +43,14 @@ if($pager->getCurrentPageID()>1){
 	$smarty->assign('nadpis',$nadpis);
 }
 $smarty->assign('titulek',$titulek);
+
 $trail = new Trail();
-$trail->addStep($nadpis,'/video/');
-
-$smarty->assign('description',$desc);
-
-$dalsi=array(
-	array('url'=>'/animace/','text'=>'Animace žonglování','title'=>'Animace triků s míčky'),
-	array('url'=>'/obrazky/','text'=>'Obrázky žonglování','title'=>'Fotografie žonglování'),
-	);
-
+$trail->addStep('Žonglérská videa','/video/');
+$trail->addStep($juggling_events[$id],'/video/'.$id.'/');
 if($pager->getCurrentPageID()>1){
 	$trail->addStep($pager->getCurrentPageID().'. stránka','/video/stranka'.$pager->getCurrentPageID().'.html');
-}else{
-	foreach($juggling_events as $key=>$nazev){
-		if($id!=$key){
-			array_push($dalsi,array('url'=>'/video/'.$key.'/','text'=>$nazev,'title'=>$nazev.' - video'));
-		}
-	}
 }
+$smarty->assign_by_ref('trail', $trail->path);
 
 $smarty->assign(
     'page_numbers', array(
@@ -63,13 +59,20 @@ $smarty->assign(
     )
 );
 
-$smarty->assign_by_ref('dalsi',$dalsi);
-$smarty->assign('feedback',true);
-$smarty->assign_by_ref('trail', $trail->path);
+$smarty->assign('description',$desc);
+
+$dalsi=array(
+	array('url'=>'/video/','text'=>'Žonglérská videa','title'=>'Zajímavá žonglérská videa'),
+	);
+foreach($juggling_events as $key=>$nazev){
+	if($id!=$key){
+		array_push($dalsi,array('url'=>'/video/'.$key.'/','text'=>$nazev,'title'=>$nazev.' - video'));
+	}
+}
+
 $smarty->assign('pager_links', $pager->links);
-$smarty->assign('videa',$data);
+$smarty->assign_by_ref('dalsi',$dalsi);
+$smarty->assign_by_ref('videa',$data);
 $smarty->display('hlavicka.tpl');
 $smarty->display('video-index.tpl');
 $smarty->display('paticka.tpl');
-
-?>

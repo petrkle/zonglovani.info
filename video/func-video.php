@@ -1,8 +1,11 @@
 <?php
 $videi_na_stranku=5;
 
-function get_videa(){
+function get_videa($path=''){
   $ls=$_SERVER['DOCUMENT_ROOT'].'/video/klip';
+	if(strlen($path)>0){
+		$ls.='/'.$path;
+	}
   if(is_dir($ls) and opendir($ls)){
 	$vypis=array();
 	$adr=opendir($ls);
@@ -11,7 +14,7 @@ function get_videa(){
 	  if (substr($file,-4) == '.xml'){
 		  $file = substr($file, 0, -4);
 			$fl = substr($file,0,1);
-			$xml = simplexml_load_file($_SERVER['DOCUMENT_ROOT'].'/video/klip/'.$file.'.xml');
+			$xml = simplexml_load_file($ls.'/'.$file.'.xml');
 			$klip = (array) $xml;
 			$vypis[$foo]=$klip;
 			$vypis[$foo]['id']=$file;

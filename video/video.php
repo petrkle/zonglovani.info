@@ -3,6 +3,7 @@ require('../init.php');
 require('../func.php');
 require('func-video.php');
 require($lib.'/Pager/Pager.php');
+require('events.php');
 
 if(isset($_GET['v'])){
 	$v=trim($_GET['v']);
@@ -11,7 +12,21 @@ if(isset($_GET['v'])){
 	exit();
 }
 
-$videa=get_videa();
+if(isset($_GET['event'])){
+	$event=trim($_GET['event']);
+	if(!isset($juggling_events[$event])){
+		require('../404.php');
+	}
+}else{
+	$event=false;
+}
+
+if($event){
+	$videa=get_videa($event);
+}else{
+	$videa=get_videa();
+}
+
 $idcka=array();
 foreach($videa as $key=>$video){
 	$idcka[$video['id']]=$key;
@@ -88,8 +103,15 @@ $data = $pager->getPageData();
 
 	$trail = new Trail();
 	$trail->addStep('Žonglérská videa','/video/');
+	if($event){
+		$trail->addStep($juggling_events[$event],'/video/'.$event.'/');
+	}
 	if($cislostranky>1){
-		$trail->addStep($cislostranky.'. stránka','/video/stranka'.$cislostranky.'.html');
+		if($event){
+			$trail->addStep($cislostranky.'. stránka','/video/'.$event.'/stranka'.$cislostranky.'.html');
+		}else{
+			$trail->addStep($cislostranky.'. stránka','/video/stranka'.$cislostranky.'.html');
+		}
 		$smarty->assign('dalsividea','/video/stranka'.$cislostranky.'.html');
 	}else{
 		$smarty->assign('dalsividea','/video/');
