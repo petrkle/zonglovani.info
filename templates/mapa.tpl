@@ -56,9 +56,12 @@ Přidat se můžeš tak, že si <a href="/lide/pravidla.php" class="add">založ�
 <th>{if isset($cr)}<h4>Česká republika</h4>{else}<a href="/mapa/cr.html" title="Žonglérská mapa česka"><h4>Česká republika</h4></a>{/if}</th>
 <th>{if isset($sk)}<h4>Slovenská republika</h4>{else}<a href="/mapa/sk.html" title="Žonglérská mapa slovenska"><h4>Slovenská republika</h4></a>{/if}</th>
 <td rowspan="2">
+&nbsp;
+{*
 <script type="text/javascript">//<![CDATA[
 		document.write('<iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fzongleruv.slabikar&amp;width=300&amp;colorscheme=light&amp;connections=6&amp;stream=false&amp;header=false&amp;height=250" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:300; height:250px;" allowTransparency="true"></iframe>');
 //]]></script>
+*}
 </td>
 </tr>
 <tr>

@@ -9,7 +9,7 @@
 {if isset($icbm)}
 	<meta name="ICBM" content="{$icbm|escape}" />
 {/if}
-	<link rel="stylesheet" media="screen,projection" type="text/css" href="/z.css" />
+	<link rel="stylesheet" media="screen,projection" type="text/css" href="/z.css?v=n" />
 	<link rel="stylesheet" media="print" type="text/css" href="/zt.css" />
 {if $styly}
 {foreach from=$styly item=styl}
@@ -54,9 +54,8 @@ flush();
 {/php}
 <div id="hlavicka">
 <!-- start -->
-<div id="ucet">
-{if $smarty.session.logged==true}<div id="ulink">{if $smarty.server.REQUEST_URI!='/ulita/'}<a href="/ulita/" title="Nedělní žonglování v DDM Ulita.">Žonglování v Ulitě</a>{else}<strong>Žonglování v Ulitě</strong>{/if}</div>{if isset($smarty.session.changes)}<a href="/changes.html" title="Novinky v žonglérově slabikáři">Novinky{if $smarty.session.changes_pocet} ({$smarty.session.changes_pocet}){/if}</a> ~ {/if}<a href="{$smarty.const.LIDE_URL}{$smarty.session.uzivatel.login|escape}.html" title="Tvůj účet.">{$smarty.session.uzivatel.jmeno|escape}</a> ~ <a href="{$smarty.const.LIDE_URL}nastaveni/" title="Nastavení tvého účtu.">Nastavení</a> ~ <a href="{$smarty.const.LIDE_URL}odhlaseni.php" title="Odhlásit se">Odhlásit</a>{else}
-<div id="ulink">{if $smarty.server.REQUEST_URI!='/ulita/'}<a href="/ulita/" title="Nedělní žonglování v DDM Ulita.">Žonglování v Ulitě</a>{else}<strong>Žonglování v Ulitě</strong>{/if}</div>
+<div id="ucet">{if $smarty.session.logged==true}<div id="flink">{if $fblink}{$fblink}{else}Podpoř <a href="http://www.facebook.com/zongleruv.slabikar" class="external" title="Stránky žonglérova slabikáře na Facebooku." onclick="pageTracker._trackPageview('/goto/facebook.com/zongleruv.slabikar');">žonglérův slabikář</a> na Facebooku.{/if}</div>{if isset($smarty.session.changes)}<a href="/changes.html" title="Novinky v žonglérově slabikáři">Novinky{if $smarty.session.changes_pocet} ({$smarty.session.changes_pocet}){/if}</a> ~ {/if}<a href="{$smarty.const.LIDE_URL}{$smarty.session.uzivatel.login|escape}.html" title="Tvůj účet.">{$smarty.session.uzivatel.jmeno|escape}</a> ~ <a href="{$smarty.const.LIDE_URL}nastaveni/" title="Nastavení tvého účtu.">Nastavení</a> ~ <a href="{$smarty.const.LIDE_URL}odhlaseni.php" title="Odhlásit se">Odhlásit</a>{else}
+<div id="flink">{if $fblink}{$fblink}{else}Podpoř <a href="http://www.facebook.com/zongleruv.slabikar" class="external" title="Stránky žonglérova slabikáře na Facebooku." onclick="pageTracker._trackPageview('/goto/facebook.com/zongleruv.slabikar');">žonglérův slabikář</a> na Facebooku.{/if}</div>
  {if basename($smarty.server.SCRIPT_NAME)!="prihlaseni.php"}<a href="{$smarty.const.LIDE_URL}prihlaseni.php{if $smarty.server.REQUEST_URI!="/"}?next={$smarty.server.REQUEST_URI|escape}{/if}" title="Přihlášení do žonglérova slabikáře" rel="nofollow">Přihlášení</a> ~ {/if}<a href="{$smarty.const.LIDE_URL}pravidla.php" title="Vytvořit nový účet v žonglérově slabikáři.">Založit účet</a>{/if}
 </div>
 <!-- stop -->

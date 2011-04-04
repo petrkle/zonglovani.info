@@ -41,6 +41,7 @@ function smarty_function_vypismenu($params, &$smarty){
 			}
 
 	
+	/*
 	$navrat.='
 		<!-- start -->
 		<script type="text/javascript">//<![CDATA[
@@ -48,7 +49,7 @@ function smarty_function_vypismenu($params, &$smarty){
 //]]></script>
 <!-- stop -->
 ';
-		
+	 */	
 	return $navrat;
 }
 

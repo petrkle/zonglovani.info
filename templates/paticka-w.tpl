@@ -11,18 +11,18 @@
 </p>
 <h5><a href="{$smarty.const.DISKUSE_URL}" title="Diskuse o žonglování.">{obrazek soubor='komentar.png' popisek=''} Komentáře ke stránce</a></h5>
 </div>
+{/if}
+{*
 {else}
 <div style="clear:both;">
 <script type="text/javascript">//<![CDATA[
 		document.write('<iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Ffacebook.com%2Fzongleruv.slabikar&amp;layout=standard&amp;show_faces=false&amp;width=800&amp;action=like&amp;colorscheme=light&amp;height=80" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:800px; height:80px;" allowTransparency="true"></iframe>');
 //]]></script>
 </div>
-{*
 <p class="kontakt">Hodnocení obrázku: {obrazek soubor='palec-nahoru.png' popisek='Palec nahoru'}&nbsp;{$hodnoceni.libi|default:0}x&nbsp;líbí ~ {obrazek soubor='palec-dolu.png' popisek='Palec dolu'}&nbsp;{$hodnoceni.nelibi|default:0}x&nbsp;nelíbí</p>
 <h5><a href="{$smarty.const.DISKUSE_URL}" title="Diskuse o žonglování.">{obrazek soubor='komentar.png' popisek=''} Komentáře ke stránce</a></h5>
 <p>Obrázky můžou hodnotit a komentovat <a href="{$smarty.const.LIDE_URL}prihlaseni.php{if $smarty.server.REQUEST_URI!="/"}?next={$smarty.server.REQUEST_URI}#hodnoceni{/if}" title="Přihlášení do žonglérova slabikáře" rel="nofollow">přihlášení</a> uživatelé.</p>
 *}
-{/if}
 {/if}
 {/if}
 

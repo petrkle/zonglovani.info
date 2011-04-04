@@ -14,6 +14,7 @@ Beginners as well as experienced jugglers are welcome. There are balls and clubs
 </p>
 *}
 
+{*
 {if count($podzim)>0}
 <h3>Autumn 2009</h3>
 <table class="tabulka" cellspacing="0" cellpadding="0">
@@ -46,6 +47,10 @@ Beginners as well as experienced jugglers are welcome. There are balls and clubs
 <h3>Next session</h3>
 <p>Wait for autumn.</p>
 {/if}
+*}
+
+<h3>Next session</h3>
+<p>Wait for autumn.</p>
 
 <h3>Place</h3>
 <p>

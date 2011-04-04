@@ -88,34 +88,96 @@
 2011-03-16*Žonglování v Ulitě*/ulita/?20110320*ulita.cz.png*Pravidelné nedělní žonglování domě dětí a mládeže Ulita. Přijít mohou začínající i zkušení žongléři a žonglérky.
 2011-03-21*Fotky z Ulity*/obrazky/ulita-20110320/0000.html*zonglerka-z-ulity.jpg*Fotky z nedělního žonglování v Ulitě.
 2011-03-28*Žonglování v Ulitě*/ulita/?20110403*ulita.cz.png*V domě dětí a mládeže Ulita se pravidelně žongluje. Přijít mohou začínající i zkušení žongléři a žonglérky.
-2011-04-04*Výhody pro registrované uživatele*/exkurze.html*exkurze-nahled-2010-2-28-19-49-47.jpg*Obrázky a popis výhod pro registrované uživatele žonglérova slabikáře.
-2011-04-11*Žonglování v Ulitě*/ulita/?20110417*ulita.cz.png*V domě dětí a mládeže Ulita se pravidelně žongluje. Přijít mohou začínající i zkušení žongléři a žonglérky.
-2011-04-18*Sloupy ve dvou*/kuzely/passing/sloupy.html*kuzely-passing-sloupyd.png*Trik pro dva žongléry se čtyřmi kužely.
-2011-04-25*Twitter*/twitter.html*twitter.png*Co si vrabci štěbetají o žonglování? Přes twitter se dozvíš o všech novinkách.
-2011-05-02*Doplňky do prohlížeče*/doplnky-prohlizece.html*browsers.png*Žonglérské doplňky do internetových prohlížečů.
-2011-05-09*Obrázky kuželů*/kuzely/druhy.html*kuzelka-albatros-s.jpg*Obrázky žonglérských kuželů.
-2011-05-16*Sun*/video/sun.html*sun.jpg*Sluníčko, Jirka z Ostravy a diabolo.
-2011-05-23*What the (beepbeep) do we know?*/video/what-the-beepbeep-do-we-know.html*partnerpoi.jpg*Točení s poi ve více lidech.
-2011-05-30*Literatura*/literatura.html*encyclopaedia.jpg*Přehled nejlepších knížek o žonglování.
-2011-06-06
-2011-06-13
-2011-06-20
-2011-06-27
-2011-07-04
-2011-07-11
-2011-07-18
-2011-07-25
-2011-08-01
-2011-08-08
-2011-08-15
-2011-08-22
-2011-08-29
-2011-09-05
-2011-09-12
-2011-09-19
-2011-09-26
-2011-10-03
-2011-10-10
-2011-10-17
-2011-10-24
+2011-04-04*Žonglovací neděle*/kalendar/udalost-20110410-20110410-pek-1301381161.html*zonglovaci-nedele.png*Volné žonglování v sále s možností účastnit se soutěže s čímkoliv od 15h.
+2011-04-11*Sloupy ve dvou*/kuzely/passing/sloupy.html*kuzely-passing-sloupyd.png*Trik pro dva žongléry se čtyřmi kužely.
+2011-04-18*Videa z Drážďan*/video/drazdany-2011/*djf11.jpg*Videa z galashow na festivalu žonglování v Drážďanech.
+2011-04-25*Doplňky do prohlížeče*/doplnky-prohlizece.html*browsers.png*Žonglérské doplňky do internetových prohlížečů.
+2011-05-02*Videa z PŽM2*/video/pzm2/*pzm2.png*Ohlédnutí za loňským Pražským žonglérským marathonem. Videa z večerní show.
+2011-05-09*Sun*/video/sun.html*sun.jpg*Sluníčko, Jirka z Ostravy a diabolo.
+2011-05-16*What the (beepbeep) do we know?*/video/what-the-beepbeep-do-we-know.html*partnerpoi.jpg*Točení s poi ve více lidech.
+2011-05-23*Literatura*/literatura.html*encyclopaedia.jpg*Přehled nejlepších knížek o žonglování.
+2011-05-30*Výhody pro registrované uživatele*/exkurze.html*exkurze-nahled-2010-2-28-19-49-47.jpg*Obrázky a popis výhod pro registrované uživatele žonglérova slabikáře.
+2011-06-06*Obrázky kuželů*/kuzely/druhy.html*kuzelka-albatros-s.jpg*Obrázky žonglérských kuželů.
+2011-06-13*Rotující čtverce*/kuzely/passing/squares.html*ctverce-r.png*Trik pro čtyři žongléry a dvanáct kuželů. Všichni hází 4 count z pravé ruky.
+2011-06-20*Twitter*/twitter.html*twitter.png*Co si vrabci štěbetají o žonglování? Přes twitter se dozvíš o všech novinkách.
+2011-06-27*
+2011-07-04*
+2011-07-11*
+2011-07-18*
+2011-07-25*
+2011-08-01*
+2011-08-08*
+2011-08-15*
+2011-08-22*
+2011-08-29*
+2011-09-05*
+2011-09-12*
+2011-09-19*
+2011-09-26*
+2011-10-03*
+2011-10-10*
+2011-10-17*
+2011-10-24*
+2011-10-31*
+2011-11-07*
+2011-11-14*
+2011-11-21*
+2011-11-28*
+2011-12-05*
+2011-12-12*
+2011-12-19*
+2011-12-26*
+2012-01-02*
+2012-01-09*
+2012-01-16*
+2012-01-23*
+2012-01-30*
+2012-02-06*
+2012-02-13*
+2012-02-20*
+2012-02-27*
+2012-03-05*
+2012-03-12*
+2012-03-19*
+2012-03-26*
+2012-04-02*
+2012-04-09*
+2012-04-16*
+2012-04-23*
+2012-04-30*
+2012-05-07*
+2012-05-14*
+2012-05-21*
+2012-05-28*
+2012-06-04*
+2012-06-11*
+2012-06-18*
+2012-06-25*
+2012-07-02*
+2012-07-09*
+2012-07-16*
+2012-07-23*
+2012-07-30*
+2012-08-06*
+2012-08-13*
+2012-08-20*
+2012-08-27*
+2012-09-03*
+2012-09-10*
+2012-09-17*
+2012-09-24*
+2012-10-01*
+2012-10-08*
+2012-10-15*
+2012-10-22*
+2012-10-29*
+2012-11-05*
+2012-11-12*
+2012-11-19*
+2012-11-26*
+2012-12-03*
+2012-12-10*
+2012-12-17*
+2012-12-24*
+2012-12-31*
 # vim: set nonumber nowrap:

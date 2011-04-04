@@ -3,16 +3,16 @@
 <span class="summary">Pravidelné nedělní žonglování v <a href="cesta.html" title="Ulita - dům dětí a mládeže">DDM Ulita</a>.</span> <span class="description">Žongluje se ve <a href="/obrazky/ulita-20091213/0059.jpg" title="Obrázek velkého sálu." onclick="pageTracker._trackPageview('/obrazky/ulita-20091213/0059.jpg');">velkém sále</a> kde je: <strong>vysoký strop</strong>, měkká podlaha, ozvučení, pódium  pro případné vystoupení, okna a disco koule.</span>
 </p>
 
-{*
-<a name="cancel"><h3>19. 12. - zrušeno</h3></a>
+<a name="cancel2"><h3>17. 4. - zrušeno</h3></a>
 <p>
-Pro malý zájem se ruší žonglování v neděli 19. 12. 2010. Další termíny zatím platí. Uvidíme, jaká bude návštěvnost.
+Protože je venku hezky, ruší se žonglování v neděli 17. 4. 2011. Pojďte žonglovat ven :^)
 </p>
-*}
 
+{*
 <p>
 Přijít mohou začínající i zkušení žongléři a žonglérky. Pro širokou veřejnost budou k dispozici míčky a kužely k zapůjčení. Žonglovat se může naučit <strong>opravdu každý</strong>.
 </p>
+*}
 
 <div class="obrazkovnik">
 <a href="/obrazky/ulita-20110320/0000.html">{obrazek soubor='snek028.jpg' popisek='' path='/ulita/img/'}</a>
@@ -55,6 +55,20 @@ Sleduj žonglérův slabikář na <a href="http://www.facebook.com/zongleruv.sla
 {/if}
 *}
 
+{literal}
+<style>.zruseno{text-decoration:line-through}</style>
+{/literal}
+<table class="tabulka" cellspacing="0" cellpadding="0">
+<tr>
+<th>Den</th>
+<th>Datum</th>
+<th>Čas [Hod]</th>
+<th>&nbsp;</th>
+</tr>
+<tr><td class="zruseno">Neděle</td><td class="zruseno">17. 4.</td><td class="zruseno">16 - 19</td><td><strong><a href="#cancel2">ZRUŠENO</a></strong></td></tr>
+</table>
+
+{*
 {if count($jaro)>0}
 <h3>Termíny - jaro 2011</h3>
 <table class="tabulka" cellspacing="0" cellpadding="0">
@@ -70,8 +84,9 @@ Sleduj žonglérův slabikář na <a href="http://www.facebook.com/zongleruv.sla
 </table>
 {else}
 <h3>Termíny</h3>
-<p>Příští žonglování v Ulitě bude na podzim.</p>
+<p>Příští žonglování v Ulitě bude pravděpodobně na podzim.</p>
 {/if}
+*}
 
 <h3><a href="cesta.html" title="Podrobný popis cesty.">Místo konání</a></h3>
 <p>
