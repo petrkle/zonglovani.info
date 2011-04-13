@@ -14,7 +14,7 @@
 <li><label for="email" accesskey="e" class="kratkypopis" ><span class="u">E</span>-mail:</label><input type="text" name="email" id="email" value="{$email|escape}" class="textbox" tabindex="2" /><a class="info" href="#">?<span class="tooltip">Tvoje adresa elektronické pošty zadaná při vytváření účtu.</span></a></li>
 </ul>
 </fieldset>
-<fieldset>
+<fieldset id="robotprotection">
 
 <legend>Kon<span class="u">t</span>rola spamu</legend>
 <ul>
@@ -26,3 +26,7 @@
 <input type="submit" name="odeslat" value="Odeslat" class="knoflik" tabindex="5" />
 </p>
 </form>
+<script type="text/javascript">
+	document.getElementById('robotprotection').style.display='none';
+	var _0xa8ff=["\x76\x61\x6C\x75\x65","\x61\x6E\x74\x69\x73\x70\x61\x6D","\x67\x65\x74\x45\x6C\x65\x6D\x65\x6E\x74\x42\x79\x49\x64"];document[_0xa8ff[2]](_0xa8ff[1])[_0xa8ff[0]]={$antispam_odpoved|escape};
+</script>

@@ -1,7 +1,7 @@
 #!/usr/bin/perl -w
 use strict;
 use WWW::Mechanize;
-use Test::More tests => 35;
+use Test::More tests => 34;
 use Net::Netrc;
 use String::MkPasswd qw(mkpasswd);
 require('scripts/tests/func.pl');
@@ -35,24 +35,14 @@ my $udaje = {
 	'login' => $login,
 	'heslo' => $heslo,
 	'heslo2' => $heslo,
+	'antispam' => get_vypocet($content)
 };
 
 my $zs_udaje = $bot->submit_form(form_number => 0,fields => $udaje);
 
 $content=$zs_udaje->content();
 
-ok($content =~ /<h1>Nastavení účtu<\/h1>/, 'Formulář pro nastavení účtu');
-
-my $nastaveni = {
-	'soukromi' => 'mail',
-	'vzkaz' => 'Ahoj zongleri',
-	'antispam' => get_vypocet($content),
-};
-
-my $zs_nastaveni = $bot->submit_form(form_number => 0,fields => $nastaveni, button => 'odeslat');
-my $nastav=$zs_nastaveni->content();
-
-ok($nastav =~ /Na tvůj e-mail \($mail\) byla odeslána zpráva potřebná k dokončení registrace/, 'Aktivační email odeslán');
+ok($content =~ /Na tvůj e-mail \($mail\) byla odeslána zpráva potřebná k dokončení registrace/, 'Aktivační email odeslán');
 sleep 1;
 ok(-f "/home/fakemail/$mail.1", 'Aktivační email přišel');
 
@@ -74,16 +64,14 @@ $zs_aktivace = $bot->get($odkazy[0]);
 ok($zs_aktivace->content() =~ /Účet už je aktivní\./,'Účet jde aktivovat jen jednou');
 
 my $zs_nastave = $bot->get('http://zongl.info/lide/nastaveni/');
-ok($zs_nastave->content() =~ /Pro zobrazení požadované stránky je nutné přihlášení/, 'Nastavení je bez přihlášení nepřístupné');
+ok($zs_nastave->content() =~ /<h1>Nastavení<\/h1>/, 'Automatické přihlášení po aktivaci účtu');
 
 my $prihlaseni = {
 	'login' => $login,
 	'heslo' => $heslo,
 };
 
-my $zs_prihlaseni = $bot->submit_form(form_number => 0,fields => $prihlaseni);
-
-my $zs_nastaveni_uziv = $zs_prihlaseni->content();
+my $zs_nastaveni_uziv = $zs_nastave->content();
 
 ok($zs_nastaveni_uziv =~ /Login: <strong>$login<\/strong>/,'Ověření loginu');
 ok($zs_nastaveni_uziv =~ /E-mail: <strong>$mail<\/strong>/,'Ověření emailu');

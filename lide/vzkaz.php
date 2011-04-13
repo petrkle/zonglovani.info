@@ -52,6 +52,7 @@ if(isset($_POST['komu'])){
 			$_SESSION['antispam_otazka']=$antispam[0];
 			$_SESSION['antispam_odpoved']=$antispam[1];
 			$smarty->assign('antispam_otazka',$_SESSION['antispam_otazka']);
+			$smarty->assign('antispam_odpoved',$_SESSION['antispam_odpoved']);
 		}
 
 		if(strlen($vzkaz)>1024){
@@ -256,6 +257,7 @@ $message .= "--$mime_boundary--\n\n";
 		$_SESSION['antispam_otazka']=$antispam[0];
 		$_SESSION['antispam_odpoved']=$antispam[1];
 		$smarty->assign('antispam_otazka',$_SESSION['antispam_otazka']);
+		$smarty->assign('antispam_odpoved',$_SESSION['antispam_odpoved']);
 		$smarty->assign('komu',$komu);
 		$smarty->display('hlavicka.tpl');
 		$smarty->display('vzkaz.tpl');

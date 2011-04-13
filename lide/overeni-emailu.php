@@ -127,8 +127,8 @@ $message .= "</html>\n";
 $message .= "--$mime_boundary--\n\n";
 
 		$vysledek=mail($mail, $subject, $message, $headers);
-
-			$smarty->assign('chyby',array('Účet byl úspěšně aktivován.','Můžeš se <a href="'.LIDE_URL.'nastaveni/" title="Přihlášení">přihlásit</a>.'));
+			load_user($login);
+			$smarty->assign('chyby',array('Účet byl úspěšně aktivován.','Můžeš si <a href="'.LIDE_URL.'nastaveni/" title="Upravit nastavení účtu">upravit nastavení</a>.'));
 			$smarty->display('hlavicka.tpl');
 			$smarty->display('alert.tpl');
 			$smarty->display('paticka.tpl');

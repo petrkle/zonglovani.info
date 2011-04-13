@@ -19,7 +19,7 @@ if(isset($_SESSION['logged']) and $_SESSION['logged']==true){
 	exit();
 }
 
-if(isset($_POST['odeslat'])){
+#if(isset($_POST['odeslat'])){
 	$chyby=array();
 
 	if(isset($_POST['soukromi'])){
@@ -44,19 +44,19 @@ if(isset($_POST['odeslat'])){
 		$vzkaz='';
 	}
 
-	if(isset($_POST['antispam'])){
-		$odpoved=strtolower(trim($_POST['antispam']));
-	}else{
-		$odpoved='';
-	}
-
-	if($odpoved!=$_SESSION['antispam_odpoved']){
-		array_push($chyby,'Špatná odpověď na kontrolní otázku.');
-		$antispam=get_antispam();
-		$_SESSION['antispam_otazka']=$antispam[0];
-		$_SESSION['antispam_odpoved']=$antispam[1];
-		$smarty->assign('antispam_otazka',$_SESSION['antispam_otazka']);
-	}
+#	if(isset($_POST['antispam'])){
+#		$odpoved=strtolower(trim($_POST['antispam']));
+#	}else{
+#		$odpoved='';
+#	}
+#
+#	if($odpoved!=$_SESSION['antispam_odpoved']){
+#		array_push($chyby,'Špatná odpověď na kontrolní otázku.');
+#		$antispam=get_antispam();
+#		$_SESSION['antispam_otazka']=$antispam[0];
+#		$_SESSION['antispam_odpoved']=$antispam[1];
+#		$smarty->assign('antispam_otazka',$_SESSION['antispam_otazka']);
+#	}
 
 	if(count($chyby)==0){
 		$tmp=LIDE_TMP.'/'.$_SESSION['reg_email'];
@@ -179,16 +179,17 @@ $message .= "--$mime_boundary--\n\n";
 		$smarty->display('nastaveni-uctu.tpl');
 		$smarty->display('paticka.tpl');
 	}
-}else{
-	$antispam=get_antispam();
-	$_SESSION['antispam_otazka']=$antispam[0];
-	$_SESSION['antispam_odpoved']=$antispam[1];
-	$smarty->assign('antispam_otazka',$_SESSION['antispam_otazka']);
-	$smarty->assign_by_ref('trail', $trail->path);
-	$smarty->display('hlavicka.tpl');
-	$smarty->display('nastaveni-uctu.tpl');
-	$smarty->display('paticka.tpl');
-}
-
+#		
+#}else{
+#	$antispam=get_antispam();
+#	$_SESSION['antispam_otazka']=$antispam[0];
+#	$_SESSION['antispam_odpoved']=$antispam[1];
+#	$smarty->assign('antispam_otazka',$_SESSION['antispam_otazka']);
+#	$smarty->assign_by_ref('trail', $trail->path);
+#	$smarty->display('hlavicka.tpl');
+#	$smarty->display('nastaveni-uctu.tpl');
+#	$smarty->display('paticka.tpl');
+#}
+#
 
 ?>

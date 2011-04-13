@@ -50,48 +50,7 @@ if(isset($_POST['login']) and isset($_POST['heslo']) and isset($_GET['action']))
 		$passwd_hash=trim(array_pop(file(LIDE_DATA.'/'.$uzivatel['login'].'/passwd.sha1')));
 		if(sha1($input_heslo.$input_login)==$passwd_hash){
 			# úspěšné přihlášení
-			$_SESSION['logged']=true;
-			$_SESSION['ip']=$_SERVER['REMOTE_ADDR'];
-			$_SESSION['uzivatel']=get_user_complete($uzivatel['login']);
-			if(is_readable(LIDE_DATA.'/'.$uzivatel['login'].'/prihlaseni.txt')){
-				$prihlaseni=file(LIDE_DATA.'/'.$uzivatel['login'].'/prihlaseni.txt');
-				$lastlogin=preg_split('/\*/',array_pop($prihlaseni));
-				$zpravy=array_reverse(get_diskuse_zpravy());
-				$baz=get_tipy();
-				$tipy=array();
-				for($foo=0;$foo<ZPRAV_NA_STRANKU;$foo++){
-					if($baz[$foo]['cas']>$lastlogin[0]){
-						$tipy[$foo]=$baz[$foo];
-						$tipy[$foo]['typ']='tip';
-					}
-				}
-				foreach($zpravy as $key=>$zprava){
-					if($zprava['cas']<$lastlogin[0]){
-						unset($zpravy[$key]);
-					}else{
-						$zpravy[$key]['typ']='diskuse';
-					}
-				}
-				$rss=get_news(40,'/.*-slabikar.*\.txt/');
-				foreach($rss as $key=>$clanek){
-					if($clanek['cas']<$lastlogin[0]){
-						unset($rss[$key]);
-					}else{
-						$rss[$key]['typ']='rss';
-					}
-				}
-				$news=array_merge($zpravy,$tipy,$rss);
-				usort($news, 'sort_by_time');
-				if(count($news)>0){
-					$_SESSION['changes']=array_reverse($news);
-					$_SESSION['changes_pocet']=count($news);
-				}
-			}
-
-			$foo=fopen(LIDE_DATA.'/'.$uzivatel['login'].'/prihlaseni.txt','a+');
-			fwrite($foo,time().'*'.$_SERVER['REMOTE_ADDR'].'*'.$_SERVER['HTTP_USER_AGENT']."\n");
-			fclose($foo);
-
+			load_user($uzivatel['login']);
 			header('Location: '.$next);
 			exit();
 		}else{

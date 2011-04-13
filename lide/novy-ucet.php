@@ -98,6 +98,19 @@ if(strlen($login)<3){
 	}
 }
 
+if(isset($_POST['antispam'])){
+	$odpoved=strtolower(trim($_POST['antispam']));
+}else{
+	$odpoved='';
+}
+
+if($odpoved!=$_SESSION['antispam_odpoved']){
+	array_push($chyby,'Špatná odpověď na kontrolní otázku.');
+	$antispam=get_antispam();
+	$_SESSION['antispam_otazka']=$antispam[0];
+	$_SESSION['antispam_odpoved']=$antispam[1];
+	$smarty->assign('antispam_otazka',$_SESSION['antispam_otazka']);
+}
 
 if(preg_match('/[^-a-z0-9]/i',$login)){
 	array_push($chyby,'Login obsahuje nepovolené znaky.');
@@ -122,8 +135,15 @@ if($heslo!=$heslo2){
 
 
 if(count($chyby)==0){
+	$_SESSION['reg_soukromi']='formular';
+	$_SESSION['reg_vzkaz']='';
 	header('Location: '.LIDE_URL.'nastaveni-uctu.php');	
 }else{
+	$antispam=get_antispam();
+	$_SESSION['antispam_otazka']=$antispam[0];
+	$_SESSION['antispam_odpoved']=$antispam[1];
+	$smarty->assign('antispam_otazka',$_SESSION['antispam_otazka']);
+	$smarty->assign('antispam_odpoved',$_SESSION['antispam_odpoved']);
 	$smarty->assign_by_ref('trail', $trail->path);
 	$smarty->assign('chyby',$chyby);
 	$smarty->display('hlavicka.tpl');
@@ -132,6 +152,11 @@ if(count($chyby)==0){
 	}
 
 }else{
+	$antispam=get_antispam();
+	$_SESSION['antispam_otazka']=$antispam[0];
+	$_SESSION['antispam_odpoved']=$antispam[1];
+	$smarty->assign('antispam_otazka',$_SESSION['antispam_otazka']);
+	$smarty->assign('antispam_odpoved',$_SESSION['antispam_odpoved']);
 	$smarty->assign_by_ref('trail', $trail->path);
 	$smarty->display('hlavicka.tpl');
 	$smarty->display('novy-ucet.tpl');

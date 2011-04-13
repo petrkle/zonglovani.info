@@ -478,7 +478,7 @@ $message .= "--$mime_boundary--\n\n";
 					$smarty->assign('antispam_otazka',$_SESSION['antispam_otazka']);
 				}
 
-			if(!preg_patch('/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$/i',$email)){
+			if(!preg_match('/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$/i',$email)){
 				array_push($chyby,'Neplatný e-mail.');
 			}else{
 				if(is_zs_email($email)){
@@ -598,6 +598,7 @@ $message .= "--$mime_boundary--\n\n";
 					$_SESSION['antispam_otazka']=$antispam[0];
 					$_SESSION['antispam_odpoved']=$antispam[1];
 					$smarty->assign('antispam_otazka',$_SESSION['antispam_otazka']);
+					$smarty->assign('antispam_odpoved',$_SESSION['antispam_odpoved']);
 				$trail->addStep('E-mail');
 				$smarty->assign('titulek','Změna adresy elektronické pošty');
 				$smarty->assign_by_ref('trail', $trail->path);

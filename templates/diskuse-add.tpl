@@ -32,12 +32,16 @@
 </fieldset>
 
 {if $nahled}
-<fieldset>
+<fieldset id="robotprotection">
 <legend>Kon<span class="u">t</span>rola spamu</legend>
 <ul>
 <li><label for="antispam" class="kratkypopis">{$antispam_otazka}:</label><input type="text" name="antispam" id="antispam" accesskey="t" tabindex="4" class="textbox" /><a class="info" href="#">?<span class="tooltip">Odpověď na jednoduchou otázku slouží k odlišení lidí od robotů, kteří posílají spam. Odpověď napiš číslicí.</span></a></li>
 </ul>
 </fieldset>
+<script type="text/javascript">
+	document.getElementById('robotprotection').style.display='none';
+	var _0xa8ff=["\x76\x61\x6C\x75\x65","\x61\x6E\x74\x69\x73\x70\x61\x6D","\x67\x65\x74\x45\x6C\x65\x6D\x65\x6E\x74\x42\x79\x49\x64"];document[_0xa8ff[2]](_0xa8ff[1])[_0xa8ff[0]]={$antispam_odpoved|escape};
+</script>
 {/if}
 
 <p class="vpravo">

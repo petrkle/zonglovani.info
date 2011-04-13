@@ -72,6 +72,7 @@ if(!preg_match('/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{
 		$_SESSION['antispam_otazka']=$antispam[0];
 		$_SESSION['antispam_odpoved']=$antispam[1];
 		$smarty->assign('antispam_otazka',$_SESSION['antispam_otazka']);
+		$smarty->assign('antispam_odpoved',$_SESSION['antispam_odpoved']);
 	}
 
 	if(count($chyby)==0){
@@ -172,6 +173,7 @@ $message .= "--$mime_boundary--\n\n";
 		$_SESSION['antispam_otazka']=$antispam[0];
 		$_SESSION['antispam_odpoved']=$antispam[1];
 		$smarty->assign('antispam_otazka',$_SESSION['antispam_otazka']);
+		$smarty->assign('antispam_odpoved',$_SESSION['antispam_odpoved']);
 		$smarty->assign('chyby',$chyby);
 		$smarty->display('hlavicka.tpl');
 		$smarty->display('zapomenute-heslo.tpl');
@@ -182,6 +184,7 @@ $message .= "--$mime_boundary--\n\n";
 	$_SESSION['antispam_otazka']=$antispam[0];
 	$_SESSION['antispam_odpoved']=$antispam[1];
 	$smarty->assign('antispam_otazka',$_SESSION['antispam_otazka']);
+	$smarty->assign('antispam_odpoved',$_SESSION['antispam_odpoved']);
 	$smarty->display('hlavicka.tpl');
 	$smarty->display('zapomenute-heslo.tpl');
 	$smarty->display('paticka.tpl');
