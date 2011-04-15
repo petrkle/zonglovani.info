@@ -164,7 +164,7 @@ ok($zs_nove_prihlaseni->content() =~ /Nastavit znamení zvěrokruhu<\/a>/,'Nové
 my $zs_heslomen = $bot->get('http://zongl.info/lide/nastaveni/heslo');
 $zs_heslomen = $bot->submit_form(form_number => 0,fields => {'stareheslo'=>$nove_heslo,'heslo'=>$heslo,'heslo2'=>$heslo}, button => 'odeslat');
 
-ok($zs_heslomen->content() =~ /Nastavení bylo uloženo\./,'Změna hesla na původní');
+ok($zs_heslomen->content() =~ /Nové heslo je nastavené\./,'Změna hesla na původní');
 $zs_logout = $bot->get('http://zongl.info/lide/odhlaseni.php');
 
 my $zs_na = $bot->get('http://zongl.info/lide/nastaveni/');
@@ -177,7 +177,7 @@ ok($zs_prihlaska->content() =~ />Upravit vzkaz<\/a>/,'Link na nastavení vzkazu'
 my $zs_ruseni = $bot->get('http://zongl.info/lide/nastaveni/zruseni');
 
 $zs_ruseni = $bot->click_button(name=>'zrusit');
-ok($zs_ruseni->content() =~ /Zpráva byla odeslána\./,'Odeslání zprávy s odkazem na zrušení.');
+ok($zs_ruseni->content() =~ /E-mail s instrukcemi jak zrušit účet odeslán\./,'Odeslání zprávy s odkazem na zrušení.');
 
 sleep 1;
 ok(-f "/home/fakemail/$mail.4", 'Rušící email přišel');

@@ -7,7 +7,7 @@
 {/if}
 
 {if $nahled}
-<h3>Náhled zprávy</h3>
+<h3>Náhled nové zprávy</h3>
 <table class="diskuse" cellspacing="0" cellpadding="0">
 <tr>
 <th>Uživatel</th>
@@ -19,6 +19,8 @@
 </tr>
 <tr><td colspan="6">{$vzkaz_html}</td></tr>
 </table>
+{else}
+<h3>Přidání nové zprávy</h3>
 {/if}
 
 <form action="{$SCRIPT_NAME}" method="post">
@@ -47,7 +49,7 @@
 <p class="vpravo">
 {if $nahled}
 <input type="submit" name="nahled" value="Zobrazit náhled" class="knoflik" tabindex="5" />
-<input type="submit" name="odeslat" value="Odeslat" class="knoflik" tabindex="5" />
+<input type="submit" name="odeslat" value="Přidat do diskuse" class="knoflik" tabindex="5" />
 {else}
 <input type="submit" name="nahled" value="Zobrazit náhled" class="knoflik" tabindex="5" />
 {/if}
@@ -63,3 +65,21 @@
 <li>Zadávej každý dotaz pouze jednou.</li>
 </ul>
 
+{if count($smarty.session.diskuse_latest) > 0}
+<h3>Poslední zprávy</h3>
+{foreach from=$smarty.session.diskuse_latest item=zprava}
+<a name="{$zprava.cas|escape}"></a>
+<table class="diskuse" cellspacing="0" cellpadding="0">
+<tr>
+<th>Uživatel</th>
+<td><a href="{$smarty.const.LIDE_URL}{$zprava.autor|escape}.html" title="Podrobnosti o uživateli {$zprava.autor|escape}.">{$zprava.autor_hr|escape}</a></td>
+<th>Datum</th>
+<td>{$zprava.datum_hr|escape}</td>
+<th>Čas</th>
+<td>{$zprava.cas_hr|escape}</td>
+</tr>
+<tr><td colspan="6">{$zprava.text}</td></tr>
+</table>
+{/foreach}
+<p class="vpravo"><a href="/diskuse/" title="Zobrazit celou diskusi">Zobrazit celou diskusi &raquo;</a></p>
+{/if}

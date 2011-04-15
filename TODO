@@ -1,6 +1,9 @@
 Aktuální
 ========
-- zjednodušit registraci, výchozí stav bez vzkazu, vzkazy přes formulář, podmínky odsouhlasit při aktivaci?
+- přidávání příspěvku do diskuse - zobrazovat pod formulářem poslední příspěvky
+- rss z facebooku (tribofuego) často "bez titulku"
+- přidávání příspěvku do diskuse - titulek, nadpis
+- zjednodušit registraci, popisky rovnou u formuláře, bez stránky s podmínkami
 - odkaz z menu na rss agregátor - novinky?
 - obrázky na plochu, doplnit popisky a img sitemapu
 - odkazy další, předchozí v horoskopu
@@ -13,6 +16,7 @@ Aktuální
 - juggling in czech republic - eng, informace o žonglování v čechách pro cizince
 - video jak se registrovat do žonglérova slabikáře
 - detekovat accepted-lang v hlavičkách od prohlížeče mimo češtinu a slovenštinu vypisovat javascript s odkazem na překlad pomocí google translate
+- testy všech věcí v nastavení (změna emailu)
 
 Kalendář
 ========
@@ -89,3 +93,5 @@ sestavit mobi a epub vydání
 odkazy mezi literaturou a downloadem
 speciální stránka o ejc
 opravit v kalendáří zobrazování akcí 0.00 - 0.00
+zjednodušit registraci, výchozí stav bez vzkazu, vzkazy přes formulář
+nastavování - podrobnější popis výsledku akce

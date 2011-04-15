@@ -6,7 +6,8 @@ require($lib.'/bbcode.init.php');
 
 if(is_logged()){
 
-$smarty->assign('titulek','Diskuse o žonglování');
+$smarty->assign('titulek','Diskuse o žonglování - přidání nové zprávy');
+$smarty->assign('nadpis','Diskuse o žonglování');
 $chyby=array();
 $cas=time();
 
@@ -32,6 +33,7 @@ $cas=time();
 			$smarty->assign('cas_hr',date('G.i',$cas));
 			$smarty->assign('datum_hr',date('j. n. Y',$cas));
 			$smarty->assign_by_ref('uzivatel',$_SESSION['uzivatel']);
+			$smarty->assign('titulek','Diskuse o žonglování - náhled nové zprávy');
 	}
 
 	if(isset($_POST['odeslat']) and isset($_SESSION['nahled'])){

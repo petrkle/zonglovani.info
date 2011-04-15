@@ -1,4 +1,9 @@
 {if is_array($items)}
+
+{if $smarty.session.logged==true}
+<p><a href="{$smarty.const.DISKUSE_URL}add.php" title="Přidat nový vzkaz." class="add">Přidat zprávu</a></p>
+{/if}
+
 {if $page_numbers.total > 1 and count($items)>5}
 <p>
 Stránkování: {$pager_links}

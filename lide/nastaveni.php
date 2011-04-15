@@ -28,6 +28,8 @@ $trail->addStep('Nastavení',LIDE_URL.'nastaveni/');
 					array_push($chyby,'Jméno obsahuje nepovolené znaky.');
 				}elseif($jmeno==$_SESSION['uzivatel']['jmeno']){
 					# nic :^)
+					header('Location: '.LIDE_URL.'nastaveni/?result=nezmeneno');
+					exit();
 				}else{
 					if(is_zs_jmeno($jmeno)){
 						array_push($chyby,'Zadané jméno už používá jiný uživatel.');
@@ -43,7 +45,7 @@ $trail->addStep('Nastavení',LIDE_URL.'nastaveni/');
 					$handle = fopen('http://'.$_SERVER['SERVER_NAME'].'/mapa/update-zongleri.php', 'r');
 					fclose($handle);
 					$_SESSION['uzivatel']=get_user_complete($_SESSION['uzivatel']['login']);
-					header('Location: '.LIDE_URL.'/nastaveni/?result=ok');
+					header('Location: '.LIDE_URL.'nastaveni/?result=ok_jmeno');
 					exit();
 				}
 			}else{
@@ -65,6 +67,12 @@ $trail->addStep('Nastavení',LIDE_URL.'nastaveni/');
 					$soukromi='formular';
 				}else{
 					$soukromi='mail';
+				}
+
+				if($soukromi==$_SESSION['uzivatel']['soukromi']){
+					# nic :^)
+					header('Location: '.LIDE_URL.'nastaveni/?result=nezmeneno');
+					exit();
 				}
 
 				if(count($chyby)==0){
@@ -97,7 +105,13 @@ $trail->addStep('Nastavení',LIDE_URL.'nastaveni/');
 							array_push($chyby,'Špatný formát souboru. Přidávat jde pouze obrázky formátu JPG.');
 						}
 					}else{
-						array_push($chyby,'Odeslaný soubor není obrázek.');
+						if($_FILES['foto']['error']=='0'){
+							array_push($chyby,'Odeslaný soubor není obrázek.');
+						}elseif($_FILES['foto']['error']=='4'){
+							array_push($chyby,'Nebyl odeslán žádný soubor.');
+						}else{
+							array_push($chyby,'Chyba při nahrávání obrázku.');
+						}
 					}
 				if(count($chyby)==0){
 					move_uploaded_file($_FILES['foto']['tmp_name'],LIDE_DATA.'/'.$_SESSION['uzivatel']['login'].'/foto.jpg');
@@ -143,12 +157,23 @@ $trail->addStep('Nastavení',LIDE_URL.'nastaveni/');
 						array_push($chyby,'Špatný formát adresy. Zadej i úvodní "http://". Např.: http://neco.cz');
 					}
 
+				if($web==$_SESSION['uzivatel']['web']){
+					# nic :^)
+					header('Location: '.LIDE_URL.'nastaveni/?result=nezmeneno');
+					exit();
+				}
+
 				if(count($chyby)==0){
 					$foo=fopen(LIDE_DATA.'/'.$_SESSION['uzivatel']['login'].'/web.txt','w');
 					fwrite($foo,$web);
 					fclose($foo);
 					$_SESSION['uzivatel']=get_user_complete($_SESSION['uzivatel']['login']);
-					header('Location: '.LIDE_URL.'nastaveni/?result=ok');
+					if(strlen($web)==0 and is_file(LIDE_DATA.'/'.$_SESSION['uzivatel']['login'].'/web.txt')){
+						unlink(LIDE_DATA.'/'.$_SESSION['uzivatel']['login'].'/web.txt');
+						header('Location: '.LIDE_URL.'nastaveni/?result=ok_web_del');
+						exit();
+					}
+					header('Location: '.LIDE_URL.'nastaveni/?result=ok_web');
 					exit();
 				}
 			}else{
@@ -175,16 +200,23 @@ $trail->addStep('Nastavení',LIDE_URL.'nastaveni/');
 						array_push($chyby,'Špatný formát telefonního čísla. Číslo zadej ve formátu "+420&nbsp;aaa&nbsp;bbb&nbsp;ccc" nebo "+421&nbsp;aaa&nbsp;bbb&nbsp;ccc".');
 					}
 
+				if($tel==$_SESSION['uzivatel']['tel']){
+					# nic :^)
+					header('Location: '.LIDE_URL.'nastaveni/?result=nezmeneno');
+					exit();
+				}
 
 				if(count($chyby)==0){
 					$foo=fopen(LIDE_DATA.'/'.$_SESSION['uzivatel']['login'].'/tel.txt','w');
 					fwrite($foo,$tel);
 					fclose($foo);
+					$_SESSION['uzivatel']=get_user_complete($_SESSION['uzivatel']['login']);
 					if(strlen($tel)==0 and is_file(LIDE_DATA.'/'.$_SESSION['uzivatel']['login'].'/tel.txt')){
 						unlink(LIDE_DATA.'/'.$_SESSION['uzivatel']['login'].'/tel.txt');
+						header('Location: '.LIDE_URL.'nastaveni/?result=ok_tel_del');
+						exit();
 					}
-					$_SESSION['uzivatel']=get_user_complete($_SESSION['uzivatel']['login']);
-					header('Location: '.LIDE_URL.'nastaveni/?result=ok');
+					header('Location: '.LIDE_URL.'nastaveni/?result=ok_tel');
 					exit();
 				}
 			}else{
@@ -430,7 +462,7 @@ $message .= "--$mime_boundary--\n\n";
 
 		$vysledek=mail($_SESSION['uzivatel']['email'], $subject, $message, $headers);
 		if($vysledek){
-			header('Location: '.LIDE_URL.'nastaveni/?result=send');
+			header('Location: '.LIDE_URL.'nastaveni/?result=ok_zruseni');
 		}else{
 			header('Location: '.LIDE_URL.'nastaveni/?result=ko');
 		}
@@ -485,6 +517,12 @@ $message .= "--$mime_boundary--\n\n";
 					array_push($chyby,'Tento e-mail už používá jiný uživatel žonglérova slabikáře.');
 				}
 			}
+
+				if($email==$_SESSION['uzivatel']['email']){
+					# nic :^)
+					header('Location: '.LIDE_URL.'nastaveni/');
+					exit();
+				}
 
 				if(count($chyby)==0){
 
@@ -585,7 +623,7 @@ $message .= "--$mime_boundary--\n\n";
 
 		$vysledek=mail($email, $subject, $message, $headers);
 		if($vysledek){
-			header('Location: '.LIDE_URL.'nastaveni/?result=send');
+			header('Location: '.LIDE_URL.'nastaveni/?result=ok_mailchange');
 		}else{
 			header('Location: '.LIDE_URL.'nastaveni/?result=ko');
 		}
@@ -613,12 +651,23 @@ $message .= "--$mime_boundary--\n\n";
 						array_push($chyby,'Vzkaz je příliš dlouhý. Maximální délka je 1024 znaků.');
 					}
 
+				if($vzkaz==$_SESSION['uzivatel']['vzkaz']){
+					# nic :^)
+					header('Location: '.LIDE_URL.'nastaveni/?result=nezmeneno');
+					exit();
+				}
+
 				if(count($chyby)==0){
 					$foo=fopen(LIDE_DATA.'/'.$_SESSION['uzivatel']['login'].'/vzkaz.txt','w');
 					fwrite($foo,$vzkaz);
 					fclose($foo);
 					$_SESSION['uzivatel']=get_user_complete($_SESSION['uzivatel']['login']);
-					header('Location: '.LIDE_URL.'nastaveni/?result=ok');
+					if(strlen($vzkaz)==0 and is_file(LIDE_DATA.'/'.$_SESSION['uzivatel']['login'].'/vzkaz.txt')){
+						unlink(LIDE_DATA.'/'.$_SESSION['uzivatel']['login'].'/vzkaz.txt');
+						header('Location: '.LIDE_URL.'nastaveni/?result=ok_vzkaz_del');
+						exit();
+					}
+					header('Location: '.LIDE_URL.'nastaveni/?result=ok_vzkaz');
 					exit();
 				}
 			}
@@ -661,7 +710,7 @@ $message .= "--$mime_boundary--\n\n";
 					fwrite($foo,sha1($heslo.$_SESSION['uzivatel']['login']));
 					fclose($foo);
 					$_SESSION['uzivatel']=get_user_complete($_SESSION['uzivatel']['login']);
-					header('Location: '.LIDE_URL.'nastaveni/?result=ok');
+					header('Location: '.LIDE_URL.'nastaveni/?result=ok_heslo');
 					exit();
 				}
 			}
@@ -680,14 +729,9 @@ $message .= "--$mime_boundary--\n\n";
 	}else{
 		if(isset($_GET['result'])){
 			$result=$_GET['result'];
-			if($result=='send'){
-				array_push($chyby,'Zpráva byla odeslána.');
-			}elseif($result=='ok'){
-				array_push($chyby,'Nastavení bylo uloženo.');
-			}elseif($result=='uploaded'){
-				array_push($chyby,'Fotografie byla uložena.');
-			}elseif($result=='deleted'){
-				array_push($chyby,'Fotografie je smazaná.');
+			require_once('nastaveni.hlasky.php');
+			if(isset($nastaveni_hlasky[$result])){
+				array_push($chyby,$nastaveni_hlasky[$result]);
 			}else{
 				array_push($chyby,'Došlo k chybě.');
 			}

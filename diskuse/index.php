@@ -5,12 +5,21 @@ require($lib.'/Pager/Pager.php');
 
 $zpravy=get_diskuse_zpravy();
 
+if(is_logged()){
+$latest=array();
+$pocetzprav=count($zpravy)-1;
+for($frk=0;$frk<3;$frk++){
+	$latest[$frk]=$zpravy[$pocetzprav-$frk];
+}
+$_SESSION['diskuse_latest']=$latest;
+}
+
 $trail = new Trail();
 $trail->addStep('Diskuse',DISKUSE_URL);
 
 $pagerOptions = array(
     'mode'     => 'Sliding',
-    'delta'    => 3,
+    'delta'    => 2,
 		'firstLinkTitle' => 'První stránka',
     'perPage'  => ZPRAV_NA_STRANKU,
     'altPrev'  => 'Starší příspěvky',
