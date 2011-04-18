@@ -162,8 +162,6 @@ pro odeslání vzkazu pro "'.$komu_props['login'].'" klikni na tento odkaz:
 
 http://'.$_SERVER['SERVER_NAME'].LIDE_URL.'sendmail/'.$messageid.'.html
 
-Odkaz platí do: '.date("j. n. Y G.i",(time()+TIMEOUT_VZKAZ)).'
-
 -- 
 Petr Kletečka
 
@@ -187,8 +185,6 @@ $message .= 'Ahoj,<br /><br />
 pro odeslání vzkazu pro "'.$komu_props['login'].'" klikni na tento odkaz:<br />
 
 <a href="http://'.$_SERVER['SERVER_NAME'].LIDE_URL.'sendmail/'.$messageid.'.html">http://'.$_SERVER['SERVER_NAME'].LIDE_URL.'sendmail/'.$messageid.'.html</a><br />
-
-Odkaz platí do: '.date("j. n. Y G.i",(time()+TIMEOUT_VZKAZ)).'<br />
 
 -- <br/>
 Petr Kletečka<br/>

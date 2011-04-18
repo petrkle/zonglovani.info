@@ -416,8 +416,6 @@ pro zrušení účtu v žonglérově slabikáři klikni na tento odkaz:
 
 http://'.$_SERVER['SERVER_NAME'].LIDE_URL.'e/'.$splmail[1].'/'.$splmail[0].'/'.$key.'.html
 
-Odkaz platí do: '.date('j. n. Y G.i',(time()+TIMEOUT_REGISTRATION)).'
-
 -- 
 Petr Kletečka
 
@@ -441,8 +439,6 @@ $message .= 'Ahoj,<br /><br />
 pro zrušení účtu v žonglérově slabikáři klikni na tento odkaz:<br />
 
 <a href="http://'.$_SERVER['SERVER_NAME'].LIDE_URL.'e/'.$splmail[1].'/'.$splmail[0].'/'.$key.'.html">http://'.$_SERVER['SERVER_NAME'].LIDE_URL.'e/'.$splmail[1].'/'.$splmail[0].'/'.$key.'.html</a><br />
-
-Odkaz platí do: '.date('j. n. Y G.i',(time()+TIMEOUT_REGISTRATION)).'<br />
 
 -- <br/>
 Petr Kletečka<br/>
@@ -574,8 +570,6 @@ pro změnu emailu v žonglérově slabikáři klikni na tento odkaz:
 
 http://'.$_SERVER['SERVER_NAME'].LIDE_URL.'p/'.$splmail[1].'/'.$splmail[0].'/'.$key.'.html
 
-Odkaz platí do: '.date("j. n. Y G.i",(time()+TIMEOUT_REGISTRATION)).'
-
 -- 
 Petr Kletečka
 
@@ -600,8 +594,6 @@ $message .= 'Ahoj,<br /><br />
 pro změnu emailu v žonglérově slabikáři klikni na tento odkaz:<br />
 
 <a href="http://'.$_SERVER['SERVER_NAME'].LIDE_URL.'p/'.$splmail[1].'/'.$splmail[0].'/'.$key.'.html">http://'.$_SERVER['SERVER_NAME'].LIDE_URL.'p/'.$splmail[1].'/'.$splmail[0].'/'.$key.'.html</a><br />
-
-Odkaz platí do: '.date("j. n. Y G.i",(time()+TIMEOUT_REGISTRATION)).'<br />
 
 -- <br/>
 Petr Kletečka<br/>
