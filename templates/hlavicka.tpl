@@ -9,7 +9,7 @@
 {if isset($icbm)}
 	<meta name="ICBM" content="{$icbm|escape}" />
 {/if}
-	<link rel="stylesheet" media="screen,projection" type="text/css" href="/z.css?v=n" />
+	<link rel="stylesheet" media="screen,projection" type="text/css" href="/z.css" />
 	<link rel="stylesheet" media="print" type="text/css" href="/zt.css" />
 {if $styly}
 {foreach from=$styly item=styl}

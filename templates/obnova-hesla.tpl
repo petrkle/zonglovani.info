@@ -18,6 +18,6 @@
 </p>
 
 <p class="vpravo">
-<input type="submit" name="odeslat" value="Pokračovat ..." class="knoflik" tabindex="3" />
+<input type="submit" name="odeslat" value="Nastavit heslo" class="knoflik" tabindex="3" />
 </p>
 </form>

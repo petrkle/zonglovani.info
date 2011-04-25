@@ -1,6 +1,7 @@
 <?php
 require('../init.php');
 require('../func.php');
+require('../rss/rss.php');
 
 $titulek='Obnova hesla';
 
@@ -11,11 +12,13 @@ $trail->addStep('Seznam žonglérů',LIDE_URL);
 $trail->addStep($titulek);
 $smarty->assign_by_ref('trail', $trail->path);
 
-if(isset($_GET['status']) and $_GET['status']=='ok'){
-		$smarty->assign('chyby',array('Nové heslo bylo nastaveno. Můžeš se s ním <a href="'.LIDE_URL.'prihlaseni.php" title="Přihlášení do žonglérova slabikáře.">přihlásit</a>.'));
+if(isset($_GET['status']) and $_GET['status']=='ok' and isset($_SESSION['load_user'])){
+		load_user($_SESSION['load_user']);
+		$smarty->assign('chyby',array('Nové heslo je nastavené.','Můžeš si <a href="'.LIDE_URL.'nastaveni/" title="Upravit nastavení účtu">upravit nastavení</a>.'));
 		$smarty->display('hlavicka.tpl');
 		$smarty->display('alert.tpl');
 		$smarty->display('paticka.tpl');
+		unset($_SESSION['load_user']);
 		exit();
 }
 
@@ -86,6 +89,7 @@ if(isset($_GET['m']) and isset($_GET['k'])){
 				fclose($foo);
 				unlink($rtf);
 				unlink($rtk);
+				$_SESSION['load_user']=$uzivatel['login'];
 				header('Location: '.LIDE_URL.basename(__FILE__).'?status=ok');
 				exit();
 			}else{

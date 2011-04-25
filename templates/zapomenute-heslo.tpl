@@ -23,7 +23,7 @@
 </fieldset>
 
 <p class="vpravo">
-<input type="submit" name="odeslat" value="Odeslat" class="knoflik" tabindex="5" />
+<input type="submit" name="odeslat" value="Obnovit heslo" class="knoflik" tabindex="5" />
 </p>
 </form>
 <script type="text/javascript">

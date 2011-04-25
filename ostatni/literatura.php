@@ -12,7 +12,7 @@ $smarty->assign('description','Česká a anglická literatura o žonglování. V
 
 $trail = new Trail();
 $trail->addStep('Informace o žonglování','/ostatni.html');
-$trail->addStep($nadpis);
+$trail->addStep('Literatura');
 
 $dalsi=array(
 	array('url'=>'/navody/','text'=>'Návody na žonglování v pdf','title'=>'Formát vhodný k tisku'),

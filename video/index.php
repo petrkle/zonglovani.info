@@ -50,9 +50,7 @@ if($pager->getCurrentPageID()>1){
 	$trail->addStep($pager->getCurrentPageID().'. stránka','/video/stranka'.$pager->getCurrentPageID().'.html');
 }else{
 	foreach($juggling_events as $key=>$nazev){
-		if($id!=$key){
 			array_push($dalsi,array('url'=>'/video/'.$key.'/','text'=>$nazev,'title'=>$nazev.' - video'));
-		}
 	}
 }
 

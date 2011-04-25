@@ -63,8 +63,8 @@ fieldset{margin-left:15px;width:500px;padding:5px 0 5px 10px;}
 .datebox{width:280px;margin:0 10px 0 10px;}
 .readonlyform{width:300px;margin:0 10px 0 10px;}
 form ul{margin:0;padding:0;}
-form ul li{list-style:none;margin:5px 0 5px 0;text-align:left;}
-.kratkypopis{margin:0;padding:0;display:block;float:left;width:140px;text-align:right;}
+form ul li{list-style:none;margin:5px 0 15px 0;text-align:left;}
+.kratkypopis{margin:0;padding:0;display:block;}
 .vpravo{text-align:right;}
 .knoflik{font-weight:bold;width:150px;}
 textarea{width:450px;height:100px;}

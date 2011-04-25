@@ -1,7 +1,7 @@
 #!/usr/bin/perl -w
 use strict;
 use WWW::Mechanize;
-use Test::More tests => 34;
+use Test::More tests => 35;
 use Net::Netrc;
 use String::MkPasswd qw(mkpasswd);
 require('scripts/tests/func.pl');
@@ -144,12 +144,16 @@ ok ($zs_zapomenka->content() =~ /<legend>Obnova hesla<\/legend>/,'Formulář pro
 
 my $zs_noveheslo = $bot->submit_form(form_number => 0,fields => {'heslo'=>$nove_heslo,'heslo2'=>$nove_heslo}, button => 'odeslat');
 
-ok($zs_noveheslo->content() =~ /Nové heslo bylo nastaveno/,'Nové heslo nastaveno');
+ok($zs_noveheslo->content() =~ /Nové heslo je nastavené/,'Nové heslo nastaveno');
 
 my $nove_prihlaseni = {
 	'login' => $login,
 	'heslo' => $nove_heslo,
 };
+
+my $zs_logout2 = $bot->get('http://zongl.info/lide/odhlaseni.php');
+
+ok($zs_logout2->content() =~ /Přihlášení/,'Odhlášení po nastavení hesla');
 
 my $zs_login_form= $bot->get('http://zongl.info/lide/nastaveni');
 my $zs_nove_prihlaseni = $bot->submit_form(form_number => 0,fields => $prihlaseni);
