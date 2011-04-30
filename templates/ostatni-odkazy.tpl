@@ -52,6 +52,12 @@ Další příspěvek ze <a href="{$smarty.const.LIDE_URL}misto/#sk" title="Sezna
 Asociace pro současný cirkus.
 </p>
 
+<a name="improvizovanycirkus"></a><h5><a href="http://improvizovanycirkus.cz/" title="Improvizovaný cirkus" class="external" onclick="pageTracker._trackPageview('/goto/improvizovanycirkus.cz');">improvizovanycirkus.cz</a></h5>
+<p>
+<a href="http://improvizovanycirkus.cz/" title="Improvizovaný cirkus" onclick="pageTracker._trackPageview('/goto/improvizovanycirkus.cz');">{obrazek soubor="odkazy-improvizovanycirkus.cz.png" popisek="improvizovanycirkus.cz"}</a>
+Skupina která se věnuje převážně divadlu, ale dělají i nějaké to žonglování.
+</p>
+
 <a name="didier"></a><h5><a href="http://didier.arlabosse.free.fr/balles/english/" title="Anglické stránky o žonglování." class="external" onclick="pageTracker._trackPageview('/goto/didier.arlabosse.free.fr');">didier.arlabosse.free.fr/balles/english</a></h5>
 <p>
 <a href="http://didier.arlabosse.free.fr/balles/english/" title="Anglické stránky o žonglování." onclick="pageTracker._trackPageview('/goto/didier.arlabosse.free.fr');">{obrazek soubor="odkazy-didier.png" popisek="didier.arlabosse.free.fr/balles/english"}</a>
