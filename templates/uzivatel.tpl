@@ -45,7 +45,7 @@ Stránku odebereš z oblíbených kliknutím na obrázek žluté hvězdičky {ob
 </ul>
 {else}
 
-<h1>{$titulek}</h1>
+<h1><span class="fn">{$titulek}</span></h1>
 <div class="vcard">
 {if $uzivatel_props.foto}
 <div class="szn">
@@ -59,12 +59,10 @@ Stránku odebereš z oblíbených kliknutím na obrázek žluté hvězdičky {ob
 {/if}
 
 <ul>
-<li>Jméno: <span class="fn">{$uzivatel_props.jmeno|escape}</span></li>
-<li>Login: <span class="nickname">{$uzivatel_props.login|escape}</span></li>
+<li class="skryte">Login: <span class="nickname">{$uzivatel_props.login|escape}</span></li>
 {if strlen($uzivatel_props.web)>0}
 <li>Web: <a href="{$uzivatel_props.web|escape}" title="Internetová stránka uživatele {$uzivatel_props.jmeno|escape}"{if !preg_match('/^http:\/\/zonglovani.info.*/',$uzivatel_props.web)} class="external url" rel="nofollow"{/if}>{$uzivatel_props.web|replace:'http://':''|regex_replace:'/^www\./':''|regex_replace:'/\/$/':''|truncate:40:'...':false|escape}</a></li>
 {/if}
-<li>Účet vytvořen: {$uzivatel_props.registrace_hr|escape}</li>
 {if $uzivatel_props.tel}
 <li>Tel.: {$uzivatel_props.tel|telobfuscate}</li>
 {/if}

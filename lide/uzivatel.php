@@ -52,6 +52,16 @@ $mojepozice=array_search($id,$pozice);
 		$smarty->assign('nahled','http://'.$_SERVER['SERVER_NAME'].LIDE_URL.'foto/'.$id.'.jpg');
 	}
 
+	$hlavicky=array();
+	$hlavicky['dalsi']='<link rel="next" href="'.$navigace['dalsi']['url'].'" />';
+	$hlavicky['predchozi']='<link rel="previous" href="'.$navigace['predchozi']['url'].'" />';
+	$hlavicky['obsah']='<link rel="contents" href="'.LIDE_URL.'">';
+	$hlavicky['nahoru']='<link rel="up" href="'.LIDE_URL.'" />';
+
+	if(count($hlavicky)>0){
+		$smarty->assign_by_ref('custom_headers',$hlavicky);
+	}
+
 	$smarty->assign('styly',array('/a.css'));
 	$smarty->assign_by_ref('navigace',$navigace);
 

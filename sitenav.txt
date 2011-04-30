@@ -1,0 +1,13 @@
+<link rel="Home"      href="/">
+<link rel="Index"     href="/">
+<link rel="Contents"  href="toc.html">
+<link rel="Search"    href="search.html">
+<link rel="Glossary"  href="glossary.html">
+<link rel="Help"      href="faq.html">
+<link rel="Up"        href="section_index.html">
+<link rel="First"     href="page_one.html">
+<link rel="Prev"      href="previous_page.html">
+<link rel="Next"      href="next_page.html">
+<link rel="Last"      href="the_end.html">
+<link rel="Copyright" href="disclaimer.html">
+<link rel="Author"    href="contact.html">

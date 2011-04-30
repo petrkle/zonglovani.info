@@ -16,6 +16,11 @@
 	<link rel="stylesheet" media="screen,projection" type="text/css" href="{$styl}" />
 {/foreach}
 {/if}
+{if $custom_headers}
+{foreach from=$custom_headers item=hlavicka}
+	{$hlavicka}
+{/foreach}
+{/if}
 	<meta name="robots" content="{if isset($robots)}{$robots|escape}{else}index,follow{/if}" />
 	<link rel="shortcut icon" href="/favicon.ico" />
 	<link rel="alternate" title="Žonglérův slabikář" href="http://{$smarty.server.SERVER_NAME}/zonglovani.rss" type="application/rss+xml" />
@@ -36,6 +41,12 @@
 	<link rel="icon" href="/img/s/slabikar-48.png" sizes="48x48"/>
 	<meta name="msapplication-tooltip" content="Žonglérův slabikář"/>
 	<meta name="msapplication-starturl" content="http://{$smarty.server.SERVER_NAME}"/>
+	<link rel="author" href="/kontakt.html" />
+	<link rel="glossary" href="/mapa-stranek.html" />
+	<link rel="index" href="/" />
+	<link rel="help" href="/faq.html" />
+	<link rel="start" href="/" />
+	<link rel="search" href="/vyhledavani/" />
 </head>
 <body>
 

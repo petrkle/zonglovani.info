@@ -55,6 +55,30 @@ if($pager->getCurrentPageID()!=1){
 	$titulek.=' - '.$pager->getCurrentPageID().'. stránka';
 }
 
+if($pager->getCurrentPageID()==$pager->numPages()){
+	$dalsistranka=LIDE_URL;
+}else{
+	$dalsistranka=LIDE_URL.'stranka'.(($pager->getCurrentPageID())+1).'/';
+}
+
+if($pager->getCurrentPageID()==1){
+	$predchozistranka=LIDE_URL.'stranka'.$pager->numPages().'/';
+}else{
+	$predchozistranka=LIDE_URL.'stranka'.(($pager->getCurrentPageID())-1).'/';
+}
+
+$hlavicky=array();
+$hlavicky['dalsi']='<link rel="next" href="'.$dalsistranka.'" />';
+$hlavicky['predchozi']='<link rel="previous" href="'.$predchozistranka.'" />';
+$hlavicky['obsah']='<link rel="contents" href="'.LIDE_URL.'" />';
+$hlavicky['prvni']='<link rel="first" href="'.LIDE_URL.'" />';
+$hlavicky['posledni']='<link rel="last" href="'.LIDE_URL.'stranka'.$pager->numPages().'/'.'" />';
+$hlavicky['nahoru']='<link rel="up" href="/" />';
+
+if(count($hlavicky)>0){
+	$smarty->assign_by_ref('custom_headers',$hlavicky);
+}
+
 $smarty->assign('nadpis','Seznam žonglérů');
 $smarty->assign('keywords','žonglování, workshop, žongléři, dílna, žonglér, žonglérka, sezna žonglérů, vystoupení, fireshow, akrobacie');
 $smarty->assign('description',$pager->getCurrentPageID().'. stránka seznamu žonglérů a žonglérek kteří umí veřejné vystoupení, fireshow i žonglérské dílny.');

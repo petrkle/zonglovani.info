@@ -46,6 +46,12 @@
 	<link rel="icon" href="/img/s/slabikar-48.png" sizes="48x48"/>
 	<meta name="msapplication-tooltip" content="Žonglérův slabikář"/>
 	<meta name="msapplication-starturl" content="http://{$smarty.server.SERVER_NAME}"/>
+	<link rel="author" href="/kontakt.html" />
+	<link rel="glossary" href="/mapa-stranek.html" />
+	<link rel="index" href="/" />
+	<link rel="help" href="/faq.html" />
+	<link rel="start" href="/" />
+	<link rel="search" href="/vyhledavani/" />
 </head>
 <body>
 {php}

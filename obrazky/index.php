@@ -133,6 +133,7 @@ if($id){
 if($id and $photo){
 		$smarty->assign('feedback',true);
 		if(isset($obrazky[intval($photo)])){
+		$hlavicky=array();
 			if(isset($gal_info['icbm'])){
 				$smarty->assign('icbm',$gal_info['icbm']);
 			}
@@ -160,6 +161,49 @@ if($id and $photo){
 			}
 
 			$trail->addStep(intval($photo).'. obrázek');
+
+	if($pager->getCurrentPageID()==$pager->numPages()){
+		if(isset($obrazek['dalsi_cislo'])){
+			$dalsistranka=OBRAZKY_URL.$id.'/stranka'.($obrazek['dalsi_stranka']).'/'.$obrazek['dalsi_cislo'].'.html';
+		}else{
+			$dalsistranka=OBRAZKY_URL.$id.'/stranka'.$pager->numPages().'/';
+		}
+	}else{
+		if(isset($obrazek['dalsi_cislo'])){
+			$dalsistranka=OBRAZKY_URL.$id.'/stranka'.($obrazek['dalsi_stranka']).'/'.$obrazek['dalsi_cislo'].'.html';
+		}else{
+			$dalsistranka=OBRAZKY_URL.$id.'/'.$obrazek['dalsi_cislo'].'.html';
+		}
+	}
+
+	if($pager->getCurrentPageID()==1){
+		if(isset($obrazek['predchozi_cislo'])){
+			$predchozistranka=OBRAZKY_URL.$id.'/'.$obrazek['predchozi_cislo'].'.html';
+		}else{
+			$predchozistranka=OBRAZKY_URL.$id.'/';
+		}
+
+		if(isset($obrazek['dalsi_stranka'])){
+			$dalsistranka=OBRAZKY_URL.$id.'/'.$obrazek['dalsi_cislo'].'.html';
+		}
+	}else{
+		if(isset($obrazek['predchozi_stranka'])){
+			$predchozistranka=OBRAZKY_URL.$id.'/stranka'.($obrazek['predchozi_stranka']).'/'.$obrazek['predchozi_cislo'].'.html';
+		}else{
+			$predchozistranka=OBRAZKY_URL.$id.'/'.$obrazek['predchozi_cislo'].'.html';
+		}
+	}
+
+	$hlavicky['dalsi']='<link rel="next" href="'.$dalsistranka.'" />';
+	$hlavicky['predchozi']='<link rel="previous" href="'.$predchozistranka.'" />';
+	$hlavicky['obsah']='<link rel="contents" href="'.OBRAZKY_URL.$id.'/" />';
+	$hlavicky['prvni']='<link rel="first" href="'.$obrazky[0]['url'].'" />';
+	$hlavicky['posledni']='<link rel="last" href="'.$obrazky[(count($obrazky)-1)]['url'].'" />';
+	$hlavicky['nahoru']='<link rel="up" href="'.OBRAZKY_URL.$id.$page.'" />';
+
+	if(count($hlavicky)>0){
+		$smarty->assign_by_ref('custom_headers',$hlavicky);
+	}
 			
 			$smarty->assign_by_ref('trail', $trail->path);
 			$smarty->assign('titulek',$titulek);
@@ -206,6 +250,30 @@ if($id and $photo){
 		array('url'=>OBRAZKY_URL,'text'=>'Další obrázky žonglování','title'=>'Další obrázky žonglování'),
 		array('url'=>OBRAZKY_URL.'#vyzva','text'=>'Přidat vlastní obrázky','title'=>'Zveřejni v žonglérově slabikáři vlastní fotky žonglování')
 		);
+
+	if($pager->getCurrentPageID()==$pager->numPages()){
+	$dalsistranka=OBRAZKY_URL.$id.'/';
+	}else{
+	$dalsistranka=OBRAZKY_URL.$id.'/stranka'.(($pager->getCurrentPageID())+1).'/';
+	}
+
+	if($pager->getCurrentPageID()==1){
+	$predchozistranka=OBRAZKY_URL.$id.'/stranka'.$pager->numPages().'/';
+	}else{
+	$predchozistranka=OBRAZKY_URL.$id.'/stranka'.(($pager->getCurrentPageID())-1).'/';
+	}
+
+	$hlavicky=array();
+	$hlavicky['dalsi']='<link rel="next" href="'.$dalsistranka.'" />';
+	$hlavicky['predchozi']='<link rel="previous" href="'.$predchozistranka.'" />';
+	$hlavicky['obsah']='<link rel="contents" href="'.OBRAZKY_URL.$id.'/" />';
+	$hlavicky['prvni']='<link rel="first" href="'.OBRAZKY_URL.$id.'/" />';
+	$hlavicky['posledni']='<link rel="last" href="'.OBRAZKY_URL.$id.'/stranka'.$pager->numPages().'/'.'" />';
+	$hlavicky['nahoru']='<link rel="up" href="'.OBRAZKY_URL.'" />';
+
+	if(count($hlavicky)>0){
+		$smarty->assign_by_ref('custom_headers',$hlavicky);
+	}
 
 		$smarty->assign_by_ref('dalsi',$dalsi);
 		$smarty->assign_by_ref('trail', $trail->path);
@@ -297,6 +365,30 @@ if($id and $photo){
 		$titulek.=' - '.$pager->getCurrentPageID().'. stránka';
 		$desc.=' '.$pager->getCurrentPageID().'. stránka';
 		$trail->addStep($pager->getCurrentPageID().'. stránka');
+	}
+
+	if($pager->getCurrentPageID()==$pager->numPages()){
+		$dalsistranka=OBRAZKY_URL;
+	}else{
+		$dalsistranka=OBRAZKY_URL.'stranka'.(($pager->getCurrentPageID())+1).'.html';
+	}
+
+	if($pager->getCurrentPageID()==1){
+		$predchozistranka=OBRAZKY_URL.'stranka'.$pager->numPages().'.html';
+	}else{
+		$predchozistranka=OBRAZKY_URL.'stranka'.(($pager->getCurrentPageID())-1).'.html';
+	}
+
+	$hlavicky=array();
+	$hlavicky['dalsi']='<link rel="next" href="'.$dalsistranka.'" />';
+	$hlavicky['predchozi']='<link rel="previous" href="'.$predchozistranka.'" />';
+	$hlavicky['obsah']='<link rel="contents" href="'.OBRAZKY_URL.'" />';
+	$hlavicky['prvni']='<link rel="first" href="'.OBRAZKY_URL.'" />';
+	$hlavicky['posledni']='<link rel="last" href="'.OBRAZKY_URL.'stranka'.$pager->numPages().'.html'.'" />';
+	$hlavicky['nahoru']='<link rel="up" href="/" />';
+
+	if(count($hlavicky)>0){
+		$smarty->assign_by_ref('custom_headers',$hlavicky);
 	}
 
 	$smarty->assign('description',$desc);

@@ -14,6 +14,7 @@ Aktuální
 - video jak se registrovat do žonglérova slabikáře
 - detekovat accepted-lang v hlavičkách od prohlížeče mimo češtinu a slovenštinu vypisovat javascript s odkazem na překlad pomocí google translate
 - testy všech věcí v nastavení (změna emailu)
+- doplnit prev, next, up, ... k videím, animacím, souborům ke stažení, diskusi, kalendáři, dovednostem, seznamu míst
 
 Kalendář
 ========
