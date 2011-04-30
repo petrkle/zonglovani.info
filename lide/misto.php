@@ -72,6 +72,8 @@ $mojepozice=array_search($filtr,$pozice);
 	$trail->addStep('Podle místa',LIDE_URL.'misto/');
 	$smarty->assign_by_ref('trail', $trail->path);
 	$smarty->assign('titulek','Žongléři podle místa působení');
+	$smarty->assign('description','Mapa žonglérů a žonglování v České a Slovenské republice. Najdi nejbližšího žongléra.');
+	$smarty->assign('keywords','žonglování, mapa, žongléři');
 	$smarty->display('hlavicka.tpl');
 	$smarty->display('lide-pusobiste.tpl');
 	$smarty->display('paticka.tpl');
