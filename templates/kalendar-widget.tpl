@@ -45,7 +45,8 @@ Pomocí parametru <code>css</code> můžeš nastavit vlastní kaskádový styl p
 <p>
 Data z kalendáře jsou přístupná ve formátu json na adrese: <a href="{$smarty.const.CALENDAR_URL}next.json">http://zonglovani.info/kalendar/next.json</a>
 </p>
-<h3>Příklady použití</h3>
+<a name="use"><h3>Příklady použití</h3></a>
 <ul>
+<li><a href="http://juggle.cz" title="juggle.cz" class="external" onclick="pageTracker._trackPageview('/goto/juggle.cz">juggle.cz</a></li>
 <li><a href="http://kle.cz" title="kle.cz" class="external" onclick="pageTracker._trackPageview('/goto/kle.cz">kle.cz</a></li>
 </ul>

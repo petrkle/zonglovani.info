@@ -56,7 +56,7 @@ function main() {
 				var d = new Date();
 
         var json_url = "http://zonglovani.info/kalendar/next.json?"+filtr;
-        $.ajax({url:json_url, cache: true, dataType: 'jsonp', jsonpCallback: 't_'+d.getFullYear()+'_'+(d.getMonth()+1)+'_'+d.getDate(), success: function(data) {
+        $.ajax({url:json_url, cache: true, contentType: "application/json; charset=utf-8", scriptCharset: "utf-8", dataType: 'jsonp', jsonpCallback: 't_'+d.getFullYear()+'_'+(d.getMonth()+1)+'_'+d.getDate(), success: function(data) {
 				var pocet=0;
 
           $('#zs-kalendar').html('<div class="zs-event-list"><h4 class="zs-head zs-link"><a href="http://zonglovani.info/kalendar/" title="Kalendář žonglérských akcí" class="zs-link" tartet="_top">Kalendář žonglování</a></h4></div>');
