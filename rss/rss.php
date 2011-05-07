@@ -15,7 +15,7 @@ $rss_zdroje['dvaadvacitka']=array('popis'=>'22.cz','url'=>'http://www.22.cz','fe
 #$rss_zdroje['kruhovaparabola']=array('popis'=>'Kruhová parabola - kniha návštěv','url'=>'http://kruhovaparabola.cz','feed_url'=>'http://blueboard.cz/rss-knihy.php?id=189532');
 $rss_zdroje['zongler']=array('popis'=>'zongler.cz','url'=>'http://zongler.cz','feed_url'=>'http://www.zongler.cz/index2.php?option=com_rss&no_html=1');
 $rss_zdroje['adinfinitum']=array('popis'=>'Ad infinitum - fotky','url'=>'http://www.adinfinitum.cz/','feed_url'=>'http://ad8.rajce.idnes.cz/?rss=news');
-
+$rss_zdroje['esteladefuego']=array('popis'=>'Estela de Fuego','url'=>'http://www.esteladefuego.cz/','feed_url'=>'http://www.esteladefuego.cz/feed/');
 $rss_zdroje['slabikarkalendar']=array('popis'=>'Žonglérův slabikář - kalendář','url'=>'http://zonglovani.info/kalendar/','feed_url'=>'http://zonglovani.info/kalendar/kalendar.xml');
 $rss_zdroje['slabikarlide']=array('popis'=>'Seznam žonglérů','url'=>'http://zonglovani.info/lide/','feed_url'=>'http://zonglovani.info/lide/uzivatele.xml');
 $rss_zdroje['slabikardiskuse']=array('popis'=>'Žonglérův slabikář - diskuse','url'=>'http://zonglovani.info/diskuse/','feed_url'=>'http://zonglovani.info/diskuse/zpravy.xml');
