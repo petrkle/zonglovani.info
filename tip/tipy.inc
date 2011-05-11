@@ -94,22 +94,23 @@
 2011-04-25*Doplňky do prohlížeče*/doplnky-prohlizece.html*browsers.png*Žonglérské doplňky do internetových prohlížečů.
 2011-05-02*Videa z PŽM2*/video/pzm2/*pzm2.png*Ohlédnutí za loňským Pražským žonglérským marathonem. Videa z večerní show.
 2011-05-09*Sun*/video/sun.html*sun.jpg*Sluníčko, Jirka z Ostravy a diabolo.
-2011-05-16*What the (beepbeep) do we know?*/video/what-the-beepbeep-do-we-know.html*partnerpoi.jpg*Točení s poi ve více lidech.
-2011-05-23*Literatura*/literatura.html*encyclopaedia.jpg*Přehled nejlepších knížek o žonglování.
-2011-05-30*Výhody pro registrované uživatele*/exkurze.html*exkurze-nahled-2010-2-28-19-49-47.jpg*Obrázky a popis výhod pro registrované uživatele žonglérova slabikáře.
-2011-06-06*Obrázky kuželů*/kuzely/druhy.html*kuzelka-albatros-s.jpg*Obrázky žonglérských kuželů.
-2011-06-13*Rotující čtverce*/kuzely/passing/squares.html*ctverce-r.png*Trik pro čtyři žongléry a dvanáct kuželů. Všichni hází 4 count z pravé ruky.
-2011-06-20*Twitter*/twitter.html*twitter.png*Co si vrabci štěbetají o žonglování? Přes twitter se dozvíš o všech novinkách.
-2011-06-27*
-2011-07-04*
-2011-07-11*
-2011-07-18*
-2011-07-25*
-2011-08-01*
-2011-08-08*
-2011-08-15*
-2011-08-22*
-2011-08-29*
+2011-05-16*Mikulovské kejklířské klání*/kalendar/udalost-20110520-20110522-pek-1301227300.html*kejkleni.png*Festival plný kejklení, ohnivých show, cirkusových vystoupení a soutěží o ceny.
+2011-05-23*Žonglpárty*/kalendar/udalost-20110528-20110528-pek-1299222189.html*zonglparty.jpg*Žonglování na dopravním hřišti na Vypichu.
+2011-05-30*Žonglérova chvilka poezie*/kalendar/udalost-20110701-20110710-pek-1300255720.html*chvilka-poezie.png*Dílna pro začínající a mírně pokročilé žongléry. Naučíte se žonglovat s míčky a kužely. Vyzkoušíte poi, diabolo a další žonglérské techniky.
+2011-06-06*Ultimate Juggling Battle*/kalendar/udalost-20110618-20110618-niggy-1305068952.html*ujb1.png*Soutěž v žonglování jeden na jednoho. Dvě žonglérské kategorie - míčky a diabolo.
+2011-06-13*Žonglobalizace*/kalendar/udalost-20110618-20110618-pek-1304627621.html*zonglobalizace.png*Festival žonglování, hudby a tance v Plzni.
+2011-06-20*Mistrovství ČR ve fire performance*/kalendar/udalost-20110624-20110624-pek-1304157243.html*mcrfp2011.png*Ad infinitum a PVP team vyhlašují mistrovství ČR v žonglování a točení s ohněm.
+2011-06-22*Polná v plamenech*/kalendar/udalost-20110625-20110625-pek-1300568950.html*pvp2011.png*Druhý ročník festivalu ohně a žonglování. Koná se v Polné u Jihlavy.
+2011-06-27*Slovenská Úúú Letná Oslava Žonglovania*/kalendar/udalost-20110701-20110703-mizu-1300967085.html*suloz2011.jpg*Voľné stretnutie žonglérov a takých. Akcia je zdarma, každý si platí len ubytovanie v campe.
+2011-07-04*European Juggling Convention*/kalendar/ejc.html*ejc2011s.png*Evropské setkání žonglérů v Mnichově začíná za měsíc. Nejvyšší čas sehnat si odvoz do Německa.
+2011-07-11*Počúvadlo*/kalendar/udalost-20110717-20110727-pek-1301588303.html*pocuvadlo.jpg*Letný Divadelný Tábor na Počúvadle.
+2011-07-18*Aleje*/kalendar/udalost-20110820-20110826-pek-1293471692.html*aleje-logo.jpg*Za měsíc začne 10. mezinárodní žonglérská a divadelní dílna Aleje 2010.
+2011-07-25*Twitter*/twitter.html*twitter.png*Co si vrabci štěbetají o žonglování? Přes twitter se dozvíš o všech novinkách.
+2011-08-01*Rotující čtverce*/kuzely/passing/squares.html*ctverce-r.png*Trik pro čtyři žongléry a dvanáct kuželů. Všichni hází 4 count z pravé ruky.
+2011-08-08*Výhody pro registrované uživatele*/exkurze.html*exkurze-nahled-2010-2-28-19-49-47.jpg*Obrázky a popis výhod pro registrované uživatele žonglérova slabikáře.
+2011-08-15*Obrázky kuželů*/kuzely/druhy.html*kuzelka-albatros-s.jpg*Obrázky žonglérských kuželů.
+2011-08-22*What the (beepbeep) do we know?*/video/what-the-beepbeep-do-we-know.html*partnerpoi.jpg*Točení s poi ve více lidech.
+2011-08-29*Literatura*/literatura.html*encyclopaedia.jpg*Přehled nejlepších knížek o žonglování.
 2011-09-05*
 2011-09-12*
 2011-09-19*
