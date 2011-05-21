@@ -97,3 +97,17 @@ nastavování - podrobnější popis výsledku akce
 přidávání příspěvku do diskuse - zobrazovat pod formulářem poslední příspěvky
 přidávání příspěvku do diskuse - titulek, nadpis
 jsou popisky ve widgetu omezené na délku - ano
+
+.ssh/config
+===========
+Host cmelik.no-ip.org
+  Hostname=cmelik.no-ip.org
+	Port=2234
+	ForwardX11 no
+	Login root
+  IdentityFile=~/crypto/pekkey_id_rsa
+
+git
+===
+git push
+git pull --no-ff --rebase
