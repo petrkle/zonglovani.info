@@ -26,7 +26,6 @@ Kalendář
 Etc
 ===
 - udělat od jednotlivých obrázků žonglování odkazy na příslušné triky
-- asynchronní verze GA - http://code.google.com/intl/cs/apis/analytics/docs/tracking/asyncTracking.html
 - video - štítky, přidat pžm2 a sdílet na fb
 - seznam sitemap
 
@@ -97,6 +96,7 @@ nastavování - podrobnější popis výsledku akce
 přidávání příspěvku do diskuse - zobrazovat pod formulářem poslední příspěvky
 přidávání příspěvku do diskuse - titulek, nadpis
 jsou popisky ve widgetu omezené na délku - ano
+asynchronní verze GA
 
 .ssh/config
 ===========

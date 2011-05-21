@@ -66,12 +66,12 @@ Dnes je: {if $dnesek}{$aktDate}{else}<a href="{$smarty.const.CALENDAR_URL}" titl
 
 {if preg_match('/.*AppleWebKit.*Chrome.*/',$smarty.server.HTTP_USER_AGENT)}
 <div class="cleaner">&nbsp;</div>
-<p><a href="https://chrome.google.com/extensions/detail/dojgpamkkdlccihbhgnflimdjkigimad" onclick="pageTracker._trackPageview('/goto/chrome.google.com/extensions/detail/dojgpamkkdlccihbhgnflimdjkigimad');">{obrazek soubor="browser-chrome.png" popisek="Google Chrome"}</a>Používáš Google Chrome? Vyzkoušej <a href="https://chrome.google.com/extensions/detail/dojgpamkkdlccihbhgnflimdjkigimad" class="external" onclick="pageTracker._trackPageview('/goto/chrome.google.com/extensions/detail/dojgpamkkdlccihbhgnflimdjkigimad');">rozšíření pro kalendář</a> do prohlížeče.</p>
+<p><a href="https://chrome.google.com/extensions/detail/dojgpamkkdlccihbhgnflimdjkigimad" onclick="_gaq.push(['_trackPageview','/goto/chrome.google.com/extensions/detail/dojgpamkkdlccihbhgnflimdjkigimad']);">{obrazek soubor="browser-chrome.png" popisek="Google Chrome"}</a>Používáš Google Chrome? Vyzkoušej <a href="https://chrome.google.com/extensions/detail/dojgpamkkdlccihbhgnflimdjkigimad" class="external" onclick="_gaq.push(['_trackPageview','/goto/chrome.google.com/extensions/detail/dojgpamkkdlccihbhgnflimdjkigimad']);">rozšíření pro kalendář</a> do prohlížeče.</p>
 {/if}
 
 {if preg_match('/.*opera.*/i',$smarty.server.HTTP_USER_AGENT)}
 <div class="cleaner">&nbsp;</div>
-<p><a href="https://addons.opera.com/addons/extensions/details/zonglovani/?display=cs" onclick="pageTracker._trackPageview('/goto/addons.opera.com/addons/extensions/details/zonglovani');">{obrazek soubor="browser-opera.png" popisek="Opera"}</a>Používáš Operu? Vyzkoušej <a href="https://addons.opera.com/addons/extensions/details/zonglovani/?display=cs" class="external" onclick="pageTracker._trackPageview('/goto/addons.opera.com/addons/extensions/details/zonglovani');">rozšíření pro kalendář</a> do prohlížeče.</p>
+<p><a href="https://addons.opera.com/addons/extensions/details/zonglovani/?display=cs" onclick="_gaq.push(['_trackPageview','/goto/addons.opera.com/addons/extensions/details/zonglovani']);">{obrazek soubor="browser-opera.png" popisek="Opera"}</a>Používáš Operu? Vyzkoušej <a href="https://addons.opera.com/addons/extensions/details/zonglovani/?display=cs" class="external" onclick="_gaq.push(['_trackPageview','/goto/addons.opera.com/addons/extensions/details/zonglovani']);">rozšíření pro kalendář</a> do prohlížeče.</p>
 {/if}
 <p>
 <a href="widget.html" title="Widget na webové stránky">Výpis z kalendáře</a> na tvém webu.

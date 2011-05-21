@@ -6,7 +6,7 @@ O spolehlivost žonglérova slabikáře se starají testy napsané v <a href="/t
 {if $pm}
 <ul>
 {foreach from=$pm item=modul}
-<li><a href="http://search.cpan.org/perldoc?{$modul|escape}" title="Dokumentace k {$modul|escape}" class="external" onclick="pageTracker._trackPageview('/goto/search.cpan.org/perldoc?{$modul|escape}');">{$modul|escape}</a></li>
+<li><a href="http://search.cpan.org/perldoc?{$modul|escape}" title="Dokumentace k {$modul|escape}" class="external" onclick="_gaq.push(['_trackPageview','/goto/search.cpan.org/perldoc?{$modul|escape}']);">{$modul|escape}</a></li>
 {/foreach}
 </ul>
 {/if}

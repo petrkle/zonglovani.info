@@ -56,6 +56,6 @@ Na chůdách se chodí jako když šlapeš zelí. Stačí pořádně zvedat kole
 
 <h3>Chůdařský průkaz</h3>
 <ul>
-<li><a href="../chudarsky-prukaz.pdf" title="Portable Document Format" onclick="pageTracker._trackPageview('/chudarsky-prukaz.pdf');" class="pdf">Chůdařský průkaz - PDF</a> - 20kB</li>
-<li><a href="../chudarsky-prukaz.odt" title="Open Document Text" onclick="pageTracker._trackPageview('/chudarsky-prukaz.odt');">Chůdařský průkaz - ODT</a> - 10kB</li>
+<li><a href="../chudarsky-prukaz.pdf" title="Portable Document Format" onclick="_gaq.push(['_trackPageview','/chudarsky-prukaz.pdf']);" class="pdf">Chůdařský průkaz - PDF</a> - 20kB</li>
+<li><a href="../chudarsky-prukaz.odt" title="Open Document Text" onclick="_gaq.push(['_trackPageview','/chudarsky-prukaz.odt']);">Chůdařský průkaz - ODT</a> - 10kB</li>
 </ul>

@@ -10,7 +10,7 @@
 <h3>Nastavení RSS</h3>
 
 <p>
-O novinkách se dozvíš stejně, jako kdyby ti přišly e-mailem. Postup nastavení RSS v programu <a href="http://thunderbird.czilla.cz/" class="external" onclick="pageTracker._trackPageview('/goto/thunderbird.czilla.cz');">Mozilla Thunderbird</a>.
+O novinkách se dozvíš stejně, jako kdyby ti přišly e-mailem. Postup nastavení RSS v programu <a href="http://thunderbird.czilla.cz/" class="external" onclick="_gaq.push(['_trackPageview','/goto/thunderbird.czilla.cz']);">Mozilla Thunderbird</a>.
 </p>
 
 

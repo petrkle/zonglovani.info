@@ -172,7 +172,7 @@ $texty=array(
 'Žonglování navždy',
 'Žonglérský tip týdne');
 $stridacka=date('z',time()) % count($texty);
-	return '<a href="http://www.facebook.com/zongleruv.slabikar" class="external" title="Stránky žonglérova slabikáře na Facebooku." onclick="pageTracker._trackPageview(\'/goto/facebook.com/zongleruv.slabikar\');">'.$texty[$stridacka].'</a>';
+	return '<a href="http://www.facebook.com/zongleruv.slabikar" class="external" title="Stránky žonglérova slabikáře na Facebooku." onclick="_gaq.push([\'_trackPageview\',\'/goto/facebook.com/zongleruv.slabikar\']);">'.$texty[$stridacka].'</a>';
 }
 
 ?>

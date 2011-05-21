@@ -16,7 +16,7 @@ Autor fotografie:
  {$gal_info.mail|escape|mailobfuscate}
 {/if}
 {if $gal_info.url}
- <a href="{$gal_info.url|escape}" onclick="pageTracker._trackPageview('/goto/{$gal_info.url|replace:'http://':''|regex_replace:"/^www\./":""}');"{if preg_match('/^http:\/\//',$gal_info.url_hr)} class="external" rel="nofollow"{/if}>{$gal_info.url|replace:'http://':''|regex_replace:"/^www\./":""|regex_replace:"/\/$/":""|truncate:40:"...":false|escape}</a>
+ <a href="{$gal_info.url|escape}" onclick="_gaq.push(['_trackPageview','/goto/{$gal_info.url|replace:'http://':''|regex_replace:'/^www\./':''}']);"{if preg_match('/^http:\/\//',$gal_info.url_hr)} class="external" rel="nofollow"{/if}>{$gal_info.url|replace:'http://':''|regex_replace:"/^www\./":""|regex_replace:"/\/$/":""|truncate:40:"...":false|escape}</a>
 {/if}
 {/if}
 </p>

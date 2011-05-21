@@ -3,8 +3,8 @@
 Návody na žonglování ve formátu <strong>PDF</strong>. Vhodné pro tisk.
 </p>
 
-<h3><a href="download/vyroba-micku.pdf" title="Návod v pdf" class="pdf" onclick="pageTracker._trackPageview('/navody/vyroba-micku.pdf');">Výroba míčků na žonglování</a></h3>
-<p><a href="download/vyroba-micku.pdf" title="Návod v pdf" onclick="pageTracker._trackPageview('/navody/vyroba-micku.pdf');">{obrazek soubor="navodb.jpg" title="Výroba míčků"}</a>
+<h3><a href="download/vyroba-micku.pdf" title="Návod v pdf" class="pdf" onclick="_gaq.push(['_trackPageview','/navody/vyroba-micku.pdf']);">Výroba míčků na žonglování</a></h3>
+<p><a href="download/vyroba-micku.pdf" title="Návod v pdf" onclick="_gaq.push(['_trackPageview','/navody/vyroba-micku.pdf']);">{obrazek soubor="navodb.jpg" title="Výroba míčků"}</a>
 Podrobný návod na výrobu míčku z tenisáku, rýže a nafukovacích balónků.
 </p>
 <ul class="szn">
@@ -14,8 +14,8 @@ Podrobný návod na výrobu míčku z tenisáku, rýže a nafukovacích balónk�
 <li><a href="/micky/vyroba-tenisak.html" popisek="Náhled souboru">Náhled</a></li>
 </ul>
 
-<h3><a href="download/navod-na-zonglovani.pdf" title="Návod v pdf" class="pdf" onclick="pageTracker._trackPageview('/navody/navod-na-zonglovani.pdf');">Žonglování se třemi míčky</a></h3>
-<p><a href="download/navod-na-zonglovani.pdf" title="Návod v pdf" onclick="pageTracker._trackPageview('/navody/navod-na-zonglovani.pdf');">{obrazek soubor="navod3.jpg" title="Návod na žonglování"}</a>
+<h3><a href="download/navod-na-zonglovani.pdf" title="Návod v pdf" class="pdf" onclick="_gaq.push(['_trackPageview','/navody/navod-na-zonglovani.pdf']);">Žonglování se třemi míčky</a></h3>
+<p><a href="download/navod-na-zonglovani.pdf" title="Návod v pdf" onclick="_gaq.push(['_trackPageview','/navody/navod-na-zonglovani.pdf']);">{obrazek soubor="navod3.jpg" title="Návod na žonglování"}</a>
 Přehledně popsané základy žonglování se třemi míčky.
 </p>
 <ul class="szn">

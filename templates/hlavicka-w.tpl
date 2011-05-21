@@ -47,6 +47,9 @@
 	<link rel="help" href="/faq.html" />
 	<link rel="start" href="/" />
 	<link rel="search" href="/vyhledavani/" />
+
+{include file='pocitadlo.tpl'}
+
 </head>
 <body>
 

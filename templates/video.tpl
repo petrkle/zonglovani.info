@@ -11,14 +11,14 @@
 	<param name="allowscriptaccess" value="always" />
 	<param name="allowfullscreen" value="false" />
 	<param name="pluginspage" value="http://get.adobe.com/flashplayer/" />
-Pro přehrávání videa je potřeba <a href="http://get.adobe.com/flashplayer/" class="external" onclick="pageTracker._trackPageview('/goto/get.adobe.com/flashplayer');">Adobe Flash</a>
+Pro přehrávání videa je potřeba <a href="http://get.adobe.com/flashplayer/" class="external" onclick="_gaq.push(['_trackPageview','/goto/get.adobe.com/flashplayer']);">Adobe Flash</a>
 </object>
 </p>
 <p>
 {if $video.delka}Délka: {$video.delka|escape}{/if}{if $video.rozliseni} Rozlišení: {$video.rozliseni|escape}{/if}
 </p>
 <p>
-Adresa videa: <a href="http://youtube.com?v={$video.fid|escape}" class="external" onclick="pageTracker._trackPageview('/goto/youtube.com?v={$video.fid|escape}');">http://youtube.com?v={$video.fid|escape}</a>
+Adresa videa: <a href="http://youtube.com?v={$video.fid|escape}" class="external" onclick="_gaq.push(['_trackPageview','/goto/youtube.com?v={$video.fid|escape}']);">http://youtube.com?v={$video.fid|escape}</a>
 </p>
 {/if}
 
@@ -30,11 +30,11 @@ Adresa videa: <a href="http://youtube.com?v={$video.fid|escape}" class="external
 	<param name="allowscriptaccess" value="always" />
 	<param name="allowfullscreen" value="false" />
 	<param name="pluginspage" value="http://get.adobe.com/flashplayer/" />
-Pro přehrávání videa je potřeba <a href="http://get.adobe.com/flashplayer/" class="external" onclick="pageTracker._trackPageview('/goto/get.adobe.com/flashplayer');">Adobe Flash</a>
+Pro přehrávání videa je potřeba <a href="http://get.adobe.com/flashplayer/" class="external" onclick="_gaq.push(['_trackPageview','/goto/get.adobe.com/flashplayer']);">Adobe Flash</a>
 </object>
 </p>
 {if $video.download}
-<p><a href="{$video.download|escape}" class="external" onclick="pageTracker._trackPageview('/goto/{$video.download|replace:"http://":""|regex_replace:"/^www\./":""|escape}');">Stáhnout video</a> ze stránky <a href="{if $video.originalurl}{$video.originalurl|escape}{else}http://juggling.tv{/if}" class="external" onclick="pageTracker._trackPageview('/goto/{$video.originalurl|replace:"http://":""|regex_replace:"/^www\./":""|escape}');">juggling.tv</a></p>
+<p><a href="{$video.download|escape}" class="external" onclick="_gaq.push(['_trackPageview','/goto/{$video.download|replace:'http://':''|regex_replace:'/^www\./':''|escape}']);">Stáhnout video</a> ze stránky <a href="{if $video.originalurl}{$video.originalurl|escape}{else}http://juggling.tv{/if}" class="external" onclick="_gaq.push(['_trackPageview','/goto/{$video.originalurl|replace:'http://':''|regex_replace:'/^www\./':''|escape}']);">juggling.tv</a></p>
 <p>
 {if $video.delka}Délka: {$video.delka|escape}{/if}{if $video.velikost} Velikost: {$video.velikost|escape}{/if}{if $video.rozliseni} Rozlišení: {$video.rozliseni|escape}{/if}
 </p>

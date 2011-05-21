@@ -53,7 +53,7 @@ Hůlka která má na koncích třásně. Ve vzduchu jí držíš pomocí dvou da
 <h3>Jo-jo</h3>
 <p>
 {obrazek soubor="nacinii.png" popisek="Jo-jo"}
-Cívka uvázaná na provázku. Jestli tě zajímají další podrobnosti, podívej se na stránku <a href="http://yoyo.cz" title="Tady bydlí yo-yo." class="external" onclick="pageTracker._trackPageview('/goto/yoyo.cz');">yoyo.cz</a>.
+Cívka uvázaná na provázku. Jestli tě zajímají další podrobnosti, podívej se na stránku <a href="http://yoyo.cz" title="Tady bydlí yo-yo." class="external" onclick="_gaq.push(['_trackPageview','/goto/yoyo.cz']);">yoyo.cz</a>.
 </p>
 
 <a name="poi"></a><h3><a href="/literatura.html#poi" title="Knížka o točení s poi.">Poi-poi</a></h3>
