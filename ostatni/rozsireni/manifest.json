@@ -1,6 +1,6 @@
 {
 	"name": "Žonglování",
-	"version": "0.3",
+	"version": "0.4",
 	"description": "Kalendář žonglérských akcí.",
 	"icons": { "16": "micky16.png",
 						 "48": "micky48.png",

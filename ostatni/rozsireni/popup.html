@@ -29,7 +29,7 @@
 
           $('#zs-kalendar').html('<div class="zs-event-list"></div>');
 					$.each(data,function(id,akce){
-						var udalost='<div class="zs-event"><h5 class="zs-nadpis"><a href="'+akce[0].url+'" title="'+akce[0].desc+'" target="_top" class="zs-link">'+akce[0].title+'</a></h5>';
+						var udalost='<div class="zs-event"><h5 class="zs-nadpis"><a href="'+akce[0].url+'" title="'+akce[0].desc+'" target="_blank" class="zs-link">'+akce[0].title+'</a></h5>';
 						udalost=udalost+'<div class="zs-datum">'+akce[0].start+'</div>';
 						udalost=udalost+'<div class="zs-popis">'+akce[0].desc+'</div></div>';
 						$('.zs-event-list').append(udalost);
