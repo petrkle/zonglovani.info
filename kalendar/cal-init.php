@@ -187,14 +187,39 @@ function get_cal_data($rok,$mesic){
 	return $vypis;
 }
 
+function get_events_around($id){
+	$navrat=array();
+	$vypis=array();
+  if(is_dir(CALENDAR_DATA) and opendir(CALENDAR_DATA)){
+	$adr=opendir(CALENDAR_DATA);
+	while (false!==($file = readdir($adr))) {
+	  if (substr($file,-4) == '.cal')
+		{
+			array_push($vypis,$file);
+		};
+	};
+	closedir($adr); 
+  };
+
+	sort($vypis);
+	$aktualni_pozice=array_search($id.'.cal',$vypis);
+	if(isset($vypis[($aktualni_pozice-1)])){
+		$navrat['prev']=get_event_data($vypis[($aktualni_pozice-1)],CALENDAR_DATA,$charset='utf8');
+	}
+	if(isset($vypis[($aktualni_pozice+1)])){
+		$navrat['next']=get_event_data($vypis[($aktualni_pozice+1)],CALENDAR_DATA,$charset='utf8');
+	}
+	return $navrat;
+}
+
 function get_all_cal_data(){
 	$vypis=array();
   if(is_dir(CALENDAR_DATA) and opendir(CALENDAR_DATA)){
 	$adr=opendir(CALENDAR_DATA);
 	while (false!==($file = readdir($adr))) {
-	  if (substr($file,-4) == ".cal")
+	  if (substr($file,-4) == '.cal')
 		{
-			array_push($vypis,get_event_data($file,CALENDAR_DATA,$charset="utf8"));
+			array_push($vypis,get_event_data($file,CALENDAR_DATA,$charset='utf8'));
 		};
 	};
 	closedir($adr); 

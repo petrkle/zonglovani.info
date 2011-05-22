@@ -11,6 +11,7 @@ if(isset($_GET['id'])){
 	$id=false;
 }
 
+
 $trail = new Trail();
 $trail->addStep('Kalendář',CALENDAR_URL);
 
@@ -136,7 +137,29 @@ if($udalost){
 		exit();
 	}else{
 		# zobrazit
-		$smarty->assign('feedback',true);
+		$events_around=get_events_around($id);
+		$smarty->assign('styly',array('/a.css'));
+		$navigace=array();
+		$hlavicky=array();
+
+		$navigace['mesic']=$udalost['month_url'];
+		if(isset($events_around['prev'])){
+			$navigace['predchozi']=array('url'=>'udalost-'.$events_around['prev']['id'].'.html','text'=>$events_around['prev']['title'],'title'=>$events_around['prev']['desc']);
+			$hlavicky['predchozi']='<link rel="previous" href="udalost-'.$events_around['prev']['id'].'.html" />';
+		}
+		if(isset($events_around['next'])){
+			$navigace['dalsi']=array('url'=>'udalost-'.$events_around['next']['id'].'.html','text'=>$events_around['next']['title'],'title'=>$events_around['next']['desc']);
+			$hlavicky['dalsi']='<link rel="next" href="udalost-'.$events_around['next']['id'].'.html" />';
+		}
+
+		$smarty->assign_by_ref('navigace',$navigace);
+
+	$hlavicky['nahoru']='<link rel="up" href="'.$udalost['month_url'].'" />';
+
+	if(count($hlavicky)>0){
+		$smarty->assign_by_ref('custom_headers',$hlavicky);
+	}
+
 		$smarty->assign('hcalendar',true);
 		$trail->addStep($udalost['month_name'],$udalost['month_url']);
 		$trail->addStep($udalost['title']);

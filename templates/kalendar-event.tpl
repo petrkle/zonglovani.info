@@ -42,7 +42,4 @@
 {/if}
 </div>
 {/if}
-
-<p>
-<a href="{$udalost.month_url}" title="Návrat do kalendáře.">&laquo; Zpět do kalendáře</a>
-</p>
+{include file='kalendar-kamdal.tpl'}

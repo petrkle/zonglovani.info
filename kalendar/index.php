@@ -46,16 +46,19 @@ $daysInMonth =& $monthDecorator->fetchAll();
 $weeksInMonth = array_chunk($daysInMonth, 7);
 
 // Create links
+$hlavicky=array();
 $prevStamp = $month->prevMonth(true);
 if((time()-$prevStamp)<3600*24*365*5){
 	$prev = date('Y',$prevStamp).'-'.date('m',$prevStamp).'.html';
 	$smarty->assign('prevMonth', $prev);
+	$hlavicky['predchozi']='<link rel="previous" href="'.$prev.'" />';
 }
 
 $nextStamp = $month->nextMonth(true);
 if(($nextStamp-time())<3600*24*365*5){
 	$next = date('Y',$nextStamp).'-'.date('m',$nextStamp).'.html';
 	$smarty->assign('nextMonth', $next);
+	$hlavicky['dalsi']='<link rel="next" href="'.$next.'" />';
 }
 
 $aktualni = date('Y',$now).'-'.date('m',$now).'.html';
@@ -98,6 +101,10 @@ $smazane=get_deleted_events();
 if(count($smazane)>0){
 	$smarty->assign('smazane',$smazane);
 }
+}
+
+if(count($hlavicky)>0){
+	$smarty->assign_by_ref('custom_headers',$hlavicky);
 }
 
 $smarty->assign_by_ref('trail', $trail->path);
