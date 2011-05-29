@@ -26,7 +26,6 @@ Kalendář
 Etc
 ===
 - udělat od jednotlivých obrázků žonglování odkazy na příslušné triky
-- video - štítky, přidat pžm2 a sdílet na fb
 - seznam sitemap
 
 Automatizace
@@ -98,6 +97,7 @@ přidávání příspěvku do diskuse - titulek, nadpis
 jsou popisky ve widgetu omezené na délku - ano
 asynchronní verze GA
 rozšíření pro chrome target _blank místo _top, aby fungovaly odkazy
+video - štítky, přidat pžm2 a sdílet na fb
 
 .ssh/config
 ===========
