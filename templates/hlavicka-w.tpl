@@ -9,11 +9,20 @@
 {if isset($icbm)}
 	<meta name="ICBM" content="{$icbm|escape}" />
 {/if}
-	<link rel="stylesheet" media="screen,projection" type="text/css" href="/zw.css" />
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" media="screen" type="text/css" href="/plain.css" />
+	<link rel="stylesheet" media="screen and (min-width: 500px)" type="text/css" href="/zw.css" />
+	<link rel="stylesheet" media="only screen and (-webkit-min-device-pixel-ratio: 2)" href="/zw.css" />
 	<link rel="stylesheet" media="print" type="text/css" href="/zt.css" />
+<!--[if lt IE 9]>
+	<link rel="stylesheet" type="text/css" href="/zw.css">
+<![endif]-->
 {if $styly}
 {foreach from=$styly item=styl}
-	<link rel="stylesheet" media="screen,projection" type="text/css" href="{$styl}" />
+	<link rel="stylesheet" media="screen and (min-width: 500px)" type="text/css" href="{$styl}" />
+<!--[if lt IE 9]>
+	<link rel="stylesheet" type="text/css" href="{$styl}">
+<![endif]-->
 {/foreach}
 {/if}
 {if $custom_headers}
@@ -55,7 +64,7 @@
 
 <div id="hlavicka">
 <div id="hlavickabg">
-<a href="/" title="Žonglérův slabikář - úvodní stránka."><img src="/img/l/logo.gif" width="442" height="71" title="Žonglérův slabikář - úvodní stránka." alt="Žonglérův slabikář - úvodní stránka." />
+<a href="/" title="Žonglérův slabikář - úvodní stránka." accesskey="2" id="zslogo"><h2>Žonglérův slabikář</h2></a>
 </a>
 </div>
 </div>

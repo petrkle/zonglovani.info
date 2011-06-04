@@ -12,7 +12,7 @@ Poskládej na sebe 25 novinových dvojstran. Pravou polovinu stránky přehni v 
 
 <p>
 {obrazek soubor="kuzely-vyrobab.png" popisek=""}
-Pruhy novin které ti zbyly z předchozího kroku omotej kolem držadla. Asi 4-5 cm od konce. Vše opět zajisti lepicí páskou.
+Pruhy novin, které ti zbyly z předchozího kroku, omotej kolem držadla. Asi 4-5 cm od konce. Vše opět zajisti lepicí páskou.
 </p>
 
 

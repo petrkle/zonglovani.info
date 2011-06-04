@@ -1,19 +1,19 @@
 <p>
 {obrazek soubor="slovnik.jpg" popisek="Slovník"}
-Několik slovíček které se často vyskytují v anglicky psaných textech o žonglování.
+Několik slovíček, které se často vyskytují v anglicky psaných textech o žonglování.
 </p>
 <br class="spacer"/>
 <dl>
 <dt>accurate</dt><dd>přesný</dd>
 <dt>ball</dt><dd><a href="/micky/druhy.html" title="Popis různých druhů míčků.">míček</a></dd>
-<dt><a href="/micky/druhy.html#beanbag" title="Šitý míček.">beanbag</a></dt><dd>fazolové pytlíky, míčky naplněné zrnky(rýže, fazole, proso, ...), neskákavé, obvykle sešité z několika částí</dd>
+<dt><a href="/micky/druhy.html#beanbag" title="Šitý míček.">beanbag</a></dt><dd>fazolové pytlíky, míčky naplněné zrnky (rýže, fazole, proso, ...), neskákavé, obvykle sešité z několika částí</dd>
 <dt>catch</dt><dd>chytit</dd>
 <dt>club</dt><dd>kužel</dd>
 <dt>columns</dt><dd>sloupy</dd>
 <dt>drop</dt><dd>upustit</dd>
 <dt>dead drop</dt><dd>Označení vlastnosti míčku. Po dopadu se neodráží.</dd>
 <dt>even</dt><dd>sudý</dd>
-<dt><a href="/micky/3/blesk.html" title="Blesk.">flash</a></dt><dd>blesk, označuje rychlé vyhození míčků kdy ruce zůstanou na okamžik prázdné, nebo N vyhození a N zachycení N objektů.</dd>
+<dt><a href="/micky/3/blesk.html" title="Blesk">flash</a></dt><dd>Blesk, označuje rychlé vyhození míčků, kdy ruce zůstanou na okamžik prázdné, nebo N vyhození a N zachycení N objektů.</dd>
 <dt>headroll</dt><dd><a href="/kuzely/headroll.html" title="Trik s kuželkou.">Překulení kuželky</a> nebo míčku z jednoho spánku na druhý.</dd>
 <dt>juggler</dt><dd>žonglér</dd>
 <dt>juggling</dt><dd>žonglování</dd>
@@ -32,7 +32,7 @@ Několik slovíček které se často vyskytují v anglicky psaných textech o ž
 <dt>throw</dt><dd>hodit</dd>
 <dt>torch</dt><dd>pochodeň</dd>
 <dt>toss</dt><dd>hodit</dd>
-<dt>workshop</dt><dd>setkání při němž účastinící získávají potřebné znalosti na základě diskusí a praktických ukázek</dd>
+<dt>workshop</dt><dd>Setkání, při němž účastníci získávají potřebné znalosti na základě diskusí a praktických ukázek.</dd>
 <dt>wrist</dt><dd>zápěstí</dd>
 </dl>
 

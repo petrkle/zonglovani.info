@@ -5,7 +5,7 @@ Základní způsoby házení kuželu.
 <a name="single"></a><h3>Jedna otočka</h3>
 <p>
 {obrazek soubor="kuzely-rotacea.png" popisek="1 otočka"}
-Kužel se za letu jednou otočí. Základní a nejjednoduší hod.
+Kužel se za letu jednou otočí. Základní a nejjednodušší hod.
 </p>
 
 

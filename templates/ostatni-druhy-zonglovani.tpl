@@ -1,5 +1,5 @@
 <p>
-Základní přehled způsobů žonglování. Nejedná se o úplný nebo přesný seznam. Jde jen o naznačení jak můžeš žonglovat. S čím vším můžeš žonglovat se dozvíš v <a href="/nacini.html" title="Žognlérské náčiní.">přehledu žonglérských pomůcek</a>.
+Základní přehled způsobů žonglování. Nejedná se o úplný nebo přesný seznam. Jde jen o naznačení, jak můžeš žonglovat. S čím vším můžeš žonglovat se dozvíš v <a href="/nacini.html" title="Žognlérské náčiní.">přehledu žonglérských pomůcek</a>.
 </p>
 
 

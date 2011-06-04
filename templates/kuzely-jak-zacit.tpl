@@ -9,7 +9,7 @@ Začni s jedním kuželem v pravé ruce.
 
 <p>
 {obrazek soubor="kuzely-zacateka.png" popisek=""}
-Kužel uchop v horní polovině držadla. Hoď ho rovně nahoru a sleduj co se stane.
+Kužel uchop v horní polovině držadla. Hoď ho rovně nahoru a sleduj, co se stane.
 </p>
 
 <p>
@@ -28,7 +28,7 @@ Házej s kuželem v pravé i levé ruce. Pak zkus kužel vyhodit pravou a chytit
 
 <h2>Dva kužely</h2> 
 <p>
-Postup je podobný začátkům s <a href="/micky/jak-zacit.html#dva" title="Postup se dvěma míčky.">míčky</a> a <a href="/kruhy/jak-zacit.html#dva" title="Postup se dvěma kruhy.">kruhy</a>. Vyhodíš kužel z jedné ruky a když je nejvýš prohodíš pod ním druhý kužel. Trénuj žonglování se dvěma kužely a jedním míčkem. Nebo s kuželem, míčkem a kruhem. Nauč se také <a href="/kuzely/grip.html" title="Jak držet v jedné ruce dva kužely.">držet dva kužely v jedné ruce</a>, vyhazovat je a chytat.
+Postup je podobný začátkům s <a href="/micky/jak-zacit.html#dva" title="Postup se dvěma míčky.">míčky</a> a <a href="/kruhy/jak-zacit.html#dva" title="Postup se dvěma kruhy.">kruhy</a>. Vyhodíš kužel z jedné ruky a když je nejvýš, prohodíš pod ním druhý kužel. Trénuj žonglování se dvěma kužely a jedním míčkem. Nebo s kuželem, míčkem a kruhem. Nauč se také <a href="/kuzely/grip.html" title="Jak držet v jedné ruce dva kužely.">držet dva kužely v jedné ruce</a>, vyhazovat je a chytat.
 </p>
 
 <h2>Tři kužely</h2>

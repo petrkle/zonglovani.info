@@ -1,5 +1,5 @@
 <p>
-Otázky na které se lidé často ptají v souvislosti s žonglováním.
+Otázky, na které se lidé často ptají v souvislosti s žonglováním.
 </p>
 
 <h3>Paráda! Jak ses to naučil?</h3>
@@ -11,7 +11,7 @@ Stejně jako jsem se naučil jezdit na kole. Zkoušel jsem to tak dlouho až se 
 <h3>Za jak dlouho se naučím žonglovat?</h3>
 <p>
 {obrazek soubor="trenink-navodd.png" popisek="Hodiny tréninku"}
-Je to velmi individuální. Obvykle tři míčky zaberou jedno odpoledne, pět míčků měsíce a sedm míčků roky. Trik který se naučíš za hodinu může někomu jinému trvat 14 dní a naopak.
+Je to velmi individuální. Obvykle tři míčky zaberou jedno odpoledne, pět míčků měsíce a sedm míčků roky. Trik, který se naučíš za hodinu může někomu jinému trvat 14 dní a naopak.
 </p>
 
 <h3>Čím mám začít?</h3>
@@ -24,7 +24,7 @@ Nejlehčí je začít <a href="/micky/jak-zacit.html" title="Základní návod."
 <h3>Kde najdu další žongléry?</h3>
 <p>
 <a href="{$smarty.const.CALENDAR_URL}" title="Kalendář žonglérských akcí">{obrazek soubor="kalendar-nahled.png" popisek="Kalendář"}</a>
-Pravidelně se konají žonglérské srazy. To jsou nejlepší místa kde se naučit nové triky. Informace o místech a časech konání najdeš v <a href="{$smarty.const.CALENDAR_URL}" title="Kalendář žonglérských akcí.">kalendáři</a>. Součástí žonglérova slabikáře je také <a href="{$smarty.const.LIDE_URL}" title="Seznam žonglérů.">seznam žonglérů</a>.
+Pravidelně se konají žonglérské srazy. To jsou nejlepší místa, kde se naučit nové triky. Informace o místech a časech konání najdeš v <a href="{$smarty.const.CALENDAR_URL}" title="Kalendář žonglérských akcí.">kalendáři</a>. Součástí žonglérova slabikáře je také <a href="{$smarty.const.LIDE_URL}" title="Seznam žonglérů.">seznam žonglérů</a>.
 </p>
 
 <h3>Je o žonglování nějaká knížka?</h3>

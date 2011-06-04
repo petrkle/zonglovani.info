@@ -1,5 +1,5 @@
 <p>
-Trik který můžeš trénovat i v místnostech s nízkým stropem.
+Trik, který můžeš trénovat i v místnostech s nízkým stropem.
 </p>
 
 <p>

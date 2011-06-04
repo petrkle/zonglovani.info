@@ -1,5 +1,5 @@
 <p>
-Dovednosti které nemají s žonglováním mnoho společného. Ale z nějakého důvodu je provozuje podobný druh lidí jako žonglování.
+Dovednosti, které nemají s žonglováním mnoho společného. Ale z nějakého důvodu je provozuje podobný druh lidí jako žonglování.
 </p>
 
 <h3>Chůze po laně</h3>
@@ -12,7 +12,7 @@ Chodit se dá nejen po pevně napjatém laně, ale i po laně volně prověšen�
 <h3>Jednokolka</h3>
 <p>
 {obrazek soubor="cirkusb.png" popisek="Jednokolka"}
-Je minimálně o polovinu skladnější než obyčejné jízdní kolo. Existují i terénní verze pro ježdění v přírodě. Vysoké jednokolce na které jezdí např. televizní večerníček se říká žirafa. Další zajímavosti o jednokolkách najdeš na <a href="http://www.apo-vystoupeni.cz/jednokolky.php" title="Podrobnosti o jednokolkách." class="external" onclick="_gaq.push(['_trackPageview','/goto/apo-vystoupeni.cz/jednokolky.php']);">danově stránce</a>.
+Je minimálně o polovinu skladnější než obyčejné jízdní kolo. Existují i terénní verze pro ježdění v přírodě. Vysoké jednokolce se říká žirafa. Jezdí na ní např. televizní Večerníček. Další zajímavosti o jednokolkách najdeš na <a href="http://www.apo-vystoupeni.cz/jednokolky.php" title="Podrobnosti o jednokolkách." class="external" onclick="_gaq.push(['_trackPageview','/goto/apo-vystoupeni.cz/jednokolky.php']);">Danově stránce</a>.
 </p>
 
 <h3><a href="/chudy/" title="Žonglování na chůdách">Chůdy</a></h3>
@@ -24,7 +24,7 @@ Diváci milují chůdy. Hlavně proto, že jsou všichni zvědaví, kdy chůdař
 <h3><a href="http://www.apo-vystoupeni.cz/skakaci-boty.php" title="Podrobnosti o skákacích botách." class="external" onclick="_gaq.push(['_trackPageview','/goto/apo-vystoupeni.cz/skakaci-boty.php']);">Skákací boty</a></h3>
 <p>
 {obrazek soubor="cirkusd.png" popisek="Skákací boty"}
-Moderní materiály umožnily vznik sedmimílových bot. Skoč na <a href="http://www.apo-vystoupeni.cz/skakaci-boty.php" title="Podrobnosti o skákacích botách." class="external" onclick="_gaq.push(['_trackPageview','/goto/apo-vystoupeni.cz/skakaci-boty.php']);">danovu stránku</a> pro podrobnější popis.
+Moderní materiály umožnily vznik sedmimílových bot. Skoč na <a href="http://www.apo-vystoupeni.cz/skakaci-boty.php" title="Podrobnosti o skákacích botách." class="external" onclick="_gaq.push(['_trackPageview','/goto/apo-vystoupeni.cz/skakaci-boty.php']);">Danovu stránku</a> pro podrobnější popis.
 </p>
 
 <h3>Visutá hrazda</h3>
@@ -37,7 +37,7 @@ Klasické cirkusové číslo. Vyžaduje pevné svaly i nervy.
 <h3>Hula-hop kruh</h3>
 <p>
 {obrazek soubor="cirkusf.png" popisek="Hula-hop kruh"}
-Plastová obruč kterou udržuješ v pohybu. Roztáčet můžeš i několik obručí najednou.
+Plastová obruč, kterou udržuješ v pohybu. Roztáčet můžeš i několik obručí najednou.
 </p>
 
 <h3>Rola-bola</h3>

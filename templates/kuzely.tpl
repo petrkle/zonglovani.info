@@ -5,7 +5,7 @@ Míčky a kruhy už jsou ti málo? Pak je čas na -- kužely.
 <h3><a href="/kuzely/jak-zacit.html" title="Jak začít žonglovat s kužely.">Jak začít žonglovat s kužely</a></h3>
 <p>
 <a href="/kuzely/jak-zacit.html" title="Jak začít žonglovat s kužely.">{obrazek soubor="nacinid.png" popisek="Základy žonglování s kužely"}</a>
-Jak začít žonglovat s kužely. Rychlý návod pro žongléry a žonglérky kteří už zvládli míčky a kruhy.
+Jak začít žonglovat s kužely. Rychlý návod pro žongléry a žonglérky, kteří už zvládli míčky a kruhy.
 </p>
 
 <h3><a href="/kuzely/ohen.html" title="Žonglování s ohněm.">Ohnivé kužely</a></h3>
@@ -23,7 +23,7 @@ Známé též pod anglickým názvem headroll.
 <h3><a href="/kuzely/toceni-okolo-palce.html" title="Kolem dokola.">Otáčení kuželky okolo palce</a></h3>
 <p>
 <a href="/kuzely/toceni-okolo-palce.html" title="Kolem dokola.">{obrazek soubor="tocenib.png" popisek="Točení s kuželkou okolo palce"}</a>
-Trik který můžeš cvičit i v místnostech s nízkým stropem.
+Trik, který můžeš cvičit i v místnostech s nízkým stropem.
 </p>
 
 <h3><a href="/kuzely/balanc.html" title="Balancování kuželu.">Balancování kuželu</a></h3>

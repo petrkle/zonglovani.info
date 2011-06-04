@@ -1,11 +1,11 @@
 <?php
 require('../init.php');
 require('../func.php');
-$titulek='Veselé vánoce';
+$titulek='Veselé Vánoce';
 $smarty->assign('titulek',$titulek.' 2009');
 $smarty->assign('nadpis',$titulek);
 $smarty->assign('keywords',make_keywords($titulek).', žonglování');
-$smarty->assign('description','Veselé vánoce 2009 všem žonglérkám a žonglérům.');
+$smarty->assign('description','Veselé Vánoce 2009 všem žonglérkám a žonglérům.');
 $trail = new Trail();
 $trail->addStep('Tip týdne','/tip');
 $trail->addStep($titulek);

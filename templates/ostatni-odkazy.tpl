@@ -25,7 +25,7 @@ Profesionální fireshow skupina.
 <a name="firelovers"></a><h5><a href="http://firelovers.cz/" title="Fireshow firelovers" class="external" onclick="_gaq.push(['_trackPageview','/goto/firelovers.cz']);">firelovers.cz</a></h5>
 <p>
 <a href="http://firelovers.cz/" title="Fireshow firelovers" class="external" onclick="_gaq.push(['_trackPageview','/goto/firelovers.cz']);">{obrazek soubor="odkazy-firelovers.jpg" popisek="firelovers.cz"}</a>
-Skupina žonglérů kteří milují oheň.
+Skupina žonglérů, kteří milují oheň.
 </p>
 
 <a name="zonglovanie"></a><h5><a href="http://www.zonglovanie.ariesa.sk" title="Slovenský server." class="external" onclick="_gaq.push(['_trackPageview','/goto/zonglovanie.ariesa.sk']);">zonglovanie.ariesa.sk</a></h5>
@@ -55,13 +55,13 @@ Asociace pro současný cirkus.
 <a name="improvizovanycirkus"></a><h5><a href="http://improvizovanycirkus.cz/" title="Improvizovaný cirkus" class="external" onclick="_gaq.push(['_trackPageview','/goto/improvizovanycirkus.cz']);">improvizovanycirkus.cz</a></h5>
 <p>
 <a href="http://improvizovanycirkus.cz/" title="Improvizovaný cirkus" onclick="_gaq.push(['_trackPageview','/goto/improvizovanycirkus.cz']);">{obrazek soubor="odkazy-improvizovanycirkus.cz.png" popisek="improvizovanycirkus.cz"}</a>
-Skupina která se věnuje převážně divadlu, ale dělají i nějaké to žonglování.
+Skupina, která se věnuje převážně divadlu, ale dělají i nějaké to žonglování.
 </p>
 
 <a name="didier"></a><h5><a href="http://didier.arlabosse.free.fr/balles/english/" title="Anglické stránky o žonglování." class="external" onclick="_gaq.push(['_trackPageview','/goto/didier.arlabosse.free.fr']);">didier.arlabosse.free.fr/balles/english</a></h5>
 <p>
 <a href="http://didier.arlabosse.free.fr/balles/english/" title="Anglické stránky o žonglování." onclick="_gaq.push(['_trackPageview','/goto/didier.arlabosse.free.fr']);">{obrazek soubor="odkazy-didier.png" popisek="didier.arlabosse.free.fr/balles/english"}</a>
-Didierovi stránky o žonglování - anglicky a francouzsky.
+Didierovy stránky o žonglování - anglicky a francouzsky.
 </p>
 
 <a name="jugglingdb"></a><h5><a href="http://www.jugglingdb.com" title="Anglické stránky o žonglování." class="external" onclick="_gaq.push(['_trackPageview','/goto/jugglingdb.com']);">Internet Juggling Database</a></h5>

@@ -1,17 +1,17 @@
 <p>
-Počítačové programy které po zadání triku v <a href="/siteswap.html" title="Zápis žonglování pomocí čísel.">siteswap</a> zobrazí animaci žonglování.
+Počítačové programy, které po zadání triku v <a href="/siteswap.html" title="Zápis žonglování pomocí čísel.">siteswap</a> zobrazí animaci žonglování.
 </p>
 
 <a name="jongl"></a><h3><a href="http://www.jongl.de" title="Simulátor žonglování." class="external" onclick="_gaq.push(['_trackPageview','/goto/jongl.de']);">Jongl</a></h3>
 <p>
 <a href="http://www.jongl.de" title="Jongl" onclick="_gaq.push(['_trackPageview','/goto/jongl.de']);">{obrazek soubor="jongl.jpg" popisek="Jongl"}</a>
-Simulátor žonglování který zvládá i <a href="/kuzely/passing/" title="žonglování ve více lidech.">passing</a>.
+Simulátor žonglování, který zvládá i <a href="/kuzely/passing/" title="žonglování ve více lidech.">passing</a>.
 </p>
 
 <a name="joepass"></a><h3><a href="http://www.koelnvention.de/software/index.html" title="JoePass" class="external" onclick="_gaq.push(['_trackPageview','/goto/koelnvention.de']);">JoePass</a></h3>
 <p>
 <a href="http://www.koelnvention.de/software/index.html" title="JoePass" onclick="_gaq.push(['_trackPageview','/goto/koelnvention.de']);">{obrazek soubor="joepass.png" popisek="joepass"}</a>
-Simulátor žonglování z německa.
+Simulátor žonglování z Německa.
 </p>
 
 <a name="juggleanim"></a><h3><a href="http://juggleanim.sourceforge.net" title="Simulátor napsaný v javě." class="external" onclick="_gaq.push(['_trackPageview','/goto/juggleanim.sourceforge.net']);">JuggleAnim</a></h3>

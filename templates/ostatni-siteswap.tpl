@@ -7,7 +7,7 @@ Zápis žonglování pomocí čísel. Jsou to vlastně takové noty pro žonglov
 <li>Snadné a přesné pojmenování triku.</li>
 <li>Usnadnění komunikace mezi žongléry.</li>
 <li>Platí pro míčky, kruhy i kužely.</li>
-<li>Existují <a href="/software.html" title="Simulátory žonglování">počítačové programy</a> do kterých napíšeš číslo a hned uvidíš jak trik vypadá.</li>
+<li>Existují <a href="/software.html" title="Simulátory žonglování">počítačové programy</a>, do kterých napíšeš číslo a hned uvidíš, jak trik vypadá.</li>
 </ul>
 
 <h3>Základní pravidla</h3>
@@ -36,10 +36,10 @@ P = pravá ruka  L = levá ruka
 </pre>
 <p>
 <a href="/micky/3/kaskada.html" title="Základní trik se třemi míčky.">{obrazek soubor="kaskadaa.png" popisek=""}</a>
-Pravá ruka hází míček tak jako když žongluješ se třemi míčky (docela nízko, z jedné ruky do druhé). Levou rukou hodíš stejný hod. Potom pravá, pak levá...</p>
+Pravá ruka hází míček stejně jako když žongluješ se třemi míčky (docela nízko, z jedné ruky do druhé). Levou rukou hodíš stejný hod. Potom pravá, pak levá...</p>
 
 <p>
-Trojka znamená, <a href="/micky/3/kaskada.html" title="Základní trik se třemi míčky.">kaskádu se 3 míčky</a>.
+Trojka znamená <a href="/micky/3/kaskada.html" title="Základní trik se třemi míčky.">kaskádu se 3 míčky</a>.
 </p>
 
 <!-- start -->
@@ -59,7 +59,7 @@ Další jednoduchý příklad: <a href="/micky/4/fontana.html" title="Základní
 
 <p>
 <a href="/micky/4/fontana.html" title="Základní trik se čtyřmi míčky.">{obrazek soubor="fontanaa.png" popisek=""}</a>
-Čtyři míčky musíš háze jako asynchronní fontánu. V siteswap všechny sudá čísla zůstávají ve stejné ruce, lichá značí hody do druhé ruky.
+Čtyři míčky musíš háze jako asynchronní fontánu. V siteswap všechna sudá čísla zůstávají ve stejné ruce, lichá značí hody do druhé ruky.
 </p>
 
 <!-- start -->
@@ -119,7 +119,7 @@ Trik se jmenuje <a href="/micky/4/sprcha-polovicni.html" title="Trik se čtyřmi
 <h3>Jak poznám s kolika míčky se žongluje&nbsp;53?</h3>
 
 <p>
-Sečteš všechny čísla v posloupnosti a vydělíš je délkou posloupnosti. 5+3=8 8/2=4 a tak jde o trik se čtyřmi míčky. Jestliže nevyjde celé číslo pak je siteswap špatný.
+Sečteš všechna čísla v posloupnosti a vydělíš je délkou posloupnosti. 5+3=8 8/2=4 a tak jde o trik se čtyřmi míčky. Jestliže nevyjde celé číslo pak je siteswap špatný.
 </p>
 
 <h3>Zápis složitějších triků</h3>

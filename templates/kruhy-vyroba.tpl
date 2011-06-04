@@ -12,6 +12,6 @@ Krabici rozlož a předkresli si obrys kruhu. Vnější průměr je 30 cm, vnit�
 
 <p>
 {obrazek soubor="kruhy-vyrobab.png" popisek=""}
-Dva vystřižené kruhy přilož k sobě a otoč je o 90°. Tak aby, drážky v kartonu byly kolmo na sebe. Teď už stačí jen celý kruh omotat lepící páskou.
+Dva vystřižené kruhy přilož k sobě a otoč je o 90°. Tak, aby drážky v kartonu byly kolmo na sebe. Teď už stačí jen celý kruh omotat lepící páskou.
 </p>
 

@@ -1,5 +1,5 @@
 <p>
-Kruh je třeba při vyhození roztočit aby letěl rovně.
+Kruh je třeba při vyhození roztočit, aby letěl rovně.
 </p>
 
 <a name="jeden" id="jeden"></a>
@@ -31,7 +31,7 @@ Z pravé ruky vyhoď první kruh.
 
 <p>
 {obrazek soubor="kruhy-zacatekd.png" popisek="Hození druhého kruhu z levé ruky do pravé."}
-Když je první na vrcholu své dráhy vyhoď druhý kruh. Pak zachytíš první kruh do levé ruky. Druhý kruh chytíš do pravé ruky.
+Když je první na vrcholu své dráhy, vyhoď druhý kruh. Pak zachytíš první kruh do levé ruky. Druhý kruh chytíš do pravé ruky.
 </p>
 
 <p>
