@@ -19,26 +19,26 @@ Knížka o točení s poi od Richeeho.
 <h3><a href="http://www.butterfingers.co.uk" title="Stránky vydavatele." class="external" onclick="_gaq.push(['_trackPageview','/goto/butterfingers.co.uk']);">The Encyclopaedia of Ball Juggling</a></h3>
 <p>
 <a href="http://www.butterfingers.co.uk" title="Stránky vydavatele." onclick="_gaq.push(['_trackPageview','/goto/butterfingers.co.uk']);">{obrazek soubor="encyclopaedia.jpg" popisek="The Encyclopaedia of Ball Juggling - obálka"}</a>
-Výborná knížka o žonglování s míčky od Carlieho Dancey. Obsahuje spoustou pěkných obrázků, díky tomu nemusíš ani umět anglicky a přesto téměř vše pochopíš. Je vhodná pro začátečníky i pokročilé.
+Výborná knížka o žonglování s míčky od Carlieho Dancey. Obsahuje spoustu pěkných obrázků, díky tomu nemusíš ani umět anglicky, a přesto téměř vše pochopíš. Je vhodná pro začátečníky i pokročilé.
 </p>
 	
 
 <h3><a href="http://www.butterfingers.co.uk" title="Stránky vydavatele." class="external" onclick="_gaq.push(['_trackPageview','/goto/butterfingers.co.uk']);">Compendium of Club Juggling</a></h3>
 <p>
 <a href="http://www.butterfingers.co.uk" title="Stránky vydavatele." onclick="_gaq.push(['_trackPageview','/goto/butterfingers.co.uk']);">{obrazek soubor="compendium.jpg" popisek="Compendium of Club Juggling - obálka"}</a>
-Napsal Charlie Dancey. V této knížce je vše o žonglování s kužely. Obsahuje spoustou pěkných obrázků, díky tomu nemusíš ani umět anglicky a přesto téměř vše pochopíš. Vhodné pro začátečníky i pokročilé.
+Napsal Charlie Dancey. V této knížce je vše o žonglování s kužely. Obsahuje spoustu pěkných obrázků, díky tomu nemusíš ani umět anglicky, a přesto téměř vše pochopíš. Vhodné pro začátečníky i pokročilé.
 </p>
 	
 <h3><a href="/addicted-hans-vanwynsberghe.pdf" title="Žonglování s míčky a kužely." onclick="_gaq.push(['_trackPageview','/addicted-hans-vanwynsberghe.pdf']);" class="pdf">Addicted to ball and club juggling</a></h3>
 <p>
 <a href="/addicted-hans-vanwynsberghe.pdf" title="Addicted to ball and club juggling" onclick="_gaq.push(['_trackPageview','/addicted-hans-vanwynsberghe.pdf']);">{obrazek soubor="addicted.gif" popisek="Addicted to ball and club juggling - obálka"}</a>
-Anglická knížka kterou sepsal Hans Vanwynsberghe. Nedokončená, ale i přesto výborná.
+Anglická knížka, kterou sepsal Hans Vanwynsberghe. Nedokončená, ale i přesto výborná.
 </p>
 
 <a name="pp"></a><h3><a href="/passing-patterns.pdf" title="Juggling in your Right Mind" onclick="_gaq.push(['_trackPageview','/passing-patterns.pdf']);" class="pdf">Juggling in your Right Mind</a></h3>
 <p>
 <a href="/passing-patterns.pdf" title="Juggling in your Right Mind" onclick="_gaq.push(['_trackPageview','/passing-patterns.pdf']);">{obrazek soubor="passing-patterns.jpg" popisek="Juggling in your Right Mind"}</a>
-Návody na passování které sepsal Lee Kolinsky.
+Návody na passování, které sepsal Lee Kolinsky.
 </p>
 
 <a name="hpp"></a><h3><a href="/highgate-passing-patterns.pdf" title="Točení s poi." onclick="_gaq.push(['_trackPageview','/passing-patterns.pdf']);" class="pdf">The Highgate Collection</a></h3>

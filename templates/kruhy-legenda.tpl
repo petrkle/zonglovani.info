@@ -12,7 +12,7 @@ Kruhy jsou rozlišeny barvou a číslicí.
 <h3>Dráhy kruhů</h3>
 <p>
 {obrazek soubor="legendab.png" popisek="Dráha kruhu."}
-Dráha po které by kruh měl letět je vyznačena přerušovanou čárou. Šipka na konci určuje směr.
+Dráha, po které by kruh měl letět, je vyznačena přerušovanou čárou. Šipka na konci určuje směr.
 </p>
 
 <h3>Ruce</h3>

@@ -42,7 +42,7 @@ Chůda v celé své kráse.
 <h2>Chození na chůdách</h2>
 <ol>
 <li>Chůdy si připevni k noze pomocí pruhů látky.</li>
-<li>Sežeň někoho kdo tě bude chytat.</li>
+<li>Sežeň někoho, kdo tě bude chytat.</li>
 </ol>
 <p>
 Na chůdách se chodí jako když šlapeš zelí. Stačí pořádně zvedat kolena a nemůžeš spadnout :-)

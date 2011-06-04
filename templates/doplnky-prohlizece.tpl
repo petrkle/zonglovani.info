@@ -18,13 +18,13 @@
 </ul>
 
 <p>
-Jednoduší hledání zařídí <a href="/vyhledavani/vyhledavani.xml" onclick="window.external.AddSearchProvider('http://zonglovani.info/vyhledavani/vyhledavani.xml');return(false);">vyhledávací modul</a>.
+Jednodušší hledání zařídí <a href="/vyhledavani/vyhledavani.xml" onclick="window.external.AddSearchProvider('http://zonglovani.info/vyhledavani/vyhledavani.xml');return(false);">vyhledávací modul</a>.
 </p>
 
 <a name="ie"></a><h3>Internet Explorer</h3>
 <p>{obrazek soubor="browser-ie.png" popisek="Internet Explorer"}</p>
 <ul class="szn">
-<li>Webslices z tipu týdne na <a href="/" title="Úvodní stránka">úvodní stránce</a>.</li>
+<li>Webslices z <a href="/tip/" title="Tip týdne">Tipu týdne</a> na úvodní stránce.</li>
 <li><a href="/vyhledavani/vyhledavani.xml" onclick="window.external.AddSearchProvider('http://zonglovani.info/vyhledavani/vyhledavani.xml');return(false);">Vyhledávací modul</a>.</li>
 <li>Podpora "pined sites".</li>
 </ul>

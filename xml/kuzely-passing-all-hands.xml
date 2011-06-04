@@ -11,13 +11,13 @@
 
 
     <krok>
-			<popisek>Obtížnější trik pro dva žongléry a šest kuželů. Passuješ postupně ze svojí pravé ruky do: své pravé, partnerovi levé, partnerovi pravé, svojí levé. Pak ještě obdobně z levé ruky.</popisek>
+			<popisek>Obtížnější trik pro dva žongléry a šest kuželů. Passuješ postupně ze svojí pravé ruky do: své pravé, partnerovy levé, partnerovy pravé, svojí levé. Pak ještě obdobně z levé ruky.</popisek>
     </krok>
 
 
 	<krok>
 		<obrazek>kuzely-passing-allhandsa</obrazek>
-		<popisek>První hod dvojka rovně na horu. Pass z vlastní pravé ruky do pravé.</popisek>
+		<popisek>První hod je dvojka rovně nahoru. Pass z vlastní pravé ruky do pravé.</popisek>
 	</krok>
 
 
@@ -28,7 +28,7 @@
 
 	<krok>
 		<obrazek>kuzely-passing-allhandsc</obrazek>
-		<popisek>Třetí hod je z pravé ruky do pravé partnerovi. Pozor na srážku. Kužely se vyhýbají v levo - jako auta na křižovatce.</popisek>
+		<popisek>Třetí hod je z pravé ruky do pravé partnerovi. Pozor na srážku. Kužely se vyhýbají vlevo - jako auta na křižovatce.</popisek>
 	</krok>
 
 	<krok>
@@ -38,7 +38,7 @@
 
 	<krok>
 		<obrazek>kuzely-passing-allhandsa</obrazek>
-		<popisek>Další hod je dvojka z levé ruky rovně na horu.</popisek>
+		<popisek>Další hod je dvojka z levé ruky rovně nahoru.</popisek>
 	</krok>
 
 	<krok>
@@ -48,7 +48,7 @@
 
 	<krok>
 		<obrazek>kuzely-passing-allhandsf</obrazek>
-		<popisek>Další pass je z levé ruky do levé. Kužely se opět vyhýbají v levo.</popisek>
+		<popisek>Další pass je z levé ruky do levé. Kužely se opět vyhýbají vlevo.</popisek>
 	</krok>
 
 	<krok>

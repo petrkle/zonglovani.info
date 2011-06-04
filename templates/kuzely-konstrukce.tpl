@@ -14,7 +14,7 @@ Uvnitř kuželu je dřevěná tyčka. Patka a hlava jsou k ní upevněny šroube
 </p>
 
 <p>
-Kvalitní kužely mají "motanou" rukojeť která nepraská.
+Kvalitní kužely mají "motanou" rukojeť, která nepraská.
 </p>
 
 <p>

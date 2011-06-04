@@ -17,7 +17,7 @@ Můžeš přidávat srazy, workshopy a představení do kalendáře žonglérsk�
 <h3><a href="{$smarty.const.DISKUSE_URL}">Diskuse</a></h3>
 <p>
 <a href="/img/e/exkurze-20101208195313.png">{obrazek soubor='exkurze-nahled-20101208195313.png' popisek=''}</a>
-Máš dotazy ohledně žonglování? Nebo nápady nebo připomínky k žonglérovu slabikáři? Můžeš je napsat do diskuse.
+Máš dotazy ohledně žonglování? Nápady nebo připomínky k žonglérovu slabikáři? Můžeš je napsat do diskuse.
 </p>
 
 <h3><a href="{$smarty.const.LIDE_URL}dovednost">Žonglérské dovednosti</a></h3>
@@ -26,10 +26,10 @@ Máš dotazy ohledně žonglování? Nebo nápady nebo připomínky k žongléro
 Formulář pro nastavení tvých oblíbených žonglovátek. Obsahuje i volby pro profesionální žongléry.
 </p>
 
-<h3><a href="{$smarty.const.LIDE_URL}misto">Místo kde žongluješ</a></h3>
+<h3><a href="{$smarty.const.LIDE_URL}misto">Místo, kde žongluješ</a></h3>
 <p>
 <a href="/img/e/exkurze-1292161531772.png">{obrazek soubor='exkurze-nahled-1292161531772.png' popisek=''}</a>
-Nastavení míst kde žongluješ. Díky tomu můžeš poznat další žongléry z okolí.
+Nastavení míst, kde žongluješ. Díky tomu můžeš poznat další žongléry z okolí.
 </p>
 
 <h3>Internetová stránky</h3>

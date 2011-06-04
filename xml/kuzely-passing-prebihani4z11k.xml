@@ -22,16 +22,16 @@
 
     <krok>
 			<obrazek>kuzely-passing-prebihani4z11kb</obrazek>
-			<popisek>&lt;b&gt;D&lt;/b&gt;ruhý pass. &lt;b&gt;B&lt;/b&gt; se dvěma kužely čeká na pass od &lt;b&gt;C&lt;/b&gt;. &lt;b&gt;D&lt;/b&gt; -&gt; &lt;b&gt;A&lt;/b&gt;, &lt;b&gt;A&lt;/b&gt; -&gt; &lt;b&gt;C&lt;/b&gt;. &lt;b&gt;D&lt;/b&gt; zbudou 2 kužely, tak může přeběhnout.</popisek>
+			<popisek>Druhý pass. &lt;b&gt;B&lt;/b&gt; se dvěma kužely čeká na pass od &lt;b&gt;C&lt;/b&gt;. &lt;b&gt;D&lt;/b&gt; -&gt; &lt;b&gt;A&lt;/b&gt;, &lt;b&gt;A&lt;/b&gt; -&gt; &lt;b&gt;C&lt;/b&gt;. &lt;b&gt;D&lt;/b&gt; zbydou 2 kužely, tak může přeběhnout.</popisek>
     </krok>
 
     <krok>
 			<obrazek>kuzely-passing-prebihani4z11kc</obrazek>
-			<popisek>Při třetím passu hází &lt;b&gt;C&lt;/b&gt; -&gt; &lt;b&gt;B&lt;/b&gt;, &lt;b&gt;B&lt;/b&gt; -&gt; &lt;b&gt;D&lt;/b&gt;, &lt;b&gt;A&lt;/b&gt; -&gt; &lt;b&gt;C&lt;/b&gt;. &lt;b&gt;A&lt;/b&gt; zbudou dva kužely a přesune se.</popisek>
+			<popisek>Při třetím passu hází &lt;b&gt;C&lt;/b&gt; -&gt; &lt;b&gt;B&lt;/b&gt;, &lt;b&gt;B&lt;/b&gt; -&gt; &lt;b&gt;D&lt;/b&gt;, &lt;b&gt;A&lt;/b&gt; -&gt; &lt;b&gt;C&lt;/b&gt;. &lt;b&gt;A&lt;/b&gt; zbydou dva kužely a přesune se.</popisek>
     </krok>
 
     <krok>
-			<popisek>V dalším kroku přeběhne žonglér &lt;b&gt;C&lt;/b&gt; kterému zbudou jen dva kužely. Pak už se cyklus opakuje podle prvního obrázku.</popisek>
+			<popisek>V dalším kroku přeběhne žonglér &lt;b&gt;C&lt;/b&gt;, kterému zbydou jen dva kužely. Pak už se cyklus opakuje podle prvního obrázku.</popisek>
     </krok>
 
 	<dalsi>

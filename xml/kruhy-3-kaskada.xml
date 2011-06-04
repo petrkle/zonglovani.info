@@ -15,17 +15,17 @@
 
     <krok>
         <obrazek>kruhy-3-kaskadaa</obrazek>
-        <popisek>Kaskádu začni rukou ve které držíš dva kruhy. Podle obrázku tedy pravou rukou vyhoď první kruh.</popisek>
+        <popisek>Kaskádu začni rukou, ve které držíš dva kruhy. Podle obrázku tedy pravou rukou vyhoď první kruh.</popisek>
     </krok>
 
     <krok>
         <obrazek>kruhy-3-kaskadab</obrazek>
-        <popisek>V momentě kdy první kruh dosáhne vrcholu své dráhy hoď levou rukou druhý kruh.</popisek>
+        <popisek>V momentě, kdy první kruh dosáhne vrcholu své dráhy, hoď levou rukou druhý kruh.</popisek>
     </krok>
 
     <krok>
         <obrazek>kruhy-3-kaskadac</obrazek>
-        <popisek>A když je druhý kruh na vrcholu své dráhy hoď pravou rukou třetí kruh.</popisek>
+        <popisek>A když je druhý kruh na vrcholu své dráhy, hoď pravou rukou třetí kruh.</popisek>
     </krok>
 
 	<krok>

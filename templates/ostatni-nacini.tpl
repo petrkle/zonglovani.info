@@ -11,7 +11,7 @@ Jsou nejlehčí na naučení. Stačí vyhazovat do vzduchu a chytat. <a href="/m
 <a name="bounce"></a><h3>Skákací míčky</h3>
 <p>
 {obrazek soubor="nacinib.png" popisek="Skákací míčky."}
-Místo vyhazování do vzduchu je odrážíš o podlahu. S polu s <a href="#cigarbox" title="Cigar boxy">cigar boxy</a> je to nejhlučnější žonglérské náčiní.
+Místo vyhazování do vzduchu je odrážíš o podlahu. Spolu s <a href="#cigarbox" title="Cigar boxy">cigar boxy</a> je to nejhlučnější žonglérské náčiní.
 </p>
 
 <h3><a href="/kruhy/" title="Žonglování s kruhy.">Kruhy</a></h3>
@@ -35,19 +35,19 @@ Stejné jako kužely, jen místo širší části je knot. Napustí se hořlavin
 <h3>Diabolo</h3>
 <p>
 {obrazek soubor="nacinif.png" popisek="Diabolo"}
-Cívka kterou roztáčíš pomocí provázků a hůlek.
+Cívka, kterou roztáčíš pomocí provázků a hůlek.
 </p>
 
 <h3>Devilstick</h3>
 <p>
 {obrazek soubor="nacinig.png" popisek="Devilstick"}
-Hůlka kterou udržuješ ve vzduchu dvěma dalšími hůlkami.
+Hůlka, kterou udržuješ ve vzduchu dvěma dalšími hůlkami.
 </p>
 
 <h3>Flowerstick</h3>
 <p>
 {obrazek soubor="nacinih.png" popisek="Flowerstick"}
-Hůlka která má na koncích třásně. Ve vzduchu jí držíš pomocí dvou dalších hůlek.
+Hůlka, která má na koncích třásně. Ve vzduchu ji držíš pomocí dvou dalších hůlek.
 </p>
 
 <h3>Jo-jo</h3>
@@ -71,7 +71,7 @@ Létají skoro stejně jako kužely. Jen jsou trochu větší.
 <a name="crystalball"></a><h3>Crystal ball</h3>
 <p>
 {obrazek soubor="nacinim.png" popisek="Crystal ball"}
-Větší míček z umělé hmoty (polyakrylát ?). Vypadá jako skleněný. Používá se na <a href="/druhy-zonglovani.html#contact">kontaktní žonglování</a> - nehází se s ním, ale kutálí se po rukou a jiných částech těla.
+Větší míček z umělé hmoty (polyakrylát&nbsp;?). Vypadá jako skleněný. Používá se na <a href="/druhy-zonglovani.html#contact">kontaktní žonglování</a> - nehází se s ním, ale kutálí se po rukou a jiných částech těla.
 </p>
 
 <a name="tyc"></a><h3>Tyč</h3>
@@ -83,7 +83,7 @@ Další předmět pro kontaktní žonglování. Obvykle s knoty na koncích k za
 <a name="cigarbox"></a><h3>Cigar boxy</h3>
 <p>
 {obrazek soubor="nacinio.png" popisek="Cigar boxy"}
-Cigar boxy jsou dřevěné krabičky. Dvě krajní držíš rukou a třetí mezi nimy přehazuješ. Vzniká při tom skoro stejný hluk jako při žonglování se <a href="#bounce" title="Odrážení míčků o podlahu.">skákacími míčky</a>.
+Cigar boxy jsou dřevěné krabičky. Dvě krajní držíš rukou a třetí mezi nimi přehazuješ. Vzniká při tom skoro stejný hluk jako při žonglování se <a href="#bounce" title="Odrážení míčků o podlahu.">skákacími míčky</a>.
 </p>
 
 <h3>Šátky</h3>

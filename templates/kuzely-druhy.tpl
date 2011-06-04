@@ -2,9 +2,9 @@
 Obrázky žonglérských kuželů.
 </p>
 
-<a name="pirouete"><h3>Pirouete</a></h3>
+<a name="pirouette"><h3>Pirouette</a></h3>
 <p>
-<a href="/img/k/kuzelka-pirouete.jpg">{obrazek soubor="kuzelka-pirouete-s.jpg" popisek="Kužel pirouete"}</a>
+<a href="/img/k/kuzelka-pirouette.jpg">{obrazek soubor="kuzelka-pirouette-s.jpg" popisek="Kužel pirouette"}</a>
 Velmi oblíbená kuželka v ČR. Nejčastější je čistě bílé provedení. Vyrábí německá firma <a href="http://www.henrys-online.de" onclick="_gaq.push(['_trackPageview','/goto/henrys-online.de']);" class="external">Henrys</a>.
 </p>
 <p>

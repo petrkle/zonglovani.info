@@ -4,7 +4,7 @@ Známé též pod anglickým názvem <strong>headroll</strong>. Provedení s ku�
 
 <p>
 {obrazek soubor="headrolla.png" popisek=""}
-Přilož si kuželku k hlavě asi jako když telefonuješ. Kuželka je opřená asi v polovině držadla o bradu. Konečky prstů strč kuželku proti hlavě.
+Přilož si kuželku k hlavě podobně jako když telefonuješ. Kuželka je opřená asi v polovině držadla o bradu. Konečky prstů strč kuželku proti hlavě.
 </p>
 
 <p>

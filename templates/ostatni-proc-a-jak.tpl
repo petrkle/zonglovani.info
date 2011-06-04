@@ -6,4 +6,4 @@ Když jsem začínal žonglovat (zima 2004), hodně mi pomohly informace z inter
 
 <p>Od března 2007 zaznamenávám i <a href="/changelog.html" title="Seznam změn v žonglérově slabikáři.">historii změn</a>.</p>
 
-<p>Jestli tě to zajímá, tak se můžeš podívat na <a href="toolbox.html" title="Seznam použitých programů.">seznam software</a> kterým žonglérův slabikář vytvářím.</p>
+<p>Jestli tě to zajímá, tak se můžeš podívat na <a href="toolbox.html" title="Seznam použitých programů.">seznam software</a>, kterým žonglérův slabikář vytvářím.</p>

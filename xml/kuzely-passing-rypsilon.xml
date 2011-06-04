@@ -22,7 +22,7 @@
 
     <krok>
 			<obrazek name="first">kuzely-passing-rypsilonb</obrazek>
-			<popisek>První pass. &lt;b&gt;A&lt;/b&gt; hazí &lt;b&gt;B&lt;/b&gt;, &lt;b&gt;B&lt;/b&gt;hází &lt;b&gt;C&lt;/b&gt;, &lt;b&gt;C&lt;/b&gt; hází &lt;b&gt;D&lt;/b&gt; a &lt;b&gt;D&lt;/b&gt; hází &lt;b&gt;A&lt;/b&gt;. Kužel ti přilétá vždy od stejného žongléra. Házíš také pořád stejnému člověku.</popisek>
+			<popisek>První pass. &lt;b&gt;A&lt;/b&gt; hazí &lt;b&gt;B&lt;/b&gt;, &lt;b&gt;B&lt;/b&gt; hází &lt;b&gt;C&lt;/b&gt;, &lt;b&gt;C&lt;/b&gt; hází &lt;b&gt;D&lt;/b&gt; a &lt;b&gt;D&lt;/b&gt; hází &lt;b&gt;A&lt;/b&gt;. Kužel ti přilétá vždy od stejného žongléra. Házíš také pořád stejnému člověku.</popisek>
     </krok>
 
     <krok>
@@ -37,7 +37,7 @@
 
     <krok>
 			<obrazek>kuzely-passing-rypsilone</obrazek>
-			<popisek>Další přesu po směru hodinových ručiček. Popojdi o 1/4 kruhu.</popisek>
+			<popisek>Další přesun po směru hodinových ručiček. Popojdi o 1/4 kruhu.</popisek>
     </krok>
 
     <krok>

@@ -38,7 +38,7 @@
 
     <krok>
 			<obrazek>kuzely-passing-squarese</obrazek>
-			<popisek>Další přesun. &lt;b&gt;A&lt;/b&gt; a &lt;b&gt;B&lt;/b&gt; se přesunují z prava do leva. &lt;b&gt;C&lt;/b&gt; a &lt;b&gt;D&lt;/b&gt; zepředu dozadu.</popisek>
+			<popisek>Další přesun. &lt;b&gt;A&lt;/b&gt; a &lt;b&gt;B&lt;/b&gt; se přesunují zprava doleva. &lt;b&gt;C&lt;/b&gt; a &lt;b&gt;D&lt;/b&gt; zepředu dozadu.</popisek>
     </krok>
 
     <krok>
@@ -46,7 +46,7 @@
     </krok>
 
     <krok>
-			<popisek>Jako jednoduší variantu můžeš vyzkoušet &lt;a href=&quot;vymeny.html&quot; title=&quot;Podobný trik.&quot;&gt;výměny ve čtvercích&lt;/a&gt;.</popisek>
+			<popisek>Jako jednodušší variantu můžeš vyzkoušet &lt;a href=&quot;vymeny.html&quot; title=&quot;Podobný trik.&quot;&gt;výměny ve čtvercích&lt;/a&gt;.</popisek>
     </krok>
 
 	<dalsi>

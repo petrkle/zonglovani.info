@@ -7,7 +7,7 @@ Základní pojmy v žonglování.
 <h3><a href="/faq.html" title="FAQ">Často kladené otázky</a></h3>
 <p>
 <a href="/faq.html" title="FAQ">{obrazek soubor="faq.png" popisek="FAQ"}</a>
-Otázky na které se lidé často ptají v souvislosti s žonglováním.
+Otázky, na které se lidé často ptají v souvislosti s žonglováním.
 </p>
 
 <h3><a href="/nacini.html" title="Žonglérské náčiní.">Žonglérské náčiní</a></h3>
@@ -25,7 +25,7 @@ Otázky na které se lidé často ptají v souvislosti s žonglováním.
 <h3><a href="/cirkusove-discipliny.html" title="Cirkusové disciplíny.">Cirkusové disciplíny</a></h3>
 <p>
 <a href="/cirkusove-discipliny.html" title="Cirkusové disciplíny.">{obrazek soubor="cirkuse.png" popisek="Žonglování va visutá hrazda."}</a>
-Dovednosti které na první pohled nemusí s žonglováním souviset.
+Dovednosti, které na první pohled nemusí s žonglováním souviset.
 </p>
 
 <h3><a href="/literatura.html" title="Něco ke čtení.">Literatura</a></h3>
@@ -43,13 +43,13 @@ Noty pro žonglování. Osvětlí ti zápis žonglování čísly.
 <h3><a href="/software.html" title="Simulátory žonglování.">Simulátory žonglování</a></h3>
 <p>
 <a href="/software.html" title="Simulátory žonglování.">{obrazek soubor="software.jpg" popisek="Software pro žongléry."}</a>
-Počítačové programy které kreslí animace žonglování.
+Počítačové programy, které kreslí animace žonglování.
 </p>
 
 <h3><a href="/aczslovnicek.html" title="Několik slovíček.">Anglicko-český žonglérský slovníček</a></h3>
 <p>
 <a href="/aczslovnicek.html" title="Několik slovíček.">{obrazek soubor="slovnik.jpg" popisek="Slovník"}</a>
-Několik slovíček které se často vyskytují v anglicky psaných textech o žonglování.
+Několik slovíček, které se často vyskytují v anglicky psaných textech o žonglování.
 </p>
 
 <h3><a href="/trenink.html" title="Trénuj, trénuj, trénuj.">Trénink</a></h3>

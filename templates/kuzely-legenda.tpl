@@ -12,7 +12,7 @@ Kužely jsou rozlišeny barvou a číslicí.
 <h3>Dráhy kuželu</h3>
 <p>
 {obrazek soubor="kuzely-legendab.png" popisek="Dráha kuželu."}
-Dráha po které by kužel měl letět je vyznačena přerušovanou čárou. Šipka na konci určuje směr.
+Dráha, po které by kužel měl letět, je vyznačena přerušovanou čárou. Šipka na konci určuje směr.
 </p>
 
 <h3>Ruce</h3>
