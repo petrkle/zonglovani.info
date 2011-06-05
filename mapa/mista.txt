@@ -1,7 +1,7 @@
 cela-cr:Celá ČR:z celé ČR:v celé ČR::CZ::
 cechy:Čechy:z Čech:v Čechách::CZ::
 morava:Morava:z Moravy:na Moravě::CZ::
-slezko:Slezko:ze Slezka:na Slezku::CZ::
+slezko:Slezsko:ze Slezska:na Slezsku::CZ::
 slovensko:Celé Slovensko:ze Slovenska:na Slovensku::SK::
 vychodni-slovensko:Východní Slovensko:z východního Slovenska:na východním Slovensku::SK::
 zapadni-slovensko:Západní Slovensko:ze západního Slovenska:na západním Slovensku::SK::

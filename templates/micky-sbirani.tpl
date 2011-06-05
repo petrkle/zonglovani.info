@@ -27,7 +27,7 @@ Pokračuj <a href="/micky/3/kaskada.html" title="Základní trik se třemi míč
 <h3>4 míčky</h3>
 
 <p>
-Když ti spadne míček pokračuj kaskádou se třemi míčky. Klekni si před spadlý míček. A teď to přijde.
+Když ti spadne míček, pokračuj kaskádou se třemi míčky. Klekni si před spadlý míček. A teď to přijde.
 </p>
 <p>
 {obrazek soubor="micky-sbiranid.png" popisek=""}

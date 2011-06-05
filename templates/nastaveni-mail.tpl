@@ -6,7 +6,7 @@
 </ul>
 {/if}
 <p>
-Po odeslání formuláře přijde na tvůj nový e-mail zpráva pomocí které dokončíš změnu emailu.
+Po odeslání formuláře přijde na tvůj nový e-mail zpráva, pomocí které dokončíš změnu emailu.
 </p>
 <form action="{$smarty.server.REQUEST_URI}" method="post">
 <fieldset>

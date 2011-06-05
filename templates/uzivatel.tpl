@@ -33,7 +33,7 @@ Stránku odebereš z oblíbených kliknutím na obrázek žluté hvězdičky {ob
 {/foreach}
 </ul>
 {else}
-<p>Na tomto místě se zobrazí stránky které ohodnotíš v žonglérova slabikáři.</p>
+<p>Na tomto místě se zobrazí stránky, které ohodnotíš v žonglérova slabikáři.</p>
 <h5>Palce</h5>
 <p>K hodnocení stránek se používá zelený a červený palec v dolní části stránky.</p>
 <h5>Soukromí</h5>

@@ -23,7 +23,7 @@ Návody na výrobu žonglérských míčků. Sadu tří pěkných míčků na ž
 <h3><a href="/micky/kick-up.html" title="Zvednutí míčku nohou.">Zvednutí míčku nohou</a></h3>
 <p>
 <a href="/micky/kick-up.html" title="Zvednutí míčku nohou.">{obrazek soubor="kickupa.png" popisek="Míček na zemi."}</a>
-Už se nebudeš muset shýbat pro spadlý míček. Stačí se naučit tento elegantní způsob jak zvednout míček ze země.
+Už se nebudeš muset shýbat pro spadlý míček. Stačí se naučit tento elegantní způsob, jak zvednout míček ze země.
 </p>
 
 <h3><a href="/micky/balancovani.html" title="Balancování míčku.">Balancování míčku</a></h3>
@@ -62,7 +62,7 @@ Každý chce umět <a href="/micky/3/mm.html" title="náročné">Mills' mess</a>
 
 <h3><a href="/micky/drop.html" title="Jak dostat míčky ze země zpátky do vzduchu.">Míčky na zemi</a></h3>
 <p>
-Míčky se dostanou na zem velmi snadno a rychle, stačí chvilka nepozornosti. Takže co dělat když už se to stane?
+Míčky se dostanou na zem velmi snadno a rychle, stačí chvilka nepozornosti. Takže co dělat, když už se to stane?
 </p>
 
 <h3><a href="/micky/legenda.html" title="Vysvětlivky k obrázkům.">Legenda</a></h3>

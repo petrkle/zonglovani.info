@@ -20,16 +20,16 @@
 
 	<krok>
         <obrazek>oknob</obrazek>
-				<popisek>Když začne první míček padat vyhoď zároveň druhý a třetí míček. Míčky letí vysokým obloukem a minou se nad sebou.</popisek>
+				<popisek>Když začne první míček padat, vyhoď zároveň druhý a třetí míček. Míčky letí vysokým obloukem a minou se nad sebou.</popisek>
     </krok>
 
     <krok>
         <obrazek>oknoc</obrazek>
-				<popisek>Zatím co se druhý a třetí míček míjí ve vzduchu, zachyť a opět vyhoď první míček. První míček můžeš chytat střídavě pravou a levou rukou.</popisek>
+				<popisek>Zatímco se druhý a třetí míček míjí ve vzduchu, zachyť a opět vyhoď první míček. První míček můžeš chytat střídavě pravou a levou rukou.</popisek>
     </krok>
 
     <krok>
-			<popisek>Dál pokračuj jako na posledních dvou obrázcích. Když přidáš ještě jeden míček vznikne &lt;a href=&quot;../4/destnik.html&quot; title=&quot;Trik se čtyřmi míčky.&quot;&gt;deštník&lt;/a&gt;.</popisek>
+			<popisek>Dál pokračuj jako na posledních dvou obrázcích. Když přidáš ještě jeden míček, vznikne &lt;a href=&quot;../4/destnik.html&quot; title=&quot;Trik se čtyřmi míčky.&quot;&gt;deštník&lt;/a&gt;.</popisek>
     </krok>
 
 	<dalsi>

@@ -314,7 +314,7 @@ $trail->addStep('Nastavení',LIDE_URL.'nastaveni/');
 					}
 				}
 
-				$smarty->assign('titulek','Místo(a) kde žongluješ');
+				$smarty->assign('titulek','Místo(a), kde žongluješ');
 				$trail->addStep('Působiště');
 				$smarty->assign('pusobiste',get_large_places($pusobiste));
 				$smarty->assign('pusobiste_cz',get_places('CZ',$pusobiste));

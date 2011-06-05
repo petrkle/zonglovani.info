@@ -5,7 +5,7 @@ Může to znít neuvěřitelně, ale jde to. Jaký trik budeš provádět poslep
 <h3>Zavři oči, brouku</h3>
 <p>
 {obrazek soubor="poslepuc.png" popisek="Žonglování poslepu."}
-Dalším krokem je vyřazení kontroly zrakem. Existuje pár fíglů. Zkus se nejdřív dívat jen na vršky obloučků po kterých míčky létají. Pak se dívej jenom na stín míčků na stěně. Můžeš taky zkusit žonglovat za svitu měsíce. No a pak stačí zavřít oči. Dá to trochu přemáhání, a tak by možná někoho napadlo zavázat si oči šátkem. Jde to, ale musíš si ho sundat, když ti míčky spadnou. Také je daleko snazší zavřít oči, když už žongluješ, než začít rovnou první hod poslepu.
+Dalším krokem je vyřazení kontroly zrakem. Existuje pár fíglů. Zkus se nejdřív dívat jen na vršky obloučků, po kterých míčky létají. Pak se dívej jenom na stín míčků na stěně. Můžeš taky zkusit žonglovat za svitu měsíce. No a pak stačí zavřít oči. Dá to trochu přemáhání, a tak by možná někoho napadlo zavázat si oči šátkem. Jde to, ale musíš si ho sundat, když ti míčky spadnou. Také je daleko snazší zavřít oči, když už žongluješ, než začít rovnou první hod poslepu.
 </p>
 
 <h3>S míčky v posteli</h3>

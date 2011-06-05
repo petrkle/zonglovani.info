@@ -20,7 +20,7 @@ Pěkný míček na žonglování z tenisáku a nafukovacích balónků.
 
 <p>
 <a href="/gmiball.pdf" onclick="_gaq.push(['_trackPageview','/gmiball.pdf']);" title="Gamiballs">{obrazek soubor="gmiball.jpg" popisek="Gamiballs"}</a>
-Obrázkový návod od <a href="http://www.barf.cc/diagrams/PDF_diagrams/pdf_diagrams.html" class="external" onclick="_gaq.push(['_trackPageview','/goto/barf.cc/diagrams/PDF_diagrams/pdf_diagrams.html']);">Jeremyho Shafera</a> jak ušít míček z jednoho kusu látky. Popis je anglicky.
+Obrázkový návod od <a href="http://www.barf.cc/diagrams/PDF_diagrams/pdf_diagrams.html" class="external" onclick="_gaq.push(['_trackPageview','/goto/barf.cc/diagrams/PDF_diagrams/pdf_diagrams.html']);">Jeremyho Shafera</a>, jak ušít míček z jednoho kusu látky. Popis je anglicky.
 </p>
 
 <a name="sity"></a><h3>Šitý míček</h3>
@@ -40,7 +40,7 @@ Výroba tohoto míčku je náročná. Za odměnu získáš vyšší trvanlivost.
 
 
 <p>
-Nejdřív si nakresli na papír střih. Střih tvoří šest čtverců rozměru přibližně 4x4 cm. Počítej i s okraji kterými bude látka sešitá. Střih pak obkreslíš na látku a díky tomu budou mít všechny míčky stejnou velikost. Když chceš mít míček vícebarevný vystříhej čtverečky z různých látek a sešij je dohromady. Jo, je to docela piplačka.
+Nejdřív si nakresli na papír střih. Střih tvoří šest čtverců rozměru přibližně 4x4 cm. Počítej i s okraji kterými bude látka sešitá. Střih pak obkreslíš na látku a díky tomu budou mít všechny míčky stejnou velikost. Když chceš mít míček vícebarevný, vystříhej čtverečky z různých látek a sešij je dohromady. Jo, je to docela piplačka.
 </p>
 
 <h5>Střih na míček z látky</h5>
@@ -49,7 +49,7 @@ Nejdřív si nakresli na papír střih. Střih tvoří šest čtverců rozměru 
 </p>
 
 <p>
-Látku sešij okraji k sobě tak, aby tvořila krychli. Není potřeba žádný speciální steh, ale nech alespoň 0.5 cm okraj. To proto, aby se látka nevytrhla když míček spadne na zem. Když už máš všechny švy a zbývá jenom malinká dírka míček otoč naruby. Nepěkné okraje se schovají dovnitř. Pak stačí už jenom míček naplnit a zašít zbývající dírku.
+Látku sešij okraji k sobě tak, aby tvořila krychli. Není potřeba žádný speciální steh, ale nech alespoň 0.5 cm okraj. To proto, aby se látka nevytrhla, když míček spadne na zem. Když už máš všechny švy a zbývá jenom malinká dírka, otoč míček naruby. Nepěkné okraje se schovají dovnitř. Pak stačí už jenom míček naplnit a zašít zbývající dírku.
 </p>
 
 <p>

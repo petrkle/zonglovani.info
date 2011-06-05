@@ -1,5 +1,5 @@
 <p>
-Elegantní způsob jak zvednout míček ze země.
+Elegantní způsob, jak zvednout míček ze země.
 </p>
 
 <p>

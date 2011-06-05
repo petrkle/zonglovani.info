@@ -1,6 +1,6 @@
 <h3>Uvolni se</h3>
 <p>
-Najít a udržet správné tempo je těžké. Většina lidí hází pět míčků moc rychle! Ano, je to tak. Moc rychle a pak je nestačí chytat. Zkus si k žonglování pusti ploužák.
+Najít a udržet správné tempo je těžké. Většina lidí hází pět míčků moc rychle! Ano, je to tak. Moc rychle a pak je nestačí chytat. Zkus si k žonglování pustit ploužák.
 </p>
 
 <h3>Nezapomeň dýchat</h3>
@@ -27,5 +27,5 @@ Nezůstávej jen u kaskády. Zkoušej i další triky s pěti míčky. Kaskáda 
 
 <h3>Přidej další míček</h3>
 <p>
-Zkus žonglovat s <a href="/micky/6/" title="">šesti míčky</a>. Kaskáda s pěti míčky ti bude připadat snazší.
+Zkus žonglovat se <a href="/micky/6/" title="">šesti míčky</a>. Kaskáda s pěti míčky ti bude připadat snazší.
 </p>

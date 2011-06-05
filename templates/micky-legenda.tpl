@@ -1,5 +1,5 @@
 <p>
-Obrázky znázorňují jak házet míčky, jejich dráhu a načasování. Ke každému obrázku patří vysvětlující text umístěný vpravo od něj.
+Obrázky znázorňují, jak házet míčky, jejich dráhu a načasování. Ke každému obrázku patří vysvětlující text umístěný vpravo od něj.
 </p>
 
 <h3>Míčky</h3>
@@ -12,7 +12,7 @@ Míčky jsou rozlišeny barvou a číslicí.
 <h3>Dráhy míčků</h3>
 <p>
 {obrazek soubor="legendab.png" popisek="Dráha míčku."}
-Dráha po které by míček měl letět je vyznačena přerušovanou čárou. Šipka na konci určuje směr.
+Dráha, po které by míček měl letět, je vyznačena přerušovanou čárou. Šipka na konci určuje směr.
 </p>
 
 <h3>Ruce</h3>

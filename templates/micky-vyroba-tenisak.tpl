@@ -1,5 +1,5 @@
 <p>
-Rychlý návod jak vyrobit míček na žonglování z tenisáku a nafukovacích balónků.
+Rychlý návod, jak vyrobit míček na žonglování z tenisáku a nafukovacích balónků.
 </p>
 
 <h3>Materiál</h3>

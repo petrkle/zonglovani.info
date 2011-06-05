@@ -15,17 +15,17 @@
 
     <krok>
         <obrazek>srkaskadaa</obrazek>
-        <popisek>Reverzní kaskádu začni rukou ve které držíš dva míčky. Podle obrázku tedy pravou rukou vyhoď první míček.</popisek>
+        <popisek>Reverzní kaskádu začni rukou, ve které držíš dva míčky. Podle obrázku tedy pravou rukou vyhoď první míček.</popisek>
     </krok>
 
     <krok>
         <obrazek>srkaskadab</obrazek>
-        <popisek>V momentě kdy první míček dosáhne vrcholu své dráhy hoď levou rukou druhý míček. Levou ruku přesuň doprava kde do ní zachytíš první míček.</popisek>
+        <popisek>V momentě, kdy první míček dosáhne vrcholu své dráhy, hoď levou rukou druhý míček. Levou ruku přesuň doprava, kde do ní zachytíš první míček.</popisek>
     </krok>
 
     <krok>
         <obrazek>srkaskadac</obrazek>
-        <popisek>Levou ruku s prvním míčkem přesuň zpátky doleva. Z pravé ruky vyhoď třetí míček a přesuň ji také do leva, kde do ní zachytíš druhý míček.</popisek>
+        <popisek>Levou ruku s prvním míčkem přesuň zpátky doleva. Z pravé ruky vyhoď třetí míček a přesuň ji také doleva, kde do ní zachytíš druhý míček.</popisek>
     </krok>
 
 	<dalsi>

@@ -8,7 +8,7 @@
 <form action="{$smarty.server.REQUEST_URI}" method="post">
 
 <fieldset>
-<legend>Místo(a) kde žongluješ</legend>
+<legend>Místo(a), kde žongluješ</legend>
 
 {if is_array($pusobiste)}
 <a name="oblasti"></a><h3>Velké oblasti</h3>

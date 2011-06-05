@@ -14,7 +14,7 @@ První vajíčko vyhoď pravou rukou rovně nahoru.
 
 <p>
 {obrazek soubor="vajickab.png" popisek=""}
-Zatím co letí, odlož si druhé vajíčko do levé ruky. Vajíčko neházíš. Jenom ho přendáš z ruky do ruky. Šance na rozbití jsou minimální.
+Zatímco letí, odlož si druhé vajíčko do levé ruky. Vajíčko neházíš. Jenom ho přendáš z ruky do ruky. Šance na rozbití jsou minimální.
 </p>
 
 

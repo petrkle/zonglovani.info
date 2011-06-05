@@ -15,12 +15,12 @@
  
     <krok>
         <obrazek>sloupyc</obrazek>
-        <popisek>Vyhoď první a druhý míček rovně nahoru. Když jsou na vrcholu dráhy vyhoď třetí míček šikmo doleva nad druhý míček.</popisek>
+        <popisek>Vyhoď první a druhý míček rovně nahoru. Když jsou na vrcholu dráhy, vyhoď třetí míček šikmo doleva nad druhý míček.</popisek>
     </krok>
 
     <krok>
         <obrazek>sloupyd</obrazek>
-        <popisek>Zatím co třetí míček padá opět vyhoď první a druhý míček.</popisek>
+        <popisek>Zatímco třetí míček padá, opět vyhoď první a druhý míček.</popisek>
     </krok>
 
     <krok>
@@ -53,7 +53,7 @@
 
     <krok>
         <obrazek>sloupym</obrazek>
-        <popisek>Když je třetí míček na vrcholu své dráhy vyhoď rovně nahoru první a druhý míček. </popisek>
+        <popisek>Když je třetí míček na vrcholu své dráhy, vyhoď rovně nahoru první a druhý míček. </popisek>
     </krok>
 
 	<dalsi>

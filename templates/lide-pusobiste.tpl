@@ -1,4 +1,4 @@
-<p>Ze <a href="{$smarty.const.LIDE_URL}">seznamu žonglérů</a> vyber ty kteří žonglují v:</p>
+<p>Ze <a href="{$smarty.const.LIDE_URL}">seznamu žonglérů</a> vyber ty, kteří žonglují v:</p>
 {if is_array($pusobiste)}
 <a name="oblasti"></a><h3>Velké oblasti</h3>
 <div class="hvezdicka"><a href="/mapa/" title="Žonglérská mapa">{obrazek soubor='mapa-crsk.png' popisek='Československo' path='/mapa/static/'}</a></div>

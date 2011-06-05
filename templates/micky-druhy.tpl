@@ -1,11 +1,11 @@
 <p>
-Žonglérský míček je to s čím budeš hodiny a hodiny cvičit. Pořiď si proto takové, které se ti líbí a vyhovují. Pořádný míček je základ úspěchu.
+Žonglérský míček je to, s čím budeš hodiny a hodiny cvičit. Pořiď si proto takové, které se ti líbí a vyhovují. Pořádný míček je základ úspěchu.
 </p>
 
 <h3>Tenisový míček</h3>
 <p>
 <a href="/img/t/tenisak.jpg">{obrazek soubor="tenisak-nahled.jpg" popisek="Tenisový míček"}</a>
-Nejdostupnější míček na žonglování. Tenisák má dobrou velikost, ale je příliš lehký. Zkus ho pro <a href="/micky/jak-zacit.html" title="Úplný základ.">začátek</a>, než zjistíš jestli tě žonglování baví.
+Nejdostupnější míček na žonglování. Tenisák má dobrou velikost, ale je příliš lehký. Zkus ho pro <a href="/micky/jak-zacit.html" title="Úplný základ.">začátek</a> než zjistíš, jestli tě žonglování baví.
 </p>
 
 <a name="beanbag"></a><h3>Šitý míček</h3>
@@ -41,7 +41,7 @@ SIL-X je asi z třetiny naplněný tekutým silikonem. Má podobné vlastnosti j
 <h3>Míček z balónků</h3>
 <p>
 <a href="/img/b/balonky.jpg">{obrazek soubor="balonky-nahled.jpg" popisek="Míček z balónků"}</a>
-Míček z balónků naplněných sypkým materiálem během žonglování mění tvar a když spadne na zem tak je z něj šiška.
+Míček z balónků naplněných sypkým materiálem během žonglování mění tvar, a když spadne na zem, tak je z něj šiška.
 </p>
 
 <h3>Háčkovaný míček</h3>
@@ -53,7 +53,7 @@ Takzvaný hakysák. Většinou se do něj kope, ale dá se použít i k žonglov
 <h3>Basebalový míček</h3>
 <p>
 <a href="/img/b/baseball.jpg">{obrazek soubor="baseball-nahled.jpg" popisek="Basebalový míček"}</a>
-Nešpiní se, je odolný, má dobrou velikost i váhu a neskáče. Ovšem pozor, je tvrdý takže to někdy může bolet.
+Nešpiní se, je odolný, má dobrou velikost i váhu a neskáče. Ovšem pozor, je tvrdý, takže to někdy může bolet.
 </p>
 
 <h3><a href="/micky/3/jablko.html" title="žonglování s jablky">Jablko</a>, <a href="/micky/vajicka.html" title="žonglování s vajíčky">vajíčka</a>, pomeranč, ...</h3>
@@ -69,6 +69,6 @@ Opravdu velký míč. K žonglování se třemi velkými nafukovacími míči js
 </p>
 
 <p>
-Míčků je nepřeberně, vyrábějí se speciální míčky pro vystoupení na jevišti (jsou větší), míčky které svítí pod UV zářením, míčky které se napustí hořlavinou a zapálí.
+Míčků je nepřeberně, vyrábějí se speciální míčky pro vystoupení na jevišti (jsou větší), míčky, které svítí pod UV zářením, míčky, které se napustí hořlavinou a zapálí.
 </p>
 

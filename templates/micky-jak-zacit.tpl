@@ -36,7 +36,7 @@ Vyhoď první míček obloučkem nahoru. Vrchol obloučku by měl být asi ve v�
 
 <p>
 {obrazek soubor="treninkb.png" popisek="Hození druhého míčku z levé ruky do pravé."}
-Když první míček míjí tvůj nos je čas vyhodit druhý míček. Pak zachytíš první míček do levé ruky. Tou dobou druhý míček míjí tvůj nos a ty už jenom čekáš až doletí do tvé pravé ruky, kterou ho zachytíš. 
+Když první míček míjí tvůj nos, je čas vyhodit druhý míček. Pak zachytíš první míček do levé ruky. Tou dobou druhý míček míjí tvůj nos a ty už jenom čekáš až doletí do tvé pravé ruky, kterou ho zachytíš. 
 </p>
 
 <p>

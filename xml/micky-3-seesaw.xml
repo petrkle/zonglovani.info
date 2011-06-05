@@ -25,12 +25,12 @@
 
     <krok>
         <obrazek>seesawc</obrazek>
-        <popisek>Zatím co třetí míček ještě stoupá chytáš první a druhý míček.</popisek>
+        <popisek>Zatímco třetí míček ještě stoupá, chytáš první a druhý míček.</popisek>
     </krok>
 
     <krok>
         <obrazek>seesawd</obrazek>
-        <popisek>Když je třetí míček na vrcholu své dráhy vyhoď druhý míček vodorovně a první míček nahoru.</popisek>
+        <popisek>Když je třetí míček na vrcholu své dráhy, vyhoď druhý míček vodorovně a první míček nahoru.</popisek>
     </krok>
 
 	<dalsi>

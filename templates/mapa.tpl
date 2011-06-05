@@ -39,7 +39,7 @@ window.onload = loadScript;
 <div id="map_canvas"></div><div id="legenda">
 <h3>Žonglérská mapa</h3>
 <p>
-Mapa s vyznačením měst kde jsou žongléři.
+Mapa s vyznačením měst, kde jsou žongléři.
 </p>
 <p>
 Přidat se můžeš tak, že si <a href="/lide/pravidla.php" class="add">založíš účet</a> v žonglérově slabikáři.

@@ -9,7 +9,7 @@ I když ti jeden míček upadne, pořád ještě můžeš žonglovat. Stačí m�
 
 <h3>Průpovídky</h3>
 <p>
-Další možností je <em>vtipnou průpovídkou</em> předstírat, že jsi vlastně míčky zahodil schválně. Můžeš se za nimy rozběhnout s výkřikem: "Chyťte jééééééé !" a podobně. Je dobré si těchto průpovídek připravit více a používat je velmi zřídka.
+Další možností je <em>vtipnou průpovídkou</em> předstírat, že jsi vlastně míčky zahodil schválně. Můžeš se za nimi rozběhnout s výkřikem: "Chyťte jééééééé!" a podobně. Je dobré si těchto průpovídek připravit více a používat je velmi zřídka.
 </p>
 
 

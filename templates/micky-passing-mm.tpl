@@ -4,13 +4,13 @@ Trik pro dva žongléry a pět míčků. Předpokladem je, že oba umíte <a hre
 
 <p>
 {obrazek soubor="micky-passingmma.png" popisek=""}
-Dva žongléři stojí vedle sebe. žonglér <b>A</b> má dva míčky v pravé ruce. V levé jeden. Žonglér <b>B</b> má v každé ruce jeden míček. Oba mají žkřížené ruce. Levou pod pravou.
+Dva žongléři stojí vedle sebe. Žonglér <b>A</b> má dva míčky v pravé ruce. V levé jeden. Žonglér <b>B</b> má v každé ruce jeden míček. Oba mají zkřížené ruce. Levou pod pravou.
 </p>
 
 
 <p>
 {obrazek soubor="micky-passingmmb.png" popisek=""}
-Žonglér <b>A</b> hodí první míček z levé ruky na pravou stranu žongléra <b>B</b>. Oba synchroně přendáváte ruce.
+Žonglér <b>A</b> hodí první míček z levé ruky na pravou stranu žongléra <b>B</b>. Oba synchronně přendaváte ruce.
 </p>
 
 
@@ -31,7 +31,7 @@ Zatímco míček letí, oba žongléři synchronizovaně mění polohu rukou.
 
 <p>
 {obrazek soubor="micky-passingmmf.png" popisek=""}
-Oba žongléři mají opět zkřížené ruce. Pravou pod levou. Žonglér <b>A</b> vyhodí míček z levé ruky nahoru, překříží ruce a do pravé ruky chytá míček který hodil žonglér <b>B</b>.
+Oba žongléři mají opět zkřížené ruce. Pravou pod levou. Žonglér <b>A</b> vyhodí míček z levé ruky nahoru, překříží ruce a do pravé ruky chytá míček, který hodil žonglér <b>B</b>.
 </p>
 
 <p>
