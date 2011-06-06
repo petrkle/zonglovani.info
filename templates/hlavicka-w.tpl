@@ -14,6 +14,9 @@
 	<link rel="stylesheet" media="screen and (min-width: 610px)" type="text/css" href="/zw.css" />
 	<link rel="stylesheet" media="only screen and (-webkit-min-device-pixel-ratio: 2)" href="/zw.css" />
 	<link rel="stylesheet" media="print" type="text/css" href="/zt.css" />
+{if $mobilemapa}
+	<link rel="stylesheet" media="screen" type="text/css" href="/m.mobile.css" />
+{/if}
 <!--[if lt IE 9]>
 	<link rel="stylesheet" type="text/css" href="/zw.css">
 <![endif]-->
