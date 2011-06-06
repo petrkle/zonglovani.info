@@ -11,7 +11,7 @@
 {/if}
 	<meta name="viewport" content="width=device-width">
 	<link rel="stylesheet" media="screen" type="text/css" href="/plain.css" />
-	<link rel="stylesheet" media="screen and (min-width: 500px)" type="text/css" href="/z.css" />
+	<link rel="stylesheet" media="screen and (min-width: 610px)" type="text/css" href="/z.css" />
 	<link rel="stylesheet" media="only screen and (-webkit-min-device-pixel-ratio: 2)" href="/z.css" />
 	<link rel="stylesheet" media="print" type="text/css" href="/zt.css" />
 <!--[if lt IE 9]>
@@ -19,7 +19,7 @@
 <![endif]-->
 {if $styly}
 {foreach from=$styly item=styl}
-	<link rel="stylesheet" media="screen and (min-width: 500px)" type="text/css" href="{$styl}" />
+	<link rel="stylesheet" media="screen and (min-width: 610px)" type="text/css" href="{$styl}" />
 <!--[if lt IE 9]>
 	<link rel="stylesheet" type="text/css" href="{$styl}">
 <![endif]-->
