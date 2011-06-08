@@ -100,6 +100,7 @@ jsou popisky ve widgetu omezené na délku - ano
 asynchronní verze GA
 rozšíření pro chrome target _blank místo _top, aby fungovaly odkazy
 video - štítky, přidat pžm2 a sdílet na fb
+status 500 při výpadku databáze
 
 .ssh/config
 ===========
