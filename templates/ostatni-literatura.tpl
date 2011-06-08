@@ -7,7 +7,7 @@ Základní příručka každého žongléra. Napsal Palo Blaho.
 <a name="zv"></a><h3><a href="/zonglerska-vikendovka.pdf" title="Žonglérská víkendovka" onclick="_gaq.push(['_trackPageview','/zonglerska-vikendovka.pdf']);" class="pdf">Žonglérská víkendovka</a></h3>
 <p>
 <a href="/zonglerska-vikendovka.pdf" title="Žonglérská víkendovka" onclick="_gaq.push(['_trackPageview','/zonglerska-vikendovka.pdf']);">{obrazek soubor="zonglerska-vikendovka.png" popisek="Žonglérská víkendovka"}</a>
-Brožura pro výuku žonglování na víkendových kurzech. Popisuje základy žonglování s míčky a točení s poi. Sestavil <a href="{$smarty.const.LIDE_URL}martin.html" title="Žonglér Martin Perlík">Martin Perlík</a>.
+Brožura pro výuku žonglování na víkendových kurzech. Popisuje základy žonglování s míčky a točení s poi. Sestavil Martin Perlík.
 </p>
 
 <a name="poi"></a><h3><a href="/poi-richee.pdf" title="Točení s poi." onclick="_gaq.push(['_trackPageview','/poi-richee.pdf']);" class="pdf">Poi</a></h3>
