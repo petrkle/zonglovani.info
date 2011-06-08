@@ -16,6 +16,7 @@ RewriteRule ^dovednost/(.+)\.html$ dovednost.php?filtr=$1 [L]
 
 RewriteRule ^misto$ /lide/misto/ [R=301,L]
 RewriteRule ^misto/$ misto.php [L]
+RewriteRule ^misto/slezko\.html$ misto/slezsko.html [R=301,L]
 RewriteRule ^misto/(.+)\.html$ misto.php?filtr=$1 [L]
 
 RewriteRule ^stranka([^/]+)$ /lide/stranka$1/ [R=301,L]
