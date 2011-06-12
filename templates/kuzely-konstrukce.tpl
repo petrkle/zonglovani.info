@@ -22,7 +22,7 @@ Hmotnost kuželu se pohybuje mezi 200 až 250 gramy.
 </p>
 
 <p>
-Konkrétní názvy  kuželů: piruette, classic, flip, delphin, radical fish, ...
+Konkrétní názvy kuželů: <a href="druhy.html#pirouette">Piruette</a>, <a href="druhy.html#classic">Classic</a>, <a href="druhy.html#flip">Flip</a>, Delphin, <a href="druhy.html#radicalfish">Radical&nbsp;fish</a>,&nbsp;...
 </p>
 
 <p>
