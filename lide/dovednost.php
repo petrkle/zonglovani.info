@@ -74,6 +74,7 @@ if($filtr){
 	$trail->addStep('Podle dovedností',LIDE_URL.'dovednost/');
 	$smarty->assign_by_ref('trail', $trail->path);
 	$smarty->assign('titulek','Žongléři podle dovedností');
+	$smarty->assign('description','Seznam žonglérů podle dovedností.');
 	$smarty->display('hlavicka.tpl');
 	$smarty->display('lide-dovednosti.tpl');
 	$smarty->display('paticka.tpl');

@@ -5,6 +5,7 @@ require('../func.php');
 $titulek='Zapomenuté heslo';
 
 $smarty->assign('titulek',$titulek);
+$smarty->assign('description','Obnova zapomenutého hesla.');
 
 $trail = new Trail();
 $trail->addStep('Seznam žonglérů',LIDE_URL);

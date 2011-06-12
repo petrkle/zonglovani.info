@@ -1,6 +1,5 @@
 Aktuální
 ========
-- seznam míst - opravit id slezko na slezsko
 - z konstrukce kuželu odkazy na obrázky kuželů
 - čudlík na návrh a odmaskování hesla (zadávat jen 1x)
 - zjednodušit registraci, popisky rovnou u formuláře, bez stránky s podmínkami
@@ -101,6 +100,7 @@ asynchronní verze GA
 rozšíření pro chrome target _blank místo _top, aby fungovaly odkazy
 video - štítky, přidat pžm2 a sdílet na fb
 status 500 při výpadku databáze
+seznam míst - opravit id slezko na slezsko
 
 .ssh/config
 ===========
