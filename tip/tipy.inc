@@ -100,7 +100,9 @@
 2011-06-06*Ultimate Juggling Battle*/kalendar/udalost-20110618-20110618-niggy-1305068952.html*ujb1.png*Soutěž v žonglování jeden na jednoho. Dvě žonglérské kategorie - míčky a diabolo.
 2011-06-07*Den žonglování v Brně*/kalendar/udalost-20110612-20110612-pek-1305308396.html*brno-zongl.png*Oslava mezinárodního dne žonglování v Brně.
 2011-06-13*Žonglobalizace*/kalendar/udalost-20110618-20110618-pek-1304627621.html*zonglobalizace.png*Festival žonglování, hudby a tance v Plzni.
-2011-06-15*Světový den žonglování*/kalendar/udalost-20110618-20110618-pek-1299136069.html*pece-2011.png*Světový den žonglování v parku na Židovských pecích.
+2011-06-14*Den žonglování v Ostravě*/kalendar/udalost-20110617-20110618-cozzi-1307695295.html*ostrava-2011.jpg*Oslavy dne žonglování v Ostravě.
+2011-06-15*Světový den žonglování*/kalendar/udalost-20110618-20110618-pek-1299136069.html*pece-2011.png*Světový den žonglování v parku na Židovských pecích v Praze.
+2011-06-19*3 play in Prague*/video/3-play-in-prague.html*3playprague.jpg*Žonglování se třemi míčky od Play.
 2011-06-20*Mistrovství ČR ve fire performance*/kalendar/udalost-20110624-20110624-pek-1304157243.html*mcrfp2011.png*Ad infinitum a PVP team vyhlašují mistrovství ČR v žonglování a točení s ohněm.
 2011-06-22*Polná v plamenech*/kalendar/udalost-20110625-20110625-pek-1300568950.html*pvp2011.png*Druhý ročník festivalu ohně a žonglování. Koná se v Polné u Jihlavy.
 2011-06-27*Slovenská Úúú Letná Oslava Žonglovania*/kalendar/udalost-20110701-20110703-mizu-1300967085.html*suloz2011.jpg*Voľné stretnutie žonglérov a takých. Akcia je zdarma, každý si platí len ubytovanie v campe.
