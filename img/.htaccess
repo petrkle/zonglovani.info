@@ -9,9 +9,8 @@ RewriteRule ^(.*)$ $1 [F]
 
 RewriteCond %{HTTP_REFERER} !^http://(.*)zongl(.*)\.info [NC]
 RewriteCond %{HTTP_REFERER} !^$
-RewriteCond %{SCRIPT_FILENAME} !.*slabikar-fb.png
+RewriteCond %{SCRIPT_FILENAME} !.*qrcode-.*.png
 RewriteCond %{SCRIPT_FILENAME} !.*ulita.*.png
-RewriteCond %{SCRIPT_FILENAME} !.*fb-pruh.png
 RewriteRule (.+)\.(jpg|png)$ /img/vodoznak.php?img=$1.$2 [L]
 
 RewriteRule ^(.)([^/]*).(png|gif|jpg)$ $1/$1$2.$3 [R=301,L]

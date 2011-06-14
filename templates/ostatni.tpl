@@ -137,6 +137,12 @@ Celosvětová diskusní skupina o žonglování.
 </p>
 <!-- stop -->
 
+<h3><a href="/mobil.html" title="Žonglérův slabikář v mobilu">Žonglérův slabikář v mobilu</a></h3>
+<p>
+<a href="/mobil.html" title="Žonglérův slabikář v mobilu">{obrazek soubor='mobil-xperia-w.s.jpg' popisek='Žonglování v kapse'}</a>
+Žonglérův slabikář je přizpůsobený prohlížení na mobilních telefonech.
+</p>
+
 <h3><a href="/proc-a-jak.html" title="Proč a jak vznikl žonglérův slabikář.">Proč a jak vznikl žonglérův slabikář</a></h3>
 <p>
 Trocha historie.

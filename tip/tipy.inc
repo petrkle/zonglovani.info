@@ -106,6 +106,7 @@
 2011-06-20*Mistrovství ČR ve fire performance*/kalendar/udalost-20110624-20110624-pek-1304157243.html*mcrfp2011.png*Ad infinitum a PVP team vyhlašují mistrovství ČR v žonglování a točení s ohněm.
 2011-06-22*Polná v plamenech*/kalendar/udalost-20110625-20110625-pek-1300568950.html*pvp2011.png*Druhý ročník festivalu ohně a žonglování. Koná se v Polné u Jihlavy.
 2011-06-27*Slovenská Úúú Letná Oslava Žonglovania*/kalendar/udalost-20110701-20110703-mizu-1300967085.html*suloz2011.jpg*Voľné stretnutie žonglérov a takých. Akcia je zdarma, každý si platí len ubytovanie v campe.
+2011-06-30*Žonglérův slabikář v mobilu*/mobil.html*mobil-xperia-w.s.jpg*Žonglérův slabikář je přizpůsobený prohlížení na mobilních telefonech.
 2011-07-04*European Juggling Convention*/kalendar/ejc.html*ejc2011s.png*Evropské setkání žonglérů v Mnichově začíná za měsíc. Nejvyšší čas sehnat si odvoz do Německa.
 2011-07-11*Počúvadlo*/kalendar/udalost-20110717-20110727-pek-1301588303.html*pocuvadlo.jpg*Letný Divadelný Tábor na Počúvadle.
 2011-07-18*Aleje*/kalendar/udalost-20110820-20110826-pek-1293471692.html*aleje-logo.jpg*Za měsíc začne 10. mezinárodní žonglérská a divadelní dílna Aleje 2010.
