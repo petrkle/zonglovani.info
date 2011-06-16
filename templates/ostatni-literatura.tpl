@@ -41,8 +41,14 @@ Anglická knížka, kterou sepsal Hans Vanwynsberghe. Nedokončená, ale i přes
 Návody na passování, které sepsal Lee Kolinsky.
 </p>
 
-<a name="hpp"></a><h3><a href="/highgate-passing-patterns.pdf" title="Točení s poi." onclick="_gaq.push(['_trackPageview','/passing-patterns.pdf']);" class="pdf">The Highgate Collection</a></h3>
+<a name="hpp"></a><h3><a href="/highgate-passing-patterns.pdf" title="Passing s kužely" onclick="_gaq.push(['_trackPageview','/passing-patterns.pdf']);" class="pdf">The Highgate Collection</a></h3>
 <p>
 <a href="/highgate-passing-patterns.pdf" title="The Highgate Collection" onclick="_gaq.push(['_trackPageview','/highgate-passing-patterns.pdf']);">{obrazek soubor="highgate-passing-patterns.png" popisek="The Highgate Collection"}</a>
-Návody na passování pro dva až čtyři lidi od Aidana Burnse.
+Návody na passování pro dva až čtyři lidi od <a href="http://www.geocities.ws/aidanjburns/" class="external" onclick="_gaq.push(['_trackPageview','/goto/geocities.ws/aidanjburns']);">Aidana Burnse</a>.
+</p>
+
+<a name="takeouts"></a><h3><a href="/takeouts.pdf" title="Přebírání kuželů" onclick="_gaq.push(['_trackPageview','/takeouts.pdf']);" class="pdf">How to steal from your friends</a></h3>
+<p>
+<a href="/takeouts.pdf" title="How to steal from your friends" onclick="_gaq.push(['_trackPageview','/takeouts.pdf']);">{obrazek soubor="takeouts.jpg" popisek="How to steal from your friends"}</a>
+Návody na přebírání kuželů pro tři až šest lidí od <a href="http://www.geocities.ws/aidanjburns/" class="external" onclick="_gaq.push(['_trackPageview','/goto/geocities.ws/aidanjburns']);">Aidana Burnse</a>.
 </p>
