@@ -22,6 +22,12 @@ Stránky o žonglování s ohněm.
 Profesionální fireshow skupina.
 </p>
 
+<a name="zongleri"></a><h5><a href="http://www.zongleri.cz/" title="Kruhová parabola" class="external" onclick="_gaq.push(['_trackPageview','/goto/zongleri.cz']);">Kruhová parabola</a></h5>
+<p>
+<a href="http://www.zongleri.cz/" title="Kruhová parabola" onclick="_gaq.push(['_trackPageview','/goto/zongleri.cz']);">{obrazek soubor="odkazy-zongleri.cz.png" popisek="zongleri.cz"}</a>
+Žonglérská skupina Kruhová parabola.
+</p>
+
 <a name="firelovers"></a><h5><a href="http://firelovers.cz/" title="Fireshow firelovers" class="external" onclick="_gaq.push(['_trackPageview','/goto/firelovers.cz']);">firelovers.cz</a></h5>
 <p>
 <a href="http://firelovers.cz/" title="Fireshow firelovers" class="external" onclick="_gaq.push(['_trackPageview','/goto/firelovers.cz']);">{obrazek soubor="odkazy-firelovers.jpg" popisek="firelovers.cz"}</a>
