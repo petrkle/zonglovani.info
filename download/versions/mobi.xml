@@ -4,6 +4,15 @@
 	<description>Žonglérův slabikář jako elektronická kniha. Vhodné pro &lt;strong&gt;Amazon Kindle&lt;/strong&gt;.</description>
 
 	<release>
+		<version>0.3</version>
+		<filename>zongleruv-slabikar-0.3.mobi</filename>
+		<size>8M</size>
+		<md5>e8e266b9eb885c7010f6e7f95c7942be</md5>
+		<date>2011-06-18</date>
+		<img>package-mobi.png</img>
+	</release>
+
+	<release>
 		<version>0.2</version>
 		<filename>zongleruv-slabikar-0.2.mobi</filename>
 		<size>10M</size>

@@ -3,6 +3,15 @@
 	<description>Žonglérův slabikář - statická verze. Bez instalátoru, pouze pro zkušené uživatele.</description>
 
 	<release>
+		<version>0.3</version>
+		<filename>zongleruv-slabikar-0.3.tar.bz2</filename>
+		<size>11M</size>
+		<md5>caf26066b6dec0864a2e69ba98e521c8</md5>
+		<date>2011-06-18</date>
+		<img>package-tar.bz2.png</img>
+	</release>
+
+	<release>
 		<version>0.2</version>
 		<filename>zongleruv-slabikar-0.2.tar.bz2</filename>
 		<size>10M</size>

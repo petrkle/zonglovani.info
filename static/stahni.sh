@@ -21,7 +21,7 @@ wget \
 	http://zongl.info/img/k/kuzely-logo.gif \
 	http://zongl.info/img/o/odkazy-slabikar.png \
 	--reject pdf \
-	-X animace,video,obrazky,mapa,kalendar,ulita,lide,diskuse,obrazky-na-plochu,navody,scripts,horoskop,vyhledavani,tip,rss
+	-X animace,video,obrazky,mapa,kalendar,ulita,lide,diskuse,obrazky-na-plochu,navody,scripts,horoskop,vyhledavani,tip,rss,download
 
 mv zongl.info zongleruv-slabikar
 #	'jak-odkazovat.html', \

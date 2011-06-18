@@ -1,4 +1,4 @@
-VERSION=0.2
+VERSION=0.3
 
 help:
 	@echo "help     - napoveda"
@@ -17,7 +17,7 @@ book:
 	./book.sh ${VERSION}
 
 mobi:
-	cd zs && kindlegen -c1 -unicode slabikar.opf -o zongleruv-slabikar-${VERSION}.mobi && cd ..
+	cd zs && kindlegen -c1 -rebuild slabikar.opf -o zongleruv-slabikar-${VERSION}.mobi && cd ..
 
 img:
 	find zs/img/ -name "*.png" -o -name "*.jpg" -exec convert \{\} -colorspace Gray -shave 1x1 -bordercolor black -border 1 \{\} \;
