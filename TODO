@@ -118,3 +118,8 @@ git
 ===
 git push
 git pull --no-ff --rebase
+
+webm
+====
+convert multi-columns.gif multi-columns-%05d.png
+ffmpeg -r 15 -i multi-columns-%05d.png -y -an multi-columns.webm
