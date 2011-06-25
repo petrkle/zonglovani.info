@@ -7,6 +7,11 @@ var _gaq = _gaq || [];
 _gaq.push(['_setAccount', 'UA-1140497-3']);
 _gaq.push(['_addOrganic', 'search.centrum.cz', 'q']);
 _gaq.push(['_addOrganic', 'searchatlas.centrum.cz', 'q']);
+{if isset($smarty.session.logged) and $smarty.session.logged==true}
+_gaq.push(['_setCustomVar', 1, 'login', 'true', 2]);
+{else}
+_gaq.push(['_setCustomVar', 1, 'login', 'false', 2]);
+{/if}
 {if $nenalezeno_404}
  _gaq.push(['_trackPageview', '/404/' + document.location.pathname + document.location.search + '&amp;from=' + document.referrer]);
 {else}

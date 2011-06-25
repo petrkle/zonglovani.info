@@ -1,6 +1,5 @@
 Aktuální
 ========
-- odhlašovací stránka s upozorněním na mobilní verzi žonglérova slabikáře (vem si žonglování sebou do kapsy)?
 - přejmenovat tip týdne na novinky, přidat do menu, na úvodní stránce nahoře?
 - gify do webm
 - čudlík na návrh a odmaskování hesla (zadávat jen 1x)
@@ -104,6 +103,8 @@ video - štítky, přidat pžm2 a sdílet na fb
 status 500 při výpadku databáze
 seznam míst - opravit id slezko na slezsko
 z konstrukce kuželu odkazy na obrázky kuželů
+odhlašovací stránka s upozorněním na mobilní verzi žonglérova slabikáře (vem si žonglování sebou do kapsy)
+google analytics - rozlišení přihlášených a odhlášených uživatelů
 
 .ssh/config
 ===========

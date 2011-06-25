@@ -85,7 +85,7 @@ li.star{list-style:url(img/s/star-s.png);}
 ul{list-style:circle;margin:0 0 5px 0;}
 .szn{list-style:circle;}
 .szn li{list-style-position:inside;}
-.skryte,.hltip{display:none;}
+.skryte{display:none;}
 .animace{padding-top:15px;}.animace a{line-height:2em;}.animace img{border: solid 0px;margin-top:-13px;margin-right:5px;}
 abbr{text-decoration:none;border-bottom:0px dashed #000;}
 .pl{background:#eee;padding:4px;margin:0;}
