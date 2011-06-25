@@ -14,6 +14,10 @@ if(isset($_GET['next']) and preg_match('/^\//',$_GET['next'])){
 	$next='/';
 }
 
+if(preg_match('/odhlaseni/',$next)){
+	$next='/';
+}
+
 if(is_logged()){
 	header('Location: '.LIDE_URL.'nastaveni');
 	exit();

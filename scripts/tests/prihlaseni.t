@@ -1,7 +1,7 @@
 #!/usr/bin/perl -w
 use strict;
 use WWW::Mechanize;
-use Test::More tests => 8;
+use Test::More tests => 9;
 use Net::Netrc;
 
 my $loginurl = 'http://zongl.info/lide/prihlaseni.php';
@@ -32,6 +32,7 @@ my $odhlaseni=$zs_logout->content();
 
 ok(defined($odhlaseni), 'Odhlašovací stránka je dostupná');
 ok($odhlaseni =~ />Přihlášení<\/a>/, 'Odkaz na přihlášení');
+ok($odhlaseni =~ /Odhlášení proběhlo úspěšně/, 'Odhlášení proběhlo úspěšně');
 ok($odhlaseni =~ />Založit účet<\/a>/, 'Odkaz na založení účtu');
 
 my $zs_nastaveni = $bot->get('http://zongl.info/lide/nastaveni');
