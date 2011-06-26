@@ -3,6 +3,15 @@
 	<description>Instalační balíček pro Windows. Umožňuje hromadnou instalaci žonglérova slabikáře např. ve školní síti.</description>
 
 	<release>
+		<version>0.3</version>
+		<filename>zongleruv-slabikar-0.3.msi</filename>
+		<size>13M</size>
+		<md5>ec0c5447837da847f7368ac35e8252e0</md5>
+		<date>2011-06-26</date>
+		<img>package-msi.png</img>
+	</release>
+
+	<release>
 		<version>0.2</version>
 		<filename>zongleruv-slabikar-0.2.msi</filename>
 		<size>12M</size>

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
-   <Product Id='e61d539c-6b59-4157-b0b9-a781aacee856' Name='Žonglérův slabikář' Language='1029' 
-            Version='0.2.0.0' Manufacturer='www.zonglovani.info' UpgradeCode='28fae9a7-5822-43a8-bf8c-f306f573a1fc' >
+   <Product Id='3b0f9984-043d-44c4-a611-ea9a7fb8ba04' Name='Žonglérův slabikář' Language='1029' 
+            Version='0.3.0.0' Manufacturer='www.zonglovani.info' UpgradeCode='28fae9a7-5822-43a8-bf8c-f306f573a1fc' >
       <Package Description='Obrázková učebnice žonglování s míčky, kruhy a kužely.'
                Comments='Žonglérův slabikář'
 							 Manufacturer='www.zonglovani.info' InstallerVersion='202' Compressed='yes'
@@ -14,7 +14,7 @@
 <Upgrade Id='28fae9a7-5822-43a8-bf8c-f306f573a1fc'>
   <UpgradeVersion OnlyDetect='no' Property='PREVIOUSFOUND'
     Minimum='0.0.1' IncludeMinimum='yes'
-    Maximum='0.2.0' IncludeMaximum='no' />
+    Maximum='0.3.0' IncludeMaximum='no' />
 </Upgrade>
 
 
@@ -69,6 +69,7 @@
 
 <Feature Id='main' Title='Žonglérův slabikář' Description='Obrázková učebnice žonglování s míčky, kruhy a kužely.' Level='1'>
 	<ComponentRef Id="cmpExeLauncher" />
+	<ComponentRef Id="cmp64A63E8F6A804CD5AB53448C3F87AE93" />
 	<ComponentRef Id="cmp4499330970C55BAF7F69794B8C03F743" />
 	<ComponentRef Id="cmpB29C4E8656D97D8A41CBA7AA46D5CD83" />
 	<ComponentRef Id="cmpBDCBAA280D21363E2FF9EBF417EA44F9" />
@@ -1339,6 +1340,9 @@
 					</Component>
 					<Component Id="cmp8E483250168FFD788275A3C1D760371F" Guid="52312662-4372-4821-B28F-1D58B2B900C5">
 							<File Id="fil59615FBF36E406F823C72381F926A507" KeyPath="yes" Source="zongleruv-slabikar\z.css" />
+					</Component>
+					<Component Id="cmp64A63E8F6A804CD5AB53448C3F87AE93" Guid="64A63E8F-6A80-4CD5-AB53-448C3F87AE93">
+							<File Id="fil64A63E8F6A804CD5AB53448C3F87AE93" KeyPath="yes" Source="zongleruv-slabikar\plain.css" />
 					</Component>
 					<Component Id="cmp3CD11906F89FAE9A92B302BA1BE5067A" Guid="03F8E18E-6185-49EA-BAE3-0A14C3D699FE">
 							<File Id="fil0CE2FFF7DD832A24E1E257D6FE9EB91A" KeyPath="yes" Source="zongleruv-slabikar\zakladni-pojmy.html" />

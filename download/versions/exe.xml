@@ -4,6 +4,15 @@
 	<description>Instalace žonglérova slabikáře pro systém &lt;strong&gt;Windows&lt;/strong&gt;. Dovolí ti prohlížet žonglérův slabikář i na počítačích bez internetu.</description>
 
 	<release>
+		<version>0.3</version>
+		<filename>zongleruv-slabikar-0.3.exe</filename>
+		<size>12M</size>
+		<md5>ae01586e5d1009a2bf2f3f297a27bacb</md5>
+		<date>2011-06-26</date>
+		<img>package-exe.png</img>
+	</release>
+
+	<release>
 		<version>0.2</version>
 		<filename>zongleruv-slabikar-0.2.exe</filename>
 		<size>11M</size>
