@@ -210,11 +210,11 @@ if($id and $photo){
 			$smarty->assign('nadpis',$gal_info['title']);
 			$smarty->assign('gal_info',$gal_info);
 			$smarty->assign('obrazek',$obrazek);
-			$smarty->display('hlavicka-w.tpl');
 			if($_SERVER['REQUEST_URI']!=OBRAZKY_URL.$id.$page.$obrazek['url_file']){
 				header('Location: '.OBRAZKY_URL.$id.$page.$obrazek['url_file']);
 				exit();
 			}
+			$smarty->display('hlavicka-w.tpl');
 			$smarty->display('obrazek.tpl');
 			$smarty->display('paticka-w.tpl');
 		}else{
