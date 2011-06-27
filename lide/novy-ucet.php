@@ -116,6 +116,18 @@ if(preg_match('/[^-a-z0-9]/i',$login)){
 	array_push($chyby,'Login obsahuje nepovolené znaky.');
 }
 
+if(preg_match('/^-/i',$login)){
+	array_push($chyby,'Login nesmí začínat pomlčkou.');
+}
+
+if(preg_match('/-$/i',$login)){
+	array_push($chyby,'Login nesmí koncit pomlčkou.');
+}
+
+if(preg_match('/-{2,}/i',$login)){
+	array_push($chyby,'Login nesmí obsahovat víc pomlček za sebou.');
+}
+
 $reserved_accounts=array('sendmail','pek','admin','webmaster','root','robot','petr','kletecka','petr-kletecka','petrkletecka','administrator','system','test','tmp');
 if(in_array($login,$reserved_accounts)){
 	array_push($chyby,'Tento login nelze vytvořit.');
