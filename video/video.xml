@@ -45,6 +45,21 @@
 </video:video>
 </url>
 <url>
+<loc>http://zonglovani.info/video/a-new-ratio.html</loc>
+<video:video>
+<video:thumbnail_loc>http://zonglovani.info/video/img/a/a-new-ratio.jpg</video:thumbnail_loc>
+<video:title>A New Ratio</video:title>
+<video:description>Emil Lamprecht and Doreen Großmann passují s kužely na střeše.</video:description>
+<video:content_loc>http://juggling.tv/video/encoded/A%20New%20Ratio-JTV-i6045.mp4</video:content_loc>
+<video:player_loc>http://juggling.tv/nvplayer.swf?config=http://juggling.tv/nuevo/config.php?key=9b2a25b247ac15989090</video:player_loc>
+<video:duration>92</video:duration>
+<video:tag>Žonglování</video:tag>
+<video:category>Žonglování</video:category>
+<video:gallery_loc title="Žonglérská videa">http://zonglovani.info/video/</video:gallery_loc>
+<video:requires_subscription>no</video:requires_subscription>
+</video:video>
+</url>
+<url>
 <loc>http://zonglovani.info/video/balance-tricks-2.html</loc>
 <video:video>
 <video:thumbnail_loc>http://zonglovani.info/video/img/b/balance-tricks-2.jpg</video:thumbnail_loc>
@@ -539,6 +554,21 @@
 </video:video>
 </url>
 <url>
+<loc>http://zonglovani.info/video/trouble.html</loc>
+<video:video>
+<video:thumbnail_loc>http://zonglovani.info/video/img/t/trouble.jpg</video:thumbnail_loc>
+<video:title>Trouble</video:title>
+<video:description>Žonglování v Huštěnovicích.</video:description>
+<video:content_loc>http://juggling.tv/download/encoded/6285/trouble.mp4</video:content_loc>
+<video:player_loc>http://juggling.tv/nvplayer.swf?config=http://juggling.tv/nuevo/config.php?key=b8b6c3c69eceae636d20</video:player_loc>
+<video:duration>181</video:duration>
+<video:tag>Žonglování</video:tag>
+<video:category>Žonglování</video:category>
+<video:gallery_loc title="Žonglérská videa">http://zonglovani.info/video/</video:gallery_loc>
+<video:requires_subscription>no</video:requires_subscription>
+</video:video>
+</url>
+<url>
 <loc>http://zonglovani.info/video/what-the-beepbeep-do-we-know.html</loc>
 <video:video>
 <video:thumbnail_loc>http://zonglovani.info/video/img/w/what-the-beepbeep-do-we-know.jpg</video:thumbnail_loc>
@@ -598,11 +628,26 @@
 </video:video>
 </url>
 <url>
+<loc>http://zonglovani.info/video/3-play-in-prague.html</loc>
+<video:video>
+<video:thumbnail_loc>http://zonglovani.info/video/img/3/3-play-in-prague.jpg</video:thumbnail_loc>
+<video:title>3 play in Prague</video:title>
+<video:description>Mižu žongluje se třemi míčky od Play v Praze.</video:description>
+<video:content_loc>http://juggling.tv/download/encoded/4237/3-play-in-prague.mp4</video:content_loc>
+<video:player_loc>http://juggling.tv/nvplayer.swf?config=http://juggling.tv/nuevo/config.php?key=6281335a10732fc49620</video:player_loc>
+<video:duration>215</video:duration>
+<video:tag>Žonglování</video:tag>
+<video:category>Žonglování</video:category>
+<video:gallery_loc title="Žonglérská videa">http://zonglovani.info/video/</video:gallery_loc>
+<video:requires_subscription>no</video:requires_subscription>
+</video:video>
+</url>
+<url>
 <loc>http://zonglovani.info/video/4000000-extreme-juggling.html</loc>
 <video:video>
 <video:thumbnail_loc>http://zonglovani.info/video/img/4/4000000-extreme-juggling.jpg</video:thumbnail_loc>
 <video:title>4,000,000% Extreme Juggling</video:title>
-<video:description>Alan a Thom passují s kužely. Video z tréninku který se uskutečnil 5. dubna 2008.</video:description>
+<video:description>Alan a Thom passují s kužely. Video z tréninku, který se uskutečnil 5. dubna 2008.</video:description>
 <video:player_loc>http://www.youtube.com/v/ZrrVsH5QEeM</video:player_loc>
 <video:duration>531</video:duration>
 <video:tag>Žonglování</video:tag>
@@ -725,6 +770,160 @@
 <video:content_loc>http://juggling.tv/download/encoded/5588/dresden-juggling-festival-2011-unicycles.mp4</video:content_loc>
 <video:player_loc>http://juggling.tv/nvplayer.swf?config=http://juggling.tv/nuevo/config.php?key=fe2da891b58a2dab18f8</video:player_loc>
 <video:duration>325</video:duration>
+<video:tag>Žonglování</video:tag>
+<video:category>Žonglování</video:category>
+<video:gallery_loc title="Žonglérská videa">http://zonglovani.info/video/</video:gallery_loc>
+<video:requires_subscription>no</video:requires_subscription>
+</video:video>
+</url>
+<url>
+<loc>http://zonglovani.info/video/navody/balance-juggling.html</loc>
+<video:video>
+<video:thumbnail_loc>http://zonglovani.info/video/img/b/balance-juggling.jpg</video:thumbnail_loc>
+<video:title>Balancování kuželky na bradě</video:title>
+<video:description>Jak házet kaskádu a současně balancovat kuželku na bradě.</video:description>
+<video:player_loc>http://www.youtube.com/v/wuP3krke8TI</video:player_loc>
+<video:duration>599</video:duration>
+<video:tag>Žonglování</video:tag>
+<video:category>Žonglování</video:category>
+<video:gallery_loc title="Žonglérská videa">http://zonglovani.info/video/</video:gallery_loc>
+<video:requires_subscription>no</video:requires_subscription>
+</video:video>
+</url>
+<url>
+<loc>http://zonglovani.info/video/navody/behind-the-head-passing.html</loc>
+<video:video>
+<video:thumbnail_loc>http://zonglovani.info/video/img/b/behind-the-head-passing.jpg</video:thumbnail_loc>
+<video:title>Passing za hlavou</video:title>
+<video:description>Házení za hlavou při passingu.</video:description>
+<video:player_loc>http://www.youtube.com/v/iArR6jKoaVM</video:player_loc>
+<video:duration>225</video:duration>
+<video:tag>Žonglování</video:tag>
+<video:category>Žonglování</video:category>
+<video:gallery_loc title="Žonglérská videa">http://zonglovani.info/video/</video:gallery_loc>
+<video:requires_subscription>no</video:requires_subscription>
+</video:video>
+</url>
+<url>
+<loc>http://zonglovani.info/video/navody/club-passing-variation.html</loc>
+<video:video>
+<video:thumbnail_loc>http://zonglovani.info/video/img/c/club-passing-variation.jpg</video:thumbnail_loc>
+<video:title>Passing s pěti kužely</video:title>
+<video:description>Variace passování pěti kuželů.</video:description>
+<video:player_loc>http://www.youtube.com/v/5tv6QKT99B4</video:player_loc>
+<video:duration>221</video:duration>
+<video:tag>Žonglování</video:tag>
+<video:category>Žonglování</video:category>
+<video:gallery_loc title="Žonglérská videa">http://zonglovani.info/video/</video:gallery_loc>
+<video:requires_subscription>no</video:requires_subscription>
+</video:video>
+</url>
+<url>
+<loc>http://zonglovani.info/video/navody/doctor-attack.html</loc>
+<video:video>
+<video:thumbnail_loc>http://zonglovani.info/video/img/d/doctor-attack.jpg</video:thumbnail_loc>
+<video:title>Útok doktora</video:title>
+<video:description>Trik při passingu s šesti kužely.</video:description>
+<video:player_loc>http://www.youtube.com/v/9OQm1I3wAUg</video:player_loc>
+<video:duration>249</video:duration>
+<video:tag>Žonglování</video:tag>
+<video:category>Žonglování</video:category>
+<video:gallery_loc title="Žonglérská videa">http://zonglovani.info/video/</video:gallery_loc>
+<video:requires_subscription>no</video:requires_subscription>
+</video:video>
+</url>
+<url>
+<loc>http://zonglovani.info/video/navody/flourish-tutorial.html</loc>
+<video:video>
+<video:thumbnail_loc>http://zonglovani.info/video/img/f/flourish-tutorial.jpg</video:thumbnail_loc>
+<video:title>Kytička</video:title>
+<video:description>Jak udělat při žonglování kytičku s kuželem.</video:description>
+<video:player_loc>http://www.youtube.com/v/ncedz0EFr8s</video:player_loc>
+<video:duration>478</video:duration>
+<video:tag>Žonglování</video:tag>
+<video:category>Žonglování</video:category>
+<video:gallery_loc title="Žonglérská videa">http://zonglovani.info/video/</video:gallery_loc>
+<video:requires_subscription>no</video:requires_subscription>
+</video:video>
+</url>
+<url>
+<loc>http://zonglovani.info/video/navody/otocka.html</loc>
+<video:video>
+<video:thumbnail_loc>http://zonglovani.info/video/img/o/otocka.jpg</video:thumbnail_loc>
+<video:title>Otočka</video:title>
+<video:description>Otočka při žonglování s kužely.</video:description>
+<video:player_loc>http://www.youtube.com/v/jvgrkaOGpPY</video:player_loc>
+<video:duration>285</video:duration>
+<video:tag>Žonglování</video:tag>
+<video:category>Žonglování</video:category>
+<video:gallery_loc title="Žonglérská videa">http://zonglovani.info/video/</video:gallery_loc>
+<video:requires_subscription>no</video:requires_subscription>
+</video:video>
+</url>
+<url>
+<loc>http://zonglovani.info/video/navody/roundabout-tutorial.html</loc>
+<video:video>
+<video:thumbnail_loc>http://zonglovani.info/video/img/r/roundabout-tutorial.jpg</video:thumbnail_loc>
+<video:title>Kolotoč</video:title>
+<video:description>Návod na kolotoč.</video:description>
+<video:player_loc>http://www.youtube.com/v/yCp2hriHZhM</video:player_loc>
+<video:duration>195</video:duration>
+<video:tag>Žonglování</video:tag>
+<video:category>Žonglování</video:category>
+<video:gallery_loc title="Žonglérská videa">http://zonglovani.info/video/</video:gallery_loc>
+<video:requires_subscription>no</video:requires_subscription>
+</video:video>
+</url>
+<url>
+<loc>http://zonglovani.info/video/navody/russian-balls.html</loc>
+<video:video>
+<video:thumbnail_loc>http://zonglovani.info/video/img/r/russian-balls.jpg</video:thumbnail_loc>
+<video:title>Ruské míčky</video:title>
+<video:description>Návod na výrobu ruských míčků.</video:description>
+<video:player_loc>http://www.youtube.com/v/eh8yIkrdV9g</video:player_loc>
+<video:duration>434</video:duration>
+<video:tag>Žonglování</video:tag>
+<video:category>Žonglování</video:category>
+<video:gallery_loc title="Žonglérská videa">http://zonglovani.info/video/</video:gallery_loc>
+<video:requires_subscription>no</video:requires_subscription>
+</video:video>
+</url>
+<url>
+<loc>http://zonglovani.info/video/navody/shared-columns.html</loc>
+<video:video>
+<video:thumbnail_loc>http://zonglovani.info/video/img/s/shared-columns.jpg</video:thumbnail_loc>
+<video:title>Sloupy ve dvou</video:title>
+<video:description>Sloupy s kužely ve dvou lidech.</video:description>
+<video:player_loc>http://www.youtube.com/v/kPE6pHh-TfY</video:player_loc>
+<video:duration>229</video:duration>
+<video:tag>Žonglování</video:tag>
+<video:category>Žonglování</video:category>
+<video:gallery_loc title="Žonglérská videa">http://zonglovani.info/video/</video:gallery_loc>
+<video:requires_subscription>no</video:requires_subscription>
+</video:video>
+</url>
+<url>
+<loc>http://zonglovani.info/video/navody/take-out-combo.html</loc>
+<video:video>
+<video:thumbnail_loc>http://zonglovani.info/video/img/t/take-out-combo.jpg</video:thumbnail_loc>
+<video:title>Přebírání kuželů</video:title>
+<video:description>Přebírání kuželů.</video:description>
+<video:player_loc>http://www.youtube.com/v/uc88dassnLA</video:player_loc>
+<video:duration>207</video:duration>
+<video:tag>Žonglování</video:tag>
+<video:category>Žonglování</video:category>
+<video:gallery_loc title="Žonglérská videa">http://zonglovani.info/video/</video:gallery_loc>
+<video:requires_subscription>no</video:requires_subscription>
+</video:video>
+</url>
+<url>
+<loc>http://zonglovani.info/video/navody/5-ball-mills-mess.html</loc>
+<video:video>
+<video:thumbnail_loc>http://zonglovani.info/video/img/5/5-ball-mills-mess.jpg</video:thumbnail_loc>
+<video:title>Mill's Mess s pěti míčky</video:title>
+<video:description>Návod na Mill's Mess s pěti míčky.</video:description>
+<video:player_loc>http://www.youtube.com/v/5Kaq3ySEO08</video:player_loc>
+<video:duration>206</video:duration>
 <video:tag>Žonglování</video:tag>
 <video:category>Žonglování</video:category>
 <video:gallery_loc title="Žonglérská videa">http://zonglovani.info/video/</video:gallery_loc>
