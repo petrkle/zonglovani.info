@@ -31,3 +31,9 @@ Všechny pruhy dej na sebe, omotej kolem předchozí vrstvy a zajisti lepicí p�
 {obrazek soubor="kuzely-vyrobae.png" popisek=""}
 Na závěr můžeš kužel vylepšit barevnou lepicí páskou.
 </p>
+
+<h3>Složitější postup</h3>
+<p>
+<a href="/juggling-club.pdf" title="Výroba kuželu" onclick="_gaq.push(['_trackPageview','/juggling-club.pdf']);">{obrazek soubor='juggling-club-steven.png' popisek=''}</a>
+<a href="/juggling-club.pdf" title="Výroba kuželu" onclick="_gaq.push(['_trackPageview','/juggling-club.pdf']);" class="pdf">Návod na výrobu</a> hezčího kuželu od <a href="http://www.circusartsonline.com/en/props.htm" class="external" onclick="_gaq.push(['_trackPageview','/goto/circusartsonline.com/en/props.htm']);">Stevena Ragatze</a>.
+</p>
