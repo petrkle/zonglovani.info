@@ -52,3 +52,21 @@ Návody na passování pro dva až čtyři lidi od <a href="http://www.geocities
 <a href="/takeouts.pdf" title="How to steal from your friends" onclick="_gaq.push(['_trackPageview','/takeouts.pdf']);">{obrazek soubor="takeouts.jpg" popisek="How to steal from your friends"}</a>
 Návody na přebírání kuželů pro tři až šest lidí od <a href="http://www.geocities.ws/aidanjburns/" class="external" onclick="_gaq.push(['_trackPageview','/goto/geocities.ws/aidanjburns']);">Aidana Burnse</a>.
 </p>
+
+<a name="ppc"></a><h3><a href="/passingpatternscompendium.pdf" title="Passování s kužely" onclick="_gaq.push(['_trackPageview','/passingpatternscompendium.pdf']);" class="pdf">Passing patterns compendium</a></h3>
+<p>
+<a href="/passingpatternscompendium.pdf" title="Passování s kužely" onclick="_gaq.push(['_trackPageview','/passingpatternscompendium.pdf']);">{obrazek soubor="passingpatternscompendium.png" popisek="Passing patterns compendium"}</a>
+Návody na passování s kužely.
+</p>
+
+<a name="will"></a><h3><a href="/will-patterns.pdf" title="Passování s kužely" onclick="_gaq.push(['_trackPageview','/will-patterns.pdf']);" class="pdf">Will patterns</a></h3>
+<p>
+<a href="/will-patterns.pdf" title="Passování s kužely" onclick="_gaq.push(['_trackPageview','/will-patterns.pdf']);">{obrazek soubor="will.png" popisek="Will patterns"}</a>
+Návody na passování s kužely které sepsal <a href="http://www.csulb.edu/~wmurray/" title="Will Murray" onclick="_gaq.push(['_trackPageview','/goto/csulb.edu/~wmurray']);" class="external">Will Murray</a>.
+</p>
+
+<a name="mad"></a><h3><a href="/madison-area.pdf" title="Passování s kužely" onclick="_gaq.push(['_trackPageview','/madison-area.pdf']);" class="pdf">Madison area</a></h3>
+<p>
+<a href="/madison-area.pdf" title="Passování s kužely" onclick="_gaq.push(['_trackPageview','/madison-area.pdf']);">{obrazek soubor="madison-area.png" popisek="Madison area"}</a>
+Návody na passování s kužely od <a href="http://www.madjugglers.com/" title="Madison area jugglers" onclick="_gaq.push(['_trackPageview','/goto/madjugglers.com']);" class="external">Madison area jugglers</a>.
+</p>
