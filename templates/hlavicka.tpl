@@ -54,6 +54,7 @@
 	<link rel="icon" href="/img/s/slabikar-32.png" sizes="32x32" />
 	<link rel="icon" href="/img/s/slabikar-48.png" sizes="48x48" />
 	<link rel="apple-touch-icon" href="http://{$smarty.server.SERVER_NAME}/img/s/slabikar-32.png" />
+	<link rel="apple-touch-icon-precomposed" href="http://{$smarty.server.SERVER_NAME}/img/s/slabikar-32.png" />
 	<meta name="msapplication-tooltip" content="Žonglérův slabikář" />
 	<meta name="msapplication-starturl" content="http://{$smarty.server.SERVER_NAME}"./>
 	<link rel="author" href="/kontakt.html" />
