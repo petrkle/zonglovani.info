@@ -1,6 +1,6 @@
 {if $animace}
 <p>
-<img src="/animace/siteswap/{$animace.siteswap|escape}.gif" width="{$animace.sirka}" height="{$animace.vyska}" alt="{$animace.siteswap}" class="anim_siteswap" />
+<img src="/animace/siteswap/{$animace.siteswap|escape}.png" width="{$animace.sirka}" height="{$animace.vyska}" alt="{$animace.siteswap}" class="anim_siteswap" onClick="this.src='/animace/siteswap/{$animace.siteswap|escape}.gif'" />
 </p>
 <p class="poznamka">Tuto animaci žonglování vytvořil program <a href="/software.html#juggleanim" title="Program JuggleAnim">JuggleAnim</a>.</p>
 {/if}

@@ -142,6 +142,7 @@ function get_animace($nameless=false){
 				$navrat[$link]['sirka']=$radek[2];
 				$navrat[$link]['vyska']=$radek[3];
 				$navrat[$link]['img']=$radek[4];
+				$navrat[$link]['obalka']=basename($radek[4],'.gif').'.png';
 				$navrat[$link]['popis']=$radek[5];
 			}
 		}else{
@@ -152,6 +153,7 @@ function get_animace($nameless=false){
 				$navrat[$link]['sirka']=$radek[2];
 				$navrat[$link]['vyska']=$radek[3];
 				$navrat[$link]['img']=$radek[4];
+				$navrat[$link]['obalka']=basename($radek[4],'.gif').'.png';
 				$navrat[$link]['popis']=preg_replace('/[-_]/',' ',basename($radek[4],'.gif'));
 			}
 		}
