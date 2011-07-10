@@ -101,7 +101,7 @@ li.libi{list-style:url(img/p/palec-nahoru-s.png);}
 li.nelibi{list-style:url(img/p/palec-dolu-s.png);}
 li.star{list-style:url(img/s/star-s.png);}
 .skrtanec{text-decoration:line-through;}
-.feedback{clear:both;padding-top:30px;font-size:0.7em;color:#333;}
+.feedback{clear:both;padding-top:30px;font-size:0.7em;color:#333;display:block;}
 ul{list-style:circle;}
 .szn{margin:0;padding:0;list-style:circle;}.szn li{list-style-position:inside;}
 .skryte{display:none;}

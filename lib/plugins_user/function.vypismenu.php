@@ -40,16 +40,17 @@ function smarty_function_vypismenu($params, &$smarty){
 		';
 			}
 
-	
-	/*
+	if($_SERVER['SERVER_NAME']=='zonglovani.info'){
+	if(isset($_SERVER['HTTP_ACCEPT_LANGUAGE']) and preg_match('/^cs/',$_SERVER['HTTP_ACCEPT_LANGUAGE'])){
 	$navrat.='
 		<!-- start -->
 		<script type="text/javascript">//<![CDATA[
-		document.write(\'<br /><ul><li><iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fzongleruv.slabikar&amp;width=155&amp;colorscheme=light&amp;connections=6&amp;stream=false&amp;header=false&amp;height=420" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:155px; height:420px;" allowTransparency="true"></iframe></li></ul>\');
+		document.write(\'<br /><ul><li class="feedback"><iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fzongleruv.slabikar&amp;width=155&amp;colorscheme=light&amp;connections=6&amp;stream=false&amp;header=false&amp;height=420" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:155px; height:420px;" allowTransparency="true"></iframe></li></ul>\');
 //]]></script>
 <!-- stop -->
 ';
-	 */	
+	}	
+	}
 	return $navrat;
 }
 
