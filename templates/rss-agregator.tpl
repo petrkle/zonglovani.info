@@ -1,6 +1,9 @@
 <p>
 Přehled novinek na stránkách o žonglování.
 </p>
+<!-- start -->
+{include file='tip.plain.tpl'}
+<!-- stop -->
 {if $novinky}
 {foreach from=$novinky item=novinka}
 <a name="{$novinka.cas|escape}"></a><h5><a href="{$novinka.url|escape}" title="{$novinka.titulek|escape}"{if !preg_match('/^http:\/\/zonglovani.info/',$novinka.url)} class="external" rel="nofollow" onclick="_gaq.push(['_trackPageview','/goto/{$novinka.url|replace:'http://':''|regex_replace:'/^www\./':''|escape}']);"{/if}>{$novinka.titulek|escape|default:'Bez titulku'}</a></h5>

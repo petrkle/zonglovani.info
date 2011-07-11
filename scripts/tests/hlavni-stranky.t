@@ -64,7 +64,7 @@ my @stranky = (
 	{'a'=>'/lide/dovednost/', 't'=>'Žongléři podle dovedností', 'o'=>'title="Žongléři kteří umí výrábět žonglérské hračky"'},
 	{'a'=>'/lide/dovednost/kuzely_passing.html', 't'=>'Žonglování - Passing s kužely', 'o'=>' title="Profil uživatele '},
 	{'a'=>'/chudy/', 't'=>'Chůdy', 'o'=>'Sežeň někoho kdo tě bude chytat'},
-	{'a'=>'/rss/', 't'=>'RSS agregátor', 'o'=>'<a name="[0-9]+"><\/a>'},
+	{'a'=>'/novinky/', 't'=>'Novinky', 'o'=>'<a name="[0-9]+"><\/a>'},
 	{'a'=>'/obrazky-na-plochu/', 't'=>'Obrázky na plochu', 'o'=>'<li><a href="1680x1050\/kuzelky-na-trave.jpg"'},
 	{'a'=>'/changelog.html', 't'=>'Změny v žonglérově slabikáři', 'o'=>'Stránkování: <b>1<'},
 	#{'a'=>'', 't'=>'', 'o'=>''},

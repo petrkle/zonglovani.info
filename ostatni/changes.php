@@ -32,7 +32,7 @@ if(is_logged() and isset($_SESSION['changes']) and is_array($_SESSION['changes']
 	$smarty->display('ostatni-changes.tpl');
 	$smarty->display('paticka.tpl');
 }else{
-	header('Location: /changelog.html');
+	header('Location: /novinky/');
 	exit();
 }
 ?>

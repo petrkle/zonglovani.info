@@ -1,15 +1,19 @@
 <?php
 
 function smarty_function_vypismenu($params, &$smarty){
-	$adresy = array('/','/micky/','/kruhy/','/kuzely/','/lide/','/ostatni.html');
-	$texty = array('Úvodní stránka','Míčky','Kruhy','Kužely','Žongléři','Ostatní');
-	$popis = array('Úvodní stránka žonglérova slabikáře','Začínáme s míčky','Začínáme s kruhy','Začínáme s kužely','Seznam uživatelů žonglérova slabikáře.','Vše ostatní o žonglování');
+	$adresy = array('/','/novinky/','/micky/','/kruhy/','/kuzely/','/lide/','/ostatni.html');
+	$texty = array('Úvodní stránka','Novinky','Míčky','Kruhy','Kužely','Žongléři','Ostatní');
+	$popis = array('Úvodní stránka žonglérova slabikáře','Novinky ze světa žonglování','Začínáme s míčky','Začínáme s kruhy','Začínáme s kužely','Seznam uživatelů žonglérova slabikáře.','Vše ostatní o žonglování');
 	
 	$navrat="<ul>\n";
 
 	for($foo=0;$foo<count($adresy);$foo++){
-	if($foo==4){
+	if($foo==5 or $foo==1){
 			$navrat.="\n<!-- start -->\n";
+	}
+
+	if($foo==1 and is_logged() and isset($_SESSION['changes'])){
+			$navrat.="\n<!--\n";
 	}
 
 		if($_SERVER['REQUEST_URI']==$adresy[$foo] and !isset($_GET['show'])){
@@ -19,7 +23,11 @@ function smarty_function_vypismenu($params, &$smarty){
 		};
 		$navrat.=submenu($foo);
 		$navrat.="</li>\n";
-	if($foo==4){
+
+	if($foo==1 and is_logged() and isset($_SESSION['changes'])){
+			$navrat.="\n-->\n";
+	}
+	if($foo==5 or $foo==1){
 			$navrat.="\n<!-- stop -->\n";
 	}
 	}
@@ -56,25 +64,25 @@ function smarty_function_vypismenu($params, &$smarty){
 
 function submenu($id){
 
-	if($id==1){
+	if($id==2){
 		$adresy = array('/micky/2/','/micky/3/','/micky/4/','/micky/5/');
 		$texty = array('2 míčky','3 míčky','4 míčky','5 míčků');
 		$popisky = array('Žonglování se dvěma míčky.','Žonglování se třemi míčky.','Žonglování se čtyřmi míčky.','Žonglování s pěti míčky.');
 	}
 
-	if($id==3){
+	if($id==4){
 		$adresy = array('/kuzely/3/','/kuzely/passing/');
 		$texty = array('3 kužely','Passing');
 		$popisky = array('Žonglování se třemi kužely','Žonglování ve více lidech');
 	}
 
-	if($id==4){
+	if($id==5){
 		$adresy = array('/kalendar/','/mapa/','/diskuse/');
 		$texty = array('Kalendář','Mapa','Diskuse');
 		$popisky = array('Kalendář žonglování','Žonglérská mapa','Diskuse a komentáře');
 	}
 
-	if($id==5){
+	if($id==6){
 		$adresy = array('/obrazky/','/video/','/animace/','/download/');
 		$texty = array('Obrázky','Video','Animace','Soubory<br/>ke stažení');
 		$popisky = array('Obrázky žonglování','Zajímavá žonglérská videa','Animace žonglování s míčky','Žonglérův slabikář jako elektronická kniha, nebo program do počítače');
@@ -82,7 +90,7 @@ function submenu($id){
 
 	if(isset($adresy)){
 		$navrat='';
-		if($id==5){$navrat.="\n<!-- start -->\n";}
+		if($id==6){$navrat.="\n<!-- start -->\n";}
 		$navrat.="<ul>\n";
 		for($foo=0;$foo<count($adresy);$foo++){
 			if($_SERVER['REQUEST_URI']==$adresy[$foo] and !isset($_GET['show'])){
@@ -92,7 +100,7 @@ function submenu($id){
 			};
 		};
 		$navrat.="</ul>\n";
-		if($id==5){$navrat.="\n<!-- stop -->\n";}
+		if($id==6){$navrat.="\n<!-- stop -->\n";}
 		return $navrat;
 	}else{
 		return '';

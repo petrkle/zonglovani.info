@@ -18,7 +18,7 @@ my @adresy=(
 "/obrazky/obrazky.xml",
 "/tip/tip.rss",
 "/tip/tip.xml",
-"/rss/agregator.xml",
+"/novinky/agregator.xml",
 "/stat.xml"
 );
 

@@ -19,7 +19,7 @@ print '<?xml version="1.0" encoding="UTF-8"?>
 $znamkovani=array();
 array_push($znamkovani,array('vzor'=>'^\/$','priorita'=>1,'zmena'=>'weekly'));
 array_push($znamkovani,array('vzor'=>'^\/tip\/$','priorita'=>0.8,'zmena'=>'weekly'));
-array_push($znamkovani,array('vzor'=>'^\/rss\/$','priorita'=>0.4,'zmena'=>'daily'));
+array_push($znamkovani,array('vzor'=>'^\/novinky\/$','priorita'=>0.4,'zmena'=>'daily'));
 array_push($znamkovani,array('vzor'=>'^.+\.rss$','priorita'=>0.6,'zmena'=>'weekly'));
 array_push($znamkovani,array('vzor'=>'^\/(micky|kruhy|kuzely)\/$','priorita'=>0.9,'zmena'=>'monthly'));
 array_push($znamkovani,array('vzor'=>'^\/(obrazky|kalendar|lide|diskuse)\/$','priorita'=>0.9,'zmena'=>'weekly'));
