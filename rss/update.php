@@ -5,6 +5,7 @@ require('rss.php');
 if (function_exists('date_default_timezone_set')) {
 	    date_default_timezone_set('Europe/Prague');
 }
+ini_set('user_agent', 'http://zonglovani.info/rss');
 uasort($rss_zdroje, 'u_shuffle');
 
 define('MAGPIE_INPUT_ENCODING','UTF-8');
@@ -44,6 +45,11 @@ foreach($rss_zdroje as $id=>$kanal){
 		if(preg_match('/rajce\.idnes\.cz/',$kanal['feed_url'])){
 			$item['link']=preg_replace('/^(http:\/\/.*)http:\/\/.*$/','\1',$item['link']);
 		}
+
+#		if(preg_match('/juggle\.sk/',$kanal['feed_url'])){
+#			$item['link']=preg_replace('/^(http:\/\/.*)http:\/\/.*$/','\1',$item['link']);
+#		}
+
 
 		$baz=RSS_AGREGATOR_DATA.'/'.$item['date_timestamp'].'-'.$id.'.txt';
 

@@ -6,6 +6,8 @@ $rss_zdroje['fireshow']=array('popis'=>'fireshow.cz','url'=>'http://fireshow.cz'
 $rss_zdroje['tribo']=array('popis'=>'tribofuego.org','url'=>'http://tribofuego.org','feed_url'=>'http://www.facebook.com/feeds/page.php?format=atom10&id=51726915625');
 $rss_zdroje['infinitos']=array('popis'=>'infinitos.cz','url'=>'http://infinitos.cz','feed_url'=>'http://www.facebook.com/feeds/page.php?format=atom10&id=314458838078');
 $rss_zdroje['lideczongl']=array('popis'=>'Lidé.cz - žonglování','url'=>'http://forum.lide.cz/forum.fcgi?akce=forum_data&auth=&forum_ID=7547','feed_url'=>'http://forum.lide.cz/rss/7547');
+$rss_zdroje['jugglesk']=array('popis'=>'juggle.sk','url'=>'http://juggle.sk','feed_url'=>'http://juggle.sk/sk/feed/');
+$rss_zdroje['jugglesk_forum']=array('popis'=>'juggle.sk - forum','url'=>'http://juggle.sk/sk/forum','feed_url'=>'http://juggle.sk/wp-content/plugins/mingle-forum/feed.php?topic=all');
 $rss_zdroje['zonglujeu']=array('popis'=>'zongluj.eu','url'=>'http://zongluj.eu','feed_url'=>'http://www.zongluj.eu/rss-kniha/');
 $rss_zdroje['flow']=array('popis'=>'The Flow','url'=>'http://www.theflow.cz','feed_url'=>'http://www.theflow.cz/frontpage/rss.html');
 $rss_zdroje['zonglujcz']=array('popis'=>'zongluj.cz','url'=>'http://zongluj.cz','feed_url'=>'http://www.facebook.com/feeds/page.php?format=atom10&id=283517950634');
