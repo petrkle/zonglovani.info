@@ -237,6 +237,20 @@
 </video:video>
 </url>
 <url>
+<loc>http://zonglovani.info/video/ivy-and-gold.html</loc>
+<video:video>
+<video:thumbnail_loc>http://zonglovani.info/video/img/i/ivy-and-gold.jpg</video:thumbnail_loc>
+<video:title>Ivy and Gold</video:title>
+<video:description>Chytání a házení míčků za hlavou.</video:description>
+<video:player_loc>http://www.youtube.com/v/9HUef3QgdAw</video:player_loc>
+<video:duration>177</video:duration>
+<video:tag>Žonglování</video:tag>
+<video:category>Žonglování</video:category>
+<video:gallery_loc title="Žonglérská videa">http://zonglovani.info/video/</video:gallery_loc>
+<video:requires_subscription>no</video:requires_subscription>
+</video:video>
+</url>
+<url>
 <loc>http://zonglovani.info/video/jen-slaw.html</loc>
 <video:video>
 <video:thumbnail_loc>http://zonglovani.info/video/img/j/jen-slaw.jpg</video:thumbnail_loc>
@@ -770,6 +784,170 @@
 <video:content_loc>http://juggling.tv/download/encoded/5588/dresden-juggling-festival-2011-unicycles.mp4</video:content_loc>
 <video:player_loc>http://juggling.tv/nvplayer.swf?config=http://juggling.tv/nuevo/config.php?key=fe2da891b58a2dab18f8</video:player_loc>
 <video:duration>325</video:duration>
+<video:tag>Žonglování</video:tag>
+<video:category>Žonglování</video:category>
+<video:gallery_loc title="Žonglérská videa">http://zonglovani.info/video/</video:gallery_loc>
+<video:requires_subscription>no</video:requires_subscription>
+</video:video>
+</url>
+<url>
+<loc>http://zonglovani.info/video/metlili/conctabong.html</loc>
+<video:video>
+<video:thumbnail_loc>http://zonglovani.info/video/img/c/conctabong.jpg</video:thumbnail_loc>
+<video:title>Conctabong</video:title>
+<video:description>Kombinace kontaktního Žonglování a skákacích míčků ve dvou.</video:description>
+<video:player_loc>http://www.youtube.com/v/_C9ClG97KLI</video:player_loc>
+<video:duration>348</video:duration>
+<video:tag>Žonglování</video:tag>
+<video:category>Žonglování</video:category>
+<video:gallery_loc title="Žonglérská videa">http://zonglovani.info/video/</video:gallery_loc>
+<video:requires_subscription>no</video:requires_subscription>
+</video:video>
+</url>
+<url>
+<loc>http://zonglovani.info/video/metlili/facundo-sacramento.html</loc>
+<video:video>
+<video:thumbnail_loc>http://zonglovani.info/video/img/f/facundo-sacramento.jpg</video:thumbnail_loc>
+<video:title>Facundo Sacramento</video:title>
+<video:description>Žonglování s míčky a balancování na hlavě.</video:description>
+<video:content_loc>http://juggling.tv/download/encoded/6295/facundo-sacramento.mp4</video:content_loc>
+<video:player_loc>http://juggling.tv/nvplayer.swf?config=http://juggling.tv/nuevo/config.php?key=bc9c427b9afe0438dce5</video:player_loc>
+<video:duration>313</video:duration>
+<video:tag>Žonglování</video:tag>
+<video:category>Žonglování</video:category>
+<video:gallery_loc title="Žonglérská videa">http://zonglovani.info/video/</video:gallery_loc>
+<video:requires_subscription>no</video:requires_subscription>
+</video:video>
+</url>
+<url>
+<loc>http://zonglovani.info/video/metlili/fantasmatico.html</loc>
+<video:video>
+<video:thumbnail_loc>http://zonglovani.info/video/img/f/fantasmatico.jpg</video:thumbnail_loc>
+<video:title>Fantasmatico</video:title>
+<video:description>Žonglování s míčky a kužely ve Francii.</video:description>
+<video:content_loc>http://juggling.tv/download/encoded/6155/fantasmatico.mp4</video:content_loc>
+<video:player_loc>http://juggling.tv/nvplayer.swf?config=http://juggling.tv/nuevo/config.php?key=a825aadacf648034e124</video:player_loc>
+<video:duration>233</video:duration>
+<video:tag>Žonglování</video:tag>
+<video:category>Žonglování</video:category>
+<video:gallery_loc title="Žonglérská videa">http://zonglovani.info/video/</video:gallery_loc>
+<video:requires_subscription>no</video:requires_subscription>
+</video:video>
+</url>
+<url>
+<loc>http://zonglovani.info/video/metlili/h2o-flavor.html</loc>
+<video:video>
+<video:thumbnail_loc>http://zonglovani.info/video/img/h/h2o-flavor.jpg</video:thumbnail_loc>
+<video:title>H2O Flavor</video:title>
+<video:description>Žonglování s kužely. Místo natáčení Francie.</video:description>
+<video:content_loc>http://juggling.tv/download/encoded/4686/h2o-flavor-juggling-by-metlili.mp4</video:content_loc>
+<video:player_loc>http://juggling.tv/nvplayer.swf?config=http://juggling.tv/nuevo/config.php?key=c8f46c5765c194a04b59</video:player_loc>
+<video:duration>244</video:duration>
+<video:tag>Žonglování</video:tag>
+<video:category>Žonglování</video:category>
+<video:gallery_loc title="Žonglérská videa">http://zonglovani.info/video/</video:gallery_loc>
+<video:requires_subscription>no</video:requires_subscription>
+</video:video>
+</url>
+<url>
+<loc>http://zonglovani.info/video/metlili/latin-objects-3-1.html</loc>
+<video:video>
+<video:thumbnail_loc>http://zonglovani.info/video/img/l/latin-objects-3-1.jpg</video:thumbnail_loc>
+<video:title>Latin objects 3.1</video:title>
+<video:description>První část série žonglování v Jižní Americe.</video:description>
+<video:content_loc>http://juggling.tv/download/encoded/5428/latin-object-31.mp4</video:content_loc>
+<video:player_loc>http://juggling.tv/nvplayer.swf?config=http://juggling.tv/nuevo/config.php?key=9aa967232aba2a4d0311</video:player_loc>
+<video:duration>800</video:duration>
+<video:tag>Žonglování</video:tag>
+<video:category>Žonglování</video:category>
+<video:gallery_loc title="Žonglérská videa">http://zonglovani.info/video/</video:gallery_loc>
+<video:requires_subscription>no</video:requires_subscription>
+</video:video>
+</url>
+<url>
+<loc>http://zonglovani.info/video/metlili/latin-objects-4.html</loc>
+<video:video>
+<video:thumbnail_loc>http://zonglovani.info/video/img/l/latin-objects-4.jpg</video:thumbnail_loc>
+<video:title>Latin objects 4</video:title>
+<video:description>Druhá část série žonglování v Jižní Americe.</video:description>
+<video:content_loc>http://juggling.tv/download/encoded/5675/latin-objects-4.mp4</video:content_loc>
+<video:player_loc>http://juggling.tv/nvplayer.swf?config=http://juggling.tv/nuevo/config.php?key=f705cea3cc14c036c261</video:player_loc>
+<video:duration>871</video:duration>
+<video:tag>Žonglování</video:tag>
+<video:category>Žonglování</video:category>
+<video:gallery_loc title="Žonglérská videa">http://zonglovani.info/video/</video:gallery_loc>
+<video:requires_subscription>no</video:requires_subscription>
+</video:video>
+</url>
+<url>
+<loc>http://zonglovani.info/video/metlili/latin-objects-5-1.html</loc>
+<video:video>
+<video:thumbnail_loc>http://zonglovani.info/video/img/l/latin-objects-5-1.jpg</video:thumbnail_loc>
+<video:title>Latin objects 5.1</video:title>
+<video:description>Třetí část série žonglování v Jižní Americe.</video:description>
+<video:content_loc></video:content_loc>
+<video:player_loc>http://juggling.tv/nvplayer.swf?config=http://juggling.tv/nuevo/config.php?key=1d38b7d70c1b6feaa28c</video:player_loc>
+<video:duration>487</video:duration>
+<video:tag>Žonglování</video:tag>
+<video:category>Žonglování</video:category>
+<video:gallery_loc title="Žonglérská videa">http://zonglovani.info/video/</video:gallery_loc>
+<video:requires_subscription>no</video:requires_subscription>
+</video:video>
+</url>
+<url>
+<loc>http://zonglovani.info/video/metlili/latin-objects-6.html</loc>
+<video:video>
+<video:thumbnail_loc>http://zonglovani.info/video/img/l/latin-objects-6.jpg</video:thumbnail_loc>
+<video:title>Latin objects 6</video:title>
+<video:description>Žonglování v Jižní Americe.</video:description>
+<video:content_loc>http://juggling.tv/download/encoded/5921/latin-objects-6.mp4</video:content_loc>
+<video:player_loc>http://juggling.tv/nvplayer.swf?config=http://juggling.tv/nuevo/config.php?key=4532ef03417a3e5a7643</video:player_loc>
+<video:duration>251</video:duration>
+<video:tag>Žonglování</video:tag>
+<video:category>Žonglování</video:category>
+<video:gallery_loc title="Žonglérská videa">http://zonglovani.info/video/</video:gallery_loc>
+<video:requires_subscription>no</video:requires_subscription>
+</video:video>
+</url>
+<url>
+<loc>http://zonglovani.info/video/metlili/mantega-variation.html</loc>
+<video:video>
+<video:thumbnail_loc>http://zonglovani.info/video/img/m/mantega-variation.jpg</video:thumbnail_loc>
+<video:title>Mantega Variation</video:title>
+<video:description>Video od dvojice Anonymous Brothers.</video:description>
+<video:content_loc>http://juggling.tv/download/encoded/6155/fantasmatico.mp4</video:content_loc>
+<video:player_loc>http://juggling.tv/nvplayer.swf?config=http://juggling.tv/nuevo/config.php?key=fd6ef0f03e9f386d5440</video:player_loc>
+<video:duration>384</video:duration>
+<video:tag>Žonglování</video:tag>
+<video:category>Žonglování</video:category>
+<video:gallery_loc title="Žonglérská videa">http://zonglovani.info/video/</video:gallery_loc>
+<video:requires_subscription>no</video:requires_subscription>
+</video:video>
+</url>
+<url>
+<loc>http://zonglovani.info/video/metlili/semaforo-compilacion-2.html</loc>
+<video:video>
+<video:thumbnail_loc>http://zonglovani.info/video/img/s/semaforo-compilacion-2.jpg</video:thumbnail_loc>
+<video:title>Semaforo compilacion 2</video:title>
+<video:description>Krátká představení než na semaforu naskočí zelená.</video:description>
+<video:content_loc>http://juggling.tv/download/encoded/3023/semaforo-compilacion-2.mp4</video:content_loc>
+<video:player_loc>http://juggling.tv/nvplayer.swf?config=http://juggling.tv/nuevo/config.php?key=129e96277388757530c7</video:player_loc>
+<video:duration>223</video:duration>
+<video:tag>Žonglování</video:tag>
+<video:category>Žonglování</video:category>
+<video:gallery_loc title="Žonglérská videa">http://zonglovani.info/video/</video:gallery_loc>
+<video:requires_subscription>no</video:requires_subscription>
+</video:video>
+</url>
+<url>
+<loc>http://zonglovani.info/video/metlili/smodje1.html</loc>
+<video:video>
+<video:thumbnail_loc>http://zonglovani.info/video/img/s/smodje1.jpg</video:thumbnail_loc>
+<video:title>Smodje 1</video:title>
+<video:description>Žonglování s míčky a balancování na hlavě.</video:description>
+<video:content_loc>http://juggling.tv/download/encoded/6217/smodje-part-1-3.mp4</video:content_loc>
+<video:player_loc>http://juggling.tv/nvplayer.swf?config=http://juggling.tv/nuevo/config.php?key=5b9d65d80e25eb862e67</video:player_loc>
+<video:duration>428</video:duration>
 <video:tag>Žonglování</video:tag>
 <video:category>Žonglování</video:category>
 <video:gallery_loc title="Žonglérská videa">http://zonglovani.info/video/</video:gallery_loc>

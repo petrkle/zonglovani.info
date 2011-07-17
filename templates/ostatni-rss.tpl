@@ -51,9 +51,9 @@
 <li><a href="http://{$smarty.server.SERVER_NAME}/tip/tip.xml" title="RSS 2.0">http://{$smarty.server.SERVER_NAME}/tip/tip.xml</a></li>
 </ul>
 
-<h3><a href="/rss/" title="Novinky za světa žonglování">RSS agregátor</a></h3>
+<h3><a href="/novinky/" title="Novinky za světa žonglování">RSS agregátor</a></h3>
 <ul>
-<li><a href="http://{$smarty.server.SERVER_NAME}/rss/agregator.xml" title="RSS 2.0">http://{$smarty.server.SERVER_NAME}/rss/agregator.xml</a></li>
+<li><a href="http://{$smarty.server.SERVER_NAME}/novinky/agregator.xml" title="RSS 2.0">http://{$smarty.server.SERVER_NAME}/novinky/agregator.xml</a></li>
 </ul>
 
 <h3><a href="/statistiky.html" title="Statistika žonglérova slabikáře">Statistika</a></h3>

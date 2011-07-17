@@ -75,6 +75,7 @@ if(isset($_GET['id'])){
 }else{
 		$dalsi=array(
 			array('url'=>'/literatura.html','text'=>'Literatura o žonglování','title'=>'Knížky o žonglování'),
+			array('url'=>'/obrazky-na-plochu/','text'=>'Obrázky na plochu','title'=>'Tapety s žonglérskou tématikou.'),
 			);
 	$smarty->assign_by_ref('dalsi',$dalsi);
 	$smarty->assign_by_ref('trail', $trail->path);

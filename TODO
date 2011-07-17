@@ -1,10 +1,8 @@
 Aktuální
 ========
-- přejmenovat tip týdne na novinky, přidat do menu, na úvodní stránce nahoře?
-- gify do webm
+- detekce a odstranění duplicit v RSS kanálech
 - čudlík na návrh a odmaskování hesla (zadávat jen 1x)
 - zjednodušit registraci, popisky rovnou u formuláře, bez stránky s podmínkami
-- odkaz z menu na rss agregátor - novinky?
 - obrázky na plochu, doplnit popisky a img sitemapu
 - odkazy další, předchozí v horoskopu
 - rozšíření - horoskop
@@ -105,6 +103,7 @@ seznam míst - opravit id slezko na slezsko
 z konstrukce kuželu odkazy na obrázky kuželů
 odhlašovací stránka s upozorněním na mobilní verzi žonglérova slabikáře (vem si žonglování sebou do kapsy)
 google analytics - rozlišení přihlášených a odhlášených uživatelů
+odkaz z menu na rss agregátor - novinky
 
 .ssh/config
 ===========
