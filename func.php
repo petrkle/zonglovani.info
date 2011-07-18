@@ -319,11 +319,11 @@ function make_keywords($text){
 }
 
 function get_changelog($rss=false){
-	if(is_readable($_SERVER['DOCUMENT_ROOT'].'/data/ChangeLog')){
+	if(is_readable($_SERVER['DOCUMENT_ROOT'].'/ChangeLog')){
 
 $zmeny=array();
 $rn=1;
-$changelog = array_reverse(file($_SERVER['DOCUMENT_ROOT'].'/data/ChangeLog'));
+$changelog = array_reverse(file($_SERVER['DOCUMENT_ROOT'].'/ChangeLog'));
 	foreach ($changelog as $change){
 		$change=preg_split('/\*/',trim($change));
 		$zmeny[$rn]['cislo']=$rn;

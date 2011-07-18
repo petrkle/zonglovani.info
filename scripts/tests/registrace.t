@@ -1,7 +1,7 @@
 #!/usr/bin/perl -w
 use strict;
 use WWW::Mechanize;
-use Test::More tests => 35;
+use Test::More tests => 36;
 use Net::Netrc;
 use String::MkPasswd qw(mkpasswd);
 require('scripts/tests/func.pl');
@@ -177,6 +177,8 @@ ok($zs_na->content() =~ /Pro zobrazení požadované stránky je nutné přihlá
 my $zs_prihlaska = $bot->submit_form(form_number => 0,fields => $prihlaseni);
 
 ok($zs_prihlaska->content() =~ />Upravit vzkaz<\/a>/,'Link na nastavení vzkazu');
+
+ok($zs_prihlaska->content() =~ />Internetová stránka<\/a>/,'Link na nastavení webu');
 
 my $zs_ruseni = $bot->get('http://zongl.info/lide/nastaveni/zruseni');
 

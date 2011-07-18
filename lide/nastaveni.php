@@ -150,11 +150,22 @@ $trail->addStep('Nastavení',LIDE_URL.'nastaveni/');
 
 			if(isset($_POST['web']) and isset($_POST['odeslat'])){
 					$web=$_POST['web'];
+
+					if(strlen($web)>0 and !preg_match('/^http/',$web)){
+						$web='http://'.$web;
+					}
+
 					if(strlen($web)>1024){
 						array_push($chyby,'Adresa je příliš dlouhá.');
 					}
-					if(strlen($web)>0 and !preg_match('/^http:\/\/[a-z0-9]+\.[a-z]{2,4}.*/',$web)){
-						array_push($chyby,'Špatný formát adresy. Zadej i úvodní "http://". Např.: http://neco.cz');
+
+					if(strlen($web)>0 and preg_match('/ /',$web)){
+						array_push($chyby,'Adresa nesmí obsahovat mezery.');
+						array_push($chyby,'Nastavit lze jen jednu adresu.');
+					}
+
+					if(strlen($web)>0 and !filter_var($web,FILTER_VALIDATE_URL)){
+						array_push($chyby,'Špatný formát adresy.');
 					}
 
 				if($web==$_SESSION['uzivatel']['web']){

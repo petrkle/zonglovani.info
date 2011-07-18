@@ -6,7 +6,7 @@
 </ul>
 {/if}
 <p>
-Nastavení odkazu na tvůj web. Adresu je potřeba zadat i s úvodním&nbsp;<strong>http://</strong>
+Nastavení odkazu na tvůj web.
 </p>
 <form action="{$smarty.server.REQUEST_URI}" method="post">
 <fieldset>
