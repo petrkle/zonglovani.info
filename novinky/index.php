@@ -28,13 +28,28 @@ $dalsi=array(
 	);
 $smarty->assign_by_ref('dalsi',$dalsi);
 
+$novinky=get_news(40);
 $smarty->assign_by_ref('rss_zdroje',$rss_zdroje);
-$smarty->assign_by_ref('novinky',get_news(40));
+$smarty->assign_by_ref('novinky',$novinky);
 
 if($rss){
+	$novinky=uniqurl($novinky);
 	header('Content-Type: application/rss+xml');
 	$smarty->display('rss-agregator.xml.tpl');
 	exit();
+}
+
+function uniqurl($novinky){
+	$adresy=array();
+	foreach($novinky as $key=>$novinka){
+		if(isset($adresy[$novinka['url']])){
+			$novinky[$key]['url'].='#'.$adresy[$novinka['url']];
+			$adresy[$novinka['url']]++;
+		}else{
+			$adresy[$novinka['url']]=1;	
+		}
+	}
+	return $novinky;
 }
 
 $smarty->assign('titulek',$titulek);

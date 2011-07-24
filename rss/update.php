@@ -1,5 +1,6 @@
 <?php
 require('../init.php');
+error_reporting(E_ALL);
 require('../func.php');
 require('rss.php');
 if (function_exists('date_default_timezone_set')) {
@@ -47,7 +48,7 @@ foreach($rss_zdroje as $id=>$kanal){
 		}
 
 #		if(preg_match('/juggle\.sk/',$kanal['feed_url'])){
-#			$item['link']=preg_replace('/^(http:\/\/.*)http:\/\/.*$/','\1',$item['link']);
+#			var_dump($item);
 #		}
 
 

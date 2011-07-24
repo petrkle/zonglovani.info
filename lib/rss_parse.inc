@@ -460,6 +460,8 @@ class MagpieRSS {
             xml_parser_set_option($parser, XML_OPTION_TARGET_ENCODING, $out_enc);
         }
         
+				# oprava kvůli juggle.sk
+        $source = iconv($in_enc,'UTF-8//IGNORE', $source);
         return array($parser, $source);
     }
     
@@ -523,7 +525,7 @@ class MagpieRSS {
         // @see http://php.net/iconv
        
         if (function_exists('iconv'))  {
-            $encoded_source = iconv($in_enc,'UTF-8', $source);
+            $encoded_source = iconv($in_enc,'UTF-8//IGNORE', $source);
             if ($encoded_source) {
                 return array(xml_parser_create('UTF-8'), $encoded_source);
             }
