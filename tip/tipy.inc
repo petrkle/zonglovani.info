@@ -112,14 +112,14 @@
 2011-07-18*Aleje*/kalendar/udalost-20110820-20110826-pek-1293471692.html*aleje-logo.jpg*Za měsíc začne 10. mezinárodní žonglérská a divadelní dílna Aleje 2011.
 2011-07-25*Twitter*/twitter.html*twitter.png*Co si vrabci štěbetají o žonglování? Přes twitter se dozvíš o všech novinkách.
 2011-08-01*Rotující čtverce*/kuzely/passing/squares.html*ctverce-r.png*Trik pro čtyři žongléry a dvanáct kuželů. Všichni hází 4 count z pravé ruky.
-2011-08-08*Výhody pro registrované uživatele*/exkurze.html*exkurze-nahled-2010-2-28-19-49-47.jpg*Obrázky a popis výhod pro registrované uživatele žonglérova slabikáře.
+2011-08-08*Literatura*/literatura.html*encyclopaedia.jpg*Přehled nejlepších knížek o žonglování.
 2011-08-15*Obrázky kuželů*/kuzely/druhy.html*kuzelka-albatros-s.jpg*Obrázky žonglérských kuželů.
 2011-08-22*What the (beepbeep) do we know?*/video/what-the-beepbeep-do-we-know.html*partnerpoi.jpg*Točení s poi ve více lidech.
-2011-08-29*Literatura*/literatura.html*encyclopaedia.jpg*Přehled nejlepších knížek o žonglování.
+2011-08-29*Kaskáda s pěti míčky*/micky/5/kaskada.html*5kaskadac.png*Návod na kaskádu s pěti míčky.
 2011-09-05*Mill's Mess s pěti míčky*/video/navody/5-ball-mills-mess.html*5-ball-mills-mess.jpg*Video s návodem na Mill's Mess s pěti míčky.
 2011-09-12*A New Ratio*/video/a-new-ratio.html*a-new-ratio.jpg*Emil Lamprecht and Doreen Großmann passují s kužely na střeše.
 2011-09-19*Guava over winter break*/video/guava-winter-07-08.html*guava-winter-07-08.jpg*Starší ale pořád dobré video od Salby a Ann.
-2011-09-26*Kaskáda s pěti míčky*/micky/5/kaskada.html*5kaskadac.png*Návod na kaskádu s pěti míčky.
+2011-09-26*Výhody pro registrované uživatele*/exkurze.html*exkurze-nahled-2010-2-28-19-49-47.jpg*Obrázky a popis výhod pro registrované uživatele žonglérova slabikáře.
 2011-10-03*
 2011-10-10*
 2011-10-17*
