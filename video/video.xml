@@ -791,6 +791,21 @@
 </video:video>
 </url>
 <url>
+<loc>http://zonglovani.info/video/ejc/solstix.html</loc>
+<video:video>
+<video:thumbnail_loc>http://zonglovani.info/video/img/s/solstix.jpg</video:thumbnail_loc>
+<video:title>Solstix</video:title>
+<video:description>Žonglování s tyčí ve dvou.</video:description>
+<video:content_loc>http://juggling.tv/download/encoded/6500/solstix-ejc-2011-gala.mp4</video:content_loc>
+<video:player_loc>http://juggling.tv/nvplayer.swf?config=http://juggling.tv/nuevo/config.php?key=cbfb27ee05ddc000b50e</video:player_loc>
+<video:duration>456</video:duration>
+<video:tag>Žonglování</video:tag>
+<video:category>Žonglování</video:category>
+<video:gallery_loc title="Žonglérská videa">http://zonglovani.info/video/</video:gallery_loc>
+<video:requires_subscription>no</video:requires_subscription>
+</video:video>
+</url>
+<url>
 <loc>http://zonglovani.info/video/metlili/conctabong.html</loc>
 <video:video>
 <video:thumbnail_loc>http://zonglovani.info/video/img/c/conctabong.jpg</video:thumbnail_loc>
