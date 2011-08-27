@@ -1,5 +1,4 @@
 <?php
-
 function smarty_function_obrazek($params, &$smarty){
 	extract($params);
 	if(!isset($path)){
@@ -20,5 +19,3 @@ function smarty_function_obrazek($params, &$smarty){
 	return ('<img src="'.$abs.$link.'" '.$rozmery[3].' title="'.$popisek.'" alt="'.$popisek.'" />');
 
 }
-
-?>

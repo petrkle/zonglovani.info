@@ -33,6 +33,11 @@
         <popisek>Když je třetí míček na vrcholu své dráhy, vyhoď druhý míček vodorovně a první míček nahoru.</popisek>
     </krok>
 
+		<krok>
+			<animace>box-see-saw</animace>
+			<video>micky-3-krabice</video>
+		</krok>
+
 	<dalsi>
 		<link url="/micky/3/441.html" title="Pěkný trik se třemi míčky">441</link>
 		<link url="/micky/3/okno.html" title="Při tomto triku míčky létají vysokým úzkým obloukem">Chrámové okno</link>

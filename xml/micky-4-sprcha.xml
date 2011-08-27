@@ -32,6 +32,11 @@
         <popisek>Sprcha se dá začínat i se třemi míčky v pravé ruce a jedním v levé. Záleží, co ti víc vyhovuje.</popisek>
     </krok>
 
+		<krok>
+			<animace>4-shower</animace>
+			<video>micky-4-sprcha</video>
+		</krok>
+
 	<dalsi>
 		<link url="/micky/4/sprcha-polovicni.html" title="Poloviční sprcha se čtyřmi míčky">Poloviční sprcha</link>
 		<link url="/micky/3/sprcha.html" title="Lehčí varianta sprchy">Sprcha se třemi míčky</link>

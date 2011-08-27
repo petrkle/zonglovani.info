@@ -28,6 +28,11 @@
         <popisek>Pokračuj třetím a čtvrtým míčkem.</popisek>
     </krok>
 
+		<krok>
+			<animace>5-half-shower-b</animace>
+			<video>micky-5-polovicni-sprcha</video>
+		</krok>
+
 	<dalsi>
 		<link url="/micky/3/3v1.html" title="Tři míčky v jedné ruce">3 v 1</link>
 		<link url="/micky/5/kaskada.html" title="Kaskáda s pěti míčky">Kaskáda</link>

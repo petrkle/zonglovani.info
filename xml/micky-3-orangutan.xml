@@ -32,6 +32,10 @@
 			<popisek>Při přendavání míčků můžeš i vydávat zvuky jako orangutan. Úgg, Grrr a tak podobně.</popisek>
     </krok>
 
+		<krok>
+			<video>micky-3-orangutan</video>
+		</krok>
+
 	<dalsi>
 		<link url="/micky/3/klokan.html" title="Tak se žongluje v Austrálii">Klokan</link>
 		<link url="/micky/3/zirafa.html" title="Žirafa je vlastně poloviční sprcha s jednou rukou nahoře">Žirafa</link>

@@ -33,6 +33,10 @@
         <popisek>Druhý míček se vrací obloukem zpět do pravé ruky. Zatímco letí, zachytíš zpět do levé ruky třetí míček.</popisek>
     </krok>
 
+		<krok>
+			<video>micky-3-tenis-2v1</video>
+		</krok>
+
 	<dalsi>
 		<link url="/micky/3/1nad2.html" title="Kombinace sloupů s tenisem">Jeden nad dvěma</link>
 		<link url="/micky/3/sloupy.html" title="Házení míčků rovně nahoru">Sloupy</link>

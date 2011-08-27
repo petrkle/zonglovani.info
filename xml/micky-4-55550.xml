@@ -42,6 +42,10 @@
 			<popisek>55550 je obtížný trik, není symetrický a velmi snadno se zvrtne v &lt;a href=&quot;../4/kriz.html&quot; title=&quot;Trik se čtyřmi míčky.&quot;&gt;kříž&lt;/a&gt;.</popisek>
     </krok>
 
+		<krok>
+			<video>micky-4-55550</video>
+		</krok>
+
 		<dalsi>
 			<link url="/micky/3/blesk.html" title="rychlé vyhození míčků">Blesk</link>
 			<link url="/micky/4/kriz.html" title="Trik se čtyřmi míčky">Kříž</link>

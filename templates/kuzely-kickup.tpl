@@ -13,6 +13,8 @@ Kužel si polož šikmo držadlem přes nárt pravé nohy.
 Vykopni nohou do strany. Kužel se opře o holeň a nárt. Vyletí nahoru a můžeš pokračovat v žonglování.
 </p>
 
+{video jtvw='kuzely-3-zvednuti-kuzelu-nohou'}
+
 <p>
 Obdobný postup můžeš použít pro <a href="/micky/kick-up.html" title="Zvednutí míčku nohou.">zvednutí míčku</a>.
 </p>

@@ -23,6 +23,10 @@
 				<popisek>Dráhy a pořadí hodů míčků jsou stejné. Rozdíl je pouze v pozici rukou.</popisek>
     </krok>
 
+		<krok>
+			<animace>over-the-head</animace>
+		</krok>
+
 	<dalsi>
 		<link url="/micky/3/socha.html" title="Poloviční sprcha s jednou rukou nahoře">Socha svobody</link>
 		<link url="/micky/3/blesk.html" title="Rychlé vyhození míčků tak, že tvé dlaně zůstanou na okamžik prázdné">Blesk</link>

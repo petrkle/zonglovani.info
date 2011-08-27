@@ -9,8 +9,6 @@
 		 <oblast>kuzely-3</oblast>
 	</about>
 
-
-
     <krok>
 			<obrazek>kuzely-nuzkya</obrazek>
 			<popisek>Překřížením dvou kuželů získáš &quot;nůžky&quot;, do kterých můžeš chytit třetí kužel.</popisek>
@@ -30,6 +28,10 @@
 			<obrazek>kuzely-nuzkyd</obrazek>
 			<popisek>Švihnutím rukou a uvolněním sevření nůžek vyhodíš kužel zpět do vzduchu. Můžeš pokračovat v žonglování.</popisek>
     </krok>
+
+		<krok>
+			<video>kuzely-3-nuzky</video>
+		</krok>
 
 	<dalsi>
 		<link url="/kuzely/grip.html" title="Jak držet v jedné ruce dva kužely.">Dva kužely v jedné ruce</link>

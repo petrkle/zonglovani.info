@@ -28,6 +28,11 @@
         <popisek>Levou ruku s prvním míčkem přesuň zpátky doleva. Z pravé ruky vyhoď třetí míček a přesuň ji také doleva, kde do ní zachytíš druhý míček.</popisek>
     </krok>
 
+		<krok>
+			<animace>wide-reverse-cascade</animace>
+			<video>micky-3-reverzni-kaskada-siroka</video>
+		</krok>
+
 	<dalsi>
 		<link url="/micky/3/kaskada.html" title="Žonglování se třemi míčky">Kaskáda</link>
 		<link url="/micky/3/kaskada-reverzni.html" title="Reverzní kaskáda">Reverzní kaskáda</link>

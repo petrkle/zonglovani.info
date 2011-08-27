@@ -38,6 +38,11 @@
         <popisek>Přesuň druhý míček rychlým vodorovným hodem z levé ruky do pravé.</popisek>
     </krok>
 
+		<krok>
+			<animace>441</animace>
+			<video>micky-3-441</video>
+		</krok>
+
 	<dalsi>
 		<link url="/micky/3/seesaw.html" title="Krabice">See saw</link>
 		<link url="/micky/3/dvojita-krabice.html" title="Trik se třemi míčky">Dvojitá krabice</link>

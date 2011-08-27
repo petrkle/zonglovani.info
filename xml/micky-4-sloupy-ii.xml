@@ -28,6 +28,11 @@
 			<popisek>Přesuň obě ruce zpátky a chyť první a druhý míček.</popisek>
     </krok>
 
+		<krok>
+			<animace>4-synchronous-columns-splits</animace>
+			<video>micky-4-splits</video>
+		</krok>
+
 	<dalsi>
 		<link url="/micky/4/sloupy.html" title="Lehčí varianta sloupů">Sloupy</link>
 	</dalsi>

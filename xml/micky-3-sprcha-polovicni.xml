@@ -27,6 +27,11 @@
         <popisek>Až budeš umět poloviční sprchu jedním směrem, zkus se ji naučit i na druhou stranu. Vyhazovat míčky levou rukou a zachytávat je do pravé.</popisek>
     </krok>
 
+		<krok>
+			<animace>3-half-shower-b</animace>
+			<video>micky-3-polovicni-sprcha</video>
+		</krok>
+
 	<dalsi>
 		<link url="/micky/3/sprcha.html" title="Těžší trik se třemi míčky">Sprcha</link>
 		<link url="/micky/4/sprcha-polovicni.html" title="Stejný trik se čtyřmi míčky">Poloviční sprcha se čtyřmi míčky</link>

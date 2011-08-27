@@ -23,6 +23,11 @@
         <popisek>S třetím míčkem pohybuj v ruce nad druhým míčkem. Je důležité držet míček tak, aby ho viděli diváci.</popisek>
     </krok>
 
+		<krok>
+			<animace>yo-yo</animace>
+			<video>micky-3-jojo</video>
+		</krok>
+
     <krok>
 			<popisek>Víš, jak vypadá &lt;a href=&quot;ojoj.html&quot; title=&quot;Podobný trik.&quot;&gt;jo-jo v Austrálii&lt;/a&gt;?</popisek>
     </krok>

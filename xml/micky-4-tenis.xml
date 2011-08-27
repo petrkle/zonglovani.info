@@ -38,6 +38,10 @@
 				<popisek>První míček nyní chytíš a vyhodíš levou rukou. Házej ho vysoko, ať získáš dost času na kaskádu pod ním.</popisek>
     </krok>
 
+		<krok>
+			<video>micky-4-tenis</video>
+		</krok>
+
 	<dalsi>
 		<link url="/micky/4/sprcha.html" title="Sprcha se čtyřmi míčky">Sprcha</link>
 		<link url="/micky/4/sprcha-polovicni.html" title="Poloviční sprcha je o trochu snazší než normální sprcha">Poloviční sprcha</link>

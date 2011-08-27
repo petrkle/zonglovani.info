@@ -23,6 +23,10 @@
         <popisek>Při návratu pravou rukou chyť míček, který jsi před tím vyhodil o něco výš. Pokračuj v kaskádě.</popisek>
     </krok>
 
+		<krok>
+			<video>micky-3-za-zady</video>
+		</krok>
+
 	<dalsi>
 		<link url="/micky/3/noha.html" title="Hození míčku pod nohou">Prohození míčku pod nohou</link>
 		<link url="/micky/2/zada.html" title="Trénink">Prohození za zády se děma míčky</link>

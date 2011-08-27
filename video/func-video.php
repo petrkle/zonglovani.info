@@ -21,8 +21,8 @@ function get_videa($path=''){
 			if(is_readable($_SERVER['DOCUMENT_ROOT'].'/video/img/'.$fl.'/'.$file.'.jpg')){
 				$vypis[$foo]['nahled']=$file.'.jpg';
 			}
-			if(isset($klip['download']) and preg_match('/juggling\.tv\/download\/encoded/',$klip['download'])){
-				$vypis[$foo]['originalurl']	= preg_replace('/.*download\/encoded\/([0-9]+)\/.*/','http://juggling.tv/\1',$klip['download']);
+			if(isset($klip['download']) and preg_match('/juggling\.tv\/download\//',$klip['download'])){
+				$vypis[$foo]['originalurl']	= preg_replace('/.*download\/(encoded|original)\/([0-9]+)\/.*/','http://juggling.tv/\2',$klip['download']);
 			}
 			$foo++;
 		};

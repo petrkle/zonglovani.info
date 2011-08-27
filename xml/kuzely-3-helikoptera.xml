@@ -29,6 +29,9 @@
 			<obrazek>kuzely-3-helikopterac</obrazek>
 			<popisek>Chyť kužel levou rukou a pokračuj v žonglování.</popisek>
     </krok>
-
+		
+		<krok>
+			<video>kuzely-3-helikoptera</video>
+		</krok>
 
 </trik>

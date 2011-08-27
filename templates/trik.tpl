@@ -15,12 +15,30 @@
 {if isset($krok.pre)}
 <pre>{$krok.pre}</pre>
 {/if}
-{/foreach}
-{if $trik.anim}
+
+{if isset($krok.animace) and isset($krok.video)}
 <!-- start -->
-<p class="animace"><a href="/animace/{$trik.anim.id|escape}.html" title="Animace">{obrazek soubor='animace.png' popisek=''} Přehrát animaci</a></p>
+<p class="animace">
+<a href="/animace/{$krok.animace|escape}.html" title="Animace">{obrazek soubor='animace.png' popisek=''} Přehrát animaci</a> nebo <a href="/video/navod/{$krok.video|escape}.html" title="Video">video</a>.
+</p>
 <!-- stop -->
 {/if}
+{if isset($krok.animace) and !isset($krok.video)}
+<!-- start -->
+<p class="animace">
+<a href="/animace/{$krok.animace|escape}.html" title="Animace">{obrazek soubor='animace.png' popisek=''} Přehrát animaci</a>
+</p>
+<!-- stop -->
+{/if}
+{if !isset($krok.animace) and isset($krok.video)}
+<!-- start -->
+<p class="animace">
+<a href="/video/navod/{$krok.video|escape}.html" title="Video">{obrazek soubor='animace.png' popisek=''} Přehrát video</a>
+</p>
+<!-- stop -->
+{/if}
+
+{/foreach}
 {if $trik.dalsi}
 
 

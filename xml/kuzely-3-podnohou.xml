@@ -17,6 +17,9 @@
 			<obrazek>kuzely-3-nohaa</obrazek>
 			<popisek>První kužel vyhodíš o trošku výš. Zatímco letí, prohodíš druhý kužel pod nohou.</popisek>
     </krok>
+		<krok>
+			<video>kuzely-3-pod-nohou</video>
+		</krok>
 
 	<dalsi>
 		<link url="/kuzely/3/zazady.html" title="Kužely nemusíš házet jenom před sebe">Hození kuželu za zády</link>

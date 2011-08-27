@@ -52,6 +52,11 @@
 				<popisek>Pravá ruku s prvním míčkem se vrací napravo od třetího míčku. Levou ruku s druhým míčkem posuň pod třetí míček.</popisek>
     </krok>
 
+		<krok>
+			<animace>double-box</animace>
+			<video>micky-3-dvojita-krabice</video>
+		</krok>
+
 	<dalsi>
 		<link url="/micky/3/seesaw.html" title="Krabice">See saw</link>
 		<link url="/micky/3/441.html" title="441 je podobné krabici">441</link>

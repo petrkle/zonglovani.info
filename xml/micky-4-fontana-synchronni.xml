@@ -28,6 +28,11 @@
 		<popisek>Vyzkoušej také obrácený směr hodů. Zvnějšku dovnitř.</popisek>
 	</krok>
 
+	<krok>
+		<animace>4-reverse-synchronous-fountain</animace>
+		<video>micky-4-fontana-s</video>
+	</krok>
+
 	<dalsi>
 		<link url="/micky/4/sloupy.html" title="Sloupy se čtyřmi míčky">Sloupy</link>
 		<link url="/micky/4/fontana.html" title="Každá ruka provádí samostatně 2 v 1">Fontána</link>

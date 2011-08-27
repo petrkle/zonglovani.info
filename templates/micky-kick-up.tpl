@@ -39,6 +39,8 @@ Vykopni nohou šikmo dozadu a do strany. Správný okamžik, směr a rychlost vy
 Ze začátku trénuj naboso - je to snazší. Nezapomeň zkoušet pravou i levou nohu.
 </p>
 
+{video jtvw='micky-3-kick-up'}
+
 <p>
 Obdobný postup můžeš použít pro <a href="/kuzely/kickup.html" title="Zvednutí kuželu nohou.">zvednutí kuželu</a>.
 </p>

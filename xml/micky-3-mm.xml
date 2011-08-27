@@ -111,6 +111,10 @@
         <popisek>Dál pokračuj jako na předchozích obrázcích. Ruce se pravidelně střídají ve vyhazování a zachycování míčků. Zároveň si také vyměňují pozice. Klíčem k zvládnutí celého triku je trénink se dvěma míčky. Je třeba naučit se plynule přehazovat dva míčky, pak už je to hračka.</popisek>
     </krok>
 
+		<krok>
+			<animace>standard-mills-mess</animace>
+		</krok>
+
 	<dalsi>
 		<link url="/micky/passing-mm.html" title="Passing s míčky">Mills' mess ve dvou</link>
 		<link url="/micky/3/mm-falesne.html" title="Jednodušší verze triku">Falešné mills' mess</link>

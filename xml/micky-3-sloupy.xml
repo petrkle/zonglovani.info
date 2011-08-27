@@ -23,6 +23,10 @@
         <popisek>Pak vyhoď druhý a třetí míček. První míček chytej střídavě do pravé a levé ruky.</popisek>
     </krok>
 
+		<krok>
+			<video>micky-3-sloupy</video>
+		</krok>
+
 	<dalsi>
 		<link url="1mezi2.html" title="Podobný trik se třemi míčky">Jeden mezi dvěma</link>
 		<link url="1okolo2.html" title="Podobný trik se třemi míčky">Jeden okolo dvou</link>

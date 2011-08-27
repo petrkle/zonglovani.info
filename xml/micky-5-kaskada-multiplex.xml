@@ -32,6 +32,11 @@
 	    <popisek>Dál pokračuj s pátým a druhým míčkem.</popisek>
     </krok>
 
+		<krok>
+			<animace>5-ball-multiplex-a</animace>
+			<video>micky-5-multiplex</video>
+		</krok>
+
 	<dalsi>
 		<link url="/micky/5/kaskada.html" title="Kaskáda s pěti míčky">Kaskáda</link>
 		<link url="/micky/3/multiplex.html" title="Vyhození několika míčků najednou">Multiplex se třemi míčky</link>

@@ -28,6 +28,10 @@
 				<popisek>Odraž míček tričkem jako na trampolíně. Dál pokračuj v kaskádě.</popisek>
     </krok>
 
+		<krok>
+			<video>micky-3-klokan</video>
+		</krok>
+
 	<dalsi>
 		<link url="/kuzely/passing/australsky-trik.html" title="Další trik z Austrálie">Australský trik</link>
 		<link url="/micky/3/cap.html" title="Stojí na jedné noze a žongluje">Čáp</link>

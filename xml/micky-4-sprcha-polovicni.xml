@@ -28,6 +28,11 @@
         <popisek>Současně se třetím míčkem vyhoď i čtvrtý. Čtvrtý míček letí nízkým obloučkem z levé ruky do pravé a tím celý trik zpomalí a učiní ho snazším.</popisek>
     </krok>
 
+		<krok>
+			<animace>4-half-shower</animace>
+			<video>micky-4-polovicni-sprcha</video>
+		</krok>
+
 	<dalsi>
 		<link url="/micky/4/sprcha.html" title="Sprcha se čtyřmi míčky">Sprcha</link>
 		<link url="/micky/3/sprcha-polovicni.html" title="Poloviční sprch je o trochu snazší než normální sprcha">Poloviční sprcha se třemi míčky</link>

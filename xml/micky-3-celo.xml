@@ -25,8 +25,12 @@
 
 
 		<krok>
-						<popisek>Můžeš zkusit odrazit míček několikrát za sebou a pak ho zachytit &lt;a href=&quot;krk.html&quot; title=&quot;Podobný trik se třemi míčky.&quot;&gt;za krk&lt;/a&gt;.</popisek>
+			<popisek>Můžeš zkusit odrazit míček několikrát za sebou a pak ho zachytit &lt;a href=&quot;krk.html&quot; title=&quot;Podobný trik se třemi míčky.&quot;&gt;za krk&lt;/a&gt;.</popisek>
     </krok>
+
+		<krok>
+			<video>micky-3-celo</video>
+		</krok>
 		
 	<dalsi>
 		<link url="/micky/3/koleno.html" title="Podobný trik se třemi míčky">Odražení míčku kolenem</link>

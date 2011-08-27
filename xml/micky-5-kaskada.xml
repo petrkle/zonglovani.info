@@ -41,6 +41,12 @@
 	<krok>
 	    <popisek>Dál vyhazuj a zachycuj míčky podle posledních dvou obrázků.</popisek>
     </krok>
+
+		<krok>
+			<animace>5-cascade</animace>
+			<video>micky-5-kaskada</video>
+		</krok>
+
 	<krok>
 		<popisek>Sepsal jsem &lt;a href=&quot;../rady5.html&quot; title=&quot;Tipy pro 5 míčků.&quot;&gt;několik rad&lt;/a&gt; pro žonglování s pěti míčky. Snad ti trochu pomohou. Žádný zázračný tip však není. Naučit se žonglovat s pěti míčky trvá dlouho.</popisek>
 

@@ -62,6 +62,10 @@
         <popisek>Vyhoď první a druhý míček rovně nahoru. Třetí míček zachytíš do levé ruky. Pak se třetí míček vrací po stejné dráze zpět.</popisek>
     </krok>
 
+		<krok>
+			<video>micky-3-jeden-mezi-dvema</video>
+		</krok>
+
 	<dalsi>
 		<link url="/micky/3/sloupy.html" title="Trik se třemi míčky">Sloupy</link>
 		<link url="/micky/3/tenis.html" title="Tenis je kombinace kaskády s reverzní kaskádou">Tenis</link>

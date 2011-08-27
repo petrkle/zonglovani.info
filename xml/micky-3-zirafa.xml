@@ -28,6 +28,11 @@
         <popisek>Z pravé ruky vyhodíš třetí míček, trochu ji posuneš vlevo a chytíš do ní druhý míček.</popisek>
     </krok>
 
+		<krok>
+			<animace>statue-of-liberty-a</animace>
+			<video>micky-3-zirafa</video>
+		</krok>
+
 	<dalsi>
 		<link url="/micky/3/klokan.html" title="Tak se žongluje v Austrálii">Klokan</link>
 		<link url="/micky/3/cap.html" title="Stojí na jedné noze a žongluje">Čáp</link>

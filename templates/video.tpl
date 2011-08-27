@@ -23,8 +23,8 @@ Adresa videa: <a href="http://youtube.com?v={$video.fid|escape}" class="external
 {/if}
 
 {if $video.typ=='juggling.tv'}
-<p class="youtubevideo">
-<object type="application/x-shockwave-flash" data="http://juggling.tv/nvplayer.swf?config=http://juggling.tv/nuevo/econfig.php?key={$video.fid}" class="youtubevideo">
+<p class="{if $event=='navod'}wyoutubevideo{else}youtubevideo{/if}">
+<object type="application/x-shockwave-flash" data="http://juggling.tv/nvplayer.swf?config=http://juggling.tv/nuevo/econfig.php?key={$video.fid}" class="{if $event=='navod'}wyoutubevideo{else}youtubevideo{/if}">
 	<param name="movie" value="http://juggling.tv/nvplayer.swf?config=http://juggling.tv/nuevo/econfig.php?key={$video.fid}" />
 	<param name="wmode" value="transparent" />
 	<param name="allowscriptaccess" value="always" />
@@ -53,6 +53,9 @@ Pro přehrávání videa je potřeba <a href="http://get.adobe.com/flashplayer/"
 <div class="kamdal">
 <a name="kam-dal"></a><h5>Kam dál</h5>
 <ul>
+{if $navigace.navod}
+	<li class="link_navod"><a href="{$navigace.navod|escape}" title="Podrobný textový návod jak se naučit {$video.nazev|escape}.">{$video.nazev|escape}</a> - podrobný návod.</li>
+{/if}
 {if $navigace.dalsi}
 	<li class="link_next">Další video: <a href="{$navigace.dalsi.url|escape}" title="{$navigace.dalsi.title|escape}">{$navigace.dalsi.text|escape}</a></li>
 {/if}

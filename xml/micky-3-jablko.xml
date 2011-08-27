@@ -2,7 +2,7 @@
 <trik>
 
     <about>
-	     <nazev>Jezení jablka</nazev>
+	     <nazev>Jedení jablka</nazev>
 		 <pocet>3</pocet>
 	     <siteswaps>-</siteswaps>
 		 <obtiznost>snadné</obtiznost>
@@ -36,6 +36,11 @@
     <krok>
 			<popisek>Tip: trénuj s jedním jablkem a dvěma míčky. Když si nestihneš dát jablko do pusy nebo ho vyndat, na zem ti spadne pouze míček.</popisek>
     </krok>
+
+		<krok>
+			<animace>eating-an-apple-for-light-eaters</animace>
+			<video>micky-3-jablko</video>
+		</krok>
 
 	<dalsi>
 		<link url="/micky/vajicka.html" title="Jsou šišatá, křehká a nadělají spoustu nepořádku">Žonglování s vajíčky</link>

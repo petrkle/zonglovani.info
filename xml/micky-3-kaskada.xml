@@ -31,6 +31,11 @@
 	    <popisek>Tak a už umíš žonglovat se třemi míčky.</popisek>
   </krok>
 
+	<krok>
+			<video>micky-3-kaskada</video>
+			<animace>3-cascade</animace>
+	</krok>
+
 	<dalsi>
 		<link url="/micky/vyroba.html" title="Pěkné míčky na žonglování snadno a rychle">Návod na výrobu míčků</link>
 		<link url="/trenink.html" title="Tipy a triky pro trénink">Jak trénovat žonglování</link>

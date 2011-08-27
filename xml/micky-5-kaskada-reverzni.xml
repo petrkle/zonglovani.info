@@ -42,6 +42,11 @@
 	    <popisek>Dál vyhazuj a zachycuj míčky podle posledních dvou obrázků.</popisek>
     </krok>
 
+		<krok>
+			<animace>5-reverse-cascade</animace>
+			<video>micky-5-kaskada-r</video>
+		</krok>
+
 	<dalsi>
 		<link url="/micky/5/kaskada.html" title="Kaskáda s pěti míčky">Kaskáda</link>
 		<link url="/micky/5/kaskada-multiplex.html" title="Usnadnění kaskády s pěti míčky">Kaskáda (multiplex)</link>

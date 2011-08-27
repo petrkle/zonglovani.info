@@ -63,6 +63,11 @@
         <popisek>Zatímco třetí míček letí, zachytíš a opět vyhodíš první a druhý míček.</popisek>
     </krok>
 
+		<krok>
+			<video>micky-3-jeden-okolo-dvou2</video>
+			<animace>1up-2up-e</animace>
+		</krok>
+
 	<dalsi>
 		<link url="/micky/3/sloupy.html" title="Trik se třemi míčky">Sloupy</link>
 		<link url="/micky/3/1mezi2.html" title="Rozšíření sloupů">Jeden mezi dvěma</link>

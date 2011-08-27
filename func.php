@@ -22,9 +22,19 @@ function nacti_trik($soubor){
 				$foo['kotva'] = (string) $krok->nadpis['name'];
 			}
 		}
+		if($krok->video){
+			if($krok->video){
+				$foo['video'] = (string) $krok->video;
+			}
+			if($krok->animace){
+				$foo['animace'] = (string) $krok->animace;
+			}
+		}
 		array_push($trik['kroky'],$foo);
 	}
-	$trik['anim']=get_anim($_SERVER['REQUEST_URI']);
+
+
+	#$trik['anim']=get_anim($_SERVER['REQUEST_URI']);
 	if(isset($xml->dalsi)){
 		$trik['dalsi']=array();
 		foreach ($xml->dalsi->link as $odkaz){

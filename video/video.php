@@ -34,7 +34,6 @@ foreach($videa as $key=>$video){
 
 if(isset($idcka[$v])){
 	$video=$videa[$idcka[$v]];
-
 	if($video['typ']=='juggling.tv'){
 		$fid=preg_split('/\.tv:/',$video['link']);
 		$video['fid']=$fid[1];
@@ -58,7 +57,6 @@ if(isset($idcka[$v])){
 	if(isset($video['typ']) and $video['typ']!='file'){
 		$hlavicky['typ']='<meta name="video_type" content="application/x-shockwave-flash" />';
 	}
-
 	if(isset($video['typ']) and $video['typ']=='juggling.tv'){
 		$hlavicky['video_src']='<link rel="video_src" href="http://juggling.tv/nvplayer.swf?config=http://juggling.tv/nuevo/econfig.php?key='.$video['fid'].'" />';
 		/*
@@ -101,6 +99,7 @@ $data = $pager->getPageData();
 		$cislostranky=$pager->getPageIdByOffset($idcka[$v]);
 
 
+	$smarty->assign('event',$event);
 	$trail = new Trail();
 	$trail->addStep('Žonglérská videa','/video/');
 	if($event){
@@ -118,6 +117,10 @@ $data = $pager->getPageData();
 	}
 
 	$navigace=array();
+	if(isset($video['navod'])){
+		$navigace['navod']=$video['navod'];
+	}
+
 	if(isset($videa[$idcka[$v]+1])){
 		$navigace['dalsi']=array('url'=>$videa[$idcka[$v]+1]['id'].'.html','text'=>$videa[$idcka[$v]+1]['nazev'],'title'=>'Video '.$videa[$idcka[$v]+1]['nazev'].', délka '.$videa[$idcka[$v]+1]['delka']);
 	}else{
