@@ -33,7 +33,7 @@
 {if !isset($krok.animace) and isset($krok.video)}
 <!-- start -->
 <p class="animace">
-<a href="/video/navod/{$krok.video|escape}.html" title="Video">{obrazek soubor='animace.png' popisek=''} Přehrát video</a>
+<a href="/video/navod/{$krok.video|escape}.html" title="Video" onclick="this.parentNode.innerHTML='{jsvideo v=$krok.video}';return false;">{obrazek soubor='animace.png' popisek=''} Přehrát video</a>
 </p>
 <!-- stop -->
 {/if}
