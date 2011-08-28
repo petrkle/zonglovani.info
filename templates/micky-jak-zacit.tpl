@@ -14,11 +14,7 @@ Začneme tím nejlehčím, jedním míčkem. Ze začátku si s míčkem jenom po
 A pak zpátky z levé do pravé. Při chytání nepohybuj rukou proti míčku. Počkej si až ti přiletí do dlaně. Míčky se při žonglování neodrážejí, ale chytají a hážou.
 </p>
 
-<!-- start -->
-<p class="animace">
-<a href="/animace/1-ball-out-of-a-3-cascade.html" title="Animace házení jednoho míčku">{obrazek soubor='animace.png' popisek=''} Přehrát animaci</a>
-</p>
-<!-- stop -->
+{jsinlineamin a='1-ball-out-of-a-3-cascade'}
 
 <p>
 Vyzkoušej i pohazování s míčkem v jedné ruce. Zkus zachytit míček odražený od zdi. Procvičuj pravou i levou ruku. Důležité je se s míčkem sžít a dostat ho do ruky. Spousta lidí si myslí, že házet si s jedním míčkem přece umí a snaží se začít hned alespoň se dvěma nebo třemi míčky. To ale většinou není pravda, věnuj proto dostatek času hraní si s jedním míčkem. Získáš solidní základ a další trénink se dvěma a později i žonglování se třemi míčky ti půjde snadněji.
@@ -43,11 +39,7 @@ Když první míček míjí tvůj nos, je čas vyhodit druhý míček. Pak zachy
 Trénuj nejprve podle obrázků a pak s obráceným pořadím rukou.
 </p>
 
-<!-- start -->
-<p class="animace">
-<a href="/animace/throw-twice.html" title="Animace házení dvou míčků">{obrazek soubor='animace.png' popisek=''} Přehrát animaci</a>
-</p>
-<!-- stop -->
+{jsinlineamin a='throw-twice'}
 
 
 <h2>Tři míčky</h2>
