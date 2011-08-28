@@ -19,21 +19,24 @@
 {if isset($krok.animace) and isset($krok.video)}
 <!-- start -->
 <p class="animace">
-<a href="/animace/{$krok.animace|escape}.html" title="Animace">{obrazek soubor='animace.png' popisek=''} Přehrát animaci</a> nebo <a href="/video/navod/{$krok.video|escape}.html" title="Video">video</a>.
+<a href="/animace/{$krok.animace|escape}.html" title="Animace" onkeydown="{jsanimace a=$krok.animace}" onclick="{jsanimace a=$krok.animace}"><img src="/img/a/animace.s.png" width="20" height="20" title="" alt="" /> Přehrát animaci</a>
+</p>
+<p class="animace">
+<a href="/video/navod/{$krok.video|escape}.html" title="Video" onkeydown="{jsvideo v=$krok.video}" onclick="{jsvideo v=$krok.video}"><img src="/img/v/video.s.png" width="20" height="20" title="" alt="" /> Přehrát video</a>
 </p>
 <!-- stop -->
 {/if}
 {if isset($krok.animace) and !isset($krok.video)}
 <!-- start -->
 <p class="animace">
-<a href="/animace/{$krok.animace|escape}.html" title="Animace">{obrazek soubor='animace.png' popisek=''} Přehrát animaci</a>
+<a href="/animace/{$krok.animace|escape}.html" title="Animace" onkeydown="{jsanimace a=$krok.animace}" onclick="{jsanimace a=$krok.animace}">{obrazek soubor='animace.s.png' popisek=''} Přehrát animaci</a>
 </p>
 <!-- stop -->
 {/if}
 {if !isset($krok.animace) and isset($krok.video)}
 <!-- start -->
 <p class="animace">
-<a href="/video/navod/{$krok.video|escape}.html" title="Video" onclick="this.parentNode.innerHTML='{jsvideo v=$krok.video}';return false;">{obrazek soubor='animace.png' popisek=''} Přehrát video</a>
+<a href="/video/navod/{$krok.video|escape}.html" title="Video" onkeydown="{jsvideo v=$krok.video}" onclick="{jsvideo v=$krok.video}">{obrazek soubor='video.s.png' popisek=''} Přehrát video</a>
 </p>
 <!-- stop -->
 {/if}
