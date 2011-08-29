@@ -11,7 +11,7 @@
 	<param name="allowscriptaccess" value="always" />
 	<param name="allowfullscreen" value="false" />
 	<param name="pluginspage" value="http://get.adobe.com/flashplayer/" />
-Pro přehrávání videa je potřeba <a href="http://get.adobe.com/flashplayer/" class="external" onclick="_gaq.push(['_trackPageview','/goto/get.adobe.com/flashplayer']);">Adobe Flash</a>
+Přehrát video přímo na stránce <a href="http://youtu.be/{$video.fid|escape}" class="external" onclick="_gaq.push(['_trackPageview','/goto/youtu.be/{$video.fid|escape}']);">youtu.be/{$video.fid|escape}</a>
 </object>
 </p>
 <p>
@@ -30,7 +30,7 @@ Adresa videa: <a href="http://youtube.com?v={$video.fid|escape}" class="external
 	<param name="allowscriptaccess" value="always" />
 	<param name="allowfullscreen" value="false" />
 	<param name="pluginspage" value="http://get.adobe.com/flashplayer/" />
-Pro přehrávání videa je potřeba <a href="http://get.adobe.com/flashplayer/" class="external" onclick="_gaq.push(['_trackPageview','/goto/get.adobe.com/flashplayer']);">Adobe Flash</a>
+Uložit video ve formátu <a href="{$video.download}" class="external" onclick="_gaq.push(['_trackPageview','/goto/juggling.tv']);">.mp4</a>
 </object>
 </p>
 {if $video.download}
