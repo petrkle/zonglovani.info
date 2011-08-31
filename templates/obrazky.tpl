@@ -16,6 +16,7 @@ Stránkování: {$pager_links}
 </p>
 {/if}
 
+{if $gal_info.mail != 'admin@zonglovani.info'}
 {if $gal_info.autor or $gal_info.mail or $gal_info.url}
 <div class="spacer">&nbsp;</div>
 <h3>Autor fotografií</h3>
@@ -27,6 +28,7 @@ Stránkování: {$pager_links}
 {/if}
 {if $gal_info.url}
 <p><a href="{$gal_info.url|escape}" onclick="_gaq.push(['_trackPageview','/goto/{$gal_info.url|replace:'http://':''|regex_replace:'/^www\./':''}']);"{if preg_match('/^http:\/\//',$gal_info.url_hr)} class="external" rel="nofollow"{/if}>{$gal_info.url|replace:'http://':''|regex_replace:"/^www\./":""|regex_replace:"/\/$/":""|truncate:40:"...":false|escape}</a></p>
+{/if}
 {/if}
 {/if}
 {/if}
