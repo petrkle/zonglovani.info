@@ -27,7 +27,7 @@ Kuželka drží na vnější straně palce jen pomocí setrvačnosti a drobného
 Prsty a palcem udělíš kuželce potřebnou rychlost do další otočky.
 </p>
 
-{video jtvw='kuzely-toceni-okolo-palce'}
+{jsinlinevideo v='kuzely-toceni-okolo-palce'}
 
 <p>
 Otáčení kuželky můžeš použít například v triku <a href="/kuzely/3/423.html" title="Trik se třemi míčky">423</a>.

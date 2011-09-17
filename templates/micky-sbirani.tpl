@@ -23,7 +23,7 @@ Levou rukou pokračuješ v kaskádě. Mezitím pravá ruka sbírá třetí míč
 Pokračuj <a href="/micky/3/kaskada.html" title="Základní trik se třemi míčky.">kaskádou se třemi</a> míčky.
 </p>
 
-{video jtvw='micky-3-zvednuti-spadleho-micku'}
+{jsinlinevideo v='micky-3-zvednuti-spadleho-micku'}
 
 <h3>4 míčky</h3>
 
@@ -55,7 +55,7 @@ Pravou rukou seber míček ze země.
 Pokračuj fontánou se čtyřmi míčky.
 </p>
 
-{video jtvw='micky-4-sebrani'}
+{jsinlinevideo v='micky-4-sebrani'}
 
 <h3>5 míčků</h3>
 

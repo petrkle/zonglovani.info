@@ -24,3 +24,5 @@ Se zavřenýma očima začne tvůj mozek víc používat ostatní smysly. Hlavn�
 {obrazek soubor="poslepua.png" popisek="Žonglování s kyblem na hlavě."}
 Žonglování poslepu je velmi efektní pro obecenstvo. Můžeš žonglovat se šátkem nebo kbelíkem přes oči. Případně jednoho z diváků požádat, aby ti zakryl oči rukama. Když totiž oči jenom zavřeš, není pořádně poznat, jestli náhodou nekoukáš pod řasami. Na závěr je třeba poznamenat, že toto asi není nejlepší trik pro začátečníky. Vyžaduje dokonalé zvládnutí kaskády a velké množství tréninku.
 </p>
+
+{jsinlinevideo v='micky-3-poslepu'}

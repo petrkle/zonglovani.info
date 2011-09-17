@@ -7,7 +7,7 @@ Použij pevný kulatý míček.
 Balancovat můžeš na vršku hlavy. Míček pokládej na hlavu střídavě levou a pravou rukou.
 </p>
 
-{video jtvw='micky-3-balancovani-micku-na-hlave'}
+{jsinlinevideo v='micky-3-balancovani-micku-na-hlave'}
 
 <p>
 {obrazek soubor="balancb.png" popisek="Balancování míčku na hlavě."}

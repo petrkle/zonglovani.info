@@ -26,3 +26,5 @@ Překulení kuželky přes hlavu je obtížný trik. Jistotu získáš jedině p
 {obrazek soubor="headrolle.png" popisek=""}
 Na konci překulení chytíš kuželku do levé ruky.
 </p>
+
+{jsinlinevideo v='kuzely-3-prekuleni-kuzelky-pres-hlavu'}

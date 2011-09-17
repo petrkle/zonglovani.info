@@ -24,6 +24,10 @@
 			<popisek>Dobrovolník &lt;b&gt;C&lt;/b&gt; se nesmí v žádném případě pohnout. Kužely létají těsně okolo něj.</popisek>
     </krok>
 
+		<krok>
+			<video>kuzely-passing-okolo-cloveka</video>
+		</krok>
+
 	<dalsi>
 		<link url="/kuzely/passing/box.html" title="Další trik pro odvážné dobrovolníky">Čtverec</link>
 		<link url="/kuzely/passing/sloupy.html" title="Dva žongléři a čtyři kužely">Sloupy ve dvou</link>

@@ -19,6 +19,10 @@
         <popisek>Zatímco první míček padá, prohoď druhý míček za zády.</popisek>
     </krok>
 
+		<krok>
+			<video>micky-2-zada</video>
+		</krok>
+
 	<dalsi>
 		<link url="/micky/3/zada.html" title="Ještě jeden míček navíc">Prohození míčku za zády - tři míčky</link>
 		<link url="/micky/3/kaskada.html" title="Základní trik se třemi míčky">Kaskáda se třemi míčky</link>

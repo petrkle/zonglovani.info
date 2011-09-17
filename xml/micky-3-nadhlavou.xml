@@ -27,6 +27,10 @@
 			<animace>over-the-head</animace>
 		</krok>
 
+		<krok>
+			<video>micky-3-nad-hlavou</video>
+		</krok>
+
 	<dalsi>
 		<link url="/micky/3/socha.html" title="Poloviční sprcha s jednou rukou nahoře">Socha svobody</link>
 		<link url="/micky/3/blesk.html" title="Rychlé vyhození míčků tak, že tvé dlaně zůstanou na okamžik prázdné">Blesk</link>

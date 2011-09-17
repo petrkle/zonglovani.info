@@ -2,9 +2,9 @@
 <trik>
 
     <about>
-	     <nazev>Australský trik</nazev>
+     <nazev>Australský trik</nazev>
 		 <pocet>3</pocet>
-	     <siteswaps>-</siteswaps>
+     <siteswaps>-</siteswaps>
 		 <obtiznost>těžší</obtiznost>
 		 <oblast>kuzely-passing</oblast>
 	</about>
@@ -47,6 +47,10 @@
 	<krok>
 		<obrazek>australiea</obrazek>
 		<popisek>Žonglér &lt;b&gt;B&lt;/b&gt; pokračuje v kaskádě.</popisek>
+	</krok>
+
+	<krok>
+			<video>kuzely-passing-australsky-trik</video>
 	</krok>
 
 	<dalsi>

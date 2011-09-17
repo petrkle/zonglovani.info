@@ -27,4 +27,4 @@ Pravá ruka je volná pro zachycení padajícího vajíčka.
 Můžeš trénovat s pokladky ze sádry. Opravdové vajíčko léta přeci jenom trochu jinak. A hlavně jinak dopadá.
 </p>
 
-{video jtvw='micky-3-vajicka'}
+{jsinlinevideo v='micky-3-vajicka'}

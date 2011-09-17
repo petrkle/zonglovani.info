@@ -12,6 +12,8 @@ Postav si kužel užším koncem na špičku nosu a udržuj rovnováhu.
 Postav si kužel užším koncem na bradu a udržuj rovnováhu.
 </p>
 
+{jsinlinevideo v='kuzely-3-brada'}
+
 <p>
 {obrazek soubor="kuzely-balancd.png" popisek="Balancování kuželu na noze."}
 Postav si kuželku na nárt nohy a udržuj rovnováhu.

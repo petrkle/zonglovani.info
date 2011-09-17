@@ -28,6 +28,9 @@
 			<popisek>Třetí hod házíš z pravé ruky sám sobě - self.</popisek>
     </krok>
 
+		<krok>
+			<video>kuzely-passing-pps</video>
+		</krok>
 
 	<dalsi>
 		<link url="/kuzely/passing/ps.html" title="PS">Pass self</link>
