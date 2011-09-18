@@ -1360,6 +1360,51 @@
 </video:video>
 </url>
 <url>
+<loc>http://zonglovani.info/video/navod/micky-3-blesk.html</loc>
+<video:video>
+<video:thumbnail_loc>http://zonglovani.info/video/img/m/micky-3-blesk.jpg</video:thumbnail_loc>
+<video:title>Blesk</video:title>
+<video:description>Blesk se třemi míčky.</video:description>
+<video:content_loc>http://juggling.tv/download/original/6737/blesk.mp4</video:content_loc>
+<video:player_loc>http://juggling.tv/nvplayer.swf?config=http://juggling.tv/nuevo/config.php?key=9f3d183938c451fa183d</video:player_loc>
+<video:duration>6</video:duration>
+<video:tag>Žonglování</video:tag>
+<video:category>Žonglování</video:category>
+<video:gallery_loc title="Žonglérská videa">http://zonglovani.info/video/</video:gallery_loc>
+<video:requires_subscription>no</video:requires_subscription>
+</video:video>
+</url>
+<url>
+<loc>http://zonglovani.info/video/navod/micky-3-boston-mess.html</loc>
+<video:video>
+<video:thumbnail_loc>http://zonglovani.info/video/img/m/micky-3-boston-mess.jpg</video:thumbnail_loc>
+<video:title>Boston mess</video:title>
+<video:description>Boston mess se třemi míčky.</video:description>
+<video:content_loc>http://juggling.tv/download/original/6738/boston-mess.mp4</video:content_loc>
+<video:player_loc>http://juggling.tv/nvplayer.swf?config=http://juggling.tv/nuevo/config.php?key=3fdff101872bb03cfded</video:player_loc>
+<video:duration>23</video:duration>
+<video:tag>Žonglování</video:tag>
+<video:category>Žonglování</video:category>
+<video:gallery_loc title="Žonglérská videa">http://zonglovani.info/video/</video:gallery_loc>
+<video:requires_subscription>no</video:requires_subscription>
+</video:video>
+</url>
+<url>
+<loc>http://zonglovani.info/video/navod/micky-3-cap.html</loc>
+<video:video>
+<video:thumbnail_loc>http://zonglovani.info/video/img/m/micky-3-cap.jpg</video:thumbnail_loc>
+<video:title>Čáp</video:title>
+<video:description>Házení míčků pod nohou.</video:description>
+<video:content_loc>http://juggling.tv/download/original/6739/p.mp4</video:content_loc>
+<video:player_loc>http://juggling.tv/nvplayer.swf?config=http://juggling.tv/nuevo/config.php?key=fef2bb823c39e45dd6c9</video:player_loc>
+<video:duration>7</video:duration>
+<video:tag>Žonglování</video:tag>
+<video:category>Žonglování</video:category>
+<video:gallery_loc title="Žonglérská videa">http://zonglovani.info/video/</video:gallery_loc>
+<video:requires_subscription>no</video:requires_subscription>
+</video:video>
+</url>
+<url>
 <loc>http://zonglovani.info/video/navod/micky-3-celo.html</loc>
 <video:video>
 <video:thumbnail_loc>http://zonglovani.info/video/img/m/micky-3-celo.jpg</video:thumbnail_loc>
@@ -1398,6 +1443,21 @@
 <video:content_loc>http://juggling.tv/download/original/6541/dvojit-krabice.mp4</video:content_loc>
 <video:player_loc>http://juggling.tv/nvplayer.swf?config=http://juggling.tv/nuevo/config.php?key=12ce66dba400a86a0909</video:player_loc>
 <video:duration>9</video:duration>
+<video:tag>Žonglování</video:tag>
+<video:category>Žonglování</video:category>
+<video:gallery_loc title="Žonglérská videa">http://zonglovani.info/video/</video:gallery_loc>
+<video:requires_subscription>no</video:requires_subscription>
+</video:video>
+</url>
+<url>
+<loc>http://zonglovani.info/video/navod/micky-3-dvojite-jojo.html</loc>
+<video:video>
+<video:thumbnail_loc>http://zonglovani.info/video/img/m/micky-3-dvojite-jojo.jpg</video:thumbnail_loc>
+<video:title>Dvojité jo-jo</video:title>
+<video:description>Dvojité jo-jo se třemi míčky.</video:description>
+<video:content_loc>http://juggling.tv/download/original/6740/dvojit-jo-jo.mp4</video:content_loc>
+<video:player_loc>http://juggling.tv/nvplayer.swf?config=http://juggling.tv/nuevo/config.php?key=a98addec555019bbae8e</video:player_loc>
+<video:duration>10</video:duration>
 <video:tag>Žonglování</video:tag>
 <video:category>Žonglování</video:category>
 <video:gallery_loc title="Žonglérská videa">http://zonglovani.info/video/</video:gallery_loc>
@@ -1608,6 +1668,66 @@
 <video:content_loc>http://juggling.tv/download/original/6608/krabice.mp4</video:content_loc>
 <video:player_loc>http://juggling.tv/nvplayer.swf?config=http://juggling.tv/nuevo/config.php?key=8a3babe331569d3eac6b</video:player_loc>
 <video:duration>5</video:duration>
+<video:tag>Žonglování</video:tag>
+<video:category>Žonglování</video:category>
+<video:gallery_loc title="Žonglérská videa">http://zonglovani.info/video/</video:gallery_loc>
+<video:requires_subscription>no</video:requires_subscription>
+</video:video>
+</url>
+<url>
+<loc>http://zonglovani.info/video/navod/micky-3-mlyn.html</loc>
+<video:video>
+<video:thumbnail_loc>http://zonglovani.info/video/img/m/micky-3-mlyn.jpg</video:thumbnail_loc>
+<video:title>Větrný mlýn</video:title>
+<video:description>Větrný mlýn se třemi míčky.</video:description>
+<video:content_loc>http://juggling.tv/download/original/6744/vtrn-mln.mp4</video:content_loc>
+<video:player_loc>http://juggling.tv/nvplayer.swf?config=http://juggling.tv/nuevo/config.php?key=1429902623b790f15a77</video:player_loc>
+<video:duration>8</video:duration>
+<video:tag>Žonglování</video:tag>
+<video:category>Žonglování</video:category>
+<video:gallery_loc title="Žonglérská videa">http://zonglovani.info/video/</video:gallery_loc>
+<video:requires_subscription>no</video:requires_subscription>
+</video:video>
+</url>
+<url>
+<loc>http://zonglovani.info/video/navod/micky-3-mm-falesne.html</loc>
+<video:video>
+<video:thumbnail_loc>http://zonglovani.info/video/img/m/micky-3-mm-falesne.jpg</video:thumbnail_loc>
+<video:title>Falešné mills' mess</video:title>
+<video:description>Falešné mills' mess se třemi míčky</video:description>
+<video:content_loc>http://juggling.tv/download/original/6741/falen-mills-mess.mp4</video:content_loc>
+<video:player_loc>http://juggling.tv/nvplayer.swf?config=http://juggling.tv/nuevo/config.php?key=852218032aae6f5632b1</video:player_loc>
+<video:duration>10</video:duration>
+<video:tag>Žonglování</video:tag>
+<video:category>Žonglování</video:category>
+<video:gallery_loc title="Žonglérská videa">http://zonglovani.info/video/</video:gallery_loc>
+<video:requires_subscription>no</video:requires_subscription>
+</video:video>
+</url>
+<url>
+<loc>http://zonglovani.info/video/navod/micky-3-mm.html</loc>
+<video:video>
+<video:thumbnail_loc>http://zonglovani.info/video/img/m/micky-3-mm.jpg</video:thumbnail_loc>
+<video:title>Mills' mess</video:title>
+<video:description>Mills' mess se třemi míčky</video:description>
+<video:content_loc>http://juggling.tv/download/original/6742/mills-mess.mp4</video:content_loc>
+<video:player_loc>http://juggling.tv/nvplayer.swf?config=http://juggling.tv/nuevo/config.php?key=f34937cfdc1bd73034d1</video:player_loc>
+<video:duration>10</video:duration>
+<video:tag>Žonglování</video:tag>
+<video:category>Žonglování</video:category>
+<video:gallery_loc title="Žonglérská videa">http://zonglovani.info/video/</video:gallery_loc>
+<video:requires_subscription>no</video:requires_subscription>
+</video:video>
+</url>
+<url>
+<loc>http://zonglovani.info/video/navod/micky-3-multiplex.html</loc>
+<video:video>
+<video:thumbnail_loc>http://zonglovani.info/video/img/m/micky-3-multiplex.jpg</video:thumbnail_loc>
+<video:title>Multiplex</video:title>
+<video:description>Multiplex se třemi míčky.</video:description>
+<video:content_loc>http://juggling.tv/download/original/6743/multiplex.mp4</video:content_loc>
+<video:player_loc>http://juggling.tv/nvplayer.swf?config=http://juggling.tv/nuevo/config.php?key=09d0be28d8ae112db1bb</video:player_loc>
+<video:duration>14</video:duration>
 <video:tag>Žonglování</video:tag>
 <video:category>Žonglování</video:category>
 <video:gallery_loc title="Žonglérská videa">http://zonglovani.info/video/</video:gallery_loc>

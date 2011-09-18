@@ -38,6 +38,10 @@
 			<popisek>Trik vypadá dobře, když hážeš míčky z pravé i levé ruky do stejné výšky a v pravidelném rytmu. V ideálním případě by nemělo být znát, že z jedné strany házíš míčky pod nohou.</popisek>
 		</krok>
 
+		<krok>
+			<video>micky-3-cap</video>
+		</krok>
+
 	<dalsi>
 		<link url="/micky/3/noha.html" title="Hoď si míček pod nohou">Prohození míčku pod nohou</link>
 		<link url="/micky/3/zirafa.html" title="Žirafa je vlastně poloviční sprcha s jednou rukou nahoře">Žirafa</link>

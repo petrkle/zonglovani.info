@@ -48,6 +48,10 @@
 			<popisek>První míček hodíš z pravé ruky zpět. Druhý míček zůstává v levé ruce.</popisek>
     </krok>
 
+		<krok>
+			<video>micky-3-mm-falesne</video>
+		</krok>
+
 	<dalsi>
 		<link url="/micky/3/mm.html" title="Pravý Mills' mess">Mills' mess</link>
 		<link url="/micky/passing-mm.html" title="Passing s míčky">Mills' mess ve dvou</link>

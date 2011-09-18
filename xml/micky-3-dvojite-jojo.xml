@@ -42,6 +42,10 @@
 			<popisek>Dál pokračuj zrcadlově podle prvního obrázku.</popisek>
 		</krok>
 
+		<krok>
+			<video>micky-3-dvojite-jojo</video>
+		</krok>
+
 	<dalsi>
 		<link url="/micky/3/jojo.html" title="Snadný a velmi hezký trik">Jo - jo</link>
 		<link url="/micky/3/ojoj.html" title="Australské jo-jo">Oj - oj</link>

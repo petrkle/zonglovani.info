@@ -76,6 +76,10 @@
 			<popisek>Multiplex můžeš použít při &lt;a href=&quot;/micky/5/kaskada-multiplex.html&quot; title=&quot;Trik s 5 míčky.&quot;&gt;kaskádě s pěti míčky&lt;/a&gt;.</popisek>
     </krok>
 
+		<krok>
+			<video>micky-3-multiplex</video>
+		</krok>
+
 	<dalsi>
 		<link url="/micky/3/neobvykly-zacatek.html" title="Použití multiplexu na začátku žonglování">Neobvyklý začátek kaskády</link>
 		<link url="/micky/5/kaskada-multiplex.html" title="Usnadnění kaskády s pěti míčky">Kaskáda s pěti míčky - multiplex</link>
