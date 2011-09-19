@@ -119,12 +119,12 @@
 2011-09-05*Mill's Mess s pěti míčky*/video/navody/5-ball-mills-mess.html*5-ball-mills-mess.jpg*Video s návodem na Mill's Mess s pěti míčky.
 2011-09-12*A New Ratio*/video/a-new-ratio.html*a-new-ratio.jpg*Emil Lamprecht and Doreen Großmann passují s kužely na střeše.
 2011-09-19*Guava over winter break*/video/guava-winter-07-08.html*guava-winter-07-08.jpg*Starší ale pořád dobré video od Salby a Ann.
-2011-09-26*Výhody pro registrované uživatele*/exkurze.html*exkurze-nahled-2010-2-28-19-49-47.jpg*Obrázky a popis výhod pro registrované uživatele žonglérova slabikáře.
+2011-09-26*Video návody*/video/navod/info.html*video.png*Většinu triků v žonglérově slabikáři doplňuje krátké instruktážní video. Odkazy pro přehrání videa jsou označeny obrázkem kamery.
 2011-10-03*Obrázky kuželů*/kuzely/druhy.html*kuzelka-albatros-s.jpg*Obrázky žonglérských kuželů.
-2011-10-10*
-2011-10-17*
-2011-10-24*
-2011-10-31*
+2011-10-10*Překulení kuželky přes hlavu*/kuzely/headroll.html*headrollc.png*Trik známý též pod anglickým názvem headroll.
+2011-10-17*Žonglování poslepu*/micky/poslepu.html*poslepua.png*Můžeš žonglovat se šátkem nebo kbelíkem přes oči. Případně jednoho z diváků požádat, aby ti zakryl oči rukama.
+2011-10-24*Výhody pro registrované uživatele*/exkurze.html*exkurze-nahled-2010-2-28-19-49-47.jpg*Obrázky a popis výhod pro registrované uživatele žonglérova slabikáře.
+2011-10-31*Žonglování okolo člověka*/kuzely/passing/around.html*kuzely-passing-aroundsomebodyb.png*Při žonglérském vystoupení je důležité zapojit diváky.
 2011-11-07*
 2011-11-14*
 2011-11-21*

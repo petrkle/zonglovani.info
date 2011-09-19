@@ -4,6 +4,7 @@ RewriteBase /video
 RewriteCond %{HTTP_HOST} ^www\.(.*)
 RewriteRule (.*) http://%1/video/$1 [R=301,QSA,NE,L]
 
+RewriteRule ^navod/info\.html$ navody-info.php [L]
 RewriteRule ^stranka1\.html$ /video/ [R=301,L]
 RewriteRule ^([^\/]+)/stranka1\.html$ /video/$1/ [R=301,L]
 RewriteRule ^([^\/]+)/stranka(.*)\.html$ event.php?id=$1&pageID=$2 [L]

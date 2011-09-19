@@ -8,6 +8,8 @@ Předávání, více lidí žongluje spolu. Název vychází z angličtiny. Pass
 Královská disciplína žonglování. Užiješ si při ní nejvíc legrace. Pro passing jsou nejlepší kužely. 
 </p>
 
+{jsinlinevideo v='../klamovka'}
+
 <h3>Základy</h3>
 
 <ul>
