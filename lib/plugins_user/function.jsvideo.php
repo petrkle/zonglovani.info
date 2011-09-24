@@ -11,7 +11,7 @@ function smarty_function_jsvideo($params, &$smarty){
 			if(isset($klip['youtube'])){
 				$dataurl="http://www.youtube.com/v/".$klip['youtube']."?version=3&amp;hl=cs_CZ&amp;rel=0&amp;autoplay=1";
 			}else{
-				$dataurl="http://juggling.tv/nvplayer.swf?config=http://juggling.tv/nuevo/econfig.php?key=".$klic;
+				$dataurl="http://juggling.tv/nvplayer.swf?config=http://juggling.tv/nuevo/econfig.php?key=".$klic."&amp;autostart=true";
 			}
 				$include="<object type=\\'application/x-shockwave-flash\\' data=\\'$dataurl\\' class=\\'wyoutubevideo\\'><param name=\\'movie\\' value=\\'$dataurl\\' /><param name=\\'wmode\\' value=\\'transparent\\' /><param name=\\'allowscriptaccess\\' value=\\'always\\' /><param name=\\'allowfullscreen\\' value=\\'false\\' /><param name=\\'pluginspage\\' value=\\'http://get.adobe.com/flashplayer/\\' />Uložit video <a href=\\'".$klip['download']."\\' class=\\'external\\'>$v.mp4</a> (".$klip['velikost'].", ".$klip['delka'].").</object>";	
 
