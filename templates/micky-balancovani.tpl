@@ -14,12 +14,12 @@ Balancovat můžeš na vršku hlavy. Míček pokládej na hlavu střídavě levo
 Balancování míčku s nakloněnou hlavou. Pro někoho snazší, pro někoho naopak. Nejlepší je zkusit oboje.
 </p>
 
-
 <p>
 {obrazek soubor="balancc.png" popisek="Balancování míčku na hlavě."}
 S míčkem na hlavě můžeš žonglovat.
 </p>
 
+{jsinlinevideo v='micky-3-na-hlave'}
 
 <p>
 {obrazek soubor="balancd.png" popisek="Pirueta."}

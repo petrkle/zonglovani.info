@@ -15,6 +15,7 @@ A pak zpátky z levé do pravé. Při chytání nepohybuj rukou proti míčku. P
 </p>
 
 {jsinlineamin a='1-ball-out-of-a-3-cascade'}
+{jsinlinevideo v='micky-1-prehazovani'}
 
 <p>
 Vyzkoušej i pohazování s míčkem v jedné ruce. Zkus zachytit míček odražený od zdi. Procvičuj pravou i levou ruku. Důležité je se s míčkem sžít a dostat ho do ruky. Spousta lidí si myslí, že házet si s jedním míčkem přece umí a snaží se začít hned alespoň se dvěma nebo třemi míčky. To ale většinou není pravda, věnuj proto dostatek času hraní si s jedním míčkem. Získáš solidní základ a další trénink se dvěma a později i žonglování se třemi míčky ti půjde snadněji.
@@ -40,6 +41,7 @@ Trénuj nejprve podle obrázků a pak s obráceným pořadím rukou.
 </p>
 
 {jsinlineamin a='throw-twice'}
+{jsinlinevideo v='micky-2-prehazovani'}
 
 
 <h2>Tři míčky</h2>

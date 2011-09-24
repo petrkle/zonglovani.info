@@ -22,7 +22,7 @@ function nacti_trik($soubor){
 				$foo['kotva'] = (string) $krok->nadpis['name'];
 			}
 		}
-		if($krok->video){
+		if($krok->video or $krok->animace){
 			if($krok->video){
 				$foo['video'] = (string) $krok->video;
 			}
