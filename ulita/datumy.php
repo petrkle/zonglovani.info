@@ -3,25 +3,18 @@
 $podzim=array();
 $jaro=array();
 
-array_push($podzim,array('datum'=>'2010/10/3','url'=>'udalost-20101003-20101003-pek-1284638162.html'));
-array_push($podzim,array('datum'=>'2010/10/17','url'=>'udalost-20101017-20101017-pek-1284638265.html'));
-array_push($podzim,array('datum'=>'2010/10/31','url'=>'udalost-20101031-20101031-pek-1284638445.html'));
-array_push($podzim,array('datum'=>'2010/11/14','url'=>'udalost-20101114-20101114-pek-1284638655.html'));
-array_push($podzim,array('datum'=>'2010/11/21','url'=>'udalost-20101121-20101121-pek-1284638694.html'));
-array_push($podzim,array('datum'=>'2010/12/5','url'=>'udalost-20101205-20101205-pek-1284638791.html'));
-#array_push($podzim,array('datum'=>'2010/12/19','url'=>'udalost-20101219-20101219-pek-1284638839.html'));
+array_push($podzim,array('datum'=>'2011/10/9','url'=>'udalost-20111009-20111009-pek-1316975650.html'));
+array_push($podzim,array('datum'=>'2011/10/30','url'=>'udalost-20111030-20111030-pek-1316975673.html'));
+array_push($podzim,array('datum'=>'2011/11/13','url'=>'udalost-20111113-20111113-pek-1316975713.html'));
+array_push($podzim,array('datum'=>'2011/12/4','url'=>'udalost-20111204-20111204-pek-1316975784.html'));
 
-array_push($jaro,array('datum'=>'2011/1/16','url'=>'udalost-20110116-20110116-pek-1284720961.html'));
-array_push($jaro,array('datum'=>'2011/1/30','url'=>'udalost-20110130-20110130-pek-1284720999.html'));
-array_push($jaro,array('datum'=>'2011/2/13','url'=>'udalost-20110213-20110213-pek-1284721119.html'));
-array_push($jaro,array('datum'=>'2011/2/27','url'=>'udalost-20110227-20110227-pek-1284721165.html'));
-array_push($jaro,array('datum'=>'2011/3/6','url'=>'udalost-20110306-20110306-pek-1284721221.html'));
-array_push($jaro,array('datum'=>'2011/3/20','url'=>'udalost-20110320-20110320-pek-1284721302.html'));
-array_push($jaro,array('datum'=>'2011/4/3','url'=>'udalost-20110403-20110403-pek-1284721347.html'));
-array_push($jaro,array('datum'=>'2011/4/17','url'=>'udalost-20110417-20110417-pek-1284721417.html'));
+array_push($jaro,array('datum'=>'2012/1/15','url'=>'udalost-20120115-20120115-pek-1316975825.html'));
+array_push($jaro,array('datum'=>'2012/2/5','url'=>'udalost-20120205-20120205-pek-1316975853.html'));
+array_push($jaro,array('datum'=>'2012/2/26','url'=>'udalost-20120226-20120226-pek-1316975873.html'));
+array_push($jaro,array('datum'=>'2012/3/18','url'=>'udalost-20120318-20120318-pek-1316975904.html'));
 
 function to_ulita($datumy){
-	$zacatekakce=' 16:00:00';
+	$zacatekakce=' 15:00:00';
 	$konecakce=' 19:00:00';
 	$navrat=array();
 	foreach($datumy as $foo){

@@ -25,62 +25,32 @@ Přijít mohou začínající i zkušení žongléři a žonglérky. Pro široko
 Sleduj žonglérův slabikář na <a href="http://www.facebook.com/zongleruv.slabikar" id="fblink" onclick="_gaq.push(['_trackPageview','/goto/facebook.com/pages/zongleruv.slabikar']);">Facebooku</a> - žádná Ulita ti neuteče.
 </p>
 
-{*
-<h3>Termíny - podzim 2010</h3>
-{literal}
-<style>.zruseno{text-decoration:line-through}</style>
-{/literal}
-<table class="tabulka" cellspacing="0" cellpadding="0">
-<tr>
-<th>Den</th>
-<th>Datum</th>
-<th>Čas [Hod]</th>
-<th>&nbsp;</th>
-</tr>
-<tr><td class="zruseno">Neděle</td><td class="zruseno">19. 12.</td><td class="zruseno">16 - 19</td><td><strong><a href="#cancel">ZRUŠENO</a></strong></td></tr>
-</table>
 {if count($podzim)>0}
-<h3>Termíny - podzim 2010</h3>
+<h3>Termíny - podzim 2011</h3>
 <table class="tabulka" cellspacing="0" cellpadding="0">
 <tr>
 <th>Den</th>
 <th>Datum</th>
 <th>Čas [Hod]</th>
-<th>Vstupné [Kč]</th>
+{*<th>Vstupné [Kč]</th>*}
 </tr>
 {foreach from=$podzim item=datum}
-<tr><td>Neděle</td><td><a href="{$smarty.const.CALENDAR_URL}{$datum.url}" title="Ulita v kalendáři."><abbr class="dtstart" title="{$datum.mz|escape}">{$datum.datum}</abbr></a></td><td>16 - <abbr class="dtend" title="{$datum.mk|escape}">19</abbr></td><td>50</td></tr>
+<tr><td>Neděle</td><td><a href="{$smarty.const.CALENDAR_URL}{$datum.url}" title="Ulita v kalendáři."><abbr class="dtstart" title="{$datum.mz|escape}">{$datum.datum}</abbr></a></td><td>15 - <abbr class="dtend" title="{$datum.mk|escape}">19</abbr></td>{*<td>50</td>*}</tr>
 {/foreach}
 </table>
 {/if}
-*}
-
-{literal}
-<style>.zruseno{text-decoration:line-through}</style>
-{/literal}
-{*
-<table class="tabulka" cellspacing="0" cellpadding="0">
-<tr>
-<th>Den</th>
-<th>Datum</th>
-<th>Čas [Hod]</th>
-<th>&nbsp;</th>
-</tr>
-<tr><td class="zruseno">Neděle</td><td class="zruseno">17. 4.</td><td class="zruseno">16 - 19</td><td><strong><a href="#cancel2">ZRUŠENO</a></strong></td></tr>
-</table>
-*}
 
 {if count($jaro)>0}
-<h3>Termíny - jaro 2011</h3>
+<h3>Termíny - jaro 2012</h3>
 <table class="tabulka" cellspacing="0" cellpadding="0">
 <tr>
 <th>Den</th>
 <th>Datum</th>
 <th>Čas [Hod]</th>
-<th>Vstupné [Kč]</th>
+{*<th>Vstupné [Kč]</th>*}
 </tr>
 {foreach from=$jaro item=datum}
-<tr><td>Neděle</td><td><a href="{$smarty.const.CALENDAR_URL}{$datum.url}" title="Ulita v kalendáři."><abbr class="dtstart" title="{$datum.mz|escape}">{$datum.datum}</abbr></a></td><td>16 - <abbr class="dtend" title="{$datum.mk|escape}">19</abbr></td><td>50</td></tr>
+<tr><td>Neděle</td><td><a href="{$smarty.const.CALENDAR_URL}{$datum.url}" title="Ulita v kalendáři."><abbr class="dtstart" title="{$datum.mz|escape}">{$datum.datum}</abbr></a></td><td>15 - <abbr class="dtend" title="{$datum.mk|escape}">19</abbr></td>{*<td>50</td>*}</tr>
 {/foreach}
 </table>
 {else}
@@ -98,12 +68,14 @@ Sleduj žonglérův slabikář na <a href="http://www.facebook.com/zongleruv.sla
 {assign var='mail' value='info@ulita.cz'}
 E-mail: {$mail|mailobfuscate}
 </p>
+{*
 <h3><a name="plakat">Plakát</a></h3>
 <p><a href="/img/u/ulita.big.png" title="Velký obrázek plakátu." onclick="_gaq.push(['_trackPageview','/ulita/ulita.big.png']);">{obrazek soubor='ulita.nahled.png' popisek='Plakát žonglování v Ulitě'}</a>
 <a href="/img/u/ulita.png" title="Obrázkový plakát na web." onclick="_gaq.push(['_trackPageview','/ulita/ulita.png']);">ulita.png</a> - pro vkládání na internet<br />
 <a href="ulita.pdf" title="Tisk plakátu na formát A5." onclick="_gaq.push(['_trackPageview','/ulita/ulita.pdf']);">ulita.pdf</a> - pro tisk na formát A5<br />
 <a href="ulita4.pdf" title="Tisk čtyř plakátů najednou." onclick="_gaq.push(['_trackPageview','/ulita/ulita4.pdf']);">ulita4.pdf</a> - pro tisk na formát A4
 </p>
+*}
 {*
 <p><a href="http://www.radio1.cz" title="Radio 1" onclick="_gaq.push(['_trackPageview','/goto/radio1.cz']);">{obrazek soubor='radio1.png' popisek='Radio 1'}</a>O žonglování v Ulitě můžeš slyšet i v <a href="http://www.radio1.cz/kulturniservis/" title="Kulturní servis Rádia 1" onclick="_gaq.push(['_trackPageview','/goto/radio1.cz/kulturniservis']);" class="external">kulturním servisu</a> Radia 1.</p>
 *}

@@ -8,49 +8,47 @@ Regular Sunday juggling at <a href="http://www.ulita.cz" class="external" onclic
 <a href="/obrazky/ulita-20110116/0026.html">{obrazek soubor='snek018.jpg' popisek='' path='/ulita/img/'}</a>
 <br /><a href="/obrazky/filtr/Ulita" title="Photos of juggling.">More photos &raquo;</a>
 </div>
-{*
 <p>
 Beginners as well as experienced jugglers are welcome. There are balls and clubs prepare to lend for newcomers. <strong>Everyone</strong> can learn to juggle!
 </p>
-*}
 
-{*
 {if count($podzim)>0}
-<h3>Autumn 2009</h3>
+<h3>Autumn 2011</h3>
 <table class="tabulka" cellspacing="0" cellpadding="0">
 <tr>
 <th>Day</th>
 <th>Date</th>
 <th>Time [Hour]</th>
-<th>Fee [CZK]</th>
+{*<th>Fee [CZK]</th>*}
 </tr>
 {foreach from=$podzim item=datum}
-<tr><td>Sunday</td><td><a href="{$smarty.const.CALENDAR_URL}{$datum.url}" title="Ulita in calendar.">{$datum.datum}</a></td><td>16 - 19</td><td>50</td></tr>
+<tr><td>Sunday</td><td><a href="{$smarty.const.CALENDAR_URL}{$datum.url}" title="Ulita in calendar.">{$datum.datum}</a></td><td>16 - 19</td>{*<td>50</td>*}</tr>
 {/foreach}
 </table>
 {/if}
 
 {if count($jaro)>0}
-<h3>Spring 2010</h3>
+<h3>Spring 2012</h3>
 <table class="tabulka" cellspacing="0" cellpadding="0">
 <tr>
 <th>Day</th>
 <th>Date</th>
 <th>Time [Hour]</th>
-<th>Fee [CZK]</th>
+{*<th>Fee [CZK]</th>*}
 </tr>
 {foreach from=$jaro item=datum}
-<tr><td>Sunday</td><td><a href="{$smarty.const.CALENDAR_URL}{$datum.url}" title="Ulita in calendar.">{$datum.datum}</a></td><td>16 - 19</td><td>50</td></tr>
+<tr><td>Sunday</td><td><a href="{$smarty.const.CALENDAR_URL}{$datum.url}" title="Ulita in calendar.">{$datum.datum}</a></td><td>15 - 19</td>{*<td>50</td>*}</tr>
 {/foreach}
 </table>
 {else}
 <h3>Next session</h3>
 <p>Wait for autumn.</p>
 {/if}
-*}
 
+{*
 <h3>Next session</h3>
 <p>Wait for autumn.</p>
+*}
 
 <h3>Place</h3>
 <p>
