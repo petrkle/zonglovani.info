@@ -1270,6 +1270,21 @@
 </video:video>
 </url>
 <url>
+<loc>http://zonglovani.info/video/navod/micky-1-prehazovani.html</loc>
+<video:video>
+<video:thumbnail_loc>http://zonglovani.info/video/img/m/micky-1-prehazovani.jpg</video:thumbnail_loc>
+<video:title>Jeden míček</video:title>
+<video:description>Přehazování jednoho míčku.</video:description>
+<video:content_loc>http://juggling.tv/download/original/6774/jeden-mek.mp4</video:content_loc>
+<video:player_loc>http://juggling.tv/nvplayer.swf?config=http://juggling.tv/nuevo/config.php?key=eebe135aa471d36e6ef6</video:player_loc>
+<video:duration>7</video:duration>
+<video:tag>Žonglování</video:tag>
+<video:category>Žonglování</video:category>
+<video:gallery_loc title="Žonglérská videa">http://zonglovani.info/video/</video:gallery_loc>
+<video:requires_subscription>no</video:requires_subscription>
+</video:video>
+</url>
+<url>
 <loc>http://zonglovani.info/video/navod/micky-2-noha.html</loc>
 <video:video>
 <video:thumbnail_loc>http://zonglovani.info/video/img/m/micky-2-noha.jpg</video:thumbnail_loc>
@@ -1278,6 +1293,21 @@
 <video:content_loc>http://juggling.tv/download/original/6715/pod-nohou.mp4</video:content_loc>
 <video:player_loc>http://juggling.tv/nvplayer.swf?config=http://juggling.tv/nuevo/config.php?key=371784081ea9ad9b279d</video:player_loc>
 <video:duration>9</video:duration>
+<video:tag>Žonglování</video:tag>
+<video:category>Žonglování</video:category>
+<video:gallery_loc title="Žonglérská videa">http://zonglovani.info/video/</video:gallery_loc>
+<video:requires_subscription>no</video:requires_subscription>
+</video:video>
+</url>
+<url>
+<loc>http://zonglovani.info/video/navod/micky-2-prehazovani.html</loc>
+<video:video>
+<video:thumbnail_loc>http://zonglovani.info/video/img/m/micky-2-prehazovani.jpg</video:thumbnail_loc>
+<video:title>Dva míčky</video:title>
+<video:description>Přehazování dvou míčků.</video:description>
+<video:content_loc>http://juggling.tv/download/original/6775/dva-mky.mp4</video:content_loc>
+<video:player_loc>http://juggling.tv/nvplayer.swf?config=http://juggling.tv/nuevo/config.php?key=e22b2d64f75266f535b5</video:player_loc>
+<video:duration>10</video:duration>
 <video:tag>Žonglování</video:tag>
 <video:category>Žonglování</video:category>
 <video:gallery_loc title="Žonglérská videa">http://zonglovani.info/video/</video:gallery_loc>
@@ -1318,7 +1348,7 @@
 <loc>http://zonglovani.info/video/navod/micky-2-40303.html</loc>
 <video:video>
 <video:thumbnail_loc>http://zonglovani.info/video/img/m/micky-2-40303.jpg</video:thumbnail_loc>
-<video:title>423</video:title>
+<video:title>40303</video:title>
 <video:description>Trik 40303 s dvěma míčky.</video:description>
 <video:content_loc>http://juggling.tv/download/original/6718/423.mp4</video:content_loc>
 <video:player_loc>http://juggling.tv/nvplayer.swf?config=http://juggling.tv/nuevo/config.php?key=f9885836a61d7b2c662e</video:player_loc>
@@ -1600,6 +1630,21 @@
 </video:video>
 </url>
 <url>
+<loc>http://zonglovani.info/video/navod/micky-3-kaskada-reverzni.html</loc>
+<video:video>
+<video:thumbnail_loc>http://zonglovani.info/video/img/m/micky-3-kaskada-reverzni.jpg</video:thumbnail_loc>
+<video:title>Reverzní kaskáda</video:title>
+<video:description>Reverzní kaskáda se třemi míčky</video:description>
+<video:content_loc>http://juggling.tv/download/original/6778/reverzn-kaskda.mp4</video:content_loc>
+<video:player_loc>http://juggling.tv/nvplayer.swf?config=http://juggling.tv/nuevo/config.php?key=8726ff7927a79610bf6b</video:player_loc>
+<video:duration>7</video:duration>
+<video:tag>Žonglování</video:tag>
+<video:category>Žonglování</video:category>
+<video:gallery_loc title="Žonglérská videa">http://zonglovani.info/video/</video:gallery_loc>
+<video:requires_subscription>no</video:requires_subscription>
+</video:video>
+</url>
+<url>
 <loc>http://zonglovani.info/video/navod/micky-3-kaskada.html</loc>
 <video:video>
 <video:thumbnail_loc>http://zonglovani.info/video/img/m/micky-3-kaskada.jpg</video:thumbnail_loc>
@@ -1743,6 +1788,21 @@
 <video:content_loc>http://juggling.tv/download/original/6720/nad-hlavou.mp4</video:content_loc>
 <video:player_loc>http://juggling.tv/nvplayer.swf?config=http://juggling.tv/nuevo/config.php?key=548abc1f8b812059137b</video:player_loc>
 <video:duration>10</video:duration>
+<video:tag>Žonglování</video:tag>
+<video:category>Žonglování</video:category>
+<video:gallery_loc title="Žonglérská videa">http://zonglovani.info/video/</video:gallery_loc>
+<video:requires_subscription>no</video:requires_subscription>
+</video:video>
+</url>
+<url>
+<loc>http://zonglovani.info/video/navod/micky-3-na-hlave.html</loc>
+<video:video>
+<video:thumbnail_loc>http://zonglovani.info/video/img/m/micky-3-na-hlave.jpg</video:thumbnail_loc>
+<video:title>Míček na hlavě</video:title>
+<video:description>Žonglování s míčkem na hlavě.</video:description>
+<video:content_loc>http://juggling.tv/download/original/6776/mek-na-hlav.mp4</video:content_loc>
+<video:player_loc>http://juggling.tv/nvplayer.swf?config=http://juggling.tv/nuevo/config.php?key=402a49a10fed2162dac5</video:player_loc>
+<video:duration>11</video:duration>
 <video:tag>Žonglování</video:tag>
 <video:category>Žonglování</video:category>
 <video:gallery_loc title="Žonglérská videa">http://zonglovani.info/video/</video:gallery_loc>
@@ -2103,6 +2163,21 @@
 <video:content_loc>http://juggling.tv/download/original/6543/zvednut-spadlho-mku.mp4</video:content_loc>
 <video:player_loc>http://juggling.tv/nvplayer.swf?config=http://juggling.tv/nuevo/config.php?key=a540cabc36cdf2b1046f</video:player_loc>
 <video:duration>4</video:duration>
+<video:tag>Žonglování</video:tag>
+<video:category>Žonglování</video:category>
+<video:gallery_loc title="Žonglérská videa">http://zonglovani.info/video/</video:gallery_loc>
+<video:requires_subscription>no</video:requires_subscription>
+</video:video>
+</url>
+<url>
+<loc>http://zonglovani.info/video/navod/micky-3-3v1.html</loc>
+<video:video>
+<video:thumbnail_loc>http://zonglovani.info/video/img/m/micky-3-3v1.jpg</video:thumbnail_loc>
+<video:title>Tři míčky v jedné ruce</video:title>
+<video:description>Žonglování se třemi míčky v jedné ruce.</video:description>
+<video:content_loc>http://juggling.tv/download/original/6779/ti-mky-v-jedn-ruce.mp4</video:content_loc>
+<video:player_loc>http://juggling.tv/nvplayer.swf?config=http://juggling.tv/nuevo/config.php?key=19aa5d9d07798b56779e</video:player_loc>
+<video:duration>6</video:duration>
 <video:tag>Žonglování</video:tag>
 <video:category>Žonglování</video:category>
 <video:gallery_loc title="Žonglérská videa">http://zonglovani.info/video/</video:gallery_loc>
