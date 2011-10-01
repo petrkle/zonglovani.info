@@ -137,10 +137,10 @@ if($id and $photo){
 			if(isset($gal_info['icbm'])){
 				$smarty->assign('icbm',$gal_info['icbm']);
 			}
-#			if(preg_match('/.*ulita.*/',$_SERVER['REQUEST_URI'])){
-#				require('../ulita/datumy.php');
-#				$smarty->assign('pristiulita',get_next_ulita(array_merge($podzim,$jaro)));
-#			}
+			if(preg_match('/.*ulita.*/',$_SERVER['REQUEST_URI'])){
+				require('../ulita/datumy.php');
+				$smarty->assign('pristiulita',get_next_ulita(array_merge($podzim,$jaro)));
+			}
 			$smarty->assign('stranka',$pager->getPageIdByOffset($photo));
 			$smarty->assign('nahled',$obrazky[intval($photo)]['nahled']);
 			$titulek=$gal_info['title'].' - '.intval($photo).'. obrázek';

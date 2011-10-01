@@ -1,9 +1,9 @@
 <?php
 
 function smarty_function_vypismenu($params, &$smarty){
-	$adresy = array('/','/novinky/','/micky/','/kruhy/','/kuzely/','/lide/','/ostatni.html');
-	$texty = array('Úvodní stránka','Novinky','Míčky','Kruhy','Kužely','Žongléři','Ostatní');
-	$popis = array('Úvodní stránka žonglérova slabikáře','Novinky ze světa žonglování','Začínáme s míčky','Začínáme s kruhy','Začínáme s kužely','Seznam uživatelů žonglérova slabikáře.','Vše ostatní o žonglování');
+	$adresy = array('/','/novinky/','/micky/','/kruhy/','/kuzely/','/lide/','/ostatni.html','/ulita/');
+	$texty = array('Úvodní stránka','Novinky','Míčky','Kruhy','Kužely','Žongléři','Ostatní','Žonglování v&nbsp;Ulitě');
+	$popis = array('Úvodní stránka žonglérova slabikáře','Novinky ze světa žonglování','Začínáme s míčky','Začínáme s kruhy','Začínáme s kužely','Seznam uživatelů žonglérova slabikáře.','Vše ostatní o žonglování','Nedělní žonglování v Ulitě');
 	
 	$navrat="<ul>\n";
 

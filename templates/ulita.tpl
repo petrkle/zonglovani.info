@@ -68,14 +68,12 @@ Sleduj žonglérův slabikář na <a href="http://www.facebook.com/zongleruv.sla
 {assign var='mail' value='info@ulita.cz'}
 E-mail: {$mail|mailobfuscate}
 </p>
-{*
 <h3><a name="plakat">Plakát</a></h3>
 <p><a href="/img/u/ulita.big.png" title="Velký obrázek plakátu." onclick="_gaq.push(['_trackPageview','/ulita/ulita.big.png']);">{obrazek soubor='ulita.nahled.png' popisek='Plakát žonglování v Ulitě'}</a>
 <a href="/img/u/ulita.png" title="Obrázkový plakát na web." onclick="_gaq.push(['_trackPageview','/ulita/ulita.png']);">ulita.png</a> - pro vkládání na internet<br />
 <a href="ulita.pdf" title="Tisk plakátu na formát A5." onclick="_gaq.push(['_trackPageview','/ulita/ulita.pdf']);">ulita.pdf</a> - pro tisk na formát A5<br />
 <a href="ulita4.pdf" title="Tisk čtyř plakátů najednou." onclick="_gaq.push(['_trackPageview','/ulita/ulita4.pdf']);">ulita4.pdf</a> - pro tisk na formát A4
 </p>
-*}
 {*
 <p><a href="http://www.radio1.cz" title="Radio 1" onclick="_gaq.push(['_trackPageview','/goto/radio1.cz']);">{obrazek soubor='radio1.png' popisek='Radio 1'}</a>O žonglování v Ulitě můžeš slyšet i v <a href="http://www.radio1.cz/kulturniservis/" title="Kulturní servis Rádia 1" onclick="_gaq.push(['_trackPageview','/goto/radio1.cz/kulturniservis']);" class="external">kulturním servisu</a> Radia 1.</p>
 *}
