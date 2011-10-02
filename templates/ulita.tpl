@@ -32,10 +32,11 @@ Sleduj žonglérův slabikář na <a href="http://www.facebook.com/zongleruv.sla
 <th>Den</th>
 <th>Datum</th>
 <th>Čas [Hod]</th>
+<th>Účast</th>
 {*<th>Vstupné [Kč]</th>*}
 </tr>
 {foreach from=$podzim item=datum}
-<tr><td>Neděle</td><td><a href="{$smarty.const.CALENDAR_URL}{$datum.url}" title="Ulita v kalendáři."><abbr class="dtstart" title="{$datum.mz|escape}">{$datum.datum}</abbr></a></td><td>15 - <abbr class="dtend" title="{$datum.mk|escape}">19</abbr></td>{*<td>50</td>*}</tr>
+<tr><td>Neděle</td><td><a href="{$smarty.const.CALENDAR_URL}{$datum.url}" title="Ulita v kalendáři."><abbr class="dtstart" title="{$datum.mz|escape}">{$datum.datum}</abbr></a></td><td>15 - <abbr class="dtend" title="{$datum.mk|escape}">19</abbr></td>{*<td>50</td>*}<td>{if $datum.fb}<a href="http://www.facebook.com/event.php?eid={$datum.fb}" class="external" onclick="_gaq.push(['_trackPageview','/goto/facebook.com/event.php?eid={$datum.fb}']);">Přijdu</a>{else}&nbsp;{/if}</td></tr>
 {/foreach}
 </table>
 {/if}
@@ -47,10 +48,11 @@ Sleduj žonglérův slabikář na <a href="http://www.facebook.com/zongleruv.sla
 <th>Den</th>
 <th>Datum</th>
 <th>Čas [Hod]</th>
+<th>Účast</th>
 {*<th>Vstupné [Kč]</th>*}
 </tr>
 {foreach from=$jaro item=datum}
-<tr><td>Neděle</td><td><a href="{$smarty.const.CALENDAR_URL}{$datum.url}" title="Ulita v kalendáři."><abbr class="dtstart" title="{$datum.mz|escape}">{$datum.datum}</abbr></a></td><td>15 - <abbr class="dtend" title="{$datum.mk|escape}">19</abbr></td>{*<td>50</td>*}</tr>
+<tr><td>Neděle</td><td><a href="{$smarty.const.CALENDAR_URL}{$datum.url}" title="Ulita v kalendáři."><abbr class="dtstart" title="{$datum.mz|escape}">{$datum.datum}</abbr></a></td><td>15 - <abbr class="dtend" title="{$datum.mk|escape}">19</abbr></td>{*<td>50</td>*}<td>{if $datum.fb}<a href="http://www.facebook.com/event.php?eid={$datum.fb}" class="external" onclick="_gaq.push(['_trackPageview','/goto/facebook.com/event.php?eid={$datum.fb}']);">Přijdu</a>{else}&nbsp;{/if}</td></tr>
 {/foreach}
 </table>
 {else}

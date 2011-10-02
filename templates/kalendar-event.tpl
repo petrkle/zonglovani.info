@@ -6,7 +6,7 @@
 {/if}
 
 {if $udalost.img}
-<p><img src="/kalendar/obrazek-{$udalost.img|escape}" alt="{$udalost.title|escape}" width="{$udalost.img_sirka|escape}" height="{$udalost.img_vyska|escape}" /></p>
+<p><img src="/kalendar/obrazek-{$udalost.img|escape}" alt="{$udalost.desc|escape}" width="{$udalost.img_sirka|escape}" height="{$udalost.img_vyska|escape}" /></p>
 {/if}
 
 <p><strong>Začátek</strong>: <abbr class="dtstart" title="{$udalost.start_micro|escape}">{$udalost.start_hr|escape}</abbr></p>
