@@ -1,7 +1,6 @@
 Aktuální
 ========
 - inline js siteswap
-- video mm - nahrát na jtv a youtube
 - čudlík na návrh a odmaskování hesla (zadávat jen 1x)
 - zjednodušit registraci, popisky rovnou u formuláře, bez stránky s podmínkami
 - obrázky na plochu, doplnit popisky a img sitemapu
@@ -108,6 +107,7 @@ odkaz z menu na rss agregátor - novinky
 detekce a odstranění duplicit v RSS kanálech
 opravit GA video/klip
 galerie autor admin@zonglovani.info - nezobrazovat autora
+video mm - nahrát na jtv a youtube
 
 .ssh/config
 ===========
