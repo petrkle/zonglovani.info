@@ -3,10 +3,10 @@ Regular Sunday juggling at <a href="http://www.ulita.cz" class="external" onclic
 </p>
 
 <div class="obrazkovnik">
-<a href="/obrazky/ulita-20110116/0000.html">{obrazek soubor='snek016.jpg' popisek='' path='/ulita/img/'}</a>
-<a href="/obrazky/ulita-20110116/0001.html">{obrazek soubor='snek017.jpg' popisek='' path='/ulita/img/'}</a>
-<a href="/obrazky/ulita-20110116/0026.html">{obrazek soubor='snek018.jpg' popisek='' path='/ulita/img/'}</a>
-<br /><a href="/obrazky/filtr/Ulita" title="Photos of juggling.">More photos &raquo;</a>
+<a href="/obrazky/ulita-20111009/0002.html">{obrazek soubor='snek031.jpg' popisek='' path='/ulita/img/'}</a>
+<a href="/obrazky/ulita-20111009/0004.html">{obrazek soubor='snek032.jpg' popisek='' path='/ulita/img/'}</a>
+<a href="/obrazky/ulita-20111009/0006.html">{obrazek soubor='snek033.jpg' popisek='' path='/ulita/img/'}</a>
+<br /><a href="/obrazky/ulita-20111009/" title="Photos of juggling.">More photos &raquo;</a>
 </div>
 <p>
 Beginners as well as experienced jugglers are welcome. There are balls and clubs prepare to lend for newcomers. <strong>Everyone</strong> can learn to juggle!

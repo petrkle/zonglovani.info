@@ -121,7 +121,7 @@
 2011-09-19*Guava over winter break*/video/guava-winter-07-08.html*guava-winter-07-08.jpg*Starší ale pořád dobré video od Salby a Ann.
 2011-09-26*Video návody*/video/navod/info.html*video.png*Většinu triků v žonglérově slabikáři doplňuje krátké instruktážní video. Odkazy pro přehrání videa jsou označeny obrázkem kamery.
 2011-10-03*Žonglování v Ulitě*/ulita/?20111009*ulita.cz.png*V neděli se koná první letošní podzimní žonglování v Ulitě. Přijít mohou začínající i zkušení žongléři a žonglérky.
-2011-10-10*Překulení kuželky přes hlavu*/kuzely/headroll.html*headrollc.png*Trik známý též pod anglickým názvem headroll.
+2011-10-10*Fotky z Ulity*/obrazky/ulita-20111009/#*parova-akrobacie.jpg*Fotky z nedělního žonglování v Ulitě. Díky všem kdo dorazily. Příští Ulita je za tři týdny.
 2011-10-17*Žonglování poslepu*/micky/poslepu.html*poslepua.png*Můžeš žonglovat se šátkem nebo kbelíkem přes oči. Případně jednoho z diváků požádat, aby ti zakryl oči rukama.
 2011-10-24*Žonglování v Ulitě*/ulita/?20111031*ulita.cz.png*Pravidelné nedělní žonglování v DDM Ulita. Přijít mohou začínající i zkušení žongléři a žonglérky.
 2011-10-31*Žonglování okolo člověka*/kuzely/passing/around.html*kuzely-passing-aroundsomebodyb.png*Při žonglérském vystoupení je důležité zapojit diváky.
@@ -129,7 +129,7 @@
 2011-11-14*Výhody pro registrované uživatele*/exkurze.html*exkurze-nahled-2010-2-28-19-49-47.jpg*Obrázky a popis výhod pro registrované uživatele žonglérova slabikáře.
 2011-11-21*Obrázky kuželů*/kuzely/druhy.html*kuzelka-albatros-s.jpg*Obrázky žonglérských kuželů.
 2011-11-28Žonglování v Ulitě*/ulita/?20111204*ulita.cz.png*Pravidelné nedělní žonglování v DDM Ulita. Přijít mohou začínající i zkušení žongléři a žonglérky.*
-2011-12-05*
+2011-12-05*Překulení kuželky přes hlavu*/kuzely/headroll.html*headrollc.png*Trik známý též pod anglickým názvem headroll.
 2011-12-12*
 2011-12-19*
 2011-12-26*
