@@ -1,0 +1,9 @@
+#!/bin/sh
+
+./scripts/stats.sh
+
+git add ostatni/stat.txt
+
+git log --pretty="%h*%at*%s" > ChangeLog
+
+git add ChangeLog
