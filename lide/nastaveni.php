@@ -38,6 +38,12 @@ $trail->addStep('Nastavení',LIDE_URL.'nastaveni/');
 				if(preg_match('/[A-ZĚŠČŘŽÝÁÍÉ]{4,}/',$jmeno)){
 					array_push($chyby,'Jméno obsahuje příliš mnoho VELKÝCH písmen.');
 				}
+				if(preg_match('/^[0-9]/',$jmeno)){
+					array_push($chyby,'Jméno nesmí začínat číslicí.');
+				}
+				if(preg_match('/[0-9]$/',$jmeno)){
+					array_push($chyby,'Jméno nesmí končit číslicí.');
+				}
 				if(count($chyby)==0){
 					$foo=fopen(LIDE_DATA.'/'.$_SESSION['uzivatel']['login'].'/jmeno.txt','w');
 					fwrite($foo,$jmeno);
