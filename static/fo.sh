@@ -4,6 +4,8 @@ OUTDIR=zs
 INDIR=zongleruv-slabikar
 export IFS='
 '
+#find zongleruv-slabikar/ zs/ -type f -name "*.jpg" -o -name "*.png" -exec convert -type Grayscale -border 1x1 -bordercolor "#000000" \{\} \{\} \;
+#pdflatex sablona.tex && xpdf sablona.pdf
 
 cp obalka.png $OUTDIR
 cp zaver.html $INDIR
@@ -160,3 +162,6 @@ echo '
 </fo:page-sequence>
 </fo:root>
 ' >> $OUTDIR/zs.fo
+
+cd $OUTDIR
+fop -fo zs.fo zs.pdf
