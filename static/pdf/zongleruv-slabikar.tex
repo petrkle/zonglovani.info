@@ -1,0 +1,49 @@
+\documentclass[12pt,a4paper,twoside]{book}
+
+%Nastaví kódování na UTF8
+\usepackage[utf8]{inputenc}
+
+%Nastavuje velikost vertikální mezery mezi odstavci
+\setlength{\parskip}{1ex plus 0.5ex minus 0.2ex}
+
+\usepackage{color}
+\usepackage{epsfig}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+
+\usepackage{wrapfig}
+\usepackage{floatflt}
+
+\parindent=2.2em
+\usepackage[czech]{babel}
+\usepackage{indentfirst}
+
+% vypnutí číslování nadpisů v textu
+%\setcounter{secnumdepth}{-1}
+\begin{document}
+
+\setlength{\parindent}{0pt}
+
+\title{Žonglérův slabikář}
+\author{Petr Kletečka}
+\maketitle
+
+\pagenumbering{roman}
+\setcounter{tocdepth}{1}
+\tableofcontents
+\pagenumbering{arabic}
+
+\chapter{Tři míčky}
+
+\include{tri-micky}
+
+\chapter{Čtyři míčky}
+
+\include{ctyri-micky}
+
+\chapter{Pět míčků}
+
+\include{pet-micku}
+
+\end{document}
