@@ -7,7 +7,7 @@
 {/if}
 {if isset($krok.obrazek)}
 \vskip -0.25cm
-\begin{literal}{{/literal}tabular{literal}}{/literal}{literal}{{/literal}p{literal}{{/literal}6cm{literal}}{/literal} p{literal}{{/literal}7cm{literal}}{/literal}{literal}}{/literal}
+\begin{literal}{{/literal}tabular{literal}}{/literal}{literal}{{/literal}p{literal}{{/literal}7cm{literal}}{/literal} p{literal}{{/literal}6cm{literal}}{/literal}{literal}}{/literal}
     \vspace{literal}{{/literal}0pt{literal}}{/literal} 
     \includegraphics[width=0.4\textwidth]{literal}{{/literal}img/{$krok.obrazek|truncate:1:""}/{$krok.obrazek}{literal}}{/literal}
 {assign var='sobrazkem' value=1}
