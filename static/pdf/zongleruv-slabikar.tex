@@ -6,11 +6,13 @@
 %Nastavuje velikost vertikální mezery mezi odstavci
 \setlength{\parskip}{1ex plus 0.5ex minus 0.2ex}
 
-\usepackage{color}
-\usepackage{epsfig}
+\usepackage[cc]{titlepic}
 \usepackage{graphicx}
 \usepackage{fancyhdr}
 \pagestyle{fancy}
+\renewcommand{\footrulewidth}{0.4pt}
+\fancyfoot[CO,CE]{www.zonglovani.info}
+\fancyfoot[RO, LE] {\thepage}
 
 \usepackage{wrapfig}
 \usepackage{floatflt}
@@ -22,17 +24,16 @@
 % vypnutí číslování nadpisů v textu
 %\setcounter{secnumdepth}{-1}
 \begin{document}
-
+\renewcommand{\arraystretch}{1.1}
 \setlength{\parindent}{0pt}
 
 \title{Žonglérův slabikář}
 \author{Petr Kletečka}
+\date{}
+\titlepic{\includegraphics[width=\textwidth]{titleimg.png}}
 \maketitle
-
-\pagenumbering{roman}
 \setcounter{tocdepth}{1}
 \tableofcontents
-\pagenumbering{arabic}
 
 \chapter{Tři míčky}
 
