@@ -3,6 +3,7 @@ VERSION=0.3
 book:
 	./priprav-obrazky.sh
 	./pdf.sh ${VERSION}
+	vlna -l -m -n zongleruv-slabikar-${VERSION}.tex
 	pdflatex zongleruv-slabikar-${VERSION}.tex 2>/dev/null
 	pdflatex zongleruv-slabikar-${VERSION}.tex 2>/dev/null
 
