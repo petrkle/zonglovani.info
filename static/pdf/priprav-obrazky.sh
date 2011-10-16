@@ -1,6 +1,10 @@
 #!/bin/bash
 
-[ -d img ] || cp -r ../../img/ .
+if [ -d img ] ; then
+	exit 0
+else
+	cp -r ../../img/ .
+fi
 
 for foo in `find img -type f -name "*.png"`
 do

@@ -3,6 +3,14 @@
 export IFS='
 '
 
+if [ "$1" = "" ]
+then
+	echo "Pouziti: $0 VERSION"
+	exit 1
+else
+	VERSION=$1
+fi
+
 for foo in `cat url.3`
 do
 	./xml2tex.php $foo
@@ -18,4 +26,6 @@ do
 	./xml2tex.php $foo
 done > pet-micku.tex
 
-pdflatex -no-file-line-error zongleruv-slabikar.tex
+cp sablona.tex zongleruv-slabikar-$VERSION.tex
+
+sed -i "s/VERSION/$VERSION/g" zongleruv-slabikar-$VERSION.tex
