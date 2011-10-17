@@ -6,6 +6,8 @@ book:
 	vlna -l -m -n zongleruv-slabikar-${VERSION}.tex
 	pdflatex zongleruv-slabikar-${VERSION}.tex 2>/dev/null
 	pdflatex zongleruv-slabikar-${VERSION}.tex 2>/dev/null
+	pdftk zongleruv-slabikar-${VERSION}.pdf output zs-${VERSION}.pdf encrypt_128bit allow Printing CopyContents ScreenReaders owner_pw DAjfjqu26v5ljnVHl3xgPjnZ22n
+	mv zs-${VERSION}.pdf zongleruv-slabikar-${VERSION}.pdf
 
 help:
 	@echo "help     - napoveda"
