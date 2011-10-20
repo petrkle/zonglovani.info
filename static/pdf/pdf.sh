@@ -26,6 +26,21 @@ do
 	./xml2tex.php $foo
 done > pet-micku.tex
 
+for foo in `cat url.kruhy`
+do
+	./xml2tex.php $foo
+done > kruhy.tex
+
+for foo in `cat url.kuzely`
+do
+	./xml2tex.php $foo
+done > kuzely.tex
+
+for foo in `cat url.passing`
+do
+	./xml2tex.php $foo
+done > passing.tex
+
 cp sablona.tex zongleruv-slabikar-$VERSION.tex
 
 sed -i "s/VERSION/$VERSION/g" zongleruv-slabikar-$VERSION.tex
