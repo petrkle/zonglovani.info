@@ -1,7 +1,6 @@
 Aktuální
 ========
 
-- hlavička X-FRAME-OPTIONS: DENY
 - inline js siteswap
 - čudlík na návrh a odmaskování hesla (zadávat jen 1x)
 - zjednodušit registraci, popisky rovnou u formuláře, bez stránky s podmínkami
@@ -111,6 +110,7 @@ opravit GA video/klip
 galerie autor admin@zonglovani.info - nezobrazovat autora
 video mm - nahrát na jtv a youtube
 kontrola na jména začínající a končící číslem
+X-Frame-Options
 
 .ssh/config
 ===========

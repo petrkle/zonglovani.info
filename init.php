@@ -7,6 +7,7 @@ if($_SERVER['SERVER_NAME']!='zongl.info'){
 };
 
 date_default_timezone_set('Europe/Prague');
+header('X-Frame-Options: DENY');
 
 $srv=explode('.',$_SERVER['SERVER_NAME']);
 
