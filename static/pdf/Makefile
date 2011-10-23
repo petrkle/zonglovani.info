@@ -6,7 +6,7 @@ book:
 	vlna -l -m -n zongleruv-slabikar-${VERSION}.tex tri-micky.tex ctyri-micky.aux pet-micku.tex kruhy.aux kuzely.tex passing.tex
 	pdflatex -interaction=batchmode zongleruv-slabikar-${VERSION}.tex
 	pdflatex -interaction=batchmode zongleruv-slabikar-${VERSION}.tex
-	pdftk zongleruv-slabikar-${VERSION}.pdf output zs-${VERSION}.pdf encrypt_128bit allow Printing CopyContents ScreenReaders owner_pw DAjfjqu26v5ljnVHl3xgPjnZ22nlckyrosnLcxpble8nlvtog2rosdazREw1lqwkogskykqnzqqdxegfckWp0eb
+	pdftk zongleruv-slabikar-${VERSION}.pdf output zs-${VERSION}.pdf encrypt_128bit allow Printing CopyContents ScreenReaders owner_pw DAjfjqu26v5ljnVHl3xgPjnZ2ě2ěnlckyrosnLcxpble8nlvtŘog2rosdazREw1lqwkÝogskykqnzqqdxÍegfckWp0eÉbxyimlchfrnuiljŮrfsxrdqNMwmpmd0iÚqwodvbj4ugtmČxprvduumquzznneŽzcprvqjpnRalc6žapqvqgknrfočzjbcaJtttpmul9ziagňaxolsorkpncjbtartcgrqn2tyhizrejntzj3yatFwdvgzzXaig
 	mv zs-${VERSION}.pdf zongleruv-slabikar-${VERSION}.pdf
 
 help:

@@ -38,6 +38,8 @@ function nacti_trik($soubor){
 		if($krok->popisek){
 			$foo['popisek'] = (string) $krok->popisek;
 			$foo['popisek'] = preg_replace('/ /u',' ',$foo['popisek']);
+			$foo['popisek'] = preg_replace('/<\/b>/','}',$foo['popisek']);
+			$foo['popisek'] = preg_replace('/<b>/','{\bf ',$foo['popisek']);
 			$foo['popisek'] = strip_tags($foo['popisek']);
 		}
 		if($krok->pre){

@@ -3,7 +3,7 @@
 {assign var='imagenum' value='0'}
 {foreach from=$trik.kroky item=krok key=k name=postup}
 {if isset($krok.nadpis)}
-\subsection{literal}{{/literal}{$krok.nadpis}{literal}}{/literal}
+\subsection*{literal}{{/literal}{$krok.nadpis}{literal}}{/literal}
 {/if}
 {if isset($krok.obrazek)}
 \vskip -0.10cm
