@@ -2,7 +2,8 @@
 {foreach from=$trik.kroky item=krok name=postup}
 {if isset($krok.nadpis)}
 {if isset($krok.kotva)}<a name="{$krok.kotva}"></a>{assign var='zakotveno' value='jo'}{/if}<h2>{$krok.nadpis}</h2>
-{else}
+{/if}
+{if isset($krok.popisek)}
 <p>
 {/if}
 {if isset($krok.obrazek)}
@@ -14,7 +15,7 @@
 {if isset($krok.popisek)}
 {$krok.popisek}
 {/if}
-{if !isset($krok.nadpis)}
+{if isset($krok.popisek)}
 </p>
 {/if}
 {if isset($krok.pre)}

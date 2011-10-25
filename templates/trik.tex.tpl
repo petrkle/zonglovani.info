@@ -9,7 +9,7 @@
 \vskip -0.10cm
 \begin{literal}{{/literal}tabular{literal}}{/literal}{literal}{{/literal}p{literal}{{/literal}4cm{literal}}{/literal} p{literal}{{/literal}8cm{literal}}{/literal}{literal}}{/literal}
     \vspace{literal}{{/literal}0pt{literal}}{/literal} 
-    \includegraphics[width=3.5cm]{literal}{{/literal}img/{$krok.obrazek|truncate:1:""}/{$krok.obrazek}{literal}}{/literal}
+    \includegraphics[width=3.5cm]{literal}{{/literal}{if $krok.obrazek_src}{$krok.obrazek_src}{else}{$krok.obrazek}{/if}{literal}}{/literal}
 {assign var='sobrazkem' value=1}
 {else}
 {assign var='sobrazkem' value=0}
