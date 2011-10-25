@@ -14,7 +14,14 @@ function nacti_trik($soubor){
 			$foo['pre'] = (string) $krok->pre;
 		}
 		if($krok->obrazek){
-			$foo['obrazek'] = (string) $krok->obrazek.'.png';
+			$foo['obrazek'] = (string) $krok->obrazek;
+			if(!preg_match('/\.(jpg|gif|png)$/',$foo['obrazek'])){
+				$foo['obrazek']=$foo['obrazek'].'.png';
+			}
+			if($krok->obrazek['src']){
+				$foo['obrazek_src'] = (string) $krok->obrazek['src'];
+				$foo['obrazek_src'] = '/img/'.substr($foo['obrazek_src'],0,1).'/'.$foo['obrazek_src'];
+			}
 		}
 		if($krok->nadpis){
 			$foo['nadpis'] = (string) $krok->nadpis;

@@ -1,0 +1,116 @@
+<?xml version="1.0"?>
+<trik>
+	<about>
+		<nazev>Míček z tenisáku</nazev>
+		<oblast>micky</oblast>
+	</about>
+
+	<krok>
+		<popisek>Rychlý návod, jak vyrobit míček na žonglování z tenisáku a nafukovacích balónků.</popisek>
+   </krok>
+
+		<krok>
+			<nadpis>Materiál</nadpis>
+		</krok>
+
+    <krok>
+        <obrazek src="levny-tenisak.jpg">levny-tenisak.s.jpg</obrazek>
+        <popisek>Základem je tenisový míček.</popisek>
+    </krok>
+
+		<krok>
+			<obrazek src="ryze.jpg">ryze.s.jpg</obrazek>
+			<popisek>Rýže pro naplnění míčku.</popisek>
+		</krok>
+
+		<krok>
+			<obrazek src="nuzky.jpg">nuzky.s.jpg</obrazek>
+			<popisek>Nůžky pro odstřižení náustku z balónku.</popisek>
+		</krok>
+
+		<krok>
+			<nadpis>Nářadí</nadpis>
+		</krok>
+
+		<krok>
+			<obrazek src="ulamovaci-nuz.jpg">ulamovaci-nuz.s.jpg</obrazek>
+			<popisek>Ulamovacím nožem prořízneš do tenisáku díru.</popisek>
+		</krok>
+
+	<krok>
+		<obrazek src="trychtyr.jpg">trychtyr.s.jpg</obrazek>
+		<popisek>Trychtýř (nálevka) k naplnění míčku.</popisek>
+	</krok>
+
+	<krok>
+		<obrazek src="lepidlo-chemopren.jpg">lepidlo-chemopren.s.jpg</obrazek>
+		<popisek>Lepidlo pro zalepení díry v tenisovém míčku.</popisek>
+	</krok>
+
+	<krok>
+		<nadpis>Výroba míčku</nadpis>
+	</krok>
+
+	<krok>
+		<obrazek src="zarez.jpg">zarez.s.jpg</obrazek>
+		<popisek>Do tenisáku udělej nožem dva zářezy ve tvaru kříže.</popisek>
+	</krok>
+
+	<krok>
+		<obrazek src="plneni-micku.jpg">plneni-micku.s.jpg</obrazek>
+		<popisek>Míček naplníš pomocí trychtýře rýží.</popisek>
+	</krok>
+
+	<krok>
+		<obrazek src="plneni-micku-2.jpg">plneni-micku-2.s.jpg</obrazek>
+		<popisek>Míček by neměl být úplně napěchovaný. Rýže stačí tři čtvrtiny míčku.</popisek>
+	</krok>
+
+	<krok>
+		<obrazek src="lepeni.jpg">lepeni.s.jpg</obrazek>
+		<popisek>Díru v míčku zalep lepidlem.</popisek>
+	</krok>
+
+	<krok>
+		<obrazek src="zalepeny-tenisak.jpg">zalepeny-tenisak.s.jpg</obrazek>
+		<popisek>Počkej až lepidlo zaschne.</popisek>
+	</krok>
+
+	<krok>
+		<obrazek src="strihani-balonku.jpg">strihani-balonku.s.jpg</obrazek>
+		<popisek>Nůžkama odstřihni náustek balónku.</popisek>
+	</krok>
+
+	<krok>
+		<obrazek src="ustrizeny-balonek.jpg">ustrizeny-balonek.s.jpg</obrazek>
+		<popisek>Odstřižený balónek má přibližně kruhový tvar.</popisek>
+	</krok>
+
+	<krok>
+		<obrazek src="tenisak-v-balonku.jpg">tenisak-v-balonku.s.jpg</obrazek>
+		<popisek>Balónek přetáhni přes tenisák naplněný rýží.</popisek>
+	</krok>
+
+	<krok>
+		<obrazek src="tenisak-v-balonku-2.jpg">tenisak-v-balonku-2.s.jpg</obrazek>
+		<popisek>Druhý balónek zakryje zbytek tenisového míčku.</popisek>
+	</krok>
+
+	<krok>
+		<obrazek src="tenisak-v-balonku-3.jpg">tenisak-v-balonku-3.s.jpg</obrazek>
+		<popisek>Třetí balónek pojistí pevnost. Míček je hotový.</popisek>
+	</krok>
+
+	<krok>
+		<obrazek src="vazeni-micku.jpg">vazeni-micku.s.jpg</obrazek>
+		<popisek>Takto vyrobený míček váží přibližně 110g. Průměr je 65mm.</popisek>
+	</krok>
+
+	<dalsi>
+		<link url="/micky/vyroba-balonky.html" title="Jak snadno vyrobit míček na žonglování z nafukovacích balónků">Míček z nafukovacích balónků</link>
+		<link url="/micky/jak-zacit.html" title="Jak začít žonglovat s míčky">Jak začít žonglovat s míčky</link>
+		<link url="/micky/druhy.html" title="Druhy míčků na žonglování">Druhy míčků</link>
+		<link url="/navody/" title="Návod na výrobu míčku v PDF - formát vhodný k tisku.">Návod k vytištění</link>
+	</dalsi>
+
+</trik>
