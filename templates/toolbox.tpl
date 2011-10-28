@@ -40,6 +40,9 @@
 <li><a href="http://www.amazon.com/gp/feature.html?docId=1000234621" onclick="_gaq.push(['_trackPageview','/goto/amazon.com/gp/feature.html?docId=1000234621']);" class="external">Kindle Previewer</a> - emulace Amazon Kindle.</li>
 <li><a href="http://calibre-ebook.com/" onclick="_gaq.push(['_trackPageview','/goto/calibre-ebook.com']);" class="external">Calibre</a> - Převod z formátu mobi do epub.</li>
 <li><a href="http://www.7-zip.org/" onclick="_gaq.push(['_trackPageview','/goto/7-zip.org']);" class="external">7-zip</a> - instalátor pro Windows.</li>
+<li><a href="http://petr.olsak.net/ftp/olsak/slabikar/" onclick="_gaq.push(['_trackPageview','/goto/petr.olsak.net/ftp/olsak/slabikar/']);" class="external">Písmo slabikář</a> - psací písmo v titulku stránky.</li>
+<li><a href="ftp://math.feld.cvut.cz/pub/olsak/vlna" onclick="_gaq.push(['_trackPageview','/goto/math.feld.cvut.cz/pub/olsak/vlna']);" class="external">Vlna</a> - nedělitelné mezery v TeXu.</li>
+<li><a href="http://www.tug.org/applications/pdftex/" onclick="_gaq.push(['_trackPageview','/goto/tug.org/applications/pdftex']);" class="external">PdfLaTex</a> - vysázení pdf verze.</li>
 {*<li><a href="http://" onclick="_gaq.push(['_trackPageview','/goto/']);" class="external"></a> - </li>*}
 </ul>
 {* vim: set nonumber nowrap: *}
