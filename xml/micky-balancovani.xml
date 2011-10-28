@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trik>
+	<about>
+		<nazev>Balancování míčku</nazev>
+		<pocet>-</pocet>
+		<siteswaps>-</siteswaps>
+		<obtiznost>-</obtiznost>
+		<oblast>micky</oblast>
+	</about>
+	<krok>
+		<popisek>Použij pevný kulatý míček.</popisek>
+	</krok>
+	<krok>
+		<obrazek>balanca</obrazek>
+		<popisek>Balancovat můžeš na vršku hlavy. Míček pokládej na hlavu střídavě levou a pravou rukou.</popisek>
+	</krok>
+	<krok>
+		<video>micky-3-balancovani-micku-na-hlave</video>
+	</krok>
+	<krok>
+		<obrazek>balancb</obrazek>
+		<popisek>Balancování míčku s nakloněnou hlavou. Pro někoho snazší, pro někoho naopak. Nejlepší je zkusit oboje.</popisek>
+	</krok>
+	<krok>
+		<obrazek>balancc</obrazek>
+		<popisek>S míčkem na hlavě můžeš žonglovat.</popisek>
+	</krok>
+	<krok>
+		<video>micky-3-na-hlave</video>
+	</krok>
+	<krok>
+		<obrazek>balancd</obrazek>
+		<popisek>Pirueta s míčkem na hlavě - velmi obtížné.</popisek>
+	</krok>
+	<krok>
+		<obrazek>balance</obrazek>
+		<popisek>Výborný trénink rovnováhy.</popisek>
+	</krok>
+	<dalsi>
+		<link url="/micky/druhy.html#silx" title="Míček velmi vhodný pro balancování">Míček SIL-X</link>
+		<link url="/kuzely/balanc.html" title="Balancování kuželu">Balancování kuželu</link>
+	</dalsi>
+</trik>

@@ -13,9 +13,12 @@ $trail = new Trail();
 $trail->addStep('Míčky','/micky/');
 $trail->addStep('Legenda');
 
+$trik=nacti_trik('micky-legenda');
+$smarty->assign('trik',$trik);
+
 $smarty->assign_by_ref('trail', $trail->path);
 $smarty->display('hlavicka.tpl');
-$smarty->display('micky-legenda.tpl');
+$smarty->display('trik.tpl');
 $smarty->display('paticka.tpl');
 
 ?>

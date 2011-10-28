@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trik>
+	<about>
+		<nazev>Žonglérské míčky</nazev>
+		<pocet>-</pocet>
+		<siteswaps>-</siteswaps>
+		<obtiznost>-</obtiznost>
+		<oblast>micky</oblast>
+	</about>
+	<krok>
+		<popisek>Žonglérský míček je to, s čím budeš hodiny a hodiny cvičit. Pořiď si proto takové, které se ti líbí a vyhovují. Pořádný míček je základ úspěchu.</popisek>
+	</krok>
+	<krok>
+		<nadpis>Tenisový míček</nadpis>
+	</krok>
+	<krok>
+		<obrazek src="tenisak.jpg">tenisak-nahled.jpg</obrazek>
+		<popisek>Nejdostupnější míček na žonglování. Tenisák má dobrou velikost, ale je příliš lehký. Zkus ho pro &lt;a href=&quot;/micky/jak-zacit.html&quot; title=&quot;Úplný základ.&quot;&gt;začátek&lt;/a&gt; než zjistíš, jestli tě žonglování baví.</popisek>
+	</krok>
+	<krok>
+		<nadpis name="beanbag">Šitý míček</nadpis>
+	</krok>
+	<krok>
+		<obrazek src="sity.jpg">sity-nahled.jpg</obrazek>
+		<popisek>Míček sešitý z několika kusů textilie (koženky, kůže, ...), naplněný zrnky (rýže, proso, fazolky, ...). Jde &lt;a href=&quot;vyroba.html#sity&quot; title=&quot;Pěkné míčky snadno a rychle.&quot;&gt;vyrobit svépomocí&lt;/a&gt;.</popisek>
+	</krok>
+	<krok>
+		<nadpis>Gumový míček</nadpis>
+	</krok>
+	<krok>
+		<obrazek src="gumovy.jpg">gumovy-nahled.jpg</obrazek>
+		<popisek>V hračkářství lze koupit gumové míčky různých velikostí. Skáčou a jsou trochu lehčí než je potřeba.</popisek>
+	</krok>
+	<krok>
+		<nadpis name="stage">Jevištní míček</nadpis>
+	</krok>
+	<krok>
+		<obrazek src="stage.jpg">stage-nahled.jpg</obrazek>
+		<popisek>Míček pro vystoupení na jevišti. Pěkně kulatý a lesklý. Neskáče. Většinou se mu říká &lt;a href=&quot;/aczslovnicek.html#stage&quot; title=&quot;Anglicko-Český žonglérský slovníček.&quot;&gt;stage ball&lt;/a&gt;.</popisek>
+	</krok>
+	<krok>
+		<nadpis name="ru">Ruský míček</nadpis>
+	</krok>
+	<krok>
+		<obrazek src="trany.jpg">trany-nahled.jpg</obrazek>
+		<popisek>Míček který je asi z třetiny naplněný pískem. Snadno se balancuje na hlavě a jiných částech těla. Po dopadu na zem se neodkutálí, ale zůstane na místě.</popisek>
+	</krok>
+	<krok>
+		<nadpis name="silx">SIL-X</nadpis>
+	</krok>
+	<krok>
+		<obrazek src="sil-x.jpg">sil-x-nahled.jpg</obrazek>
+		<popisek>SIL-X je asi z třetiny naplněný tekutým silikonem. Má podobné vlastnosti jako ruský míček a navíc při házení neslyšíš přesýpání písku.</popisek>
+	</krok>
+	<krok>
+		<nadpis>Míček z balónků</nadpis>
+	</krok>
+	<krok>
+		<obrazek src="balonky.jpg">balonky-nahled.jpg</obrazek>
+		<popisek>Míček z balónků naplněných sypkým materiálem během žonglování mění tvar, a když spadne na zem, tak je z něj šiška.</popisek>
+	</krok>
+	<krok>
+		<nadpis>Háčkovaný míček</nadpis>
+	</krok>
+	<krok>
+		<obrazek src="hakysak.jpg">hakysak-nahled.jpg</obrazek>
+		<popisek>Takzvaný hakysák. Většinou se do něj kope, ale dá se použít i k žonglování.</popisek>
+	</krok>
+	<krok>
+		<nadpis>Basebalový míček</nadpis>
+	</krok>
+	<krok>
+		<obrazek src="baseball.jpg">baseball-nahled.jpg</obrazek>
+		<popisek>Nešpiní se, je odolný, má dobrou velikost i váhu a neskáče. Ovšem pozor, je tvrdý, takže to někdy může bolet.</popisek>
+	</krok>
+	<krok>
+		<nadpis>Jablko, vajíčka, pomeranč, ...
+			
+		</nadpis>
+	</krok>
+	<krok>
+		<obrazek src="pomeranc.jpg">pomeranc-nahled.jpg</obrazek>
+		<popisek>&lt;a href=&quot;/micky/3/jablko.html&quot; title=&quot;žonglování s jablky&quot;&gt;Jablko&lt;/a&gt;, &lt;a href=&quot;/micky/vajicka.html&quot; title=&quot;žonglování s vajíčky&quot;&gt;vajíčka&lt;/a&gt; nebo pomeranč by v interiéru měli používat pouze zkušení žongléři. Hrozí zapatlání rukou, podlahy a vůbec všeho.</popisek>
+	</krok>
+	<krok>
+		<nadpis>Velký míč</nadpis>
+	</krok>
+	<krok>
+		<obrazek src="velky-mic.jpg">velky-mic-nahled.jpg</obrazek>
+		<popisek>Opravdu velký míč. K žonglování se třemi velkými nafukovacími míči jsou potřeba dva žongléři. Pro srovnání velikosti je vedle míče &lt;a href=&quot;/kuzely/druhy.html#pirouete&quot; title=&quot;Délka 52cm.&quot;&gt;kužel pirouete&lt;/a&gt;.</popisek>
+	</krok>
+	<krok>
+		<popisek>Míčků je nepřeberně, vyrábějí se speciální míčky pro vystoupení na jevišti (jsou větší), míčky, které svítí pod UV zářením, míčky, které se napustí hořlavinou a zapálí.</popisek>
+	</krok>
+	<dalsi>
+		<link url="/micky/vyroba.html" title="Jak vyrobit míček na žonglování">Výroba míčků na žonglování</link>
+		<link url="/micky/jak-zacit.html" title="Základ pro žonglování se třemi míčky">Jak začít žonglovat s míčky</link>
+		<link url="/kuzely/druhy.html" title="Obrázky kuželů na žonglování">Druhy žonglovacích kuželek</link>
+	</dalsi>
+</trik>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trik>
+	<about>
+		<nazev>Míček z balónků</nazev>
+		<pocet>-</pocet>
+		<siteswaps>-</siteswaps>
+		<obtiznost>-</obtiznost>
+		<oblast>micky</oblast>
+	</about>
+	<krok>
+		<popisek>Nejjednodušší je vyrobit míček na žonglování z nafukovacích balónků.</popisek>
+	</krok>
+	<krok>
+		<nadpis>Materiál</nadpis>
+	</krok>
+	<krok>
+		<obrazek src="balonky-na-vyrobu-micku.jpg">balonky-na-vyrobu-micku.s.jpg</obrazek>
+		<popisek>Obyčejné nafukovací balónky. Na jeden míček jsou potřeba tři kusy.</popisek>
+	</krok>
+	<krok>
+		<obrazek src="mouka.jpg">mouka.s.jpg</obrazek>
+		<popisek>Mouka na naplnění míčku. Když použiješ místo mouky rýži, bude povrch míčku hrbolatý.</popisek>
+	</krok>
+	<krok>
+		<obrazek src="mikrotenak.jpg">mikrotenak.s.jpg</obrazek>
+		<popisek>Mikrotenový sáček vytvoří jádro míčku.</popisek>
+	</krok>
+	<krok>
+		<nadpis>Nářadí</nadpis>
+	</krok>
+	<krok>
+		<obrazek src="nuzky.jpg">nuzky.s.jpg</obrazek>
+		<popisek>Nůžky na odstřižení náustku z balónku.</popisek>
+	</krok>
+	<krok>
+		<obrazek src="vaha.jpg">vaha.s.jpg</obrazek>
+		<popisek>Váha na určení množství mouky. Místo váhy můžeš použít hrníček.</popisek>
+	</krok>
+	<krok>
+		<nadpis>Výroba míčku</nadpis>
+	</krok>
+	<krok>
+		<obrazek src="mouka-vazeni.jpg">mouka-vazeni.s.jpg</obrazek>
+		<popisek>Do mikrotenového sáčku nasyp 120g mouky. Vyrobený míček pak bude mít 65mm v průměru.</popisek>
+	</krok>
+	<krok>
+		<obrazek src="strihani-zeleneho-balonku.jpg">strihani-zeleneho-balonku.s.jpg</obrazek>
+		<popisek>Nůžkama odstřihni náustek balónku.</popisek>
+	</krok>
+	<krok>
+		<obrazek src="ustrizeny-zeleny-balonek.jpg">ustrizeny-zeleny-balonek.s.jpg</obrazek>
+		<popisek>Odstřižený balónek má zhruba kruhový tvar.</popisek>
+	</krok>
+	<krok>
+		<obrazek src="micek-z-balonku.jpg">micek-z-balonku.s.jpg</obrazek>
+		<popisek>Balónek přetáhni přes mikrotenový pytlík s moukou.</popisek>
+	</krok>
+	<krok>
+		<obrazek src="micek-z-balonku-2.jpg">micek-z-balonku-2.s.jpg</obrazek>
+		<popisek>Druhý balónek zakryje zbytek mikrotenového sáčku.</popisek>
+	</krok>
+	<krok>
+		<obrazek src="micek-z-balonku-3.jpg">micek-z-balonku-3.s.jpg</obrazek>
+		<popisek>Třetí balónek pojistí pevnost. Míček je hotový.</popisek>
+	</krok>
+	<dalsi>
+		<link url="/micky/vyroba-tenisak.html" title="Jak vyrobit pěkný míček na žonglování z tenisáku">Míček na žonglování z tenisáku</link>
+		<link url="/micky/jak-zacit.html" title="Jak začít žonglovat s míčky">Jak začít žonglovat s míčky</link>
+		<link url="/micky/druhy.html" title="Druhy míčků na žonglování">Druhy míčků</link>
+		<link url="/navody/" title="Návod na výrobu míčku v PDF - formát vhodný k tisku.">Návod k vytištění</link>
+	</dalsi>
+</trik>

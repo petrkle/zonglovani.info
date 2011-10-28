@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trik>
+	<about>
+		<nazev>Žonglování s vajíčky</nazev>
+		<pocet>3</pocet>
+		<siteswaps>-</siteswaps>
+		<obtiznost>těžké</obtiznost>
+		<oblast>micky</oblast>
+	</about>
+	<krok>
+		<popisek>Jsou šišatá, křehká a nadělají spoustu nepořádku. Avšak, kdo by odolal?</popisek>
+	</krok>
+	<krok>
+		<popisek>&lt;a href=&quot;/micky/3/kaskada.html&quot; title=&quot;Základní trik se třemi míčky.&quot;&gt;Kaskádu&lt;/a&gt; se třemi vajíčky začneš snadno. Problém je až jak skončit. Chytit dvě vajíčka do jedné ruky není jen tak. Naštěstí existuje jednoduchý způsob jak se tomu vyhnout.</popisek>
+	</krok>
+	<krok>
+		<obrazek>vajickaa</obrazek>
+		<popisek>První vajíčko vyhoď pravou rukou rovně nahoru.</popisek>
+	</krok>
+	<krok>
+		<obrazek>vajickab</obrazek>
+		<popisek>Zatímco letí, odlož si druhé vajíčko do levé ruky. Vajíčko neházíš. Jenom ho přendáš z ruky do ruky. Šance na rozbití jsou minimální.</popisek>
+	</krok>
+	<krok>
+		<obrazek>vajickac</obrazek>
+		<popisek>Pravá ruka je volná pro zachycení padajícího vajíčka.</popisek>
+	</krok>
+	<krok>
+		<popisek>Můžeš trénovat s pokladky ze sádry. Opravdové vajíčko léta přeci jenom trochu jinak. A hlavně jinak dopadá.</popisek>
+	</krok>
+	<krok>
+		<video>micky-3-vajicka</video>
+	</krok>
+	<dalsi>
+		<link url="/micky/druhy.html" title="Seznam žonglérských míčků">Druhy míčků</link>
+		<link url="/micky/3/jablko.html" title="Při žonglování s jablky můžeš průběžně ukusovat">Jezení jablka</link>
+	</dalsi>
+</trik>

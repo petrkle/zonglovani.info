@@ -15,16 +15,11 @@ $smarty->assign('description','Návod na výrobu žonglérského míčku z nafuk
 $smarty->assign('keywords','žonglování, míčky, výroba, nafukovací balónky');
 $smarty->assign('nahled','http://'.$_SERVER['SERVER_NAME'].'/img/b/balonky-na-vyrobu-micku.s.jpg');
 
-$dalsi=array(
-	array('url'=>'/micky/vyroba-tenisak.html','text'=>'Míček na žonglování z tenisáku','title'=>'Jak vyrobit pěkný míček na žonglování z tenisáku'),
-	array('url'=>'/micky/jak-zacit.html','text'=>'Jak začít žonglovat s míčky','title'=>'Jak začít žonglovat s míčky'),
-	array('url'=>'/micky/druhy.html','text'=>'Druhy míčků','title'=>'Druhy míčků na žonglování'),
-	array('url'=>'/navody/','text'=>'Návod k vytištění','title'=>'Návod na výrobu míčku v PDF - formát vhodný k tisku.'),
-	);
-$smarty->assign_by_ref('dalsi',$dalsi);
+$trik=nacti_trik('micky-vyroba-balonky');
+$smarty->assign('trik',$trik);
 
 $smarty->assign_by_ref('trail', $trail->path);
 $smarty->display('hlavicka.tpl');
-$smarty->display('micky-vyroba-balonky.tpl');
+$smarty->display('trik.tpl');
 $smarty->display('paticka.tpl');
 ?>

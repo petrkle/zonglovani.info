@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trik>
+	<about>
+		<nazev>Passing s míčky - mills' mess</nazev>
+		<pocet>5</pocet>
+		<siteswaps>-</siteswaps>
+		<obtiznost>-</obtiznost>
+		<oblast>micky</oblast>
+	</about>
+	<krok>
+		<popisek>Trik pro dva žongléry a pět míčků. Předpokladem je, že oba umíte &lt;a href=&quot;3/mm.html&quot; title=&quot;Trik se třemi míčky&quot;&gt;mills' mess&lt;/a&gt;.</popisek>
+	</krok>
+	<krok>
+		<obrazek>micky-passingmma</obrazek>
+		<popisek>Dva žongléři stojí vedle sebe. Žonglér &lt;b&gt;A&lt;/b&gt; má dva míčky v pravé ruce. V levé jeden. Žonglér &lt;b&gt;B&lt;/b&gt; má v každé ruce jeden míček. Oba mají zkřížené ruce. Levou pod pravou.</popisek>
+	</krok>
+	<krok>
+		<obrazek>micky-passingmmb</obrazek>
+		<popisek>Žonglér &lt;b&gt;A&lt;/b&gt; hodí první míček z levé ruky na pravou stranu žongléra &lt;b&gt;B&lt;/b&gt;. Oba synchronně přendaváte ruce.</popisek>
+	</krok>
+	<krok>
+		<obrazek>micky-passingmmc</obrazek>
+		<popisek>Žonglér &lt;b&gt;B&lt;/b&gt; při překřižování rukou vyhodí druhý míček. Může tak chytit míček hozený žonglérem &lt;b&gt;A&lt;/b&gt;.</popisek>
+	</krok>
+	<krok>
+		<obrazek>micky-passingmmd</obrazek>
+		<popisek>&lt;b&gt;B&lt;/b&gt;&amp;nbsp;háže třetí míček z levé ruky na levou stranu žongléra &lt;b&gt;A&lt;/b&gt;.</popisek>
+	</krok>
+	<krok>
+		<obrazek>micky-passingmme</obrazek>
+		<popisek>Zatímco míček letí, oba žongléři synchronizovaně mění polohu rukou.</popisek>
+	</krok>
+	<krok>
+		<obrazek>micky-passingmmf</obrazek>
+		<popisek>Oba žongléři mají opět zkřížené ruce. Pravou pod levou. Žonglér &lt;b&gt;A&lt;/b&gt; vyhodí míček z levé ruky nahoru, překříží ruce a do pravé ruky chytá míček, který hodil žonglér &lt;b&gt;B&lt;/b&gt;.</popisek>
+	</krok>
+	<krok>
+		<popisek>Další hod žongléra &lt;b&gt;A&lt;/b&gt; z pravé ruky bude pass.</popisek>
+	</krok>
+	<dalsi>
+		<link url="/kuzely/passing/" title="Královská disciplína žonglování">Passing s kužely</link>
+		<link url="/kuzely/passing/australsky-trik.html" title="Trik při passování s kužely">Australský trik</link>
+		<link url="/kuzely/passing/runarounds.html" title="Přebírání kuželů">Obíhačka</link>
+	</dalsi>
+</trik>

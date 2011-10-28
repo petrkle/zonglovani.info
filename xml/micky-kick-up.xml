@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trik>
+	<about>
+		<nazev>Zvednutí míčku nohou</nazev>
+		<pocet>-</pocet>
+		<siteswaps>-</siteswaps>
+		<obtiznost>-</obtiznost>
+		<oblast>micky</oblast>
+	</about>
+	<krok>
+		<popisek>Elegantní způsob, jak zvednout míček ze země.</popisek>
+	</krok>
+	<krok>
+		<obrazek>kickupa</obrazek>
+		<popisek>Míček leží na zemi.</popisek>
+	</krok>
+	<krok>
+		<obrazek>kickupb</obrazek>
+		<popisek>Lehce si na míček stoupni. Posuň nohu k sobě.</popisek>
+	</krok>
+	<krok>
+		<obrazek>kickupc</obrazek>
+		<popisek>Míček se roztočí a začne se kutálet směrem k noze.</popisek>
+	</krok>
+	<krok>
+		<obrazek>kickupd</obrazek>
+		<popisek>Počkej až se míček dostane na nárt. Těsně za prsty na noze.</popisek>
+	</krok>
+	<krok>
+		<obrazek>kickupe</obrazek>
+		<popisek>Pohled shora na předchozí obrázek. Míček je na vnější straně nártu.</popisek>
+	</krok>
+	<krok>
+		<obrazek>kickupf</obrazek>
+		<popisek>Vykopni nohou šikmo dozadu a do strany. Správný okamžik, směr a rychlost vykopnutí zjistíš jedině tréninkem. Liší se podle obuvi a míčku.</popisek>
+	</krok>
+	<krok>
+		<popisek>Ze začátku trénuj naboso - je to snazší. Nezapomeň zkoušet pravou i levou nohu.</popisek>
+	</krok>
+	<krok>
+		<video>micky-3-kick-up</video>
+	</krok>
+	<krok>
+		<popisek>Obdobný postup můžeš použít pro &lt;a href=&quot;/kuzely/kickup.html&quot; title=&quot;Zvednutí kuželu nohou.&quot;&gt;zvednutí kuželu&lt;/a&gt;.</popisek>
+	</krok>
+	<dalsi>
+		<link url="/kuzely/kickup.html" title="Neustálé shýbání pro spadlé kužely se stane minulostí">Zvednutí kuželu nohou</link>
+		<link url="/micky/sbirani.html" title="Když ti spadne míček, nepřestávej žonglovat">Sbírání spadlých míčků</link>
+		<link url="/micky/3/neviditelny.html" title="Neviditelný míček nahrazuje obyčejný míček">Neviditelný míček</link>
+		<link url="/micky/nohy.html" title="Když ti spadne míček, použij nohy">Další popis sbírání míčků</link>
+	</dalsi>
+</trik>

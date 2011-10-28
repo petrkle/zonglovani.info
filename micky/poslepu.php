@@ -16,8 +16,11 @@ $trail->addStep($titulek);
 
 $smarty->assign_by_ref('trail', $trail->path);
 
+$trik=nacti_trik('micky-poslepu');
+$smarty->assign('trik',$trik);
+
 $smarty->display('hlavicka.tpl');
-$smarty->display('micky-poslepu.tpl');
+$smarty->display('trik.tpl');
 $smarty->display('paticka.tpl');
 
 ?>

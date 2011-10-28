@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trik>
+	<about>
+		<nazev>Vysvětlivky k obrázkům</nazev>
+		<pocet>-</pocet>
+		<siteswaps>-</siteswaps>
+		<obtiznost>-</obtiznost>
+		<oblast>micky</oblast>
+	</about>
+	<krok>
+		<popisek>Obrázky znázorňují, jak házet míčky, jejich dráhu a načasování. Ke každému obrázku patří vysvětlující text umístěný vpravo od něj.</popisek>
+	</krok>
+	<krok>
+		<nadpis>Míčky</nadpis>
+	</krok>
+	<krok>
+		<obrazek>legendaa</obrazek>
+		<popisek>Míčky jsou rozlišeny barvou a číslicí.</popisek>
+	</krok>
+	<krok>
+		<nadpis>Dráhy míčků</nadpis>
+	</krok>
+	<krok>
+		<obrazek>legendab</obrazek>
+		<popisek>Dráha, po které by míček měl letět, je vyznačena přerušovanou čárou. Šipka na konci určuje směr.</popisek>
+	</krok>
+	<krok>
+		<nadpis>Ruce</nadpis>
+	</krok>
+	<krok>
+		<obrazek>legendac</obrazek>
+		<popisek>Pravá ruka je označena písmenem &lt;b&gt;P&lt;/b&gt;. Levá ruka písmenem &lt;b&gt;L&lt;/b&gt;.</popisek>
+	</krok>
+	<krok>
+		<nadpis>Pohyby rukou</nadpis>
+	</krok>
+	<krok>
+		<obrazek>legendad</obrazek>
+		<popisek>V některých případech je zvlášť zdůrazněn pohyb rukou. Přerušovaná čára s šipkou vede od písemného označení ruky.</popisek>
+	</krok>
+	<krok>
+		<nadpis>Poloha těla</nadpis>
+	</krok>
+	<krok>
+		<obrazek>legendae</obrazek>
+		<popisek>U složitějších triků je pro názornost nakreslen i obrys postavy.</popisek>
+	</krok>
+</trik>

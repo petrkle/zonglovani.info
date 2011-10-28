@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trik>
+	<about>
+		<nazev>Sbírání spadlých míčků</nazev>
+		<pocet>-</pocet>
+		<siteswaps>-</siteswaps>
+		<obtiznost>snadné</obtiznost>
+		<oblast>micky</oblast>
+	</about>
+	<krok>
+		<popisek>Když ti spadne míček, nepřestávej žonglovat.</popisek>
+	</krok>
+	<krok>
+		<nadpis>3 míčky</nadpis>
+	</krok>
+	<krok>
+		<popisek>Chybějící míček stačí nahradit &lt;a href=&quot;/micky/3/neviditelny.html&quot; title=&quot;Trik se třemi míčky.&quot;&gt;neviditelným míčkem&lt;/a&gt;. Pokračuj kaskádou se třemi míčky. Klekni si před spadlý míček. Ve správný moment místo chycení neviditelného míčku seber míček ze země.</popisek>
+	</krok>
+	<krok>
+		<obrazek>micky-sbirania</obrazek>
+		<popisek>První míček vyhodíš z pravé ruky.</popisek>
+	</krok>
+	<krok>
+		<obrazek>micky-sbiranib</obrazek>
+		<popisek>Levou rukou pokračuješ v kaskádě. Mezitím pravá ruka sbírá třetí míček ze země.</popisek>
+	</krok>
+	<krok>
+		<obrazek>micky-sbiranic</obrazek>
+		<popisek>Pokračuj &lt;a href=&quot;/micky/3/kaskada.html&quot; title=&quot;Základní trik se třemi míčky.&quot;&gt;kaskádou se třemi&lt;/a&gt; míčky.</popisek>
+	</krok>
+	<krok>
+		<video>micky-3-zvednuti-spadleho-micku</video>
+	</krok>
+	<krok>
+		<nadpis>4 míčky</nadpis>
+	</krok>
+	<krok>
+		<popisek>Když ti spadne míček, pokračuj kaskádou se třemi míčky. Klekni si před spadlý míček. A teď to přijde.</popisek>
+	</krok>
+	<krok>
+		<obrazek>micky-sbiranid</obrazek>
+		<popisek>Přejdi z kaskády se třemi ...</popisek>
+	</krok>
+	<krok>
+		<obrazek>micky-sbiranie</obrazek>
+		<popisek>... do &lt;a href=&quot;/micky/2/2v1.html&quot; title=&quot;Trik se dvěma míčky.&quot;&gt;2 v 1&lt;/a&gt; v levé ruce.</popisek>
+	</krok>
+	<krok>
+		<obrazek>micky-sbiranif</obrazek>
+		<popisek>Třetí míček z pravé ruky hoď také rovně nahoru.</popisek>
+	</krok>
+	<krok>
+		<obrazek>micky-sbiranih</obrazek>
+		<popisek>Pravou rukou seber míček ze země.</popisek>
+	</krok>
+	<krok>
+		<obrazek>micky-sbiranii</obrazek>
+		<popisek>Pokračuj fontánou se čtyřmi míčky.</popisek>
+	</krok>
+	<krok>
+		<video>micky-4-sebrani</video>
+	</krok>
+	<krok>
+		<nadpis>5 míčků</nadpis>
+	</krok>
+	<krok>
+		<popisek>Obtížné, ale velmi efektní. Když ti spadne jeden míček, pokračuj &lt;a href=&quot;/micky/4/fontana.html&quot; title=&quot;Trik se čtyřmi míčky.&quot;&gt;fontánou se čtyřmi&lt;/a&gt; míčky. Klekni si před spadlý míček. Začni házet míčky jako při &lt;a href=&quot;/micky/5/kaskada.html&quot; title=&quot;Trik s pěti míčky.&quot;&gt;kaskádě&lt;/a&gt; - z jedné ruky do druhé.</popisek>
+	</krok>
+	<krok>
+		<obrazek>micky-sbiranij</obrazek>
+		<popisek>Pravá, levá, pravá - hodí a je prázdná.</popisek>
+	</krok>
+	<krok>
+		<obrazek>micky-sbiranik</obrazek>
+		<popisek>Nastává chvíle pro sebrání míčku.</popisek>
+	</krok>
+	<krok>
+		<obrazek>micky-sbiranil</obrazek>
+		<popisek>Házej dál levá, pravá (sebraný míček), levá, ...</popisek>
+	</krok>
+	<krok>
+		<popisek>Když ti spadnou dva míčky z pěti, pokračuj kaskádou se třemi. Nohou přesuň spadlé míčky vedle sebe. Klekni si. Míčky jsou každý před jedním kolenem. Vyhoď &lt;a href=&quot;/micky/3/blesk.html&quot; title=&quot;Trik se třemi míčky.&quot;&gt;blesk se třemi&lt;/a&gt; a místo tlesknutí nebo &lt;a href=&quot;/micky/pirueta.html&quot; title=&quot;Otočení dokolečka.&quot;&gt;piruety&lt;/a&gt; seber oba míčky ze země.</popisek>
+	</krok>
+	<dalsi>
+		<link url="/micky/3/neviditelny.html" title="Nejlevnější a nejdostupnější míček">Neviditelný míček</link>
+		<link url="/micky/drop.html" title="Výmluvy">Míčky na zemi</link>
+		<link url="/micky/kick-up.html" title="Elegantní způsob jak zvednout míček ze země">Zvednutí míčku nohou</link>
+	</dalsi>
+</trik>

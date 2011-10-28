@@ -10,20 +10,16 @@ $smarty->assign('nahled','http://'.$_SERVER['SERVER_NAME'].'/img/s/sity-nahled.j
 $smarty->assign('feedback',true);
 $smarty->assign('titulek',$titulek);
 
-$dalsi=array(
-	array('url'=>'/micky/vyroba.html','text'=>'Výroba míčků na žonglování','title'=>'Jak vyrobit míček na žonglování'),
-	array('url'=>'/micky/jak-zacit.html','text'=>'Jak začít žonglovat s míčky','title'=>'Základ pro žonglování se třemi míčky'),
-	array('url'=>'/kuzely/druhy.html','text'=>'Druhy žonglovacích kuželek','title'=>'Obrázky kuželů na žonglování')
-	);
-$smarty->assign_by_ref('dalsi',$dalsi);
-
 $trail = new Trail();
 $trail->addStep('Míčky','/micky/');
 $trail->addStep($titulek);
 $smarty->assign_by_ref('trail', $trail->path);
 
+$trik=nacti_trik('micky-druhy');
+$smarty->assign('trik',$trik);
+
 $smarty->display('hlavicka.tpl');
-$smarty->display('micky-druhy.tpl');
+$smarty->display('trik.tpl');
 $smarty->display('paticka.tpl');
 
 ?>
