@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trik>
+	<about>
+		<nazev>Jak na žonglování s pěti míčky</nazev>
+		<pocet>5</pocet>
+		<siteswaps>-</siteswaps>
+		<obtiznost>-</obtiznost>
+		<oblast>micky</oblast>
+	</about>
+	<krok>
+		<nadpis>Uvolni se</nadpis>
+	</krok>
+	<krok>
+		<popisek>Najít a udržet správné tempo je těžké. Většina lidí hází pět míčků moc rychle! Ano, je to tak. Moc rychle a pak je nestačí chytat. Zkus si k žonglování pustit ploužák.</popisek>
+	</krok>
+	<krok>
+		<nadpis>Nezapomeň dýchat</nadpis>
+	</krok>
+	<krok>
+		<popisek>Pět míčků je fyzicky náročný trik. Svaly potřebují kyslík.</popisek>
+	</krok>
+	<krok>
+		<nadpis>Fyzička je důležitá</nadpis>
+	</krok>
+	<krok>
+		<popisek>Pět míčků je i o síle a vytrvalosti. Zvládneš 50 kliků? 20 přitažení na hrazdě? Není to nezbytně nutné, ale pomůže to.</popisek>
+	</krok>
+	<krok>
+		<nadpis>3 a 4 míčky</nadpis>
+	</krok>
+	<krok>
+		<popisek>Nauč se co nejvíc triků se 3 a 4 míčky. &lt;a href=&quot;/micky/4/sprcha.html&quot; title=&quot;Trik se 4 míčky.&quot;&gt;Sprchu se 4&lt;/a&gt; míčky oběma směry. &lt;a href=&quot;/micky/3/blesk.html&quot; title=&quot;Trik se 3 míčky.&quot;&gt;Blesk&lt;/a&gt; se třemi míčky. Zkoušej žonglovat s těžšími míčky.</popisek>
+	</krok>
+	<krok>
+		<nadpis>Další triky</nadpis>
+	</krok>
+	<krok>
+		<popisek>Nezůstávej jen u kaskády. Zkoušej i další triky s pěti míčky. Kaskáda ti bude připadat snazší.</popisek>
+	</krok>
+	<krok>
+		<nadpis>Přidej další míček</nadpis>
+	</krok>
+	<krok>
+		<popisek>Zkus žonglovat se &lt;a href=&quot;/micky/6/&quot; title=&quot;&quot;&gt;šesti míčky&lt;/a&gt;. Kaskáda s pěti míčky ti bude připadat snazší.</popisek>
+	</krok>
+	<dalsi>
+		<link url="/micky/5/kaskada.html" title="Návod na kaskádu s pěti míčky">Kaskáda s pěti míčky</link>
+		<link url="/micky/5/kaskada-reverzni.html" title="Návod na reverzní kaskádu s pěti míčky">Reverzní kaskáda s pěti míčky</link>
+	</dalsi>
+</trik>

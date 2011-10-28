@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trik>
+	<about>
+		<nazev>Otáčení kuželky okolo palce</nazev>
+		<pocet>-</pocet>
+		<siteswaps>-</siteswaps>
+		<obtiznost>-</obtiznost>
+		<oblast>kuzely</oblast>
+	</about>
+	<krok>
+		<popisek>Trik, který můžeš trénovat i v místnostech s nízkým stropem.</popisek>
+	</krok>
+	<krok>
+		<obrazek>tocenia</obrazek>
+		<popisek>Pohled shora. Kuželku držíš vodorovně. Palec je nahoře.</popisek>
+	</krok>
+	<krok>
+		<obrazek>tocenib</obrazek>
+		<popisek>Cuknutím zápěstí a prsty roztoč kuželku po směru hodinových ručiček.</popisek>
+	</krok>
+	<krok>
+		<obrazek>tocenic</obrazek>
+		<popisek>Začíná náročnější část otočky. Kuželka je vlastně jen položená na vnější straně palce. Je potřeba pohnout rukou trochu proti pohybu kuželky.</popisek>
+	</krok>
+	<krok>
+		<obrazek>tocenid</obrazek>
+		<popisek>Kuželka drží na vnější straně palce jen pomocí setrvačnosti a drobného protipohybu celé ruky.</popisek>
+	</krok>
+	<krok>
+		<obrazek>tocenie</obrazek>
+		<popisek>Prsty a palcem udělíš kuželce potřebnou rychlost do další otočky.</popisek>
+	</krok>
+	<krok>
+		<video>kuzely-toceni-okolo-palce</video>
+	</krok>
+	<krok>
+		<popisek>Otáčení kuželky můžeš použít například v triku &lt;a href=&quot;/kuzely/3/423.html&quot; title=&quot;Trik se třemi míčky&quot;&gt;423&lt;/a&gt;.</popisek>
+	</krok>
+</trik>

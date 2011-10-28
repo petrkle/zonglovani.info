@@ -13,8 +13,12 @@ $smarty->assign_by_ref('trail', $trail->path);
 
 $smarty->assign('titulek',$titulek);
 $smarty->assign('feedback',true);
+
+$trik=nacti_trik('kuzely-toceni-okolo-palce');
+$smarty->assign('trik',$trik);
+
 $smarty->display('hlavicka.tpl');
-$smarty->display('kuzely-toceni-okolo-palce.tpl');
+$smarty->display('trik.tpl');
 $smarty->display('paticka.tpl');
 
 ?>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trik>
+	<about>
+		<nazev>Překulení kuželky přes hlavu</nazev>
+		<pocet>1</pocet>
+		<siteswaps>-</siteswaps>
+		<obtiznost>-</obtiznost>
+		<oblast>kuzely</oblast>
+	</about>
+	<krok>
+		<popisek>Známé též pod anglickým názvem &lt;b&gt;headroll&lt;/b&gt;. Provedení s kuželkou je snazší než stejný trik s míčkem.</popisek>
+	</krok>
+	<krok>
+		<obrazek>headrolla</obrazek>
+		<popisek>Přilož si kuželku k hlavě podobně jako když telefonuješ. Kuželka je opřená asi v polovině držadla o bradu. Konečky prstů strč kuželku proti hlavě.</popisek>
+	</krok>
+	<krok>
+		<obrazek>headrollb</obrazek>
+		<popisek>Kuželka se ti překulí přes hlavu.</popisek>
+	</krok>
+	<krok>
+		<obrazek>headrollc</obrazek>
+		<popisek>Kuželka se celou dobu dotýká tvé hlavy.</popisek>
+	</krok>
+	<krok>
+		<obrazek>headrolld</obrazek>
+		<popisek>Překulení kuželky přes hlavu je obtížný trik. Jistotu získáš jedině pravidelným tréninkem.</popisek>
+	</krok>
+	<krok>
+		<obrazek>headrolle</obrazek>
+		<popisek>Na konci překulení chytíš kuželku do levé ruky.</popisek>
+	</krok>
+	<krok>
+		<video>kuzely-3-prekuleni-kuzelky-pres-hlavu</video>
+	</krok>
+	<dalsi>
+		<link url="/kuzely/balanc.html" title="Balancování kuželu">Balancování kuželu</link>
+		<link url="/kuzely/toceni-okolo-palce.html" title="Trik který můžeš trénovat i v místnostech s nízkým stropem">Otáčení kuželky okolo palce</link>
+	</dalsi>
+</trik>
