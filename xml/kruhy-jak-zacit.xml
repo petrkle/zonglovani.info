@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trik>
+	<about>
+		<nazev>Jak začít žonglovat s kruhy</nazev>
+		<pocet>-</pocet>
+		<siteswaps>-</siteswaps>
+		<obtiznost>-</obtiznost>
+		<oblast>micky</oblast>
+	</about>
+	<krok>
+		<popisek>Kruh je třeba při vyhození roztočit, aby letěl rovně.</popisek>
+	</krok>
+	<krok>
+		<nadpis name="jeden">Jeden kruh</nadpis>
+	</krok>
+	<krok>
+		<obrazek>kruhy-zacateka</obrazek>
+		<popisek>Začni s jedním kruhem. Přehazuj ho z pravé ruky do levé.</popisek>
+	</krok>
+	<krok>
+		<obrazek>kruhy-zacatekb</obrazek>
+		<popisek>A pak zpátky z levé do pravé.</popisek>
+	</krok>
+	<krok>
+		<popisek>Vyzkoušej i pohazování s kruhem v jedné ruce. Procvičuj pravou i levou ruku.</popisek>
+	</krok>
+	<krok>
+		<nadpis name="dva">Dva kruhy</nadpis>
+	</krok>
+	<krok>
+		<obrazek>kruhy-zacatekc</obrazek>
+		<popisek>Z pravé ruky vyhoď první kruh.</popisek>
+	</krok>
+	<krok>
+		<obrazek>kruhy-zacatekd</obrazek>
+		<popisek>Když je první na vrcholu své dráhy, vyhoď druhý kruh. Pak zachytíš první kruh do levé ruky. Druhý kruh chytíš do pravé ruky.</popisek>
+	</krok>
+	<krok>
+		<popisek>Trénuj nejprve podle obrázků a pak s obráceným pořadím rukou. Nakonec si ke dvěma kruhům můžeš přidat jeden míček.</popisek>
+	</krok>
+	<krok>
+		<nadpis>Tři kruhy</nadpis>
+	</krok>
+	<krok>
+		<popisek>Když už ti to se dvěma kruhy jde, přidej ještě třetí pro úplnou &lt;a href=&quot;/kruhy/3/kaskada.html&quot; title=&quot;Kaskáda se třemi kruhy.&quot;&gt;kaskádu&lt;/a&gt;. Kaskáda je nejlehčí trik, začni s ní.</popisek>
+	</krok>
+	<dalsi>
+		<link url="/kruhy/3/kaskada.html" title="Nejjednodušší způsob žonglování">Kaskáda se třemi kruhy</link>
+		<link url="/kruhy/vyroba.html" title="Jak vyrobit pěkné a levné kruhy na žonglování">Výroba žonglovacích kruhů</link>
+	</dalsi>
+</trik>

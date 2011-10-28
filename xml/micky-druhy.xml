@@ -74,9 +74,7 @@
 		<popisek>Nešpiní se, je odolný, má dobrou velikost i váhu a neskáče. Ovšem pozor, je tvrdý, takže to někdy může bolet.</popisek>
 	</krok>
 	<krok>
-		<nadpis>Jablko, vajíčka, pomeranč, ...
-			
-		</nadpis>
+		<nadpis>Jablko, vajíčka, pomeranč, ...</nadpis>
 	</krok>
 	<krok>
 		<obrazek src="pomeranc.jpg">pomeranc-nahled.jpg</obrazek>
