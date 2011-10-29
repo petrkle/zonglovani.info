@@ -52,6 +52,7 @@ foreach($tpl as $line){
 }
 
 foreach($sablona as $klic=>$line){
+		$line=preg_replace('/&nbsp;/','&amp;nbsp;',$line);
 		$line=preg_replace('/<b>/','&lt;b&gt;',$line);
 		$line=preg_replace('/<\/b>/','&lt;/b&gt;',$line);
 		$line=preg_replace('/<h3>(.*)<\/h3>/','<krok><nadpis>\1</nadpis></krok>',$line);

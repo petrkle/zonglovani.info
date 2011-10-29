@@ -15,8 +15,12 @@ $trail->addStep('Informace o žonglování','/ostatni.html');
 $trail->addStep('Jak trénovat');
 
 $smarty->assign_by_ref('trail', $trail->path);
+
+$trik=nacti_trik('ostatni-trenink');
+$smarty->assign('trik',$trik);
+
 $smarty->display('hlavicka.tpl');
-$smarty->display('trenink.tpl');
+$smarty->display('trik.tpl');
 $smarty->display('paticka.tpl');
 
 ?>

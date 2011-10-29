@@ -36,16 +36,16 @@ dd{margin:2px 10px 7px 40px;}
 .kontakt img{margin:0;padding:0;border:0;background-color:#fff;vertical-align:text-bottom;clear:none;float:none;}
 .kalendar{margin-left:5px;border-left:1px solid #ccc;border-top:1px solid #ccc;}
 .kalendar th{text-align:center;border-right:1px solid #ccc;border-bottom:1px solid #ccc;}
+.cislodne{display:block;float:left;height:100%;margin-right:5px;}
 .kalendar caption{font-weight:bold;padding:5px 0;border-right:1px solid #ccc;border-top:1px solid #ccc;border-left:1px solid #ccc;}
 .den{text-align:left;vertical-align:top;border-right:1px solid #ccc;border-bottom:1px solid #ccc;padding:2px;}
 .den_prazdny{text-align:left;vertical-align:top;border-right:1px solid #ccc;border-bottom:1px solid #ccc;}
 .udalost{background-color:#eee;}
 .dnesni{border:solid 2px #000;background-color:#eef;}
-.kal_prev{padding:2px;border-bottom:1px solid #ccc;font-size:.6em;}
-.kal_next{padding:2px;text-align:right;border-bottom:1px solid #ccc;border-right:1px solid #ccc;font-size:.6em;}
-.kal_akt{padding:2px;border-bottom:1px solid #ccc;font-size:.6em;}
-.kal_entry{margin:0;padding:0;list-style:none;line-height:.6em;}
-.kal_entry li a{font-size:.5em;}
+.kal_prev{padding:2px;border-bottom:1px solid #ccc;}
+.kal_next{padding:2px;text-align:right;border-bottom:1px solid #ccc;border-right:1px solid #ccc;}
+.kal_akt{padding:2px;border-bottom:1px solid #ccc;}
+.kal_entry{margin:0;padding:0;list-style:none;}
 fieldset{margin:5px;}
 .textbox{margin:5px;width:80%;}
 .datebox{margin:5px;}
