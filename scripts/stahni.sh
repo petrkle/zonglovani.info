@@ -2,7 +2,7 @@
 
 wget \
 	-e "robots=off" \
-	--reject='prihlaseni.php?next=*' \
+	--reject='*prihlaseni.php?next=*' \
 	--accept=.html,.php,.xml \
 	--recursive \
 	--level=500 \

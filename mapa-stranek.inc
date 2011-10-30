@@ -412,9 +412,6 @@
 		</li>
 		<li><a name="obrazky"></a><a href="/obrazky/">Obrázky žonglování</a>
 		<ul>
-			<li><a name="berlin-juggling-convention-20110625"></a><a href="/obrazky/berlin-juggling-convention-20110625/">Berlin Juggling Convention 2011 - obrázky žonglování</a>
-			
-			</li>
 			<li><a name="bigoudn-jongle-20110714"></a><a href="/obrazky/bigoudn-jongle-20110714/">Bigoud’n Jongle 2011 - obrázky žonglování</a>
 			
 			</li>
@@ -550,6 +547,9 @@
 			<li><a name="ulita-20111009"></a><a href="/obrazky/ulita-20111009/">Ulita 9. 10. 2011 - obrázky žonglování</a>
 			
 			</li>
+			<li><a name="ulita-20111030"></a><a href="/obrazky/ulita-20111030/">Ulita 30. 10. 2011 - obrázky žonglování</a>
+			
+			</li>
 			<li><a name="ulita-zbynkuv-vyber-20100312"></a><a href="/obrazky/ulita-zbynkuv-vyber-20100312/">Ulita - Zbyňkův výběr - obrázky žonglování</a>
 			
 			</li>
@@ -620,6 +620,7 @@
 		<li><a href="/video/stepz.html">Stepz</a></li>
 		<li><a href="/video/sun.html">Sluníčko</a></li>
 		<li><a href="/video/take-it-out-3.html">Take It Out 3#</a></li>
+		<li><a href="/video/the-day-after-yesterday.html">The day after yesterday</a></li>
 		<li><a href="/video/triangles.html">Triangles</a></li>
 		<li><a href="/video/trouble.html">Trouble</a></li>
 		<li><a href="/video/what-the-beepbeep-do-we-know.html">What the (beepbeep) do we know?</a></li>
