@@ -125,7 +125,8 @@
 2011-10-14*Otevření žonglérského obchodu*/kalendar/udalost-20111017-20111017-pek-1318013298.html*firelovers.png*Firelovers.com otvírají novou kamennou prodejnu v Praze.
 2011-10-18*Žonglování poslepu*/micky/poslepu.html*poslepua.png*Můžeš žonglovat se šátkem nebo kbelíkem přes oči. Případně jednoho z diváků požádat, aby ti zakryl oči rukama.
 2011-10-24*Žonglování v Ulitě*/ulita/?20111031*ulita.cz.png*Pravidelné nedělní žonglování v DDM Ulita. Přijít mohou začínající i zkušení žongléři a žonglérky.
-2011-10-31*Žonglování okolo člověka*/kuzely/passing/around.html*kuzely-passing-aroundsomebodyb.png*Při žonglérském vystoupení je důležité zapojit diváky.
+2011-10-31*Fotky z Ulity*/obrazky/ulita-20111030/#*poi.jpg*Fotky z nedělního žonglování v Ulitě. Díky všem, kdo dorazili. Příští Ulita je za čtrnáct dní.
+2011-11-02*Žonglování okolo člověka*/kuzely/passing/around.html*kuzely-passing-aroundsomebodyb.png*Při žonglérském vystoupení je důležité zapojit diváky.
 2011-11-07*Žonglování v Ulitě*/ulita/?20111113*ulita.cz.png*Pravidelné nedělní žonglování v DDM Ulita. Přijít mohou začínající i zkušení žongléři a žonglérky.
 2011-11-14*Pražský žonglérský marathon*/kalendar/udalost-20111118-20111120-pek-1316975377.html*pzm2011.png*Třetí ročník pražského žonglérského marathonu.
 2011-11-21*Obrázky kuželů*/kuzely/druhy.html*kuzelka-albatros-s.jpg*Obrázky žonglérských kuželů.
