@@ -48,7 +48,7 @@
 		<li><a name="css"></a><a href="/css/">Kaskádové styly</a>
 		
 		</li>
-		<li><a name="diskuse"></a>diskuse/
+		<li><a name="diskuse"></a><a href="/diskuse/">Diskuse a komentáře</a>
 		
 		</li>
 		<li><a name="download"></a><a href="/download/">Soubory ke stažení</a>
@@ -63,33 +63,8 @@
 		</li>
 		<li><a name="horoskop"></a><a href="/horoskop/">Horoskop žonglování</a>
 		<ul>
-		<li><a href="/horoskop/beran.html">Horoskop žonglování - Beran</a></li>
-		<li><a href="/horoskop/blizenci.html">Horoskop žonglování - Blíženci</a></li>
-		<li><a href="/horoskop/byk.html">Horoskop žonglování - Býk</a></li>
-		<li><a href="/horoskop/kozoroh.html">Horoskop žonglování - Kozoroh</a></li>
-		<li><a href="/horoskop/lev.html">Horoskop žonglování - Lev</a></li>
-		<li><a href="/horoskop/panna.html">Horoskop žonglování - Panna</a></li>
-		<li><a href="/horoskop/rak.html">Horoskop žonglování - Rak</a></li>
-		<li><a href="/horoskop/ryby.html">Horoskop žonglování - Ryby</a></li>
-		<li><a href="/horoskop/stir.html">Horoskop žonglování - Štír</a></li>
-		<li><a href="/horoskop/strelec.html">Horoskop žonglování - Střelec</a></li>
-		<li><a href="/horoskop/vahy.html">Horoskop žonglování - Váhy</a></li>
-		<li><a href="/horoskop/vodnar.html">Horoskop žonglování - Vodnář</a></li>
 			<li><a name="zitra"></a><a href="/horoskop/zitra/">Horoskop žonglování na zítra</a>
-			<ul>
-			<li><a href="/horoskop/zitra/beran.html">Horoskop žonglování na zítra - Beran</a></li>
-			<li><a href="/horoskop/zitra/blizenci.html">Horoskop žonglování na zítra - Blíženci</a></li>
-			<li><a href="/horoskop/zitra/byk.html">Horoskop žonglování na zítra - Býk</a></li>
-			<li><a href="/horoskop/zitra/kozoroh.html">Horoskop žonglování na zítra - Kozoroh</a></li>
-			<li><a href="/horoskop/zitra/lev.html">Horoskop žonglování na zítra - Lev</a></li>
-			<li><a href="/horoskop/zitra/panna.html">Horoskop žonglování na zítra - Panna</a></li>
-			<li><a href="/horoskop/zitra/rak.html">Horoskop žonglování na zítra - Rak</a></li>
-			<li><a href="/horoskop/zitra/ryby.html">Horoskop žonglování na zítra - Ryby</a></li>
-			<li><a href="/horoskop/zitra/stir.html">Horoskop žonglování na zítra - Štír</a></li>
-			<li><a href="/horoskop/zitra/strelec.html">Horoskop žonglování na zítra - Střelec</a></li>
-			<li><a href="/horoskop/zitra/vahy.html">Horoskop žonglování na zítra - Váhy</a></li>
-			<li><a href="/horoskop/zitra/vodnar.html">Horoskop žonglování na zítra - Vodnář</a></li>
-			</ul>
+			
 			</li>
 		</ul>
 		</li>
@@ -113,7 +88,7 @@
 			<li><a href="/kruhy/3/sloupy.html">Žonglování se třemi kruhy - Sloupy</a></li>
 			</ul>
 			</li>
-			<li><a name="4"></a>kruhy/4/
+			<li><a name="4"></a><a href="/kruhy/4/">Žonglování s kruhy</a>
 			<ul>
 			<li><a href="/kruhy/4/fontana.html">Žonglování se čtyřmi kruhy - Fontána</a></li>
 			</ul>
@@ -200,24 +175,13 @@
 		<li><a name="lide"></a><a href="/lide/">Seznam žonglérů</a>
 		<ul>
 		<li><a href="/lide/pravidla.php">Založení nového účtu</a></li>
-		<li><a href="/lide/prihlaseni.php">Přihlášení</a></li>
-		<li><a href="/lide/zapomenute-heslo.php">Zapomenuté heslo</a></li>
 			<li><a name="dovednost"></a><a href="/lide/dovednost/">Žongléři podle dovedností</a>
 			
 			</li>
 			<li><a name="misto"></a><a href="/lide/misto/">Žongléři podle místa působení</a>
 			
 			</li>
-			<li><a name="stranka2"></a><a href="/lide/stranka2/">Seznam žonglérů - 2. stránka</a>
-			
-			</li>
-			<li><a name="stranka3"></a><a href="/lide/stranka3/">Seznam žonglérů - 3. stránka</a>
-			
-			</li>
-			<li><a name="stranka4"></a><a href="/lide/stranka4/">Seznam žonglérů - 4. stránka</a>
-			
-			</li>
-			<li><a name="stranka5"></a><a href="/lide/stranka5/">Seznam žonglérů - 5. stránka</a>
+			<li><a name="nastaveni"></a><a href="/lide/nastaveni/">Přihlášení</a>
 			
 			</li>
 		</ul>
@@ -226,73 +190,6 @@
 		<ul>
 		<li><a href="/mapa/cr.html">Žonglérská mapa - ČR</a></li>
 		<li><a href="/mapa/sk.html">Žonglérská mapa - SR</a></li>
-			<li><a name="kraj"></a>mapa/kraj/
-			<ul>
-				<li><a name="banskobystricky"></a><a href="/mapa/kraj/banskobystricky/">Žonglérská mapa - Banskobystrický kraj</a>
-				
-				</li>
-				<li><a name="bratislavsky"></a><a href="/mapa/kraj/bratislavsky/">Žonglérská mapa - Bratislavský kraj</a>
-				
-				</li>
-				<li><a name="jihocesky"></a><a href="/mapa/kraj/jihocesky/">Žonglérská mapa - Jihočeský kraj</a>
-				
-				</li>
-				<li><a name="jihomoravsky"></a><a href="/mapa/kraj/jihomoravsky/">Žonglérská mapa - Jihomoravský kraj</a>
-				
-				</li>
-				<li><a name="karlovarsky"></a><a href="/mapa/kraj/karlovarsky/">Žonglérská mapa - Karlovarský kraj</a>
-				
-				</li>
-				<li><a name="kosicky"></a><a href="/mapa/kraj/kosicky/">Žonglérská mapa - Košický kraj</a>
-				
-				</li>
-				<li><a name="kralovehradecky"></a><a href="/mapa/kraj/kralovehradecky/">Žonglérská mapa - Královéhradecký kraj</a>
-				
-				</li>
-				<li><a name="liberecky"></a><a href="/mapa/kraj/liberecky/">Žonglérská mapa - Liberecký kraj</a>
-				
-				</li>
-				<li><a name="moravskoslezsky"></a><a href="/mapa/kraj/moravskoslezsky/">Žonglérská mapa - Moravskoslezský kraj</a>
-				
-				</li>
-				<li><a name="nitriansky"></a><a href="/mapa/kraj/nitriansky/">Žonglérská mapa - Nitriansky kraj</a>
-				
-				</li>
-				<li><a name="olomoucky"></a><a href="/mapa/kraj/olomoucky/">Žonglérská mapa - Olomoucký kraj</a>
-				
-				</li>
-				<li><a name="pardubicky"></a><a href="/mapa/kraj/pardubicky/">Žonglérská mapa - Pardubický kraj</a>
-				
-				</li>
-				<li><a name="plzensky"></a><a href="/mapa/kraj/plzensky/">Žonglérská mapa - Plzeňský kraj</a>
-				
-				</li>
-				<li><a name="presovsky"></a><a href="/mapa/kraj/presovsky/">Žonglérská mapa - Prešovský kraj</a>
-				
-				</li>
-				<li><a name="stredocesky"></a><a href="/mapa/kraj/stredocesky/">Žonglérská mapa - Středočeský kraj</a>
-				
-				</li>
-				<li><a name="trenciansky"></a><a href="/mapa/kraj/trenciansky/">Žonglérská mapa - Trenčiansky kraj</a>
-				
-				</li>
-				<li><a name="trnavsky"></a><a href="/mapa/kraj/trnavsky/">Žonglérská mapa - Trnavský kraj</a>
-				
-				</li>
-				<li><a name="ustecky"></a><a href="/mapa/kraj/ustecky/">Žonglérská mapa - Ústecký kraj</a>
-				
-				</li>
-				<li><a name="vysocina"></a><a href="/mapa/kraj/vysocina/">Žonglérská mapa - Vysočina</a>
-				
-				</li>
-				<li><a name="zilinsky"></a><a href="/mapa/kraj/zilinsky/">Žonglérská mapa - Žilinský kraj</a>
-				
-				</li>
-				<li><a name="zlinsky"></a><a href="/mapa/kraj/zlinsky/">Žonglérská mapa - Zlínský kraj</a>
-				
-				</li>
-			</ul>
-			</li>
 		</ul>
 		</li>
 		<li><a name="micky"></a><a href="/micky/">Žonglování s míčky</a>
@@ -412,6 +309,9 @@
 		</li>
 		<li><a name="obrazky"></a><a href="/obrazky/">Obrázky žonglování</a>
 		<ul>
+			<li><a name="berlin-juggling-convention-20110625"></a><a href="/obrazky/berlin-juggling-convention-20110625/">Berlin Juggling Convention 2011 - obrázky žonglování</a>
+			
+			</li>
 			<li><a name="bigoudn-jongle-20110714"></a><a href="/obrazky/bigoudn-jongle-20110714/">Bigoud’n Jongle 2011 - obrázky žonglování</a>
 			
 			</li>
@@ -443,6 +343,9 @@
 			
 			</li>
 			<li><a name="ejc11-shake-that-20110811"></a><a href="/obrazky/ejc11-shake-that-20110811/">Shake That 14. 8. 2011 - obrázky žonglování</a>
+			
+			</li>
+			<li><a name="festival-zonglovani-20070713"></a><a href="/obrazky/festival-zonglovani-20070713/">Festival žonglování Praha 2007 - obrázky žonglování</a>
 			
 			</li>
 			<li><a name="klamovka-20080422"></a><a href="/obrazky/klamovka-20080422/">Klamovka 22. 4. 2008 - obrázky žonglování</a>
@@ -556,12 +459,15 @@
 			<li><a name="zidovske-pece-20090404"></a><a href="/obrazky/zidovske-pece-20090404/">Židovské pece 4. 4. 2009 - obrázky žonglování</a>
 			
 			</li>
+			<li><a name="zonglparty-20110528"></a><a href="/obrazky/zonglparty-20110528/">Žonglpárty 28. 5. 2011 - obrázky žonglování</a>
+			
+			</li>
 		</ul>
 		</li>
 		<li><a name="obrazky-na-plochu"></a><a href="/obrazky-na-plochu/">Obrázky na plochu</a>
 		
 		</li>
-		<li><a name="ostatni"></a>ostatni/
+		<li><a name="rss"></a><a href="/rss/">Novinky</a>
 		
 		</li>
 		<li><a name="scripts"></a><a href="/scripts/">Skripty</a>

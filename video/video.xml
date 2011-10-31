@@ -553,6 +553,20 @@
 </video:video>
 </url>
 <url>
+<loc>http://zonglovani.info/video/the-day-after-yesterday.html</loc>
+<video:video>
+<video:thumbnail_loc>http://zonglovani.info/video/img/t/the-day-after-yesterday.jpg</video:thumbnail_loc>
+<video:title>The day after yesterday</video:title>
+<video:description>Pietro Selva Bonino, kužely a několik cyklistů.</video:description>
+<video:player_loc>http://www.youtube.com/v/kFHqxmEqDzI</video:player_loc>
+<video:duration>161</video:duration>
+<video:tag>Žonglování</video:tag>
+<video:category>Žonglování</video:category>
+<video:gallery_loc title="Žonglérská videa">http://zonglovani.info/video/</video:gallery_loc>
+<video:requires_subscription>no</video:requires_subscription>
+</video:video>
+</url>
+<url>
 <loc>http://zonglovani.info/video/triangles.html</loc>
 <video:video>
 <video:thumbnail_loc>http://zonglovani.info/video/img/t/triangles.jpg</video:thumbnail_loc>
@@ -2248,7 +2262,7 @@
 <loc>http://zonglovani.info/video/navod/micky-4-krabice.html</loc>
 <video:video>
 <video:thumbnail_loc>http://zonglovani.info/video/img/m/micky-4-krabice.jpg</video:thumbnail_loc>
-<video:title>Krabice</video:title>
+<video:title>Krabice - 4 míčky</video:title>
 <video:description>Krabice se čtyrmi míčky.</video:description>
 <video:content_loc>http://juggling.tv/download/original/6571/krabice.mp4</video:content_loc>
 <video:player_loc>http://juggling.tv/nvplayer.swf?config=http://juggling.tv/nuevo/config.php?key=abc3889cb0f420c85e67</video:player_loc>
@@ -2278,7 +2292,7 @@
 <loc>http://zonglovani.info/video/navod/micky-4-polovicni-sprcha.html</loc>
 <video:video>
 <video:thumbnail_loc>http://zonglovani.info/video/img/m/micky-4-polovicni-sprcha.jpg</video:thumbnail_loc>
-<video:title>Poloviční sprcha</video:title>
+<video:title>Poloviční sprcha - 4 míčky</video:title>
 <video:description>Poloviční sprcha se čtyřmi míčky.</video:description>
 <video:content_loc>http://juggling.tv/download/original/6573/polovin-sprcha.mp4</video:content_loc>
 <video:player_loc>http://juggling.tv/nvplayer.swf?config=http://juggling.tv/nuevo/config.php?key=50b62c1e343504d4a7b8</video:player_loc>
@@ -2308,7 +2322,7 @@
 <loc>http://zonglovani.info/video/navod/micky-4-sloupy.html</loc>
 <video:video>
 <video:thumbnail_loc>http://zonglovani.info/video/img/m/micky-4-sloupy.jpg</video:thumbnail_loc>
-<video:title>Sloupy</video:title>
+<video:title>Sloupy se čtyřmi míčky</video:title>
 <video:description>Sloupy se čtyřmi míčky.</video:description>
 <video:content_loc>http://juggling.tv/download/original/6575/sloupy.mp4</video:content_loc>
 <video:player_loc>http://juggling.tv/nvplayer.swf?config=http://juggling.tv/nuevo/config.php?key=0c754f281525fae75a87</video:player_loc>
@@ -2338,7 +2352,7 @@
 <loc>http://zonglovani.info/video/navod/micky-4-sprcha.html</loc>
 <video:video>
 <video:thumbnail_loc>http://zonglovani.info/video/img/m/micky-4-sprcha.jpg</video:thumbnail_loc>
-<video:title>Sprcha</video:title>
+<video:title>Sprcha - 4 míčky</video:title>
 <video:description>Sprcha se čtyřmi míčky.</video:description>
 <video:content_loc>http://juggling.tv/download/original/6577/sprcha.mp4</video:content_loc>
 <video:player_loc>http://juggling.tv/nvplayer.swf?config=http://juggling.tv/nuevo/config.php?key=59310cf0a8d33de3f280</video:player_loc>
@@ -2353,7 +2367,7 @@
 <loc>http://zonglovani.info/video/navod/micky-4-tenis.html</loc>
 <video:video>
 <video:thumbnail_loc>http://zonglovani.info/video/img/m/micky-4-tenis.jpg</video:thumbnail_loc>
-<video:title>Tenis</video:title>
+<video:title>Tenis se čtyřmi míčky</video:title>
 <video:description>Tenis se čtyřmi míčky.</video:description>
 <video:content_loc>http://juggling.tv/download/original/6578/tenis.mp4</video:content_loc>
 <video:player_loc>http://juggling.tv/nvplayer.swf?config=http://juggling.tv/nuevo/config.php?key=ca8c644f99f9c3f20a91</video:player_loc>
@@ -2428,7 +2442,7 @@
 <loc>http://zonglovani.info/video/navod/micky-5-polovicni-sprcha.html</loc>
 <video:video>
 <video:thumbnail_loc>http://zonglovani.info/video/img/m/micky-5-polovicni-sprcha.jpg</video:thumbnail_loc>
-<video:title>Poloviční sprcha</video:title>
+<video:title>Poloviční sprcha - 5 míčků</video:title>
 <video:description>Poloviční sprcha s pěti míčky.</video:description>
 <video:content_loc>http://juggling.tv/download/original/6581/polovin-sprcha.mp4</video:content_loc>
 <video:player_loc>http://juggling.tv/nvplayer.swf?config=http://juggling.tv/nuevo/config.php?key=7b2516e5f639672c7e19</video:player_loc>
