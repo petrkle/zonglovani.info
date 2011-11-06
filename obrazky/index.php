@@ -184,7 +184,11 @@ if($id and $photo){
 		}
 
 		if(isset($obrazek['dalsi_stranka'])){
-			$dalsistranka=OBRAZKY_URL.$id.'/'.$obrazek['dalsi_cislo'].'.html';
+			if(isset($obrazek['dalsi_cislo'])){
+				$dalsistranka=OBRAZKY_URL.$id.'/'.$obrazek['dalsi_cislo'].'.html';
+			}else{
+				$dalsistranka=OBRAZKY_URL.$id.'/';
+			}
 		}
 	}else{
 		if(isset($obrazek['predchozi_stranka'])){

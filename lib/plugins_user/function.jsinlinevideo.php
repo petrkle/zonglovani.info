@@ -6,7 +6,6 @@ function smarty_function_jsinlinevideo($params, &$smarty){
 			$klip = (array) $xml;
 			$klic = preg_split('/:/',$klip['link']);
 			$klic = $klic[2];
-			$dl = preg_replace('/http:\/\/juggling.tv\//',$klip['download']);
 			if(isset($klip['youtube'])){
 				$dataurl="http://www.youtube.com/v/".$klip['youtube']."?version=3&amp;hl=cs_CZ&amp;rel=0&amp;autoplay=1";
 			}else{
