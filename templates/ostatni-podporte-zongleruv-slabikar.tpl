@@ -6,7 +6,7 @@
 Podpoř <a href="http://www.facebook.com/zongleruv.slabikar" class="external" onclick="_gaq.push(['_trackPageview','/goto/facebook.com/pages/zongleruv.slabikar']);">žonglérův slabikář na Facebooku</a>. Dozvíš se tak o všech novinkách v žonglérově slabikáři.
 </p>
 
-<h3><a href="{$smarty.const.LIDE_URL}pravidla.php">Založ si účet</a></h3>
+<h3><a href="{$smarty.const.LIDE_URL}novy-ucet.php">Založ si účet</a></h3>
 <p>
 Přinese ti to následující výhody:
 </p>

@@ -61,8 +61,7 @@ $message .= 'Ahoj,
 
 tvůj účet v žonglérově slabikáři nebyl použit už skoro rok.
 
-Přihlašovací jméno: '.$login.'
-Zadaný email: '.$info['email'].'
+Přihlašovací jméno: '.$info['email'].'
 Adresa pro obnovení hesla:
 http://'.$_SERVER['SERVER_NAME'].LIDE_URL.'zapomenute-heslo.php
 
@@ -95,8 +94,7 @@ $message .= 'Ahoj,<br /><br/>
 
 tvůj účet v žonglérově slabikáři nebyl použit už skoro rok.<br /><br />
 
-Přihlašovací jméno: '.$login.'<br />
-Zadaný email: '.$info['email'].'<br />
+Přihlašovací jméno: '.$info['email'].'<br />
 Adresa pro obnovení hesla:<br />
 <a href="http://'.$_SERVER['SERVER_NAME'].LIDE_URL.'zapomenute-heslo.php" title="Obnovení hesla">http://'.$_SERVER['SERVER_NAME'].LIDE_URL.'zapomenute-heslo.php</a><br /><br />
 
@@ -140,4 +138,3 @@ $message .= "--$mime_boundary--\n\n";
 	}
 
 }
-?>

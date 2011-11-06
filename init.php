@@ -47,6 +47,7 @@ define('CALENDAR_IMG',$_SERVER['DOCUMENT_ROOT'].'/data/kalendar.img');
 
 define('LIDE_URL','/lide/'); 
 define('LIDE_DATA',$_SERVER['DOCUMENT_ROOT'].'/data/lide'); 
+define('LIDE_BY_MAIL',$_SERVER['DOCUMENT_ROOT'].'/data/lide.by.mail'); 
 define('LIDE_TMP',$_SERVER['DOCUMENT_ROOT'].'/data/lide.tmp'); 
 define('LIDE_VZKAZY',$_SERVER['DOCUMENT_ROOT'].'/data/vzkazy'); 
 

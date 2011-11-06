@@ -19,7 +19,7 @@ Stránkování: {$pager_links}
 <h3>Výhody pro registrované uživatele</h3>
 {include file='vyhody-uctu.tpl'}
 <p>
-<a href="{$smarty.const.LIDE_URL}pravidla.php" title="Vytvořit uživatelský účet." class="add">Založit nový účet</a>.
+<a href="{$smarty.const.LIDE_URL}novy-ucet.php" title="Vytvořit uživatelský účet." class="add">Založit nový účet</a>.
 </p>
 {/if}
 <h3><a name="filtry">Filtry</a></h3>

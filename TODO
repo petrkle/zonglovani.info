@@ -2,13 +2,9 @@ Aktuální
 ========
 
 - inline js siteswap
-- čudlík na návrh a odmaskování hesla (zadávat jen 1x)
-- zjednodušit registraci, popisky rovnou u formuláře, bez stránky s podmínkami
 - obrázky na plochu, doplnit popisky a img sitemapu
 - odkazy další, předchozí v horoskopu
 - rozšíření - horoskop
-- progress bar u registrace?
-- po přihlášení zobrazovat na stránkách k registraci hlášku, že je potřeba se odhlásit
 - v rozšířeních zobrazovat akce stejně jako ve widgetu + obrázky, používat cache
 - propojit obrázky s kalendářem
 - download - dopsat testy
@@ -111,6 +107,7 @@ video mm - nahrát na jtv a youtube
 kontrola na jména začínající a končící číslem
 X-Frame-Options
 detekovat accepted-lang v hlavičkách od prohlížeče mimo češtinu a slovenštinu vypisovat javascript s odkazem na překlad pomocí google translate
+zjednodušení registrace, email = login
 
 .ssh/config
 ===========

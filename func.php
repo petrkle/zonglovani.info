@@ -130,17 +130,7 @@ function get_antispam(){
 }
 
 function is_zs_account($login){
-	$dir = opendir(LIDE_DATA);
-	$loginy = array();
-	    if ($dir) {
-			   while (($filename = readdir($dir)) !== false) {
-						if (!preg_match('/^\./',$filename) and is_dir(LIDE_DATA.'/'.$filename)) {
-				      array_push($loginy,$filename);
-					 }
-			   }
-		   }
-	closedir($dir);
-	if(in_array($login,$loginy)){
+	if(is_dir(LIDE_DATA.'/'.$login)){
 		return true;
 	}else{
 		return false;
@@ -148,27 +138,27 @@ function is_zs_account($login){
 }
 
 function is_zs_email($email){
-	$ucty=get_loginy();
 	$navrat=false;
-	foreach($ucty as $ucet){
-		if(is_file(LIDE_DATA.'/'.$ucet.'/'.$email.'.mail')){
-			$navrat=true;
-		}
+	$email_parts=preg_split('/@/',$email);
+	$fl=preg_replace('/^(.).*/','\1',$email);
+
+	if(is_file(LIDE_BY_MAIL.'/'.$email_parts['1'].'/'.$fl.'/'.$email_parts['0'].'/login')){
+		$navrat=true;
 	}
 	return $navrat;
 }
 
 function email2login($email){
-	$ucty=get_loginy();
 	$navrat=false;
-	foreach($ucty as $ucet){
-		if(is_file(LIDE_DATA.'/'.$ucet.'/'.$email.'.mail')){
-			$navrat=$ucet;
-		}
+	$email_parts=preg_split('/@/',$email);
+	$fl=preg_replace('/^(.).*/','\1',$email);
+	$loginfile=LIDE_BY_MAIL.'/'.$email_parts['1'].'/'.$fl.'/'.$email_parts['0'].'/login';
+
+	if(is_file($loginfile)){
+		$navrat=trim(file_get_contents($loginfile));
 	}
 	return $navrat;
 }
-
 
 function is_zs_jmeno($jmeno){
 	$ucty=get_loginy();
@@ -191,6 +181,32 @@ function get_loginy(){
 	    if ($dir) {
 			   while (($filename = readdir($dir)) !== false) {
 						if (!preg_match('/^\./',$filename) and is_dir(LIDE_DATA.'/'.$filename) and !is_file(LIDE_DATA.'/'.$filename.'/LOCKED') and !is_file(LIDE_DATA.'/'.$filename.'/REVOKED') and $filename!='pek') {
+				      array_push($navrat,$filename);
+					 }
+			   }
+		   }
+	closedir($dir);
+	sort($navrat);
+ return $navrat;
+}
+
+function get_zajimeve_loginy(){
+	$dir = opendir(LIDE_DATA);
+	$navrat = array();
+	    if ($dir) {
+			   while (($filename = readdir($dir)) !== false) {
+					 if (!preg_match('/^\./',$filename) and
+						 is_dir(LIDE_DATA.'/'.$filename) and
+						 !is_file(LIDE_DATA.'/'.$filename.'/LOCKED') and
+						 !is_file(LIDE_DATA.'/'.$filename.'/REVOKED') and
+						 $filename!='pek' and (
+							 is_file(LIDE_DATA.'/'.$filename.'/foto.jpg') or
+							 is_file(LIDE_DATA.'/'.$filename.'/dovednosti.txt') or
+							 is_file(LIDE_DATA.'/'.$filename.'/pusobiste.txt') or
+							 is_file(LIDE_DATA.'/'.$filename.'/web.txt') or
+							 is_file(LIDE_DATA.'/'.$filename.'/tel.txt')
+							 )
+					 ) {
 				      array_push($navrat,$filename);
 					 }
 			   }
@@ -623,6 +639,33 @@ function load_user($login){
 		$foo=fopen(LIDE_DATA.'/'.$login.'/prihlaseni.txt','a+');
 		fwrite($foo,time().'*'.$_SERVER['REMOTE_ADDR'].'*'.$_SERVER['HTTP_USER_AGENT']."\n");
 		fclose($foo);
+}
+
+
+function create_heslo(){
+	$heslo='';
+	$znaky=array('a','c','e','f','h','k','m','n','r','s','t','u','v','w','2','3','4','7','8','9');
+	shuffle($znaky);
+	for($foo=0;$foo<8;$foo++){
+		$heslo.=array_pop($znaky);
+	}
+	return $heslo;
+}
+
+function create_login($email){
+	$login='';
+	$email_parts=preg_split('/@/',$email);
+	$login=$email_parts[0];
+
+	if(is_zs_account($login)){
+		$poradi=2;
+		while(is_zs_account($login.$poradi)){
+			$poradi++;
+		}
+		$login=$login.$poradi;
+	}
+
+	return $login;
 }
 
 

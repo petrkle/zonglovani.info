@@ -1,5 +1,6 @@
 <?php
 require('../init.php');
+require('../func.php');
 
 $smarty->assign('titulek','Zrušení účtu');
 if(isset($_GET['m']) and isset($_GET['k'])){
@@ -28,6 +29,9 @@ if(isset($_GET['m']) and isset($_GET['k'])){
 			fclose($handle);
 
 			session_destroy();
+			unset($_SESSION['logged']);
+			unset($_SESSION['ip']);
+			unset($_SESSION['uzivatel']);
 			$smarty->assign('chyby',array('Účet byl zrušen.'));
 			$smarty->display('hlavicka.tpl');
 			$smarty->display('alert.tpl');
@@ -53,7 +57,3 @@ if(isset($_GET['m']) and isset($_GET['k'])){
 	$smarty->display('paticka.tpl');
 }
 
-
-
-
-?>

@@ -60,7 +60,7 @@ if(!preg_match('/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{
 		array_push($chyby,'Účet s tímto e-mailem nebyl nalezen.');
 	}else{
 		$uzivatel=get_user_props(email2login($email));
-		if($uzivatel['status']!='ok'){
+		if($uzivatel['status']=='revoked'){
 			array_push($chyby,'Heslo pro účet s tímto e-mailem nelze obnovit.');
 		}
 	}

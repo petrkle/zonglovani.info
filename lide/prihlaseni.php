@@ -14,6 +14,20 @@ if(isset($_GET['next']) and preg_match('/^\//',$_GET['next'])){
 	$next='/';
 }
 
+if(isset($_GET['mail'])){
+	$smarty->assign('chyba','jo');
+	$chyby=array();
+	array_push($chyby,'Jejda. Vytváření účtu selhalo. <a href="novy-ucet.php">Zkusit znovu</a>.');
+	$smarty->assign('chyby',$chyby);
+}
+
+if(isset($_GET['first'])){
+	$smarty->assign('first','jo');
+	$chyby=array();
+	array_push($chyby,'Na tvůj e-mail ('.$_SESSION['reg_email'].') byla odeslána zpráva s údaji pro přihlášení do žonglérova slabikáře.');
+	$smarty->assign('chyby',$chyby);
+}
+
 if(preg_match('/odhlaseni/',$next)){
 	$next='/';
 }
@@ -33,11 +47,85 @@ if(isset($_POST['login']) and isset($_POST['heslo']) and isset($_GET['action']))
 	$chyby=array();
 	$input_login=strtolower(trim($_POST['login']));
 	$input_heslo=trim($_POST['heslo']);
-	$uzivatel=get_user_props($input_login);
-	if($uzivatel){
-		if($uzivatel['status']=='locked'){
-			array_push($chyby,'Účet byl zrušen.');
+
+	if(is_new_account($input_login)){
+		# aktivace nového účtu
+		
+		$login=trim(file_get_contents(LIDE_TMP.'/'.$input_login.'/login.txt'));
+
+		$passwd_hash=trim(file_get_contents(LIDE_TMP.'/'.$input_login.'/passwd.sha1'));
+
+		if(sha1($input_heslo.$login)!=$passwd_hash){
+			spatne_jmeno_nebo_heslo();
 		}
+
+		$tmp=LIDE_TMP.'/'.$input_login;
+		$user=LIDE_DATA.'/'.$login;
+
+			mkdir($user);
+			$foo=fopen($user.'/'.$input_login.'.mail','w');
+			fclose($foo);
+
+			$foo=fopen($user.'/registrace.txt','w');
+			fwrite($foo,time());
+			fclose($foo);
+
+			rename($tmp.'/jmeno.txt',$user.'/jmeno.txt');
+			rename($tmp.'/passwd.sha1',$user.'/passwd.sha1');
+			rename($tmp.'/soukromi.txt',$user.'/soukromi.txt');
+
+			unlink($tmp.'/login.txt');
+			unlink($tmp.'/created.time');
+			rmdir($tmp);
+
+	$fl=preg_replace('/^(.).*/','\1',$input_login);
+	$parts=preg_split('/@/',$input_login);
+	$name=$parts[0];
+	$domain=$parts[1];
+
+	if(!is_dir(LIDE_BY_MAIL."/$domain")){
+		mkdir(LIDE_BY_MAIL."/$domain");
+	}
+
+	if(!is_dir(LIDE_BY_MAIL."/$domain/$fl")){
+		mkdir(LIDE_BY_MAIL."/$domain/$fl");
+	}
+
+	if(!is_dir(LIDE_BY_MAIL."/$domain/$fl/$name")){
+		mkdir(LIDE_BY_MAIL."/$domain/$fl/$name");
+	}
+
+	$foo=fopen(LIDE_BY_MAIL."/$domain/$fl/$name/login",'w');
+	fwrite($foo,$login);
+	fclose($foo);
+
+			load_user($login);
+			header('Location: '.LIDE_URL.'nastaveni');
+			exit();
+
+	}
+
+
+	if(is_zs_account($input_login)){
+		# starý zpusob přihlášení
+		array_push($chyby,'Zůsob přihlašování do žonglérova slabikáře se změnil.','Pro přihlášení použij <strong>email</strong> zadaný při registraci.','Omlouvám se za způsobené potíže.');
+		$smarty->assign('chyby',$chyby);
+		$smarty->assign_by_ref('trail', $trail->path);
+		$smarty->display('hlavicka.tpl');
+		$smarty->display('prihlaseni.tpl');
+		$smarty->display('paticka.tpl');
+		exit();
+	}
+
+	if(is_zs_email($input_login)){
+		# ověření hesla, pokus o přihlášení
+		$login=email2login($input_login);
+		$uzivatel=get_user_props($login);
+
+		if($uzivatel['status']=='locked'){
+			array_push($chyby,'Účet je zrušen kvůli dlouhodobé neaktivitě.','<a href="zapomenute-heslo.php">Poslat nové heslo</a>.');
+		}
+
 		if($uzivatel['status']=='revoked'){
 			array_push($chyby,'Účet je zablokován.');
 		}
@@ -51,25 +139,32 @@ if(isset($_POST['login']) and isset($_POST['heslo']) and isset($_GET['action']))
 			$smarty->display('paticka.tpl');
 			exit();
 		}
+
 		$passwd_hash=trim(array_pop(file(LIDE_DATA.'/'.$uzivatel['login'].'/passwd.sha1')));
-		if(sha1($input_heslo.$input_login)==$passwd_hash){
+		if(sha1($input_heslo.$login)==$passwd_hash){
 			# úspěšné přihlášení
 			load_user($uzivatel['login']);
 			header('Location: '.$next);
 			exit();
-		}else{
-		array_push($chyby,'Špatné jméno nebo heslo.','Pro přihlášení je potřeba povolit cookies. <a class="info" href="#">?<span class="tooltip">Cookies (sušenky) jsou malé soubory, které slouží k rozpoznání spojení mezi tvým počítačem a počítačem na kterém běží žonglérův slabikář. V případě problémů kontaktuj místního počítačového odborníka.</span></a>');
-			$smarty->assign('chyby',$chyby);
-			$smarty->assign('login',$input_login);
-			$smarty->assign_by_ref('trail', $trail->path);
-			$smarty->display('hlavicka.tpl');
-			$smarty->display('prihlaseni.tpl');
-			$smarty->display('paticka.tpl');
-			exit();
-		}
-	
 	}else{
-		array_push($chyby,'Špatné jméno nebo heslo.','Pro přihlášení je potřeba povolit cookies. <a class="info" href="#">?<span class="tooltip">Cookies (sušenky) jsou malé soubory, které slouží k rozpoznání spojení mezi tvým počítačem a počítačem na kterém běží žonglérův slabikář. V případě problémů kontaktuj místního počítačového odborníka.</span></a>');
+		spatne_jmeno_nebo_heslo();
+	}
+	}else{
+		spatne_jmeno_nebo_heslo();
+	}
+
+}else{
+
+
+	$smarty->assign_by_ref('trail', $trail->path);
+	$smarty->display('hlavicka.tpl');
+	$smarty->display('prihlaseni.tpl');
+	$smarty->display('paticka.tpl');
+}
+
+function spatne_jmeno_nebo_heslo(){
+	global $chyby,$smarty,$input_login;
+		array_push($chyby,'Špatné jméno nebo heslo.','Obnovit <a href="zapomenute-heslo.php" title="Zapomenuté heslo.">zapomenuté heslo</a>.');
 		$smarty->assign('chyby',$chyby);
 		$smarty->assign('login',$input_login);
 		$smarty->assign_by_ref('trail', $trail->path);
@@ -77,13 +172,14 @@ if(isset($_POST['login']) and isset($_POST['heslo']) and isset($_GET['action']))
 		$smarty->display('prihlaseni.tpl');
 		$smarty->display('paticka.tpl');
 		exit();
-	}
+}
 
-}else{
-	$smarty->assign_by_ref('trail', $trail->path);
-	$smarty->display('hlavicka.tpl');
-	$smarty->display('prihlaseni.tpl');
-	$smarty->display('paticka.tpl');
+function is_new_account($input_login){
+	$navrat=false;
+	if(is_dir(LIDE_TMP.'/'.$input_login) and !is_file(LIDE_TMP.'/'.$input_login.'/oldmail.txt')){
+		$navrat=true;
+	}
+	return $navrat;
 }
 
 function get_simple_changelog($cas){
@@ -108,4 +204,3 @@ $changelog = array_reverse(file($_SERVER['DOCUMENT_ROOT'].'/ChangeLog'));
 return array_reverse($zmeny);
 }
 
-?>

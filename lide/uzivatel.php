@@ -26,7 +26,7 @@ if($uzivatel_props['login']=='pek' and $_SESSION['uzivatel']['login']!='pek'){
 
 if($uzivatel_props['status']=='ok'){
 
-$loginy=get_loginy();
+$loginy=get_zajimeve_loginy();
 $lide=array();
 foreach($loginy as $login){
 	$lide[$login]=get_name($login);

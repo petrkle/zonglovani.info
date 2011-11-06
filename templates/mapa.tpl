@@ -42,7 +42,7 @@ window.onload = loadScript;
 Mapa s vyznačením měst, kde jsou žongléři.
 </p>
 <p>
-Přidat se můžeš tak, že si <a href="/lide/pravidla.php" class="add">založíš účet</a> v žonglérově slabikáři.
+Přidat se můžeš tak, že si <a href="/lide/novy-ucet.php" class="add">založíš účet</a> v žonglérově slabikáři.
 </p>
 </div>
 <div class="clear">&nbsp;</div>

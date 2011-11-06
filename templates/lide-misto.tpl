@@ -6,7 +6,7 @@
 </ul>
 {else}
 <p>
-V žonglérově slabikáři ještě není žádný uživatel {$misto|escape}. Můžeš být první. <a href="{$smarty.const.LIDE_URL}pravidla.php" title="Vytvořit uživatelský účet." class="add">Vytvořit nový účet</a>.
+V žonglérově slabikáři ještě není žádný uživatel {$misto|escape}. Můžeš být první. <a href="{$smarty.const.LIDE_URL}novy-ucet.php" title="Vytvořit uživatelský účet." class="add">Vytvořit nový účet</a>.
 </p>
 {/if}
 <h3><a href="/mapa/{if strlen($pusobiste[$id].kraj)>0}kraj/{$pusobiste[$id].kraj}/{/if}" title="Mapa - {$jmeno|escape} a okolí">Mapa</a></h3>

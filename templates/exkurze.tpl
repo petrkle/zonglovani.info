@@ -1,5 +1,5 @@
 <p>
-Po <a href="{$smarty.const.LIDE_URL}pravidla.php" title="Vytvořit uživatelský účet.">vytvoření účtu</a> v žonglérově slabikáři získáš přístup ke spoustě zajímavých stránek. Tady jsou jejich obrázky s popisem. Kliknutím na obrázek se zobrazí jeho plná velikost.
+Po <a href="{$smarty.const.LIDE_URL}novy-ucet.php" title="Vytvořit uživatelský účet.">vytvoření účtu</a> v žonglérově slabikáři získáš přístup ke spoustě zajímavých stránek. Tady jsou jejich obrázky s popisem. Kliknutím na obrázek se zobrazí jeho plná velikost.
 </p>
 
 <h3><a href="/navody" title="Vhodné k tisku">Návody na žonglování v pdf</a></h3>

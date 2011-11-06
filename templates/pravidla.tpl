@@ -1,13 +1,5 @@
 <h1>{$titulek}</h1>
 
-{if $smarty.session.logged!=true}
-<p>
-Před založením účtu si, prosím, přečti následující pravidla.
-</p>
-{/if}
-
-<h3>Výhody pro uživatele</h3>
-{include file='vyhody-uctu.tpl'}
 {include file='pravidla-ucet.tpl'}
 
 {if $smarty.session.logged!=true}

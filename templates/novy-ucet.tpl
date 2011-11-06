@@ -18,17 +18,6 @@
 </p>
 
 <p>
-<fieldset>
-<legend>Přihlašovací údaje</legend>
-<ul>
-<li><label for="login" accesskey="l" class="kratkypopis"><span class="u">L</span>ogin:</label><input type="text" name="login" id="login" value="{$login|escape}" class="textbox" tabindex="3"/><a class="info" href="#">?<span class="tooltip">Přihlašovací jméno. Povolená jsou malá písmena bez háčků a čárek, číslice a pomlčka. Minimální délka 3 znaky.</span></a></li>
-<li><label for="heslo" accesskey="h" class="kratkypopis"><span class="u">H</span>eslo:</label><input type="password" name="heslo" id="heslo" value="" class="textbox" tabindex="4"/><a class="info" href="#">?<span class="tooltip">Heslo pro přihlášení. Doporučuje se nepoužívat háčky a čárky. Při zadávání hesla záleží na velikosti písmen. Minimální délka hesla 5 znaků.</span></a></li>
-<li><label for="heslo2" accesskey="v" class="kratkypopis">He<span class="u">s</span>lo&nbsp;(znovu):</label><input type="password" name="heslo2" id="heslo2" value="" class="textbox" tabindex="5"/><a class="info" href="#">?<span class="tooltip">Heslo je potřeba zadat dvakrát. Kvůli vyloučení překlepů.</span></a></li>
-</ul>
-</fieldset>
-</p>
-
-<p>
 <fieldset id="robotprotection">
 <legend>Kon<span class="u">t</span>rola spamu</legend>
 <ul>
@@ -38,7 +27,7 @@
 </p>
 
 <p class="vpravo">
-<input type="submit" name="odeslat" value="Založit účet ..." class="knoflik" tabindex="7" />
+<input type="submit" name="odeslat" value="Založit účet" class="knoflik" tabindex="7" />
 </p>
 </form>
 <script type="text/javascript">
@@ -46,3 +35,7 @@
 	{*document.getElementById('antispam').value={$antispam_odpoved|escape};*}
 	var _0xa8ff=["\x76\x61\x6C\x75\x65","\x61\x6E\x74\x69\x73\x70\x61\x6D","\x67\x65\x74\x45\x6C\x65\x6D\x65\x6E\x74\x42\x79\x49\x64"];document[_0xa8ff[2]](_0xa8ff[1])[_0xa8ff[0]]={$antispam_odpoved|escape};
 </script>
+
+<p>Kliknutím na tlačítko "Založit účet" souhlasíš s následujícími pravidly:</p>
+
+{include file='pravidla-ucet.tpl'}

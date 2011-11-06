@@ -37,7 +37,7 @@ Stránkování: {$pager_links}
 <strong class="add">Přidat zprávu</strong> - do diskuse můžou psát jen <a href="{$smarty.const.LIDE_URL}prihlaseni.php?next={$smarty.const.DISKUSE_URL}" title="Přihlášení do žonglérova slabikáře" rel="nofollow">přihlášení</a> uživatele žonglérova slabikáře.
 </p>
 <p>
-<a href="{$smarty.const.LIDE_URL}pravidla.php" title="Vytvořit uživatelský účet." class="add">Založit nový účet</a>.
+<a href="{$smarty.const.LIDE_URL}novy-ucet.php" title="Vytvořit uživatelský účet." class="add">Založit nový účet</a>.
 </p>
 {else}
 <p><a href="{$smarty.const.DISKUSE_URL}add.php" title="Přidat nový vzkaz." class="add">Přidat zprávu</a></p>

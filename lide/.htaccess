@@ -4,7 +4,6 @@ RewriteBase /lide
 RewriteCond %{HTTP_HOST} ^www\.(.*)
 RewriteRule (.*) http://%1/lide/$1 [R=301,QSA,NE,L]
 
-RewriteRule ^o/(.+)/(.+)/(.+).html$ overeni-emailu.php?m=$2@$1&k=$3 [L]
 RewriteRule ^z/(.+)/(.+)/(.+).html$ obnova-hesla.php?m=$2@$1&k=$3 [L]
 RewriteRule ^e/(.+)/(.+)/(.+).html$ zruseni.php?m=$2@$1&k=$3 [L]
 RewriteRule ^p/(.+)/(.+)/(.+).html$ zmena-emailu.php?m=$2@$1&k=$3 [L]

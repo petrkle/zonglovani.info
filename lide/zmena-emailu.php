@@ -28,6 +28,37 @@ if(isset($_GET['m']) and isset($_GET['k'])){
 			unlink($tmp.'/oldmail.txt');
 			rmdir($tmp);
 
+			$old_email_parts=preg_split('/@/',$oldmail);
+			$old_fl=preg_replace('/^(.).*/','\1',$oldmail);
+			$old_name=$old_email_parts[0];
+			$old_domain=$old_email_parts[1];
+
+
+
+	$fl=preg_replace('/^(.).*/','\1',$mail);
+	$parts=preg_split('/@/',$mail);
+	$name=$parts[0];
+	$domain=$parts[1];
+
+			if(!is_dir(LIDE_BY_MAIL."/$domain")){
+				mkdir(LIDE_BY_MAIL."/$domain");
+			}
+
+			if(!is_dir(LIDE_BY_MAIL."/$domain/$fl")){
+				mkdir(LIDE_BY_MAIL."/$domain/$fl");
+			}
+
+			if(!is_dir(LIDE_BY_MAIL."/$domain/$fl/$name")){
+				mkdir(LIDE_BY_MAIL."/$domain/$fl/$name");
+			}
+
+			rename(LIDE_BY_MAIL."/$old_domain/$old_fl/$old_name/login",LIDE_BY_MAIL."/$domain/$fl/$name/login");
+
+			rmdir(LIDE_BY_MAIL."/$old_domain/$old_fl/$old_name");
+			rmdir(LIDE_BY_MAIL."/$old_domain/$old_fl");
+			rmdir(LIDE_BY_MAIL."/$old_domain");
+			
+
 			$smarty->assign('chyby',array('Email byl úspěšně změněn.'));
 			if(is_logged()){
 				$_SESSION['uzivatel']=get_user_props($_SESSION['uzivatel']['login']);

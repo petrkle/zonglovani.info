@@ -1,15 +1,14 @@
 #!/usr/bin/perl -w
 use strict;
 use WWW::Mechanize;
-use Test::More tests => 36;
+use Test::More tests => 30;
 use Net::Netrc;
 use String::MkPasswd qw(mkpasswd);
 require('scripts/tests/func.pl');
+use Data::Dumper;
 
-my $heslo = mkpasswd(-length => 13, -minnum => 4, -minlower => 4, -minupper => 2, -minspecial => 3);
 my $nove_heslo = mkpasswd(-length => 13, -minnum => 4, -minlower => 4, -minupper => 2, -minspecial => 3);
 my $jmeno = mkpasswd(-length => 10, -minnum => 0, -minlower => 4, -minupper => 2, -minspecial => 0);
-my $login = 'tst'.mkpasswd(-length => 7, -minnum => 0, -minlower => 4, -minupper => 0, -minspecial => 0);
 
 my $tld = mkpasswd(-length => 2, -minnum => 0, -minlower => 2, -minupper => 0, -minspecial => 0);
 my $domain = mkpasswd(-length => 7, -minnum => 0, -minlower => 2, -minupper => 0, -minspecial => 0);
@@ -21,20 +20,15 @@ my $vzkaz = mkpasswd(-length => 50, -minnum => 0, -minlower => 20, -minupper => 
 my $bot = WWW::Mechanize->new(autocheck => 1);
 $bot->cookie_jar(HTTP::Cookies->new());
 
-my $zs_pravidla = $bot->get('http://zongl.info/lide/pravidla.php');
-
-$zs_pravidla = $bot->click_button(name=>'jo');
+my $zs_pravidla = $bot->get('http://zongl.info/lide/novy-ucet.php');
 
 my $content=$zs_pravidla->content();
 
-ok($content =~ /<h1>Nový uživatelský účet<\/h1>/, 'Formulář pro založení účtu');
+ok($content =~ /<h1>Založit účet<\/h1>/, 'Formulář pro založení účtu');
 
 my $udaje = {
 	'jmeno' => $jmeno,
 	'email' => $mail,
-	'login' => $login,
-	'heslo' => $heslo,
-	'heslo2' => $heslo,
 	'antispam' => get_vypocet($content)
 };
 
@@ -42,7 +36,7 @@ my $zs_udaje = $bot->submit_form(form_number => 0,fields => $udaje);
 
 $content=$zs_udaje->content();
 
-ok($content =~ /Na tvůj e-mail \($mail\) byla odeslána zpráva potřebná k dokončení registrace/, 'Aktivační email odeslán');
+ok($content =~ /Na tvůj e-mail \($mail\) byla odeslána zpráva/, 'Aktivační email odeslán');
 sleep 1;
 ok(-f "/home/fakemail/$mail.1", 'Aktivační email přišel');
 
@@ -50,44 +44,33 @@ open MAIL, "/home/fakemail/$mail.1";
 my @zprava = <MAIL>;
 close MAIL;
 
-my @odkazy = grep /http:\/\/zongl.*\.info\/lide\/o\//, @zprava;
+my @odkazy = grep /^Heslo: /, @zprava;
 my $pocetodkazu = @odkazy;
 
-ok($pocetodkazu > 0,"Odkaz na aktivaci");
+ok($pocetodkazu > 0,"Heslo pro přihlášení");
 
-my $zs_aktivace = $bot->get($odkazy[0]);
-
-ok($zs_aktivace->content() =~ /Účet byl úspěšně aktivován\./,'Účet byl aktivován');
-
-$zs_aktivace = $bot->get($odkazy[0]);
-
-ok($zs_aktivace->content() =~ /Účet už je aktivní\./,'Účet jde aktivovat jen jednou');
+my $heslo = $odkazy[0];
+chomp($heslo);
+chop($heslo);
+$heslo =~ s/^Heslo: //;
 
 my $zs_nastave = $bot->get('http://zongl.info/lide/nastaveni/');
-ok($zs_nastave->content() =~ /<h1>Nastavení<\/h1>/, 'Automatické přihlášení po aktivaci účtu');
+
+ok($zs_nastave->content() =~ /Pro zobrazení požadované stránky je nutné přihlášení/, 'Do nastavení je potřeba přihlášení.');
 
 my $prihlaseni = {
-	'login' => $login,
+	'login' => $mail,
 	'heslo' => $heslo,
 };
 
+my $zs_prihlaseni = $bot->submit_form(form_number => 0, fields => $prihlaseni);
+
+$zs_nastave = $bot->get('http://zongl.info/lide/nastaveni/');
+
 my $zs_nastaveni_uziv = $zs_nastave->content();
 
-ok($zs_nastaveni_uziv =~ /Login: <strong>$login<\/strong>/,'Ověření loginu');
 ok($zs_nastaveni_uziv =~ /E-mail: <strong>$mail<\/strong>/,'Ověření emailu');
 ok($zs_nastaveni_uziv =~ />Nastavit fotografii<\/a>./,'Link na nastavení fotky');
-
-sleep 1;
-ok(-f "/home/fakemail/$mail.2", 'Uvítací email přišel');
-
-open MAIL, "/home/fakemail/$mail.2";
-@zprava = <MAIL>;
-close MAIL;
-
-my @loginy = grep /Login: $login/, @zprava;
-my $pocetloginu = @loginy;
-
-ok($pocetloginu == 2,"Email obsahuje login");
 
 my $zs_logout = $bot->get('http://zongl.info/lide/odhlaseni.php');
 my $odhlaseni=$zs_logout->content();
@@ -100,7 +83,7 @@ my $zs_nas= $bot->get('http://zongl.info/lide/nastaveni');
 ok($zs_nas->content() =~ /Pro zobrazení požadované stránky je nutné přihlášení/, 'Nastavení je po odhlášení nepřístupné');
 
 my $prihlaseni_spatne = {
-	'login' => $login,
+	'login' => $mail,
 	'heslo' => $heslo.'navic',
 };
 
@@ -108,7 +91,7 @@ my $zs_badlogin = $bot->submit_form(form_number => 0,fields => $prihlaseni_spatn
 ok($zs_badlogin->content() =~ /Špatné jméno nebo heslo/,'Nejde se přihlásit se špatným heslem');
 
 my $prihlaseni_spatne_2 = {
-	'login' => $login,
+	'login' => $mail,
 	'heslo' => '',
 };
 
@@ -128,9 +111,9 @@ my $zs_obnova = $bot->submit_form(form_number => 0,fields => $obnovit, button =>
 ok($zs_obnova->content() =~ /Na tvůj e-mail byla odeslána zpráva potřebná k obnovení hesla/,'Odeslán email pro obnovu hesla.');
 
 sleep 1;
-ok(-f "/home/fakemail/$mail.3", 'Email pro obnovu hesla přišel');
+ok(-f "/home/fakemail/$mail.2", 'Email pro obnovu hesla přišel');
 
-open MAIL, "/home/fakemail/$mail.3";
+open MAIL, "/home/fakemail/$mail.2";
 my @zprava_z = <MAIL>;
 close MAIL;
 
@@ -147,7 +130,7 @@ my $zs_noveheslo = $bot->submit_form(form_number => 0,fields => {'heslo'=>$nove_
 ok($zs_noveheslo->content() =~ /Nové heslo je nastavené/,'Nové heslo nastaveno');
 
 my $nove_prihlaseni = {
-	'login' => $login,
+	'login' => $mail,
 	'heslo' => $nove_heslo,
 };
 
@@ -163,7 +146,6 @@ ok($zs_nove_prihlaseni->content() =~ /Špatné jméno nebo heslo/,'Staré heslo 
 $zs_nove_prihlaseni = $bot->submit_form(form_number => 0,fields => $nove_prihlaseni);
 
 ok($zs_nove_prihlaseni->content() =~ /Nastavit znamení zvěrokruhu<\/a>/,'Nové heslo funguje');
-
 
 my $zs_heslomen = $bot->get('http://zongl.info/lide/nastaveni/heslo');
 $zs_heslomen = $bot->submit_form(form_number => 0,fields => {'stareheslo'=>$nove_heslo,'heslo'=>$heslo,'heslo2'=>$heslo}, button => 'odeslat');
@@ -186,9 +168,9 @@ $zs_ruseni = $bot->click_button(name=>'zrusit');
 ok($zs_ruseni->content() =~ /E-mail s instrukcemi jak zrušit účet odeslán\./,'Odeslání zprávy s odkazem na zrušení.');
 
 sleep 1;
-ok(-f "/home/fakemail/$mail.4", 'Rušící email přišel');
+ok(-f "/home/fakemail/$mail.3", 'Rušící email přišel');
 
-open MAIL, "/home/fakemail/$mail.4";
+open MAIL, "/home/fakemail/$mail.3";
 my @zprava_r = <MAIL>;
 close MAIL;
 
@@ -204,7 +186,7 @@ ok($zs_zruseni->content() =~ /<li>Neplatný odkaz pro zrušení účtu.<\/li>/,'
 
 my $ignore_bot = WWW::Mechanize->new(autocheck => 0);
 
-my $response = $ignore_bot->get("http://zongl.info/lide/$login.html");
-ok($ignore_bot->status() == 404, 'Stránka uživatele neexistuje');
+#my $response = $ignore_bot->get("http://zongl.info/lide/$login.html");
+#ok($ignore_bot->status() == 404, 'Stránka uživatele neexistuje');
 
 system("sudo /bin/bash /home/www/zonglovani.info/scripts/tests/clean.sh")

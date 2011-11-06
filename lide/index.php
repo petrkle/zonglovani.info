@@ -13,7 +13,7 @@ if($_SERVER['REQUEST_URI']=='/lide/stranka1/'){
 	exit();
 }
 
-$loginy=get_loginy();
+$loginy=get_zajimeve_loginy();
 $lide=array();
 foreach($loginy as $login){
 	$lide[$login]=get_name($login);
