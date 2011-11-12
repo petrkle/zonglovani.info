@@ -20,7 +20,7 @@ Přinese ti to následující výhody:
 <h3>Hmotné dary</h3>
 <p>
 {obrazek soubor="podporab.png" title="Pivo"}
-Jestli už ti bylo 18, tak mi můžeš koupit pivo.</p>
+Jestli už ti bylo 18, tak mi můžeš koupit pivo. Např. <a href="/img/v/visen.jpg" title="Višeň s čistou hlavou" onclick="_gaq.push(['_trackPageview','/img/v/visen.jpg']);">višeň</a>, <a href="/img/s/svestka.jpg" title="Švestka s čistou hlavou" onclick="_gaq.push(['_trackPageview','/img/s/svestka.jpg']);">švestku</a> nebo <a href="/img/m/mikulas.jpg" title="Sváteční ležák s jemnými kvasnicemi" onclick="_gaq.push(['_trackPageview','/img/m/mikulas.jpg']);">Mikuláše</a>.</p>
 
 <h3>Peněžní podpora</h3>
 <p>
