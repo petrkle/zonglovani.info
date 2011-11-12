@@ -1,6 +1,6 @@
 <p>
 <a href="http://www.ulita.cz" onclick="_gaq.push(['_trackPageview','/goto/ulita.cz']);" title="Ulita - dům dětí a mládeže">{obrazek soubor='ulita.cz.png' popisek='Ulita'}</a>
-Na Balkáně 100, Praha 3, 130 00<br />
+Na Balkáně 17a, Praha 3, 130 00<br />
 <a href="http://www.mapy.cz/#mm=ZP@ax=133213920@ay=135976864@at=Ulita@ad=D%C5%AFm%20d%C4%9Bt%C3%AD%20a%20ml%C3%A1de%C5%BEe%20Ulita.@x=133213312@y=135977056@z=16" title="Místo konání na mapě." class="external" onclick="_gaq.push(['_trackPageview','/goto/mapy.cz/ulita']);">Zobrazit na mapě</a><br />
 Telefon: 271 771 025<br />
 {assign var='mail' value='info@ulita.cz'}

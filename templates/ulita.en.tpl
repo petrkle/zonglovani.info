@@ -53,7 +53,7 @@ Beginners as well as experienced jugglers are welcome. There are balls and clubs
 <h3>Place</h3>
 <p>
 <a href="http://www.ulita.cz" class="external" onclick="_gaq.push(['_trackPageview','/goto/ulita.cz']);" title="Ulita - dům dětí a mládeže">Ulita</a> - house of children and youth<br />
-Na Balkáně 100, Prague, 130 00 - <a href="http://maps.google.com/maps?q=50.094625,+14.481668+(Juggling+at+Ulita)&amp;iwloc=A&amp;z=17" title="Place on google maps." class="external" onclick="_gaq.push(['_trackPageview','/goto/maps.google.com/ulita']);">map</a><br />
+Na Balkáně 17a, Prague, 130 00 - <a href="http://maps.google.com/maps?q=50.094625,+14.481668+(Juggling+at+Ulita)&amp;iwloc=A&amp;z=17" title="Place on google maps." class="external" onclick="_gaq.push(['_trackPageview','/goto/maps.google.com/ulita']);">map</a><br />
 Phone: +420 271 771 025<br />
 {assign var='mail' value='info@ulita.cz'}
 E-mail: {$mail|mailobfuscate}

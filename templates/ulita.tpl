@@ -63,7 +63,7 @@ Sleduj žonglérův slabikář na <a href="http://www.facebook.com/zongleruv.sla
 <h3><a href="cesta.html" title="Podrobný popis cesty.">Místo konání</a></h3>
 <p>
 <a href="cesta.html" title="Ulita - dům dětí a mládeže">{obrazek soubor='ulita.cz.png' popisek='Ulita'}</a>
-<span class="location">Na Balkáně 100, Praha 3, 130 00</span><br />
+<span class="location">Na Balkáně 17a, Praha 3, 130 00</span><br />
 <a href="http://www.mapy.cz/#mm=ZP@ax=133213920@ay=135976864@at=Ulita@ad=D%C5%AFm%20d%C4%9Bt%C3%AD%20a%20ml%C3%A1de%C5%BEe%20Ulita.@x=133213312@y=135977056@z=16" title="Místo konání na mapě." class="external" onclick="_gaq.push(['_trackPageview','/goto/mapy.cz/ulita']);">Zobrazit na mapě</a><br />
 <a href="cesta.html" title="Jak se dostat do Ulity">Popis cesty</a><br />
 {*Telefon: 271 771 025<br />*}
