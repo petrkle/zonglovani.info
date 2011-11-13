@@ -4293,6 +4293,12 @@
    </url>
 			
    <url>
+      <loc>http://zonglovani.info/kalendar/2016-11.html</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.6</priority>
+   </url>
+			
+   <url>
       <loc>http://zonglovani.info/kalendar/ejc.html</loc>
       <changefreq>weekly</changefreq>
       <priority>0.6</priority>
@@ -5379,7 +5385,19 @@
    </url>
 			
    <url>
+      <loc>http://zonglovani.info/kalendar/udalost-20120302-20120304-pek-1320608498.html</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.7</priority>
+   </url>
+			
+   <url>
       <loc>http://zonglovani.info/kalendar/udalost-20120318-20120318-pek-1316975904.html</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.7</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/kalendar/udalost-20120519-20120519-pek-1321009065.html</loc>
       <changefreq>monthly</changefreq>
       <priority>0.7</priority>
    </url>
@@ -5877,12 +5895,6 @@
    </url>
 			
    <url>
-      <loc>http://zonglovani.info/lide/ales.html</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.6</priority>
-   </url>
-			
-   <url>
       <loc>http://zonglovani.info/lide/alesh.html</loc>
       <changefreq>weekly</changefreq>
       <priority>0.6</priority>
@@ -5890,12 +5902,6 @@
 			
    <url>
       <loc>http://zonglovani.info/lide/alice.html</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.6</priority>
-   </url>
-			
-   <url>
-      <loc>http://zonglovani.info/lide/amater1994.html</loc>
       <changefreq>weekly</changefreq>
       <priority>0.6</priority>
    </url>
@@ -5949,12 +5955,6 @@
    </url>
 			
    <url>
-      <loc>http://zonglovani.info/lide/claireclarson.html</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.6</priority>
-   </url>
-			
-   <url>
       <loc>http://zonglovani.info/lide/cozzi.html</loc>
       <changefreq>weekly</changefreq>
       <priority>0.6</priority>
@@ -5985,31 +5985,7 @@
    </url>
 			
    <url>
-      <loc>http://zonglovani.info/lide/davidak.html</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.6</priority>
-   </url>
-			
-   <url>
-      <loc>http://zonglovani.info/lide/davidbosek.html</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.6</priority>
-   </url>
-			
-   <url>
       <loc>http://zonglovani.info/lide/dedasd.html</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.6</priority>
-   </url>
-			
-   <url>
-      <loc>http://zonglovani.info/lide/dejv98.html</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.6</priority>
-   </url>
-			
-   <url>
-      <loc>http://zonglovani.info/lide/dhotkovic.html</loc>
       <changefreq>weekly</changefreq>
       <priority>0.6</priority>
    </url>
@@ -6022,12 +5998,6 @@
 			
    <url>
       <loc>http://zonglovani.info/lide/dzafi.html</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.6</priority>
-   </url>
-			
-   <url>
-      <loc>http://zonglovani.info/lide/emeress.html</loc>
       <changefreq>weekly</changefreq>
       <priority>0.6</priority>
    </url>
@@ -6058,12 +6028,6 @@
 			
    <url>
       <loc>http://zonglovani.info/lide/fry121.html</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.6</priority>
-   </url>
-			
-   <url>
-      <loc>http://zonglovani.info/lide/geodeth.html</loc>
       <changefreq>weekly</changefreq>
       <priority>0.6</priority>
    </url>
@@ -6123,12 +6087,6 @@
    </url>
 			
    <url>
-      <loc>http://zonglovani.info/lide/houzvik.html</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.6</priority>
-   </url>
-			
-   <url>
       <loc>http://zonglovani.info/lide/hrabje.html</loc>
       <changefreq>weekly</changefreq>
       <priority>0.6</priority>
@@ -6177,19 +6135,7 @@
    </url>
 			
    <url>
-      <loc>http://zonglovani.info/lide/jari39.html</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.6</priority>
-   </url>
-			
-   <url>
       <loc>http://zonglovani.info/lide/jedna.html</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.6</priority>
-   </url>
-			
-   <url>
-      <loc>http://zonglovani.info/lide/jenin.html</loc>
       <changefreq>weekly</changefreq>
       <priority>0.6</priority>
    </url>
@@ -6207,12 +6153,6 @@
    </url>
 			
    <url>
-      <loc>http://zonglovani.info/lide/jubus.html</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.6</priority>
-   </url>
-			
-   <url>
       <loc>http://zonglovani.info/lide/juggleman.html</loc>
       <changefreq>weekly</changefreq>
       <priority>0.6</priority>
@@ -6225,31 +6165,13 @@
    </url>
 			
    <url>
-      <loc>http://zonglovani.info/lide/karel.html</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.6</priority>
-   </url>
-			
-   <url>
       <loc>http://zonglovani.info/lide/katy.html</loc>
       <changefreq>weekly</changefreq>
       <priority>0.6</priority>
    </url>
 			
    <url>
-      <loc>http://zonglovani.info/lide/klarisa.html</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.6</priority>
-   </url>
-			
-   <url>
       <loc>http://zonglovani.info/lide/klika.html</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.6</priority>
-   </url>
-			
-   <url>
-      <loc>http://zonglovani.info/lide/klobass.html</loc>
       <changefreq>weekly</changefreq>
       <priority>0.6</priority>
    </url>
@@ -6279,12 +6201,6 @@
    </url>
 			
    <url>
-      <loc>http://zonglovani.info/lide/levandule.html</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.6</priority>
-   </url>
-			
-   <url>
       <loc>http://zonglovani.info/lide/liederhaus.html</loc>
       <changefreq>weekly</changefreq>
       <priority>0.6</priority>
@@ -6298,12 +6214,6 @@
 			
    <url>
       <loc>http://zonglovani.info/lide/luciaska.html</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.6</priority>
-   </url>
-			
-   <url>
-      <loc>http://zonglovani.info/lide/lukihavelka.html</loc>
       <changefreq>weekly</changefreq>
       <priority>0.6</priority>
    </url>
@@ -6351,24 +6261,6 @@
    </url>
 			
    <url>
-      <loc>http://zonglovani.info/lide/mcmirenj.html</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.6</priority>
-   </url>
-			
-   <url>
-      <loc>http://zonglovani.info/lide/mic.html</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.6</priority>
-   </url>
-			
-   <url>
-      <loc>http://zonglovani.info/lide/milavlckova.html</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.6</priority>
-   </url>
-			
-   <url>
       <loc>http://zonglovani.info/lide/millda.html</loc>
       <changefreq>weekly</changefreq>
       <priority>0.6</priority>
@@ -6393,19 +6285,7 @@
    </url>
 			
    <url>
-      <loc>http://zonglovani.info/lide/mrego.html</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.6</priority>
-   </url>
-			
-   <url>
       <loc>http://zonglovani.info/lide/mrgin.html</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.6</priority>
-   </url>
-			
-   <url>
-      <loc>http://zonglovani.info/lide/neferet.html</loc>
       <changefreq>weekly</changefreq>
       <priority>0.6</priority>
    </url>
@@ -6429,9 +6309,9 @@
    </url>
 			
    <url>
-      <loc>http://zonglovani.info/lide/novotnak.html</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.6</priority>
+      <loc>http://zonglovani.info/lide/novy-ucet.php</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.4</priority>
    </url>
 			
    <url>
@@ -6441,19 +6321,7 @@
    </url>
 			
    <url>
-      <loc>http://zonglovani.info/lide/oli.html</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.6</priority>
-   </url>
-			
-   <url>
       <loc>http://zonglovani.info/lide/ondrator.html</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.6</priority>
-   </url>
-			
-   <url>
-      <loc>http://zonglovani.info/lide/onondrasiki.html</loc>
       <changefreq>weekly</changefreq>
       <priority>0.6</priority>
    </url>
@@ -6507,12 +6375,6 @@
    </url>
 			
    <url>
-      <loc>http://zonglovani.info/lide/pepapoi.html</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.6</priority>
-   </url>
-			
-   <url>
       <loc>http://zonglovani.info/lide/pepe.html</loc>
       <changefreq>weekly</changefreq>
       <priority>0.6</priority>
@@ -6526,12 +6388,6 @@
 			
    <url>
       <loc>http://zonglovani.info/lide/polda98.html</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.6</priority>
-   </url>
-			
-   <url>
-      <loc>http://zonglovani.info/lide/pom2108.html</loc>
       <changefreq>weekly</changefreq>
       <priority>0.6</priority>
    </url>
@@ -6561,18 +6417,6 @@
    </url>
 			
    <url>
-      <loc>http://zonglovani.info/lide/romanmihalka.html</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.6</priority>
-   </url>
-			
-   <url>
-      <loc>http://zonglovani.info/lide/rowan.html</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.6</priority>
-   </url>
-			
-   <url>
       <loc>http://zonglovani.info/lide/salosh.html</loc>
       <changefreq>weekly</changefreq>
       <priority>0.6</priority>
@@ -6585,19 +6429,7 @@
    </url>
 			
    <url>
-      <loc>http://zonglovani.info/lide/siliminka.html</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.6</priority>
-   </url>
-			
-   <url>
       <loc>http://zonglovani.info/lide/simiminis.html</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.6</priority>
-   </url>
-			
-   <url>
-      <loc>http://zonglovani.info/lide/slunculak.html</loc>
       <changefreq>weekly</changefreq>
       <priority>0.6</priority>
    </url>
@@ -6628,12 +6460,6 @@
 			
    <url>
       <loc>http://zonglovani.info/lide/stepan.html</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.6</priority>
-   </url>
-			
-   <url>
-      <loc>http://zonglovani.info/lide/sushix.html</loc>
       <changefreq>weekly</changefreq>
       <priority>0.6</priority>
    </url>
@@ -6670,12 +6496,6 @@
 			
    <url>
       <loc>http://zonglovani.info/lide/vojta.html</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.6</priority>
-   </url>
-			
-   <url>
-      <loc>http://zonglovani.info/lide/vokis.html</loc>
       <changefreq>weekly</changefreq>
       <priority>0.6</priority>
    </url>
@@ -7906,12 +7726,6 @@
 			
    <url>
       <loc>http://zonglovani.info/lide/stranka4/</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.6</priority>
-   </url>
-			
-   <url>
-      <loc>http://zonglovani.info/lide/stranka5/</loc>
       <changefreq>weekly</changefreq>
       <priority>0.6</priority>
    </url>
@@ -11247,6 +11061,288 @@
    </url>
 			
    <url>
+      <loc>http://zonglovani.info/obrazky/ejc11-program-20110805/</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.6</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ejc11-program-20110805/0000.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ejc11-program-20110805/0001.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ejc11-program-20110805/0002.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ejc11-program-20110805/0003.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ejc11-program-20110805/0004.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ejc11-program-20110805/0005.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ejc11-program-20110805/0006.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ejc11-program-20110805/0007.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ejc11-program-20110805/0008.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ejc11-program-20110805/0009.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ejc11-program-20110805/0010.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ejc11-program-20110805/0011.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ejc11-program-20110805/0012.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ejc11-program-20110805/0013.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ejc11-program-20110805/0014.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ejc11-program-20110805/0015.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ejc11-program-20110805/0041.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ejc11-program-20110805/stranka1/</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.6</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ejc11-program-20110805/stranka2/</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.6</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ejc11-program-20110805/stranka2/0015.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ejc11-program-20110805/stranka2/0016.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ejc11-program-20110805/stranka2/0017.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ejc11-program-20110805/stranka2/0018.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ejc11-program-20110805/stranka2/0019.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ejc11-program-20110805/stranka2/0020.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ejc11-program-20110805/stranka2/0021.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ejc11-program-20110805/stranka2/0022.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ejc11-program-20110805/stranka2/0023.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ejc11-program-20110805/stranka2/0024.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ejc11-program-20110805/stranka2/0025.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ejc11-program-20110805/stranka2/0026.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ejc11-program-20110805/stranka2/0027.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ejc11-program-20110805/stranka2/0028.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ejc11-program-20110805/stranka2/0029.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ejc11-program-20110805/stranka3/</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.6</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ejc11-program-20110805/stranka3/0030.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ejc11-program-20110805/stranka3/0031.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ejc11-program-20110805/stranka3/0032.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ejc11-program-20110805/stranka3/0033.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ejc11-program-20110805/stranka3/0034.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ejc11-program-20110805/stranka3/0035.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ejc11-program-20110805/stranka3/0036.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ejc11-program-20110805/stranka3/0037.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ejc11-program-20110805/stranka3/0038.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ejc11-program-20110805/stranka3/0039.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ejc11-program-20110805/stranka3/0040.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
       <loc>http://zonglovani.info/obrazky/ejc11-shake-that-20110811/</loc>
       <changefreq>yearly</changefreq>
       <priority>0.6</priority>
@@ -11320,6 +11416,108 @@
 			
    <url>
       <loc>http://zonglovani.info/obrazky/ejc11-shake-that-20110811/stranka1/</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.6</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ejc11-tiskoviny-20110805/</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.6</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ejc11-tiskoviny-20110805/0000.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ejc11-tiskoviny-20110805/0001.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ejc11-tiskoviny-20110805/0002.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ejc11-tiskoviny-20110805/0003.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ejc11-tiskoviny-20110805/0004.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ejc11-tiskoviny-20110805/0005.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ejc11-tiskoviny-20110805/0006.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ejc11-tiskoviny-20110805/0007.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ejc11-tiskoviny-20110805/0008.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ejc11-tiskoviny-20110805/0009.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ejc11-tiskoviny-20110805/0010.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ejc11-tiskoviny-20110805/0011.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ejc11-tiskoviny-20110805/0012.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ejc11-tiskoviny-20110805/0013.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ejc11-tiskoviny-20110805/0014.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ejc11-tiskoviny-20110805/stranka1/</loc>
       <changefreq>yearly</changefreq>
       <priority>0.6</priority>
    </url>
@@ -19593,7 +19791,247 @@
    </url>
 			
    <url>
-      <loc>http://zonglovani.info/obrazky/ulita-20111030/stranka2/0018.html</loc>
+      <loc>http://zonglovani.info/obrazky/ulita-20111113/</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.6</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ulita-20111113/0000.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ulita-20111113/0001.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ulita-20111113/0002.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ulita-20111113/0003.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ulita-20111113/0004.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ulita-20111113/0005.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ulita-20111113/0006.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ulita-20111113/0007.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ulita-20111113/0008.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ulita-20111113/0009.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ulita-20111113/0010.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ulita-20111113/0011.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ulita-20111113/0012.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ulita-20111113/0013.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ulita-20111113/0014.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ulita-20111113/0015.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ulita-20111113/0035.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ulita-20111113/stranka1/</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.6</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ulita-20111113/stranka2/</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.6</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ulita-20111113/stranka2/0015.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ulita-20111113/stranka2/0016.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ulita-20111113/stranka2/0017.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ulita-20111113/stranka2/0018.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ulita-20111113/stranka2/0019.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ulita-20111113/stranka2/0020.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ulita-20111113/stranka2/0021.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ulita-20111113/stranka2/0022.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ulita-20111113/stranka2/0023.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ulita-20111113/stranka2/0024.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ulita-20111113/stranka2/0025.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ulita-20111113/stranka2/0026.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ulita-20111113/stranka2/0027.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ulita-20111113/stranka2/0028.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ulita-20111113/stranka2/0029.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ulita-20111113/stranka3/</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.6</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ulita-20111113/stranka3/0030.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ulita-20111113/stranka3/0031.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ulita-20111113/stranka3/0032.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ulita-20111113/stranka3/0033.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ulita-20111113/stranka3/0034.html</loc>
       <changefreq>yearly</changefreq>
       <priority>0.4</priority>
    </url>
@@ -20235,6 +20673,12 @@
    </url>
 			
    <url>
+      <loc>http://zonglovani.info/video/jade-dussault.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.5</priority>
+   </url>
+			
+   <url>
       <loc>http://zonglovani.info/video/jeff-wes.html</loc>
       <changefreq>yearly</changefreq>
       <priority>0.5</priority>
@@ -20331,6 +20775,12 @@
    </url>
 			
    <url>
+      <loc>http://zonglovani.info/video/prechac-juggling-in-berlin.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.5</priority>
+   </url>
+			
+   <url>
       <loc>http://zonglovani.info/video/prechac-weaves.html</loc>
       <changefreq>yearly</changefreq>
       <priority>0.5</priority>
@@ -20368,6 +20818,12 @@
 			
    <url>
       <loc>http://zonglovani.info/video/stranka10.html</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/video/stranka11.html</loc>
       <changefreq>monthly</changefreq>
       <priority>0.6</priority>
    </url>

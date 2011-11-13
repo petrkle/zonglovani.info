@@ -128,7 +128,8 @@
 2011-10-31*Fotky z Ulity*/obrazky/ulita-20111030/#*poi.jpg*Fotky z nedělního žonglování v Ulitě. Díky všem, kdo dorazili. Příští Ulita je za čtrnáct dní.
 2011-11-02*Žonglování okolo člověka*/kuzely/passing/around.html*kuzely-passing-aroundsomebodyb.png*Při žonglérském vystoupení je důležité zapojit diváky.
 2011-11-07*Žonglování v Ulitě*/ulita/?20111113*ulita.cz.png*Pravidelné nedělní žonglování v DDM Ulita. Přijít mohou začínající i zkušení žongléři a žonglérky.
-2011-11-14*Pražský žonglérský marathon*/kalendar/udalost-20111118-20111120-pek-1316975377.html*pzm2011.png*Třetí ročník pražského žonglérského marathonu.
+2011-11-14*Fotky z Ulity*/obrazky/ulita-20111113/0000.html*parove-zonglovani.jpg*Fotky z nedělního žonglování v Ulitě. Díky všem, kdo dorazili. Příští Ulita je za tři týdny.
+2011-11-16*Pražský žonglérský marathon*/kalendar/udalost-20111118-20111120-pek-1316975377.html*pzm2011.png*Třetí ročník pražského žonglérského marathonu.
 2011-11-21*Obrázky kuželů*/kuzely/druhy.html*kuzelka-albatros-s.jpg*Obrázky žonglérských kuželů.
 2011-11-28*Žonglování v Ulitě*/ulita/?20111204*ulita.cz.png*Pravidelné nedělní žonglování v DDM Ulita. Přijít mohou začínající i zkušení žongléři a žonglérky.
 2011-12-05*Překulení kuželky přes hlavu*/kuzely/headroll.html*headrollc.png*Trik známý též pod anglickým názvem headroll.

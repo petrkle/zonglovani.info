@@ -174,7 +174,8 @@
 		</li>
 		<li><a name="lide"></a><a href="/lide/">Seznam žonglérů</a>
 		<ul>
-		<li><a href="/lide/pravidla.php">Založení nového účtu</a></li>
+		<li><a href="/lide/novy-ucet.php">Založit účet</a></li>
+		<li><a href="/lide/pravidla.php">Založit účet</a></li>
 			<li><a name="dovednost"></a><a href="/lide/dovednost/">Žongléři podle dovedností</a>
 			
 			</li>
@@ -342,7 +343,13 @@
 			<li><a name="ejc11-galashow-20110812"></a><a href="/obrazky/ejc11-galashow-20110812/">EJC galashow 12. 8. 2011 - obrázky žonglování</a>
 			
 			</li>
+			<li><a name="ejc11-program-20110805"></a><a href="/obrazky/ejc11-program-20110805/">EJC 2011 - program - obrázky žonglování</a>
+			
+			</li>
 			<li><a name="ejc11-shake-that-20110811"></a><a href="/obrazky/ejc11-shake-that-20110811/">Shake That 14. 8. 2011 - obrázky žonglování</a>
+			
+			</li>
+			<li><a name="ejc11-tiskoviny-20110805"></a><a href="/obrazky/ejc11-tiskoviny-20110805/">EJC 2011 - tiskoviny - obrázky žonglování</a>
 			
 			</li>
 			<li><a name="festival-zonglovani-20070713"></a><a href="/obrazky/festival-zonglovani-20070713/">Festival žonglování Praha 2007 - obrázky žonglování</a>
@@ -453,6 +460,9 @@
 			<li><a name="ulita-20111030"></a><a href="/obrazky/ulita-20111030/">Ulita 30. 10. 2011 - obrázky žonglování</a>
 			
 			</li>
+			<li><a name="ulita-20111113"></a><a href="/obrazky/ulita-20111113/">Ulita 13. 11. 2011 - obrázky žonglování</a>
+			
+			</li>
 			<li><a name="ulita-zbynkuv-vyber-20100312"></a><a href="/obrazky/ulita-zbynkuv-vyber-20100312/">Ulita - Zbyňkův výběr - obrázky žonglování</a>
 			
 			</li>
@@ -503,6 +513,7 @@
 		<li><a href="/video/hocus-pocus.html">Hocus Pocus</a></li>
 		<li><a href="/video/interrobang.html">Interrobang</a></li>
 		<li><a href="/video/ivy-and-gold.html">Ivy and Gold</a></li>
+		<li><a href="/video/jade-dussault.html">Hula Hoop - Jade Dussault</a></li>
 		<li><a href="/video/jeff-wes.html">Jeff Lutkus &amp; Wes Peden</a></li>
 		<li><a href="/video/jen-slaw.html">Jen Slaw Juggling Promo</a></li>
 		<li><a href="/video/jeremy-perkins-jeremy-fein.html">Jeremy Perkins and Jeremy Fein Promo 2008</a></li>
@@ -519,6 +530,7 @@
 		<li><a href="/video/more-or-less.html">More or less juggling</a></li>
 		<li><a href="/video/neta-oren.html">Neta Oren</a></li>
 		<li><a href="/video/passing-zone.html">The Passing Zone</a></li>
+		<li><a href="/video/prechac-juggling-in-berlin.html">Prechac Juggling in Berlin</a></li>
 		<li><a href="/video/prechac-weaves.html">Prechac Weaves</a></li>
 		<li><a href="/video/readingroundabouts.html">Reading Roundabouts</a></li>
 		<li><a href="/video/roucoulette-sauce-poisson.html">Roucoulette sauce poisson</a></li>
