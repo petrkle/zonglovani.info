@@ -1,5 +1,7 @@
 #!/bin/bash
 
+export LANG=cs_CZ
+
 while [ "$1" != "" ]
 		
 do 
@@ -7,7 +9,7 @@ do
 	SOUBOR=`basename $1 .fig`
 	PP=`echo $SOUBOR | sed "s/\(^.\).*/\1/"`
 
-	fig2dev -L png -b 5 -S 4 -m 2 $PP/$SOUBOR.fig $PP/$SOUBOR.png
+	fig2dev -j -L png -b 5 -S 4 -m 2 $PP/$SOUBOR.fig $PP/$SOUBOR.png
 
 	echo -ne "."
 
@@ -19,3 +21,16 @@ do
 
 done
 echo -ne "\n"
+
+# xfig
+#
+# LC_LANG=cs_CZ.ISO-8859-2
+# LC_ALL=cs_CZ.ISO-8859-2
+
+
+# .Xresources
+#
+#Fig.international: true
+#Fig.inputStyle: Root
+#Fig.eucEncoding: true
+#Fig.latinKeyboard: true

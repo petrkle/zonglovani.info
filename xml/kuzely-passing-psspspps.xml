@@ -20,12 +20,8 @@
   </krok>
 
 	<krok>
-<pre>  P      L      P     L      P       L     P      L
-pass - self - self - pass - self - pass - pass - self</pre>
-  </krok>
-
-	<krok>
-		<popisek>P - pravá ruka; L - levá ruka; pass - hod partnerovi; self - hod z ruky do ruky</popisek>
+		<obrazek>kuzely-passing-psspspps-rytmus</obrazek>
+		<popisek>&lt;b&gt;P&lt;/b&gt;&amp;nbsp;-&amp;nbsp;pravá ruka; &lt;b&gt;L&lt;/b&gt;&amp;nbsp;-&amp;nbsp;levá ruka; pass - hod partnerovi; self - hod z ruky do ruky</popisek>
   </krok>
 
 	<krok>
