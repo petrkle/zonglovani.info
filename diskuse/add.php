@@ -42,6 +42,11 @@ $cas=time();
 		array_push($chyby,'Zpráva je příliš krátká. Minimální délka je pět znaků.');
 	}
 
+	if(podil_velkych_pismen($vzkaz)>MAX_BIG_LETTERS){
+		array_push($chyby,'Podíl VELKÝCH písmen ve zprávě je větší než '.(MAX_BIG_LETTERS*100).'%.');
+		array_push($chyby,'Zkontroluj, jestli není zaseklá klávesa Shift nebo Caps Lock.');
+	}
+
 	if(strlen($vzkaz)>1024){
 		array_push($chyby,'Zpráva je příliš dlouhá. Maximální délka je 1024 znaků.');
 	}

@@ -656,6 +656,7 @@ function create_login($email){
 	$login='';
 	$email_parts=preg_split('/@/',$email);
 	$login=$email_parts[0];
+	$login=preg_replace('/[^a-zA-Z0-9]/','',$login);
 
 	if(is_zs_account($login)){
 		$poradi=2;
@@ -668,5 +669,12 @@ function create_login($email){
 	return $login;
 }
 
+function podil_velkych_pismen($text){
+	$nalezeno=array();
+	preg_match_all('/[A-Z]/', $text, $nalezeno) ;
+	$celkem = mb_strlen(preg_replace('/[ \.ĚŠČŘŽÝÁÍÉÓ,;@]/','',$text));
+	$velka = count($nalezeno[0]);
+	$navrat = $velka/$celkem;
+	return $navrat;
+}
 
-?>

@@ -40,7 +40,10 @@ if(isset($_GET['action'])){
 	}
 
 if(strlen($jmeno)<3){
-	array_push($chyby,"Jméno není zadané, nebo je příliš krátké.");
+	array_push($chyby,'Jméno není zadané, nebo je příliš krátké.');
+}elseif(podil_velkych_pismen($jmeno)>MAX_BIG_LETTERS){
+	array_push($chyby,'Podíl VELKÝCH písmen ve jméně je větší než '.(MAX_BIG_LETTERS*100).'%.');
+	array_push($chyby,'Zkontroluj, jestli není zaseklá klávesa Shift nebo Caps Lock.');
 }elseif(strlen($jmeno)>256){
 	array_push($chyby,"Jméno je příliš dlouhé.");
 }elseif(preg_match('/[-\*\.\?\!<>;\^\$\{\}\@%\&\(\)\'\"_:´ˇ\\|#`~,]/i',$jmeno)){

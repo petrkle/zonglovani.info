@@ -1,7 +1,7 @@
 #!/usr/bin/perl -w
 use strict;
 use WWW::Mechanize;
-use Test::More tests => 17;
+use Test::More tests => 18;
 use Net::Netrc;
 require('scripts/tests/func.pl');
 use Encode;
@@ -48,6 +48,7 @@ my @vzkazy = (
 	{'z'=>'[url]http://zonglovani.info/mapa[/url]', 'v'=>'<td colspan="6"><a href="http:\/\/zonglovani\.info\/mapa">http:\/\/zonglovani\.info\/mapa<\/a>', 't'=>'Interní odkaz'},
 	{'z'=>'[email]petr@kle.cz[/email]', 'v'=>'petr<img src="http:\/\/zongl\.info\/img\/z\/zavinac\.serif\.png" alt="\@" width="16" height="15" \/>kle.cz', 't'=>'Vložení emailu'},
 	{'z'=>'Nějaký [b]tučný text[/b].', 'v'=>'Nějaký <b>tučný text<\/b>', 't'=>'Tučný text'},
+	{'z'=>'PŘÍLIŠ MNOHO VELKÝCH PÍSMEN!', 'v'=>'zaseklá klávesa Shift', 't'=>'Příliš mnoho VELKÝCH písmen'},
 	{'z'=>'[i]Kurzíva[/i]', 'v'=>'<i>Kurzíva<\/i>', 't'=>'Kurzíva'},
 	{'z'=>'<h1>Ahoj</h1>', 'v'=>'&lt;h1&gt;Ahoj&lt;\/h1&gt;', 't'=>'Escapování html'},
 	{'z'=>'[b]Polotučné [i]mléko[/i][/b]', 'v'=>'<b>Polotučné <i>mléko<\/i><\/b>', 't'=>'Vnořené tagy'},
