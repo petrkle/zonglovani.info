@@ -133,7 +133,7 @@
 			<li><a href="/kuzely/passing/3count.html">Passing - 3 count</a></li>
 			<li><a href="/kuzely/passing/4count.html">Passing - 4 count</a></li>
 			<li><a href="/kuzely/passing/7clubs.html">Passing - 7 kuželů</a></li>
-			<li><a href="/kuzely/passing/all-hands.html">Passing - Passování do všechn rukou</a></li>
+			<li><a href="/kuzely/passing/all-hands.html">Passing - Passování do všech rukou</a></li>
 			<li><a href="/kuzely/passing/around.html">Passing - Žonglování okolo člověka</a></li>
 			<li><a href="/kuzely/passing/australsky-trik.html">Passing - Australský trik</a></li>
 			<li><a href="/kuzely/passing/bostoncircle.html">Passing - Boston circle</a></li>
