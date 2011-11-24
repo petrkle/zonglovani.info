@@ -2,6 +2,7 @@
 <?php
 
 date_default_timezone_set('Europe/Prague');
+require('breaks.php');
 $lib='../../lib';
 $root='../..';
 require($lib.'/Smarty.class.php');
@@ -28,11 +29,12 @@ $smarty->display('trik.tex.tpl');
 
 
 function nacti_trik($soubor){
-	global $root;
+	global $root,$breaks_a4;
 	$xml = simplexml_load_file($root.'/xml/'.basename($soubor).'.xml');
 	$trik=array();
 	$trik['kroky'] = array();
 	$trik['about'] = (array) $xml->about;
+	$pocetkroku=1;
 	foreach ($xml->krok as $krok){
 		$foo=array();
 		if($krok->popisek){
@@ -70,7 +72,14 @@ function nacti_trik($soubor){
 				$foo['animace'] = (string) $krok->animace;
 			}
 		}
+		if(in_array(basename($soubor),$breaks_a4)){
+			$trik['break_before'] = true;
+		}
+		if(in_array(basename($soubor).':'.$pocetkroku,$breaks_a4)){
+			$foo['break_before'] = true;
+		}
 		array_push($trik['kroky'],$foo);
+		$pocetkroku++;
 	}
 
 

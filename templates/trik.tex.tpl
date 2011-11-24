@@ -1,7 +1,13 @@
+{if $trik.break_before}
+\clearpage
+{/if}
 \section{literal}{{/literal}{$trik.about.nazev}{literal}}{/literal}
 
 {assign var='imagenum' value='0'}
 {foreach from=$trik.kroky item=krok key=k name=postup}
+{if $krok.break_before}
+\clearpage
+{/if}
 {if isset($krok.nadpis)}
 \subsection*{literal}{{/literal}{$krok.nadpis}{literal}}{/literal}
 {/if}
