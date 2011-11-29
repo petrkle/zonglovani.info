@@ -133,7 +133,7 @@
 2011-11-21*Obrázky kuželů*/kuzely/druhy.html*kuzelka-albatros-s.jpg*Obrázky žonglérských kuželů.
 2011-11-28*Žonglování v Ulitě*/ulita/?20111204*ulita.cz.png*Pravidelné nedělní žonglování v DDM Ulita. Přijít mohou začínající i zkušení žongléři a žonglérky.
 2011-12-05*Vánoční žonglování*/kalendar/udalost-20111210-20111210-pek-1322138854.html*bratri.jpg*Volné předvánoční žonglování. Bude k dispozici velká tělocvična s ozvučením, žonglovací obchod Žongluj Imrvére a workshopy pro začátečníky.
-2011-12-12*Výhody pro registrované uživatele*/exkurze.html*exkurze-nahled-2010-2-28-19-49-47.jpg*Obrázky a popis výhod pro registrované uživatele žonglérova slabikáře.
+2011-12-12*Výhody pro registrované uživatele*/exkurze.html*exkurze-nastaveni.s.png*Obrázky a popis výhod pro registrované uživatele žonglérova slabikáře.
 2011-12-19*Simulátory žonglování*/software.html*joepass.png*Počítačové programy, které po zadání triku v zobrazí animaci. Vhodné při učení nových triků.
 2011-12-26*Anglicko-český žonglérský slovníček*/aczslovnicek.html*slovnik.jpg*Několik slovíček, které se často vyskytují v anglicky psaných textech o žonglování.
 2012-01-02*Passování do všech rukou*/kuzely/passing/all-hands.html*kuzely-passing-allhandsc.png*Obtížnější trik pro dva žongléry a šest kuželů.
