@@ -10,7 +10,7 @@ $smarty->assign('description','Jak můžeš pomoct při tvorbě žonglérova sla
 
 $dalsi=array(
 	array('url'=>'/kontakt.html','text'=>'Kontakt','title'=>'Kontaktní údaje'),
-	array('url'=>LIDE_URL.'pravidla.php','text'=>'Založit účet','title'=>'Nový účet v žonglérově slabikáři'),
+	array('url'=>LIDE_URL.'novy-ucet.php','text'=>'Založit účet','title'=>'Nový účet v žonglérově slabikáři'),
 	array('url'=>'/statistiky.html','text'=>'Statistiky','title'=>'Statistiky žonlérova slabikáře'),
 	);
 $smarty->assign_by_ref('dalsi',$dalsi);

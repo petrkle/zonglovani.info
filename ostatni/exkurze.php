@@ -10,7 +10,7 @@ $smarty->assign('keywords','žonglérův slabikář, účet, registrace, funkce'
 $smarty->assign('description','Podrobný popis funkcí pro registrované uživatele žonglérova slabikáře.');
 
 $dalsi=array(
-	array('url'=>LIDE_URL.'pravidla.php','text'=>'Založit účet','title'=>'Vytvoření nového účtu'),
+	array('url'=>LIDE_URL.'novy-ucet.php','text'=>'Založit účet','title'=>'Vytvoření nového účtu'),
 	array('url'=>LIDE_URL,'text'=>'Seznam žongléřů','title'=>'Seznam uživatelů žonglérova slabikáře'),
 	array('url'=>'/statistiky.html#navst','text'=>'Statistika návštěvnosti','title'=>'Statistika návštěvnosti žonglérova slabikáře'),
 	);
