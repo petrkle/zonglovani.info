@@ -9,7 +9,7 @@
 </div>
 </div>
 
-{if preg_match('/(android|mobile|iphone)/i',$smarty.server.HTTP_USER_AGENT)}
+{if preg_match('/(android|mobile|iphone|opera mini)/i',$smarty.server.HTTP_USER_AGENT)}
 {literal}
 <script type="text/javascript">
 window.addEventListener('load', function(e) {
