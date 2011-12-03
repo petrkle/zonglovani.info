@@ -2,7 +2,7 @@
 <h3>Světlá varianta</h3>
 <p>
 <code>
-&lt;div id="zs-kalendar"&gt;&lt;/div&gt;<br />
+&lt;a href="http://zonglovani.info/kalendar" title="Kalendář žonglérských akcí" id="zs-kalendar"&gt;Kalendář žonglování&lt;/a&gt;<br />
 &lt;script src="http://zonglovani.info/kalendar/widget.js" type="text/javascript" charset="utf-8"&gt;&lt;/script&gt;
 </code>
 </p>
@@ -10,7 +10,7 @@
 <h3>Světlá varianta na šířku</h3>
 <p>
 <code>
-&lt;div id="zs-kalendar"&gt;&lt;/div&gt;<br />
+&lt;a href="http://zonglovani.info/kalendar" title="Kalendář žonglérských akcí" id="zs-kalendar"&gt;Kalendář žonglování&lt;/a&gt;<br />
 &lt;script src="http://zonglovani.info/kalendar/widget.js?css=http://zonglovani.info/css/ww-light.css" type="text/javascript" charset="utf-8"&gt;&lt;/script&gt;
 </code>
 </p>
@@ -18,7 +18,7 @@
 <h3>Tmavá varianta</h3>
 <p>
 <code>
-&lt;div id="zs-kalendar"&gt;&lt;/div&gt;<br />
+&lt;a href="http://zonglovani.info/kalendar" title="Kalendář žonglérských akcí" id="zs-kalendar"&gt;Kalendář žonglování&lt;/a&gt;<br />
 &lt;script src="http://zonglovani.info/kalendar/widget.js?css=http://zonglovani.info/css/w-dark.css" type="text/javascript" charset="utf-8"&gt;&lt;/script&gt;
 </code>
 </p>
@@ -29,14 +29,15 @@ Pomocí parametru <code>css</code> můžeš nastavit vlastní kaskádový styl p
 </p>
 <p>Parametr <code>filtr</code> umožňuje filtrovat zobrazované události podle toho kdo je vložil. Např.:</p>
 <p>
-<code>&lt;div id="zs-kalendar"&gt;&lt;/div&gt;<br />
+&lt;a href="http://zonglovani.info/kalendar" title="Kalendář žonglérských akcí" id="zs-kalendar"&gt;Kalendář žonglování&lt;/a&gt;<br />
 &lt;script src="http://zonglovani.info/kalendar/widget.js?css=http://kdesi.cz/zongl.css&amp;filtr=nekdo" type="text/javascript" charset="utf-8"&gt;&lt;/script&gt;</code>
 </p>
 <p>Zobrazí pouze události zadané uživatelem který má login "nekdo". Navíc se použije vlastní kaskádový styl. Login uživatele zjistíš z adresy profilu. Např.: http://zonglovani.info/lide/nekdo.html</p>
 
 <p>Parametr <code>ukaz=obrazky</code> přidá k událostem obrázky. Příklad použití:</p>
 <p>
-<code>&lt;div id="zs-kalendar"&gt;&lt;/div&gt;<br />
+<code>
+&lt;a href="http://zonglovani.info/kalendar" title="Kalendář žonglérských akcí" id="zs-kalendar"&gt;Kalendář žonglování&lt;/a&gt;<br />
 &lt;script src="http://zonglovani.info/kalendar/widget.js?ukaz=obrazky" type="text/javascript" charset="utf-8"&gt;&lt;/script&gt;</code>
 </p>
 <p><a href="/img/w/widget-img.png" title="Widget s obrázky">{obrazek soubor='widget-img.s.png' popisek='Widget s obrázky'}</a></p>

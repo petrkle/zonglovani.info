@@ -2,10 +2,10 @@
 // vyrobeno podle - http://alexmarandon.com/articles/web_widget_jquery/
 var jQuery;
 
-if (window.jQuery === undefined || window.jQuery.fn.jquery !== '1.4.4') {
+if (window.jQuery === undefined || window.jQuery.fn.jquery !== '1.7.1') {
     var script_tag = document.createElement('script');
     script_tag.setAttribute("type","text/javascript");
-    script_tag.setAttribute("src","http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js");
+    script_tag.setAttribute("src","http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js");
     script_tag.onload = scriptLoadHandler;
     script_tag.onreadystatechange = function () {
         if (this.readyState == 'complete' || this.readyState == 'loaded') {
@@ -59,7 +59,7 @@ function main() {
         $.ajax({url:json_url, cache: true, contentType: "application/json; charset=utf-8", scriptCharset: "utf-8", dataType: 'jsonp', jsonpCallback: 't_'+d.getFullYear()+'_'+(d.getMonth()+1)+'_'+d.getDate(), success: function(data) {
 				var pocet=0;
 
-          $('#zs-kalendar').html('<div class="zs-event-list"><h4 class="zs-head zs-link"><a href="http://zonglovani.info/kalendar/" title="Kalendář žonglérských akcí" class="zs-link" tartet="_top">Kalendář žonglování</a></h4></div>');
+          $('#zs-kalendar').replaceWith('<div id="zs-kalendar"><div class="zs-event-list"><h4 class="zs-head zs-link"><a href="http://zonglovani.info/kalendar/" title="Kalendář žonglérských akcí" class="zs-link" tartet="_top">Kalendář žonglování</a></h4></div></div>');
 					$.each(data,function(id,akce){
 						var udalost='<div class="zs-event"><h5 class="zs-nadpis"><a href="'+akce[0].url+'" title="'+akce[0].desc+'" target="_top" class="zs-link">'+akce[0].title+'</a></h5>';
 						udalost=udalost+'<div class="zs-datum">'+akce[0].start+'</div>';
