@@ -10,7 +10,6 @@
 </div>
 
 {if preg_match('/(android|mobile|iphone)/i',$smarty.server.HTTP_USER_AGENT)}
-a
 {literal}
 <script type="text/javascript">
 window.addEventListener('load', function(e) {
