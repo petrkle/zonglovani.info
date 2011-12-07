@@ -22,7 +22,7 @@
 
     <krok>
 			<obrazek>kuzely-passing-boston4h</obrazek>
-			<popisek>Stoupněte si do pětiúhlelníku. &lt;b&gt;B&lt;/b&gt; začíná s &lt;b&gt;E&lt;/b&gt;, &lt;b&gt;C&lt;/b&gt; s &lt;b&gt;D&lt;/b&gt;. &lt;b&gt;A&lt;/b&gt; hází první pass sám sobě - vlastně normálně žongluje.</popisek>
+			<popisek>Stoupněte si do pětiúhelníku. &lt;b&gt;B&lt;/b&gt; začíná s &lt;b&gt;E&lt;/b&gt;, &lt;b&gt;C&lt;/b&gt; s &lt;b&gt;D&lt;/b&gt;. &lt;b&gt;A&lt;/b&gt; hází první pass sám sobě - vlastně normálně žongluje.</popisek>
     </krok>
 
     <krok>
@@ -63,7 +63,7 @@
 
     <krok>
 			<obrazek>kuzely-passing-boston4b</obrazek>
-			<popisek>&lt;b&gt;D&lt;/b&gt;ruhý pass: &lt;b&gt;C&lt;/b&gt; -&gt; &lt;b&gt;B&lt;/b&gt;. &lt;b&gt;A&lt;/b&gt; a &lt;b&gt;D&lt;/b&gt; hází self.</popisek>
+			<popisek>Druhý pass: &lt;b&gt;C&lt;/b&gt; -&gt; &lt;b&gt;B&lt;/b&gt;. &lt;b&gt;A&lt;/b&gt; a &lt;b&gt;D&lt;/b&gt; hází self.</popisek>
     </krok>
 
     <krok>
@@ -74,7 +74,7 @@
 
     <krok>
 			<obrazek>kuzely-passing-boston4d</obrazek>
-			<popisek>Čtrvrý pass: &lt;b&gt;D&lt;/b&gt; -&gt; &lt;b&gt;A&lt;/b&gt;. &lt;b&gt;C&lt;/b&gt; a &lt;b&gt;B&lt;/b&gt; hází self.</popisek>
+			<popisek>Čtvrtý pass: &lt;b&gt;D&lt;/b&gt; -&gt; &lt;b&gt;A&lt;/b&gt;. &lt;b&gt;C&lt;/b&gt; a &lt;b&gt;B&lt;/b&gt; hází self.</popisek>
     </krok>
 
 
