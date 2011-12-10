@@ -2,16 +2,18 @@
 
 <a name="fb"></a><h3><a href="http://www.facebook.com/zongleruv.slabikar" class="external" onclick="_gaq.push(['_trackPageview','/goto/facebook.com/zongleruv.slabikar']);">Klikni na "To se mi líbí"</a></h3>
 <p>
-<a href="http://www.facebook.com/zongleruv.slabikar" onclick="_gaq.push(['_trackPageview','/goto/facebook.com/zongleruv.slabikar']);">{obrazek soubor='facebook-logo.png' popisek='Žonglérův slabikář na facebooku.'}</a>
-Podpoř <a href="http://www.facebook.com/zongleruv.slabikar" class="external" onclick="_gaq.push(['_trackPageview','/goto/facebook.com/pages/zongleruv.slabikar']);">žonglérův slabikář na Facebooku</a>. Dozvíš se tak o všech novinkách v žonglérově slabikáři. Žonglérův slabikář na:
-<ul class="szn">
+<a href="http://www.facebook.com/zongleruv.slabikar" onclick="_gaq.push(['_trackPageview','/goto/facebook.com/zongleruv.slabikar']);">{obrazek soubor='fb-logo.png' popisek='Žonglérův slabikář na facebooku.'}</a>
+Podpoř <a href="http://www.facebook.com/zongleruv.slabikar" class="external" onclick="_gaq.push(['_trackPageview','/goto/facebook.com/pages/zongleruv.slabikar']);">žonglérův slabikář na Facebooku</a>. Dozvíš se tak o všech novinkách v žonglérově slabikáři.</p>
+
+<p>Žonglérův slabikář najdeš také na:</p>
+<ul>
+<li><a href="http://zonglovani.rajce.idnes.cz/" class="external" onclick="_gaq.push(['_trackPageview','/goto/zonglovani.rajce.idnes.cz']);">rajce.net</a></li>
 <li><a href="http://juggling.tv/users/4431/zonglovani.info" class="external" onclick="_gaq.push(['_trackPageview','/goto/juggling.tv/users/4431']);">juggling.tv</a></li>
 <li><a href="http://www.youtube.com/ZongleruvSlabikar" class="external" onclick="_gaq.push(['_trackPageview','/goto/youtube.com/ZongleruvSlabikar']);">youtube.com</a></li>
 <li><a href="http://twitter.com/zonglovani" onclick="_gaq.push(['_trackPageview','/goto/twitter.com/zonglovani']);">twitter.com</a></li>
 <li><a href="https://foursquare.com/zonglovani" onclick="_gaq.push(['_trackPageview','/goto/foursquare.com/zonglovani']);">foursquare.com</a></li>
 <li><a href="https://plus.google.com/113185830714954615444" onclick="_gaq.push(['_trackPageview','/goto/google+']);">google+</a></li>
 </ul>
-</p>
 
 <h3><a href="{$smarty.const.LIDE_URL}novy-ucet.php">Založ si účet</a></h3>
 <p>
