@@ -18,7 +18,7 @@ Přehrát video přímo na stránce <a href="http://youtu.be/{$video.fid|escape}
 {if $video.delka}Délka: {$video.delka|escape}{/if}{if $video.rozliseni} Rozlišení: {$video.rozliseni|escape}{/if}
 </p>
 <p>
-Adresa videa: <a href="http://youtube.com?v={$video.fid|escape}" class="external" onclick="_gaq.push(['_trackPageview','/goto/youtu.be/{$video.fid|escape}']);">http://youtu.be/{$video.fid|escape}</a>
+Adresa videa: <a href="http://youtu.be/{$video.fid|escape}" class="external" onclick="_gaq.push(['_trackPageview','/goto/youtu.be/{$video.fid|escape}']);">http://youtu.be/{$video.fid|escape}</a>
 </p>
 {/if}
 
