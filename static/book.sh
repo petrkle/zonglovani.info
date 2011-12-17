@@ -4,7 +4,8 @@ OUTDIR=zs
 INDIR=zongleruv-slabikar
 export IFS='
 '
-
+rm -rf $OUTDIR
+[ -d $INDIR ] || ./stahni.sh
 [ -d $OUTDIR ] || cp -r $INDIR $OUTDIR
 
 cp obalka.png $OUTDIR

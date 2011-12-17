@@ -1,3 +1,9 @@
+<h3><a href="/download/pdf.html" title="Podrobnosti o pdf">Žonglérův slabikář</a></h3>
+<p>
+<a href="/download/pdf.html" title="Podrobnosti o pdf">{obrazek soubor="package-pdf.png" popisek="Žonglérův slabikář"}</a>
+PDF verze žonglérova slabikáře. Vhodné pro <b>oboustranný tisk</b>. 151&nbsp;stránek.
+</p>
+
 <a name="zps"></a><h3><a href="/zonglovanie-pre-samoukov.pdf" title="Základy žonglování s míčky." onclick="_gaq.push(['_trackPageview','/zonglovanie-pre-samoukov.pdf']);" class="pdf">Žonglovanie pre samoukov</a></h3>
 <p>
 <a href="/zonglovanie-pre-samoukov.pdf" title="Základy žonglování s míčky." onclick="_gaq.push(['_trackPageview','/zonglovanie-pre-samoukov.pdf']);">{obrazek soubor="zonglovanie-pre-samoukov.gif" popisek="Žonglovanie pre samoukov - obálka"}</a>

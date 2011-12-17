@@ -24,6 +24,7 @@ wget \
 	-X animace,video,obrazky,mapa,kalendar,ulita,lide,diskuse,obrazky-na-plochu,navody,scripts,horoskop,vyhledavani,tip,rss,download
 
 mv zongl.info zongleruv-slabikar
+cp ../img/t/tel-*.png zongleruv-slabikar/img/t
 #	'jak-odkazovat.html', \
 #	'prihlaseni.php*', \
 #	'diskuse*', \

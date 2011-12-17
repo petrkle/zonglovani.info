@@ -11,7 +11,7 @@ $trail = new Trail();
 $trail->addStep($titulek,'/download/');
 $downloads=get_downloads();
 $smarty->assign_by_ref('downloads', $downloads);
-$smarty->assign('poradi', array('mobi','epub','exe','msi','tar.bz2'));
+$smarty->assign('poradi', array('pdf','mobi','epub','exe','msi','tar.bz2'));
 
 if(isset($_GET['id'])){
 	if(isset($downloads[$_GET['id']])){

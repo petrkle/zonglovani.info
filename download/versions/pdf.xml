@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package>
+
+	<description>Žonglérův slabikář v PDF. Vhodné pro &lt;strong&gt;oboustranný tisk&lt;/strong&gt;.</description>
+
+	<release>
+		<version>0.4</version>
+		<filename>zongleruv-slabikar-0.4.pdf</filename>
+		<size>5M</size>
+		<md5>105a32ce10b419c499009322f7d958ed</md5>
+		<date>2011-12-17</date>
+		<img>package-pdf.png</img>
+	</release>
+
+</package>

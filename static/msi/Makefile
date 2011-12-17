@@ -1,4 +1,4 @@
-VERSION=0.3
+VERSION=0.4
 
 zongleruv-slabikar-${VERSION}.exe: zongleruv-slabikar-${VERSION}.msi zonglovani.conf zonglovani.7z
 	copy /b 7zSD.sfx + zonglovani.conf + zonglovani.7z zongleruv-slabikar-${VERSION}.exe
@@ -14,3 +14,4 @@ clean:
 	zongleruv-slabikar-${VERSION}.msi \
 	zongleruv-slabikar-${VERSION}.exe
 #heat dir ccleaner -gg -out clean.files
+#heat dir zongleruv-slabikar -projectname zongleruv-slabikar -sfrag -dr zongleruv-slabikar -gg -out zs.files

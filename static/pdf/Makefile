@@ -1,4 +1,4 @@
-VERSION=0.3
+VERSION=0.4
 
 book:
 	./priprav-obrazky.sh
@@ -20,4 +20,4 @@ obr:
 	./priprav-obrazky.sh
 
 clean:
-	rm -rf zongleruv-slabikar-0.3.* ctyri-micky.* tri-micky.* pet-micku.* kruhy.* kuzely.* passing.* texput.log img
+	rm -rf zongleruv-slabikar-${VERSION}.* ctyri-micky.* tri-micky.* pet-micku.* kruhy.* kuzely.* passing.* texput.log img

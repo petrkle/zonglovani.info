@@ -4,6 +4,15 @@
 	<description>Žonglérův slabikář jako elektronická kniha. Formát epub podporuje mnoho čteček elektronických knih.</description>
 
 	<release>
+		<version>0.4</version>
+		<filename>zongleruv-slabikar-0.4.epub</filename>
+		<size>3M</size>
+		<md5>a45316c7304a5bdaad51ec3e6916f3c5</md5>
+		<date>2011-12-17</date>
+		<img>package-epub.png</img>
+	</release>
+
+	<release>
 		<version>0.3</version>
 		<filename>zongleruv-slabikar-0.3.epub</filename>
 		<size>3M</size>

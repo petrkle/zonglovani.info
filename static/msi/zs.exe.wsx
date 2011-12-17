@@ -1,0 +1,6 @@
+<Component Id="cmpExeLauncher" Guid="7cc466c1-1fe4-49c7-a072-75b38099ccf7">
+		<File Id="fileExeLauncher" KeyPath="yes" Source="zongleruv-slabikar\zs.exe">
+			<Shortcut Id="desktoplink" Advertise="yes" Directory="DesktopFolder" Name="Žonglérův slabikář" Icon="zonglIcon.exe" />
+			<Shortcut Id="startmenulink" Advertise="yes" Directory="ProgramMenuFolder" Name="Žonglérův slabikář" Icon="zonglIcon.exe" />
+		</File>
+</Component>
