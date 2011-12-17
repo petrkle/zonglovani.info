@@ -5,10 +5,11 @@ function smarty_function_vypismenu($params, &$smarty){
 	$texty = array('Úvodní stránka','Novinky','Míčky','Kruhy','Kužely','Žongléři','Ostatní','Žonglování v&nbsp;Ulitě');
 	$popis = array('Úvodní stránka žonglérova slabikáře','Novinky ze světa žonglování','Začínáme s míčky','Začínáme s kruhy','Začínáme s kužely','Seznam uživatelů žonglérova slabikáře.','Vše ostatní o žonglování','Nedělní žonglování v Ulitě');
 	
+	$excluded=array(1,5,7);
 	$navrat="<ul>\n";
 
 	for($foo=0;$foo<count($adresy);$foo++){
-	if($foo==5 or $foo==1){
+	if(in_array($foo,$excluded)){
 			$navrat.="\n<!-- start -->\n";
 	}
 
@@ -27,7 +28,7 @@ function smarty_function_vypismenu($params, &$smarty){
 	if($foo==1 and is_logged() and isset($_SESSION['changes'])){
 			$navrat.="\n-->\n";
 	}
-	if($foo==5 or $foo==1){
+	if(in_array($foo,$excluded)){
 			$navrat.="\n<!-- stop -->\n";
 	}
 	}
