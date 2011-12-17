@@ -16,7 +16,7 @@ my $zs_nadpisy = $bot->get('http://zongl.info/micky/3/mm.html');
 
 my $nadpisy = $zs_nadpisy->content();
 
-ok($nadpisy =~ /<h2>Mills mess<\/h2>/, 'Nadpis druhé úrovně');
+ok($nadpisy =~ /<h2>Mills' mess<\/h2>/, 'Nadpis druhé úrovně');
 
 ok($nadpisy =~ /<p>\nTak a teď stačí přidat už jen jeden míček.\n<\/p>/, 'Odstavec bez obrázku');
 
