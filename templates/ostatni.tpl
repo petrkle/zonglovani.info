@@ -58,11 +58,13 @@ Několik slovíček, které se často vyskytují v anglicky psaných textech o �
 Pravidelný trénink je základ.
 </p>
 
+<!-- start -->
 <h3><a href="/horoskop/" title="Žonglérský horoskop pro dnešek a zítřek.">Horoskop žonglování</a></h3>
 <p>
 <a href="/horoskop/" title="Žonglérský horoskop pro dnešek a zítřek.">{obrazek soubor="horoskop.png" popisek="Horoskop"}</a>
 Horoskop pro žonglérky a žongléry. Každý den ti poradí co je nejlepší trénovat.
 </p>
+<!-- stop -->
 
 <h3><a href="/chudy/" title="Žonglování na chůdách">Chůdy</a></h3>
 <p>
@@ -70,11 +72,13 @@ Horoskop pro žonglérky a žongléry. Každý den ti poradí co je nejlepší t
 Návod na výrobu chůd a žonglování na chůdách.
 </p>
 
+<!-- start -->
 <h3><a href="/rss.html" title="RSS exporty.">RSS kanály</a></h3>
 <p>
 <a href="/rss.html" title="RSS exporty.">{obrazek soubor="rss.png" popisek="RSS"}</a>
 Upozorňování na novinky v žonglérově slabikáři.
 </p>
+<!-- stop -->
 
 <h3><a href="/changelog.html" title="Změny v žonglérově slabikáři.">Změny v žonglérově slabikáři</a></h3>
 <p>
@@ -82,11 +86,13 @@ Upozorňování na novinky v žonglérově slabikáři.
 Výpis změn a úprav v žonglérově slabikáři.
 </p>
 
+<!-- start -->
 <h3><a href="/ulita/" title="Nedělní žonglování v Ulitě.">Žonglování v Ulitě</a></h3>
 <p>
 <a href="/ulita/" title="Žonglování v Ulitě">{obrazek soubor="ulita.cz.png" popisek="Ulita"}</a>
 Nedělní žonglování v DDM Ulita.
 </p>
+<!-- stop -->
 
 <h3><a href="/obrazky-na-plochu/" title="Žonglérské wallpapery">Obrázky na plochu</a></h3>
 <p>
@@ -94,11 +100,13 @@ Nedělní žonglování v DDM Ulita.
 Obrázky na plochu počítače s žonglérskou tématikou
 </p>
 
+<!-- start -->
 <h3><a href="/animace/" title="Názorná videa žonglování s míčky.">Animace žonglování</a></h3>
 <p>
 <a href="/animace/" title="Názorná videa žonglování s míčky.">{obrazek soubor="animace-panacek.png" popisek="Animace žonglování s míčky"}</a>
 Animace žonglování s míčky.
 </p>
+<!-- stop -->
 
 <h3><a href="/juggling-tv.html" title="Žonglérská televize">juggling.tv</a></h3>
 <p>

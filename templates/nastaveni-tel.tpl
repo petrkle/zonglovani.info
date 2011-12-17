@@ -10,7 +10,7 @@
 <fieldset>
 <legend>Tvoje telefonní číslo</legend>
 <ul>
-<li><label for="web" accesskey="t" class="kratkypopis"><span class="u">T</span>elefon:</label><input type="text" name="tel" id="tel" value="{$tel|escape}" class="textbox" tabindex="1" /><a class="info" href="#">?<span class="tooltip">Tvoje telefonní číslo. Tvar "+420 aaa bbb ccc" nebo "+421 aaa bbb ccc".</span></a></li>
+<li><label for="web" accesskey="t" class="kratkypopis"><span class="u">T</span>elefon:</label><input type="text" name="tel" id="tel" value="{$tel|escape}" class="textbox" tabindex="1" /><div class="tooltip">Tvoje telefonní číslo. Tvar "+420 aaa bbb ccc" nebo "+421 aaa bbb ccc".</div></li>
 </ul>
 </fieldset>
 

@@ -9,7 +9,7 @@
 <fieldset>
 <legend>Jméno</legend>
 <ul>
-<li><label for="jmeno" accesskey="m" class="kratkypopis">J<span class="u">m</span>éno:</label><input type="text" name="jmeno" id="jmeno" value="{$jmeno|escape}" class="textbox" tabindex="1" /><a class="info" href="#">?<span class="tooltip">Tvoje jméno. Minimální délka 3 znaky.</span></a></li>
+<li><label for="jmeno" accesskey="m" class="kratkypopis">J<span class="u">m</span>éno:</label><input type="text" name="jmeno" id="jmeno" value="{$jmeno|escape}" class="textbox" tabindex="1" /><div class="tooltip">Tvoje jméno. Minimální délka 3 znaky.</div></li>
 </ul>
 </fieldset>
 

@@ -14,7 +14,7 @@
 <fieldset>
 <legend>Fotografie</legend>
 <ul>
-<li><label for="foto" accesskey="f" class="kratkypopis"><span class="u">F</span>otografie:</label><input type="file" name="foto" id="foto" class="textbox" tabindex="1" /><a class="info" href="#">?<span class="tooltip">Tvoje fotografie. Formát JPG, maximální velikost 500KiB. Maximální rozměr 1280x1280px.</span></a></li>
+<li><label for="foto" accesskey="f" class="kratkypopis"><span class="u">F</span>otografie:</label><input type="file" name="foto" id="foto" class="textbox" tabindex="1" /><div class="tooltip">Tvoje fotografie. Formát JPG, maximální velikost 500KiB. Maximální rozměr 1280x1280px.</div></li>
 </ul>
 </fieldset>
 
