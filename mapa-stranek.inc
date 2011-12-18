@@ -58,6 +58,7 @@
 		<li><a href="/download/licence.html">Licence</a></li>
 		<li><a href="/download/mobi.html">Soubory ke stažení - mobi</a></li>
 		<li><a href="/download/msi.html">Soubory ke stažení - msi</a></li>
+		<li><a href="/download/pdf.html">Soubory ke stažení - pdf</a></li>
 		<li><a href="/download/tar.bz2.html">Soubory ke stažení - tar.bz2</a></li>
 		</ul>
 		</li>
@@ -245,7 +246,7 @@
 			<li><a href="/micky/3/kometa.html">Žonglování se třemi míčky - Kometa</a></li>
 			<li><a href="/micky/3/krk.html">Žonglování se třemi míčky - Zachycení míčku za krk</a></li>
 			<li><a href="/micky/3/mlyn.html">Žonglování se třemi míčky - Větrný mlýn</a></li>
-			<li><a href="/micky/3/mm-falesne.html">Žonglování se třemi míčky - Falešné mills&#039; mess</a></li>
+			<li><a href="/micky/3/mm-falesne.html">Žonglování se třemi míčky - Falešné Mills&#039; mess</a></li>
 			<li><a href="/micky/3/mm.html">Žonglování se třemi míčky - Mills&#039; mess</a></li>
 			<li><a href="/micky/3/multiplex.html">Žonglování se třemi míčky - Multiplex</a></li>
 			<li><a href="/micky/3/nadhlavou.html">Žonglování se třemi míčky - Nad hlavou</a></li>
@@ -470,6 +471,9 @@
 			
 			</li>
 			<li><a name="zidovske-pece-20090404"></a><a href="/obrazky/zidovske-pece-20090404/">Židovské pece 4. 4. 2009 - obrázky žonglování</a>
+			
+			</li>
+			<li><a name="zongleruv-slabikar-na-papire-20111218"></a><a href="/obrazky/zongleruv-slabikar-na-papire-20111218/">Žonglérův slabikář na papíře - obrázky žonglování</a>
 			
 			</li>
 			<li><a name="zonglparty-20110528"></a><a href="/obrazky/zonglparty-20110528/">Žonglpárty 28. 5. 2011 - obrázky žonglování</a>

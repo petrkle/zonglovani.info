@@ -129,6 +129,12 @@
    </url>
 			
    <url>
+      <loc>http://zonglovani.info/changelog-26.html</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
       <loc>http://zonglovani.info/changelog-3.html</loc>
       <changefreq>monthly</changefreq>
       <priority>0.4</priority>
@@ -3351,6 +3357,12 @@
    </url>
 			
    <url>
+      <loc>http://zonglovani.info/diskuse/stranka21.html</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
       <loc>http://zonglovani.info/diskuse/stranka3.html</loc>
       <changefreq>monthly</changefreq>
       <priority>0.4</priority>
@@ -3424,6 +3436,12 @@
 			
    <url>
       <loc>http://zonglovani.info/download/msi.html</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/download/pdf.html</loc>
       <changefreq>monthly</changefreq>
       <priority>0.4</priority>
    </url>
@@ -5403,6 +5421,12 @@
    </url>
 			
    <url>
+      <loc>http://zonglovani.info/kalendar/udalost-20111221-20111221-pek-1323242175.html</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.7</priority>
+   </url>
+			
+   <url>
       <loc>http://zonglovani.info/kalendar/udalost-20120115-20120115-pek-1316975825.html</loc>
       <changefreq>monthly</changefreq>
       <priority>0.7</priority>
@@ -6201,12 +6225,6 @@
    </url>
 			
    <url>
-      <loc>http://zonglovani.info/lide/lampiczka.html</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.6</priority>
-   </url>
-			
-   <url>
       <loc>http://zonglovani.info/lide/ledo.html</loc>
       <changefreq>weekly</changefreq>
       <priority>0.6</priority>
@@ -6226,6 +6244,12 @@
 			
    <url>
       <loc>http://zonglovani.info/lide/luciaska.html</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.6</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/lide/lukas.janka.html</loc>
       <changefreq>weekly</changefreq>
       <priority>0.6</priority>
    </url>
@@ -6477,12 +6501,6 @@
    </url>
 			
    <url>
-      <loc>http://zonglovani.info/lide/ssttaannaa.html</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.6</priority>
-   </url>
-			
-   <url>
       <loc>http://zonglovani.info/lide/tejklin.html</loc>
       <changefreq>weekly</changefreq>
       <priority>0.6</priority>
@@ -6502,12 +6520,6 @@
 			
    <url>
       <loc>http://zonglovani.info/lide/ujs.html</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.6</priority>
-   </url>
-			
-   <url>
-      <loc>http://zonglovani.info/lide/vladino.html</loc>
       <changefreq>weekly</changefreq>
       <priority>0.6</priority>
    </url>
@@ -20446,6 +20458,78 @@
 			
    <url>
       <loc>http://zonglovani.info/obrazky/zidovske-pece-20090404/stranka1/</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.6</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/zongleruv-slabikar-na-papire-20111218/</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.6</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/zongleruv-slabikar-na-papire-20111218/0000.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/zongleruv-slabikar-na-papire-20111218/0001.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/zongleruv-slabikar-na-papire-20111218/0002.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/zongleruv-slabikar-na-papire-20111218/0003.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/zongleruv-slabikar-na-papire-20111218/0004.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/zongleruv-slabikar-na-papire-20111218/0005.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/zongleruv-slabikar-na-papire-20111218/0006.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/zongleruv-slabikar-na-papire-20111218/0007.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/zongleruv-slabikar-na-papire-20111218/0008.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/zongleruv-slabikar-na-papire-20111218/0009.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/zongleruv-slabikar-na-papire-20111218/stranka1/</loc>
       <changefreq>yearly</changefreq>
       <priority>0.6</priority>
    </url>
