@@ -19,7 +19,9 @@ Stránkování: {$pager_links}
 {if $gal_info.mail != 'admin@zonglovani.info'}
 {if $gal_info.autor or $gal_info.mail or $gal_info.url}
 <div class="spacer">&nbsp;</div>
+{if $gal_info.autor or $gal_info.mail}
 <h3>Autor fotografií</h3>
+{/if}
 {if $gal_info.autor}
 <p>{$gal_info.autor|escape}</p>
 {/if}

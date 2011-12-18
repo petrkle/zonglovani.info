@@ -135,7 +135,7 @@
 2011-12-05*Vánoční žonglování*/kalendar/udalost-20111210-20111210-pek-1322138854.html*bratri.jpg*Volné předvánoční žonglování. Bude k dispozici velká tělocvična s ozvučením, žonglovací obchod Žongluj Imrvére a workshopy pro začátečníky.
 2011-12-11*Reading Roundabouts*/video/readingroundabouts.html*readingroundabouts.jpg*Passing jako na kolotoči.
 2011-12-14*Krabice*/micky/4/krabice.html*micky-4-krabiceb.png*Box se čtyřmi míčky.
-2011-12-19*Simulátory žonglování*/software.html*joepass.png*Počítačové programy, které po zadání triku v zobrazí animaci. Vhodné při učení nových triků.
+2011-12-19*Veselé vánoce*/vanoce-2011.html*diabolo-sipek.s.jpg*Veselé vánoční svátky. Ať vám to lítá :^)
 2011-12-26*Anglicko-český žonglérský slovníček*/aczslovnicek.html*slovnik.jpg*Několik slovíček, které se často vyskytují v anglicky psaných textech o žonglování.
 2012-01-02*Passování do všech rukou*/kuzely/passing/all-hands.html*kuzely-passing-allhandsc.png*Obtížnější trik pro dva žongléry a šest kuželů.
 2012-01-09*Žonglování v Ulitě*/ulita/?20120115*ulita.cz.png*Pravidelné nedělní žonglování v DDM Ulita. Přijít mohou začínající i zkušení žongléři a žonglérky.
@@ -148,7 +148,7 @@
 2012-02-27*Druhy hodů při passování*/kuzely/passing/hody.html*kuzely-passing-hodyg.png*Kužely lze házet mnoha různými způsoby.
 2012-03-05*Výhody pro registrované uživatele*/exkurze.html*exkurze-nastaveni.s.png*Obrázky a popis výhod pro registrované uživatele žonglérova slabikáře.
 2012-03-12*Žonglování v Ulitě*/ulita/?20120205*ulita.cz.png*Pravidelné nedělní žonglování v DDM Ulita. Přijít mohou začínající i zkušení žongléři a žonglérky.
-2012-03-19*
+2012-03-19*Simulátory žonglování*/software.html*joepass.png*Počítačové programy, které po zadání triku v zobrazí animaci. Vhodné při učení nových triků.
 2012-03-26*
 2012-04-02*
 2012-04-09*
