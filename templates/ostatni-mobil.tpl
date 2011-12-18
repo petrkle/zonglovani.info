@@ -13,8 +13,8 @@
 </p>
 
 <p>
-<a href="/img/m/mobil-xperia-w.jpg">{obrazek soubor='mobil-xperia-w.s.jpg' popisek='Sony Ericsson Xperia X8'}</a>
-Zobrazení na šířku.
+<a href="/img/m/mobil-samsung-star-ii.jpg">{obrazek soubor='mobil-samsung-star-ii.s.jpg' popisek='Samsung Star II'}</a>
+Žonglérův slabikář na mobilním telefonu Samsung Star II.
 </p>
 
 <p>
