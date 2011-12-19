@@ -136,7 +136,8 @@
 2011-12-11*Reading Roundabouts*/video/readingroundabouts.html*readingroundabouts.jpg*Passing jako na kolotoči.
 2011-12-14*Krabice*/micky/4/krabice.html*micky-4-krabiceb.png*Box se čtyřmi míčky.
 2011-12-19*Veselé vánoce*/vanoce-2011.html*diabolo-sipek.s.jpg*Veselé vánoční svátky. Ať vám to lítá :^)
-2011-12-26*PF 2012*/pf-2012.html*snehulacek.png*Hodně štěstí a zdraví v novém roce. Ať vám to lítá :^)
+2011-12-21*Žonglérův slabikář na papíře*/obrazky/zongleruv-slabikar-na-papire-20111218/0000.html*zsp.jpg*Žonglérův slabikář si můžeš jednoduše vytisknout na papír. Ke stažení je PDF soubor o 151 stránkách. Devět z deseti žonglérů doporučuje oboustranný tisk a kroužkovou vazbu.
+2011-12-28*PF 2012*/pf-2012.html*snehulacek.png*Hodně štěstí a zdraví v novém roce. Ať vám to lítá :^)
 2012-01-02*Passování do všech rukou*/kuzely/passing/all-hands.html*kuzely-passing-allhandsc.png*Obtížnější trik pro dva žongléry a šest kuželů.
 2012-01-09*Žonglování v Ulitě*/ulita/?20120115*ulita.cz.png*Pravidelné nedělní žonglování v DDM Ulita. Přijít mohou začínající i zkušení žongléři a žonglérky.
 2012-01-16*Překulení kuželky přes hlavu*/kuzely/headroll.html*headrollc.png*Trik známý též pod anglickým názvem headroll.
