@@ -1,7 +1,7 @@
 #!/usr/bin/perl -w
 use strict;
 use WWW::Mechanize;
-use Test::More tests => 18;
+use Test::More tests => 19;
 use Net::Netrc;
 require('scripts/tests/func.pl');
 use Encode;
@@ -54,6 +54,7 @@ my @vzkazy = (
 	{'z'=>'[b]Polotučné [i]mléko[/i][/b]', 'v'=>'<b>Polotučné <i>mléko<\/i><\/b>', 't'=>'Vnořené tagy'},
 	{'z'=>'[blink]Nesmysl', 'v'=>'\[blink\]Nesmysl', 't'=>'Neexistující tag'},
 	{'z'=>'[b nějaký text', 'v'=>'\[b nějaký text', 't'=>'Neukončený tag'},
+	{'z'=>'ahhhhoooojjj', 'v'=>'řaděěě', 't'=>'Opakující se písmena'},
 	{'z'=>'[b]Ahoj [i]lidi[/b][/i]', 'v'=>'<b>Ahoj <i>lidi<\/i><\/b>', 't'=>'Překřížené tagy'},
 );
 

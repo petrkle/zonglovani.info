@@ -4,7 +4,7 @@ help:
 	@echo "obrmap   - aktualizuje mapu obrázků"
 	@echo "trikimg  - aktualizuje mapu obrázků z triků"
 	@echo "fupdate  - aktualizuje db pro fulltextove hledani"
-	@echo "tests    - otestuje funkčnost stranek"
+	@echo "test     - otestuje funkčnost stranek"
 	@echo "backup   - vytvori zalohu na flash disk"
 	@echo "datasync - zalohuje data uzivatelu"
 	@echo "clean    - smaze archiv se zmenenymi soubory"
@@ -21,7 +21,7 @@ trikimg:
 fupdate:
 	./scripts/fulltext-update.sh
 
-tests:
+test:
 	./scripts/tests/zavislosti.sh
 	./scripts/tests/tests.pl
 

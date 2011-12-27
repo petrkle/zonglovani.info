@@ -44,6 +44,10 @@ $trail->addStep('Nastavení',LIDE_URL.'nastaveni/');
 				if(preg_match('/[0-9]$/',$jmeno)){
 					array_push($chyby,'Jméno nesmí končit číslicí.');
 				}
+				if(preg_match('/(.)\\1{2,}/i',$jmeno)){
+					array_push($chyby,"Příliš mnoho opakujících se písmen v řaděěě za sebou.");
+				}
+
 				if(count($chyby)==0){
 					$foo=fopen(LIDE_DATA.'/'.$_SESSION['uzivatel']['login'].'/jmeno.txt','w');
 					fwrite($foo,$jmeno);

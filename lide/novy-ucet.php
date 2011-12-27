@@ -44,7 +44,13 @@ if(strlen($jmeno)<3){
 }elseif(podil_velkych_pismen($jmeno)>MAX_BIG_LETTERS){
 	array_push($chyby,'Podíl VELKÝCH písmen ve jméně je větší než '.(MAX_BIG_LETTERS*100).'%.');
 	array_push($chyby,'Zkontroluj, jestli není zaseklá klávesa Shift nebo Caps Lock.');
-}elseif(strlen($jmeno)>256){
+}elseif(preg_match('/(.)\\1{2,}/i',$jmeno)){
+	array_push($chyby,"Příliš mnoho opakujících se písmen v řaděěě za sebou.");
+}elseif(preg_match('/^[0-9]/',$jmeno)){
+					array_push($chyby,'Jméno nesmí začínat číslicí.');
+}elseif(preg_match('/[0-9]$/',$jmeno)){
+					array_push($chyby,'Jméno nesmí končit číslicí.');
+}elseif(strlen($jmeno)>40){
 	array_push($chyby,"Jméno je příliš dlouhé.");
 }elseif(preg_match('/[-\*\.\?\!<>;\^\$\{\}\@%\&\(\)\'\"_:´ˇ\\|#`~,]/i',$jmeno)){
 	array_push($chyby,"Jméno obsahuje nepovolené znaky.");

@@ -1,11 +1,11 @@
 #!/usr/bin/perl -w
 use strict;
 use WWW::Mechanize;
-use Test::More tests => 30;
+use Test::More tests => 40;
 use Net::Netrc;
 use String::MkPasswd qw(mkpasswd);
+use Encode;
 require('scripts/tests/func.pl');
-use Data::Dumper;
 
 my $nove_heslo = mkpasswd(-length => 13, -minnum => 4, -minlower => 4, -minupper => 2, -minspecial => 3);
 my $jmeno = mkpasswd(-length => 10, -minnum => 0, -minlower => 4, -minupper => 2, -minspecial => 0);
@@ -20,11 +20,39 @@ my $vzkaz = mkpasswd(-length => 50, -minnum => 0, -minlower => 20, -minupper => 
 my $bot = WWW::Mechanize->new(autocheck => 1);
 $bot->cookie_jar(HTTP::Cookies->new());
 
+my @spatneudaje = (
+	{'j'=>'Jméno', 'e'=>'email', 'v'=>'Neplatný e-mail', 't'=>'E-mail bez zavináče'},
+	{'j'=>'Jméno', 'e'=>'email@nekde', 'v'=>'Neplatný e-mail', 't'=>'E-mail bez tld'},
+	{'j'=>'JMÉNO', 'e'=>'email@nekde.cz', 'v'=>'Podíl VELKÝCH písmen', 't'=>'Příliš mnoho velkých písmen'},
+	{'j'=>'ahoooooj', 'e'=>'email@nekde.cz', 'v'=>'v řaděěě za sebou', 't'=>'Opakující se písmena'},
+	{'j'=>'ah88888j', 'e'=>'email@nekde.cz', 'v'=>'v řaděěě za sebou', 't'=>'Opakující se číslice'},
+	{'j'=>'9opic', 'e'=>'email@nekde.cz', 'v'=>'Jméno nesmí začínat číslicí', 't'=>'Číslice na začátku jména'},
+	{'j'=>'opice5', 'e'=>'email@nekde.cz', 'v'=>'Jméno nesmí končit číslicí', 't'=>'Číslice na konci jména'},
+	{'j'=>'a', 'e'=>'email@nekde.cz', 'v'=>'příliš krátké', 't'=>'Krátké jméno'},
+	{'j'=>'Kar?el', 'e'=>'email@nekde.cz', 'v'=>'nepovolené znaky', 't'=>'Nepovolené znaky'},
+	{'j'=>'abcdefghijklmnopqrabcdefghijklmnopqrabcdefghijklmnopqrabcdefghijklmnopqr', 'e'=>'email@nekde.cz', 'v'=>'příliš dlouhé', 't'=>'Dlouhé jméno'},
+);
+
+foreach my $foo (@spatneudaje){
+	my $reg_formular = $bot->get('http://zongl.info/lide/novy-ucet.php'); 
+
+	my $testovaci_udaje = {
+		'jmeno' => decode_utf8($foo->{'j'}),
+		'email' => $foo->{'e'},
+		'antispam' => get_vypocet($reg_formular->content()),
+	};
+
+	my $zs_reg = $bot->submit_form(form_number => 0,fields => $testovaci_udaje);
+
+	ok($zs_reg->content() =~ /$foo->{'v'}/, $foo->{'t'});
+}
+
 my $zs_pravidla = $bot->get('http://zongl.info/lide/novy-ucet.php');
 
 my $content=$zs_pravidla->content();
 
 ok($content =~ /<h1>Založit účet<\/h1>/, 'Formulář pro založení účtu');
+
 
 my $udaje = {
 	'jmeno' => $jmeno,

@@ -42,6 +42,10 @@ $cas=time();
 		array_push($chyby,'Zpráva je příliš krátká. Minimální délka je pět znaků.');
 	}
 
+	if(preg_match('/(.)\\1{2,}/i',$vzkaz)){
+		array_push($chyby,'Příliš mnoho opakujících se písmen v řaděěě za sebou.');
+	}
+
 	if(podil_velkych_pismen($vzkaz)>MAX_BIG_LETTERS){
 		array_push($chyby,'Podíl VELKÝCH písmen ve zprávě je větší než '.(MAX_BIG_LETTERS*100).'%.');
 		array_push($chyby,'Zkontroluj, jestli není zaseklá klávesa Shift nebo Caps Lock.');
