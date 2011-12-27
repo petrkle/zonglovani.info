@@ -655,8 +655,9 @@ function create_heslo(){
 function create_login($email){
 	$login='';
 	$email_parts=preg_split('/@/',$email);
-	$login=$email_parts[0];
-	$login=preg_replace('/[^a-zA-Z0-9]/','',$login);
+	$login=strtolower($email_parts[0]);
+	$login=preg_replace('/[^a-z]/','',$login);
+	$login=preg_replace('/(.)\\1{1,}/','\1',$login);
 
 	if(is_zs_account($login)){
 		$poradi=2;
