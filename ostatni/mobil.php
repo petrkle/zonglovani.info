@@ -10,6 +10,7 @@ $trail->addStep($titulek);
 $smarty->assign_by_ref('trail', $trail->path);
 $dalsi=array(
 	array('url'=>'/download/mobi.html','text'=>'Žonglérův slabikář pro Amazon Kindle','title'=>'Žonglérův slabikář ve formátu mobi.'),
+	array('url'=>'/download/pdf.html','text'=>'Žonglérův slabikář v PDF','title'=>'Vhodné pro oboustranný tisk.'),
 	);
 $smarty->assign_by_ref('dalsi',$dalsi);
 $smarty->assign('nahled','http://'.$_SERVER['SERVER_NAME'].'/img/m/mobil-optimus-one.s.jpg');

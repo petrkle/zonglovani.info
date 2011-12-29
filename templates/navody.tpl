@@ -24,3 +24,9 @@ Přehledně popsané základy žonglování se třemi míčky.
 <li>Velikost: 35K</li>
 <li><a href="/micky/jak-zacit.html" popisek="Náhled souboru">Náhled</a></li>
 </ul>
+
+<h3><a href="/download/pdf.html" title="Podrobnosti o pdf">Žonglérův slabikář</a></h3>
+<p>
+<a href="/download/pdf.html" title="Podrobnosti o pdf">{obrazek soubor="package-pdf.png" popisek="Žonglérův slabikář"}</a>
+PDF verze žonglérova slabikáře. Vhodné pro <b>oboustranný tisk</b>. 151&nbsp;stránek.
+</p>
