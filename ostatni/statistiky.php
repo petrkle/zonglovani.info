@@ -95,4 +95,3 @@ $smarty->display('hlavicka.tpl');
 $smarty->display('statistiky.tpl');
 $smarty->display('paticka.tpl');
 }
-?>

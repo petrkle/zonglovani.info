@@ -1,7 +1,6 @@
 Aktuální
 ========
 
-- inline js siteswap
 - obrázky na plochu, doplnit popisky a img sitemapu
 - odkazy další, předchozí v horoskopu
 - rozšíření - horoskop
@@ -113,6 +112,7 @@ zvětšit písmenka v obrázcích u 4, 3, 2, 1 count, pssp..
 odsunutí adresního řádku v mobilní verzi
 opravit klávesové zkratky v galerii - google chrome
 odkaz na bookbinder
+inline js siteswap
 
 .ssh/config
 ===========

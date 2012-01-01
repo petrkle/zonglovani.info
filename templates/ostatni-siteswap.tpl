@@ -44,7 +44,7 @@ Trojka znamená <a href="/micky/3/kaskada.html" title="Základní trik se třemi
 
 <!-- start -->
 <p class="animace">
-<a href="/animace/siteswap/3.html" title="Animace kaskády">{obrazek soubor='animace.png' popisek=''} Přehrát animaci</a>
+<a href="/animace/siteswap/3.html" title="Animace kaskády" onkeydown="{jsanimace a='3' prefix='siteswap'}" onclick="{jsanimace a='3' prefix='siteswap'}">{obrazek soubor='animace.s.png' popisek=''} Přehrát animaci</a>
 </p>
 <!-- stop -->
 
@@ -64,7 +64,7 @@ Další jednoduchý příklad: <a href="/micky/4/fontana.html" title="Základní
 
 <!-- start -->
 <p class="animace">
-<a href="/animace/siteswap/4.html" title="Animace fontány">{obrazek soubor='animace.png' popisek=''} Přehrát animaci</a>
+<a href="/animace/siteswap/4.html" title="Animace fontány" onkeydown="{jsanimace a='4' prefix='siteswap'}" onclick="{jsanimace a='4' prefix='siteswap'}">{obrazek soubor='animace.s.png' popisek=''} Přehrát animaci</a>
 </p>
 <!-- stop -->
 
@@ -91,7 +91,7 @@ Většina žonglérů zná tento trik pod názvem <a href="/micky/3/blesk.html" 
 
 <!-- start -->
 <p class="animace">
-<a href="/animace/siteswap/55500.html" title="Animace žonglování blesku">{obrazek soubor='animace.png' popisek=''} Přehrát animaci</a>
+<a href="/animace/siteswap/55500.html" title="Animace žonglování blesku" onkeydown="{jsanimace a='55500' prefix='siteswap'}" onclick="{jsanimace a='55500' prefix='siteswap'}">{obrazek soubor='animace.s.png' popisek=''} Přehrát animaci</a>
 </p>
 <!-- stop -->
 
@@ -112,9 +112,10 @@ Trik se jmenuje <a href="/micky/4/sprcha-polovicni.html" title="Trik se čtyřmi
 
 <!-- start -->
 <p class="animace">
-<a href="/animace/siteswap/53.html" title="Animace poloviční sprchy">{obrazek soubor='animace.png' popisek=''} Přehrát animaci</a>
+<a href="/animace/siteswap/53.html" title="Animace poloviční sprchy" onkeydown="{jsanimace a='53' prefix='siteswap'}" onclick="{jsanimace a='53' prefix='siteswap'}">{obrazek soubor='animace.s.png' popisek=''} Přehrát animaci</a>
 </p>
 <!-- stop -->
+
 
 <h3>Jak poznám s kolika míčky se žongluje&nbsp;53?</h3>
 
