@@ -19,6 +19,7 @@
 	<li><a href="/ostatni.html">Další informace o žonglování</a></li>
 	<li><a href="/pf-2010.html">PF 2010</a></li>
 	<li><a href="/pf-2011.html">PF 2011</a></li>
+	<li><a href="/pf-2012.html">PF 2012</a></li>
 	<li><a href="/podporte-zongleruv-slabikar.html">Podpořte žonglérův slabikář</a></li>
 	<li><a href="/proc-a-jak.html">Proč a jak vznikl žonglérův slabikář</a></li>
 	<li><a href="/rec-juggling.html">rec.juggling</a></li>
@@ -31,6 +32,7 @@
 	<li><a href="/twitter.html">Twitter - žonglování</a></li>
 	<li><a href="/vanoce-2009.html">Veselé Vánoce 2009</a></li>
 	<li><a href="/vanoce-2010.html">Veselé Vánoce 2010</a></li>
+	<li><a href="/vanoce-2011.html">Veselé Vánoce 2011</a></li>
 	<li><a href="/zakladni-pojmy.html">Žonglování - základní pojmy</a></li>
 		<li><a name="animace"></a><a href="/animace/">Animace žonglování</a>
 		<ul>
@@ -467,6 +469,9 @@
 			<li><a name="ulita-20111204"></a><a href="/obrazky/ulita-20111204/">Ulita 4. 12. 2011 - obrázky žonglování</a>
 			
 			</li>
+			<li><a name="ulita-20120115"></a><a href="/obrazky/ulita-20120115/">Ulita 15. 1. 2012 - obrázky žonglování</a>
+			
+			</li>
 			<li><a name="ulita-zbynkuv-vyber-20100312"></a><a href="/obrazky/ulita-zbynkuv-vyber-20100312/">Ulita - Zbyňkův výběr - obrázky žonglování</a>
 			
 			</li>
@@ -517,6 +522,7 @@
 		<li><a href="/video/don-texas.html">Don Texas</a></li>
 		<li><a href="/video/giraffe-theory.html">Giraffe Theory Juggling Glow Clubs</a></li>
 		<li><a href="/video/guava-winter-07-08.html">Guava over winter break 07-08</a></li>
+		<li><a href="/video/heroes.html">Heroes</a></li>
 		<li><a href="/video/hocus-pocus.html">Hocus Pocus</a></li>
 		<li><a href="/video/interrobang.html">Interrobang</a></li>
 		<li><a href="/video/ivy-and-gold.html">Ivy and Gold</a></li>
