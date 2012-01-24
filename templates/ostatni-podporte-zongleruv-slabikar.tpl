@@ -31,8 +31,8 @@ Přinese ti to následující výhody:
 {obrazek soubor="podporab.png" title="Pivo"}
 Jestli už ti bylo 18, tak mi můžeš koupit pivo. Např. <a href="/img/v/visen.jpg" title="Višeň s čistou hlavou" onclick="_gaq.push(['_trackPageview','/img/v/visen.jpg']);">višeň</a>, <a href="/img/s/svestka.jpg" title="Švestka s čistou hlavou" onclick="_gaq.push(['_trackPageview','/img/s/svestka.jpg']);">švestku</a>, <a href="/img/m/mikulas.jpg" title="Sváteční ležák s jemnými kvasnicemi" onclick="_gaq.push(['_trackPageview','/img/m/mikulas.jpg']);">Mikuláše</a> nebo <a href="/img/c/cert.jpg" title="Černý ležák s jemnými kvasnicemi" onclick="_gaq.push(['_trackPageview','/img/c/cert.jpg']);">čerta</a>.</p>
 
-<h3>Peněžní podpora</h3>
+<a name="p"></a><h3>Peněžní podpora</h3>
 <p>
 {obrazek soubor="podporac.png" title="Peníze"}
 Provoz adresy zonglovani.info stojí 1500 Kč ročně. Vaše příspěvky zajistí, že nebudu v mínusu a možná i <a href="/changelog.html" title="Seznam změn v žonglérově slabikáři">pravidelné aktualizace</a>. Navíc tu nebude spousta reklamy, která všechny ruší a zdržuje.</p>
-<p>Zájemci si mohou <a href="/kontakt.html" title="Kontakt">napsat</a> o podrobnosti.</p>
+<p>Zájemci si mohou <a href="/kontakt.html" title="Kontakt">napsat</a> o podrobnosti a stát se <a href="/sponzori.html" title="Sponzoři žonglérova slabikáře">sponzorem</a>.</p>
