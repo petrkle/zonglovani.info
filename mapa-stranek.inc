@@ -26,6 +26,7 @@
 	<li><a href="/rss.html">RSS kanály</a></li>
 	<li><a href="/siteswap.html">Siteswap - popis žonglování pomocí čísel</a></li>
 	<li><a href="/software.html">Simulátory žonglování</a></li>
+	<li><a href="/sponzori.html">Sponzoři</a></li>
 	<li><a href="/statistiky.html">Statistiky</a></li>
 	<li><a href="/testovani.html">Automatizované testy</a></li>
 	<li><a href="/trenink.html">Trénink</a></li>
@@ -540,6 +541,7 @@
 		<li><a href="/video/les-bebes.html">Les Bébés</a></li>
 		<li><a href="/video/liquid-crystal-live.html">Matt Hennem - Liquid Crystal live</a></li>
 		<li><a href="/video/lost-tapes-minneapolis.html">The Lost Tapes of Minneapolis</a></li>
+		<li><a href="/video/minimal-juggling.html">Minimal juggling</a></li>
 		<li><a href="/video/more-or-less.html">More or less juggling</a></li>
 		<li><a href="/video/neta-oren.html">Neta Oren</a></li>
 		<li><a href="/video/passing-zone.html">The Passing Zone</a></li>
