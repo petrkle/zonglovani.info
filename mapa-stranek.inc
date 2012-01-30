@@ -476,6 +476,9 @@
 			<li><a name="ulita-zbynkuv-vyber-20100312"></a><a href="/obrazky/ulita-zbynkuv-vyber-20100312/">Ulita - Zbyňkův výběr - obrázky žonglování</a>
 			
 			</li>
+			<li><a name="vsezonglersky-slet-20120129"></a><a href="/obrazky/vsezonglersky-slet-20120129/">Všežonglérský slet 29. 1. 2012 - obrázky žonglování</a>
+			
+			</li>
 			<li><a name="zidovske-pece-20090404"></a><a href="/obrazky/zidovske-pece-20090404/">Židovské pece 4. 4. 2009 - obrázky žonglování</a>
 			
 			</li>
