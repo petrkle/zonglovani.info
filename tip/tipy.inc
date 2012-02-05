@@ -143,7 +143,7 @@
 2012-01-16*Fotky z Ulity*/obrazky/ulita-20120115/0004.html*poi-ii.jpg*Fotky z nedělního žonglování v Ulitě. Díky všem, kdo dorazili. Příští Ulita je za tři týdny.
 2012-01-23*Všežonglérský slet*/kalendar/udalost-20120129-20120129-pek-1325250582.html*vs0112.jpg*Žonglérské sešlost v prostorách TJ Sokol Žižkov.
 2012-01-30*Žonglování v Ulitě*/ulita/?20120205*ulita.cz.png*Pravidelné nedělní žonglování v DDM Ulita. Přijít mohou začínající i zkušení žongléři a žonglérky.
-2012-02-06*3 count*/kuzely/passing/3count.html*kuzely-passing-3counta.png*Každý 3. hod je pass. Jako valčík, na tři doby.
+2012-02-06*Fotky z Ulity*/obrazky/ulita-20120205/0000.html*klara.jpg*Fotky z nedělního žonglování v Ulitě. Díky všem, kdo dorazili. Příští Ulita je za tři týdny.
 2012-02-13*Blesk*/micky/3/blesk.html*bleskc.png*Blesk je rychlé vyhození míčků tak, že tvé dlaně zůstanou na okamžik prázdné.
 2012-02-20*Žonglování v Ulitě*/ulita/?20120205*ulita.cz.png*Pravidelné nedělní žonglování v DDM Ulita. Přijít mohou začínající i zkušení žongléři a žonglérky.
 2012-02-27*Druhy hodů při passování*/kuzely/passing/hody.html*kuzely-passing-hodyg.png*Kužely lze házet mnoha různými způsoby.
@@ -153,7 +153,7 @@
 2012-03-26*Anglicko-český žonglérský slovníček*/aczslovnicek.html*slovnik.jpg*Několik slovíček, které se často vyskytují v anglicky psaných textech o žonglování.
 2012-04-02*Rybičky*/kuzely/3/rybicky.html*rybickab.png*Obtížný způsob házení kuželů. Anglicky označovaný flat.
 2012-04-09*Překulení kuželky přes hlavu*/kuzely/headroll.html*headrollc.png*Trik známý též pod anglickým názvem headroll.
-2012-04-16*
+2012-04-16*3 count*/kuzely/passing/3count.html*kuzely-passing-3counta.png*Každý 3. hod je pass. Jako valčík, na tři doby.
 2012-04-23*
 2012-04-30*
 2012-05-07*

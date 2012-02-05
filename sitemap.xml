@@ -3639,12 +3639,6 @@
    </url>
 			
    <url>
-      <loc>http://zonglovani.info/kalendar/2007-02.html</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.6</priority>
-   </url>
-			
-   <url>
       <loc>http://zonglovani.info/kalendar/2007-03.html</loc>
       <changefreq>weekly</changefreq>
       <priority>0.6</priority>
@@ -4354,6 +4348,12 @@
 			
    <url>
       <loc>http://zonglovani.info/kalendar/2017-01.html</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.6</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/kalendar/2017-02.html</loc>
       <changefreq>weekly</changefreq>
       <priority>0.6</priority>
    </url>
@@ -20482,6 +20482,210 @@
 			
    <url>
       <loc>http://zonglovani.info/obrazky/ulita-20120115/stranka2/0018.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ulita-20120205/</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.6</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ulita-20120205/0000.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ulita-20120205/0001.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ulita-20120205/0002.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ulita-20120205/0003.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ulita-20120205/0004.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ulita-20120205/0005.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ulita-20120205/0006.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ulita-20120205/0007.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ulita-20120205/0008.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ulita-20120205/0009.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ulita-20120205/0010.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ulita-20120205/0011.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ulita-20120205/0012.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ulita-20120205/0013.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ulita-20120205/0014.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ulita-20120205/0015.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ulita-20120205/0029.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ulita-20120205/stranka1/</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.6</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ulita-20120205/stranka2/</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.6</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ulita-20120205/stranka2/0015.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ulita-20120205/stranka2/0016.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ulita-20120205/stranka2/0017.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ulita-20120205/stranka2/0018.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ulita-20120205/stranka2/0019.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ulita-20120205/stranka2/0020.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ulita-20120205/stranka2/0021.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ulita-20120205/stranka2/0022.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ulita-20120205/stranka2/0023.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ulita-20120205/stranka2/0024.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ulita-20120205/stranka2/0025.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ulita-20120205/stranka2/0026.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ulita-20120205/stranka2/0027.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/ulita-20120205/stranka2/0028.html</loc>
       <changefreq>yearly</changefreq>
       <priority>0.4</priority>
    </url>
