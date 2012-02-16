@@ -658,6 +658,10 @@ function create_login($email){
 	$login=strtolower($email_parts[0]);
 	$login=preg_replace('/[^a-z]/','',$login);
 	$login=preg_replace('/(.)\\1{1,}/','\1',$login);
+	$login=preg_replace('/(info|admin|root|kontakt|obchod|petr)/','zongler',$login);
+	if(strlen($login)<2){
+		$login='zongler';
+	}
 
 	if(is_zs_account($login)){
 		$poradi=2;
