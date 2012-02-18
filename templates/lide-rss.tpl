@@ -17,9 +17,9 @@
 {foreach from=$uzivatele item=uzivatel name=smycka2}
 	{if $smarty.foreach.smycka2.index < 10}
   <item rdf:about="http://{$smarty.server.SERVER_NAME}{$smarty.const.LIDE_URL}{$uzivatel.login}.html">
-    <title>{$uzivatel.login}</title>
+    <title>{$uzivatel.jmeno|escape}</title>
     <link>http://{$smarty.server.SERVER_NAME}{$smarty.const.LIDE_URL}{$uzivatel.login}.html</link>
-    <description>{$uzivatel.jmeno}</description>
+    <description>{$uzivatel.jmeno|escape} - nový uživatel žonglérova slabikáře.</description>
     <dc:creator>{$uzivatel.login}</dc:creator>
     <dc:date>{$uzivatel.registrace_mr}</dc:date>
   </item>
