@@ -146,15 +146,15 @@
 2012-02-06*Fotky z Ulity*/obrazky/ulita-20120205/0000.html*klara.jpg*Fotky z nedělního žonglování v Ulitě. Díky všem, kdo dorazili. Příští Ulita je za tři týdny.
 2012-02-13*Blesk*/micky/3/blesk.html*bleskc.png*Blesk je rychlé vyhození míčků tak, že tvé dlaně zůstanou na okamžik prázdné.
 2012-02-20*Žonglování v Ulitě*/ulita/?20120205*ulita.cz.png*Pravidelné nedělní žonglování v DDM Ulita. Přijít mohou začínající i zkušení žongléři a žonglérky.
-2012-02-27*Druhy hodů při passování*/kuzely/passing/hody.html*kuzely-passing-hodyg.png*Kužely lze házet mnoha různými způsoby.
-2012-03-05*Výhody pro registrované uživatele*/exkurze.html*exkurze-nastaveni.s.png*Obrázky a popis výhod pro registrované uživatele žonglérova slabikáře.
+2012-02-27*Fotky z Ulity*/obrazky/ulita-20120226/0000.html*3up.jpg*Fotky z nedělního žonglování v Ulitě. Díky všem, kdo dorazili. Příští Ulita je za tři týdny.
+2012-03-05*Druhy hodů při passování*/kuzely/passing/hody.html*kuzely-passing-hodyg.png*Kužely lze házet mnoha různými způsoby.
 2012-03-12*Žonglování v Ulitě*/ulita/?20120205*ulita.cz.png*Pravidelné nedělní žonglování v DDM Ulita. Přijít mohou začínající i zkušení žongléři a žonglérky.
 2012-03-19*Simulátory žonglování*/software.html*joepass.png*Počítačové programy, které po zadání triku v zobrazí animaci. Vhodné při učení nových triků.
 2012-03-26*Anglicko-český žonglérský slovníček*/aczslovnicek.html*slovnik.jpg*Několik slovíček, které se často vyskytují v anglicky psaných textech o žonglování.
 2012-04-02*Rybičky*/kuzely/3/rybicky.html*rybickab.png*Obtížný způsob házení kuželů. Anglicky označovaný flat.
 2012-04-09*Překulení kuželky přes hlavu*/kuzely/headroll.html*headrollc.png*Trik známý též pod anglickým názvem headroll.
 2012-04-16*3 count*/kuzely/passing/3count.html*kuzely-passing-3counta.png*Každý 3. hod je pass. Jako valčík, na tři doby.
-2012-04-23*
+2012-04-23*Výhody pro registrované uživatele*/exkurze.html*exkurze-nastaveni.s.png*Obrázky a popis výhod pro registrované uživatele žonglérova slabikáře.
 2012-04-30*
 2012-05-07*
 2012-05-14*
