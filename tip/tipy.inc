@@ -147,6 +147,7 @@
 2012-02-13*Blesk*/micky/3/blesk.html*bleskc.png*Blesk je rychlé vyhození míčků tak, že tvé dlaně zůstanou na okamžik prázdné.
 2012-02-20*Žonglování v Ulitě*/ulita/?20120205*ulita.cz.png*Pravidelné nedělní žonglování v DDM Ulita. Přijít mohou začínající i zkušení žongléři a žonglérky.
 2012-02-27*Fotky z Ulity*/obrazky/ulita-20120226/0000.html*3up.jpg*Fotky z nedělního žonglování v Ulitě. Díky všem, kdo dorazili. Příští Ulita je za tři týdny.
+2012-03-01*Juggling session*/kalendar/udalost-20120304-20120304-pek-1328807281.html*blink.jpg*Žonglování v dočasném klubu Blink.
 2012-03-05*Druhy hodů při passování*/kuzely/passing/hody.html*kuzely-passing-hodyg.png*Kužely lze házet mnoha různými způsoby.
 2012-03-12*Žonglování v Ulitě*/ulita/?20120205*ulita.cz.png*Pravidelné nedělní žonglování v DDM Ulita. Přijít mohou začínající i zkušení žongléři a žonglérky.
 2012-03-19*Simulátory žonglování*/software.html*joepass.png*Počítačové programy, které po zadání triku v zobrazí animaci. Vhodné při učení nových triků.

@@ -1,3 +1,8 @@
+{if $smarty.session.logged==true}
+<p>
+<a href="{$smarty.const.CALENDAR_URL}add.php" title="Přidat novou událost do kalendáře." class="add">Přidat novou</a> událost.
+</p>
+{/if}
 <table class="kalendar" cellspacing="0" cellpadding="0">
 		<tr>
 <td class="kal_prev">{if isset($prevMonth)}<a href="{if $prevMonth==$aktMonth}{$smarty.const.CALENDAR_URL}{else}{$prevMonth}{/if}" title="Zobrazí předchozí měsíc.">&laquo; Předchozí měsíc</a>{else}&nbsp;{/if}</td>
