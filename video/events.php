@@ -6,6 +6,7 @@ $juggling_events=array(
 	'navod'=>'Triky ze žonglérova slabikáře',
 	'navody'=>'Video návody na žonglování',
 	'metlili'=>'Metlili',
+	'levistick'=>'Levistick',
 #	'ejc'=>'EJC',
 	);
 

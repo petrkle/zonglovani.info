@@ -149,9 +149,12 @@
 2012-02-27*Fotky z Ulity*/obrazky/ulita-20120226/0000.html*3up.jpg*Fotky z nedělního žonglování v Ulitě. Díky všem, kdo dorazili. Příští Ulita je za tři týdny.
 2012-03-01*Juggling session*/kalendar/udalost-20120304-20120304-pek-1328807281.html*blink.jpg*Žonglování v dočasném klubu Blink.
 2012-03-05*Druhy hodů při passování*/kuzely/passing/hody.html*kuzely-passing-hodyg.png*Kužely lze házet mnoha různými způsoby.
+2012-03-08*Mezinárodní den žen*/mdz/*mdz.png*Oslavte mezinárodní den žen žonglováním.
+2012-03-09*Fina magic*/video/levistick/fina-magic.html*fina-magic.jpg*Kinesis je skupina zabývající se přetvářením reality k obrazu svému a úžasu našemu.
 2012-03-12*Žonglování v Ulitě*/ulita/?20120205*ulita.cz.png*Pravidelné nedělní žonglování v DDM Ulita. Přijít mohou začínající i zkušení žongléři a žonglérky.
 2012-03-19*Simulátory žonglování*/software.html*joepass.png*Počítačové programy, které po zadání triku v zobrazí animaci. Vhodné při učení nových triků.
 2012-03-26*Anglicko-český žonglérský slovníček*/aczslovnicek.html*slovnik.jpg*Několik slovíček, které se často vyskytují v anglicky psaných textech o žonglování.
+2012-04-01*Žonglování na olympiádu*/olympiada/*oh.png*Petice za zařazení žonglování mezi olympijské sporty. 
 2012-04-02*Rybičky*/kuzely/3/rybicky.html*rybickab.png*Obtížný způsob házení kuželů. Anglicky označovaný flat.
 2012-04-09*Překulení kuželky přes hlavu*/kuzely/headroll.html*headrollc.png*Trik známý též pod anglickým názvem headroll.
 2012-04-16*3 count*/kuzely/passing/3count.html*kuzely-passing-3counta.png*Každý 3. hod je pass. Jako valčík, na tři doby.
