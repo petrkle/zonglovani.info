@@ -49,7 +49,7 @@ function smarty_function_vypismenu($params, &$smarty){
 		';
 			}
 
-	if($_SERVER['SERVER_NAME']=='zonglovani.info'){
+	if($_SERVER['SERVER_NAME']=='zonglovani.info' and !preg_match('/(android|mobile|iphone|opera mini)/i',$_SERVER['HTTP_USER_AGENT'])){
 	if(isset($_SERVER['HTTP_ACCEPT_LANGUAGE']) and preg_match('/^(cs|sk).*/',$_SERVER['HTTP_ACCEPT_LANGUAGE'])){
 	$navrat.='
 		<!-- start -->

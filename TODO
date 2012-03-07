@@ -2,20 +2,17 @@ Aktuální
 ========
 
 - přidávání událostí i pro nepřihlášené (odešle tip)
-- přidat tip na žonglování na olympiádě - 1. dubna
-- speciální stránka - Valentýn - dárek na poslední chvíli, výroba žonglérských míčků
 - ke stahování přidělat odkazy na podporu žonglérova slabikáře
 - prezentace na slideshare
 - obrázky na plochu, doplnit popisky a img sitemapu
 - odkazy další, předchozí v horoskopu
-- rozšíření - horoskop
 - v rozšířeních zobrazovat akce stejně jako ve widgetu + obrázky, používat cache
+- widget, plynulé zobrazení, stejně jako fb plugin
 - propojit obrázky s kalendářem
 - download - dopsat testy
 - juggling in czech republic - eng, informace o žonglování v čechách pro cizince
 - video jak se registrovat do žonglérova slabikáře
 - testy všech věcí v nastavení (změna emailu)
-- doplnit prev, next, up, ... k videím, animacím, souborům ke stažení, diskusi, dovednostem, seznamu míst
 - v pdf animovaný panáček na okraji stránky - podrobnosti Jitka
 
 Kalendář
@@ -41,6 +38,7 @@ Testy
 
 Odložené na neurčito
 ====================
+- rozšíření - horoskop
 - on-line test - dostupnost rss zdrojů, stránky v odkazech
 - video z Ulity
 - hitparáda hodnocených stránek, aktualizace žebříčku cronem 
@@ -119,6 +117,10 @@ opravit klávesové zkratky v galerii - google chrome
 odkaz na bookbinder
 inline js siteswap
 speciální stránka na 1. dubna - Žonglování na Olympiádu
+přidat tip na žonglování na olympiádě - 1. dubna
+speciální stránka - MDŽ
+doplnit prev, next, up, ... k videím, animacím, souborům ke stažení, diskusi, dovednostem, seznamu míst
+do mobilní verze nevkládat google translage a facebook
 
 .ssh/config
 ===========
