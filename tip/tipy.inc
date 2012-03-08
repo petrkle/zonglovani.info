@@ -150,7 +150,7 @@
 2012-03-01*Juggling session*/kalendar/udalost-20120304-20120304-pek-1328807281.html*blink.jpg*Žonglování v dočasném klubu Blink.
 2012-03-05*Druhy hodů při passování*/kuzely/passing/hody.html*kuzely-passing-hodyg.png*Kužely lze házet mnoha různými způsoby.
 2012-03-08*Mezinárodní den žen*/mdz/*mdz.png*Oslavte mezinárodní den žen žonglováním.
-2012-03-09*Fina magic*/video/levistick/fina-magic.html*fina-magic.jpg*Kinesis je skupina zabývající se přetvářením reality k obrazu svému a úžasu našemu.
+2012-03-09*Fina magic*/video/levistick/fina-magic.html*fina-magic.jpg*Kinessis je skupina zabývající se přetvářením reality k obrazu svému a úžasu našemu.
 2012-03-12*Žonglování v Ulitě*/ulita/?20120205*ulita.cz.png*Pravidelné nedělní žonglování v DDM Ulita. Přijít mohou začínající i zkušení žongléři a žonglérky.
 2012-03-19*Simulátory žonglování*/software.html*joepass.png*Počítačové programy, které po zadání triku v zobrazí animaci. Vhodné při učení nových triků.
 2012-03-26*Anglicko-český žonglérský slovníček*/aczslovnicek.html*slovnik.jpg*Několik slovíček, které se často vyskytují v anglicky psaných textech o žonglování.
