@@ -1,3 +1,4 @@
+@font-face{font-family:'Francois One';font-style:normal;font-weight:normal;src:local('Francois One Regular'),local('FrancoisOne-Regular'),url('francois.woff') format('woff');}
 body{font-family:'Francois One',sans-serif;font-size:1.3em;line-height:1.5em;color:#000;background:#fff;}
 p{margin: 5px;}
 ol{margin: 5px 10px;}
