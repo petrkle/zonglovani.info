@@ -197,6 +197,9 @@
 		<li><a href="/mapa/sk.html">Žonglérská mapa - SR</a></li>
 		</ul>
 		</li>
+		<li><a name="mdz"></a><a href="/mdz/">Mezinárodní den žen</a>
+		
+		</li>
 		<li><a name="micky"></a><a href="/micky/">Žonglování s míčky</a>
 		<ul>
 		<li><a href="/micky/balancovani.html">Balancování míčku</a></li>
@@ -479,6 +482,9 @@
 			<li><a name="ulita-20120226"></a><a href="/obrazky/ulita-20120226/">Ulita 26. 2. 2012 - obrázky žonglování</a>
 			
 			</li>
+			<li><a name="ulita-20120318"></a><a href="/obrazky/ulita-20120318/">Ulita 18. 3. 2010 - obrázky žonglování</a>
+			
+			</li>
 			<li><a name="ulita-zbynkuv-vyber-20100312"></a><a href="/obrazky/ulita-zbynkuv-vyber-20100312/">Ulita - Zbyňkův výběr - obrázky žonglování</a>
 			
 			</li>
@@ -570,6 +576,11 @@
 		<li><a href="/video/whirlcool.html">Whirlcool</a></li>
 		<li><a href="/video/white-balance.html">White Balance</a></li>
 		<li><a href="/video/yesterday-didnt-happen.html">Yesterday didn&#039;t happen</a></li>
+			<li><a name="levistick"></a><a href="/video/levistick/">Levistick</a>
+			<ul>
+			<li><a href="/video/levistick/fina-magic.html">Fina magic</a></li>
+			</ul>
+			</li>
 			<li><a name="metlili"></a><a href="/video/metlili/">Metlili</a>
 			<ul>
 			<li><a href="/video/metlili/conctabong.html">Conctabong</a></li>
