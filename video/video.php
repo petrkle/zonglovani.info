@@ -103,7 +103,7 @@ $data = $pager->getPageData();
 	$trail = new Trail();
 	$trail->addStep('Žonglérská videa','/video/');
 	if($event){
-		$trail->addStep($juggling_events[$event],'/video/'.$event.'/');
+		$trail->addStep($juggling_events[$event]['title'],'/video/'.$event.'/');
 	}
 	if($cislostranky>1){
 		if($event){
@@ -124,13 +124,17 @@ $data = $pager->getPageData();
 	if(isset($videa[$idcka[$v]+1])){
 		$navigace['dalsi']=array('url'=>$videa[$idcka[$v]+1]['id'].'.html','text'=>$videa[$idcka[$v]+1]['nazev'],'title'=>'Video '.$videa[$idcka[$v]+1]['nazev'].', délka '.$videa[$idcka[$v]+1]['delka']);
 	}else{
+		if(count($videa)>1){
 		$navigace['dalsi']=array('url'=>$videa[0]['id'].'.html','text'=>$videa[0]['nazev'],'title'=>'Video '.$videa[0]['nazev'].', délka '.$videa[0]['delka']);
+		}
 	}
 
 	if(isset($videa[$idcka[$v]-1])){
 		$navigace['predchozi']=array('url'=>$videa[$idcka[$v]-1]['id'].'.html','text'=>$videa[$idcka[$v]-1]['nazev'],'title'=>'Video '.$videa[$idcka[$v]-1]['nazev'].', délka '.$videa[$idcka[$v]-1]['delka']);
 	}else{
+		if(count($videa)>1){
 		$navigace['predchozi']=array('url'=>$videa[count($videa)-1]['id'].'.html','text'=>$videa[count($videa)-1]['nazev'],'title'=>'Video '.$videa[count($videa)-1]['nazev'].', délka '.$videa[count($videa)-1]['delka']);
+		}
 	}
 
 

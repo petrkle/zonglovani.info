@@ -49,8 +49,10 @@ $dalsi=array(
 if($pager->getCurrentPageID()>1){
 	$trail->addStep($pager->getCurrentPageID().'. stránka','/video/stranka'.$pager->getCurrentPageID().'.html');
 }else{
-	foreach($juggling_events as $key=>$nazev){
-			array_push($dalsi,array('url'=>'/video/'.$key.'/','text'=>$nazev,'title'=>$nazev.' - video'));
+	foreach($juggling_events as $key=>$video){
+		if($video['public']===true){
+			array_push($dalsi,array('url'=>'/video/'.$key.'/','text'=>$video['title'],'title'=>$video['title'].' - video'));
+		}
 	}
 }
 

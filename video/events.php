@@ -1,12 +1,10 @@
 <?php
 
 $juggling_events=array(
-#	'pzm2'=>'Pražský žonglérský marathon 2',
-#	'drazdany-2011'=>'Festival žonglování v Drážďanech',
-	'navod'=>'Triky ze žonglérova slabikáře',
-	'navody'=>'Video návody na žonglování',
-	'metlili'=>'Metlili',
-	'levistick'=>'Levistick',
-#	'ejc'=>'EJC',
+	'navod'=>array('title'=>'Triky ze žonglérova slabikáře','public'=>true),
+	'navody'=>array('title'=>'Video návody na žonglování','public'=>true),
+	'metlili'=>array('title'=>'Metlili','public'=>true),
+	'levistick'=>array('title'=>'Levistick','public'=>true),
+	'etc'=>array('title'=>'Různé','public'=>false),
 	);
 
