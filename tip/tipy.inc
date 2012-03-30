@@ -156,10 +156,10 @@
 2012-03-26*Anglicko-český žonglérský slovníček*/aczslovnicek.html*slovnik.jpg*Několik slovíček, které se často vyskytují v anglicky psaných textech o žonglování.
 2012-04-01*Žonglování na olympiádu*/olympiada/*oh.png*Petice za zařazení žonglování mezi olympijské sporty. 
 2012-04-02*Rybičky*/kuzely/3/rybicky.html*rybickab.png*Obtížný způsob házení kuželů. Anglicky označovaný flat.
-2012-04-09*Překulení kuželky přes hlavu*/kuzely/headroll.html*headrollc.png*Trik známý též pod anglickým názvem headroll.
+2012-04-09*Košický kužel*/kalendar/udalost-20120413-20120415-pek-1328720895.html*kk12.png*Festival žonglování v Košicích.
 2012-04-16*3 count*/kuzely/passing/3count.html*kuzely-passing-3counta.png*Každý 3. hod je pass. Jako valčík, na tři doby.
 2012-04-23*Výhody pro registrované uživatele*/exkurze.html*exkurze-nastaveni.s.png*Obrázky a popis výhod pro registrované uživatele žonglérova slabikáře.
-2012-04-30*
+2012-04-30*Překulení kuželky přes hlavu*/kuzely/headroll.html*headrollc.png*Trik známý též pod anglickým názvem headroll.
 2012-05-07*
 2012-05-14*
 2012-05-21*
