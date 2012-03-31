@@ -11,7 +11,7 @@
 <fieldset>
 <legend>Obnovení hesla</legend>
 <ul>
-<li><label for="email" accesskey="e" class="kratkypopis" ><span class="u">E</span>-mail:</label><input type="text" name="email" id="email" value="{$email|escape}" class="textbox" tabindex="2" /><div class="tooltip">Tvoje adresa elektronické pošty zadaná při vytváření účtu.</div></li>
+<li><label for="email" accesskey="e" class="kratkypopis" ><span class="u">E</span>-mail:</label><input type="email" name="email" id="email" value="{$email|escape}" class="textbox" tabindex="2" /><div class="tooltip">Tvoje adresa elektronické pošty zadaná při vytváření účtu.</div></li>
 </ul>
 </fieldset>
 <fieldset id="robotprotection">

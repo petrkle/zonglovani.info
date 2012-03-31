@@ -12,7 +12,7 @@ Nastavení odkazu na tvůj web.
 <fieldset>
 <legend>Tvoje internetová stránka</legend>
 <ul>
-<li><label for="web" accesskey="a" class="kratkypopis"><span class="u">A</span>dresa:</label><input type="text" name="web" id="web" value="{$web|escape}" class="textbox" tabindex="1" /><div class="tooltip">Tvoje internetová stránka. Tvar http://neco.tld</div></li>
+<li><label for="web" accesskey="a" class="kratkypopis"><span class="u">A</span>dresa:</label><input type="url" name="web" id="web" value="{$web|escape}" class="textbox" tabindex="1" /><div class="tooltip">Tvoje internetová stránka. Tvar http://neco.tld</div></li>
 </ul>
 </fieldset>
 

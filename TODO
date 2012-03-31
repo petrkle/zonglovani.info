@@ -1,7 +1,6 @@
 Aktuální
 ========
 
-- input type email, ... - doplnit do formulářů HTML5
 - možnost úplně smazat smazané události v minulosti
 - přidávání událostí i pro nepřihlášené (odešle tip)
 - ke stahování přidělat odkazy na podporu žonglérova slabikáře
@@ -123,6 +122,7 @@ přidat tip na žonglování na olympiádě - 1. dubna
 speciální stránka - MDŽ
 doplnit prev, next, up, ... k videím, animacím, souborům ke stažení, diskusi, dovednostem, seznamu míst
 do mobilní verze nevkládat google translage a facebook
+input type email, url - doplnit do formulářů HTML5
 
 .ssh/config
 ===========
