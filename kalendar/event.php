@@ -20,6 +20,7 @@ $now=time();
 if(isset($_GET['deleted']) or isset($_POST['deleted'])){
 	$udalost=get_event_data($id.'.cal',CALENDAR_DELETED);
 	$trash=true;
+	$smarty->assign('trash',true);
 }else{
 	$udalost=get_event_data($id.'.cal');
 }

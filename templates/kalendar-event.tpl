@@ -38,6 +38,15 @@
 {if isset($udalost.update) and $udalost.update_hr!=$udalost.insert_hr}
 <p><strong>Poslední úprava</strong>: {$udalost.update_hr|escape}</p>
 {/if}
+{if $trash}
+<form action="{$smarty.server.SCRIPT_NAME}" method="post">
+<p>
+<input type="hidden" name="id" value="{$udalost.id|escape}" />
+<input type="hidden" name="deleted" />
+<input type="submit" name="shred" value="Smazat nadobro" class="knoflik" />
+</p>
+</form>
+{/if}
 
 {/if}
 </div>
