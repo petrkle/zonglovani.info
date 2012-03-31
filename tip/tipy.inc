@@ -160,15 +160,15 @@
 2012-04-16*3 count*/kuzely/passing/3count.html*kuzely-passing-3counta.png*Každý 3. hod je pass. Jako valčík, na tři doby.
 2012-04-23*Výhody pro registrované uživatele*/exkurze.html*exkurze-nastaveni.s.png*Obrázky a popis výhod pro registrované uživatele žonglérova slabikáře.
 2012-04-30*Překulení kuželky přes hlavu*/kuzely/headroll.html*headrollc.png*Trik známý též pod anglickým názvem headroll.
-2012-05-07*
-2012-05-14*
-2012-05-21*
-2012-05-28*
-2012-06-04*
-2012-06-11*
-2012-06-18*
-2012-06-25*
-2012-07-02*
+2012-05-07*Sbírání spadlých míčků*/micky/sbirani.html*micky-sbirania.png*Když ti spadne míček, nepřestávej žonglovat.
+2012-05-14*Prohození kruhu pod nohou*/kruhy/3/noha.html*kruhy-3-nohaa.png*Jednoduchý a velmi efektní trik s kruhy.
+2012-05-21*Jen Slaw Juggling Promo*/video/jen-slaw.html*jen-slaw.jpg*Ukázka z vystoupení Jennyfer Slaw.
+2012-05-28*Obíhání*/kuzely/passing/runarounds.html*kuzely-runaroundsa.png*Runarounds - trik pro dva žongléry a tři kužely.
+2012-06-04*Ohnivé kužely*/kuzely/ohen.html*kuzely-firea.png*Základy žonglování s ohněm.
+2012-06-11*Konstrukce kuželu*/kuzely/konstrukce.html*kuzel-konstrukce-s.png*Jak vypadá kužel uvnitř.
+2012-06-18*Výroba kuželů*/kuzely/vyroba.html*kuzely-vyrobae.png*Kužely levně, snadno a rychle.
+2012-06-25*European Juggling Convention*/kalendar/ejc.html*ejc-luk.jpg*Evropské setkání žonglérů v Mnichově začíná za měsíc. Nejvyšší čas sehnat si odvoz do Polska.
+2012-07-02*Aleje*/kalendar/udalost-20120825-20120831-pek-1333022216.html*aleje-logo.jpg*Za měsíc začne 11. mezinárodní žonglérská a divadelní dílna Aleje 2012.
 2012-07-09*
 2012-07-16*
 2012-07-23*
@@ -176,7 +176,7 @@
 2012-08-06*
 2012-08-13*
 2012-08-20*
-2012-08-27*
+2012-08-27*Flaming nights*/kalendar/udalost-20120831-20120902-pek-1328721694.html*fn12.png*První ročník největšího hudebně-žonglérského open air festivalu v Česko-Slovensku.
 2012-09-03*
 2012-09-10*
 2012-09-17*
@@ -195,4 +195,56 @@
 2012-12-17*
 2012-12-24*
 2012-12-31*
+2013-01-07*
+2013-01-14*
+2013-01-21*
+2013-01-28*
+2013-02-04*
+2013-02-11*
+2013-02-18*
+2013-02-25*
+2013-03-04*
+2013-03-11*
+2013-03-18*
+2013-03-25*
+2013-04-01*
+2013-04-08*
+2013-04-15*
+2013-04-22*
+2013-04-29*
+2013-05-06*
+2013-05-13*
+2013-05-20*
+2013-05-27*
+2013-06-03*
+2013-06-10*
+2013-06-17*
+2013-06-24*
+2013-07-01*
+2013-07-08*
+2013-07-15*
+2013-07-22*
+2013-07-29*
+2013-08-05*
+2013-08-12*
+2013-08-19*
+2013-08-26*
+2013-09-02*
+2013-09-09*
+2013-09-16*
+2013-09-23*
+2013-09-30*
+2013-10-07*
+2013-10-14*
+2013-10-21*
+2013-10-28*
+2013-11-04*
+2013-11-11*
+2013-11-18*
+2013-11-25*
+2013-12-02*
+2013-12-09*
+2013-12-16*
+2013-12-23*
+2013-12-30*
 # vim: set nonumber nowrap:
