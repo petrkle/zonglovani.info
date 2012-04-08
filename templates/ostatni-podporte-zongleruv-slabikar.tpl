@@ -35,5 +35,15 @@ Jestli už ti bylo 18, tak mi můžeš koupit pivo. Např. <a href="/img/v/visen
 <a name="p"></a><h3>Peněžní podpora</h3>
 <p>
 {obrazek soubor="podporac.png" title="Peníze"}
-Provoz adresy zonglovani.info stojí 1500 Kč ročně. Vaše příspěvky zajistí, že nebudu v mínusu a možná i <a href="/changelog.html" title="Seznam změn v žonglérově slabikáři">pravidelné aktualizace</a>. Navíc tu nebude spousta reklamy, která všechny ruší a zdržuje.</p>
+Provoz adresy zonglovani.info stojí 1500 Kč ročně. Vaše příspěvky zajistí, že nebudu v mínusu a možná i <a href="/changelog.html" title="Seznam změn v žonglérově slabikáři">pravidelné aktualizace</a>. Navíc tu nebude spousta reklamy, která všechny ruší a zdržuje.
+<!-- start -->
+Přispět přes <a href="https://www.paypal.com" class="external">paypal</a>
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="7MLTC2Z6F2UT6">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+<!-- stop -->
+</p>
 <p>Zájemci si mohou <a href="/kontakt.html" title="Kontakt">napsat</a> o podrobnosti a stát se <a href="/sponzori.html" title="Sponzoři žonglérova slabikáře">sponzorem</a>.</p>
