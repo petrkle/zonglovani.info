@@ -505,6 +505,9 @@
 		<li><a name="obrazky-na-plochu"></a><a href="/obrazky-na-plochu/">Obrázky na plochu</a>
 		
 		</li>
+		<li><a name="olympiada"></a><a href="/olympiada/">Žonglování na olympiádu</a>
+		
+		</li>
 		<li><a name="rss"></a><a href="/rss/">Novinky</a>
 		
 		</li>

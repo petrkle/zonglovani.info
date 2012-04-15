@@ -16,7 +16,13 @@ msiprep:
 	./stahni.sh
 	./uprav.sh
 	rm -rf msi/zongleruv-slabikar
-	mv zongleruv-slabikar msi
+	mv -vi zongleruv-slabikar msi
+
+pdfprep:
+	./stahni.sh
+	./uprav.sh
+	rm -rf msi/zongleruv-slabikar
+	mv -vi zongleruv-slabikar pdfa5
 
 book:
 	./book.sh ${VERSION}
