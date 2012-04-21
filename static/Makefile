@@ -5,6 +5,7 @@ help:
 	@echo "offline  - vytvori offline verzi"
 	@echo "book     - vytvori elektronickou knihu - soubor mobi"
 	@echo "msiprep  - priprava pro vytvoreni msi baliku"
+	@echo "pdfprep  - priprava pro vytvoreni msi baliku"
 	@echo "clean    - smaze generovane adresare"
 
 offline:
@@ -21,7 +22,7 @@ msiprep:
 pdfprep:
 	./stahni.sh
 	./uprav.sh
-	rm -rf msi/zongleruv-slabikar
+	rm -rf pdfa5//zongleruv-slabikar
 	mv -vi zongleruv-slabikar pdfa5
 
 book:

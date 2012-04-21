@@ -1211,7 +1211,7 @@
 	<ComponentRef Id="cmp69965AF2C84F5FEF19F1AF1740CCF6FE" />
 </Feature>
 
-<Media Id="1" Cabinet="zonglovani.cab" EmbedCab="yes" />
+<Media Id="1" Cabinet="zonglovani.cab" EmbedCab="yes" CompressionLevel='high' />
 
 <Directory Id='TARGETDIR' Name='SourceDir'>
 	<Directory Id='ProgramFilesFolder' Name='PFiles'>

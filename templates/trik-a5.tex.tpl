@@ -29,6 +29,7 @@
 \vskip -0.10cm
 
 {else}
+\vskip 0.20cm
 \begin{literal}{{/literal}minipage{literal}}{/literal}[h]{literal}{{/literal}1\textwidth{literal}}{/literal}
 {$krok.popisek}
 \end{literal}{{/literal}minipage{literal}}{/literal}
