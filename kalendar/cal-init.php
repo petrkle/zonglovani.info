@@ -350,8 +350,8 @@ function event_validation($udalost,$now){
 	}
 
 	if(isset($udalost['obrazek']) and is_array($udalost['obrazek'])){
-		if($udalost['obrazek']['size']>(700*1024)){
-			array_push($chyby,'Obrázek je příliš velký. Maximální velikost 700 kb.');
+		if($udalost['obrazek']['size']>(2000*1024)){
+			array_push($chyby,'Obrázek je příliš velký. Maximální velikost 2MB.');
 		}
 		$obrazekinfo=getimagesize($udalost['obrazek']['tmp_name']);
 		if(is_array($obrazekinfo)){
