@@ -25,6 +25,7 @@ if($uzivatel_props['login']=='pek' and $_SESSION['uzivatel']['login']!='pek'){
 }
 
 if($uzivatel_props['status']=='ok'){
+		$smarty->assign('feedback',true);
 
 $loginy=get_zajimeve_loginy();
 $lide=array();

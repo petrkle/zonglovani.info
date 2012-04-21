@@ -6,6 +6,7 @@ $titulek='Soubory ke stažení';
 $smarty->assign('titulek',$titulek);
 $smarty->assign('nahled','http://'.$_SERVER['SERVER_NAME'].'/img/d/downloada.png');
 $smarty->assign('description','Soubory ke stažení - žonglování.');
+$smarty->assign('feedback',true);
 
 $trail = new Trail();
 $trail->addStep($titulek,'/download/');

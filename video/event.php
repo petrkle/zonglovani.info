@@ -4,6 +4,7 @@ require('../func.php');
 require('func-video.php');
 require('events.php');
 require($lib.'/Pager/Pager.php');
+$smarty->assign('feedback',true);
 
 if(isset($_GET['id'])){
 	$id=trim($_GET['id']);

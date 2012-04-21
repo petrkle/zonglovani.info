@@ -59,6 +59,7 @@ $mojepozice=array_search($filtr,$pozice);
 		$navigace['predchozi']=array('url'=>$pozice[count($pozice)-1].'.html','text'=>$pusobiste[$pozice[count($pozice)-1]]['nazev'],'title'=>'Předchozí místo: '.$pusobiste[$pozice[count($pozice)-1]]['nazev']);
 	}
 
+	$smarty->assign('feedback',true);
 	$smarty->assign('styly',array('/a.css'));
 	$smarty->assign_by_ref('navigace',$navigace);
 	$smarty->assign('misto',$pusobiste[$filtr]['odkud']);

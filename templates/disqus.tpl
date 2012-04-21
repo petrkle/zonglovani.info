@@ -1,5 +1,8 @@
 <div id="disqus_thread"></div>
 <script type="text/javascript">
+{if $smarty.server.SERVER_NAME!='zonglovani.info'}
+	var disqus_developer = 1;
+{/if}
     var disqus_shortname = 'zonglovani';
     (function() {literal}{{/literal}
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;

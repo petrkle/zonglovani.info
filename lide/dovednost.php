@@ -26,6 +26,7 @@ if(isset($_GET['filtr'])){
 }
 
 if($filtr){
+	$smarty->assign('feedback',true);
 		$smarty->assign('styly',array('/a.css','/d.css'));
 		$klice=array_keys($dovednosti);
 		$pozice=array_search($filtr,$klice);

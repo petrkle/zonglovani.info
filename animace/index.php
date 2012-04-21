@@ -25,6 +25,7 @@ $nazvy=array(
 
 $smarty->assign_by_ref('nazvy', $nazvy);
 $animace=get_animace($nameless);
+$smarty->assign('feedback',true);
 
 $titulek='Animace žonglování';
 $trail = new Trail();

@@ -26,6 +26,7 @@ if(isset($_GET['deleted']) or isset($_POST['deleted'])){
 }
 
 if($udalost){
+		$smarty->assign('feedback',true);
 	if(date('Y',$udalost['start']) != date('Y',$udalost['end'])){
 		$append_y=' Y';
 	}else{
