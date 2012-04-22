@@ -158,7 +158,7 @@
 2012-04-02*Rybičky*/kuzely/3/rybicky.html*rybickab.png*Obtížný způsob házení kuželů. Anglicky označovaný flat.
 2012-04-09*Košický kužel*/kalendar/udalost-20120413-20120415-pek-1328720895.html*kk12.png*Festival žonglování v Košicích.
 2012-04-16*3 count*/kuzely/passing/3count.html*kuzely-passing-3counta.png*Každý 3. hod je pass. Jako valčík, na tři doby.
-2012-04-23*Výhody pro registrované uživatele*/exkurze.html*exkurze-nastaveni.s.png*Obrázky a popis výhod pro registrované uživatele žonglérova slabikáře.
+2012-04-23*Poloviční sprcha*/micky/4/sprcha-polovicni.html*p4sprchac.png*Poloviční sprcha se čtyřmi míčky.
 2012-04-30*Překulení kuželky přes hlavu*/kuzely/headroll.html*headrollc.png*Trik známý též pod anglickým názvem headroll.
 2012-05-07*Sbírání spadlých míčků*/micky/sbirani.html*micky-sbirania.png*Když ti spadne míček, nepřestávej žonglovat.
 2012-05-14*Prohození kruhu pod nohou*/kruhy/3/noha.html*kruhy-3-nohaa.png*Jednoduchý a velmi efektní trik s kruhy.
@@ -169,7 +169,7 @@
 2012-06-18*Výroba kuželů*/kuzely/vyroba.html*kuzely-vyrobae.png*Kužely levně, snadno a rychle.
 2012-06-25*European Juggling Convention*/kalendar/ejc.html*ejc-luk.jpg*Evropské setkání žonglérů v Mnichově začíná za měsíc. Nejvyšší čas sehnat si odvoz do Polska.
 2012-07-02*Aleje*/kalendar/udalost-20120825-20120831-pek-1333022216.html*aleje-logo.jpg*Za měsíc začne 11. mezinárodní žonglérská a divadelní dílna Aleje 2012.
-2012-07-09*
+2012-07-09*Výhody pro registrované uživatele*/exkurze.html*exkurze-nastaveni.s.png*Obrázky a popis výhod pro registrované uživatele žonglérova slabikáře.
 2012-07-16*
 2012-07-23*
 2012-07-30*
