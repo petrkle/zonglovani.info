@@ -1,0 +1,22 @@
+#!/bin/bash
+
+rm -rf /home/www/zonglovani.info/static/mobile/zongl.info 2>/dev/null
+
+wget \
+	-e "robots=off" \
+	--quiet \
+	--html-extension \
+	--convert-links \
+	--page-requisites \
+	--no-parent \
+	--recursive \
+	http://zongl.info/ \
+	http://zongl.info/plain.css \
+	http://zongl.info/img/t/telo.gif \
+	http://zongl.info/img/o/okraje.png \
+	http://zongl.info/img/e/external.png \
+	http://zongl.info/img/o/odkazy-slabikar.png \
+	--reject pdf \
+	-X animace,video,obrazky,mapa,kalendar,ulita,lide,diskuse,obrazky-na-plochu,navody,scripts,horoskop,vyhledavani,tip,rss,download,olympiada,mdz
+
+mv zongl.info zongleruv-slabikar
