@@ -30,6 +30,9 @@ Návody na žonglování ve formátu <strong>PDF</strong>. Po <a href="{$smarty.
 PDF verze žonglérova slabikáře. Vhodné pro <b>oboustranný tisk</b>. 151&nbsp;stránek.
 </p>
 
+<!-- start -->
 <h3>Výroba míčků - prezentace</h3>
 
 <p><object id="__sse11310675" width="425" height="355"><param name="movie" value="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=vyroba-zonglovacich-micku-120128110225-phpapp02&stripped_title=vroba-onglovacch-mk&userName=zonglovani" /><param name="allowFullScreen" value="true"/><param name="allowScriptAccess" value="always"/><param name="wmode" value="transparent"/><embed name="__sse11310675" src="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=vyroba-zonglovacich-micku-120128110225-phpapp02&stripped_title=vroba-onglovacch-mk&userName=zonglovani" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" wmode="transparent" width="425" height="355"></embed></object></p>
+
+<!-- stop -->

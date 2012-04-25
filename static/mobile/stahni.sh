@@ -19,4 +19,5 @@ wget \
 	--reject pdf \
 	-X animace,video,obrazky,mapa,kalendar,ulita,lide,diskuse,obrazky-na-plochu,navody,scripts,horoskop,vyhledavani,tip,rss,download,olympiada,mdz
 
+rm -rf zongleruv-slabikar
 mv zongl.info zongleruv-slabikar

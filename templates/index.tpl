@@ -18,6 +18,7 @@ Koukni do <a href="{$smarty.const.LIDE_URL}" title="Seznam uživatelů žonglér
 <h2><a href="{$smarty.const.CALENDAR_URL}" title="Kalendář žonglérských akcí.">Kam jít žonglovat</a></h2>
 <p><a href="{$smarty.const.CALENDAR_URL}" title="Kalendář žonglérských akcí.">{obrazek soubor='kalendar-nahled.png' popisek='Kalendář žonglérských akcí.'}</a>
 Přehledný <a href="{$smarty.const.CALENDAR_URL}" title="Kalendář žonglérských akcí.">kalendář žonglérských akcí</a>.{if $smarty.session.logged==true}<br /><a href="{$smarty.const.CALENDAR_URL}add.php" title="Přidat novou událost do kalendáře." class="add">Přidat událost</a> do kalendáře.{/if}</p>
+
 <!-- stop -->
 <h3>Další informace o žonglování</h3>
 <ul>
@@ -29,6 +30,8 @@ Přehledný <a href="{$smarty.const.CALENDAR_URL}" title="Kalendář žonglérsk
 <li><a href="/navody/" title="Vhodné pro tisk">Návody v PDF</a> - vhodné pro tisk.</li>
 <!-- stop -->
 </ul>
+<!-- MOB -->
+
 <!-- start -->
 {include file='tip.tpl'}
 <!-- stop -->

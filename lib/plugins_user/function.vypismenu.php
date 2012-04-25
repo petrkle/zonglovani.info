@@ -18,9 +18,9 @@ function smarty_function_vypismenu($params, &$smarty){
 	}
 
 		if($_SERVER['REQUEST_URI']==$adresy[$foo] and !isset($_GET['show'])){
-			$navrat.="<li><h4>".$texty[$foo]."</h4>\n";
+			$navrat.='<li><h4>'.$texty[$foo].'</h4>';
 		}else{
-			$navrat.='<li><h4><a href="'.$adresy[$foo].'" title="'.$popis[$foo].'">'.$texty[$foo].'</a></h4>'."\n";
+			$navrat.='<li><h4><a href="'.$adresy[$foo].'" title="'.$popis[$foo].'">'.$texty[$foo].'</a></h4>';
 		};
 		$navrat.=submenu($foo);
 		$navrat.="</li>\n";

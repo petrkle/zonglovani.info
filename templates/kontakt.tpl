@@ -13,7 +13,6 @@ Elektronická pošta: {$mail|mailobfuscate}
 Telefon: {$tel|telobfuscate}
 </p>
 <p>Lepší je použít elektronickou poštu. Přece jen telefon nemám pořád u sebe a zapnutý.</p>
-<!-- stop -->
 
 <h3>Sháníš žongléry?</h3>
 <p>Koukni do <a href="{$smarty.const.LIDE_URL}" title="Seznam uživatelů žonglérova slabikáře.">seznamu žonglérů</a>. Jsou tam lidé, kteří umí:</p>
@@ -23,3 +22,5 @@ Telefon: {$tel|telobfuscate}
 <li><a href="{$smarty.const.LIDE_URL}dovednost/manufactory.html" title="Žongléři kteří výrábějí žonglérské hračky.">Vyrábět žonglérské hračky</a></li>
 <li><a href="{$smarty.const.LIDE_URL}dovednost/shop.html" title="Žongléři kteří prodávají věci na žonglování.">Prodej věcí na žonglování</a></li>
 </ul>
+
+<!-- stop -->
