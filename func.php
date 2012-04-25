@@ -336,7 +336,8 @@ function make_keywords($text){
 	$navrat=array();
 	$text=preg_replace('/,/',' ',$text);
 	$text=preg_replace('/-/',' ',$text);
-	$text=strtolower(preg_replace('/  /',' ',$text));
+	$text=preg_replace('/  /',' ',$text);
+	$text=mb_strtolower($text,'UTF8');
 	$text=preg_split('/ /',$text);
 	foreach($text as $foo){
 		if(strlen($foo)>=3){

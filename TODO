@@ -1,6 +1,7 @@
 Aktuální
 ========
 
+- strtolower -> mb_strtolower($string,'UTF8')
 - přidávání událostí i pro nepřihlášené (odešle tip)
 - ke stahování přidělat odkazy na podporu žonglérova slabikáře
 - prezentace na slideshare
