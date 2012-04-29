@@ -8,6 +8,7 @@ help:
 zip:
 	./stahni.sh
 	./uprav.sh
+	./fixlinks.sh
 	./zabal.sh ${VERSION}
 
 clean:

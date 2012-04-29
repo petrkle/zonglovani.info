@@ -16,7 +16,7 @@ wget \
 	http://zongl.info/img/o/okraje.png \
 	http://zongl.info/img/e/external.png \
 	http://zongl.info/img/o/odkazy-slabikar.png \
-	--reject pdf \
+	--reject pdf,juggling-tv.html,doplnky-prohlizece.html \
 	-X animace,video,obrazky,mapa,kalendar,ulita,lide,diskuse,obrazky-na-plochu,navody,scripts,horoskop,vyhledavani,tip,rss,download,olympiada,mdz
 
 rm -rf zongleruv-slabikar

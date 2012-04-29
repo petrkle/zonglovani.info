@@ -12,6 +12,6 @@
 
 	<icon src="img/s/slabikar-48.png" gap:role="default" />
 
-	<preference name="orientation" value="portrait" />
+	<preference name="orientation" value="default" />
 	<preference name="android-installLocation" value="preferExternal" />
 </widget>

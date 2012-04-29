@@ -106,7 +106,6 @@ Obrázky na plochu počítače s žonglérskou tématikou
 <a href="/animace/" title="Názorná videa žonglování s míčky.">{obrazek soubor="animace-panacek.png" popisek="Animace žonglování s míčky"}</a>
 Animace žonglování s míčky.
 </p>
-<!-- stop -->
 
 <h3><a href="/juggling-tv.html" title="Žonglérská televize">juggling.tv</a></h3>
 <p>
@@ -119,6 +118,7 @@ Animace žonglování s míčky.
 <a href="/odkazy.html" title="Odkazy.">{obrazek soubor="www.png" popisek="Odkazy"}</a>
 Odkazy na stránky věnované žonglování.
 </p>
+<!-- stop -->
 
 <h3><a href="/rec-juggling.html" title="Diskusní skupina rec.juggling">rec.juggling</a></h3>
 <p>
@@ -131,25 +131,25 @@ Celosvětová diskusní skupina o žonglování.
 <a href="/myty-omyly.html" title="Mýty a omyly o žonglování.">{obrazek soubor="mytya.png" popisek="Omyl"}</a>Mýty a omyly o žonglování.
 </p>
 
+<!-- start -->
 <h3><a href="/doplnky-prohlizece.html" title="Žonglérské doplňky do prohlížeče.">Doplňky do prohlížeče</a></h3>
 <p>
 <a href="/doplnky-prohlizece.html" title="Žonglérské doplňky do prohlížeče.">{obrazek soubor="browsers.png" popisek="Prohlížeče"}</a>
 Žonglérské doplňky do prohlížeče internetu.
 </p>
 
-<!-- start -->
 <h3><a href="/download/" title="Off-line verze žonglérova slabikáře.">Soubory ke stažení</a></h3>
 <p>
 <a href="/download/" title="Off-line verze žonglérova slabikáře.">{obrazek soubor='downloada.png' popisek='Soubory ke stažení'}</a>
 Žonglérův slabikář jako elektronická kniha a pro použití na počítačích bez internetu.
 </p>
-<!-- stop -->
 
 <h3><a href="/mobil.html" title="Žonglérův slabikář v mobilu">Žonglérův slabikář v mobilu</a></h3>
 <p>
 <a href="/mobil.html" title="Žonglérův slabikář v mobilu">{obrazek soubor='mobil-xperia-w.s.jpg' popisek='Žonglování v kapse'}</a>
 Žonglérův slabikář je přizpůsobený prohlížení na mobilních telefonech.
 </p>
+<!-- stop -->
 
 <h3><a href="/proc-a-jak.html" title="Proč a jak vznikl žonglérův slabikář.">Proč a jak vznikl žonglérův slabikář</a></h3>
 <p>

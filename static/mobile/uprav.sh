@@ -21,6 +21,7 @@ do
 	sed /'.*<link rel="search".*'/d |\
 	sed /'.*<meta name="msapplication.*'/d |\
 	sed s/'.*meta name="robots".*'/'<meta name="robots" content="noindex,nofollow" \/>'/ |\
+	sed s/'class="external"'/''/ |\
 	sed s/'zongl\.info'/'zonglovani.info'/ |\
 	sed s/"<body>"/"<body>\n<!--\nadmin(zavináč)zonglovani(tečka)info\n$DATUM\n$MACHTYPE\n-->"/ |\
 	sed s/'<div id="hlavicka">'/'<div id="hlavicka"><\/div>'/ \
@@ -43,7 +44,24 @@ rm $ZSDIR/w-*.css
 rm $ZSDIR/ww-*.css
 rm $ZSDIR/fb.css
 rm $ZSDIR/fba.css
+rm $ZSDIR/exkurze.html
 rm $ZSDIR/img/e/exkurze*
+rm $ZSDIR/img/f/fire-?.jpg
+rm $ZSDIR/img/t/tenisak.jpg
+rm $ZSDIR/img/s/sity.jpg
+rm $ZSDIR/img/g/gumovy.jpg
+rm $ZSDIR/img/s/stage.jpg
+rm $ZSDIR/img/t/trany.jpg
+rm $ZSDIR/img/b/balonky.jpg
+rm $ZSDIR/img/h/hakysak.jpg
+rm $ZSDIR/img/b/baseball.jpg
+rm $ZSDIR/img/p/pomeranc.jpg
+rm $ZSDIR/img/v/velky-mic.jpg
+rm $ZSDIR/img/u/uchyt.jpg
+rm $ZSDIR/img/c/chuda.jpg
+rm $ZSDIR/img/j/jtv-*
+rm $ZSDIR/img/v/vesele-vanoce.png
+rm $ZSDIR/img/b/browser*
 rm -rf $ZSDIR/novinky*
 rm -rf $ZSDIR/ostatni
 rm -rf $ZSDIR/*.odt
