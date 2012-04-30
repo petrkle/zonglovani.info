@@ -8,8 +8,9 @@ for foo in `find $ZSDIR -name '*.html'`;
 do
 	LEVEL=`echo $foo | sed "s/[^\/]*//g;s/\//..\//g;s/^.//;"`
 	DIR=`dirname $foo`
-	sed -i '#http://zongl.info#http://zonglovani.info#g' $foo
-	for baz in `grep -o "<a [^>]*href=[^>]*>" $foo`
+	sed -i 's#http://zongl.info#http://zonglovani.info#g' $foo
+	sed -i 's#class="external"##g' $foo
+	for baz in `grep -o "<a [^>]*href=[^>]*>" $foo | sort | uniq`
 	do
 		FILE=`echo $baz | sed 's/<a.*href="\([^"]*\)".*/\1/' | sed 's/#.*//'`
 		if [ ! -f $DIR/$FILE ]
@@ -24,4 +25,9 @@ do
 			fi
 		fi
 	done
+done
+
+for foo in `find $ZSDIR -name '*.html'`; 
+do
+	sed -i 's#class="external" class="external"#class="external"#g' $foo
 done

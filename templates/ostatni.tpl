@@ -78,7 +78,6 @@ Návod na výrobu chůd a žonglování na chůdách.
 <a href="/rss.html" title="RSS exporty.">{obrazek soubor="rss.png" popisek="RSS"}</a>
 Upozorňování na novinky v žonglérově slabikáři.
 </p>
-<!-- stop -->
 
 <h3><a href="/changelog.html" title="Změny v žonglérově slabikáři.">Změny v žonglérově slabikáři</a></h3>
 <p>
@@ -86,13 +85,11 @@ Upozorňování na novinky v žonglérově slabikáři.
 Výpis změn a úprav v žonglérově slabikáři.
 </p>
 
-<!-- start -->
 <h3><a href="/ulita/" title="Nedělní žonglování v Ulitě.">Žonglování v Ulitě</a></h3>
 <p>
 <a href="/ulita/" title="Žonglování v Ulitě">{obrazek soubor="ulita.cz.png" popisek="Ulita"}</a>
 Nedělní žonglování v DDM Ulita.
 </p>
-<!-- stop -->
 
 <h3><a href="/obrazky-na-plochu/" title="Žonglérské wallpapery">Obrázky na plochu</a></h3>
 <p>
@@ -100,7 +97,6 @@ Nedělní žonglování v DDM Ulita.
 Obrázky na plochu počítače s žonglérskou tématikou
 </p>
 
-<!-- start -->
 <h3><a href="/animace/" title="Názorná videa žonglování s míčky.">Animace žonglování</a></h3>
 <p>
 <a href="/animace/" title="Názorná videa žonglování s míčky.">{obrazek soubor="animace-panacek.png" popisek="Animace žonglování s míčky"}</a>

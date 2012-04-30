@@ -12,11 +12,8 @@ wget \
 	--recursive \
 	http://zongl.info/ \
 	http://zongl.info/plain.css \
-	http://zongl.info/img/t/telo.gif \
-	http://zongl.info/img/o/okraje.png \
 	http://zongl.info/img/e/external.png \
-	http://zongl.info/img/o/odkazy-slabikar.png \
-	--reject pdf,juggling-tv.html,doplnky-prohlizece.html \
+	--reject 'pdf,juggling-tv.html,doplnky-prohlizece.html,odkazy.html,mobil.html,exkurze.html,vanoce-*.html,pf-*.html,changelog*.html,statistiky.html' \
 	-X animace,video,obrazky,mapa,kalendar,ulita,lide,diskuse,obrazky-na-plochu,navody,scripts,horoskop,vyhledavani,tip,rss,download,olympiada,mdz
 
 rm -rf zongleruv-slabikar
