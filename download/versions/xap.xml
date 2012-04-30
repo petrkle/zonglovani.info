@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package>
+
+	<description>Instalace žonglérova slabikáře pro systém &lt;strong&gt;Windows Mobile&lt;/strong&gt;.</description>
+
+	<release>
+		<version>0.4</version>
+		<filename>zongleruv-slabikar-0.4.xap</filename>
+		<size>3M</size>
+		<md5>9b8c41db45954d9785ba62fa2bb81106</md5>
+		<date>2012-04-3O</date>
+		<img>package-xap.png</img>
+	</release>
+
+</package>

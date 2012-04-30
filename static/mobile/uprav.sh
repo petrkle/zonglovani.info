@@ -41,6 +41,7 @@ rm $ZSDIR/ww-*.css
 rm $ZSDIR/fb.css
 rm $ZSDIR/fba.css
 rm $ZSDIR/k.css
+rm -rf $ZSDIR/navody
 rm $ZSDIR/r.css
 rm $ZSDIR/t.css
 rm $ZSDIR/m.css

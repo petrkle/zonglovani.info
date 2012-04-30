@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package>
+
+	<description>Instalace žonglérova slabikáře pro systém &lt;strong&gt;Android&lt;/strong&gt;. Dovolí ti prohlížet žonglérův slabikář v mobilu i bez připojení k internetu.</description>
+
+	<release>
+		<version>0.4</version>
+		<filename>zongleruv-slabikar-0.4.apk</filename>
+		<size>3.1M</size>
+		<md5>7f4209a6ff0fc067cb76dfcb5939e2d2</md5>
+		<date>2012-04-3O</date>
+		<img>package-apk.png</img>
+	</release>
+
+</package>

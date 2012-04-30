@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package>
+
+	<description>Instalace žonglérova slabikáře pro systém &lt;strong&gt;Symbian&lt;/strong&gt;. Prohlížej si žonglérův slabikář v mobilu Nokia.</description>
+
+	<release>
+		<version>0.4</version>
+		<filename>zongleruv-slabikar-0.4.wgz</filename>
+		<size>2.8M</size>
+		<md5>9f8dbfbb071ce9ea906248a02bf7e9f5</md5>
+		<date>2012-04-3O</date>
+		<img>package-wgz.png</img>
+	</release>
+
+</package>

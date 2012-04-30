@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <widget xmlns	= "http://www.w3.org/ns/widgets" xmlns:gap	= "http://phonegap.com/ns/1.0" id	= "info.zonglovani.mobile.app"
-	version = "0.4.0" versionCode = "0.4">
+	version = "0.4.0" versionCode = "04">
 
 	<name>Žonglérův slabikář</name>
 
@@ -13,5 +13,6 @@
 	<icon src="img/s/slabikar-48.png" gap:role="default" />
 
 	<preference name="orientation" value="default" />
-	<preference name="android-installLocation" value="preferExternal" />
+	<preference name="android-installLocation" value="auto" />
+	<preference name="permissions" value="none"/>
 </widget>

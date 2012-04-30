@@ -1,3 +1,4 @@
+{if $smarty.server.SERVER_NAME=='zonglovani.info'}
 <div id="disqus_thread"></div>
 <script type="text/javascript">
 {if $smarty.server.SERVER_NAME!='zonglovani.info'}
@@ -11,3 +12,4 @@
     {literal}}{/literal})();
 </script>
 <noscript><a href="{$smarty.const.DISKUSE_URL}" title="Diskuse o žonglování.">{obrazek soubor='komentar.png' popisek=''} Komentáře ke stránce</a></noscript>
+{/if}
