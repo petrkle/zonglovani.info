@@ -9,6 +9,7 @@ a img{border-width:0;}
 #menu ul li ul li{padding:5px 0;margin:3px 0 3px 1em;list-style:circle;}
 #paticka{text-align:center;}
 #paticka #dolni{background:#fd3;padding:5px;}
+#andoridapadd{background:#df3;padding:5px;border-bottom:solid 2px #000;}
 p,pre,hr{clear:both;margin:0 0 5px 5px;}
 hr{width:90%;margin:0 5px;}
 code{color:#060;font-weight:bold;}
