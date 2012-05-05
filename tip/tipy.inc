@@ -160,17 +160,17 @@
 2012-04-16*3 count*/kuzely/passing/3count.html*kuzely-passing-3counta.png*Každý 3. hod je pass. Jako valčík, na tři doby.
 2012-04-23*Poloviční sprcha*/micky/4/sprcha-polovicni.html*p4sprchac.png*Poloviční sprcha se čtyřmi míčky.
 2012-04-30*Překulení kuželky přes hlavu*/kuzely/headroll.html*headrollc.png*Trik známý též pod anglickým názvem headroll.
-2012-05-07*Sbírání spadlých míčků*/micky/sbirani.html*micky-sbirania.png*Když ti spadne míček, nepřestávej žonglovat.
-2012-05-14*Prohození kruhu pod nohou*/kruhy/3/noha.html*kruhy-3-nohaa.png*Jednoduchý a velmi efektní trik s kruhy.
-2012-05-21*Jen Slaw Juggling Promo*/video/jen-slaw.html*jen-slaw.jpg*Ukázka z vystoupení Jennyfer Slaw.
+2012-05-07*Jen Slaw Juggling Promo*/video/jen-slaw.html*jen-slaw.jpg*Ukázka z vystoupení Jennyfer Slaw.
+2012-05-14*Žonglpárty*/kalendar/udalost-20120519-20120519-pek-1321009065.html*zonglparty.png*Žonglování na dopravním hřišti na Vypichu.
+2012-05-21*Žonglobalizace*/kalendar/udalost-20120525-20120526-esteladefuego-1334069981.html*zonglobalizace12.jpg*Dvoudenní multižánrový festival, který se zaměřuje na cirkusové umění, kvalitní hudbu a další umělecky příbuzné obory.
 2012-05-28*Obíhání*/kuzely/passing/runarounds.html*kuzely-runaroundsa.png*Runarounds - trik pro dva žongléry a tři kužely.
 2012-06-04*Ohnivé kužely*/kuzely/ohen.html*kuzely-firea.png*Základy žonglování s ohněm.
 2012-06-11*Konstrukce kuželu*/kuzely/konstrukce.html*kuzel-konstrukce-s.png*Jak vypadá kužel uvnitř.
 2012-06-18*Výroba kuželů*/kuzely/vyroba.html*kuzely-vyrobae.png*Kužely levně, snadno a rychle.
 2012-06-25*European Juggling Convention*/kalendar/ejc.html*ejc-luk.jpg*Evropské setkání žonglérů v Mnichově začíná za měsíc. Nejvyšší čas sehnat si odvoz do Polska.
 2012-07-02*Aleje*/kalendar/udalost-20120825-20120831-pek-1333022216.html*aleje-logo.jpg*Za měsíc začne 11. mezinárodní žonglérská a divadelní dílna Aleje 2012.
-2012-07-09*Výhody pro registrované uživatele*/exkurze.html*exkurze-nastaveni.s.png*Obrázky a popis výhod pro registrované uživatele žonglérova slabikáře.
-2012-07-16*
+2012-07-09*Prohození kruhu pod nohou*/kruhy/3/noha.html*kruhy-3-nohaa.png*Jednoduchý a velmi efektní trik s kruhy.
+2012-07-16*Sbírání spadlých míčků*/micky/sbirani.html*micky-sbirania.png*Když ti spadne míček, nepřestávej žonglovat.
 2012-07-23*
 2012-07-30*
 2012-08-06*
