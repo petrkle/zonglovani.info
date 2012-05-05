@@ -1,10 +1,12 @@
 <?xml version="1.0"?>
 <klip>
   <nazev>Jeff Lutkus &amp; Wes Peden</nazev>
-  <link>http://www.jugglethis.net/files/videos/Wes%20and%20Jeff%20Lutkus.mpg</link>
-  <typ>file</typ>
+  <link>http://juggling.tv:6d447670bebf90cf8fbc</link>
+	<!--<link>http://www.jugglethis.net/files/videos/Wes%20and%20Jeff%20Lutkus.mpg</link>-->
+  <typ>juggling.tv</typ>
+	<download>http://juggling.tv/download/encoded/11646/jeff-lutkus-wes-peden.mp4</download>
   <popis>Video z roku 2006.</popis>
-  <delka>03:43</delka>
+  <delka>03:41</delka>
   <rozliseni>320x240</rozliseni>
-  <velikost>45 MB</velikost>
+  <velikost>7 MB</velikost>
 </klip>

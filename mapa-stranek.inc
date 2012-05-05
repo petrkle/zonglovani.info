@@ -56,6 +56,7 @@
 		</li>
 		<li><a name="download"></a><a href="/download/">Soubory ke stažení</a>
 		<ul>
+		<li><a href="/download/apk.html">Soubory ke stažení - apk</a></li>
 		<li><a href="/download/epub.html">Soubory ke stažení - epub</a></li>
 		<li><a href="/download/exe.html">Soubory ke stažení - exe</a></li>
 		<li><a href="/download/licence.html">Licence</a></li>
@@ -63,6 +64,8 @@
 		<li><a href="/download/msi.html">Soubory ke stažení - msi</a></li>
 		<li><a href="/download/pdf.html">Soubory ke stažení - pdf</a></li>
 		<li><a href="/download/tar.bz2.html">Soubory ke stažení - tar.bz2</a></li>
+		<li><a href="/download/wgz.html">Soubory ke stažení - wgz</a></li>
+		<li><a href="/download/xap.html">Soubory ke stažení - xap</a></li>
 		</ul>
 		</li>
 		<li><a name="horoskop"></a><a href="/horoskop/">Horoskop žonglování</a>
