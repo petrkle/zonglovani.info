@@ -54,6 +54,31 @@ if(isset($_GET['id'])){
 			);
 	}
 
+	if($id=='apk'){
+		$dalsi=array(
+			array('url'=>'/download/licence.html','text'=>'Licence - CC BY-ND','title'=>'Licence k souboru'),
+			array('url'=>'/download/wgz.html','text'=>'Žonglérův slabikář pro Symbian','title'=>'Žonglérův slabikář pro mobily Nokia.'),
+			array('url'=>'/download/xap.html','text'=>'Žonglérův slabikář pro Windows Phone','title'=>'Žonglérův slabikář pro mobily Nokia.'),
+			);
+	}
+
+	if($id=='wgz'){
+		$dalsi=array(
+			array('url'=>'/download/licence.html','text'=>'Licence - CC BY-ND','title'=>'Licence k souboru'),
+			array('url'=>'/download/apk.html','text'=>'Žonglérův slabikář pro Android','title'=>'Žonglérův slabikář pro mobily a tablety s Androidem.'),
+			array('url'=>'/download/xap.html','text'=>'Žonglérův slabikář pro Windows Phone','title'=>'Žonglérův slabikář pro mobily Nokia.'),
+			);
+	}
+
+	if($id=='xap'){
+		$dalsi=array(
+			array('url'=>'/download/licence.html','text'=>'Licence - CC BY-ND','title'=>'Licence k souboru'),
+			array('url'=>'/download/wgz.html','text'=>'Žonglérův slabikář pro Symbian','title'=>'Žonglérův slabikář pro mobily Nokia.'),
+			array('url'=>'/download/apk.html','text'=>'Žonglérův slabikář pro Android','title'=>'Žonglérův slabikář pro mobily a tablety s Androidem.'),
+			);
+	}
+
+
 
 	$smarty->assign_by_ref('dalsi',$dalsi);
 
