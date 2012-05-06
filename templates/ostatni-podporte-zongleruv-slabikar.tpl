@@ -10,10 +10,9 @@ Podpoř <a href="http://www.facebook.com/zongleruv.slabikar" class="external" on
 <li><a href="http://zonglovani.rajce.idnes.cz/" class="external" onclick="_gaq.push(['_trackPageview','/goto/zonglovani.rajce.idnes.cz']);">rajce.net</a></li>
 <li><a href="http://juggling.tv/users/4431/zonglovani.info" class="external" onclick="_gaq.push(['_trackPageview','/goto/juggling.tv/users/4431']);">juggling.tv</a></li>
 <li><a href="http://www.youtube.com/ZongleruvSlabikar" class="external" onclick="_gaq.push(['_trackPageview','/goto/youtube.com/ZongleruvSlabikar']);">youtube.com</a></li>
-<li><a href="http://twitter.com/zonglovani" onclick="_gaq.push(['_trackPageview','/goto/twitter.com/zonglovani']);">twitter.com</a></li>
-<li><a href="https://foursquare.com/zonglovani" onclick="_gaq.push(['_trackPageview','/goto/foursquare.com/zonglovani']);">foursquare.com</a></li>
-<li><a href="https://plus.google.com/113185830714954615444" onclick="_gaq.push(['_trackPageview','/goto/google+']);">google+</a></li>
-<li><a href="http://www.slideshare.net/zonglovani" onclick="_gaq.push(['_trackPageview','/goto/slideshare.net']);">slideshare.net</a></li>
+<li><a href="http://twitter.com/zonglovani" class="external" onclick="_gaq.push(['_trackPageview','/goto/twitter.com/zonglovani']);">twitter.com</a></li>
+<li><a href="https://plus.google.com/113185830714954615444" class="external" onclick="_gaq.push(['_trackPageview','/goto/google+']);">google+</a></li>
+<li><a href="http://www.slideshare.net/zonglovani" class="external" onclick="_gaq.push(['_trackPageview','/goto/slideshare.net']);">slideshare.net</a></li>
 </ul>
 
 <h3><a href="{$smarty.const.LIDE_URL}novy-ucet.php">Založ si účet</a></h3>
