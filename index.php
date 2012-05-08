@@ -1,5 +1,4 @@
 <?php
-
 if(preg_match('/index\.php$/',$_SERVER['REQUEST_URI'])){
 	header('HTTP/1.1 301 Moved Permanently');
 	header('Location: /');
@@ -20,5 +19,3 @@ $smarty->assign('tip',array_shift(get_tipy()));
 $smarty->display('hlavicka.tpl');
 $smarty->display('index.tpl');
 $smarty->display('paticka.tpl');
-
-?>
