@@ -525,6 +525,7 @@ function get_head_data($file) {
 	$headdata = $regs[1];
 
 	$description = "";
+	$image_src = "";
 	$robots = "";
 	$keywords = "";
     $base = "";
@@ -539,6 +540,7 @@ function get_head_data($file) {
 		if (isset ($res)) {
 			$description = $res[1];
 		}
+
 
 		preg_match("/<meta +name *=[\"']?keywords[\"']? *content=[\"']?([^<>'\"]+)[\"']?/i", $headdata, $res);
 		if (isset ($res)) {
@@ -561,11 +563,13 @@ function get_head_data($file) {
 				$nofollow = 1;
 			}
 		}
+		$data=array();
 		$data['description'] = addslashes($description);
 		$data['keywords'] = addslashes($keywords);
 		$data['nofollow'] = $nofollow;
 		$data['noindex'] = $noindex;
 		$data['base'] = $base;
+		$data['img'] = $img;
 	}
 	return $data;
 }
@@ -577,6 +581,13 @@ function clean_file($file, $url, $type) {
 	$host = $urlparts['host'];
 	//remove filename from path
 	$path = eregi_replace('([^/]+)$', "", $urlparts['path']);
+	$img = preg_replace('/<link rel="image_src"/', "", $file);
+
+	preg_match('/<link rel="image_src" href="([^"]+)"/i', $file, $res);
+	if (isset ($res)) {
+		$img = preg_replace('/http:\/\/zongl.info/','',$res[1]);
+	}
+
 	$file = preg_replace("/<link rel[^<>]*>/i", " ", $file);
 	$file = preg_replace("@<!--sphider_noindex-->.*?<!--\/sphider_noindex-->@si", " ",$file);	
 	$file = preg_replace('/.*Jste zde:.*/','',$file);	
@@ -631,6 +642,7 @@ function clean_file($file, $url, $type) {
 	$data['path'] = $path;
 	$data['nofollow'] = $headdata['nofollow'];
 	$data['noindex'] = $headdata['noindex'];
+	$data['img'] = $img;
 	$data['base'] = $headdata['base'];
 
 	return $data;

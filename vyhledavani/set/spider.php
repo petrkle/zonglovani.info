@@ -286,6 +286,7 @@
 					$host = $data['host'];
 					$path = $data['path'];
 					$fulltxt = $data['fulltext'];
+					$img = $data['img'];
 					$desc = substr($data['description'], 0,254);
 					$url_parts = parse_url($url);
 					$domain_for_db = $url_parts['host'];
@@ -300,10 +301,11 @@
 
 					$wordarray = calc_weights ($wordarray, $title, $host, $path, $data['keywords']);
 
+
 					//if there are words to index, add the link to the database, get its id, and add the word + their relation
 					if (is_array($wordarray) && count($wordarray) > $min_words_per_page) {
 						if ($md5sum == '') {
-							mysql_query ("insert into ".$mysql_table_prefix."links (site_id, url, title, description, fulltxt, indexdate, size, md5sum, level) values ('$site_id', '$url', '$title', '$desc', '$fulltxt', curdate(), '$pageSize', '$newmd5sum', $thislevel)");
+							mysql_query ("insert into ".$mysql_table_prefix."links (site_id, url, title, description, fulltxt, indexdate, size, md5sum, level, img) values ('$site_id', '$url', '$title', '$desc', '$fulltxt', curdate(), '$pageSize', '$newmd5sum', $thislevel, '$img')");
 							echo mysql_error();
 							$result = mysql_query("select link_id from ".$mysql_table_prefix."links where url='$url'");
 							echo mysql_error();
@@ -325,7 +327,7 @@
 								echo mysql_error();
 							}
 							save_keywords($wordarray, $link_id, $dom_id);
-							$query = "update ".$mysql_table_prefix."links set title='$title', description ='$desc', fulltxt = '$fulltxt', indexdate=now(), size = '$pageSize', md5sum='$newmd5sum', level=$thislevel where link_id=$link_id";
+							$query = "update ".$mysql_table_prefix."links set title='$title', description ='$desc', fulltxt = '$fulltxt', indexdate=now(), size = '$pageSize', md5sum='$newmd5sum', level=$thislevel, img='$img' where link_id=$link_id";
 							mysql_query($query);
 							echo mysql_error();
 							printStandardReport('re-indexed', $command_line);

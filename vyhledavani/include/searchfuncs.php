@@ -413,7 +413,7 @@ error_reporting(E_ALL ^ E_NOTICE ^ E_WARNING);
 			$fulltxt = "substring(fulltxt, 1, $length_of_link_desc)";
 		}
 
-		$query1 = "SELECT distinct link_id, url, title, description,  $fulltxt, size FROM ".$mysql_table_prefix."links WHERE link_id in ($inlist)";
+		$query1 = "SELECT distinct link_id, url, title, description,  $fulltxt, size, img FROM ".$mysql_table_prefix."links WHERE link_id in ($inlist)";
 
 		$result = mysql_query($query1);
 			if($mysql_err = mysql_errno()) {
@@ -432,6 +432,7 @@ error_reporting(E_ALL ^ E_NOTICE ^ E_WARNING);
 			else 
 				$res[$i]['fulltxt'] = $row[4];
 			$res[$i]['size'] = $row[5];
+			$res[$i]['img'] = $row[6];
 			$res[$i]['weight'] = $result_array[$row[0]];
 			$dom_result = mysql_query("select domain from ".$mysql_table_prefix."domains where domain_id='".$domains[$row[0]]."'");
 			$dom_row = mysql_fetch_row($dom_result);
@@ -547,6 +548,7 @@ function get_search_results($query, $start, $category, $searchtype, $results, $d
 			$fulltxt = $result[$i]['fulltxt'];
 			$page_size = $result[$i]['size'];
 			$domain = $result[$i]['domain'];
+			$img = $result[$i]['img'];
 			if ($page_size!="") 
 				$page_size = number_format($page_size, 1)."kb";
 			
@@ -618,6 +620,7 @@ function get_search_results($query, $start, $category, $searchtype, $results, $d
 			$full_result['qry_results'][$i]['num'] =  $num;
 			$full_result['qry_results'][$i]['weight'] =  $weight;
 			$full_result['qry_results'][$i]['url'] =  $url;
+			$full_result['qry_results'][$i]['img'] =  $img;
 			$full_result['qry_results'][$i]['title'] =  $title;
 			$full_result['qry_results'][$i]['fulltxt'] =  $fulltxt;
 			$full_result['qry_results'][$i]['url2'] =  $url2;

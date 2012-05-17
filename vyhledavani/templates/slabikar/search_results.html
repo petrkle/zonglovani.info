@@ -40,7 +40,11 @@ extract($search_results);
 		<?php  if ($domain_name==$last_domain && $merge_site_results == 1 && $domain == "") {?>
 		<?php }?>
 		<h3><a href="<?php print $url?>" class="title"><?php print ($title?$title:$sph_messages['Untitled'])?></a></h3>
-		<p><?php print $fulltxt?></p>
+		<p><?php 
+		if(isset($_row['img']) and strlen(trim($_row['img']))>0){
+		print '<img src="'.$_row['img'].'" width="100" height="100" />';
+		}
+		?><?php print $fulltxt?></p>
 	<?php  }?>
  </div>
 <?php }?>
