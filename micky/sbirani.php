@@ -11,6 +11,7 @@ $trail->addStep($titulek);
 
 $smarty->assign('keywords',make_keywords($titulek));
 $smarty->assign('description','Sbírání spadlých žonglovacích míčků ze země.');
+$smarty->assign('nahled','http://'.$_SERVER['SERVER_NAME'].'/img/m/micky-sbirania.png');
 
 $smarty->assign_by_ref('trail', $trail->path);
 
@@ -20,5 +21,3 @@ $smarty->assign('trik',$trik);
 $smarty->display('hlavicka.tpl');
 $smarty->display('trik.tpl');
 $smarty->display('paticka.tpl');
-
-?>

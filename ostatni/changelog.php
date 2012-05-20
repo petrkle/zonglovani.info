@@ -14,6 +14,8 @@ $smarty->assign_by_ref('dalsi',$dalsi);
 
 $zmeny=get_changelog();
 
+$smarty->assign('nahled','http://'.$_SERVER['SERVER_NAME'].'/img/b/budik.jpg');
+
 $pagerOptions = array(
     'mode'     => 'Sliding',
     'delta'    => 3,

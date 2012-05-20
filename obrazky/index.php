@@ -60,6 +60,8 @@ if($id){
 		require($lib.'/Pager/Pager.php');
 		$obrazky=get_galerie_obrazky($id);
 
+		$smarty->assign('nahled',$obrazky[0]['nahled']);
+
 		$poradi=0;
 		foreach($obrazky as $key=>$foo){
 				$obrazky[$key]['cislo']=$poradi;

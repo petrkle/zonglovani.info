@@ -8,6 +8,7 @@ $smarty->assign('titulek',$titulek);
 
 $smarty->assign('keywords','video, juggling.tv');
 $smarty->assign('description','Podrobný popis stránek juggling.tv.');
+$smarty->assign('nahled','http://'.$_SERVER['SERVER_NAME'].'/img/j/juggling.tv.png');
 
 $dalsi=array(
 	array('url'=>'/video/','text'=>'Žonglérská videa','title'=>'Výběr žonglérských videí'),
@@ -21,5 +22,3 @@ $smarty->assign_by_ref('trail', $trail->path);
 $smarty->display('hlavicka.tpl');
 $smarty->display('juggling.tv.tpl');
 $smarty->display('paticka.tpl');
-
-?>

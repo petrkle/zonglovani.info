@@ -7,6 +7,7 @@ $smarty->assign('titulek',$titulek);
 
 $smarty->assign('keywords',make_keywords($titulek));
 $smarty->assign('description','Jak můžeš pomoct při tvorbě žonglérova slabikáře.');
+$smarty->assign('nahled','http://'.$_SERVER['SERVER_NAME'].'/img/p/podporaa.png');
 
 $dalsi=array(
 	array('url'=>'/kontakt.html','text'=>'Kontakt','title'=>'Kontaktní údaje'),
@@ -21,4 +22,3 @@ $smarty->assign_by_ref('trail', $trail->path);
 $smarty->display('hlavicka.tpl');
 $smarty->display('ostatni-podporte-zongleruv-slabikar.tpl');
 $smarty->display('paticka.tpl');
-?>

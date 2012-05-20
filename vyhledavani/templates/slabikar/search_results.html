@@ -42,7 +42,7 @@ extract($search_results);
 		<h3><a href="<?php print $url?>" class="title"><?php print ($title?$title:$sph_messages['Untitled'])?></a></h3>
 		<p><?php 
 		if(isset($_row['img']) and strlen(trim($_row['img']))>0){
-		print '<img src="'.$_row['img'].'" width="100" height="100" />';
+		print '<a href="'.$url.'"><img src="'.$_row['img'].'" width="100" height="100" /></a>';
 		}
 		?><?php print $fulltxt?></p>
 	<?php  }?>

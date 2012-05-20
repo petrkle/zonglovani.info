@@ -48,6 +48,12 @@ $pagerOptions = array(
 $pager =& Pager::factory($pagerOptions);
 $data = $pager->getPageData();
 
+$first_tip=array_slice($data,0,1);
+$fl=preg_replace('/^(.).*/','\1',$first_tip[0]['obrazek']);
+if(is_file('../img/'.$fl.'/'.$first_tip[0]['obrazek'])){
+	$smarty->assign('nahled','http://'.$_SERVER['SERVER_NAME'].'/img/'.$fl.'/'.$first_tip[0]['obrazek']);
+}
+
 $smarty->assign(
     'page_numbers', array(
         'current' => $pager->getCurrentPageID(),
@@ -78,4 +84,3 @@ if($pager->getCurrentPageID()>1){
 	$smarty->display('tip.list.tpl');
 	$smarty->display('paticka.tpl');
 }
-?>

@@ -13,9 +13,8 @@ $trail = new Trail();
 $trail->addStep('Informace o žonglování','/ostatni.html');
 $trail->addStep($titulek);
 $smarty->assign_by_ref('trail', $trail->path);
+$smarty->assign('nahled','http://'.$_SERVER['SERVER_NAME'].'/img/f/faq.png');
 
 $smarty->display('hlavicka.tpl');
 $smarty->display('ostatni-faq.tpl');
 $smarty->display('paticka.tpl');
-
-?>

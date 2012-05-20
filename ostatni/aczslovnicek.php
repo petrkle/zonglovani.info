@@ -7,6 +7,7 @@ $smarty->assign('feedback',true);
 
 $smarty->assign('keywords',make_keywords($titulek).', juggling, dictionary');
 $smarty->assign('description','Slovníček nejčastějších žonglérských výrazů. Czech-English juggling dictionary.');
+$smarty->assign('nahled','http://'.$_SERVER['SERVER_NAME'].'/img/s/slovnik.jpg');
 
 $smarty->assign('titulek',$titulek);
 

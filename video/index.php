@@ -27,6 +27,12 @@ $pagerOptions = array(
 $pager =& Pager::factory($pagerOptions);
 $data = $pager->getPageData();
 
+$first_video=array_slice($data,0,1);
+$fl=preg_replace('/^(.).*/','\1',$first_video[0]['nahled']);
+if(is_file('img/'.$fl.'/'.$first_video[0]['nahled'])){
+	$smarty->assign('nahled','http://'.$_SERVER['SERVER_NAME'].'/video/img/'.$fl.'/'.$first_video[0]['nahled']);
+}
+
 $smarty->assign('keywords','žonglování, video, fireshow, žonglshow, představení');
 $titulek='Žonglérská videa';
 $desc='Výběr povedených žonglérských videí.';

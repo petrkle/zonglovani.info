@@ -32,6 +32,8 @@ if($filtr){
 		$pozice=array_search($filtr,$klice);
 		if(isset($dovednosti_link[$filtr])){
 			$smarty->assign_by_ref('dovednost_link',$dovednosti_link[$filtr]);
+			$fl=preg_replace('/^(.).*/','\1',$dovednosti_link[$filtr]['img']);
+			$smarty->assign('nahled','http://'.$_SERVER['SERVER_NAME'].'/img/'.$fl.'/'.$dovednosti_link[$filtr]['img']);
 		}
 	$uzivatele=array();
 	foreach(get_loginy() as $login){
