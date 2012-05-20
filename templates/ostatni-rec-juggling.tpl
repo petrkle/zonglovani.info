@@ -1,4 +1,5 @@
 <p>
+{obrazek soubor='rj.png' titulek='rec.juggling'}
 rec.juggling je diskusní skupina o žonglování. Přispívají do ní žongléři z celého světa. Obsahuje spoustu odkazů na nově natočená žonglérská videa. Oznámení o konání festivalů žonglování po celém světě. A další spoustu užitečných informací.
 </p>
 <h3>Základní údaje</h3>
@@ -11,7 +12,8 @@ rec.juggling je diskusní skupina o žonglování. Přispívají do ní žonglé
 <h3>Webové rozhraní</h3>
 
 <ul>
-<li><a href="http://jugglingdb.com/news" class="external" onclick="_gaq.push(['_trackPageview','/goto/jugglingdb.com/news']);">http://jugglingdb.com/news</a></li>
+{*<li><a href="http://jugglingdb.com/news" class="external" onclick="_gaq.push(['_trackPageview','/goto/jugglingdb.com/news']);">http://jugglingdb.com/news</a></li>*}
+<li><a href="http://jugglehub.com" class="external" onclick="_gaq.push(['_trackPageview','/goto/jugglehub.com']);">http://jugglehub.com</a></li>
 <li><a href="http://groups.google.com/group/rec.juggling" class="external" onclick="_gaq.push(['_trackPageview','groups.google.com/group/rec.juggling']);">http://groups.google.com/group/rec.juggling</a></li>
 </ul>
 

@@ -28,6 +28,12 @@ Profesionální fireshow skupina.
 Žonglérská skupina Kruhová parabola.
 </p>
 
+<a name="jugglehub"></a><h5><a href="http://juraj-zongler.cz" title="Jirka Grygar" class="external" onclick="_gaq.push(['_trackPageview','/goto/juraj-zongler.cz']);">Jirka Grygar</a></h5>
+<p>
+<a href="http://juraj-zongler.cz/" title="Jirka Grygar" onclick="_gaq.push(['_trackPageview','/goto/jugglehub']);">{obrazek soubor="odkazy-juraj-zongler.cz.png" popisek="juraj-zongler.cz"}</a>
+Juraj juggling.
+</p>
+
 <a name="firelovers"></a><h5><a href="http://firelovers.cz/" title="Fireshow firelovers" class="external" onclick="_gaq.push(['_trackPageview','/goto/firelovers.cz']);">firelovers.cz</a></h5>
 <p>
 <a href="http://firelovers.cz/" title="Fireshow firelovers" class="external" onclick="_gaq.push(['_trackPageview','/goto/firelovers.cz']);">{obrazek soubor="odkazy-firelovers.jpg" popisek="firelovers.cz"}</a>
@@ -52,6 +58,12 @@ Další příspěvek ze <a href="{$smarty.const.LIDE_URL}misto/#sk" title="Sezna
 Žonglérská televize.
 </p>
 
+<a name="jugglehub"></a><h5><a href="http://jugglehub.com" title="JuggleHub" class="external" onclick="_gaq.push(['_trackPageview','/goto/jugglehub.com']);">jugglehub.com</a></h5>
+<p>
+<a href="http://jugglehub.com/" title="JuggleHub" onclick="_gaq.push(['_trackPageview','/goto/jugglehub']);">{obrazek soubor="odkazy-jugglehub.com.png" popisek="jugglehub.com"}</a>
+Žonglérský portál.
+</p>
+
 <a name="cirqueon"></a><h5><a href="http://www.cirqueon.cz/" title="Asociace pro současný cirkus" class="external" onclick="_gaq.push(['_trackPageview','/goto/cirqueon.cz']);">cirqueon.cz</a></h5>
 <p>
 <a href="http://www.cirqueon.cz/" title="Asociace pro současný cirkus" onclick="_gaq.push(['_trackPageview','/goto/cirqueon.cz']);">{obrazek soubor="odkazy-cirqueon.cz.png" popisek="cirqueon.cz"}</a>
@@ -70,6 +82,7 @@ Skupina, která se věnuje převážně divadlu, ale dělají i nějaké to žon
 Didierovy stránky o žonglování - anglicky a francouzsky.
 </p>
 
+{*
 <a name="jugglingdb"></a><h5><a href="http://www.jugglingdb.com" title="Anglické stránky o žonglování." class="external" onclick="_gaq.push(['_trackPageview','/goto/jugglingdb.com']);">Internet Juggling Database</a></h5>
 <p>
 <a href="http://www.jugglingdb.com" title="Anglické stránky o žonglování." onclick="_gaq.push(['_trackPageview','/goto/jugglingdb.com']);">{obrazek soubor="odkazy-jugglingdb.com.png" popisek="jugglingdb.com"}</a>
@@ -87,6 +100,7 @@ Informace pro žongléry.
 <a href="http://www.passingdb.com/" title="Anglické stránky o žonglování." onclick="_gaq.push(['_trackPageview','/goto/passingdb.com']);">{obrazek soubor="odkazy-passingdb.com.png" popisek="passingdb.com"}</a>
 Informace o passování.
 </p>
+*}
 
 <a name="twjc"></a><h5><a href="http://www.twjc.co.uk/tutorials.html" title="Anglické stránky o žonglování." class="external" onclick="_gaq.push(['_trackPageview','/goto/twjc.co.uk']);">Tunbridge Wells Juggling Club Tutorials</a></h5>
 <p>

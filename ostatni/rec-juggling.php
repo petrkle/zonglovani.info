@@ -8,6 +8,7 @@ $smarty->assign('feedback',true);
 
 $smarty->assign('keywords',make_keywords($titulek).', žonglování');
 $smarty->assign('description','Celosvětová diskusní skupina o žonglování - rec.juggling');
+$smarty->assign('nahled','http://'.$_SERVER['SERVER_NAME'].'/img/r/rj.png');
 
 $dalsi=array(
 	array('url'=>'/odkazy.html','text'=>'Žonglování na síti','title'=>'Odkazy na stránky věnované žonglování'),
@@ -24,5 +25,3 @@ $smarty->assign_by_ref('trail', $trail->path);
 $smarty->display('hlavicka.tpl');
 $smarty->display('ostatni-rec-juggling.tpl');
 $smarty->display('paticka.tpl');
-
-?>
