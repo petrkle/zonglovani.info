@@ -163,7 +163,8 @@
 2012-05-07*Jen Slaw Juggling Promo*/video/jen-slaw.html*jen-slaw.jpg*Ukázka z vystoupení Jennyfer Slaw.
 2012-05-14*Žonglpárty*/kalendar/udalost-20120519-20120519-pek-1321009065.html*zonglparty.png*Žonglování na dopravním hřišti na Vypichu.
 2012-05-21*Žonglobalizace*/kalendar/udalost-20120525-20120526-esteladefuego-1334069981.html*zonglobalizace12.jpg*Dvoudenní multižánrový festival, který se zaměřuje na cirkusové umění, kvalitní hudbu a další umělecky příbuzné obory.
-2012-05-28*Obíhání*/kuzely/passing/runarounds.html*kuzely-runaroundsa.png*Runarounds - trik pro dva žongléry a tři kužely.
+2012-05-27*Blind passes*/video/etc/4-count-blind-passes.html*blind-passes.jpg*Návod na házení poslepu při passování s kužely.
+2012-05-28*Cirk-uff*/kalendar/udalost-20120531-20120603-pek-1334989292.html*cirkuff.png*Poslední květnový čtvrtek zahájí v dopoledních hodinách belgičtí žongléři druhý ročník mezinárodního festivalu nového cirkusu Cirk-uff 2012.
 2012-06-04*Ohnivé kužely*/kuzely/ohen.html*kuzely-firea.png*Základy žonglování s ohněm.
 2012-06-11*Konstrukce kuželu*/kuzely/konstrukce.html*kuzel-konstrukce-s.png*Jak vypadá kužel uvnitř.
 2012-06-18*Výroba kuželů*/kuzely/vyroba.html*kuzely-vyrobae.png*Kužely levně, snadno a rychle.
@@ -171,7 +172,7 @@
 2012-07-02*Aleje*/kalendar/udalost-20120825-20120831-pek-1333022216.html*aleje-logo.jpg*Za měsíc začne 11. mezinárodní žonglérská a divadelní dílna Aleje 2012.
 2012-07-09*Prohození kruhu pod nohou*/kruhy/3/noha.html*kruhy-3-nohaa.png*Jednoduchý a velmi efektní trik s kruhy.
 2012-07-16*Sbírání spadlých míčků*/micky/sbirani.html*micky-sbirania.png*Když ti spadne míček, nepřestávej žonglovat.
-2012-07-23*
+2012-07-23*Obíhání*/kuzely/passing/runarounds.html*kuzely-runaroundsa.png*Runarounds - trik pro dva žongléry a tři kužely.
 2012-07-30*
 2012-08-06*
 2012-08-13*

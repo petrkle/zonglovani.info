@@ -60,7 +60,6 @@ if($id){
 		require($lib.'/Pager/Pager.php');
 		$obrazky=get_galerie_obrazky($id);
 
-		$smarty->assign('nahled',$obrazky[0]['nahled']);
 
 		$poradi=0;
 		foreach($obrazky as $key=>$foo){
@@ -100,6 +99,12 @@ if($id){
 		);
 		$pager =& Pager::factory($pagerOptions);
 		$data = $pager->getPageData();
+
+		$first_img=array_slice($data,0,1);
+		if(strlen($first_img[0]['nahled'])>0){
+			$smarty->assign('nahled',$first_img[0]['nahled']);
+		}
+
 		$moznestranky=array();
 
 		foreach($obrazky as $key=>$foo){
