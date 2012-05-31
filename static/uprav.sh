@@ -23,4 +23,51 @@ do
 	rm -f $foo.bat
 done
 
+ZSDIR=`echo $ZSDIR | sed 's#/##g'`
+
 cp LICENCE.txt $ZSDIR
+
+rm $ZSDIR/img/t/tel-*
+rm $ZSDIR/w-*.css
+rm $ZSDIR/ww-*.css
+rm $ZSDIR/fb.css
+rm $ZSDIR/fba.css
+rm $ZSDIR/img/e/exkurze*
+rm $ZSDIR/img/f/fire-?.jpg
+rm $ZSDIR/img/t/tenisak.jpg
+rm $ZSDIR/img/s/sity.jpg
+rm $ZSDIR/img/g/gumovy.jpg
+rm $ZSDIR/img/s/stage.jpg
+rm $ZSDIR/img/t/trany.jpg
+rm $ZSDIR/img/b/balonky.jpg
+rm $ZSDIR/img/h/hakysak.jpg
+rm $ZSDIR/img/b/baseball.jpg
+rm $ZSDIR/img/p/pomeranc.jpg
+rm $ZSDIR/img/v/velky-mic.jpg
+rm $ZSDIR/img/u/uchyt.jpg
+rm $ZSDIR/img/c/chuda.jpg
+rm $ZSDIR/img/j/jtv-*
+rm $ZSDIR/img/v/vesele-vanoce.png
+rm $ZSDIR/img/b/browser*
+rm $ZSDIR/img/b/budik.jpg
+rm $ZSDIR/img/d/diabolo-sipek.s.jpg
+rm $ZSDIR/img/d/downloada.png
+rm $ZSDIR/img/h/horoskop.png
+rm $ZSDIR/img/j/juggling.tv.png
+rm $ZSDIR/img/m/mobil*
+rm $ZSDIR/img/o/odkazy-*
+rm -rf $ZSDIR/img/q
+rm $ZSDIR/img/s/snehulacek.png
+rm $ZSDIR/img/s/snehulak.png
+rm $ZSDIR/img/z/zvonya.jpg
+rm $ZSDIR/img/v/vanoce.png
+rm $ZSDIR/img/v/vanocni-kometa.s.jpg
+rm $ZSDIR/img/p/pf-*
+rm $ZSDIR/img/p/pek.jpg
+rm -rf $ZSDIR/novinky*
+rm -rf $ZSDIR/ostatni
+rm -rf $ZSDIR/*.odt
+
+find $ZSDIR/img/ -name "*.jpg" -size +50k -exec rm \{\} \;
+find $ZSDIR/ -name "*.rss" -exec rm \{\} \;
+find $ZSDIR/ -name "*.xml" -exec rm \{\} \;

@@ -12,16 +12,18 @@ wget \
 	--recursive \
 	http://zongl.info/ \
 	http://zongl.info/z.css \
+	http://zongl.info/plain.css \
 	http://zongl.info/zt.css \
 	http://zongl.info/img/t/telo.gif \
 	http://zongl.info/img/o/okraje.png \
 	http://zongl.info/img/m/micky-logo.gif \
 	http://zongl.info/img/k/kruhy-logo.gif \
+	http://zongl.info/img/d/diabolo-logo.gif \
 	http://zongl.info/img/e/external.png \
 	http://zongl.info/img/k/kuzely-logo.gif \
 	http://zongl.info/img/o/odkazy-slabikar.png \
 	--reject pdf \
-	-X animace,video,obrazky,mapa,kalendar,ulita,lide,diskuse,obrazky-na-plochu,navody,scripts,horoskop,vyhledavani,tip,rss,download
+	-X animace,video,obrazky,mapa,kalendar,ulita,lide,diskuse,obrazky-na-plochu,navody,scripts,horoskop,vyhledavani,tip,rss,download,olympiada,mdz
 
 mv zongl.info zongleruv-slabikar
 cp ../img/t/tel-*.png zongleruv-slabikar/img/t

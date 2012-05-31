@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+	<Product Id='77f28910-2b3a-449c-9691-9ffe235d7fff'
+		Name='$(var.ProductName) $(var.ProductVersion)'
+		Language='1029' 
+		Version='$(var.ProductVersion)'
+		Manufacturer='www.zonglovani.info'
+		UpgradeCode='28fae9a7-5822-43a8-bf8c-f306f573a1fc' >
+
+		<Package Description='Obrázková učebnice žonglování s míčky, kruhy a kužely.'
+			Comments='$(var.ProductName) $(var.ProductVersion)'
+			Manufacturer='www.zonglovani.info'
+			InstallerVersion='202'
+			Compressed='yes'
+			InstallPrivileges="elevated"
+			InstallScope="perMachine" />
+
+			<InstallExecuteSequence>
+				<RemoveExistingProducts After="InstallInitialize" />
+				<Custom Action="SetARPINSTALLLOCATION" After="InstallValidate" />
+			</InstallExecuteSequence>
+
+	<Upgrade Id='28fae9a7-5822-43a8-bf8c-f306f573a1fc'>
+		<UpgradeVersion OnlyDetect='no'
+			Property='PREVIOUSFOUND'
+			Minimum='0.0.1'
+			IncludeMinimum='yes'
+			Maximum='$(var.ProductVersion)'
+			IncludeMaximum='no' />
+	</Upgrade>
+
+
+  <UIRef Id="WixUI_Minimal" />
+
+	<WixVariable Id="WixUIBannerBmp" Value="img\top.bmp" />
+	<WixVariable Id="WixUIDialogBmp" Value="img\bg.bmp" />
+	<WixVariable Id="WixUILicenseRtf" Value="LICENCE.rtf" />
+	<Icon Id="ProductIcon" SourceFile="img\zonglovani.ico"/>
+	<Property Id="ARPPRODUCTICON" Value="ProductIcon" />
+	<Property Id='ARPCOMMENTS' Value="Žonglérův slabikář - obrázková učebnice žonglování s míčky, kruhy a kužely." />
+	<Property Id='ARPCONTACT' Value="Petr Kletečka" />
+	<Property Id='ARPHELPLINK' Value="http://zonglovani.info/kontakt.html" />
+	<Property Id='ARPURLUPDATEINFO' Value="http://zonglovani.info/changelog.html" />
+	<Property Id='ARPREADME' Value="http://zonglovani.info" />
+	<Property Id='ARPURLINFOABOUT' Value="http://zonglovani.info" />
+
+
+	<Feature Id='main'
+		Title='Žonglérův slabikář'
+		Description='Obrázková učebnice žonglování s míčky, kruhy a kužely.'
+		Level='1'>
+		<?include components.wxs ?>
+	</Feature>
+
+<Media Id="1" Cabinet="zonglovani.cab" EmbedCab="yes" CompressionLevel='high' />
+
+<Directory Id='TARGETDIR' Name='SourceDir'>
+	<Directory Id='ProgramFilesFolder' Name='PFiles'>
+
+		<?include files.wxs ?>
+
+	</Directory>
+<Directory Id="DesktopFolder" Name="Desktop" />
+<Directory Id="ProgramMenuFolder" Name="Programs" />
+
+</Directory>
+			<Icon Id="ZS.ico" SourceFile="img\zonglovani.ico" />
+	<CustomAction Id="SetARPINSTALLLOCATION" Property="ARPINSTALLLOCATION" Value="[zongleruv_slabikar]" />
+	</Product>
+</Wix>
