@@ -12,7 +12,7 @@ $dovednosti_link['micky_passing']=array('text'=>"Mills' mess ve dvou",'url'=>'/m
 $dovednosti_link['kuzely']=array('text'=>'Druhy kuželů','url'=>'/kuzely/druhy.html','img'=>'kuzelka-classic-dekor-s.jpg');
 #$dovednosti_link['kuzely_passing']=array('text'=>'','url'=>'','img'=>'');
 $dovednosti_link['kuzely_ohen']=array('text'=>'Jak házet ohnivé kužely','url'=>'/kuzely/ohen.html','img'=>'kuzely-firea.png');
-$dovednosti_link['diabolo']=array('text'=>'','url'=>'','img'=>'nacinif.png');
+$dovednosti_link['diabolo']=array('text'=>'Diabolo','url'=>'/diabolo/','img'=>'nacinif.png');
 $dovednosti_link['jojo']=array('text'=>'','url'=>'','img'=>'nacinii.png');
 $dovednosti_link['kontakt']=array('text'=>'','url'=>'','img'=>'druhyb.png');
 $dovednosti_link['devilstick']=array('text'=>'','url'=>'','img'=>'nacinig.png');
