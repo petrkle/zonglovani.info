@@ -46,6 +46,7 @@
 {/if}
 {if isset($nahled)}
 	<link rel="image_src" href="{$nahled|escape}" />
+	<link rel="previewimage" href="{$nahled|escape}" />
 {/if}
 	<link rel="search" type="application/opensearchdescription+xml" title="Žonglérův slabikář" href="http://{$smarty.server.SERVER_NAME}/vyhledavani/vyhledavani.xml" />
 	<meta http-equiv="imagetoolbar" content="no" />
