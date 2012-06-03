@@ -3,3 +3,5 @@ RewriteBase /diabolo
 
 RewriteCond %{HTTP_HOST} ^www\.(.*)
 RewriteRule (.*) http://%1/diabolo/$1 [R=301,QSA,NE,L]
+
+RewriteRule ^(.*).html diabolo.php?show=diabolo-$1 [L]

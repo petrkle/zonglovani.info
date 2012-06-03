@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<trik>
+	<about>
+		<nazev>Roztočení diabola</nazev>
+		<pocet>1</pocet>
+		<siteswaps>-</siteswaps>
+		<obtiznost>snadné</obtiznost>
+		<oblast>diabolo</oblast>
+	</about>
+
+	<krok>
+		<obrazek>roztocenia</obrazek>
+		<popisek>Pro praváky platí - diabolo roztáčej proti směru hodinových ručiček.</popisek>
+	</krok>
+
+	<krok>
+		<obrazek>roztocenib</obrazek>
+		<popisek>Diabolo si polož na zem a pomocí provázku ho začni kutálet zprava doleva. Tím získáš základní rotaci.</popisek>
+	</krok>
+
+	<krok>
+		<obrazek>roztocenic</obrazek>
+		<popisek>Jak se diabolo překulí doleva, zvedni ho provázkem ze země a začni pohybovat pravou rukou nahoru a dolů.</popisek>
+	</krok>
+
+	<krok>
+		<obrazek>roztocenid</obrazek>
+		<popisek>Pohyb pravou rukou vyžaduje truchu cviku. Hýbej hlavně zápěstím. Třením provázku o střed se zrychluje otáčení diabola.</popisek>
+	</krok>
+
+	<krok>
+		<popisek>Čím rychleji se diabolo otáčí, tím je stabilnější. Uplatňje se tu gyroskopický efekt.</popisek>
+	</krok>
+
+	<dalsi>
+		<link url="/diabolo/vyrovnavani-diabola.html" title="Jak vyrovnat diabolo">Vyrovnávání diabola</link>
+	</dalsi>
+
+</trik>

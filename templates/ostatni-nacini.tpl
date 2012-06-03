@@ -32,9 +32,9 @@ Kužel tvoří dvě části. Širší - hlava a užší držadlo. Vyhozením do 
 Stejné jako kužely, jen místo širší části je knot. Napustí se hořlavinou a zapálí.
 </p>
 
-<h3>Diabolo</h3>
+<h3><a href="/diabolo/" title="Žonglování s diabolem">Diabolo</a></h3>
 <p>
-{obrazek soubor="nacinif.png" popisek="Diabolo"}
+<a href="/diabolo/" title="Žonglování s diabolem">{obrazek soubor="nacinif.png" popisek="Diabolo"}</a>
 Cívka, kterou roztáčíš pomocí provázků a hůlek.
 </p>
 

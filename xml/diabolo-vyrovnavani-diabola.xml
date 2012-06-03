@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<trik>
+	<about>
+		<nazev>Vyrovnávání diabola</nazev>
+		<pocet>1</pocet>
+		<siteswaps>-</siteswaps>
+		<obtiznost>snadné</obtiznost>
+		<oblast>diabolo</oblast>
+	</about>
+
+	<krok>
+		<popisek>Ze začátku se ti bude diabolo naklánět k tobě, nebo od tebe. Je to způsobeno pomalým otáčením.</popisek>
+	</krok>
+
+	<krok>
+		<obrazek>vyrovnavania</obrazek>
+		<popisek>Při naklonění od sebe vyrovnáš diabolo posunutím levé ruky dopředu a pravé dozadu.</popisek>
+	</krok>
+
+	<krok>
+		<obrazek>vyrovnavanib</obrazek>
+		<popisek>Naopak při naklonění diabola k sobě vyrovnej posunutím pravé ruky dopředu.</popisek>
+	</krok>
+
+	<krok>
+		<popisek>Nejlépe diabolo stabilizuje jeho rychlá rotace.</popisek>
+	</krok>
+
+	<dalsi>
+		<link url="/diabolo/roztoceni-diabola.html" title="Jak roztočit diabolo">Roztočení diabola</link>
+	</dalsi>
+
+</trik>
