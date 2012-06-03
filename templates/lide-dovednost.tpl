@@ -2,7 +2,7 @@
 <div class="dv">{if $dovednost_link.url}<a href="{$dovednost_link.url}" title="{$dovednost_link.text|escape}">{/if}{obrazek soubor=$dovednost_link.img}{if $dovednost_link.url}</a><a href="{$dovednost_link.url}" title="{$dovednost_link.text|escape}">{$dovednost_link.text|escape}</a>{else}<div>{if strlen($dovednost_link.text)>0}{$dovednost_link.text|escape}{else}{$nadpis|escape}{/if}</div>{/if}</div>
 {/if}
 {if is_array($uzivatele)}
-<div class="popis"><a href="{$smarty.const.LIDE_URL}" title="Seznam žonglérů a žonglérek v České s Slovenské republice">Seznam žonglérů</a> a žonglérek kteří umí {$umi|escape}.</div>
+<div class="popis"><a href="{$smarty.const.LIDE_URL}" title="Seznam žonglérů a žonglérek v České s Slovenské republice">Seznam žonglérů</a> a žonglérek, kteří umí {$umi|escape}.</div>
 <ul>
 {foreach from=$uzivatele item=uzivatel}
 <li><a href="{$smarty.const.LIDE_URL}{$uzivatel.login|escape}.html" title="Profil uživatele {$uzivatel.login|escape}">{$uzivatel.jmeno|escape}</a>{if is_array($uzivatel.pusobiste)} ({foreach from=$uzivatel.pusobiste item=misto name=places}{$pusobiste[$misto].nazev|escape}{if !$smarty.foreach.places.last}, {/if}{/foreach}){/if}</li>
