@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<trik>
+	<about>
+		<nazev>Délka provázku</nazev>
+		<pocet>1</pocet>
+		<siteswaps>-</siteswaps>
+		<obtiznost>snadné</obtiznost>
+		<oblast>diabolo</oblast>
+	</about>
+
+	<krok>
+		<popisek>Správná délka provázku je ta, která ti vyhovuje.</popisek>
+	</krok>
+
+	<krok>
+		<obrazek>provazeka</obrazek>
+		<popisek>Praktické je odměřovat provázek podle svého těle. Nemusíš pak sebou nosit metr. Rozšířené jsou délky podlaha - nos a podlaha - bradavka.</popisek>
+	</krok>
+
+	<dalsi>
+		<link url="/diabolo/roztoceni-diabola.html" title="Jak roztočit diabolo">Roztočení diabola</link>
+	</dalsi>
+
+</trik>

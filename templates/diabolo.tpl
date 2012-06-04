@@ -6,6 +6,7 @@ Cívka, kterou roztáčíš pomocí provázků a hůlek.
 <h3>Základy</h3>
 
 <ul>
+<li><a href="delka-provazku.html" title="Správná délka provázku">Délka provázku</a></li>
 <li><a href="roztoceni-diabola.html" title="Jak roztočit diabolo">Roztočení diabola</a></li>
 <li><a href="roztaceni-smycka.html" title="Jak rychle roztočit diabolo">Roztáčení smyčkou</a></li>
 <li><a href="vyrovnavani-diabola.html" title="Jak vyrovnat diabolo">Vyrovnávání diabola</a></li>
