@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<trik>
+	<about>
+		<nazev>Vyhození do výšky</nazev>
+		<pocet>1</pocet>
+		<siteswaps>-</siteswaps>
+		<obtiznost>snadné</obtiznost>
+		<oblast>diabolo</oblast>
+	</about>
+
+	<krok>
+		<obrazek>diabolo-vyhozenia</obrazek>
+		<popisek>Roztáhni ruce s hůlkami do stran.</popisek>
+	</krok>
+
+	<krok>
+		<obrazek>diabolo-vyhozenib</obrazek>
+		<popisek>Provázek se napne a vymrští diabolo do výšky. Čím prudší napnutí provázku, tím výš diabolo poletí.</popisek>
+	</krok>
+
+	<krok>
+		<obrazek>diabolo-vyhozenic</obrazek>
+		<popisek>Chycení diabola je snažší, když zvedneš pravou ruku. Provázek je šikmo a diabolo chytáš blíž k horní hůlce.</popisek>
+	</krok>
+
+	<krok>
+		<obrazek>diabolo-vyhozenid</obrazek>
+		<popisek>Po chycení diabola pokračuješ dál v roztáčení pohybem pravé ruky.</popisek>
+	</krok>
+
+</trik>

@@ -29,10 +29,11 @@
 	</krok>
 
 	<krok>
-		<popisek>Čím rychleji se diabolo otáčí, tím je stabilnější. Uplatňje se tu gyroskopický efekt.</popisek>
+		<popisek>Čím rychleji se diabolo otáčí, tím je stabilnější. Uplatňuje se tu gyroskopický efekt.</popisek>
 	</krok>
 
 	<dalsi>
+		<link url="/diabolo/roztaceni-smycka.html" title="Rychlejší způsob roztočení diabola">Roztáčení smyčkou</link>
 		<link url="/diabolo/vyrovnavani-diabola.html" title="Jak vyrovnat diabolo">Vyrovnávání diabola</link>
 	</dalsi>
 

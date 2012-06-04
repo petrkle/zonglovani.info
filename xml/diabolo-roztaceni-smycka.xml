@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<trik>
+	<about>
+		<nazev>Roztáčení smyčkou</nazev>
+		<pocet>1</pocet>
+		<siteswaps>-</siteswaps>
+		<obtiznost>snadné</obtiznost>
+		<oblast>diabolo</oblast>
+	</about>
+
+	<krok>
+		<obrazek>roztocenie</obrazek>
+		<popisek>Smyčka provázku okolo středu diabola je rychlý způsob získání potřebných otáček.</popisek>
+	</krok>
+
+	<krok>
+		<obrazek>roztocenif</obrazek>
+		<popisek>Smyčku vyrobíš obtočením provázku pravou hůlkou horem okolo diabola.</popisek>
+	</krok>
+
+	<krok>
+		<popisek>Teď stačí tahat pravou rukou nahoru a dol. Diablol brzy dosáhne nejvyšších otáček.</popisek>
+	</krok>
+
+	<krok>
+		<obrazek>roztocenig</obrazek>
+		<popisek>Smyčku rozmotáš zpátky pohybem pravé hůlky spodem pod diabolo.</popisek>
+	</krok>
+
+	<dalsi>
+		<link url="/diabolo/roztoceni-diabola.html" title="Základy roztáčení diabola">Roztočení diabola</link>
+	</dalsi>
+
+</trik>
