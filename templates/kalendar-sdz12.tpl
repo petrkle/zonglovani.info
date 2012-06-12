@@ -1,4 +1,4 @@
-<p>O víkendu se koná světový den žonglování. Žonglovat můžeš na spoustě míst.</p>
+<p>{obrazek soubor='wjd12.png' popisek='World juggling day'} O víkendu se koná světový den žonglování. Žonglovat můžeš na spoustě míst.</p>
 
 <h3><a href="/kalendar/udalost-20120616-20120617-tulen-1338452719.html" title="Světový den žonglování v Klubovně">Klubovna</a></h3>
 <p>
