@@ -169,7 +169,7 @@
 2012-06-11*Konstrukce kuželu*/kuzely/konstrukce.html*kuzel-konstrukce-s.png*Jak vypadá kužel uvnitř.
 2012-06-12*Světový den žonglování*/kalendar/sdz12.html*wjd12.png*O víkendu se koná světový den žonglování. Žonglovat můžeš na spoustě míst.
 2012-06-18*Výroba kuželů*/kuzely/vyroba.html*kuzely-vyrobae.png*Kužely levně, snadno a rychle.
-2012-06-25*European Juggling Convention*/kalendar/ejc.html*ejc-luk.jpg*Evropské setkání žonglérů v Mnichově začíná za měsíc. Nejvyšší čas sehnat si odvoz do Polska.
+2012-06-25*European Juggling Convention*/kalendar/ejc.html*ejc-luk.jpg*Evropské setkání žonglérů v Lublini začíná za měsíc. Nejvyšší čas sehnat si odvoz do Polska.
 2012-07-02*Aleje*/kalendar/udalost-20120825-20120831-pek-1333022216.html*aleje-logo.jpg*Za měsíc začne 11. mezinárodní žonglérská a divadelní dílna Aleje 2012.
 2012-07-09*Prohození kruhu pod nohou*/kruhy/3/noha.html*kruhy-3-nohaa.png*Jednoduchý a velmi efektní trik s kruhy.
 2012-07-16*Sbírání spadlých míčků*/micky/sbirani.html*micky-sbirania.png*Když ti spadne míček, nepřestávej žonglovat.
