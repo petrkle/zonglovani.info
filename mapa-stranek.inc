@@ -51,7 +51,16 @@
 		<li><a name="css"></a><a href="/css/">Kaskádové styly</a>
 		
 		</li>
-		<li><a name="diskuse"></a><a href="/diskuse/">Diskuse a komentáře</a>
+		<li><a name="diabolo"></a><a href="/diabolo/">Diabolo</a>
+		<ul>
+		<li><a href="/diabolo/delka-provazku.html">Diabolo - Délka provázku</a></li>
+		<li><a href="/diabolo/roztaceni-smycka.html">Diabolo - Roztáčení smyčkou</a></li>
+		<li><a href="/diabolo/roztoceni-diabola.html">Diabolo - Roztočení diabola</a></li>
+		<li><a href="/diabolo/vyhozeni-do-vysky.html">Diabolo - Vyhození do výšky</a></li>
+		<li><a href="/diabolo/vyrovnavani-diabola.html">Diabolo - Vyrovnávání diabola</a></li>
+		</ul>
+		</li>
+		<li><a name="diskuse"></a>diskuse/
 		
 		</li>
 		<li><a name="download"></a><a href="/download/">Soubory ke stažení</a>
@@ -95,7 +104,7 @@
 			<li><a href="/kruhy/3/sloupy.html">Žonglování se třemi kruhy - Sloupy</a></li>
 			</ul>
 			</li>
-			<li><a name="4"></a><a href="/kruhy/4/">Žonglování s kruhy</a>
+			<li><a name="4"></a>kruhy/4/
 			<ul>
 			<li><a href="/kruhy/4/fontana.html">Žonglování se čtyřmi kruhy - Fontána</a></li>
 			</ul>
@@ -182,14 +191,10 @@
 		<li><a name="lide"></a><a href="/lide/">Seznam žonglérů</a>
 		<ul>
 		<li><a href="/lide/novy-ucet.php">Založit účet</a></li>
-		<li><a href="/lide/pravidla.php">Založit účet</a></li>
 			<li><a name="dovednost"></a><a href="/lide/dovednost/">Žongléři podle dovedností</a>
 			
 			</li>
 			<li><a name="misto"></a><a href="/lide/misto/">Žongléři podle místa působení</a>
-			
-			</li>
-			<li><a name="nastaveni"></a><a href="/lide/nastaveni/">Přihlášení</a>
 			
 			</li>
 		</ul>
@@ -511,9 +516,6 @@
 		<li><a name="olympiada"></a><a href="/olympiada/">Žonglování na olympiádu</a>
 		
 		</li>
-		<li><a name="rss"></a><a href="/rss/">Novinky</a>
-		
-		</li>
 		<li><a name="scripts"></a><a href="/scripts/">Skripty</a>
 		
 		</li>
@@ -582,6 +584,12 @@
 		<li><a href="/video/whirlcool.html">Whirlcool</a></li>
 		<li><a href="/video/white-balance.html">White Balance</a></li>
 		<li><a href="/video/yesterday-didnt-happen.html">Yesterday didn&#039;t happen</a></li>
+			<li><a name="etc"></a><a href="/video/etc/">Různé</a>
+			<ul>
+			<li><a href="/video/etc/4-count-blind-passes.html">4-count blind passes</a></li>
+			<li><a href="/video/etc/adrienn-banhegyi.html">Adrienn Banhegyi</a></li>
+			</ul>
+			</li>
 			<li><a name="levistick"></a><a href="/video/levistick/">Levistick</a>
 			<ul>
 			<li><a href="/video/levistick/fina-magic.html">Fina magic</a></li>

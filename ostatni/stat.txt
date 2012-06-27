@@ -2,8 +2,8 @@ obrazky*1901
 galerie*61
 video*186
 testy*528
-fulltext_update*1338739120
-last_update*1339449303
+fulltext_update*1317327179
+last_update*1339527760
 animated_gif*164
 animated_siteswaps*316
 img*1493
