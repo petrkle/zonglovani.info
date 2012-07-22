@@ -1,11 +1,11 @@
 <?php
 
 function smarty_function_vypismenu($params, &$smarty){
-	$adresy = array('/','/novinky/','/micky/','/kruhy/','/kuzely/','/lide/','/ostatni.html');
-	$texty = array('Úvodní stránka','Novinky','Míčky','Kruhy','Kužely','Žongléři','Ostatní');
-	$popis = array('Úvodní stránka žonglérova slabikáře','Novinky ze světa žonglování','Začínáme s míčky','Začínáme s kruhy','Začínáme s kužely','Seznam uživatelů žonglérova slabikáře.','Vše ostatní o žonglování');
+	$adresy = array('/','/novinky/','/micky/','/kruhy/','/kuzely/','/diabolo/','/lide/','/ostatni.html');
+	$texty = array('Úvodní stránka','Novinky','Míčky','Kruhy','Kužely','Diabolo','Žongléři','Ostatní');
+	$popis = array('Úvodní stránka žonglérova slabikáře','Novinky ze světa žonglování','Začínáme s míčky','Začínáme s kruhy','Začínáme s kužely','Základy s diabolem','Seznam uživatelů žonglérova slabikáře.','Vše ostatní o žonglování');
 	
-	$excluded=array(1,5,7);
+	$excluded=array(1,6,8);
 	$navrat="<ul>\n";
 
 	for($foo=0;$foo<count($adresy);$foo++){
@@ -65,13 +65,13 @@ function submenu($id){
 		$popisky = array('Žonglování se třemi kužely','Žonglování ve více lidech');
 	}
 
-	if($id==5){
+	if($id==6){
 		$adresy = array('/kalendar/','/mapa/','/diskuse/');
 		$texty = array('Kalendář','Mapa','Diskuse');
 		$popisky = array('Kalendář žonglování','Žonglérská mapa','Diskuse a komentáře');
 	}
 
-	if($id==6){
+	if($id==7){
 		$adresy = array('/obrazky/','/video/','/animace/','/download/');
 		$texty = array('Obrázky','Video','Animace','Soubory<br/>ke stažení');
 		$popisky = array('Obrázky žonglování','Zajímavá žonglérská videa','Animace žonglování s míčky','Žonglérův slabikář jako elektronická kniha, nebo program do počítače');
