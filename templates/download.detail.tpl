@@ -12,3 +12,4 @@
 </p>
 {/foreach}
 {/if}
+{include file='paypal.tpl'}

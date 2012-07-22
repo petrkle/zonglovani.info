@@ -14,3 +14,5 @@ Tapety na plochu počítače s žonglérskou tématikou.
 </ul>
 {/foreach}
 {/if}
+
+{include file='paypal.tpl'}

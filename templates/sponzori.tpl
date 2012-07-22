@@ -1,7 +1,12 @@
 <p>
-Seznam lidí, kteří <a href="podporte-zongleruv-slabikar.html#p">finančně</a> přispěli k rozvoji žonglérova slabikáře. Díky&nbsp;moc.
+Seznam sponzorů žonglérova slabikáře. Díky&nbsp;moc.
 </p>
 
 <ul>
+<li><strong>Jitka N.</strong></li>
+<li><strong>Jana K.</strong></li>
 <li><strong>Dalibor Pražák</strong></li>
 </ul>
+<br />
+
+{include file='paypal.tpl'}

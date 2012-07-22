@@ -2,7 +2,7 @@
 require('../init.php');
 require('../func.php');
 
-$titulek='Sponzoři';
+$titulek='Vaše příspěvky';
 $smarty->assign('titulek',$titulek);
 $smarty->assign('keywords',make_keywords($titulek).', žonglování');
 $smarty->assign('description','Sponzoři žonglérova slabikáře.');

@@ -1,3 +1,4 @@
+{include file='paypal.tpl'}
 {if $downloads}
 {foreach from=$poradi item=typ}
 

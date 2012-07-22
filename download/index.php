@@ -18,6 +18,13 @@ if(isset($_GET['id'])){
 	if(isset($downloads[$_GET['id']])){
 	$id=$_GET['id'];
 
+	if($id=='pdf'){
+		$dalsi=array(
+			array('url'=>'/download/mobi.html','text'=>'Žonglérův slabikář pro Amazon Kindle','title'=>'Žonglérův slabikář ve formátu mobi.'),
+			array('url'=>'/literatura.html','text'=>'Literatura o žonglování','title'=>'Další knížky o žonglování'),
+			);
+	}
+
 	if($id=='mobi'){
 		$dalsi=array(
 			array('url'=>'/download/licence.html','text'=>'Licence - CC BY-ND','title'=>'Licence k souboru'),
