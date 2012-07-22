@@ -14,6 +14,7 @@ p,pre,hr{clear:both;margin:0 0 5px 5px;}
 hr{width:90%;margin:0 5px;}
 code{color:#060;font-weight:bold;}
 p img{margin:0 100% 5px 0;border:1px solid #000;float:left;clear:right;}
+.formimg{margin:0 100% 5px 0;border:3px solid #c00;float:left;clear:right;}
 h1{font-size:1.6em;font-weight:bold;margin:0 0 5px 5px;letter-spacing:-1px;}
 h2{font-size:1.4em;font-weight:bold;margin:0 0 5px 5px;clear:both;}
 h3{font-size:1.3em;font-weight:bold;margin:0 0 5px 5px;clear:both;}

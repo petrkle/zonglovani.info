@@ -1,9 +1,7 @@
 Aktuální
 ========
 
-- strtolower -> mb_strtolower($string,'UTF8')
 - přidávání událostí i pro nepřihlášené (odešle tip)
-- ke stahování přidělat odkazy na podporu žonglérova slabikáře
 - prezentace na slideshare
 - obrázky na plochu, doplnit popisky a img sitemapu
 - odkazy další, předchozí v horoskopu
@@ -125,6 +123,7 @@ do mobilní verze nevkládat google translage a facebook
 input type email, url - doplnit do formulářů HTML5
 možnost úplně smazat smazané události v minulosti
 info při nahrávání letáku do kalendáře - jen formát jpg nebo png
+ke stahování přidělat odkazy na podporu žonglérova slabikáře
 
 .ssh/config
 ===========

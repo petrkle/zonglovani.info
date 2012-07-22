@@ -109,7 +109,7 @@ Search settings
 ***********************/
 
 // default for number of results per page
-$results_per_page	= 10;
+$results_per_page	= 15;
 
 // Number of columns for categories. If you increase this, you might also want to increase the category table with in the css file
 $cat_columns		= 2;
@@ -121,7 +121,7 @@ $bound_search_result = 0;
 $length_of_link_desc	= 0;
 
 // Number of links shown to next pages
-$links_to_next		 = 9;
+$links_to_next		 = 2;
 
 // Show meta description in results page if it exists, otherwise show an extract from the page text.
 $show_meta_description = 0;

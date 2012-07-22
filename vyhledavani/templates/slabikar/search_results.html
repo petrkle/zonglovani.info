@@ -63,19 +63,19 @@ extract($search_results);
 	<p>
 	<?php print $sph_messages["Result page"]?>:
 	<?php if ($start >1){?>
-				<a href="<?php print SEARCH_URL.'?query='.quote_replace(addmarks($query)).'&amp;start='.$prev.'&amp;search=1&amp;results='.$results_per_page.$type_qry.$adv_qry.'&amp;domain='.$domain?>"><?php print $sph_messages['Previous']?></a>
+				<a href="<?php print SEARCH_URL.'?query='.quote_replace(addmarks($query)).'&amp;start='.$prev.'&amp;search=1&amp;results='.$results_per_page.$type_qry.$adv_qry.'&amp;domain='.$domain?>" class="pl"><?php print $sph_messages['Previous']?></a>
 	<?php  }?>	
 
 	<?php  foreach ($other_pages as $page_num) {
 				if ($page_num !=$start){?>
-					<a href="<?php print SEARCH_URL.'?query='.quote_replace(addmarks($query)).'&amp;start='.$page_num.'&amp;search=1&amp;results='.$results_per_page.$type_qry.$adv_qry.'&amp;domain='.$domain?>"><?php print $page_num?></a>
+					&nbsp;<a href="<?php print SEARCH_URL.'?query='.quote_replace(addmarks($query)).'&amp;start='.$page_num.'&amp;search=1&amp;results='.$results_per_page.$type_qry.$adv_qry.'&amp;domain='.$domain?>" class="pl">&nbsp;<?php print $page_num?>&nbsp;</a>&nbsp;
 				<?php } else {?>	
-					<b><?php print $page_num?></b>
+				<strong class="ps">&nbsp;<?php print $page_num?>&nbsp;</strong>
 				<?php  }?>	
 	<?php  }?>
 
 	<?php if ($next <= $pages){?>	
-			<a href="<?php print SEARCH_URL.'?query='.quote_replace(addmarks($query)).'&amp;start='.$next.'&amp;search=1&amp;results='.$results_per_page.$type_qry.$adv_qry.'&amp;domain='.$domain?>"><?php print $sph_messages['Next']?></a>
+			<a href="<?php print SEARCH_URL.'?query='.quote_replace(addmarks($query)).'&amp;start='.$next.'&amp;search=1&amp;results='.$results_per_page.$type_qry.$adv_qry.'&amp;domain='.$domain?>" class="pl"><?php print $sph_messages['Next']?></a>
 	<?php  }?>	
 
 	</p>
