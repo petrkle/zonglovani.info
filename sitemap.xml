@@ -3305,37 +3305,37 @@
    <url>
       <loc>http://zonglovani.info/diabolo/</loc>
       <changefreq>monthly</changefreq>
-      <priority>0.4</priority>
+      <priority>0.9</priority>
    </url>
 			
    <url>
       <loc>http://zonglovani.info/diabolo/delka-provazku.html</loc>
-      <changefreq>monthly</changefreq>
-      <priority>0.4</priority>
+      <changefreq>yearly</changefreq>
+      <priority>0.7</priority>
    </url>
 			
    <url>
       <loc>http://zonglovani.info/diabolo/roztaceni-smycka.html</loc>
-      <changefreq>monthly</changefreq>
-      <priority>0.4</priority>
+      <changefreq>yearly</changefreq>
+      <priority>0.7</priority>
    </url>
 			
    <url>
       <loc>http://zonglovani.info/diabolo/roztoceni-diabola.html</loc>
-      <changefreq>monthly</changefreq>
-      <priority>0.4</priority>
+      <changefreq>yearly</changefreq>
+      <priority>0.7</priority>
    </url>
 			
    <url>
       <loc>http://zonglovani.info/diabolo/vyhozeni-do-vysky.html</loc>
-      <changefreq>monthly</changefreq>
-      <priority>0.4</priority>
+      <changefreq>yearly</changefreq>
+      <priority>0.7</priority>
    </url>
 			
    <url>
       <loc>http://zonglovani.info/diabolo/vyrovnavani-diabola.html</loc>
-      <changefreq>monthly</changefreq>
-      <priority>0.4</priority>
+      <changefreq>yearly</changefreq>
+      <priority>0.7</priority>
    </url>
 			
    <url>
@@ -3711,12 +3711,6 @@
    </url>
 			
    <url>
-      <loc>http://zonglovani.info/kalendar/2007-07.html</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.6</priority>
-   </url>
-			
-   <url>
       <loc>http://zonglovani.info/kalendar/2007-08.html</loc>
       <changefreq>weekly</changefreq>
       <priority>0.6</priority>
@@ -4065,7 +4059,7 @@
    </url>
 			
    <url>
-      <loc>http://zonglovani.info/kalendar/2012-07.html</loc>
+      <loc>http://zonglovani.info/kalendar/2012-06.html</loc>
       <changefreq>weekly</changefreq>
       <priority>0.6</priority>
    </url>
@@ -4420,6 +4414,12 @@
 			
    <url>
       <loc>http://zonglovani.info/kalendar/2017-06.html</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.6</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/kalendar/2017-07.html</loc>
       <changefreq>weekly</changefreq>
       <priority>0.6</priority>
    </url>
@@ -5805,13 +5805,37 @@
    </url>
 			
    <url>
+      <loc>http://zonglovani.info/kalendar/udalost-20120708-20120710-lahis-1341672951.html</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.7</priority>
+   </url>
+			
+   <url>
       <loc>http://zonglovani.info/kalendar/udalost-20120710-20120710-tulen-1338487002.html</loc>
       <changefreq>monthly</changefreq>
       <priority>0.7</priority>
    </url>
 			
    <url>
+      <loc>http://zonglovani.info/kalendar/udalost-20120711-20120711-pek-1341383156.html</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.7</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/kalendar/udalost-20120713-20120718-lahis-1342178312.html</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.7</priority>
+   </url>
+			
+   <url>
       <loc>http://zonglovani.info/kalendar/udalost-20120717-20120717-tulen-1338487011.html</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.7</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/kalendar/udalost-20120721-20120721-pek-1341477974.html</loc>
       <changefreq>monthly</changefreq>
       <priority>0.7</priority>
    </url>
@@ -5884,6 +5908,12 @@
 			
    <url>
       <loc>http://zonglovani.info/kalendar/udalost-20120906-20120906-pek-1340788496.html</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.7</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/kalendar/udalost-20120908-20120908-ujs-1342728122.html</loc>
       <changefreq>monthly</changefreq>
       <priority>0.7</priority>
    </url>
@@ -6405,7 +6435,7 @@
    </url>
 			
    <url>
-      <loc>http://zonglovani.info/lide/abry.html</loc>
+      <loc>http://zonglovani.info/lide/adamh.html</loc>
       <changefreq>weekly</changefreq>
       <priority>0.6</priority>
    </url>
@@ -6477,12 +6507,6 @@
    </url>
 			
    <url>
-      <loc>http://zonglovani.info/lide/dedasd.html</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.6</priority>
-   </url>
-			
-   <url>
       <loc>http://zonglovani.info/lide/dragon.html</loc>
       <changefreq>weekly</changefreq>
       <priority>0.6</priority>
@@ -6514,12 +6538,6 @@
 			
    <url>
       <loc>http://zonglovani.info/lide/frost.html</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.6</priority>
-   </url>
-			
-   <url>
-      <loc>http://zonglovani.info/lide/graci.html</loc>
       <changefreq>weekly</changefreq>
       <priority>0.6</priority>
    </url>
@@ -6579,12 +6597,6 @@
    </url>
 			
    <url>
-      <loc>http://zonglovani.info/lide/jardak.html</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.6</priority>
-   </url>
-			
-   <url>
       <loc>http://zonglovani.info/lide/jedna.html</loc>
       <changefreq>weekly</changefreq>
       <priority>0.6</priority>
@@ -6634,6 +6646,12 @@
 			
    <url>
       <loc>http://zonglovani.info/lide/koroslak.html</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.6</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/lide/kostra.html</loc>
       <changefreq>weekly</changefreq>
       <priority>0.6</priority>
    </url>
@@ -6693,19 +6711,7 @@
    </url>
 			
    <url>
-      <loc>http://zonglovani.info/lide/maniaque.html</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.6</priority>
-   </url>
-			
-   <url>
       <loc>http://zonglovani.info/lide/mark.html</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.6</priority>
-   </url>
-			
-   <url>
-      <loc>http://zonglovani.info/lide/mates.html</loc>
       <changefreq>weekly</changefreq>
       <priority>0.6</priority>
    </url>
@@ -6892,12 +6898,6 @@
 			
    <url>
       <loc>http://zonglovani.info/lide/spiderpig.html</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.6</priority>
-   </url>
-			
-   <url>
-      <loc>http://zonglovani.info/lide/terezz.html</loc>
       <changefreq>weekly</changefreq>
       <priority>0.6</priority>
    </url>
@@ -8164,12 +8164,6 @@
 			
    <url>
       <loc>http://zonglovani.info/lide/stranka3/</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.6</priority>
-   </url>
-			
-   <url>
-      <loc>http://zonglovani.info/lide/stranka4/</loc>
       <changefreq>weekly</changefreq>
       <priority>0.6</priority>
    </url>
