@@ -13,7 +13,7 @@ my $neexistujici = 'tst_'.mkpasswd(-length => 14, -minnum => 0, -minlower => 4, 
 my $content=$zs_search->content();
 
 ok(defined($content), 'Úvodní stránka je dostupná');
-ok($content =~ /Stránka výsledků:/, 'Jitka - nalezeno');
+ok($content =~ /Stránkování:/, 'Jitka - nalezeno');
 
 $zs_search = $bot->submit_form(form_number => 0,fields => {'query'=>$neexistujici,'search'=>'1'});
 ok($zs_search->content() =~ /Nebyl nelezen žádný dokument vyhovující výrazu/, "$neexistujici nenalezeno");
