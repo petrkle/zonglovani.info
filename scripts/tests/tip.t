@@ -4,6 +4,8 @@ use WWW::Mechanize;
 use Test::More tests => 2;
 use Time::Local;
 use Date::Parse;
+use File::Temp     qw/tempfile/;
+use Image::Info    qw/image_info dim/;
 
 my $bot = WWW::Mechanize->new(autocheck => 0);
 $bot->cookie_jar(HTTP::Cookies->new());
@@ -34,6 +36,9 @@ foreach my $tip(@radky){
 			my $url=$parts[2];
 			my $img=$parts[3];
 			my $fl=$img;
+
+			(undef, my $temp) = tempfile;
+
 			$fl =~ s/^(.).*/$1/;
 			my $popis=$parts[4];
 			if(length($titulek)<=0 || length($popis)<=0){
@@ -45,7 +50,13 @@ foreach my $tip(@radky){
 				$chyby++;
 				diag("http://zongl.info$url return ".$bot->status());
 			}
-			$bot->get("http://zongl.info/img/$fl/$img");
+			$bot->get("http://zongl.info/img/$fl/$img", ':content_file' => $temp);
+			my ($w, $h) = dim image_info $temp;
+			if($w != 200){
+				$chyby++;
+				diag("http://zongl.info/img/$fl/$img není 200px široký.");
+			}
+
 			if($bot->status() !~ /(200|301|302)/){
 				$chyby++;
 				diag("http://zongl.info/img/$fl/$img return ".$bot->status());
