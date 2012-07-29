@@ -174,17 +174,18 @@
 2012-07-09*Prohození kruhu pod nohou*/kruhy/3/noha.html*kruhy-3-nohaa.png*Jednoduchý a velmi efektní trik s kruhy.
 2012-07-16*Sbírání spadlých míčků*/micky/sbirani.html*micky-sbirania.png*Když ti spadne míček, nepřestávej žonglovat.
 2012-07-23*Obíhání*/kuzely/passing/runarounds.html*kuzely-runaroundsa.png*Runarounds - trik pro dva žongléry a tři kužely.
-2012-07-30*
-2012-08-06*
-2012-08-13*
-2012-08-20*
+2012-07-30*See saw*/micky/3/seesaw.html*seesawb.png*Krabice se třemi míčky.
+2012-08-01*Tribo fuego*/kalendar/udalost-20120808-20120808-pek-1343370681.html*tf-10let.jpg*10. výročí ohnivé skupiny Tribo Fuego.
+2012-08-09*Nad hlavou*/micky/3/nadhlavou.html*nadhlavoua.png*Žonglování s míčky a rukama nad hlavou.
+2012-08-13*Horoskop žonglování*/horoskop/*horoskop.png*Horoskop pro žonglérky a žongléry. Každý den ti poradí co je nejlepší trénovat.
+2012-08-20*Passování s pivem*/kuzely/passing/pivo.html*bv.jpg*Trik pro tři žongléry s šesti kužely a lahví piva. Postupně si všichni tři házíte kuželky a předáváte láhev piva.
 2012-08-27*Flaming nights*/kalendar/udalost-20120831-20120902-pek-1328721694.html*fn12.png*První ročník největšího hudebně-žonglérského open air festivalu v Česko-Slovensku.
-2012-09-03*
-2012-09-10*
-2012-09-17*
-2012-09-24*
-2012-10-01*
-2012-10-08*
+2012-09-03*1 count*/kuzely/passing/1count.html*kuzely-passing-1counta.png*Rychlé passování s kužely - ultimates.
+2012-09-10*Dva kužely v jedné ruce*/kuzely/grip.html*kuzely-grip-normal.png*Existují dva způsoby jak držet kužely před prvním výhozem.
+2012-09-17*Tenis*/micky/4/tenis.html*micky-4-tenisc.png*Velmi obtížný trik se čtyřmi míčky.
+2012-09-24*Odražení míčku kolenem*/micky/3/koleno.html*kolenob.png*Snadný a velmi efektní trik. K jeho provedení jsou potřeba skákavé míčky.
+2012-10-01*Míček z tenisáku*/micky/vyroba-tenisak.html*levny-tenisak.s.jpg*Rychlý návod, jak vyrobit míček na žonglování z tenisáku a nafukovacích balónků.
+2012-10-08*501*/micky/2/501.html*501b.png*Cvičení se dvěma míčky. Může posloužit i jako trénink na kaskádu s pěti míčky.
 2012-10-15*
 2012-10-22*
 2012-10-29*
