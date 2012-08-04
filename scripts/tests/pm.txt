@@ -5,6 +5,8 @@ Encode
 File::Basename
 File::Compare
 File::Slurp
+File::Temp
+Image::Info
 Image::Size
 List::Util
 Net::Netrc

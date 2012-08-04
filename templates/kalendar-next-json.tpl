@@ -9,7 +9,7 @@
 {if $udalost.img}
 "img": "http://{$smarty.server.SERVER_NAME}{$smarty.const.CALENDAR_URL}obrazek-{$udalost.img|escape}",
 {/if}
-"title": "{$udalost.title|truncate:40:"...":true|escape}"
+"title": "{$udalost.title|replace:':':' '|truncate:40:"...":true|escape}"
 {literal}}{/literal}
 ]{if !$smarty.foreach.smycka.last},{/if}
 {/foreach}
