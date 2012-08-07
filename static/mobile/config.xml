@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <widget xmlns	= "http://www.w3.org/ns/widgets" xmlns:gap	= "http://phonegap.com/ns/1.0" id	= "info.zonglovani.mobile.app"
-	version = "0.4.0" versionCode = "04">
+	version = "0.5.0" versionCode = "05">
 
 	<name>Žonglérův slabikář</name>
 

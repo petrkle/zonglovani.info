@@ -5,7 +5,7 @@ function smarty_function_vypismenu($params, &$smarty){
 	$texty = array('Úvodní stránka','Novinky','Míčky','Kruhy','Kužely','Diabolo','Žongléři','Ostatní');
 	$popis = array('Úvodní stránka žonglérova slabikáře','Novinky ze světa žonglování','Začínáme s míčky','Začínáme s kruhy','Začínáme s kužely','Základy s diabolem','Seznam uživatelů žonglérova slabikáře.','Vše ostatní o žonglování');
 	
-	$excluded=array(1,6,8);
+	$excluded=array(1,6);
 	$navrat="<ul>\n";
 
 	for($foo=0;$foo<count($adresy);$foo++){
@@ -79,7 +79,7 @@ function submenu($id){
 
 	if(isset($adresy)){
 		$navrat='';
-		if($id==6){$navrat.="\n<!-- start -->\n";}
+		if($id==7){$navrat.="\n<!-- start -->\n";}
 		$navrat.="<ul>\n";
 		for($foo=0;$foo<count($adresy);$foo++){
 			if($_SERVER['REQUEST_URI']==$adresy[$foo] and !isset($_GET['show'])){
@@ -89,7 +89,7 @@ function submenu($id){
 			};
 		};
 		$navrat.="</ul>\n";
-		if($id==6){$navrat.="\n<!-- stop -->\n";}
+		if($id==7){$navrat.="\n<!-- stop -->\n";}
 		return $navrat;
 	}else{
 		return '';

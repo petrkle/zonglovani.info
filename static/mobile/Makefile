@@ -1,4 +1,4 @@
-VERSION=0.4
+VERSION=0.5
 
 help:
 	@echo "zip   - vytvori offline verzi pro nahrani na phonegap.com"
