@@ -57,7 +57,7 @@ Dnes je: {if $dnesek}{$aktDate}{else}<a href="{$smarty.const.CALENDAR_URL}" titl
 {/foreach}
 </ul>
 {/if}
-<p>Kalendář můžeš sledovat pomocí <a href="{$smarty.const.CALENDAR_URL}kalendar.xml" title="RSS slouží k upozorňování na aktualizaci stránek.">RSS</a> a <a href="{$smarty.const.CALENDAR_URL}kalendar.ics" title="iCalendar je formát pro výměnu záznamů v kalendáři mezi počítači.">iCalendar</a>.</p>
+<p>Kalendář můžeš sledovat pomocí <a href="{$smarty.const.CALENDAR_URL}kalendar.xml" title="RSS slouží k upozorňování na aktualizaci stránek.">RSS</a> a <a href="{$smarty.const.CALENDAR_URL}zonglovani.ics" title="iCalendar je formát pro výměnu záznamů v kalendáři mezi počítači.">iCalendar</a>.</p>
 <p>Návod <a href="rss-a-icalendar.html">jak nastavit RSS a iCalendar</a>.</p>
 
 {if preg_match('/.*AppleWebKit.*Chrome.*/',$smarty.server.HTTP_USER_AGENT)}
