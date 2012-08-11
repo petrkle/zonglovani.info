@@ -23,10 +23,7 @@ QR kód pro rychlé a pohodlné načtení adresy <a href="/" title="Žonglérův
 <a href="/ostatni/qr.pdf" title="QR kód v PDF pro snadný tisk" class="pdf" onclick="_gaq.push(['_trackPageview','/ostatni/qr.pdf']);">PDF pro tisk</a>
 </p>
 
-<h3><a href="/g/android.app" title="Žonglérův slabikář pro systém Android" class="external" onclick="_gaq.push(['_trackPageview','/g/android.app'])">Aplikace pro Android</a></h3>
-<p>
-<a href="/g/android.app" title="Žonglérův slabikář pro systém Android" onclick="_gaq.push(['_trackPageview','/g/android.app'])">{obrazek soubor='android-juggling.png' popisek='Soubor apk pro instalaci do telefonu'}</a> Instalace žonglérova slabikáře pro systém <strong>Android</strong>. Dovolí ti prohlížet žonglérův slabikář v mobilu i bez připojení k internetu.
-</p>
+{include file='android.tpl'}
 
 <p>
 <ul>

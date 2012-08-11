@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
 
-	<description>Instalace žonglérova slabikáře pro systém &lt;strong&gt;Android&lt;/strong&gt;. Dovolí ti prohlížet žonglérův slabikář v mobilu i bez připojení k internetu.</description>
+	<description>Novější verze žonglérova slabikáře najdeš na &lt;a href=&quot;/g/android.app&quot; class=&quot;external&quot;onclick=&quot;_gaq.push(['_trackPageview','/g/android.app'])&quot;&gt;Google Play.&lt;/a&gt;&lt;br/&gt;Instalace žonglérova slabikáře pro systém &lt;strong&gt;Android&lt;/strong&gt;. Dovolí ti prohlížet žonglérův slabikář v mobilu i bez připojení k internetu.</description>
 
 	<release>
 		<version>0.4</version>

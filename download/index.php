@@ -13,6 +13,7 @@ $trail->addStep($titulek,'/download/');
 $downloads=get_downloads();
 $smarty->assign_by_ref('downloads', $downloads);
 $smarty->assign('poradi', array('pdf','mobi','epub','exe','msi','tar.bz2','apk','wgz','xap'));
+$smarty->assign('hidden', array('apk'=>true,'wgz'=>true,'xap'=>true));
 
 if(isset($_GET['id'])){
 	if(isset($downloads[$_GET['id']])){
@@ -72,8 +73,9 @@ if(isset($_GET['id'])){
 	if($id=='wgz'){
 		$dalsi=array(
 			array('url'=>'/download/licence.html','text'=>'Licence - CC BY-ND','title'=>'Licence k souboru'),
-			array('url'=>'/download/apk.html','text'=>'Žonglérův slabikář pro Android','title'=>'Žonglérův slabikář pro mobily a tablety s Androidem.'),
+			array('url'=>'/g/android.app','text'=>'Žonglérův slabikář pro Android','title'=>'Žonglérův slabikář pro mobily a tablety s Androidem.'),
 			array('url'=>'/download/xap.html','text'=>'Žonglérův slabikář pro Windows Phone','title'=>'Žonglérův slabikář pro mobily Nokia.'),
+			array('url'=>'/download/apk.html','text'=>'Starší .apk soubory','title'=>'Starší verze žonglérova slabikáře pro android.'),
 			);
 	}
 
@@ -81,7 +83,7 @@ if(isset($_GET['id'])){
 		$dalsi=array(
 			array('url'=>'/download/licence.html','text'=>'Licence - CC BY-ND','title'=>'Licence k souboru'),
 			array('url'=>'/download/wgz.html','text'=>'Žonglérův slabikář pro Symbian','title'=>'Žonglérův slabikář pro mobily Nokia.'),
-			array('url'=>'/download/apk.html','text'=>'Žonglérův slabikář pro Android','title'=>'Žonglérův slabikář pro mobily a tablety s Androidem.'),
+			array('url'=>'/g/android.app','text'=>'Žonglérův slabikář pro Android','title'=>'Žonglérův slabikář pro mobily a tablety s Androidem.'),
 			);
 	}
 
