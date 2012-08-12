@@ -177,8 +177,9 @@
 2012-07-30*See saw*/micky/3/seesaw.html*seesawb.png*Krabice se třemi míčky.
 2012-08-01*Tribo fuego*/kalendar/udalost-20120808-20120808-pek-1343370681.html*tf-10let.jpg*10. výročí ohnivé skupiny Tribo Fuego.
 2012-08-09*Nad hlavou*/micky/3/nadhlavou.html*nadhlavoua.png*Žonglování s míčky a rukama nad hlavou.
-2012-08-13*Horoskop žonglování*/horoskop/*horoskop.png*Horoskop pro žonglérky a žongléry. Každý den ti poradí co je nejlepší trénovat.
-2012-08-20*Passování s pivem*/kuzely/passing/pivo.html*bv.jpg*Trik pro tři žongléry s šesti kužely a lahví piva. Postupně si všichni tři házíte kuželky a předáváte láhev piva.
+2012-08-13*Základy poi*/kalendar/udalost-20120816-20120816-pek-1344783230.html*zaklady-poi.png*Workshop základů točení s poi ve Stromovce.
+2012-08-17*Horoskop žonglování*/horoskop/*horoskop.png*Horoskop pro žonglérky a žongléry. Každý den ti poradí co je nejlepší trénovat.
+2012-08-20*Žonglérův slabikář pro Android*/g/android.app*android-juggling.png*Instalace žonglérova slabikáře pro systém Android. Dovolí ti prohlížet žonglérův slabikář v mobilu i bez připojení k internetu.
 2012-08-27*Flaming nights*/kalendar/udalost-20120831-20120902-pek-1328721694.html*fn12.png*První ročník největšího hudebně-žonglérského open air festivalu v Česko-Slovensku.
 2012-09-03*1 count*/kuzely/passing/1count.html*kuzely-passing-1counta.png*Rychlé passování s kužely - ultimates.
 2012-09-10*Dva kužely v jedné ruce*/kuzely/grip.html*kuzely-grip-normal.s.png*Existují dva způsoby jak držet kužely před prvním výhozem.
@@ -186,7 +187,7 @@
 2012-09-24*Odražení míčku kolenem*/micky/3/koleno.html*kolenob.png*Snadný a velmi efektní trik. K jeho provedení jsou potřeba skákavé míčky.
 2012-10-01*Míček z tenisáku*/micky/vyroba-tenisak.html*levny-tenisak.s.jpg*Rychlý návod, jak vyrobit míček na žonglování z tenisáku a nafukovacích balónků.
 2012-10-08*501*/micky/2/501.html*501b.png*Cvičení se dvěma míčky. Může posloužit i jako trénink na kaskádu s pěti míčky.
-2012-10-15*
+2012-10-15*Passování s pivem*/kuzely/passing/pivo.html*bv.jpg*Trik pro tři žongléry s šesti kužely a lahví piva. Postupně si všichni tři házíte kuželky a předáváte láhev piva.
 2012-10-22*
 2012-10-29*
 2012-11-05*
