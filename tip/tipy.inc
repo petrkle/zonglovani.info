@@ -179,7 +179,7 @@
 2012-08-09*Nad hlavou*/micky/3/nadhlavou.html*nadhlavoua.png*Žonglování s míčky a rukama nad hlavou.
 2012-08-13*Základy poi*/kalendar/udalost-20120816-20120816-pek-1344783230.html*zaklady-poi.png*Workshop základů točení s poi ve Stromovce.
 2012-08-17*Horoskop žonglování*/horoskop/*horoskop.png*Horoskop pro žonglérky a žongléry. Každý den ti poradí co je nejlepší trénovat.
-2012-08-20*Žonglérův slabikář pro Android*/g/android.app*android-juggling.png*Instalace žonglérova slabikáře pro systém Android. Dovolí ti prohlížet žonglérův slabikář v mobilu i bez připojení k internetu.
+2012-08-20*Žonglérův slabikář pro Android*/g/android.app*android-juggling.png*Žonglérův slabikář je dostupný v obchodě Google Play. Učebnice žonglování zdarma do každého mobilu s Androidem.
 2012-08-27*Flaming nights*/kalendar/udalost-20120831-20120902-pek-1328721694.html*fn12.png*První ročník největšího hudebně-žonglérského open air festivalu v Česko-Slovensku.
 2012-09-03*1 count*/kuzely/passing/1count.html*kuzely-passing-1counta.png*Rychlé passování s kužely - ultimates.
 2012-09-10*Dva kužely v jedné ruce*/kuzely/grip.html*kuzely-grip-normal.s.png*Existují dva způsoby jak držet kužely před prvním výhozem.

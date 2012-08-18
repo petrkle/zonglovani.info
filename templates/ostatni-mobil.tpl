@@ -3,13 +3,18 @@
 </p>
 
 <p>
+<a href="/img/m/mobil-xperia-ray.jpg">{obrazek soubor='mobil-xperia-ray.s.jpg' popisek='Sony Ericsson Xperia Ray'}</a>
+Žonglérův slabikář na mobilním telefonu Sony Ericsson Xperia Ray.
+</p>
+
+<p>
 <a href="/img/m/mobil-optimus-one.jpg">{obrazek soubor='mobil-optimus-one.s.jpg' popisek='LG Optimus One'}</a>
 Žonglérův slabikář na mobilním telefonu LG Optimus One.
 </p>
 
 <p>
 <a href="/img/m/mobil-xperia.jpg">{obrazek soubor='mobil-xperia.s.jpg' popisek='Sony Ericsson Xperia X8'}</a>
-Žonglérův slabikář na mobilním telefonu Sony Ericsson Xperia.
+Žonglérův slabikář na mobilním telefonu Sony Ericsson Xperia X8.
 </p>
 
 <p>
