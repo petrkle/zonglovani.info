@@ -55,13 +55,13 @@ foreach($rss_zdroje as $id=>$kanal){
 		$baz=RSS_AGREGATOR_DATA.'/'.$item['date_timestamp'].'-'.$id.'.txt';
 
 		$foo=fopen($baz.'.new','w');
-		fwrite($foo,preg_replace('/\n/',' ',mb_substr($item['title'],0,120,'UTF-8'))."\n");
+		fwrite($foo,preg_replace('/\n/',' ',html_entity_decode(mb_substr($item['title'],0,120,'UTF-8'),ENT_COMPAT|ENT_HTML401,'UTF-8'))."\n");
 		fwrite($foo,preg_replace('/\n/',' ',$item['link'])."\n");
 
 		if(isset($item['description'])){
-			fwrite($foo,preg_replace('/\n/',' ',$item['description'])."\n");
+			fwrite($foo,preg_replace('/\n/',' ',html_entity_decode($item['description'],ENT_COMPAT|ENT_HTML401,'UTF-8'))."\n");
 		}else{
-			fwrite($foo,preg_replace('/\n/',' ',$item['title'])."\n");
+			fwrite($foo,preg_replace('/\n/',' ',html_entity_decode(mb_substr($item['title']),ENT_COMPAT|ENT_HTML401,'UTF-8'))."\n");
 		}
 		fclose($foo);
 		if(is_file($baz)){
@@ -97,4 +97,3 @@ foreach($rss_zdroje as $id=>$kanal){
 function u_shuffle( $a, $b ) {
 	     return rand(-1,1);
 }
-?>

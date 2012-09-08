@@ -56,5 +56,3 @@ $smarty->assign('titulek',$titulek);
 $smarty->display('hlavicka.tpl');
 $smarty->display('rss-agregator.tpl');
 $smarty->display('paticka.tpl');
-
-?>

@@ -1,7 +1,6 @@
 Aktuální
 ========
 
-- odkaz na android - Google Play
 - přidávání událostí i pro nepřihlášené (odešle tip)
 - prezentace na slideshare
 - obrázky na plochu, doplnit popisky a img sitemapu
@@ -125,6 +124,7 @@ input type email, url - doplnit do formulářů HTML5
 možnost úplně smazat smazané události v minulosti
 info při nahrávání letáku do kalendáře - jen formát jpg nebo png
 ke stahování přidělat odkazy na podporu žonglérova slabikáře
+odkaz na android - Google Play
 
 .ssh/config
 ===========
