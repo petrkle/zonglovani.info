@@ -598,6 +598,9 @@
 			<ul>
 			<li><a href="/video/etc/4-count-blind-passes.html">4-count blind passes</a></li>
 			<li><a href="/video/etc/adrienn-banhegyi.html">Adrienn Banhegyi</a></li>
+			<li><a href="/video/etc/elgringos.html">Čtyři a sedm</a></li>
+			<li><a href="/video/etc/juggling-documentation.html">Juggling Documentation</a></li>
+			<li><a href="/video/etc/midtown-greenway.html">Midtown Greenway</a></li>
 			</ul>
 			</li>
 			<li><a name="levistick"></a><a href="/video/levistick/">Levistick</a>

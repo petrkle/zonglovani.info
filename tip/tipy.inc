@@ -183,14 +183,14 @@
 2012-08-27*Flaming nights*/kalendar/udalost-20120831-20120902-pek-1328721694.html*fn12.png*První ročník největšího hudebně-žonglérského open air festivalu v Česko-Slovensku.
 2012-09-03*1 count*/kuzely/passing/1count.html*kuzely-passing-1counta.png*Rychlé passování s kužely - ultimates.
 2012-09-10*Dva kužely v jedné ruce*/kuzely/grip.html*kuzely-grip-normal.s.png*Existují dva způsoby jak držet kužely před prvním výhozem.
-2012-09-17*Tenis*/micky/4/tenis.html*micky-4-tenisc.png*Velmi obtížný trik se čtyřmi míčky.
+2012-09-17*Čtyři a sedm*/video/etc/elgringos.html*elgringos.jpg*Passing se čtyřmi a sedmi kužely ve finském Espoo.
 2012-09-24*Odražení míčku kolenem*/micky/3/koleno.html*kolenob.png*Snadný a velmi efektní trik. K jeho provedení jsou potřeba skákavé míčky.
-2012-10-01*Míček z tenisáku*/micky/vyroba-tenisak.html*levny-tenisak.s.jpg*Rychlý návod, jak vyrobit míček na žonglování z tenisáku a nafukovacích balónků.
+2012-10-01*Juggling Documentation*/video/etc/juggling-documentation.html*jd.jpg*Video z tréninku s kužely - hlavně balancování.
 2012-10-08*501*/micky/2/501.html*501b.png*Cvičení se dvěma míčky. Může posloužit i jako trénink na kaskádu s pěti míčky.
-2012-10-15*Passování s pivem*/kuzely/passing/pivo.html*bv.jpg*Trik pro tři žongléry s šesti kužely a lahví piva. Postupně si všichni tři házíte kuželky a předáváte láhev piva.
-2012-10-22*
-2012-10-29*
-2012-11-05*
+2012-10-15*Midtown Greenway*/video/etc/midtown-greenway.html*midtown-greenway.jpg*Nick Laffey žongluje s kužely.
+2012-10-22*Tenis*/micky/4/tenis.html*micky-4-tenisc.png*Velmi obtížný trik se čtyřmi míčky.
+2012-10-29*Míček z tenisáku*/micky/vyroba-tenisak.html*levny-tenisak.s.jpg*Rychlý návod, jak vyrobit míček na žonglování z tenisáku a nafukovacích balónků.
+2012-11-05*Passování s pivem*/kuzely/passing/pivo.html*bv.jpg*Trik pro tři žongléry s šesti kužely a lahví piva. Postupně si všichni tři házíte kuželky a předáváte láhev piva.
 2012-11-12*
 2012-11-19*
 2012-11-26*
