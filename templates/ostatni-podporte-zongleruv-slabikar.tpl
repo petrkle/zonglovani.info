@@ -30,6 +30,7 @@ Podpoř <a href="http://www.facebook.com/zongleruv.slabikar" class="external" on
 <li><a href="http://www.youtube.com/ZongleruvSlabikar" class="external" onclick="_gaq.push(['_trackPageview','/goto/youtube.com/ZongleruvSlabikar']);">youtube.com</a></li>
 <li><a href="http://twitter.com/zonglovani" class="external" onclick="_gaq.push(['_trackPageview','/goto/twitter.com/zonglovani']);">twitter.com</a></li>
 <li><a href="https://plus.google.com/113185830714954615444" class="external" onclick="_gaq.push(['_trackPageview','/goto/google+']);">google+</a></li>
+<li><a href="https://speakerdeck.com/u/zonglovani/" class="external" onclick="_gaq.push(['_trackPageview','/goto/speakerdeck.com']);">speakerdeck.com</a></li>
 <li><a href="http://www.slideshare.net/zonglovani" class="external" onclick="_gaq.push(['_trackPageview','/goto/slideshare.net']);">slideshare.net</a></li>
 </ul>
 
