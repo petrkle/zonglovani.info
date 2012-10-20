@@ -81,7 +81,6 @@ a.edit{border-left:solid 3px #f00;}
 .hvezdicka{float:right;}
 li.star{list-style:url(img/s/star-s.png);}
 .skrtanec{text-decoration:line-through;}
-.feedback{display:none;}
 ul{list-style:circle;margin:0 0 5px 0;}
 .szn{list-style:circle;}
 .szn li{list-style-position:inside;}
