@@ -3,6 +3,7 @@
 	<ul>
 	<li><a href="/aczslovnicek.html">Anglicko-český žonglérský slovníček</a></li>
 	<li><a href="/changelog.html">Změny v žonglérově slabikáři</a></li>
+	<li><a href="/changes.html">Novinky</a></li>
 	<li><a href="/cirkusove-discipliny.html">Cirkusové disciplíny</a></li>
 	<li><a href="/doplnky-prohlizece.html">Doplňky do prohlížeče</a></li>
 	<li><a href="/druhy-zonglovani.html">Druhy žonglování</a></li>
@@ -600,6 +601,7 @@
 			<li><a href="/video/etc/adrienn-banhegyi.html">Adrienn Banhegyi</a></li>
 			<li><a href="/video/etc/elgringos.html">Čtyři a sedm</a></li>
 			<li><a href="/video/etc/juggling-documentation.html">Juggling Documentation</a></li>
+			<li><a href="/video/etc/kamones.html">Malabaristas Kamones</a></li>
 			<li><a href="/video/etc/midtown-greenway.html">Midtown Greenway</a></li>
 			</ul>
 			</li>

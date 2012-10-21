@@ -9,6 +9,7 @@ $smarty->assign('titulek',$titulek);
 
 $smarty->assign('keywords',make_keywords($titulek).', fireshow');
 $smarty->assign('description','Žonglování s ohnivými kužely.');
+$smarty->assign('nahled','http://'.$_SERVER['SERVER_NAME'].'/img/k/kuzely-firea.png');
 
 $trail = new Trail();
 $trail->addStep('Kužely','/kuzely/');
@@ -25,5 +26,3 @@ $smarty->assign_by_ref('trail', $trail->path);
 $smarty->display('hlavicka.tpl');
 $smarty->display('kuzely-ohen.tpl');
 $smarty->display('paticka.tpl');
-
-?>
