@@ -1,6 +1,9 @@
 <?php
 require('../init.php');
 require('../func.php');
+include_once($lib.'/SMTP.php');
+include_once($lib.'/Mail.php');
+include_once($lib.'/Mail/mime.php');
 
 $titulek='Vzkaz pro uživatele';
 $smarty->assign('titulek',$titulek);
@@ -12,6 +15,8 @@ $trail->addStep($titulek);
 $smarty->assign_by_ref('trail', $trail->path);
 
 if(isset($_POST['komu'])){
+	$subject='Vzkaz z žonglérova slabikáře';
+	$smarty->assign_by_ref('subject',$subject);
 	$komu=strtolower(trim($_POST['komu']));
 	if(isset($_POST['odeslat'])){
 
@@ -72,61 +77,19 @@ if(isset($_POST['komu'])){
 
 		if(count($chyby)==0){
 
-		$subject_plain='Vzkaz z žonglérova slabikáře';
-		$subject = quoted_printable_header($subject_plain);
-
 		if(isset($_SESSION['uzivatel']['email'])){
 			#přihlášení uživatelé mohou hned odeslat vzkaz
 
-		$to = $komu_props['email'];
+		$smarty->assign('komu',$komu_props);
+		$smarty->assign('vzkaz',$vzkaz);
 
-		$mime_boundary = '--zs--'.abs(crc32(time()));
-
-$headers = "Return-Path: $email\n";
-$headers .= "From: $email\n";
-$headers .= "Reply-To: $email\n";
-$headers .= "Precedence: bulk\n";
-$headers .= "MIME-Version: 1.0\n";
-$headers .= "Content-Type: multipart/alternative; boundary=\"$mime_boundary\"\n";
-
-# -=-=-=- TEXT EMAIL PART
-
-$message = "--$mime_boundary\n";
-$message .= "Content-Type: text/plain; charset=UTF-8\n";
-$message .= "Content-Transfer-Encoding: 8bit\n\n";
-
-$message .= $vzkaz.'
--- 
-Tento vzkaz byl zaslán pomocí žonglérova slabikáře.
-http://zonglovani.info
-';
-
-# -=-=-=- HTML EMAIL PART
- 
-$message .= "--$mime_boundary\n";
-$message .= "Content-Type: text/html; charset=UTF-8\n";
-$message .= "Content-Transfer-Encoding: 8bit\n\n";
-
-$message .= "<html>\n";
-$message .= "<head><meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" />\n";
-$message .= "<title>$subject_plain</title></head>\n";
-$message .= "<body style=\"font-family: sans-serif; font-size:1em; color:#000;\">\n";
-
-$message .= $vzkaz.'<br/>
--- <br/>
-Tento vzkaz byl zaslán pomocí žonglérova slabikáře.<br/>
-<a href="http://zonglovani.info/">http://zonglovani.info/</a>
-';
-
-$message .= "</body>\n";
-$message .= "</html>\n";
-
-# -=-=-=- FINAL BOUNDARY
-
-$message .= "--$mime_boundary--\n\n";
-
-
-			$vysledek=mail($to, $subject, $message, $headers);
+		$vysledek = sendmail(array(
+			'from'=>$email,
+			'to'=>$komu_props['email'],
+			'subject'=>$subject,
+			'text'=>$smarty->fetch('mail/lide-vzkaz.txt.tpl'),
+			'html'=>$smarty->fetch('mail/lide-vzkaz.html.tpl'),
+		));
 
 			if($vysledek){
 				if(isset($_SESSION['uzivatel']['email'])){
@@ -142,67 +105,7 @@ $message .= "--$mime_boundary--\n\n";
 			# jinak se na mail odesilatele posle zprava z odkazem k odeslani vzkazu
 
 		$messageid=abs(crc32($email.$komu_props['email'].time()));
-
-
-		$mime_boundary = '--zs--'.abs(crc32(time()));
-
-$headers = "Return-Path: robot@zonglovani.info\n";
-$headers .= "From: robot@zonglovani.info\n";
-$headers .= "Reply-To: robot@zonglovani.info\n";
-$headers .= "Precedence: bulk\n";
-$headers .= "MIME-Version: 1.0\n";
-$headers .= "Content-Type: multipart/alternative; boundary=\"$mime_boundary\"\n";
-
-# -=-=-=- TEXT EMAIL PART
-
-$message = "--$mime_boundary\n";
-$message .= "Content-Type: text/plain; charset=UTF-8\n";
-$message .= "Content-Transfer-Encoding: 8bit\n\n";
-
-$message .= 'Ahoj,
-
-pro odeslání vzkazu pro "'.$komu_props['login'].'" klikni na tento odkaz:
-
-http://'.$_SERVER['SERVER_NAME'].LIDE_URL.'sendmail/'.$messageid.'.html
-
--- 
-Petr Kletečka
-
-admin@zonglovani.info
-http://zonglovani.info/kontakt.html
-';
-
-# -=-=-=- HTML EMAIL PART
- 
-$message .= "--$mime_boundary\n";
-$message .= "Content-Type: text/html; charset=UTF-8\n";
-$message .= "Content-Transfer-Encoding: 8bit\n\n";
-
-$message .= "<html>\n";
-$message .= "<head><meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" />\n";
-$message .= "<title>$subject_plain</title></head>\n";
-$message .= "<body style=\"font-family: sans-serif; font-size:1em; color:#000;\">\n";
-
-$message .= 'Ahoj,<br /><br />
-
-pro odeslání vzkazu pro "'.$komu_props['login'].'" klikni na tento odkaz:<br />
-
-<a href="http://'.$_SERVER['SERVER_NAME'].LIDE_URL.'sendmail/'.$messageid.'.html">http://'.$_SERVER['SERVER_NAME'].LIDE_URL.'sendmail/'.$messageid.'.html</a><br />
-
--- <br/>
-Petr Kletečka<br/>
-
-<a href="mailto:admin@zonglovani.info">admin@zonglovani.info</a><br/>
-<a href="http://zonglovani.info/kontakt.html">http://zonglovani.info/kontakt.html</a>
-';
-
-$message .= "</body>\n";
-$message .= "</html>\n";
-
-# -=-=-=- FINAL BOUNDARY
-
-$message .= "--$mime_boundary--\n\n";
-
+		$smarty->assign('messageid',$messageid);
 
 		$tmp=LIDE_VZKAZY.'/'.$messageid;
 
@@ -227,8 +130,14 @@ $message .= "--$mime_boundary--\n\n";
 		fwrite($foo,time());
 		fclose($foo);
 
-			
-			$vysledek=mail($email, $subject, $message, $headers);
+		$smarty->assign('komu',$komu_props);
+		$vysledek = sendmail(array(
+			'from'=>'robot@zonglovani.info',
+			'to'=>$email,
+			'subject'=>$subject,
+			'text'=>$smarty->fetch('mail/lide-vzkaz-activate.txt.tpl'),
+			'html'=>$smarty->fetch('mail/lide-vzkaz-activate.html.tpl'),
+		));
 
 			if($vysledek){
 				if(isset($_SESSION['uzivatel']['email'])){
@@ -267,5 +176,3 @@ $message .= "--$mime_boundary--\n\n";
 	header('Location: '.LIDE_URL);
 	exit();
 }
-
-?>

@@ -14,4 +14,5 @@ POSIX
 String::MkPasswd
 Test::More
 Time::Local
+warnings
 WWW::Mechanize

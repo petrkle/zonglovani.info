@@ -1,6 +1,9 @@
 <?php
 require('../init.php');
 require('../func.php');
+include_once($lib.'/SMTP.php');
+include_once($lib.'/Mail.php');
+include_once($lib.'/Mail/mime.php');
 
 $titulek='Odeslání vzkazu';
 $smarty->assign('titulek',$titulek);
@@ -19,56 +22,18 @@ if(isset($_GET['m'])){
 		$to=trim(array_pop(file($foo.'/prijemce.txt')));
 		$vzkaz=file_get_contents($foo.'/vzkaz.txt');
 
-		$subject_plain='Vzkaz z žonglérova slabikáře';
-		$subject = quoted_printable_header($subject_plain);
-
-		$mime_boundary = '--zs--'.abs(crc32(time()));
-
-$headers = "Return-Path: $odesilatel\n";
-$headers .= "From: $odesilatel\n";
-$headers .= "Reply-To: $odesilatel\n";
-$headers .= "Precedence: bulk\n";
-$headers .= "MIME-Version: 1.0\n";
-$headers .= "Content-Type: multipart/alternative; boundary=\"$mime_boundary\"\n";
-
-# -=-=-=- TEXT EMAIL PART
-
-$message = "--$mime_boundary\n";
-$message .= "Content-Type: text/plain; charset=UTF-8\n";
-$message .= "Content-Transfer-Encoding: 8bit\n\n";
-
-$message .= $vzkaz.'
--- 
-Tento vzkaz byl zaslán pomocí žonglérova slabikáře.
-http://zonglovani.info
-';
-
-# -=-=-=- HTML EMAIL PART
- 
-$message .= "--$mime_boundary\n";
-$message .= "Content-Type: text/html; charset=UTF-8\n";
-$message .= "Content-Transfer-Encoding: 8bit\n\n";
-
-$message .= "<html>\n";
-$message .= "<head><meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" />\n";
-$message .= "<title>$subject_plain</title></head>\n";
-$message .= "<body style=\"font-family: sans-serif; font-size:1em; color:#000;\">\n";
-
-$message .= $vzkaz.'<br/>
--- <br/>
-Tento vzkaz byl zaslán pomocí žonglérova slabikáře.<br/>
-<a href="http://zonglovani.info/">http://zonglovani.info/</a>
-';
-
-$message .= "</body>\n";
-$message .= "</html>\n";
-
-# -=-=-=- FINAL BOUNDARY
-
-$message .= "--$mime_boundary--\n\n";
+		$subject='Vzkaz z žonglérova slabikáře';
+		$smarty->assign('subject',$subject);
+		$smarty->assign('vzkaz',$vzkaz);
 
 
-			$vysledek=mail($to, $subject, $message, $headers);
+		$vysledek = sendmail(array(
+			'from'=>$odesilatel,
+			'to'=>$to,
+			'subject'=>$subject,
+			'text'=>$smarty->fetch('mail/lide-vzkaz.txt.tpl'),
+			'html'=>$smarty->fetch('mail/lide-vzkaz.html.tpl'),
+		));
 
 
 		if($vysledek){
@@ -100,8 +65,3 @@ $message .= "--$mime_boundary--\n\n";
 	$smarty->display('alert.tpl');
 	$smarty->display('paticka.tpl');
 }
-
-
-
-
-?>

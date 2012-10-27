@@ -1,11 +1,15 @@
-#!/usr/bin/perl -w
+#!/usr/bin/perl
+
 use strict;
+use warnings;
 use WWW::Mechanize;
 use List::Util qw(shuffle);
 use File::Slurp;
 use File::Basename;
 use Test::More tests => 14;
 use Net::Netrc;
+use Encode;
+
 require('scripts/tests/func.pl');
 
 my $loginurl = 'http://zongl.info/lide/prihlaseni.php';
@@ -53,7 +57,7 @@ my $antispam = get_vypocet($content);
 my $udaje ={
 	'komu'=>$clovek_formular,
 	'email'=>$clovek_mail_mail,
-	'vzkaz'=>"Ahoj, žluťoučký kůň pěl ďábelské ódy.\nS pozdravem $clovek_mail",
+	'vzkaz'=>decode_utf8("Ahoj, žluťoučký kůň pěl ďábelské ódy.\nS pozdravem $clovek_mail"),
 	'antispam'=>"$antispam",
 };
 my $zs_posli_vzkaz = $bot->submit_form(form_number => 0 ,fields => $udaje, button=>'odeslat');

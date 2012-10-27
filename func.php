@@ -684,3 +684,49 @@ function podil_velkych_pismen($text){
 	return $navrat;
 }
 
+function sendmail($msg){
+
+	$mime = new Mail_mime();
+
+	$headers = array(
+		'To'            => $msg['to'],
+		'From'          => $msg['from'],
+		'Precedence'    => 'bulk',
+		'Subject'       => $mime->encodeHeader('Subject' , $msg['subject'], 'UTF-8', 'base64'),
+		'Date' 					=> date('r',time()),
+		'MIME-Version'  => '1.0',
+	);
+	 
+	$textparams = array(
+		'charset'       => 'utf-8',
+		'content_type'  => 'text/plain',
+		'encoding'      => '8bit',
+	);
+	$htmlparams = array(
+		'charset'       => 'utf-8',
+		'content_type'  => 'text/html',
+		'encoding'      => '8bit',
+	);
+				 
+	$email = new Mail_mimePart('', array('content_type' => 'multipart/alternative'));
+				 
+	$textmime = $email->addSubPart($msg['text'], $textparams);
+	$htmlmime = $email->addSubPart($msg['html'], $htmlparams);
+				 
+	$final = $email->encode();
+	$final['headers'] = array_merge($final['headers'], $headers);
+	 
+	$smtp_params = array(
+		'host' => 'smtp.'.$_SERVER['SERVER_NAME'],
+		'port' => '25',
+		'auth' => true,
+		'localhost' => $_SERVER['SERVER_NAME'],
+		'username' => 'robot@zonglovani.info',
+		'password' => 'D6fj8S',
+		'persist' => false,
+	);
+	 
+	$mail = Mail::factory('smtp', $smtp_params);
+	#$mail = Mail::factory('mail');
+	return $mail->send($msg['to'], $final['headers'], $final['body']);
+}
