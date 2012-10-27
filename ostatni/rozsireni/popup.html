@@ -17,33 +17,8 @@
 			.zs-img{margin:0;padding:0 5px 5px 5px;border:0;}
 			.zs-event{margin:0;padding:0;}
 		</style>
-		<script type="text/javascript" src="jquery-1.5.1.min.js"></script>
-		<script type="text/javascript">
-			$(document).ready(function() {
-
-				var d = new Date();
-
-        var json_url = "http://zonglovani.info/kalendar/next.json";
-        $.ajax({url:json_url, cache: true, dataType: 'jsonp', jsonpCallback: 'gce_t_'+d.getFullYear()+'_'+(d.getMonth()+1)+'_'+d.getDate(), success: function(data) {
-				var pocet=0;
-
-          $('#zs-kalendar').html('<div class="zs-event-list"></div>');
-					$.each(data,function(id,akce){
-						var udalost='<div class="zs-event"><h5 class="zs-nadpis"><a href="'+akce[0].url+'" title="'+akce[0].desc+'" target="_blank" class="zs-link">'+akce[0].title+'</a></h5>';
-						udalost=udalost+'<div class="zs-datum">'+akce[0].start+'</div>';
-						udalost=udalost+'<div class="zs-popis">'+akce[0].desc+'</div></div>';
-						$('.zs-event-list').append(udalost);
-						pocet++;
-					});
-					if(pocet==0){
-						$('.zs-event-list').append('<div class="zs-pridej">Žádná naplánovaná akce.<br /><a href="http://zonglovani.info/kalendar/#add" title="Přidat akci do kalendáře žonglování" class="zs-addlink">Přidat</a></div>');
-					}
-					$('.zs-event-list').append('<div class="zs-cleaner"></div>');
-        }});
-
-
-			});
-		</script>
+		<script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="popup.js"></script>
 	</head>
 	<body>
 		<h1>Kalendář žonglérských akcí</h1>

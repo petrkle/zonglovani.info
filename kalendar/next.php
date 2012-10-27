@@ -9,10 +9,6 @@ if(isset($_GET['filtr'])){
 	$filtr=false;
 }
 
-#$smarty->compile_check = false;
-#$smarty->caching = 2;
-#$smarty->cache_lifetime = 300;
-
 $udalosti=get_future_data($filtr);
 
 uasort($udalosti, 'sort_by_zacatek'); 
@@ -31,8 +27,10 @@ if(isset($_GET['json'])){
 	}
 	header('Content-Type: application/json');
 	$smarty->display('kalendar-next-json.tpl');
+}elseif(isset($_GET['xml'])){
+	header('Content-Type: text/xml');
+	$smarty->display('kalendar-next-xml.tpl');
 }else{
 	header('Content-Type: text/javascript');
 	$smarty->display('kalendar-next-js.tpl');
 }
-?>

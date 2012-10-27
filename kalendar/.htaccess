@@ -15,5 +15,6 @@ RewriteRule ^kalendar.ics$ zonglovani.ics [R=301,L]
 RewriteRule ^zonglovani.ics$ ical.php [L]
 RewriteRule ^next.js$ next.php [L]
 RewriteRule ^next.json$ next.php?json [L,QSA]
+RewriteRule ^next.xml$ next.php?xml [L,QSA]
 
 RewriteRule (.*).html $1.php [L]
