@@ -1,6 +1,6 @@
 <?php
 
-if($_SERVER['SERVER_NAME']!='zongl.info'){
+if($_SERVER['SERVER_NAME']=='zonglovani.info'){
 	  error_reporting(0);
 }else{
 	  error_reporting(E_ALL);
@@ -78,10 +78,6 @@ define('STAT_DATA',$_SERVER['DOCUMENT_ROOT'].'/data/stat');
 define('STAT_EXPIRE',31); 
 
 define('MAX_BIG_LETTERS',0.7); 
-
-#if (substr_count($_SERVER['HTTP_ACCEPT_ENCODING'], 'gzip')){
-#	ob_start('ob_gzhandler');
-#}
 
 $hodnoceni=get_hodnoceni_stranka($_SERVER['REQUEST_URI']);
 $smarty->assign('hodnoceni',$hodnoceni);
@@ -178,5 +174,3 @@ $texty=array(
 $stridacka=date('z',time()) % count($texty);
 	return '<a href="http://www.facebook.com/zongleruv.slabikar" class="external" title="Stránky žonglérova slabikáře na Facebooku." onclick="_gaq.push([\'_trackPageview\',\'/goto/facebook.com/zongleruv.slabikar\']);">'.$texty[$stridacka].'</a>';
 }
-
-?>

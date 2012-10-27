@@ -1,5 +1,2 @@
-RewriteEngine	on
-RewriteBase /xml/
-
-RewriteCond %{REQUEST_FILENAME}	^.*\.xml$
-RewriteRule ^(.*)$ $1 [F]
+Order Deny,Allow
+Deny from all
