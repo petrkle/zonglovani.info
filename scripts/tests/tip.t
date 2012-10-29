@@ -70,5 +70,5 @@ foreach my $tip(@radky){
 	}
 }
 
-ok($spravne_tipy>5,"$spravne_tipy správných tipů v zásobě");
+ok($spravne_tipy>=5,"$spravne_tipy správných tipů v zásobě");
 ok($spatne_tipy==0,"Tipy neobsahují chybný odkaz, obrázek, text nebo popis");

@@ -44,4 +44,3 @@ if(strlen($show)>0 and is_file('../'.$show.'.xml')){
 	$smarty->display('micky-3-pokrocile.tpl');
 	$smarty->display('paticka.tpl');
 }
-?>

@@ -1,7 +1,6 @@
 Aktuální
 ========
 
-- prohlížení mailů - https://addons.mozilla.org/cs/thunderbird/addon/importexporttools/
 - test na změnu emailu
 - testy vzkazů - adresa from, to, čeština ve vzkazu, mime parts
 - přidávání událostí i pro nepřihlášené (odešle tip)
@@ -129,6 +128,8 @@ info při nahrávání letáku do kalendáře - jen formát jpg nebo png
 ke stahování přidělat odkazy na podporu žonglérova slabikáře
 odkaz na android - Google Play
 kalendář, rest api, načítání z rozšíření, kvůli manifest v.2
+postconf -e 'disable_mime_output_conversion = yes'
+prohlížení mailů - https://addons.mozilla.org/cs/thunderbird/addon/importexporttools/
 
 .ssh/config
 ===========
