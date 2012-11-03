@@ -408,6 +408,9 @@
 			<li><a name="prazsky-zonglersky-marathon-20091128"></a><a href="/obrazky/prazsky-zonglersky-marathon-20091128/">Pražský žonglérský marathon 2009 - obrázky žonglování</a>
 			
 			</li>
+			<li><a name="prazsky-zonglersky-marathon-20121103"></a><a href="/obrazky/prazsky-zonglersky-marathon-20121103/">Pražský žonglérský marathon - obrázky žonglování</a>
+			
+			</li>
 			<li><a name="predvanocni-vystoupeni-klamovka-20081211"></a><a href="/obrazky/predvanocni-vystoupeni-klamovka-20081211/">Předvánoční vystoupení na Klamovce 2008 - obrázky žonglování</a>
 			
 			</li>
@@ -603,6 +606,7 @@
 			<li><a href="/video/etc/juggling-documentation.html">Juggling Documentation</a></li>
 			<li><a href="/video/etc/kamones.html">Malabaristas Kamones</a></li>
 			<li><a href="/video/etc/midtown-greenway.html">Midtown Greenway</a></li>
+			<li><a href="/video/etc/vjpromo.html">Visual Juggling Promo</a></li>
 			</ul>
 			</li>
 			<li><a name="levistick"></a><a href="/video/levistick/">Levistick</a>

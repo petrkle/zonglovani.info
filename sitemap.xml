@@ -165,6 +165,12 @@
    </url>
 			
    <url>
+      <loc>http://zonglovani.info/changelog-31.html</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
       <loc>http://zonglovani.info/changelog-4.html</loc>
       <changefreq>monthly</changefreq>
       <priority>0.4</priority>
@@ -3735,12 +3741,6 @@
    </url>
 			
    <url>
-      <loc>http://zonglovani.info/kalendar/2007-11.html</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.6</priority>
-   </url>
-			
-   <url>
       <loc>http://zonglovani.info/kalendar/2007-12.html</loc>
       <changefreq>weekly</changefreq>
       <priority>0.6</priority>
@@ -4450,6 +4450,12 @@
 			
    <url>
       <loc>http://zonglovani.info/kalendar/2017-10.html</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.6</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/kalendar/2017-11.html</loc>
       <changefreq>weekly</changefreq>
       <priority>0.6</priority>
    </url>
@@ -6153,7 +6159,25 @@
    </url>
 			
    <url>
+      <loc>http://zonglovani.info/kalendar/udalost-20121031-20121031-pek-1351325181.html</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.7</priority>
+   </url>
+			
+   <url>
       <loc>http://zonglovani.info/kalendar/udalost-20121102-20121104-pek-1347737642.html</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.7</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/kalendar/udalost-20121116-20121117-pek-1351105716.html</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.7</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/kalendar/udalost-20130111-20130113-pek-1351105142.html</loc>
       <changefreq>monthly</changefreq>
       <priority>0.7</priority>
    </url>
@@ -6909,12 +6933,6 @@
    </url>
 			
    <url>
-      <loc>http://zonglovani.info/lide/mark.html</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.6</priority>
-   </url>
-			
-   <url>
       <loc>http://zonglovani.info/lide/mates.html</loc>
       <changefreq>weekly</changefreq>
       <priority>0.6</priority>
@@ -7077,6 +7095,12 @@
    </url>
 			
    <url>
+      <loc>http://zonglovani.info/lide/silvermane.html</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.6</priority>
+   </url>
+			
+   <url>
       <loc>http://zonglovani.info/lide/simiminis.html</loc>
       <changefreq>weekly</changefreq>
       <priority>0.6</priority>
@@ -7108,6 +7132,12 @@
 			
    <url>
       <loc>http://zonglovani.info/lide/svobodamartin.html</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.6</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/lide/terezakorecka.html</loc>
       <changefreq>weekly</changefreq>
       <priority>0.6</priority>
    </url>
@@ -14562,6 +14592,222 @@
       <loc>http://zonglovani.info/obrazky/prazsky-zonglersky-marathon-20091128/stranka2/0018.html</loc>
       <changefreq>yearly</changefreq>
       <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/prazsky-zonglersky-marathon-20121103/</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.6</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/prazsky-zonglersky-marathon-20121103/0000.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/prazsky-zonglersky-marathon-20121103/0001.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/prazsky-zonglersky-marathon-20121103/0002.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/prazsky-zonglersky-marathon-20121103/0003.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/prazsky-zonglersky-marathon-20121103/0004.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/prazsky-zonglersky-marathon-20121103/0005.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/prazsky-zonglersky-marathon-20121103/0006.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/prazsky-zonglersky-marathon-20121103/0007.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/prazsky-zonglersky-marathon-20121103/0008.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/prazsky-zonglersky-marathon-20121103/0009.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/prazsky-zonglersky-marathon-20121103/0010.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/prazsky-zonglersky-marathon-20121103/0011.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/prazsky-zonglersky-marathon-20121103/0012.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/prazsky-zonglersky-marathon-20121103/0013.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/prazsky-zonglersky-marathon-20121103/0014.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/prazsky-zonglersky-marathon-20121103/0015.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/prazsky-zonglersky-marathon-20121103/0030.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/prazsky-zonglersky-marathon-20121103/stranka1/</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.6</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/prazsky-zonglersky-marathon-20121103/stranka2/</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.6</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/prazsky-zonglersky-marathon-20121103/stranka2/0015.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/prazsky-zonglersky-marathon-20121103/stranka2/0016.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/prazsky-zonglersky-marathon-20121103/stranka2/0017.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/prazsky-zonglersky-marathon-20121103/stranka2/0018.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/prazsky-zonglersky-marathon-20121103/stranka2/0019.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/prazsky-zonglersky-marathon-20121103/stranka2/0020.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/prazsky-zonglersky-marathon-20121103/stranka2/0021.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/prazsky-zonglersky-marathon-20121103/stranka2/0022.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/prazsky-zonglersky-marathon-20121103/stranka2/0023.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/prazsky-zonglersky-marathon-20121103/stranka2/0024.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/prazsky-zonglersky-marathon-20121103/stranka2/0025.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/prazsky-zonglersky-marathon-20121103/stranka2/0026.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/prazsky-zonglersky-marathon-20121103/stranka2/0027.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/prazsky-zonglersky-marathon-20121103/stranka2/0028.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/prazsky-zonglersky-marathon-20121103/stranka2/0029.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/obrazky/prazsky-zonglersky-marathon-20121103/stranka3/</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.6</priority>
    </url>
 			
    <url>
@@ -22425,6 +22671,12 @@
    </url>
 			
    <url>
+      <loc>http://zonglovani.info/tip/archiv20.html</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
       <loc>http://zonglovani.info/tip/archiv3.html</loc>
       <changefreq>monthly</changefreq>
       <priority>0.4</priority>
@@ -22930,6 +23182,12 @@
 			
    <url>
       <loc>http://zonglovani.info/video/etc/stranka2.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.5</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/video/etc/vjpromo.html</loc>
       <changefreq>yearly</changefreq>
       <priority>0.5</priority>
    </url>
