@@ -190,12 +190,12 @@
 2012-10-15*Midtown Greenway*/video/etc/midtown-greenway.html*midtown-greenway.jpg*Nick Laffey žongluje s kužely.
 2012-10-22*Tenis*/micky/4/tenis.html*micky-4-tenisc.png*Velmi obtížný trik se čtyřmi míčky.
 2012-10-29*Pražský žonglérský marathon*/kalendar/udalost-20121102-20121104-pek-1347737642.html*pzm2012.png*Čtvrtý ročník pražského žonglérského marathonu.
-2012-11-05*Passování s pivem*/kuzely/passing/pivo.html*bv.jpg*Trik pro tři žongléry s šesti kužely a lahví piva. Postupně si všichni tři házíte kuželky a předáváte láhev piva.
+2012-11-05*Fotky z PŽM 4*/obrazky/prazsky-zonglersky-marathon-20121103/0000.html*pzm4f.jpg*Fotografie ze čtvrtého ročníku pražského žonglérského marathonu.
 2012-11-12*Řada*/kuzely/passing/line.html*line-promo.png*Line - trik pro tři žongléry a devět kuželů.
 2012-11-19*Kříž*/micky/4/kriz.html*4krizc.png*Jak název napovídá, budeš tentokrát míčky házet křížem.
 2012-11-26*Míček z tenisáku*/micky/vyroba-tenisak.html*levny-tenisak.s.jpg*Rychlý návod, jak vyrobit míček na žonglování z tenisáku a nafukovacích balónků.
 2012-12-03*Visual Juggling Promo*/video/etc/vjpromo.html*vjpromo.jpg*Upoutávka na žonglérské video Visual Juggling.
-2012-12-10*
+2012-12-10*Passování s pivem*/kuzely/passing/pivo.html*bv.jpg*Trik pro tři žongléry s šesti kužely a lahví piva. Postupně si všichni tři házíte kuželky a předáváte láhev piva.
 2012-12-17*Veselé vánoce*/vanoce-2012.html*micky-ve-snehu.s.jpg*Veselé vánoční svátky. Ať vám to lítá :^)
 2012-12-24*
 2012-12-31*
