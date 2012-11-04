@@ -12,7 +12,7 @@ $trail = new Trail();
 $trail->addStep($titulek,'/download/');
 $downloads=get_downloads();
 $smarty->assign_by_ref('downloads', $downloads);
-$smarty->assign('poradi', array('pdf','mobi','epub','exe','msi','tar.bz2','apk','wgz','xap'));
+$smarty->assign('poradi', array('pdf','mobi','epub','exe','msi','tar.bz2','apk','wgz','xap','vizitky'));
 $smarty->assign('hidden', array('apk'=>true,'wgz'=>true,'xap'=>true));
 
 if(isset($_GET['id'])){

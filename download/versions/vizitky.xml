@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<package>
+	<description>Vizitky žonglérova slabikáře</description>
+
+	<release>
+		<version>0.1</version>
+		<filename>vizitky-zongleruv-slabikar.pdf</filename>
+		<size>1,9M</size>
+		<md5>768da86765b5a4bb78eef22339581443</md5>
+		<date>2012-11-04</date>
+		<img>package-vizitky.png</img>
+	</release>
+
+</package>
