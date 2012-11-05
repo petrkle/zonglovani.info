@@ -25,14 +25,16 @@ if(isset($_GET['m'])){
 		$subject='Vzkaz z žonglérova slabikáře';
 		$smarty->assign('subject',$subject);
 		$smarty->assign('vzkaz',$vzkaz);
+		$smarty->assign('from',$odesilatel);
 
 
 		$vysledek = sendmail(array(
-			'from'=>$odesilatel,
+			'from'=>'robot@zonglovani.info',
 			'to'=>$to,
 			'subject'=>$subject,
 			'text'=>$smarty->fetch('mail/lide-vzkaz.txt.tpl'),
 			'html'=>$smarty->fetch('mail/lide-vzkaz.html.tpl'),
+			'img'=>array('../img/z/zs-vizitka.png'),
 		));
 
 

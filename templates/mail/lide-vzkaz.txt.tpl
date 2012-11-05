@@ -1,3 +1,5 @@
+Autor vzkazu: {$from}
+
 {$vzkaz|escape}
 
 -- 

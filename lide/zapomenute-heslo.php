@@ -104,6 +104,7 @@ if(!preg_match('/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{
 			'subject'=>$subject,
 			'text'=>$smarty->fetch('mail/lide-zapomenute-heslo.txt.tpl'),
 			'html'=>$smarty->fetch('mail/lide-zapomenute-heslo.html.tpl'),
+			'img'=>array('../img/z/zs-vizitka.png'),
 		));
 
 		if($vysledek){

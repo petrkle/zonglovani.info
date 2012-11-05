@@ -63,6 +63,7 @@ $vysledek = sendmail(array(
 	'subject'=>$subject,
 	'text'=>$smarty->fetch('mail/lide-add.txt.tpl'),
 	'html'=>$smarty->fetch('mail/lide-add.html.tpl'),
+	'img'=>array('../img/z/zs-vizitka.png'),
 ));
 
 unset($_SESSION['reg_jmeno']);

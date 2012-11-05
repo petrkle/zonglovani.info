@@ -47,6 +47,7 @@ foreach($loginy as $login){
 			'subject'=>'Účet v žonglérově slabikáři',
 			'text'=>$smarty->fetch('mail/cron-old-accounts.txt.tpl'),
 			'html'=>$smarty->fetch('mail/cron-old-accounts.html.tpl'),
+			'img'=>array('../img/z/zs-vizitka.png'),
 		));
 		
 			if($vysledek){

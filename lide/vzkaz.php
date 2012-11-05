@@ -14,9 +14,10 @@ $trail->addStep('Seznam žonglérů',LIDE_URL);
 $trail->addStep($titulek);
 $smarty->assign_by_ref('trail', $trail->path);
 
+$subject='Vzkaz z žonglérova slabikáře';
+$smarty->assign_by_ref('subject',$subject);
+
 if(isset($_POST['komu'])){
-	$subject='Vzkaz z žonglérova slabikáře';
-	$smarty->assign_by_ref('subject',$subject);
 	$komu=strtolower(trim($_POST['komu']));
 	if(isset($_POST['odeslat'])){
 
@@ -82,13 +83,15 @@ if(isset($_POST['komu'])){
 
 		$smarty->assign('komu',$komu_props);
 		$smarty->assign('vzkaz',$vzkaz);
+		$smarty->assign('from',$email);
 
 		$vysledek = sendmail(array(
-			'from'=>$email,
+			'from'=>'robot@zonglovani.info',
 			'to'=>$komu_props['email'],
 			'subject'=>$subject,
 			'text'=>$smarty->fetch('mail/lide-vzkaz.txt.tpl'),
 			'html'=>$smarty->fetch('mail/lide-vzkaz.html.tpl'),
+			'img'=>array('../img/z/zs-vizitka.png'),
 		));
 
 			if($vysledek){
@@ -137,6 +140,7 @@ if(isset($_POST['komu'])){
 			'subject'=>$subject,
 			'text'=>$smarty->fetch('mail/lide-vzkaz-activate.txt.tpl'),
 			'html'=>$smarty->fetch('mail/lide-vzkaz-activate.html.tpl'),
+			'img'=>array('../img/z/zs-vizitka.png'),
 		));
 
 			if($vysledek){

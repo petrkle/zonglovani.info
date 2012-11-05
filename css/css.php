@@ -1,9 +1,9 @@
 <?php
 if(isset($_GET['style']) and is_readable('./'.$_GET['style'].'.css')){
 header ('content-type: text/css; charset: UTF-8');
-header ($expire);
 $offset = 7 * 24 * 3600;
 $expire = 'expires: ' . gmdate ('D, d M Y H:i:s', time() + $offset) . ' GMT';
+header ($expire);
 if (substr_count($_SERVER['HTTP_ACCEPT_ENCODING'], 'gzip')){
 	ob_start('ob_gzhandler');
 }

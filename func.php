@@ -685,37 +685,32 @@ function podil_velkych_pismen($text){
 }
 
 function sendmail($msg){
+	$headers = array (
+		'From' => $msg['from'],
+		'To' => $msg['to'],
+		'Subject' => $msg['subject'],
+		'Precedence' => 'bulk',
+		'Date' => date('r',time()),
+	);
+	$mailconf=array(
+		'head_encoding'=>'base64',
+		'text_encoding'=>'8bit',
+		'html_encoding'=>'8bit',
+		'head_charset'=>'UTF-8',
+		'text_charset'=>'UTF-8',
+		'html_charset'=>'UTF-8',
+	);
 
-	$mime = new Mail_mime();
-
-	$headers = array(
-		'To'            => $msg['to'],
-		'From'          => $msg['from'],
-		'Precedence'    => 'bulk',
-		'Subject'       => $mime->encodeHeader('Subject' , $msg['subject'], 'UTF-8', 'base64'),
-		'Date' 					=> date('r',time()),
-		'MIME-Version'  => '1.0',
-	);
-	 
-	$textparams = array(
-		'charset'       => 'utf-8',
-		'content_type'  => 'text/plain',
-		'encoding'      => '8bit',
-	);
-	$htmlparams = array(
-		'charset'       => 'utf-8',
-		'content_type'  => 'text/html',
-		'encoding'      => '8bit',
-	);
-				 
-	$email = new Mail_mimePart('', array('content_type' => 'multipart/alternative'));
-				 
-	$textmime = $email->addSubPart($msg['text'], $textparams);
-	$htmlmime = $email->addSubPart($msg['html'], $htmlparams);
-				 
-	$final = $email->encode();
-	$final['headers'] = array_merge($final['headers'], $headers);
-	 
+	$mime = new Mail_mime($mailconf);
+	$mime->setTxtBody($msg['text']);
+	$mime->setHTMLBody($msg['html']);
+	if(isset($msg['img']) and is_array($msg['img'])){
+		foreach($msg['img'] as $img){
+			$obrazekinfo=getimagesize($img);
+			$mime->addHTMLImage($img,$obrazekinfo['mime'],basename($img),true,basename($img));
+		}
+	}
+ 
 	$smtp_params = array(
 		'host' => 'smtp.'.$_SERVER['SERVER_NAME'],
 		'port' => '25',
@@ -727,6 +722,5 @@ function sendmail($msg){
 	);
 	 
 	$mail = Mail::factory('smtp', $smtp_params);
-	#$mail = Mail::factory('mail');
-	return $mail->send($msg['to'], $final['headers'], $final['body']);
+	return $mail->send($msg['to'], $mime->headers($headers), $mime->get());
 }
