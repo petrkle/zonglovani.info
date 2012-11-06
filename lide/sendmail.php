@@ -26,10 +26,12 @@ if(isset($_GET['m'])){
 		$smarty->assign('subject',$subject);
 		$smarty->assign('vzkaz',$vzkaz);
 		$smarty->assign('from',$odesilatel);
+		$domain=preg_split('/@/',$odesilatel);
+		$smarty->assign('cid_sender_domain',$domain[1]);
 
 
 		$vysledek = sendmail(array(
-			'from'=>'robot@zonglovani.info',
+			'from'=>$odesilatel,
 			'to'=>$to,
 			'subject'=>$subject,
 			'text'=>$smarty->fetch('mail/lide-vzkaz.txt.tpl'),

@@ -85,8 +85,11 @@ if(isset($_POST['komu'])){
 		$smarty->assign('vzkaz',$vzkaz);
 		$smarty->assign('from',$email);
 
+		$domain=preg_split('/@/',$email);
+		$smarty->assign('cid_sender_domain',$domain[1]);
+
 		$vysledek = sendmail(array(
-			'from'=>'robot@zonglovani.info',
+			'from'=>$email,
 			'to'=>$komu_props['email'],
 			'subject'=>$subject,
 			'text'=>$smarty->fetch('mail/lide-vzkaz.txt.tpl'),
