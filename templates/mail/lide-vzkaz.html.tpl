@@ -1,5 +1,4 @@
 {include file="mail/html-hlavicka.tpl"}
-Autor vzkazu: <a href="mailto:{$from}">{$from}</a>
 
 <pre>
 {$vzkaz|escape}

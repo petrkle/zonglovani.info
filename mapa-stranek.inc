@@ -74,6 +74,7 @@
 		<li><a href="/download/msi.html">Soubory ke stažení - msi</a></li>
 		<li><a href="/download/pdf.html">Soubory ke stažení - pdf</a></li>
 		<li><a href="/download/tar.bz2.html">Soubory ke stažení - tar.bz2</a></li>
+		<li><a href="/download/vizitky.html">Soubory ke stažení - vizitky</a></li>
 		<li><a href="/download/wgz.html">Soubory ke stažení - wgz</a></li>
 		<li><a href="/download/xap.html">Soubory ke stažení - xap</a></li>
 		</ul>
@@ -376,6 +377,9 @@
 			
 			</li>
 			<li><a name="festival-zonglovani-20070713"></a><a href="/obrazky/festival-zonglovani-20070713/">Festival žonglování Praha 2007 - obrázky žonglování</a>
+			
+			</li>
+			<li><a name="hejnice-20120609"></a><a href="/obrazky/hejnice-20120609/">Hejnice 9. 6. 2012 - obrázky žonglování</a>
 			
 			</li>
 			<li><a name="klamovka-20080422"></a><a href="/obrazky/klamovka-20080422/">Klamovka 22. 4. 2008 - obrázky žonglování</a>
