@@ -1,3 +1,4 @@
+<p>{$rozhovor.about.datum}</p>
 {if $rozhovor.pre}
 <p>
 {if $rozhovor.pre.obrazek}{obrazek soubor=$rozhovor.pre.obrazek}{/if}
@@ -13,6 +14,10 @@
 {/foreach}
 </dl>
 {/foreach}
+
+<p>
+Díky za rozhovor.
+</p>
 
 {if $rozhovor.dalsi}
 <div class="kamdal">
