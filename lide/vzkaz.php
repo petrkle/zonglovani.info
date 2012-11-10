@@ -87,6 +87,7 @@ if(isset($_POST['komu'])){
 
 		$domain=preg_split('/@/',$email);
 		$smarty->assign('cid_sender_domain',$domain[1]);
+		$smarty->assign('hide_signature',true);
 
 		$vysledek = sendmail(array(
 			'from'=>$email,
@@ -94,7 +95,6 @@ if(isset($_POST['komu'])){
 			'subject'=>$subject,
 			'text'=>$smarty->fetch('mail/lide-vzkaz.txt.tpl'),
 			'html'=>$smarty->fetch('mail/lide-vzkaz.html.tpl'),
-			'img'=>array('../img/z/zs-vizitka.png'),
 		));
 
 			if($vysledek){
@@ -143,7 +143,7 @@ if(isset($_POST['komu'])){
 			'subject'=>$subject,
 			'text'=>$smarty->fetch('mail/lide-vzkaz-activate.txt.tpl'),
 			'html'=>$smarty->fetch('mail/lide-vzkaz-activate.html.tpl'),
-			'img'=>array('../img/z/zs-vizitka.png'),
+			'img'=>array('../img/5/5micku.png'),
 		));
 
 			if($vysledek){

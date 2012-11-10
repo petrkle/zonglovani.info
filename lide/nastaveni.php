@@ -428,7 +428,7 @@ $trail->addStep('Nastavení',LIDE_URL.'nastaveni/');
 			'subject'=>$subject,
 			'text'=>$smarty->fetch('mail/lide-ucet-zruseni.txt.tpl'),
 			'html'=>$smarty->fetch('mail/lide-ucet-zruseni.html.tpl'),
-			'img'=>array('../img/z/zs-vizitka.png'),
+			'img'=>array('../img/5/5micku.png'),
 		));
 
 		if($vysledek){
@@ -531,7 +531,7 @@ $trail->addStep('Nastavení',LIDE_URL.'nastaveni/');
 			'subject'=>$subject,
 			'text'=>$smarty->fetch('mail/lide-zmena-emailu.txt.tpl'),
 			'html'=>$smarty->fetch('mail/lide-zmena-emailu.html.tpl'),
-			'img'=>array('../img/z/zs-vizitka.png'),
+			'img'=>array('../img/5/5micku.png'),
 		));
 
 		if($vysledek){

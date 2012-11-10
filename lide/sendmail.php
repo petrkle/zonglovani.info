@@ -28,6 +28,7 @@ if(isset($_GET['m'])){
 		$smarty->assign('from',$odesilatel);
 		$domain=preg_split('/@/',$odesilatel);
 		$smarty->assign('cid_sender_domain',$domain[1]);
+		$smarty->assign('hide_signature',true);
 
 
 		$vysledek = sendmail(array(
@@ -36,7 +37,6 @@ if(isset($_GET['m'])){
 			'subject'=>$subject,
 			'text'=>$smarty->fetch('mail/lide-vzkaz.txt.tpl'),
 			'html'=>$smarty->fetch('mail/lide-vzkaz.html.tpl'),
-			'img'=>array('../img/z/zs-vizitka.png'),
 		));
 
 
