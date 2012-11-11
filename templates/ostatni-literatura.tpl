@@ -34,6 +34,13 @@ Výborná knížka o žonglování s míčky od Carlieho Dancey. Obsahuje spoust
 <a href="http://www.butterfingers.co.uk" title="Stránky vydavatele." onclick="_gaq.push(['_trackPageview','/goto/butterfingers.co.uk']);">{obrazek soubor="compendium.jpg" popisek="Compendium of Club Juggling - obálka"}</a>
 Napsal Charlie Dancey. V této knížce je vše o žonglování s kužely. Obsahuje spoustu pěkných obrázků, díky tomu nemusíš ani umět anglicky, a přesto téměř vše pochopíš. Vhodné pro začátečníky i pokročilé. 238&nbsp;stránek.
 </p>
+
+<h3>Every trick in the book</h3>
+<p>
+{obrazek soubor="etitb.jpg" popisek="Every trick in the book - obálka"}
+Napsal Charlie Dancey. V této knížce je vše o žonglování s kužely, míčky a spousta dalších triků. Obsahuje spoustu pěkných obrázků, díky tomu nemusíš ani umět anglicky, a přesto téměř vše pochopíš. 749&nbsp;stránek.
+</p>
+	
 	
 <h3><a href="/addicted-hans-vanwynsberghe.pdf" title="Žonglování s míčky a kužely." onclick="_gaq.push(['_trackPageview','/addicted-hans-vanwynsberghe.pdf']);" class="pdf">Addicted to ball and club juggling</a></h3>
 <p>

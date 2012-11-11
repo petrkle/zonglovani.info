@@ -10,6 +10,8 @@ $smarty->assign('feedback',true);
 $smarty->assign('keywords',make_keywords($titulek).', žonglování, tisk, pdf');
 $smarty->assign('description','Česká a anglická literatura o žonglování. Volně ke stažení - formát pdf, vhodný pro tisk.');
 
+$smarty->assign('nahled','http://'.$_SERVER['SERVER_NAME'].'/img/e/etitb.s.jpg');
+
 $trail = new Trail();
 $trail->addStep('Informace o žonglování','/ostatni.html');
 $trail->addStep('Literatura');
@@ -25,5 +27,3 @@ $smarty->assign_by_ref('trail', $trail->path);
 $smarty->display('hlavicka.tpl');
 $smarty->display('ostatni-literatura.tpl');
 $smarty->display('paticka.tpl');
-
-?>
