@@ -20,7 +20,6 @@ Kalendář
 ========
 - přidat google mapy k akcím do kalendáře
 - export kalendáře (dalších věcí ?) do pdf online
-- odkazy další, předchozí u akce
 
 Etc
 ===
@@ -130,6 +129,7 @@ odkaz na android - Google Play
 kalendář, rest api, načítání z rozšíření, kvůli manifest v.2
 postconf -e 'disable_mime_output_conversion = yes'
 prohlížení mailů - https://addons.mozilla.org/cs/thunderbird/addon/importexporttools/
+odkazy další, předchozí u akce
 
 .ssh/config
 ===========

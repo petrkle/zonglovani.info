@@ -1,44 +1,44 @@
 <p>Výpis budoucích akcí z <a href="{$smarty.const.CALENDAR_URL}" title="Kalendář žonglování">kalendáře</a>, neboli <strong>widget</strong>, je obdélník s aktuálním výpisem chystaných žonglérských akcí. Můžeš ho vložit pomocí HTML na svůj web.</p>
 <h3>Světlá varianta</h3>
 <p>
-<code>
+<textarea>
 &lt;a href="http://zonglovani.info/kalendar" title="Kalendář žonglérských akcí" id="zs-kalendar"&gt;Kalendář žonglování&lt;/a&gt;<br />
 &lt;script src="http://zonglovani.info/kalendar/widget.js" type="text/javascript" charset="utf-8"&gt;&lt;/script&gt;
-</code>
+</textarea>
 </p>
 <p>{obrazek soubor='widget-light.png' popisek='Widget - světlá varianta'}</p>
 <h3>Světlá varianta na šířku</h3>
 <p>
-<code>
+<textarea>
 &lt;a href="http://zonglovani.info/kalendar" title="Kalendář žonglérských akcí" id="zs-kalendar"&gt;Kalendář žonglování&lt;/a&gt;<br />
 &lt;script src="http://zonglovani.info/kalendar/widget.js?css=http://zonglovani.info/css/ww-light.css" type="text/javascript" charset="utf-8"&gt;&lt;/script&gt;
-</code>
+</textarea>
 </p>
 <p><a href="/img/w/widget-light-w.png" title="Světlá varianta na šířku">{obrazek soubor='widget-light-w.s.png' popisek='Widget - světlá varianta na šířku'}</a></p>
 <h3>Tmavá varianta</h3>
 <p>
-<code>
+<textarea>
 &lt;a href="http://zonglovani.info/kalendar" title="Kalendář žonglérských akcí" id="zs-kalendar"&gt;Kalendář žonglování&lt;/a&gt;<br />
 &lt;script src="http://zonglovani.info/kalendar/widget.js?css=http://zonglovani.info/css/w-dark.css" type="text/javascript" charset="utf-8"&gt;&lt;/script&gt;
-</code>
+</textarea>
 </p>
 <p>{obrazek soubor='widget-dark.png' popisek='Widget - tmavá varianta'}</p>
 <h3>Možnosti přizpůsobení</h3>
 <p>
-Pomocí parametru <code>css</code> můžeš nastavit vlastní kaskádový styl pro widget. Bez zadání se použije výchozí <a href="/css/w-light.css" title="Kaskádový styl pro světlou variantu.">světlý styl</a>.
+Pomocí parametru <textarea>css</code> můžeš nastavit vlastní kaskádový styl pro widget. Bez zadání se použije výchozí <a href="/css/w-light.css" title="Kaskádový styl pro světlou variantu.">světlý styl</a>.
 </p>
-<p>Parametr <code>filtr</code> umožňuje filtrovat zobrazované události podle toho kdo je vložil. Např.:</p>
+<p>Parametr <textarea>filtr</code> umožňuje filtrovat zobrazované události podle toho kdo je vložil. Např.:</p>
 <p>
 &lt;a href="http://zonglovani.info/kalendar" title="Kalendář žonglérských akcí" id="zs-kalendar"&gt;Kalendář žonglování&lt;/a&gt;<br />
-&lt;script src="http://zonglovani.info/kalendar/widget.js?css=http://kdesi.cz/zongl.css&amp;filtr=nekdo" type="text/javascript" charset="utf-8"&gt;&lt;/script&gt;</code>
+&lt;script src="http://zonglovani.info/kalendar/widget.js?css=http://kdesi.cz/zongl.css&amp;filtr=nekdo" type="text/javascript" charset="utf-8"&gt;&lt;/script&gt;</textarea>
 </p>
 <p>Zobrazí pouze události zadané uživatelem který má login "nekdo". Navíc se použije vlastní kaskádový styl. Login uživatele zjistíš z adresy profilu. Např.: http://zonglovani.info/lide/nekdo.html</p>
 
-<p>Parametr <code>ukaz=obrazky</code> přidá k událostem obrázky. Příklad použití:</p>
+<p>Parametr <textarea>ukaz=obrazky</code> přidá k událostem obrázky. Příklad použití:</p>
 <p>
-<code>
+<textarea>
 &lt;a href="http://zonglovani.info/kalendar" title="Kalendář žonglérských akcí" id="zs-kalendar"&gt;Kalendář žonglování&lt;/a&gt;<br />
-&lt;script src="http://zonglovani.info/kalendar/widget.js?ukaz=obrazky" type="text/javascript" charset="utf-8"&gt;&lt;/script&gt;</code>
+&lt;script src="http://zonglovani.info/kalendar/widget.js?ukaz=obrazky" type="text/javascript" charset="utf-8"&gt;&lt;/script&gt;</textarea>
 </p>
 <p><a href="/img/w/widget-img.png" title="Widget s obrázky">{obrazek soubor='widget-img.s.png' popisek='Widget s obrázky'}</a></p>
 
