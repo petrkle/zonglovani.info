@@ -51,6 +51,8 @@ $mojepozice=array_search($id,$pozice);
 	}
 	if(isset($uzivatel_props['foto'])){
 		$smarty->assign('nahled','http://'.$_SERVER['SERVER_NAME'].LIDE_URL.'foto/'.$id.'.jpg');
+	}else{
+		$smarty->assign('nahled','http://'.$_SERVER['SERVER_NAME'].LIDE_URL.'m/'.$id.'.png');
 	}
 
 	$hlavicky=array();
