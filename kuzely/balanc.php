@@ -9,6 +9,7 @@ $smarty->assign('titulek',$titulek);
 
 $smarty->assign('keywords','balancování, kužel, brada, nos');
 $smarty->assign('description','Balancování žonglérského kuželu na nose');
+$smarty->assign('nahled','http://'.$_SERVER['SERVER_NAME'].'/img/k/kuzely-balanca.png');
 
 $dalsi=array(
 	array('url'=>'/micky/balancovani.html','text'=>'Balancování míčku','title'=>'Balancování mičků'),
@@ -25,5 +26,3 @@ $smarty->assign_by_ref('trail', $trail->path);
 $smarty->display('hlavicka.tpl');
 $smarty->display('kuzely-balanc.tpl');
 $smarty->display('paticka.tpl');
-
-?>

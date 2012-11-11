@@ -8,6 +8,7 @@ $smarty->assign('titulek',$titulek);
 
 $smarty->assign('keywords',make_keywords($titulek).', žonglování');
 $smarty->assign('description','Obrázky a popis různých věcí na žonglování.');
+$smarty->assign('nahled','http://'.$_SERVER['SERVER_NAME'].'/img/n/nacinia.png');
 
 $trail = new Trail();
 $trail->addStep('Informace o žonglování','/ostatni.html');
@@ -24,5 +25,3 @@ $smarty->assign_by_ref('dalsi',$dalsi);
 $smarty->display('hlavicka.tpl');
 $smarty->display('ostatni-nacini.tpl');
 $smarty->display('paticka.tpl');
-
-?>

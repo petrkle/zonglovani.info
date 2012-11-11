@@ -8,6 +8,7 @@ $trail->addStep('Točení okolo palce');
 
 $smarty->assign('keywords',make_keywords($titulek));
 $smarty->assign('description','Otáčení s kužekou okolo palce.');
+$smarty->assign('nahled','http://'.$_SERVER['SERVER_NAME'].'/img/t/tocenib.png');
 
 $smarty->assign_by_ref('trail', $trail->path);
 
@@ -20,5 +21,3 @@ $smarty->assign('trik',$trik);
 $smarty->display('hlavicka.tpl');
 $smarty->display('trik.tpl');
 $smarty->display('paticka.tpl');
-
-?>

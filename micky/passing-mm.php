@@ -7,6 +7,7 @@ $smarty->assign('feedback',true);
 
 $smarty->assign('keywords',make_keywords($titulek));
 $smarty->assign('description','Žonglování mills\' mess pro dva lidi.');
+$smarty->assign('nahled','http://'.$_SERVER['SERVER_NAME'].'/img/m/micky-passingmmb.png');
 
 $smarty->assign('titulek',$titulek);
 
@@ -22,5 +23,3 @@ $smarty->assign('trik',$trik);
 $smarty->display('hlavicka.tpl');
 $smarty->display('trik.tpl');
 $smarty->display('paticka.tpl');
-
-?>

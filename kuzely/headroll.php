@@ -5,6 +5,7 @@ require('../func.php');
 $titulek='Překulení kuželky přes hlavu';
 $smarty->assign('keywords',make_keywords($titulek));
 $smarty->assign('description','Ladné překulení kuželu přes hlavu.');
+$smarty->assign('nahled','http://'.$_SERVER['SERVER_NAME'].'/img/h/headrollc.png');
 
 $trail = new Trail();
 $trail->addStep('Kužely','/kuzely/');
@@ -21,5 +22,3 @@ $smarty->assign('trik',$trik);
 $smarty->display('hlavicka.tpl');
 $smarty->display('trik.tpl');
 $smarty->display('paticka.tpl');
-
-?>
