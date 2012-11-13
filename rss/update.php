@@ -37,6 +37,13 @@ foreach($rss_zdroje as $id=>$kanal){
 
 		if(preg_match('/facebook/',$kanal['feed_url'])){
 			$item['link']=preg_replace('/^\//','http://facebook.com/',$item['link']);
+
+			if(strlen(trim($item['title']))==0 and isset($item['atom_content'])){
+				$ac=trim(strip_tags($item['atom_content']));
+				if(strlen($ac)>0){
+					$item['title']=$ac;
+				}
+			}
 		}
 
 		if(isset($item['feedburner']['origlink'])){
@@ -47,12 +54,8 @@ foreach($rss_zdroje as $id=>$kanal){
 			$item['link']=preg_replace('/^(http:\/\/.*)http:\/\/.*$/','\1',$item['link']);
 		}
 
-#		if(preg_match('/juggle\.sk/',$kanal['feed_url'])){
-#			var_dump($item);
-#		}
-
-
 		$baz=RSS_AGREGATOR_DATA.'/'.$item['date_timestamp'].'-'.$id.'.txt';
+
 
 		$foo=fopen($baz.'.new','w');
 		fwrite($foo,preg_replace('/\n/',' ',mb_substr(html_entity_decode($item['title'],ENT_COMPAT,'UTF-8'),0,120,'UTF-8'))."\n");
