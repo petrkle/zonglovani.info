@@ -1,6 +1,8 @@
 <?php
 require('../init.php');
 require('../func.php');
+require('../cache.php');
+http_cache_headers(3600);
 
 if (isset($_GET['show'])) {
   $show='xml/'.$_GET['show'];
@@ -43,4 +45,3 @@ if(strlen($show)>0 and is_file('../'.$show.'.xml')){
 	$smarty->display('seznam-triku.tpl');
 	$smarty->display('paticka.tpl');
 }
-?>

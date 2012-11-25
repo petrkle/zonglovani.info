@@ -1,7 +1,8 @@
 <?php
-
 require('../init.php');
 require('../func.php');
+require('../cache.php');
+http_cache_headers(3600);
 
 $titulek='Žonglování s kužely';
 $smarty->assign('feedback',true);
@@ -23,5 +24,3 @@ $smarty->assign_by_ref('trail', $trail->path);
 $smarty->display('hlavicka.tpl');
 $smarty->display('kuzely.tpl');
 $smarty->display('paticka.tpl');
-
-?>

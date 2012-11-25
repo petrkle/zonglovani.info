@@ -1,6 +1,7 @@
 <?php
 require('../init.php');
 require('../func.php');
+require('../cache.php');
 require('cal-init.php');
 
 if(isset($_GET['filtr'])){
@@ -10,6 +11,7 @@ if(isset($_GET['filtr'])){
 }
 
 $udalosti=get_future_data($filtr);
+http_cache_headers(3600,true);
 
 uasort($udalosti, 'sort_by_zacatek'); 
 $udalosti=array_reverse($udalosti);

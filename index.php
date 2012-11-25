@@ -7,6 +7,8 @@ if(preg_match('/index\.php$/',$_SERVER['REQUEST_URI'])){
 
 require('init.php');
 require('func.php');
+require('cache.php');
+http_cache_headers(3600);
 
 $smarty->assign('titulek','Žonglérův slabikář - žonglování s míčky, kruhy a kužely');
 $smarty->assign('nadpis','');

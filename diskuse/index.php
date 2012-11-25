@@ -2,6 +2,7 @@
 require('../init.php');
 require('../func.php');
 require($lib.'/Pager/Pager.php');
+require('../cache.php');
 
 $zpravy=get_diskuse_zpravy();
 
@@ -73,6 +74,7 @@ $smarty->assign('keywords','diskuse, žonglování, aktuality, akce, žonglérsk
 if(isset($_GET['rss'])){
 	$smarty->assign_by_ref('zpravy',$zpravy);
 	header('Content-Type: application/rss+xml');
+	http_cache_headers(3600,true);
 	if(isset($_GET['v'])){
 		$smarty->display('diskuse-rss2.tpl');
 	}else{
@@ -85,6 +87,3 @@ if(isset($_GET['rss'])){
 	$smarty->display('diskuse.tpl');
 	$smarty->display('paticka.tpl');
 }
-
-
-?>

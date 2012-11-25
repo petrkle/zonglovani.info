@@ -1,8 +1,9 @@
 <?php
-
 if(!isset($_GET['img'])){
 	exit();
 }
+require('../cache.php');
+http_cache_headers(3600,true);
 
 if(isset($_GET['galerie'])){
 	$obrazek=$_SERVER['DOCUMENT_ROOT'].'/obrazky/'.$_GET['img'];
@@ -43,8 +44,7 @@ if(is_readable($podpis) and is_readable($obrazek)){
 		imagedestroy($obr);
 		exit();
 	}else{
-		require("../404.php");
+		require('../404.php');
 		exit();
 	}
 }
-?>

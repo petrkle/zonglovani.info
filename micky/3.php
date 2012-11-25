@@ -2,6 +2,9 @@
 require('../init.php');
 require('../func.php');
 
+require('../cache.php');
+http_cache_headers(3600);
+
 if (isset($_GET['show'])) {
   $show='xml/'.$_GET['show'];
 }else{

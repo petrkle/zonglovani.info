@@ -1,6 +1,7 @@
 <?php
 require('../init.php');
 require('../func.php');
+require('../cache.php');
 
 $trail = new Trail();
 $trail->addStep('Obrázky žonglování','/obrazky/');
@@ -44,6 +45,7 @@ if(isset($_GET['rss'])){
 
 if($rss){
 	header('Content-Type: application/rss+xml');
+	http_cache_headers(3600,true);
 	$smarty->assign('obrazky',get_galerie());
 	if(isset($_GET['v'])){
 		$smarty->display('obrazky.rss2.tpl');
@@ -51,6 +53,8 @@ if($rss){
 		$smarty->display('obrazky.rss.tpl');
 	}
 	exit();
+}else{
+	http_cache_headers(3600);
 }
 
 if($id){
@@ -522,5 +526,3 @@ function get_nahled_galerie($galerie){
 
  return $navrat;
 }
-
-?>
