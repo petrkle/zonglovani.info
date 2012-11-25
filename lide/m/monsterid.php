@@ -1,6 +1,15 @@
 <?php
+require('../../init.php');
+require('../../func.php');
+require('../../cache.php');
 
-build_monster($_REQUEST['seed'],$_REQUEST['size']);
+if(isset($_GET['seed']) and is_zs_account($_GET['seed'])){
+	http_cache_headers(83600,true);
+	build_monster($_GET['seed']);
+}else{
+	require('../../404.php');
+	exit();
+}
 
 function build_monster($seed='',$size=''){
     // init random seed
