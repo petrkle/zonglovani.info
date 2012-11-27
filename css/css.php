@@ -1,6 +1,8 @@
 <?php
 if(isset($_GET['style']) and is_readable('./'.$_GET['style'].'.css')){
-header ('content-type: text/css; charset: UTF-8');
+if($_SERVER['REQUEST_METHOD']=='GET'){
+	header ('content-type: text/css; charset: UTF-8');
+}
 require('../cache.php');
 http_cache_headers(1209600,true);
 
