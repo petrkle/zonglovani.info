@@ -29,7 +29,7 @@ foreach my $url(@adresy){
 	my $response = $bot->get("http://zongl.info$url");
 	my $content=$response->content();
 	ok($bot->status() == 200, "Návratový kód 200 pro $url");
-	ok($response->content_type() =~ /application\/rss\+xml/, "Správný mime typ pro $url");
+	ok($response->content_type() =~ /application\/xml/, "Správný mime typ pro $url");
 	my $count = 0;
 	my $chybneodkazy = 0;
 	while ($content =~ /<\/item>/g) { $count++ };

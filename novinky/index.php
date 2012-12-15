@@ -34,7 +34,7 @@ $smarty->assign_by_ref('novinky',$novinky);
 
 if($rss){
 	$novinky=uniqurl($novinky);
-	header('Content-Type: application/rss+xml');
+	header('Content-Type: application/xml');
 	$smarty->display('rss-agregator.xml.tpl');
 	exit();
 }

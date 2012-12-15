@@ -6,7 +6,7 @@ require('../cron/navstevnost-func.php');
 if(isset($_GET['rss'])){
 	$navstevnost=nav_load_data();
 	asort($navstevnost);
-	header('Content-Type: application/rss+xml');
+	header('Content-Type: application/xml');
 	$smarty->assign_by_ref('navstevnost', $navstevnost);
 	$smarty->display('statistiky.rss.tpl');
 }else{

@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="http://{$smarty.server.SERVER_NAME}/xml.xsl" type="text/xsl"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/">
    <channel>
     <title>Kalendář žonglérských akcí</title>
@@ -25,6 +26,7 @@
 <img src="http://{$smarty.server.SERVER_NAME}{$smarty.const.CALENDAR_URL}obrazek-{$udalost.img}" />
 </div>
 {$udalost.desc|escape}
+<br clear="both"/>
 </p>
 ]]>
 </description>

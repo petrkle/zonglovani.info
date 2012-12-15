@@ -44,7 +44,7 @@ if(isset($_GET['rss'])){
 
 
 if($rss){
-	header('Content-Type: application/rss+xml');
+	header('Content-Type: application/xml');
 	http_cache_headers(3600,true);
 	$smarty->assign('obrazky',get_galerie());
 	if(isset($_GET['v'])){

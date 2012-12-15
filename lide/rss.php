@@ -11,7 +11,7 @@ foreach($uzivatele as $login){
 usort($podrobnosti, 'sort_by_reg');
 
 $smarty->assign('uzivatele',$podrobnosti);
-header('Content-Type: application/rss+xml');
+header('Content-Type: application/xml');
 if(isset($_GET['v'])){
 	$smarty->display('lide-rss2.tpl');
 }else{
@@ -22,6 +22,3 @@ function sort_by_reg($a, $b)
 {
 		return ($a['registrace'] > $b['registrace']) ? -1 : 1;
 }
-
-
-?>

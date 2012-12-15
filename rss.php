@@ -35,7 +35,7 @@ for($foo=0;$foo<10;$foo++){
 }
 
 $smarty->assign('udalosti',array_reverse($rssu));
-header('Content-Type: application/rss+xml');
+header('Content-Type: application/xml');
 
 if(isset($_GET['v'])){
 	$smarty->display('rss2.tpl');
@@ -47,4 +47,3 @@ function sort_by_rss_date($a, $b)
 {
 		return ($a['dc']['date'] < $b['dc']['date']) ? -1 : 1;
 }
-?>

@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="http://{$smarty.server.SERVER_NAME}/xml.xsl" type="text/xsl"?>
 <rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
 <language>cs</language>
@@ -25,6 +26,7 @@
 <div style="float:left;margin:0 5px;">
 {obrazek soubor=$tipy[$smarty.section.smycka2.index].obrazek popisek=$tipy[$smarty.section.smycka2.index].nadpis|escape absolute=yes} 
 </div>
+<br clear="both" />
 {$tipy[$smarty.section.smycka2.index].text|escape}
 </p>
 ]]>

@@ -20,14 +20,14 @@ $tipy=get_tipy();
 
 
 if($rss){
-	header('Content-Type: application/rss+xml');
+	header('Content-Type: application/xml');
 	http_cache_headers(3600,true);
 	$smarty->assign('tipy',$tipy);
 	$smarty->display('tip.rss.tpl');
 	exit();
 }elseif($imgrss){
 	http_cache_headers(3600,true);
-	header('Content-Type: application/rss+xml');
+	header('Content-Type: application/xml');
 	$smarty->assign('tipy',$tipy);
 	$smarty->display('tip-img.rss.tpl');
 	exit();
