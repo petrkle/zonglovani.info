@@ -196,10 +196,11 @@
 2012-11-26*Míček z tenisáku*/micky/vyroba-tenisak.html*levny-tenisak.s.jpg*Rychlý návod, jak vyrobit míček na žonglování z tenisáku a nafukovacích balónků.
 2012-12-03*Visual Juggling Promo*/video/etc/vjpromo.html*vjpromo.jpg*Upoutávka na žonglérské video Visual Juggling.
 2012-12-10*Flow*/video/levistick/flow.html*flow.jpg*Josefína ze skupiny Kinessis na pláži u moře.
-2012-12-17*Veselé vánoce*/vanoce-2012.html*micky-ve-snehu.s.jpg*Veselé vánoční svátky. Ať vám to lítá :^)
-2012-12-24*Kříž*/micky/4/kriz.html*4krizc.png*Jak název napovídá, budeš tentokrát míčky házet křížem.
-2012-12-31*Préchac with my friends*/video/etc/prechac-wmf.html*prechac-wmf.jpg*Žonglování s míčky ve více lidech.
-2013-01-07*Passování s pivem*/kuzely/passing/pivo.html*bv.jpg*Trik pro tři žongléry s šesti kužely a lahví piva. Postupně si všichni tři házíte kuželky a předáváte láhev piva.
+2012-12-17*Kříž*/micky/4/kriz.html*4krizc.png*Jak název napovídá, budeš tentokrát míčky házet křížem.
+2012-12-20*Veselé vánoce*/vanoce-2012.html*micky-ve-snehu.s.jpg*Veselé vánoční svátky. Ať vám to lítá :^)
+2012-12-27*PF 2013*/pf-2013.html*diabolo-ve-snehu.s.jpg*Hodně štěstí a zdraví v novém roce. Ať vám to lítá :^)
+2013-01-02*Passování s pivem*/kuzely/passing/pivo.html*bv.jpg*Trik pro tři žongléry s šesti kužely a lahví piva. Postupně si všichni tři házíte kuželky a předáváte láhev piva.
+2013-01-07*Préchac with my friends*/video/etc/prechac-wmf.html*prechac-wmf.jpg*Žonglování s míčky ve více lidech.
 2013-01-14*
 2013-01-21*
 2013-01-28*
