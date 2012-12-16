@@ -66,7 +66,7 @@ array('Merkur','Uran','Jupiter','Pluto','Saturn','Mars','Neptun'),
 array('se'),
 array('tentokrát spojí','příznivě míjí','pozitivně ovlivňuje','negativně ovlivňuje'),
 array('s'),
-array('lunou,','Venuší,','Phobosem,','krátery na měsíci,','kosmickým zářením,'),
+array('lunou,','Venuší,','Phobosem,','krátery na Měsíci,','kosmickým zářením,'),
 array('to naznačuje','to značí','to napovídá','to dává tušit'),
 array('v průběhu','během'),
 array('dneška','zítřka','následujícího týdne','nadcházejícího období'),
@@ -121,5 +121,3 @@ array('humor','zdraví','vtip','přízeň okolí'),
 array('a','ani'),
 array('štěstí','dobrá nálada','veselá mysl')
 );
-
-?>
