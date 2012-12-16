@@ -9,6 +9,9 @@ $smarty->assign('titulek',$titulek);
 $smarty->assign('keywords',make_keywords($titulek));
 $smarty->assign('description','Připravené kusy html kódu pro vytváření odkazů na žonglérův slabikář.');
 
+$smarty->assign('feedback',true);
+$smarty->assign('nahled','http://'.$_SERVER['SERVER_NAME'].'/img/p/podporaa.png');
+
 $dalsi=array(
 	array('url'=>'/podporte-zongleruv-slabikar.html','text'=>'Podpoř žonglérův slabikář','title'=>'Jak dál podpoři žonglérův slabikář'),
 	array('url'=>CALENDAR_URL.'widget.html','text'=>'Výpis akcí z kalendáře - widget','title'=>'Widget na twůj web'),
@@ -22,5 +25,3 @@ $smarty->assign_by_ref('trail', $trail->path);
 $smarty->display('hlavicka.tpl');
 $smarty->display('ostatni-jak-odkazovat.tpl');
 $smarty->display('paticka.tpl');
-
-?>

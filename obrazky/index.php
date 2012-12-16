@@ -327,6 +327,11 @@ if($id and $photo){
 	$smarty->display('obrazky-filtry.tpl');
 	$smarty->display('paticka.tpl');
 }else{
+	# index adresáře /obrazky/
+	
+	$smarty->assign('feedback',true);
+	$smarty->assign('nahled','http://'.$_SERVER['SERVER_NAME'].'/obrazky/drazdany-20110312/0030.jpg');
+
 	$dalsi=array(
 		array('url'=>'/obrazky-na-plochu/','text'=>'Obrázky na plochu','title'=>'Tapety s žonglérskou tématikou.'),
 		array('url'=>'/video/','text'=>'Žonglérská videa','title'=>'Pohyblivé obrázky'),
