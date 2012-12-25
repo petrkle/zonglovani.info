@@ -4,5 +4,4 @@
 <h5>Další vánoční obrázky</h5>
 <ul>
 <li><a href="/img/v/vanoce-2010.jpg" title="Vánoční žonglérský svícen">Vánoční svícen</a></li>
-<li><a href="/img/v/vesele-vanoce.png" title="Vánoční fireshow">Stromeček</a></li>
 </ul>

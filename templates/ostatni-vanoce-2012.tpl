@@ -5,5 +5,4 @@
 <ul>
 <li><a href="/img/v/vanocni-kometa.jpg" title="Vánoční žonglérský svícen">Kometa</a></li>
 <li><a href="/img/v/vanoce-2010.jpg" title="Vánoční žonglérský svícen">Svícen</a></li>
-<li><a href="/img/v/vesele-vanoce.png" title="Vánoční fireshow">Stromeček</a></li>
 </ul>
