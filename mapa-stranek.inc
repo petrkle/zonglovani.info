@@ -21,6 +21,7 @@
 	<li><a href="/pf-2010.html">PF 2010</a></li>
 	<li><a href="/pf-2011.html">PF 2011</a></li>
 	<li><a href="/pf-2012.html">PF 2012</a></li>
+	<li><a href="/pf-2013.html">PF 2013</a></li>
 	<li><a href="/podporte-zongleruv-slabikar.html">Podpořte žonglérův slabikář</a></li>
 	<li><a href="/proc-a-jak.html">Proč a jak vznikl žonglérův slabikář</a></li>
 	<li><a href="/rec-juggling.html">rec.juggling</a></li>
@@ -35,6 +36,7 @@
 	<li><a href="/vanoce-2009.html">Veselé Vánoce 2009</a></li>
 	<li><a href="/vanoce-2010.html">Veselé Vánoce 2010</a></li>
 	<li><a href="/vanoce-2011.html">Veselé Vánoce 2011</a></li>
+	<li><a href="/vanoce-2012.html">Veselé Vánoce 2012</a></li>
 	<li><a href="/zakladni-pojmy.html">Žonglování - základní pojmy</a></li>
 		<li><a name="animace"></a><a href="/animace/">Animace žonglování</a>
 		<ul>
@@ -201,6 +203,9 @@
 			
 			</li>
 			<li><a name="nastaveni"></a><a href="/lide/nastaveni/">Přihlášení</a>
+			
+			</li>
+			<li><a name="rozhovor"></a>lide/rozhovor/
 			
 			</li>
 		</ul>
@@ -526,7 +531,14 @@
 		</ul>
 		</li>
 		<li><a name="obrazky-na-plochu"></a><a href="/obrazky-na-plochu/">Obrázky na plochu</a>
-		
+		<ul>
+		<li><a href="/obrazky-na-plochu/barevne-micky-i.html">Stagebally v trávě</a></li>
+		<li><a href="/obrazky-na-plochu/bolo-more.html">Diabolo u moře</a></li>
+		<li><a href="/obrazky-na-plochu/kuzelky-na-trave.html">Kužely na trávě</a></li>
+		<li><a href="/obrazky-na-plochu/pes-a-kuzel.html">Pes a kužel</a></li>
+		<li><a href="/obrazky-na-plochu/pes-a-micek.html">Pes a míček</a></li>
+		<li><a href="/obrazky-na-plochu/sil-x-kapradi-i.html">Míčky v kapradí</a></li>
+		</ul>
 		</li>
 		<li><a name="olympiada"></a><a href="/olympiada/">Žonglování na olympiádu</a>
 		
@@ -610,12 +622,15 @@
 			<li><a href="/video/etc/juggling-documentation.html">Juggling Documentation</a></li>
 			<li><a href="/video/etc/kamones.html">Malabaristas Kamones</a></li>
 			<li><a href="/video/etc/midtown-greenway.html">Midtown Greenway</a></li>
+			<li><a href="/video/etc/prechac-wmf.html">Préchac with my friends</a></li>
 			<li><a href="/video/etc/vjpromo.html">Visual Juggling Promo</a></li>
+			<li><a href="/video/etc/zombie-day.html">Juggling Zombie Day</a></li>
 			</ul>
 			</li>
 			<li><a name="levistick"></a><a href="/video/levistick/">Levistick</a>
 			<ul>
 			<li><a href="/video/levistick/fina-magic.html">Fina magic</a></li>
+			<li><a href="/video/levistick/flow.html">Flow</a></li>
 			</ul>
 			</li>
 			<li><a name="metlili"></a><a href="/video/metlili/">Metlili</a>
