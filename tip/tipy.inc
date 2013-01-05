@@ -200,11 +200,11 @@
 2012-12-20*Veselé vánoce*/vanoce-2012.html*micky-ve-snehu.s.jpg*Veselé vánoční svátky. Ať vám to lítá :^)
 2012-12-27*PF 2013*/pf-2013.html*diabolo-ve-snehu.s.jpg*Hodně štěstí a zdraví v novém roce. Ať vám to lítá :^)
 2013-01-02*Passování s pivem*/kuzely/passing/pivo.html*bv.jpg*Trik pro tři žongléry s šesti kužely a lahví piva. Postupně si všichni tři házíte kuželky a předáváte láhev piva.
-2013-01-07*Préchac with my friends*/video/etc/prechac-wmf.html*prechac-wmf.jpg*Žonglování s míčky ve více lidech.
-2013-01-14*
+2013-01-07*Brno juggling convention*/kalendar/udalost-20130111-20130113-pek-1351105142.html*bjc01.png*První ročník Brno Juggling Convention.
+2013-01-14*Préchac with my friends*/video/etc/prechac-wmf.html*prechac-wmf.jpg*Žonglování s míčky ve více lidech.
 2013-01-21*
 2013-01-28*
-2013-02-04*
+2013-02-04*Žonglování na ledě*/kalendar/udalost-20130208-20130208-pek-1353529655.html*zongl-led.jpg*Tradiční zimní taškařice cirkusu LeGrando.
 2013-02-11*
 2013-02-18*
 2013-02-25*

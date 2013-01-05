@@ -2,9 +2,35 @@
 require('../init.php');
 require('../func.php');
 
+$wallpapers=get_wallpapers();
+
 $titulek='Obrázky na plochu';
 $trail = new Trail();
 $trail->addStep($titulek,WALLPAPERS_URL);
+
+if(isset($_GET['id'])){
+	$id=$_GET['id'];
+	if(isset($wallpapers[$id])){
+		$trail->addStep($wallpapers[$id]['titulek']);
+		$smarty->assign('titulek', $wallpapers[$id]['titulek']);
+		$smarty->assign('feedback',true);
+		$smarty->assign('fbsdileni','obrázek');
+		$smarty->assign('DIRECT_LINK_TO_IMAGE', true);
+		$smarty->assign('nahled', $wallpapers[$id]['nahled_url']);
+		$smarty->assign('keywords','obrázky, žonglování, wallpaper, pozadí na plochu, '.$wallpapers[$id]['titulek']);
+		$smarty->assign('description','Tapety na plochu počítače - '.$wallpapers[$id]['titulek']);
+
+		$smarty->assign_by_ref('trail', $trail->path);
+		$smarty->assign_by_ref('obrazek', $wallpapers[$id]);
+		$smarty->display('hlavicka.tpl');
+		$smarty->display('obrazek-na-plochu.tpl');
+		$smarty->display('paticka.tpl');
+	}else{
+		require('../404.php');
+	}
+exit();
+}
+
 
 $smarty->assign_by_ref('trail', $trail->path);
 
@@ -19,14 +45,12 @@ $dalsi=array(
 	);
 $smarty->assign_by_ref('dalsi',$dalsi);
 
-$wallpapers=get_wallpapers();
 
 $smarty->assign('titulek',$titulek);
 $smarty->assign_by_ref('wallpapers',$wallpapers);
 $smarty->display('hlavicka.tpl');
 $smarty->display('obrazky-na-plochu.tpl');
 $smarty->display('paticka.tpl');
-
 
 function get_wallpapers(){
 	$dir = opendir(WALLPAPERS_DATA.'/nahledy');
@@ -43,11 +67,16 @@ function get_wallpapers(){
 								$foo['nahled_vyska']=$size[1];
 								$foo['soubor']=$filename;
 								$foo['basename']=basename($filename,'.'.$pripona);
-				      	array_push($navrat,$foo);
+								if(is_readable('info/'.$foo['basename'].'.xml')){
+									$xml = simplexml_load_file('info/'.$foo['basename'].'.xml');
+									$foo['titulek'] = (string) $xml->titulek;
+									$foo['popisek'] = (string) $xml->popisek;
+								}
+				      	$navrat[$foo['basename']]=$foo;
 					 }
 			   }
 		   }
 	closedir($dir);
-	sort($navrat);
+	ksort($navrat);
  return $navrat;
 }
