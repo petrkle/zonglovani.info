@@ -8,7 +8,7 @@ $smarty->assign('nadpis','EJC - evropské setkání žonglérů');
 
 $smarty->assign('keywords','EJC, European juggling convention, evropské setkání žonglérů.');
 $smarty->assign('description','Informace o evropském setkání žonglérů.');
-$smarty->assign('nahled','http://'.$_SERVER['SERVER_NAME'].'/img/e/ejc2012.png');
+$smarty->assign('nahled','http://'.$_SERVER['SERVER_NAME'].'/img/e/ejc2013.png');
 
 $trail = new Trail();
 $trail->addStep('Kalendář',CALENDAR_URL);
@@ -18,5 +18,3 @@ $smarty->assign_by_ref('trail', $trail->path);
 $smarty->display('hlavicka.tpl');
 $smarty->display('kalendar-ejc.tpl');
 $smarty->display('paticka.tpl');
-
-?>
