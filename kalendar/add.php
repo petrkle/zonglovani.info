@@ -40,5 +40,3 @@ $smarty->display('paticka.tpl');
 	header('Location: '.LIDE_URL.'prihlaseni.php?next='.CALENDAR_URL.basename(__FILE__).'&notice');
 	exit();
 }
-
-?>

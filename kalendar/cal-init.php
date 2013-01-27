@@ -344,7 +344,7 @@ function event_validation($udalost,$now){
 				array_push($chyby,'Událost končí dřív než začíná.');
 		}
 
-		if(($konec_time-$zacatek_time)>3600*24*30){
+		if(($konec_time-$zacatek_time)>3600*24*10){
 				array_push($chyby,'Událost je příliš dlouhá.');
 		}
 	}
