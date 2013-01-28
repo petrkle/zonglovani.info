@@ -32,7 +32,7 @@ ok($response->content() =~ /<a href="\/diskuse\/add\.php"/, "Odkaz na přidání
 $response = $bot->get("http://zongl.info/diskuse/add.php");
 ok($response->content() =~ /<form action="\/diskuse\/add\.php"/, "Formulář pro přidání zprávy");
 
-my $zs_vzkaz = $bot->submit_form(form_number => 0 ,fields => {'vzkaz'=>decode_utf8("Žluťoučký kůň pěl ďábelské ódy.")}, button=>'nahled');
+my $zs_vzkaz = $bot->submit_form(form_number => 0 ,fields => {'vzkaz'=>decode_utf8("Žluťoučký kůň pěl ďábelské ódy. http://www.seznam.cz")}, button=>'nahled');
 
 my $nahled=$zs_vzkaz->content();
 ok($nahled =~ /<input type="text" name="antispam"/, "Pole pro antispam");
@@ -41,7 +41,7 @@ ok($nahled =~ /Žluťoučký kůň pěl ďábelské ódy./, "Náhled zprávy");
 $zs_vzkaz = $bot->submit_form(form_number => 0 ,fields => {'antispam'=>get_vypocet($nahled)}, button=>'odeslat');
 
 ok($zs_vzkaz->content() =~ /<h1>Diskuse a komentáře<\/h1>/, 'Zobrazení komentářů');
-ok($zs_vzkaz->content() =~ /<td colspan="6">Žluťoučký kůň pěl ďábelské ódy\.<\/td>/, "Vložení komentáře");
+ok($zs_vzkaz->content() =~ /<td colspan="6">Žluťoučký kůň pěl ďábelské ódy\. http:\/\/www\.seznam\.cz<\/td>/, "Vložení komentáře");
 
 my @vzkazy = (
 	{'z'=>'[url=http://nekde.cz]testovací odkaz[/url]', 'v'=>'<a href="http:\/\/nekde.cz" class="external" rel="nofollow" onclick="_gaq\.push\(\[\'_trackPageview\',\'\/goto\/nekde\.cz\'\]\);">testovací odkaz<\/a>', 't'=>'Externí odkaz'},

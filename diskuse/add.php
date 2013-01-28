@@ -42,8 +42,8 @@ $cas=time();
 		array_push($chyby,'Zpráva je příliš krátká. Minimální délka je pět znaků.');
 	}
 
-	if(preg_match('/(.)\\1{2,}/i',$vzkaz)){
-		array_push($chyby,'Příliš mnoho opakujících se písmen v řaděěě za sebou.');
+	if(preg_match('/(.)\\1{3,}/i',$vzkaz)){
+		array_push($chyby,'Příliš mnoho opakujících se písmen v řaděěěě za sebou.');
 	}
 
 	if(podil_velkych_pismen($vzkaz)>MAX_BIG_LETTERS){
