@@ -139,6 +139,7 @@ $data = $pager->getPageData();
 	}
 
 
+	$smarty->assign('fbsdileni','toto video');
 	$smarty->assign('styly',array('/a.css'));
 	$smarty->assign_by_ref('navigace',$navigace);
 	$trail->addStep($video['nazev']);
@@ -154,5 +155,3 @@ $data = $pager->getPageData();
 	require('../404.php');
 	exit();
 }
-
-?>

@@ -143,7 +143,7 @@ if($id){
 }
 if($id and $photo){
 		$smarty->assign('feedback',true);
-		$smarty->assign('fbsdileni','obrázek');
+		$smarty->assign('fbsdileni','tento obrázek');
 		if(isset($obrazky[intval($photo)])){
 		$hlavicky=array();
 			if(isset($gal_info['icbm'])){
