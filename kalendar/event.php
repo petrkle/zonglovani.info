@@ -162,6 +162,7 @@ if($udalost){
 		$smarty->assign_by_ref('custom_headers',$hlavicky);
 	}
 
+		$smarty->assign('fbsdileni','tuto událost');
 		$smarty->assign('hcalendar',true);
 		$trail->addStep($udalost['month_name'],$udalost['month_url']);
 		$trail->addStep($udalost['title']);
@@ -181,5 +182,3 @@ if($udalost){
 	require("../404.php");
 	exit();
 }
-
-?>
