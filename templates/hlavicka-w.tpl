@@ -9,7 +9,7 @@
 {if isset($icbm)}
 	<meta name="ICBM" content="{$icbm|escape}" />
 {/if}
-	<meta name="viewport" content="width=device-width">
+{include file='hlavicka-meta.tpl'}
 	<link rel="stylesheet" media="screen" type="text/css" href="/plain.css" />
 	<link rel="stylesheet" media="screen and (min-width: 610px)" type="text/css" href="/zw.css" />
 	<link rel="stylesheet" media="only screen and (-webkit-min-device-pixel-ratio: 2)" href="/plain.css" />
@@ -46,23 +46,6 @@
 	<link rel="image_src" href="{$nahled|escape}" />
 	<link rel="previewimage" href="{$nahled|escape}" />
 {/if}
-	<link rel="search" type="application/opensearchdescription+xml" title="Žonglérův slabikář" href="http://{$smarty.server.SERVER_NAME}/vyhledavani/vyhledavani.xml" />
-	<meta http-equiv="imagetoolbar" content="no" />
-	<meta name="application-name" content="Žonglérův slabikář"/>
-	<meta name="application-url" content="http://{$smarty.server.SERVER_NAME}"/>
-	<link rel="icon" href="/img/s/slabikar-32.png" sizes="32x32"/>
-	<link rel="icon" href="/img/s/slabikar-48.png" sizes="48x48"/>
-	<link rel="apple-touch-icon" href="http://{$smarty.server.SERVER_NAME}/img/s/slabikar-32.png" />
-	<link rel="apple-touch-icon-precomposed" href="http://{$smarty.server.SERVER_NAME}/img/s/slabikar-32.png" />
-	<meta name="apple-mobile-web-app-capable" content="yes" />
-	<meta name="msapplication-tooltip" content="Žonglérův slabikář" />
-	<meta name="msapplication-starturl" content="http://{$smarty.server.SERVER_NAME}" />
-	<link rel="author" href="/kontakt.html" />
-	<link rel="glossary" href="/mapa-stranek.html" />
-	<link rel="index" href="/" />
-	<link rel="help" href="/faq.html" />
-	<link rel="start" href="/" />
-	<link rel="search" href="/vyhledavani/" />
 
 {include file='pocitadlo.tpl'}
 
