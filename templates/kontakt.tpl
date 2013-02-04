@@ -23,4 +23,5 @@ Telefon: {$tel|telobfuscate}
 <li><a href="{$smarty.const.LIDE_URL}dovednost/shop.html" title="Žongléři kteří prodávají věci na žonglování.">Prodej věcí na žonglování</a></li>
 </ul>
 
+<div style="display:none"><a href="https://plus.google.com/114012816972520093821?rel=author">Google</a></div>
 <!-- stop -->
