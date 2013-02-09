@@ -205,8 +205,9 @@
 2013-01-21*Pes a kužel*/obrazky-na-plochu/pes-a-kuzel.html*don-s-kuzelkou.jpg*Malý černý pes a bílý kužel Henrys Pirruete. Tapeta na plochu počítače s žonglérskou tématikou.
 2013-01-28*Sloupy II*/micky/4/sloupy-ii.html*4sloupyiib.png*Těžší varianta sloupů se čtyřmi míčky.
 2013-02-04*Žonglování na ledě*/kalendar/udalost-20130208-20130208-pek-1353529655.html*zongl-led.jpg*Tradiční zimní taškařice cirkusu LeGrando.
+2013-02-10*La Pequeña Rosa*/video/etc/pequena-rosa.html*pequena-rosa.jpg*Světový rekord v balancování míčku na hlavě a současném točení s hula-hop kruhy.
 2013-02-11*Woko vol.2*/kalendar/udalost-20130217-20130217-pek-1359924238.html*woko2.png*Druhá žonglérská dílna v klubu Woko. Zve FireshowJBC.
-2013-02-18*La Pequeña Rosa*/video/etc/pequena-rosa.html*pequena-rosa.jpg*Světový rekord v balancování míčku na hlavě a současném točení s hula-hop kruhy.
+2013-02-18*
 2013-02-25*
 2013-03-04*
 2013-03-11*
