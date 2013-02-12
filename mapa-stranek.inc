@@ -3,7 +3,6 @@
 	<ul>
 	<li><a href="/aczslovnicek.html">Anglicko-český žonglérský slovníček</a></li>
 	<li><a href="/changelog.html">Změny v žonglérově slabikáři</a></li>
-	<li><a href="/changes.html">Novinky</a></li>
 	<li><a href="/cirkusove-discipliny.html">Cirkusové disciplíny</a></li>
 	<li><a href="/doplnky-prohlizece.html">Doplňky do prohlížeče</a></li>
 	<li><a href="/druhy-zonglovani.html">Druhy žonglování</a></li>
@@ -63,7 +62,7 @@
 		<li><a href="/diabolo/vyrovnavani-diabola.html">Diabolo - Vyrovnávání diabola</a></li>
 		</ul>
 		</li>
-		<li><a name="diskuse"></a><a href="/diskuse/">Diskuse a komentáře</a>
+		<li><a name="diskuse"></a>diskuse/
 		
 		</li>
 		<li><a name="download"></a><a href="/download/">Soubory ke stažení</a>
@@ -108,7 +107,7 @@
 			<li><a href="/kruhy/3/sloupy.html">Žonglování se třemi kruhy - Sloupy</a></li>
 			</ul>
 			</li>
-			<li><a name="4"></a><a href="/kruhy/4/">Žonglování s kruhy</a>
+			<li><a name="4"></a>kruhy/4/
 			<ul>
 			<li><a href="/kruhy/4/fontana.html">Žonglování se čtyřmi kruhy - Fontána</a></li>
 			</ul>
@@ -195,14 +194,10 @@
 		<li><a name="lide"></a><a href="/lide/">Seznam žonglérů</a>
 		<ul>
 		<li><a href="/lide/novy-ucet.php">Založit účet</a></li>
-		<li><a href="/lide/pravidla.php">Založit účet</a></li>
 			<li><a name="dovednost"></a><a href="/lide/dovednost/">Žongléři podle dovedností</a>
 			
 			</li>
 			<li><a name="misto"></a><a href="/lide/misto/">Žongléři podle místa působení</a>
-			
-			</li>
-			<li><a name="nastaveni"></a><a href="/lide/nastaveni/">Přihlášení</a>
 			
 			</li>
 			<li><a name="rozhovor"></a>lide/rozhovor/
@@ -543,9 +538,6 @@
 		<li><a name="olympiada"></a><a href="/olympiada/">Žonglování na olympiádu</a>
 		
 		</li>
-		<li><a name="rss"></a><a href="/rss/">Novinky</a>
-		
-		</li>
 		<li><a name="scripts"></a><a href="/scripts/">Skripty</a>
 		
 		</li>
@@ -619,10 +611,13 @@
 			<li><a href="/video/etc/4-count-blind-passes.html">4-count blind passes</a></li>
 			<li><a href="/video/etc/adrienn-banhegyi.html">Adrienn Banhegyi</a></li>
 			<li><a href="/video/etc/elgringos.html">Čtyři a sedm</a></li>
+			<li><a href="/video/etc/gmyt-ejc2013-1.html">Give Me Your Tricks: 1/4 - EJC 2013</a></li>
 			<li><a href="/video/etc/juggling-documentation.html">Juggling Documentation</a></li>
 			<li><a href="/video/etc/kamones.html">Malabaristas Kamones</a></li>
 			<li><a href="/video/etc/midtown-greenway.html">Midtown Greenway</a></li>
+			<li><a href="/video/etc/pequena-rosa.html">La Pequeña Rosa</a></li>
 			<li><a href="/video/etc/prechac-wmf.html">Préchac with my friends</a></li>
+			<li><a href="/video/etc/sicily-vacation.html">Sicily vacation</a></li>
 			<li><a href="/video/etc/vjpromo.html">Visual Juggling Promo</a></li>
 			<li><a href="/video/etc/zombie-day.html">Juggling Zombie Day</a></li>
 			</ul>
