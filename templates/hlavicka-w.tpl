@@ -34,7 +34,6 @@
 {/foreach}
 {/if}
 	<meta name="robots" content="{if isset($robots)}{$robots|escape}{else}index,follow{/if}" />
-	<link rel="shortcut icon" href="/favicon.ico" />
 	<link rel="alternate" title="Žonglérův slabikář" href="http://{$smarty.server.SERVER_NAME}/zonglovani.rss" type="application/rss+xml" />
 	<link rel="alternate" title="Obrázky žonglování" href="http://{$smarty.server.SERVER_NAME}{$smarty.const.OBRAZKY_URL}/obrazky.rss" type="application/rss+xml" />
 	<link rel="alternate" title="Kalendář žonglování" href="http://{$smarty.server.SERVER_NAME}{$smarty.const.CALENDAR_URL}kalendar.rss" type="application/rss+xml" />
