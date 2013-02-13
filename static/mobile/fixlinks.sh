@@ -12,7 +12,7 @@ do
 	sed -i 's#class="external"##g' $foo
 	for baz in `grep -o "<a [^>]*href=[^>]*>" $foo | sort | uniq`
 	do
-		FILE=`echo $baz | sed 's/<a.*href="\([^"]*\)".*/\1/' | sed 's/#.*//'`
+		FILE="`echo $baz | sed 's/<a.*href="\([^"]*\)".*/\1/;s/#.*//'`"
 		if [ ! -f $DIR/$FILE ]
 		then
 			if grep -q '^\(http\|ftp\|https\)' <<< $FILE
@@ -29,5 +29,5 @@ done
 
 for foo in `find $ZSDIR -name '*.html'`; 
 do
-	sed -i 's#class="external"  class="external"#class="external"#g' $foo
+	sed -i 's#class="external"\s\{2,\}class="external"#class="external"#g;s#class="external"\s\{2,\}class="external"#class="external"#g' $foo
 done

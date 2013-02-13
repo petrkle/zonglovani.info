@@ -23,17 +23,7 @@ wget \
 	http://zongl.info/img/k/kuzely-logo.gif \
 	http://zongl.info/img/o/odkazy-slabikar.png \
 	--reject pdf \
-	-X animace,video,obrazky,mapa,kalendar,ulita,lide,diskuse,obrazky-na-plochu,navody,scripts,horoskop,vyhledavani,tip,rss,download,olympiada,mdz
+	-X animace,video,obrazky,mapa,kalendar,ulita,lide,diskuse,obrazky-na-plochu,navody,scripts,horoskop,vyhledavani,tip,rss,download,olympiada,mdz,g,odkazy.html
 
 mv zongl.info zongleruv-slabikar
 cp ../img/t/tel-*.png zongleruv-slabikar/img/t
-#	'jak-odkazovat.html', \
-#	'prihlaseni.php*', \
-#	'diskuse*', \
-#	'obrazky*.html', \
-#	'video*', \
-#	'lide*', \
-#	'kalendar*', \
-#	'mapa*', \
-#	'ulita*', \
-#	'*obrazky-na-plochu*'

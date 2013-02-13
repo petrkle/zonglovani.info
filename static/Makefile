@@ -16,6 +16,7 @@ offline:
 msiprep:
 	./stahni.sh
 	./uprav.sh
+	./mobile/fixlinks.sh
 	rm -rf msi/zongleruv-slabikar
 	mv -vi zongleruv-slabikar msi
 
@@ -32,4 +33,4 @@ book:
 	cd zs && kindlegen -c1 -rebuild slabikar.opf -o zongleruv-slabikar-${VERSION}.mobi && cd ..
 
 clean:
-	rm -rf zongleruv-slabikar zongleruv-slabikar*.tar.bz2 zs
+	rm -rf zongleruv-slabikar zongleruv-slabikar*.tar.bz2 zs msi/zongleruv-slabikar

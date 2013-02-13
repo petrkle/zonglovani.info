@@ -7,7 +7,7 @@ for foo in `find $ZSDIR -name '*.html'`;
 
 do
 	LEVEL=`echo $foo | sed "s/[^\/]*//g;s/\//..\//g;s/^.//;"`
-	cp -f $foo $foo.bat
+	cp -i $foo $foo.bat
 	cat $foo.bat |\
 	sed s/' onclick="_gaq.*);"'/''/gi |\
 	sed s#'rel="stylesheet" type="text/css" href="/'#"rel=\"stylesheet\" type=\"text/css\" href=\"$LEVEL"#gi |\
@@ -47,7 +47,6 @@ rm $ZSDIR/img/v/velky-mic.jpg
 rm $ZSDIR/img/u/uchyt.jpg
 rm $ZSDIR/img/c/chuda.jpg
 rm $ZSDIR/img/j/jtv-*
-rm $ZSDIR/img/v/vesele-vanoce.png
 rm $ZSDIR/img/b/browser*
 rm $ZSDIR/img/b/budik.jpg
 rm $ZSDIR/img/d/diabolo-sipek.s.jpg
@@ -56,7 +55,6 @@ rm $ZSDIR/img/h/horoskop.png
 rm $ZSDIR/img/j/juggling.tv.png
 rm $ZSDIR/img/m/mobil*
 rm $ZSDIR/img/o/odkazy-*
-rm -rf $ZSDIR/img/q
 rm $ZSDIR/img/s/snehulacek.png
 rm $ZSDIR/img/s/snehulak.png
 rm $ZSDIR/img/z/zvonya.jpg
@@ -64,9 +62,16 @@ rm $ZSDIR/img/v/vanoce.png
 rm $ZSDIR/img/v/vanocni-kometa.s.jpg
 rm $ZSDIR/img/p/pf-*
 rm $ZSDIR/img/p/pek.jpg
+rm $ZSDIR/odkazy.html
 rm -rf $ZSDIR/novinky*
 rm -rf $ZSDIR/ostatni
 rm -rf $ZSDIR/*.odt
+rm -rf $ZSDIR/img/q
+rm -rf $ZSDIR/navody
+rm -rf $ZSDIR/tip
+rm $ZSDIR/pf-*
+rm $ZSDIR/vanoce-*
+rm $ZSDIR/changelog-*
 
 find $ZSDIR/img/ -name "*.jpg" -size +50k -exec rm \{\} \;
 find $ZSDIR/ -name "*.rss" -exec rm \{\} \;
