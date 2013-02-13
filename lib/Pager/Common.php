@@ -1382,10 +1382,7 @@ class Pager_Common
             return '';
         }
         $this->_linkData[$this->_urlVar] = 1;
-        return $this->_renderLink(
-                str_replace('%d', 1, $this->_altFirst),
-                $this->_firstPagePre . $this->_firstPageText . $this->_firstPagePost
-        ) . $this->_spacesBefore . $this->_spacesAfter;
+        return $this->_spacesBefore . $this->_spacesAfter;
     }
 
     // }}}
@@ -1404,10 +1401,7 @@ class Pager_Common
             return '';
         }
         $this->_linkData[$this->_urlVar] = $this->_totalPages;
-        return $this->_renderLink(
-                str_replace('%d', $this->_totalPages, $this->_altLast),
-                $this->_lastPagePre . $this->_lastPageText . $this->_lastPagePost
-        );
+        return '';
     }
 
     // }}}

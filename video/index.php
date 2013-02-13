@@ -15,6 +15,7 @@ $pagerOptions = array(
     'perPage'  => $videi_na_stranku,
     'altPrev'  => 'Předchozí stránka',
     'altNext'  => 'Další stránka',
+		'firstPageText' => 'asff',
     'altPage'  => 'Stránka',
     'separator'  => '&nbsp;',
     'spacesBeforeSeparator'  => 1,
