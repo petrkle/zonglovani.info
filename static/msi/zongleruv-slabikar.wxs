@@ -32,8 +32,8 @@
 
   <UIRef Id="WixUI_Minimal" />
 
-	<WixVariable Id="WixUIBannerBmp" Value="img\top.bmp" />
-	<WixVariable Id="WixUIDialogBmp" Value="img\bg.bmp" />
+	<WixVariable Id="WixUIBannerBmp" Value="img\top.jpg" />
+	<WixVariable Id="WixUIDialogBmp" Value="img\bg.jpg" />
 	<WixVariable Id="WixUILicenseRtf" Value="LICENCE.rtf" />
 	<Icon Id="ProductIcon" SourceFile="img\zonglovani.ico"/>
 	<Property Id="ARPPRODUCTICON" Value="ProductIcon" />

@@ -1,4 +1,4 @@
-VERSION=0.5
+VERSION=0.5.0
 
 help:
 	@echo "help     - napoveda"
@@ -11,6 +11,7 @@ help:
 offline:
 	./stahni.sh
 	./uprav.sh
+	./mobile/fixlinks.sh
 	./zabal.sh ${VERSION}
 
 msiprep:

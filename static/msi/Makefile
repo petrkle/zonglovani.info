@@ -8,7 +8,7 @@ $(SRC)-$(VERSION).exe: $(SRC)-$(VERSION).msi zonglovani.conf zonglovani.7z
 zonglovani.7z: $(SRC)-$(VERSION).msi
 	7z a zonglovani.7z $(SRC)-$(VERSION).msi
 
-$(SRC)-$(VERSION).msi: $(SRC)-$(VERSION).wixobj img/*.bmp img/*.ico
+$(SRC)-$(VERSION).msi: $(SRC)-$(VERSION).wixobj img/*.jpg img/*.ico
 	light.exe -sacl -nologo -ext WixUIExtension -ext WixUtilExtension -cultures:cs-cz -out $(SRC)-$(VERSION).msi $(SRC).wixobj
 
 $(SRC)-$(VERSION).wixobj: components.wxs files.wxs
