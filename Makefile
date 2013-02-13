@@ -7,7 +7,6 @@ help:
 	@echo "test     - otestuje funkčnost stranek"
 	@echo "backup   - vytvori zalohu na flash disk"
 	@echo "datasync - zalohuje data uzivatelu"
-	@echo "clean    - smaze archiv se zmenenymi soubory"
 
 sitemap:
 	./scripts/sitemap.sh
