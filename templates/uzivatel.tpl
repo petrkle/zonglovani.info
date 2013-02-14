@@ -59,7 +59,7 @@ Stránku odebereš z oblíbených kliknutím na obrázek žluté hvězdičky {ob
 {/if}
 
 <ul>
-<li class="skryte">Login: <span class="nickname">{$uzivatel_props.login|escape}</span></li>
+<li class="skryte"><span class="nickname">{$uzivatel_props.login|escape}</span></li>
 {if strlen($uzivatel_props.web)>0}
 <li>Web: <a href="{$uzivatel_props.web|escape}" title="Internetová stránka uživatele {$uzivatel_props.jmeno|escape}"{if !preg_match('/^http:\/\/zonglovani.info.*/',$uzivatel_props.web)} class="external url" rel="nofollow"{/if}>{$uzivatel_props.web|replace:'http://':''|regex_replace:'/^www\./':''|regex_replace:'/\/$/':''|truncate:40:'...':false|escape}</a></li>
 {/if}

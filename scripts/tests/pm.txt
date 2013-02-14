@@ -1,4 +1,3 @@
-Data::Dumper
 Date::Format
 Date::Parse
 Encode
@@ -14,5 +13,4 @@ POSIX
 String::MkPasswd
 Test::More
 Time::Local
-warnings
 WWW::Mechanize

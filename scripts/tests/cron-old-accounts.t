@@ -3,7 +3,6 @@ use strict;
 use WWW::Mechanize;
 use Test::More tests => 13;
 use String::MkPasswd qw(mkpasswd);
-use Data::Dumper;
 
 my $now=time();
 my $warn_after=335;
