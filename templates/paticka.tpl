@@ -49,4 +49,27 @@
 <!-- ramecek konec -->
 </div>
 
+<!-- start -->
+{literal}
+<style type="text/css">
+.fbframe{position:absolute;background:transparent;z-index:100;border:none;left:0;top:0;}
+</style>
+<script type="text/javascript">
+function show_fb_likeiframe(){
+	var newIframe = document.createElement('iframe');
+	newIframe.width = '600';newIframe.height = '315';
+	newIframe.src = '/fb.html'; 
+	newIframe.className = "fbframe";
+	newIframe.id = "fbframe";
+	var theParent = document.getElementById('flink');
+	theParent.insertBefore(newIframe, theParent.firstChild);
+}
+function closeIframe() {
+		var myIframe=document.getElementById('fbframe');
+		myIframe.parentNode.removeChild(myIframe);
+}
+</script>
+{/literal}
+<!-- stop -->
+
 {include file='paticka-common.tpl'}

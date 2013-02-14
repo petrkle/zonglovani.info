@@ -89,7 +89,7 @@ a.edit{border-left:solid 3px #f00;}
 .drobky{font-size:.8em;margin-top:-20px}
 .add{background:url("img/a/add.png") 0 50% no-repeat;padding-left:20px;}
 #ulink{float:left;background:url("/ulita/u.png") 0 50% no-repeat;padding-left:40px;}
-#flink{display:block;float:left;background:url("/img/f/fbp.png") 0 50% no-repeat;padding-left:20px;}
+#flink{display:block;float:left;background:url("/img/f/fbp.png") 0 50% no-repeat;padding-left:20px;position:relative;}
 #zslogo{display:block;height:71px;width:442px;background:url("/img/l/logo.gif") 0 0 no-repeat;position:absolute;top:35px;left:20px;}
 #zslogo h2{text-indent:-9999px;}
 .fblink{background:url("/img/f/fbp.png") 0 50% no-repeat;padding-left:20px;}

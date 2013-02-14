@@ -81,7 +81,7 @@ define('MAX_BIG_LETTERS',0.7);
 
 $hodnoceni=get_hodnoceni_stranka($_SERVER['REQUEST_URI']);
 $smarty->assign('hodnoceni',$hodnoceni);
-$smarty->assign('fblink',get_fblink());
+$smarty->assign('fblink','<a href="http://www.facebook.com/zongleruv.slabikar" title="Stránky žonglérova slabikáře na Facebooku." onclick="show_fb_likeiframe();return false;">facebook.com/zongleruv.slabikar</a>');
 function get_hodnoceni_stranka($url){
 	$url=preg_replace('/(.+)\/$/','\1/index.html',$url);
 	$navrat=array();
@@ -101,76 +101,4 @@ function get_hodnoceni_stranka($url){
 		$navrat=false;
 	}
 	return $navrat;
-}
-
-function get_fblink(){
-$texty=array(
-'Jsem žonglér',
-'Mám rád žonglování',
-'Míčky a kužely jsou moje',
-'Passing je můj šálek čaje',
-'Aktuality ze světa žonglování',
-'Miluju žonglování!',
-'Žonglérské novinky',
-'Ukaž žonglérův slabikář kamarádům',
-'Novinky o žonglování',
-'Najít další žongléry',
-'Zůstaň v kontaktu',
-'Poslat odkaz na žonglování kámošům',
-'Hážu, hážeš, hážeme',
-'Spousta žonglérů na Facebooku.',
-'Podpoř žonglérův slabikář',
-'To se mi líbí',
-'Doporučit žonglérův slabikář kamarádům',
-'Nejím, nespím, jenom žongluju',
-'Království za kužel',
-'Ať ti to lítá',
-'Žonglovat či nežonglovat',
-'Žonglování násobí radost',
-'Žonglování ráno',
-'Žonglování místo oběda',
-'Žonglování odpoledne',
-'Žonglování večer',
-'Žonglování v noci',
-'Sněhurka a sedm míčků',
-'Doporučit žonglování kamarádům',
-'Žonglování s míčky',
-'Může za to gravitace',
-'Buď v obraze',
-'facebook.com/zongleruv.slabikar',
-'Tajemství gravitace',
-'g = 9,80665 m/s<sup>2</sup>',
-'Žonglování není zločin',
-'I♥ juggling',
-'Žonglérův slabikář na facebooku',
-'Přidej se',
-'Žonglování žije!',
-'Míčky, kruhy, kužely',
-'Čerstvé zprávy o žonglování',
-'Stránka o žonglování',
-'Žonglérský servis',
-'Poslat kamarádům',
-'Šikovné žonglérky',
-'Umíš žonglovat? Přidej se!',
-'Fandím žonglování',
-'STOP míčkům pod skříní',
-'Žonglování je fajn',
-'Míčků není nikdy dost',
-'Naučit žonglovat kamarády',
-'Měl jsem sen - pět kuželů',
-'Žonglérské aktuality',
-'Všechno mi padá',
-'Umím kaskádu',
-'Podporuji žongléry',
-'Novinky pro žongléry',
-'Novinky pro žonglérky',
-'Tip týdne',
-'Neseď u počítače a žongluj!',
-'Tolik míčků a tak málo času',
-'Žonglovanie',
-'Doporučit stránku',
-'Žonglování navždy',
-'Žonglérský tip týdne');
-$stridacka=date('z',time()) % count($texty);
-	return '<a href="http://www.facebook.com/zongleruv.slabikar" class="external" title="Stránky žonglérova slabikáře na Facebooku." onclick="_gaq.push([\'_trackPageview\',\'/goto/facebook.com/zongleruv.slabikar\']);">'.$texty[$stridacka].'</a>';
 }
