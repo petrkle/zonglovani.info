@@ -5,9 +5,7 @@
 {/if}
 <table class="kalendar" cellspacing="0" cellpadding="0">
 		<tr>
-<td class="kal_prev">{if isset($prevMonth)}<a href="{if $prevMonth==$aktMonth}{$smarty.const.CALENDAR_URL}{else}{$prevMonth}{/if}" title="Zobrazí předchozí měsíc.">&laquo; Předchozí měsíc</a>{else}&nbsp;{/if}</td>
-<td class="kal_next">{if isset($nextMonth)}<a href="{if $nextMonth==$aktMonth}{$smarty.const.CALENDAR_URL}{else}{$nextMonth}{/if}" title="Zobrazí další měsíc.">Další měsíc &raquo;</a>{else}&nbsp;{/if}</td>
-		</tr>
+<td colspan="3" class="kalnav">{include file='kalendar-mon-nav.tpl'}</td></tr>
 <caption>{$caption|escape}</caption>
     {* nested arrays month, week, day *}    
     {section name=week loop=$month}
@@ -16,7 +14,7 @@
       {if $month[week][day]->isEmpty()}
     	{elseif $month[week][day]->isSelected()}
 				{assign var=cislodne value=$month[week][day]->thisDay()}
-    	   <tr><td colspan="2" class="den udalost{if $cislodne==$dnesek} dnesni{/if}"><strong class="cislodne">{$cislodne}</strong>
+    	   <tr><td class="kal_week_day wd_{$smarty.section.day.index}">{$dny_zkratky[$smarty.section.day.index]}</td><td class="kal_week_day"><strong class="cislodne">{$cislodne}</strong></td><td class="den udalost{if $cislodne==$dnesek} dnesni{/if}">
 						{if $month[week][day]->entryCount()>0}
             <ul class="kal_entry">
             {section name=entry loop=$month[week][day]->entryCount()}
@@ -27,15 +25,15 @@
 					{else}&nbsp;{/if}
 </td></tr>
     	{else}
-        <td class="den" colspan="2">{$month[week][day]->thisDay()}</td></tr>
+        <td class="kal_week_day wd_{$smarty.section.day.index}">{$dny_zkratky[$smarty.section.day.index]}</td><td class="kal_week_day">{$month[week][day]->thisDay()}</td><td class="den">&nbsp;</td></tr>
     	{/if}
     
     {/section}                       
     {/section}
 		<tr>
-<td class="kal_prev">{if isset($prevMonth)}<a href="{if $prevMonth==$aktMonth}{$smarty.const.CALENDAR_URL}{else}{$prevMonth}{/if}" title="Zobrazí předchozí měsíc.">&laquo; Předchozí měsíc</a>{else}&nbsp;{/if}</td>
-<td class="kal_next">{if isset($nextMonth)}<a href="{if $nextMonth==$aktMonth}{$smarty.const.CALENDAR_URL}{else}{$nextMonth}{/if}" title="Zobrazí další měsíc.">Další měsíc &raquo;</a>{else}&nbsp;{/if}</td>
-		</tr>
+
+<td colspan="3" class="kalnav">{include file='kalendar-mon-nav.tpl'}</td></tr>
+
 </table>
 <p>
 Dnes je: {if $dnesek}{$aktDate}{else}<a href="{$smarty.const.CALENDAR_URL}" title="Zobrazí aktuální měsíc.">{$aktDate}</a>{/if}

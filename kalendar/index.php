@@ -28,6 +28,7 @@ if(isset($_GET['m'])){
 	$mesic=date('m',$now);
 }
 
+$smarty->assign_by_ref('dny_zkratky',$dny_zkratky);
 $events=get_cal_data($rok,$mesic);
 
 $month = new Calendar_Month_Weekdays($rok,$mesic,1);
@@ -113,5 +114,3 @@ $smarty->assign('hcalendar',true);
 $smarty->display('hlavicka.tpl');
 $smarty->display('kalendar-index.tpl');
 $smarty->display('paticka.tpl');
-
-?>

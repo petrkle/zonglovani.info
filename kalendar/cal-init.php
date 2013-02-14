@@ -1,6 +1,7 @@
 <?php
 
 $mesice=array ('Leden','Únor','Březen','Duben','Květen','Červen','Červenec','Srpen','Září','Říjen','Listopad','Prosinec');
+$dny_zkratky=array ('Po','Út','St','Čt','Pá','So','Ne');
 
 require_once CALENDAR_ROOT.'Calendar.php';
 require_once CALENDAR_ROOT.'Month.php';
@@ -398,5 +399,3 @@ function get_deleted_events(){
   };
 	return $vypis;
 }
-
-?>
