@@ -207,12 +207,15 @@
 2013-02-04*Žonglování na ledě*/kalendar/udalost-20130208-20130208-pek-1353529655.html*zongl-led.jpg*Tradiční zimní taškařice cirkusu LeGrando.
 2013-02-10*La Pequeña Rosa*/video/etc/pequena-rosa.html*pequena-rosa.jpg*Světový rekord v balancování míčku na hlavě a současném točení s hula-hop kruhy.
 2013-02-11*Woko vol.2*/kalendar/udalost-20130217-20130217-pek-1359924238.html*woko2.png*Druhá žonglérská dílna v klubu Woko. Zve FireshowJBC.
-2013-02-18*Give Me Your Tricks*/video/etc/gmyt-ejc2013-1.html*gmyt-ejc2013-1.jpg*První ze čtyř upoutávek na EJC 2013. Už se těšíte?
-2013-02-25*Diabolo u moře*/obrazky-na-plochu/bolo-more.html*bolo-more.jpg*Červené diabolo Henrys Cirkus na břehu středozemního moře. Tapeta na plochu počítače s žonglérskou tématikou.
-2013-03-04*Dvojitá krabice*/micky/3/dvojita-krabice.html*micky-3-doubleboxc.png*Trik známý také pod anglickým názvem - double box.
-2013-03-11*Šest míčků*/micky/6/*micky-6-fontanaa.png*Základní trik se šesti míčky.
-2013-03-18*Žonglérské vizitky*/download/vizitky.html*package-vizitky.png*Vizitky žonglérova slabikáře. Tiskněte a rozšiřujte :-)
-2013-03-25*Animace siteswapů*/animace/siteswap/*siteswapb.png*Animované ztvárnění siteswapů s míčky.
+2013-02-14*Svátek svatého Valentýna*/valentyn/*mdz.png*Dnes je svátek všech zamilovaných. Ideální čas pro žonglování v páru.
+2013-02-15*Give Me Your Tricks*/video/etc/gmyt-ejc2013-1.html*gmyt-ejc2013-1.jpg*První ze čtyř upoutávek na EJC 2013. Už se těšíte?
+2013-02-18*Sobotní trénink*/kalendar/udalost-20130223-20130223-pek-1360768310.html*f.png*Sobotní trénink žonglování v Praze. Zkušení lektoři, půjčovna žonglovátek a dobrá hudba.
+2013-02-24*Diabolo u moře*/obrazky-na-plochu/bolo-more.html*bolo-more.jpg*Červené diabolo Henrys Cirkus na břehu středozemního moře. Tapeta na plochu počítače s žonglérskou tématikou.
+2013-02-25*Dvojitá krabice*/micky/3/dvojita-krabice.html*micky-3-doubleboxc.png*Trik známý také pod anglickým názvem - double box.
+2013-03-04*Šest míčků*/micky/6/*micky-6-fontanaa.png*Základní trik se šesti míčky.
+2013-03-11*Žonglérské vizitky*/download/vizitky.html*package-vizitky.png*Vizitky žonglérova slabikáře. Tiskněte a rozšiřujte :-)
+2013-03-18*Animace siteswapů*/animace/siteswap/*siteswapb.png*Animované ztvárnění siteswapů s míčky.
+2013-03-25*
 2013-04-01*
 2013-04-08*
 2013-04-15*
