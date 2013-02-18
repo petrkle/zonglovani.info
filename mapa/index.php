@@ -93,7 +93,7 @@ $smarty->assign_by_ref('trail', $trail->path);
 $smarty->assign_by_ref('poloha',$poloha);
 $smarty->assign_by_ref('k_cz',$k_cz);
 $smarty->assign_by_ref('k_sk',$k_sk);
-$smarty->assign('styly',array('/m.css'));
+$smarty->assign('styly',array('m'));
 $smarty->assign('mobilemapa',true);
 $smarty->assign('keywords','mapa, žonglování, žongléři');
 $smarty->assign('description',$description);
@@ -121,6 +121,3 @@ if(is_file($krf)){
 		return false;
 	}
 }
-
-
-?>

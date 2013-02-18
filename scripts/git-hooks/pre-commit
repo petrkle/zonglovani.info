@@ -1,9 +1,12 @@
 #!/bin/sh
 
 ./scripts/stats.sh
+./scripts/css.sh
 
 git add ostatni/stat.txt
 
 git log --pretty="%h*%at*%s" > ChangeLog
 
 git add ChangeLog
+
+git add init.php

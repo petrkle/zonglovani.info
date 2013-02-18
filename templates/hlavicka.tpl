@@ -10,18 +10,18 @@
 	<meta name="ICBM" content="{$icbm|escape}" />
 {/if}
 {include file='hlavicka-meta.tpl'}
-	<link rel="stylesheet" media="screen" type="text/css" href="/plain.css" />
-	<link rel="stylesheet" media="screen and (min-width: 610px)" type="text/css" href="/z.css" />
-	<link rel="stylesheet" media="only screen and (-webkit-min-device-pixel-ratio: 2)" href="/plain.css" />
-	<link rel="stylesheet" media="print" type="text/css" href="/zt.css" />
+	<link rel="stylesheet" media="screen" type="text/css" href="/plain-{$smarty.const.CSS_CHKSUM}.css" />
+	<link rel="stylesheet" media="screen and (min-width: 610px)" type="text/css" href="/z-{$smarty.const.CSS_CHKSUM}.css" />
+	<link rel="stylesheet" media="only screen and (-webkit-min-device-pixel-ratio: 2)" href="/plain-{$smarty.const.CSS_CHKSUM}.css" />
+	<link rel="stylesheet" media="print" type="text/css" href="/zt-{$smarty.const.CSS_CHKSUM}.css" />
 <!--[if lt IE 9]>
-	<link rel="stylesheet" type="text/css" href="/z.css">
+	<link rel="stylesheet" type="text/css" href="/z-{$smarty.const.CSS_CHKSUM}.css">
 <![endif]-->
 {if $styly}
 {foreach from=$styly item=styl}
-	<link rel="stylesheet" media="screen and (min-width: 610px)" type="text/css" href="{$styl}" />
+	<link rel="stylesheet" media="screen and (min-width: 610px)" type="text/css" href="/{$styl}-{$smarty.const.CSS_CHKSUM}.css" />
 <!--[if lt IE 9]>
-	<link rel="stylesheet" type="text/css" href="{$styl}">
+	<link rel="stylesheet" type="text/css" href="/{$styl}-{$smarty.const.CSS_CHKSUM}.css">
 <![endif]-->
 {/foreach}
 {/if}
@@ -30,13 +30,6 @@
 	{$hlavicka}
 {/foreach}
 {/if}
-	<meta name="robots" content="{if isset($robots)}{$robots|escape}{else}index,follow{/if}" />
-	<link rel="alternate" title="Žonglérův slabikář" href="http://{$smarty.server.SERVER_NAME}/zonglovani.rss" type="application/rss+xml" />
-	<link rel="alternate" title="Obrázky žonglování" href="http://{$smarty.server.SERVER_NAME}{$smarty.const.OBRAZKY_URL}obrazky.rss" type="application/rss+xml" />
-	<link rel="alternate" title="Kalendář žonglování" href="http://{$smarty.server.SERVER_NAME}{$smarty.const.CALENDAR_URL}kalendar.rss" type="application/rss+xml" />
-	<link rel="alternate" title="Tip týdne pro žongléry" href="http://{$smarty.server.SERVER_NAME}/tip/tip.rss" type="application/rss+xml" />
-	<link rel="alternate" title="Diskuse o žonglování" href="http://{$smarty.server.SERVER_NAME}{$smarty.const.DISKUSE_URL}zpravy.rss" type="application/rss+xml" />
-	<link rel="alternate" title="Aktualizace žonglérova slabikáře" href="http://{$smarty.server.SERVER_NAME}/ostatni/changelog.rss" type="application/rss+xml" />
 {if isset($hcard)}
 	<link rel="profile" href="http://microformats.org/profile/hcard" />
 {/if}

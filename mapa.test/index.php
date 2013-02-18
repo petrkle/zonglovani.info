@@ -12,11 +12,9 @@ $dalsi=array(
 
 $smarty->assign_by_ref('dalsi',$dalsi);
 $smarty->assign_by_ref('trail', $trail->path);
-$smarty->assign('styly',array('/m.css'));
+$smarty->assign('styly',array('m'));
 $smarty->assign('keywords','animace, žonglování, siteswap, juggleanim');
 $smarty->assign('description','Animace žonglování s míčky.');
 $smarty->assign('titulek',$titulek);
 $smarty->display('hlavicka.blank.tpl');
 $smarty->display('mapa.test.tpl');
-
-?>

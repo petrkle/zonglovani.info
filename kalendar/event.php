@@ -86,7 +86,7 @@ if($udalost){
 		}
 
 		if(isset($_POST['odeslat']) and !$stare){
-			$smarty->assign('styly',array('/k.css'));
+			$smarty->assign('styly',array('k'));
 			if(isset($_GET['action'])){
 				$udalost=array_merge(get_event_data($id.'.cal'),get_udalost_post());
 				$chyby=event_validation($udalost,$now);
@@ -140,7 +140,7 @@ if($udalost){
 	}else{
 		# zobrazit
 		$events_around=get_events_around($id);
-		$smarty->assign('styly',array('/a.css'));
+		$smarty->assign('styly',array('a'));
 		$navigace=array();
 		$hlavicky=array();
 

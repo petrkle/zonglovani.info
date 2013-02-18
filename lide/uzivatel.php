@@ -65,7 +65,7 @@ $mojepozice=array_search($id,$pozice);
 		$smarty->assign_by_ref('custom_headers',$hlavicky);
 	}
 
-	$smarty->assign('styly',array('/a.css'));
+	$smarty->assign('styly',array('a'));
 	$smarty->assign_by_ref('navigace',$navigace);
 
 	$smarty->assign('keywords',make_keywords($uzivatel_props['jmeno'].' '.' žonglér, žonglérka'));
@@ -95,6 +95,3 @@ $mojepozice=array_search($id,$pozice);
 	require('../404.php');
 	exit();
 }
-
-
-?>

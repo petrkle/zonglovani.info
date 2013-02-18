@@ -15,7 +15,7 @@ $smarty->assign('titulek',$titulek);
 $smarty->assign('keywords',make_keywords($titulek).', žonglování');
 $smarty->assign('description','Statistiky žonglérova slabikáře.');
 
-$smarty->assign('styly',array('/s.css'));
+$smarty->assign('styly',array('s'));
 
 $dalsi=array(
 	array('url'=>'/jak-odkazovat.html','text'=>'Jak odkazovat na žonglérův slabikář','title'=>'Přidej odkaz na svůj web'),

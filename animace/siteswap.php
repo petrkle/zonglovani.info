@@ -22,7 +22,7 @@ $trail = new Trail();
 $trail->addStep('Animace žonglování','/animace/');
 $trail->addStep('Siteswap','/animace/siteswap/');
 
-$smarty->assign('styly',array('/a.css'));
+$smarty->assign('styly',array('a'));
 
 $animace=get_siteswap($nazvy);
 
@@ -106,4 +106,3 @@ function get_siteswap($nazvy){
 	}
 	return $navrat;
 }
-?>

@@ -27,7 +27,7 @@ if(isset($_GET['filtr'])){
 
 if($filtr){
 	$smarty->assign('feedback',true);
-		$smarty->assign('styly',array('/a.css','/d.css'));
+		$smarty->assign('styly',array('a','d'));
 		$klice=array_keys($dovednosti);
 		$pozice=array_search($filtr,$klice);
 		if(isset($dovednosti_link[$filtr])){
@@ -82,5 +82,3 @@ if($filtr){
 	$smarty->display('lide-dovednosti.tpl');
 	$smarty->display('paticka.tpl');
 }
-
-?>

@@ -29,7 +29,8 @@ RewriteBase /
   ExpiresByType text/css                  "access plus 1 week"
 </IfModule>
 
-RewriteRule ^(.+)\.css$ css/css.php?style=$1 [L]
+RewriteRule ^(.+)-(.+)\.css$ css/css.php?style=$1&ver=$2 [L]
+RewriteRule ^([^-]+)\.css$ css/css.php?style=$1 [L]
 
 RewriteCond %{HTTP_HOST} ^www\.(.*)
 RewriteRule (.*) http://%1/$1 [R=301,QSA,NE,L]

@@ -64,7 +64,7 @@ $mojepozice=array_search($filtr,$pozice);
 	}
 
 	$smarty->assign('feedback',true);
-	$smarty->assign('styly',array('/a.css'));
+	$smarty->assign('styly',array('a'));
 	$smarty->assign_by_ref('navigace',$navigace);
 	$smarty->assign('misto',$pusobiste[$filtr]['odkud']);
 	$smarty->display('hlavicka.tpl');
@@ -83,5 +83,3 @@ $mojepozice=array_search($filtr,$pozice);
 	$smarty->display('lide-pusobiste.tpl');
 	$smarty->display('paticka.tpl');
 }
-
-?>

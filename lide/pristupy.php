@@ -9,7 +9,7 @@ if(is_logged()){
 	$nadpis='Seznam přihlášení';
 	$popis='Seznam tvých přihlášení do žonglérova slabikáře.';
 
-	$smarty->assign('styly',array('/s.css'));
+	$smarty->assign('styly',array('s'));
 	$trail = new Trail();
 	$trail->addStep('Seznam žonglérů',LIDE_URL);
 	$trail->addStep($_SESSION['uzivatel']['jmeno'],LIDE_URL.$_SESSION['uzivatel']['login'].'.html');
@@ -30,4 +30,3 @@ if(is_logged()){
 	header('Location: '.LIDE_URL.'prihlaseni.php?next='.LIDE_URL.'pristupy.php&notice');
 	exit();
 }
-?>

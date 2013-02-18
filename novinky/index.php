@@ -15,7 +15,7 @@ if(isset($_GET['rss'])){
 
 $smarty->assign_by_ref('trail', $trail->path);
 
-$smarty->assign('styly','/r.css');
+$smarty->assign('styly','r');
 $smarty->assign('keywords','novinky, žonglování, rss');
 $smarty->assign('description','Novinky ze světa žonglování');
 $smarty->assign('tip',array_shift(get_tipy()));

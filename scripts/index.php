@@ -34,5 +34,3 @@ $smarty->assign_by_ref('vypis', $vypis);
 $smarty->display('hlavicka.tpl');
 $smarty->display('scripts.tpl');
 $smarty->display('paticka.tpl');
-
-?>

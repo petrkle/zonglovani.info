@@ -68,7 +68,7 @@ $smarty->assign(
 
 $smarty->assign('pager_links', $pager->links);
 $smarty->assign('tipy',$data);
-$smarty->assign('styly',array('/t.css'));
+$smarty->assign('styly',array('t'));
 
 	$titulek='Žonglérský tip týdne';
 	$popis='Každý týden aktualizované tipy a rady pro žongléry a žonglérky.';

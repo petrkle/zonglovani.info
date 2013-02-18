@@ -140,7 +140,7 @@ $data = $pager->getPageData();
 
 
 	$smarty->assign('fbsdileni','toto video');
-	$smarty->assign('styly',array('/a.css'));
+	$smarty->assign('styly',array('a'));
 	$smarty->assign_by_ref('navigace',$navigace);
 	$trail->addStep($video['nazev']);
 	$smarty->assign_by_ref('trail', $trail->path);

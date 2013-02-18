@@ -31,7 +31,7 @@ $titulek='Animace žonglování';
 $trail = new Trail();
 $trail->addStep($titulek,'/animace/');
 
-$smarty->assign('styly',array('/a.css'));
+$smarty->assign('styly',array('a'));
 
 $dalsi=array(
 	array('url'=>'/animace/siteswap/','text'=>'Animace siteswapů','title'=>'Animace žonglérských siteswapů'),

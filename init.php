@@ -79,6 +79,8 @@ define('STAT_EXPIRE',31);
 
 define('MAX_BIG_LETTERS',0.7); 
 
+define('CSS_CHKSUM','3007075779'); 
+
 $hodnoceni=get_hodnoceni_stranka($_SERVER['REQUEST_URI']);
 $smarty->assign('hodnoceni',$hodnoceni);
 $smarty->assign('fblink','<a href="http://www.facebook.com/zongleruv.slabikar" title="Stránky žonglérova slabikáře na Facebooku." onclick="show_fb_likeiframe();return false;">facebook.com/zongleruv.slabikar</a>');
