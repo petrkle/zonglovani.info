@@ -165,6 +165,36 @@
 </video:video>
 </url>
 <url>
+<loc>http://zonglovani.info/video/d-clubs.html</loc>
+<video:video>
+<video:thumbnail_loc>http://zonglovani.info/video/img/d/d-clubs.jpg</video:thumbnail_loc>
+<video:title>D-Clubs</video:title>
+<video:description>Flor Louloudy a Jacopo Candeloro žonglují s kužely.</video:description>
+<video:content_loc>http://juggling.tv/video/encoded/D-Clubs-JTV-i5693.mp4</video:content_loc>
+<video:player_loc>http://juggling.tv/nvplayer.swf?config=http://juggling.tv/nuevo/config.php?key=6a8f2718d94fa3f48fe9</video:player_loc>
+<video:duration>135</video:duration>
+<video:tag>Žonglování</video:tag>
+<video:category>Žonglování</video:category>
+<video:gallery_loc title="Žonglérská videa">http://zonglovani.info/video/</video:gallery_loc>
+<video:requires_subscription>no</video:requires_subscription>
+</video:video>
+</url>
+<url>
+<loc>http://zonglovani.info/video/d-clubs2.html</loc>
+<video:video>
+<video:thumbnail_loc>http://zonglovani.info/video/img/d/d-clubs2.jpg</video:thumbnail_loc>
+<video:title>D-Clubs 2</video:title>
+<video:description>Flor Louloudy a Jacopo Candeloro podruhé žonglují s kužely.</video:description>
+<video:content_loc>http://juggling.tv/video/encoded/D-Clubs%202-JTV-i5694.mp4</video:content_loc>
+<video:player_loc>http://juggling.tv/nvplayer.swf?config=http://juggling.tv/nuevo/config.php?key=26ffeb2405a9653b3b42</video:player_loc>
+<video:duration>118</video:duration>
+<video:tag>Žonglování</video:tag>
+<video:category>Žonglování</video:category>
+<video:gallery_loc title="Žonglérská videa">http://zonglovani.info/video/</video:gallery_loc>
+<video:requires_subscription>no</video:requires_subscription>
+</video:video>
+</url>
+<url>
 <loc>http://zonglovani.info/video/don-texas.html</loc>
 <video:video>
 <video:thumbnail_loc>http://zonglovani.info/video/img/d/don-texas.jpg</video:thumbnail_loc>
@@ -208,6 +238,21 @@
 </video:video>
 </url>
 <url>
+<loc>http://zonglovani.info/video/heroes.html</loc>
+<video:video>
+<video:thumbnail_loc>http://zonglovani.info/video/img/h/heroes.jpg</video:thumbnail_loc>
+<video:title>Heroes</video:title>
+<video:description>Žonglování v České republice - rok 2011.</video:description>
+<video:content_loc>http://juggling.tv/download/encoded/7134/heroes.mp4</video:content_loc>
+<video:player_loc>http://juggling.tv/nvplayer.swf?config=http://juggling.tv/nuevo/config.php?key=ae4028a26d43b24f68d3</video:player_loc>
+<video:duration>391</video:duration>
+<video:tag>Žonglování</video:tag>
+<video:category>Žonglování</video:category>
+<video:gallery_loc title="Žonglérská videa">http://zonglovani.info/video/</video:gallery_loc>
+<video:requires_subscription>no</video:requires_subscription>
+</video:video>
+</url>
+<url>
 <loc>http://zonglovani.info/video/hocus-pocus.html</loc>
 <video:video>
 <video:thumbnail_loc>http://zonglovani.info/video/img/h/hocus-pocus.jpg</video:thumbnail_loc>
@@ -244,6 +289,35 @@
 <video:description>Chytání a házení míčků za hlavou.</video:description>
 <video:player_loc>http://www.youtube.com/v/9HUef3QgdAw</video:player_loc>
 <video:duration>177</video:duration>
+<video:tag>Žonglování</video:tag>
+<video:category>Žonglování</video:category>
+<video:gallery_loc title="Žonglérská videa">http://zonglovani.info/video/</video:gallery_loc>
+<video:requires_subscription>no</video:requires_subscription>
+</video:video>
+</url>
+<url>
+<loc>http://zonglovani.info/video/jade-dussault.html</loc>
+<video:video>
+<video:thumbnail_loc>http://zonglovani.info/video/img/j/jade-dussault.jpg</video:thumbnail_loc>
+<video:title>Hula Hoop - Jade Dussault</video:title>
+<video:description>Točení s hula-hop kruhem. Upoutávka na Turbofest 418.</video:description>
+<video:player_loc>http://www.youtube.com/v/cFxDyq95TV0</video:player_loc>
+<video:duration>212</video:duration>
+<video:tag>Žonglování</video:tag>
+<video:category>Žonglování</video:category>
+<video:gallery_loc title="Žonglérská videa">http://zonglovani.info/video/</video:gallery_loc>
+<video:requires_subscription>no</video:requires_subscription>
+</video:video>
+</url>
+<url>
+<loc>http://zonglovani.info/video/jeff-wes.html</loc>
+<video:video>
+<video:thumbnail_loc>http://zonglovani.info/video/img/j/jeff-wes.jpg</video:thumbnail_loc>
+<video:title>Jeff Lutkus &amp; Wes Peden</video:title>
+<video:description>Video z roku 2006.</video:description>
+<video:content_loc>http://juggling.tv/download/encoded/11646/jeff-lutkus-wes-peden.mp4</video:content_loc>
+<video:player_loc>http://juggling.tv/nvplayer.swf?config=http://juggling.tv/nuevo/config.php?key=6d447670bebf90cf8fbc</video:player_loc>
+<video:duration>221</video:duration>
 <video:tag>Žonglování</video:tag>
 <video:category>Žonglování</video:category>
 <video:gallery_loc title="Žonglérská videa">http://zonglovani.info/video/</video:gallery_loc>
@@ -422,6 +496,21 @@
 </video:video>
 </url>
 <url>
+<loc>http://zonglovani.info/video/minimal-juggling.html</loc>
+<video:video>
+<video:thumbnail_loc>http://zonglovani.info/video/img/m/minimal-juggling.jpg</video:thumbnail_loc>
+<video:title>Minimal juggling</video:title>
+<video:description>Jorge a Hector z Mexika a jejich minimální žonglování s kužely.</video:description>
+<video:content_loc>http://juggling.tv/download/encoded/11497/minimal-juggling.mp4</video:content_loc>
+<video:player_loc>http://juggling.tv/nvplayer.swf?config=http://juggling.tv/nuevo/config.php?key=724a5a792d95540958b7</video:player_loc>
+<video:duration>42</video:duration>
+<video:tag>Žonglování</video:tag>
+<video:category>Žonglování</video:category>
+<video:gallery_loc title="Žonglérská videa">http://zonglovani.info/video/</video:gallery_loc>
+<video:requires_subscription>no</video:requires_subscription>
+</video:video>
+</url>
+<url>
 <loc>http://zonglovani.info/video/more-or-less.html</loc>
 <video:video>
 <video:thumbnail_loc>http://zonglovani.info/video/img/m/more-or-less.jpg</video:thumbnail_loc>
@@ -457,6 +546,21 @@
 <video:description>Owen Morse a Jon Wee předvádí balet s motorovými pilami a spoustu dalších nebezpečných, ale zábavných kousků.</video:description>
 <video:player_loc>http://www.youtube.com/v/lzZ50SbOm-A</video:player_loc>
 <video:duration>517</video:duration>
+<video:tag>Žonglování</video:tag>
+<video:category>Žonglování</video:category>
+<video:gallery_loc title="Žonglérská videa">http://zonglovani.info/video/</video:gallery_loc>
+<video:requires_subscription>no</video:requires_subscription>
+</video:video>
+</url>
+<url>
+<loc>http://zonglovani.info/video/prechac-juggling-in-berlin.html</loc>
+<video:video>
+<video:thumbnail_loc>http://zonglovani.info/video/img/p/prechac-juggling-in-berlin.jpg</video:thumbnail_loc>
+<video:title>Prechac Juggling in Berlin</video:title>
+<video:description>Christine Oymann a	Doreen Großmann žonglují s kužely v Berlíně.</video:description>
+<video:content_loc>http://juggling.tv/download/encoded/6961/prechac-juggling-in-berlin.mp4</video:content_loc>
+<video:player_loc>http://juggling.tv/nvplayer.swf?config=http://juggling.tv/nuevo/config.php?key=c8a0a44360e12b538ae3</video:player_loc>
+<video:duration>118</video:duration>
 <video:tag>Žonglování</video:tag>
 <video:category>Žonglování</video:category>
 <video:gallery_loc title="Žonglérská videa">http://zonglovani.info/video/</video:gallery_loc>
@@ -502,6 +606,20 @@
 <video:content_loc>http://juggling.tv/download/encoded/4244/roucoulette-sauce-poisson.mp4</video:content_loc>
 <video:player_loc>http://juggling.tv/nvplayer.swf?config=http://juggling.tv/nuevo/config.php?key=3c0a354615432832d9e8</video:player_loc>
 <video:duration>471</video:duration>
+<video:tag>Žonglování</video:tag>
+<video:category>Žonglování</video:category>
+<video:gallery_loc title="Žonglérská videa">http://zonglovani.info/video/</video:gallery_loc>
+<video:requires_subscription>no</video:requires_subscription>
+</video:video>
+</url>
+<url>
+<loc>http://zonglovani.info/video/seaside-collaboration.html</loc>
+<video:video>
+<video:thumbnail_loc>http://zonglovani.info/video/img/s/seaside-collaboration.jpg</video:thumbnail_loc>
+<video:title>Seaside collaboration</video:title>
+<video:description>Hrátky s kužely na pláži Mermejita.</video:description>
+<video:player_loc>http://www.youtube.com/v/14I4jZuWPGQ</video:player_loc>
+<video:duration>199</video:duration>
 <video:tag>Žonglování</video:tag>
 <video:category>Žonglování</video:category>
 <video:gallery_loc title="Žonglérská videa">http://zonglovani.info/video/</video:gallery_loc>
@@ -693,6 +811,214 @@
 <video:content_loc>http://juggling.tv/download/encoded/6500/solstix-ejc-2011-gala.mp4</video:content_loc>
 <video:player_loc>http://juggling.tv/nvplayer.swf?config=http://juggling.tv/nuevo/config.php?key=cbfb27ee05ddc000b50e</video:player_loc>
 <video:duration>456</video:duration>
+<video:tag>Žonglování</video:tag>
+<video:category>Žonglování</video:category>
+<video:gallery_loc title="Žonglérská videa">http://zonglovani.info/video/</video:gallery_loc>
+<video:requires_subscription>no</video:requires_subscription>
+</video:video>
+</url>
+<url>
+<loc>http://zonglovani.info/video/etc/adrienn-banhegyi.html</loc>
+<video:video>
+<video:thumbnail_loc>http://zonglovani.info/video/img/a/adrienn-banhegyi.jpg</video:thumbnail_loc>
+<video:title>Adrienn Banhegyi</video:title>
+<video:description>Adrienn Banhegyi předvání žonglování se švihadlem.</video:description>
+<video:content_loc>http://juggling.tv/download/encoded/11791/adrienn-banhegyi-kirche-mit-dem-seil-by-norbi-whitney.mp4</video:content_loc>
+<video:player_loc>http://juggling.tv/nvplayer.swf?config=http://juggling.tv/nuevo/config.php?key=42bf38d5c31dae7247e3</video:player_loc>
+<video:duration>157</video:duration>
+<video:tag>Žonglování</video:tag>
+<video:category>Žonglování</video:category>
+<video:gallery_loc title="Žonglérská videa">http://zonglovani.info/video/</video:gallery_loc>
+<video:requires_subscription>no</video:requires_subscription>
+</video:video>
+</url>
+<url>
+<loc>http://zonglovani.info/video/etc/elgringos.html</loc>
+<video:video>
+<video:thumbnail_loc>http://zonglovani.info/video/img/e/elgringos.jpg</video:thumbnail_loc>
+<video:title>Čtyři a sedm</video:title>
+<video:description>Passing se čtyřmi a sedmi kužely ve finském Espoo.</video:description>
+<video:content_loc>http://juggling.tv/download/encoded/12200/four-and-seven.mp4</video:content_loc>
+<video:player_loc>http://juggling.tv/nvplayer.swf?config=http://juggling.tv/nuevo/config.php?key=4d7a0ea30a1052012af1</video:player_loc>
+<video:duration>126</video:duration>
+<video:tag>Žonglování</video:tag>
+<video:category>Žonglování</video:category>
+<video:gallery_loc title="Žonglérská videa">http://zonglovani.info/video/</video:gallery_loc>
+<video:requires_subscription>no</video:requires_subscription>
+</video:video>
+</url>
+<url>
+<loc>http://zonglovani.info/video/etc/gmyt-ejc2013-1.html</loc>
+<video:video>
+<video:thumbnail_loc>http://zonglovani.info/video/img/g/gmyt-ejc2013-1.jpg</video:thumbnail_loc>
+<video:title>Give Me Your Tricks: 1/4 - EJC 2013</video:title>
+<video:description>První ze čtyř upoutávek na EJC 2013. Už se těšíte?</video:description>
+<video:content_loc>http://juggling.tv/download/encoded/12808/wwwejc2013org-v10.mp4</video:content_loc>
+<video:player_loc>http://juggling.tv/nvplayer.swf?config=http://juggling.tv/nuevo/config.php?key=7261ff93292042fed724</video:player_loc>
+<video:duration>149</video:duration>
+<video:tag>Žonglování</video:tag>
+<video:category>Žonglování</video:category>
+<video:gallery_loc title="Žonglérská videa">http://zonglovani.info/video/</video:gallery_loc>
+<video:requires_subscription>no</video:requires_subscription>
+</video:video>
+</url>
+<url>
+<loc>http://zonglovani.info/video/etc/juggling-documentation.html</loc>
+<video:video>
+<video:thumbnail_loc>http://zonglovani.info/video/img/j/juggling-documentation.jpg</video:thumbnail_loc>
+<video:title>Juggling Documentation</video:title>
+<video:description>Video z tréninku s kužely - hlavně balancování.</video:description>
+<video:player_loc>http://www.youtube.com/v/3Godd0LcNQQ</video:player_loc>
+<video:duration>315</video:duration>
+<video:tag>Žonglování</video:tag>
+<video:category>Žonglování</video:category>
+<video:gallery_loc title="Žonglérská videa">http://zonglovani.info/video/</video:gallery_loc>
+<video:requires_subscription>no</video:requires_subscription>
+</video:video>
+</url>
+<url>
+<loc>http://zonglovani.info/video/etc/kamones.html</loc>
+<video:video>
+<video:thumbnail_loc>http://zonglovani.info/video/img/k/kamones.jpg</video:thumbnail_loc>
+<video:title>Malabaristas Kamones</video:title>
+<video:description>Craig a Mo jsou dva šikovní žongléři z Portugalska.</video:description>
+<video:content_loc>http://juggling.tv/video/encoded/441432531%20%20YouTube%20-%20HD%201080p%20_File2HD.com_-JTV-i12464.mp4</video:content_loc>
+<video:player_loc>http://juggling.tv/nvplayer.swf?config=http://juggling.tv/nuevo/config.php?key=73c0167c0e4a0063d9c1</video:player_loc>
+<video:duration>175</video:duration>
+<video:tag>Žonglování</video:tag>
+<video:category>Žonglování</video:category>
+<video:gallery_loc title="Žonglérská videa">http://zonglovani.info/video/</video:gallery_loc>
+<video:requires_subscription>no</video:requires_subscription>
+</video:video>
+</url>
+<url>
+<loc>http://zonglovani.info/video/etc/midtown-greenway.html</loc>
+<video:video>
+<video:thumbnail_loc>http://zonglovani.info/video/img/m/midtown-greenway.jpg</video:thumbnail_loc>
+<video:title>Midtown Greenway</video:title>
+<video:description>Nick Laffey žongluje s kužely.</video:description>
+<video:content_loc>http://juggling.tv/download/encoded/12222/midtown-greenway.mp4</video:content_loc>
+<video:player_loc>http://juggling.tv/nvplayer.swf?config=http://juggling.tv/nuevo/config.php?key=b1309ea6a36453190b70</video:player_loc>
+<video:duration>227</video:duration>
+<video:tag>Žonglování</video:tag>
+<video:category>Žonglování</video:category>
+<video:gallery_loc title="Žonglérská videa">http://zonglovani.info/video/</video:gallery_loc>
+<video:requires_subscription>no</video:requires_subscription>
+</video:video>
+</url>
+<url>
+<loc>http://zonglovani.info/video/etc/pequena-rosa.html</loc>
+<video:video>
+<video:thumbnail_loc>http://zonglovani.info/video/img/p/pequena-rosa.jpg</video:thumbnail_loc>
+<video:title>La Pequeña Rosa</video:title>
+<video:description>Tohle video je dost na hlavu. A navíc pět hula-hop kruhů.</video:description>
+<video:content_loc>http://juggling.tv/download/encoded/12772/la-pequea-rosa-the-little-pink.mp4</video:content_loc>
+<video:player_loc>http://juggling.tv/nvplayer.swf?config=http://juggling.tv/nuevo/config.php?key=7a243e300638262f9242</video:player_loc>
+<video:duration>197</video:duration>
+<video:tag>Žonglování</video:tag>
+<video:category>Žonglování</video:category>
+<video:gallery_loc title="Žonglérská videa">http://zonglovani.info/video/</video:gallery_loc>
+<video:requires_subscription>no</video:requires_subscription>
+</video:video>
+</url>
+<url>
+<loc>http://zonglovani.info/video/etc/prechac-wmf.html</loc>
+<video:video>
+<video:thumbnail_loc>http://zonglovani.info/video/img/p/prechac-wmf.jpg</video:thumbnail_loc>
+<video:title>Préchac with my friends</video:title>
+<video:description>Žonglování s míčky ve více lidech.</video:description>
+<video:content_loc>http://juggling.tv/download/encoded/11747/prchac-with-my-friends.mp4</video:content_loc>
+<video:player_loc>http://juggling.tv/nvplayer.swf?config=http://juggling.tv/nuevo/config.php?key=7096a11b32ed26ecc2cb</video:player_loc>
+<video:duration>268</video:duration>
+<video:tag>Žonglování</video:tag>
+<video:category>Žonglování</video:category>
+<video:gallery_loc title="Žonglérská videa">http://zonglovani.info/video/</video:gallery_loc>
+<video:requires_subscription>no</video:requires_subscription>
+</video:video>
+</url>
+<url>
+<loc>http://zonglovani.info/video/etc/sicily-vacation.html</loc>
+<video:video>
+<video:thumbnail_loc>http://zonglovani.info/video/img/s/sicily-vacation.jpg</video:thumbnail_loc>
+<video:title>Sicily vacation</video:title>
+<video:description>Daniela Paličková s míčky na Sicílii. To je nabídka, která se neodmítá.</video:description>
+<video:player_loc>http://www.youtube.com/v/MfjAyN3JRr4</video:player_loc>
+<video:duration>139</video:duration>
+<video:tag>Žonglování</video:tag>
+<video:category>Žonglování</video:category>
+<video:gallery_loc title="Žonglérská videa">http://zonglovani.info/video/</video:gallery_loc>
+<video:requires_subscription>no</video:requires_subscription>
+</video:video>
+</url>
+<url>
+<loc>http://zonglovani.info/video/etc/vjpromo.html</loc>
+<video:video>
+<video:thumbnail_loc>http://zonglovani.info/video/img/v/vjpromo.jpg</video:thumbnail_loc>
+<video:title>Visual Juggling Promo</video:title>
+<video:description>Upoutávka na žonglérské video Visual Juggling.</video:description>
+<video:content_loc>http://juggling.tv/download/encoded/12505/visual-juggling-promo.mp4</video:content_loc>
+<video:player_loc>http://juggling.tv/nvplayer.swf?config=http://juggling.tv/nuevo/config.php?key=c38f61139ae78da3f761</video:player_loc>
+<video:duration>145</video:duration>
+<video:tag>Žonglování</video:tag>
+<video:category>Žonglování</video:category>
+<video:gallery_loc title="Žonglérská videa">http://zonglovani.info/video/</video:gallery_loc>
+<video:requires_subscription>no</video:requires_subscription>
+</video:video>
+</url>
+<url>
+<loc>http://zonglovani.info/video/etc/zombie-day.html</loc>
+<video:video>
+<video:thumbnail_loc>http://zonglovani.info/video/img/z/zombie-day.jpg</video:thumbnail_loc>
+<video:title>Juggling Zombie Day</video:title>
+<video:description>Žonglující zombie.</video:description>
+<video:content_loc>http://juggling.tv/download/encoded/12563/juggling-zombie-day-in-toulouse-28-10-2012.mp4</video:content_loc>
+<video:player_loc>http://juggling.tv/nvplayer.swf?config=http://juggling.tv/nuevo/config.php?key=8b1a0843daccb9766499</video:player_loc>
+<video:duration>85</video:duration>
+<video:tag>Žonglování</video:tag>
+<video:category>Žonglování</video:category>
+<video:gallery_loc title="Žonglérská videa">http://zonglovani.info/video/</video:gallery_loc>
+<video:requires_subscription>no</video:requires_subscription>
+</video:video>
+</url>
+<url>
+<loc>http://zonglovani.info/video/etc/4-count-blind-passes.html</loc>
+<video:video>
+<video:thumbnail_loc>http://zonglovani.info/video/img/4/4-count-blind-passes.jpg</video:thumbnail_loc>
+<video:title>4-count blind passes</video:title>
+<video:description>Návod na házení poslepu při passování s šesti kužely.</video:description>
+<video:content_loc>http://juggling.tv/download/encoded/11840/4-count-blind-passes-tutorial-ija2012.mp4</video:content_loc>
+<video:player_loc>http://juggling.tv/nvplayer.swf?config=http://juggling.tv/nuevo/config.php?key=b0df020455f6ef5a9db8</video:player_loc>
+<video:duration>188</video:duration>
+<video:tag>Žonglování</video:tag>
+<video:category>Žonglování</video:category>
+<video:gallery_loc title="Žonglérská videa">http://zonglovani.info/video/</video:gallery_loc>
+<video:requires_subscription>no</video:requires_subscription>
+</video:video>
+</url>
+<url>
+<loc>http://zonglovani.info/video/levistick/fina-magic.html</loc>
+<video:video>
+<video:thumbnail_loc>http://zonglovani.info/video/img/f/fina-magic.jpg</video:thumbnail_loc>
+<video:title>Fina magic</video:title>
+<video:description>Kinessis je skupina zabývající se přetvářením reality k obrazu svému a úžasu našemu.</video:description>
+<video:content_loc>http://juggling.tv/download/encoded/11681/fina-magic.mp4</video:content_loc>
+<video:player_loc>http://juggling.tv/nvplayer.swf?config=http://juggling.tv/nuevo/config.php?key=fdac035c752743b7e9d0</video:player_loc>
+<video:duration>165</video:duration>
+<video:tag>Žonglování</video:tag>
+<video:category>Žonglování</video:category>
+<video:gallery_loc title="Žonglérská videa">http://zonglovani.info/video/</video:gallery_loc>
+<video:requires_subscription>no</video:requires_subscription>
+</video:video>
+</url>
+<url>
+<loc>http://zonglovani.info/video/levistick/flow.html</loc>
+<video:video>
+<video:thumbnail_loc>http://zonglovani.info/video/img/f/flow.jpg</video:thumbnail_loc>
+<video:title>Flow</video:title>
+<video:description>Josefína ze skupiny Kinessis na pláži u moře.</video:description>
+<video:content_loc>http://juggling.tv/download/encoded/12622/flow.mp4</video:content_loc>
+<video:player_loc>http://juggling.tv/nvplayer.swf?config=http://juggling.tv/nuevo/config.php?key=329428546289d02ba92b</video:player_loc>
+<video:duration>154</video:duration>
 <video:tag>Žonglování</video:tag>
 <video:category>Žonglování</video:category>
 <video:gallery_loc title="Žonglérská videa">http://zonglovani.info/video/</video:gallery_loc>

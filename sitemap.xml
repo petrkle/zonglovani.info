@@ -177,6 +177,12 @@
    </url>
 			
    <url>
+      <loc>http://zonglovani.info/changelog-34.html</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
       <loc>http://zonglovani.info/changelog-4.html</loc>
       <changefreq>monthly</changefreq>
       <priority>0.4</priority>
@@ -6303,7 +6309,25 @@
    </url>
 			
    <url>
+      <loc>http://zonglovani.info/kalendar/udalost-20130221-20130221-pek-1361288871.html</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.7</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/kalendar/udalost-20130223-20130223-pek-1360768310.html</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.7</priority>
+   </url>
+			
+   <url>
       <loc>http://zonglovani.info/kalendar/udalost-20130223-20130224-pek-1360696762.html</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.7</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/kalendar/udalost-20130302-20130303-pek-1361288677.html</loc>
       <changefreq>monthly</changefreq>
       <priority>0.7</priority>
    </url>
@@ -7251,6 +7275,12 @@
    </url>
 			
    <url>
+      <loc>http://zonglovani.info/lide/slunculak.html</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.6</priority>
+   </url>
+			
+   <url>
       <loc>http://zonglovani.info/lide/snek.html</loc>
       <changefreq>weekly</changefreq>
       <priority>0.6</priority>
@@ -7348,12 +7378,6 @@
 			
    <url>
       <loc>http://zonglovani.info/lide/zongler.html</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.6</priority>
-   </url>
-			
-   <url>
-      <loc>http://zonglovani.info/lide/zongler2.html</loc>
       <changefreq>weekly</changefreq>
       <priority>0.6</priority>
    </url>
@@ -22665,6 +22689,12 @@
    </url>
 			
    <url>
+      <loc>http://zonglovani.info/tip/archiv22.html</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
       <loc>http://zonglovani.info/tip/archiv3.html</loc>
       <changefreq>monthly</changefreq>
       <priority>0.4</priority>
@@ -22720,6 +22750,12 @@
 			
    <url>
       <loc>http://zonglovani.info/ulita/en.html</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/valentyn/</loc>
       <changefreq>monthly</changefreq>
       <priority>0.4</priority>
    </url>

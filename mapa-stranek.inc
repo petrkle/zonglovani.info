@@ -550,6 +550,9 @@
 		<li><a href="/ulita/en.html">Juggling at Ulita</a></li>
 		</ul>
 		</li>
+		<li><a name="valentyn"></a><a href="/valentyn/">Svatý Valentýn</a>
+		
+		</li>
 		<li><a name="video"></a><a href="/video/">Žonglérská videa</a>
 		<ul>
 		<li><a href="/video/3-play-in-prague.html">3 play in Prague</a></li>

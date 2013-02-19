@@ -211,13 +211,13 @@
 2013-02-15*Give Me Your Tricks*/video/etc/gmyt-ejc2013-1.html*gmyt-ejc2013-1.jpg*První ze čtyř upoutávek na EJC 2013. Už se těšíte?
 2013-02-18*Sobotní trénink*/kalendar/udalost-20130223-20130223-pek-1360768310.html*f.png*Sobotní trénink žonglování v Praze. Zkušení lektoři, půjčovna žonglovátek a dobrá hudba.
 2013-02-24*Diabolo u moře*/obrazky-na-plochu/bolo-more.html*bolo-more.jpg*Červené diabolo Henrys Cirkus na břehu středozemního moře. Tapeta na plochu počítače s žonglérskou tématikou.
-2013-02-25*Dvojitá krabice*/micky/3/dvojita-krabice.html*micky-3-doubleboxc.png*Trik známý také pod anglickým názvem - double box.
+2013-02-25*Víkend plný žonglování*/kalendar/udalost-20130302-20130303-pek-1361288677.html*vpz2.jpg*Už druhý víkend plný žonglování.
 2013-03-04*Šest míčků*/micky/6/*micky-6-fontanaa.png*Základní trik se šesti míčky.
 2013-03-11*Žonglérské vizitky*/download/vizitky.html*package-vizitky.png*Vizitky žonglérova slabikáře. Tiskněte a rozšiřujte :-)
 2013-03-18*Animace siteswapů*/animace/siteswap/*siteswapb.png*Animované ztvárnění siteswapů s míčky.
-2013-03-25*
-2013-04-01*
-2013-04-08*
+2013-03-25*Dvojitá krabice*/micky/3/dvojita-krabice.html*micky-3-doubleboxc.png*Trik známý také pod anglickým názvem - double box.
+2013-04-01*D-Clubs*/video/d-clubs.html*d-clubs.jpg*Flor Louloudy a Jacopo Candeloro žonglují s kužely.
+2013-04-08*D-Clubs 2*/video/d-clubs2.html*d-clubs.jpg*Žonglování v jedné italské domácnosti.
 2013-04-15*
 2013-04-22*
 2013-04-29*

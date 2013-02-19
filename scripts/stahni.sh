@@ -5,6 +5,6 @@ wget \
 	--reject='*prihlaseni.php*' \
 	--accept=.html,.php,.xml \
 	--recursive \
-	--level=500 \
+	--level=900 \
  	--quiet \
 	http://zongl.info/ \
