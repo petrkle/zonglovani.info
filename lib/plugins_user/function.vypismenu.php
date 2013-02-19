@@ -17,7 +17,7 @@ function smarty_function_vypismenu($params, &$smarty){
 			$navrat.='<li><h4>'.$texty[$foo].'</h4>';
 		}else{
 
-			if($foo==1 and is_logged() and isset($_SESSION['changes'])){
+			if($foo==1 and is_logged() and isset($_SESSION['changes_pocet']) and $_SESSION['changes_pocet']>0){
 				$pocetnovinek=' <span class="pocetnovinek">'.$_SESSION['changes_pocet'].'</span>';
 			}else{
 				$pocetnovinek='';
