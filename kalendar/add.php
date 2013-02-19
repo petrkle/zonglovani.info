@@ -8,7 +8,7 @@ if(is_logged()){
 	$now=time();
 
 $smarty->assign('titulek','Přidat událost do kalendáře');
-$smarty->assign('styly',array('k-popup'));
+$smarty->assign('styly',array('kpopup'));
 
 $udalost=get_udalost_post();
 

@@ -7,7 +7,7 @@ my @adresy=(
 "/a.css",
 "/fb.css",
 "/fba.css",
-"/k.css",
+"/kpopup.css",
 "/m.css",
 "/r.css",
 "/s.css",

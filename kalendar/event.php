@@ -49,7 +49,7 @@ if($udalost){
 		}
 		$titulek=$udalost['title'].' '.$doba.' - kalendář žonglování';
 		$smarty->assign('titulek',$titulek);
-		$smarty->assign('description',$titulek);
+		$smarty->assign('description',$udalost['title'].' '.$doba.'. '.$udalost['desc']);
 		$smarty->assign('nadpis',$udalost['title']);
 		$smarty->assign('udalost',$udalost);
 		$smarty->assign('aktDate', date('j. ',$now).date('n. ',$now).date(' Y',$now));
@@ -89,7 +89,7 @@ if($udalost){
 
 		if(isset($_POST['odeslat']) and !$stare){
 			# uprava udalosti
-			$smarty->assign('styly',array('k-popup'));
+			$smarty->assign('styly',array('kpopup'));
 			$smarty->assign('feedback',false);
 			if(isset($_GET['action'])){
 				$udalost=array_merge(get_event_data($id.'.cal'),get_udalost_post());
