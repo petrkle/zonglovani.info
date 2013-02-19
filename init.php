@@ -79,7 +79,7 @@ define('STAT_EXPIRE',31);
 
 define('MAX_BIG_LETTERS',0.7); 
 
-define('CSS_CHKSUM','3007075779'); 
+define('CSS_CHKSUM','3993077421'); 
 
 $hodnoceni=get_hodnoceni_stranka($_SERVER['REQUEST_URI']);
 $smarty->assign('hodnoceni',$hodnoceni);

@@ -13,6 +13,10 @@ if(isset($_GET['rss'])){
 	$rss=false;
 }
 
+if(is_logged() and isset($_SESSION['changes']) and is_array($_SESSION['changes']) and count($_SESSION['changes']>0)){
+	unset($_SESSION['changes_pocet']);
+}
+
 $smarty->assign_by_ref('trail', $trail->path);
 
 $smarty->assign('styly','r');
