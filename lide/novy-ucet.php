@@ -3,7 +3,8 @@ require('../init.php');
 require('../func.php');
 
 $titulek='Založit účet';
-$smarty->assign('titulek',$titulek);
+$smarty->assign_by_ref('titulek',$titulek);
+$smarty->assign('description','Založení nového účtu v žonglérově slabikáři. Zviditelni se v žonglérském světě.');
 
 $trail = new Trail();
 $trail->addStep('Seznam žonglérů',LIDE_URL);
