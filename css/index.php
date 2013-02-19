@@ -10,7 +10,7 @@ $vypis=array();
 $adr=opendir('.');
 while (false!==($file = readdir($adr))) {
 	if (preg_match('/.+\.css$/',$file)){
-		array_push($vypis,$file);
+		array_push($vypis,basename($file,'.css'));
 	};
 };
 closedir($adr); 
@@ -30,5 +30,3 @@ $smarty->assign_by_ref('vypis', $vypis);
 $smarty->display('hlavicka.tpl');
 $smarty->display('css.tpl');
 $smarty->display('paticka.tpl');
-
-?>

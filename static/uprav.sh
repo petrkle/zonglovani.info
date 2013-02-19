@@ -30,8 +30,8 @@ cp LICENCE.txt $ZSDIR
 rm $ZSDIR/img/t/tel-*
 rm $ZSDIR/w-*.css
 rm $ZSDIR/ww-*.css
-rm $ZSDIR/fb.css
-rm $ZSDIR/fba.css
+rm $ZSDIR/fb-*.css
+rm $ZSDIR/fba-*.css
 rm $ZSDIR/img/e/exkurze*
 rm $ZSDIR/img/f/fire-?.jpg
 rm $ZSDIR/img/t/tenisak.jpg
