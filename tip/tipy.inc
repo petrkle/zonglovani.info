@@ -216,7 +216,7 @@
 2013-03-11*Žonglérské vizitky*/download/vizitky.html*package-vizitky.png*Vizitky žonglérova slabikáře. Tiskněte a rozšiřujte :-)
 2013-03-18*Animace siteswapů*/animace/siteswap/*siteswapb.png*Animované ztvárnění siteswapů s míčky.
 2013-03-25*Dvojitá krabice*/micky/3/dvojita-krabice.html*micky-3-doubleboxc.png*Trik známý také pod anglickým názvem - double box.
-2013-04-01*D-Clubs*/video/d-clubs.html*d-clubs.jpg*Flor Louloudy a Jacopo Candeloro žonglují s kužely.
+2013-04-01*D-Clubs*/video/d-clubs.html*d-clubs.jpg*Flor Luludy a Jacopo Candeloro žonglují s kužely.
 2013-04-08*D-Clubs 2*/video/d-clubs2.html*d-clubs.jpg*Žonglování v jedné italské domácnosti.
 2013-04-15*
 2013-04-22*
