@@ -26,7 +26,9 @@ if(isset($_GET['deleted']) or isset($_POST['deleted'])){
 }
 
 if($udalost){
+	if(!isset($trash)){
 		$smarty->assign('feedback',true);
+	}
 	if(date('Y',$udalost['start']) != date('Y',$udalost['end'])){
 		$append_y=' Y';
 	}else{
@@ -88,6 +90,7 @@ if($udalost){
 		if(isset($_POST['odeslat']) and !$stare){
 			# uprava udalosti
 			$smarty->assign('styly',array('k-popup'));
+			$smarty->assign('feedback',false);
 			if(isset($_GET['action'])){
 				$udalost=array_merge(get_event_data($id.'.cal'),get_udalost_post());
 				$chyby=event_validation($udalost,$now);
