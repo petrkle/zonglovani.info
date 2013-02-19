@@ -86,7 +86,8 @@ if($udalost){
 		}
 
 		if(isset($_POST['odeslat']) and !$stare){
-			$smarty->assign('styly',array('k'));
+			# uprava udalosti
+			$smarty->assign('styly',array('k-popup'));
 			if(isset($_GET['action'])){
 				$udalost=array_merge(get_event_data($id.'.cal'),get_udalost_post());
 				$chyby=event_validation($udalost,$now);

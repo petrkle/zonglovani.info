@@ -4,9 +4,11 @@
 </p>
 {/if}
 <table class="kalendar" cellspacing="0" cellpadding="0">
+<tr>
+<td colspan="3" class="caption">{$caption|escape}</td>
+</tr>
 		<tr>
 <td colspan="3" class="kalnav">{include file='kalendar-mon-nav.tpl'}</td></tr>
-<caption>{$caption|escape}</caption>
     {* nested arrays month, week, day *}    
     {section name=week loop=$month}
     {section name=day loop=$month[week]}
