@@ -101,7 +101,11 @@ if(isset($_GET['id'])){
 	$smarty->assign_by_ref('download_id', $id);
 
 	$smarty->display('hlavicka.tpl');
-	$smarty->display('download.detail.tpl');
+	if(is_file($smarty->template_dir."/download.static.$id.tpl")){
+		$smarty->display('download.static.'.$id.'.tpl');
+	}else{
+		$smarty->display('download.detail.tpl');
+	}
 	$smarty->display('paticka.tpl');
 	}else{
 		require('../404.php');
