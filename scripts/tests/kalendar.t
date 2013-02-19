@@ -29,7 +29,7 @@ my $content=$response->content();
 
 ok(defined($response), 'Stránka kalendáře je dostupná');
 ok($content =~ /<strong class="add">Přidat novou<\/strong>/, 'Přidávat mohou přihlášení uživatelé.');
-ok($content =~ /<caption>$mesicrok<\/caption>/, 'Aktuální měsíc');
+ok($content =~ /<td colspan="3" class="caption">$mesicrok<\/td>/, 'Aktuální měsíc');
 ok($content =~ /Dnes je: $mday\. $mesic\. $year/, 'Dnešní den');
 
 my $zs_prihlaseni = $bot->get($loginurl);
