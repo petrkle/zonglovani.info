@@ -154,7 +154,7 @@
 2012-03-12*Žonglování v Ulitě*/ulita/?20120205*ulita.cz.png*Pravidelné nedělní žonglování v DDM Ulita. Přijít mohou začínající i zkušení žongléři a žonglérky.
 2012-03-19*Simulátory žonglování*/software.html*joepass.png*Počítačové programy, které po zadání triku v zobrazí animaci. Vhodné při učení nových triků.
 2012-03-26*Anglicko-český žonglérský slovníček*/aczslovnicek.html*slovnik.jpg*Několik slovíček, které se často vyskytují v anglicky psaných textech o žonglování.
-2012-04-01*Žonglování na olympiádu*/olympiada/*oh.png*Petice za zařazení žonglování mezi olympijské sporty. 
+2012-04-01*Žonglování na olympiádu*/olympiada/*oh.png*Petice za zařazení žonglování mezi olympijské sporty.
 2012-04-02*Rybičky*/kuzely/3/rybicky.html*rybickab.png*Obtížný způsob házení kuželů. Anglicky označovaný flat.
 2012-04-09*Košický kužel*/kalendar/udalost-20120413-20120415-pek-1328720895.html*kk12.png*Festival žonglování v Košicích.
 2012-04-16*3 count*/kuzely/passing/3count.html*kuzely-passing-3counta.png*Každý 3. hod je pass. Jako valčík, na tři doby.
@@ -213,9 +213,11 @@
 2013-02-24*Diabolo u moře*/obrazky-na-plochu/bolo-more.html*bolo-more.jpg*Červené diabolo Henrys Cirkus na břehu středozemního moře. Tapeta na plochu počítače s žonglérskou tématikou.
 2013-02-25*Víkend plný žonglování*/kalendar/udalost-20130302-20130303-pek-1361288677.html*vpz2.jpg*Už druhý víkend plný žonglování.
 2013-03-04*Šest míčků*/micky/6/*micky-6-fontanaa.png*Základní trik se šesti míčky.
+2013-03-08*Mezinárodní den žen*/mdz/*mdz.png*Jaro je plné dívčích svátků. Oslavte mezinárodní den žen žonglováním.
 2013-03-11*Žonglérské vizitky*/download/vizitky.html*package-vizitky.png*Vizitky žonglérova slabikáře. Tiskněte a rozšiřujte :-)
 2013-03-18*Animace siteswapů*/animace/siteswap/*siteswapb.png*Animované ztvárnění siteswapů s míčky.
 2013-03-25*Dvojitá krabice*/micky/3/dvojita-krabice.html*micky-3-doubleboxc.png*Trik známý také pod anglickým názvem - double box.
+2013-04-01*Žonglování na olympiádu*/olympiada/*oh.png*Petice za zařazení žonglování mezi olympijské sporty.
 2013-04-01*D-Clubs*/video/d-clubs.html*d-clubs.jpg*Flor Luludy a Jacopo Candeloro žonglují s kužely.
 2013-04-08*D-Clubs 2*/video/d-clubs2.html*d-clubs.jpg*Žonglování v jedné italské domácnosti.
 2013-04-15*
