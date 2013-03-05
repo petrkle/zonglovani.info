@@ -1,7 +1,5 @@
-VERSION=0.5
-
 help:
-	@echo "zip   - vytvori offline verzi pro nahrani na phonegap.com"
+	@echo "zip   - vytvori offline verzi pro Apache Cordova"
 	@echo "clean - smaze generovane adresare"
 	@echo "help  - napoveda"
 
@@ -9,7 +7,6 @@ zip:
 	./stahni.sh
 	./uprav.sh
 	./fixlinks.sh
-	./zabal.sh ${VERSION}
 
 clean:
-	rm -rf zongleruv-slabikar zongleruv-slabikar*.zip
+	rm -rf zongleruv-slabikar
