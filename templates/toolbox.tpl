@@ -42,7 +42,7 @@
 <li><a href="ftp://math.feld.cvut.cz/pub/olsak/vlna" onclick="_gaq.push(['_trackPageview','/goto/math.feld.cvut.cz/pub/olsak/vlna']);" class="external">Vlna</a> - nedělitelné mezery v TeXu.</li>
 <li><a href="http://www.tug.org/applications/pdftex/" onclick="_gaq.push(['_trackPageview','/goto/tug.org/applications/pdftex']);" class="external">PdfLaTex</a> - vysázení pdf verze.</li>
 <li><a href="http://quantumelephant.co.uk/bookbinder/bookbinder.html" onclick="_gaq.push(['_trackPageview','/goto/quantumelephant.co.uk/bookbinder/bookbinder.html']);" class="external">Bookbinder</a> - úprava pdf pro svázání.</li>
-<li><a href="https://phonegap.com/" onclick="_gaq.push(['_trackPageview','/goto/phonegap.com']);" class="external">PhoneGap</a> - aplikace pro mobilní telefony.</li>
+<li><a href="http://cordova.apache.org/" onclick="_gaq.push(['_trackPageview','/goto/cordova.apache.org']);" class="external">Apache Cordova</a> - aplikace pro mobilní telefony.</li>
 <li><a href="http://www.splitbrain.org/projects/monsterid" onclick="_gaq.push(['_trackPageview','/goto/splitbrain.org/projects/monsterid']);" class="external">MonsterID</a> - automaticky generovaný avatar.</li>
 {*<li><a href="http://" onclick="_gaq.push(['_trackPageview','/goto/']);" class="external"></a> - </li>*}
 </ul>
