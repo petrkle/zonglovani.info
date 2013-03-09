@@ -214,6 +214,7 @@
 2013-02-25*Víkend plný žonglování*/kalendar/udalost-20130302-20130303-pek-1361288677.html*vpz2.jpg*Už druhý víkend plný žonglování.
 2013-03-04*Šest míčků*/micky/6/*micky-6-fontanaa.png*Základní trik se šesti míčky.
 2013-03-08*Mezinárodní den žen*/mdz/*mdz.png*Jaro je plné dívčích svátků. Oslavte mezinárodní den žen žonglováním.
+2013-03-09*Lorgnejus*/video/etc/lorgnejus.html*lorgnejus.jpg*Hrátky s míčky, kužely a světlem.
 2013-03-11*Žonglérské vizitky*/download/vizitky.html*package-vizitky.png*Vizitky žonglérova slabikáře. Tiskněte a rozšiřujte :-)
 2013-03-18*Animace siteswapů*/animace/siteswap/*siteswapb.png*Animované ztvárnění siteswapů s míčky.
 2013-03-25*Dvojitá krabice*/micky/3/dvojita-krabice.html*micky-3-doubleboxc.png*Trik známý také pod anglickým názvem - double box.
