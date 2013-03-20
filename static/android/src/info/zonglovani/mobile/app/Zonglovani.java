@@ -22,6 +22,10 @@ package info.zonglovani.mobile.app;
 import android.os.Bundle;
 import org.apache.cordova.*;
 
+import android.app.Activity;
+import android.view.Menu;
+import android.view.MenuItem;
+
 public class Zonglovani extends DroidGap
 {
     @Override
@@ -32,5 +36,23 @@ public class Zonglovani extends DroidGap
         super.loadUrl(Config.getStartUrl());
         //super.loadUrl("file:///android_asset/www/index.html")
     }
-}
 
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.menu, menu);
+        return true;
+    }   
+
+		@Override
+		public boolean onOptionsItemSelected(MenuItem item) {
+				// Handle item selection
+				switch (item.getItemId()) {
+				case R.id.help:
+        		super.loadUrl("file:///android_asset/www/about.html");
+						return true;
+				default:
+						return super.onOptionsItemSelected(item);
+				}
+		}
+
+}
