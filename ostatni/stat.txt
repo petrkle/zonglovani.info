@@ -1,13 +1,9 @@
 obrazky*1978
 galerie*64
-video*201
+video*203
 testy*528
-<<<<<<< HEAD
 fulltext_update*1362079614
-=======
-fulltext_update*1337247852
->>>>>>> Žonglérův slabikář pro Android - doplnění stránky o programu.
-last_update*1362512090
+last_update*1362512836
 animated_gif*164
 animated_siteswaps*316
-img*1540
+img*1544

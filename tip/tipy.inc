@@ -217,18 +217,18 @@
 2013-03-09*Lorgnejus*/video/etc/lorgnejus.html*lorgnejus.jpg*Hrátky s míčky, kužely a světlem.
 2013-03-11*Žonglérské vizitky*/download/vizitky.html*package-vizitky.png*Vizitky žonglérova slabikáře. Tiskněte a rozšiřujte :-)
 2013-03-18*Animace siteswapů*/animace/siteswap/*siteswapb.png*Animované ztvárnění siteswapů s míčky.
-2013-03-25*Dvojitá krabice*/micky/3/dvojita-krabice.html*micky-3-doubleboxc.png*Trik známý také pod anglickým názvem - double box.
+2013-03-25*Chytání pod rukou*/video/navody/underarm-catches-tutorial.html*underarm-catches-tutorial.jpg*Video návod na chytání míčků pod rukou od Meagan Nouisové.
 2013-04-01*Žonglování na olympiádu*/olympiada/*oh.png*Petice za zařazení žonglování mezi olympijské sporty.
-2013-04-01*D-Clubs*/video/d-clubs.html*d-clubs.jpg*Flor Luludy a Jacopo Candeloro žonglují s kužely.
-2013-04-08*D-Clubs 2*/video/d-clubs2.html*d-clubs.jpg*Žonglování v jedné italské domácnosti.
-2013-04-15*
-2013-04-22*
-2013-04-29*
-2013-05-06*
-2013-05-13*
-2013-05-20*
-2013-05-27*
-2013-06-03*
+2013-04-02*Woko vol.3*/kalendar/udalost-20130407-20130407-martinfabera-1363457064.html*woko3.png*Třetí žonglérská dílna v klubu Woko. Zve FireshowJBC.
+2013-04-08*D-Clubs*/video/d-clubs.html*d-clubs.jpg*Flor Luludy a Jacopo Candeloro žonglují s kužely.
+2013-04-15*D-Clubs 2*/video/d-clubs2.html*d-clubs.jpg*Žonglování v jedné italské domácnosti.
+2013-04-22*Dvojitá krabice*/micky/3/dvojita-krabice.html*micky-3-doubleboxc.png*Trik známý také pod anglickým názvem - double box.
+2013-04-29*Sekání*/kuzely/3/sekani.html*kuzely-3-sekania.png*Chops s kužely.
+2013-05-06*Žongléři z Brna*/lide/misto/brno.html*brnoznak.png*Seznam žonglérů z Brna.
+2013-05-13*Roztočení diabola*/diabolo/roztoceni-diabola.html*roztocenia.png*Jak snadno a rychle roztočit diabolo.
+2013-05-20*Slip on*/video/etc/slipon.html*slipon.jpg*Passování s kužely v Kyotu, Japonsko.
+2013-05-27*Robot*/micky/3/robot.html*micky-3-robota.png*Míčky nebudou opisovat obloučky jako obvykle. Naopak, cílem tohoto triku je míčky házet a přesunovat rovně.
+2013-06-03*Odražení míčku čelem*/micky/3/celo.html*celob.png*Jednoduchý a velmi efektní trik. K jeho provedení jsou potřeba skákavé míčky.
 2013-06-10*
 2013-06-17*
 2013-06-24*
