@@ -597,8 +597,9 @@ function get_search_results($query, $start, $category, $searchtype, $results, $d
 				$title = $sph_messages["Untitled"];
 			$regs = Array();
 
-			if (strlen($title) > 80) {
-				$title = substr($title, 0,76)."...";
+			$charset='utf-8';
+			if (mb_strlen($title,$charset) > 80) {
+				$title = mb_substr($title,0,76,$charset)."...";
 			}
 			foreach($words['hilight'] as $change) {
 				while (@eregi("[^\>](".$change.")[^\<]", " ".$title." ", $regs)) {
@@ -656,6 +657,3 @@ function get_search_results($query, $start, $category, $searchtype, $results, $d
 	return $full_result;
 
 }
-
-
-?>
