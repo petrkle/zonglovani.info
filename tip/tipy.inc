@@ -221,7 +221,7 @@
 2013-04-01*Žonglování na olympiádu*/olympiada/*oh.png*Petice za zařazení žonglování mezi olympijské sporty.
 2013-04-02*Woko vol.3*/kalendar/udalost-20130407-20130407-martinfabera-1363457064.html*woko3.png*Třetí žonglérská dílna v klubu Woko. Zve FireshowJBC.
 2013-04-08*D-Clubs*/video/d-clubs.html*d-clubs.jpg*Flor Luludy a Jacopo Candeloro žonglují s kužely.
-2013-04-15*D-Clubs 2*/video/d-clubs2.html*d-clubs.jpg*Žonglování v jedné italské domácnosti.
+2013-04-15*D-Clubs 2*/video/d-clubs2.html*d-clubs2.jpg*Žonglování v jedné italské domácnosti.
 2013-04-22*Dvojitá krabice*/micky/3/dvojita-krabice.html*micky-3-doubleboxc.png*Trik známý také pod anglickým názvem - double box.
 2013-04-29*Sekání*/kuzely/3/sekani.html*kuzely-3-sekania.png*Chops s kužely.
 2013-05-06*Žongléři z Brna*/lide/misto/brno.html*brnoznak.png*Seznam žonglérů z Brna.
