@@ -6,5 +6,6 @@ $juggling_events=array(
 	'metlili'=>array('title'=>'Metlili','public'=>true),
 	'levistick'=>array('title'=>'Levistick','public'=>true),
 	'etc'=>array('title'=>'Různé','public'=>false),
+	'tip'=>array('title'=>'Tip','public'=>false),
 	);
 

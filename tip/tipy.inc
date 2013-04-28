@@ -223,20 +223,20 @@
 2013-04-08*D-Clubs*/video/d-clubs.html*d-clubs.jpg*Flor Luludy a Jacopo Candeloro žonglují s kužely.
 2013-04-15*D-Clubs 2*/video/d-clubs2.html*d-clubs2.jpg*Žonglování v jedné italské domácnosti.
 2013-04-22*Dvojitá krabice*/micky/3/dvojita-krabice.html*micky-3-doubleboxc.png*Trik známý také pod anglickým názvem - double box.
-2013-04-29*Sekání*/kuzely/3/sekani.html*kuzely-3-sekania.png*Chops s kužely.
-2013-05-06*Žongléři z Brna*/lide/misto/brno.html*brnoznak.png*Seznam žonglérů z Brna.
-2013-05-13*Roztočení diabola*/diabolo/roztoceni-diabola.html*roztocenia.png*Jak snadno a rychle roztočit diabolo.
+2013-04-29*Dominik Grohmann*/video/tip/dominik-grohmann.html*dgj.jpg*Dominik Grohmann žongluje s kužely.
+2013-05-06*Sekání*/kuzely/3/sekani.html*kuzely-3-sekania.png*Chops s kužely.
+2013-05-13*Žonglpárty*/kalendar/udalost-20130518-20130518-pek-1365876912.html*zonglparty.png*4. ročník festivalu žonglování a volnočasových aktivit.
 2013-05-20*Slip on*/video/etc/slipon.html*slipon.jpg*Passování s kužely v Kyotu, Japonsko.
-2013-05-27*Robot*/micky/3/robot.html*micky-3-robota.png*Míčky nebudou opisovat obloučky jako obvykle. Naopak, cílem tohoto triku je míčky házet a přesunovat rovně.
-2013-06-03*Odražení míčku čelem*/micky/3/celo.html*celob.png*Jednoduchý a velmi efektní trik. K jeho provedení jsou potřeba skákavé míčky.
-2013-06-10*
-2013-06-17*
-2013-06-24*
-2013-07-01*
-2013-07-08*
-2013-07-15*
-2013-07-22*
-2013-07-29*
+2013-05-27*Aleje 2013*/kalendar/udalost-20130824-20130830-pek-1367140489.html*aleje-logo.jpg*12. mezinárodní žonglérská a divadelní dílna. Počet míst je omezen. Přihlaš se co nejdřív.
+2013-06-03*Žonglobalizace*/kalendar/udalost-20130607-20130609-esteladefuego-1362080475.html*zonglobalizace13.jpg*Mezinárodní multižánrový festival hudby, nového cirkusu a divadla.
+2013-06-10*Fair Play Vol. 3*/kalendar/udalost-20130615-20130615-pek-1365877234.html*frystak13.jpg*Mezinárodní setkání netradičních sportů a umění.
+2013-06-17*Roztočení diabola*/diabolo/roztoceni-diabola.html*roztocenia.png*Jak snadno a rychle roztočit diabolo.
+2013-06-24*European Juggling Convention*/kalendar/udalost-20130727-20130803-pek-1357415255.html*ejc2013.png*Evropské setkání žonglérů v Toulouse začíná za měsíc. Nejvyšší čas sehnat si odvoz do Francie.
+2013-07-01*Slovenská Už zas umelecká Letná Oslava Žonglovania*/kalendar/udalost-20130705-20130707-mizu-1366498343.html*suloz13.jpg*Voľná stanovačka/stretávka žonglérov a iných podivínov bez akýchkoľvek záväzkov, poplatkov či programu.
+2013-07-08*Žongléři z Brna*/lide/misto/brno.html*brnoznak.png*Seznam žonglérů z Brna.
+2013-07-15*Odražení míčku čelem*/micky/3/celo.html*celob.png*Jednoduchý a velmi efektní trik. K jeho provedení jsou potřeba skákavé míčky.
+2013-07-22*la Galerie*/video/tip/la-galerie.html*la-galerie.jpg*Marie Le Corre manipuluje s kloubouky v galerii.
+2013-07-29*Robot*/micky/3/robot.html*micky-3-robota.png*Míčky nebudou opisovat obloučky jako obvykle. Naopak, cílem tohoto triku je míčky házet a přesunovat rovně.
 2013-08-05*
 2013-08-12*
 2013-08-19*
