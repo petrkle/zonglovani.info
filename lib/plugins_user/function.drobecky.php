@@ -20,9 +20,9 @@ function smarty_function_drobecky($params)
 				$title = $trail[$i]['title'];
 
 				if (isset($trail[$i]['link']) && $i < $trailSize - 1)
-						$links[] = '<a href="'.$trail[$i]['link'].'" title="'.htmlSpecialChars($trail[$i]['title']).'">'.preg_replace('/ /','&nbsp;',$title).'</a>';
+						$links[] = '<span itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><a href="'.$trail[$i]['link'].'" title="'.htmlSpecialChars($trail[$i]['title']).'" itemprop="url"><span itemprop="title">'.preg_replace('/ /','&nbsp;',$title).'</span></a></span>';
 				else
-						$links[] = preg_replace('/ /','&nbsp;',$title);
+						$links[] = '<span itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><span itemprop="title">'.preg_replace('/ /','&nbsp;',$title).'</span></span>';
 		}
 
 		return join($separator,$links);
