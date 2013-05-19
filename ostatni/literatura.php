@@ -19,7 +19,8 @@ $trail->addStep('Literatura');
 $dalsi=array(
 	array('url'=>'/navody/','text'=>'Návody na žonglování v pdf','title'=>'Formát vhodný k tisku'),
 	array('url'=>'/odkazy.html','text'=>'Žonglování na síti','title'=>'Odkazy na žonglérské stránky'),
-	array('url'=>'/download/','text'=>'Soubory ke stažení','title'=>'Off-line verze žonglérova slabikáře')
+	array('url'=>'/download/','text'=>'Soubory ke stažení','title'=>'Off-line verze žonglérova slabikáře'),
+	array('url'=>'/odborne-texty.html','text'=>'Odborné texty o žonglování','title'=>'Odborné texty o žonglování'),
 	);
 $smarty->assign_by_ref('dalsi',$dalsi);
 
