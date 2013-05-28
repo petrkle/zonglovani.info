@@ -14,6 +14,8 @@ $trail = new Trail();
 $trail->addStep('Informace o žonglování','/ostatni.html');
 $trail->addStep($titulek);
 
+$smarty->assign('nahled','http://'.$_SERVER['SERVER_NAME'].'/img/c/cirkusg.png');
+
 $dalsi=array(
 	array('url'=>'/druhy-zonglovani.html','text'=>'Druhy žonglování','title'=>'Přehled způsobů žonglování'),
 	array('url'=>'/nacini.html','text'=>'Žonglérské náčiní','title'=>'S čím vším se dá žonglovat'),
@@ -25,5 +27,3 @@ $smarty->assign_by_ref('trail', $trail->path);
 $smarty->display('hlavicka.tpl');
 $smarty->display('ostatni-cirkusove-discipliny.tpl');
 $smarty->display('paticka.tpl');
-
-?>

@@ -26,11 +26,11 @@ Jednodušší hledání zařídí <a href="/vyhledavani/vyhledavani.xml" onclick
 <ul class="szn">
 <li>Webslices z <a href="/tip/" title="Tip týdne">Tipu týdne</a> na úvodní stránce.</li>
 <li><a href="/vyhledavani/vyhledavani.xml" onclick="window.external.AddSearchProvider('http://zonglovani.info/vyhledavani/vyhledavani.xml');return(false);">Vyhledávací modul</a>.</li>
-<li>Podpora "pined sites".</li>
+<li>Podpora "<a href="http://youtu.be/sVJGsZzkTAI" title="Připnutí na panel ve Windows">pined sites</a>".</li>
 </ul>
 
 <a name="opera"></a><h3>Opera</h3>
 <p>{obrazek soubor="browser-opera.png" popisek="Opera"}</p>
 <ul class="szn">
-<li><a href="/ostatni/zonglovani.oex" onclick="_gaq.push(['_trackPageview','/ostatni/zonglovani.oex']);" title="Rozšíření pro rychlý přístup do kalendáře z Opery 11">Rozšíření žonglování</a> - rychlý přístup do kalendáře žonglérských akcí.</li>
+<li><a href="https://addons.opera.com/cs/extensions/details/zonglovani/" title="Rozšíření pro rychlý přístup do kalendáře z Opery 11" class="external">Rozšíření žonglování</a> - rychlý přístup do kalendáře žonglérských akcí.</li>
 </ul>
