@@ -44,7 +44,7 @@ ok($zs_vzkaz->content() =~ /<h1>Diskuse a komentáře<\/h1>/, 'Zobrazení koment
 ok($zs_vzkaz->content() =~ /<td colspan="6">Žluťoučký kůň pěl ďábelské ódy\. http:\/\/www\.seznam\.cz<\/td>/, "Vložení komentáře");
 
 my @vzkazy = (
-	{'z'=>'[url=http://nekde.cz]testovací odkaz[/url]', 'v'=>'<a href="http:\/\/nekde.cz" class="external" rel="nofollow" onclick="_gaq\.push\(\[\'_trackPageview\',\'\/goto\/nekde\.cz\'\]\);">testovací odkaz<\/a>', 't'=>'Externí odkaz'},
+	{'z'=>'[url=http://nekde.cz]testovací odkaz[/url]', 'v'=>'<a href="http:\/\/nekde.cz" class="external" rel="nofollow">testovací odkaz<\/a>', 't'=>'Externí odkaz'},
 	{'z'=>'[url]http://zonglovani.info/mapa[/url]', 'v'=>'<td colspan="6"><a href="http:\/\/zonglovani\.info\/mapa">http:\/\/zonglovani\.info\/mapa<\/a>', 't'=>'Interní odkaz'},
 	{'z'=>'[email]petr@kle.cz[/email]', 'v'=>'petr<img src="http:\/\/zongl\.info\/img\/z\/zavinac\.serif\.png" alt="\@" width="16" height="15" \/>kle.cz', 't'=>'Vložení emailu'},
 	{'z'=>'Nějaký [b]tučný text[/b].', 'v'=>'Nějaký <b>tučný text<\/b>', 't'=>'Tučný text'},

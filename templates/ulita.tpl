@@ -22,7 +22,7 @@ Přijít mohou začínající i zkušení žongléři a žonglérky. Pro široko
 </div>
 
 <p>
-Sleduj žonglérův slabikář na <a href="http://www.facebook.com/zongleruv.slabikar" id="fblink" onclick="_gaq.push(['_trackPageview','/goto/facebook.com/pages/zongleruv.slabikar']);">Facebooku</a> - žádná Ulita ti neuteče.
+Sleduj žonglérův slabikář na <a href="http://www.facebook.com/zongleruv.slabikar" id="fblink">Facebooku</a> - žádná Ulita ti neuteče.
 </p>
 
 {if count($podzim)>0}
@@ -36,7 +36,7 @@ Sleduj žonglérův slabikář na <a href="http://www.facebook.com/zongleruv.sla
 <th>Účast</th>
 </tr>
 {foreach from=$podzim item=datum}
-<tr><td>Neděle</td><td><a href="{$smarty.const.CALENDAR_URL}{$datum.url}" title="Ulita v kalendáři."><abbr class="dtstart" title="{$datum.mz|escape}">{$datum.datum}</abbr></a></td><td>15 - <abbr class="dtend" title="{$datum.mk|escape}">19</abbr></td><td>50</td><td>{if $datum.fb}<a href="http://www.facebook.com/event.php?eid={$datum.fb}" class="external" onclick="_gaq.push(['_trackPageview','/goto/facebook.com/event.php?eid={$datum.fb}']);">Přijdu</a>{else}&nbsp;{/if}</td></tr>
+<tr><td>Neděle</td><td><a href="{$smarty.const.CALENDAR_URL}{$datum.url}" title="Ulita v kalendáři."><abbr class="dtstart" title="{$datum.mz|escape}">{$datum.datum}</abbr></a></td><td>15 - <abbr class="dtend" title="{$datum.mk|escape}">19</abbr></td><td>50</td><td>{if $datum.fb}<a href="http://www.facebook.com/event.php?eid={$datum.fb}" class="external">Přijdu</a>{else}&nbsp;{/if}</td></tr>
 {/foreach}
 </table>
 {/if}
@@ -52,7 +52,7 @@ Sleduj žonglérův slabikář na <a href="http://www.facebook.com/zongleruv.sla
 <th>Účast</th>
 </tr>
 {foreach from=$jaro item=datum}
-<tr><td>Neděle</td><td><a href="{$smarty.const.CALENDAR_URL}{$datum.url}" title="Ulita v kalendáři."><abbr class="dtstart" title="{$datum.mz|escape}">{$datum.datum}</abbr></a></td><td>15 - <abbr class="dtend" title="{$datum.mk|escape}">19</abbr></td><td>50</td><td>{if $datum.fb}<a href="http://www.facebook.com/event.php?eid={$datum.fb}" class="external" onclick="_gaq.push(['_trackPageview','/goto/facebook.com/event.php?eid={$datum.fb}']);">Přijdu</a>{else}&nbsp;{/if}</td></tr>
+<tr><td>Neděle</td><td><a href="{$smarty.const.CALENDAR_URL}{$datum.url}" title="Ulita v kalendáři."><abbr class="dtstart" title="{$datum.mz|escape}">{$datum.datum}</abbr></a></td><td>15 - <abbr class="dtend" title="{$datum.mk|escape}">19</abbr></td><td>50</td><td>{if $datum.fb}<a href="http://www.facebook.com/event.php?eid={$datum.fb}" class="external">Přijdu</a>{else}&nbsp;{/if}</td></tr>
 {/foreach}
 </table>
 {else}
@@ -64,7 +64,7 @@ Sleduj žonglérův slabikář na <a href="http://www.facebook.com/zongleruv.sla
 <p>
 <a href="cesta.html" title="Ulita - dům dětí a mládeže">{obrazek soubor='ulita.cz.png' popisek='Ulita'}</a>
 <span class="location">Na Balkáně 17a, Praha 3, 130 00</span><br />
-<a href="http://www.mapy.cz/#mm=ZP@ax=133213920@ay=135976864@at=Ulita@ad=D%C5%AFm%20d%C4%9Bt%C3%AD%20a%20ml%C3%A1de%C5%BEe%20Ulita.@x=133213312@y=135977056@z=16" title="Místo konání na mapě." class="external" onclick="_gaq.push(['_trackPageview','/goto/mapy.cz/ulita']);">Zobrazit na mapě</a><br />
+<a href="http://www.mapy.cz/#mm=ZP@ax=133213920@ay=135976864@at=Ulita@ad=D%C5%AFm%20d%C4%9Bt%C3%AD%20a%20ml%C3%A1de%C5%BEe%20Ulita.@x=133213312@y=135977056@z=16" title="Místo konání na mapě." class="external">Zobrazit na mapě</a><br />
 <a href="cesta.html" title="Jak se dostat do Ulity">Popis cesty</a><br />
 {*Telefon: 271 771 025<br />*}
 {assign var='mail' value='info@ulita.cz'}
@@ -77,7 +77,7 @@ E-mail: {$mail|mailobfuscate}
 <a href="ulita4.pdf" title="Tisk čtyř plakátů najednou." onclick="_gaq.push(['_trackPageview','/ulita/ulita4.pdf']);">ulita4.pdf</a> - pro tisk na formát A4
 </p>
 {*
-<p><a href="http://www.radio1.cz" title="Radio 1" onclick="_gaq.push(['_trackPageview','/goto/radio1.cz']);">{obrazek soubor='radio1.png' popisek='Radio 1'}</a>O žonglování v Ulitě můžeš slyšet i v <a href="http://www.radio1.cz/kulturniservis/" title="Kulturní servis Rádia 1" onclick="_gaq.push(['_trackPageview','/goto/radio1.cz/kulturniservis']);" class="external">kulturním servisu</a> Radia 1.</p>
+<p><a href="http://www.radio1.cz" title="Radio 1">{obrazek soubor='radio1.png' popisek='Radio 1'}</a>O žonglování v Ulitě můžeš slyšet i v <a href="http://www.radio1.cz/kulturniservis/" title="Kulturní servis Rádia 1" class="external">kulturním servisu</a> Radia 1.</p>
 *}
 <p style="text-align: right; font-size: 0.5em;"><a href="/ulita/en.html">English version</a></p>
 </div>

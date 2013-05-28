@@ -44,12 +44,11 @@ Pomocí parametru <textarea>css</code> můžeš nastavit vlastní kaskádový st
 
 <h3>API</h3>
 <p>
-Data z kalendáře jsou přístupná ve formátu json na adrese: <a href="{$smarty.const.CALENDAR_URL}next.json">http://zonglovani.info/kalendar/next.json</a>
+Data z kalendáře jsou přístupná ve formátu json na adrese: <a href="{$smarty.const.CALENDAR_URL}next.json" onclick="_gaq.push(['_trackPageview','{$smarty.const.CALENDAR_URL}next.json']);">http://zonglovani.info/kalendar/next.json</a>
 </p>
 <a name="use"><h3>Příklady použití</h3></a>
 <ul>
-<li><a href="http://juggle.cz" title="juggle.cz" class="external" onclick="_gaq.push(['_trackPageview','/goto/juggle.cz']);">juggle.cz</a></li>
-<li><a href="http://kinessis.org/predstavivost.html" title="kinessis.org" class="external" onclick="_gaq.push(['_trackPageview','/goto/kinessis.org']);">kinessis.org</a></li>
-{*<li><a href="http://" title="" class="external" onclick="_gaq.push(['_trackPageview','/goto/']);"></a></li>*}
-<li><a href="http://kle.cz" title="kle.cz" class="external" onclick="_gaq.push(['_trackPageview','/goto/kle.cz']);">kle.cz</a></li>
+<li><a href="http://juggle.cz" title="juggle.cz" class="external">juggle.cz</a></li>
+<li><a href="http://kinessis.org/predstavivost.html" title="kinessis.org" class="external"></li>
+<li><a href="http://kle.cz" title="kle.cz" class="external">kle.cz</a></li>
 </ul>

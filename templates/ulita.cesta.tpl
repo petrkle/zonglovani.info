@@ -1,15 +1,15 @@
 <p>
-<a href="http://www.ulita.cz" onclick="_gaq.push(['_trackPageview','/goto/ulita.cz']);" title="Ulita - dům dětí a mládeže">{obrazek soubor='ulita.cz.png' popisek='Ulita'}</a>
+<a href="http://www.ulita.cz" title="Ulita - dům dětí a mládeže">{obrazek soubor='ulita.cz.png' popisek='Ulita'}</a>
 Na Balkáně 17a, Praha 3, 130 00<br />
-<a href="http://www.mapy.cz/#mm=ZP@ax=133213920@ay=135976864@at=Ulita@ad=D%C5%AFm%20d%C4%9Bt%C3%AD%20a%20ml%C3%A1de%C5%BEe%20Ulita.@x=133213312@y=135977056@z=16" title="Místo konání na mapě." class="external" onclick="_gaq.push(['_trackPageview','/goto/mapy.cz/ulita']);">Zobrazit na mapě</a><br />
+<a href="http://www.mapy.cz/#mm=ZP@ax=133213920@ay=135976864@at=Ulita@ad=D%C5%AFm%20d%C4%9Bt%C3%AD%20a%20ml%C3%A1de%C5%BEe%20Ulita.@x=133213312@y=135977056@z=16" title="Místo konání na mapě." class="external">Zobrazit na mapě</a><br />
 Telefon: 271 771 025<br />
 {assign var='mail' value='info@ulita.cz'}
 E-mail: {$mail|mailobfuscate}<br />
-<a href="http://www.ulita.cz" onclick="_gaq.push(['_trackPageview','/goto/ulita.cz']);" title="Ulita - dům dětí a mládeže" class="external">www.ulita.cz</a>
+<a href="http://www.ulita.cz" title="Ulita - dům dětí a mládeže" class="external">www.ulita.cz</a>
 </p>
 <p>
 <a href="/img/u/ulita.cesta-0.jpg" title="Zastávká MHD Strážní">{obrazek soubor='ulita.cesta.nahled-0.jpg' popisek='Zastávká MHD Strážní'}</a>
-Tramvají <a href="http://portalpid.idos.cz/LineList.aspx?t=2&amp;mi=4&amp;n=0&amp;lc=1" title="Jízdní řád tramvaje 1" class="external" onclick="_gaq.push(['_trackPageview','/goto/portalpid.idos.cz/1']);">1</a>, <a href="http://portalpid.idos.cz/LineList.aspx?t=2&amp;mi=4&amp;n=0&amp;lc=9" title="Jízdní řád tramvaje 9" class="external" onclick="_gaq.push(['_trackPageview','/goto/portalpid.idos.cz/9']);">9</a> nebo <a href="http://portalpid.idos.cz/LineList.aspx?t=2&amp;mi=4&amp;n=0&amp;lc=16" title="Jízdní řád tramvaje 16" class="external" onclick="_gaq.push(['_trackPageview','/goto/portalpid.idos.cz/16']);">16</a> do zastávky <strong>Strážní</strong>.
+Tramvají <a href="http://portalpid.idos.cz/LineList.aspx?t=2&amp;mi=4&amp;n=0&amp;lc=1" title="Jízdní řád tramvaje 1" class="external">1</a>, <a href="http://portalpid.idos.cz/LineList.aspx?t=2&amp;mi=4&amp;n=0&amp;lc=9" title="Jízdní řád tramvaje 9" class="external">9</a> nebo <a href="http://portalpid.idos.cz/LineList.aspx?t=2&amp;mi=4&amp;n=0&amp;lc=16" title="Jízdní řád tramvaje 16" class="external">16</a> do zastávky <strong>Strážní</strong>.
 </p>
 <p>
 <a href="/img/u/ulita.cesta-1.jpg">{obrazek soubor='ulita.cesta.nahled-1.jpg' popisek='Žonglování v Ulitě'}</a>

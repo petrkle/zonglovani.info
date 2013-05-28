@@ -4,7 +4,7 @@
 <a name="kam-dal"></a><h5>Kam dál</h5>
 <ul>
 {foreach from=$dalsi item=odkaz}
-<li><a href="{$odkaz.url|escape}"{if $odkaz.title} title="{$odkaz.title|escape}"{/if}{if preg_match('/^(http:\/\/|\/g\/)/',$odkaz.url)} class="external"  onclick="_gaq.push(['_trackPageview','/goto/{$odkaz.url|replace:'http://':''|regex_replace:'/^www\./':''|regex_replace:'/^\//':''|escape}']);"{/if}>{$odkaz.text|escape}</a></li>
+<li><a href="{$odkaz.url|escape}"{if $odkaz.title} title="{$odkaz.title|escape}"{/if}{if preg_match('/^(http:\/\/|\/g\/)/',$odkaz.url)} class="external"{/if}>{$odkaz.text|escape}</a></li>
 {/foreach}
 </ul>
 </div>

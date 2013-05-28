@@ -11,14 +11,14 @@
 	<param name="allowscriptaccess" value="always" />
 	<param name="allowfullscreen" value="false" />
 	<param name="pluginspage" value="http://get.adobe.com/flashplayer/" />
-Přehrát video přímo na stránce <a href="http://youtu.be/{$video.fid|escape}" class="external" onclick="_gaq.push(['_trackPageview','/goto/youtu.be/{$video.fid|escape}']);">youtu.be/{$video.fid|escape}</a>
+Přehrát video přímo na stránce <a href="http://youtu.be/{$video.fid|escape}" class="external">youtu.be/{$video.fid|escape}</a>
 </object>
 </p>
 <p>
 {if $video.delka}Délka: {$video.delka|escape}{/if}{if $video.rozliseni} Rozlišení: {$video.rozliseni|escape}{/if}
 </p>
 <p>
-Adresa videa: <a href="http://youtu.be/{$video.fid|escape}" class="external" onclick="_gaq.push(['_trackPageview','/goto/youtu.be/{$video.fid|escape}']);">http://youtu.be/{$video.fid|escape}</a>
+Adresa videa: <a href="http://youtu.be/{$video.fid|escape}" class="external">http://youtu.be/{$video.fid|escape}</a>
 </p>
 {/if}
 
@@ -30,11 +30,11 @@ Adresa videa: <a href="http://youtu.be/{$video.fid|escape}" class="external" onc
 	<param name="allowscriptaccess" value="always" />
 	<param name="allowfullscreen" value="false" />
 	<param name="pluginspage" value="http://get.adobe.com/flashplayer/" />
-Uložit video ve formátu <a href="{$video.download}" class="external" onclick="_gaq.push(['_trackPageview','/goto/juggling.tv']);">.mp4</a>
+Uložit video ve formátu <a href="{$video.download}" class="external">.mp4</a>
 </object>
 </p>
 {if $video.download and $smarty.session.logged==true}
-<p><a href="{$video.download|escape}" class="external" onclick="_gaq.push(['_trackPageview','/goto/{$video.download|replace:'http://':''|regex_replace:'/^www\./':''|escape}']);" rel="nofollow">Stáhnout video</a> ze stránky <a href="{if $video.originalurl}{$video.originalurl|escape}{else}http://juggling.tv{/if}" class="external" onclick="_gaq.push(['_trackPageview','/goto/{$video.originalurl|replace:'http://':''|regex_replace:'/^www\./':''|escape}']);">juggling.tv</a></p>
+<p><a href="{$video.download|escape}" class="external" rel="nofollow">Stáhnout video</a> ze stránky <a href="{if $video.originalurl}{$video.originalurl|escape}{else}http://juggling.tv{/if}" class="external">juggling.tv</a></p>
 <p>
 {if $video.delka}Délka: {$video.delka|escape}{/if}{if $video.velikost} Velikost: {$video.velikost|escape}{/if}{if $video.rozliseni} Rozlišení: {$video.rozliseni|escape}{/if}
 </p>

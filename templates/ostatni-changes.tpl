@@ -27,9 +27,9 @@
 {/if}
 
 {if $zmena.typ=='rss'}
-<h3><a href="{$zmena.url|escape}" title="Stránka {$zmena.popis|escape}"{if !preg_match('/^http:\/\/zonglovani.info/',$zmena.url)} class="external" rel="nofollow" onclick="_gaq.push(['_trackPageview','/goto/{$zmena.url|replace:'http://':''|regex_replace:'/^www\./':''|escape}']);"{/if}>{$zmena.titulek|strip_tags|truncate:60:"...":false|escape|default:'Bez titulku'}</a></h3>
+<h3><a href="{$zmena.url|escape}" title="Stránka {$zmena.popis|escape}"{if !preg_match('/^http:\/\/zonglovani.info/',$zmena.url)} class="external" rel="nofollow"{/if}>{$zmena.titulek|strip_tags|truncate:60:"...":false|escape|default:'Bez titulku'}</a></h3>
 <ul>
-<li>Datum: {$zmena.time_hr|escape}, Zdroj: <a href="{$rss_zdroje[$zmena.rssid].url|escape}" title="{$rss_zdroje[$zmena.rssid].popis|escape}"{if !preg_match('/^http:\/\/zonglovani.info/',$rss_zdroje[$novinka.rssid].url)} class="external" rel="nofollow" onclick="_gaq.push(['_trackPageview','/goto/{$rss_zdroje[$novinka.rssid].url|replace:'http://':''|regex_replace:'/^www\./':''|escape}']);"{/if}>{$rss_zdroje[$zmena.rssid].popis|escape}</a></li>
+<li>Datum: {$zmena.time_hr|escape}, Zdroj: <a href="{$rss_zdroje[$zmena.rssid].url|escape}" title="{$rss_zdroje[$zmena.rssid].popis|escape}"{if !preg_match('/^http:\/\/zonglovani.info/',$rss_zdroje[$novinka.rssid].url)} class="external" rel="nofollow"{/if}>{$rss_zdroje[$zmena.rssid].popis|escape}</a></li>
 {if strlen($zmena.description_plain)>0}
 <li>{$zmena.description_plain|escape}</li>
 {/if}

@@ -6,7 +6,7 @@ O spolehlivost žonglérova slabikáře se starají testy napsané v <a href="/t
 {if $pm}
 <ul>
 {foreach from=$pm item=modul}
-<li><a href="https://metacpan.org/module/{$modul|escape}" title="Dokumentace k {$modul|escape}" class="external" onclick="_gaq.push(['_trackPageview','/goto/metacpan.org/module/{$modul|escape}']);">{$modul|escape}</a></li>
+<li><a href="https://metacpan.org/module/{$modul|escape}" title="Dokumentace k {$modul|escape}" class="external">{$modul|escape}</a></li>
 {/foreach}
 </ul>
 {/if}

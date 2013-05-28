@@ -1,12 +1,12 @@
 <p>
-<a href="http://juggling.tv" title="Domov žonglérského videa na internetu." onclick="_gaq.push(['_trackPageview','/goto/juggling.tv']);">{obrazek soubor="juggling.tv.png" popisek="juggling.tv"}</a>
-<a href="http://juggling.tv" title="Domov žonglérského videa na internetu." class="external" onclick="_gaq.push(['_trackPageview','/goto/juggling.tv']);">juggling.tv</a> je stránka pro nahrávání a sledování žonglérského videa.
+<a href="http://juggling.tv" title="Domov žonglérského videa na internetu.">{obrazek soubor="juggling.tv.png" popisek="juggling.tv"}</a>
+<a href="http://juggling.tv" title="Domov žonglérského videa na internetu." class="external">juggling.tv</a> je stránka pro nahrávání a sledování žonglérského videa.
 </p>
 
 <h3>Čeština</h3>
 <p>
 <a href="/img/j/jtv-cz.png" title="Čeština">{obrazek soubor='jtv-cz.s.png' popisek='juggling.tv v češtině'}</a>
-<a href="http://juggling.tv" title="Domov žonglérského videa na internetu." class="external" onclick="_gaq.push(['_trackPageview','/goto/juggling.tv']);">juggling.tv</a> podle nastavení tvého počítače rozpoznává češtinu a přepne se do ní.
+<a href="http://juggling.tv" title="Domov žonglérského videa na internetu." class="external">juggling.tv</a> podle nastavení tvého počítače rozpoznává češtinu a přepne se do ní.
 </p>
 
 <h3>Nahrávání videa</h3>
@@ -18,7 +18,7 @@ Můžeš nahrávat soubory až do maximální velikosti <strong>400MB</strong>.
 <h3>Fandění</h3>
 <p>
 <a href="/img/j/jtv-fans.png" title="Fandění videa">{obrazek soubor='jtv-fans.s.png' popisek='juggling.tv fandění'}</a>
-Videa jde hodnotit a komentovat. Můžeš navíc fandit jejich autorům. To má hlavně tu výhodu, že ti přijde email, když tvůj oblíbený žonglér nahraje na <a href="http://juggling.tv" title="Domov žonglérského videa na internetu." class="external" onclick="_gaq.push(['_trackPageview','/goto/juggling.tv']);">juggling.tv</a> nové video.
+Videa jde hodnotit a komentovat. Můžeš navíc fandit jejich autorům. To má hlavně tu výhodu, že ti přijde email, když tvůj oblíbený žonglér nahraje na <a href="http://juggling.tv" title="Domov žonglérského videa na internetu." class="external">juggling.tv</a> nové video.
 </p>
 
 <h3>Oblíbená videa</h3>
