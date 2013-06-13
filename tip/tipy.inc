@@ -231,14 +231,14 @@
 2013-06-03*Žonglobalizace*/kalendar/udalost-20130607-20130609-esteladefuego-1362080475.html*zonglobalizace13.jpg*Mezinárodní multižánrový festival hudby, nového cirkusu a divadla.
 2013-06-10*Fair Play Vol. 3*/kalendar/udalost-20130615-20130615-pek-1365877234.html*frystak13.jpg*Mezinárodní setkání netradičních sportů a umění.
 2013-06-12*Den žonglování v Brně*/kalendar/udalost-20130616-20130616-pek-1370519414.html*brno13.png*Dvanáctý ročník dne žonglování v Brně. Pestrobarevné míčky ve vzduchu, rotující kužely, točící se diabola, svištící tyče, ale také točící se gramofony, cvakající fotoaparáty, exhibice, soutěže, fireshow, sound system, a desítky účinkujících. 
-2013-06-17*Roztočení diabola*/diabolo/roztoceni-diabola.html*roztocenia.png*Jak snadno a rychle roztočit diabolo.
-2013-06-24*European Juggling Convention*/kalendar/udalost-20130727-20130803-pek-1357415255.html*ejc2013.png*Evropské setkání žonglérů v Toulouse začíná za měsíc. Nejvyšší čas sehnat si odvoz do Francie.
+2013-06-17*European Juggling Convention*/kalendar/udalost-20130727-20130803-pek-1357415255.html*ejc2013.png*Evropské setkání žonglérů v Toulouse začíná za měsíc. Nejvyšší čas sehnat si odvoz do Francie.
+2013-06-24*Polná v plamenech*/udalost-20130628-20130630-pek-1371123449.html*polna13.jpg*Čtvrtý ročník festivalu ohňových umění.
 2013-07-01*Slovenská Už zas umelecká Letná Oslava Žonglovania*/kalendar/udalost-20130705-20130707-mizu-1366498343.html*suloz13.jpg*Voľná stanovačka/stretávka žonglérov a iných podivínov bez akýchkoľvek záväzkov, poplatkov či programu.
 2013-07-08*Žongléři z Brna*/lide/misto/brno.html*brnoznak.png*Seznam žonglérů z Brna.
 2013-07-15*Odražení míčku čelem*/micky/3/celo.html*celob.png*Jednoduchý a velmi efektní trik. K jeho provedení jsou potřeba skákavé míčky.
 2013-07-22*la Galerie*/video/tip/la-galerie.html*la-galerie.jpg*Marie Le Corre manipuluje s kloubouky v galerii.
 2013-07-29*Robot*/micky/3/robot.html*micky-3-robota.png*Míčky nebudou opisovat obloučky jako obvykle. Naopak, cílem tohoto triku je míčky házet a přesunovat rovně.
-2013-08-05*
+2013-08-05*Roztočení diabola*/diabolo/roztoceni-diabola.html*roztocenia.png*Jak snadno a rychle roztočit diabolo.
 2013-08-12*
 2013-08-19*
 2013-08-26*Flaming Nights*/kalendar/udalost-20130830-20130831-pek-1354134372.html*fn13.png*Druhý ročník ohnivého festivalu Flaming Nights. Program pro žongléry bude probíhat už od čtvrtečního odpoledne - 29. 8. 2013.
