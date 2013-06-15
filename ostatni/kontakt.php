@@ -5,7 +5,6 @@ require('../func.php');
 $titulek='Kontakt';
 $smarty->assign('titulek',$titulek);
 $smarty->assign('nadpis',$titulek);
-$smarty->assign('notitle',true);
 
 $smarty->assign('keywords',make_keywords($titulek.', žonglování'));
 $smarty->assign('description','Kontakt na autora žonglérova slabikáře.');

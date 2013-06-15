@@ -1,19 +1,11 @@
-<h3>Petr Kletečka</h3>
-<!-- start -->
-<p>{obrazek soubor="pek.jpg" popisek="Petr Kletečka"}</p>
-<h3>Zeptej se na cokoliv</h3>
-<!-- stop -->
+<p>
+Autor žonglérova slabikáře: <a href="http://petr.kle.cz/">Petr Kletečka</a>
+</p>
 <p>
 {assign var='mail' value='admin@zonglovani.info'}
-Elektronická pošta: {$mail|mailobfuscate}
+Elektronická pošta: <strong>{$mail|mailobfuscate}</strong>
 </p>
 <!-- start -->
-<p>
-{assign var='tel' value='+420 732 766 740'}
-Telefon: {$tel|telobfuscate}
-</p>
-<p>Lepší je použít elektronickou poštu. Přece jen telefon nemám pořád u sebe a zapnutý.</p>
-
 <h3>Sháníš žongléry?</h3>
 <p>Koukni do <a href="{$smarty.const.LIDE_URL}" title="Seznam uživatelů žonglérova slabikáře.">seznamu žonglérů</a>. Jsou tam lidé, kteří umí:</p>
 <ul>
