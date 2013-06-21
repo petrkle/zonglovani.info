@@ -3,6 +3,7 @@
 	<ul>
 	<li><a href="/aczslovnicek.html">Anglicko-český žonglérský slovníček</a></li>
 	<li><a href="/changelog.html">Změny v žonglérově slabikáři</a></li>
+	<li><a href="/changes.html">Novinky</a></li>
 	<li><a href="/cirkusove-discipliny.html">Cirkusové disciplíny</a></li>
 	<li><a href="/doplnky-prohlizece.html">Doplňky do prohlížeče</a></li>
 	<li><a href="/druhy-zonglovani.html">Druhy žonglování</a></li>
@@ -15,6 +16,7 @@
 	<li><a href="/mobil.html">Žonglérův slabikář v mobilu</a></li>
 	<li><a href="/myty-omyly.html">Mýty a omyly</a></li>
 	<li><a href="/nacini.html">Žonglérské náčiní</a></li>
+	<li><a href="/odborne-texty.html">Odborné texty o žonglování</a></li>
 	<li><a href="/odkazy.html">Žonglování na síti</a></li>
 	<li><a href="/ostatni.html">Další informace o žonglování</a></li>
 	<li><a href="/pf-2010.html">PF 2010</a></li>
@@ -62,7 +64,7 @@
 		<li><a href="/diabolo/vyrovnavani-diabola.html">Diabolo - Vyrovnávání diabola</a></li>
 		</ul>
 		</li>
-		<li><a name="diskuse"></a>diskuse/
+		<li><a name="diskuse"></a><a href="/diskuse/">Diskuse a komentáře</a>
 		
 		</li>
 		<li><a name="download"></a><a href="/download/">Soubory ke stažení</a>
@@ -107,7 +109,7 @@
 			<li><a href="/kruhy/3/sloupy.html">Žonglování se třemi kruhy - Sloupy</a></li>
 			</ul>
 			</li>
-			<li><a name="4"></a>kruhy/4/
+			<li><a name="4"></a><a href="/kruhy/4/">Žonglování s kruhy</a>
 			<ul>
 			<li><a href="/kruhy/4/fontana.html">Žonglování se čtyřmi kruhy - Fontána</a></li>
 			</ul>
@@ -194,10 +196,14 @@
 		<li><a name="lide"></a><a href="/lide/">Seznam žonglérů</a>
 		<ul>
 		<li><a href="/lide/novy-ucet.php">Založit účet</a></li>
+		<li><a href="/lide/pravidla.php">Založit účet</a></li>
 			<li><a name="dovednost"></a><a href="/lide/dovednost/">Žongléři podle dovedností</a>
 			
 			</li>
 			<li><a name="misto"></a><a href="/lide/misto/">Žongléři podle místa působení</a>
+			
+			</li>
+			<li><a name="nastaveni"></a><a href="/lide/nastaveni/">Přihlášení</a>
 			
 			</li>
 			<li><a name="rozhovor"></a>lide/rozhovor/
@@ -538,6 +544,9 @@
 		<li><a name="olympiada"></a><a href="/olympiada/">Žonglování na olympiádu</a>
 		
 		</li>
+		<li><a name="rss"></a><a href="/rss/">Novinky</a>
+		
+		</li>
 		<li><a name="scripts"></a><a href="/scripts/">Skripty</a>
 		
 		</li>
@@ -568,6 +577,8 @@
 		<li><a href="/video/bratri-v-tricku.html">Bratři v tricku</a></li>
 		<li><a href="/video/c2laballe-0707.html">C2laballe 0707</a></li>
 		<li><a href="/video/club2ring.html">Bláznivá žehlička</a></li>
+		<li><a href="/video/d-clubs.html">D-Clubs</a></li>
+		<li><a href="/video/d-clubs2.html">D-Clubs 2</a></li>
 		<li><a href="/video/don-texas.html">Don Texas</a></li>
 		<li><a href="/video/giraffe-theory.html">Giraffe Theory Juggling Glow Clubs</a></li>
 		<li><a href="/video/guava-winter-07-08.html">Guava over winter break 07-08</a></li>
@@ -614,13 +625,16 @@
 			<li><a href="/video/etc/4-count-blind-passes.html">4-count blind passes</a></li>
 			<li><a href="/video/etc/adrienn-banhegyi.html">Adrienn Banhegyi</a></li>
 			<li><a href="/video/etc/elgringos.html">Čtyři a sedm</a></li>
+			<li><a href="/video/etc/follies-promo.html">Japo e Luludy Circus Follies promo 2012</a></li>
 			<li><a href="/video/etc/gmyt-ejc2013-1.html">Give Me Your Tricks: 1/4 - EJC 2013</a></li>
 			<li><a href="/video/etc/juggling-documentation.html">Juggling Documentation</a></li>
 			<li><a href="/video/etc/kamones.html">Malabaristas Kamones</a></li>
+			<li><a href="/video/etc/lorgnejus.html">Lorgnejus</a></li>
 			<li><a href="/video/etc/midtown-greenway.html">Midtown Greenway</a></li>
 			<li><a href="/video/etc/pequena-rosa.html">La Pequeña Rosa</a></li>
 			<li><a href="/video/etc/prechac-wmf.html">Préchac with my friends</a></li>
 			<li><a href="/video/etc/sicily-vacation.html">Sicily vacation</a></li>
+			<li><a href="/video/etc/slipon.html">Slip on - passing</a></li>
 			<li><a href="/video/etc/vjpromo.html">Visual Juggling Promo</a></li>
 			<li><a href="/video/etc/zombie-day.html">Juggling Zombie Day</a></li>
 			</ul>
@@ -770,6 +784,14 @@
 			<li><a href="/video/navody/russian-balls.html">Ruské míčky</a></li>
 			<li><a href="/video/navody/shared-columns.html">Sloupy ve dvou</a></li>
 			<li><a href="/video/navody/take-out-combo.html">Přebírání kuželů</a></li>
+			<li><a href="/video/navody/underarm-catches-tutorial.html">Chytání pod rukou</a></li>
+			</ul>
+			</li>
+			<li><a name="tip"></a><a href="/video/tip/">Tip</a>
+			<ul>
+			<li><a href="/video/tip/dominik-grohmann.html">Dominik Grohmann</a></li>
+			<li><a href="/video/tip/la-galerie.html">la Galerie</a></li>
+			<li><a href="/video/tip/ujs-juggling-spot.html">UJS - Juggling Spot</a></li>
 			</ul>
 			</li>
 		</ul>
