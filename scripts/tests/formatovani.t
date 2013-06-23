@@ -1,10 +1,12 @@
-#!/usr/bin/perl -w
+#!/usr/bin/perl
 use strict;
+use warnings;
 use WWW::Mechanize;
 use Test::More tests => 10;
 
 my $bot = WWW::Mechanize->new(autocheck => 1);
 $bot->cookie_jar(HTTP::Cookies->new());
+$bot->add_header( 'Accept-Encoding' => '' );
 
 my $zs_kotvy = $bot->get('http://zongl.info/kuzely/passing/hody.html');
 

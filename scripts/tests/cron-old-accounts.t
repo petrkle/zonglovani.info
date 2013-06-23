@@ -59,6 +59,7 @@ system("chmod -R oug+w $DATA_LIDE/$login");
 
 my $bot = WWW::Mechanize->new(autocheck => 1);
 $bot->cookie_jar(HTTP::Cookies->new());
+$bot->add_header( 'Accept-Encoding' => '' );
 
 my $pozadavek = $bot->get('http://zongl.info/cron/old-accounts.php');
 ok($bot->status() == 200,'Spuštění cronu');

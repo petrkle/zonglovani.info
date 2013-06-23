@@ -43,6 +43,8 @@ foreach my $clovek(@lide){
 
 my $bot = WWW::Mechanize->new(autocheck => 1);
 $bot->cookie_jar(HTTP::Cookies->new());
+$bot->add_header( 'Accept-Encoding' => '' );
+
 my $response = $bot->get("http://zongl.info/lide/$clovek_formular.html");
 my $content=$response->content();
 

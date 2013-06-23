@@ -1,5 +1,7 @@
-#!/usr/bin/perl -w
+#!/usr/bin/perl
 use strict;
+use warnings;
+
 use WWW::Mechanize;
 use Test::More tests => 14;
 use Net::Netrc;
@@ -9,6 +11,7 @@ use Image::Size;
 
 my $loginurl = 'http://zongl.info/lide/prihlaseni.php';
 my $mach = Net::Netrc->lookup($loginurl);
+
 my ($login, $password, $account) = $mach->lpa;
 
 my $prihl_udaj = {
@@ -18,6 +21,7 @@ my $prihl_udaj = {
 
 my $bot = WWW::Mechanize->new(autocheck => 1);
 $bot->cookie_jar(HTTP::Cookies->new());
+$bot->add_header( 'Accept-Encoding' => '' );
 
 my $crashbot = WWW::Mechanize->new(autocheck => 0);
 $crashbot->cookie_jar(HTTP::Cookies->new());

@@ -1,5 +1,7 @@
-#!/usr/bin/perl -w
+#!/usr/bin/perl
 use strict;
+use warnings;
+
 use WWW::Mechanize;
 use Test::More tests => 64;
 my $minimalitems=3;
@@ -24,6 +26,7 @@ my @adresy=(
 
 my $bot = WWW::Mechanize->new(autocheck => 1);
 $bot->cookie_jar(HTTP::Cookies->new());
+$bot->add_header( 'Accept-Encoding' => '' );
 
 foreach my $url(@adresy){
 	my $response = $bot->get("http://zongl.info$url");

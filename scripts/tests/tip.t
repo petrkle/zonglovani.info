@@ -1,5 +1,7 @@
-#!/usr/bin/perl -w
+#!/usr/bin/perl
 use strict;
+use warnings;
+
 use WWW::Mechanize;
 use Test::More tests => 2;
 use Time::Local;
@@ -9,6 +11,7 @@ use Image::Info    qw/image_info dim/;
 
 my $bot = WWW::Mechanize->new(autocheck => 0);
 $bot->cookie_jar(HTTP::Cookies->new());
+$bot->add_header( 'Accept-Encoding' => '' );
 
 my $now = time();
 

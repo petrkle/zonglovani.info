@@ -1,5 +1,7 @@
 #!/usr/bin/perl -w
 use strict;
+use warnings;
+
 use WWW::Mechanize;
 use Test::More tests => 9;
 use Net::Netrc;
@@ -15,6 +17,8 @@ my $prihl_udaj = {
 
 my $bot = WWW::Mechanize->new(autocheck => 1);
 $bot->cookie_jar(HTTP::Cookies->new());
+$bot->add_header( 'Accept-Encoding' => '' );
+
 my $zs_prihlaseni = $bot->get($loginurl);
 $zs_prihlaseni = $bot->submit_form(form_number => 0,fields => $prihl_udaj);
 

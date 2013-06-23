@@ -1,5 +1,7 @@
-#!/usr/bin/perl -w
+#!/usr/bin/perl
 use strict;
+use warnings;
+
 use WWW::Mechanize;
 use Test::More tests => 40;
 use Net::Netrc;
@@ -19,6 +21,7 @@ my $vzkaz = mkpasswd(-length => 50, -minnum => 0, -minlower => 20, -minupper => 
 
 my $bot = WWW::Mechanize->new(autocheck => 1);
 $bot->cookie_jar(HTTP::Cookies->new());
+$bot->add_header( 'Accept-Encoding' => '' );
 
 my @spatneudaje = (
 	{'j'=>'Jméno', 'e'=>'email', 'v'=>'Neplatný e-mail', 't'=>'E-mail bez zavináče'},
@@ -65,7 +68,7 @@ my $zs_udaje = $bot->submit_form(form_number => 0,fields => $udaje);
 $content=$zs_udaje->content();
 
 ok($content =~ /Na tvůj e-mail \($mail\) byla odeslána zpráva/, 'Aktivační email odeslán');
-sleep 1;
+sleep 3;
 ok(-f "/home/fakemail/$mail.1", 'Aktivační email přišel');
 
 open MAIL, "/home/fakemail/$mail.1";
@@ -138,7 +141,7 @@ my $zs_obnova = $bot->submit_form(form_number => 0,fields => $obnovit, button =>
 
 ok($zs_obnova->content() =~ /Na tvůj e-mail byla odeslána zpráva potřebná k obnovení hesla/,'Odeslán email pro obnovu hesla.');
 
-sleep 1;
+sleep 3;
 ok(-f "/home/fakemail/$mail.2", 'Email pro obnovu hesla přišel');
 
 open MAIL, "/home/fakemail/$mail.2";
@@ -211,10 +214,5 @@ my $zs_zruseni = $bot->get($odkazy_r[0]);
 ok($zs_zruseni->content() =~ /<li>Účet byl zrušen.<\/li>/,'Účet byl zrušen');
 $zs_zruseni = $bot->get($odkazy_r[0]);
 ok($zs_zruseni->content() =~ /<li>Neplatný odkaz pro zrušení účtu.<\/li>/,'Účet nejde zrušit dvakrát');
-
-my $ignore_bot = WWW::Mechanize->new(autocheck => 0);
-
-#my $response = $ignore_bot->get("http://zongl.info/lide/$login.html");
-#ok($ignore_bot->status() == 404, 'Stránka uživatele neexistuje');
 
 system("sudo /bin/bash /home/www/zonglovani.info/scripts/tests/clean.sh")
