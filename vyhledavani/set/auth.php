@@ -1,7 +1,8 @@
 <?php 
+	require($_SERVER['DOCUMENT_ROOT'].'/site-secrets.php');
 	error_reporting(E_ERROR | E_PARSE);	
 	$admin='root';
-	$admin_pw='hbFVmv53y';
+	$admin_pw=SEARCH_ADMIN_PW;
 
 	session_start();
 	
@@ -49,5 +50,3 @@ if (isset($_POST['user']) && isset($_POST['pass'])) {
 
 $settings_dir = "../settings";
 include "$settings_dir/database.php";
-
-?>

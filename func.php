@@ -717,7 +717,7 @@ function sendmail($msg){
 		'auth' => true,
 		'localhost' => $_SERVER['SERVER_NAME'],
 		'username' => 'robot@zonglovani.info',
-		'password' => 'D6fj8S',
+		'password' => SMTP_PASS,
 		'persist' => false,
 	);
 	 

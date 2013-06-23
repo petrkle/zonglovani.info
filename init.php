@@ -20,6 +20,7 @@ if($srv[0]=='i' or $srv[0]=='f'){
 $lib=$_SERVER['DOCUMENT_ROOT'].'/lib';
 
 require($lib.'/Smarty.class.php');
+require($_SERVER['DOCUMENT_ROOT'].'/site-secrets.php');
 
 session_start();
 
