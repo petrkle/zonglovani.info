@@ -1,6 +1,5 @@
 <?php
 require('../site-secrets.php');
-require 'auth.php';
 require 'gapi.class.php';
 require 'navstevnost-func.php';
 
