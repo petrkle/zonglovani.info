@@ -2,8 +2,6 @@
 
 if($_SERVER['SERVER_NAME']=='zonglovani.info'){
 	  error_reporting(0);
-}else{
-	  error_reporting(E_ALL);
 };
 
 date_default_timezone_set('Europe/Prague');
