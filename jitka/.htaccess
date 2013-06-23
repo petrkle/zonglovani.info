@@ -3,3 +3,6 @@ RewriteBase /jitka
 
 RewriteCond %{HTTP_HOST} ^www\.(.*)
 RewriteRule (.*) http://%1/jitka/$1 [R=301,QSA,NE,L]
+
+RewriteCond %{REQUEST_URI} index\.php
+RewriteRule ^index\.php$ /jitka/$1 [R=301,L]

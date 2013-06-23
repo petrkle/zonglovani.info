@@ -3,6 +3,12 @@ require('../init.php');
 require('../func.php');
 require('../rss/rss.php');
 
+if(preg_match('/index\.php$/',$_SERVER['REQUEST_URI'])){
+	header('HTTP/1.1 301 Moved Permanently');
+	header('Location: /novinky/');
+	exit();
+}
+
 $titulek='Novinky';
 $trail = new Trail();
 $trail->addStep($titulek);

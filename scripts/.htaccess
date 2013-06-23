@@ -1,5 +1,0 @@
-RewriteEngine	on
-RewriteBase /scripts
-
-RewriteCond %{HTTP_HOST} ^www\.(.*)
-RewriteRule (.*) http://%1/scripts/$1 [R=301,QSA,NE,L]

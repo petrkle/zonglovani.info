@@ -3,6 +3,9 @@ ErrorDocument 403 /403.php
 RewriteEngine	on
 RewriteBase /
 
+RewriteCond %{REQUEST_URI} index\.php
+RewriteRule ^(.*)index\.php$ /$1 [R=301,L]
+
 <IfModule mod_expires.c>
   ExpiresActive on
 

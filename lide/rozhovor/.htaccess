@@ -4,4 +4,7 @@ RewriteBase /lide/rozhovor
 RewriteCond %{HTTP_HOST} ^www\.(.*)
 RewriteRule (.*) http://%1/lide/rozhovor$1 [R=301,QSA,NE,L]
 
+RewriteCond %{REQUEST_URI} index\.php
+RewriteRule ^(.*)index\.php$ /lide/rozhovor/$1 [R=301,L]
+
 RewriteRule ^(.+)\.html$ index.php?id=$1 [L]

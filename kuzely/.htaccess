@@ -4,6 +4,9 @@ RewriteBase /kuzely
 RewriteCond %{HTTP_HOST} ^www\.(.*)
 RewriteRule (.*) http://%1/kuzely/$1 [R=301,QSA,NE,L]
 
+RewriteCond %{REQUEST_URI} index\.php
+RewriteRule ^(.*)index\.php$ /kuzely/$1 [R=301,L]
+
 RewriteRule ^([3])$ $1/ [R=301,QSA,NE]
 RewriteRule ^([3])/?$ $1.php [L]
 RewriteRule ^([3])/(.*).html $1.php?show=kuzely-$1-$2 [L]

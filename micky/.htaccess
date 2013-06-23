@@ -4,6 +4,9 @@ RewriteBase /micky
 RewriteCond %{HTTP_HOST} ^www\.(.*)
 RewriteRule (.*) http://%1/micky/$1 [R=301,QSA,NE,L]
 
+RewriteCond %{REQUEST_URI} index\.php
+RewriteRule ^(.*)index\.php$ /micky/$1 [R=301,L]
+
 RewriteRule ^([23456])$ /micky/$1/ [R=301,QSA,NE]
 RewriteRule ^([23456])/?$ $1.php [L]
 RewriteRule ^([2345])/(.*).html$ $1.php?show=micky-$1-$2 [L]

@@ -3,8 +3,14 @@ require('../init.php');
 require('../func.php');
 require('../cache.php');
 
+if(preg_match('/index\.php$/',$_SERVER['REQUEST_URI'])){
+	header('HTTP/1.1 301 Moved Permanently');
+	header('Location: '.OBRAZKY_URL);
+	exit();
+}
+
 $trail = new Trail();
-$trail->addStep('Obrázky žonglování','/obrazky/');
+$trail->addStep('Obrázky žonglování',OBRAZKY_URL);
 
 if(isset($_GET['id'])){
 	$id=$_GET['id'];
