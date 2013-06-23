@@ -1,11 +1,11 @@
 <?php
-require('../init.php');
+require('../site-secrets.php');
 require 'auth.php';
 require 'gapi.class.php';
 require 'navstevnost-func.php';
 
 
-$ga = new gapi(ga_email,ga_password);
+$ga = new gapi('petr@kle.cz',GA_PASS);
 
 $datum = date('Y-m-d',time()-(2*24*3600));
 
