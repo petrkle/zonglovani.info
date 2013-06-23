@@ -37,4 +37,3 @@ if(strlen($show)>0 and is_file('../'.$show.'.xml')){
 	header('Location: /kruhy/');
 	exit();
 }
-?>

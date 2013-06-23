@@ -17,4 +17,3 @@ $smarty->assign('nahled','http://'.$_SERVER['SERVER_NAME'].'/img/m/mobil-optimus
 $smarty->display('hlavicka.tpl');
 $smarty->display('ostatni-mobil.tpl');
 $smarty->display('paticka.tpl');
-?>

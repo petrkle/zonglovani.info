@@ -14,4 +14,3 @@ foreach($db as $line){
 		$pusobiste[$line[0]]=array('nazev'=>$line[1],'odkud'=>$line[2],'kde'=>$line[3],'kraj'=>$kraj,'stat'=>$line[5],'lat'=>$line[6],'lng'=>$line[7]);
 	}
 }
-?>

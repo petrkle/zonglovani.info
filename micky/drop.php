@@ -26,4 +26,3 @@ $smarty->display('hlavicka.tpl');
 $smarty->display('micky-drop.tpl');
 $smarty->display('paticka.tpl');
 
-?>

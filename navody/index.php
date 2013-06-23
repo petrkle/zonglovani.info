@@ -26,4 +26,3 @@ if(is_logged()){
 }
 $smarty->display('paticka.tpl');
 
-?>

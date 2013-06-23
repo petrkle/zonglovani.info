@@ -19,4 +19,3 @@ $smarty->display('hlavicka.tpl');
 $smarty->display('ulita.en.tpl');
 $smarty->display('paticka.tpl');
 
-?>

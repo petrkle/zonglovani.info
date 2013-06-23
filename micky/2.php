@@ -42,4 +42,3 @@ if(strlen($show)>0 and is_file('../'.$show.'.xml')){
 	$smarty->display('seznam-triku.tpl');
 	$smarty->display('paticka.tpl');
 }
-?>

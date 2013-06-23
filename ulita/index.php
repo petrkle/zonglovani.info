@@ -30,4 +30,3 @@ $smarty->assign('jaro',to_ulita($jaro));
 $smarty->display('hlavicka.tpl');
 $smarty->display('ulita.tpl');
 $smarty->display('paticka.tpl');
-?>

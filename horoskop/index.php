@@ -73,4 +73,3 @@ $smarty->assign('znameni',$znameni);
 $smarty->display('hlavicka.tpl');
 $smarty->display('horoskop.tpl');
 $smarty->display('paticka.tpl');
-?>

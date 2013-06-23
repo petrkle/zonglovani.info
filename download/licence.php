@@ -18,5 +18,3 @@ $trail->addStep($titulek);
 	$smarty->display('hlavicka.tpl');
 	$smarty->display('download.licence.tpl');
 	$smarty->display('paticka.tpl');
-
-?>

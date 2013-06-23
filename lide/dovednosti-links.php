@@ -36,4 +36,3 @@ $dovednosti_link['rolabola']=array('text'=>'','url'=>'','img'=>'cirkusg.png');
 #$dovednosti_link['pantomima']=array('text'=>'','url'=>'','img'=>'');
 #$dovednosti_link['klaun']=array('text'=>'','url'=>'','img'=>'');
 #$dovednosti_link['mic']=array('text'=>'','url'=>'','img'=>'');
-?>

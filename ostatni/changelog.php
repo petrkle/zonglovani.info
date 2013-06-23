@@ -72,4 +72,3 @@ $smarty->assign('zmeny',$data);
 $smarty->display('ostatni-changelog.tpl');
 
 $smarty->display('paticka.tpl');
-?>

@@ -27,4 +27,3 @@ if(is_readable('doc/'.$jmeno.'.pdf')){
 	require('../404.php');
 	exit();
 }
-?>

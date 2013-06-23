@@ -24,4 +24,3 @@ if(is_readable($mapa)){
 	include($mapa);
 }
 $smarty->display('paticka.tpl');
-?>

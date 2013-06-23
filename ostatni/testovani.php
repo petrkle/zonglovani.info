@@ -29,4 +29,3 @@ if(is_file($pm)){
 $smarty->display('hlavicka.tpl');
 $smarty->display('ostatni-testovani.tpl');
 $smarty->display('paticka.tpl');
-?>

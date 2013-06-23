@@ -27,4 +27,3 @@ if(isset($_GET['status'])){
 	header('Location: '.LIDE_URL);
 	exit();
 }
-?>

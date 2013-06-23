@@ -80,4 +80,3 @@ $smarty->display('hlavicka.tpl');
 $smarty->display('video-index.tpl');
 $smarty->display('paticka.tpl');
 
-?>

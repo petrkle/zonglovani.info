@@ -22,4 +22,3 @@ if(is_dir(LIDE_TMP) and opendir(LIDE_TMP)){
 };
 closedir($adr); 
 
-?>

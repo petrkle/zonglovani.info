@@ -19,4 +19,3 @@ $smarty->display('hlavicka.tpl');
 $smarty->display('ostatni-myty-omyly.tpl');
 $smarty->display('paticka.tpl');
 
-?>

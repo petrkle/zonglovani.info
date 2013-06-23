@@ -21,5 +21,3 @@ foreach($html as $key=>$radek){
 	}
 
 }
-
-?>

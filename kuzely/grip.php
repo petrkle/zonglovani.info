@@ -17,4 +17,3 @@ $smarty->display('hlavicka.tpl');
 $smarty->display('kuzely-grip.tpl');
 $smarty->display('paticka.tpl');
 
-?>

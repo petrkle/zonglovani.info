@@ -99,4 +99,3 @@ $cas=time();
 	header('Location: '.LIDE_URL.'prihlaseni.php?next='.DISKUSE_URL.basename(__FILE__).'&notice');
 	exit();
 }
-?>

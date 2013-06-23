@@ -18,4 +18,3 @@ $smarty->display('hlavicka.tpl');
 $smarty->display('kruhy-legenda.tpl');
 $smarty->display('paticka.tpl');
 
-?>

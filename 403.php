@@ -11,5 +11,3 @@ $smarty->assign_by_ref('trail', $trail->path);
 $smarty->display('hlavicka.tpl');
 $smarty->display('403.tpl');
 $smarty->display('paticka.tpl');
-
-?>

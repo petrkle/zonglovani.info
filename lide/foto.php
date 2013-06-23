@@ -15,4 +15,3 @@ if(is_readable(LIDE_DATA.'/'.$id.'/foto.jpg')){
 	require("../404.php");
 	exit();
 }
-?>

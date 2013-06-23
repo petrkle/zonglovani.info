@@ -10,4 +10,3 @@ $smarty->display('napoveda-formular.tpl');
 $smarty->display('paticka.tpl');
 
 
-?>

@@ -122,4 +122,3 @@ function set_hodnoceni_uzivatel($login,$hodnoceni){
 
 }
 
-?>

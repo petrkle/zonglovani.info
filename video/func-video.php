@@ -40,4 +40,3 @@ function sort_by_v_title($a, $b){
   $b['nazev'] = strtr($b['nazev'], $trans);
   return strcmp($a['nazev'], $b['nazev']);
 };
-?>

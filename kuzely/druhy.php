@@ -27,4 +27,3 @@ $smarty->display('hlavicka.tpl');
 $smarty->display('kuzely-druhy.tpl');
 $smarty->display('paticka.tpl');
 
-?>

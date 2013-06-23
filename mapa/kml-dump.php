@@ -13,4 +13,3 @@ if(isset($_GET['file']) and in_array($_GET['file'],$mapy) and is_readable('../da
 	require('../404.php');
 	exit();
 }
-?>

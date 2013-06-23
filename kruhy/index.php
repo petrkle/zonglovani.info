@@ -25,4 +25,3 @@ $smarty->display('hlavicka.tpl');
 $smarty->display('kruhy.tpl');
 $smarty->display('paticka.tpl');
 
-?>

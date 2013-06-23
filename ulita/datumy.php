@@ -39,4 +39,3 @@ function get_next_ulita($datumy){
 	return $pristi;
 }
 
-?>

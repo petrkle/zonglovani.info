@@ -87,4 +87,3 @@ if(isset($_GET['m']) and isset($_GET['k'])){
 	$smarty->display('paticka.tpl');
 }
 
-?>

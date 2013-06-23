@@ -36,4 +36,3 @@ $dovednosti['balonky']=array('nazev'=>'Zvířátka z nafukovacích balónků','u
 $dovednosti['pantomima']=array('nazev'=>'Pantomima','umi'=>'pantomimu','hodnoty'=>array('n','a'));
 $dovednosti['klaun']=array('nazev'=>'Klauniáda','umi'=>'klauniádu','hodnoty'=>array('n','a'));
 $dovednosti['mic']=array('nazev'=>'Balancování na míči','umi'=>'balancovat na míči','hodnoty'=>array('n','a'));
-?>

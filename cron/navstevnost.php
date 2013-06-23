@@ -22,4 +22,3 @@ if(!isset($navstevnost[$datum]) or $navstevy['vis']>$navstevnost[$datum]['vis'] 
 }
 
 nav_clean_old_data($navstevnost);
-?>

@@ -169,5 +169,3 @@ function sort_by_nazev($a, $b){
   $b['popis'] = strtr($b['popis'], $trans);
   return strcmp($a['popis'], $b['popis']);
 };
-
-?>

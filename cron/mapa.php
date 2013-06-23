@@ -29,4 +29,3 @@ print '<pre>'.htmlspecialchars($mapa).'</pre>';
 $foo=fopen('../mapa/mapa-zongleri.kml','w');
 fwrite($foo,$mapa);
 fclose($foo);
-?>

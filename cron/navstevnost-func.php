@@ -41,4 +41,3 @@ function nav_load_data(){
 return $navrat;
 }
 
-?>

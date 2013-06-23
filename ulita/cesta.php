@@ -15,4 +15,3 @@ $smarty->display('hlavicka.tpl');
 $smarty->display('ulita.cesta.tpl');
 $smarty->display('paticka.tpl');
 
-?>

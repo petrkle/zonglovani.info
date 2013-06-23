@@ -109,8 +109,6 @@ function sestav_vetu($cislo){
 	return $navrat;
 	};
 
-
-
 function predpoved($znameni,$time){
 global $zverokruh,$vety;
 
@@ -136,7 +134,3 @@ $navrat=substr($navrat,0,-1);
 
 return $navrat;
 };
-
-
-
-?>

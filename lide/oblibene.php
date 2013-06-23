@@ -53,4 +53,3 @@ if(is_logged()){
 	header('Location: '.LIDE_URL.'prihlaseni.php?next='.$next);
 	exit();
 }
-?>
