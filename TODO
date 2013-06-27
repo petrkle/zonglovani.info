@@ -4,7 +4,7 @@ Aktuální
 - test na změnu emailu
 - testy vzkazů - adresa from, to, čeština ve vzkazu, mime parts
 - přidávání událostí i pro nepřihlášené (odešle tip)
-- prezentace na slideshare
+- prezentace na speakerdeck
 - obrázky na plochu, doplnit popisky a img sitemapu
 - odkazy další, předchozí v horoskopu
 - v rozšířeních zobrazovat akce stejně jako ve widgetu + obrázky, používat cache
@@ -130,22 +130,3 @@ kalendář, rest api, načítání z rozšíření, kvůli manifest v.2
 postconf -e 'disable_mime_output_conversion = yes'
 prohlížení mailů - https://addons.mozilla.org/cs/thunderbird/addon/importexporttools/
 odkazy další, předchozí u akce
-
-.ssh/config
-===========
-Host cmelik.no-ip.org
-  Hostname=cmelik.no-ip.org
-	Port=2234
-	ForwardX11 no
-	Login root
-  IdentityFile=~/crypto/pekkey_id_rsa
-
-git
-===
-git push
-git pull --no-ff --rebase
-
-webm
-====
-convert multi-columns.gif multi-columns-%05d.png
-ffmpeg -r 15 -i multi-columns-%05d.png -y -an multi-columns.webm

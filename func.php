@@ -507,46 +507,6 @@ function get_hodnoceni_uzivatel($login){
 	return $navrat;
 }
 
-function quoted_printable_header($str, $charset='utf-8', $linesize=76) {
-    $charset || $charset = mb_internal_encoding();
-    $out = "=?$charset?Q?";
-    if($linesize === 0) {
-        for($i=0,$c=strlen($str); $i<$c; $i++) {
-            $chr = $str[$i];
-            $ord = ord($chr);
-            if(($ord>=33 && $ord<=60) || ($ord>=62 && $ord<=126) && $chr!=='_')
-                $out .= $chr;
-            elseif($chr === ' ')
-                $out .= '_';
-            else
-                $out .= sprintf('=%02X', $ord);
-        }
-    } else {
-        $linepos = strlen($out);
-        for($i=0,$c=mb_strlen($str,$charset); $i<$c; $i++) {
-            $chr = mb_substr($str, $i, 1, $charset);
-            if(strlen($chr) === 1) {
-                $ord = ord($chr);
-                if(($ord>=33 && $ord<=60) || ($ord>=62 && $ord<=126) && $chr!=='_')
-                    $append = $chr;
-                elseif($chr === ' ')
-                    $append = '_';
-                else
-                    $append = sprintf('=%02X', $ord);
-            } else for($i2=0,$append=''; $i2<strlen($chr); $i2++) $append .= sprintf('=%02X', ord($chr[$i2]));
-
-            if($i > 0 && $linepos+strlen($append)+2 > $linesize) {
-                $out .= "?=\r\n";
-                $linepos = 0;
-                $append = " =?$charset?Q?$append";
-            }
-            $out .= $append;
-            $linepos += strlen($append);
-        }
-    }
-    return $out.'?=';
-}
-
 function get_places($country,$pusobiste,$special=false){
 	$navrat=array();
 	foreach($pusobiste as $id=>$misto){
