@@ -12,31 +12,4 @@
 		<img>package-exe.png</img>
 	</release>
 
-	<release>
-		<version>0.4</version>
-		<filename>zongleruv-slabikar-0.4.exe</filename>
-		<size>14M</size>
-		<md5>91cd701970bb8add53041601b7e12680</md5>
-		<date>2011-12-17</date>
-		<img>package-exe.png</img>
-	</release>
-
-	<release>
-		<version>0.3</version>
-		<filename>zongleruv-slabikar-0.3.exe</filename>
-		<size>12M</size>
-		<md5>ae01586e5d1009a2bf2f3f297a27bacb</md5>
-		<date>2011-06-26</date>
-		<img>package-exe.png</img>
-	</release>
-
-	<release>
-		<version>0.2</version>
-		<filename>zongleruv-slabikar-0.2.exe</filename>
-		<size>11M</size>
-		<md5>f27255197e07876012bcc3bc1fe2bf0f</md5>
-		<date>2011-03-06</date>
-		<img>package-exe.png</img>
-	</release>
-
 </package>
