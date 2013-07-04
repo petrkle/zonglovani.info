@@ -3,7 +3,6 @@
 	<ul>
 	<li><a href="/aczslovnicek.html">Anglicko-český žonglérský slovníček</a></li>
 	<li><a href="/changelog.html">Změny v žonglérově slabikáři</a></li>
-	<li><a href="/changes.html">Novinky</a></li>
 	<li><a href="/cirkusove-discipliny.html">Cirkusové disciplíny</a></li>
 	<li><a href="/doplnky-prohlizece.html">Doplňky do prohlížeče</a></li>
 	<li><a href="/druhy-zonglovani.html">Druhy žonglování</a></li>
@@ -41,9 +40,6 @@
 	<li><a href="/zakladni-pojmy.html">Žonglování - základní pojmy</a></li>
 		<li><a name="animace"></a><a href="/animace/">Animace žonglování</a>
 		<ul>
-			<li><a name="en"></a><a href="/animace/en/">Animace žonglování - anglické názvy</a>
-			
-			</li>
 			<li><a name="siteswap"></a><a href="/animace/siteswap/">Siteswap</a>
 			
 			</li>
@@ -64,12 +60,11 @@
 		<li><a href="/diabolo/vyrovnavani-diabola.html">Diabolo - Vyrovnávání diabola</a></li>
 		</ul>
 		</li>
-		<li><a name="diskuse"></a><a href="/diskuse/">Diskuse a komentáře</a>
+		<li><a name="diskuse"></a>diskuse/
 		
 		</li>
 		<li><a name="download"></a><a href="/download/">Soubory ke stažení</a>
 		<ul>
-		<li><a href="/download/apk.html">Soubory ke stažení - apk</a></li>
 		<li><a href="/download/epub.html">Soubory ke stažení - epub</a></li>
 		<li><a href="/download/exe.html">Soubory ke stažení - exe</a></li>
 		<li><a href="/download/licence.html">Licence</a></li>
@@ -78,8 +73,6 @@
 		<li><a href="/download/pdf.html">Soubory ke stažení - pdf</a></li>
 		<li><a href="/download/tar.bz2.html">Soubory ke stažení - tar.bz2</a></li>
 		<li><a href="/download/vizitky.html">Soubory ke stažení - vizitky</a></li>
-		<li><a href="/download/wgz.html">Soubory ke stažení - wgz</a></li>
-		<li><a href="/download/xap.html">Soubory ke stažení - xap</a></li>
 		</ul>
 		</li>
 		<li><a name="horoskop"></a><a href="/horoskop/">Horoskop žonglování</a>
@@ -109,7 +102,7 @@
 			<li><a href="/kruhy/3/sloupy.html">Žonglování se třemi kruhy - Sloupy</a></li>
 			</ul>
 			</li>
-			<li><a name="4"></a><a href="/kruhy/4/">Žonglování s kruhy</a>
+			<li><a name="4"></a>kruhy/4/
 			<ul>
 			<li><a href="/kruhy/4/fontana.html">Žonglování se čtyřmi kruhy - Fontána</a></li>
 			</ul>
@@ -196,14 +189,10 @@
 		<li><a name="lide"></a><a href="/lide/">Seznam žonglérů</a>
 		<ul>
 		<li><a href="/lide/novy-ucet.php">Založit účet</a></li>
-		<li><a href="/lide/pravidla.php">Založit účet</a></li>
 			<li><a name="dovednost"></a><a href="/lide/dovednost/">Žongléři podle dovedností</a>
 			
 			</li>
 			<li><a name="misto"></a><a href="/lide/misto/">Žongléři podle místa působení</a>
-			
-			</li>
-			<li><a name="nastaveni"></a><a href="/lide/nastaveni/">Přihlášení</a>
 			
 			</li>
 			<li><a name="rozhovor"></a>lide/rozhovor/
@@ -542,9 +531,6 @@
 		</ul>
 		</li>
 		<li><a name="olympiada"></a><a href="/olympiada/">Žonglování na olympiádu</a>
-		
-		</li>
-		<li><a name="rss"></a><a href="/rss/">Novinky</a>
 		
 		</li>
 		<li><a name="scripts"></a><a href="/scripts/">Skripty</a>
