@@ -29,10 +29,3 @@ QR kód pro rychlé a pohodlné načtení adresy <a href="/" title="Žonglérův
 </p>
 
 {include file='android.tpl'}
-
-<p>
-<ul>
-<li><a href="/download/wgz.html" title="Soubor wgz">Aplikace pro Symbian</a> - telefony Nokia</li>
-<li><a href="/download/xap.html" title="Soubor xap">Aplikace pro Windows Phone</a> - novější telefony Nokia</li>
-</ul>
-</p>
