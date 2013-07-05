@@ -40,6 +40,9 @@
 	<li><a href="/zakladni-pojmy.html">Žonglování - základní pojmy</a></li>
 		<li><a name="animace"></a><a href="/animace/">Animace žonglování</a>
 		<ul>
+			<li><a name="en"></a><a href="/animace/en/">Animace žonglování - anglické názvy</a>
+			
+			</li>
 			<li><a name="siteswap"></a><a href="/animace/siteswap/">Siteswap</a>
 			
 			</li>

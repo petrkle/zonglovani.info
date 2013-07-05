@@ -11,13 +11,11 @@ ctyri*(4x,4x)(4,4)*374*483*4-columns-switch.gif*Deštník
 ctyri*4*374*483*4-ball-mills-mess.gif
 ctyri*4*374*483*4-columns-pistons.gif
 ctyri*4*375*486*4-reverse-fountain.gif*Reverzní fontána
-ctyri*4[43]1*375*486*4-43-1-441-1.gif
 ctyri*(4,4)*374*483*4-reverse-synchronous-fountain.gif*Reverzní synchronní fontána
 ctyri*(4,4)*374*483*4-synchronous-columns-asymmetry.gif*Sloupy
 ctyri*(4,4)*374*483*4-synchronous-columns-splits.gif*Paralelní sloupy
 ctyri*(4,4)*374*483*4-synchronous-columns-symmetry.gif*Souměrné sloupy
 ctyri*444447333*375*486*444447333.gif
-ctyri*44453*374*483*4-ball-tennis.gif
 ctyri*[52][52]55022[22][22]*375*486*throw-4-out-of-5.gif
 ctyri*525*374*483*4-ball-burke_s-barrage.gif
 ctyri*53*375*486*4-half-shower.gif*Poloviční sprcha se čtyřmi míčky
@@ -44,14 +42,12 @@ jeden*300*375*486*1-ball-out-of-a-3-cascade.gif*Prohození jednoho míčku
 n*b1*375*486*6-shower.gif
 n*d1*374*483*7-shower.gif
 n*[22]5[22]0[54]020*375*486*5-ball-multiplex-a-step-1.gif
-n*[234]57*375*486*234-57.gif
 n*25[75]51*375*486*25-75-51.gif
 n*26[76]*374*483*26-76.gif
 n*[456][22]2*375*486*7-ball-splits-a.gif
 n*[54]*375*486*9-ball-multiplex.gif
 n*6*374*483*6-ball-mills-mess.gif
 n*6*375*486*6-fountain.gif*Šest míčků - fontána
-n*([66x],2)(2,[66x])*374*483*7-ball-splits-b.gif
 n*(6,6)*375*486*6-columns.gif
 n*7*375*486*7-cascade.gif*Sedm míčků
 n*75*375*486*6-half-shower.gif
@@ -64,13 +60,11 @@ pet*(4x,6)(6,4x)*375*486*5-ball-box.gif
 pet*([46],[46])(0,6)(2,2)*375*486*multi-columns.gif
 pet*5*374*483*5-mills-mess-columns-a.gif
 pet*5*374*483*5-mills-mess-columns-b.gif
-pet*5*375*486*5-ball-mills-mess.gif
 pet*5*375*486*5-cascade.gif*Kaskáda s pěti míčky
 pet*5*375*486*5-half-shower-a.gif
 pet*5*375*486*5-mills-mess-columns-c.gif
 pet*5*375*486*5-reverse-cascade.gif*Reverzní kaskáda s pěti míčky
 pet*[54][22]2*375*486*5-ball-multiplex-a.gif*Multiplex s pěti míčky
-pet*555555744*375*486*555555744.gif
 pet*[62]25*374*483*martin.gif*Martin
 pet*(6,6)(6,6)(0,6)*375*486*5-columns.gif
 pet*726*375*486*5-ball-burke_s-barrage.gif
@@ -99,14 +93,11 @@ tri*315*374*483*mills-mess-315.gif*Mills' mess 315
 tri*[32][32][32][32][32][32][52][52][52]555555522*375*486*3-cascade-5-cascade.gif
 tri*[32]3322*375*486*throw-3-times.gif*Prohození tří míčků
 tri*33333423*375*486*eating-an-apple-for-light-eaters.gif*Jedení jablka
-tri*333355500*375*486*3-ball-flash.gif
 tri*3*374*483*arches.gif*Oblouky
 tri*3*374*483*boston-mess-a.gif*Boston mess
 tri*3*374*483*boston-mess-b.gif
 tri*3*374*483*juggler_s-tennis.gif*Tenis
 tri*3*374*483*no-through-mills-mess.gif
-tri*3*374*483*reachover.gif*Chytání nad rukou
-tri*3*374*483*reachunder.gif*Chytání pod rukou
 tri*3*374*483*reverse-mills-mess.gif*Obrácené Mills' mess
 tri*3*374*483*standard-mills-mess.gif*Mills' mess
 tri*3*375*486*carry.gif*Robot
@@ -143,7 +134,6 @@ tri*(4,4)(0,4x)(4,4)(4x,0)*375*486*1up-2up-b.gif
 tri*(4,4)(0,4x)(4,4)(4x,0)*375*486*1up-2up-d.gif
 tri*(4,4)(0,4x)(4,4)(4,0)(4,4)(4x,0)(4,4)(0,4)*374*483*1up-2up-c.gif
 tri*(4,4)(0,4)*375*486*1up-2up-e.gif*Jeden okolo dvou
-tri*44133*375*486*mills-44133.gif
 tri*441*374*483*outside-441.gif
 tri*441*374*483*441-shuffle.gif
 tri*441*375*486*441.gif*441
