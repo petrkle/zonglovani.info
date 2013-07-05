@@ -35,7 +35,7 @@ do
 		then
 			DOWNLOAD=`grep "<download>" $foo | sed "s/.*<download>\(.*\)<\/download>.*/\1/"`
 			KEY=`grep "<link>" $foo | sed "s/.*<link>\(.*\)<\/link>.*/\1/" | cut -d: -f3`
-			echo "<video:content_loc>$DOWNLOAD</video:content_loc>" >> video/video.xml.new
+			echo "<video:content_loc>http://juggling.tv/nvplayer.swf?config=http://juggling.tv/nuevo/config.php?key=$KEY</video:content_loc>" >> video/video.xml.new
 			echo "<video:player_loc>http://juggling.tv/nvplayer.swf?config=http://juggling.tv/nuevo/config.php?key=$KEY</video:player_loc>" >> video/video.xml.new
 		fi
 		echo "<video:duration>$DELKA</video:duration>" >> video/video.xml.new
