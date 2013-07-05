@@ -29,8 +29,6 @@ DESCRIPTION:{$udalost.desc|escape|replace:';':'\\;'|replace:',':'\\,'}
 LOCATION:{$udalost.misto|escape|replace:';':'\\;'|replace:',':'\\,'}
 DTSTAMP:{$udalost.insert_ical|escape}
 UID:{$udalost.id|escape}-zonglovani.info
-{if $udalost.img}ATTACH:http://{$smarty.server.SERVER_NAME}/kalendar/obrazek-{$udalost.img|escape}
-{/if}
 END:VEVENT
 {/foreach}
 END:VCALENDAR

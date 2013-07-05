@@ -4,9 +4,6 @@ RewriteBase /animace
 RewriteCond %{HTTP_HOST} ^www\.(.*)
 RewriteRule (.*) http://%1/animace/$1 [R=301,QSA,NE,L]
 
-RewriteCond %{REQUEST_URI} index\.php
-RewriteRule ^(.*)index\.php$ /animace/$1 [R=301,L]
-
 RewriteCond %{REQUEST_FILENAME}	^.*\.(inc|sh|txt)$
 RewriteRule ^(.*)$ $1 [F,L]
 

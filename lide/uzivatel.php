@@ -87,7 +87,7 @@ $mojepozice=array_search($id,$pozice);
 	$smarty->display('uzivatel.tpl');
 	$smarty->display('paticka.tpl');
 }else{
-	require('../404.php');
+	require('../410.php');
 	exit();
 }
 
