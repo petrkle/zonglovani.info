@@ -35,8 +35,7 @@
 
 <h3>Aktualizace</h3>
 <ul>
-<li><a href="http://{$smarty.server.SERVER_NAME}/ostatni/changelog.rss" title="RSS 1.0">http://{$smarty.server.SERVER_NAME}/ostatni/changelog.rss</a></li>
-<li><a href="http://{$smarty.server.SERVER_NAME}/ostatni/changelog.xml" title="RSS 2.0">http://{$smarty.server.SERVER_NAME}/ostatni/changelog.xml</a></li>
+<li><a href="https://github.com/petrkle/zonglovani.info/commits/master.atom" class="external" title="Atom">https://github.com/petrkle/zonglovani.info/commits/master.atom</a></li>
 </ul>
 
 <h3>Obrázky žonglování</h3>

@@ -79,9 +79,9 @@ Návod na výrobu chůd a žonglování na chůdách.
 Upozorňování na novinky v žonglérově slabikáři.
 </p>
 
-<h3><a href="/changelog.html" title="Změny v žonglérově slabikáři.">Změny v žonglérově slabikáři</a></h3>
+<h3><a href="https://github.com/petrkle/zonglovani.info/commits/master" title="Změny v žonglérově slabikáři." class="external">Změny v žonglérově slabikáři</a></h3>
 <p>
-<a href="/changelog.html" title="Změny v žonglérově slabikáři.">{obrazek soubor="budik.jpg" popisek="Seznam změn."}</a>
+<a href="https://github.com/petrkle/zonglovani.info/commits/master" title="Změny v žonglérově slabikáři.">{obrazek soubor="budik.jpg" popisek="Seznam změn."}</a>
 Výpis změn a úprav v žonglérově slabikáři.
 </p>
 

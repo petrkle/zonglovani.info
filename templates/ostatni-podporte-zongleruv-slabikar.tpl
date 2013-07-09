@@ -3,7 +3,7 @@
 <a name="p"></a><h3>Peněžní podpora</h3>
 <p>
 {obrazek soubor="podporac.png" title="Peníze"}
-<a href="/sponzori.html" title="Sponzoři žonglérova slabikáře">Vaše příspěvky</a> zajistí, že nebudu v mínusu a možná i <a href="/changelog.html" title="Seznam změn v žonglérově slabikáři">pravidelné aktualizace</a>. Navíc tu nebude spousta reklamy, která všechny ruší a zdržuje.
+<a href="/sponzori.html" title="Sponzoři žonglérova slabikáře">Vaše příspěvky</a> zajistí, že nebudu v mínusu a možná i <a href="https://github.com/petrkle/zonglovani.info/commits/master" class="external" title="Seznam změn v žonglérově slabikáři">pravidelné aktualizace</a>. Navíc tu nebude spousta reklamy, která všechny ruší a zdržuje.
 </p>
 
 {include file='paypal.tpl'}

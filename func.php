@@ -352,27 +352,6 @@ function make_keywords($text){
 	return $navrat;
 }
 
-function get_changelog($rss=false){
-	if(is_readable($_SERVER['DOCUMENT_ROOT'].'/ChangeLog')){
-
-$zmeny=array();
-$rn=1;
-$changelog = array_reverse(file($_SERVER['DOCUMENT_ROOT'].'/ChangeLog'));
-	foreach ($changelog as $change){
-		$change=preg_split('/\*/',trim($change));
-		$zmeny[$rn]['cislo']=$rn;
-		$zmeny[$rn]['hash']=$change[0];
-		$zmeny[$rn]['datum_hr'] = date('j. n. Y G.i',$change[1]); 
-		$zmeny[$rn]['time_mr']=date('c',$change[1]);
-		$zmeny[$rn]['time_rss2']=date('r',$change[1]);
-		$zmeny[$rn]['time_unix']=$change[1];
-		$zmeny[$rn]['popis']=$change[2];
-		$rn++;
-	}
-	return array_reverse($zmeny);
-}
-}
-
 function sort_by_time($a, $b)
 {
 		return ($a['cas'] < $b['cas']) ? -1 : 1;

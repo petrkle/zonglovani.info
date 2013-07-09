@@ -3,7 +3,7 @@ use strict;
 use warnings;
 
 use WWW::Mechanize;
-use Test::More tests => 60;
+use Test::More tests => 52;
 my $minimalitems=3;
 my @adresy=(
 "/zonglovani.rss",
@@ -14,8 +14,6 @@ my @adresy=(
 "/diskuse/zpravy.xml",
 "/lide/uzivatele.rss",
 "/lide/uzivatele.xml",
-"/ostatni/changelog.rss",
-"/ostatni/changelog.xml",
 "/obrazky/obrazky.rss",
 "/obrazky/obrazky.xml",
 "/tip/tip.rss",

@@ -2,7 +2,7 @@
 use strict;
 use warnings;
 use WWW::Mechanize;
-use Test::More tests => 120;
+use Test::More tests => 118;
 
 my $bot = WWW::Mechanize->new(autocheck => 1);
 $bot->cookie_jar(HTTP::Cookies->new());
@@ -68,8 +68,6 @@ my @stranky = (
 	{'a'=>'/chudy/', 't'=>'Chůdy', 'o'=>'Sežeň někoho kdo tě bude chytat'},
 	{'a'=>'/novinky/', 't'=>'Novinky', 'o'=>'<a name="[0-9]+"><\/a>'},
 	{'a'=>'/obrazky-na-plochu/', 't'=>'Obrázky na plochu', 'o'=>'<li><a href="1680x1050\/kuzelky-na-trave.jpg"'},
-	{'a'=>'/changelog.html', 't'=>'Změny v žonglérově slabikáři', 'o'=>'Stránkování: <b>1<'},
-	#{'a'=>'', 't'=>'', 'o'=>''},
 );
 
 foreach my $stranka (@stranky){

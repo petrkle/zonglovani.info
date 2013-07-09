@@ -15,8 +15,8 @@ $trail = new Trail();
 $trail->addStep($titulek);
 
 $dalsi=array(
+	array('url'=>'https://github.com/petrkle/zonglovani.info/','text'=>'github.com/petrkle/zonglovani.info','title'=>'Zdrojové kódy žonglérova slabikáře'),
 	array('url'=>'/css/','text'=>'Kaskádové styly','title'=>'Seznam kaskádových stylů'),
-	array('url'=>'/scripts/','text'=>'Skripty','title'=>'Skripty pro správu webu'),
 	);
 $smarty->assign_by_ref('dalsi',$dalsi);
 
