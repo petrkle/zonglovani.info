@@ -8,7 +8,6 @@ $dalsi=array(
 	array('url'=>'/proc-a-jak.html','text'=>'Proč a jak vznikl žonglérův slabikář','title'=>'Proč a jak vznikl žonglérův slabikář'),
 	array('url'=>'/podporte-zongleruv-slabikar.html','text'=>'Podpoř žonglérův slabikář','title'=>'Jak podpořit žonglérův slabikář'),
 	array('url'=>'/toolbox.html','text'=>'Použitý software','title'=>'Seznam programů použitých při vytváření žonglérova slabikáře'),
-	array('url'=>'/statistiky.html','text'=>'Statistiky','title'=>'Statistiky žonglérova slabikáře')
 	);
 $smarty->assign_by_ref('dalsi',$dalsi);
 

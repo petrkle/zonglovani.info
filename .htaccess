@@ -44,9 +44,6 @@ RewriteRule ^(.*)$ $1 [F]
 RewriteRule ^changelog-1\.html$ /changelog.html [R=301,L]
 RewriteRule ^changelog-(.*)\.html$ ostatni/changelog.php?pageID=$1 [L]
 
-RewriteRule ^stat$ /statistiky.html [R=301,L]
-RewriteRule ^stat\.xml$ ostatni/statistiky.php?rss [L]
-
 RewriteRule ostatni\.html$ ostatni/index.php [L]
 RewriteRule (.*).html ostatni/$1.php [L]
 

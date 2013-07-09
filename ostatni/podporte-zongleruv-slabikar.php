@@ -15,7 +15,6 @@ $smarty->assign('nahled','http://'.$_SERVER['SERVER_NAME'].'/img/p/podporab.png'
 $dalsi=array(
 	array('url'=>'/kontakt.html','text'=>'Kontakt','title'=>'Kontaktní údaje'),
 	array('url'=>LIDE_URL.'novy-ucet.php','text'=>'Založit účet','title'=>'Nový účet v žonglérově slabikáři'),
-	array('url'=>'/statistiky.html','text'=>'Statistiky','title'=>'Statistiky žonlérova slabikáře'),
 	);
 $smarty->assign_by_ref('dalsi',$dalsi);
 

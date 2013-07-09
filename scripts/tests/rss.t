@@ -3,7 +3,7 @@ use strict;
 use warnings;
 
 use WWW::Mechanize;
-use Test::More tests => 64;
+use Test::More tests => 60;
 my $minimalitems=3;
 my @adresy=(
 "/zonglovani.rss",
@@ -20,8 +20,7 @@ my @adresy=(
 "/obrazky/obrazky.xml",
 "/tip/tip.rss",
 "/tip/tip.xml",
-"/novinky/agregator.xml",
-"/stat.xml"
+"/novinky/agregator.xml"
 );
 
 my $bot = WWW::Mechanize->new(autocheck => 1);
