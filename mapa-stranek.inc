@@ -18,6 +18,7 @@
 	<li><a href="/nacini.html">Žonglérské náčiní</a></li>
 	<li><a href="/odborne-texty.html">Odborné texty o žonglování</a></li>
 	<li><a href="/odkazy.html">Žonglování na síti</a></li>
+	<li><a href="/opensource.html">Zdrojový kód žonglérova slabikáře</a></li>
 	<li><a href="/ostatni.html">Další informace o žonglování</a></li>
 	<li><a href="/pf-2010.html">PF 2010</a></li>
 	<li><a href="/pf-2011.html">PF 2011</a></li>

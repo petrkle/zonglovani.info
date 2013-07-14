@@ -235,11 +235,11 @@
 2013-06-24*Polná v plamenech*/kalendar/udalost-20130628-20130630-pek-1371123449.html*polna13.jpg*Čtvrtý ročník festivalu ohňových umění.
 2013-07-01*Slovenská Už zas umelecká Letná Oslava Žonglovania*/kalendar/udalost-20130705-20130707-mizu-1366498343.html*suloz13.jpg*Voľná stanovačka/stretávka žonglérov a iných podivínov bez akýchkoľvek záväzkov, poplatkov či programu.
 2013-07-08*Žongléři z Brna*/lide/misto/brno.html*brnoznak.png*Seznam žonglérů z Brna.
-2013-07-15*Odražení míčku čelem*/micky/3/celo.html*celob.png*Jednoduchý a velmi efektní trik. K jeho provedení jsou potřeba skákavé míčky.
+2013-07-15*Otevřený žonglérův slabikář*/opensource.html*octocat.png*Zdrojové soubory žonglérova slabikáře jsou volně dostupné.
 2013-07-22*la Galerie*/video/tip/la-galerie.html*la-galerie.jpg*Marie Le Corre manipuluje s kloubouky v galerii.
 2013-07-29*Robot*/micky/3/robot.html*micky-3-robota.png*Míčky nebudou opisovat obloučky jako obvykle. Naopak, cílem tohoto triku je míčky házet a přesunovat rovně.
 2013-08-05*Roztočení diabola*/diabolo/roztoceni-diabola.html*roztocenia.png*Jak snadno a rychle roztočit diabolo.
-2013-08-12*
+2013-08-12*Odražení míčku čelem*/micky/3/celo.html*celob.png*Jednoduchý a velmi efektní trik. K jeho provedení jsou potřeba skákavé míčky.
 2013-08-19*
 2013-08-26*Flaming Nights*/kalendar/udalost-20130830-20130831-pek-1354134372.html*fn13.png*Druhý ročník ohnivého festivalu Flaming Nights. Program pro žongléry bude probíhat už od čtvrtečního odpoledne - 29. 8. 2013.
 2013-09-02*

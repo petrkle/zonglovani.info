@@ -15,6 +15,7 @@ $smarty->assign('nahled','http://'.$_SERVER['SERVER_NAME'].'/img/p/podporaa.png'
 $dalsi=array(
 	array('url'=>'/podporte-zongleruv-slabikar.html','text'=>'Podpoř žonglérův slabikář','title'=>'Jak dál podpoři žonglérův slabikář'),
 	array('url'=>CALENDAR_URL.'widget.html','text'=>'Výpis akcí z kalendáře - widget','title'=>'Widget na twůj web'),
+	array('url'=>'/opensource.html','text'=>'Zdrojový kód žonglérova slabikáře','title'=>'github.com'),
 	array('url'=>'/obrazky-na-plochu/','text'=>'Obrázky na plochu','title'=>'Tapety s žonglérskou tématikou.'),
 	);
 $smarty->assign_by_ref('dalsi',$dalsi);

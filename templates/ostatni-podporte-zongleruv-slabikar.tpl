@@ -32,6 +32,7 @@ Podpoř <a href="http://www.facebook.com/zongleruv.slabikar" class="external">ž
 <li><a href="https://plus.google.com/113185830714954615444" class="external">google+</a></li>
 <li><a href="https://speakerdeck.com/u/zonglovani/" class="external">speakerdeck.com</a></li>
 <li><a href="http://www.slideshare.net/zonglovani" class="external">slideshare.net</a></li>
+<li><a href="https://github.com/petrkle/zonglovani.info" class="external">github.com</a></li>
 </ul>
 
 <h3><a href="{$smarty.const.LIDE_URL}novy-ucet.php">Založ si účet</a></h3>

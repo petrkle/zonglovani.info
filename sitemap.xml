@@ -123,6 +123,12 @@
    </url>
 			
    <url>
+      <loc>http://zonglovani.info/opensource.html</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.7</priority>
+   </url>
+			
+   <url>
       <loc>http://zonglovani.info/ostatni.html</loc>
       <changefreq>monthly</changefreq>
       <priority>0.7</priority>
@@ -5727,7 +5733,19 @@
    </url>
 			
    <url>
+      <loc>http://zonglovani.info/kalendar/udalost-20130710-20130710-pek-1373405639.html</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.7</priority>
+   </url>
+			
+   <url>
       <loc>http://zonglovani.info/kalendar/udalost-20130727-20130803-pek-1357415255.html</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.7</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/kalendar/udalost-20130817-20130818-zongler4-1373789715.html</loc>
       <changefreq>monthly</changefreq>
       <priority>0.7</priority>
    </url>
