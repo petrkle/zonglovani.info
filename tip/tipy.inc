@@ -236,7 +236,7 @@
 2013-07-01*Slovenská Už zas umelecká Letná Oslava Žonglovania*/kalendar/udalost-20130705-20130707-mizu-1366498343.html*suloz13.jpg*Voľná stanovačka/stretávka žonglérov a iných podivínov bez akýchkoľvek záväzkov, poplatkov či programu.
 2013-07-08*Žongléři z Brna*/lide/misto/brno.html*brnoznak.png*Seznam žonglérů z Brna.
 2013-07-15*Otevřený žonglérův slabikář*/opensource.html*octocat.png*Zdrojové soubory žonglérova slabikáře jsou volně dostupné.
-2013-07-22*la Galerie*/video/tip/la-galerie.html*la-galerie.jpg*Marie Le Corre manipuluje s kloubouky v galerii.
+2013-07-22*la Galerie*/video/tip/la-galerie.html*la-galerie.jpg*Marie Le Corre manipuluje s klobouky v galerii.
 2013-07-29*Robot*/micky/3/robot.html*micky-3-robota.png*Míčky nebudou opisovat obloučky jako obvykle. Naopak, cílem tohoto triku je míčky házet a přesunovat rovně.
 2013-08-05*Roztočení diabola*/diabolo/roztoceni-diabola.html*roztocenia.png*Jak snadno a rychle roztočit diabolo.
 2013-08-12*Odražení míčku čelem*/micky/3/celo.html*celob.png*Jednoduchý a velmi efektní trik. K jeho provedení jsou potřeba skákavé míčky.
