@@ -786,6 +786,7 @@
 			</li>
 			<li><a name="tip"></a><a href="/video/tip/">Tip</a>
 			<ul>
+			<li><a href="/video/tip/8hats.html">8 Hours 8 Hats</a></li>
 			<li><a href="/video/tip/dominik-grohmann.html">Dominik Grohmann</a></li>
 			<li><a href="/video/tip/la-galerie.html">la Galerie</a></li>
 			<li><a href="/video/tip/ujs-juggling-spot.html">UJS - Juggling Spot</a></li>

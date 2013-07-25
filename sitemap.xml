@@ -5739,7 +5739,19 @@
    </url>
 			
    <url>
+      <loc>http://zonglovani.info/kalendar/udalost-20130724-20130724-pek-1374482734.html</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.7</priority>
+   </url>
+			
+   <url>
       <loc>http://zonglovani.info/kalendar/udalost-20130727-20130803-pek-1357415255.html</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.7</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/kalendar/udalost-20130811-20130811-pek-1374781742.html</loc>
       <changefreq>monthly</changefreq>
       <priority>0.7</priority>
    </url>
@@ -6585,6 +6597,12 @@
    </url>
 			
    <url>
+      <loc>http://zonglovani.info/lide/nil.html</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.6</priority>
+   </url>
+			
+   <url>
       <loc>http://zonglovani.info/lide/njoyek.html</loc>
       <changefreq>weekly</changefreq>
       <priority>0.6</priority>
@@ -6622,12 +6640,6 @@
 			
    <url>
       <loc>http://zonglovani.info/lide/pirilampo.html</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.6</priority>
-   </url>
-			
-   <url>
-      <loc>http://zonglovani.info/lide/pistalka.html</loc>
       <changefreq>weekly</changefreq>
       <priority>0.6</priority>
    </url>
@@ -6772,12 +6784,6 @@
 			
    <url>
       <loc>http://zonglovani.info/lide/ujs.html</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.6</priority>
-   </url>
-			
-   <url>
-      <loc>http://zonglovani.info/lide/velkejfo.html</loc>
       <changefreq>weekly</changefreq>
       <priority>0.6</priority>
    </url>
@@ -24060,6 +24066,12 @@
       <loc>http://zonglovani.info/video/tip/</loc>
       <changefreq>monthly</changefreq>
       <priority>0.4</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/video/tip/8hats.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.5</priority>
    </url>
 			
    <url>

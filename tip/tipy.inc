@@ -238,13 +238,13 @@
 2013-07-15*Otevřený žonglérův slabikář*/opensource.html*octocat.png*Zdrojové soubory žonglérova slabikáře jsou volně dostupné.
 2013-07-22*la Galerie*/video/tip/la-galerie.html*la-galerie.jpg*Marie Le Corre manipuluje s klobouky v galerii.
 2013-07-29*Robot*/micky/3/robot.html*micky-3-robota.png*Míčky nebudou opisovat obloučky jako obvykle. Naopak, cílem tohoto triku je míčky házet a přesunovat rovně.
-2013-08-05*Roztočení diabola*/diabolo/roztoceni-diabola.html*roztocenia.png*Jak snadno a rychle roztočit diabolo.
-2013-08-12*Odražení míčku čelem*/micky/3/celo.html*celob.png*Jednoduchý a velmi efektní trik. K jeho provedení jsou potřeba skákavé míčky.
-2013-08-19*
+2013-08-05*Workshop poi a žonglování*/kalendar/udalost-20130811-20130811-pek-1374781742.html*wspoi.png* Workshop poi a žonglování od fireshow.cz. Místo konání park Libosad v Jičíně.
+2013-08-12*Přehrada art fest*/kalendar/udalost-20130817-20130818-zongler4-1373789715.html*paf2013.jpg*Festival na Jablonecké přehradě. Můžete se těšit na velký výběr workshopů, soutěží a večerní light a fireshow.
+2013-08-19*Roztočení diabola*/diabolo/roztoceni-diabola.html*roztocenia.png*Jak snadno a rychle roztočit diabolo.
 2013-08-26*Flaming Nights*/kalendar/udalost-20130830-20130831-pek-1354134372.html*fn13.png*Druhý ročník ohnivého festivalu Flaming Nights. Program pro žongléry bude probíhat už od čtvrtečního odpoledne - 29. 8. 2013.
-2013-09-02*
-2013-09-09*
-2013-09-16*
+2013-09-02*Odražení míčku čelem*/micky/3/celo.html*celob.png*Jednoduchý a velmi efektní trik. K jeho provedení jsou potřeba skákavé míčky.
+2013-09-09*More or less juggling*/video/more-or-less.html*more-or-less.jpg*Více nebo méně žonglování.
+2013-09-16*8 Hours 8 Hats*/video/tip/8hats.html*8hats.jpg*Bri a Mumu s osmi klobouky.
 2013-09-23*
 2013-09-30*
 2013-10-07*
