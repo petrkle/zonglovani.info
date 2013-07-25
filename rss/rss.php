@@ -22,10 +22,10 @@ $rss_zdroje['jugglesk']=array(
 	'popis'=>'juggle.sk',
 	'url'=>'http://juggle.sk',
 	'feed_url'=>'http://juggle.sk/feed/');
-$rss_zdroje['jugglesk_forum']=array(
-	'popis'=>'juggle.sk - forum',
-	'url'=>'http://juggle.sk/sk/forum',
-	'feed_url'=>'http://juggle.sk/wp-content/plugins/mingle-forum/feed.php?topic=all');
+$rss_zdroje['fireshowczfotky']=array(
+	'popis'=>'fireshow.cz - fotky',
+	'url'=>'http://fireshowcz.rajce.idnes.cz',
+	'feed_url'=>'http://fireshowcz.rajce.idnes.cz/?rss=news');
 $rss_zdroje['zonglujeu']=array(
 	'popis'=>'zongluj.eu',
 	'url'=>'http://zongluj.eu',
