@@ -1,7 +1,7 @@
 #!/usr/bin/perl -w
 use strict;
 use WWW::Mechanize;
-use Test::More tests => 33;
+use Test::More tests => 42;
 
 my @adresy=(
 "/a.css",
@@ -14,6 +14,9 @@ my @adresy=(
 "/t.css",
 "/z.css",
 "/zt.css",
+"/css/w-light.css",
+"/css/ww-light.css",
+"/css/w-dark.css",
 "/zw.css"
 );
 

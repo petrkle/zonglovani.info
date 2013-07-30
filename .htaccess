@@ -32,6 +32,7 @@ RewriteRule ^(.*)index\.php$ /$1 [R=301,L]
   ExpiresByType text/css                  "access plus 1 week"
 </IfModule>
 
+RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^(.+)-(.+)\.css$ css/css.php?style=$1&ver=$2 [L]
 RewriteRule ^([^-]+)\.css$ css/css.php?style=$1 [L]
 
