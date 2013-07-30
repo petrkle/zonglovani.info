@@ -776,6 +776,7 @@
 			<li><a href="/video/navody/club-passing-variation.html">Passing s pěti kužely</a></li>
 			<li><a href="/video/navody/doctor-attack.html">Útok doktora</a></li>
 			<li><a href="/video/navody/flourish-tutorial.html">Kytička</a></li>
+			<li><a href="/video/navody/handshake.html">Handshake Tutorial</a></li>
 			<li><a href="/video/navody/otocka.html">Otočka</a></li>
 			<li><a href="/video/navody/roundabout-tutorial.html">Kolotoč</a></li>
 			<li><a href="/video/navody/russian-balls.html">Ruské míčky</a></li>

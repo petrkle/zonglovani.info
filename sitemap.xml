@@ -2763,6 +2763,12 @@
    </url>
 			
    <url>
+      <loc>http://zonglovani.info/diskuse/stranka26.html</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.4</priority>
+   </url>
+			
+   <url>
       <loc>http://zonglovani.info/diskuse/stranka3.html</loc>
       <changefreq>monthly</changefreq>
       <priority>0.4</priority>
@@ -6285,12 +6291,6 @@
    </url>
 			
    <url>
-      <loc>http://zonglovani.info/lide/alice.html</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.6</priority>
-   </url>
-			
-   <url>
       <loc>http://zonglovani.info/lide/angel.html</loc>
       <changefreq>weekly</changefreq>
       <priority>0.6</priority>
@@ -6729,12 +6729,6 @@
    </url>
 			
    <url>
-      <loc>http://zonglovani.info/lide/stevko.html</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.6</priority>
-   </url>
-			
-   <url>
       <loc>http://zonglovani.info/lide/suchardovaeliska.html</loc>
       <changefreq>weekly</changefreq>
       <priority>0.6</priority>
@@ -6801,12 +6795,6 @@
    </url>
 			
    <url>
-      <loc>http://zonglovani.info/lide/zachvitek.html</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.6</priority>
-   </url>
-			
-   <url>
       <loc>http://zonglovani.info/lide/zdenekk.html</loc>
       <changefreq>weekly</changefreq>
       <priority>0.6</priority>
@@ -6814,6 +6802,12 @@
 			
    <url>
       <loc>http://zonglovani.info/lide/zep.html</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.6</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/lide/zolodromedar.html</loc>
       <changefreq>weekly</changefreq>
       <priority>0.6</priority>
    </url>
@@ -24004,6 +23998,12 @@
 			
    <url>
       <loc>http://zonglovani.info/video/navody/flourish-tutorial.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.5</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/video/navody/handshake.html</loc>
       <changefreq>yearly</changefreq>
       <priority>0.5</priority>
    </url>

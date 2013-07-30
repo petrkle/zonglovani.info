@@ -245,7 +245,7 @@
 2013-09-02*Odražení míčku čelem*/micky/3/celo.html*celob.png*Jednoduchý a velmi efektní trik. K jeho provedení jsou potřeba skákavé míčky.
 2013-09-09*More or less juggling*/video/more-or-less.html*more-or-less.jpg*Více nebo méně žonglování.
 2013-09-16*8 Hours 8 Hats*/video/tip/8hats.html*8hats.jpg*Bri a Mumu s osmi klobouky.
-2013-09-23*
+2013-09-23*Handshake Tutorial*/video/navody/handshake.html*handshake.jpg*Anglický návod na australský trik.
 2013-09-30*
 2013-10-07*
 2013-10-14*

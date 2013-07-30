@@ -2894,6 +2894,20 @@
 </video:video>
 </url>
 <url>
+<loc>http://zonglovani.info/video/navody/handshake.html</loc>
+<video:video>
+<video:thumbnail_loc>http://zonglovani.info/video/img/h/handshake.jpg</video:thumbnail_loc>
+<video:title>Handshake Tutorial</video:title>
+<video:description>Návod na australský trik.</video:description>
+<video:player_loc>http://www.youtube.com/v/tiyLNIF9u7w</video:player_loc>
+<video:duration>160</video:duration>
+<video:tag>Žonglování</video:tag>
+<video:category>Žonglování</video:category>
+<video:gallery_loc title="Žonglérská videa">http://zonglovani.info/video/</video:gallery_loc>
+<video:requires_subscription>no</video:requires_subscription>
+</video:video>
+</url>
+<url>
 <loc>http://zonglovani.info/video/navody/otocka.html</loc>
 <video:video>
 <video:thumbnail_loc>http://zonglovani.info/video/img/o/otocka.jpg</video:thumbnail_loc>
@@ -3012,7 +3026,7 @@
 <video:video>
 <video:thumbnail_loc>http://zonglovani.info/video/img/l/la-galerie.jpg</video:thumbnail_loc>
 <video:title>la Galerie</video:title>
-<video:description>Marie Le Corre manipuluje s kloubouky v galerii.</video:description>
+<video:description>Marie Le Corre manipuluje s klobouky v galerii.</video:description>
 <video:content_loc>http://juggling.tv/nvplayer.swf?config=http://juggling.tv/nuevo/config.php?key=39c2f16e678bbf698df4</video:content_loc>
 <video:player_loc>http://juggling.tv/nvplayer.swf?config=http://juggling.tv/nuevo/config.php?key=39c2f16e678bbf698df4</video:player_loc>
 <video:duration>156</video:duration>
@@ -3031,6 +3045,20 @@
 <video:content_loc>http://juggling.tv/nvplayer.swf?config=http://juggling.tv/nuevo/config.php?key=33aebadde5d35e3c5e3e</video:content_loc>
 <video:player_loc>http://juggling.tv/nvplayer.swf?config=http://juggling.tv/nuevo/config.php?key=33aebadde5d35e3c5e3e</video:player_loc>
 <video:duration>30</video:duration>
+<video:tag>Žonglování</video:tag>
+<video:category>Žonglování</video:category>
+<video:gallery_loc title="Žonglérská videa">http://zonglovani.info/video/</video:gallery_loc>
+<video:requires_subscription>no</video:requires_subscription>
+</video:video>
+</url>
+<url>
+<loc>http://zonglovani.info/video/tip/8hats.html</loc>
+<video:video>
+<video:thumbnail_loc>http://zonglovani.info/video/img/8/8hats.jpg</video:thumbnail_loc>
+<video:title>8 Hours 8 Hats</video:title>
+<video:description>Bri a Mumu s osmi klobouky.</video:description>
+<video:player_loc>http://www.youtube.com/v/gYcEW1NJtng</video:player_loc>
+<video:duration>217</video:duration>
 <video:tag>Žonglování</video:tag>
 <video:category>Žonglování</video:category>
 <video:gallery_loc title="Žonglérská videa">http://zonglovani.info/video/</video:gallery_loc>
