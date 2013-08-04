@@ -23,8 +23,29 @@ if(isset($_GET['mail'])){
 
 if(isset($_GET['first'])){
 	$smarty->assign('first','jo');
+
+	$freemails = array(
+		'seznam.cz' => 'https://email.seznam.cz',
+		'email.cz' => 'https://email.seznam.cz',
+		'post.cz' => 'https://email.seznam.cz',
+		'gmail.com' => 'https://mail.google.com',
+		'centrum.cz' => 'https://mail.centrum.cz',
+		'volny.cz' => 'https://mail.volny.cz',
+		'azet.sk' => 'https://emailnew.azet.sk',
+		'centrum.sk' => 'http://mail.centrum.sk',
+		'atlas.cz' => 'https://auser.centrum.cz'
+	);
+
+	$maildomain = preg_replace('/.*@/','',$_SESSION['reg_email']);
+
 	$chyby=array();
-	array_push($chyby,'Na tvůj e-mail ('.$_SESSION['reg_email'].') byla odeslána zpráva s údaji pro přihlášení do žonglérova slabikáře.');
+	$zprava = 'Na tvůj e-mail ('.$_SESSION['reg_email'].') byla odeslána zpráva s údaji pro přihlášení do žonglérova slabikáře.';
+
+	if(isset($freemails[$maildomain])){
+		$zprava .= ' <a href="'.$freemails[$maildomain].'" title="Přihlášení k emailu">Přečíst&nbsp;&raquo;</a>';
+	}
+
+	array_push($chyby,$zprava);
 	$smarty->assign('chyby',$chyby);
 }
 
