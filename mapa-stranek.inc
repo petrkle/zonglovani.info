@@ -340,6 +340,9 @@
 			<li><a name="bigoudn-jongle-20110714"></a><a href="/obrazky/bigoudn-jongle-20110714/">Bigoud’n Jongle 2011 - obrázky žonglování</a>
 			
 			</li>
+			<li><a name="bjc-20130606"></a><a href="/obrazky/bjc-20130606/">Berlin juggling convention 2013 - obrázky žonglování</a>
+			
+			</li>
 			<li><a name="carodejnice-klamovka-20080422"></a><a href="/obrazky/carodejnice-klamovka-20080422/">Čarodějnice na Klamovce 2008 - obrázky žonglování</a>
 			
 			</li>

@@ -2,7 +2,7 @@
 
 PERPAGE=`grep perPage obrazky/index.php | head -1 | sed "s/[^0-9]*//g"`
 
-for foo in `find obrazky -type d -mindepth 1 -maxdepth 1`
+for foo in `find obrazky -mindepth 1 -maxdepth 1 -type d`
 do
 	DIR=`basename $foo`
 		if [ ! -f $foo/imgmap.xml ]
@@ -43,7 +43,7 @@ if [ ! -f obrazky/imgmapmap.xml ]
 then
 echo '<?xml version="1.0" encoding="UTF-8"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' > obrazky/imgmapmap.xml
-	for foo in `find obrazky -type f -mindepth 2 -maxdepth 2 -name "imgmap.xml"`
+	for foo in `find obrazky -mindepth 2 -maxdepth 2 -type f -name "imgmap.xml"`
 	do
 echo "<sitemap><loc>http://zonglovani.info/$foo</loc></sitemap>" >> obrazky/imgmapmap.xml
 	done
