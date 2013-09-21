@@ -274,7 +274,7 @@ function event_validation($udalost,$now){
 		array_push($chyby,'Název je příliš dlouhý.');
 	}
 
-	if(preg_match('/[A-ZĚŠČŘŽÝÁÍÉ]{4,}/',$udalost['title'])){
+	if(preg_match('/[A-ZĚŠČŘŽÝÁÍÉÚŮ]{6,}/',$udalost['title'])){
 		array_push($chyby,'Název obsahuje příliš mnoho VELKÝCH písmen.');
 	}
 	
@@ -282,7 +282,7 @@ function event_validation($udalost,$now){
 		array_push($chyby,'Popis není zadán, nebo je příliš krátký.');
 	}
 
-	if(preg_match('/[A-ZĚŠČŘŽÝÁÍÉ]{4,}/',$udalost['desc'])){
+	if(preg_match('/[A-ZĚŠČŘŽÝÁÍÉÚŮ]{6,}/',$udalost['desc'])){
 		array_push($chyby,'Popis obsahuje příliš mnoho VELKÝCH písmen.');
 	}
 
