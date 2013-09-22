@@ -249,8 +249,8 @@
 2013-09-23*Ultimate Juggling Battle 3*/kalendar/udalost-20130928-20130928-ujs-1379857038.html*ujb3.png*Skupina Ultimate Juggling Squad každoročně pořádá žonglérskou soutěž.
 2013-09-30*8 Hours 8 Hats*/video/tip/8hats.html*8hats.jpg*Bri a Mumu s osmi klobouky.
 2013-10-07*Handshake Tutorial*/video/navody/handshake.html*handshake.jpg*Anglický návod na australský trik.
-2013-10-14*
-2013-10-21*
+2013-10-14*Les 3 tetes de con*/video/tip/les-tetes-de-con.html*ltdc.jpg*A teď něco s kloubouky.
+2013-10-21*Liquid Underground*/video/tip/liquid-underground.html*lu.jpg*Matt Hennem v Londýnském metru.
 2013-10-28*
 2013-11-04*
 2013-11-11*
