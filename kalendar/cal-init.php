@@ -313,11 +313,11 @@ function event_validation($udalost,$now){
 			}
 	}
 
-	if(strlen($udalost['url'])>0 and !preg_match('/^http:\/\//',$udalost['url'])){
+	if(strlen($udalost['url'])>0 and !preg_match('/^http(|s):\/\//',$udalost['url'])){
 		array_push($chyby,'Špatný formát odkazu.');
 	}
 
-	if(strlen($udalost['mapa'])>0 and !preg_match('/^http:\/\//',$udalost['mapa'])){
+	if(strlen($udalost['mapa'])>0 and !preg_match('/^http(|s):\/\//',$udalost['mapa'])){
 		array_push($chyby,'Špatný formát odkazu na mapu.');
 	}
 
