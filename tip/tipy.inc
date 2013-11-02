@@ -252,13 +252,70 @@
 2013-10-14*Workshop poi a žonglování*/kalendar/udalost-20131020-20131020-pek-1381692825.html*wspoi.png* Workshop poi a žonglování od fireshow.cz. Místo konání K-klub v Jičíně.
 2013-10-21*Liquid Underground*/video/tip/liquid-underground.html*lu.jpg*Matt Hennem v Londýnském metru.
 2013-10-28*Les 3 tetes de con*/video/tip/les-tetes-de-con.html*ltdc.jpg*A teď něco s kloubouky.
-2013-11-04*
-2013-11-11*
-2013-11-18*
-2013-11-25*
-2013-12-02*
+2013-11-04*Pes a míček*/obrazky-na-plochu/pes-a-micek.html*don-s-mickem.jpg*Malý černý pes a žlutý míček. Tapeta na plochu počítače s žonglérskou tématikou.
+2013-11-11*Pass self*/kuzely/passing/ps.html*kuzely-passing-psa.png*Trik pro dva žongléry se šesti kužely.
+2013-11-18*Poloviční sprcha*/micky/3/sprcha-polovicni.html*psprchab.png*Trik poloviční sprcha se třemi míčky.
+2013-11-25*Pražský žonglérský marathon*/kalendar/udalost-20131129-20131201-pek-1380821206.html*pzm13s.jpg*Pátý ročník pražského žonglérského marathonu.
+2013-12-02*2 v 1 tenis*/micky/3/tenis-2v1.html*2v1tenisb.png*Trik se třemi míčky.
 2013-12-09*
 2013-12-16*
 2013-12-23*
 2013-12-30*
+2014-01-06*
+2014-01-13*
+2014-01-20*
+2014-01-27*
+2014-02-03*
+2014-02-10*
+2014-02-17*
+2014-02-24*
+2014-03-03*
+2014-03-10*
+2014-03-17*
+2014-03-24*
+2014-03-31*
+2014-04-07*
+2014-04-14*
+2014-04-21*
+2014-04-28*
+2014-05-05*
+2014-05-12*
+2014-05-19*
+2014-05-26*
+2014-06-02*
+2014-06-09*
+2014-06-16*
+2014-06-23*
+2014-06-30*
+2014-07-07*
+2014-07-14*
+2014-07-21*
+2014-07-28*
+2014-08-04*
+2014-08-11*
+2014-08-18*
+2014-08-25*
+2014-09-01*
+2014-09-08*
+2014-09-15*
+2014-09-22*
+2014-09-29*
+2014-10-06*
+2014-10-13*
+2014-10-20*
+2014-10-27*
+2014-11-03*
+2014-11-10*
+2014-11-17*
+2014-11-24*
+2014-12-01*
+2014-12-08*
+2014-12-15*
+2014-12-22*
+2014-12-29*
+2015-01-05*
+2015-01-12*
+2015-01-19*
+2015-01-26*
+2015-02-02*
 # vim: set nonumber nowrap:
