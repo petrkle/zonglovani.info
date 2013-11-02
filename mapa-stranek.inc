@@ -3,7 +3,6 @@
 	<ul>
 	<li><a href="/aczslovnicek.html">Anglicko-český žonglérský slovníček</a></li>
 	<li><a href="/changelog.html">Commits · petrkle/zonglovani.info · GitHub</a></li>
-	<li><a href="/changes.html">Novinky</a></li>
 	<li><a href="/cirkusove-discipliny.html">Cirkusové disciplíny</a></li>
 	<li><a href="/doplnky-prohlizece.html">Doplňky do prohlížeče</a></li>
 	<li><a href="/druhy-zonglovani.html">Druhy žonglování</a></li>
@@ -795,10 +794,12 @@
 			<ul>
 			<li><a href="/video/tip/8hats.html">8 Hours 8 Hats</a></li>
 			<li><a href="/video/tip/dominik-grohmann.html">Dominik Grohmann</a></li>
+			<li><a href="/video/tip/juggling-around-iceland.html">Juggling Around Iceland</a></li>
 			<li><a href="/video/tip/la-galerie.html">la Galerie</a></li>
 			<li><a href="/video/tip/les-tetes-de-con.html">Les 3 tetes de con</a></li>
 			<li><a href="/video/tip/liquid-underground.html">Liquid Underground</a></li>
 			<li><a href="/video/tip/motto-motto.html">Motto Motto</a></li>
+			<li><a href="/video/tip/the-black-sheep.html">The Black Sheep</a></li>
 			<li><a href="/video/tip/ujs-juggling-spot.html">UJS - Juggling Spot</a></li>
 			</ul>
 			</li>
