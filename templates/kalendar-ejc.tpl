@@ -1,4 +1,9 @@
-<h3><a href="/kalendar/udalost-20130727-20130803-pek-1357415255.html" title="EJC 2013">28. 7. - 3. 8. 2012</a> Toulouse (FR)</h3>
+<h3><a href="/kalendar/udalost-20140719-20140727-pek-1383408341.html" title="EJC 2013">19. 7. - 27. 7. 2014</a> Millstreet (IR)</h3>
+<p><a href="/kalendar/udalost-20140719-20140727-pek-1383408341.html" title="EJC 2014">{obrazek soubor='ejc2014.png' popisek='EJC 2014'}</a> European Juggling Convention je největší žonglérský festival v Evropě.</p>
+
+<p>Podrobnosti - <a href="http://www.ejc2014.org/" title="EJC 2014">ejc2014.org</a></p>
+
+<h3><a href="/kalendar/udalost-20130727-20130803-pek-1357415255.html" title="EJC 2013">28. 7. - 3. 8. 2013</a> Toulouse (FR)</h3>
 <p><a href="/kalendar/udalost-20130727-20130803-pek-1357415255.html" title="EJC 2013">{obrazek soubor='ejc2013.png' popisek='EJC 2013'}</a> European Juggling Convention je největší žonglérský festival v Evropě.</p>
 
 <p>Podrobnosti - <a href="http://www.ejc2013.org/" title="EJC 2013">ejc2013.org</a></p>
