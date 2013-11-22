@@ -257,10 +257,10 @@
 2013-11-18*Poloviční sprcha*/micky/3/sprcha-polovicni.html*psprchab.png*Trik poloviční sprcha se třemi míčky.
 2013-11-25*Pražský žonglérský marathon*/kalendar/udalost-20131129-20131201-pek-1380821206.html*pzm13s.jpg*Pátý ročník pražského žonglérského marathonu.
 2013-12-02*2 v 1 tenis*/micky/3/tenis-2v1.html*2v1tenisb.png*Trik se třemi míčky.
-2013-12-09*Juggling Around Iceland*/video/tip/juggling-around-iceland.html*juggling-around-iceland.jpg*Trocha žonglování na Isladu.
+2013-12-09*Plechové žonglování*/kalendar/udalost-20131215-20131215-pek-1385146013.html*plech-zongl.png*Žonglérské odpoledne v Plechárně. K žonglování budou hrát ostřílení djs.
 2013-12-16*The Black Sheep*/video/tip/the-black-sheep.html*the-black-sheep.jpg*Robin Spinelli v dvanáctiminutovém filmu o žonglování s diabolem.
-2013-12-23*
-2013-12-30*
+2013-12-23*Juggling Around Iceland*/video/tip/juggling-around-iceland.html*juggling-around-iceland.jpg*Trocha žonglování na Isladu.
+2013-12-30*Unicycle*/video/tip/unicycle.html*uni-slack.jpg*S jednokolkou na slack-lině.
 2014-01-06*
 2014-01-13*
 2014-01-20*
