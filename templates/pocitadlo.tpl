@@ -3,29 +3,16 @@
 <!-- start -->
 
 <script type="text/javascript">
-var _gaq = _gaq || [];
-_gaq.push(['_setAccount', 'UA-1140497-3']);
-_gaq.push(['_addOrganic', 'search.centrum.cz', 'q']);
-_gaq.push(['_addOrganic', 'searchatlas.centrum.cz', 'q']);
-{if isset($smarty.session.logged) and $smarty.session.logged==true}
-_gaq.push(['_setCustomVar', 1, 'login', 'true', 2]);
-{else}
-_gaq.push(['_setCustomVar', 1, 'login', 'false', 2]);
-{/if}
-{if $nenalezeno_404}
- _gaq.push(['_trackPageview', '/404/' + document.location.pathname + document.location.search + '&amp;from=' + document.referrer]);
-{else}
-_gaq.push(['_trackPageview']);
-{/if}
-_gaq.push(['_trackPageLoadTime']);
+{literal}
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-(function() {literal}{{/literal}
-	var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-{literal}})();{/literal}
+  ga('create', 'UA-1140497-3', 'zonglovani.info');
+  ga('send', 'pageview');
+{/literal}
 </script>
 
 <!-- stop -->
 {/if}
-
