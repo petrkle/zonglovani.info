@@ -54,9 +54,9 @@ Anglická knížka, kterou sepsal Hans Vanwynsberghe. Nedokončená, ale i přes
 Návody na passování, které sepsal Lee Kolinsky. 18&nbsp;stránek.
 </p>
 
-<a name="hpp"></a><h3><a href="/highgate-passing-patterns.pdf" title="Passing s kužely" onclick="_gaq.push(['_trackPageview','/passing-patterns.pdf']);" class="pdf">The Highgate Collection</a></h3>
+<a name="hpp"></a><h3><a href="/highgate-passing-patterns.pdf" title="Passing s kužely" onclick="_gaq.push(['_trackPageview','/passing-patterns.pdf']);" class="pdf">The New Highgate Collection</a></h3>
 <p>
-<a href="/highgate-passing-patterns.pdf" title="The Highgate Collection" onclick="_gaq.push(['_trackPageview','/highgate-passing-patterns.pdf']);">{obrazek soubor="highgate-passing-patterns.png" popisek="The Highgate Collection"}</a>
+<a href="/highgate-passing-patterns.pdf" title="The New Highgate Collection" onclick="_gaq.push(['_trackPageview','/highgate-passing-patterns.pdf']);">{obrazek soubor="highgate-passing-patterns.png" popisek="The New Highgate Collection"}</a>
 Návody na passování pro dva až čtyři lidi od <a href="http://www.geocities.ws/aidanjburns/" class="external">Aidana Burnse</a>. 218&nbsp;stránek.
 </p>
 
