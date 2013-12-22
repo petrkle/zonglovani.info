@@ -259,11 +259,11 @@
 2013-12-02*2 v 1 tenis*/micky/3/tenis-2v1.html*2v1tenisb.png*Trik se třemi míčky.
 2013-12-09*Plechové žonglování*/kalendar/udalost-20131215-20131215-pek-1385146013.html*plech-zongl.png*Žonglérské odpoledne v Plechárně. K žonglování budou hrát ostřílení djs.
 2013-12-16*The Black Sheep*/video/tip/the-black-sheep.html*the-black-sheep.jpg*Robin Spinelli v dvanáctiminutovém filmu o žonglování s diabolem.
-2013-12-23*Juggling Around Iceland*/video/tip/juggling-around-iceland.html*juggling-around-iceland.jpg*Trocha žonglování na Isladu.
-2013-12-30*Unicycle*/video/tip/unicycle.html*uni-slack.jpg*S jednokolkou na slack-lině.
-2014-01-06*
-2014-01-13*
-2014-01-20*
+2013-12-23*Veselé vánoce*/vanoce-2013.html*kapr-kuzel.s.jpg*Veselé vánoční svátky. Ať vám to lítá :^)
+2013-12-30*PF 2014*/pf-2014.html*rum-kuzel.s.jpg*Hodně štěstí a zdraví v novém roce. Ať vám to lítá :^)
+2014-01-06*Dust in the Chain*/video/tip/dust-in-the-chain.html*dust-in-the-chain.jpg*Trocha akrobatické cyklistiky v podání Yohanna Trepaniera.
+2014-01-13*Juggling Around Iceland*/video/tip/juggling-around-iceland.html*juggling-around-iceland.jpg*Trocha žonglování na Isladu.
+2014-01-20*Unicycle*/video/tip/unicycle.html*uni-slack.jpg*S jednokolkou na slack-lině.
 2014-01-27*
 2014-02-03*
 2014-02-10*

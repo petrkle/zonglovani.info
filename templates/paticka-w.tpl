@@ -1,6 +1,5 @@
 {if $feedback}
 {if $smarty.session.logged==true}
-{include file='fbuton.tpl'}
 <div class="vlevo feedback">
 <p class="kontakt">Hodnocení obrázku: 
 {if isset($smarty.session.uzivatel.hodnoceni[$smarty.server.REQUEST_URI])}<a href="{$smarty.const.LIDE_URL}palec.php?zrusit&amp;url={$smarty.server.REQUEST_URI|escape}&amp;title={$titulek|escape}" title="Nehodnotím tuto stránku.">Nezadáno</a>{else}Nezadáno{/if}
@@ -11,8 +10,6 @@
 </p>
 </div>
 
-{else}
-{include file='fbuton.tpl'}
 {/if}
 
 {/if}
