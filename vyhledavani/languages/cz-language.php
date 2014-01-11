@@ -19,7 +19,7 @@ $sph_messages =  Array (
   "Search" => "Najít",
   "All sites" => "Všechny stránky",
   "Web pages" => "Web stránky",
-  "noMatch" => "Nebyl nelezen žádný dokument vyhovující výrazu &bdquo;%query&rdquo;",
+  "noMatch" => "Slovo &bdquo;%query&rdquo; nebylo nalezeno",
   "ignoredWords" => "Následující slova byly ignorované (příliš krátké nebo všeobecné): %ignored_words",
   "resultsFor" => "Výsledky pro:",
   "Results" => "Zobrazují se výsledky %from &ndash; %to z %all %matchword (%secs sekundy) ", //matchword will be replaced by match or matches (from this file), depending on the number of results.
@@ -32,4 +32,3 @@ $sph_messages =  Array (
   "resultsPerPage" => "výsledků na stránku",
 	"DidYouMean" => "Myslíš"
 );
-?>

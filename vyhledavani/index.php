@@ -31,8 +31,8 @@ $_COOKIE[$key][$attr] = strip_tags( substr( $value, 0, 64 ) );
 }
 
 
-if (isset($_GET['query']))
-	$query = $_GET['query'];
+if (isset($_GET['query']) and strlen(trim($_GET['query']))>0)
+	$query = trim($_GET['query']);
 if (isset($_GET['search'])){
 	$search = $_GET['search'];
 }
@@ -178,4 +178,3 @@ switch ($search) {
 	}
 
 $smarty->display('paticka.tpl');
-?>

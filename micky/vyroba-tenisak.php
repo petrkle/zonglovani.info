@@ -13,7 +13,7 @@ $trail->addStep('Z tenisáku');
 
 $smarty->assign('description','Návod na výrobu žonglérského míčku z tenisáku. Pěkný míček na žonglování snadno, rychle a levně.');
 $smarty->assign('keywords','žonglování, míčky, výroba, tenisák');
-$smarty->assign('nahled','http://'.$_SERVER['SERVER_NAME'].'/img/p/plneni-micku.s.jpg');
+$smarty->assign('nahled','http://'.$_SERVER['SERVER_NAME'].'/img/t/tenisak-v-balonku-3.s.jpg');
 
 $trik=nacti_trik('micky-vyroba-tenisak');
 $smarty->assign('trik',$trik);
