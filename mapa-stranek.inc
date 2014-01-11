@@ -2,7 +2,6 @@
 	<li><a name="top"></a><a href="/">Žonglérův slabikář - žonglování s míčky, kruhy a kužely</a>
 	<ul>
 	<li><a href="/aczslovnicek.html">Anglicko-český žonglérský slovníček</a></li>
-	<li><a href="/changelog.html">Commits · petrkle/zonglovani.info · GitHub</a></li>
 	<li><a href="/cirkusove-discipliny.html">Cirkusové disciplíny</a></li>
 	<li><a href="/doplnky-prohlizece.html">Doplňky do prohlížeče</a></li>
 	<li><a href="/druhy-zonglovani.html">Druhy žonglování</a></li>
@@ -23,6 +22,7 @@
 	<li><a href="/pf-2011.html">PF 2011</a></li>
 	<li><a href="/pf-2012.html">PF 2012</a></li>
 	<li><a href="/pf-2013.html">PF 2013</a></li>
+	<li><a href="/pf-2014.html">PF 2014</a></li>
 	<li><a href="/podporte-zongleruv-slabikar.html">Podpořte žonglérův slabikář</a></li>
 	<li><a href="/proc-a-jak.html">Proč a jak vznikl žonglérův slabikář</a></li>
 	<li><a href="/rec-juggling.html">rec.juggling</a></li>
@@ -37,6 +37,7 @@
 	<li><a href="/vanoce-2010.html">Veselé Vánoce 2010</a></li>
 	<li><a href="/vanoce-2011.html">Veselé Vánoce 2011</a></li>
 	<li><a href="/vanoce-2012.html">Veselé Vánoce 2012</a></li>
+	<li><a href="/vanoce-2013.html">Veselé Vánoce 2013</a></li>
 	<li><a href="/zakladni-pojmy.html">Žonglování - základní pojmy</a></li>
 		<li><a name="animace"></a><a href="/animace/">Animace žonglování</a>
 		<ul>
@@ -63,7 +64,7 @@
 		<li><a href="/diabolo/vyrovnavani-diabola.html">Diabolo - Vyrovnávání diabola</a></li>
 		</ul>
 		</li>
-		<li><a name="diskuse"></a><a href="/diskuse/">Diskuse a komentáře</a>
+		<li><a name="diskuse"></a>diskuse/
 		
 		</li>
 		<li><a name="download"></a><a href="/download/">Soubory ke stažení</a>
@@ -105,7 +106,7 @@
 			<li><a href="/kruhy/3/sloupy.html">Žonglování se třemi kruhy - Sloupy</a></li>
 			</ul>
 			</li>
-			<li><a name="4"></a><a href="/kruhy/4/">Žonglování s kruhy</a>
+			<li><a name="4"></a>kruhy/4/
 			<ul>
 			<li><a href="/kruhy/4/fontana.html">Žonglování se čtyřmi kruhy - Fontána</a></li>
 			</ul>
@@ -192,14 +193,10 @@
 		<li><a name="lide"></a><a href="/lide/">Seznam žonglérů</a>
 		<ul>
 		<li><a href="/lide/novy-ucet.php">Založit účet</a></li>
-		<li><a href="/lide/pravidla.php">Založit účet</a></li>
 			<li><a name="dovednost"></a><a href="/lide/dovednost/">Žongléři podle dovedností</a>
 			
 			</li>
 			<li><a name="misto"></a><a href="/lide/misto/">Žongléři podle místa působení</a>
-			
-			</li>
-			<li><a name="nastaveni"></a><a href="/lide/nastaveni/">Přihlášení</a>
 			
 			</li>
 			<li><a name="rozhovor"></a>lide/rozhovor/
@@ -546,9 +543,6 @@
 		<li><a name="olympiada"></a><a href="/olympiada/">Žonglování na olympiádu</a>
 		
 		</li>
-		<li><a name="rss"></a><a href="/rss/">Novinky</a>
-		
-		</li>
 		<li><a name="scripts"></a><a href="/scripts/">Skripty</a>
 		
 		</li>
@@ -794,6 +788,7 @@
 			<ul>
 			<li><a href="/video/tip/8hats.html">8 Hours 8 Hats</a></li>
 			<li><a href="/video/tip/dominik-grohmann.html">Dominik Grohmann</a></li>
+			<li><a href="/video/tip/dust-in-the-chain.html">Dust in the Chain</a></li>
 			<li><a href="/video/tip/juggling-around-iceland.html">Juggling Around Iceland</a></li>
 			<li><a href="/video/tip/la-galerie.html">la Galerie</a></li>
 			<li><a href="/video/tip/les-tetes-de-con.html">Les 3 tetes de con</a></li>
@@ -801,6 +796,7 @@
 			<li><a href="/video/tip/motto-motto.html">Motto Motto</a></li>
 			<li><a href="/video/tip/the-black-sheep.html">The Black Sheep</a></li>
 			<li><a href="/video/tip/ujs-juggling-spot.html">UJS - Juggling Spot</a></li>
+			<li><a href="/video/tip/unicycle.html">Unicycle</a></li>
 			</ul>
 			</li>
 		</ul>

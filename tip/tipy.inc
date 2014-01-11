@@ -265,9 +265,9 @@
 2014-01-13*Brno juggling convention*/kalendar/udalost-20140117-20140119-pek-1389338710.html*bjc02.png*Druhý ročník Brno Juggling Convention.
 2014-01-20*Unicycle*/video/tip/unicycle.html*uni-slack.jpg*S jednokolkou na slack-lině.
 2014-01-27*Juggling Around Iceland*/video/tip/juggling-around-iceland.html*juggling-around-iceland.jpg*Trocha žonglování na Isladu.
-2014-02-03*
-2014-02-10*
-2014-02-17*
+2014-02-03*Aerial Emery*/video/hulahop/aerial-emery.html*aerial-emery.jpg*Točení s obručemi v podání Aerial Emery.
+2014-02-10*Sicily vacation*/video/etc/sicily-vacation.html*sicily-vacation.jpg*Daniela Paličková s míčky na Sicílii.
+2014-02-17*Pass pass self*/kuzely/passing/pps.html*kuzely-passing-ppsa.png*Trik pro dva žongléry a šest kuželů.
 2014-02-24*
 2014-03-03*
 2014-03-10*

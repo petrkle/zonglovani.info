@@ -1040,6 +1040,21 @@
 </video:video>
 </url>
 <url>
+<loc>http://zonglovani.info/video/hulahop/aerial-emery.html</loc>
+<video:video>
+<video:thumbnail_loc>http://zonglovani.info/video/img/a/aerial-emery.jpg</video:thumbnail_loc>
+<video:title>Aerial Emery</video:title>
+<video:description>Točení s obručemi v podání Aerial Emery.</video:description>
+<video:content_loc>http://juggling.tv/nvplayer.swf?config=http://juggling.tv/nuevo/config.php?key=6fc927eeb6b53379cb78</video:content_loc>
+<video:player_loc>http://juggling.tv/nvplayer.swf?config=http://juggling.tv/nuevo/config.php?key=6fc927eeb6b53379cb78</video:player_loc>
+<video:duration>62</video:duration>
+<video:tag>Žonglování</video:tag>
+<video:category>Žonglování</video:category>
+<video:gallery_loc title="Žonglérská videa">http://zonglovani.info/video/</video:gallery_loc>
+<video:requires_subscription>no</video:requires_subscription>
+</video:video>
+</url>
+<url>
 <loc>http://zonglovani.info/video/levistick/fina-magic.html</loc>
 <video:video>
 <video:thumbnail_loc>http://zonglovani.info/video/img/f/fina-magic.jpg</video:thumbnail_loc>
@@ -3022,6 +3037,35 @@
 </video:video>
 </url>
 <url>
+<loc>http://zonglovani.info/video/tip/dust-in-the-chain.html</loc>
+<video:video>
+<video:thumbnail_loc>http://zonglovani.info/video/img/d/dust-in-the-chain.jpg</video:thumbnail_loc>
+<video:title>Dust in the Chain</video:title>
+<video:description>Trocha akrobatické cyklistiky v podání Yohanna Trepaniera.</video:description>
+<video:content_loc>http://juggling.tv/nvplayer.swf?config=http://juggling.tv/nuevo/config.php?key=952ed24958ef3ba47c7e</video:content_loc>
+<video:player_loc>http://juggling.tv/nvplayer.swf?config=http://juggling.tv/nuevo/config.php?key=952ed24958ef3ba47c7e</video:player_loc>
+<video:duration>277</video:duration>
+<video:tag>Žonglování</video:tag>
+<video:category>Žonglování</video:category>
+<video:gallery_loc title="Žonglérská videa">http://zonglovani.info/video/</video:gallery_loc>
+<video:requires_subscription>no</video:requires_subscription>
+</video:video>
+</url>
+<url>
+<loc>http://zonglovani.info/video/tip/juggling-around-iceland.html</loc>
+<video:video>
+<video:thumbnail_loc>http://zonglovani.info/video/img/j/juggling-around-iceland.jpg</video:thumbnail_loc>
+<video:title>Juggling Around Iceland</video:title>
+<video:description>Žonglování na Isladu.</video:description>
+<video:player_loc>http://www.youtube.com/v/dXx31LNnZKo</video:player_loc>
+<video:duration>139</video:duration>
+<video:tag>Žonglování</video:tag>
+<video:category>Žonglování</video:category>
+<video:gallery_loc title="Žonglérská videa">http://zonglovani.info/video/</video:gallery_loc>
+<video:requires_subscription>no</video:requires_subscription>
+</video:video>
+</url>
+<url>
 <loc>http://zonglovani.info/video/tip/la-galerie.html</loc>
 <video:video>
 <video:thumbnail_loc>http://zonglovani.info/video/img/l/la-galerie.jpg</video:thumbnail_loc>
@@ -3037,6 +3081,66 @@
 </video:video>
 </url>
 <url>
+<loc>http://zonglovani.info/video/tip/les-tetes-de-con.html</loc>
+<video:video>
+<video:thumbnail_loc>http://zonglovani.info/video/img/l/les-tetes-de-con.jpg</video:thumbnail_loc>
+<video:title>Les 3 tetes de con</video:title>
+<video:description>Představení tria les 3 tetes de con.</video:description>
+<video:content_loc>http://juggling.tv/nvplayer.swf?config=http://juggling.tv/nuevo/config.php?key=44c266354b266afe7b9d</video:content_loc>
+<video:player_loc>http://juggling.tv/nvplayer.swf?config=http://juggling.tv/nuevo/config.php?key=44c266354b266afe7b9d</video:player_loc>
+<video:duration>102</video:duration>
+<video:tag>Žonglování</video:tag>
+<video:category>Žonglování</video:category>
+<video:gallery_loc title="Žonglérská videa">http://zonglovani.info/video/</video:gallery_loc>
+<video:requires_subscription>no</video:requires_subscription>
+</video:video>
+</url>
+<url>
+<loc>http://zonglovani.info/video/tip/liquid-underground.html</loc>
+<video:video>
+<video:thumbnail_loc>http://zonglovani.info/video/img/l/liquid-underground.jpg</video:thumbnail_loc>
+<video:title>Liquid Underground</video:title>
+<video:description>Matt Hennem v Londýnském metru.</video:description>
+<video:content_loc>http://juggling.tv/nvplayer.swf?config=http://juggling.tv/nuevo/config.php?key=5b3483921959730de49f</video:content_loc>
+<video:player_loc>http://juggling.tv/nvplayer.swf?config=http://juggling.tv/nuevo/config.php?key=5b3483921959730de49f</video:player_loc>
+<video:duration>232</video:duration>
+<video:tag>Žonglování</video:tag>
+<video:category>Žonglování</video:category>
+<video:gallery_loc title="Žonglérská videa">http://zonglovani.info/video/</video:gallery_loc>
+<video:requires_subscription>no</video:requires_subscription>
+</video:video>
+</url>
+<url>
+<loc>http://zonglovani.info/video/tip/motto-motto.html</loc>
+<video:video>
+<video:thumbnail_loc>http://zonglovani.info/video/img/m/motto-motto.jpg</video:thumbnail_loc>
+<video:title>Motto Motto</video:title>
+<video:description>Daniela Paličková s kužely a míčky.</video:description>
+<video:content_loc>http://juggling.tv/nvplayer.swf?config=http://juggling.tv/nuevo/config.php?key=c74d8c3a37fbfbb055cd</video:content_loc>
+<video:player_loc>http://juggling.tv/nvplayer.swf?config=http://juggling.tv/nuevo/config.php?key=c74d8c3a37fbfbb055cd</video:player_loc>
+<video:duration>189</video:duration>
+<video:tag>Žonglování</video:tag>
+<video:category>Žonglování</video:category>
+<video:gallery_loc title="Žonglérská videa">http://zonglovani.info/video/</video:gallery_loc>
+<video:requires_subscription>no</video:requires_subscription>
+</video:video>
+</url>
+<url>
+<loc>http://zonglovani.info/video/tip/the-black-sheep.html</loc>
+<video:video>
+<video:thumbnail_loc>http://zonglovani.info/video/img/t/the-black-sheep.jpg</video:thumbnail_loc>
+<video:title>The Black Sheep</video:title>
+<video:description>Robin Spinelli v dvanáctiminutovém filmu o žonglování s diabolem.</video:description>
+<video:content_loc>http://juggling.tv/nvplayer.swf?config=http://juggling.tv/nuevo/config.php?key=813b5f91631e5d1ff909</video:content_loc>
+<video:player_loc>http://juggling.tv/nvplayer.swf?config=http://juggling.tv/nuevo/config.php?key=813b5f91631e5d1ff909</video:player_loc>
+<video:duration>714</video:duration>
+<video:tag>Žonglování</video:tag>
+<video:category>Žonglování</video:category>
+<video:gallery_loc title="Žonglérská videa">http://zonglovani.info/video/</video:gallery_loc>
+<video:requires_subscription>no</video:requires_subscription>
+</video:video>
+</url>
+<url>
 <loc>http://zonglovani.info/video/tip/ujs-juggling-spot.html</loc>
 <video:video>
 <video:thumbnail_loc>http://zonglovani.info/video/img/u/ujs-juggling-spot.jpg</video:thumbnail_loc>
@@ -3045,6 +3149,21 @@
 <video:content_loc>http://juggling.tv/nvplayer.swf?config=http://juggling.tv/nuevo/config.php?key=33aebadde5d35e3c5e3e</video:content_loc>
 <video:player_loc>http://juggling.tv/nvplayer.swf?config=http://juggling.tv/nuevo/config.php?key=33aebadde5d35e3c5e3e</video:player_loc>
 <video:duration>30</video:duration>
+<video:tag>Žonglování</video:tag>
+<video:category>Žonglování</video:category>
+<video:gallery_loc title="Žonglérská videa">http://zonglovani.info/video/</video:gallery_loc>
+<video:requires_subscription>no</video:requires_subscription>
+</video:video>
+</url>
+<url>
+<loc>http://zonglovani.info/video/tip/unicycle.html</loc>
+<video:video>
+<video:thumbnail_loc>http://zonglovani.info/video/img/u/unicycle.jpg</video:thumbnail_loc>
+<video:title>Unicycle</video:title>
+<video:description>S jednokolkou na slack-lině.</video:description>
+<video:content_loc>http://juggling.tv/nvplayer.swf?config=http://juggling.tv/nuevo/config.php?key=f6846fc9b3e6699ed9b1</video:content_loc>
+<video:player_loc>http://juggling.tv/nvplayer.swf?config=http://juggling.tv/nuevo/config.php?key=f6846fc9b3e6699ed9b1</video:player_loc>
+<video:duration>125</video:duration>
 <video:tag>Žonglování</video:tag>
 <video:category>Žonglování</video:category>
 <video:gallery_loc title="Žonglérská videa">http://zonglovani.info/video/</video:gallery_loc>

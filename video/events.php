@@ -7,5 +7,5 @@ $juggling_events=array(
 	'levistick'=>array('title'=>'Levistick','public'=>true),
 	'etc'=>array('title'=>'Různé','public'=>false),
 	'tip'=>array('title'=>'Tip','public'=>false),
+	'hulahop'=>array('title'=>'Hula-hop','public'=>false),
 	);
-
