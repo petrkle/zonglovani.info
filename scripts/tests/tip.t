@@ -73,5 +73,7 @@ foreach my $tip(@radky){
 	}
 }
 
-ok($spravne_tipy>=5,"$spravne_tipy správných tipů v zásobě");
+my $min_tips = 6;
+
+ok($spravne_tipy>=$min_tips,"Pouze $spravne_tipy tipy v zásobě. Doporučené minimum je $min_tips");
 ok($spatne_tipy==0,"Tipy neobsahují chybný odkaz, obrázek, text nebo popis");

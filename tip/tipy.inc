@@ -262,9 +262,9 @@
 2013-12-23*Veselé vánoce*/vanoce-2013.html*kapr-kuzel.s.jpg*Veselé vánoční svátky. Ať vám to lítá :^)
 2013-12-30*PF 2014*/pf-2014.html*rum-kuzel.s.jpg*Hodně štěstí a zdraví v novém roce. Ať vám to lítá :^)
 2014-01-06*Dust in the Chain*/video/tip/dust-in-the-chain.html*dust-in-the-chain.jpg*Trocha akrobatické cyklistiky v podání Yohanna Trepaniera.
-2014-01-13*Juggling Around Iceland*/video/tip/juggling-around-iceland.html*juggling-around-iceland.jpg*Trocha žonglování na Isladu.
+2014-01-13*Brno juggling convention*/kalendar/udalost-20140117-20140119-pek-1389338710.html*bjc02.png*Druhý ročník Brno Juggling Convention.
 2014-01-20*Unicycle*/video/tip/unicycle.html*uni-slack.jpg*S jednokolkou na slack-lině.
-2014-01-27*
+2014-01-27*Juggling Around Iceland*/video/tip/juggling-around-iceland.html*juggling-around-iceland.jpg*Trocha žonglování na Isladu.
 2014-02-03*
 2014-02-10*
 2014-02-17*
