@@ -268,12 +268,12 @@
 2014-02-03*Aerial Emery*/video/hulahop/aerial-emery.html*aerial-emery.jpg*Točení s obručemi v podání Aerial Emery.
 2014-02-10*Sicily vacation*/video/etc/sicily-vacation.html*sicily-vacation.jpg*Daniela Paličková s míčky na Sicílii.
 2014-02-17*Pass pass self*/kuzely/passing/pps.html*kuzely-passing-ppsa.png*Trik pro dva žongléry a šest kuželů.
-2014-02-24*
-2014-03-03*
-2014-03-10*
-2014-03-17*
-2014-03-24*
-2014-03-31*
+2014-02-24*Kometa*/micky/3/kometa.html*micky-3-kometaa.png*Zavaž míček do šátku a máš kometu.
+2014-03-03*Motion cocktail*/video/tip/motion-cocktail.html*motion-cocktail.jpg*Vojta Žák a Šimon Borna trénují vystoupení Motion cocktail.
+2014-03-10*Orangutan*/micky/3/orangutan.html*orangutana.png*Tento trik sice není až tak žonglování, ale publikum zaručeně pobaví.
+2014-03-17*Flaka a Daniela*/video/tip/flaka-daniela-juggling.html*fdj.jpg*Žonglérky Cinthia a Daniela.
+2014-03-24*Had*/micky/3/had.html*hadd.png*Míčky létají za sebou jako had.
+2014-03-31*Spot the Drop Trailer*/video/tip/spot-the-drop-trailer.html*spot-the-drop.jpg*Trailer k vystoupení Spot the Drop.
 2014-04-07*
 2014-04-14*
 2014-04-21*

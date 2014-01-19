@@ -3052,6 +3052,21 @@
 </video:video>
 </url>
 <url>
+<loc>http://zonglovani.info/video/tip/flaka-daniela-juggling.html</loc>
+<video:video>
+<video:thumbnail_loc>http://zonglovani.info/video/img/f/flaka-daniela-juggling.jpg</video:thumbnail_loc>
+<video:title>Flaka a Daniela</video:title>
+<video:description>Cinthia "la flaka" a Daniela žonglují.</video:description>
+<video:content_loc>http://juggling.tv/nvplayer.swf?config=http://juggling.tv/nuevo/config.php?key=1e3e01b1cb0d41dc5ffc</video:content_loc>
+<video:player_loc>http://juggling.tv/nvplayer.swf?config=http://juggling.tv/nuevo/config.php?key=1e3e01b1cb0d41dc5ffc</video:player_loc>
+<video:duration>154</video:duration>
+<video:tag>Žonglování</video:tag>
+<video:category>Žonglování</video:category>
+<video:gallery_loc title="Žonglérská videa">http://zonglovani.info/video/</video:gallery_loc>
+<video:requires_subscription>no</video:requires_subscription>
+</video:video>
+</url>
+<url>
 <loc>http://zonglovani.info/video/tip/juggling-around-iceland.html</loc>
 <video:video>
 <video:thumbnail_loc>http://zonglovani.info/video/img/j/juggling-around-iceland.jpg</video:thumbnail_loc>
@@ -3111,6 +3126,21 @@
 </video:video>
 </url>
 <url>
+<loc>http://zonglovani.info/video/tip/motion-cocktail.html</loc>
+<video:video>
+<video:thumbnail_loc>http://zonglovani.info/video/img/m/motion-cocktail.jpg</video:thumbnail_loc>
+<video:title>Motion cocktail</video:title>
+<video:description>Vojta Žák a Šimon Borna trénují vystoupení Motion cocktail.</video:description>
+<video:content_loc>http://juggling.tv/nvplayer.swf?config=http://juggling.tv/nuevo/config.php?key=665f9eefc114e5e7d3e7</video:content_loc>
+<video:player_loc>http://juggling.tv/nvplayer.swf?config=http://juggling.tv/nuevo/config.php?key=665f9eefc114e5e7d3e7</video:player_loc>
+<video:duration>266</video:duration>
+<video:tag>Žonglování</video:tag>
+<video:category>Žonglování</video:category>
+<video:gallery_loc title="Žonglérská videa">http://zonglovani.info/video/</video:gallery_loc>
+<video:requires_subscription>no</video:requires_subscription>
+</video:video>
+</url>
+<url>
 <loc>http://zonglovani.info/video/tip/motto-motto.html</loc>
 <video:video>
 <video:thumbnail_loc>http://zonglovani.info/video/img/m/motto-motto.jpg</video:thumbnail_loc>
@@ -3119,6 +3149,21 @@
 <video:content_loc>http://juggling.tv/nvplayer.swf?config=http://juggling.tv/nuevo/config.php?key=c74d8c3a37fbfbb055cd</video:content_loc>
 <video:player_loc>http://juggling.tv/nvplayer.swf?config=http://juggling.tv/nuevo/config.php?key=c74d8c3a37fbfbb055cd</video:player_loc>
 <video:duration>189</video:duration>
+<video:tag>Žonglování</video:tag>
+<video:category>Žonglování</video:category>
+<video:gallery_loc title="Žonglérská videa">http://zonglovani.info/video/</video:gallery_loc>
+<video:requires_subscription>no</video:requires_subscription>
+</video:video>
+</url>
+<url>
+<loc>http://zonglovani.info/video/tip/spot-the-drop-trailer.html</loc>
+<video:video>
+<video:thumbnail_loc>http://zonglovani.info/video/img/s/spot-the-drop-trailer.jpg</video:thumbnail_loc>
+<video:title>Spot the Drop Trailer</video:title>
+<video:description>Trailer k vystoupení Spot the Drop.</video:description>
+<video:content_loc>http://juggling.tv/nvplayer.swf?config=http://juggling.tv/nuevo/config.php?key=7e83e8ba089e94b7b6b5</video:content_loc>
+<video:player_loc>http://juggling.tv/nvplayer.swf?config=http://juggling.tv/nuevo/config.php?key=7e83e8ba089e94b7b6b5</video:player_loc>
+<video:duration>56</video:duration>
 <video:tag>Žonglování</video:tag>
 <video:category>Žonglování</video:category>
 <video:gallery_loc title="Žonglérská videa">http://zonglovani.info/video/</video:gallery_loc>
