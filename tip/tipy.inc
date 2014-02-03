@@ -72,8 +72,8 @@
 2011-01-17*Fotky z Ulity*/obrazky/ulita-20110116/0000.html*mizu.jpg*Fotky z nedělního žonglování v Ulitě.
 2011-01-19*Otáčení kuželky okolo palce*/kuzely/toceni-okolo-palce.html*tocenib.png*Trik který můžeš trénovat i v místnostech s nízkým stropem.
 2011-01-24*Žonglování v Ulitě*/ulita/?20110130*ulita.cz.png*V domě dětí a mládeže Ulita se pravidelně žongluje. Přijít mohou začínající i zkušení žongléři a žonglérky.
-2011-01-31*Žonglování na ledě*/kalendar/udalost-20110204-20110204-pek-1295125652.html#*zongl-led.jpg*Tradiční zimní taškařice cirkusu LeGrando.
-2011-02-03*Všežonglérský slet*/kalendar/udalost-20110206-20110206-pek-1295365358.html#*vsezonglersky-slet-ii.png*Druhé nedělní žonglování v Žižkovské sokolovně.
+2011-01-31*Žonglování na ledě*/kalendar/udalost-20110204-20110204-pek-1295125652.html*zongl-led.jpg*Tradiční zimní taškařice cirkusu LeGrando.
+2011-02-03*Všežonglérský slet*/kalendar/udalost-20110206-20110206-pek-1295365358.html*vsezonglersky-slet-ii.png*Druhé nedělní žonglování v Žižkovské sokolovně.
 2011-02-07*Žonglování v Ulitě*/ulita/?20110213*ulita.cz.png*V domě dětí a mládeže Ulita se pravidelně žongluje. Přijít mohou začínající i zkušení žongléři a žonglérky.
 2011-02-14*Fotky z Ulity*/obrazky/ulita-20110213/0000.html*zonglerka-v-modrem.jpg*Fotky z nedělního žonglování v Ulitě.
 2011-02-21*Instalace žonglérova slabikáře*/download*download.png*Nainstaluj si žonglérův slabikář do počítače. Zjednodušená verze která jde používat i bez připojení k internetu. 
@@ -266,7 +266,7 @@
 2014-01-20*Unicycle*/video/tip/unicycle.html*uni-slack.jpg*S jednokolkou na slack-lině.
 2014-01-27*Juggling Around Iceland*/video/tip/juggling-around-iceland.html*juggling-around-iceland.jpg*Trocha žonglování na Isladu.
 2014-02-03*Aerial Emery*/video/hulahop/aerial-emery.html*aerial-emery.jpg*Točení s obručemi v podání Aerial Emery.
-2014-02-10*Sicily vacation*/video/etc/sicily-vacation.html*sicily-vacation.jpg*Daniela Paličková s míčky na Sicílii.
+2014-02-10*Žonglování na ledě*/kalendar/udalost-20140214-20140214-pek-1391417681.html*zongl-led14.jpg*Tradiční zimní taškařice cirkusu LeGrando.
 2014-02-17*Pass pass self*/kuzely/passing/pps.html*kuzely-passing-ppsa.png*Trik pro dva žongléry a šest kuželů.
 2014-02-24*Kometa*/micky/3/kometa.html*micky-3-kometaa.png*Zavaž míček do šátku a máš kometu.
 2014-03-03*Motion cocktail*/video/tip/motion-cocktail.html*motion-cocktail.jpg*Vojta Žák a Šimon Borna trénují vystoupení Motion cocktail.
@@ -274,7 +274,7 @@
 2014-03-17*Flaka a Daniela*/video/tip/flaka-daniela-juggling.html*fdj.jpg*Žonglérky Cinthia a Daniela.
 2014-03-24*Had*/micky/3/had.html*hadd.png*Míčky létají za sebou jako had.
 2014-03-31*Spot the Drop Trailer*/video/tip/spot-the-drop-trailer.html*spot-the-drop.jpg*Trailer k vystoupení Spot the Drop.
-2014-04-07*
+2014-04-07*Sicily vacation*/video/etc/sicily-vacation.html*sicily-vacation.jpg*Daniela Paličková s míčky na Sicílii.
 2014-04-14*
 2014-04-21*
 2014-04-28*
