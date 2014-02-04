@@ -643,6 +643,11 @@
 			<li><a href="/video/etc/zombie-day.html">Juggling Zombie Day</a></li>
 			</ul>
 			</li>
+			<li><a name="hulahop"></a><a href="/video/hulahop/">Hula-hop</a>
+			<ul>
+			<li><a href="/video/hulahop/aerial-emery.html">Aerial Emery</a></li>
+			</ul>
+			</li>
 			<li><a name="levistick"></a><a href="/video/levistick/">Levistick</a>
 			<ul>
 			<li><a href="/video/levistick/fina-magic.html">Fina magic</a></li>
