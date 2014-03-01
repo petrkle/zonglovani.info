@@ -275,7 +275,7 @@
 2014-03-24*Had*/micky/3/had.html*hadd.png*Míčky létají za sebou jako had.
 2014-03-31*Spot the Drop Trailer*/video/tip/spot-the-drop-trailer.html*spot-the-drop.jpg*Trailer k vystoupení Spot the Drop.
 2014-04-07*Sicily vacation*/video/etc/sicily-vacation.html*sicily-vacation.jpg*Daniela Paličková s míčky na Sicílii.
-2014-04-14*
+2014-04-14*Chopped Dolby*/video/tip/chopped-dolby.html*chopped-dolby.jpg*Trochu komplikovanější passing s kužely.
 2014-04-21*
 2014-04-28*
 2014-05-05*

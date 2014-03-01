@@ -3033,12 +3033,6 @@
    </url>
 			
    <url>
-      <loc>http://zonglovani.info/kalendar/2009-03.html</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.6</priority>
-   </url>
-			
-   <url>
       <loc>http://zonglovani.info/kalendar/2009-04.html</loc>
       <changefreq>weekly</changefreq>
       <priority>0.6</priority>
@@ -6591,12 +6585,6 @@
    </url>
 			
    <url>
-      <loc>http://zonglovani.info/lide/jakub-croan.html</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.6</priority>
-   </url>
-			
-   <url>
       <loc>http://zonglovani.info/lide/janca.html</loc>
       <changefreq>weekly</changefreq>
       <priority>0.6</priority>
@@ -6777,12 +6765,6 @@
    </url>
 			
    <url>
-      <loc>http://zonglovani.info/lide/pixal.html</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.6</priority>
-   </url>
-			
-   <url>
       <loc>http://zonglovani.info/lide/pravidla.php</loc>
       <changefreq>monthly</changefreq>
       <priority>0.4</priority>
@@ -6922,12 +6904,6 @@
 			
    <url>
       <loc>http://zonglovani.info/lide/zolodromedar.html</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.6</priority>
-   </url>
-			
-   <url>
-      <loc>http://zonglovani.info/lide/zongler.html</loc>
       <changefreq>weekly</changefreq>
       <priority>0.6</priority>
    </url>
@@ -24604,6 +24580,12 @@
 			
    <url>
       <loc>http://zonglovani.info/video/tip/8hats.html</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.5</priority>
+   </url>
+			
+   <url>
+      <loc>http://zonglovani.info/video/tip/chopped-dolby.html</loc>
       <changefreq>yearly</changefreq>
       <priority>0.5</priority>
    </url>

@@ -3067,6 +3067,21 @@
 </video:video>
 </url>
 <url>
+<loc>http://zonglovani.info/video/tip/chopped-dolby.html</loc>
+<video:video>
+<video:thumbnail_loc>http://zonglovani.info/video/img/c/chopped-dolby.jpg</video:thumbnail_loc>
+<video:title>Chopped Dolby</video:title>
+<video:description>Obouruční verze triku Chopabout.</video:description>
+<video:content_loc>http://juggling.tv/nvplayer.swf?config=http://juggling.tv/nuevo/config.php?key=6830f41f0a8f886c6ff9</video:content_loc>
+<video:player_loc>http://juggling.tv/nvplayer.swf?config=http://juggling.tv/nuevo/config.php?key=6830f41f0a8f886c6ff9</video:player_loc>
+<video:duration>53</video:duration>
+<video:tag>Žonglování</video:tag>
+<video:category>Žonglování</video:category>
+<video:gallery_loc title="Žonglérská videa">http://zonglovani.info/video/</video:gallery_loc>
+<video:requires_subscription>no</video:requires_subscription>
+</video:video>
+</url>
+<url>
 <loc>http://zonglovani.info/video/tip/juggling-around-iceland.html</loc>
 <video:video>
 <video:thumbnail_loc>http://zonglovani.info/video/img/j/juggling-around-iceland.jpg</video:thumbnail_loc>

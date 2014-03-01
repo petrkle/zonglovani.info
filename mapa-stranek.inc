@@ -800,6 +800,7 @@
 			<li><a name="tip"></a><a href="/video/tip/">Tip</a>
 			<ul>
 			<li><a href="/video/tip/8hats.html">8 Hours 8 Hats</a></li>
+			<li><a href="/video/tip/chopped-dolby.html">Chopped Dolby</a></li>
 			<li><a href="/video/tip/dominik-grohmann.html">Dominik Grohmann</a></li>
 			<li><a href="/video/tip/dust-in-the-chain.html">Dust in the Chain</a></li>
 			<li><a href="/video/tip/flaka-daniela-juggling.html">Flaka a Daniela</a></li>
