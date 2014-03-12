@@ -19,4 +19,4 @@ ok(defined($content), 'Úvodní stránka je dostupná');
 ok($content =~ /Stránkování:/, 'Jitka - nalezeno');
 
 $zs_search = $bot->submit_form(form_number => 0,fields => {'query'=>$neexistujici,'search'=>'1'});
-ok($zs_search->content() =~ /Nebyl nelezen žádný dokument vyhovující výrazu/, "$neexistujici nenalezeno");
+ok($zs_search->content() =~ /Vyhledávací robot nenašel žádnou stránku podobnou tvému dotazu/, "$neexistujici nenalezeno");
