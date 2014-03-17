@@ -69,9 +69,9 @@ $content=$zs_udaje->content();
 
 ok($content =~ /Na tvůj e-mail \($mail\) byla odeslána zpráva/, 'Aktivační email odeslán');
 sleep 3;
-ok(-f "/home/fakemail/$mail.1", 'Aktivační email přišel');
+ok(-f "/home/fakemail/$mail.1.eml", 'Aktivační email přišel');
 
-open MAIL, "/home/fakemail/$mail.1";
+open MAIL, "/home/fakemail/$mail.1.eml";
 my @zprava = <MAIL>;
 close MAIL;
 
@@ -142,9 +142,9 @@ my $zs_obnova = $bot->submit_form(form_number => 0,fields => $obnovit, button =>
 ok($zs_obnova->content() =~ /Na tvůj e-mail byla odeslána zpráva potřebná k obnovení hesla/,'Odeslán email pro obnovu hesla.');
 
 sleep 3;
-ok(-f "/home/fakemail/$mail.2", 'Email pro obnovu hesla přišel');
+ok(-f "/home/fakemail/$mail.2.eml", 'Email pro obnovu hesla přišel');
 
-open MAIL, "/home/fakemail/$mail.2";
+open MAIL, "/home/fakemail/$mail.2.eml";
 my @zprava_z = <MAIL>;
 close MAIL;
 
@@ -199,9 +199,9 @@ $zs_ruseni = $bot->click_button(name=>'zrusit');
 ok($zs_ruseni->content() =~ /E-mail s instrukcemi jak zrušit účet odeslán\./,'Odeslání zprávy s odkazem na zrušení.');
 
 sleep 1;
-ok(-f "/home/fakemail/$mail.3", 'Rušící email přišel');
+ok(-f "/home/fakemail/$mail.3.eml", 'Rušící email přišel');
 
-open MAIL, "/home/fakemail/$mail.3";
+open MAIL, "/home/fakemail/$mail.3.eml";
 my @zprava_r = <MAIL>;
 close MAIL;
 

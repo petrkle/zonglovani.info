@@ -65,15 +65,15 @@ my $pozadavek = $bot->get('http://zongl.info/cron/old-accounts.php');
 ok($bot->status() == 200,'Spuštění cronu');
 
 sleep 1;
-ok(-f "/home/fakemail/$mail.1", 'Připomínací email přišel');
+ok(-f "/home/fakemail/$mail.1.eml", 'Připomínací email přišel');
 
 ok(-f "/home/www/zonglovani.info/data/sendmails/$mail.spici", 'Záznam o odeslání připomínacího emailu');
 
 $pozadavek = $bot->get('http://zongl.info/cron/old-accounts.php');
 sleep 1;
-ok(!-f "/home/fakemail/$mail.2", 'Připomínací email nechodí dvakrát');
+ok(!-f "/home/fakemail/$mail.2.eml", 'Připomínací email nechodí dvakrát');
 
-open MAIL, "/home/fakemail/$mail.1";
+open MAIL, "/home/fakemail/$mail.1.eml";
 my @zprava = <MAIL>;
 close MAIL;
 
@@ -100,7 +100,7 @@ ok(!-f "/home/www/zonglovani.info/data/sendmails/$mail.spici", 'Smazání zázna
 
 $pozadavek = $bot->get('http://zongl.info/cron/old-accounts.php');
 sleep 1;
-ok(!-f "/home/fakemail/$mail.2", 'Připomínací email nechodí po přihlášení');
+ok(!-f "/home/fakemail/$mail.2.eml", 'Připomínací email nechodí po přihlášení');
 
 
 ($sec,$min,$hour,$mday,$mon,$year,$wday,$yday,$isdst) = localtime($datum_zruseni);
@@ -127,13 +127,13 @@ ok($zs_prihlaseni->content() =~ /Účet je zrušen/,'Neaktivní účet je zruše
 system("touch -t $warn_time"."1200.00 $DATA_LIDE/$login/prihlaseni.txt");
 $pozadavek = $bot->get('http://zongl.info/cron/old-accounts.php');
 sleep 1;
-ok(!-f "/home/fakemail/$mail.2", 'Připomínací email nechodí na účty zrušené uživateli');
+ok(!-f "/home/fakemail/$mail.2.eml", 'Připomínací email nechodí na účty zrušené uživateli');
 unlink("$DATA_LIDE/$login/LOCKED");
 
 system("touch $DATA_LIDE/$login/REVOKED");
 $pozadavek = $bot->get('http://zongl.info/cron/old-accounts.php');
 sleep 1;
-ok(!-f "/home/fakemail/$mail.2", 'Připomínací email nechodí na zablokované účty zlobivých uživatelů');
+ok(!-f "/home/fakemail/$mail.2.eml", 'Připomínací email nechodí na zablokované účty zlobivých uživatelů');
 
 system("rm -rf $DATA_LIDE/$login");
 system("rm -rf $DATA_LIDE_BY_MAIL/$maildomain");

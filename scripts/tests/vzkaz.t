@@ -68,9 +68,9 @@ my $navrat = $zs_posli_vzkaz->content();
 ok($navrat =~ /Na tvůj e-mail byla odeslána zpráva potřebná k dokončení zaslání vzkazu\./,"Odeslání potvrzovacího mailu na $clovek_mail_mail ($clovek_mail)");
 
 sleep 1;
-ok(-f "/home/fakemail/$clovek_mail_mail.1", 'Potvrzovaci mail přišel');
+ok(-f "/home/fakemail/$clovek_mail_mail.1.eml", 'Potvrzovaci mail přišel');
 
-open MAIL, "/home/fakemail/$clovek_mail_mail.1";
+open MAIL, "/home/fakemail/$clovek_mail_mail.1.eml";
 my @zprava = <MAIL>;
 close MAIL;
 
@@ -82,7 +82,7 @@ my $zs_aktivace = $bot->get($odkazy[0]);
 ok($zs_aktivace->content() =~ /Vzkaz byl odeslán./,"Vzkaz byl odeslán na $clovek_formular_mail ($clovek_formular).");
 
 sleep 1;
-ok(-f "/home/fakemail/$clovek_formular_mail.1", "Vzkaz od $clovek_mail_mail ($clovek_mail) přišel na $clovek_formular_mail ($clovek_formular) přišel.");
+ok(-f "/home/fakemail/$clovek_formular_mail.1.eml", "Vzkaz od $clovek_mail_mail ($clovek_mail) přišel na $clovek_formular_mail ($clovek_formular) přišel.");
 
 my $zs_prihlaseni = $bot->get($loginurl);
 $zs_prihlaseni = $bot->submit_form(form_number => 0,fields => $prihl_udaj);
@@ -112,6 +112,6 @@ ok($odpoved =~ /Vzkaz byl úspěšně odeslán/,'Vzkaz od přihlášeného uživ
 
 sleep 1;
 
-ok(-f "/home/fakemail/$clovek_formular_mail.2", "Vzkaz od přihlášeného uživatele přišel na $clovek_formular_mail ($clovek_formular).");
+ok(-f "/home/fakemail/$clovek_formular_mail.2.eml", "Vzkaz od přihlášeného uživatele přišel na $clovek_formular_mail ($clovek_formular).");
 
 system("sudo /bin/bash /home/www/zonglovani.info/scripts/tests/clean.sh")
