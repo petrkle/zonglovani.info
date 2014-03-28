@@ -276,10 +276,10 @@
 2014-03-31*Spot the Drop Trailer*/video/tip/spot-the-drop-trailer.html*spot-the-drop.jpg*Trailer k vystoupení Spot the Drop.
 2014-04-07*Sicily vacation*/video/etc/sicily-vacation.html*sicily-vacation.jpg*Daniela Paličková s míčky na Sicílii.
 2014-04-14*Chopped Dolby*/video/tip/chopped-dolby.html*chopped-dolby.jpg*Trochu komplikovanější passing s kužely.
-2014-04-21*
-2014-04-28*
-2014-05-05*
-2014-05-12*
+2014-04-21*Odkládání kuželky na bradu*/kuzely/3/brada.html*bradab.png*Trik, při kterém jedna ruka kuželky hází a druhá je odkládá na bradu.
+2014-04-28*55550*/micky/4/55550.html*55550c.png*Při 55550 házíš míčky stejně jako při kaskádě s pěti míčky. Jenom je těch míčků o jeden míň.
+2014-05-05*Jeff Lutkus a Wes Peden*/video/jeff-wes.html*jeff-wes.jpg*Video z roku 2006.
+2014-05-12*Passing s kužely*/lide/dovednost/kuzely_passing.html*druhyc.png*Seznam žonglérů a žonglérek, kteří umí passovat s kužely.
 2014-05-19*
 2014-05-26*
 2014-06-02*
