@@ -58,7 +58,7 @@ my @stranky = (
 	{'a'=>'/horoskop/stir.html', 't'=>'Horoskop žonglování - Štír', 'o'=>'<img src="\/img\/h\/horoskop-stir.png"'},
 	{'a'=>'/horoskop/zitra/vodnar.html', 't'=>'Horoskop žonglování na zítra - Vodnář', 'o'=>'<a href="\/horoskop\/vodnar.html" title="Horoskop na dnešní den.">'},
 	{'a'=>'/mapa-stranek.html', 't'=>'Mapa stránek', 'o'=>'<li><a href="\/juggling-tv.html">juggling.tv<'},
-	{'a'=>'/podporte-zongleruv-slabikar.html', 't'=>'Podpořte žonglérův slabikář', 'o'=>'Provoz adresy zonglovani.info stojí 1500 Kč ročně'},
+	{'a'=>'/podporte-zongleruv-slabikar.html', 't'=>'Podpoř žonglérův slabikář', 'o'=>'Provoz adresy zonglovani.info stojí 1500 Kč ročně'},
 	{'a'=>'/ulita/', 't'=>'Žonglování v Ulitě', 'o'=>'<a href="cesta.html" title="Podrobný popis cesty.">Místo konání<'},
 	{'a'=>'/lide/misto/morava.html', 't'=>'Žonglování - Morava', 'o'=>'title="Profil uživatele '},
 	{'a'=>'/lide/misto/', 't'=>'Žongléři podle místa působení', 'o'=>' title="Žongléři z '},
