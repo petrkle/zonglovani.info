@@ -395,20 +395,6 @@
 </video:video>
 </url>
 <url>
-<loc>http://zonglovani.info/video/juggling-extravaganza.html</loc>
-<video:video>
-<video:thumbnail_loc>http://zonglovani.info/video/img/j/juggling-extravaganza.jpg</video:thumbnail_loc>
-<video:title>Juggling Extravaganza</video:title>
-<video:description>Passování Bekah Smith a Tio Duermeiera.</video:description>
-<video:player_loc>http://www.youtube.com/v/xn95eFgzsYU</video:player_loc>
-<video:duration>221</video:duration>
-<video:tag>Žonglování</video:tag>
-<video:category>Žonglování</video:category>
-<video:gallery_loc title="Žonglérská videa">http://zonglovani.info/video/</video:gallery_loc>
-<video:requires_subscription>no</video:requires_subscription>
-</video:video>
-</url>
-<url>
 <loc>http://zonglovani.info/video/klamovka.html</loc>
 <video:video>
 <video:thumbnail_loc>http://zonglovani.info/video/img/k/klamovka.jpg</video:thumbnail_loc>
