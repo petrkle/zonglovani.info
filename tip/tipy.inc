@@ -280,13 +280,13 @@
 2014-04-28*55550*/micky/4/55550.html*55550c.png*Při 55550 házíš míčky stejně jako při kaskádě s pěti míčky. Jenom je těch míčků o jeden míň.
 2014-05-05*Jeff Lutkus a Wes Peden*/video/jeff-wes.html*jeff-wes.jpg*Video z roku 2006.
 2014-05-12*Passing s kužely*/lide/dovednost/kuzely_passing.html*druhyc.png*Seznam žonglérů a žonglérek, kteří umí passovat s kužely.
-2014-05-19*
-2014-05-26*
-2014-06-02*
-2014-06-09*
-2014-06-16*
-2014-06-23*
-2014-06-30*
+2014-05-19*Tornádo*/animace/yo-yo-tornado.html*tornado.png*Animace triku se třemi míčky.
+2014-05-26*Australan*/video/navod/kuzely-passing-australsky-trik.html*australan.jpg*Nauč se něco od klokanů. Australský trik obsahuje přebírání kuželek, třesení rukou a házení kuželky za zády.
+2014-06-02*Kolotoč*/video/navody/roundabout-tutorial.html*roundabout-tutorial.jpg*Návod na kolotoč s kužely.
+2014-06-09*Fair Play 2014*/kalendar/udalost-20140614-20140614-rodo1991-1390379637.html*fp4.jpg*Mezinárodní workshopový festival netradičních sportů a umění v jednom čase na jednom místě.
+2014-06-16*European Juggling Convention*/kalendar/ejc.html*ejc2014.png*Evropské setkání žonglérů v Millstreet začíná za měsíc. Nejvyšší čas sehnat si odvoz do Irska.
+2014-06-23*Aleje 2014*/kalendar/udalost-20140823-20140829-pek-1397330013.html*aleje-logo.jpg*13. mezinárodní žonglérská a divadelní dílna. Počet míst je omezen. Přihlaš se co nejdřív.
+2014-06-30*Conctabong*/video/metlili/conctabong.html*conctabong.jpg*Kombinace kontaktního Žonglování a skákacích míčků ve dvou.
 2014-07-07*
 2014-07-14*
 2014-07-21*
