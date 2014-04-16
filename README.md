@@ -42,6 +42,6 @@ vyhledavani/search-zonglovan.sql
 
 ## Testování ##
 
-	cpanm scripts/tests/pm.txt
+	cpanm < scripts/tests/pm.txt
 
 	make test
