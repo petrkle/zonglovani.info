@@ -284,10 +284,11 @@
 2014-05-26*Australan*/video/navod/kuzely-passing-australsky-trik.html*australan.jpg*Nauč se něco od klokanů. Australský trik obsahuje přebírání kuželek, třesení rukou a házení kuželky za zády.
 2014-06-02*Kolotoč*/video/navody/roundabout-tutorial.html*roundabout-tutorial.jpg*Návod na kolotoč s kužely.
 2014-06-09*Fair Play 2014*/kalendar/udalost-20140614-20140614-rodo1991-1390379637.html*fp4.jpg*Mezinárodní workshopový festival netradičních sportů a umění v jednom čase na jednom místě.
-2014-06-16*European Juggling Convention*/kalendar/ejc.html*ejc2014.png*Evropské setkání žonglérů v Millstreet začíná za měsíc. Nejvyšší čas sehnat si odvoz do Irska.
-2014-06-23*Aleje 2014*/kalendar/udalost-20140823-20140829-pek-1397330013.html*aleje-logo.jpg*13. mezinárodní žonglérská a divadelní dílna. Počet míst je omezen. Přihlaš se co nejdřív.
-2014-06-30*Conctabong*/video/metlili/conctabong.html*conctabong.jpg*Kombinace kontaktního Žonglování a skákacích míčků ve dvou.
-2014-07-07*
+2014-06-15*Den žonglování*/kalendar/udalost-20140615-20140615-pek-1401883971.html*dzvb14.png*13. ročník dne žonglování v Brně.
+2014-06-16*Žonglpárty*/kalendar/udalost-20140621-20140621-pek-1401883344.html*zonglparty.png*4. ročník festivalu žonglování a volnočasových aktivit.
+2014-06-23*European Juggling Convention*/kalendar/ejc.html*ejc2014.png*Evropské setkání žonglérů v Millstreet začíná za měsíc. Nejvyšší čas sehnat si odvoz do Irska.
+2014-06-30*Aleje 2014*/kalendar/udalost-20140823-20140829-pek-1397330013.html*aleje-logo.jpg*13. mezinárodní žonglérská a divadelní dílna. Počet míst je omezen. Přihlaš se co nejdřív.
+2014-07-07*Conctabong*/video/metlili/conctabong.html*conctabong.jpg*Kombinace kontaktního Žonglování a skákacích míčků ve dvou.
 2014-07-14*
 2014-07-21*
 2014-07-28*
