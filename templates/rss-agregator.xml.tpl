@@ -8,16 +8,16 @@
 	<language>cs</language>
 	<image>
 	<url>http://{$smarty.server.SERVER_NAME}/img/s/slabikar1.gif</url>
-	<link>http://{$smarty.server.SERVER_NAME}/rss/</link>
+	<link>http://{$smarty.server.SERVER_NAME}/novinky/agregator.xml</link>
 	<title>Žonglování</title>
 	</image> 
-	<atom:link href="http://{$smarty.server.SERVER_NAME}/rss/agregator.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://{$smarty.server.SERVER_NAME}/novinky/agregator.xml" rel="self" type="application/rss+xml" />
 {foreach from=$novinky item=udalost name=smycka2}
 <item>
 	<title>{$udalost.titulek|escape|default:'Bez titulku'}</title>
 	<link>{$udalost.url|escape}</link>
 	<description>{$udalost.description|strip_tags|escape}</description>
-	<author>{$udalost.rss.popis|escape}</author>
+	<author>nospam@example.com</author>
 	<pubDate>{$udalost.time_mr}</pubDate>
 	<guid>{$udalost.url|escape}</guid>
 </item>
