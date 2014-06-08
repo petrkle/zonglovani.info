@@ -1,6 +1,6 @@
 <?php
-	$database='search-zonglovan';
-	$mysql_user='search-zonglovan';
+	$database='zonglovani_s';
+	$mysql_user='zonglovani_s';
 	$mysql_host='localhost';
 	$mysql_table_prefix='search_';
 

@@ -35,7 +35,7 @@ TRUNCATE \`search_query_log\`;\
 TRUNCATE \`search_sites\`;\
 TRUNCATE \`search_site_category\`;\
 TRUNCATE \`search_temp\`;\
-INSERT INTO \`search-zonglovan\`.\`search_sites\` (\`site_id\` ,\`url\` ,\`title\` ,\`short_desc\` ,\`indexdate\` ,\`spider_depth\` ,\`required\` ,\`disallowed\` ,\`can_leave_domain\`)VALUES ('1', 'http://zongl.info/', 'slabikar', 'zongleruv slabikar', NULL , '-1', NULL, 'prihlaseni.php?next=\n*/obrazky.*html/\n*/horoskop.*html/' , NULL);\
+INSERT INTO \`zonglovani_s\`.\`search_sites\` (\`site_id\` ,\`url\` ,\`title\` ,\`short_desc\` ,\`indexdate\` ,\`spider_depth\` ,\`required\` ,\`disallowed\` ,\`can_leave_domain\`)VALUES ('1', 'http://zongl.info/', 'slabikar', 'zongleruv slabikar', NULL , '-1', NULL, 'prihlaseni.php?next=\n*/obrazky.*html/\n*/horoskop.*html/' , NULL);\
 	\\q" | \
 	mysql -u $MYSQL_USER --password=$MYSQL_PASS -h $MYSQL_HOST $DATABASE
 
@@ -43,7 +43,3 @@ wget --keep-session-cookies --save-cookies $COOKIES --post-data="user=$SEARCH_AD
 wget --load-cookies $COOKIES -qO $LOG "http://zongl.info/vyhledavani/set/spider.php?all=1"
 
 [ -f $COOKIES ] && rm $COOKIES
-
-mysqldump -u $MYSQL_USER --password=$MYSQL_PASS -h $MYSQL_HOST --opt $DATABASE | sed "s/zongl\.info/zonglovani.info/g" | bzip2 -9 > data/dump.sql.bz2
-
-lftp -u www.zonglovani.info ftp://zonglovani.info -e "cd data; put data/dump.sql.bz2; exit" && wget --post-data="updatedb=jo&passwd=$MYSQL_PASS" -qO - "http://zonglovani.info/admin/db-import.php"
