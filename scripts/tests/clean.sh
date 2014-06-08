@@ -2,9 +2,18 @@
 
 ZONGL=/home/www/zonglovani.info
 
-chmod -R oug+w $ZONGL/{tmp,data}
-rm -f $ZONGL/tmp/templages_c/*
-sed -i "/WWW-Mechanize/d" $ZONGL/data/lide/pek/prihlaseni.txt
-find $ZONGL/ -user apache -exec rm -rf \{\} \; 2>/dev/null
-rm -f /home/fakemail/*
-/etc/rc.d/rc.fakemail restart
+sudo chmod -R oug+w $ZONGL/{tmp,data}
+sudo rm -f $ZONGL/tmp/templages_c/*
+sudo sed -i "/WWW-Mechanize/d" $ZONGL/data/lide/pek/prihlaseni.txt
+sudo rm -f /home/fakemail/*
+sudo rm -rf $ZONGL/data/lide/tst*
+sudo rm -rf $ZONGL/data/lide.by.mail/tst*
+sudo rm -rf $ZONGL/data/lide.tmp/*
+
+if [ -x /etc/init.d/fakemail ]; then
+	sudo /etc/init.d/fakemail restart
+fi
+
+if [ -x /etc/rc.d/rc.fakemail ]; then
+	sudo /etc/rc.d/rc.fakemail restart
+fi
