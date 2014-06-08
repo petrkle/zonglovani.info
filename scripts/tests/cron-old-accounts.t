@@ -80,7 +80,7 @@ close MAIL;
 my @odkazy = grep /http:\/\/zongl\.info\/lide\/nastaveni/, @zprava;
 my $pocetodkazu = @odkazy;
 
-ok($pocetodkazu == 2,"Email obsahuje odkaz na nastavení");
+ok($pocetodkazu == 3,"Email obsahuje odkaz na nastavení");
 
 my $zs_nastave = $bot->get('http://zongl.info/lide/nastaveni/');
 ok($zs_nastave->content() =~ /Pro zobrazení požadované stránky je nutné přihlášení/, 'Nastavení je bez přihlášení nepřístupné');
