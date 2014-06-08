@@ -650,16 +650,6 @@ function sendmail($msg){
 		}
 	}
  
-	$smtp_params = array(
-		'host' => 'smtp.'.$_SERVER['SERVER_NAME'],
-		'port' => '25',
-		'auth' => true,
-		'localhost' => $_SERVER['SERVER_NAME'],
-		'username' => 'robot@zonglovani.info',
-		'password' => SMTP_PASS,
-		'persist' => false,
-	);
-	 
-	$mail = Mail::factory('smtp', $smtp_params);
+	$mail = Mail::factory('mail');
 	return $mail->send($msg['to'], $mime->headers($headers), $mime->get());
 }
