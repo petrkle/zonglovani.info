@@ -528,7 +528,7 @@ function get_nahled_galerie($galerie){
 								$foo['url_file']=basename($filename,$pripona).'html';
 								$foo['margin_h']=floor((148-$size[0])/2);
 								$foo['margin_v']=floor((148-$size[1])/2);
-								$foo['nahled']='http://i.'.$_SERVER['SERVER_NAME'].OBRAZKY_URL.$galerie.'/nahledy/'.$filename;
+								$foo['nahled']='http://'.$_SERVER['SERVER_NAME'].OBRAZKY_URL.$galerie.'/nahledy/'.$filename;
 				      	array_push($navrat,$foo);
 							}
 		
