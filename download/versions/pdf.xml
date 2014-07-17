@@ -4,6 +4,15 @@
 	<description>Žonglérův slabikář v PDF. Vhodné pro &lt;strong&gt;oboustranný tisk&lt;/strong&gt;.</description>
 
 	<release>
+		<version>0.6</version>
+		<filename>zongleruv-slabikar-0.6.pdf</filename>
+		<size>5M</size>
+		<md5>066065e0cc9057b0fba93811bc27225c</md5>
+		<date>2014-07-17</date>
+		<img>package-pdf.png</img>
+	</release>
+
+	<release>
 		<version>0.4</version>
 		<filename>zongleruv-slabikar-0.4.pdf</filename>
 		<size>5M</size>
