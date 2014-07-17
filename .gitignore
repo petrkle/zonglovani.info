@@ -2,3 +2,12 @@ tmp
 data
 site-secrets.php
 node_modules
+static/pdf/img
+static/pdf/zongleruv-slabikar*.*
+static/pdf/ctyri-micky.*
+static/pdf/tri-micky.*
+static/pdf/pet-micku.*
+static/pdf/kruhy.*
+static/pdf/kuzely.*
+static/pdf/passing.*
+static/pdf/texput.log
