@@ -289,34 +289,118 @@
 2014-06-23*European Juggling Convention*/kalendar/ejc.html*ejc2014.png*Evropské setkání žonglérů v Millstreet začíná za měsíc. Nejvyšší čas sehnat si odvoz do Irska.
 2014-06-30*Aleje 2014*/kalendar/udalost-20140823-20140829-pek-1397330013.html*aleje-logo.jpg*13. mezinárodní žonglérská a divadelní dílna. Počet míst je omezen. Přihlaš se co nejdřív.
 2014-07-07*Conctabong*/video/metlili/conctabong.html*conctabong.jpg*Kombinace kontaktního Žonglování a skákacích míčků ve dvou.
-2014-07-14*
-2014-07-21*
-2014-07-28*
-2014-08-04*
-2014-08-11*
-2014-08-18*
-2014-08-25*
-2014-09-01*
-2014-09-08*
-2014-09-15*
-2014-09-22*
-2014-09-29*
-2014-10-06*
-2014-10-13*
-2014-10-20*
-2014-10-27*
-2014-11-03*
-2014-11-10*
-2014-11-17*
-2014-11-24*
-2014-12-01*
-2014-12-08*
-2014-12-15*
-2014-12-22*
-2014-12-29*
-2015-01-05*
-2015-01-12*
-2015-01-19*
-2015-01-26*
-2015-02-02*
+2014-07-17*ISBN*/isbn.html*slovnik.jpg*Žonglérův slabikář má ISBN.
+2014-07-21*Jeden mezi dvěma*/micky/3/1mezi2.html*sloupyc.png*Jeden mezi dvěma je vlastně rozšíření sloupů. Jeden míček se proplétá nad a pod dvěma zbývajícími.
+2014-07-28*Házení horem*/kuzely/3/hazenihorem.html*kuzely-3-horema.png*První kužel házíš z pravé ruky. Ruka je při hodu upažená do boku. Kužel ti letí nad hlavou.
+2014-08-04*Druhy žonglování*/druhy-zonglovani.html*druhya.png*Základní přehled způsobů žonglování. Nejedná se o úplný nebo přesný seznam. Jde jen o naznačení, jak můžeš žonglovat. S čím vším můžeš žonglovat se dozvíš v přehledu žonglérských pomůcek.
+2014-08-11*Balancování míčku*/micky/balancovani.html*balanca.png*Použij pevný kulatý míček.
+2014-08-18*Výroba kruhů*/kruhy/vyroba.html*kruhy-vyrobaa.png*K výrobě budeš potřebovat kartonovou krabici, lepicí pásku a nůžky. Vyrobit jeden kruh trvá asi 15 minut.
+2014-08-25*Jeden okolo dvou*/micky/3/1okolo2.html*sloupyn.png*Jeden okolo dvou je vlastně rozšíření sloupů. Dva míčky vyhazuješ rovně nahoru a třetí házíš kolem nich.
+2014-09-01*Neobvyklý začátek kaskády*/micky/3/neobvykly-zacatek.html*zacateka.png*Začít kaskádu můžeš i tou rukou, ve které máš jenom jeden míček.
+2014-09-08*Zkřížené ruce*/micky/3/zkrizene-ruce.html*rzkaskadaa.png*Žonglovat se dá i se zkříženýma rukama. Nejlépe se na to hodí reverzní kaskáda.
+2014-09-15*Jak začít žonglovat s kruhy*/kruhy/jak-zacit.html*kruhy-zacateka.png*Kruh je třeba při vyhození roztočit, aby letěl rovně.
+2014-09-22*Míček z balónků*/micky/vyroba-balonky.html*balonky-na-vyrobu-micku.s.jpg*Nejjednodušší je vyrobit míček na žonglování z nafukovacích balónků.
+2014-09-29*Sprcha*/micky/4/sprcha.html*4sprchaa.png*Princip je stejný jako se třemi míčky. Je ale potřeba větší rychlost. Prvně se mi tento trik povedl až poté, co jsem začal trénovat kaskádu s pěti míčky. Dobrým tréninkem na tento trik je poloviční sprcha.
+2014-10-06*Oj - oj*/micky/3/ojoj.html*ojoja.png*Známé též jako australské jo-jo.
+2014-10-13*Multiplex*/micky/3/multiplex.html*micky-3-multiplexta.png*Vyhození několika míčků z jedné ruky - to je multiplex.
+2014-10-20*3 v 1*/micky/3/3v1.html*micky-3-3v1a.png*3 v 1 je podobné 2 v 1. Vyžaduje ovšem větší rychlost, přesnost a hlavně trpělivost.
+2014-10-27*Trojúhelník*/kuzely/passing/trojuhelnik.html*kuzely-passing-trojuhelnika.png*Jednoduchý trik pro tři žongléry a devět kuželů.
+2014-11-03*Žonglování na síti*/odkazy.html*www.png*Odkazy na stránky věnované žonglování.
+2014-11-10*Délka provázku*/diabolo/delka-provazku.html*provazeka.png*Správná délka provázku je ta, která ti vyhovuje.
+2014-11-17*Reverzní kaskáda*/micky/3/kaskada-reverzni.html*rkaskadaa.png*Reverzní kaskáda je velmi podobná normální kaskádě.
+2014-11-24*Jedení jablka*/micky/3/jablko.html*jablkoa.png*Při žonglování s jablky můžeš průběžně ukusovat. Normální míček místo do pusy odložíš třeba pod bradu.
+2014-12-01*Orbit*/micky/3/orbit.html*micky-3-orbita.png*Orbit, někdy též nazývaný obtoč.
+2014-12-08*Nůžky*/kuzely/3/nuzky.html*kuzely-nuzkya.png*Překřížením dvou kuželů získáš "nůžky", do kterých můžeš chytit třetí kužel.
+2014-12-15*4 count*/kuzely/passing/4count.html*kuzely-passing-4count-rytmus.png*Základní způsob passování pro 2 žongléry a 6 kuželů. Každý 4. hod je pass. Házíš:
+2014-12-22*Boston mess*/micky/3/boston-mess.html*micky-3-bma.png*Míčky házíš rovně nahoru jako při sloupech. Ruce se kříží jako při Mills' mess.
+2014-12-29*Sloupy*/micky/3/sloupy.html*sloupya.png*Sloupy s míčky jsou velmi rozmanitý trik. Toto je jeho základní provedení. Než ho začneš zkoušet, hodí se umět 2 v 1.
+2015-01-05*Neviditelný míček*/micky/3/neviditelny.html*micky-3-neviditelnya.png*Neviditelný míček nahrazuje obyčejný míček - hlavně když ti spadne. Získáš čas k sebrání míčku a nemusíš přestat žonglovat.
+2015-01-12*Zrychlená dvojka*/kuzely/passing/zrychlena-dvojka.html*kuzely-passing-zrychlenadvojkaa.png*Trik pro ozvláštnění 2 count nebo 4 count.
+2015-01-19*Mýty a omyly*/myty-omyly.html*mytya.png*Typická zpráva okurkové sezony.
+2015-01-26*423*/kuzely/3/423.html*423a.png*Název triku značí jednotlivé hody zapsané pomocí siteswap.
+2015-02-02*Jo - jo*/micky/3/jojo.html*jojoa.png*Snadný a velmi hezký trik.
+2015-02-09*Podpoř žonglérův slabikář*/podporte-zongleruv-slabikar.html*podporac.png*Žonglérův slabikář je volně dostupný na internetu. Neobsahuje reklamy a běží na rychlém serveru. Můžeš ho podpořit těmito způsoby:
+2015-02-16*Trénink*/trenink.html*trenink-navoda.png*Žonglovat se nenaučíš nějakým kouzlem nebo protože máš talent, ale tréninkem. Prostě to zkoušíš tak dlouho až se ti to povede.
+2015-02-23*3 + 2*/micky/5/64.html*64a.png*Na první pohled snadné, avšak velmi obtížné. Pravá a levá ruka žonglují v různém rytmu.
+2015-03-02*Kaskáda*/kuzely/3/kaskada.html*kuzely-3-kaskadaa.png*Kaskáda je nejjednodušší způsob žonglování se třemi kužely.
+2015-03-09*Hození kuželu pod nohou*/kuzely/3/podnohou.html*kuzely-3-nohaa.png*Jednoduchý trik vhodný i pro začátečníky.
+2015-03-16*Reverzní kaskáda široká*/micky/3/kaskada-reverzni-siroka.html*srkaskadaa.png*Široká reverzní kaskáda vychází z reverzní kaskády.
+2015-03-23*Boston circle*/kuzely/passing/bostoncircle.html*kuzely-passing-boston4h.png*Trik, při kterém passuje každý s každým. Dokonce i sám se sebou. Známý též pod názvem hodiny.
+2015-03-30*Osmička*/micky/3/osmicka.html*micky-3-osmickaa.png*Levou rukou žongluj 2 v 1.
+2015-04-06*Zachycení míčku za krk*/micky/3/krk.html*krka.png*Jako třešničku na dortu můžeš na konci svého vystoupení předvést zachycení míčku za krk.
+2015-04-13*Pravidla passování*/kuzely/passing/pravidla.html*pravidlaa.png*Při žonglování s více lidmi si užiješ spoustu legrace. Než začneš, je dobré znát následující pravidla.
+2015-04-20*Pass self self pass self pass pass self*/kuzely/passing/psspspps.html*kuzely-passing-psspspps-rytmus.png*Trik pro dva žongléry a šest kuželů. Nejtěžší na něm je zapamatovat si název.
+2015-04-27*Fontána*/micky/4/fontana.html*fontanaa.png*Při fontáně provádí každá ruka samostatně 2 v 1. Na obrázku to může vypadat obtížně. Naštěstí je to jenom zdání a naučit se fontánu není problém.
+2015-05-04*Sloupy*/micky/4/sloupy.html*4sloupya.png*Existuje víc variant provedení sloupů se čtyřmi míčky. Asi nejsnadnější je vyhazovat míčky jako při fontáně.
+2015-05-11*Hodiny*/micky/3/hodiny.html*micky-3-hodinya.png*První a druhý míček vyhoď najednou z pravé ruky.
+2015-05-18*Další informace o žonglování*/ostatni.html*zacatecnik.png*Základní pojmy v žonglování.
+2015-05-25*Falešné sloupy*/micky/3/sloupy-falesne.html*fsloupya.png*Začni jako při normálních sloupech. První míček rovně nahoru.
+2015-06-01*Klokan*/micky/3/klokan.html*klokana.png*Snadný a velmi efektní trik. K jeho provedení je potřeba mít na sobě volnější tričko.
+2015-06-08*Kaskáda (multiplex)*/micky/5/kaskada-multiplex.html*5kaskadamultia.png*Kaskáda s pěti míčky je obtížný trik. Nezbývá tedy nic jiného, než si ji trochu usnadnit. Stačí vyhazovat dva míčky najednou.
+2015-06-15*Falešné Mills' mess*/micky/3/mm-falesne.html*micky-3-mm-falesnea.png*Popsat tento trik je skoro stejně těžké jako se ho naučit. Takže hurá do toho!
+2015-06-22*40303*/micky/2/40303.html*40303a.png*Jednoduché cvičení se dvěma míčky.
+2015-06-29*Socha svobody*/micky/3/socha.html*sochaa.png*Socha svobody je vlastně poloviční sprcha s jednou rukou nahoře. Jiný název pro tento trik je žirafa.
+2015-07-06*Výměny ve čtvercích*/kuzely/passing/vymeny.html*vymenya.png*Trik pro čtyři žongléry s dvanácti kužely.
+2015-07-13*Chrámové okno*/micky/3/okno.html*oknoa.png*Při tomto triku míčky létají vysokým úzkým obloukem, který připomíná obrys chrámového okna.
+2015-07-20*441*/micky/3/441.html*441a.png*Pěkný trik, ale dostat se do rytmu chvíli trvá.
+2015-07-27*Větrný mlýn*/micky/3/mlyn.html*mlyna.png*Míčky opisují stejnou dráhu jako při sprše, ale nepřesunují se z jedné ruky do druhé rychlým vodorovným hodem. Místo toho křížíš ruce a vyhazuješ míčky jen z jedné strany.
+2015-08-03*Rotující Y*/kuzely/passing/rypsilon.html*kuzely-passing-rypsilona.png*Obtížnější trik pro 4 žongléry a 12 kuželů.
+2015-08-10*Hození za zády*/kuzely/3/zazady.html*kuzely-3-zadaa.png*Kužely nemusíš házet jenom před sebe. Velmi pěkné je občas prohodit kužel za zády.
+2015-08-17*Mills' mess*/micky/3/mm.html*mma.png*Mills' mess vynalezl Steve Mills okolo roku 1973. Mess je anglicky nepořádek. Celý trik může na první pohled působit dost složitě.
+2015-08-24*Rotace kuželu*/kuzely/rotace.html*kuzely-rotacea.png*Základní způsoby házení kuželu.
+2015-08-31*Jak začít žonglovat s míčky*/micky/jak-zacit.html*starta.png*Míčky jsou nejjednodušší náčiní. Snadno se hážou i chytají.
+2015-09-07*Prohození míčku za zády*/micky/2/zada.html*2v1zadaa.png*V pravé ruce házej 2 v 1. První míček vyhoď o trochu výš.
+2015-09-14*Tenis*/micky/3/tenis.html*tenisa.png*Tenis je kombinace kaskády s reverzní kaskádou. První míček je pořád nad druhým i třetím míčkem. Létá nad nimi jako tenisový míček nad sítí. Proto se taky celý trik jmenuje tenis.
+2015-09-21*2 v 1*/kruhy/2/2v1.html*kruhy-2-2v1a.png*Žonglování se dvěma kruhy v jedné ruce není těžké. Nauč se to pravou i levou rukou a už vlastně umíš žonglovat čtyřmi kruhy.
+2015-09-28*Orbit II*/micky/3/orbit2.html*micky-3-orbit2ta.png*Z levé ruky vyhoď najednou první a druhý míček. Současně vyráží i pravá ruka.
+2015-10-05*Prohození míčku za zády*/micky/3/zada.html*zadaa.png*Prohození míčku za zády je velmi podobné prohození míčku pod nohou.
+2015-10-12*Zip*/kuzely/passing/zip.html*kuzely-passing-zipa.png*Trik pro libovolný počet žonglérů. Každý bude potřebovat tři kužely.
+2015-10-19*Poloviční sprcha*/micky/5/sprcha-polovicni.html*5psprchaa.png*Když zvládneš kaskádu s pěti míčky, poloviční sprcha s pěti míčky ti nebude dělat problém.
+2015-10-26*Reverzní kaskáda*/micky/5/kaskada-reverzni.html*5rkaskadaa.png*Rozdíl mezi normální a reverzní kaskádou s pěti míčky je pouze v dráze, po které létají míčky. Při reverzní kaskádě házíš míčky vnějškem.
+2015-11-02*Prohození míčku pod nohou*/micky/3/noha.html*nohaa.png*Jednoduchý a velmi efektní trik.
+2015-11-09*Dvojité jo-jo*/micky/3/dvojite-jojo.html*micky-3-djojoa.png*První a druhý míček tvoří jo-jo.
+2015-11-16*Jeden a půl otočky*/kuzely/3/jeden-a-pul-otocky.html*jeden-a-pula.png*Obtížnější trik se třemi kužely.
+2015-11-23*Prohození míčku pod nohou*/micky/2/noha.html*2v1nohaa.png*V pravé ruce prováděj 2 v 1. První míček vyhoď o trochu výš.
+2015-11-30*Čáp*/micky/3/cap.html*capa.png*Při tomto triku stojíš jen na jedné noze jako čáp. Nejedná se o nic jiného než o opakované prohození míčku pod nohou.
+2015-12-07*Pass pod nohou*/kuzely/passing/podnohou.html*passpodnohoua.png*Kuželku při passování můžeš hodit pod nohou. Nejjednodušší je při passování pravou rukou házet pod pravou nohou.
+2015-12-14*2 v 1*/micky/2/2v1.html*2v1a.png*2 v 1 je základní trik se dvěma míčky. Nauč se ho pravou i levou rukou a už vlastně umíš žonglovat čtyřmi míčky.
+2015-12-21*Výroba míčků na žonglování*/micky/vyroba.html*micek-z-balonku-3.s.jpg*S trochou šikovnosti lze vyrobit míčky pro žonglování doma na koleně.
+2015-12-28*Synchronní fontána*/micky/4/fontana-synchronni.html*sfontanaa.png*Synchronní fontána je mírnou obměnou klasické fontány.
+2016-01-04*Cirkusové disciplíny*/cirkusove-discipliny.html*cirkusa.png*Dovednosti, které nemají s žonglováním mnoho společného. Ale z nějakého důvodu je provozuje podobný druh lidí jako žonglování.
+2016-01-11*Nabíjení*/kuzely/passing/feeds.html*kuzely-passing-feedsa.png*Feeds - základní trik pro tři žongléry a devět kuželů.
+2016-01-18*Jeden nad dvěma*/micky/3/1nad2.html*tenissloupya.png*Kombinace sloupů s tenisem. Jeden míček létá pořád nad dvěma ostatními.
+2016-01-25*Žonglérské náčiní*/nacini.html*nacinia.png*Žonglovat můžeš se spoustou věcí. A mnoha různými způsoby.
+2016-02-01*Vyhození do výšky*/diabolo/vyhozeni-do-vysky.html*diabolo-vyhozenia.png*Roztáhni ruce s hůlkami do stran.
+2016-02-08*Obloučky*/micky/3/oblouky.html*obloukya.png*Každý míček má vlastní dráhu, která se nekříží s ostatními.
+2016-02-15*Žirafa*/micky/3/zirafa.html*sochaa.png*Žirafa je vlastně poloviční sprcha s jednou rukou nahoře. Jiný název pro tento trik je socha svobody.
+2016-02-22*Balancování kuželu*/kuzely/balanc.html*kuzely-balanca.png*S kužely se nemusí jenom házet. Můžeš je balancovat na bradě, nose, špičce boty, ...
+2016-02-29*Sprcha*/micky/3/sprcha.html*sprchaa.png*Sprcha je asi nejznámější způsob žonglování. Není ale vůbec snadné se ji naučit. Zkus se nejprve naučit poloviční sprchu.
+2016-03-07*
+2016-03-14*
+2016-03-21*
+2016-03-28*
+2016-04-04*
+2016-04-11*
+2016-04-18*
+2016-04-25*
+2016-05-02*
+2016-05-09*
+2016-05-16*
+2016-05-23*
+2016-05-30*
+2016-06-06*
+2016-06-13*
+2016-06-20*
+2016-06-27*
+2016-07-04*
+2016-07-11*
+2016-07-18*
+2016-07-25*
+2016-08-01*
+2016-08-08*
+2016-08-15*
+2016-08-22*
+2016-08-29*
+2016-09-05*
+2016-09-12*
 # vim: set nonumber nowrap:
