@@ -21,6 +21,7 @@ if(isset($_GET['id'])){
 
 	if($id=='pdf'){
 		$dalsi=array(
+			array('url'=>'/isbn.html','text'=>'ISBN žonglérova slabikáře','title'=>'ISBN 978-80-260-6534-0'),
 			array('url'=>'/download/mobi.html','text'=>'Žonglérův slabikář pro Amazon Kindle','title'=>'Žonglérův slabikář ve formátu mobi.'),
 			array('url'=>'/literatura.html','text'=>'Literatura o žonglování','title'=>'Další knížky o žonglování'),
 			);
