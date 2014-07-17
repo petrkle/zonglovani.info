@@ -1,7 +1,3 @@
-<p>
-Na Masarykově univerzitě v Brně působí <a href="http://www.divadlokufr.net/dasa-travnikova/" class="external" title="Dr. Kuželka">Dáša Trávníková</a> a její studenti pak tvoří např. tyto odborné práce.
-</p>
-
 <h3><a href="http://is.muni.cz/th/176257/fsps_m/" class="external">3D Kinematická analýza kaskády s 5 míčky</a></h3>
 <p>
 Tato diplomová práce se zabývá 3D kinematickou analýzou žonglérského triku kaskáda s pěti míčky. V první části se rozebíráme teorii žonglování a v praktické části analyzujeme a porovnáváme biomechanické aspekty žonglování u tří žonglérů.
@@ -47,4 +43,10 @@ Tato práce se zabývá problematikou vlivu psychomotorických a žonglérských
 <h3><a href="http://is.muni.cz/th/180176/pedf_m" class="external">Integrace cirkusových prvků do hodin TV</a></h3>
 <p>
 Diplomová práce představuje pojem cirkusová pedagogika. Poukazuje na variantu trávení volného času stejně jako na aplikovatelnost cirkusových prvků do hodin tělesné výchovy na prvním stupni základních škol. Práce obsahuje popis cirkusových disciplín, metodický nácvik některých dovedností.
+</p>
+
+<h3>Vliv žonglování na rozvoj a koordinace a motoriky</h3>
+<p>
+Tato bakalářská práce se zabývá základní definicí žonglování jako aktivity samotné, vymezuje pár klíčových pojmů ze žonglování samotného, jeho historie ale i žonglování jako pomůcky pro rozvoj psychomotoriky a použití v pedagogice volného času.
+<br /><a href="http://tribofuego.org/vliv-zonglovani-na-rozvoj-koordinace-a-motoriky.pdf" class="pdf">Stáhnout ve formátu PDF</a>
 </p>
