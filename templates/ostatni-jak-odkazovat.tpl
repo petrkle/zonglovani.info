@@ -67,3 +67,8 @@ Pro vložení odkazu stačí do tvé stránky zkopírovat jeden z následující
 </textarea>
 </p>
 <p><a href="{$smarty.const.CALENDAR_URL}widget.html" title="Podrobnosti o widgetu">{obrazek soubor='widget-light.png' popisek='Widget - světlá varianta'}</a><a href="{$smarty.const.CALENDAR_URL}widget.html" title="Jak mít na webu aktuální výpis žonglérských akcí.">Podrobný popis vkládání výpisu</a> z kalendáře a možnosti úprav.</p>
+
+<h2><a name="citace">Citace</a></h2>
+<p>
+{include file='citace.tpl'}
+</p>

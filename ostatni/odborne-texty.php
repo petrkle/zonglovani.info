@@ -19,6 +19,7 @@ $trail->addStep('Odborné texty');
 
 $dalsi=array(
 	array('url'=>'/literatura.html','text'=>'Literatura o žonglování','title'=>'Knížky o žonglovani'),
+	array('url'=>'/isbn.html','text'=>'ISBN žonglérova slabikáře','title'=>'ISBN 978-80-260-6534-0'),
 	);
 $smarty->assign_by_ref('dalsi',$dalsi);
 

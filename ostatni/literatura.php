@@ -21,6 +21,7 @@ $dalsi=array(
 	array('url'=>'/odkazy.html','text'=>'Žonglování na síti','title'=>'Odkazy na žonglérské stránky'),
 	array('url'=>'/download/','text'=>'Soubory ke stažení','title'=>'Off-line verze žonglérova slabikáře'),
 	array('url'=>'/odborne-texty.html','text'=>'Odborné texty o žonglování','title'=>'Odborné texty o žonglování'),
+	array('url'=>'/isbn.html','text'=>'ISBN žonglérova slabikáře','title'=>'ISBN 978-80-260-6534-0'),
 	);
 $smarty->assign_by_ref('dalsi',$dalsi);
 
