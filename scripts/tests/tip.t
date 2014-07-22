@@ -7,7 +7,7 @@ use Test::More tests => 2;
 use Time::Local;
 use Date::Parse;
 use File::Temp     qw/tempfile/;
-use Image::Info    qw/image_info dim/;
+use Image::ExifTool qw(:Public);
 
 my $bot = WWW::Mechanize->new(autocheck => 0);
 $bot->cookie_jar(HTTP::Cookies->new());
@@ -54,8 +54,9 @@ foreach my $tip(@radky){
 				diag("http://zongl.info$url return ".$bot->status());
 			}
 			$bot->get("http://zongl.info/img/$fl/$img", ':content_file' => $temp);
-			my ($w, $h) = dim image_info $temp;
-			if($w != 200){
+			my $info = ImageInfo($temp);
+
+			if($info->{'ImageWidth'} != 200){
 				$chyby++;
 				diag("http://zongl.info/img/$fl/$img není 200px široký.");
 			}

@@ -5,7 +5,7 @@ File::Basename
 File::Compare
 File::Slurp
 File::Temp
-Image::Info
+Image::ExifTool
 Image::Size
 List::Util
 Net::Netrc
