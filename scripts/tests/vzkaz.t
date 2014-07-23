@@ -70,14 +70,14 @@ ok($navrat =~ /Na tvůj e-mail byla odeslána zpráva potřebná k dokončení z
 sleep 1;
 ok(-f "/home/fakemail/$clovek_mail_mail.1.eml", 'Potvrzovaci mail přišel');
 
-open MAIL, "/home/fakemail/$clovek_mail_mail.1.eml";
-my @zprava = <MAIL>;
-close MAIL;
+my $text = read_file("/home/fakemail/$clovek_mail_mail.1.eml", binmode => ':utf8');
+my $email = Email::MIME->new($text);
+my @zprava = split(/\n/, get_html_part($email));
 
 my @odkazy = grep /http:\/\/zongl.*\.info\/lide\/sendmail\//, @zprava;
 my $pocetodkazu = @odkazy;
 
-ok($pocetodkazu > 0,"Odkaz na odeslání vzkazu");
+ok($pocetodkazu == 1, "Odkaz na odeslání vzkazu");
 my $zs_aktivace = $bot->get($odkazy[0]);
 ok($zs_aktivace->content() =~ /Vzkaz byl odeslán./,"Vzkaz byl odeslán na $clovek_formular_mail ($clovek_formular).");
 

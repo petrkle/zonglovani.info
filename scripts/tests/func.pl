@@ -1,8 +1,11 @@
 #!/usr/bin/perl -w
 use strict;
+use Email::MIME;
+use HTML::TreeBuilder;
+use HTML::FormatText;
 
-sub get_vypocet($){
-	my($content) = @_;
+sub get_vypocet{
+	my $content = shift;
 	$content =~ s/.*<label for="antispam" class="kratkypopis">(.*):<\/label>.*/$1/s;
 	my $antispam = lc($content);
 	my @antispam = split(/ /,$antispam);
@@ -27,4 +30,24 @@ sub get_vypocet($){
 	return $vysledek;
 }
 
+sub get_html_part {
+    my $part = shift;
+    my $content_type = $part->content_type;
+    my $body = $part->body;
+    if ($content_type =~ m#text/html#) {
+        return html2text($body);
+    } elsif ($content_type =~ m#multipart/#) {
+        for my $subpart ($part->parts) {
+            my $text = get_html_part($subpart);
+            return $text if defined $text;
+        }
+    }
+    return;
+}
+
+sub html2text {
+    my $html = shift;
+		my $tree = HTML::TreeBuilder->new_from_content($html);
+    return $tree->format(HTML::FormatText->new);
+}
 1;
