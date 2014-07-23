@@ -47,7 +47,7 @@ sub get_html_part {
 
 sub html2text {
     my $html = shift;
-		my $tree = HTML::TreeBuilder->new_from_content($html);
+		my $tree = HTML::TreeBuilder->new_from_content(decode_utf8($html));
     return $tree->format(HTML::FormatText->new);
 }
 1;
