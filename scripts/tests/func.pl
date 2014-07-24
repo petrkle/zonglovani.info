@@ -35,7 +35,7 @@ sub get_html_part {
     my $content_type = $part->content_type;
     my $body = $part->body;
     if ($content_type =~ m#text/html#) {
-        return html2text($body);
+        return html2text(encode_utf8($body));
     } elsif ($content_type =~ m#multipart/#) {
         for my $subpart ($part->parts) {
             my $text = get_html_part($subpart);

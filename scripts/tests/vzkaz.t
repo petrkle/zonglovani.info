@@ -71,7 +71,7 @@ sleep 1;
 ok(-f "/home/fakemail/$clovek_mail_mail.1.eml", 'Potvrzovaci mail přišel');
 
 my $text = read_file("/home/fakemail/$clovek_mail_mail.1.eml", binmode => ':utf8');
-my $email = Email::MIME->new($text);
+my $email = Email::MIME->new(encode_utf8($text));
 my @zprava = split(/\n/, get_html_part($email));
 
 my @odkazy = grep /http:\/\/zongl.*\.info\/lide\/sendmail\//, @zprava;
