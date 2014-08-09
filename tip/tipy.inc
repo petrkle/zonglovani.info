@@ -293,10 +293,10 @@
 2014-07-21*Jeden mezi dvěma*/micky/3/1mezi2.html*sloupyc.png*Jeden mezi dvěma je vlastně rozšíření sloupů. Jeden míček se proplétá nad a pod dvěma zbývajícími.
 2014-07-28*Házení horem*/kuzely/3/hazenihorem.html*kuzely-3-horema.png*První kužel házíš z pravé ruky. Ruka je při hodu upažená do boku. Kužel ti letí nad hlavou.
 2014-08-04*Druhy žonglování*/druhy-zonglovani.html*druhya.png*Základní přehled způsobů žonglování. Nejedná se o úplný nebo přesný seznam. Jde jen o naznačení, jak můžeš žonglovat. S čím vším můžeš žonglovat se dozvíš v přehledu žonglérských pomůcek.
-2014-08-11*Balancování míčku*/micky/balancovani.html*balanca.png*Použij pevný kulatý míček.
+2014-08-11*Flaming Nights*/kalendar/udalost-20140815-20140816-pek-1407603798.html*fn14.jpg*Žonglérsko - hudební open air festival.
 2014-08-18*Výroba kruhů*/kruhy/vyroba.html*kruhy-vyrobaa.png*K výrobě budeš potřebovat kartonovou krabici, lepicí pásku a nůžky. Vyrobit jeden kruh trvá asi 15 minut.
 2014-08-25*Jeden okolo dvou*/micky/3/1okolo2.html*sloupyn.png*Jeden okolo dvou je vlastně rozšíření sloupů. Dva míčky vyhazuješ rovně nahoru a třetí házíš kolem nich.
-2014-09-01*Neobvyklý začátek kaskády*/micky/3/neobvykly-zacatek.html*zacateka.png*Začít kaskádu můžeš i tou rukou, ve které máš jenom jeden míček.
+2014-09-01*Mistrovství ČR v žonglování*/kalendar/udalost-20140905-20140907-pek-1407604370.html*mcr1.png*Přijďte si pořádně zažonglovat do Rosic u Brna.
 2014-09-08*Zkřížené ruce*/micky/3/zkrizene-ruce.html*rzkaskadaa.png*Žonglovat se dá i se zkříženýma rukama. Nejlépe se na to hodí reverzní kaskáda.
 2014-09-15*Jak začít žonglovat s kruhy*/kruhy/jak-zacit.html*kruhy-zacateka.png*Kruh je třeba při vyhození roztočit, aby letěl rovně.
 2014-09-22*Míček z balónků*/micky/vyroba-balonky.html*balonky-na-vyrobu-micku.s.jpg*Nejjednodušší je vyrobit míček na žonglování z nafukovacích balónků.
@@ -375,8 +375,8 @@
 2016-02-15*Žirafa*/micky/3/zirafa.html*sochaa.png*Žirafa je vlastně poloviční sprcha s jednou rukou nahoře. Jiný název pro tento trik je socha svobody.
 2016-02-22*Balancování kuželu*/kuzely/balanc.html*kuzely-balanca.png*S kužely se nemusí jenom házet. Můžeš je balancovat na bradě, nose, špičce boty, ...
 2016-02-29*Sprcha*/micky/3/sprcha.html*sprchaa.png*Sprcha je asi nejznámější způsob žonglování. Není ale vůbec snadné se ji naučit. Zkus se nejprve naučit poloviční sprchu.
-2016-03-07*
-2016-03-14*
+2016-03-07*Balancování míčku*/micky/balancovani.html*balanca.png*Použij pevný kulatý míček.
+2016-03-14*Neobvyklý začátek kaskády*/micky/3/neobvykly-zacatek.html*zacateka.png*Začít kaskádu můžeš i tou rukou, ve které máš jenom jeden míček.
 2016-03-21*
 2016-03-28*
 2016-04-04*
