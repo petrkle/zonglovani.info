@@ -21,7 +21,7 @@ $template	= 'slabikar';
 $admin_email		= 'admin@zonglovani.info';
 
 // Print spidering results to standard out
-$print_results		= 1;
+$print_results		= 0;
 
 // Temporary directory, this should be readable and writable
 $tmp_dir	= 'tmp';
@@ -95,7 +95,7 @@ $catppt_path	= 'c:\temp\catppt';
 $user_agent			 = 'Sphider';
 
 // Minimal delay between page downloads 
-$min_delay			= 0;
+$min_delay			= 1;
 
 // Use word stemming (e.g. find sites containing runs and running when searching for run) 
 $stem_words			= 0;

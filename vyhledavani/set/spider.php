@@ -21,10 +21,6 @@
 	include "spiderfuncs.php";
 	error_reporting (E_ALL ^ E_NOTICE ^ E_WARNING);
 
-
-	$delay_time = 0;
-
-	
 	$command_line = 0;
 
 	if (isset($_SERVER['argv']) && $_SERVER['argc'] >= 2) {
@@ -147,7 +143,7 @@
 		global $command_line;
 		global $min_words_per_page;
 		global $supdomain;
-		global $mysql_table_prefix, $user_agent, $tmp_urls, $delay_time, $domain_arr;
+		global $mysql_table_prefix, $user_agent, $tmp_urls, $domain_arr;
 		$needsReindex = 1;
 		$deletable = 0;
 
@@ -182,10 +178,8 @@
 			$OKtoIndex = 1;
 			$file_read_error = 0;
 			
-			if (time() - $delay_time < $min_delay) {
-				sleep ($min_delay- (time() - $delay_time));
-			}
-			$delay_time = time();
+			usleep(200000);
+
 			if (!fst_lt_snd(phpversion(), "4.3.0")) {
 				$file = file_get_contents($url);
 				if ($file === FALSE) {

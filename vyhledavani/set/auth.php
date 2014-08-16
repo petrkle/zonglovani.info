@@ -1,5 +1,5 @@
 <?php 
-	require($_SERVER['DOCUMENT_ROOT'].'/site-secrets.php');
+	require('/home/www/zonglovani.info/site-secrets.php');
 	error_reporting(E_ERROR | E_PARSE);	
 	$admin='root';
 	$admin_pw=SEARCH_ADMIN_PW;
