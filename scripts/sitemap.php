@@ -3,8 +3,6 @@
 
 if(isset($_SERVER['HTTP_HOST'])){exit();};
 
-$sitemap=file('mapa-stranek.full');
-
 print '<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:geo="http://www.google.com/geo/schemas/sitemap/1.0">
@@ -52,8 +50,8 @@ array_push($znamkovani,array('vzor'=>'^\/animace\/en\/$','priorita'=>0.5,'zmena'
 array_push($znamkovani,array('vzor'=>'^\/animace\/siteswap\/$','priorita'=>0.5,'zmena'=>'yearly'));
 array_push($znamkovani,array('vzor'=>'^\/animace\/.+\.html$','priorita'=>0.4,'zmena'=>'yearly'));
 
-foreach($sitemap as $radek){
-	$radek=trim($radek);
+while (($radek = fgets(STDIN)) !== false) {
+	$radek = trim($radek);
 	if(preg_match('/<a href=/',$radek)){
 		$url=preg_replace('/.*<a href="([^"]+)".*/','\1',$radek);
 		$zmena='monthly';
@@ -69,10 +67,10 @@ foreach($sitemap as $radek){
       <loc>http://zonglovani.info'.$url.'</loc>
       <changefreq>'.$zmena.'</changefreq>
       <priority>'.$priorita.'</priority>
-   </url>
-			';
+   </url>';
 	}
 }
 
 print '
-</urlset>';
+</urlset>
+';

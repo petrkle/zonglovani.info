@@ -239,7 +239,7 @@ sub crawl($)
 
 	my @aname = split(/\//, $dir);
 	my $fuj = pop(@aname);
-	$fuj =~ s/^zongl.info$/top/;
+	$fuj =~ s/^zs\.sitemap$/top/;
 
 	$html .= "$prefix<li><a name=\"$fuj\"></a>".get_file_link($dir)."\n";
 	$html .= "$prefix<ul>\n";

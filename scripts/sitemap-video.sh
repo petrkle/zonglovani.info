@@ -1,5 +1,9 @@
 #!/bin/bash
 
+SITE=zongl.info
+
+[ $HOSTNAME = "vps" ] && SITE=zonglovani.info
+
 echo '<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="video.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">' > video/video.xml.new
@@ -19,8 +23,8 @@ do
 		ID=`basename $foo .xml`
 		LOC=`echo $foo | sed "s/video\/klip\///;s/\.xml//"`
 		FL=`echo $ID | sed "s/^\(.\).*/\1/"`
-		NAHLED="http://zonglovani.info/video/img/$FL/$ID.jpg"
-		URL="http://zonglovani.info/video/$LOC.html"
+		NAHLED="http://$SITE/video/img/$FL/$ID.jpg"
+		URL="http://$SITE/video/$LOC.html"
 		echo "<loc>$URL</loc>" >> video/video.xml.new
 		echo "<video:video>" >> video/video.xml.new
 		echo "<video:thumbnail_loc>$NAHLED</video:thumbnail_loc>" >> video/video.xml.new
@@ -41,7 +45,7 @@ do
 		echo "<video:duration>$DELKA</video:duration>" >> video/video.xml.new
 		echo "<video:tag>Žonglování</video:tag>" >> video/video.xml.new
 		echo "<video:category>Žonglování</video:category>" >> video/video.xml.new
-		echo "<video:gallery_loc title=\"Žonglérská videa\">http://zonglovani.info/video/</video:gallery_loc>" >> video/video.xml.new
+		echo "<video:gallery_loc title=\"Žonglérská videa\">http://$SITE/video/</video:gallery_loc>" >> video/video.xml.new
 		echo "<video:requires_subscription>no</video:requires_subscription>" >> video/video.xml.new
 		echo "</video:video>" >> video/video.xml.new
 		echo "</url>" >> video/video.xml.new
