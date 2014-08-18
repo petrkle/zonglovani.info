@@ -151,12 +151,12 @@
 		$thislevel = $level - 1;
 
 		if (strstr($url_status['state'], "Relocation")) {
-			$url = eregi_replace(" ", "", url_purify($url_status['path'], $url, $can_leave_domain));
+			$url = preg_replace('/ /', '', url_purify($url_status['path'], $url, $can_leave_domain));
 
 			if ($url <> '') {
 				$result = mysql_query("select link from ".$mysql_table_prefix."temp where link='$url' && id = '$sessid'");
 				echo mysql_error();
-				$rows = mysql_numrows($result);
+				$rows = mysql_num_rows($result);
 				if ($rows == 0) {
 					mysql_query ("insert into ".$mysql_table_prefix."temp (link, level, id) values ('$url', '$level', '$sessid')");
 					echo mysql_error();
