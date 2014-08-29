@@ -15,7 +15,7 @@ echo '<?xml version="1.0" encoding="UTF-8"?>
 for foo in `find $WEB -type f -name "*.html" -not -wholename '*/obrazky/*'`
 	do
 		pocetobrazku=0
-		url=`echo $foo | sed "s/index\.html//"`
+		url=`echo $foo | sed "s#$WEB#http://$SITE#;s/index\.html//"`
 		part_sitemap=""
 		for brk in `grep "<img" $foo | grep -v -e logo.gif -e komentar.png -e animace.png -e zavinac.serif`
 		do
