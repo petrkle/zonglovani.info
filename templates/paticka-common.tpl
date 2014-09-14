@@ -22,19 +22,5 @@ window.addEventListener('load', function(e) {
 {/literal}
 {/if}
 
-<div class="reklama">
-<div>
-Co říkáš na reklamy?<br/>
-<a href="http://goo.gl/3dQZDu" title="Krátký zábavný dotazník">Prosím vyplň dotazník k diplomce<br />Psychologie reklamy</a></br>
-</div>
-</div>
-
-{literal}
-<style type="text/css" media="screen and (min-width: 610px)">
-.reklama{margin:0 auto;text-align:center;}
-.reklama div{background:#fff url(http://kle.cz/img/o/otaznik.png) no-repeat 10px 50%;padding:10px 5px;margin:20px auto;border:solid 2px #fc0;width:600px;}
-</style>
-{/literal}
-
 </body>
 </html>
