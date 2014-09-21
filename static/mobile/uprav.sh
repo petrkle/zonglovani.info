@@ -37,7 +37,6 @@ sed -i "s/<li><h4>Úvodní stránka<\/h4><\/li>//"  $ZSDIR/index.html
 sed -i "s/<strong>Úvodní stránka<\/strong> . //"  $ZSDIR/index.html
 
 rm $ZSDIR/mapa-stranek.html
-rm $ZSDIR/img/t/tel-*
 rm -rf $ZSDIR/navody
 rm $ZSDIR/r-*.css
 rm $ZSDIR/z-*.css
@@ -59,7 +58,6 @@ rm $ZSDIR/img/c/chuda.jpg
 rm $ZSDIR/img/j/jtv-*
 rm $ZSDIR/img/b/browser*
 rm $ZSDIR/img/b/budik.jpg
-rm $ZSDIR/img/d/diabolo-sipek.s.jpg
 rm $ZSDIR/img/d/downloada.png
 rm $ZSDIR/img/h/horoskop.png
 rm $ZSDIR/img/k/kompas.png
@@ -67,13 +65,7 @@ rm $ZSDIR/img/j/juggling.tv.png
 rm $ZSDIR/img/m/mobil*
 rm $ZSDIR/img/o/odkazy-*
 rm -rf $ZSDIR/img/q
-rm $ZSDIR/img/s/snehulacek.png
-rm $ZSDIR/img/s/snehulak.png
 rm $ZSDIR/img/z/zvonya.jpg
-rm $ZSDIR/img/v/vanoce.png
-rm $ZSDIR/img/v/vanocni-kometa.s.jpg
-rm $ZSDIR/img/p/pf-*
-rm $ZSDIR/img/p/pek.jpg
 rm -rf $ZSDIR/novinky*
 rm -rf $ZSDIR/ostatni
 rm -rf $ZSDIR/*.odt

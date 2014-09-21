@@ -15,3 +15,7 @@ mapa-stranek.inc
 sitemap.xml
 img/triky.xml
 video/video.xml
+static/zongleruv-slabikar
+static/zongleruv-slabikar-*.tar.bz2
+static/mobile/zongleruv-slabikar
+static/mobile/zongleruv-slabikar-*.zip

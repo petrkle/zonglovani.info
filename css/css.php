@@ -6,7 +6,7 @@ if($_SERVER['REQUEST_METHOD']=='GET'){
 require('../cache.php');
 http_cache_headers(1209600,true);
 
-if (substr_count($_SERVER['HTTP_ACCEPT_ENCODING'], 'gzip')){
+if (isset($_SERVER['HTTP_ACCEPT_ENCODING']) and substr_count($_SERVER['HTTP_ACCEPT_ENCODING'], 'gzip')){
 	ob_start('ob_gzhandler');
 }
 print trim(file_get_contents('./'.$_GET['style'].'.css'));
