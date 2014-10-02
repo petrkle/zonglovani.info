@@ -58,7 +58,7 @@ do
     echo "<navPoint class=\"chapter\" id=\"chapter$PO\" playOrder=\"$PO\"><content src=\"$FILE\" /><navLabel><text>$PART</text></navLabel>" >> $OUTDIR/slabikar.ncx
 
 		[ $POS -ne $POCET ] && echo "<ul>" >> $OUTDIR/obsah.html #zacatek dalsi kapitoly
-		echo "<li><a href="$FILE">$H1</a></li>" >> $OUTDIR/obsah.html # prvni trik v kapitole
+		echo "<li><a href=\""$FILE"\">$H1</a></li>" >> $OUTDIR/obsah.html # prvni trik v kapitole
 
 		echo "
 		<navPoint class=\"section\" id=\"navpoint$PO\" playOrder=\"$PO\">
@@ -69,7 +69,7 @@ do
 
 	else
 		# polozky v kapitole
-		echo "<li><a href="$FILE">$H1</a></li>" >> $OUTDIR/obsah.html
+		echo "<li><a href=\""$FILE"\">$H1</a></li>" >> $OUTDIR/obsah.html
 
 	echo "
 	<navPoint class=\"section\" id=\"navpoint$PO\" playOrder=\"$PO\">
@@ -90,6 +90,7 @@ do
 	sed s/'<img \(.*\)>'/'<img \1><\/td><td>'/ |\
 	sed s/'<\/p>'/'<\/td><\/tr><\/table>'/ |\
 	sed s/'<p>'/'<table><tr><td>'/ |\
+	sed 's/href="\([^"]*\)#\([^"]*\)"/href="\1"/' |\
 	./reformat.php \
 	> $OUTDIR/$FILE.obsah
 	echo "<html><head>
@@ -107,6 +108,8 @@ do
 done
 
 echo '</ul>' >> $OUTDIR/obsah.html
+
+echo '</body></html>' >> $OUTDIR/obsah.html
 
 echo '
 	</navPoint>
