@@ -23,9 +23,8 @@ do
 	sed /'.*<meta name="msapplication.*'/d |\
 	sed s/'.*meta name="robots".*'/'<meta name="robots" content="noindex,nofollow" \/>'/ |\
 	sed 's/media="only screen and (-webkit-min-device-pixel-ratio: 2)"/media="screen"/' |\
-	sed s/'zongl\.info'/'zonglovani.info'/ |\
-	sed s/"<body>"/"<body>\n<!--\nadmin(zavináč)zonglovani(tečka)info\n$DATUM\n$MACHTYPE\n-->"/ |\
-	sed s/'<div id="hlavicka">'/'<div id="hlavicka"><\/div>'/ \
+	sed 's/img src="\([^"]*\)" width="\([^"]*\)" height="[^"]*"/img src="\1" style="width:98%;max-width:\2px;"/g' |\
+	sed s/'zongl\.info'/'zonglovani.info'/ \
  	> $foo
 	rm -f $foo.bat
 done
