@@ -1,7 +1,7 @@
 <p>
 {obrazek soubor="nacinif.png" popisek="Diabolo"}
 Cívka, kterou roztáčíš pomocí provázků a hůlek.
-</a>
+</p>
 
 <h3>Základy</h3>
 
