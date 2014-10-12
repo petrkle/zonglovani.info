@@ -12,6 +12,7 @@
 </ul>
 {if $typ == 'mobi'}
 {include file='android.tpl'}
+{include file='firefoxos.tpl'}
 {/if}
 {/if}
 
