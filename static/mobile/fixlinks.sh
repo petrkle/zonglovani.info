@@ -31,3 +31,5 @@ for foo in `find $ZSDIR -name '*.html'`;
 do
 	sed -i 's#class="external"\s\{2,\}class="external"#class="external"#g;s#class="external"\s\{2,\}class="external"#class="external"#g' $foo
 done
+
+find $ZSDIR -name "*.html" -exec sed -i 's/^Jste zde:.*//;s/class="external"/class="external" target="_blank"/g' \{\} \;

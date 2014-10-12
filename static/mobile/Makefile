@@ -1,5 +1,5 @@
 COMPRESS=java -jar $(HOME)/lib/htmlcompressor-1.5.3.jar --compress-js --compress-css --remove-surrounding-spaces min -r -m '*.html' -o
-VERSION=1.1
+VERSION=1.2
 
 help:
 	@echo "cordova   - vytvori offline verzi pro Apache Cordova"
@@ -12,6 +12,7 @@ cordova:
 	./uprav.sh
 	./fixlinks.sh
 	$(COMPRESS) zongleruv-slabikar zongleruv-slabikar
+	./a-img.sh
 
 firefox:
 	./stahni.sh

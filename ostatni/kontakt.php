@@ -12,7 +12,7 @@ $smarty->assign('nahled','http://'.$_SERVER['SERVER_NAME'].'/img/m/micky-logo.gi
 
 $dalsi=array(
 	array('url'=>'/proc-a-jak.html','text'=>'Proč a jak vznikl žonglérův slabikář','title'=>'Proč a jak vznikl žonglérův slabikář'),
-	array('url'=>'/changelog.html','text'=>'Seznam změn','title'=>'Změny v žonglérově slabikáři')
+	array('url'=>'https://github.com/petrkle/zonglovani.info/commits/master','text'=>'Seznam změn','title'=>'Změny v žonglérově slabikáři')
 	);
 $smarty->assign_by_ref('dalsi',$dalsi);
 
