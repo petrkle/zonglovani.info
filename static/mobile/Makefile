@@ -13,6 +13,8 @@ cordova:
 	./fixlinks.sh
 	$(COMPRESS) zongleruv-slabikar zongleruv-slabikar
 	./a-img.sh
+	mv zongleruv-slabikar android/assets/www
+	cd android/ && ant release
 
 firefox:
 	./stahni.sh
@@ -26,3 +28,4 @@ firefox:
 
 clean:
 	rm -rf zongleruv-slabikar zongleruv-slabikar-*.zip
+	cd android && ant clean
