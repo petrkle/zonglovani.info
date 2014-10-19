@@ -303,11 +303,11 @@
 2014-09-29*Sprcha*/micky/4/sprcha.html*4sprchaa.png*Princip je stejný jako se třemi míčky. Je ale potřeba větší rychlost. Prvně se mi tento trik povedl až poté, co jsem začal trénovat kaskádu s pěti míčky. Dobrým tréninkem na tento trik je poloviční sprcha.
 2014-10-06*Oj - oj*/micky/3/ojoj.html*ojoja.png*Známé též jako australské jo-jo.
 2014-10-13*Multiplex*/micky/3/multiplex.html*micky-3-multiplexta.png*Vyhození několika míčků z jedné ruky - to je multiplex.
-2014-10-20*3 v 1*/micky/3/3v1.html*micky-3-3v1a.png*3 v 1 je podobné 2 v 1. Vyžaduje ovšem větší rychlost, přesnost a hlavně trpělivost.
+2014-10-20*Pleasure Station Day*/kalendar/udalost-20141025-20141025-pek-1413658780.html*psd14.jpg*Již 5. ročník Pleasure Station Day proběhne nově ve větších prostorech Papírna Plzeň.
 2014-10-27*Trojúhelník*/kuzely/passing/trojuhelnik.html*kuzely-passing-trojuhelnika.png*Jednoduchý trik pro tři žongléry a devět kuželů.
 2014-11-03*Žonglování na síti*/odkazy.html*www.png*Odkazy na stránky věnované žonglování.
 2014-11-10*Délka provázku*/diabolo/delka-provazku.html*provazeka.png*Správná délka provázku je ta, která ti vyhovuje.
-2014-11-17*Reverzní kaskáda*/micky/3/kaskada-reverzni.html*rkaskadaa.png*Reverzní kaskáda je velmi podobná normální kaskádě.
+2014-11-17*Pražský žonglérský marathon*/kalendar/udalost-20141121-20141123-pek-1413622702.html*pzm14s.jpg*Šestý ročník pražského žonglérského marathonu.
 2014-11-24*Jedení jablka*/micky/3/jablko.html*jablkoa.png*Při žonglování s jablky můžeš průběžně ukusovat. Normální míček místo do pusy odložíš třeba pod bradu.
 2014-12-01*Orbit*/micky/3/orbit.html*micky-3-orbita.png*Orbit, někdy též nazývaný obtoč.
 2014-12-08*Nůžky*/kuzely/3/nuzky.html*kuzely-nuzkya.png*Překřížením dvou kuželů získáš "nůžky", do kterých můžeš chytit třetí kužel.
@@ -377,8 +377,8 @@
 2016-02-29*Sprcha*/micky/3/sprcha.html*sprchaa.png*Sprcha je asi nejznámější způsob žonglování. Není ale vůbec snadné se ji naučit. Zkus se nejprve naučit poloviční sprchu.
 2016-03-07*Balancování míčku*/micky/balancovani.html*balanca.png*Použij pevný kulatý míček.
 2016-03-14*Neobvyklý začátek kaskády*/micky/3/neobvykly-zacatek.html*zacateka.png*Začít kaskádu můžeš i tou rukou, ve které máš jenom jeden míček.
-2016-03-21*
-2016-03-28*
+2016-03-21*3 v 1*/micky/3/3v1.html*micky-3-3v1a.png*3 v 1 je podobné 2 v 1. Vyžaduje ovšem větší rychlost, přesnost a hlavně trpělivost.
+2016-03-28*Reverzní kaskáda*/micky/3/kaskada-reverzni.html*rkaskadaa.png*Reverzní kaskáda je velmi podobná normální kaskádě.
 2016-04-04*
 2016-04-11*
 2016-04-18*
