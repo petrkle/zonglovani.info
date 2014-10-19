@@ -49,7 +49,7 @@ Stránku odebereš z oblíbených kliknutím na obrázek žluté hvězdičky {ob
 <div class="vcard">
 {if $uzivatel_props.foto}
 <div class="szn">
-<p><img src="{$smarty.const.LIDE_URL}foto/{$uzivatel_props.login|escape}.jpg" alt="{$uzivatel_props.jmeno|escape}" width="{$uzivatel_props.foto_sirka}" height="{$uzivatel_props.foto_vyska}" class="photo" /></p>
+<p><img src="{$smarty.const.LIDE_URL}foto/{$uzivatel_props.login|escape}.jpg" alt="{$uzivatel_props.jmeno|escape}" style="width:98%;max-width:{$uzivatel_props.foto_sirka}px;" class="photo"/></p>
 {/if}
 
 {if strlen($uzivatel_props.vzkaz)>0}

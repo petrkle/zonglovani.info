@@ -22,7 +22,7 @@ ok($nadpisy =~ /<h2>Mills' mess<\/h2>/, 'Nadpis druhé úrovně');
 
 ok($nadpisy =~ /<p>\nTak a teď stačí přidat už jen jeden míček.\n<\/p>/, 'Odstavec bez obrázku');
 
-ok($nadpisy =~ /<p>\n<img src="\/img\/m\/mmi.png" width="200" height="200" title="" alt="" \/>\nPravou ruku máš vlevo nahoře a zachytíš do ní první míček. Zároveň levou rukou vyhoď třetí míček.\n<\/p>/, 'Odstavec s obrázkem');
+ok($nadpisy =~ /<p>\n<img src="\/img\/m\/mmi.png" width="200" height="200" title="" alt="" \/>Pravou ruku máš vlevo nahoře a zachytíš do ní první míček. Zároveň levou rukou vyhoď třetí míček.\n<\/p>/, 'Odstavec s obrázkem');
 
 ok($nadpisy =~ /<!-- start -->\n<p class="animace">\n<a href="\/animace\/standard-mills-mess\.html"/, 'Odkaz na animaci');
 ok($nadpisy =~ /<p class="animace">\n<a href="\/video\/navod\/micky-3-mm.html" title="Video"/, 'Odkaz na video');

@@ -37,7 +37,7 @@
 {/if}
 </ul>
 {if $udalost.img}
-<p><img src="/kalendar/obrazek-{$udalost.img|escape}" alt="{$udalost.title|escape}" width="{$udalost.img_sirka|escape}" height="{$udalost.img_vyska|escape}" /></p>
+<p><img src="/kalendar/obrazek-{$udalost.img|escape}" alt="{$udalost.title|escape}" style="width:98%;max-width:{$udalost.img_sirka|escape}px;" /></p>
 {/if}
 </fieldset>
 

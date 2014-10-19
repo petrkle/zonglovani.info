@@ -16,8 +16,3 @@
 
 <!-- stop -->
 {/if}
-{if $smarty.server.SERVER_NAME=='zongl.info'}
-<!-- start -->
-<script type="text/javascript" src="http://localhost:35729/livereload.js"></script>
-<!-- stop -->
-{/if}

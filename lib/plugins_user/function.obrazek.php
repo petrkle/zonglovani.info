@@ -16,6 +16,11 @@ function smarty_function_obrazek($params, &$smarty){
 	}else{
 		$abs='';
 	};
-	return ('<img src="'.$abs.$link.'" '.$rozmery[3].' title="'.$popisek.'" alt="'.$popisek.'" />');
+	if($rozmery[0] > 200){
+		$velikost = 'style="width:98%;max-width:'.$rozmery[0].'px;"';
+	}else{
+		$velikost = $rozmery[3];
+	}
+	return ('<img src="'.$abs.$link.'" '.$velikost.' title="'.$popisek.'" alt="'.$popisek.'" />');
 
 }

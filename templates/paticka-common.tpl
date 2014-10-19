@@ -1,9 +1,15 @@
 <div class="spacer"></div>
 <!-- stránka konec -->
 </div>
+
 {if preg_match('/android/i',$smarty.server.HTTP_USER_AGENT)}
-<div id="andoridapadd">Žonglérův slabikář jako <a href="/g/android.app" title="Aplikace pro off-line prohlížení žonglérova slabikáře." onclick="_gaq.push(['_trackPageview','/g/android.app']);">aplikace pro Android</a>.</div>
+<div class="mobileapp">Žonglérův slabikář jako <a href="/g/android.app" title="Aplikace pro off-line prohlížení žonglérova slabikáře." class="external">aplikace pro Android</a></div>
 {/if}
+
+{if preg_match('/mobile.*firefox/i',$smarty.server.HTTP_USER_AGENT)}
+<div class="mobileapp">Žonglérův slabikář jako <a href="https://marketplace.firefox.com/app/zongleruv-slabikar" title="Aplikace pro off-line prohlížení žonglérova slabikáře." class="external">aplikace pro Firefox OS</a></div>
+{/if}
+
 <div id="paticka">
 <div id="dolni">
 <div>
@@ -11,16 +17,6 @@
 </div>
 </div>
 </div>
-
-{if preg_match('/(android|mobile|iphone|opera mini)/i',$smarty.server.HTTP_USER_AGENT)}
-{literal}
-<script type="text/javascript">
-window.addEventListener('load', function(e) {
-    setTimeout(function() { window.scrollTo(0, 1); }, 1);
-  }, false);
-</script>
-{/literal}
-{/if}
 
 </body>
 </html>

@@ -105,7 +105,7 @@ li.star{list-style:url(img/s/star-s.png);}
 .feedback{clear:both;padding-top:30px;font-size:0.7em;color:#333;display:block;}
 ul{list-style:circle;}
 .szn{margin:0;padding:0;list-style:circle;}.szn li{list-style-position:inside;}
-.skryte,#andoridapadd{display:none;}
+.skryte,.mobileapp{display:none;}
 .animace img{border: solid 0px;margin-right:5px;text-align:bottom;}
 abbr{text-decoration:none;border-bottom:0px dashed #000;}
 .pl{background:#eee;padding:4px;margin:0;}
