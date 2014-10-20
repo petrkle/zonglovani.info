@@ -13,7 +13,7 @@ cordova:
 	./fixlinks.sh
 	$(COMPRESS) zongleruv-slabikar zongleruv-slabikar
 	./a-img.sh
-	mv zongleruv-slabikar android/assets/www
+	mkdir android/assets && mv zongleruv-slabikar android/assets/www
 	cd android/ && ant release
 
 firefox:
