@@ -9,7 +9,6 @@
 <li><a href="http://www.gimp.org" class="external">gimp</a> - grafika</li>
 <li><a href="http://www.imagemagick.org" class="external">ImageMagick</a> - grafika</li>
 <li><a href="http://git-scm.com" class="external">git</a> - správa verzí</li>
-<li><a href="https://github.com/petrkle/git-deploy" class="external">git-deploy</a> - nasazení na server</li>
 <li><a href="http://magpierss.sourceforge.net" class="external">MagpieRSS</a> - RSS</li>
 <li><a href="http://nbbc.sourceforge.net" class="external">nbbc</a> - zpracování BB kódu</li>
 <li><a href="http://corpocrat.com/2008/08/15/free-wysiwyg-bbcode-editor-in-javascript" class="external">ed.js</a> - pomůcka pro psaní BB kódu.</li>
@@ -18,7 +17,6 @@
 <li><a href="http://www.softcomplex.com/products/tigra_calendar" class="external">Tigra Calendar</a> - kalendář</li>
 <li><a href="http://www.danielnaber.de/tree" class="external">tree.pl</a> - mapa stránek</li>
 <li><a href="http://sphider.eu" class="external">sphider</a> - fulltextové vyhledávání</li>
-<li><a href="http://lftp.yar.ru" class="external">lftp</a> - ftp klient</li>
 <li><a href="http://www.gnu.org/software/tar" class="external">tar</a> - zálohy</li>
 <li><a href="http://www.gzip.org" class="external">gzip</a> - zálohy</li>
 <li><a name="perl"></a><a href="http://www.perl.org" class="external">perl</a> a jeho <a href="/testovani.html#pm" title="Seznam použitých perlovských modulů">moduly</a> - testování</li>
