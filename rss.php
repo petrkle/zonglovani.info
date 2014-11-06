@@ -10,7 +10,6 @@ require('lib/rss_fetch.inc');
 
 
 $kanaly=array(
-'http://'.$_SERVER['SERVER_NAME'].'/ostatni/changelog.rss',
 'http://'.$_SERVER['SERVER_NAME'].CALENDAR_URL.'kalendar.rss',
 'http://'.$_SERVER['SERVER_NAME'].'/tip/tip.rss',
 'http://'.$_SERVER['SERVER_NAME'].OBRAZKY_URL.'obrazky.rss'
@@ -22,19 +21,22 @@ $rssu=array();
 foreach($kanaly as $kanal){
 	$rss = fetch_rss($kanal);
 	$items=$rss->items;
-	unset($items['O']);
+	foreach($items as $key=>$foo){
+		if(isset($foo['dc']['date'])){
+			$cas = $foo['dc']['date'];
+		}else{
+			$cas = $foo['updated'];
+		}
+
+		$items[$key]['cas'] = $cas;
+		$items[$key]['datum_rss2'] = date('r',strtotime($cas));
+	}
 	$udalosti=array_merge($items,$udalosti);
 }
 
 usort($udalosti, 'sort_by_rss_date');
 
-for($foo=0;$foo<10;$foo++){
-	$udalost=array_pop($udalosti);
-	$udalost['datum_rss2']=date('r',strtotime($udalost['dc']['date']));
-	array_push($rssu,$udalost);
-}
-
-$smarty->assign('udalosti',array_reverse($rssu));
+$smarty->assign('udalosti',array_reverse($udalosti));
 header('Content-Type: application/xml');
 
 if(isset($_GET['v'])){
@@ -45,5 +47,5 @@ if(isset($_GET['v'])){
 
 function sort_by_rss_date($a, $b)
 {
-		return ($a['dc']['date'] < $b['dc']['date']) ? -1 : 1;
+ 		return (strtotime($a['cas']) < strtotime($b['cas'])) ? -1 : 1;
 }
