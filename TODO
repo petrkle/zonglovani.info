@@ -1,57 +1,26 @@
-Aktuální
-========
-
-- test na změnu emailu
-- testy vzkazů - adresa from, to, čeština ve vzkazu, mime parts
-- přidávání událostí i pro nepřihlášené (odešle tip)
-- prezentace na speakerdeck
-- obrázky na plochu, doplnit popisky a img sitemapu
-- odkazy další, předchozí v horoskopu
-- v rozšířeních zobrazovat akce stejně jako ve widgetu + obrázky, používat cache
-- widget, plynulé zobrazení, stejně jako fb plugin
-- propojit obrázky s kalendářem
-- download - dopsat testy
-- juggling in czech republic - eng, informace o žonglování v čechách pro cizince
-- video jak se registrovat do žonglérova slabikáře
-- testy všech věcí v nastavení (změna emailu)
-- v pdf animovaný panáček na okraji stránky - podrobnosti Jitka
-
 Kalendář
 ========
 - přidat google mapy k akcím do kalendáře
 - export kalendáře (dalších věcí ?) do pdf online
+- propojit obrázky s kalendářem
+- přidávání událostí i pro nepřihlášené (odešle tip)
 
 Etc
 ===
 - udělat od jednotlivých obrázků žonglování odkazy na příslušné triky
 - seznam sitemap
 
-Automatizace
-============
-- skript pro zálohování - šifrovat zálohu, automaticky vymazávat staré zálohy z flashky
-- skript pro aktualizaci z flasky na disk: ./make-restore.sh
-
-Testy
-=====
-- všechny úlohy v cronu
-- doplnit do testů diag("Popis chyby $promena");
-
 Odložené na neurčito
 ====================
-- rozšíření - horoskop
-- on-line test - dostupnost rss zdrojů, stránky v odkazech
-- video z Ulity
 - hitparáda hodnocených stránek, aktualizace žebříčku cronem 
 - novinky, přidávání, schvalování
-- rozepsat možnosti diskuse, bazar
-- témata pro chromium
 - kvíz, průvodce výběrem míčků
 - přihlašování na akce v kalendáři
 
 Obsah
 =====
+- juggling in czech republic - eng, informace o žonglování v čechách pro cizince
 - sáčky, obaly a baťohy na míčky, kužely a další žonglovátka
-- překreslit střihy na šití míčů jako obrázky + pdf
 - kutálení kuželek - i pro nejmenší děti
 - náčiní - točicí talíř
 - žonglérské vystoupení - správný postup
@@ -65,68 +34,3 @@ Obsah
 - hula-hop kruh - návod na výrobu
 - výroba flowersticku
 - základy diabolo, flowerstick, poi
-
-HOTOVO
-======
-rss návštěvnosti
-test na stahování pdf
-test na posílání vzkazů
-validní ical - http://arnout.engelen.eu/icalendar-validator, vyzkoušet v sunbirdu, google calendar (má bug s letním časem)
-do seznamu míst přidat Velmez, Valmez, Kopřivnici, Vlašim, Ledeč a Zruč
-kraje na mapě
-posílání vzkazů - kontrolovat jestli má člověk nastavené zasílání vzkazů, všechny zprávy multipart text/html
-přehrávání videa z jugglng.tv přímo na facebooku, whitelist, meta, lint - funguje, ale jsou ty meta tagy správně?
-nastavení - místo kde žongluju, přidat obrázky čř, sk, cz+sk jako odkazy na mapu
-mapa žonglérů, kml soubor
-další, předchozí - odkazy v seznamu žonglérů, seznamu míst a dovedností
-dovednosti- seznam žonglérů, přidělat obrázek + link na podrobný popis
-widget pro cizí stránky - použití JSON api z kalendáře
-stránkování - odkazy do čtverečků, větší plocha ke kliknutí
-přidat do jsonu z kalendáře obrázek
-z přehledu novinek vyhodit changelog
-licence do instalačky windows
-sestavit mobi a epub vydání
-odkazy mezi literaturou a downloadem
-speciální stránka o ejc
-opravit v kalendáří zobrazování akcí 0.00 - 0.00
-zjednodušit registraci, výchozí stav bez vzkazu, vzkazy přes formulář
-nastavování - podrobnější popis výsledku akce
-přidávání příspěvku do diskuse - zobrazovat pod formulářem poslední příspěvky
-přidávání příspěvku do diskuse - titulek, nadpis
-jsou popisky ve widgetu omezené na délku - ano
-asynchronní verze GA
-rozšíření pro chrome target _blank místo _top, aby fungovaly odkazy
-video - štítky, přidat pžm2 a sdílet na fb
-status 500 při výpadku databáze
-seznam míst - opravit id slezko na slezsko
-z konstrukce kuželu odkazy na obrázky kuželů
-odhlašovací stránka s upozorněním na mobilní verzi žonglérova slabikáře (vem si žonglování sebou do kapsy)
-google analytics - rozlišení přihlášených a odhlášených uživatelů
-odkaz z menu na rss agregátor - novinky
-detekce a odstranění duplicit v RSS kanálech
-opravit GA video/klip
-galerie autor admin@zonglovani.info - nezobrazovat autora
-video mm - nahrát na jtv a youtube
-kontrola na jména začínající a končící číslem
-X-Frame-Options
-detekovat accepted-lang v hlavičkách od prohlížeče mimo češtinu a slovenštinu vypisovat javascript s odkazem na překlad pomocí google translate
-zjednodušení registrace, email = login
-zvětšit písmenka v obrázcích u 4, 3, 2, 1 count, pssp..
-odsunutí adresního řádku v mobilní verzi
-opravit klávesové zkratky v galerii - google chrome
-odkaz na bookbinder
-inline js siteswap
-speciální stránka na 1. dubna - Žonglování na Olympiádu
-přidat tip na žonglování na olympiádě - 1. dubna
-speciální stránka - MDŽ
-doplnit prev, next, up, ... k videím, animacím, souborům ke stažení, diskusi, dovednostem, seznamu míst
-do mobilní verze nevkládat google translage a facebook
-input type email, url - doplnit do formulářů HTML5
-možnost úplně smazat smazané události v minulosti
-info při nahrávání letáku do kalendáře - jen formát jpg nebo png
-ke stahování přidělat odkazy na podporu žonglérova slabikáře
-odkaz na android - Google Play
-kalendář, rest api, načítání z rozšíření, kvůli manifest v.2
-postconf -e 'disable_mime_output_conversion = yes'
-prohlížení mailů - https://addons.mozilla.org/cs/thunderbird/addon/importexporttools/
-odkazy další, předchozí u akce
