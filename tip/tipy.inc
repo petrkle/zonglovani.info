@@ -312,7 +312,7 @@
 2014-12-01*Orbit*/micky/3/orbit.html*micky-3-orbita.png*Orbit, někdy též nazývaný obtoč.
 2014-12-08*Nůžky*/kuzely/3/nuzky.html*kuzely-nuzkya.png*Překřížením dvou kuželů získáš "nůžky", do kterých můžeš chytit třetí kužel.
 2014-12-15*4 count*/kuzely/passing/4count.html*kuzely-passing-4count-rytmus.png*Základní způsob passování pro 2 žongléry a 6 kuželů. Každý 4. hod je pass. Házíš:
-2014-12-22*Boston mess*/micky/3/boston-mess.html*micky-3-bma.png*Míčky házíš rovně nahoru jako při sloupech. Ruce se kříží jako při Mills' mess.
+2014-12-22*Veselé vánoce*/vanoce-2014.html*kometa-kuzel.s.jpg*Veselé vánoční svátky. Ať vám to lítá :^)
 2014-12-29*Sloupy*/micky/3/sloupy.html*sloupya.png*Sloupy s míčky jsou velmi rozmanitý trik. Toto je jeho základní provedení. Než ho začneš zkoušet, hodí se umět 2 v 1.
 2015-01-05*Neviditelný míček*/micky/3/neviditelny.html*micky-3-neviditelnya.png*Neviditelný míček nahrazuje obyčejný míček - hlavně když ti spadne. Získáš čas k sebrání míčku a nemusíš přestat žonglovat.
 2015-01-12*Zrychlená dvojka*/kuzely/passing/zrychlena-dvojka.html*kuzely-passing-zrychlenadvojkaa.png*Trik pro ozvláštnění 2 count nebo 4 count.
@@ -379,7 +379,7 @@
 2016-03-14*Neobvyklý začátek kaskády*/micky/3/neobvykly-zacatek.html*zacateka.png*Začít kaskádu můžeš i tou rukou, ve které máš jenom jeden míček.
 2016-03-21*3 v 1*/micky/3/3v1.html*micky-3-3v1a.png*3 v 1 je podobné 2 v 1. Vyžaduje ovšem větší rychlost, přesnost a hlavně trpělivost.
 2016-03-28*Reverzní kaskáda*/micky/3/kaskada-reverzni.html*rkaskadaa.png*Reverzní kaskáda je velmi podobná normální kaskádě.
-2016-04-04*
+2016-04-04*Boston mess*/micky/3/boston-mess.html*micky-3-bma.png*Míčky házíš rovně nahoru jako při sloupech. Ruce se kříží jako při Mills' mess.
 2016-04-11*
 2016-04-18*
 2016-04-25*
