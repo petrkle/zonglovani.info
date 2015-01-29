@@ -12,7 +12,7 @@ $trail = new Trail();
 $trail->addStep($titulek,'/download/');
 $downloads=get_downloads();
 $smarty->assign_by_ref('downloads', $downloads);
-$smarty->assign('poradi', array('pdf','mobi','epub','exe','msi','tar.bz2','apk','vizitky'));
+$smarty->assign('poradi', array('pdf','mobi','epub','exe','msi','tar.bz2','apk','wordpress','vizitky'));
 $smarty->assign('hidden', array('apk'=>true));
 
 if(isset($_GET['id'])){
@@ -60,6 +60,13 @@ if(isset($_GET['id'])){
 		$dalsi=array(
 			array('url'=>'/download/licence.html','text'=>'Licence - CC BY-ND','title'=>'Licence k souboru'),
 			array('url'=>'/download/msi.html','text'=>'Instalační balíček MSI','title'=>'Žonglérův slabikář ve formátu msi.'),
+			);
+	}
+
+	if($id=='wordpress'){
+		$dalsi=array(
+			array('url'=>'/kalendar/widget.html','text'=>'Widget pro web stránky','title'=>'Univerzální widget pro web stránky.'),
+			array('url'=>'/jak-odkazovat.html','text'=>'Jak odkazovat na žonglérův slabikář','title'=>'Jak odkazovat na žonglérův slabikář - připravené HTML kódy'),
 			);
 	}
 
