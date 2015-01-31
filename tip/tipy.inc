@@ -319,7 +319,7 @@
 2015-01-19*Mýty a omyly*/myty-omyly.html*mytya.png*Typická zpráva okurkové sezony.
 2015-01-26*423*/kuzely/3/423.html*423a.png*Název triku značí jednotlivé hody zapsané pomocí siteswap.
 2015-02-02*Jo - jo*/micky/3/jojo.html*jojoa.png*Snadný a velmi hezký trik.
-2015-02-09*Podpoř žonglérův slabikář*/podporte-zongleruv-slabikar.html*podporac.png*Žonglérův slabikář je volně dostupný na internetu. Neobsahuje reklamy a běží na rychlém serveru. Můžeš ho podpořit těmito způsoby:
+2015-02-09*Žonglování na ledě*/kalendar/udalost-20150213-20150213-pek-1422565035.html*zongl-led15.png*Tradiční zimní taškařice cirkusu LeGrando.
 2015-02-16*Trénink*/trenink.html*trenink-navoda.png*Žonglovat se nenaučíš nějakým kouzlem nebo protože máš talent, ale tréninkem. Prostě to zkoušíš tak dlouho až se ti to povede.
 2015-02-23*3 + 2*/micky/5/64.html*64a.png*Na první pohled snadné, avšak velmi obtížné. Pravá a levá ruka žonglují v různém rytmu.
 2015-03-02*Kaskáda*/kuzely/3/kaskada.html*kuzely-3-kaskadaa.png*Kaskáda je nejjednodušší způsob žonglování se třemi kužely.
@@ -335,10 +335,10 @@
 2015-05-11*Hodiny*/micky/3/hodiny.html*micky-3-hodinya.png*První a druhý míček vyhoď najednou z pravé ruky.
 2015-05-18*Další informace o žonglování*/ostatni.html*zacatecnik.png*Základní pojmy v žonglování.
 2015-05-25*Falešné sloupy*/micky/3/sloupy-falesne.html*fsloupya.png*Začni jako při normálních sloupech. První míček rovně nahoru.
-2015-06-01*Klokan*/micky/3/klokan.html*klokana.png*Snadný a velmi efektní trik. K jeho provedení je potřeba mít na sobě volnější tričko.
+2015-06-01*Žonglobalizace*/kalendar/udalost-20150606-20150606-pek-1421523958.html*zonglobalizace15.png*Pátý ročník festivalu nového cirkusu v Plzni.
 2015-06-08*Kaskáda (multiplex)*/micky/5/kaskada-multiplex.html*5kaskadamultia.png*Kaskáda s pěti míčky je obtížný trik. Nezbývá tedy nic jiného, než si ji trochu usnadnit. Stačí vyhazovat dva míčky najednou.
 2015-06-15*Falešné Mills' mess*/micky/3/mm-falesne.html*micky-3-mm-falesnea.png*Popsat tento trik je skoro stejně těžké jako se ho naučit. Takže hurá do toho!
-2015-06-22*40303*/micky/2/40303.html*40303a.png*Jednoduché cvičení se dvěma míčky.
+2015-06-22*Polná v plamenech*/kalendar/udalost-20150627-20150627-pek-1421827020.html*polna15.jpg*Šestý ročník festivalu ohňových umění.
 2015-06-29*Socha svobody*/micky/3/socha.html*sochaa.png*Socha svobody je vlastně poloviční sprcha s jednou rukou nahoře. Jiný název pro tento trik je žirafa.
 2015-07-06*Výměny ve čtvercích*/kuzely/passing/vymeny.html*vymenya.png*Trik pro čtyři žongléry s dvanácti kužely.
 2015-07-13*Chrámové okno*/micky/3/okno.html*oknoa.png*Při tomto triku míčky létají vysokým úzkým obloukem, který připomíná obrys chrámového okna.
@@ -380,8 +380,8 @@
 2016-03-21*3 v 1*/micky/3/3v1.html*micky-3-3v1a.png*3 v 1 je podobné 2 v 1. Vyžaduje ovšem větší rychlost, přesnost a hlavně trpělivost.
 2016-03-28*Reverzní kaskáda*/micky/3/kaskada-reverzni.html*rkaskadaa.png*Reverzní kaskáda je velmi podobná normální kaskádě.
 2016-04-04*Boston mess*/micky/3/boston-mess.html*micky-3-bma.png*Míčky házíš rovně nahoru jako při sloupech. Ruce se kříží jako při Mills' mess.
-2016-04-11*
-2016-04-18*
+2016-04-11*Klokan*/micky/3/klokan.html*klokana.png*Snadný a velmi efektní trik. K jeho provedení je potřeba mít na sobě volnější tričko.
+2016-04-18*40303*/micky/2/40303.html*40303a.png*Jednoduché cvičení se dvěma míčky.
 2016-04-25*
 2016-05-02*
 2016-05-09*
