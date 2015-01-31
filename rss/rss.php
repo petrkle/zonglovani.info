@@ -50,6 +50,10 @@ $rss_zdroje['dvaadvacitka']=array(
 	'popis'=>'22.cz',
 	'url'=>'http://www.22.cz',
 	'feed_url'=>'http://www.22.cz/blog/rss/');
+$rss_zdroje['kufr']=array(
+	'popis'=>'Divadlo KUFR',
+	'url'=>'http://www.divadlokufr.cz',
+	'feed_url'=>'http://www.facebook.com/feeds/page.php?format=atom10&id=268541793265487');
 $rss_zdroje['kruhovaparabola']=array(
 	'popis'=>'Kruhová parabola - obrázky',
 	'url'=>'http://zongleri.cz',
