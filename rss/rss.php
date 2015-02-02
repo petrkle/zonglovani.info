@@ -74,6 +74,10 @@ $rss_zdroje['zongleros']=array(
 	'popis'=>'Žonglér o.s.',
 	'url'=>'http://www.zongleros.cz',
 	'feed_url'=>'http://www.zongleros.cz/feed/');
+$rss_zdroje['cascabel']=array(
+	'popis'=>'Cascabel',
+	'url'=>'http://cascabel.cz',
+	'feed_url'=>'http://www.facebook.com/feeds/page.php?format=atom10&id=215856865245546');
 $rss_zdroje['slabikarkalendar']=array(
 	'popis'=>'Žonglérův slabikář - kalendář',
 	'url'=>'http://zonglovani.info/kalendar/',
