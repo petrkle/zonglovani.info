@@ -1,4 +1,7 @@
-<h3><a href="/kalendar/udalost-20140719-20140727-pek-1383408341.html" title="EJC 2013">19. 7. - 27. 7. 2014</a> Millstreet (IR)</h3>
+<h3><a href="/kalendar/udalost-20150801-20150809-pek-1424378805.html" title="EJC 2015">1. 8. - 9. 8. 2015</a> Bruneck (IT)</h3>
+<p><a href="/kalendar/udalost-20150801-20150809-pek-1424378805.html" title="EJC 2015">{obrazek soubor='ejc2015.png' popisek='EJC 2015'}</a> European Juggling Convention je největší žonglérský festival v Evropě.</p>
+
+<h3><a href="/kalendar/udalost-20140719-20140727-pek-1383408341.html" title="EJC 2014">19. 7. - 27. 7. 2014</a> Millstreet (IR)</h3>
 <p><a href="/kalendar/udalost-20140719-20140727-pek-1383408341.html" title="EJC 2014">{obrazek soubor='ejc2014.png' popisek='EJC 2014'}</a> European Juggling Convention je největší žonglérský festival v Evropě.</p>
 
 <p>Podrobnosti - <a href="http://www.ejc2014.org/" title="EJC 2014">ejc2014.org</a></p>

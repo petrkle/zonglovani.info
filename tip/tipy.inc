@@ -339,7 +339,7 @@
 2015-06-08*Kaskáda (multiplex)*/micky/5/kaskada-multiplex.html*5kaskadamultia.png*Kaskáda s pěti míčky je obtížný trik. Nezbývá tedy nic jiného, než si ji trochu usnadnit. Stačí vyhazovat dva míčky najednou.
 2015-06-15*Falešné Mills' mess*/micky/3/mm-falesne.html*micky-3-mm-falesnea.png*Popsat tento trik je skoro stejně těžké jako se ho naučit. Takže hurá do toho!
 2015-06-22*Polná v plamenech*/kalendar/udalost-20150627-20150627-pek-1421827020.html*polna15.jpg*Šestý ročník festivalu ohňových umění.
-2015-06-29*Socha svobody*/micky/3/socha.html*sochaa.png*Socha svobody je vlastně poloviční sprcha s jednou rukou nahoře. Jiný název pro tento trik je žirafa.
+2015-06-29*European Juggling Convention*/kalendar/ejc.html*ejc2015.png*Evropské setkání žonglérů v Bruneck začíná za měsíc. Nejvyšší čas sehnat si odvoz do Itálie.
 2015-07-06*Výměny ve čtvercích*/kuzely/passing/vymeny.html*vymenya.png*Trik pro čtyři žongléry s dvanácti kužely.
 2015-07-13*Chrámové okno*/micky/3/okno.html*oknoa.png*Při tomto triku míčky létají vysokým úzkým obloukem, který připomíná obrys chrámového okna.
 2015-07-20*441*/micky/3/441.html*441a.png*Pěkný trik, ale dostat se do rytmu chvíli trvá.
@@ -382,7 +382,7 @@
 2016-04-04*Boston mess*/micky/3/boston-mess.html*micky-3-bma.png*Míčky házíš rovně nahoru jako při sloupech. Ruce se kříží jako při Mills' mess.
 2016-04-11*Klokan*/micky/3/klokan.html*klokana.png*Snadný a velmi efektní trik. K jeho provedení je potřeba mít na sobě volnější tričko.
 2016-04-18*40303*/micky/2/40303.html*40303a.png*Jednoduché cvičení se dvěma míčky.
-2016-04-25*
+2016-04-25*Socha svobody*/micky/3/socha.html*sochaa.png*Socha svobody je vlastně poloviční sprcha s jednou rukou nahoře. Jiný název pro tento trik je žirafa.
 2016-05-02*
 2016-05-09*
 2016-05-16*
