@@ -5,8 +5,8 @@
 <ul class="alert"><li><strong>Pozor:</strong> tato událost už skončila.</li></ul>
 {/if}
 
-{if $udalost.img}
-<p><img src="/kalendar/obrazek-{$udalost.img|escape}" alt="{$udalost.desc|escape}" style="width:98%;max-width:{$udalost.img_sirka|escape}px;" /></p>
+{if $udalost.img and $udalost.img_ts}
+<p><img src="/kalendar/obrazek-{$udalost.img_ts|escape}-ts-{$udalost.img|escape}" alt="{$udalost.desc|escape}" style="width:98%;max-width:{$udalost.img_sirka|escape}px;" /></p>
 {/if}
 
 <p><strong>Začátek</strong>: <abbr class="dtstart" title="{$udalost.start_micro|escape}">{$udalost.start_hr|escape}</abbr></p>

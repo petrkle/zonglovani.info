@@ -101,6 +101,7 @@ function get_event_data($id,$storage=CALENDAR_DATA){
 
 		if(isset($udalost['img']) and is_readable(CALENDAR_IMG.'/'.$udalost['img'])){
 		$obrazekinfo=getimagesize(CALENDAR_IMG.'/'.$udalost['img']);
+		$udalost['img_ts'] = filemtime(CALENDAR_IMG.'/'.$udalost['img']);
 		if(is_array($obrazekinfo)){
 			$udalost['img_sirka']=$obrazekinfo[0];
 			$udalost['img_vyska']=$obrazekinfo[1];
@@ -156,6 +157,7 @@ function write_event_data($udalost){
 			 rename(CALENDAR_IMG.'/resized-'.$udalost['id'].$pripona,CALENDAR_IMG.'/'.$udalost['id'].$pripona);
 		}
 		$udalost['img']=$udalost['id'].$pripona;
+		clearstatcache();
 	}
 	unset($udalost['img_sirka']);
 	unset($udalost['img_vyska']);

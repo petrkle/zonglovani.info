@@ -36,8 +36,8 @@
 <li><label class="kratkypopis" for="obrazek" accesskey="b" >O<span class="b">b</span>rázek</label> <input type="submit" name="smazatimg" value="Smazat obrázek" /></li>
 {/if}
 </ul>
-{if $udalost.img}
-<p><img src="/kalendar/obrazek-{$udalost.img|escape}" alt="{$udalost.title|escape}" style="width:98%;max-width:{$udalost.img_sirka|escape}px;" /></p>
+{if $udalost.img and $udalost.img_ts}
+<p><img src="/kalendar/obrazek-{$udalost.img_ts|escape}-ts-{$udalost.img|escape}" alt="{$udalost.title|escape}" style="width:98%;max-width:{$udalost.img_sirka|escape}px;" /></p>
 {/if}
 </fieldset>
 

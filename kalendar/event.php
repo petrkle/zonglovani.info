@@ -170,8 +170,8 @@ if($udalost){
 		$smarty->assign('hcalendar',true);
 		$trail->addStep($udalost['month_name'],$udalost['month_url']);
 		$trail->addStep($udalost['title']);
-		if(isset($udalost['img'])){
-			$smarty->assign('nahled','http://'.$_SERVER['SERVER_NAME'].'/kalendar/obrazek-'.$udalost['img']);
+		if(isset($udalost['img']) and isset($udalost['img_ts'])){
+			$smarty->assign('nahled','http://'.$_SERVER['SERVER_NAME'].'/kalendar/obrazek-'.$udalost['img_ts'].'-ts-'.$udalost['img']);
 		}else{
 			$smarty->assign('nahled','http://'.$_SERVER['SERVER_NAME'].'/img/k/kalendar.png');
 		}
