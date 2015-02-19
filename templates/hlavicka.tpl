@@ -41,8 +41,6 @@
 	<link rel="previewimage" href="{$nahled|escape}" />
 {/if}
 
-{include file='pocitadlo.tpl'}
-
 </head>
 <body>
 {php}
