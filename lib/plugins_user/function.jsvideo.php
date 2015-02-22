@@ -15,7 +15,7 @@ function smarty_function_jsvideo($params, &$smarty){
 				$include="<object type=\\'application/x-shockwave-flash\\' data=\\'$dataurl\\' class=\\'wyoutubevideo\\'><param name=\\'movie\\' value=\\'$dataurl\\' /><param name=\\'wmode\\' value=\\'transparent\\' /><param name=\\'allowscriptaccess\\' value=\\'always\\' /><param name=\\'allowfullscreen\\' value=\\'false\\' /><param name=\\'pluginspage\\' value=\\'http://get.adobe.com/flashplayer/\\' />Uložit video <a href=\\'".$klip['download']."\\' class=\\'external\\'>$v.mp4</a> (".$klip['velikost'].", ".$klip['delka'].").</object>";	
 
 
-		$vysledek="this.parentNode.setAttribute('class','wyoutubevideo');this.parentNode.innerHTML='$include';_gaq.push(['_trackPageview','/video/navod/$v.html']);return false;";
+		$vysledek="this.parentNode.setAttribute('class','wyoutubevideo');this.parentNode.innerHTML='$include';return false;";
 	}else{
 		$vysledek="Video se nepodařilo načíst.";
 	}
