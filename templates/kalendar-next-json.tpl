@@ -4,10 +4,10 @@
 "{$smarty.foreach.smycka.index}":[
 {literal}{{/literal}
 "start": "{$udalost.start_hr}",
-"url": "http://{$smarty.server.SERVER_NAME}{$smarty.const.CALENDAR_URL}udalost-{$udalost.id}.html",
+"url": "https://{$smarty.server.SERVER_NAME}{$smarty.const.CALENDAR_URL}udalost-{$udalost.id}.html",
 "desc": "{$udalost.desc|truncate:240:"...":true|escape}",
 {if $udalost.img and $udalost.img_ts}
-"img": "http://{$smarty.server.SERVER_NAME}{$smarty.const.CALENDAR_URL}obrazek-{$udalost.img_ts|escape}-ts-{$udalost.img|escape}",
+"img": "https://{$smarty.server.SERVER_NAME}{$smarty.const.CALENDAR_URL}obrazek-{$udalost.img_ts|escape}-ts-{$udalost.img|escape}",
 {/if}
 "title": "{$udalost.title|replace:':':' '|truncate:40:"...":true|escape}"
 {literal}}{/literal}
