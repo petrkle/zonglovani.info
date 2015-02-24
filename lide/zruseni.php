@@ -32,6 +32,7 @@ if(isset($_GET['m']) and isset($_GET['k'])){
 			unset($_SESSION['logged']);
 			unset($_SESSION['ip']);
 			unset($_SESSION['uzivatel']);
+			setcookie('ZS', '', time()-(60*60*24), '/');
 			$smarty->assign('chyby',array('Účet byl zrušen.'));
 			$smarty->display('hlavicka.tpl');
 			$smarty->display('alert.tpl');

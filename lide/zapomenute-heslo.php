@@ -127,6 +127,7 @@ if(!preg_match('/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{
 		$smarty->display('hlavicka.tpl');
 		$smarty->display('zapomenute-heslo.tpl');
 		$smarty->display('paticka.tpl');
+		exit();
 	}
 }else{
 	$antispam=get_antispam();

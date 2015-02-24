@@ -2,6 +2,9 @@
 require('../init.php');
 require('../func.php');
 
+session_name('ZS');
+session_start();
+
 $titulek='Založit účet';
 $smarty->assign_by_ref('titulek',$titulek);
 $smarty->assign('description','Založení nového účtu v žonglérově slabikáři. Zviditelni se v žonglérském světě.');

@@ -3,6 +3,9 @@ require('../init.php');
 require('../func.php');
 require('../rss/rss.php');
 
+session_name('ZS');
+session_start();
+
 $titulek='Obnova hesla';
 
 $smarty->assign('titulek',$titulek);
@@ -119,6 +122,7 @@ if(isset($_GET['status']) and $_GET['status']=='ok' and isset($_SESSION['load_us
 					$smarty->display('hlavicka.tpl');
 					$smarty->display('obnova-hesla.tpl');
 					$smarty->display('paticka.tpl');
+					exit();
 				}
 			
 			}else{
@@ -128,6 +132,7 @@ if(isset($_GET['status']) and $_GET['status']=='ok' and isset($_SESSION['load_us
 				$smarty->display('hlavicka.tpl');
 				$smarty->display('obnova-hesla.tpl');
 				$smarty->display('paticka.tpl');
+				exit();
 			}
 
 	}else{
@@ -135,10 +140,12 @@ if(isset($_GET['status']) and $_GET['status']=='ok' and isset($_SESSION['load_us
 		$smarty->display('hlavicka.tpl');
 		$smarty->display('alert.tpl');
 		$smarty->display('paticka.tpl');
+		exit();
 	}
 
 	$smarty->assign('chyby',array('Odkaz pro obnovení hesla není úplný.','Heslo NEBYLO změněno.'));
 	$smarty->display('hlavicka.tpl');
 	$smarty->display('alert.tpl');
 	$smarty->display('paticka.tpl');
+	exit();
 }
