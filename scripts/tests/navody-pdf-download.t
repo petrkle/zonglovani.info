@@ -7,8 +7,9 @@ use Test::More tests => 13;
 use Net::Netrc;
 use POSIX;
 use File::Compare;
+$ENV{PERL_LWP_SSL_VERIFY_HOSTNAME} = 0;
 
-my $loginurl = 'http://zongl.info/lide/prihlaseni.php';
+my $loginurl = 'https://zongl.info/lide/prihlaseni.php';
 my $mach = Net::Netrc->lookup($loginurl);
 my ($login, $password, $account) = $mach->lpa;
 
@@ -30,7 +31,7 @@ ok(defined($content), 'Přihlašovací stránka je dostupná');
 ok($content =~ />Odhlásit<\/a>/, 'Odkaz na odhlášení');
 ok($content =~ />Nastavení<\/a>/, 'Odkaz na nastavení');
 
-my $zs_navody = $bot->get('http://zongl.info/navody/');
+my $zs_navody = $bot->get('https://zongl.info/navody/');
 my $navody=$zs_navody->content();
 
 ok(defined($zs_navody), 'Stránka s návody je dostupná');
@@ -39,7 +40,7 @@ my @soubory=('navod-na-zonglovani','vyroba-micku');
 
 foreach my $soubor(@soubory){
 	ok($navody =~ /<a href="download\/$soubor.pdf/, "Odkaz na $soubor.pdf");
-	my $zs_navod_pdf = $bot->get("http://zongl.info/navody/download/$soubor.pdf");
+	my $zs_navod_pdf = $bot->get("https://zongl.info/navody/download/$soubor.pdf");
 	ok($zs_navod_pdf->content_type() =~ /application\/octet-stream/, "Mime typ application/octet-stream u $soubor.pdf");
 
 	my $navod_tmp_filename = tmpnam();
@@ -51,13 +52,13 @@ foreach my $soubor(@soubory){
 	unlink("$navod_tmp_filename");
 }
 
-my $zs_logout = $bot->get('http://zongl.info/lide/odhlaseni.php');
+my $zs_logout = $bot->get('https://zongl.info/lide/odhlaseni.php');
 my $odhlaseni=$zs_logout->content();
 
 ok(defined($odhlaseni), 'Odhlašovací stránka je dostupná');
 
 foreach my $soubor(@soubory){
-	my $zs_navod = $bot->get("http://zongl.info/navody/download/$soubor.pdf");
+	my $zs_navod = $bot->get("https://zongl.info/navody/download/$soubor.pdf");
 	my $navod=$zs_navod->content();
 	ok($navod =~ /Pro zobrazení požadované stránky je nutné přihlášení/, "Soubor $soubor.pdf je po odhlášení nepřístupný");
 }

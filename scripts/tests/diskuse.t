@@ -5,8 +5,9 @@ use Test::More tests => 19;
 use Net::Netrc;
 require('scripts/tests/func.pl');
 use Encode;
+$ENV{PERL_LWP_SSL_VERIFY_HOSTNAME} = 0;
 
-my $loginurl = 'http://zongl.info/lide/prihlaseni.php';
+my $loginurl = 'https://zongl.info/lide/prihlaseni.php';
 my $mach = Net::Netrc->lookup($loginurl);
 my ($login, $password, $account) = $mach->lpa;
 
@@ -27,10 +28,10 @@ my $prihlstranka=$zs_prihlaseni->content();
 
 ok($prihlstranka =~ /Odhlásit<\/a>/, 'Úspěšné přihlášení');
 
-my $response = $bot->get("http://zongl.info/diskuse/");
+my $response = $bot->get("https://zongl.info/diskuse/");
 ok($response->content() =~ /<a href="\/diskuse\/add\.php"/, "Odkaz na přidání zprávy");
 
-$response = $bot->get("http://zongl.info/diskuse/add.php");
+$response = $bot->get("https://zongl.info/diskuse/add.php");
 ok($response->content() =~ /<form action="\/diskuse\/add\.php"/, "Formulář pro přidání zprávy");
 
 my $zs_vzkaz = $bot->submit_form(form_number => 0 ,fields => {'vzkaz'=>decode_utf8("Žluťoučký kůň pěl ďábelské ódy. http://www.seznam.cz")}, button=>'nahled');
@@ -60,7 +61,7 @@ my @vzkazy = (
 );
 
 foreach my $prispevek (@vzkazy){
-	$response = $bot->get("http://zongl.info/diskuse/add.php");
+	$response = $bot->get("https://zongl.info/diskuse/add.php");
 	$zs_vzkaz = $bot->submit_form(form_number => 0 ,fields => {'vzkaz'=>decode_utf8($prispevek->{'z'})}, button=>'nahled');
 	$zs_vzkaz = $bot->submit_form(form_number => 0 ,fields => {'antispam'=>get_vypocet($zs_vzkaz->content())}, button=>'odeslat');
 	ok($zs_vzkaz->content() =~ /$prispevek->{'v'}/, $prispevek->{'t'});

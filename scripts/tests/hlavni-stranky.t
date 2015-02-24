@@ -3,6 +3,7 @@ use strict;
 use warnings;
 use WWW::Mechanize;
 use Test::More tests => 118;
+$ENV{PERL_LWP_SSL_VERIFY_HOSTNAME} = 0;
 
 my $bot = WWW::Mechanize->new(autocheck => 1);
 $bot->cookie_jar(HTTP::Cookies->new());
@@ -71,7 +72,7 @@ my @stranky = (
 );
 
 foreach my $stranka (@stranky){
-	my $response = $bot->get("https://www.zongl.info".$stranka->{'a'});
+	my $response = $bot->get("https://zongl.info".$stranka->{'a'});
 	ok($response->content() =~ /<title>$stranka->{'t'}<\/title>/, $stranka->{'a'}." má správný titulek $stranka->{'t'}");
 	ok($response->content() =~ /<title>$stranka->{'t'}<\/title>/, $stranka->{'a'}." obsahuje $stranka->{'o'}");
 }

@@ -9,6 +9,7 @@ use Date::Parse;
 use File::Temp     qw/tempfile/;
 use Image::ExifTool qw(:Public);
 
+$ENV{PERL_LWP_SSL_VERIFY_HOSTNAME} = 0;
 my $bot = WWW::Mechanize->new(autocheck => 0);
 $bot->cookie_jar(HTTP::Cookies->new());
 $bot->add_header( 'Accept-Encoding' => '' );
@@ -48,22 +49,22 @@ foreach my $tip(@radky){
 				$chyby++;
 				diag("Chybějící titulek nebo popis $tip");
 			}
-			$bot->get("http://zongl.info$url");
+			$bot->get("https://zongl.info$url");
 			if($bot->status() !~ /(200|301|302)/){
 				$chyby++;
-				diag("http://zongl.info$url return ".$bot->status());
+				diag("https://zongl.info$url return ".$bot->status());
 			}
-			$bot->get("http://zongl.info/img/$fl/$img", ':content_file' => $temp);
+			$bot->get("https://zongl.info/img/$fl/$img", ':content_file' => $temp);
 			my $info = ImageInfo($temp);
 
 			if($info->{'ImageWidth'} != 200){
 				$chyby++;
-				diag("http://zongl.info/img/$fl/$img není 200px široký.");
+				diag("https://zongl.info/img/$fl/$img není 200px široký.");
 			}
 
 			if($bot->status() !~ /(200|301|302)/){
 				$chyby++;
-				diag("http://zongl.info/img/$fl/$img return ".$bot->status());
+				diag("https://zongl.info/img/$fl/$img return ".$bot->status());
 			}
 			if($chyby==0){
 				$spravne_tipy++;

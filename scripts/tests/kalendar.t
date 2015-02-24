@@ -7,6 +7,7 @@ use Time::Local;
 use Date::Format;
 use Net::Netrc;
 use Encode;
+$ENV{PERL_LWP_SSL_VERIFY_HOSTNAME} = 0;
 
 my $loginurl = 'http://zongl.info/lide/prihlaseni.php';
 my $mach = Net::Netrc->lookup($loginurl);

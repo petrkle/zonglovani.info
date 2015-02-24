@@ -11,8 +11,9 @@ use Net::Netrc;
 use Encode;
 
 require('scripts/tests/func.pl');
+$ENV{PERL_LWP_SSL_VERIFY_HOSTNAME} = 0;
 
-my $loginurl = 'http://zongl.info/lide/prihlaseni.php';
+my $loginurl = 'https://zongl.info/lide/prihlaseni.php';
 my $mach = Net::Netrc->lookup($loginurl);
 my ($login, $password, $account) = $mach->lpa;
 
@@ -45,7 +46,7 @@ my $bot = WWW::Mechanize->new(autocheck => 1);
 $bot->cookie_jar(HTTP::Cookies->new());
 $bot->add_header( 'Accept-Encoding' => '' );
 
-my $response = $bot->get("http://zongl.info/lide/$clovek_formular.html");
+my $response = $bot->get("https://zongl.info/lide/$clovek_formular.html");
 my $content=$response->content();
 
 ok($content =~ /<input type="submit" name="vzkaz" value="Poslat vzkaz"/, "Tlačítko pro odeslání vzkazu pro $clovek_formular");
@@ -74,7 +75,7 @@ my $text = read_file("/home/fakemail/$clovek_mail_mail.1.eml", binmode => ':utf8
 my $email = Email::MIME->new(encode_utf8($text));
 my @zprava = split(/\n/, get_html_part($email));
 
-my @odkazy = grep /http:\/\/zongl.*\.info\/lide\/sendmail\//, @zprava;
+my @odkazy = grep /https:\/\/zongl.*\.info\/lide\/sendmail\//, @zprava;
 my $pocetodkazu = @odkazy;
 
 ok($pocetodkazu == 1, "Odkaz na odeslání vzkazu");
@@ -92,7 +93,7 @@ my $prihlstranka=$zs_prihlaseni->content();
 ok(defined($prihlstranka), 'Přihlašovací stránka je dostupná');
 
 
-$response = $bot->get("http://zongl.info/lide/$clovek_formular.html");
+$response = $bot->get("https://zongl.info/lide/$clovek_formular.html");
 $content=$response->content();
 
 ok($content =~ /<input type="submit" name="vzkaz" value="Poslat vzkaz"/, "Tlačítko pro odeslání vzkazu pro $clovek_formular od přihlášeného uživatele");

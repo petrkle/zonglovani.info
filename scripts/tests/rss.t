@@ -20,13 +20,14 @@ my @adresy=(
 "/tip/tip.xml",
 "/novinky/agregator.xml"
 );
+$ENV{PERL_LWP_SSL_VERIFY_HOSTNAME} = 0;
 
 my $bot = WWW::Mechanize->new(autocheck => 1);
 $bot->cookie_jar(HTTP::Cookies->new());
 $bot->add_header( 'Accept-Encoding' => '' );
 
 foreach my $url(@adresy){
-	my $response = $bot->get("http://zongl.info$url");
+	my $response = $bot->get("https://zongl.info$url");
 	my $content=$response->content();
 	ok($bot->status() == 200, "Návratový kód 200 pro $url");
 	ok($response->content_type() =~ /application\/xml/, "Správný mime typ pro $url");

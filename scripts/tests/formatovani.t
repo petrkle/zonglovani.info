@@ -3,18 +3,19 @@ use strict;
 use warnings;
 use WWW::Mechanize;
 use Test::More tests => 10;
+$ENV{PERL_LWP_SSL_VERIFY_HOSTNAME} = 0;
 
 my $bot = WWW::Mechanize->new(autocheck => 1);
 $bot->cookie_jar(HTTP::Cookies->new());
 $bot->add_header( 'Accept-Encoding' => '' );
 
-my $zs_kotvy = $bot->get('http://zongl.info/kuzely/passing/hody.html');
+my $zs_kotvy = $bot->get('https://zongl.info/kuzely/passing/hody.html');
 
 my $kotvy=$zs_kotvy->content();
 
 ok($kotvy =~ /<a name="single"><\/a><h2>Jedna otočka<\/h2>/, 'Kotva u nadpisu');
 
-my $zs_nadpisy = $bot->get('http://zongl.info/micky/3/mm.html');
+my $zs_nadpisy = $bot->get('https://zongl.info/micky/3/mm.html');
 
 my $nadpisy = $zs_nadpisy->content();
 
@@ -28,14 +29,14 @@ ok($nadpisy =~ /<!-- start -->\n<p class="animace">\n<a href="\/animace\/standar
 ok($nadpisy =~ /<p class="animace">\n<a href="\/video\/navod\/micky-3-mm.html" title="Video"/, 'Odkaz na video');
 ok($nadpisy =~ /<div class="kamdal">\n<a name="kam-dal"><\/a><h5>Kam dál<\/h5>\n<ul>\n<li><a href="\/micky\/passing-mm\.html"/, 'Odkaz na další stránku');
 
-my $zs_formatovani = $bot->get('http://zongl.info/kuzely/passing/pickup.html');
+my $zs_formatovani = $bot->get('https://zongl.info/kuzely/passing/pickup.html');
 
 my $formatovani = $zs_formatovani->content();
 
 ok($formatovani =~ /Žongléři <b>A<\/b> a <b>B<\/b> hází/, 'Převod na tučný text');
 ok($formatovani =~ / hází <a href="4count\.html" title="Základ passování.">4 count<\/a>\./, 'Převod na odkaz');
 
-my $zs_odkazy = $bot->get('http://zongl.info/micky/vyroba-tenisak.html');
+my $zs_odkazy = $bot->get('https://zongl.info/micky/vyroba-tenisak.html');
 
 my $odkazy = $zs_odkazy->content();
 

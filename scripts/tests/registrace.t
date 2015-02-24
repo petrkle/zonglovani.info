@@ -8,6 +8,7 @@ use Net::Netrc;
 use String::MkPasswd qw(mkpasswd);
 use Encode;
 require('scripts/tests/func.pl');
+$ENV{PERL_LWP_SSL_VERIFY_HOSTNAME} = 0;
 
 my $nove_heslo = mkpasswd(-length => 13, -minnum => 4, -minlower => 4, -minupper => 2, -minspecial => 3);
 my $jmeno = mkpasswd(-length => 10, -minnum => 0, -minlower => 4, -minupper => 2, -minspecial => 0);
@@ -37,7 +38,7 @@ my @spatneudaje = (
 );
 
 foreach my $foo (@spatneudaje){
-	my $reg_formular = $bot->get('http://zongl.info/lide/novy-ucet.php'); 
+	my $reg_formular = $bot->get('https://zongl.info/lide/novy-ucet.php'); 
 
 	my $testovaci_udaje = {
 		'jmeno' => decode_utf8($foo->{'j'}),
@@ -50,7 +51,7 @@ foreach my $foo (@spatneudaje){
 	ok($zs_reg->content() =~ /$foo->{'v'}/, $foo->{'t'});
 }
 
-my $zs_pravidla = $bot->get('http://zongl.info/lide/novy-ucet.php');
+my $zs_pravidla = $bot->get('https://zongl.info/lide/novy-ucet.php');
 
 my $content=$zs_pravidla->content();
 
@@ -85,7 +86,7 @@ chomp($heslo);
 chop($heslo);
 $heslo =~ s/^Heslo: //;
 
-my $zs_nastave = $bot->get('http://zongl.info/lide/nastaveni/');
+my $zs_nastave = $bot->get('https://zongl.info/lide/nastaveni/');
 
 ok($zs_nastave->content() =~ /Pro zobrazení požadované stránky je nutné přihlášení/, 'Do nastavení je potřeba přihlášení.');
 
@@ -96,21 +97,21 @@ my $prihlaseni = {
 
 my $zs_prihlaseni = $bot->submit_form(form_number => 0, fields => $prihlaseni);
 
-$zs_nastave = $bot->get('http://zongl.info/lide/nastaveni/');
+$zs_nastave = $bot->get('https://zongl.info/lide/nastaveni/');
 
 my $zs_nastaveni_uziv = $zs_nastave->content();
 
 ok($zs_nastaveni_uziv =~ /E-mail: <strong>$mail<\/strong>/,'Ověření emailu');
 ok($zs_nastaveni_uziv =~ />Nastavit fotografii<\/a>./,'Link na nastavení fotky');
 
-my $zs_logout = $bot->get('http://zongl.info/lide/odhlaseni.php');
+my $zs_logout = $bot->get('https://zongl.info/lide/odhlaseni.php');
 my $odhlaseni=$zs_logout->content();
 
 ok(defined($odhlaseni), 'Odhlašovací stránka je dostupná');
 ok($odhlaseni =~ />Přihlášení<\/a>/, 'Odkaz na přihlášení');
 ok($odhlaseni =~ />Založit účet<\/a>/, 'Odkaz na založení účtu');
 
-my $zs_nas= $bot->get('http://zongl.info/lide/nastaveni');
+my $zs_nas= $bot->get('https://zongl.info/lide/nastaveni');
 ok($zs_nas->content() =~ /Pro zobrazení požadované stránky je nutné přihlášení/, 'Nastavení je po odhlášení nepřístupné');
 
 my $prihlaseni_spatne = {
@@ -129,7 +130,7 @@ my $prihlaseni_spatne_2 = {
 my $zs_badlogin_2 = $bot->submit_form(form_number => 0,fields => $prihlaseni_spatne_2);
 ok($zs_badlogin_2->content() =~ /Špatné jméno nebo heslo/,'Nejde se přihlásit bez hesla');
 
-my $zs_obnova_hesla = $bot->get('http://zongl.info/lide/zapomenute-heslo.php');
+my $zs_obnova_hesla = $bot->get('https://zongl.info/lide/zapomenute-heslo.php');
 my $obnova=$zs_obnova_hesla->content();
 
 my $obnovit = {
@@ -148,7 +149,7 @@ open MAIL, "/home/fakemail/$mail.2.eml";
 my @zprava_z = <MAIL>;
 close MAIL;
 
-my @odkazy_o = grep /http:\/\/zongl.*\.info\/lide\/z\//, @zprava_z;
+my @odkazy_o = grep /https:\/\/zongl.*\.info\/lide\/z\//, @zprava_z;
 my $pocetodkazu_o = @odkazy_o;
 
 ok($pocetodkazu_o > 0,"Odkaz na obnovu hesla");
@@ -165,11 +166,11 @@ my $nove_prihlaseni = {
 	'heslo' => $nove_heslo,
 };
 
-my $zs_logout2 = $bot->get('http://zongl.info/lide/odhlaseni.php');
+my $zs_logout2 = $bot->get('https://zongl.info/lide/odhlaseni.php');
 
 ok($zs_logout2->content() =~ /Přihlášení/,'Odhlášení po nastavení hesla');
 
-my $zs_login_form= $bot->get('http://zongl.info/lide/nastaveni');
+my $zs_login_form= $bot->get('https://zongl.info/lide/nastaveni');
 my $zs_nove_prihlaseni = $bot->submit_form(form_number => 0,fields => $prihlaseni);
 
 ok($zs_nove_prihlaseni->content() =~ /Špatné jméno nebo heslo/,'Staré heslo nefunguje');
@@ -178,13 +179,13 @@ $zs_nove_prihlaseni = $bot->submit_form(form_number => 0,fields => $nove_prihlas
 
 ok($zs_nove_prihlaseni->content() =~ /Nastavit znamení zvěrokruhu<\/a>/,'Nové heslo funguje');
 
-my $zs_heslomen = $bot->get('http://zongl.info/lide/nastaveni/heslo');
+my $zs_heslomen = $bot->get('https://zongl.info/lide/nastaveni/heslo');
 $zs_heslomen = $bot->submit_form(form_number => 0,fields => {'stareheslo'=>$nove_heslo,'heslo'=>$heslo,'heslo2'=>$heslo}, button => 'odeslat');
 
 ok($zs_heslomen->content() =~ /Nové heslo je nastavené\./,'Změna hesla na původní');
-$zs_logout = $bot->get('http://zongl.info/lide/odhlaseni.php');
+$zs_logout = $bot->get('https://zongl.info/lide/odhlaseni.php');
 
-my $zs_na = $bot->get('http://zongl.info/lide/nastaveni/');
+my $zs_na = $bot->get('https://zongl.info/lide/nastaveni/');
 ok($zs_na->content() =~ /Pro zobrazení požadované stránky je nutné přihlášení/, 'Nastavení je bez odhlášení nepřístupné');
 
 my $zs_prihlaska = $bot->submit_form(form_number => 0,fields => $prihlaseni);
@@ -193,7 +194,7 @@ ok($zs_prihlaska->content() =~ />Upravit vzkaz<\/a>/,'Link na nastavení vzkazu'
 
 ok($zs_prihlaska->content() =~ />Internetová stránka<\/a>/,'Link na nastavení webu');
 
-my $zs_ruseni = $bot->get('http://zongl.info/lide/nastaveni/zruseni');
+my $zs_ruseni = $bot->get('https://zongl.info/lide/nastaveni/zruseni');
 
 $zs_ruseni = $bot->click_button(name=>'zrusit');
 ok($zs_ruseni->content() =~ /E-mail s instrukcemi jak zrušit účet odeslán\./,'Odeslání zprávy s odkazem na zrušení.');
@@ -205,7 +206,7 @@ open MAIL, "/home/fakemail/$mail.3.eml";
 my @zprava_r = <MAIL>;
 close MAIL;
 
-my @odkazy_r = grep /http:\/\/zongl.*\.info\/lide\/e\//, @zprava_r;
+my @odkazy_r = grep /https:\/\/zongl.*\.info\/lide\/e\//, @zprava_r;
 my $pocetodkazu_r = @odkazy_r;
 
 ok($pocetodkazu > 0,"Odkaz na zrušení");

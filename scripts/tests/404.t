@@ -3,6 +3,7 @@ use strict;
 use warnings;
 use WWW::Mechanize;
 use Test::More tests => 24;
+$ENV{PERL_LWP_SSL_VERIFY_HOSTNAME} = 0;
 
 my @adresy=(
 "nesmysl",
@@ -18,7 +19,7 @@ $bot->cookie_jar(HTTP::Cookies->new());
 $bot->add_header( 'Accept-Encoding' => '' );
 
 foreach my $url(@adresy){
-	my $response = $bot->get("http://zongl.info/$url");
+	my $response = $bot->get("https://zongl.info/$url");
 	my $content=$response->content();
 	ok(defined($response), "Stránka 404 pro $url");
 	ok($bot->status() == 404, "Návratový kód 404 pro $url");
