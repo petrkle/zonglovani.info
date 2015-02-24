@@ -56,7 +56,7 @@ $data = $pager->getPageData();
 $first_tip=array_slice($data,0,1);
 $fl=preg_replace('/^(.).*/','\1',$first_tip[0]['obrazek']);
 if(is_file('../img/'.$fl.'/'.$first_tip[0]['obrazek'])){
-	$smarty->assign('nahled','https://www.'.$_SERVER['SERVER_NAME'].'/img/'.$fl.'/'.$first_tip[0]['obrazek']);
+	$smarty->assign('nahled','https://'.$_SERVER['SERVER_NAME'].'/img/'.$fl.'/'.$first_tip[0]['obrazek']);
 }
 
 $smarty->assign(

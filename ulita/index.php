@@ -10,7 +10,7 @@ if(preg_match('/^\/ulita\/\?.*201.+$/',$_SERVER['REQUEST_URI'])){
 
 $titulek='Žonglování v Ulitě';
 $smarty->assign('titulek',$titulek);
-$smarty->assign('nahled','https://www.'.$_SERVER['SERVER_NAME'].'/img/u/ulita.cz.png');
+$smarty->assign('nahled','https://'.$_SERVER['SERVER_NAME'].'/img/u/ulita.cz.png');
 $smarty->assign('description','Pravidelné nedělní žonglování v DDM Ulita. Přijít mohou začínající i zkušení žongléři a žonglérky. Pro širokou veřejnost jsou k dispozici míčky a kužely k zapůjčení. Žonglovat se může naučit opravdu každý.');
 $smarty->assign('icbm','50.094605, 14.481742');
 

@@ -366,11 +366,11 @@ function get_nahled($trik){
 	$nahled="";
 	foreach($trik['kroky'] as $krok){
 		if(strlen($nahled)==0 and isset($krok['obrazek'])){
-			$nahled='https://www.'.$_SERVER['SERVER_NAME'].'/img/'.substr($krok['obrazek'],0,1).'/'.$krok['obrazek'];
+			$nahled='https://'.$_SERVER['SERVER_NAME'].'/img/'.substr($krok['obrazek'],0,1).'/'.$krok['obrazek'];
 		}
 	}
 	if(strlen($nahled)==0){
-		$nahled='https://www.'.$_SERVER['SERVER_NAME'].'/img/n/nacinid.png';
+		$nahled='https://'.$_SERVER['SERVER_NAME'].'/img/n/nacinid.png';
 	}
 	return $nahled;
 }

@@ -9,7 +9,7 @@ $smarty->assign('titulek',$titulek);
 
 $smarty->assign('keywords',make_keywords($titulek).', fireshow');
 $smarty->assign('description','Žonglování s ohnivými kužely.');
-$smarty->assign('nahled','https://www.'.$_SERVER['SERVER_NAME'].'/img/k/kuzely-firea.png');
+$smarty->assign('nahled','https://'.$_SERVER['SERVER_NAME'].'/img/k/kuzely-firea.png');
 
 $trail = new Trail();
 $trail->addStep('Kužely','/kuzely/');

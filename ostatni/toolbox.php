@@ -7,7 +7,7 @@ $smarty->assign('feedback',true);
 
 $smarty->assign('keywords',make_keywords($titulek).', žonglování');
 $smarty->assign('description','Programy použité při výrobě žonglérova slabikáře.');
-$smarty->assign('nahled','https://www.'.$_SERVER['SERVER_NAME'].'/img/u/ulamovaci-nuz.s.jpg');
+$smarty->assign('nahled','https://'.$_SERVER['SERVER_NAME'].'/img/u/ulamovaci-nuz.s.jpg');
 
 $smarty->assign('titulek',$titulek);
 

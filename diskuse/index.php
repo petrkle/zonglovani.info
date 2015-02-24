@@ -18,7 +18,7 @@ $_SESSION['diskuse_latest']=$latest;
 $trail = new Trail();
 $trail->addStep('Diskuse',DISKUSE_URL);
 
-$smarty->assign('nahled','https://www.'.$_SERVER['SERVER_NAME'].'/img/f/faq.png');
+$smarty->assign('nahled','https://'.$_SERVER['SERVER_NAME'].'/img/f/faq.png');
 
 $pagerOptions = array(
     'mode'     => 'Sliding',

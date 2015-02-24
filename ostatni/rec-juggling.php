@@ -8,14 +8,14 @@ $smarty->assign('feedback',true);
 
 $smarty->assign('keywords',make_keywords($titulek).', žonglování');
 $smarty->assign('description','Celosvětová diskusní skupina o žonglování - rec.juggling');
-$smarty->assign('nahled','https://www.'.$_SERVER['SERVER_NAME'].'/img/r/rj.png');
+$smarty->assign('nahled','https://'.$_SERVER['SERVER_NAME'].'/img/r/rj.png');
 
 $dalsi=array(
 	array('url'=>'/odkazy.html','text'=>'Žonglování na síti','title'=>'Odkazy na stránky věnované žonglování'),
 	array('url'=>'/aczslovnicek.html','text'=>'Žonglérský slovníček','title'=>'Anglicko-český žonglérský slovníček'),
 	);
 $smarty->assign_by_ref('dalsi',$dalsi);
-$smarty->assign('nahled','https://www.'.$_SERVER['SERVER_NAME'].'/img/r/rj.png');
+$smarty->assign('nahled','https://'.$_SERVER['SERVER_NAME'].'/img/r/rj.png');
 
 $trail = new Trail();
 $trail->addStep('Informace o žonglování','/ostatni.html');

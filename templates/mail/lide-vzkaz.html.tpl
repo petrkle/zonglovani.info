@@ -6,6 +6,6 @@
 
 <p>
 Tento vzkaz byl zaslán pomocí žonglérova slabikáře.<br/>
-<a href="https://www.zonglovani.info/">https://www.zonglovani.info/</a>
+<a href="https://zonglovani.info/">https://zonglovani.info/</a>
 </p>
 {include file="mail/html-paticka.tpl"}

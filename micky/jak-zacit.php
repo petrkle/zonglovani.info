@@ -10,7 +10,7 @@ $smarty->assign('titulek',$titulek);
 
 $smarty->assign('keywords',make_keywords($titulek));
 $smarty->assign('description','Obrázkový návod na žonglování s míčky.');
-$smarty->assign('nahled','https://www.'.$_SERVER['SERVER_NAME'].'/img/z/zonglovania.png');
+$smarty->assign('nahled','https://'.$_SERVER['SERVER_NAME'].'/img/z/zonglovania.png');
 
 $trail = new Trail();
 $trail->addStep('Míčky','/micky/');

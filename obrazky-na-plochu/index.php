@@ -38,7 +38,7 @@ $smarty->assign('keywords','obrázky, žonglování, wallpaper, pozadí na ploch
 $smarty->assign('description','Tapety na plochu počítače s žonglérskou tématikou.');
 
 $smarty->assign('feedback',true);
-$smarty->assign('nahled','https://www.'.$_SERVER['SERVER_NAME'].'/obrazky-na-plochu/nahledy/pes-a-micek.jpg');
+$smarty->assign('nahled','https://'.$_SERVER['SERVER_NAME'].'/obrazky-na-plochu/nahledy/pes-a-micek.jpg');
 
 $dalsi=array(
 	array('url'=>'/obrazky/','text'=>'Obrázky žonglování','title'=>'Obrázky žonglérů a žonglérek'),

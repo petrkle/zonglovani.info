@@ -6,7 +6,7 @@ $titulek='Druhy kuželů';
 
 $smarty->assign('titulek',$titulek);
 
-$smarty->assign('nahled','https://www.'.$_SERVER['SERVER_NAME'].'/img/k/kuzelka-albatros-s.jpg');
+$smarty->assign('nahled','https://'.$_SERVER['SERVER_NAME'].'/img/k/kuzelka-albatros-s.jpg');
 $smarty->assign('keywords',make_keywords($titulek));
 $smarty->assign('description','Druhy žonglérských kuželů.');
 

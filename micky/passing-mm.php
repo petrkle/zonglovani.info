@@ -7,7 +7,7 @@ $smarty->assign('feedback',true);
 
 $smarty->assign('keywords',make_keywords($titulek));
 $smarty->assign('description','Žonglování mills\' mess pro dva lidi.');
-$smarty->assign('nahled','https://www.'.$_SERVER['SERVER_NAME'].'/img/m/micky-passingmmb.png');
+$smarty->assign('nahled','https://'.$_SERVER['SERVER_NAME'].'/img/m/micky-passingmmb.png');
 
 $smarty->assign('titulek',$titulek);
 

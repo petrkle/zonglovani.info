@@ -41,7 +41,7 @@ if(isset($_GET['zitra'])){
 	$smarty->assign('description','Horoskop pro žonglérky a žongléry. Každý den poradí co je nejlepší trénovat.');
 }
 
-$smarty->assign('nahled','https://www.'.$_SERVER['SERVER_NAME'].'/img/h/horoskop.png');
+$smarty->assign('nahled','https://'.$_SERVER['SERVER_NAME'].'/img/h/horoskop.png');
 $smarty->assign('keywords','horoskop, žonglování, trénink');
 
 
@@ -60,7 +60,7 @@ $titulek=$nadpis.' - '.$zverokruh[$znameni]['popis'];
 
 $trail->addStep($zverokruh[$znameni]['popis'],'/horoskop/');
 $smarty->assign_by_ref('trail', $trail->path);
-$smarty->assign('nahled','https://www.'.$_SERVER['SERVER_NAME'].'/img/h/horoskop-'.$znameni.'.png');
+$smarty->assign('nahled','https://'.$_SERVER['SERVER_NAME'].'/img/h/horoskop-'.$znameni.'.png');
 if(isset($_GET['zitra'])){
 	$dodatek=' na zítra';
 }else{

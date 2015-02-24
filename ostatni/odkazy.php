@@ -17,7 +17,7 @@ $smarty->assign_by_ref('dalsi',$dalsi);
 $trail = new Trail();
 $trail->addStep('Informace o žonglování','/ostatni.html');
 $trail->addStep('Odkazy');
-$smarty->assign('nahled','https://www.'.$_SERVER['SERVER_NAME'].'/img/w/www.png');
+$smarty->assign('nahled','https://'.$_SERVER['SERVER_NAME'].'/img/w/www.png');
 
 $smarty->assign_by_ref('trail', $trail->path);
 $smarty->display('hlavicka.tpl');

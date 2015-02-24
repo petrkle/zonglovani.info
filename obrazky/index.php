@@ -336,7 +336,7 @@ if($id and $photo){
 	# index adresáře /obrazky/
 	
 	$smarty->assign('feedback',true);
-	$smarty->assign('nahled','https://www.'.$_SERVER['SERVER_NAME'].'/obrazky/drazdany-20110312/0030.jpg');
+	$smarty->assign('nahled','https://'.$_SERVER['SERVER_NAME'].'/obrazky/drazdany-20110312/0030.jpg');
 
 	$dalsi=array(
 		array('url'=>'/obrazky-na-plochu/','text'=>'Obrázky na plochu','title'=>'Tapety s žonglérskou tématikou.'),

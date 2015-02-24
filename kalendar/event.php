@@ -171,9 +171,9 @@ if($udalost){
 		$trail->addStep($udalost['month_name'],$udalost['month_url']);
 		$trail->addStep($udalost['title']);
 		if(isset($udalost['img']) and isset($udalost['img_ts'])){
-			$smarty->assign('nahled','https://www.'.$_SERVER['SERVER_NAME'].'/kalendar/obrazek-'.$udalost['img_ts'].'-ts-'.$udalost['img']);
+			$smarty->assign('nahled','https://'.$_SERVER['SERVER_NAME'].'/kalendar/obrazek-'.$udalost['img_ts'].'-ts-'.$udalost['img']);
 		}else{
-			$smarty->assign('nahled','https://www.'.$_SERVER['SERVER_NAME'].'/img/k/kalendar.png');
+			$smarty->assign('nahled','https://'.$_SERVER['SERVER_NAME'].'/img/k/kalendar.png');
 		}
 		$smarty->assign('keywords',make_keywords('žonglování, kalendář, '.$udalost['title']));
 		$smarty->assign_by_ref('trail', $trail->path);

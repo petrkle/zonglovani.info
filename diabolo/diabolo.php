@@ -34,7 +34,7 @@ if(strlen($show)>0 and is_file('../'.$show.'.xml')){
 }else{
 	$smarty->assign_by_ref('trail', $trail->path);
 	$smarty->assign('titulek',$titulek);
-	$smarty->assign('nahled','https://www.'.$_SERVER['SERVER_NAME'].'/img/d/diabolo.png');
+	$smarty->assign('nahled','https://'.$_SERVER['SERVER_NAME'].'/img/d/diabolo.png');
 	$smarty->assign('description','Diabolo je roztočená cívka na provázku.');
 	$smarty->assign('keywords','diabolo, žonglování, triky');
 	$smarty->display('hlavicka.tpl');

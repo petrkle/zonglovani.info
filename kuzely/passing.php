@@ -35,7 +35,7 @@ if(strlen($show)>0 and is_file('../'.$show.'.xml')){
 }else{
 	$smarty->assign_by_ref('trail', $trail->path);
 	$smarty->assign('titulek',$titulek);
-	$smarty->assign('nahled','https://www.'.$_SERVER['SERVER_NAME'].'/img/k/kuzely-passing-introb.png');
+	$smarty->assign('nahled','https://'.$_SERVER['SERVER_NAME'].'/img/k/kuzely-passing-introb.png');
 	$smarty->assign('description','Passing s kužely. Královská disciplína žonglování. Užiješ si při ní nejvíc legrace.');
 	$smarty->assign('keywords','žonglování, passing, kužely, triky');
 	$smarty->display('hlavicka.tpl');

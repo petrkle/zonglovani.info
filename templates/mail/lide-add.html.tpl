@@ -8,7 +8,7 @@ tvůj účet v žonglérově slabikáři je aktivní. Na adrese:
 </p>
 
 <p>
-<a href="https://www.{$smarty.server.SERVER_NAME}{$smarty.const.LIDE_URL}nastaveni">https://www.{$smarty.server.SERVER_NAME}{$smarty.const.LIDE_URL}nastaveni</a><br />
+<a href="https://{$smarty.server.SERVER_NAME}{$smarty.const.LIDE_URL}nastaveni">https://{$smarty.server.SERVER_NAME}{$smarty.const.LIDE_URL}nastaveni</a><br />
 </p>
 
 <p>

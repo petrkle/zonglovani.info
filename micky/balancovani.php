@@ -8,7 +8,7 @@ $smarty->assign('feedback',true);
 $smarty->assign('titulek',$titulek);
 $smarty->assign('keywords',make_keywords($titulek));
 $smarty->assign('description','Odkládání míčku na hlavu, ruku i jinde. Trénink rovnováhy.');
-$smarty->assign('nahled','https://www.'.$_SERVER['SERVER_NAME'].'/img/b/balanca.png');
+$smarty->assign('nahled','https://'.$_SERVER['SERVER_NAME'].'/img/b/balanca.png');
 
 $trail = new Trail();
 $trail->addStep('Míčky','/micky/');
