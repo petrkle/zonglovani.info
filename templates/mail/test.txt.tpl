@@ -1,3 +1,0 @@
-{$nadpis}
-
-Textová část zprávy.

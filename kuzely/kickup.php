@@ -7,7 +7,7 @@ $smarty->assign('feedback',true);
 
 $smarty->assign('keywords',make_keywords($titulek));
 $smarty->assign('description','Vykopnutí spadlého žonglovacího kuželu zpátky do vzduchu.');
-$smarty->assign('nahled','http://'.$_SERVER['SERVER_NAME'].'/img/k/kuzely-kickupb.png');
+$smarty->assign('nahled','https://www.'.$_SERVER['SERVER_NAME'].'/img/k/kuzely-kickupb.png');
 
 $smarty->assign('titulek',$titulek);
 

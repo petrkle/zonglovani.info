@@ -10,7 +10,7 @@ $smarty->assign('keywords',make_keywords($titulek));
 $smarty->assign('description','Připravené kusy html kódu pro vytváření odkazů na žonglérův slabikář.');
 
 $smarty->assign('feedback',true);
-$smarty->assign('nahled','http://'.$_SERVER['SERVER_NAME'].'/img/p/podporaa.png');
+$smarty->assign('nahled','https://www.'.$_SERVER['SERVER_NAME'].'/img/p/podporaa.png');
 
 $dalsi=array(
 	array('url'=>'/podporte-zongleruv-slabikar.html','text'=>'Podpoř žonglérův slabikář','title'=>'Jak dál podpoři žonglérův slabikář'),

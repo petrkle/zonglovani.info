@@ -11,7 +11,7 @@ tvůj účet v žonglérově slabikáři nebyl použit už skoro rok.
 <p>
 Přihlašovací jméno: <b>{$user.email}</b><br />
 Adresa pro obnovení hesla:<br />
-<a href="http://{$smarty.server.SERVER_NAME}{$smarty.const.LIDE_URL}zapomenute-heslo.php" title="Obnovení hesla">http://{$smarty.server.SERVER_NAME}{$smarty.const.LIDE_URL}zapomenute-heslo.php</a>
+<a href="https://www.{$smarty.server.SERVER_NAME}{$smarty.const.LIDE_URL}zapomenute-heslo.php" title="Obnovení hesla">https://www.{$smarty.server.SERVER_NAME}{$smarty.const.LIDE_URL}zapomenute-heslo.php</a>
 </p>
 
 <p>
@@ -19,7 +19,7 @@ Na adrese:
 </p>
 
 <p>
-<a href="http://{$smarty.server.SERVER_NAME}{$smarty.const.LIDE_URL}nastaveni" title="Nastavení účtu">http://{$smarty.server.SERVER_NAME}{$smarty.const.LIDE_URL}nastaveni</a><br />
+<a href="https://www.{$smarty.server.SERVER_NAME}{$smarty.const.LIDE_URL}nastaveni" title="Nastavení účtu">https://www.{$smarty.server.SERVER_NAME}{$smarty.const.LIDE_URL}nastaveni</a><br />
 </p>
 
 <p>

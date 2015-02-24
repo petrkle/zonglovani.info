@@ -8,7 +8,7 @@ $smarty->assign('titulek',$titulek);
 $smarty->assign('feedback',true);
 $smarty->assign('keywords',make_keywords($titulek));
 $smarty->assign('description','Návod na žonglování s kruhy.');
-$smarty->assign('nahled','http://'.$_SERVER['SERVER_NAME'].'/img/k/kruhy-logo.gif');
+$smarty->assign('nahled','https://www.'.$_SERVER['SERVER_NAME'].'/img/k/kruhy-logo.gif');
 
 $trail = new Trail();
 $trail->addStep('Kruhy','/kruhy/');

@@ -8,7 +8,7 @@ $smarty->assign('titulek',$titulek);
 
 $smarty->assign('keywords','diablolo, žonglování');
 $smarty->assign('description','Návody na žonglování s diabolem.');
-$smarty->assign('nahled','http://'.$_SERVER['SERVER_NAME'].'/img/n/nacinif.png');
+$smarty->assign('nahled','https://www.'.$_SERVER['SERVER_NAME'].'/img/n/nacinif.png');
 
 $trail = new Trail();
 $trail->addStep($titulek);

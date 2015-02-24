@@ -3,4 +3,4 @@
 
 -- 
 Tento vzkaz byl zaslán pomocí žonglérova slabikáře.
-http://zonglovani.info
+https://www.zonglovani.info

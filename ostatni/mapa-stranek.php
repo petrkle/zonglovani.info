@@ -6,7 +6,7 @@ $titulek='Mapa stránek';
 $smarty->assign('titulek',$titulek);
 $smarty->assign('keywords',make_keywords($titulek).', žonglování');
 $smarty->assign('description','Seznam všech stránek v žonglérově slabikáři.');
-$smarty->assign('nahled','http://'.$_SERVER['SERVER_NAME'].'/img/k/kompas.png');
+$smarty->assign('nahled','https://www.'.$_SERVER['SERVER_NAME'].'/img/k/kompas.png');
 
 $trail = new Trail();
 $trail->addStep('Mapa stránek');

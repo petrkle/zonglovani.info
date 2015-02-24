@@ -8,7 +8,7 @@ $smarty->assign('nadpis',$titulek);
 
 $smarty->assign('keywords',make_keywords($titulek.', žonglování'));
 $smarty->assign('description','Kontakt na autora žonglérova slabikáře.');
-$smarty->assign('nahled','http://'.$_SERVER['SERVER_NAME'].'/img/m/micky-logo.gif');
+$smarty->assign('nahled','https://www.'.$_SERVER['SERVER_NAME'].'/img/m/micky-logo.gif');
 
 $dalsi=array(
 	array('url'=>'/proc-a-jak.html','text'=>'Proč a jak vznikl žonglérův slabikář','title'=>'Proč a jak vznikl žonglérův slabikář'),

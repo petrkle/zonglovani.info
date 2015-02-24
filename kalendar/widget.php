@@ -5,7 +5,7 @@ require('../func.php');
 $trail = new Trail();
 $trail->addStep('Kalendář',CALENDAR_URL);
 $trail->addStep('Widget');
-$smarty->assign('nahled','http://'.$_SERVER['SERVER_NAME'].'/img/w/widget-light.png');
+$smarty->assign('nahled','https://www.'.$_SERVER['SERVER_NAME'].'/img/w/widget-light.png');
 
 $titulek='Výpis z kalendáře';
 

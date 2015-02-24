@@ -4,7 +4,7 @@ require('../func.php');
 
 $titulek='Trénink';
 $smarty->assign('feedback',true);
-$smarty->assign('nahled','http://'.$_SERVER['SERVER_NAME'].'/img/t/trenink-navodh.png');
+$smarty->assign('nahled','https://www.'.$_SERVER['SERVER_NAME'].'/img/t/trenink-navodh.png');
 
 $smarty->assign('keywords',make_keywords($titulek).', žonglování');
 $smarty->assign('description','Postupy a triky jak trénovat žonglování.');

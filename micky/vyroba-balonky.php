@@ -13,7 +13,7 @@ $trail->addStep('Z balónků');
 
 $smarty->assign('description','Návod na výrobu žonglérského míčku z nafukovacích balónků. Pěkný míček na žonglování snadno, rychle a levně.');
 $smarty->assign('keywords','žonglování, míčky, výroba, nafukovací balónky');
-$smarty->assign('nahled','http://'.$_SERVER['SERVER_NAME'].'/img/b/balonky-na-vyrobu-micku.s.jpg');
+$smarty->assign('nahled','https://www.'.$_SERVER['SERVER_NAME'].'/img/b/balonky-na-vyrobu-micku.s.jpg');
 
 $trik=nacti_trik('micky-vyroba-balonky');
 $smarty->assign('trik',$trik);

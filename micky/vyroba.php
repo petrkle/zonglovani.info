@@ -8,7 +8,7 @@ $smarty->assign('titulek',$titulek);
 
 $smarty->assign('description','Návody na výrobu žonglérských míčků. Pěkné míčky na žonglování snadno, rychle a levně.');
 $smarty->assign('keywords','žonglování, míčky, výroba, nafukovací balónky, tenisák');
-$smarty->assign('nahled','http://'.$_SERVER['SERVER_NAME'].'/img/b/balonek.png');
+$smarty->assign('nahled','https://www.'.$_SERVER['SERVER_NAME'].'/img/b/balonek.png');
 
 $trail = new Trail();
 $trail->addStep('Míčky','/micky/');

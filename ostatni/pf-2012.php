@@ -6,7 +6,7 @@ $smarty->assign('keywords',make_keywords($titulek).', žonglování');
 $smarty->assign('description','Přání všeho nejlepšího v roce 2012.');
 $smarty->assign('titulek',$titulek);
 $smarty->assign('feedback',true);
-$smarty->assign('nahled','http://'.$_SERVER['SERVER_NAME'].'/img/s/snehulacek.png');
+$smarty->assign('nahled','https://www.'.$_SERVER['SERVER_NAME'].'/img/s/snehulacek.png');
 $trail = new Trail();
 $trail->addStep('Tip týdne','/tip');
 $trail->addStep($titulek);

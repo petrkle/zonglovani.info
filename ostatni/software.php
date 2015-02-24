@@ -8,7 +8,7 @@ $smarty->assign('feedback',true);
 $smarty->assign('titulek','Simulátory žonglování');
 $smarty->assign('keywords',make_keywords($titulek));
 $smarty->assign('description','Programy pro animaci žonglování na počítači.');
-$smarty->assign('nahled','http://'.$_SERVER['SERVER_NAME'].'/img/j/jugglinglab.png');
+$smarty->assign('nahled','https://www.'.$_SERVER['SERVER_NAME'].'/img/j/jugglinglab.png');
 
 $dalsi=array(
 	array('url'=>'/literatura.html','text'=>'Knížky o žonglování','title'=>'Seznam knížek o žonglování.'),

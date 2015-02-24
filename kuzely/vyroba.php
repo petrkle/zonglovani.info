@@ -10,7 +10,7 @@ $smarty->assign_by_ref('trail', $trail->path);
 
 $smarty->assign('keywords','kužel, výroba, žonglování');
 $smarty->assign('description','Návod na výrobu žonglovacích kuželů.');
-$smarty->assign('nahled','http://'.$_SERVER['SERVER_NAME'].'/img/k/kuzely-vyrobae.png');
+$smarty->assign('nahled','https://www.'.$_SERVER['SERVER_NAME'].'/img/k/kuzely-vyrobae.png');
 
 $dalsi=array(
 	array('url'=>'/kuzely/jak-zacit.html','text'=>'Jak začít žonglovat s kužely','title'=>'Rychlý návod na žonglování s kužely'),

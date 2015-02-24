@@ -38,7 +38,7 @@ $smarty->assign('keywords','obrázky, žonglování, wallpaper, pozadí na ploch
 $smarty->assign('description','Tapety na plochu počítače s žonglérskou tématikou.');
 
 $smarty->assign('feedback',true);
-$smarty->assign('nahled','http://'.$_SERVER['SERVER_NAME'].'/obrazky-na-plochu/nahledy/pes-a-micek.jpg');
+$smarty->assign('nahled','https://www.'.$_SERVER['SERVER_NAME'].'/obrazky-na-plochu/nahledy/pes-a-micek.jpg');
 
 $dalsi=array(
 	array('url'=>'/obrazky/','text'=>'Obrázky žonglování','title'=>'Obrázky žonglérů a žonglérek'),
@@ -61,7 +61,7 @@ function get_wallpapers(){
 							$foo=array();
 								$pripona=preg_split('/\./',$filename);
 								$pripona=array_pop($pripona);
-								$foo['nahled_url']='http://'.$_SERVER['SERVER_NAME'].WALLPAPERS_URL.'nahledy/'.$filename;
+								$foo['nahled_url']='https://www.'.$_SERVER['SERVER_NAME'].WALLPAPERS_URL.'nahledy/'.$filename;
 								$size = getimagesize(WALLPAPERS_DATA.'/nahledy/'.$filename);
 								$foo['nahled_sirka']=$size[0];
 								$foo['nahled_vyska']=$size[1];

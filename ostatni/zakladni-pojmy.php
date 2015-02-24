@@ -9,7 +9,7 @@ $smarty->assign('feedback',true);
 $smarty->assign('keywords',make_keywords($titulek).', žonglování');
 $smarty->assign('description','Základní žonglérská terminologie.');
 
-$smarty->assign('nahled','http://'.$_SERVER['SERVER_NAME'].'/img/z/zongler.png');
+$smarty->assign('nahled','https://www.'.$_SERVER['SERVER_NAME'].'/img/z/zongler.png');
 
 $trail = new Trail();
 $trail->addStep('Informace o žonglování','/ostatni.html');

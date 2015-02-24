@@ -4,7 +4,7 @@ require('../func.php');
 
 $titulek='Soubory ke stažení';
 $smarty->assign('titulek',$titulek);
-$smarty->assign('nahled','http://'.$_SERVER['SERVER_NAME'].'/img/d/downloada.png');
+$smarty->assign('nahled','https://www.'.$_SERVER['SERVER_NAME'].'/img/d/downloada.png');
 $smarty->assign('description','Soubory ke stažení - žonglování.');
 $smarty->assign('feedback',true);
 
@@ -83,7 +83,7 @@ if(isset($_GET['id'])){
 	$smarty->assign('nadpis','Žonglérův slabikář - '.$id);
 	$smarty->assign('description','Soubory ke stažení - žonglérův slabikář ve formátu '.$id);
 
-	$smarty->assign('nahled','http://'.$_SERVER['SERVER_NAME'].'/img/p/package-'.$id.'.png');
+	$smarty->assign('nahled','https://www.'.$_SERVER['SERVER_NAME'].'/img/p/package-'.$id.'.png');
 	$trail->addStep($id);
 	$smarty->assign_by_ref('trail', $trail->path);
 	$smarty->assign_by_ref('download_id', $id);

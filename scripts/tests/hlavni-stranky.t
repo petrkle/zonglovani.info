@@ -71,7 +71,7 @@ my @stranky = (
 );
 
 foreach my $stranka (@stranky){
-	my $response = $bot->get("http://zongl.info".$stranka->{'a'});
+	my $response = $bot->get("https://www.zongl.info".$stranka->{'a'});
 	ok($response->content() =~ /<title>$stranka->{'t'}<\/title>/, $stranka->{'a'}." má správný titulek $stranka->{'t'}");
 	ok($response->content() =~ /<title>$stranka->{'t'}<\/title>/, $stranka->{'a'}." obsahuje $stranka->{'o'}");
 }

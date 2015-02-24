@@ -18,7 +18,7 @@ $trail->addStep($titulek);
 $smarty->assign_by_ref('trail', $trail->path);
 $smarty->assign_by_ref('stat', $stat);
 
-$smarty->assign('nahled','http://'.$_SERVER['SERVER_NAME'].'/img/p/podporac.png');
+$smarty->assign('nahled','https://www.'.$_SERVER['SERVER_NAME'].'/img/p/podporac.png');
 
 $smarty->display('hlavicka.tpl');
 $smarty->display('sponzori.tpl');

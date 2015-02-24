@@ -8,7 +8,7 @@ $smarty->assign('keywords','žonglování, návod, pdf, tisk');
 $smarty->assign('description','Návody na žonglování k vytištění - formát pdf.');
 $trail = new Trail();
 $trail->addStep($titulek,'/navody/');
-$smarty->assign('nahled','http://'.$_SERVER['SERVER_NAME'].'/img/n/navod-tisk.png');
+$smarty->assign('nahled','https://www.'.$_SERVER['SERVER_NAME'].'/img/n/navod-tisk.png');
 
 $dalsi=array(
 	array('url'=>LIDE_URL.'pravidla.php','text'=>'Založení nového účtu','title'=>'Vytvoření účtu v žonglérově slabikáři'),

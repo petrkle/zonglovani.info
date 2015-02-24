@@ -7,7 +7,7 @@ $smarty->assign('feedback',true);
 $smarty->assign('titulek',$titulek);
 $smarty->assign('keywords','žonglování, druhy, bouncing, passing, házení míčků, fireshow');
 $smarty->assign('description','Popis jednotlivých druhů žonglování. Žonglovat můžeš mnoha různými způsoby.');
-$smarty->assign('nahled','http://'.$_SERVER['SERVER_NAME'].'/img/d/druhya.png');
+$smarty->assign('nahled','https://www.'.$_SERVER['SERVER_NAME'].'/img/d/druhya.png');
 
 $trail = new Trail();
 $trail->addStep('Informace o žonglování','/ostatni.html');

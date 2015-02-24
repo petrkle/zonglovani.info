@@ -14,7 +14,7 @@ $trail->addStep('Žonglérská videa','/video/');
 $trail->addStep('Triky ze žonglérova slabikáře','/video/navod/');
 $trail->addStep('Info');
 
-$smarty->assign('nahled','http://'.$_SERVER['SERVER_NAME'].'/img/v/video.png');
+$smarty->assign('nahled','https://www.'.$_SERVER['SERVER_NAME'].'/img/v/video.png');
 
 $dalsi=array(
 	array('url'=>'/video/navod/','text'=>'Triky ze žonglérova slabikáře - videa','title'=>'Video návody na žonglování'),

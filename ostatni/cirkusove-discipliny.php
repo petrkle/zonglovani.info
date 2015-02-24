@@ -14,7 +14,7 @@ $trail = new Trail();
 $trail->addStep('Informace o žonglování','/ostatni.html');
 $trail->addStep($titulek);
 
-$smarty->assign('nahled','http://'.$_SERVER['SERVER_NAME'].'/img/c/cirkusg.png');
+$smarty->assign('nahled','https://www.'.$_SERVER['SERVER_NAME'].'/img/c/cirkusg.png');
 
 $dalsi=array(
 	array('url'=>'/druhy-zonglovani.html','text'=>'Druhy žonglování','title'=>'Přehled způsobů žonglování'),

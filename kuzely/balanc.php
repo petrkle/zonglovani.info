@@ -9,7 +9,7 @@ $smarty->assign('titulek',$titulek);
 
 $smarty->assign('keywords','balancování, kužel, brada, nos');
 $smarty->assign('description','Balancování žonglérského kuželu na nose');
-$smarty->assign('nahled','http://'.$_SERVER['SERVER_NAME'].'/img/k/kuzely-balanca.png');
+$smarty->assign('nahled','https://www.'.$_SERVER['SERVER_NAME'].'/img/k/kuzely-balanca.png');
 
 $dalsi=array(
 	array('url'=>'/micky/balancovani.html','text'=>'Balancování míčku','title'=>'Balancování mičků'),

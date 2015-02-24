@@ -10,7 +10,7 @@ $smarty->assign('feedback',true);
 $smarty->assign('keywords',make_keywords($titulek).', žonglování, tisk, pdf');
 $smarty->assign('description','České odborné práce o žonglování.');
 
-$smarty->assign('nahled','http://'.$_SERVER['SERVER_NAME'].'/img/e/etitb.jpg');
+$smarty->assign('nahled','https://www.'.$_SERVER['SERVER_NAME'].'/img/e/etitb.jpg');
 
 $trail = new Trail();
 $trail->addStep('Informace o žonglování','/ostatni.html');

@@ -19,7 +19,7 @@ if(isset($_GET['filtr'])){
 		$smarty->assign('keywords','žonglování, '.$pusobiste[$filtr]['nazev'].', žongléři, žonglérky, žonglér, žonglérka');
 		$fl=preg_replace('/^(.).*/','\1',$filtr);
 		if(is_file('../mapa/static/'.$fl.'/'.$filtr.'.png')){
-			$smarty->assign('nahled','http://'.$_SERVER['SERVER_NAME'].'/mapa/static/'.$fl.'/'.$filtr.'.png');
+			$smarty->assign('nahled','https://www.'.$_SERVER['SERVER_NAME'].'/mapa/static/'.$fl.'/'.$filtr.'.png');
 		}
 	}else{
 		require('../404.php');

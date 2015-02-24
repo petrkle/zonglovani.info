@@ -96,7 +96,7 @@ $smarty->assign('nadpis',$titulek);
 
 $smarty->assign('description','Kalendář žonglování pro '.mb_convert_case($monthName, MB_CASE_LOWER, 'UTF-8'));
 $smarty->assign('keywords',make_keywords($titulek.' '.mb_convert_case($monthName, MB_CASE_LOWER, 'UTF-8')));
-$smarty->assign('nahled','http://'.$_SERVER['SERVER_NAME'].'/img/k/kalendar.png');
+$smarty->assign('nahled','https://www.'.$_SERVER['SERVER_NAME'].'/img/k/kalendar.png');
 
 if(is_logged()){
 $smazane=get_deleted_events();

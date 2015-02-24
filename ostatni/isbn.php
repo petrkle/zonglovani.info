@@ -6,7 +6,7 @@ $smarty->assign('keywords',make_keywords($titulek).', žonglování, žonglérů
 $smarty->assign('description','ISBN - žonglérův slabikář');
 $smarty->assign('titulek',$titulek);
 $smarty->assign('feedback',true);
-$smarty->assign('nahled','http://'.$_SERVER['SERVER_NAME'].'/img/s/slovnik.jpg');
+$smarty->assign('nahled','https://www.'.$_SERVER['SERVER_NAME'].'/img/s/slovnik.jpg');
 $trail = new Trail();
 $trail->addStep('ISBN');
 $trail->addStep($titulek);

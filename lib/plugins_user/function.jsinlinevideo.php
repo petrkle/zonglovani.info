@@ -7,7 +7,7 @@ function smarty_function_jsinlinevideo($params, &$smarty){
 			$klic = preg_split('/:/',$klip['link']);
 			$klic = $klic[2];
 			if(isset($klip['youtube'])){
-				$dataurl="http://www.youtube.com/v/".$klip['youtube']."?version=3&amp;hl=cs_CZ&amp;rel=0&amp;autoplay=1&amp;loop=1&amp;playlist=".$klip['youtube'];
+				$dataurl="//www.youtube.com/v/".$klip['youtube']."?version=3&amp;hl=cs_CZ&amp;rel=0&amp;autoplay=1&amp;loop=1&amp;playlist=".$klip['youtube'];
 			}else{
 				$dataurl="http://juggling.tv/nvplayer.swf?config=http://juggling.tv/nuevo/econfig.php?key=".$klic."&amp;autostart=true";
 			}

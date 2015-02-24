@@ -8,7 +8,7 @@ $smarty->assign('nadpis','Světový den žonglování');
 
 $smarty->assign('keywords','světový, mezinárodní, den, žonglování');
 $smarty->assign('description','Světový den žonglování 16. června 2012');
-$smarty->assign('nahled','http://'.$_SERVER['SERVER_NAME'].'/img/w/wjd12.png');
+$smarty->assign('nahled','https://www.'.$_SERVER['SERVER_NAME'].'/img/w/wjd12.png');
 
 $dalsi=array(
 	array('url'=>CALENDAR_URL,'text'=>'Kalendář žonglérských akcí','title'=>'Další žonglérské akce'),

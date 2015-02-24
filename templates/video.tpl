@@ -5,8 +5,8 @@
 {if $video.typ!='file'}
 {if $video.typ=='youtube.com'}
 <p class="youtubevideo">
-<object type="application/x-shockwave-flash" data="http://www.youtube.com/v/{$video.fid|escape}&amp;hl=cs_CZ&amp;rel=0" class="youtubevideo">
-	<param name="movie" value="http://www.youtube.com/v/{$video.fid|escape}&amp;hl=cs_CZ&amp;rel=0" />
+<object type="application/x-shockwave-flash" data="//www.youtube.com/v/{$video.fid|escape}&amp;hl=cs_CZ&amp;rel=0" class="youtubevideo">
+	<param name="movie" value="//www.youtube.com/v/{$video.fid|escape}&amp;hl=cs_CZ&amp;rel=0" />
 	<param name="wmode" value="transparent" />
 	<param name="allowscriptaccess" value="always" />
 	<param name="allowfullscreen" value="false" />

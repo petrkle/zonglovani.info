@@ -5,7 +5,7 @@ $titulek='Křišťálová lupa';
 $smarty->assign('keywords',make_keywords($titulek).', žonglování, nominace');
 $smarty->assign('description','Nominujte žonglérův slabikář do Křišťálové lupy 2011.');
 $smarty->assign('titulek',$titulek);
-$smarty->assign('nahled','http://'.$_SERVER['SERVER_NAME'].'/img/l/lupa2011.png');
+$smarty->assign('nahled','https://www.'.$_SERVER['SERVER_NAME'].'/img/l/lupa2011.png');
 $trail = new Trail();
 $trail->addStep($titulek);
 $dalsi=array(
