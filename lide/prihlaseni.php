@@ -120,6 +120,8 @@ if(isset($_POST['login']) and isset($_POST['heslo']) and isset($_GET['action']))
 	fwrite($foo,$login);
 	fclose($foo);
 
+			session_name('ZS');
+			session_start();
 			load_user($login);
 			header('Location: '.LIDE_URL.'nastaveni');
 			exit();
@@ -164,6 +166,8 @@ if(isset($_POST['login']) and isset($_POST['heslo']) and isset($_GET['action']))
 		$passwd_hash=trim(array_pop(file(LIDE_DATA.'/'.$uzivatel['login'].'/passwd.sha1')));
 		if(sha1($input_heslo.$login)==$passwd_hash){
 			# úspěšné přihlášení
+			session_name('ZS');
+			session_start();
 			load_user($uzivatel['login']);
 			header('Location: '.$next);
 			exit();

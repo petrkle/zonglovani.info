@@ -3,26 +3,18 @@
 if($_SERVER['SERVER_NAME']=='zonglovani.info'){
 	  error_reporting(0);
 };
-
 date_default_timezone_set('Europe/Prague');
 header('X-Frame-Options: DENY');
-
-$srv=explode('.',$_SERVER['SERVER_NAME']);
-
-if($srv[0]=='i' or $srv[0]=='f'){
-	header('HTTP/1.1 301 Moved Permanently');
-	array_shift($srv);
-	$srv=join('.',$srv);
-	header('Location: http://'.$srv.$_SERVER['REQUEST_URI']);
-	exit;
-}
 
 $lib=$_SERVER['DOCUMENT_ROOT'].'/lib';
 
 require($lib.'/Smarty.class.php');
 require($_SERVER['DOCUMENT_ROOT'].'/site-secrets.php');
 
-session_start();
+if(isset($_COOKIE['ZS'])){
+	session_name('ZS');
+	session_start();
+}
 
 if(isset($_SESSION['uzivatel']) and isset($_SESSION['ip'])){
 	if($_SESSION['ip']!=$_SERVER['REMOTE_ADDR']){
