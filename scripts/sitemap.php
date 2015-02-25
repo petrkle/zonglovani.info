@@ -7,7 +7,7 @@ print '<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:geo="http://www.google.com/geo/schemas/sitemap/1.0">
 <url>      
-	<loc>http://zonglovani.info/mapa/mapa-zongleri.kml</loc>
+	<loc>https://zonglovani.info/mapa/mapa-zongleri.kml</loc>
 	<geo:geo>
 		<geo:format>kml</geo:format>
 	</geo:geo>
@@ -64,7 +64,7 @@ while (($radek = fgets(STDIN)) !== false) {
 		}
 		print '
    <url>
-      <loc>http://zonglovani.info'.$url.'</loc>
+      <loc>https://zonglovani.info'.$url.'</loc>
       <changefreq>'.$zmena.'</changefreq>
       <priority>'.$priorita.'</priority>
    </url>';

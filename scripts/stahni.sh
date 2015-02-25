@@ -9,10 +9,12 @@ wget \
 	$SLOWDOWN \
 	-e "robots=off" \
 	--directory-prefix=/tmp/zs.sitemap \
+	--no-check-certificate \
+	--ca-directory=/noexist \
 	--no-host-directories \
 	--reject='*prihlaseni.php*' \
 	--accept=.html,.php,.xml \
 	--recursive \
-	--level=900 \
+	--level=20 \
  	--quiet \
-	http://$URL/
+	https://$URL/
