@@ -2,13 +2,13 @@
 use strict;
 use warnings;
 
+use LWP::ConnCache;
 use WWW::Mechanize;
 use Test::More tests => 40;
 use Net::Netrc;
 use String::MkPasswd qw(mkpasswd);
 use Encode;
 require('scripts/tests/func.pl');
-$ENV{PERL_LWP_SSL_VERIFY_HOSTNAME} = 0;
 
 my $nove_heslo = mkpasswd(-length => 13, -minnum => 4, -minlower => 4, -minupper => 2, -minspecial => 3);
 my $jmeno = mkpasswd(-length => 10, -minnum => 0, -minlower => 4, -minupper => 2, -minspecial => 0);
@@ -21,6 +21,7 @@ my $mail="$mailuser\@$domain.$tld";
 my $vzkaz = mkpasswd(-length => 50, -minnum => 0, -minlower => 20, -minupper => 20, -minspecial => 0);
 
 my $bot = WWW::Mechanize->new(autocheck => 1);
+$bot->conn_cache(LWP::ConnCache->new);
 $bot->cookie_jar(HTTP::Cookies->new());
 $bot->add_header( 'Accept-Encoding' => '' );
 

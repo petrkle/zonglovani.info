@@ -2,10 +2,10 @@
 use strict;
 use warnings;
 
+use LWP::ConnCache;
 use WWW::Mechanize;
 use Test::More tests => 9;
 use Net::Netrc;
-$ENV{PERL_LWP_SSL_VERIFY_HOSTNAME} = 0;
 
 my $loginurl = 'https://zongl.info/lide/prihlaseni.php';
 my $mach = Net::Netrc->lookup($loginurl);
@@ -17,6 +17,7 @@ my $prihl_udaj = {
 };
 
 my $bot = WWW::Mechanize->new(autocheck => 1);
+$bot->conn_cache(LWP::ConnCache->new);
 $bot->cookie_jar(HTTP::Cookies->new());
 $bot->add_header( 'Accept-Encoding' => '' );
 

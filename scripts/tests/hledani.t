@@ -2,12 +2,13 @@
 use strict;
 use warnings;
 use WWW::Mechanize;
+use LWP::ConnCache;
 use Test::More tests => 3;
 use String::MkPasswd qw(mkpasswd);
-$ENV{PERL_LWP_SSL_VERIFY_HOSTNAME} = 0;
 
 my $bot = WWW::Mechanize->new(autocheck => 1);
 $bot->cookie_jar(HTTP::Cookies->new());
+$bot->conn_cache(LWP::ConnCache->new);
 $bot->add_header( 'Accept-Encoding' => '' );
 
 my $zs_homepage = $bot->get('https://zongl.info');

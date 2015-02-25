@@ -1,13 +1,13 @@
 #!/usr/bin/perl
 use strict;
 use warnings;
+use LWP::ConnCache;
 use WWW::Mechanize;
 use Test::More tests => 27;
 use Time::Local;
 use Date::Format;
 use Net::Netrc;
 use Encode;
-$ENV{PERL_LWP_SSL_VERIFY_HOSTNAME} = 0;
 
 my $loginurl = 'http://zongl.info/lide/prihlaseni.php';
 my $mach = Net::Netrc->lookup($loginurl);
@@ -25,6 +25,7 @@ my @abbr = qw( Leden Únor Březen Duben Květen Červen Červenec Srpen Září
 my $mesicrok = "$abbr[$mon] $year";
 
 my $bot = WWW::Mechanize->new(autocheck => 1);
+$bot->conn_cache(LWP::ConnCache->new);
 $bot->cookie_jar(HTTP::Cookies->new());
 $bot->add_header( 'Accept-Encoding' => '' );
 my $response = $bot->get('http://zongl.info/kalendar');

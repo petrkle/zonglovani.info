@@ -1,8 +1,9 @@
-#!/usr/bin/perl -w
+#!/usr/bin/perl
 use strict;
+use warnings;
+use LWP::ConnCache;
 use WWW::Mechanize;
 use Test::More tests => 44;
-$ENV{PERL_LWP_SSL_VERIFY_HOSTNAME} = 0;
 
 my @adresy=(
 "data",
@@ -19,6 +20,7 @@ my @adresy=(
 );
 
 my $bot = WWW::Mechanize->new(autocheck => 0);
+$bot->conn_cache(LWP::ConnCache->new);
 $bot->cookie_jar(HTTP::Cookies->new());
 $bot->add_header( 'Accept-Encoding' => '' );
 

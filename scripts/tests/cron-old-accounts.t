@@ -1,9 +1,9 @@
 #!/usr/bin/perl -w
 use strict;
+use LWP::ConnCache;
 use WWW::Mechanize;
 use Test::More tests => 13;
 use String::MkPasswd qw(mkpasswd);
-$ENV{PERL_LWP_SSL_VERIFY_HOSTNAME} = 0;
 
 my $now=time();
 my $warn_after=335;
@@ -59,6 +59,7 @@ system("touch -t $warn_time"."1200.00 $DATA_LIDE/$login/prihlaseni.txt");
 system("chmod -R oug+w $DATA_LIDE/$login");
 
 my $bot = WWW::Mechanize->new(autocheck => 1);
+$bot->conn_cache(LWP::ConnCache->new);
 $bot->cookie_jar(HTTP::Cookies->new());
 $bot->add_header( 'Accept-Encoding' => '' );
 

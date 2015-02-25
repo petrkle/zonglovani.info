@@ -2,6 +2,7 @@
 
 use strict;
 use warnings;
+use LWP::ConnCache;
 use WWW::Mechanize;
 use List::Util qw(shuffle);
 use File::Slurp;
@@ -11,7 +12,6 @@ use Net::Netrc;
 use Encode;
 
 require('scripts/tests/func.pl');
-$ENV{PERL_LWP_SSL_VERIFY_HOSTNAME} = 0;
 
 my $loginurl = 'https://zongl.info/lide/prihlaseni.php';
 my $mach = Net::Netrc->lookup($loginurl);
@@ -43,6 +43,7 @@ foreach my $clovek(@lide){
 }
 
 my $bot = WWW::Mechanize->new(autocheck => 1);
+$bot->conn_cache(LWP::ConnCache->new);
 $bot->cookie_jar(HTTP::Cookies->new());
 $bot->add_header( 'Accept-Encoding' => '' );
 
