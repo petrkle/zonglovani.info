@@ -36,10 +36,8 @@ function getFileContents($url) {
 
 	$errno = 0;
 	$errstr = "";
-	print "siin";
 	$fp = @ fsockopen($target, $port, $errno, $errstr, $fsocket_timeout);
 
-	print $errstr;
 	if (!$fp) {
 		$contents['state'] = "NOHOST";
 		printConnectErrorReport($errstr);
