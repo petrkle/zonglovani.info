@@ -20,7 +20,7 @@
     </BalloonStyle>
 		<IconStyle>
 			<Icon>
-				<href>http://www.google.com/intl/en_us/mapfiles/ms/icons/red-dot.png</href>
+				<href>https://www.google.com/intl/en_us/mapfiles/ms/icons/red-dot.png</href>
 			</Icon>
 		</IconStyle>
   </Style>
