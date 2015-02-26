@@ -583,7 +583,7 @@ function clean_file($file, $url, $type) {
 
 	preg_match('/<link rel="image_src" href="([^"]+)"/i', $file, $res);
 	if (isset ($res)) {
-		$img = preg_replace('/http:\/\/zongl.info/','',$res[1]);
+		$img = preg_replace('/https:\/\/zongl.info/','',$res[1]);
 	}
 
 	$file = preg_replace("/<link rel[^<>]*>/i", " ", $file);

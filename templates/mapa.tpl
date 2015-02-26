@@ -15,7 +15,7 @@ function initialize() {
 	}
 	var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
 
-	var ctaLayer = new google.maps.KmlLayer('http://zonglovani.info/mapa/mapa-zongleri.kml',{preserveViewport:true});
+	var ctaLayer = new google.maps.KmlLayer('https://zonglovani.info/mapa/mapa-zongleri.kml',{preserveViewport:true});
 	ctaLayer.setMap(map);
 
 	google.maps.event.addListener(ctaLayer, 'click', function(kmlEvent) {
@@ -57,11 +57,6 @@ Přidat se můžeš tak, že si <a href="/lide/novy-ucet.php" class="add">založ
 <th>{if isset($sk)}<h4>Slovenská republika</h4>{else}<a href="/mapa/sk.html" title="Žonglérská mapa slovenska"><h4>Slovenská republika</h4></a>{/if}</th>
 <td rowspan="2">
 &nbsp;
-{*
-<script type="text/javascript">//<![CDATA[
-		document.write('<iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fzongleruv.slabikar&amp;width=300&amp;colorscheme=light&amp;connections=6&amp;stream=false&amp;header=false&amp;height=250" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:300; height:250px;" allowTransparency="true"></iframe>');
-//]]></script>
-*}
 </td>
 </tr>
 <tr>

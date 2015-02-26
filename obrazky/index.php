@@ -466,7 +466,7 @@ function get_galerie_info($galerie){
 			}
 	}
 	if(isset($navrat['url'])){
-		$navrat['url_hr']=preg_replace('/^http:\/\/zonglovani.info/','',$navrat['url']);
+		$navrat['url_hr']=preg_replace('/^https:\/\/zonglovani.info/','',$navrat['url']);
 	}
 	if(!isset($navrat['autor'])){
 		$navrat['autor']='';
@@ -484,7 +484,7 @@ function get_galerie_obrazky($galerie){
 							if(is_file(OBRAZKY_DATA.'/'.$galerie.'/nahledy/'.$filename)){
 								$pripona=preg_split('/\./',$filename);
 								$pripona=array_pop($pripona);
-								$foo['obrazek']='http://'.$_SERVER['SERVER_NAME'].OBRAZKY_URL.$galerie.'/'.$filename;
+								$foo['obrazek']='https://'.$_SERVER['SERVER_NAME'].OBRAZKY_URL.$galerie.'/'.$filename;
 								$size = getimagesize(OBRAZKY_DATA.'/'.$galerie.'/nahledy/'.$filename);
 								$fsize = getimagesize(OBRAZKY_DATA.'/'.$galerie.'/'.$filename);
 								$foo['sirka']=$size[0];
@@ -495,7 +495,7 @@ function get_galerie_obrazky($galerie){
 								$foo['url_file']=basename($filename,$pripona).'html';
 								$foo['margin_h']=floor((148-$size[0])/2);
 								$foo['margin_v']=floor((148-$size[1])/2);
-								$foo['nahled']='http://'.$_SERVER['SERVER_NAME'].OBRAZKY_URL.$galerie.'/nahledy/'.$filename;
+								$foo['nahled']='https://'.$_SERVER['SERVER_NAME'].OBRAZKY_URL.$galerie.'/nahledy/'.$filename;
 				      	array_push($navrat,$foo);
 							}
 					 }
@@ -517,7 +517,7 @@ function get_nahled_galerie($galerie){
 							if(is_file(OBRAZKY_DATA.'/'.$galerie.'/nahledy/'.$filename)){
 								$pripona=preg_split('/\./',$filename);
 								$pripona=array_pop($pripona);
-								$foo['obrazek']='http://'.$_SERVER['SERVER_NAME'].OBRAZKY_URL.$galerie.'/'.$filename;
+								$foo['obrazek']='https://'.$_SERVER['SERVER_NAME'].OBRAZKY_URL.$galerie.'/'.$filename;
 								$size = getimagesize(OBRAZKY_DATA.'/'.$galerie.'/nahledy/'.$filename);
 								$fsize = getimagesize(OBRAZKY_DATA.'/'.$galerie.'/'.$filename);
 								$foo['sirka']=$size[0];
@@ -528,7 +528,7 @@ function get_nahled_galerie($galerie){
 								$foo['url_file']=basename($filename,$pripona).'html';
 								$foo['margin_h']=floor((148-$size[0])/2);
 								$foo['margin_v']=floor((148-$size[1])/2);
-								$foo['nahled']='http://'.$_SERVER['SERVER_NAME'].OBRAZKY_URL.$galerie.'/nahledy/'.$filename;
+								$foo['nahled']='https://'.$_SERVER['SERVER_NAME'].OBRAZKY_URL.$galerie.'/nahledy/'.$filename;
 				      	array_push($navrat,$foo);
 							}
 		

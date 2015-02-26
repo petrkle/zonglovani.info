@@ -33,7 +33,7 @@ if(!isset($_GET['id'])){
 	$smarty->assign('keywords','žonglování, '.$rozhovor['about']['nazev'].', skupina, rozhovor');
 	$smarty->assign('description','Rozhovor s žonglérskou skupinou');
 
-	$smarty->assign('nahled','http://'.$_SERVER['SERVER_NAME'].'/img/'.preg_replace('/^(.).*/','\1',$rozhovor['about']['img']).'/'.$rozhovor['about']['img']);
+	$smarty->assign('nahled','https://'.$_SERVER['SERVER_NAME'].'/img/'.preg_replace('/^(.).*/','\1',$rozhovor['about']['img']).'/'.$rozhovor['about']['img']);
 
 	$trail->addStep($rozhovor['about']['nazev']);
 

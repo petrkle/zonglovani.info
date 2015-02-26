@@ -60,15 +60,6 @@ if(isset($idcka[$v])){
 	}
 	if(isset($video['typ']) and $video['typ']=='juggling.tv'){
 		$hlavicky['video_src']='<link rel="video_src" href="http://juggling.tv/nvplayer.swf?config=http://juggling.tv/nuevo/econfig.php?key='.$video['fid'].'" />';
-		/*
-		$hlavicky['video_src']='<meta name="og:video" src="http://juggling.tv/nvplayer.swf?config=http://juggling.tv/nuevo/econfig.php?key='.$video['fid'].'" />';
-		$hlavicky['nahled']='<meta property="og:image" content="http://'.$_SERVER['SERVER_NAME'].'/video/img/'.substr($video['nahled'],0,1).'/'.$video['nahled'].'" />';
-		$hlavicky['titulek']='<meta property="og:title" content="'.$video['nazev'].'" />';
-		$hlavicky['popis']='<meta name="og:description" content="'.$video['popis'].'" />';
-		$hlavicky['sirka']='<meta name="og:video:height" content="'.$rozliseni[1].'" />';
-		$hlavicky['vyska']='<meta name="og:video:width" content="'.$rozliseni[0].'" />';
-		$hlavicky['typ']='<meta name="og:video:type" content="application/x-shockwave-flash" />';
-		 */
 	}
 
 	if(isset($video['typ']) and $video['typ']=='youtube.com'){

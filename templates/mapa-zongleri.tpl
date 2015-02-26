@@ -6,7 +6,7 @@
     <atom:author>      
       <atom:name>Žongléři</atom:name>    
     </atom:author>    
-    <atom:link href="http://zonglovani.info" />
+    <atom:link href="https://zonglovani.info" />
 
 <Style id="spendlik">
     <BalloonStyle>
