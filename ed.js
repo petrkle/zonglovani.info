@@ -14,7 +14,7 @@ function edToolbar(obj) {
 document.write("<div class=\"edtoolbar\">");
 document.write("<input type=\"button\" title=\"Tučný text\" onclick=\"doAddTags('[b]','[/b]','" + obj + "')\" value=\"Tučné písmo\" /> ");
 document.write("<input type=\"button\" title=\"Kurzíva\" onclick=\"doAddTags('[i]','[/i]','" + obj + "')\" value=\"Šikmé písmo\" /> ");
-document.write("<input type=\"button\" title=\"Odkaz\" onclick=\"ae_prompt(uloz,'Vložení odkazu','http://');\" value=\"Vložit odkaz\"> ");
+document.write("<input type=\"button\" title=\"Odkaz\" onclick=\"doAddTags('[url]','[/url]','" + obj + "')\" value=\"Vložit odkaz\"> ");
 document.write("<input type=\"button\" title=\"E-mail\" onclick=\"doAddTags('[email]','[/email]','" + obj + "')\" value=\"Vložit email\">");
 document.write("</div>");
 write_css();
