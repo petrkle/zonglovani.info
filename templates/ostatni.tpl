@@ -85,12 +85,6 @@ Upozorňování na novinky v žonglérově slabikáři.
 Výpis změn a úprav v žonglérově slabikáři.
 </p>
 
-<h3><a href="/ulita/" title="Nedělní žonglování v Ulitě.">Žonglování v Ulitě</a></h3>
-<p>
-<a href="/ulita/" title="Žonglování v Ulitě">{obrazek soubor="ulita.cz.png" popisek="Ulita"}</a>
-Nedělní žonglování v DDM Ulita.
-</p>
-
 <h3><a href="/obrazky-na-plochu/" title="Žonglérské wallpapery">Obrázky na plochu</a></h3>
 <p>
 <a href="/obrazky-na-plochu/" title="Žonglérské wallpapery">{obrazek soubor="kuzelky-na-trave.jpg" popisek="Wallpapers"}</a>

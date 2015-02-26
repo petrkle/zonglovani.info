@@ -43,7 +43,7 @@ function MyDoEmail($bbcode, $action, $name, $default, $params, $content) {
 if ($action == BBCODE_CHECK) return true;
 $email = is_string($default) ? $default : $bbcode->UnHTMLEncode(strip_tags($content));
 if ($bbcode->IsValidEmail($email))
-return str_replace('@','<img src="http://'.$_SERVER['SERVER_NAME'].'/img/z/zavinac.serif.png" alt="@" width="16" height="15" />',$content);
+return str_replace('@','<img src="https://'.$_SERVER['SERVER_NAME'].'/img/z/zavinac.serif.png" alt="@" width="16" height="15" />',$content);
 else return htmlspecialchars($params['_tag']) . $content . htmlspecialchars($params['_endtag']);
 }
 
@@ -51,7 +51,7 @@ function MyDoURL($bbcode, $action, $name, $default, $params, $content) {
 	if ($action == BBCODE_CHECK) return true;
 		$url = is_string($default) ? $default : $bbcode->UnHTMLEncode(strip_tags($content));
 	if ($bbcode->IsValidURL($url)) {
-		if(preg_match('/^\//',$url) or preg_match('/^http:\/\/zongl(|ovani)\.info.*/',$url)){
+		if(preg_match('/^\//',$url) or preg_match('/^http(|s):\/\/zongl(|ovani)\.info.*/',$url)){
 			$pridavky='';
 		}else{
 			$pridavky=' class="external" rel="nofollow"';
@@ -61,5 +61,3 @@ function MyDoURL($bbcode, $action, $name, $default, $params, $content) {
 		 return htmlspecialchars($params['_tag']) . $content . htmlspecialchars($params['_endtag']);
 	}
 }
-
-?>

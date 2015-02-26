@@ -10,9 +10,9 @@ require('lib/rss_fetch.inc');
 
 
 $kanaly=array(
-'http://'.$_SERVER['SERVER_NAME'].CALENDAR_URL.'kalendar.rss',
-'http://'.$_SERVER['SERVER_NAME'].'/tip/tip.rss',
-'http://'.$_SERVER['SERVER_NAME'].OBRAZKY_URL.'obrazky.rss'
+'https://'.$_SERVER['SERVER_NAME'].CALENDAR_URL.'kalendar.rss',
+'https://'.$_SERVER['SERVER_NAME'].'/tip/tip.rss',
+'https://'.$_SERVER['SERVER_NAME'].OBRAZKY_URL.'obrazky.rss'
 	);
 
 $udalosti=array();

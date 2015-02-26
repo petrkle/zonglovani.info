@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet href="http://{$smarty.server.SERVER_NAME}/xml.xsl" type="text/xsl"?>
+<?xml-stylesheet href="https://{$smarty.server.SERVER_NAME}/xml.xsl" type="text/xsl"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
 	<title>Žonglování</title>
-	<link>http://{$smarty.server.SERVER_NAME}/rss/</link>
+	<link>https://{$smarty.server.SERVER_NAME}/rss/</link>
 	<description>Novinky ze světa žonglování</description>
 	<language>cs</language>
 	<image>
-	<url>http://{$smarty.server.SERVER_NAME}/img/s/slabikar1.gif</url>
-	<link>http://{$smarty.server.SERVER_NAME}/novinky/agregator.xml</link>
+	<url>https://{$smarty.server.SERVER_NAME}/img/s/slabikar1.gif</url>
+	<link>https://{$smarty.server.SERVER_NAME}/novinky/agregator.xml</link>
 	<title>Žonglování</title>
 	</image> 
-	<atom:link href="http://{$smarty.server.SERVER_NAME}/novinky/agregator.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://{$smarty.server.SERVER_NAME}/novinky/agregator.xml" rel="self" type="application/rss+xml" />
 {foreach from=$novinky item=udalost name=smycka2}
 <item>
 	<title>{$udalost.titulek|escape|default:'Bez titulku'}</title>

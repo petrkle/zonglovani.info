@@ -5,9 +5,9 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/"
 xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
 xmlns:dc="http://purl.org/dc/elements/1.1/"
 xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/">
-<channel rdf:about="http://{$smarty.server.SERVER_NAME}">
+<channel rdf:about="https://{$smarty.server.SERVER_NAME}">
 <title>Žonglérův slabikář</title>
-<link>http://{$smarty.server.SERVER_NAME}</link>
+<link>https://{$smarty.server.SERVER_NAME}</link>
 <description>Žonglérův slabikář</description>
 <items>
 <rdf:Seq>
@@ -22,7 +22,7 @@ xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/">
 
 {foreach from=$udalosti item=udalost name=smycka2}
 {if $smarty.foreach.smycka2.index < 10}
-<item rdf:about="http://{$udalost.link}/">
+<item rdf:about="https://{$udalost.link}/">
  <title>{$udalost.title|escape}</title>
  <link>{$udalost.link}</link>
  <description>{$udalost.description|escape}</description>
