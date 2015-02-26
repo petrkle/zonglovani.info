@@ -9,7 +9,7 @@ use Date::Format;
 use Net::Netrc;
 use Encode;
 
-my $loginurl = 'http://zongl.info/lide/prihlaseni.php';
+my $loginurl = 'https://zongl.info/lide/prihlaseni.php';
 my $mach = Net::Netrc->lookup($loginurl);
 my ($login, $password, $account) = $mach->lpa;
 
@@ -28,7 +28,7 @@ my $bot = WWW::Mechanize->new(autocheck => 1);
 $bot->conn_cache(LWP::ConnCache->new);
 $bot->cookie_jar(HTTP::Cookies->new());
 $bot->add_header( 'Accept-Encoding' => '' );
-my $response = $bot->get('http://zongl.info/kalendar');
+my $response = $bot->get('https://zongl.info/kalendar');
 my $content=$response->content();
 
 ok(defined($response), 'Stránka kalendáře je dostupná');
@@ -43,10 +43,10 @@ my $prihlstranka=$zs_prihlaseni->content();
 
 ok($prihlstranka =~ /Odhlásit<\/a>/, 'Úspěšné přihlášení');
 
-$response = $bot->get("http://zongl.info/kalendar/");
+$response = $bot->get("https://zongl.info/kalendar/");
 ok($response->content() =~ /<a href="\/kalendar\/add.php"/, "Odkaz na přidání události");
 
-$response = $bot->get("http://zongl.info/kalendar/add.php");
+$response = $bot->get("https://zongl.info/kalendar/add.php");
 ok($response->content() =~ /<form action="\/kalendar\/add\.php"/, "Formulář pro přidání události");
 
 my $zacatek=time()+(7*24*3600);
