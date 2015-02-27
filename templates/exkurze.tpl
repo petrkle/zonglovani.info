@@ -2,12 +2,6 @@
 Po <a href="{$smarty.const.LIDE_URL}novy-ucet.php" title="Vytvořit uživatelský účet.">vytvoření účtu</a> v žonglérově slabikáři získáš přístup ke spoustě zajímavých stránek. Tady jsou jejich obrázky s popisem. Kliknutím na obrázek se zobrazí jeho plná velikost.
 </p>
 
-<h3><a href="/navody" title="Vhodné k tisku">Návody na žonglování v pdf</a></h3>
-<p>
-<a href="/img/e/exkurze-navody.png">{obrazek soubor='exkurze-navody.s.png' popisek=''}</a>
-Registrovaným uživatelům jsou přístupné návody na žonglování v pdf. Zdarma si je můžeš stáhnout a pro pohodlné studium vytisknout.
-</p>
-
 <h3><a href="{$smarty.const.CALENDAR_URL}">Kalendář</a></h3>
 <p>
 <a href="/img/e/exkurze-kalendar.png">{obrazek soubor='exkurze-kalendar.s.png' popisek=''}</a>

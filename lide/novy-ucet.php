@@ -120,6 +120,13 @@ if(count($chyby)==0){
 	$_SESSION['antispam_odpoved']=$antispam[1];
 	$smarty->assign('antispam_otazka',$_SESSION['antispam_otazka']);
 	$smarty->assign('antispam_odpoved',$_SESSION['antispam_odpoved']);
+
+	$dalsi=array(
+		array('url'=>'/exkurze.html','text'=>'Náhled do žonglérova slabikáře','title'=>'Možnožnosti nastavení v žonglérově slabikáři'),
+		array('url'=>LIDE_URL,'text'=>'Seznam žongléřů','title'=>'Seznam uživatelů žonglérova slabikáře'),
+		);
+	$smarty->assign_by_ref('dalsi',$dalsi);
+
 	$smarty->assign_by_ref('trail', $trail->path);
 	$smarty->display('hlavicka.tpl');
 	$smarty->display('novy-ucet.tpl');
