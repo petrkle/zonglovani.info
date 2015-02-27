@@ -73,7 +73,7 @@ define('IMG_MAX_WIDTH', 4000);  #px
 define('IMG_MAX_HEIGHT', 4000); #px
 define('IMG_MAX_SIZE', 3); #MiB
 
-define('CSS_CHKSUM','3857111874'); 
+define('CSS_CHKSUM','2454051885'); 
 
 $hodnoceni=get_hodnoceni_stranka($_SERVER['REQUEST_URI']);
 $smarty->assign('hodnoceni',$hodnoceni);

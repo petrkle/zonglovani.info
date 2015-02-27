@@ -3,6 +3,7 @@ Přehled novinek na stránkách o žonglování.
 </p>
 <!-- start -->
 {include file='tip.plain.tpl'}
+<hr class="d"/>
 <!-- stop -->
 {if $novinky}
 {foreach from=$novinky item=novinka}
@@ -12,6 +13,7 @@ Přehled novinek na stránkách o žonglování.
 <li>Datum: {$novinka.time_hr|escape}</li>
 <li class="rss_{$novinka.rssid|escape}">Zdroj: <a href="{$rss_zdroje[$novinka.rssid].url|escape}" title="{$rss_zdroje[$novinka.rssid].popis|escape}"{if !preg_match('/^https:\/\/zonglovani.info/',$rss_zdroje[$novinka.rssid].url)} class="external" rel="nofollow"{/if}>{$rss_zdroje[$novinka.rssid].popis|escape}</a></li>
 </ul>
+<hr class="d"/>
 {/foreach}
 {/if}
 
