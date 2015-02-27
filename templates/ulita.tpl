@@ -1,6 +1,6 @@
 <div class="vevent">
 <p>
-<span class="summary">Pravidelné nedělní žonglování v <a href="cesta.html" title="Ulita - dům dětí a mládeže">DDM Ulita</a>.</span> <span class="description">Žongluje se ve <a href="/obrazky/ulita-20091213/0059.jpg" title="Obrázek velkého sálu." onclick="_gaq.push(['_trackPageview','/obrazky/ulita-20091213/0059.jpg']);">velkém sále</a> kde je: <strong>vysoký strop</strong>, měkká podlaha, ozvučení, pódium  pro případné vystoupení, okna a disco koule.</span>
+<span class="summary">Pravidelné nedělní žonglování v <a href="cesta.html" title="Ulita - dům dětí a mládeže">DDM Ulita</a>.</span> <span class="description">Žongluje se ve <a href="/obrazky/ulita-20091213/0059.jpg" title="Obrázek velkého sálu.">velkém sále</a> kde je: <strong>vysoký strop</strong>, měkká podlaha, ozvučení, pódium  pro případné vystoupení, okna a disco koule.</span>
 </p>
 
 {*
@@ -71,10 +71,10 @@ Sleduj žonglérův slabikář na <a href="http://www.facebook.com/zongleruv.sla
 E-mail: {$mail|mailobfuscate}
 </p>
 <h3><a name="plakat">Plakát</a></h3>
-<p><a href="/img/u/ulita.big.png" title="Velký obrázek plakátu." onclick="_gaq.push(['_trackPageview','/ulita/ulita.big.png']);">{obrazek soubor='ulita.nahled.png' popisek='Plakát žonglování v Ulitě'}</a>
-<a href="/img/u/ulita.png" title="Obrázkový plakát na web." onclick="_gaq.push(['_trackPageview','/ulita/ulita.png']);">ulita.png</a> - pro vkládání na internet<br />
-<a href="ulita.pdf" title="Tisk plakátu na formát A5." onclick="_gaq.push(['_trackPageview','/ulita/ulita.pdf']);">ulita.pdf</a> - pro tisk na formát A5<br />
-<a href="ulita4.pdf" title="Tisk čtyř plakátů najednou." onclick="_gaq.push(['_trackPageview','/ulita/ulita4.pdf']);">ulita4.pdf</a> - pro tisk na formát A4
+<p><a href="/img/u/ulita.big.png" title="Velký obrázek plakátu.">{obrazek soubor='ulita.nahled.png' popisek='Plakát žonglování v Ulitě'}</a>
+<a href="/img/u/ulita.png" title="Obrázkový plakát na web.">ulita.png</a> - pro vkládání na internet<br />
+<a href="ulita.pdf" title="Tisk plakátu na formát A5.">ulita.pdf</a> - pro tisk na formát A5<br />
+<a href="ulita4.pdf" title="Tisk čtyř plakátů najednou.">ulita4.pdf</a> - pro tisk na formát A4
 </p>
 {*
 <p><a href="http://www.radio1.cz" title="Radio 1">{obrazek soubor='radio1.png' popisek='Radio 1'}</a>O žonglování v Ulitě můžeš slyšet i v <a href="http://www.radio1.cz/kulturniservis/" title="Kulturní servis Rádia 1" class="external">kulturním servisu</a> Radia 1.</p>

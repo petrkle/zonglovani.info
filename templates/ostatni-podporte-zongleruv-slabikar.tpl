@@ -16,7 +16,7 @@
 <h3>Hmotné dary</h3>
 <p>
 {obrazek soubor="podporab.png" title="Pivo"}
-Jestli už ti bylo 18, tak mi můžeš koupit pivo. Např. <a href="/img/v/visen.jpg" title="Višeň s čistou hlavou" onclick="_gaq.push(['_trackPageview','/img/v/visen.jpg']);">višeň</a>, <a href="/img/s/svestka.jpg" title="Švestka s čistou hlavou" onclick="_gaq.push(['_trackPageview','/img/s/svestka.jpg']);">švestku</a> nebo <a href="/img/m/mikulas.jpg" title="Sváteční ležák s jemnými kvasnicemi" onclick="_gaq.push(['_trackPageview','/img/m/mikulas.jpg']);">Mikuláše</a>.</p>
+Jestli už ti bylo 18, tak mi můžeš koupit pivo. Např. <a href="/img/v/visen.jpg" title="Višeň s čistou hlavou">višeň</a>, <a href="/img/s/svestka.jpg" title="Švestka s čistou hlavou">švestku</a> nebo <a href="/img/m/mikulas.jpg" title="Sváteční ležák s jemnými kvasnicemi">Mikuláše</a>.</p>
 
 <a name="fb"></a><h3><a href="http://www.facebook.com/zongleruv.slabikar" class="external">Klikni na "To se mi líbí"</a></h3>
 <p>

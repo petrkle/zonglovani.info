@@ -46,7 +46,7 @@ Pomocí parametru <code>css</code> můžeš nastavit vlastní kaskádový styl p
 
 <h3>API</h3>
 <p>
-Data z kalendáře jsou přístupná ve formátu json na adrese: <a href="{$smarty.const.CALENDAR_URL}next.json" onclick="_gaq.push(['_trackPageview','{$smarty.const.CALENDAR_URL}next.json']);">https://zonglovani.info/kalendar/next.json</a>
+Data z kalendáře jsou přístupná ve formátu json na adrese: <a href="{$smarty.const.CALENDAR_URL}next.json">https://zonglovani.info/kalendar/next.json</a>
 </p>
 <a name="use"><h3>Příklady použití</h3></a>
 <ul>

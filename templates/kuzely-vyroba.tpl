@@ -34,6 +34,6 @@ Na závěr můžeš kužel vylepšit barevnou lepicí páskou.
 
 <h3>Složitější postup</h3>
 <p>
-<a href="/juggling-club.pdf" title="Výroba kuželu" onclick="_gaq.push(['_trackPageview','/juggling-club.pdf']);">{obrazek soubor='juggling-club-steven.png' popisek=''}</a>
-<a href="/juggling-club.pdf" title="Výroba kuželu" onclick="_gaq.push(['_trackPageview','/juggling-club.pdf']);" class="pdf">Návod na výrobu</a> hezčího kuželu od <a href="http://www.circusartsonline.com/en/props.htm" class="external">Stevena Ragatze</a>.
+<a href="/juggling-club.pdf" title="Výroba kuželu">{obrazek soubor='juggling-club-steven.png' popisek=''}</a>
+<a href="/juggling-club.pdf" title="Výroba kuželu" class="pdf">Návod na výrobu</a> hezčího kuželu od <a href="http://www.circusartsonline.com/en/props.htm" class="external">Stevena Ragatze</a>.
 </p>

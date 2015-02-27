@@ -88,7 +88,7 @@ Umístění kalendáře "V síti".
 
 <p>
 <a href="/img/s/sunbird3.png" title="">{obrazek soubor="sunbird3s.png" popisek="Mozilla Sunbird"}</a>
-Vyber formát iCalendar. Jako adresu zadej: <a href="http://{$smarty.server.SERVER_NAME}{$smarty.const.CALENDAR_URL}kalendar.ics" onclick="_gaq.push(['_trackPageview','{$smarty.const.CALENDAR_URL}kalendar.ics']);">http://{$smarty.server.SERVER_NAME}{$smarty.const.CALENDAR_URL}kalendar.ics</a>
+Vyber formát iCalendar. Jako adresu zadej: <a href="https://{$smarty.server.SERVER_NAME}{$smarty.const.CALENDAR_URL}kalendar.ics">https://{$smarty.server.SERVER_NAME}{$smarty.const.CALENDAR_URL}kalendar.ics</a>
 </p>
 
 

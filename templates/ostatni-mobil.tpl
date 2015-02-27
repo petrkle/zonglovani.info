@@ -30,7 +30,7 @@
 <p>
 <a href="/img/q/qrcode-big-zonglovani.info.png">{obrazek soubor='qrcode-zonglovani.info.png' popisek='zonglovani.info'}</a>
 QR kód pro rychlé a pohodlné načtení adresy <a href="/" title="Žonglérův slabikář">zonglovani.info</a> do mobilního telefonu.<br />
-<a href="/ostatni/qr.pdf" title="QR kód v PDF pro snadný tisk" class="pdf" onclick="_gaq.push(['_trackPageview','/ostatni/qr.pdf']);">PDF pro tisk</a>
+<a href="/ostatni/qr.pdf" title="QR kód v PDF pro snadný tisk" class="pdf">PDF pro tisk</a>
 </p>
 
 {include file='android.tpl'}
