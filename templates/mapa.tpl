@@ -15,12 +15,24 @@ function initialize() {
 	}
 	var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
 
-	var ctaLayer = new google.maps.KmlLayer('https://zonglovani.info/mapa/mapa-zongleri.kml',{preserveViewport:true});
+	var ctaLayer = new google.maps.KmlLayer('https://zonglovani.info/mapa/mapa-zongleri.kml',{preserveViewport:true,suppressInfoWindows:true});
 	ctaLayer.setMap(map);
 
-	google.maps.event.addListener(ctaLayer, 'click', function(kmlEvent) {
-		kmlEvent.featureData.info_window_html = kmlEvent.featureData.info_window_html.replace('_blank','_self');
-		kmlEvent.featureData.description = kmlEvent.featureData.description.replace('_blank','_self');
+	infoWindow = new google.maps.InfoWindow();
+	google.maps.event.addListener(ctaLayer, 'click', function(kmlMouseEvent) {
+		var name = kmlMouseEvent.featureData.name;
+        var descr = kmlMouseEvent.featureData.description.replace(/ target="_blank"/ig, '');
+        var dom = '<div>' +
+            '<h3>' +
+            name +
+            '</h3>' +
+            '<div>' +
+            descr +
+            '</div>' +
+            '</div>';
+        infoWindow.setContent(dom);
+        infoWindow.setPosition(kmlMouseEvent.latLng);
+        infoWindow.open(map);;
 	});
 
 }
