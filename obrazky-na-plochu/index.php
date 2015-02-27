@@ -61,7 +61,7 @@ function get_wallpapers(){
 							$foo=array();
 								$pripona=preg_split('/\./',$filename);
 								$pripona=array_pop($pripona);
-								$foo['nahled_url']='https://www.'.$_SERVER['SERVER_NAME'].WALLPAPERS_URL.'nahledy/'.$filename;
+								$foo['nahled_url']='https://'.$_SERVER['SERVER_NAME'].WALLPAPERS_URL.'nahledy/'.$filename;
 								$size = getimagesize(WALLPAPERS_DATA.'/nahledy/'.$filename);
 								$foo['nahled_sirka']=$size[0];
 								$foo['nahled_vyska']=$size[1];
