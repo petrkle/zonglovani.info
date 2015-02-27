@@ -1,7 +1,7 @@
 var req = new XMLHttpRequest();
 req.open(
     "GET",
-    "http://zonglovani.info/kalendar/next.xml",
+    "https://zonglovani.info/kalendar/next.xml",
     true);
 req.onload = showEvents;
 req.send(null);
@@ -18,7 +18,7 @@ function showEvents() {
 		pocet++;
   }
 	if(pocet==0){
-		$('.zs-event-list').append('<div class="zs-pridej">Žádná naplánovaná akce.<br /><a href="http://zonglovani.info/kalendar/#add" title="Přidat akci do kalendáře žonglování" class="zs-addlink">Přidat</a></div>');
+		$('.zs-event-list').append('<div class="zs-pridej">Žádná naplánovaná akce.<br /><a href="https://zonglovani.info/kalendar/#add" title="Přidat akci do kalendáře žonglování" class="zs-addlink">Přidat</a></div>');
 	}
 	$('.zs-event-list').append('<div class="zs-cleaner"></div>');
 }
