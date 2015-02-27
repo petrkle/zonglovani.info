@@ -1,5 +1,5 @@
 #datum*titulek*odkaz*obrazek*text
-2009-12-21*Veselé vánoce*/vanoce-2009.html*vanoce.png*Na úvodní stránce žonglérova slabikáře najdeš každý týden něco nového. A jako první je tu vánoční přání.
+2009-12-21*Veselé Vánoce*/vanoce-2009.html*vanoce.png*Na úvodní stránce žonglérova slabikáře najdeš každý týden něco nového. A jako první je tu vánoční přání.
 2009-12-28*PF 2010*/pf-2010.html*pf-2010b.png*Hodně štěstí a zdraví v novém roce. Ať vám to lítá :^)
 2010-01-04*Žonglování v Ulitě*/ulita/?201001*ulita.cz.png*V neděli se koná první letošní žonglování v Ulitě. Přijít mohou začínající i zkušení žongléři a žonglérky.
 2010-01-11*Hledání v žonglérově slabikáři*/vyhledavani/*hledani.png*Žonglérův slabikář obsahuje rychlé a přesné <a href="http://zonglovani.info/vyhledavani/" title="Fulltextové prohledávání žonglérova slabikáře.">vyhledávání</a>.
@@ -64,7 +64,7 @@
 2010-12-13*Návody na žonglování*/navody/*navod-tisk.png*Návody na žonglování a výrobu míčků ve formátu PDF. Vhodné pro tisk.
 2010-12-20*White balance*/video/white-balance.html*wbt.jpg*Balancování kuželek. Shane Miclon a Aaron DeWitt balancují s kužely.
 2010-12-21*Don Texas*/video/don-texas.html*dtt.jpg*Malte a Nils si hrají s míčky.
-2010-12-22*Veselé vánoce*/vanoce-2010.html*vanocni-kometa.s.jpg*Veselé vánoční svátky. Ať vám to lítá :^)
+2010-12-22*Veselé Vánoce*/vanoce-2010.html*vanocni-kometa.s.jpg*Veselé vánoční svátky. Ať vám to lítá :^)
 2010-12-27*PF 2011*/pf-2011.html*pf-2011.png*Hodně štěstí a zdraví v novém roce. Ať vám to lítá :^)
 2011-01-03*Statistiky*/statistiky.html*podporaa.png*Trocha bilancování uplynulého roku. Podívej se kolik lidí používá žonglérův slabikář a na další statistiky.
 2011-01-04*Liquid Crystal*/video/liquid-crystal-live.html*matt-hennem.jpg*Představení Liquid Crystal - Matt Hennem na živo.
@@ -135,7 +135,7 @@
 2011-12-05*Vánoční žonglování*/kalendar/udalost-20111210-20111210-pek-1322138854.html*bratri.jpg*Volné předvánoční žonglování. Bude k dispozici velká tělocvična s ozvučením, žonglovací obchod Žongluj Imrvére a workshopy pro začátečníky.
 2011-12-11*Reading Roundabouts*/video/readingroundabouts.html*readingroundabouts.jpg*Passing jako na kolotoči.
 2011-12-14*Krabice*/micky/4/krabice.html*micky-4-krabiceb.png*Box se čtyřmi míčky.
-2011-12-19*Veselé vánoce*/vanoce-2011.html*diabolo-sipek.s.jpg*Veselé vánoční svátky. Ať vám to lítá :^)
+2011-12-19*Veselé Vánoce*/vanoce-2011.html*diabolo-sipek.s.jpg*Veselé vánoční svátky. Ať vám to lítá :^)
 2011-12-21*Žonglérův slabikář na papíře*/obrazky/zongleruv-slabikar-na-papire-20111218/0000.html*zsp.jpg*Žonglérův slabikář si můžeš jednoduše vytisknout na papír. Ke stažení je PDF soubor o 151 stránkách. Devět z deseti žonglérů doporučuje oboustranný tisk a kroužkovou vazbu.
 2011-12-28*PF 2012*/pf-2012.html*snehulacek.png*Hodně štěstí a zdraví v novém roce. Ať vám to lítá :^)
 2012-01-02*Passování do všech rukou*/kuzely/passing/all-hands.html*kuzely-passing-allhandsc.png*Obtížnější trik pro dva žongléry a šest kuželů.
@@ -197,7 +197,7 @@
 2012-12-03*Visual Juggling Promo*/video/etc/vjpromo.html*vjpromo.jpg*Upoutávka na žonglérské video Visual Juggling.
 2012-12-10*Flow*/video/levistick/flow.html*flow.jpg*Josefína ze skupiny Kinessis na pláži u moře.
 2012-12-17*Kříž*/micky/4/kriz.html*4krizc.png*Jak název napovídá, budeš tentokrát míčky házet křížem.
-2012-12-20*Veselé vánoce*/vanoce-2012.html*micky-ve-snehu.s.jpg*Veselé vánoční svátky. Ať vám to lítá :^)
+2012-12-20*Veselé Vánoce*/vanoce-2012.html*micky-ve-snehu.s.jpg*Veselé vánoční svátky. Ať vám to lítá :^)
 2012-12-27*PF 2013*/pf-2013.html*diabolo-ve-snehu.s.jpg*Hodně štěstí a zdraví v novém roce. Ať vám to lítá :^)
 2013-01-02*Passování s pivem*/kuzely/passing/pivo.html*bv.jpg*Trik pro tři žongléry s šesti kužely a lahví piva. Postupně si všichni tři házíte kuželky a předáváte láhev piva.
 2013-01-07*Brno juggling convention*/kalendar/udalost-20130111-20130113-pek-1351105142.html*bjc01.png*První ročník Brno Juggling Convention.
@@ -259,7 +259,7 @@
 2013-12-02*2 v 1 tenis*/micky/3/tenis-2v1.html*2v1tenisb.png*Trik se třemi míčky.
 2013-12-09*Plechové žonglování*/kalendar/udalost-20131215-20131215-pek-1385146013.html*plech-zongl.png*Žonglérské odpoledne v Plechárně. K žonglování budou hrát ostřílení djs.
 2013-12-16*The Black Sheep*/video/tip/the-black-sheep.html*the-black-sheep.jpg*Robin Spinelli v dvanáctiminutovém filmu o žonglování s diabolem.
-2013-12-23*Veselé vánoce*/vanoce-2013.html*kapr-kuzel.s.jpg*Veselé vánoční svátky. Ať vám to lítá :^)
+2013-12-23*Veselé Vánoce*/vanoce-2013.html*kapr-kuzel.s.jpg*Veselé vánoční svátky. Ať vám to lítá :^)
 2013-12-30*PF 2014*/pf-2014.html*rum-kuzel.s.jpg*Hodně štěstí a zdraví v novém roce. Ať vám to lítá :^)
 2014-01-06*Dust in the Chain*/video/tip/dust-in-the-chain.html*dust-in-the-chain.jpg*Trocha akrobatické cyklistiky v podání Yohanna Trepaniera.
 2014-01-13*Brno juggling convention*/kalendar/udalost-20140117-20140119-pek-1389338710.html*bjc02.png*Druhý ročník Brno Juggling Convention.
@@ -312,7 +312,7 @@
 2014-12-01*Orbit*/micky/3/orbit.html*micky-3-orbita.png*Orbit, někdy též nazývaný obtoč.
 2014-12-08*Nůžky*/kuzely/3/nuzky.html*kuzely-nuzkya.png*Překřížením dvou kuželů získáš "nůžky", do kterých můžeš chytit třetí kužel.
 2014-12-15*4 count*/kuzely/passing/4count.html*kuzely-passing-4count-rytmus.png*Základní způsob passování pro 2 žongléry a 6 kuželů. Každý 4. hod je pass. Házíš:
-2014-12-22*Veselé vánoce*/vanoce-2014.html*kometa-kuzel.s.jpg*Veselé vánoční svátky. Ať vám to lítá :^)
+2014-12-22*Veselé Vánoce*/vanoce-2014.html*kometa-kuzel.s.jpg*Veselé vánoční svátky. Ať vám to lítá :^)
 2014-12-29*Sloupy*/micky/3/sloupy.html*sloupya.png*Sloupy s míčky jsou velmi rozmanitý trik. Toto je jeho základní provedení. Než ho začneš zkoušet, hodí se umět 2 v 1.
 2015-01-05*Neviditelný míček*/micky/3/neviditelny.html*micky-3-neviditelnya.png*Neviditelný míček nahrazuje obyčejný míček - hlavně když ti spadne. Získáš čas k sebrání míčku a nemusíš přestat žonglovat.
 2015-01-12*Zrychlená dvojka*/kuzely/passing/zrychlena-dvojka.html*kuzely-passing-zrychlenadvojkaa.png*Trik pro ozvláštnění 2 count nebo 4 count.
@@ -322,11 +322,13 @@
 2015-02-09*Žonglování na ledě*/kalendar/udalost-20150213-20150213-pek-1422565035.html*zongl-led15.png*Tradiční zimní taškařice cirkusu LeGrando.
 2015-02-16*Trénink*/trenink.html*trenink-navoda.png*Žonglovat se nenaučíš nějakým kouzlem nebo protože máš talent, ale tréninkem. Prostě to zkoušíš tak dlouho až se ti to povede.
 2015-02-23*3 + 2*/micky/5/64.html*64a.png*Na první pohled snadné, avšak velmi obtížné. Pravá a levá ruka žonglují v různém rytmu.
-2015-03-02*Kaskáda*/kuzely/3/kaskada.html*kuzely-3-kaskadaa.png*Kaskáda je nejjednodušší způsob žonglování se třemi kužely.
+2015-03-02*Mezinárodní den žen*/mdz/*mdz.png*Oslavte mezinárodní den žen žonglováním.
 2015-03-09*Hození kuželu pod nohou*/kuzely/3/podnohou.html*kuzely-3-nohaa.png*Jednoduchý trik vhodný i pro začátečníky.
 2015-03-16*Reverzní kaskáda široká*/micky/3/kaskada-reverzni-siroka.html*srkaskadaa.png*Široká reverzní kaskáda vychází z reverzní kaskády.
 2015-03-23*Boston circle*/kuzely/passing/bostoncircle.html*kuzely-passing-boston4h.png*Trik, při kterém passuje každý s každým. Dokonce i sám se sebou. Známý též pod názvem hodiny.
 2015-03-30*Osmička*/micky/3/osmicka.html*micky-3-osmickaa.png*Levou rukou žongluj 2 v 1.
+2015-04-01*Žonglování na olympiádu*/olympiada/*oh.png*Petice za zařazení žonglování mezi olympijské sporty.
+2015-04-02*Kaskáda*/kuzely/3/kaskada.html*kuzely-3-kaskadaa.png*Kaskáda je nejjednodušší způsob žonglování se třemi kužely.
 2015-04-06*Zachycení míčku za krk*/micky/3/krk.html*krka.png*Jako třešničku na dortu můžeš na konci svého vystoupení předvést zachycení míčku za krk.
 2015-04-13*Pravidla passování*/kuzely/passing/pravidla.html*pravidlaa.png*Při žonglování s více lidmi si užiješ spoustu legrace. Než začneš, je dobré znát následující pravidla.
 2015-04-20*Pass self self pass self pass pass self*/kuzely/passing/psspspps.html*kuzely-passing-psspspps-rytmus.png*Trik pro dva žongléry a šest kuželů. Nejtěžší na něm je zapamatovat si název.
@@ -371,7 +373,7 @@
 2016-01-18*Jeden nad dvěma*/micky/3/1nad2.html*tenissloupya.png*Kombinace sloupů s tenisem. Jeden míček létá pořád nad dvěma ostatními.
 2016-01-25*Žonglérské náčiní*/nacini.html*nacinia.png*Žonglovat můžeš se spoustou věcí. A mnoha různými způsoby.
 2016-02-01*Vyhození do výšky*/diabolo/vyhozeni-do-vysky.html*diabolo-vyhozenia.png*Roztáhni ruce s hůlkami do stran.
-2016-02-08*Obloučky*/micky/3/oblouky.html*obloukya.png*Každý míček má vlastní dráhu, která se nekříží s ostatními.
+2016-02-08*Svátek svatého Valentýna*/valentyn/*mdz.png*Svátek všech zamilovaných je ideální čas pro žonglování v páru.
 2016-02-15*Žirafa*/micky/3/zirafa.html*sochaa.png*Žirafa je vlastně poloviční sprcha s jednou rukou nahoře. Jiný název pro tento trik je socha svobody.
 2016-02-22*Balancování kuželu*/kuzely/balanc.html*kuzely-balanca.png*S kužely se nemusí jenom házet. Můžeš je balancovat na bradě, nose, špičce boty, ...
 2016-02-29*Sprcha*/micky/3/sprcha.html*sprchaa.png*Sprcha je asi nejznámější způsob žonglování. Není ale vůbec snadné se ji naučit. Zkus se nejprve naučit poloviční sprchu.
@@ -383,7 +385,7 @@
 2016-04-11*Klokan*/micky/3/klokan.html*klokana.png*Snadný a velmi efektní trik. K jeho provedení je potřeba mít na sobě volnější tričko.
 2016-04-18*40303*/micky/2/40303.html*40303a.png*Jednoduché cvičení se dvěma míčky.
 2016-04-25*Socha svobody*/micky/3/socha.html*sochaa.png*Socha svobody je vlastně poloviční sprcha s jednou rukou nahoře. Jiný název pro tento trik je žirafa.
-2016-05-02*
+2016-05-02*Obloučky*/micky/3/oblouky.html*obloukya.png*Každý míček má vlastní dráhu, která se nekříží s ostatními.
 2016-05-09*
 2016-05-16*
 2016-05-23*
