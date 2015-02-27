@@ -353,13 +353,13 @@ function event_validation($udalost,$now){
 	}
 
 	if(isset($udalost['obrazek']) and is_array($udalost['obrazek'])){
-		if($udalost['obrazek']['size']>(2000*1024)){
-			array_push($chyby,'Obrázek je příliš velký. Maximální velikost 2MB.');
+		if($udalost['obrazek']['size']>(IMG_MAX_SIZE*1024*1024)){
+			array_push($chyby,'Obrázek je příliš velký. Maximální velikost '.IMG_MAX_SIZE.'MB.');
 		}
 		$obrazekinfo=getimagesize($udalost['obrazek']['tmp_name']);
 		if(is_array($obrazekinfo)){
-			if($obrazekinfo[0]>1280 or $obrazekinfo[1]>1280){
-				array_push($chyby,'Rozměry obrázku jsou příliš velké. Maximální velikost 1280x1280 px.');
+			if($obrazekinfo[0]>IMG_MAX_WIDTH or $obrazekinfo[1]>IMG_MAX_HEIGHT){
+				array_push($chyby,'Rozměry obrázku jsou příliš velké. Maximální velikost '.IMG_MAX_WIDTH.'x'.IMG_MAX_HEIGHT.'px.');
 			}
 			if(!($obrazekinfo['mime']=='image/jpeg' or $obrazekinfo['mime']=='image/png')){
 				array_push($chyby,'Špatný formát souboru. Přidávat jde pouze obrázky ve formátech JPG a PNG.');

@@ -69,6 +69,9 @@ define('STAT_DATA',$_SERVER['DOCUMENT_ROOT'].'/data/stat');
 define('STAT_EXPIRE',31); 
 
 define('MAX_BIG_LETTERS',0.7); 
+define('IMG_MAX_WIDTH', 4000);  #px
+define('IMG_MAX_HEIGHT', 4000); #px
+define('IMG_MAX_SIZE', 3); #MiB
 
 define('CSS_CHKSUM','3857111874'); 
 
