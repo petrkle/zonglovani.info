@@ -12,6 +12,7 @@ $trail->addStep('ISBN');
 $trail->addStep($titulek);
 
 $dalsi=array(
+	array('url'=>'http://aleph.nkp.cz/F/?func=direct&doc_number=002609718&local_base=NKC','text'=>'Záznam v databázi Národní knihovny ČR','title'=>'Záznam v katalogu NK ČR'),
 	array('url'=>'/download/pdf.html','text'=>'Žonglérův slabikář v PDF','title'=>'Vhodné pro oboustranný tisk.'),
 	array('url'=>'/g/android.app','text'=>'Žonglérův slabikář pro Android','title'=>'Žonglérův slabikář pro systém Android'),
 	array('url'=>'/odborne-texty.html','text'=>'Odborné texty o žonglování','title'=>'Odborné texty věnované žonglování a příbuzným oborům'),
