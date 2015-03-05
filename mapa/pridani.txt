@@ -3,4 +3,4 @@ Souřadnice
 http://maps.googleapis.com/maps/api/geocode/json?address=Vla%C5%A1im+CZ&sensor=false
 
 Obrázek CZ
-wget -qO - "http://maps.google.com/maps/api/staticmap?center=49.94,15.46&zoom=6&size=500x320&sensor=false&markers=icon:http://zonglovani.info/mapa/sipka.png?5|49.7061462,14.8980579" > static/v/vlasim.png
+wget -qO - "http://maps.google.com/maps/api/staticmap?center=49.94,15.46&zoom=6&size=500x320&sensor=false&markers=icon:https://zonglovani.info/mapa/sipka.png?5|49.7061462,14.8980579" > static/v/vlasim.png

@@ -8,7 +8,7 @@ for foo in `find $ZSDIR -name '*.html'`;
 do
 	LEVEL=`echo $foo | sed "s/[^\/]*//g;s/\//..\//g;s/^.//;"`
 	DIR=`dirname $foo`
-	sed -i 's#http://zongl.info#http://zonglovani.info#g' $foo
+	sed -i 's#https://zongl.info#https://zonglovani.info#g' $foo
 	sed -i 's#class="external"##g' $foo
 	for baz in `grep -o "<a [^>]*href=[^>]*>" $foo | sort | uniq`
 	do
@@ -21,7 +21,7 @@ do
 				sed -i "s#href=\"$FILE\"#href=\"$FILE\" class=\"external\" #g" $foo
 			else
 				# interní odkaz
-				sed -i "s#href=\"$FILE\"#href=\"http:\/\/zonglovani.info\/$FILE\" class=\"external\" #g" $foo
+				sed -i "s#href=\"$FILE\"#href=\"https:\/\/zonglovani.info\/$FILE\" class=\"external\" #g" $foo
 			fi
 		fi
 	done

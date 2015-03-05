@@ -2,10 +2,10 @@
 2009-12-21*Veselé Vánoce*/vanoce-2009.html*vanoce.png*Na úvodní stránce žonglérova slabikáře najdeš každý týden něco nového. A jako první je tu vánoční přání.
 2009-12-28*PF 2010*/pf-2010.html*pf-2010b.png*Hodně štěstí a zdraví v novém roce. Ať vám to lítá :^)
 2010-01-04*Žonglování v Ulitě*/ulita/?201001*ulita.cz.png*V neděli se koná první letošní žonglování v Ulitě. Přijít mohou začínající i zkušení žongléři a žonglérky.
-2010-01-11*Hledání v žonglérově slabikáři*/vyhledavani/*hledani.png*Žonglérův slabikář obsahuje rychlé a přesné <a href="http://zonglovani.info/vyhledavani/" title="Fulltextové prohledávání žonglérova slabikáře.">vyhledávání</a>.
+2010-01-11*Hledání v žonglérově slabikáři*/vyhledavani/*hledani.png*Žonglérův slabikář obsahuje rychlé a přesné <a href="https://zonglovani.info/vyhledavani/" title="Fulltextové prohledávání žonglérova slabikáře.">vyhledávání</a>.
 2010-01-18*Žonglování v Ulitě*/ulita/?201003*ulita.cz.png*V domě dětí a mládeže Ulita se pravidelně žongluje. Přijít mohou začínající i zkušení žongléři a žonglérky.
 2010-01-25*Zvedání míčku nohou*/micky/kick-up.html*kickup-micky.png*Tento týden se naučíme zvedání míčku nohou. Podceňovaná a přitom klíčová dovednost.
-2010-02-01*Bratři v tricku 2*/video/bratri-v-tricku-2.html*bratri2.jpg*Bratři v tricku nelení a jsou tu zas. Adam a Vašek předvádějí <a href="http://zonglovani.info/kuzely/passing/" title="Víc lidí žongluje dohromady.">passing s kužely</a>.
+2010-02-01*Bratři v tricku 2*/video/bratri-v-tricku-2.html*bratri2.jpg*Bratři v tricku nelení a jsou tu zas. Adam a Vašek předvádějí <a href="https://zonglovani.info/kuzely/passing/" title="Víc lidí žongluje dohromady.">passing s kužely</a>.
 2010-02-04*Žonglování v Ulitě*/ulita/?201005*ulita.cz.png*V domě dětí a mládeže Ulita se pravidelně žongluje. Přijít mohou začínající i zkušení žongléři a žonglérky.
 2010-02-08*Australský trik*/kuzely/passing/australsky-trik.html*klokan.png*Nauč se něco od klokanů. Australský trik obsahuje přebírání kuželek, třesení rukou a házení kuželky za zády. 
 2010-02-15*Žonglování v Ulitě*/ulita/?201007*ulita.cz.png*V domě dětí a mládeže Ulita se pravidelně žongluje. Přijít mohou začínající i zkušení žongléři a žonglérky.
@@ -20,7 +20,7 @@
 2010-04-19*Neta Oren*/video/neta-oren.html*neta-oren-balls.jpg*Neta Oren z Izraele to s míčky opravdu umí. Uvidíš tři až sedm míčků.
 2010-04-26*Kam dál*/micky/3/kaskada.html#kam-dal*kam-dal.png*Na konci většiny stránek v žonglérově slabikáři najdeš odkazy na související triky.
 2010-05-03*Žonglérské míčky*/micky/druhy.html*pomeranc-nahled.jpg*Pořádný míček je základ úspěchu. Pořiď si proto takové, které se ti líbí a vyhovují.
-2010-05-10*Prozkoumej žonglérův slabikář*/mapa-stranek.html*kompas.png*<a href="http://zonglovani.info/mapa-stranek.html" title="Všechny stránky v žonglérově slabikáři.">Mapa stránek</a> obsahuje odkazy na všechny stránky v žonglérově slabikáři.
+2010-05-10*Prozkoumej žonglérův slabikář*/mapa-stranek.html*kompas.png*<a href="https://zonglovani.info/mapa-stranek.html" title="Všechny stránky v žonglérově slabikáři.">Mapa stránek</a> obsahuje odkazy na všechny stránky v žonglérově slabikáři.
 2010-05-17*rec.juggling*/rec-juggling.html*rec.juggling.s.png*Celosvětová diskusní skupina o žonglování.
 2010-05-24*Interrobang*/video/interrobang.html*interrobang.jpg*Aaron DeWitt a Shane Miclon passují s kužely.
 2010-05-31*Hvězda*/kuzely/passing/star.html*kuzely-passing-stara.png*Passovací trik pro <strong>5 žonglérů</strong>. Někdy se mu také říká pětiúhelník.
@@ -29,15 +29,15 @@
 2010-06-21*EJC 2010*/kalendar/udalost-20100724-20100801-pek-1267957805.html*ejc2010.jpg*Za měsíc začíná evropské setkání žonglérů v Joensuu. Nejvyšší čas sehnat si odvoz do Finska.
 2010-06-28*Žonglérská víkendovka*/literatura.html#zv*zonglerska-vikendovka.png*Brožura pro výuku žonglování na víkendových kurzech. Popisuje základy žonglování s míčky a točení s poi.
 2010-07-05*Prechac Weaves*/video/prechac-weaves.html*prechac-weaves.jpg*Trochu propletené žonglování.
-2010-07-12*Chůdy*/chudy/*cirkusc.png*Diváci milují chůdy. Hlavně proto, že jsou zvědaví kdy chůdař spadne a šeredně si natluče. <a href="http://zonglovani.info/chudy/" title="Návod na výrobu chůd.">Návod na výrobu chůd</a>.
+2010-07-12*Chůdy*/chudy/*cirkusc.png*Diváci milují chůdy. Hlavně proto, že jsou zvědaví kdy chůdař spadne a šeredně si natluče. <a href="https://zonglovani.info/chudy/" title="Návod na výrobu chůd.">Návod na výrobu chůd</a>.
 2010-07-19*Aleje 2010*/kalendar/udalost-20100821-20100828-pek-1267957575.html*aleje-logo.jpg*Za měsíc začne 9. mezinárodní žonglérská a divadelní dílna Aleje 2010.
 2010-07-26*Roucoulette sauce poisson*/video/roucoulette-sauce-poisson.html*roucoulette-sauce-poisson.jpg*Úžasná manipulace s kužely.
-2010-08-02*Výzva pro fotografy*/obrazky/*fotaka.png*Rád uveřejním i tvoje fotografie žonglování. Stačí vědět kde a kdy byly pořízené a <a href="http://zonglovani.info/kontakt.html" title="Stránka s emailem.">napsat</a>. Tvoje fotky pak uvidí hodně lidí, které zajímá žonglování.
+2010-08-02*Výzva pro fotografy*/obrazky/*fotaka.png*Rád uveřejním i tvoje fotografie žonglování. Stačí vědět kde a kdy byly pořízené a <a href="https://zonglovani.info/kontakt.html" title="Stránka s emailem.">napsat</a>. Tvoje fotky pak uvidí hodně lidí, které zajímá žonglování.
 2010-08-09*Animace žonglování*/animace/*animace-panacek.png*Žonglérův slabikář nově obsahuje i animace žonglování z programu JuggleAnim.
 2010-08-16*Siteswap*/siteswap.html*p4sprchac.png*Jsou to vlastně takové noty pro žonglování. Siteswap vymysleli žongléři, aby s jejich pomocí <strong>našli nové triky</strong>.
 2010-08-23*Žonglérská mapa*/mapa/*mapa.png*Mapa s vyznačením měst kde jsou žongléři. Přidat se můžeš tak, že si založíš účet v žonglérově slabikáři.
 2010-08-30*Fotky z Ulity*/obrazky/filtr/Ulita*ulita.cz.png*Fotografie z podzimního, zimního a jarního žonglování v Ulitě.
-2010-09-06*Neúplná hvězda*/kuzely/passing/prebihani4z11k.html*kuzely-passing-prebihani4z11kc.png*Občas není dostatek žonglérů na úplnou <a href="http://zonglovani.info/kuzely/passing/star.html" title="Trik pro 5 žonglérů.">hvězdu</a> a pak je potřeba trochu běhat.
+2010-09-06*Neúplná hvězda*/kuzely/passing/prebihani4z11k.html*kuzely-passing-prebihani4z11kc.png*Občas není dostatek žonglérů na úplnou <a href="https://zonglovani.info/kuzely/passing/star.html" title="Trik pro 5 žonglérů.">hvězdu</a> a pak je potřeba trochu běhat.
 2010-09-13*Juggling.tv*/juggling-tv.html*juggling.tv.png*Domov žonglérského videa na internetu.
 2010-09-20*Bratři v tricku - trénink*/video/bratri-v-tricku-training-day.html*training-day.jpg*Letní trénink bratrů v triku.
 2010-09-27*Žonglování v Ulitě*/ulita/?20101003*ulita.cz.png*V domě dětí a mládeže Ulita se pravidelně žongluje. Přijít mohou začínající i zkušení žongléři a žonglérky.

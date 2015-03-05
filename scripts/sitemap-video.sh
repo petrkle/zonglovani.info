@@ -23,8 +23,8 @@ do
 		ID=`basename $foo .xml`
 		LOC=`echo $foo | sed "s/video\/klip\///;s/\.xml//"`
 		FL=`echo $ID | sed "s/^\(.\).*/\1/"`
-		NAHLED="http://$SITE/video/img/$FL/$ID.jpg"
-		URL="http://$SITE/video/$LOC.html"
+		NAHLED="https://$SITE/video/img/$FL/$ID.jpg"
+		URL="https://$SITE/video/$LOC.html"
 		echo "<loc>$URL</loc>" >> video/video.xml.new
 		echo "<video:video>" >> video/video.xml.new
 		echo "<video:thumbnail_loc>$NAHLED</video:thumbnail_loc>" >> video/video.xml.new
@@ -33,7 +33,7 @@ do
 		if [ $TYP == "youtube.com" ]
 		then
 			LINK=`grep "<link>" $foo | sed "s/.*<link>\(.*\)<\/link>.*/\1/" | cut -d= -f2`
-			echo "<video:player_loc>http://www.youtube.com/v/$LINK</video:player_loc>" >> video/video.xml.new
+			echo "<video:player_loc>https://www.youtube.com/v/$LINK</video:player_loc>" >> video/video.xml.new
 		fi
 		if [ $TYP == "juggling.tv" ]
 		then
@@ -45,7 +45,7 @@ do
 		echo "<video:duration>$DELKA</video:duration>" >> video/video.xml.new
 		echo "<video:tag>Žonglování</video:tag>" >> video/video.xml.new
 		echo "<video:category>Žonglování</video:category>" >> video/video.xml.new
-		echo "<video:gallery_loc title=\"Žonglérská videa\">http://$SITE/video/</video:gallery_loc>" >> video/video.xml.new
+		echo "<video:gallery_loc title=\"Žonglérská videa\">https://$SITE/video/</video:gallery_loc>" >> video/video.xml.new
 		echo "<video:requires_subscription>no</video:requires_subscription>" >> video/video.xml.new
 		echo "</video:video>" >> video/video.xml.new
 		echo "</url>" >> video/video.xml.new

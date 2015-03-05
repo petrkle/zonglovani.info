@@ -39,10 +39,10 @@
 	<Property Id="ARPPRODUCTICON" Value="ProductIcon" />
 	<Property Id='ARPCOMMENTS' Value="Žonglérův slabikář - obrázková učebnice žonglování s míčky, kruhy a kužely." />
 	<Property Id='ARPCONTACT' Value="Petr Kletečka" />
-	<Property Id='ARPHELPLINK' Value="http://zonglovani.info/kontakt.html" />
-	<Property Id='ARPURLUPDATEINFO' Value="http://zonglovani.info/changelog.html" />
-	<Property Id='ARPREADME' Value="http://zonglovani.info" />
-	<Property Id='ARPURLINFOABOUT' Value="http://zonglovani.info" />
+	<Property Id='ARPHELPLINK' Value="https://zonglovani.info/kontakt.html" />
+	<Property Id='ARPURLUPDATEINFO' Value="https://zonglovani.info/changelog.html" />
+	<Property Id='ARPREADME' Value="https://zonglovani.info" />
+	<Property Id='ARPURLINFOABOUT' Value="https://zonglovani.info" />
 
 
 	<Feature Id='main'

@@ -4,7 +4,7 @@ var casper = require('casper').create({
   pageSettings: { loadImages: true, loadPlugins: false	}
 });
 
-casper.start('http://zongl.info' + casper.cli.get('url'));
+casper.start('https://zongl.info' + casper.cli.get('url'));
 
 casper.then(function() {
 

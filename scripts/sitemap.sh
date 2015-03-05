@@ -24,3 +24,5 @@ nice -19 ionice -c 3 ./scripts/sitemap-trik-img.sh
 nice -19 ionice -c 3 rm -rf $WEB $TMP/sitemap.xml $TMP/mapa-stranek.inc 2>/dev/null
 
 nice -19 ionice -c 3 ./scripts/sitemap-video.sh
+
+nice -19 ionice -c 3 ./scripts/sitemap-obrazky.sh

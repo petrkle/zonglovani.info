@@ -6,5 +6,5 @@
 <Url type="text/html" method="get" template="https://zonglovani.info/vyhledavani/?query={searchTerms}&amp;search=1&amp;source=SearchBox" />
 <Url type="application/x-suggestions+json" method="get" template="https://zonglovani.info/vyhledavani/suggest.php?query={searchTerms}" />
 <Url type="application/opensearchdescription+xml" rel="self" template="https://zonglovani.info/vyhledavani/vyhledavani.xml" />
-<moz:SearchForm>http://zonglovani.info/vyhledavani/</moz:SearchForm>
+<moz:SearchForm>https://zonglovani.info/vyhledavani/</moz:SearchForm>
 </OpenSearchDescription>
