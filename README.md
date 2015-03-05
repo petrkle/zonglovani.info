@@ -2,7 +2,7 @@
 
 Obrázková učebnice žonglování s míčky, kruhy a kužely.
 
-http://zonglovani.info
+https://zonglovani.info
 
 # Vývoj #
 
@@ -16,7 +16,7 @@ http://zonglovani.info
 
 ## Lokální doména pro testovaní ##
 
-	echo "127.0.0.1 zongl.info smtp.zongl.info" >> /etc/hosts
+	echo "127.0.0.1 zongl.info" >> /etc/hosts
 
 ## Nastavení apache ##
 
@@ -38,7 +38,7 @@ https://github.com/petrkle/fakemail-slack
 
 ## MySQL ##
 
-vyhledavani/search-zonglovan.sql
+vyhledavani/zonglovan_s.sql
 
 ## Testování ##
 
