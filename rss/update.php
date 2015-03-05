@@ -6,7 +6,7 @@ require('rss.php');
 if (function_exists('date_default_timezone_set')) {
 	    date_default_timezone_set('Europe/Prague');
 }
-ini_set('user_agent', 'http://zonglovani.info/rss');
+ini_set('user_agent', 'https://zonglovani.info/rss');
 uasort($rss_zdroje, 'u_shuffle');
 
 define('MAGPIE_INPUT_ENCODING','UTF-8');
@@ -45,27 +45,8 @@ foreach($rss_zdroje as $id=>$kanal){
 				}
 			}
 
-			if(strlen(trim($item['title']))==0 and preg_match('/facebook\.com\/events\//',$item['link'])){
-				$item['link'] = preg_replace('/^http:\/\/www\.facebook\.com/', 'https://www.facebook.com', $item['link']);
-				$dom = new DOMDocument();
-				$ch = curl_init();
-				curl_setopt($ch, CURLOPT_URL, $item['link']);
-				curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1); 
-				curl_setopt($ch, CURLOPT_AUTOREFERER, 1); 
-				curl_setopt($ch, CURLOPT_REFERER, BASEURL);
-				curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 20);
-				curl_setopt($ch, CURLOPT_USERAGENT, 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.65 Safari/537.36');
-				curl_setopt($ch,CURLOPT_ENCODING, '');
-				$foo=curl_exec($ch);
-				$dom->loadHTML($foo);
-				curl_close($ch);
-
-				$xpath = new DOMXPath($dom);
-				$titleNode = $xpath->query('//title');
-				$title = $titleNode->item(0)->nodeValue;
-				if(strlen(trim($title)) > 0){
-					$item['title'] = preg_replace('/\s\|\sFacebook$/', '', $title);
-				}
+			if(strlen(trim($item['title']))==0 and (preg_match('/facebook\.com\/events\//', $item['link']) or preg_match('/facebook\.com\/.*\/photos\//', $item['link']))){
+				$item['title'] = get_facebook_title($item['link']);
 			}
 
 		}
@@ -123,4 +104,30 @@ foreach($rss_zdroje as $id=>$kanal){
 
 function u_shuffle( $a, $b ) {
 	     return rand(-1,1);
+}
+
+function get_facebook_title($url){
+	$navrat = '';
+
+		$url = preg_replace('/^http:\/\/www\.facebook\.com/', 'https://www.facebook.com', $url);
+		$dom = new DOMDocument();
+		$ch = curl_init();
+		curl_setopt($ch, CURLOPT_URL, $url);
+		curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1); 
+		curl_setopt($ch, CURLOPT_AUTOREFERER, 1); 
+		curl_setopt($ch, CURLOPT_REFERER, BASEURL);
+		curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 20);
+		curl_setopt($ch, CURLOPT_USERAGENT, 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.65 Safari/537.36');
+		curl_setopt($ch,CURLOPT_ENCODING, '');
+		$dom->loadHTML(curl_exec($ch));
+		curl_close($ch);
+
+		$xpath = new DOMXPath($dom);
+		$titleNode = $xpath->query('//title');
+		$title = $titleNode->item(0)->nodeValue;
+		if(strlen(trim($title)) > 0){
+			$navrat = preg_replace('/\s\|\sFacebook$/', '', $title);
+		}
+
+	return $navrat;	
 }

@@ -80,24 +80,24 @@ $rss_zdroje['cascabel']=array(
 	'feed_url'=>'http://www.facebook.com/feeds/page.php?format=atom10&id=215856865245546');
 $rss_zdroje['slabikarkalendar']=array(
 	'popis'=>'Žonglérův slabikář - kalendář',
-	'url'=>'http://zonglovani.info/kalendar/',
-	'feed_url'=>'http://zonglovani.info/kalendar/kalendar.xml');
+	'url'=>'https://zonglovani.info/kalendar/',
+	'feed_url'=>'https://zonglovani.info/kalendar/kalendar.xml');
 $rss_zdroje['slabikarlide']=array(
 	'popis'=>'Seznam žonglérů',
-	'url'=>'http://zonglovani.info/lide/',
-	'feed_url'=>'http://zonglovani.info/lide/uzivatele.xml');
+	'url'=>'https://zonglovani.info/lide/',
+	'feed_url'=>'https://zonglovani.info/lide/uzivatele.xml');
 $rss_zdroje['slabikardiskuse']=array(
 	'popis'=>'Žonglérův slabikář - diskuse',
-	'url'=>'http://zonglovani.info/diskuse/',
-	'feed_url'=>'http://zonglovani.info/diskuse/zpravy.xml');
+	'url'=>'https://zonglovani.info/diskuse/',
+	'feed_url'=>'https://zonglovani.info/diskuse/zpravy.xml');
 $rss_zdroje['slabikartip']=array(
 	'popis'=>'Žonglérův slabikář - tip týdne',
-	'url'=>'http://zonglovani.info/tip/',
-	'feed_url'=>'http://zonglovani.info/tip/tip.xml');
+	'url'=>'https://zonglovani.info/tip/',
+	'feed_url'=>'https://zonglovani.info/tip/tip.xml');
 $rss_zdroje['slabikarobrazky']=array(
 	'popis'=>'Žonglérův slabikář - obrázky',
-	'url'=>'http://zonglovani.info/obrazky/',
-	'feed_url'=>'http://zonglovani.info/obrazky/obrazky.xml');
+	'url'=>'https://zonglovani.info/obrazky/',
+	'feed_url'=>'https://zonglovani.info/obrazky/obrazky.xml');
 	
 function get_news($pocet,$filtr=false){
 	global $rss_zdroje;
