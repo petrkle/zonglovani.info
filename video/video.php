@@ -63,7 +63,7 @@ if(isset($idcka[$v])){
 	}
 
 	if(isset($video['typ']) and $video['typ']=='youtube.com'){
-		$hlavicky['video_src']='<link rel="video_src" href="http://www.youtube.com/v/'.$video['fid'].'&amp;hl=cs_CZ&amp;rel=0" />';
+		$hlavicky['video_src']='<link rel="video_src" href="https://www.youtube.com/v/'.$video['fid'].'&amp;hl=cs_CZ&amp;rel=0" />';
 	}
 
 	if(count($hlavicky)>0){
