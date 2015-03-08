@@ -8,7 +8,6 @@ header('X-Frame-Options: DENY');
 
 $lib=$_SERVER['DOCUMENT_ROOT'].'/lib';
 
-require($lib.'/Smarty.class.php');
 require($_SERVER['DOCUMENT_ROOT'].'/site-secrets.php');
 
 if(isset($_COOKIE['ZS'])){
@@ -22,6 +21,7 @@ if(isset($_SESSION['uzivatel']) and isset($_SESSION['ip'])){
 	}
 }
 
+require 'vendor/autoload.php';
 $smarty = new Smarty;
 
 $smarty->template_dir = $_SERVER['DOCUMENT_ROOT'].'/templates';
