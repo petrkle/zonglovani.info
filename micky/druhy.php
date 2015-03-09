@@ -13,7 +13,7 @@ $smarty->assign('titulek',$titulek);
 $trail = new Trail();
 $trail->addStep('Míčky','/micky/');
 $trail->addStep($titulek);
-$smarty->assign_by_ref('trail', $trail->path);
+$smarty->assign('trail', $trail->path);
 
 $trik=nacti_trik('micky-druhy');
 $smarty->assign('trik',$trik);

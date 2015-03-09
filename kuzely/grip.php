@@ -7,7 +7,7 @@ $trail = new Trail();
 $trail->addStep('Kužely','/kuzely/');
 $trail->addStep('Úchop');
 
-$smarty->assign_by_ref('trail', $trail->path);
+$smarty->assign('trail', $trail->path);
 $smarty->assign('keywords','dva, kužely, jedna, ruka');
 $smarty->assign('description','Jak držet v jedné ruce dva kužely.');
 

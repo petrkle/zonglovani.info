@@ -11,9 +11,9 @@ $smarty->assign('nahled','https://'.$_SERVER['SERVER_NAME'].'/img/m/micky-ve-sne
 $trail = new Trail();
 $trail->addStep('Tip týdne','/tip');
 $trail->addStep($titulek);
-$smarty->assign_by_ref('trail', $trail->path);
+$smarty->assign('trail', $trail->path);
 
-$smarty->assign_by_ref('dalsi',$dalsi);
+$smarty->assign('dalsi',$dalsi);
 $smarty->display('hlavicka.tpl');
 $smarty->display('ostatni-vanoce-2012.tpl');
 $smarty->display('paticka.tpl');

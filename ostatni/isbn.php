@@ -17,9 +17,9 @@ $dalsi=array(
 	array('url'=>'/g/android.app','text'=>'Žonglérův slabikář pro Android','title'=>'Žonglérův slabikář pro systém Android'),
 	array('url'=>'/odborne-texty.html','text'=>'Odborné texty o žonglování','title'=>'Odborné texty věnované žonglování a příbuzným oborům'),
 	);
-$smarty->assign_by_ref('dalsi',$dalsi);
+$smarty->assign('dalsi',$dalsi);
 
-$smarty->assign_by_ref('trail', $trail->path);
+$smarty->assign('trail', $trail->path);
 $smarty->display('hlavicka.tpl');
 $smarty->display('isbn.tpl');
 $smarty->display('paticka.tpl');

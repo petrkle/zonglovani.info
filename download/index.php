@@ -11,7 +11,7 @@ $smarty->assign('feedback',true);
 $trail = new Trail();
 $trail->addStep($titulek,'/download/');
 $downloads=get_downloads();
-$smarty->assign_by_ref('downloads', $downloads);
+$smarty->assign('downloads', $downloads);
 $smarty->assign('poradi', array('pdf','mobi','epub','exe','msi','tar.bz2','apk','wordpress','vizitky'));
 $smarty->assign('hidden', array('apk'=>true));
 
@@ -77,7 +77,7 @@ if(isset($_GET['id'])){
 	}
 
 
-	$smarty->assign_by_ref('dalsi',$dalsi);
+	$smarty->assign('dalsi',$dalsi);
 
 	$smarty->assign('titulek',$titulek.' - '.$id);
 	$smarty->assign('nadpis','Žonglérův slabikář - '.$id);
@@ -85,8 +85,8 @@ if(isset($_GET['id'])){
 
 	$smarty->assign('nahled','https://'.$_SERVER['SERVER_NAME'].'/img/p/package-'.$id.'.png');
 	$trail->addStep($id);
-	$smarty->assign_by_ref('trail', $trail->path);
-	$smarty->assign_by_ref('download_id', $id);
+	$smarty->assign('trail', $trail->path);
+	$smarty->assign('download_id', $id);
 
 	$smarty->display('hlavicka.tpl');
 	if(is_file($smarty->template_dir."/download.static.$id.tpl")){
@@ -104,8 +104,8 @@ if(isset($_GET['id'])){
 			array('url'=>'/literatura.html','text'=>'Literatura o žonglování','title'=>'Knížky o žonglování'),
 			array('url'=>'/obrazky-na-plochu/','text'=>'Obrázky na plochu','title'=>'Tapety s žonglérskou tématikou.'),
 			);
-	$smarty->assign_by_ref('dalsi',$dalsi);
-	$smarty->assign_by_ref('trail', $trail->path);
+	$smarty->assign('dalsi',$dalsi);
+	$smarty->assign('trail', $trail->path);
 	$smarty->display('hlavicka.tpl');
 	$smarty->display('download.tpl');
 	$smarty->display('paticka.tpl');

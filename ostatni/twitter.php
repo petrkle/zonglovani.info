@@ -11,10 +11,10 @@ $dalsi=array(
 	array('url'=>'http://facebook.com/zongleruv.slabikar','text'=>'Žonglérův slabikář na Facebooku','title'=>'Facebook'),
 	array('url'=>'/rss.html','text'=>'RSS kanály','title'=>'RSS kanály žonglérova slabikáře'),
 	);
-$smarty->assign_by_ref('dalsi',$dalsi);
+$smarty->assign('dalsi',$dalsi);
 $trail = new Trail();
 $trail->addStep($titulek);
-$smarty->assign_by_ref('trail', $trail->path);
+$smarty->assign('trail', $trail->path);
 $smarty->display('hlavicka.tpl');
 $smarty->display('twitter.tpl');
 $smarty->display('paticka.tpl');

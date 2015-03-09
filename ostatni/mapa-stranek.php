@@ -10,12 +10,12 @@ $smarty->assign('nahled','https://'.$_SERVER['SERVER_NAME'].'/img/k/kompas.png')
 
 $trail = new Trail();
 $trail->addStep('Mapa stránek');
-$smarty->assign_by_ref('trail', $trail->path);
+$smarty->assign('trail', $trail->path);
 
 $dalsi=array(
 	array('url'=>'/vyhledavani/','text'=>'Vyhledávání v žonglérově slabikáři','title'=>'Fulltext'),
 	);
-$smarty->assign_by_ref('dalsi',$dalsi);
+$smarty->assign('dalsi',$dalsi);
 
 $smarty->display('hlavicka.tpl');
 $smarty->display('mapa-stranek.tpl');

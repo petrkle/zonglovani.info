@@ -15,7 +15,7 @@ $trail = new Trail();
 $trail->addStep('Informace o žonglování','/ostatni.html');
 $trail->addStep('Jak trénovat');
 
-$smarty->assign_by_ref('trail', $trail->path);
+$smarty->assign('trail', $trail->path);
 
 $trik=nacti_trik('ostatni-trenink');
 $smarty->assign('trik',$trik);

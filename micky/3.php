@@ -27,7 +27,7 @@ if(strlen($show)>0 and is_file('../'.$show.'.xml')){
 	$smarty->assign('description',get_description($trik));
 	$smarty->assign('keywords',make_keywords($titulek.','.$trik['about']['nazev']));
 	$trail->addStep($trik['about']['nazev']);
-	$smarty->assign_by_ref('trail', $trail->path);
+	$smarty->assign('trail', $trail->path);
 	$smarty->display('hlavicka.tpl');
 	$smarty->display('trik.tpl');
 	$smarty->display('paticka.tpl');
@@ -36,7 +36,7 @@ if(strlen($show)>0 and is_file('../'.$show.'.xml')){
 	require('../404.php');
 	exit();
 }else{
-	$smarty->assign_by_ref('trail', $trail->path);
+	$smarty->assign('trail', $trail->path);
 	$smarty->assign('keywords','žonglování, tři, míčky, návod, tenisáky');
 	$smarty->assign('description','Obrázkový návod na žonglování se třemi míčky.');
 	$smarty->assign('titulek',$titulek);

@@ -31,7 +31,7 @@ if($filtr){
 		$klice=array_keys($dovednosti);
 		$pozice=array_search($filtr,$klice);
 		if(isset($dovednosti_link[$filtr])){
-			$smarty->assign_by_ref('dovednost_link',$dovednosti_link[$filtr]);
+			$smarty->assign('dovednost_link',$dovednosti_link[$filtr]);
 			$fl=preg_replace('/^(.).*/','\1',$dovednosti_link[$filtr]['img']);
 			$smarty->assign('nahled','https://'.$_SERVER['SERVER_NAME'].'/img/'.$fl.'/'.$dovednosti_link[$filtr]['img']);
 		}
@@ -64,18 +64,18 @@ if($filtr){
 	
 	if(count($uzivatele)>0){
 		uasort($uzivatele, 'sort_by_jmeno_zonglera'); 
-		$smarty->assign_by_ref('uzivatele',$uzivatele);
+		$smarty->assign('uzivatele',$uzivatele);
 	}
-	$smarty->assign_by_ref('navigace',$navigace);
+	$smarty->assign('navigace',$navigace);
 	$trail->addStep('Podle dovedností',LIDE_URL.'dovednost/');
 	$trail->addStep($dovednosti[$filtr]['nazev']);
-	$smarty->assign_by_ref('trail', $trail->path);
+	$smarty->assign('trail', $trail->path);
 	$smarty->display('hlavicka.tpl');
 	$smarty->display('lide-dovednost.tpl');
 	$smarty->display('paticka.tpl');
 }else{
 	$trail->addStep('Podle dovedností',LIDE_URL.'dovednost/');
-	$smarty->assign_by_ref('trail', $trail->path);
+	$smarty->assign('trail', $trail->path);
 	$smarty->assign('titulek','Žongléři podle dovedností');
 	$smarty->assign('description','Seznam žonglérů podle dovedností.');
 	$smarty->display('hlavicka.tpl');

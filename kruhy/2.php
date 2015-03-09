@@ -25,7 +25,7 @@ if(strlen($show)>0 and is_file('../'.$show.'.xml')){
 	$smarty->assign('description',get_description($trik));
 	$smarty->assign('keywords',make_keywords($titulek.','.$trik['about']['nazev']));
 	$trail->addStep($trik['about']['nazev']);
-	$smarty->assign_by_ref('trail', $trail->path);
+	$smarty->assign('trail', $trail->path);
 	$smarty->display('hlavicka.tpl');
 	$smarty->display('trik.tpl');
 	$smarty->display('paticka.tpl');

@@ -72,7 +72,7 @@ $smarty->assign('description','Diskuse o žonglování '.$pager->getCurrentPageI
 $smarty->assign('keywords','diskuse, žonglování, aktuality, akce, žonglérské novinky');
 
 if(isset($_GET['rss'])){
-	$smarty->assign_by_ref('zpravy',$zpravy);
+	$smarty->assign('zpravy',$zpravy);
 	header('Content-Type: application/xml');
 	http_cache_headers(3600,true);
 	if(isset($_GET['v'])){
@@ -82,7 +82,7 @@ if(isset($_GET['rss'])){
 	}
 	exit();
 }else{
-	$smarty->assign_by_ref('trail', $trail->path);
+	$smarty->assign('trail', $trail->path);
 	$smarty->display('hlavicka.tpl');
 	$smarty->display('diskuse.tpl');
 	$smarty->display('paticka.tpl');

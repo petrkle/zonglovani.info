@@ -1,15 +1,15 @@
-{if $dalsi}
+{if isset($dalsi)}
 
 <div class="kamdal">
 <a name="kam-dal"></a><h5>Kam dál</h5>
 <ul>
 {foreach from=$dalsi item=odkaz}
-<li><a href="{$odkaz.url|escape}"{if $odkaz.title} title="{$odkaz.title|escape}"{/if}{if preg_match('/^(http:\/\/|https:\/\/|\/g\/)/',$odkaz.url)} class="external"{/if}>{$odkaz.text|escape}</a></li>
+<li><a href="{$odkaz.url|escape}"{if isset($odkaz.title)} title="{$odkaz.title|escape}"{/if}{if preg_match('/^(http:\/\/|https:\/\/|\/g\/)/',$odkaz.url)} class="external"{/if}>{$odkaz.text|escape}</a></li>
 {/foreach}
 </ul>
 </div>
 {/if}
-{if $feedback}
+{if isset($feedback)}
 
 <!-- start -->
 <div class="feedback">

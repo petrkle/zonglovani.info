@@ -133,7 +133,7 @@ if(isset($_POST['login']) and isset($_POST['heslo']) and isset($_GET['action']))
 		# starý zpusob přihlášení
 		array_push($chyby,'Zůsob přihlašování do žonglérova slabikáře se změnil.','Pro přihlášení použij <strong>email</strong> zadaný při registraci.','Omlouvám se za způsobené potíže.');
 		$smarty->assign('chyby',$chyby);
-		$smarty->assign_by_ref('trail', $trail->path);
+		$smarty->assign('trail', $trail->path);
 		$smarty->display('hlavicka.tpl');
 		$smarty->display('prihlaseni.tpl');
 		$smarty->display('paticka.tpl');
@@ -156,7 +156,7 @@ if(isset($_POST['login']) and isset($_POST['heslo']) and isset($_GET['action']))
 		if(count($chyby)!=0){
 			$smarty->assign('chyby',$chyby);
 			$smarty->assign('login',$input_login);
-			$smarty->assign_by_ref('trail', $trail->path);
+			$smarty->assign('trail', $trail->path);
 			$smarty->display('hlavicka.tpl');
 			$smarty->display('prihlaseni.tpl');
 			$smarty->display('paticka.tpl');
@@ -181,7 +181,7 @@ if(isset($_POST['login']) and isset($_POST['heslo']) and isset($_GET['action']))
 }else{
 
 
-	$smarty->assign_by_ref('trail', $trail->path);
+	$smarty->assign('trail', $trail->path);
 	$smarty->display('hlavicka.tpl');
 	$smarty->display('prihlaseni.tpl');
 	$smarty->display('paticka.tpl');
@@ -192,7 +192,7 @@ function spatne_jmeno_nebo_heslo(){
 		array_push($chyby,'Špatné jméno nebo heslo.','Obnovit <a href="zapomenute-heslo.php" title="Zapomenuté heslo.">zapomenuté heslo</a>.');
 		$smarty->assign('chyby',$chyby);
 		$smarty->assign('login',$input_login);
-		$smarty->assign_by_ref('trail', $trail->path);
+		$smarty->assign('trail', $trail->path);
 		$smarty->display('hlavicka.tpl');
 		$smarty->display('prihlaseni.tpl');
 		$smarty->display('paticka.tpl');

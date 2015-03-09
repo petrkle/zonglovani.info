@@ -12,14 +12,14 @@ $dalsi=array(
 	array('url'=>LIDE_URL.'dovednost/shop.html','text'=>'Žonglérské obchody','title'=>'Seznam žonglérských obchodů'),
 	array('url'=>'/literatura.html','text'=>'Literatura o žonglování','title'=>'Čtení o žonglování'),
 	);
-$smarty->assign_by_ref('dalsi',$dalsi);
+$smarty->assign('dalsi',$dalsi);
 
 $trail = new Trail();
 $trail->addStep('Informace o žonglování','/ostatni.html');
 $trail->addStep('Odkazy');
 $smarty->assign('nahled','https://'.$_SERVER['SERVER_NAME'].'/img/w/www.png');
 
-$smarty->assign_by_ref('trail', $trail->path);
+$smarty->assign('trail', $trail->path);
 $smarty->display('hlavicka.tpl');
 $smarty->display('ostatni-odkazy.tpl');
 $smarty->display('paticka.tpl');

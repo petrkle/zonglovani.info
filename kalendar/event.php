@@ -130,7 +130,7 @@ if($udalost){
 				$smarty->assign('titulek','Úprava události v kalendáři');
 				$smarty->assign('nadpis','Úprava události v kalendáři');
 				$smarty->assign('form_action','?action=update');
-				$smarty->assign_by_ref('trail', $trail->path);
+				$smarty->assign('trail', $trail->path);
 				$smarty->display('hlavicka.tpl');
 				$smarty->display('kalendar-edit.tpl');
 				$smarty->display('paticka.tpl');
@@ -158,12 +158,12 @@ if($udalost){
 			$hlavicky['dalsi']='<link rel="next" href="udalost-'.$events_around['next']['id'].'.html" />';
 		}
 
-		$smarty->assign_by_ref('navigace',$navigace);
+		$smarty->assign('navigace',$navigace);
 
 	$hlavicky['nahoru']='<link rel="up" href="'.$udalost['month_url'].'" />';
 
 	if(count($hlavicky)>0){
-		$smarty->assign_by_ref('custom_headers',$hlavicky);
+		$smarty->assign('custom_headers',$hlavicky);
 	}
 
 		$smarty->assign('fbsdileni','tuto událost');
@@ -176,7 +176,7 @@ if($udalost){
 			$smarty->assign('nahled','https://'.$_SERVER['SERVER_NAME'].'/img/k/kalendar.png');
 		}
 		$smarty->assign('keywords',make_keywords('žonglování, kalendář, '.$udalost['title']));
-		$smarty->assign_by_ref('trail', $trail->path);
+		$smarty->assign('trail', $trail->path);
 		$smarty->display('hlavicka.tpl');
 		$smarty->display('kalendar-event.tpl');
 		$smarty->display('paticka.tpl');

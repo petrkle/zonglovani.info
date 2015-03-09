@@ -14,8 +14,8 @@ if(!isset($_GET['id'])){
 	$smarty->assign('keywords','žonglování, skupina, rozhovor');
 	$smarty->assign('description','Rozhovory se žongléry');
 
-	$smarty->assign_by_ref('trail', $trail->path);
-	$smarty->assign_by_ref('rozhovory', $rozhovory);
+	$smarty->assign('trail', $trail->path);
+	$smarty->assign('rozhovory', $rozhovory);
 	$smarty->assign('titulek',$titulek);
 	$smarty->display('hlavicka.tpl');
 	$smarty->display('rozhovory-index.tpl');
@@ -37,8 +37,8 @@ if(!isset($_GET['id'])){
 
 	$trail->addStep($rozhovor['about']['nazev']);
 
-	$smarty->assign_by_ref('trail', $trail->path);
-	$smarty->assign_by_ref('rozhovor', $rozhovor);
+	$smarty->assign('trail', $trail->path);
+	$smarty->assign('rozhovor', $rozhovor);
 	$smarty->assign('titulek',$titulek);
 	$smarty->display('hlavicka.tpl');
 	$smarty->display('rozhovor.tpl');

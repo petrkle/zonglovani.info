@@ -14,7 +14,7 @@ $trail->addStep('Kruhy','/kruhy/');
 $smarty->assign('titulek',$titulek);
 $smarty->assign('keywords',make_keywords($titulek));
 $trail->addStep($titulek);
-$smarty->assign_by_ref('trail', $trail->path);
+$smarty->assign('trail', $trail->path);
 
 $trik=nacti_trik('kruhy-jak-zacit');
 $smarty->assign('trik',$trik);

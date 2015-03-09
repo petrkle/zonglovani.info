@@ -14,7 +14,7 @@ $trail->addStep('English version');
 
 $smarty->assign('description','Regular Sunday juggling at DDM Ulita, Prague.');
 
-$smarty->assign_by_ref('trail', $trail->path);
+$smarty->assign('trail', $trail->path);
 $smarty->display('hlavicka.tpl');
 $smarty->display('ulita.en.tpl');
 $smarty->display('paticka.tpl');

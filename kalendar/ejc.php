@@ -13,7 +13,7 @@ $smarty->assign('nahled','https://'.$_SERVER['SERVER_NAME'].'/img/e/ejc2015.png'
 $trail = new Trail();
 $trail->addStep('Kalendář',CALENDAR_URL);
 $trail->addStep($titulek);
-$smarty->assign_by_ref('trail', $trail->path);
+$smarty->assign('trail', $trail->path);
 
 $smarty->display('hlavicka.tpl');
 $smarty->display('kalendar-ejc.tpl');

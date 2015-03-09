@@ -67,7 +67,7 @@ if(isset($idcka[$v])){
 	}
 
 	if(count($hlavicky)>0){
-		$smarty->assign_by_ref('custom_headers',$hlavicky);
+		$smarty->assign('custom_headers',$hlavicky);
 	}
 
 $pagerOptions = array(
@@ -132,9 +132,9 @@ $data = $pager->getPageData();
 
 	$smarty->assign('fbsdileni','toto video');
 	$smarty->assign('styly',array('a'));
-	$smarty->assign_by_ref('navigace',$navigace);
+	$smarty->assign('navigace',$navigace);
 	$trail->addStep($video['nazev']);
-	$smarty->assign_by_ref('trail', $trail->path);
+	$smarty->assign('trail', $trail->path);
 	$smarty->assign('titulek',$video['nazev']);
 	$smarty->assign('video',$video);
 	$smarty->assign('keywords',make_keywords($video['nazev']));

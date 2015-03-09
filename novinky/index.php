@@ -23,12 +23,12 @@ if(is_logged() and isset($_SESSION['changes']) and is_array($_SESSION['changes']
 	unset($_SESSION['changes_pocet']);
 }
 
-$smarty->assign_by_ref('trail', $trail->path);
+$smarty->assign('trail', $trail->path);
 
 $smarty->assign('styly','r');
 $smarty->assign('keywords','novinky, žonglování, rss');
 $smarty->assign('description','Novinky ze světa žonglování');
-$smarty->assign_by_ref('tip', array_shift(get_tipy()));
+$smarty->assign('tip', array_shift(get_tipy()));
 
 $dalsi=array(
 	array('url'=>'/tip/','text'=>'Tip týdne','title'=>'Žonglérský tip týdne'),
@@ -36,11 +36,11 @@ $dalsi=array(
 	array('url'=>'/rss.html','text'=>'RSS kanály žonglérova slabikáře','title'=>'RSS kanály žonglérova slabikáře'),
 	array('url'=>CALENDAR_URL.'rss-a-icalendar.html#rss','text'=>'Jak nastavit RSS','title'=>'Jak nastavivt RSS čtečku'),
 	);
-$smarty->assign_by_ref('dalsi',$dalsi);
+$smarty->assign('dalsi',$dalsi);
 
 $novinky=get_news(40);
-$smarty->assign_by_ref('rss_zdroje',$rss_zdroje);
-$smarty->assign_by_ref('novinky',$novinky);
+$smarty->assign('rss_zdroje',$rss_zdroje);
+$smarty->assign('novinky',$novinky);
 
 if($rss){
 	$novinky=uniqurl($novinky);

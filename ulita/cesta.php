@@ -10,7 +10,7 @@ $trail = new Trail();
 $trail->addStep('Žonglování v Ulitě','/ulita/');
 $trail->addStep('Místo konání');
 
-$smarty->assign_by_ref('trail', $trail->path);
+$smarty->assign('trail', $trail->path);
 $smarty->display('hlavicka.tpl');
 $smarty->display('ulita.cesta.tpl');
 $smarty->display('paticka.tpl');

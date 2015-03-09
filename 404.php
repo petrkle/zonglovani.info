@@ -7,7 +7,7 @@ $smarty->assign('titulek','Stránka nenalezena');
 $smarty->assign('nenalezeno_404',true);
 $trail = new Trail();
 $trail->addStep('Neexistující stránka');
-$smarty->assign_by_ref('trail', $trail->path);
+$smarty->assign('trail', $trail->path);
 $smarty->display('hlavicka.tpl');
 $smarty->display('404.tpl');
 $smarty->display('paticka.tpl');

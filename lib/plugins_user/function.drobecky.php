@@ -11,8 +11,6 @@ function smarty_function_drobecky($params)
 		else
 				$separator = ' &raquo;&nbsp;';
 
-		$length = (int) $params['length'];
-
 		$links = array();
 
 		$trailSize = count($trail);
@@ -27,4 +25,3 @@ function smarty_function_drobecky($params)
 
 		return join($separator,$links);
 }
-?>

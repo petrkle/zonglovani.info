@@ -28,7 +28,7 @@ if(isset($_GET['m'])){
 	$mesic=date('m',$now);
 }
 
-$smarty->assign_by_ref('dny_zkratky',$dny_zkratky);
+$smarty->assign('dny_zkratky',$dny_zkratky);
 $events=get_cal_data($rok,$mesic);
 
 $month = new Calendar_Month_Weekdays($rok,$mesic,1);
@@ -74,7 +74,7 @@ if(basename($_SERVER['REQUEST_URI'])==$aktualni){
 	exit();
 }
 
-$smarty->assign_by_ref('month', $weeksInMonth);
+$smarty->assign('month', $weeksInMonth);
 $monthNumber = date('n',$month->getTimeStamp());
 $monthName = $mesice[$monthNumber-1]." ".date('Y',$month->getTimeStamp());
 $smarty->assign('monthName', $monthName);
@@ -106,10 +106,10 @@ if(count($smazane)>0){
 }
 
 if(count($hlavicky)>0){
-	$smarty->assign_by_ref('custom_headers',$hlavicky);
+	$smarty->assign('custom_headers',$hlavicky);
 }
 
-$smarty->assign_by_ref('trail', $trail->path);
+$smarty->assign('trail', $trail->path);
 $smarty->assign('hcalendar',true);
 $smarty->display('hlavicka.tpl');
 $smarty->display('kalendar-index.tpl');

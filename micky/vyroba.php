@@ -19,9 +19,9 @@ $dalsi=array(
 	array('url'=>'/micky/druhy.html','text'=>'Druhy míčků','title'=>'Druhy míčků na žonglování'),
 	array('url'=>'/kuzely/vyroba.html','text'=>'Výroba kuželu na žonglování','title'=>'Jak vyrobit kužel na žonglování')
 	);
-$smarty->assign_by_ref('dalsi',$dalsi);
+$smarty->assign('dalsi',$dalsi);
 
-$smarty->assign_by_ref('trail', $trail->path);
+$smarty->assign('trail', $trail->path);
 $smarty->display('hlavicka.tpl');
 $smarty->display('micky-vyroba.tpl');
 $smarty->display('paticka.tpl');

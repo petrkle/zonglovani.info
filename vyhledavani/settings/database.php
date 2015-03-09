@@ -11,7 +11,7 @@
 		$smarty->assign('titulek','Vyhledávání');
 		$smarty->assign('robots','noindex,nofollow');
 		$smarty->assign('chyba', 'Chyba připojení do databáze');
-		$smarty->assign_by_ref('trail', $trail->path);
+		$smarty->assign('trail', $trail->path);
 		header('HTTP/1.1 500 Service Unavailable');
 		$smarty->display('hlavicka.tpl');
 		$smarty->display('error-db.tpl');
@@ -26,7 +26,7 @@
 		$smarty->assign('titulek','Vyhledávání');
 		$smarty->assign('robots','noindex,nofollow');
 		$smarty->assign('chyba', 'Chyba při výběru databáze');
-		$smarty->assign_by_ref('trail', $trail->path);
+		$smarty->assign('trail', $trail->path);
 		header('HTTP/1.1 500 Service Unavailable');
 		$smarty->display('hlavicka.tpl');
 		$smarty->display('error-db.tpl');

@@ -21,9 +21,9 @@ $dalsi=array(
 	array('url'=>'/nacini.html','text'=>'Žonglérské náčiní','title'=>'S čím vším se dá žonglovat'),
 	array('url'=>'/micky/jak-zacit.html','text'=>'Jak začít žonglovat s míčky','title'=>'Jak začít žonglovat s míčky'),
 	);
-$smarty->assign_by_ref('dalsi',$dalsi);
+$smarty->assign('dalsi',$dalsi);
 
-$smarty->assign_by_ref('trail', $trail->path);
+$smarty->assign('trail', $trail->path);
 $smarty->display('hlavicka.tpl');
 $smarty->display('ostatni-cirkusove-discipliny.tpl');
 $smarty->display('paticka.tpl');

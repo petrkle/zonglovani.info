@@ -21,8 +21,8 @@ $dalsi=array(
 	array('url'=>'/obrazky/carodejnice-klamovka-20080422/0008.html','text'=>'Plivání ohně - obrázky','title'=>'Tohle doma NIKDY nezkoušejte!'),
 	);
 
-$smarty->assign_by_ref('dalsi',$dalsi);
-$smarty->assign_by_ref('trail', $trail->path);
+$smarty->assign('dalsi',$dalsi);
+$smarty->assign('trail', $trail->path);
 $smarty->display('hlavicka.tpl');
 $smarty->display('kuzely-ohen.tpl');
 $smarty->display('paticka.tpl');

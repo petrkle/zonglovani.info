@@ -11,7 +11,7 @@ $smarty->assign('description','Přehledný návod pro nastavení RSS a iCalendar
 $trail = new Trail();
 $trail->addStep('Kalendář',CALENDAR_URL);
 $trail->addStep($titulek);
-$smarty->assign_by_ref('trail', $trail->path);
+$smarty->assign('trail', $trail->path);
 
 $smarty->display('hlavicka.tpl');
 $smarty->display('kalendar-napoveda.tpl');

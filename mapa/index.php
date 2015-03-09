@@ -88,11 +88,11 @@ if(!$poloha){
 	#$smarty->assign('nahled','https://'.$_SERVER['SERVER_NAME'].'/img/m/mapa.png');
 }
 
-$smarty->assign_by_ref('dalsi',$dalsi);
-$smarty->assign_by_ref('trail', $trail->path);
-$smarty->assign_by_ref('poloha',$poloha);
-$smarty->assign_by_ref('k_cz',$k_cz);
-$smarty->assign_by_ref('k_sk',$k_sk);
+$smarty->assign('dalsi',$dalsi);
+$smarty->assign('trail', $trail->path);
+$smarty->assign('poloha',$poloha);
+$smarty->assign('k_cz',$k_cz);
+$smarty->assign('k_sk',$k_sk);
 $smarty->assign('styly',array('m'));
 $smarty->assign('mobilemapa',true);
 $smarty->assign('keywords','mapa, žonglování, žongléři');

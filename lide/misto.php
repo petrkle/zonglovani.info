@@ -44,7 +44,7 @@ if($filtr){
 	}
 	$trail->addStep('Podle místa',LIDE_URL.'misto/');
 	$trail->addStep($pusobiste[$filtr]['nazev']);
-	$smarty->assign_by_ref('trail', $trail->path);
+	$smarty->assign('trail', $trail->path);
 
 $pozice=array_keys($pusobiste);
 $mojepozice=array_search($filtr,$pozice);
@@ -65,7 +65,7 @@ $mojepozice=array_search($filtr,$pozice);
 
 	$smarty->assign('feedback',true);
 	$smarty->assign('styly',array('a'));
-	$smarty->assign_by_ref('navigace',$navigace);
+	$smarty->assign('navigace',$navigace);
 	$smarty->assign('misto',$pusobiste[$filtr]['odkud']);
 	$smarty->display('hlavicka.tpl');
 	$smarty->display('lide-misto.tpl');
@@ -75,7 +75,7 @@ $mojepozice=array_search($filtr,$pozice);
 	$smarty->assign('pusobiste_cz',get_places('CZ',$pusobiste));
 	$smarty->assign('pusobiste_sk',get_places('SK',$pusobiste));
 	$trail->addStep('Podle místa',LIDE_URL.'misto/');
-	$smarty->assign_by_ref('trail', $trail->path);
+	$smarty->assign('trail', $trail->path);
 	$smarty->assign('titulek','Žongléři podle místa působení');
 	$smarty->assign('description','Mapa žonglérů a žonglování v České a Slovenské republice. Najdi nejbližšího žongléra.');
 	$smarty->assign('keywords','žonglování, mapa, žongléři');

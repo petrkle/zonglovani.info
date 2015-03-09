@@ -83,7 +83,7 @@ $smarty->assign('nadpis','Vyhledávání');
 $smarty->assign('notitle',true);
 $smarty->assign('robots','noindex,nofollow');
 
-$smarty->assign_by_ref('trail', $trail->path);
+$smarty->assign('trail', $trail->path);
 $smarty->display('hlavicka.tpl');
 
 include "$language_dir/$language-language.php";

@@ -15,10 +15,10 @@ $chyby=array();
 $trail = new Trail();
 $trail->addStep('Seznam žonglérů',LIDE_URL);
 $trail->addStep($titulek);
-$smarty->assign_by_ref('trail', $trail->path);
+$smarty->assign('trail', $trail->path);
 
 $subject='Vzkaz z žonglérova slabikáře';
-$smarty->assign_by_ref('subject',$subject);
+$smarty->assign('subject',$subject);
 
 if(isset($_POST['komu'])){
 	$komu=strtolower(trim($_POST['komu']));

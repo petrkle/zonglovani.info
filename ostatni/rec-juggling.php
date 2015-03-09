@@ -14,13 +14,13 @@ $dalsi=array(
 	array('url'=>'/odkazy.html','text'=>'Žonglování na síti','title'=>'Odkazy na stránky věnované žonglování'),
 	array('url'=>'/aczslovnicek.html','text'=>'Žonglérský slovníček','title'=>'Anglicko-český žonglérský slovníček'),
 	);
-$smarty->assign_by_ref('dalsi',$dalsi);
+$smarty->assign('dalsi',$dalsi);
 $smarty->assign('nahled','https://'.$_SERVER['SERVER_NAME'].'/img/r/rj.png');
 
 $trail = new Trail();
 $trail->addStep('Informace o žonglování','/ostatni.html');
 $trail->addStep($titulek);
-$smarty->assign_by_ref('trail', $trail->path);
+$smarty->assign('trail', $trail->path);
 
 $smarty->display('hlavicka.tpl');
 $smarty->display('ostatni-rec-juggling.tpl');

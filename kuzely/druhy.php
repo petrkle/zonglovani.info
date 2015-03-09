@@ -13,13 +13,13 @@ $smarty->assign('description','Druhy žonglérských kuželů.');
 $dalsi=array(
 	array('url'=>'/micky/druhy.html','text'=>'Žonglovací míčky','title'=>'Druhy míčků na žonglování.'),
 	);
-$smarty->assign_by_ref('dalsi',$dalsi);
+$smarty->assign('dalsi',$dalsi);
 
 $trail = new Trail();
 $trail->addStep('Kužely','/kuzely/');
 $trail->addStep($titulek);
 
-$smarty->assign_by_ref('trail', $trail->path);
+$smarty->assign('trail', $trail->path);
 
 $smarty->assign('feedback',true);
 

@@ -10,7 +10,7 @@ $smarty->assign('keywords',make_keywords($titulek));
 $smarty->assign('description','Otáčení s kužekou okolo palce.');
 $smarty->assign('nahled','https://'.$_SERVER['SERVER_NAME'].'/img/t/tocenib.png');
 
-$smarty->assign_by_ref('trail', $trail->path);
+$smarty->assign('trail', $trail->path);
 
 $smarty->assign('titulek',$titulek);
 $smarty->assign('feedback',true);

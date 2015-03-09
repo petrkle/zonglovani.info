@@ -9,12 +9,12 @@ $smarty->assign('description','Licence souborů ke stažení');
 $dalsi=array(
 	array('url'=>'/download/','text'=>'Soubory ke stažení','title'=>'Žonglérův slabikář ke stažení'),
 	);
-$smarty->assign_by_ref('dalsi',$dalsi);
+$smarty->assign('dalsi',$dalsi);
 $trail = new Trail();
 $trail->addStep('Soubory ke stažení','/download/');
 $trail->addStep($titulek);
 
-	$smarty->assign_by_ref('trail', $trail->path);
+	$smarty->assign('trail', $trail->path);
 	$smarty->display('hlavicka.tpl');
 	$smarty->display('download.licence.tpl');
 	$smarty->display('paticka.tpl');

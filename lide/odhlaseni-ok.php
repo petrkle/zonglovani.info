@@ -12,7 +12,7 @@ $smarty->assign('nadpis','Odhlášení proběhlo úspěšně');
 
 $trail = new Trail();
 $trail->addStep('Odhlášení');
-$smarty->assign_by_ref('trail', $trail->path);
+$smarty->assign('trail', $trail->path);
 
 $smarty->display('hlavicka.tpl');
 $smarty->display('lide-odhlaseni-ok.tpl');

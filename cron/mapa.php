@@ -20,7 +20,7 @@ foreach(get_loginy() as $login){
 }
 
 
-$smarty->assign_by_ref('mista',$mista);
+$smarty->assign('mista',$mista);
 
 $mapa=$smarty->fetch('mapa-zongleri.tpl');
 print '<pre>'.htmlspecialchars($mapa).'</pre>';

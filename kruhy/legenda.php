@@ -12,7 +12,7 @@ $smarty->assign('description','Legenda pro obrázkové návody na žonglování 
 $trail = new Trail();
 $trail->addStep('Kruhy','/kruhy/');
 $trail->addStep('Legenda');
-$smarty->assign_by_ref('trail', $trail->path);
+$smarty->assign('trail', $trail->path);
 
 $smarty->display('hlavicka.tpl');
 $smarty->display('kruhy-legenda.tpl');

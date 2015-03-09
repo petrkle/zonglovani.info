@@ -59,14 +59,14 @@ if($id){
 
 		$trail->addStep($animace[$id]['skupina'],'/animace/siteswap/#'.$animace[$id]['pocet']);
 		$trail->addStep($id);
-		$smarty->assign_by_ref('trail', $trail->path);
+		$smarty->assign('trail', $trail->path);
 		$smarty->assign('keywords',$id.', animace, žonglování, siteswap, juggleanim, návod');
 		$smarty->assign('description','Siteswap '.$id);
 		$smarty->assign('titulek',$id.' - siteswap');
 		$smarty->assign('nahled','https://'.$_SERVER['SERVER_NAME'].'/animace/nahledy/'.$id.'.png');
 		$smarty->assign('nadpis',$id);
-		$smarty->assign_by_ref('navigace',$navigace);
-		$smarty->assign_by_ref('animace',$animace[$id]);
+		$smarty->assign('navigace',$navigace);
+		$smarty->assign('animace',$animace[$id]);
 		$smarty->display('hlavicka.tpl');
 		$smarty->display('animace-siteswap.tpl');
 		$smarty->display('paticka.tpl');
@@ -76,13 +76,13 @@ if($id){
 	}
 
 }else{
-	$smarty->assign_by_ref('nazvy', $nazvy);
-	$smarty->assign_by_ref('trail', $trail->path);
+	$smarty->assign('nazvy', $nazvy);
+	$smarty->assign('trail', $trail->path);
 	$smarty->assign('keywords','animace, žonglování, siteswap, juggleanim');
 	$smarty->assign('description','Animace žonglování siteswapů s míčky.');
 	$smarty->assign('titulek',$titulek);
-	$smarty->assign_by_ref('dalsi',$dalsi);
-	$smarty->assign_by_ref('animace',$animace);
+	$smarty->assign('dalsi',$dalsi);
+	$smarty->assign('animace',$animace);
 	$smarty->assign('nahled','https://'.$_SERVER['SERVER_NAME'].'/img/a/animace-panacek.png');
 	$smarty->display('hlavicka.tpl');
 	$smarty->display('animace-siteswap-index.tpl');

@@ -12,7 +12,7 @@ $smarty->assign('description','Návod na výrobu chůd a žonglování na chůd�
 $trail = new Trail();
 $trail->addStep($titulek);
 
-$smarty->assign_by_ref('trail', $trail->path);
+$smarty->assign('trail', $trail->path);
 $smarty->display('hlavicka.tpl');
 $smarty->display('chudy.tpl');
 $smarty->display('paticka.tpl');

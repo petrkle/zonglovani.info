@@ -23,7 +23,7 @@ $nazvy=array(
 	'n'=>'Mnoho míčků'
 	);
 
-$smarty->assign_by_ref('nazvy', $nazvy);
+$smarty->assign('nazvy', $nazvy);
 $animace=get_animace($nameless);
 $smarty->assign('feedback',true);
 
@@ -83,14 +83,14 @@ if($id){
 			$trail->addStep($nazvy[$animace[$id]['pocet']],'/animace/#'.$animace[$id]['pocet']);
 		}
 		$trail->addStep($animace[$id]['popis']);
-		$smarty->assign_by_ref('trail', $trail->path);
+		$smarty->assign('trail', $trail->path);
 		$smarty->assign('keywords',$animace[$id]['popis'].', animace, žonglování, siteswap, juggleanim, návod');
 		$smarty->assign('description',$animace[$id]['popis'].' - animace žonglování s míčky');
 		$smarty->assign('titulek',$animace[$id]['popis'].' - animovaný návod na žonglování');
 		$smarty->assign('nahled','https://'.$_SERVER['SERVER_NAME'].'/animace/nahledy/'.$id.'.png');
 		$smarty->assign('nadpis',$animace[$id]['popis']);
-		$smarty->assign_by_ref('navigace',$navigace);
-		$smarty->assign_by_ref('animace',$animace[$id]);
+		$smarty->assign('navigace',$navigace);
+		$smarty->assign('animace',$animace[$id]);
 		$smarty->display('hlavicka.tpl');
 		$smarty->display('animace.tpl');
 		$smarty->display('paticka.tpl');
@@ -100,11 +100,11 @@ if($id){
 	}
 
 }else{
-	$smarty->assign_by_ref('dalsi',$dalsi);
-	$smarty->assign_by_ref('trail', $trail->path);
+	$smarty->assign('dalsi',$dalsi);
+	$smarty->assign('trail', $trail->path);
 	$smarty->assign('keywords','animace, žonglování, siteswap, juggleanim');
 	$smarty->assign('titulek',$titulek);
-	$smarty->assign_by_ref('animace',$animace);
+	$smarty->assign('animace',$animace);
 	$smarty->assign('nahled','https://'.$_SERVER['SERVER_NAME'].'/img/a/animace-panacek.png');
 	$smarty->display('hlavicka.tpl');
 	$smarty->display('animace-index.tpl');

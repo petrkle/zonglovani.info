@@ -13,7 +13,7 @@ $smarty->assign('keywords',make_keywords($titulek));
 $smarty->assign('description','Sbírání spadlých žonglovacích míčků ze země.');
 $smarty->assign('nahled','https://'.$_SERVER['SERVER_NAME'].'/img/m/micky-sbirania.png');
 
-$smarty->assign_by_ref('trail', $trail->path);
+$smarty->assign('trail', $trail->path);
 
 $trik=nacti_trik('micky-sbirani');
 $smarty->assign('trik',$trik);

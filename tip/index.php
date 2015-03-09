@@ -84,7 +84,7 @@ if($pager->getCurrentPageID()>1){
 
 	$smarty->assign('description',$popis);
 	$smarty->assign('titulek',$titulek);
-	$smarty->assign_by_ref('trail', $trail->path);
+	$smarty->assign('trail', $trail->path);
 	$smarty->display('hlavicka.tpl');
 	$smarty->display('tip.list.tpl');
 	$smarty->display('paticka.tpl');

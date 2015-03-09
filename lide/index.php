@@ -76,7 +76,7 @@ $hlavicky['posledni']='<link rel="last" href="'.LIDE_URL.'stranka'.$pager->numPa
 $hlavicky['nahoru']='<link rel="up" href="/" />';
 
 if(count($hlavicky)>0){
-	$smarty->assign_by_ref('custom_headers',$hlavicky);
+	$smarty->assign('custom_headers',$hlavicky);
 }
 
 $smarty->assign('nadpis','Seznam žonglérů');
@@ -86,7 +86,7 @@ $trail = new Trail();
 $trail->addStep($titulek,LIDE_URL);
 $smarty->assign('feedback',true);
 
-$smarty->assign_by_ref('trail', $trail->path);
+$smarty->assign('trail', $trail->path);
 $smarty->assign('titulek',$titulek);
 $smarty->display('hlavicka.tpl');
 $smarty->display('lide.tpl');

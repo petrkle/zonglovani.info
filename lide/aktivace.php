@@ -12,7 +12,7 @@ if(isset($_GET['mail'])){
 	$smarty->assign('chyba','jo');
 }
 
-$smarty->assign_by_ref('trail', $trail->path);
+$smarty->assign('trail', $trail->path);
 $smarty->assign('titulek',$titulek);
 $smarty->display('hlavicka.tpl');
 $smarty->display('aktivace.tpl');

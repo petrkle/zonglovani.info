@@ -25,7 +25,7 @@ if(isset($_GET['json'])){
     header('HTTP/1.1 400 Bad Request');
     exit();
   }
-		$smarty->assign_by_ref('callback',$_GET['callback']);
+		$smarty->assign('callback',$_GET['callback']);
 	}
 	header('Content-Type: application/json');
 	$smarty->display('kalendar-next-json.tpl');

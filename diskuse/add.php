@@ -32,7 +32,7 @@ $cas=time();
 			$smarty->assign('nahled',true);
 			$smarty->assign('cas_hr',date('G.i',$cas));
 			$smarty->assign('datum_hr',date('j. n. Y',$cas));
-			$smarty->assign_by_ref('uzivatel',$_SESSION['uzivatel']);
+			$smarty->assign('uzivatel',$_SESSION['uzivatel']);
 			$smarty->assign('titulek','Diskuse o žonglování - náhled nové zprávy');
 	}
 

@@ -20,12 +20,12 @@ $dalsi=array(
 	array('url'=>'/toolbox.html','text'=>'Použitý software','title'=>'Seznam použitých programů'),
 	array('url'=>'/scripts/','text'=>'Skripty','title'=>'Skripty pro správu webu'),
 	);
-$smarty->assign_by_ref('dalsi',$dalsi);
+$smarty->assign('dalsi',$dalsi);
 
 $trail = new Trail();
 $trail->addStep($titulek);
-$smarty->assign_by_ref('trail', $trail->path);
-$smarty->assign_by_ref('vypis', $vypis);
+$smarty->assign('trail', $trail->path);
+$smarty->assign('vypis', $vypis);
 
 $smarty->display('hlavicka.tpl');
 $smarty->display('css.tpl');

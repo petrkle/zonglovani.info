@@ -14,7 +14,7 @@ $trail = new Trail();
 $trail->addStep('Seznam žonglérů',LIDE_URL);
 $trail->addStep($titulek);
 
-$smarty->assign_by_ref('trail', $trail->path);
+$smarty->assign('trail', $trail->path);
 
 if(is_logged()){
 	header('Location: '.LIDE_URL.'nastaveni');
@@ -94,9 +94,9 @@ if(!preg_match('/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{
 		$subject='Obnovení hesla';
 		$splmail=preg_split('/@/',$uzivatel['email']);
 
-		$smarty->assign_by_ref('subject', $subject);
-		$smarty->assign_by_ref('splmail', $splmail);
-		$smarty->assign_by_ref('key', $key);
+		$smarty->assign('subject', $subject);
+		$smarty->assign('splmail', $splmail);
+		$smarty->assign('key', $key);
 
 		$vysledek = sendmail(array(
 			'from'=>'robot@zonglovani.info',

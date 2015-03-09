@@ -12,17 +12,17 @@ $dalsi=array(
 	array('url'=>'/toolbox.html','text'=>'Použitý software','title'=>'Seznam použitého software'),
 
 	);
-$smarty->assign_by_ref('dalsi',$dalsi);
+$smarty->assign('dalsi',$dalsi);
 $trail = new Trail();
 
 $trail->addStep($titulek);
-$smarty->assign_by_ref('trail', $trail->path);
+$smarty->assign('trail', $trail->path);
 
 $pm='../scripts/tests/pm.txt';
 
 if(is_file($pm)){
 	$pm=file($pm,FILE_IGNORE_NEW_LINES);
-	$smarty->assign_by_ref('pm',$pm);
+	$smarty->assign('pm',$pm);
 }
 
 $smarty->display('hlavicka.tpl');

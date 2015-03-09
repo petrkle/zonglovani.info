@@ -12,11 +12,11 @@ $smarty->assign('description','Zdrojové soubory žonglérova slabikáře');
 $dalsi=array(
 	array('url'=>'https://github.com/petrkle/zonglovani.info','text'=>'github.com/petrkle/zonglovani.info','title'=>'Zdrojový kód žonglérova slabikáře'),
 	);
-$smarty->assign_by_ref('dalsi',$dalsi);
+$smarty->assign('dalsi',$dalsi);
 
 $trail = new Trail();
 $trail->addStep($titulek);
-$smarty->assign_by_ref('trail', $trail->path);
+$smarty->assign('trail', $trail->path);
 $smarty->display('hlavicka.tpl');
 $smarty->display('opensource.tpl');
 $smarty->display('paticka.tpl');

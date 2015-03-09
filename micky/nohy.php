@@ -14,13 +14,13 @@ $dalsi=array(
 	array('url'=>'/micky/drop.html','text'=>'Míčky na zemi','title'=>'Výmluvy'),
 	array('url'=>'/micky/kick-up.html','text'=>'Zvednutí míčku nohou','title'=>'Elegantní způsob jak zvednout míček ze země'),
 	);
-$smarty->assign_by_ref('dalsi',$dalsi);
+$smarty->assign('dalsi',$dalsi);
 
 $trail = new Trail();
 $trail->addStep('Míčky','/micky/');
 $trail->addStep($titulek);
 
-$smarty->assign_by_ref('trail', $trail->path);
+$smarty->assign('trail', $trail->path);
 $smarty->display('hlavicka.tpl');
 $smarty->display('micky-nohy.tpl');
 $smarty->display('paticka.tpl');

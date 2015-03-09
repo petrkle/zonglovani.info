@@ -10,7 +10,7 @@ $smarty->assign('nahled','https://'.$_SERVER['SERVER_NAME'].'/img/p/pf-2011-asci
 $trail = new Trail();
 $trail->addStep('Tip týdne','/tip');
 $trail->addStep($titulek);
-$smarty->assign_by_ref('trail', $trail->path);
+$smarty->assign('trail', $trail->path);
 $smarty->display('hlavicka.tpl');
 $smarty->display('ostatni-pf-2011.tpl');
 $smarty->display('paticka.tpl');

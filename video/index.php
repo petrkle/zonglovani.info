@@ -71,9 +71,9 @@ $smarty->assign(
     )
 );
 
-$smarty->assign_by_ref('dalsi',$dalsi);
+$smarty->assign('dalsi',$dalsi);
 $smarty->assign('feedback',true);
-$smarty->assign_by_ref('trail', $trail->path);
+$smarty->assign('trail', $trail->path);
 $smarty->assign('pager_links', $pager->links);
 $smarty->assign('videa',$data);
 $smarty->display('hlavicka.tpl');

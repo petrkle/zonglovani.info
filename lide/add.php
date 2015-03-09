@@ -54,8 +54,8 @@ fclose($foo);
 $subject = 'Vítej v žonglérově slabikáři';
 $uzivatel = array('email'=>$_SESSION['reg_email'],'heslo'=>$heslo);
 
-$smarty->assign_by_ref('uzivatel',$uzivatel);
-$smarty->assign_by_ref('subject',$subject);
+$smarty->assign('uzivatel',$uzivatel);
+$smarty->assign('subject',$subject);
 
 $vysledek = sendmail(array(
 	'from'=>'robot@zonglovani.info',

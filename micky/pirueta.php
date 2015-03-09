@@ -15,12 +15,12 @@ $dalsi=array(
 	array('url'=>'/kuzely/passing/rychla-otocka.html','text'=>'Rychlá otočka','title'=>'Rychlá otočka při passování s kužely'),
 	);
 
-$smarty->assign_by_ref('dalsi',$dalsi);
+$smarty->assign('dalsi',$dalsi);
 $trail = new Trail();
 $trail->addStep('Míčky','/micky/');
 $trail->addStep($titulek);
 
-$smarty->assign_by_ref('trail', $trail->path);
+$smarty->assign('trail', $trail->path);
 $smarty->display('hlavicka.tpl');
 $smarty->display('micky-pirueta.tpl');
 $smarty->display('paticka.tpl');

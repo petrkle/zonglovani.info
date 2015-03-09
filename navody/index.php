@@ -14,9 +14,9 @@ $dalsi=array(
 	array('url'=>LIDE_URL.'pravidla.php','text'=>'Založení nového účtu','title'=>'Vytvoření účtu v žonglérově slabikáři'),
 	array('url'=>'/literatura.html','text'=>'Literatura o žonglování','title'=>'Knížky o žonglování'),
 	);
-$smarty->assign_by_ref('dalsi',$dalsi);
+$smarty->assign('dalsi',$dalsi);
 
-$smarty->assign_by_ref('trail', $trail->path);
+$smarty->assign('trail', $trail->path);
 $smarty->assign('titulek',$titulek);
 $smarty->display('hlavicka.tpl');
 $smarty->display('navody.tpl');

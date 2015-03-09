@@ -57,7 +57,7 @@ $trail->addStep($juggling_events[$id]['title'],'/video/'.$id.'/');
 if($pager->getCurrentPageID()>1){
 	$trail->addStep($pager->getCurrentPageID().'. stránka','/video/stranka'.$pager->getCurrentPageID().'.html');
 }
-$smarty->assign_by_ref('trail', $trail->path);
+$smarty->assign('trail', $trail->path);
 
 $smarty->assign(
     'page_numbers', array(
@@ -78,8 +78,8 @@ $dalsi=array(
 	}
 
 $smarty->assign('pager_links', $pager->links);
-$smarty->assign_by_ref('dalsi',$dalsi);
-$smarty->assign_by_ref('videa',$data);
+$smarty->assign('dalsi',$dalsi);
+$smarty->assign('videa',$data);
 $smarty->display('hlavicka.tpl');
 $smarty->display('video-index.tpl');
 $smarty->display('paticka.tpl');

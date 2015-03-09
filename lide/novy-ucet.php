@@ -6,7 +6,7 @@ session_name('ZS');
 session_start();
 
 $titulek='Založit účet';
-$smarty->assign_by_ref('titulek',$titulek);
+$smarty->assign('titulek',$titulek);
 $smarty->assign('description','Založení nového účtu v žonglérově slabikáři. Zviditelni se v žonglérském světě.');
 
 $trail = new Trail();
@@ -107,7 +107,7 @@ if(count($chyby)==0){
 	$_SESSION['antispam_odpoved']=$antispam[1];
 	$smarty->assign('antispam_otazka',$_SESSION['antispam_otazka']);
 	$smarty->assign('antispam_odpoved',$_SESSION['antispam_odpoved']);
-	$smarty->assign_by_ref('trail', $trail->path);
+	$smarty->assign('trail', $trail->path);
 	$smarty->assign('chyby',$chyby);
 	$smarty->display('hlavicka.tpl');
 	$smarty->display('novy-ucet.tpl');
@@ -125,9 +125,9 @@ if(count($chyby)==0){
 		array('url'=>'/exkurze.html','text'=>'Náhled do žonglérova slabikáře','title'=>'Možnožnosti nastavení v žonglérově slabikáři'),
 		array('url'=>LIDE_URL,'text'=>'Seznam žongléřů','title'=>'Seznam uživatelů žonglérova slabikáře'),
 		);
-	$smarty->assign_by_ref('dalsi',$dalsi);
+	$smarty->assign('dalsi',$dalsi);
 
-	$smarty->assign_by_ref('trail', $trail->path);
+	$smarty->assign('trail', $trail->path);
 	$smarty->display('hlavicka.tpl');
 	$smarty->display('novy-ucet.tpl');
 	$smarty->display('paticka.tpl');

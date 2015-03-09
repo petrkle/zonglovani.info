@@ -13,11 +13,11 @@ $dalsi=array(
 	array('url'=>LIDE_URL.'novy-ucet.php','text'=>'Založit účet','title'=>'Vytvoření nového účtu'),
 	array('url'=>LIDE_URL,'text'=>'Seznam žongléřů','title'=>'Seznam uživatelů žonglérova slabikáře'),
 	);
-$smarty->assign_by_ref('dalsi',$dalsi);
+$smarty->assign('dalsi',$dalsi);
 
 $trail = new Trail();
 $trail->addStep($titulek);
-$smarty->assign_by_ref('trail', $trail->path);
+$smarty->assign('trail', $trail->path);
 $smarty->display('hlavicka.tpl');
 $smarty->display('exkurze.tpl');
 $smarty->display('paticka.tpl');

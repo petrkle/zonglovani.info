@@ -11,7 +11,7 @@ $trail = new Trail();
 $trail->addStep('Kužely','/kuzely/');
 $trail->addStep('Headrool');
 
-$smarty->assign_by_ref('trail', $trail->path);
+$smarty->assign('trail', $trail->path);
 
 $smarty->assign('titulek',$titulek);
 $smarty->assign('feedback',true);

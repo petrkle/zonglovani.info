@@ -18,9 +18,9 @@ $dalsi=array(
 	array('url'=>'http://facebook.com/zongleruv.slabikar','text'=>'Žonglérův slabikář na Facebooku','title'=>'Facebook'),
 	array('url'=>'/twitter.html','text'=>'Twitter - novinky o žonglování','title'=>'Twitter'),
 	);
-$smarty->assign_by_ref('dalsi',$dalsi);
+$smarty->assign('dalsi',$dalsi);
 
-$smarty->assign_by_ref('trail', $trail->path);
+$smarty->assign('trail', $trail->path);
 $smarty->display('hlavicka.tpl');
 $smarty->display('ostatni-rss.tpl');
 $smarty->display('paticka.tpl');

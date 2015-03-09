@@ -224,10 +224,10 @@ if($id and $photo){
 	$hlavicky['nahoru']='<link rel="up" href="'.OBRAZKY_URL.$id.$page.'" />';
 
 	if(count($hlavicky)>0){
-		$smarty->assign_by_ref('custom_headers',$hlavicky);
+		$smarty->assign('custom_headers',$hlavicky);
 	}
 			
-			$smarty->assign_by_ref('trail', $trail->path);
+			$smarty->assign('trail', $trail->path);
 			$smarty->assign('titulek',$titulek);
 			$smarty->assign('nadpis',$gal_info['title']);
 			$smarty->assign('gal_info',$gal_info);
@@ -294,11 +294,11 @@ if($id and $photo){
 	$hlavicky['nahoru']='<link rel="up" href="'.OBRAZKY_URL.'" />';
 
 	if(count($hlavicky)>0){
-		$smarty->assign_by_ref('custom_headers',$hlavicky);
+		$smarty->assign('custom_headers',$hlavicky);
 	}
 
-		$smarty->assign_by_ref('dalsi',$dalsi);
-		$smarty->assign_by_ref('trail', $trail->path);
+		$smarty->assign('dalsi',$dalsi);
+		$smarty->assign('trail', $trail->path);
 		$smarty->assign('titulek',$titulek);
 		$smarty->assign('gal_info',$gal_info);
 		$smarty->display('hlavicka.tpl');
@@ -320,7 +320,7 @@ if($id and $photo){
 		}
 	}
 	$smarty->assign('galerie',$galerie);
-	$smarty->assign_by_ref('trail', $trail->path);
+	$smarty->assign('trail', $trail->path);
 	$smarty->display('hlavicka.tpl');
 	$smarty->display('obrazky-filtr.tpl');
 	$smarty->display('paticka.tpl');
@@ -328,7 +328,7 @@ if($id and $photo){
 	$trail->addStep('Filtr obrázků');
 	$smarty->assign('description','Filtry žonglérských obrázků.');
 	$smarty->assign('titulek','Filtry obrázků');
-	$smarty->assign_by_ref('trail', $trail->path);
+	$smarty->assign('trail', $trail->path);
 	$smarty->display('hlavicka.tpl');
 	$smarty->display('obrazky-filtry.tpl');
 	$smarty->display('paticka.tpl');
@@ -415,14 +415,14 @@ if($id and $photo){
 	$hlavicky['nahoru']='<link rel="up" href="/" />';
 
 	if(count($hlavicky)>0){
-		$smarty->assign_by_ref('custom_headers',$hlavicky);
+		$smarty->assign('custom_headers',$hlavicky);
 	}
 
 	$smarty->assign('description',$desc);
-	$smarty->assign_by_ref('dalsi',$dalsi);
-	$smarty->assign_by_ref('trail', $trail->path);
+	$smarty->assign('dalsi',$dalsi);
+	$smarty->assign('trail', $trail->path);
 	$smarty->assign('titulek',$titulek);
-	$smarty->assign_by_ref('galerie',$data);
+	$smarty->assign('galerie',$data);
 	$smarty->display('hlavicka.tpl');
 	$smarty->display('obrazky-index.tpl');
 	$smarty->display('paticka.tpl');

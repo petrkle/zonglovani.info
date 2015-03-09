@@ -13,7 +13,7 @@ $smarty->assign('titulek',$titulek);
 $trail = new Trail();
 $trail->addStep('Seznam žonglérů',LIDE_URL);
 $trail->addStep($titulek);
-$smarty->assign_by_ref('trail', $trail->path);
+$smarty->assign('trail', $trail->path);
 
 if(isset($_GET['status']) and $_GET['status']=='ok' and isset($_SESSION['load_user'])){
 		load_user($_SESSION['load_user']);

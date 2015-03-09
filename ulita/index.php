@@ -16,13 +16,13 @@ $smarty->assign('icbm','50.094605, 14.481742');
 
 $trail = new Trail();
 $trail->addStep($titulek);
-$smarty->assign_by_ref('trail', $trail->path);
+$smarty->assign('trail', $trail->path);
 
 $dalsi=array(
 	array('url'=>'/ulita/cesta.html','text'=>'Jak se dostat do Ulity','title'=>'Popis cesty'),
 	array('url'=>CALENDAR_URL,'text'=>'Kalendář žonglérských akcí','title'=>'Kam jít žonglovat'),
 	);
-$smarty->assign_by_ref('dalsi',$dalsi);
+$smarty->assign('dalsi',$dalsi);
 
 $smarty->assign('podzim',to_ulita($podzim));
 $smarty->assign('jaro',to_ulita($jaro));

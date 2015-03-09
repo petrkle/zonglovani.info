@@ -17,9 +17,9 @@ $dalsi=array(
 	array('url'=>'/kuzely/jak-zacit.html','text'=>'Jak začít žonglovat s kužely','title'=>'Rychlý návod pro začátečníky'),
 	array('url'=>'/kuzely/vyroba.html','text'=>'Výroba kuželů na žonglování','title'=>'Jak vyrobit kužel na žonglování z novin'),
 	);
-$smarty->assign_by_ref('dalsi',$dalsi);
+$smarty->assign('dalsi',$dalsi);
 
-$smarty->assign_by_ref('trail', $trail->path);
+$smarty->assign('trail', $trail->path);
 $smarty->display('hlavicka.tpl');
 $smarty->display('kuzely-konstrukce.tpl');
 $smarty->display('paticka.tpl');

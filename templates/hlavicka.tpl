@@ -17,7 +17,7 @@
 <!--[if lt IE 9]>
 	<link rel="stylesheet" type="text/css" href="/z-{$smarty.const.CSS_CHKSUM}.css">
 <![endif]-->
-{if $styly}
+{if isset($styly)}
 {foreach from=$styly item=styl}
 	<link rel="stylesheet" media="screen and (min-width: 610px)" type="text/css" href="/{$styl}-{$smarty.const.CSS_CHKSUM}.css" />
 <!--[if lt IE 9]>
@@ -25,7 +25,7 @@
 <![endif]-->
 {/foreach}
 {/if}
-{if $custom_headers}
+{if isset($custom_headers)}
 {foreach from=$custom_headers item=hlavicka}
 	{$hlavicka}
 {/foreach}
@@ -43,13 +43,9 @@
 
 </head>
 <body>
-{php}
-ob_flush();
-flush();
-{/php}
 <div id="hlavicka">
 <!-- start -->
-<div id="ucet">{if $smarty.session.logged==true}<a href="{$smarty.const.LIDE_URL}{$smarty.session.uzivatel.login|escape}.html" title="Tvůj účet.">{$smarty.session.uzivatel.jmeno|escape}</a> ~ <a href="{$smarty.const.LIDE_URL}nastaveni/" title="Nastavení tvého účtu.">Nastavení</a> ~ <a href="{$smarty.const.LIDE_URL}odhlaseni.php" title="Odhlásit se">Odhlásit</a>{else}
+<div id="ucet">{if $smarty.session.logged}<a href="{$smarty.const.LIDE_URL}{$smarty.session.uzivatel.login|escape}.html" title="Tvůj účet.">{$smarty.session.uzivatel.jmeno|escape}</a> ~ <a href="{$smarty.const.LIDE_URL}nastaveni/" title="Nastavení tvého účtu.">Nastavení</a> ~ <a href="{$smarty.const.LIDE_URL}odhlaseni.php" title="Odhlásit se">Odhlásit</a>{else}
  {if basename($smarty.server.SCRIPT_NAME)!="prihlaseni.php"}<a href="{$smarty.const.LIDE_URL}prihlaseni.php{if $smarty.server.REQUEST_URI!="/"}?next={$smarty.server.REQUEST_URI|escape}{/if}" title="Přihlášení do žonglérova slabikáře" rel="nofollow">Přihlášení</a> ~ {/if}<a href="{$smarty.const.LIDE_URL}novy-ucet.php" title="Vytvořit nový účet v žonglérově slabikáři.">Založit účet</a>{/if}
 </div>
 <!-- stop -->
@@ -62,7 +58,7 @@ flush();
 <div id="stranka">
 <div id="ramecek">
 <div id="obsah">
-{if $trail}
+{if isset($trail)}
 <p class="drobky">
 Jste zde: {drobecky trail=$trail}
 </p>

@@ -8,7 +8,7 @@ $smarty->assign('titulek',$titulek);
 $trail = new Trail();
 $trail->addStep('Seznam žonglérů',LIDE_URL);
 $trail->addStep($titulek);
-$smarty->assign_by_ref('trail', $trail->path);
+$smarty->assign('trail', $trail->path);
 
 if(isset($_GET['status'])){
 	$status=trim($_GET['status']);

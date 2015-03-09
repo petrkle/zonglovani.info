@@ -47,7 +47,7 @@ $smarty->assign('keywords','horoskop, žonglování, trénink');
 
 if($_SERVER['REQUEST_URI']=='/horoskop/' or $_SERVER['REQUEST_URI']=='/horoskop/zitra/'){
 	$smarty->assign('feedback',true);
-	$smarty->assign_by_ref('trail', $trail->path);
+	$smarty->assign('trail', $trail->path);
 	$smarty->assign('titulek',$nadpis);
 	$smarty->display('hlavicka.tpl');
 	$smarty->display('horoskop-index.tpl');
@@ -59,7 +59,7 @@ $titulek=$nadpis.' - '.$zverokruh[$znameni]['popis'];
 
 
 $trail->addStep($zverokruh[$znameni]['popis'],'/horoskop/');
-$smarty->assign_by_ref('trail', $trail->path);
+$smarty->assign('trail', $trail->path);
 $smarty->assign('nahled','https://'.$_SERVER['SERVER_NAME'].'/img/h/horoskop-'.$znameni.'.png');
 if(isset($_GET['zitra'])){
 	$dodatek=' na zítra';

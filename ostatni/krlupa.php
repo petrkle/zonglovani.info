@@ -12,8 +12,8 @@ $dalsi=array(
 	array('url'=>'http://kristalova.lupa.cz/nominace/','text'=>'Formulář pro nominaci','title'=>'Formulář pro nominaci žonglérova slabikáře do Křišťálové lupy.'),
 	array('url'=>'/podporte-zongleruv-slabikar.html','text'=>'Další možnosti podpory žonglérova slabikáře','title'=>'Vložení odkazu na web a tak.')
 	);
-$smarty->assign_by_ref('dalsi',$dalsi);
-$smarty->assign_by_ref('trail', $trail->path);
+$smarty->assign('dalsi',$dalsi);
+$smarty->assign('trail', $trail->path);
 $smarty->display('hlavicka.tpl');
 $smarty->display('ostatni-krlupa.tpl');
 $smarty->display('paticka.tpl');

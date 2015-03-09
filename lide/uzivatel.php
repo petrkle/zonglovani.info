@@ -62,11 +62,11 @@ $mojepozice=array_search($id,$pozice);
 	$hlavicky['nahoru']='<link rel="up" href="'.LIDE_URL.'" />';
 
 	if(count($hlavicky)>0){
-		$smarty->assign_by_ref('custom_headers',$hlavicky);
+		$smarty->assign('custom_headers',$hlavicky);
 	}
 
 	$smarty->assign('styly',array('a'));
-	$smarty->assign_by_ref('navigace',$navigace);
+	$smarty->assign('navigace',$navigace);
 
 	$smarty->assign('keywords',make_keywords($uzivatel_props['jmeno'].' '.' žonglér, žonglérka'));
 	$smarty->assign('description',$uzivatel_props['jmeno'].' - žonglování');
@@ -82,7 +82,7 @@ $mojepozice=array_search($id,$pozice);
 	$smarty->assign('hcard',true);
 
 	$trail->addStep($uzivatel_props['jmeno']);
-	$smarty->assign_by_ref('trail', $trail->path);
+	$smarty->assign('trail', $trail->path);
 	$smarty->display('hlavicka.tpl');
 	$smarty->display('uzivatel.tpl');
 	$smarty->display('paticka.tpl');

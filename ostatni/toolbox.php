@@ -18,9 +18,9 @@ $dalsi=array(
 	array('url'=>'https://github.com/petrkle/zonglovani.info/','text'=>'github.com/petrkle/zonglovani.info','title'=>'Zdrojové kódy žonglérova slabikáře'),
 	array('url'=>'/css/','text'=>'Kaskádové styly','title'=>'Seznam kaskádových stylů'),
 	);
-$smarty->assign_by_ref('dalsi',$dalsi);
+$smarty->assign('dalsi',$dalsi);
 
-$smarty->assign_by_ref('trail', $trail->path);
+$smarty->assign('trail', $trail->path);
 $smarty->display('hlavicka.tpl');
 $smarty->display('toolbox.tpl');
 $smarty->display('paticka.tpl');

@@ -15,13 +15,13 @@ $dalsi=array(
 	array('url'=>'/kuzely/kickup.html','text'=>'Zvednutí kuželu nohou','title'=>'Neustálé shýbání pro spadlé kužely se stane minulostí'),
 	array('url'=>'/micky/3/neviditelny.html','text'=>'Neviditelný míček','title'=>'Neviditelný míček nahrazuje obyčejný míček'),
 	);
-$smarty->assign_by_ref('dalsi',$dalsi);
+$smarty->assign('dalsi',$dalsi);
 
 $trail = new Trail();
 $trail->addStep('Míčky','/micky/');
 $trail->addStep($titulek);
 
-$smarty->assign_by_ref('trail', $trail->path);
+$smarty->assign('trail', $trail->path);
 $smarty->display('hlavicka.tpl');
 $smarty->display('micky-drop.tpl');
 $smarty->display('paticka.tpl');

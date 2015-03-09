@@ -12,7 +12,7 @@ if(is_logged()){
 	$trail->addStep('Seznam žonglérů',LIDE_URL);
 	$trail->addStep($titulek);
 
-	$smarty->assign_by_ref('trail', $trail->path);
+	$smarty->assign('trail', $trail->path);
 	$smarty->display('hlavicka.tpl');
 	$smarty->display('pravidla.tpl');
 	$smarty->display('paticka.tpl');

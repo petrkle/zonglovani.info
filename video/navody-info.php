@@ -21,9 +21,9 @@ $dalsi=array(
 	array('url'=>'http://juggling.tv/users/4431/zonglovani.info','text'=>'Žonglérův slabikář na juggling.tv','title'=>'juggling.tv'),
 	array('url'=>'http://www.youtube.com/ZongleruvSlabikar','text'=>'Žonglérův slabikář na youtube.com','title'=>'youtube.com'),
 	);
-$smarty->assign_by_ref('dalsi',$dalsi);
+$smarty->assign('dalsi',$dalsi);
 
-$smarty->assign_by_ref('trail', $trail->path);
+$smarty->assign('trail', $trail->path);
 $smarty->display('hlavicka.tpl');
 $smarty->display('navody-info.tpl');
 $smarty->display('paticka.tpl');

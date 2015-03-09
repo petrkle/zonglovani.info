@@ -13,12 +13,12 @@ $smarty->assign('nahled','https://'.$_SERVER['SERVER_NAME'].'/img/w/wjd12.png');
 $dalsi=array(
 	array('url'=>CALENDAR_URL,'text'=>'Kalendář žonglérských akcí','title'=>'Další žonglérské akce'),
 	);
-$smarty->assign_by_ref('dalsi',$dalsi);
+$smarty->assign('dalsi',$dalsi);
 
 $trail = new Trail();
 $trail->addStep('Kalendář',CALENDAR_URL);
 $trail->addStep($titulek);
-$smarty->assign_by_ref('trail', $trail->path);
+$smarty->assign('trail', $trail->path);
 
 $smarty->display('hlavicka.tpl');
 $smarty->display('kalendar-sdz12.tpl');

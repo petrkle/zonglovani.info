@@ -6,7 +6,7 @@ require_once('func.php');
 $smarty->assign('titulek','Služba je dočasně nedostupná');
 $trail = new Trail();
 $trail->addStep('Dočasně nedostupné');
-$smarty->assign_by_ref('trail', $trail->path);
+$smarty->assign('trail', $trail->path);
 $smarty->display('hlavicka.tpl');
 $smarty->display('503.tpl');
 $smarty->display('paticka.tpl');

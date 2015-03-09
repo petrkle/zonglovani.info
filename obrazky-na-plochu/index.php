@@ -20,8 +20,8 @@ if(isset($_GET['id'])){
 		$smarty->assign('keywords','obrázky, žonglování, wallpaper, pozadí na plochu, '.$wallpapers[$id]['titulek']);
 		$smarty->assign('description','Tapety na plochu počítače - '.$wallpapers[$id]['titulek']);
 
-		$smarty->assign_by_ref('trail', $trail->path);
-		$smarty->assign_by_ref('obrazek', $wallpapers[$id]);
+		$smarty->assign('trail', $trail->path);
+		$smarty->assign('obrazek', $wallpapers[$id]);
 		$smarty->display('hlavicka.tpl');
 		$smarty->display('obrazek-na-plochu.tpl');
 		$smarty->display('paticka.tpl');
@@ -32,7 +32,7 @@ exit();
 }
 
 
-$smarty->assign_by_ref('trail', $trail->path);
+$smarty->assign('trail', $trail->path);
 
 $smarty->assign('keywords','obrázky, žonglování, wallpaper, pozadí na plochu');
 $smarty->assign('description','Tapety na plochu počítače s žonglérskou tématikou.');
@@ -43,11 +43,11 @@ $smarty->assign('nahled','https://'.$_SERVER['SERVER_NAME'].'/obrazky-na-plochu/
 $dalsi=array(
 	array('url'=>'/obrazky/','text'=>'Obrázky žonglování','title'=>'Obrázky žonglérů a žonglérek'),
 	);
-$smarty->assign_by_ref('dalsi',$dalsi);
+$smarty->assign('dalsi',$dalsi);
 
 
 $smarty->assign('titulek',$titulek);
-$smarty->assign_by_ref('wallpapers',$wallpapers);
+$smarty->assign('wallpapers',$wallpapers);
 $smarty->display('hlavicka.tpl');
 $smarty->display('obrazky-na-plochu.tpl');
 $smarty->display('paticka.tpl');
