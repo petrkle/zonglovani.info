@@ -1,5 +1,5 @@
 <p>
-<a href="{if $obrazek.titulek and !$DIRECT_LINK_TO_IMAGE}{$obrazek.basename}.html" title="{$obrazek.titulek}"{else}1024x768/{$obrazek.soubor}" title="{$obrazek.basename}"{/if}><img src="{$obrazek.nahled_url}" width="{$obrazek.nahled_sirka}" height="{$obrazek.nahled_vyska}" alt="{$obrazek.basename}"/></a>
+<a href="{if isset($obrazek.titulek) and !isset($DIRECT_LINK_TO_IMAGE)}{$obrazek.basename}.html" title="{$obrazek.titulek}"{else}1024x768/{$obrazek.soubor}" title="{$obrazek.basename}"{/if}><img src="{$obrazek.nahled_url}" width="{$obrazek.nahled_sirka}" height="{$obrazek.nahled_vyska}" alt="{$obrazek.basename}"/></a>
 </p>
 <ul class="szn">
 <li><a href="1024x768/{$obrazek.soubor}" title="{$obrazek.basename} rozlišení 1024x768">1024x768</a></li>

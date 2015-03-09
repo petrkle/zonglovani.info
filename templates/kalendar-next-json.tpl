@@ -1,4 +1,4 @@
-{if $callback}{$callback|escape} ( {/if}
+{if isset($callback)}{$callback|escape} ( {/if}
 {literal}{{/literal}
 {foreach from=$events item=udalost name=smycka}
 "{$smarty.foreach.smycka.index}":[
@@ -6,7 +6,7 @@
 "start": "{$udalost.start_hr}",
 "url": "https://{$smarty.server.SERVER_NAME}{$smarty.const.CALENDAR_URL}udalost-{$udalost.id}.html",
 "desc": "{$udalost.desc|truncate:240:"...":true|escape}",
-{if $udalost.img and $udalost.img_ts}
+{if isset($udalost.img) and isset($udalost.img_ts)}
 "img": "https://{$smarty.server.SERVER_NAME}{$smarty.const.CALENDAR_URL}obrazek-{$udalost.img_ts|escape}-ts-{$udalost.img|escape}",
 {/if}
 "title": "{$udalost.title|replace:':':' '|truncate:40:"...":true|escape}"
@@ -14,4 +14,4 @@
 ]{if !$smarty.foreach.smycka.last},{/if}
 {/foreach}
 {literal}}{/literal}
-{if $callback} ) {/if}
+{if isset($callback)} ) {/if}

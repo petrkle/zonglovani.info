@@ -39,11 +39,13 @@ foreach($loginy as $login){
 		if(!is_file(SENDMAIL_DATA.'/'.$info['email'].'.spici')){
 			print "warn - $login\n";
 
+		$subject = 'Účet v žonglérově slabikáři';
 		$smarty->assign('user', $info);
+		$smarty->assign('subject', $subject);
 		$vysledek = sendmail(array(
 			'from'=>'robot@zonglovani.info',
 			'to'=>$info['email'],
-			'subject'=>'Účet v žonglérově slabikáři',
+			'subject'=>$subject,
 			'text'=>$smarty->fetch('mail/cron-old-accounts.txt.tpl'),
 			'html'=>$smarty->fetch('mail/cron-old-accounts.html.tpl'),
 			'img'=>array('../img/5/5micku.png'),

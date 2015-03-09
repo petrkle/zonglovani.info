@@ -31,7 +31,6 @@ if(isset($_GET['send'])){
 	$smarty->display('hlavicka.tpl');
 	$smarty->display('zapomenute-heslo-vysledek.tpl');
 	$smarty->display('paticka.tpl');
-	session_destroy();
 	exit();
 }
 
@@ -108,11 +107,9 @@ if(!preg_match('/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{
 		));
 
 		if($vysledek){
-			session_destroy();
 			header('Location: '.LIDE_URL.basename(__FILE__).'?send=ok');	
 			exit();
 		}else{
-			session_destroy();
 			header('Location: '.LIDE_URL.basename(__FILE__).'?send=err');	
 			exit();
 		}

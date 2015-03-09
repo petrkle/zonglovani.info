@@ -1,4 +1,4 @@
-{if $smarty.session.logged==true}
+{if isset($smarty.session.logged) and $smarty.session.logged==true}
 <p>
 <a href="{$smarty.const.CALENDAR_URL}add.php" title="Přidat novou událost do kalendáře." class="add">Přidat novou</a> událost.
 </p>
@@ -21,7 +21,7 @@
             <ul class="kal_entry">
             {section name=entry loop=$month[week][day]->entryCount()}
             {assign var=payload value=$month[week][day]->getEntry()}
-             <li class="vevent"><a href="udalost-{$payload.id}.html" title="{$payload.title}" {if $payload.vlozil==$smarty.session.uzivatel.login}class="edit"{/if}>{$payload.title|truncate:80:"...":false|escape}</a><span class="skryte"><span class="summary">{$payload.title|escape}</span><span class="description">{$payload.desc|escape}</span><abbr class="dtstart" title="{$payload.start_ical|escape}">Začátek: {$payload.start_hr|escape}</abbr><abbr class="dtend" title="{$payload.end_ical|escape}">Konec: {$payload.end_hr|escape}</abbr></span></li>
+             <li class="vevent"><a href="udalost-{$payload.id}.html" title="{$payload.title}" {if isset($smarty.session.uzivatel.login) and $payload.vlozil==$smarty.session.uzivatel.login}class="edit"{/if}>{$payload.title|truncate:80:"...":false|escape}</a><span class="skryte"><span class="summary">{$payload.title|escape}</span><span class="description">{$payload.desc|escape}</span><abbr class="dtstart" title="{$payload.start_ical|escape}">Začátek: {$payload.start_hr|escape}</abbr><abbr class="dtend" title="{$payload.end_ical|escape}">Konec: {$payload.end_hr|escape}</abbr></span></li>
             {/section}
             </ul>
 					{else}&nbsp;{/if}
@@ -43,13 +43,13 @@ Dnes je: {if $dnesek}{$aktDate}{else}<a href="{$smarty.const.CALENDAR_URL}" titl
 <p>
 
 <a name="add"></a>
-{if $smarty.session.logged!=true}
+{if !isset($smarty.session.logged)}
 <strong class="add">Přidat novou</strong> událost - do kalendáře můžou psát jen <a href="{$smarty.const.LIDE_URL}prihlaseni.php?next={$smarty.const.CALENDAR_URL}" title="Přihlášení do žonglérova slabikáře" rel="nofollow">přihlášení</a> uživatele žonglérova slabikáře.
 {else}
 <a href="{$smarty.const.CALENDAR_URL}add.php" title="Přidat novou událost do kalendáře." class="add">Přidat novou</a> událost.
 {/if}
 </p>
-{if $smazane}
+{if isset($smazane)}
 <h3>Smazané události</h3>
 <ul>
 {foreach from=$smazane item=udalost}

@@ -8,7 +8,7 @@
 {/if}
 {if isset($krok.obrazek)}
 {if isset($krok.kotva) and !isset($zakotveno)}<a name="{$krok.kotva}"></a>{/if}
-{if isset($krok.obrazek_src)}<a href="{$krok.obrazek_src|escape}">{/if}{obrazek soubor=$krok.obrazek popisek=$trik.info[1]}{if isset($krok.obrazek_src)}</a>{/if}
+{if isset($krok.obrazek_src)}<a href="{$krok.obrazek_src|escape}">{/if}{obrazek soubor=$krok.obrazek}{if isset($krok.obrazek_src)}</a>{/if}
 {/if}
 {if isset($krok.popisek)}
 {$krok.popisek}
@@ -46,7 +46,7 @@
 {/if}
 
 {/foreach}
-{if $trik.dalsi}
+{if isset($trik.dalsi)}
 
 
 <div class="kamdal">

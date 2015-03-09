@@ -1,6 +1,6 @@
-{if $uzivatel_props}
+{if isset($uzivatel_props)}
 
-{if $uzivatel_props.login==$smarty.session.uzivatel.login}
+{if isset($smarty.session.uzivatel.login) and $uzivatel_props.login==$smarty.session.uzivatel.login}
 <h1>Oblíbené stránky</h1>
 
 {if is_array($uzivatel_props.oblibene)}
@@ -47,12 +47,12 @@ Stránku odebereš z oblíbených kliknutím na obrázek žluté hvězdičky {ob
 
 <h1><span class="fn">{$titulek}</span></h1>
 <div class="vcard">
-{if $uzivatel_props.foto}
+{if isset($uzivatel_props.foto)}
 <div class="szn">
 <p><img src="{$smarty.const.LIDE_URL}foto/{$uzivatel_props.login|escape}.jpg" alt="{$uzivatel_props.jmeno|escape}" style="width:98%;max-width:{$uzivatel_props.foto_sirka}px;" class="photo"/></p>
 {/if}
 
-{if strlen($uzivatel_props.vzkaz)>0}
+{if isset($uzivatel_props.vzkaz) and strlen($uzivatel_props.vzkaz)>0}
 <pre class="note">
 {$uzivatel_props.vzkaz|wordwrap:45:"\n":true|escape}
 </pre>
@@ -60,10 +60,10 @@ Stránku odebereš z oblíbených kliknutím na obrázek žluté hvězdičky {ob
 
 <ul>
 <li class="skryte"><span class="nickname">{$uzivatel_props.login|escape}</span></li>
-{if strlen($uzivatel_props.web)>0}
+{if isset($uzivatel_props.web) and strlen($uzivatel_props.web)>0}
 <li>Web: <a href="{$uzivatel_props.web|escape}" title="Internetová stránka uživatele {$uzivatel_props.jmeno|escape}"{if !preg_match('/^http:\/\/zonglovani.info.*/',$uzivatel_props.web)} class="external url" rel="nofollow"{/if}>{$uzivatel_props.web|replace:'http://':''|regex_replace:'/^www\./':''|regex_replace:'/\/$/':''|truncate:40:'...':false|escape}</a></li>
 {/if}
-{if $uzivatel_props.tel}
+{if isset($uzivatel_props.tel)}
 <li>Tel.: {$uzivatel_props.tel|telobfuscate}</li>
 {/if}
 </ul>
@@ -79,19 +79,19 @@ Stránku odebereš z oblíbených kliknutím na obrázek žluté hvězdičky {ob
 </p>
 </form>
 {/if}
-{if strlen($uzivatel_props.znameni)>0 and $uzivatel_props.znameni!='n'}
+{if isset($uzivatel_props.znameni) and strlen($uzivatel_props.znameni)>0 and $uzivatel_props.znameni!='n'}
 <ul>
 <li>Znamení zvěrokruhu: <a href="/horoskop/{$uzivatel_props.znameni}.html" title="{$zverokruh[$uzivatel_props.znameni].popis} - horoskop na dnešní den.">{$zverokruh[$uzivatel_props.znameni].popis}</a></li>
 </ul>
 {/if}
-{if $uzivatel_props.foto}
+{if isset($uzivatel_props.foto)}
 </div>
 {/if}
 {if is_array($uzivatel_props.dovednosti)}
 <h3>Žonglérské dovednosti</h3>
 <ul>
 {foreach from=$uzivatel_props.dovednosti item=dov key=nazev}
-<li><a href="{$smarty.const.LIDE_URL}dovednost/{$nazev}.html" title="Další žongléři kteří umí {$dovednosti[$nazev].umi}.">{$dovednosti[$nazev].nazev}</a>{if $dov.hodnota!='a' and $dov.hodnota!=1} - {$dov.hodnota|escape}{/if}</li>
+<li><a href="{$smarty.const.LIDE_URL}dovednost/{$nazev}.html" title="Další žongléři kteří umí {$dovednosti[$nazev].umi}.">{$dovednosti[$nazev].nazev}</a>{if isset($dov.hodnota)}{if $dov.hodnota!='a' and $dov.hodnota!=1} - {$dov.hodnota|escape}{/if}{/if}</li>
 {/foreach}
 </ul>
 {/if}

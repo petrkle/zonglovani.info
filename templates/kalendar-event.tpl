@@ -1,11 +1,11 @@
 {if isset($udalost)}
 <div class="vevent">
 <span class="skryte summary">{$udalost.title|escape}</span>
-{if $stare}
+{if isset($stare)}
 <ul class="alert"><li><strong>Pozor:</strong> tato událost už skončila.</li></ul>
 {/if}
 
-{if $udalost.img and $udalost.img_ts}
+{if isset($udalost.img) and isset($udalost.img_ts)}
 <p><img src="/kalendar/obrazek-{$udalost.img_ts|escape}-ts-{$udalost.img|escape}" alt="{$udalost.desc|escape}" style="width:98%;max-width:{$udalost.img_sirka|escape}px;" /></p>
 {/if}
 
@@ -14,11 +14,11 @@
 <p><strong>Popis</strong>: <span class="description">{$udalost.desc|escape}</span></p>
 <p><strong>Místo</strong>: <span class="location">{$udalost.misto|escape}</span>{if $udalost.mapa} - <a href="{$udalost.mapa|escape}" title="Místo konání na mapě."{if preg_match('/^http:\/\//',$udalost.mapa)} class="external" rel="nofollow"{/if}>mapa</a>{/if}</p>
 
-{if $udalost.url}
+{if isset($udalost.url)}
 <p><strong>Odkaz</strong>: <a href="{$udalost.url_hr|escape}" {if preg_match('/^http:\/\//',$udalost.url_hr)} class="external url" rel="nofollow"{/if}>{$udalost.url|regex_replace:'/http(|s):\/\//':''|regex_replace:"/^www\./":""|regex_replace:"/\/$/":""|truncate:40:"...":false|escape}</a></p>
 {/if}
 
-{if $udalost.vlozil==$smarty.session.uzivatel.login and !$stare}
+{if isset($smarty.session.uzivatel.login) and $udalost.vlozil==$smarty.session.uzivatel.login and !isset($stare)}
 <form action="{$smarty.server.SCRIPT_NAME}" method="post">
 <p>
 {if isset($smarty.get.deleted)}
@@ -38,7 +38,7 @@
 {if isset($udalost.update) and $udalost.update_hr!=$udalost.insert_hr}
 <p><strong>Poslední úprava</strong>: {$udalost.update_hr|escape}</p>
 {/if}
-{if $trash}
+{if isset($trash)}
 <form action="{$smarty.server.SCRIPT_NAME}" method="post">
 <p>
 <input type="hidden" name="id" value="{$udalost.id|escape}" />

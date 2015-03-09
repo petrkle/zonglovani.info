@@ -1,4 +1,4 @@
-{if $chyby}
+{if isset($chyby)}
 <ul class="alert">
 {foreach from=$chyby item=chyba}
 <li>{$chyba}</li>
@@ -7,7 +7,7 @@
 {/if}
 
 {include file='kalendar-selector.tpl'}
-<form action="{$smarty.server.SCRIPT_NAME}{$form_action}" method="post" id="cal" enctype="multipart/form-data">
+<form action="{$smarty.server.SCRIPT_NAME}{if isset($form_action)}{$form_action}{/if}" method="post" id="cal" enctype="multipart/form-data">
 <fieldset>
 <legend accesskey="i">Základní <span class="u">i</span>nformace</legend>
 <ul>
@@ -30,26 +30,26 @@
 <ul>
 <li><label class="kratkypopis" for="odkaz" accesskey="o" ><span class="u">O</span>dkaz</label><input type="text" name="url" id="odkaz" value="{$udalost.url|escape}" class="textbox" tabindex="6"/><div class="tooltip">Odkaz na www stránku události. Nepovinný údaj. Formát http://*</div></li>
 <li><label class="kratkypopis" for="mapa" accesskey="a" >M<span class="u">a</span>pa</label><input type="text" name="mapa" id="mapa" value="{$udalost.mapa|escape}" class="textbox" tabindex="7"/><div class="tooltip">Odkaz na mapu místa kde se událost koná. Nepovinný údaj. Formát http://*</div></li>
-{if !$udalost.img}
+{if !isset($udalost.img)}
 <li><label class="kratkypopis" for="obrazek" accesskey="b" >O<span class="b">b</span>rázek</label><input type="file" name="obrazek" id="obrazek" class="textbox" tabindex="8"/><div class="tooltip">Leták k akci. Formát obrázku jpg nebo png. Maximální velikost 2MB.</div></li>
 {else}
 <li><label class="kratkypopis" for="obrazek" accesskey="b" >O<span class="b">b</span>rázek</label> <input type="submit" name="smazatimg" value="Smazat obrázek" /></li>
 {/if}
 </ul>
-{if $udalost.img and $udalost.img_ts}
+{if isset($udalost.img) and isset($udalost.img_ts)}
 <p><img src="/kalendar/obrazek-{$udalost.img_ts|escape}-ts-{$udalost.img|escape}" alt="{$udalost.title|escape}" style="width:98%;max-width:{$udalost.img_sirka|escape}px;" /></p>
 {/if}
 </fieldset>
 
 <p class="vpravo">
 <input type="submit" name="odeslat" value="Uložit" class="knoflik" tabindex="8" />
-{if $udalost.id}
+{if isset($udalost.id)}
 <input type="hidden" name="id" value="{$udalost.id}" />
 {/if}
 </p>
 </form>
 
 <p>
-<a href="{if $udalost.month_url}{$udalost.month_url}{else}{$smarty.const.CALENDAR_URL}{/if}" title="Návrat do kalendáře.">&laquo; Zpět do kalendáře</a>
+<a href="{if isset($udalost.month_url)}{$udalost.month_url}{else}{$smarty.const.CALENDAR_URL}{/if}" title="Návrat do kalendáře.">&laquo; Zpět do kalendáře</a>
 </p>
 

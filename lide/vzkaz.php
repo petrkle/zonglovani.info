@@ -5,8 +5,10 @@ include_once($lib.'/SMTP.php');
 include_once($lib.'/Mail.php');
 include_once($lib.'/Mail/mime.php');
 
-session_name('ZS');
-session_start();
+if (!isset($_SESSION)) {
+	session_name('ZS');
+	session_start();
+}
 
 $titulek='Vzkaz pro uživatele';
 $smarty->assign('titulek',$titulek);

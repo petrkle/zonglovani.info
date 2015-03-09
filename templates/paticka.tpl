@@ -13,10 +13,10 @@
 
 <!-- start -->
 <div class="feedback">
-{if $hodnoceni.libi!=0 or $hodnoceni.nelibi!=0 or $smarty.session.logged==true}
+{if $hodnoceni.libi!=0 or $hodnoceni.nelibi!=0 or (isset($smarty.session.logged) and $smarty.session.logged==true)}
 <a name="hodnoceni"></a><h5>Hodnocení stránky</h5>
 {/if}
-{if $smarty.session.logged==true}
+{if isset($smarty.session.logged) and $smarty.session.logged==true}
 <p class="kontakt">
 {if isset($smarty.session.uzivatel.hodnoceni[$smarty.server.REQUEST_URI])}<a href="{$smarty.const.LIDE_URL}palec.php?zrusit&amp;url={$smarty.server.REQUEST_URI|escape}&amp;title={$titulek|escape}" title="Nehodnotím tuto stránku.">Nezadáno</a>{else}Nezadáno{/if}
  ~ 

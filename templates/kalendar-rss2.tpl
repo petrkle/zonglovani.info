@@ -18,7 +18,7 @@
   <item>
     <title>{$udalost.title|escape}</title>
     <link>https://{$smarty.server.SERVER_NAME}{$smarty.const.CALENDAR_URL}udalost-{$udalost.id|escape}.html</link>
-{if $udalost.img}
+{if isset($udalost.img)}
 <description>
 <![CDATA[
 <p>

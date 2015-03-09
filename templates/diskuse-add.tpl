@@ -1,4 +1,4 @@
-{if $chyby}
+{if isset($chyby)}
 <ul class="alert">
 {foreach from=$chyby item=chyba}
 <li>{$chyba|escape}</li>
@@ -6,7 +6,7 @@
 </ul>
 {/if}
 
-{if $nahled}
+{if isset($nahled)}
 <h3>Náhled nové zprávy</h3>
 <table class="diskuse" cellspacing="0" cellpadding="0">
 <tr>
@@ -23,17 +23,17 @@
 <h3>Přidání nové zprávy</h3>
 {/if}
 
-<form action="{$SCRIPT_NAME}" method="post">
+<form action="{$smarty.server.SCRIPT_NAME}" method="post">
 
 <fieldset class="siroke">
 <legend>Zpráva</legend>
 <script type="text/javascript" src="/ed.js"></script>  
-<textarea name="vzkaz" id="vzkaz" accesskey="k" tabindex="3" rows="5" cols="50">{$vzkaz|escape}</textarea>
+<textarea name="vzkaz" id="vzkaz" accesskey="k" tabindex="3" rows="5" cols="50">{if isset($vzkaz)}{$vzkaz|escape}{/if}</textarea>
 <script type="text/javascript">edToolbar('vzkaz');</script>
 <noscript><p>Možnosti: [b]tučné písmo[/b], [i]šikmé písmo[/i], [url=http://neco.cz]odkaz[/url], [email]tvoje@adresa.cz[/email]</p></noscript>
 </fieldset>
 
-{if $nahled}
+{if isset($nahled)}
 <fieldset id="robotprotection">
 <legend>Kon<span class="u">t</span>rola spamu</legend>
 <ul>
@@ -47,7 +47,7 @@
 {/if}
 
 <p class="vpravo">
-{if $nahled}
+{if isset($nahled)}
 <input type="submit" name="nahled" value="Zobrazit náhled" class="knoflik" tabindex="5" />
 <input type="submit" name="odeslat" value="Přidat do diskuse" class="knoflik" tabindex="5" />
 {else}
@@ -65,7 +65,7 @@
 <li>Zadávej každý dotaz pouze jednou.</li>
 </ul>
 
-{if count($smarty.session.diskuse_latest) > 0}
+{if isset($smarty.session.diskuse_latest) and count($smarty.session.diskuse_latest) > 0}
 <h3>Poslední zprávy</h3>
 {foreach from=$smarty.session.diskuse_latest item=zprava}
 <a name="{$zprava.cas|escape}"></a>

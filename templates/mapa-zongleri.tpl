@@ -26,7 +26,7 @@
   </Style>
 
 {foreach from=$mista item=misto key=id}
-{if is_array($misto.lide)}
+{if isset($misto.lide) and is_array($misto.lide)}
 <Placemark id="{$id|escape}">
 <styleUrl>#spendlik</styleUrl>
 <name>{$misto.nazev|escape}</name>

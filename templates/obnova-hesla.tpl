@@ -1,11 +1,11 @@
-{if $chyby}
+{if isset($chyby)}
 <ul class="alert">
 {foreach from=$chyby item=chyba}
 <li>{$chyba}</li>
 {/foreach}
 </ul>
 {/if}
-<form action="{$SCRIPT_NAME}?m={$email|escape}&k={$key|escape}&action=submit" method="post">
+<form action="{$smarty.server.SCRIPT_NAME}?m={$email|escape}&k={$key|escape}&action=submit" method="post">
 <p>
 <fieldset>
 <legend>Obnova hesla</legend>

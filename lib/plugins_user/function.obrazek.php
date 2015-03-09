@@ -4,6 +4,9 @@ function smarty_function_obrazek($params, &$smarty){
 	if(!isset($path)){
 		$path='/img/';
 	}
+	if(!isset($popisek)){
+		$popisek='';
+	}
 	$link=$path.substr($soubor,0,1).'/'.$soubor;
 	$soubor=$_SERVER['DOCUMENT_ROOT'].$path.substr($soubor,0,1).'/'.$soubor;
 	if(!is_file($soubor)){

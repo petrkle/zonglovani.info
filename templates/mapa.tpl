@@ -73,19 +73,19 @@ Přidat se můžeš tak, že si <a href="/lide/novy-ucet.php" class="add">založ
 </tr>
 <tr>
 <td>
-{if $k_cz}
+{if isset($k_cz)}
 <ul>
 {foreach from=$k_cz item=kr}
-<li>{if $kr.selected}<strong>{else}<a href="/mapa/kraj/{$kr.id|escape}/">{/if}{$kr.nazev|escape}{if $kr.selected}</strong>{else}</a>{/if}</li>
+<li>{if isset($kr.selected)}<strong>{else}<a href="/mapa/kraj/{$kr.id|escape}/">{/if}{$kr.nazev|escape}{if isset($kr.selected)}</strong>{else}</a>{/if}</li>
 {/foreach}
 </ul>
 {/if}
 </td>
 <td>
-{if $k_sk}
+{if isset($k_sk)}
 <ul>
 {foreach from=$k_sk item=kr}
-<li>{if $kr.selected}<strong>{else}<a href="/mapa/kraj/{$kr.id|escape}/">{/if}{$kr.nazev|escape}{if $kr.selected}</strong>{else}</a>{/if}</li>
+<li>{if isset($kr.selected)}<strong>{else}<a href="/mapa/kraj/{$kr.id|escape}/">{/if}{$kr.nazev|escape}{if isset($kr.selected)}</strong>{else}</a>{/if}</li>
 {/foreach}
 </ul>
 {/if}

@@ -15,7 +15,7 @@ Stránkování: {$pager_links}
 </p>
 {/if}
 {/if}
-{if $smarty.session.logged!=true}
+{if !isset($smarty.session.logged)}
 <h3>Výhody pro registrované uživatele</h3>
 {include file='vyhody-uctu.tpl'}
 <p>

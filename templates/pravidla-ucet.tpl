@@ -12,7 +12,7 @@
 <h3>Další pravidla</h3>
 <ul>
 <li>Tvůj účet se objeví v <a href="{$smarty.const.LIDE_URL}" title="Seznam uživatelských účtů.">seznamu uživatelů</a> žonglérova slabikáře. Budou tě moct kontaktovat další žongléři. Nebo lidé, kteří shánějí žongléry a chtějí jim zaplatit za vystoupení.</li>
-<li>Účet můžeš kdykoliv {if $smarty.session.logged==true}<a href="{$smarty.const.LIDE_URL}nastaveni/zruseni" title="Zrušit účet">{/if}zrušit</a>.</li>
+<li>Účet můžeš kdykoliv {if isset($smarty.session.logged)}<a href="{$smarty.const.LIDE_URL}nastaveni/zruseni" title="Zrušit účet">{/if}zrušit</a>.</li>
 <li>Účty nepoužívané déle jak rok budou odstraněny.</li>
 <li>Uživatelům porušující tato pravidla bude zablokován účet.</li>
 </ul>

@@ -1,6 +1,6 @@
 {if is_array($items)}
 
-{if $smarty.session.logged==true}
+{if isset($smarty.session.logged) and $smarty.session.logged==true}
 <p><a href="{$smarty.const.DISKUSE_URL}add.php" title="Přidat nový vzkaz." class="add">Přidat zprávu</a></p>
 {/if}
 
@@ -32,7 +32,7 @@ Stránkování: {$pager_links}
 {/if}
 
 {/if}
-{if $smarty.session.logged!=true}
+{if !isset($smarty.session.logged)}
 <p>
 <strong class="add">Přidat zprávu</strong> - do diskuse můžou psát jen <a href="{$smarty.const.LIDE_URL}prihlaseni.php?next={$smarty.const.DISKUSE_URL}" title="Přihlášení do žonglérova slabikáře" rel="nofollow">přihlášení</a> uživatele žonglérova slabikáře.
 </p>

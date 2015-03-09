@@ -1,7 +1,7 @@
 <?php
 function smarty_function_jsanimace($params, &$smarty){
 	extract($params);
-	if(!$prefix){
+	if(!isset($prefix)){
 		$prefix='img';
 	}
 	if(is_readable($_SERVER['DOCUMENT_ROOT'].'/animace/'.$prefix.'/'.$a.'.gif')){

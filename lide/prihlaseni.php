@@ -14,6 +14,10 @@ if(isset($_GET['next']) and preg_match('/^\//',$_GET['next'])){
 	$next='/';
 }
 
+$trail = new Trail();
+$trail->addStep('Seznam žonglérů',LIDE_URL);
+$trail->addStep('Přihlášení uživatele');
+
 if(isset($_GET['mail'])){
 	$smarty->assign('chyba','jo');
 	$chyby=array();
@@ -22,6 +26,10 @@ if(isset($_GET['mail'])){
 }
 
 if(isset($_GET['first'])){
+	if (!isset($_SESSION)) {
+		session_name('ZS');
+		session_start();
+	}
 	$smarty->assign('first','jo');
 
 	$freemails = array(
@@ -57,10 +65,6 @@ if(is_logged()){
 	header('Location: '.LIDE_URL.'nastaveni');
 	exit();
 }
-
-$trail = new Trail();
-$trail->addStep('Seznam žonglérů',LIDE_URL);
-$trail->addStep('Přihlášení uživatele');
 
 $smarty->assign('next',$next);
 
@@ -120,8 +124,10 @@ if(isset($_POST['login']) and isset($_POST['heslo']) and isset($_GET['action']))
 	fwrite($foo,$login);
 	fclose($foo);
 
-			session_name('ZS');
-			session_start();
+			if (!isset($_SESSION)) {
+				session_name('ZS');
+				session_start();
+			}
 			load_user($login);
 			header('Location: '.LIDE_URL.'nastaveni');
 			exit();
@@ -166,8 +172,10 @@ if(isset($_POST['login']) and isset($_POST['heslo']) and isset($_GET['action']))
 		$passwd_hash=trim(array_pop(file(LIDE_DATA.'/'.$uzivatel['login'].'/passwd.sha1')));
 		if(sha1($input_heslo.$login)==$passwd_hash){
 			# úspěšné přihlášení
-			session_name('ZS');
-			session_start();
+			if (!isset($_SESSION)) {
+				session_name('ZS');
+				session_start();
+			}
 			load_user($uzivatel['login']);
 			header('Location: '.$next);
 			exit();
@@ -188,7 +196,7 @@ if(isset($_POST['login']) and isset($_POST['heslo']) and isset($_GET['action']))
 }
 
 function spatne_jmeno_nebo_heslo(){
-	global $chyby,$smarty,$input_login;
+	global $chyby,$smarty,$input_login,$trail;
 		array_push($chyby,'Špatné jméno nebo heslo.','Obnovit <a href="zapomenute-heslo.php" title="Zapomenuté heslo.">zapomenuté heslo</a>.');
 		$smarty->assign('chyby',$chyby);
 		$smarty->assign('login',$input_login);

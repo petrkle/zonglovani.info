@@ -1,4 +1,4 @@
-{if $chyby}
+{if isset($chyby)}
 <ul class="alert">
 {foreach from=$chyby item=chyba}
 <li>{$chyba}</li>
@@ -11,8 +11,8 @@
 <fieldset>
 <legend>Kontakt</legend>
 <ul>
-<li><label for="jmeno" accesskey="m" class="kratkypopis">J<span class="u">m</span>éno:</label><input type="text" name="jmeno" id="jmeno" value="{$jmeno|escape}" class="textbox" tabindex="1" /><div class="tooltip">Tvoje jméno. Minimální délka 3 znaky.</div></li>
-<li><label for="email" accesskey="e" class="kratkypopis" ><span class="u">E</span>-mail:</label><input type="email" name="email" id="email" value="{$email|escape}" class="textbox" tabindex="2" /><div class="tooltip">Tvoje adresa elektronické pošty. Např.: kdosi@kdesi.cz</div></li>
+<li><label for="jmeno" accesskey="m" class="kratkypopis">J<span class="u">m</span>éno:</label><input type="text" name="jmeno" id="jmeno" value="{if isset($jmeno)}{$jmeno|escape}{/if}" class="textbox" tabindex="1" /><div class="tooltip">Tvoje jméno. Minimální délka 3 znaky.</div></li>
+<li><label for="email" accesskey="e" class="kratkypopis" ><span class="u">E</span>-mail:</label><input type="email" name="email" id="email" value="{if isset($email)}{$email|escape}{/if}" class="textbox" tabindex="2" /><div class="tooltip">Tvoje adresa elektronické pošty. Např.: kdosi@kdesi.cz</div></li>
 </ul>
 </fieldset>
 </p>

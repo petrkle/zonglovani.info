@@ -17,7 +17,7 @@ Koukni do <a href="{$smarty.const.LIDE_URL}" title="Seznam uživatelů žonglér
 </ul>
 <h2><a href="{$smarty.const.CALENDAR_URL}" title="Kalendář žonglérských akcí">Kam jít žonglovat</a></h2>
 <p><a href="{$smarty.const.CALENDAR_URL}" title="Kalendář žonglérských akcí">{obrazek soubor='kalendar-nahled.png' popisek='Kalendář žonglérských akcí.'}</a>
-Přehledný <a href="{$smarty.const.CALENDAR_URL}" title="Kalendář žonglérských akcí">kalendář žonglérských akcí</a>.{if $smarty.session.logged==true}<br /><a href="{$smarty.const.CALENDAR_URL}add.php" title="Přidat novou událost do kalendáře" class="add">Přidat událost</a> do kalendáře.{/if}</p>
+Přehledný <a href="{$smarty.const.CALENDAR_URL}" title="Kalendář žonglérských akcí">kalendář žonglérských akcí</a>.{if isset($smarty.session.logged)}<br /><a href="{$smarty.const.CALENDAR_URL}add.php" title="Přidat novou událost do kalendáře" class="add">Přidat událost</a> do kalendáře.{/if}</p>
 
 <!-- stop -->
 <h3>Další informace o žonglování</h3>

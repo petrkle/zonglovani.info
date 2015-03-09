@@ -3,8 +3,10 @@ require('../init.php');
 require('../func.php');
 require('../rss/rss.php');
 
-session_name('ZS');
-session_start();
+if (!isset($_SESSION)) {
+	session_name('ZS');
+	session_start();
+}
 
 $titulek='Obnova hesla';
 

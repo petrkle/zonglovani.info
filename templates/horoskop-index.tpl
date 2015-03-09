@@ -2,7 +2,7 @@
 Horoskop pro žonglérky a žongléry. Každý den ti poradí co je nejlepší trénovat.
 </p>
 
-{if $zitra=="jo"}
+{if isset($zitra) and $zitra=="jo"}
 <table class="horotable">
 {foreach from=$zverokruh item=znam key=klic}
 <tr>
@@ -25,7 +25,7 @@ Horoskop pro žonglérky a žongléry. Každý den ti poradí co je nejlepší t
 {/if}
 
 <p>
-{if $zitra=="jo"}
+{if isset($zitra) and $zitra=="jo"}
 Zajímá tě co se stane dnes? Přečti si <a href="/horoskop/" title="Horoskop na dnešní den.">horoskop na dnešní den</a>.
 {else}
 Nevíš co se stane zítra? Přečti si <a href="/horoskop/zitra/" title="Horoskop na zítra.">horoskop na zítra</a>.

@@ -2,8 +2,10 @@
 require('../init.php');
 require('../func.php');
 
-session_name('ZS');
-session_start();
+if (!isset($_SESSION)) {
+	session_name('ZS');
+	session_start();
+}
 
 $titulek='Založit účet';
 $smarty->assign('titulek',$titulek);

@@ -1,4 +1,4 @@
-{if $video}
+{if isset($video)}
 <p>{$video.popis}</p>
 {/if}
 
@@ -33,7 +33,7 @@ Adresa videa: <a href="http://youtu.be/{$video.fid|escape}" class="external">htt
 Uložit video ve formátu <a href="{$video.download}" class="external">.mp4</a>
 </object>
 </p>
-{if $video.download and $smarty.session.logged==true}
+{if $video.download and isset($smarty.session.logged)}
 <p><a href="{$video.download|escape}" class="external" rel="nofollow">Stáhnout video</a> ze stránky <a href="{if $video.originalurl}{$video.originalurl|escape}{else}http://juggling.tv{/if}" class="external">juggling.tv</a></p>
 <p>
 {if $video.delka}Délka: {$video.delka|escape}{/if}{if $video.velikost} Velikost: {$video.velikost|escape}{/if}{if $video.rozliseni} Rozlišení: {$video.rozliseni|escape}{/if}
@@ -50,17 +50,17 @@ Uložit video ve formátu <a href="{$video.download}" class="external">.mp4</a>
 {if $video.delka}Délka: {$video.delka|escape}{/if}{if $video.velikost} Velikost: {$video.velikost|escape}{/if}{if $video.rozliseni} Rozlišení: {$video.rozliseni|escape}{/if}
 </p>
 {/if}
-{if $navigace}
+{if isset($navigace)}
 <div class="kamdal">
 <a name="kam-dal"></a><h5>Kam dál</h5>
 <ul>
-{if $navigace.navod}
+{if isset($navigace.navod)}
 	<li class="link_navod"><a href="{$navigace.navod|escape}" title="Podrobný textový návod jak se naučit {$video.nazev|escape}.">{$video.nazev|escape}</a> - podrobný návod.</li>
 {/if}
-{if $navigace.dalsi}
+{if isset($navigace.dalsi)}
 	<li class="link_next">Další video: <a href="{$navigace.dalsi.url|escape}" title="{$navigace.dalsi.title|escape}">{$navigace.dalsi.text|escape}</a></li>
 {/if}
-{if $navigace.predchozi}
+{if isset($navigace.predchozi)}
 	<li class="link_prev">Předchozí video: <a href="{$navigace.predchozi.url|escape}" title="{$navigace.predchozi.title|escape}">{$navigace.predchozi.text|escape}</a></li>
 {/if}
 </ul>

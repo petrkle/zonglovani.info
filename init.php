@@ -10,7 +10,7 @@ $lib=$_SERVER['DOCUMENT_ROOT'].'/lib';
 
 require($_SERVER['DOCUMENT_ROOT'].'/site-secrets.php');
 
-if(isset($_COOKIE['ZS'])){
+if(isset($_COOKIE['ZS']) and !isset($_SESSION)){
 	session_name('ZS');
 	session_start();
 }
@@ -89,8 +89,10 @@ function get_hodnoceni_stranka($url){
 			foreach($hod as $line){
 				$line=trim($line);
 				$line=preg_split('/\*/',$line);
-				if($line[1]>0){$navrat['libi']++;}
-				if($line[1]<0){$navrat['nelibi']++;}
+				if(is_array($line) and array_key_exists(1, $line)){
+					if($line[1]>0){$navrat['libi']++;}
+					if($line[1]<0){$navrat['nelibi']++;}
+				}
 			}
 		}
 	}else{

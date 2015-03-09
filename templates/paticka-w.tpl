@@ -1,5 +1,5 @@
-{if $feedback}
-{if $smarty.session.logged==true}
+{if isset($feedback)}
+{if isset($smarty.session.logged) and $smarty.session.logged==true}
 <div class="vlevo feedback">
 <p class="kontakt">Hodnocení obrázku: 
 {if isset($smarty.session.uzivatel.hodnoceni[$smarty.server.REQUEST_URI])}<a href="{$smarty.const.LIDE_URL}palec.php?zrusit&amp;url={$smarty.server.REQUEST_URI|escape}&amp;title={$titulek|escape}" title="Nehodnotím tuto stránku.">Nezadáno</a>{else}Nezadáno{/if}
@@ -14,7 +14,7 @@
 
 {/if}
 
-{if $obrazek.dalsi_cislo}
+{if isset($obrazek.dalsi_cislo)}
 {literal}
 <script type="text/javascript">
 		<!--//--><![CDATA[//><!--
