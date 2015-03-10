@@ -16,7 +16,6 @@ $smarty->assign('dalsi',$dalsi);
 $trail = new Trail();
 $trail->addStep($titulek);
 $smarty->assign('trail', $trail->path);
-$smarty->assign('stat', $stat);
 
 $smarty->assign('nahled','https://'.$_SERVER['SERVER_NAME'].'/img/p/podporac.png');
 

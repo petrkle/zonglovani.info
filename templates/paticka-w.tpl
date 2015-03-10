@@ -21,15 +21,15 @@
 function preloader() {
 	if (document.images) {
 {/literal}
-{if $obrazek.dalsi_cislo}
+{if isset($obrazek.dalsi_cislo)}
 		var img1 = new Image();
 		img1.src = "https://{$smarty.server.SERVER_NAME}{$smarty.const.OBRAZKY_URL}{$gal_id}/{$obrazek.dalsi_cislo}.jpg";
 {/if}
-{if $obrazek.dalsi_cislo2}
+{if isset($obrazek.dalsi_cislo2)}
 		var img2 = new Image();
 		img2.src = "https://{$smarty.server.SERVER_NAME}{$smarty.const.OBRAZKY_URL}{$gal_id}/{$obrazek.dalsi_cislo2}.jpg";
 {/if}
-{if $obrazek.dalsi_cislo3}
+{if isset($obrazek.dalsi_cislo3)}
 		var img3 = new Image();
 		img3.src = "https://{$smarty.server.SERVER_NAME}{$smarty.const.OBRAZKY_URL}{$gal_id}/{$obrazek.dalsi_cislo3}.jpg";
 {/if}
@@ -66,13 +66,13 @@ function KeyPressHappened(e)
   else
     code = e.keyCode;
 	if(code==39){
-{/literal}{if $obrazek.dalsi_cislo}
-		window.top.location.href="{if $obrazek.dalsi_stranka!=1}{$smarty.const.OBRAZKY_URL}{$gal_id}/stranka{$obrazek.dalsi_stranka}/{$obrazek.dalsi_cislo}{else}{$obrazek.dalsi_cislo|escape}{/if}.html#nahore";
+{/literal}{if isset($obrazek.dalsi_cislo)}
+		window.top.location.href="{if isset($obrazek.dalsi_stranka) and $obrazek.dalsi_stranka!=1}{$smarty.const.OBRAZKY_URL}{$gal_id}/stranka{$obrazek.dalsi_stranka}/{$obrazek.dalsi_cislo}{else}{$obrazek.dalsi_cislo|escape}{/if}.html#nahore";
 {/if}{literal}
 	}
 	if(code==37){
-{/literal}{if $obrazek.predchozi_cislo}
-		window.top.location.href="{if $obrazek.predchozi_stranka}{$smarty.const.OBRAZKY_URL}{$gal_id}/stranka{$obrazek.predchozi_stranka}/{$obrazek.predchozi_cislo}{else}{$smarty.const.OBRAZKY_URL}{$gal_id}/{$obrazek.predchozi_cislo|escape}{/if}.html#nahore";
+{/literal}{if isset($obrazek.predchozi_cislo)}
+		window.top.location.href="{if isset($obrazek.predchozi_stranka)}{$smarty.const.OBRAZKY_URL}{$gal_id}/stranka{$obrazek.predchozi_stranka}/{$obrazek.predchozi_cislo}{else}{$smarty.const.OBRAZKY_URL}{$gal_id}/{$obrazek.predchozi_cislo|escape}{/if}.html#nahore";
 {/if}{literal}
 	}
 }

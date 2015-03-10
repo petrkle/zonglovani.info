@@ -16,19 +16,19 @@ Stránkování: {$pager_links}
 </p>
 {/if}
 
-{if $gal_info.mail != 'admin@zonglovani.info'}
-{if $gal_info.autor or $gal_info.mail or $gal_info.url}
+{if isset($gal_info.mail) and $gal_info.mail != 'admin@zonglovani.info'}
+{if isset($gal_info.autor) or isset($gal_info.mail) or isset($gal_info.url)}
 <div class="spacer">&nbsp;</div>
-{if $gal_info.autor or $gal_info.mail}
+{if isset($gal_info.autor) or isset($gal_info.mail)}
 <h3>Autor fotografií</h3>
 {/if}
-{if $gal_info.autor}
+{if isset($gal_info.autor)}
 <p>{$gal_info.autor|escape}</p>
 {/if}
-{if $gal_info.mail}
+{if isset($gal_info.mail)}
 <p>{$gal_info.mail|escape|mailobfuscate}</p>
 {/if}
-{if $gal_info.url}
+{if isset($gal_info.url)}
 <p><a href="{$gal_info.url|escape}"{if preg_match('/^http:\/\//',$gal_info.url_hr)} class="external" rel="nofollow"{/if}>{$gal_info.url|replace:'http://':''|regex_replace:"/^www\./":""|regex_replace:"/\/$/":""|truncate:40:"...":false|escape}</a></p>
 {/if}
 {/if}

@@ -13,7 +13,6 @@ $trail->addStep('Tip týdne','/tip');
 $trail->addStep($titulek);
 $smarty->assign('trail', $trail->path);
 
-$smarty->assign('dalsi',$dalsi);
 $smarty->display('hlavicka.tpl');
 $smarty->display('ostatni-vanoce-2014.tpl');
 $smarty->display('paticka.tpl');

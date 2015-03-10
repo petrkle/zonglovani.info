@@ -77,7 +77,9 @@ if(isset($_GET['id'])){
 	}
 
 
-	$smarty->assign('dalsi',$dalsi);
+	if(isset($dalsi)){
+		$smarty->assign('dalsi',$dalsi);
+	}
 
 	$smarty->assign('titulek',$titulek.' - '.$id);
 	$smarty->assign('nadpis','Žonglérův slabikář - '.$id);
@@ -89,7 +91,7 @@ if(isset($_GET['id'])){
 	$smarty->assign('download_id', $id);
 
 	$smarty->display('hlavicka.tpl');
-	if(is_file($smarty->template_dir."/download.static.$id.tpl")){
+	if(is_file($smarty->template_dir[0]."/download.static.$id.tpl")){
 		$smarty->display('download.static.'.$id.'.tpl');
 	}else{
 		$smarty->display('download.detail.tpl');

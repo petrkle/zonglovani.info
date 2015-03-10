@@ -2,6 +2,7 @@
 require('../init.php');
 require('../func.php');
 require('pusobiste.php');
+require('dovednosti.php');
 
 $smarty->assign('pusobiste',$pusobiste);
 

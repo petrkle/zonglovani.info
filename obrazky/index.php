@@ -190,7 +190,7 @@ if($id and $photo){
 		if(isset($obrazek['dalsi_cislo'])){
 			$dalsistranka=OBRAZKY_URL.$id.'/stranka'.($obrazek['dalsi_stranka']).'/'.$obrazek['dalsi_cislo'].'.html';
 		}else{
-			$dalsistranka=OBRAZKY_URL.$id.'/'.$obrazek['dalsi_cislo'].'.html';
+			$dalsistranka=OBRAZKY_URL.$id.'/';
 		}
 	}
 

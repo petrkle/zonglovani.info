@@ -3,7 +3,7 @@
 Většinu triků v žonglérově slabikáři doplňuje <a href="/video/navod/" title="Video návody na žonglování">krátké instruktážní video</a>. Odkazy pro přehrání videa jsou označeny obrázkem kamery.
 </p>
 
-{jsinlinevideo v='micky-5-kaskada}
+{jsinlinevideo v='micky-5-kaskada'}
 
 <p>
 Videí je celkem přes 100 a všechny je najdeš na <a href="http://juggling.tv/users/4431/zonglovani.info" class="external">juggling.tv</a> a <a href="http://www.youtube.com/ZongleruvSlabikar" class="external">youtube.com</a>
