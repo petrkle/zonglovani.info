@@ -30,7 +30,9 @@ function get_videa($path=''){
 	closedir($adr); 
   };
 
-  usort($vypis, 'sort_by_v_title'); 
+	if(is_array($vypis)){
+  	usort($vypis, 'sort_by_v_title'); 
+	}
 	return $vypis;
 }
 

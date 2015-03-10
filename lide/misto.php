@@ -55,7 +55,7 @@ $mojepozice=array_search($filtr,$pozice);
 	if(isset($pozice[$mojepozice+1])){
 		$navigace['dalsi']=array('url'=>$pozice[$mojepozice+1].'.html','text'=>$pusobiste[$pozice[$mojepozice+1]]['nazev'],'title'=>'Další místo: '.$pusobiste[$pozice[$mojepozice+1]]['nazev']);
 	}else{
-		$navigace['dalsi']=array('url'=>$pozice[0].'.html','text'=>$pusobiste[$pozice[0]]['nazev'],'title'=>'Další dovednost: '.$dovednosti[$pozice[0]]['nazev']);
+		$navigace['dalsi']=array('url'=>$pozice[0].'.html','text'=>$pusobiste[$pozice[0]]['nazev'],'title'=>'Další dovednost: '.$pusobiste[$pozice[0]]['nazev']);
 	}
 
 	if(isset($pozice[$mojepozice-1])){

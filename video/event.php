@@ -10,6 +10,7 @@ if(isset($_GET['id'])){
 	$id=trim($_GET['id']);
 	if(!isset($juggling_events[$id])){
 		require('../404.php');
+		exit();
 	}
 }
 
