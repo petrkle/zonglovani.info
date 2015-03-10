@@ -1,4 +1,4 @@
-{if isset($chyby)}
+{if isset($chyby) and count($chyby)>0}
 <ul class="alert">
 {foreach from=$chyby item=chyba}
 <li>{$chyba}</li>
