@@ -12,7 +12,7 @@ Stránky o žonglování s ohněm.
 
 <a name="bratrivtricku"></a><h5><a href="http://www.bratrivtricku.cz/" title="Bratři v tricku" class="external">bratrivtricku.cz</a></h5>
 <p>
-<a href="http://www.bratrivtricku.cz/" title="Bratři v tricku">{obrazek soubor="odkazy-bratrivtricku.cz.png" popisek="bratrivtricku.cz"}</a>
+<a href="http://www.bratrivtricku.cz/" title="Bratři v tricku">{obrazek soubor="bratri-v-tricku-logo-small.png" popisek="bratrivtricku.cz"}</a>
 Žonglérské duo Bratři v tricku.
 </p>
 
