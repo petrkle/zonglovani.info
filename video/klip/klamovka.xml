@@ -1,8 +1,9 @@
 <?xml version="1.0"?>
 <klip>
   <nazev>Žongléři z Klamovky</nazev>
-  <link>http://juggling.tv:510442f2fd40f2100b05</link>
-  <typ>juggling.tv</typ>
+	<link>https://www.youtube.com/watch?v=KsKi0qAp-_E</link>
+  <typ>youtube.com</typ>
+	<youtube>KsKi0qAp-_E</youtube>
   <popis>Passing s kužely, přebírání kuželů a odrážení o strop.</popis>
 	<download>http://juggling.tv/download/encoded/5353/ongli-z-klamovky.mp4</download>
   <delka>04:49</delka>
