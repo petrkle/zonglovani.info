@@ -1,4 +1,5 @@
 #!/bin/bash
+set -e
 
 SUM=`cat css/*.css | cksum | cut -d" " -f1`
 
