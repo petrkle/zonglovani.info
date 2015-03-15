@@ -18,10 +18,12 @@ $uzivatel_props=get_user_complete($id);
 
 if($uzivatel_props){
 
-if($uzivatel_props['login']=='pek' and isset($_SESSION['uzivatel']['login']) and $_SESSION['uzivatel']['login']!='pek'){
+if($uzivatel_props['login']=='pek'){
+	if(!isset($_SESSION) or (isset($_SESSION['uzivatel']['login']) and $_SESSION['uzivatel']['login']!='pek')){
 	header('HTTP/1.1 301 Moved Permanently');
 	header('Location: /kontakt.html');
 	exit();
+	}
 }
 
 if($uzivatel_props['status']=='ok'){
