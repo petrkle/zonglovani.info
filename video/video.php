@@ -45,6 +45,10 @@ if(isset($idcka[$v])){
 		$video['fid']=$fid[1];
 	}
 
+	if(isset($video['youtube'])){
+		$video['fid'] = $video['youtube'];	
+	}
+
 	$hlavicky=array();
 	if(isset($video['nahled'])){
 		$smarty->assign('nahled','https://'.$_SERVER['SERVER_NAME'].'/video/img/'.substr($video['nahled'],0,1).'/'.$video['nahled']);
