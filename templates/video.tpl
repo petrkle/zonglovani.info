@@ -5,14 +5,7 @@
 {if $video.typ!='file'}
 {if $video.typ=='youtube.com'}
 <p class="youtubevideo">
-<object type="application/x-shockwave-flash" data="//www.youtube.com/v/{$video.fid|escape}&amp;hl=cs_CZ&amp;rel=0" class="youtubevideo">
-	<param name="movie" value="//www.youtube.com/v/{$video.fid|escape}&amp;hl=cs_CZ&amp;rel=0" />
-	<param name="wmode" value="transparent" />
-	<param name="allowscriptaccess" value="always" />
-	<param name="allowfullscreen" value="false" />
-	<param name="pluginspage" value="http://get.adobe.com/flashplayer/" />
-Přehrát video přímo na stránce <a href="http://youtu.be/{$video.fid|escape}" class="external">youtu.be/{$video.fid|escape}</a>
-</object>
+<iframe id='player' type='text/html' class='youtubevideo' src='https://www.youtube.com/embed/{$video.fid|escape}?origin=https://{$smarty.server.SERVER_NAME}&autohide=1&rel=0&showinfo=O&fs=0&controls=1&modestbranding=1' frameborder='0'></iframe>
 </p>
 <p>
 {if $video.delka}Délka: {$video.delka|escape}{/if}{if $video.rozliseni} Rozlišení: {$video.rozliseni|escape}{/if}
