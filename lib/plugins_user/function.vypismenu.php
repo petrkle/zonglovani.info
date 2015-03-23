@@ -40,7 +40,7 @@ function smarty_function_vypismenu($params, &$smarty){
 			<form action="'.SEARCH_URL.'" method="get" id="malehledani">
 		<fieldset>
 		<legend>Vyhledávání</legend>
-		<input type="text" name="query" class="policko" accesskey="4" /><input type="submit" value="Najít" class="knoflik" />
+		<input type="text" name="query" class="policko" accesskey="4" required /><input type="submit" value="Najít" class="knoflik" />
 		<input type="hidden" name="search" value="1" />
 		</fieldset>
 		</form>

@@ -28,7 +28,7 @@
 <fieldset class="siroke">
 <legend>Zpráva</legend>
 <script type="text/javascript" src="/ed-{$smarty.const.JS_CHKSUM}.js"></script>  
-<textarea name="vzkaz" id="vzkaz" accesskey="k" tabindex="3" rows="5" cols="50">{if isset($vzkaz)}{$vzkaz|escape}{/if}</textarea>
+<textarea name="vzkaz" id="vzkaz" accesskey="k" tabindex="3" rows="5" cols="50" required>{if isset($vzkaz)}{$vzkaz|escape}{/if}</textarea>
 <script type="text/javascript">edToolbar('vzkaz');</script>
 <noscript><p>Možnosti: [b]tučné písmo[/b], [i]šikmé písmo[/i], [url=http://neco.cz]odkaz[/url], [email]tvoje@adresa.cz[/email]</p></noscript>
 </fieldset>

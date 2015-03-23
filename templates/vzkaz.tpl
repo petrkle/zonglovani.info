@@ -13,7 +13,7 @@
 <fieldset>
 <legend>Odesílatel</legend>
 <ul>
-<li><label for="email" accesskey="e" class="kratkypopis" ><span class="u">E</span>-mail:</label><input type="text" name="email" id="email" value="{if isset($email)}{$email|escape}{/if}" class="textbox" tabindex="2" /><div class="tooltip">Tvoje adresa elektronické pošty. Např.: kdosi@kdesi.cz</div></li>
+<li><label for="email" accesskey="e" class="kratkypopis" ><span class="u">E</span>-mail:</label><input type="email" name="email" id="email" required autocomplete="email" value="{if isset($email)}{$email|escape}{/if}" class="textbox" tabindex="2" /><div class="tooltip">Tvoje adresa elektronické pošty. Např.: kdosi@kdesi.cz</div></li>
 </ul>
 </fieldset>
 </p>
@@ -24,7 +24,7 @@
 <legend>Vzkaz</legend>
 <ul>
 </ul>
-<textarea name="vzkaz" accesskey="p" tabindex="3">{if isset($vzkaz)}{$vzkaz|escape}{/if}</textarea>
+<textarea name="vzkaz" accesskey="p" tabindex="3" required>{if isset($vzkaz)}{$vzkaz|escape}{/if}</textarea>
 </fieldset>
 </p>
 

@@ -12,8 +12,8 @@ Po odeslání formuláře přijde na tvůj nový e-mail zpráva, pomocí které 
 <fieldset>
 <legend>Změna emailu</legend>
 <ul>
-<li><label for="heslo" accesskey="n" class="kratkypopis"><span class="u">N</span>ový&nbsp;email:</label><input type="email" name="email" id="email" value="" class="textbox" tabindex="1"/><div class="tooltip">Nová adresa elektronické pošty</div></li>
-<li><label for="heslo" accesskey="h" class="kratkypopis"><span class="u">H</span>eslo do žonglérova slabikáře:</label><input type="password" name="heslo" id="heslo" value="" class="textbox" tabindex="2"/><div class="tooltip">Heslo použité pro přihlášení do žonglérova slabikáře.</div></li>
+<li><label for="heslo" accesskey="n" class="kratkypopis"><span class="u">N</span>ový&nbsp;email:</label><input type="email" name="email" id="email" autocomplete="email" required value="" class="textbox" tabindex="1"/><div class="tooltip">Nová adresa elektronické pošty</div></li>
+<li><label for="heslo" accesskey="h" class="kratkypopis"><span class="u">H</span>eslo do žonglérova slabikáře:</label><input type="password" name="heslo" required id="heslo" value="" class="textbox" tabindex="2"/><div class="tooltip">Heslo použité pro přihlášení do žonglérova slabikáře.</div></li>
 </ul>
 </fieldset>
 <fieldset id="robotprotection">

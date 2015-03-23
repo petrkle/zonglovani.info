@@ -14,8 +14,8 @@ Pro zobrazení požadované stránky je nutné přihlášení.
 <fieldset>
 <legend>Přihlašovací údaje</legend>
 <ul>
-<li><label for="login" accesskey="l" class="kratkypopis"><span class="u">E</span>-mail:</label><input type="email" name="login" id="login" value="{if isset($login)}{$login|escape}{/if}" class="textbox" tabindex="1"/><div class="tooltip">Emailová adresa zadaná při registraci.</div></li>
-<li><label for="heslo" accesskey="h" class="kratkypopis"><span class="u">H</span>eslo:</label><input type="password" name="heslo" id="heslo" value="" class="textbox" tabindex="2"/><div class="tooltip">Heslo pro přihlášení. Při zadávání ZÁLEŽÍ na velikosti písmen.</div></li>
+<li><label for="login" accesskey="l" class="kratkypopis"><span class="u">E</span>-mail:</label><input type="email" autocomplete="email" required name="login" id="login" value="{if isset($login)}{$login|escape}{/if}" class="textbox" tabindex="1"/><div class="tooltip">Emailová adresa zadaná při registraci.</div></li>
+<li><label for="heslo" accesskey="h" class="kratkypopis"><span class="u">H</span>eslo:</label><input type="password" name="heslo" id="heslo" required value="" class="textbox" tabindex="2"/><div class="tooltip">Heslo pro přihlášení. Při zadávání ZÁLEŽÍ na velikosti písmen.</div></li>
 </ul>
 </fieldset>
 
