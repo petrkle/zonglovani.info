@@ -78,6 +78,10 @@ $rss_zdroje['cascabel']=array(
 	'popis'=>'Cascabel',
 	'url'=>'http://cascabel.cz',
 	'feed_url'=>'http://www.facebook.com/feeds/page.php?format=atom10&id=215856865245546');
+$rss_zdroje['knockknock']=array(
+	'popis'=>'Knock Knock',
+	'url'=>'http://knock-knock.eu',
+	'feed_url'=>'http://www.facebook.com/feeds/page.php?format=atom10&id=366069913518409');
 $rss_zdroje['slabikarkalendar']=array(
 	'popis'=>'Žonglérův slabikář - kalendář',
 	'url'=>'https://zonglovani.info/kalendar/',
