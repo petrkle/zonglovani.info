@@ -29,7 +29,7 @@ my $clovek_formular_mail='';
 my $clovek_mail_mail='';
 
 foreach my $clovek(@lide){
-	if(! -f "$clovek/LOCKED"){
+	if(! -f "$clovek/LOCKED" && ! -f "$clovek/REVOKED"){
 		my $soukromi = read_file("$clovek/soukromi.txt") ;
 		if($soukromi =~ /formular/){
 			$clovek_formular = basename($clovek);
