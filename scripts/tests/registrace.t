@@ -69,9 +69,8 @@ my $zs_udaje = $bot->submit_form(form_number => 0,fields => $udaje);
 
 $content=$zs_udaje->content();
 
-ok($content =~ /Na tvůj e-mail \($mail\) byla odeslána zpráva/, 'Aktivační email odeslán');
-sleep 1;
-ok(-f "/home/fakemail/$mail.1.eml", 'Aktivační email přišel');
+ok($content =~ /Na tvůj e-mail \($mail\) byla odeslána zpráva/, "Aktivační email na $mail odeslán");
+ok(-f "/home/fakemail/$mail.1.eml", "Aktivační email pro $mail přišel");
 
 open MAIL, "/home/fakemail/$mail.1.eml";
 my @zprava = <MAIL>;
@@ -84,7 +83,6 @@ ok($pocetodkazu > 0,"Heslo pro přihlášení");
 
 my $heslo = $odkazy[0];
 chomp($heslo);
-chop($heslo);
 $heslo =~ s/^Heslo: //;
 
 my $zs_nastave = $bot->get('https://zongl.info/lide/nastaveni/');
@@ -143,7 +141,6 @@ my $zs_obnova = $bot->submit_form(form_number => 0,fields => $obnovit, button =>
 
 ok($zs_obnova->content() =~ /Na tvůj e-mail byla odeslána zpráva potřebná k obnovení hesla/,'Odeslán email pro obnovu hesla.');
 
-sleep 1;
 ok(-f "/home/fakemail/$mail.2.eml", 'Email pro obnovu hesla přišel');
 
 open MAIL, "/home/fakemail/$mail.2.eml";
@@ -200,7 +197,6 @@ my $zs_ruseni = $bot->get('https://zongl.info/lide/nastaveni/zruseni');
 $zs_ruseni = $bot->click_button(name=>'zrusit');
 ok($zs_ruseni->content() =~ /E-mail s instrukcemi jak zrušit účet odeslán\./,'Odeslání zprávy s odkazem na zrušení.');
 
-sleep 1;
 ok(-f "/home/fakemail/$mail.3.eml", 'Rušící email přišel');
 
 open MAIL, "/home/fakemail/$mail.3.eml";

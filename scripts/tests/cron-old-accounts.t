@@ -66,13 +66,12 @@ $bot->add_header( 'Accept-Encoding' => '' );
 my $pozadavek = $bot->get('http://zongl.info/cron/old-accounts.php');
 ok($bot->status() == 200,'Spuštění cronu');
 
-sleep 1;
 ok(-f "/home/fakemail/$mail.1.eml", 'Připomínací email přišel');
 
 ok(-f "/home/www/zonglovani.info/data/sendmails/$mail.spici", 'Záznam o odeslání připomínacího emailu');
 
 $pozadavek = $bot->get('http://zongl.info/cron/old-accounts.php');
-sleep 1;
+
 ok(!-f "/home/fakemail/$mail.2.eml", 'Připomínací email nechodí dvakrát');
 
 open MAIL, "/home/fakemail/$mail.1.eml";
@@ -97,11 +96,10 @@ ok($zs_nastaveni_uziv =~ /E-mail: <strong>$mail<\/strong>/,'Úspěšné přihlá
 $pozadavek = $bot->get('https://zongl.info/lide/odhlaseni.php');
 $pozadavek = $bot->get('https://zongl.info/cron/old-accounts.php');
 
-sleep 1;
 ok(!-f "/home/www/zonglovani.info/data/sendmails/$mail.spici", 'Smazání záznam o odeslání připomínacího emailu');
 
 $pozadavek = $bot->get('https://zongl.info/cron/old-accounts.php');
-sleep 1;
+
 ok(!-f "/home/fakemail/$mail.2.eml", 'Připomínací email nechodí po přihlášení');
 
 
@@ -128,13 +126,13 @@ ok($zs_prihlaseni->content() =~ /Účet je zrušen/,'Neaktivní účet je zruše
 
 system("touch -t $warn_time"."1200.00 $DATA_LIDE/$login/prihlaseni.txt");
 $pozadavek = $bot->get('https://zongl.info/cron/old-accounts.php');
-sleep 1;
+
 ok(!-f "/home/fakemail/$mail.2.eml", 'Připomínací email nechodí na účty zrušené uživateli');
 unlink("$DATA_LIDE/$login/LOCKED");
 
 system("touch $DATA_LIDE/$login/REVOKED");
 $pozadavek = $bot->get('https://zongl.info/cron/old-accounts.php');
-sleep 1;
+
 ok(!-f "/home/fakemail/$mail.2.eml", 'Připomínací email nechodí na zablokované účty zlobivých uživatelů');
 
 system("rm -rf $DATA_LIDE/$login");

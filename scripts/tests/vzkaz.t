@@ -69,7 +69,6 @@ my $zs_posli_vzkaz = $bot->submit_form(form_number => 0 ,fields => $udaje, butto
 my $navrat = $zs_posli_vzkaz->content();
 ok($navrat =~ /Na tvůj e-mail byla odeslána zpráva potřebná k dokončení zaslání vzkazu\./,"Odeslání potvrzovacího mailu na $clovek_mail_mail ($clovek_mail)");
 
-sleep 1;
 ok(-f "/home/fakemail/$clovek_mail_mail.1.eml", 'Potvrzovaci mail přišel');
 
 my $text = read_file("/home/fakemail/$clovek_mail_mail.1.eml", binmode => ':utf8');
@@ -83,7 +82,6 @@ ok($pocetodkazu == 1, "Odkaz na odeslání vzkazu");
 my $zs_aktivace = $bot->get($odkazy[0]);
 ok($zs_aktivace->content() =~ /Vzkaz byl odeslán./,"Vzkaz byl odeslán na $clovek_formular_mail ($clovek_formular).");
 
-sleep 1;
 ok(-f "/home/fakemail/$clovek_formular_mail.1.eml", "Vzkaz od $clovek_mail_mail ($clovek_mail) přišel na $clovek_formular_mail ($clovek_formular) přišel.");
 
 my $zs_prihlaseni = $bot->get($loginurl);
@@ -111,8 +109,6 @@ my $zs_posli_vzkaz_prihl = $bot->submit_form(form_number => 0 ,fields => $udaje,
 my $odpoved = $zs_posli_vzkaz_prihl->content();
 
 ok($odpoved =~ /Vzkaz byl úspěšně odeslán/,'Vzkaz od přihlášeného uživatele byl úspěšně odeslán.');
-
-sleep 1;
 
 ok(-f "/home/fakemail/$clovek_formular_mail.2.eml", "Vzkaz od přihlášeného uživatele přišel na $clovek_formular_mail ($clovek_formular).");
 
