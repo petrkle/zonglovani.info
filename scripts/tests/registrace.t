@@ -70,7 +70,7 @@ my $zs_udaje = $bot->submit_form(form_number => 0,fields => $udaje);
 $content=$zs_udaje->content();
 
 ok($content =~ /Na tvůj e-mail \($mail\) byla odeslána zpráva/, 'Aktivační email odeslán');
-sleep 3;
+sleep 1;
 ok(-f "/home/fakemail/$mail.1.eml", 'Aktivační email přišel');
 
 open MAIL, "/home/fakemail/$mail.1.eml";
@@ -143,7 +143,7 @@ my $zs_obnova = $bot->submit_form(form_number => 0,fields => $obnovit, button =>
 
 ok($zs_obnova->content() =~ /Na tvůj e-mail byla odeslána zpráva potřebná k obnovení hesla/,'Odeslán email pro obnovu hesla.');
 
-sleep 3;
+sleep 1;
 ok(-f "/home/fakemail/$mail.2.eml", 'Email pro obnovu hesla přišel');
 
 open MAIL, "/home/fakemail/$mail.2.eml";
