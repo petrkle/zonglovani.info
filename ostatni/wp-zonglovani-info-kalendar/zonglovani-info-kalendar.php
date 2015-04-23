@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin Name: Kalendář žonglování
-Plugin URI: http://zonglovani.info
+Plugin URI: https://zonglovani.info
 Description: Kalendář žonglérských akcí.
-Version: 1.1
+Version: 1.2
 Author: Žonglérův slabikář
-Author URI: http://zonglovani.info/kontakt.html
+Author URI: https://zonglovani.info/kontakt.html
 License: GPL3
 */
  
@@ -38,19 +38,19 @@ class ZonglovaniInfoKalendar extends WP_Widget {
 				}
 
 				if($layout == 'vertical' and $color == 'dark'){
-					$extracss = '?css=http://zonglovani.info/css/w-dark.css';
+					$extracss = '?css=https://zonglovani.info/css/w-dark.css';
 				}
 
 				if($layout == 'horizontal' and $color == 'light'){
-					$extracss = '?css=http://zonglovani.info/css/ww-light.css';
+					$extracss = '?css=https://zonglovani.info/css/ww-light.css';
 				}
 
 				if($layout == 'horizontal' and $color == 'dark'){
-					$extracss = '?css=http://zonglovani.info/css/ww-dark.css';
+					$extracss = '?css=https://zonglovani.info/css/ww-dark.css';
 				}
          
-				echo '<a href="http://zonglovani.info/kalendar" title="Kalendář žonglérských akcí" id="zs-kalendar">Kalendář žonglování</a><br />';
-				echo '<script src="http://zonglovani.info/kalendar/widget.js' . $extracss . '" type="text/javascript" charset="utf-8"></script>';
+				echo '<a href="https://zonglovani.info/kalendar" title="Kalendář žonglérských akcí" id="zs-kalendar">Kalendář žonglování</a><br />';
+				echo '<script src="https://zonglovani.info/kalendar/widget.js' . $extracss . '" type="text/javascript" charset="utf-8"></script>';
         echo $after_widget;
          
     }
