@@ -332,7 +332,8 @@
 2015-04-06*Zachycení míčku za krk*/micky/3/krk.html*krka.png*Jako třešničku na dortu můžeš na konci svého vystoupení předvést zachycení míčku za krk.
 2015-04-13*Pravidla passování*/kuzely/passing/pravidla.html*pravidlaa.png*Při žonglování s více lidmi si užiješ spoustu legrace. Než začneš, je dobré znát následující pravidla.
 2015-04-20*Pass self self pass self pass pass self*/kuzely/passing/psspspps.html*kuzely-passing-psspspps-rytmus.png*Trik pro dva žongléry a šest kuželů. Nejtěžší na něm je zapamatovat si název.
-2015-04-27*Fontána*/micky/4/fontana.html*fontanaa.png*Při fontáně provádí každá ruka samostatně 2 v 1. Na obrázku to může vypadat obtížně. Naštěstí je to jenom zdání a naučit se fontánu není problém.
+2015-04-27*Kroužek žonglování v Hradci Králové*/kalendar/udalost-20150430-20150430-argosovo-1429716425.html*oops.png*Nauč se žonglovat se skupinou Oops Hradec Králové - míčky kužely, (partner) poi, talíře, flowersticky, jednokolka, slackline a nejen to.
+2015-05-01*Fontána*/micky/4/fontana.html*fontanaa.png*Při fontáně provádí každá ruka samostatně 2 v 1. Na obrázku to může vypadat obtížně. Naštěstí je to jenom zdání a naučit se fontánu není problém.
 2015-05-04*Sloupy*/micky/4/sloupy.html*4sloupya.png*Existuje víc variant provedení sloupů se čtyřmi míčky. Asi nejsnadnější je vyhazovat míčky jako při fontáně.
 2015-05-11*Hodiny*/micky/3/hodiny.html*micky-3-hodinya.png*První a druhý míček vyhoď najednou z pravé ruky.
 2015-05-18*Další informace o žonglování*/ostatni.html*zacatecnik.png*Základní pojmy v žonglování.
