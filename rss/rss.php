@@ -14,10 +14,6 @@ $rss_zdroje['infinitos']=array(
 	'popis'=>'infinitos.cz',
 	'url'=>'http://infinitos.cz',
 	'feed_url'=>'http://www.facebook.com/feeds/page.php?format=atom10&id=314458838078');
-$rss_zdroje['lideczongl']=array(
-	'popis'=>'Lidé.cz - žonglování',
-	'url'=>'http://forum.lide.cz/forum.fcgi?akce=forum_data&auth=&forum_ID=7547',
-	'feed_url'=>'http://forum.lide.cz/rss/7547');
 $rss_zdroje['jugglesk']=array(
 	'popis'=>'juggle.sk',
 	'url'=>'http://juggle.sk',
