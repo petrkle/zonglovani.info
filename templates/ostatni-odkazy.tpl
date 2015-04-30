@@ -28,6 +28,19 @@ Profesionální fireshow skupina.
 Žonglérská skupina Kruhová parabola.
 </p>
 
+<a name="cecilka"></a><h5><a href="http://cecilka.com" title="Cecilka" class="external">Cecilka</a></h5>
+<p>
+<a href="http://cecilka.com/" title="Cecilka">{obrazek soubor="cecilka.jpg" popisek="cecilka.com"}</a>
+Cecílie
+</p>
+
+<a name="kufr"></a><h5><a href="http://www.divadlokufr.cz" title="Divadlo Kufr" class="external">Divadlo Kufr</a></h5>
+<p>
+<a href="http://www.divadlokufr.cz" title="Divadlo Kufr">{obrazek soubor="kufr.png" popisek="Kufr"}</a>
+Adéla Kratochvílová a Dáša Trávníková
+</p>
+
+
 <a name="jugglehub"></a><h5><a href="http://juraj-zongler.cz" title="Jirka Grygar" class="external">Jirka Grygar</a></h5>
 <p>
 <a href="http://juraj-zongler.cz/" title="Jirka Grygar">{obrazek soubor="odkazy-juraj-zongler.cz.png" popisek="juraj-zongler.cz"}</a>
