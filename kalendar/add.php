@@ -12,6 +12,10 @@ $smarty->assign('styly',array('kpopup'));
 
 $udalost=get_udalost_post();
 
+$trail = new Trail();
+$trail->addStep('Kalendář',CALENDAR_URL);
+$trail->addStep('Nová událost');
+
 if(isset($_POST['odeslat'])){
 	$chyby=event_validation($udalost,$now);
 	
@@ -31,6 +35,7 @@ if(isset($_POST['odeslat'])){
 if(isset($chyby)){
 	$smarty->assign('chyby',$chyby);
 }
+$smarty->assign('trail', $trail->path);
 $smarty->assign('udalost',$udalost);
 $smarty->display('hlavicka.tpl');
 $smarty->display('kalendar-edit.tpl');

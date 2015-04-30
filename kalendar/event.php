@@ -11,7 +11,6 @@ if(isset($_GET['id'])){
 	$id=false;
 }
 
-
 $trail = new Trail();
 $trail->addStep('Kalendář',CALENDAR_URL);
 
