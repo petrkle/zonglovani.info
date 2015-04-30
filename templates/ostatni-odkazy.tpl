@@ -18,7 +18,7 @@ Stránky o žonglování s ohněm.
 
 <a name="infinitos"></a><h5><a href="http://fireshow.infinitos.cz/" title="Fireshow Infinitos" class="external">fireshow.infinitos.cz</a></h5>
 <p>
-<a href="http://fireshow.infinitos.cz/" title="Fireshow Infinitos" class="external">{obrazek soubor="odkazy-infinitos.png" popisek="fireshow.infinitos.cz"}</a>
+<a href="http://fireshow.infinitos.cz/" title="Fireshow Infinitos">{obrazek soubor="odkazy-infinitos.png" popisek="fireshow.infinitos.cz"}</a>
 Profesionální fireshow skupina.
 </p>
 
@@ -36,8 +36,14 @@ Juraj juggling.
 
 <a name="firelovers"></a><h5><a href="http://firelovers.cz/" title="Fireshow firelovers" class="external">firelovers.cz</a></h5>
 <p>
-<a href="http://firelovers.cz/" title="Fireshow firelovers" class="external">{obrazek soubor="odkazy-firelovers.jpg" popisek="firelovers.cz"}</a>
+<a href="http://firelovers.cz/" title="Fireshow firelovers">{obrazek soubor="odkazy-firelovers.jpg" popisek="firelovers.cz"}</a>
 Skupina žonglérů, kteří milují oheň.
+</p>
+
+<a name="legrando"></a><h5><a href="http://legrando.cz/" title="Cirkus LeGrando" class="external">legrando.cz</a></h5>
+<p>
+<a href="http://legrando.cz/" title="Cirkus LeGrando">{obrazek soubor="legrando.jpg" popisek="legrando.cz"}</a>
+Cirkus pro děti a mládež.
 </p>
 
 <a name="zonglovanie"></a><h5><a href="http://www.zonglovanie.ariesa.sk" title="Slovenský server." class="external">zonglovanie.ariesa.sk</a></h5>
@@ -58,22 +64,10 @@ Další příspěvek ze <a href="{$smarty.const.LIDE_URL}misto/#sk" title="Sezna
 Žonglérská televize.
 </p>
 
-<a name="jugglehub"></a><h5><a href="http://jugglehub.com" title="JuggleHub" class="external">jugglehub.com</a></h5>
-<p>
-<a href="http://jugglehub.com/" title="JuggleHub">{obrazek soubor="odkazy-jugglehub.com.png" popisek="jugglehub.com"}</a>
-Žonglérský portál.
-</p>
-
 <a name="cirqueon"></a><h5><a href="http://www.cirqueon.cz/" title="Asociace pro současný cirkus" class="external">cirqueon.cz</a></h5>
 <p>
 <a href="http://www.cirqueon.cz/" title="Asociace pro současný cirkus">{obrazek soubor="odkazy-cirqueon.cz.png" popisek="cirqueon.cz"}</a>
 Asociace pro současný cirkus.
-</p>
-
-<a name="improvizovanycirkus"></a><h5><a href="http://improvizovanycirkus.cz/" title="Improvizovaný cirkus" class="external">improvizovanycirkus.cz</a></h5>
-<p>
-<a href="http://improvizovanycirkus.cz/" title="Improvizovaný cirkus">{obrazek soubor="odkazy-improvizovanycirkus.cz.png" popisek="improvizovanycirkus.cz"}</a>
-Skupina, která se věnuje převážně divadlu, ale dělají i nějaké to žonglování.
 </p>
 
 <a name="didier"></a><h5><a href="http://didier.arlabosse.free.fr/balles/english/" title="Anglické stránky o žonglování." class="external">didier.arlabosse.free.fr/balles/english</a></h5>
