@@ -18,18 +18,14 @@
 {obrazek soubor="podporab.png" title="Pivo"}
 Jestli už ti bylo 18, tak mi můžeš koupit pivo. Např. <a href="/img/v/visen.jpg" title="Višeň s čistou hlavou">višeň</a>, <a href="/img/s/svestka.jpg" title="Švestka s čistou hlavou">švestku</a> nebo <a href="/img/m/mikulas.jpg" title="Sváteční ležák s jemnými kvasnicemi">Mikuláše</a>.</p>
 
-<a name="fb"></a><h3><a href="http://www.facebook.com/zongleruv.slabikar" class="external">Klikni na "To se mi líbí"</a></h3>
-<p>
-<a href="http://www.facebook.com/zongleruv.slabikar">{obrazek soubor='fb-logo.png' popisek='Žonglérův slabikář na facebooku.'}</a>
-Podpoř <a href="http://www.facebook.com/zongleruv.slabikar" class="external">žonglérův slabikář na Facebooku</a>. Dozvíš se tak o všech novinkách v žonglérově slabikáři.</p>
-
 <p>Žonglérův slabikář najdeš také na:</p>
 <ul>
-<li><a href="http://zonglovani.rajce.idnes.cz/" class="external">rajce.net</a></li>
-<li><a href="http://juggling.tv/users/4431/zonglovani.info" class="external">juggling.tv</a></li>
 <li><a href="http://www.youtube.com/ZongleruvSlabikar" class="external">youtube.com</a></li>
+<li><a href="http://juggling.tv/users/4431/zonglovani.info" class="external">juggling.tv</a></li>
+<li><a href="http://zonglovani.rajce.idnes.cz/" class="external">rajce.net</a></li>
 <li><a href="http://twitter.com/zonglovani" class="external">twitter.com</a></li>
 <li><a href="https://plus.google.com/113185830714954615444" class="external">google+</a></li>
+<li><a href="https://www.facebook.com/zongleruv.slabikar" class="external">facebook</a></li>
 <li><a href="https://speakerdeck.com/u/zonglovani/" class="external">speakerdeck.com</a></li>
 <li><a href="http://www.slideshare.net/zonglovani" class="external">slideshare.net</a></li>
 <li><a href="https://github.com/petrkle/zonglovani.info" class="external">github.com</a></li>
@@ -40,4 +36,3 @@ Podpoř <a href="http://www.facebook.com/zongleruv.slabikar" class="external">ž
 Přinese ti to následující výhody:
 </p>
 {include file='vyhody-uctu.tpl'}
-
