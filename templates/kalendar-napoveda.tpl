@@ -10,7 +10,7 @@
 <h3>Nastavení RSS</h3>
 
 <p>
-O novinkách se dozvíš stejně, jako kdyby ti přišly e-mailem. Postup nastavení RSS v programu <a href="http://www.mozilla.org/thunderbird/" class="external">Mozilla Thunderbird</a>.
+O novinkách se dozvíš stejně, jako kdyby ti přišly e-mailem. Postup nastavení RSS v programu <a href="https://www.mozilla.org/thunderbird/" class="external">Mozilla Thunderbird</a>.
 </p>
 
 

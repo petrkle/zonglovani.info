@@ -22,7 +22,7 @@ Přijít mohou začínající i zkušení žongléři a žonglérky. Pro široko
 </div>
 
 <p>
-Sleduj žonglérův slabikář na <a href="http://www.facebook.com/zongleruv.slabikar" id="fblink">Facebooku</a> - žádná Ulita ti neuteče.
+Sleduj žonglérův slabikář přes <a href="/rss.html">RSS</a> - žádná Ulita ti neuteče.
 </p>
 
 {if count($podzim)>0}
