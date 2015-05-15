@@ -29,6 +29,8 @@ Jestli už ti bylo 18, tak mi můžeš koupit pivo. Např. <a href="/img/v/visen
 <li><a href="https://speakerdeck.com/u/zonglovani/" class="external">speakerdeck.com</a></li>
 <li><a href="http://www.slideshare.net/zonglovani" class="external">slideshare.net</a></li>
 <li><a href="https://github.com/petrkle/zonglovani.info" class="external">github.com</a></li>
+<li><a href="http://search.mlp.cz/cz/titul/zongleruv-slabikar/4131041/" class="external" title="Záznam v katalogu Městské knihovny v Praze">mlp.cz</a></li>
+<li><a href="http://aleph.nkp.cz/F/?func=direct&doc_number=002609718&local_base=NKC" class="external" title="Záznam v databázi Národní knihovny ČR">nkp.cz</a></li>
 </ul>
 
 <h3><a href="{$smarty.const.LIDE_URL}novy-ucet.php">Založ si účet</a></h3>
