@@ -1,7 +1,7 @@
 {if isset($callback)}{$callback|escape} ( {/if}
 {literal}{{/literal}
-{foreach from=$events item=udalost name=smycka}
-"{$smarty.foreach.smycka.index}":[
+{foreach $events as $udalost}
+"{$udalost@iteration}":[
 {literal}{{/literal}
 "start": "{$udalost.start_hr}",
 "url": "https://{$smarty.server.SERVER_NAME}{$smarty.const.CALENDAR_URL}udalost-{$udalost.id}.html",
@@ -11,7 +11,7 @@
 {/if}
 "title": "{$udalost.title|replace:':':' '|truncate:40:"...":true|escape}"
 {literal}}{/literal}
-]{if !$smarty.foreach.smycka.last},{/if}
+]{if !$udalost@last},{/if}
 {/foreach}
 {literal}}{/literal}
 {if isset($callback)} ) {/if}

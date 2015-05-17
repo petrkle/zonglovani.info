@@ -16,6 +16,7 @@ Net::Netrc
 POSIX
 String::MkPasswd
 Test::Harness
+Test::JSON
 Test::More
 Time::Local
 WWW::Mechanize

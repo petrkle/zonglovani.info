@@ -4,7 +4,8 @@ use warnings;
 
 use LWP::ConnCache;
 use WWW::Mechanize;
-use Test::More tests => 3;
+use Test::More tests => 4;
+use Test::JSON;
 my $minimalitems=3;
 
 my $bot = WWW::Mechanize->new(autocheck => 1);
@@ -19,4 +20,5 @@ ok($response->content_type() =~ /application\/json/, "Správný mime typ");
 
 my $count=0;
 while ($content =~ /"start"/g) { $count++ };
-ok($count>=$minimalitems,"Json obsahuje alespoň $minimalitems události");
+ok($count>=$minimalitems, "JSON obsahuje alespoň $minimalitems události");
+is_valid_json( $content, "Soubor obsahuje dobře naformátovaný JSON");
