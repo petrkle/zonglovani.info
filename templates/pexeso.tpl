@@ -23,7 +23,7 @@ V nastavení tisku je potřeba zvolit dvě kopie, skutečnou velikost, jednostra
 
 <h2>Šablona 17x24cm</h2>
 <ul>
-<li><a href="pexeso/pexeso-17-24-01.pdf">Pexeso 1. 17x24</a> [PDF]</li>
-<li><a href="pexeso/pexeso-17-24-02.pdf">Pexeso 2. 17x24</a> [PDF]</li>
-<li><a href="pexeso/pexeso-17-24-03.pdf">Pexeso 3. 17x24</a> [PDF]</li>
+<li><a href="pexeso-17-24-01.pdf">Pexeso 1. 17x24</a> [PDF]</li>
+<li><a href="pexeso-17-24-02.pdf">Pexeso 2. 17x24</a> [PDF]</li>
+<li><a href="pexeso-17-24-03.pdf">Pexeso 3. 17x24</a> [PDF]</li>
 </ul>
