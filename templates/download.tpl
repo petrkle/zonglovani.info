@@ -13,6 +13,7 @@
 {if $typ == 'mobi'}
 {include file='android.tpl'}
 {include file='firefoxos.tpl'}
+{include file='pexeso-download.tpl'}
 {/if}
 {/if}
 
