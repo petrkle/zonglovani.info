@@ -152,7 +152,7 @@ done
    
 echo '
 	<item id="zs_obsah" media-type="application/x-dtbncx+xml" href="slabikar.ncx"/>
-  <item id="obalka" media-type="image/jpeg" href="obalka.png"/>
+  <item id="obalka" media-type="image/png" href="obalka.png"/>
 </manifest>
 <spine toc="zs_obsah">
 	' >> $OUTDIR/slabikar.opf
