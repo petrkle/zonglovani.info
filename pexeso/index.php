@@ -12,6 +12,7 @@ $smarty->assign('nahled','https://'.$_SERVER['SERVER_NAME'].'/img/z/zonglerske-p
 
 $dalsi=array(
 	array('url'=>'/micky/jak-zacit.html','text'=>'Jak začít žonglovat s míčky','title'=>'Návod na žonglování se třemi míčky'),
+	array('url'=>'http://www.pexeso.net/zonglovani/05C7B','text'=>'Zahrát si žonglérské pexeso on-line','title'=>'pexeso.net'),
 	);
 $smarty->assign('dalsi',$dalsi);
 
