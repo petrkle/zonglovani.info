@@ -339,11 +339,11 @@
 2015-05-18*Další informace o žonglování*/ostatni.html*zacatecnik.png*Základní pojmy v žonglování.
 2015-05-25*Falešné sloupy*/micky/3/sloupy-falesne.html*fsloupya.png*Začni jako při normálních sloupech. První míček rovně nahoru.
 2015-06-01*Žonglobalizace*/kalendar/udalost-20150606-20150606-pek-1421523958.html*zonglobalizace15.png*Pátý ročník festivalu nového cirkusu v Plzni.
-2015-06-08*Žonglérské pexeso*/pexeso/*zonglerske-pexeso.s.jpg*Supertěžké žonglérské pexeso.
-2015-06-15*Falešné Mills' mess*/micky/3/mm-falesne.html*micky-3-mm-falesnea.png*Popsat tento trik je skoro stejně těžké jako se ho naučit. Takže hurá do toho!
+2015-06-08*Mezinárodní den žonglování*/kalendar/udalost-20150614-20150614-pek-1432671771.html*dzvb15.png*Oslava mezinárodního dne žonglování.
+2015-06-15*Aleje 2015*/kalendar/udalost-20150815-20150821-pek-1430386701.html*aleje-logo.jpg*14. mezinárodní žonglérská a divadelní dílna. Počet míst je omezen. Přihlaš se co nejdřív.
 2015-06-22*Polná v plamenech*/kalendar/udalost-20150627-20150627-pek-1421827020.html*polna15.jpg*Šestý ročník festivalu ohňových umění.
 2015-06-29*European Juggling Convention*/kalendar/ejc.html*ejc2015.png*Evropské setkání žonglérů v Bruneck začíná za měsíc. Nejvyšší čas sehnat si odvoz do Itálie.
-2015-07-06*Výměny ve čtvercích*/kuzely/passing/vymeny.html*vymenya.png*Trik pro čtyři žongléry s dvanácti kužely.
+2015-07-06*Žonglérské pexeso*/pexeso/*zonglerske-pexeso.s.jpg*Supertěžké žonglérské pexeso.
 2015-07-13*Chrámové okno*/micky/3/okno.html*oknoa.png*Při tomto triku míčky létají vysokým úzkým obloukem, který připomíná obrys chrámového okna.
 2015-07-20*441*/micky/3/441.html*441a.png*Pěkný trik, ale dostat se do rytmu chvíli trvá.
 2015-07-27*Větrný mlýn*/micky/3/mlyn.html*mlyna.png*Míčky opisují stejnou dráhu jako při sprše, ale nepřesunují se z jedné ruky do druhé rychlým vodorovným hodem. Místo toho křížíš ruce a vyhazuješ míčky jen z jedné strany.
@@ -388,8 +388,8 @@
 2016-04-25*Socha svobody*/micky/3/socha.html*sochaa.png*Socha svobody je vlastně poloviční sprcha s jednou rukou nahoře. Jiný název pro tento trik je žirafa.
 2016-05-02*Obloučky*/micky/3/oblouky.html*obloukya.png*Každý míček má vlastní dráhu, která se nekříží s ostatními.
 2016-05-09*Kaskáda (multiplex)*/micky/5/kaskada-multiplex.html*5kaskadamultia.png*Kaskáda s pěti míčky je obtížný trik. Nezbývá tedy nic jiného, než si ji trochu usnadnit. Stačí vyhazovat dva míčky najednou.
-2016-05-16*
-2016-05-23*
+2016-05-16*Falešné Mills' mess*/micky/3/mm-falesne.html*micky-3-mm-falesnea.png*Popsat tento trik je skoro stejně těžké jako se ho naučit. Takže hurá do toho!
+2016-05-23*Výměny ve čtvercích*/kuzely/passing/vymeny.html*vymenya.png*Trik pro čtyři žongléry s dvanácti kužely.
 2016-05-30*
 2016-06-06*
 2016-06-13*
