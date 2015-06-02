@@ -18,15 +18,9 @@ https://zonglovani.info
 
 	echo "127.0.0.1 zongl.info" >> /etc/hosts
 
-## Nastavení apache ##
+## Nastavení nginx ##
 
-	<VirtualHost *:80>
-		DocumentRoot "/home/www/zonglovani.info"
-		ServerName zongl.info
-		ServerAlias www.zongl.info
-		ErrorLog "/var/log/httpd/zonglovani.info-error_log"
-		CustomLog "/var/log/httpd/zonglovani.info-access_log" combinedio
-	</VirtualHost>
+	scripts/nginx.zongl.info.conf
 
 ## Postfix ##
 
