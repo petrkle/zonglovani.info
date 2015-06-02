@@ -30,6 +30,7 @@
 <li><a href="/software.html#juggleanim" title="Program JuggleAnim">JuggleAnim</a> - animace žonglování</li>
 <li><a href="http://www.semicomplete.com/projects/xdotool/" class="external">xdotool</a> - automatizace</li>
 <li><a href="http://www.postfix.org" class="external">Postfix</a> - MTA</li>
+<li><a href="http://nginx.org" class="external">Nginx</a> - webový server</li>
 <li><a name="fakemail"></a><a href="https://github.com/petrkle/fakemail-slack" class="external">Fakemail</a> - testování</li>
 <li><a href="http://wixtoolset.org/" class="external">WiX Toolset</a> - instalační balíček pro Windows</li>
 <li><a href="http://www.amazon.com/gp/feature.html?docId=1000234621" class="external">KindleGen</a> - vytvoření mobi souboru.</li>
