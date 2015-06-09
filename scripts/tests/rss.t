@@ -4,7 +4,8 @@ use warnings;
 
 use LWP::ConnCache;
 use WWW::Mechanize;
-use Test::More tests => 52;
+use Test::More tests => 72;
+use Test::XML;
 my $minimalitems=3;
 my @adresy=(
 "/zonglovani.rss",
@@ -34,9 +35,13 @@ foreach my $url(@adresy){
 	ok($response->content_type() =~ /application\/xml/, "Správný mime typ pro $url");
 	my $count = 0;
 	my $chybneodkazy = 0;
+	is_well_formed_xml($content, "$url je dobře naformátované xml");
 	while ($content =~ /<\/item>/g) { $count++ };
 	ok($count>=$minimalitems,"RSS kanál $url obsahuje alespoň $minimalitems položky");
 	foreach my $radek(split("\n",$content)){
+		if($radek =~ /xml-stylesheet/){
+			ok($radek !~ /smarty\.server/, 'xml-stylesheet obsahuje smarty.server');
+		}
 		if($radek =~ /<link>/){
 			my $odkaz = $radek;
 			$odkaz =~ s/.*<link>(.*)<\/link>.*/$1/;

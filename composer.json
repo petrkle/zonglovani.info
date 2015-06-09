@@ -1,7 +1,7 @@
 {
     "require": {
         "php": ">=5.6.0",
-        "smarty/smarty": "3.1.23"
+        "smarty/smarty": "3.1.21"
     },
 		"config": {
 			"optimize-autoloader": true,
