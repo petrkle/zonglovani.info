@@ -18,5 +18,6 @@ String::MkPasswd
 Test::Harness
 Test::JSON
 Test::More
+Test::XML
 Time::Local
 WWW::Mechanize
