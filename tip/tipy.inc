@@ -342,7 +342,7 @@
 2015-06-08*Mezinárodní den žonglování*/kalendar/udalost-20150614-20150614-pek-1432671771.html*dzvb15.png*Oslava mezinárodního dne žonglování.
 2015-06-15*Aleje 2015*/kalendar/udalost-20150815-20150821-pek-1430386701.html*aleje-logo.jpg*14. mezinárodní žonglérská a divadelní dílna. Počet míst je omezen. Přihlaš se co nejdřív.
 2015-06-22*Polná v plamenech*/kalendar/udalost-20150627-20150627-pek-1421827020.html*polna15.jpg*Šestý ročník festivalu ohňových umění.
-2015-06-29*European Juggling Convention*/kalendar/ejc.html*ejc2015.png*Evropské setkání žonglérů v Bruneck začíná za měsíc. Nejvyšší čas sehnat si odvoz do Itálie.
+2015-06-29*European Juggling Convention*/kalendar/ejc.html*ejc2015.png*Evropské setkání žonglérů v Brunecku začíná za měsíc. Nejvyšší čas sehnat si odvoz do Itálie.
 2015-07-06*Žonglérské pexeso*/pexeso/*zonglerske-pexeso.s.jpg*Supertěžké žonglérské pexeso.
 2015-07-13*Chrámové okno*/micky/3/okno.html*oknoa.png*Při tomto triku míčky létají vysokým úzkým obloukem, který připomíná obrys chrámového okna.
 2015-07-20*441*/micky/3/441.html*441a.png*Pěkný trik, ale dostat se do rytmu chvíli trvá.
