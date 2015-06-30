@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet href="https://{$smarty.server.SERVER_NAME}/xml.xsl" type="text/xsl"?>
+{literal}<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="https://{/literal}{$smarty.server.SERVER_NAME}/xml.xsl" type="text/xsl"?>
 <rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
 <title>Obrázky žonglování</title>
