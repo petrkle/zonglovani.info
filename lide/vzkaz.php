@@ -1,9 +1,6 @@
 <?php
 require('../init.php');
 require('../func.php');
-include_once($lib.'/SMTP.php');
-include_once($lib.'/Mail.php');
-include_once($lib.'/Mail/mime.php');
 
 if (!isset($_SESSION)) {
 	session_name('ZS');

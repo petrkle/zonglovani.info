@@ -1,8 +1,6 @@
 <?php
 require('../init.php');
 require('../func.php');
-include_once($lib.'/Mail.php');
-include_once($lib.'/Mail/mime.php');
 
 $loginy=get_loginy();
 $now=time();

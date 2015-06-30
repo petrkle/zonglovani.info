@@ -28,7 +28,7 @@ $smarty->template_dir = $_SERVER['DOCUMENT_ROOT'].'/templates';
 $smarty->config_dir = $lib.'/configs';
 $smarty->cache_dir = $_SERVER['DOCUMENT_ROOT'].'/tmp/cache';
 $smarty->compile_dir = $_SERVER['DOCUMENT_ROOT'].'/tmp/templates_c';
-$smarty->plugins_dir = array($lib.'/plugins',$lib.'/plugins_user');
+$smarty->plugins_dir = array($_SERVER['DOCUMENT_ROOT'].'/vendor/smarty/smarty/libs/plugins',$lib.'/plugins_user');
 
 define('CALENDAR_URL','/kalendar/'); 
 define('CALENDAR_ROOT',$lib.'/calendar/'); 
