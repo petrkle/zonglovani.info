@@ -35,22 +35,6 @@ foreach($rss_zdroje as $id=>$kanal){
 			$item['link'] = $item['guid'];
 		}
 
-		if(preg_match('/facebook/',$kanal['feed_url'])){
-			$item['link']=preg_replace('/^\//','https://facebook.com/',$item['link']);
-
-			if(strlen(trim($item['title']))==0 and isset($item['atom_content'])){
-				$ac=trim(strip_tags($item['atom_content']));
-				if(strlen($ac)>0){
-					$item['title']=$ac;
-				}
-			}
-
-			if(strlen(trim($item['title']))==0 and (preg_match('/facebook\.com\/events\//', $item['link']) or preg_match('/facebook\.com\/.*\/photos\//', $item['link']))){
-				$item['title'] = get_facebook_title($item['link']);
-			}
-
-		}
-
 		if(isset($item['feedburner']['origlink'])){
 			$item['link']=$item['feedburner']['origlink'];
 		}
@@ -104,30 +88,4 @@ foreach($rss_zdroje as $id=>$kanal){
 
 function u_shuffle( $a, $b ) {
 	     return rand(-1,1);
-}
-
-function get_facebook_title($url){
-	$navrat = '';
-
-		$url = preg_replace('/^http:\/\/www\.facebook\.com/', 'https://www.facebook.com', $url);
-		$dom = new DOMDocument();
-		$ch = curl_init();
-		curl_setopt($ch, CURLOPT_URL, $url);
-		curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1); 
-		curl_setopt($ch, CURLOPT_AUTOREFERER, 1); 
-		curl_setopt($ch, CURLOPT_REFERER, BASEURL);
-		curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 20);
-		curl_setopt($ch, CURLOPT_USERAGENT, 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.65 Safari/537.36');
-		curl_setopt($ch,CURLOPT_ENCODING, '');
-		$dom->loadHTML(curl_exec($ch));
-		curl_close($ch);
-
-		$xpath = new DOMXPath($dom);
-		$titleNode = $xpath->query('//title');
-		$title = $titleNode->item(0)->nodeValue;
-		if(strlen(trim($title)) > 0){
-			$navrat = preg_replace('/\s\|\sFacebook$/', '', $title);
-		}
-
-	return $navrat;	
 }
