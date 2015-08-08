@@ -1,6 +1,8 @@
 <p>Seznam programů použitých při vytváření žonglérova slabikáře.</p>
 <ul>
 <li><a href="http://slackware.com" class="external">Slackware linux</a> - operační systém</li>
+<li><a href="https://www.debian.org/" class="external">Debian</a> - operační systém</li>
+<li><a href="https://saltstack.cz/" class="external">Saltstack</a> - Configuration management</li>
 <li><a href="http://www.vim.org" class="external">vim</a> - textový editor</li>
 <li><a href="http://invisible-island.net/xterm/xterm.html" class="external">xterm</a> - terminál</li>
 <li><a href="http://php.net" class="external">php</a> - hypertext preprocessor</li>
