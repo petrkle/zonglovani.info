@@ -468,9 +468,6 @@ function get_galerie_info($galerie){
 	if(isset($navrat['url'])){
 		$navrat['url_hr']=preg_replace('/^https:\/\/zonglovani.info/','',$navrat['url']);
 	}
-	if(!isset($navrat['autor'])){
-		$navrat['autor']='';
-	}
 	return $navrat;
 }
 

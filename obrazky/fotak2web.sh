@@ -1,8 +1,8 @@
 #!/bin/bash
-echo -n "Název galerie: "
+echo -n "NÃ¡zev galerie: "
 read TITLE
 
-echo -n "Název adresáøe: "
+echo -n "NÃ¡zev adresÃ¡Å™e: "
 read OUTPUT
 
 TMP=/tmp
