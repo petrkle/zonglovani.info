@@ -351,7 +351,7 @@
 2015-08-10*Hození za zády*/kuzely/3/zazady.html*kuzely-3-zadaa.png*Kužely nemusíš házet jenom před sebe. Velmi pěkné je občas prohodit kužel za zády.
 2015-08-17*Mills' mess*/micky/3/mm.html*mma.png*Mills' mess vynalezl Steve Mills okolo roku 1973. Mess je anglicky nepořádek. Celý trik může na první pohled působit dost složitě.
 2015-08-24*Rotace kuželu*/kuzely/rotace.html*kuzely-rotacea.png*Základní způsoby házení kuželu.
-2015-08-31*Jak začít žonglovat s míčky*/micky/jak-zacit.html*starta.png*Míčky jsou nejjednodušší náčiní. Snadno se hážou i chytají.
+2015-08-31*Žonglování klasické i flow*/kalendar/udalost-20150903-20150903-grohy-1440430234.html*dgs.jpg*Zažijte radost z žonglování, naučte se klasické i moderní techniky a poznejte nové lidi.
 2015-09-07*Prohození míčku za zády*/micky/2/zada.html*2v1zadaa.png*V pravé ruce házej 2 v 1. První míček vyhoď o trochu výš.
 2015-09-14*Tenis*/micky/3/tenis.html*tenisa.png*Tenis je kombinace kaskády s reverzní kaskádou. První míček je pořád nad druhým i třetím míčkem. Létá nad nimi jako tenisový míček nad sítí. Proto se taky celý trik jmenuje tenis.
 2015-09-21*2 v 1*/kruhy/2/2v1.html*kruhy-2-2v1a.png*Žonglování se dvěma kruhy v jedné ruce není těžké. Nauč se to pravou i levou rukou a už vlastně umíš žonglovat čtyřmi kruhy.
@@ -390,7 +390,7 @@
 2016-05-09*Kaskáda (multiplex)*/micky/5/kaskada-multiplex.html*5kaskadamultia.png*Kaskáda s pěti míčky je obtížný trik. Nezbývá tedy nic jiného, než si ji trochu usnadnit. Stačí vyhazovat dva míčky najednou.
 2016-05-16*Falešné Mills' mess*/micky/3/mm-falesne.html*micky-3-mm-falesnea.png*Popsat tento trik je skoro stejně těžké jako se ho naučit. Takže hurá do toho!
 2016-05-23*Výměny ve čtvercích*/kuzely/passing/vymeny.html*vymenya.png*Trik pro čtyři žongléry s dvanácti kužely.
-2016-05-30*
+2016-05-30*Jak začít žonglovat s míčky*/micky/jak-zacit.html*starta.png*Míčky jsou nejjednodušší náčiní. Snadno se hážou i chytají.
 2016-06-06*
 2016-06-13*
 2016-06-20*
