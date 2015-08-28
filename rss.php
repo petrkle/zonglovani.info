@@ -19,8 +19,10 @@ $udalosti=array();
 $rssu=array();
 
 foreach($kanaly as $kanal){
-	$rss = fetch_rss($kanal);
-	$items=$rss->items;
+	@$rss = fetch_rss($kanal);
+	$items = array();
+	@$items = $rss->items;
+	if(is_array($items)){
 	foreach($items as $key=>$foo){
 		if(isset($foo['dc']['date'])){
 			$cas = $foo['dc']['date'];
@@ -32,6 +34,7 @@ foreach($kanaly as $kanal){
 		$items[$key]['datum_rss2'] = date('r',strtotime($cas));
 	}
 	$udalosti=array_merge($items,$udalosti);
+	}
 }
 
 usort($udalosti, 'sort_by_rss_date');

@@ -440,7 +440,12 @@ function get_galerie($filtr='.+'){
 							if($info){
 								$datum_mr=substr($datum,0,4).'-'.substr($datum,4,2).'-'.substr($datum,6,2).'T'.date('H:i:s', filemtime(OBRAZKY_DATA.'/'.$filename.'/index.txt')).'+02:00';
 								$datum_rss2=date('r',strtotime($datum));
-				      	array_push($navrat,array('name'=>$filename,'title'=>$info['title'],'datum'=>$datum,'autor'=>$info['autor'],'datum_mr'=>$datum_mr,'datum_rss2'=>$datum_rss2));
+								if(isset($info['autor'])){
+									$autor = $info['autor'];
+								}else{
+									$autor = $_SERVER['SERVER_NAME'];
+								}
+				      	array_push($navrat,array('name'=>$filename,'title'=>$info['title'],'datum'=>$datum,'autor'=>$autor,'datum_mr'=>$datum_mr,'datum_rss2'=>$datum_rss2));
 							}
 					 }
 			   }
