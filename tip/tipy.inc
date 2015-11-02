@@ -361,6 +361,8 @@
 2015-10-19*Poloviční sprcha*/micky/5/sprcha-polovicni.html*5psprchaa.png*Když zvládneš kaskádu s pěti míčky, poloviční sprcha s pěti míčky ti nebude dělat problém.
 2015-10-26*Reverzní kaskáda*/micky/5/kaskada-reverzni.html*5rkaskadaa.png*Rozdíl mezi normální a reverzní kaskádou s pěti míčky je pouze v dráze, po které létají míčky. Při reverzní kaskádě házíš míčky vnějškem.
 2015-11-02*Prohození míčku pod nohou*/micky/3/noha.html*nohaa.png*Jednoduchý a velmi efektní trik.
+2015-11-03*Trénink žonglování*/kalendar/udalost-20151105-20151105-argosovo-1446224386.html*oops-bw.png*Veřejný trénink žonglování skupiny Oops Hradec Králové.
+2015-11-06*Roztoč fest*/kalendar/udalost-20151107-20151107-pek-1444243897.html*roztocfest-vol3.jpg*Mezinárodní festival nového cirkusu, žonglování a ohnivých umění.
 2015-11-09*Dvojité jo-jo*/micky/3/dvojite-jojo.html*micky-3-djojoa.png*První a druhý míček tvoří jo-jo.
 2015-11-16*Jeden a půl otočky*/kuzely/3/jeden-a-pul-otocky.html*jeden-a-pula.png*Obtížnější trik se třemi kužely.
 2015-11-23*Prohození míčku pod nohou*/micky/2/noha.html*2v1nohaa.png*V pravé ruce prováděj 2 v 1. První míček vyhoď o trochu výš.
