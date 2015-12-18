@@ -24,11 +24,11 @@ if(isset($_SESSION['uzivatel']) and isset($_SESSION['ip'])){
 require 'vendor/autoload.php';
 $smarty = new Smarty;
 
-$smarty->template_dir = $_SERVER['DOCUMENT_ROOT'].'/templates';
-$smarty->config_dir = $lib.'/configs';
-$smarty->cache_dir = $_SERVER['DOCUMENT_ROOT'].'/tmp/cache';
-$smarty->compile_dir = $_SERVER['DOCUMENT_ROOT'].'/tmp/templates_c';
-$smarty->plugins_dir = array($_SERVER['DOCUMENT_ROOT'].'/vendor/smarty/smarty/libs/plugins',$lib.'/plugins_user');
+$smarty->setTemplateDir($_SERVER['DOCUMENT_ROOT'].'/templates');
+$smarty->setConfigDir($lib.'./configs');
+$smarty->setCacheDir($_SERVER['DOCUMENT_ROOT'].'/tmp/cache');
+$smarty->setCompileDir($_SERVER['DOCUMENT_ROOT'].'/tmp/templates_c');
+$smarty->addPluginsDir($lib.'/plugins_user');
 
 define('CALENDAR_URL','/kalendar/'); 
 define('CALENDAR_ROOT',$lib.'/calendar/'); 
