@@ -169,7 +169,8 @@ if(isset($_POST['login']) and isset($_POST['heslo']) and isset($_GET['action']))
 			exit();
 		}
 
-		$passwd_hash=trim(array_pop(file(LIDE_DATA.'/'.$uzivatel['login'].'/passwd.sha1')));
+		$passwd_hash = file(LIDE_DATA.'/'.$uzivatel['login'].'/passwd.sha1');
+		$passwd_hash = trim(array_pop($passwd_hash));
 		if(sha1($input_heslo.$login)==$passwd_hash){
 			# úspěšné přihlášení
 			if (!isset($_SESSION)) {

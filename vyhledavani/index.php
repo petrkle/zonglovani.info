@@ -58,6 +58,21 @@ $language_dir = "./languages";
 
 
 require_once("$settings_dir/database.php");
+
+if (!$sqllink) {
+	$trail = new Trail();
+	$trail->addStep('Vyhledávání','/vyhledavani/');
+	$smarty->assign('titulek','Vyhledávání');
+	$smarty->assign('robots','noindex,nofollow');
+	$smarty->assign('chyba', 'Chyba připojení do databáze');
+	$smarty->assign('trail', $trail->path);
+	header('HTTP/1.1 500 Service Unavailable');
+	$smarty->display('hlavicka.tpl');
+	$smarty->display('error-db.tpl');
+	$smarty->display('paticka.tpl');
+	exit();
+}
+
 require_once("$language_dir/en-language.php");
 require_once("$include_dir/searchfuncs.php");
 require_once("$include_dir/categoryfuncs.php");
@@ -146,15 +161,13 @@ function poweredby () {
 
 
 function saveToLog ($query, $elapsed, $results) {
-        global $mysql_table_prefix;
+        global $mysql_table_prefix, $sqllink;
     if ($results =="") {
         $results = 0;
     }
     $query =  "insert into ".$mysql_table_prefix."query_log (query, time, elapsed, results) values ('$query', now(), '$elapsed', '$results')";
-	mysql_query($query);
+	mysqli_query($sqllink, $query);
                     
-	#echo mysql_error();
-                        
 }
 
 switch ($search) {

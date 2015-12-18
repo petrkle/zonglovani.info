@@ -18,15 +18,15 @@
 	* @return array|null massiiv
 	 */
 	function sql_fetch_all($query) {
-		global $smarty;
-		$result = mysql_query($query);
-		if($mysql_err = mysql_errno()) {
+		global $smarty, $sqllink;
+		$result = mysqli_query($sqllink, $query);
+		if($mysqli_err = mysqli_errno()) {
 		$smarty->assign('chyba', 'Chyba dotazu do databáze');
 		$smarty->display('error-db.tpl');
 		$smarty->display('paticka.tpl');
 		exit();
 		} else {
-			while($row=mysql_fetch_array($result)) {
+			while($row=mysqli_fetch_array($result)) {
 				$data[]=$row;
 			}	
 		}		

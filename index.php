@@ -10,7 +10,8 @@ $smarty->assign('keywords','žonglování, míčky, kruhy, kužely, seznam žong
 $smarty->assign('description','Žonglování s míčky, kruhy a kužely. Seznamu žonglérů, kalendář žongléřských srazů a obrázky žonglování.');
 $smarty->assign('nahled','https://'.$_SERVER['SERVER_NAME'].'/img/z/zonglovania.png');
 $smarty->assign('notitle',true);
-$smarty->assign('tip',array_shift(get_tipy()));
+$tipy = get_tipy();
+$smarty->assign('tip', array_shift($tipy));
 
 $smarty->display('hlavicka.tpl');
 $smarty->display('index.tpl');

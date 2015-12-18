@@ -477,7 +477,8 @@ function url_purify($url, $parent_url, $can_leave_domain) {
 }
 
 function save_keywords($wordarray, $link_id, $domain) {
-	global $mysql_table_prefix, $all_keywords;
+	global $mysql_table_prefix, $all_keywords, $sqllink;
+	$inserts = array();
 	reset($wordarray);
 	while ($thisword = each($wordarray)) {
 		$word = $thisword[1][1];
@@ -486,19 +487,23 @@ function save_keywords($wordarray, $link_id, $domain) {
 		if (strlen($word)<= 30) {
 			$keyword_id = $all_keywords[$word];
 			if ($keyword_id  == "") {
-                mysql_query("insert into ".$mysql_table_prefix."keywords (keyword) values ('$word')");
-				if (mysql_errno() == 1062) { 
-					$result = mysql_query("select keyword_ID from ".$mysql_table_prefix."keywords where keyword='$word'");
-					echo mysql_error();
-					$row = mysql_fetch_row($result);
+                mysqli_query($sqllink, "insert into ".$mysql_table_prefix."keywords (keyword) values ('$word')");
+				if (mysqli_errno($sqllink) == 1062) { 
+					$result = mysqli_query($sqllink, "select keyword_ID from ".$mysql_table_prefix."keywords where keyword='$word'");
+					echo mysqli_error($sqllink);
+					$row = mysqli_fetch_row($result);
 					$keyword_id = $row[0];
 				} else{
-				$keyword_id = mysql_insert_id();
+				$keyword_id = mysqli_insert_id($sqllink);
 				$all_keywords[$word] = $keyword_id;
-				echo mysql_error();
+				echo mysqli_error($sqllink);
 			} 
 			} 
-			$inserts[$wordmd5] .= ",($link_id, $keyword_id, $weight, $domain)"; 
+			if(isset($insert[$wordmd5])){
+				$inserts[$wordmd5] .= ",($link_id, $keyword_id, $weight, $domain)"; 
+			}else{
+				$inserts[$wordmd5] = ",($link_id, $keyword_id, $weight, $domain)"; 
+			}
 		}
 	}
 
@@ -507,8 +512,8 @@ function save_keywords($wordarray, $link_id, $domain) {
 		$values= substr($inserts[$char], 1);
 		if ($values!="") {
 			$query = "insert into ".$mysql_table_prefix."link_keyword$char (link_id, keyword_id, weight, domain) values $values";
-			mysql_query($query);
-			echo mysql_error();
+			mysqli_query($sqllink, $query);
+			echo mysqli_error($sqllink);
 		}
 		
 	
@@ -530,23 +535,23 @@ function get_head_data($file) {
 	$res = Array ();
 	if ($headdata != "") {
 		preg_match("/<meta +name *=[\"']?robots[\"']? *content=[\"']?([^<>'\"]+)[\"']?/i", $headdata, $res);
-		if (isset ($res)) {
+		if (isset ($res[1])) {
 			$robots = $res[1];
 		}
 
 		preg_match("/<meta +name *=[\"']?description[\"']? *content=[\"']?([^<>'\"]+)[\"']?/i", $headdata, $res);
-		if (isset ($res)) {
+		if (isset ($res[1])) {
 			$description = $res[1];
 		}
 
 
 		preg_match("/<meta +name *=[\"']?keywords[\"']? *content=[\"']?([^<>'\"]+)[\"']?/i", $headdata, $res);
-		if (isset ($res)) {
+		if (isset ($res[1])) {
 			$keywords = $res[1];
 		}
         // e.g. <base href="http://www.consil.co.uk/index.php" />
 		preg_match("/<base +href *= *[\"']?([^<>'\"]+)[\"']?/i", $headdata, $res);
-		if (isset ($res)) {
+		if (isset ($res[1])) {
 			$base = $res[1];
 		}
 		$keywords = preg_replace("/[, ]+/", " ", $keywords);
@@ -702,10 +707,10 @@ function calc_weights($wordarray, $title, $host, $path, $keywords) {
 }
 
 function isDuplicateMD5($md5sum) {
-	global $mysql_table_prefix;
-	$result = mysql_query("select link_id from ".$mysql_table_prefix."links where md5sum='$md5sum'");
-	echo mysql_error();
-	if (mysql_num_rows($result) > 0) {
+	global $mysql_table_prefix, $sqllink;
+	$result = mysqli_query($sqllink, "select link_id from ".$mysql_table_prefix."links where md5sum='$md5sum'");
+	echo mysqli_error($sqllink);
+	if (mysqli_num_rows($result) > 0) {
 		return true;
 	}
 	return false;
@@ -747,7 +752,7 @@ function check_include($link, $inc, $not_inc) {
 				if (substr($str, 0, 1) == '*') {
 					if (preg_match(substr($str, 1), $link)) {
 						$include = true;
-						break 2;
+						#break 2;
 					}
 				} else {
 					if (strpos($link, $str) !== false) {
@@ -762,25 +767,25 @@ function check_include($link, $inc, $not_inc) {
 }
 
 function check_for_removal($url) {
-	global $mysql_table_prefix;
+	global $mysql_table_prefix, $sqllink;
 	global $command_line;
-	$result = mysql_query("select link_id, visible from ".$mysql_table_prefix."links"." where url='$url'");
-	echo mysql_error();
-	if (mysql_num_rows($result) > 0) {
-		$row = mysql_fetch_row($result);
+	$result = mysqli_query($sqllink, "select link_id, visible from ".$mysql_table_prefix."links"." where url='$url'");
+	echo mysqli_error($sqllink);
+	if (mysqli_num_rows($result) > 0) {
+		$row = mysqli_fetch_row($result);
 		$link_id = $row[0];
 		$visible = $row[1];
 		if ($visible > 0) {
 			$visible --;
-			mysql_query("update ".$mysql_table_prefix."links set visible=$visible where link_id=$link_id");
-			echo mysql_error();
+			mysqli_query($sqllink, "update ".$mysql_table_prefix."links set visible=$visible where link_id=$link_id");
+			echo mysqli_error($sqllink);
 		} else {
-			mysql_query("delete from ".$mysql_table_prefix."links where link_id=$link_id");
-			echo mysql_error();
+			mysqli_query($sqllink, "delete from ".$mysql_table_prefix."links where link_id=$link_id");
+			echo mysqli_error($sqllink);
 			for ($i=0;$i<=15; $i++) {
 				$char = dechex($i);
-				mysql_query("delete from ".$mysql_table_prefix."link_keyword$char where link_id=$link_id");
-				echo mysql_error();
+				mysqli_query($sqllink, "delete from ".$mysql_table_prefix."link_keyword$char where link_id=$link_id");
+				echo mysqli_error($sqllink);
 			}
 			printStandardReport('pageRemoved',$command_line);
 		}

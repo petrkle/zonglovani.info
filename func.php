@@ -164,7 +164,8 @@ function is_zs_jmeno($jmeno){
 	$ucty=get_loginy();
 	$navrat=false;
 	foreach($ucty as $ucet){
-		if(trim(array_pop(file(LIDE_DATA.'/'.$ucet.'/jmeno.txt')))==$jmeno){
+		$foo = file(LIDE_DATA.'/'.$ucet.'/jmeno.txt');
+		if(trim(array_pop($foo))==$jmeno){
 			$navrat=true;
 		}
 	}
@@ -172,7 +173,8 @@ function is_zs_jmeno($jmeno){
 }
 
 function get_name($login){
-	return trim(array_pop(file(LIDE_DATA.'/'.$login.'/jmeno.txt')));
+	$jmeno = file(LIDE_DATA.'/'.$login.'/jmeno.txt');
+	return trim(array_pop($jmeno));
 }
 
 function get_loginy(){
@@ -259,15 +261,18 @@ function get_user_props($login){
 		$navrat=array();
 		$navrat['login']=$login;
 		if(is_file(LIDE_DATA.'/'.$login.'/jmeno.txt')){
-			$navrat['jmeno']=trim(array_pop(file(LIDE_DATA.'/'.$login.'/jmeno.txt')));
+			$jmeno = file(LIDE_DATA.'/'.$login.'/jmeno.txt');
+			$navrat['jmeno']=trim(array_pop($jmeno));
 		}
 
 		if(is_file(LIDE_DATA.'/'.$login.'/passwd.sha1')){
-			$navrat['passwd_sha1']=trim(array_pop(file(LIDE_DATA.'/'.$login.'/passwd.sha1')));
+			$heslo = file(LIDE_DATA.'/'.$login.'/passwd.sha1');
+			$navrat['passwd_sha1']=trim(array_pop($heslo));
 		}
 
 		if(is_file(LIDE_DATA.'/'.$login.'/soukromi.txt')){
-			$navrat['soukromi']=trim(array_pop(file(LIDE_DATA.'/'.$login.'/soukromi.txt')));
+			$soukromi = file(LIDE_DATA.'/'.$login.'/soukromi.txt');
+			$navrat['soukromi']=trim(array_pop($soukromi));
 		}
 
 		if(is_file(LIDE_DATA.'/'.$login.'/vzkaz.txt')){
@@ -287,7 +292,8 @@ function get_user_props($login){
 		}
 
 		if(is_file(LIDE_DATA.'/'.$login.'/registrace.txt')){
-			$navrat['registrace']=trim(array_pop(file(LIDE_DATA.'/'.$login.'/registrace.txt')));
+			$registrace = file(LIDE_DATA.'/'.$login.'/registrace.txt');
+			$navrat['registrace']=trim(array_pop($registrace));
 			$navrat['registrace_hr']=date('j. n. Y',$navrat['registrace']);
 			$navrat['registrace_mr']=date('c',$navrat['registrace']);
 			$navrat['registrace_rss2']=date('r',$navrat['registrace']);

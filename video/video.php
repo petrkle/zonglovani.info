@@ -41,8 +41,10 @@ if(isset($idcka[$v])){
 	}
 
 	if($video['typ']=='youtube.com'){
-		$fid=preg_split('/watch\?v=/',$video['link']);
-		$video['fid']=$fid[1];
+		if(preg_match('/watch/', $video['link'])){
+			$fid=preg_split('/watch\?v=/',$video['link']);
+			$video['fid']=$fid[1];
+		}
 	}
 
 	if(isset($video['youtube'])){

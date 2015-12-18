@@ -48,8 +48,10 @@ if(isset($_GET['status']) and $_GET['status']=='ok' and isset($_SESSION['load_us
 		$rtk=LIDE_DATA.'/'.$uzivatel['login'].'/password.reset.key';
 
 		if(is_file($rtf) and is_file($rtk)){
-			$reset_time=trim(array_pop(file($rtf)));
-			$reset_key=trim(array_pop(file($rtk)));
+			$reset_time=file($rtf);
+			$reset_time=trim(array_pop($reset_time));
+			$reset_key=file($rtk);
+			$reset_key=trim(array_pop($reset_key));
 
 			if($reset_key!=$key){
 				$smarty->assign('chyby',array('Neplatný odkaz pro obnovení hesla.'));

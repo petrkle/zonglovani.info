@@ -147,12 +147,12 @@ error_reporting(E_ALL ^ E_NOTICE ^ E_WARNING);
 	}
 
 	function search($searchstr, $category, $start, $per_page, $type, $domain) {
-		global $length_of_link_desc,$mysql_table_prefix, $show_meta_description, $merge_site_results, $stem_words, $did_you_mean_enabled, $smarty ;
+		global $length_of_link_desc,$mysql_table_prefix, $show_meta_description, $merge_site_results, $stem_words, $did_you_mean_enabled, $smarty, $sqllink;
 		
 		$possible_to_find = 1;
-		$result = mysql_query("select domain_id from ".$mysql_table_prefix."domains where domain = '$domain'");
-		if (mysql_num_rows($result)> 0) {
-			$thisrow = mysql_fetch_array($result);
+		$result = mysqli_query($sqllink, "select domain_id from ".$mysql_table_prefix."domains where domain = '$domain'");
+		if (mysqli_num_rows($result)> 0) {
+			$thisrow = mysqli_fetch_array($result);
 			$domain_qry = "and domain = ".$thisrow[0];
 		} else {
 			$domain_qry = "";
@@ -243,14 +243,14 @@ error_reporting(E_ALL ^ E_NOTICE ^ E_WARNING);
 			}
 			$wordmd5 = substr(md5($searchword), 0, 1);
 			$query1 = "SELECT distinct link_id, weight, domain from ".$mysql_table_prefix."link_keyword$wordmd5, ".$mysql_table_prefix."keywords where ".$mysql_table_prefix."link_keyword$wordmd5.keyword_id= ".$mysql_table_prefix."keywords.keyword_id and keyword='$searchword' $domain_qry order by weight desc";
-			if($mysql_err = mysql_errno()) {
+			if($mysqli_err = mysqli_errno()) {
 				$smarty->assign('chyba', 'Chyba dotazu do databáze');
 				$smarty->display('error-db.tpl');
 				$smarty->display('paticka.tpl');
 				exit();
 			}
-			$result = mysql_query($query1);
-			$num_rows = mysql_num_rows($result);
+			$result = mysqli_query($sqllink, $query1);
+			$num_rows = mysqli_num_rows($result);
 			if ($num_rows == 0) {
 				if ($type != "or") {
 					$possible_to_find = 0;
@@ -263,7 +263,7 @@ error_reporting(E_ALL ^ E_NOTICE ^ E_WARNING);
 				$indx = $words;
 			}
 
-			while ($row = mysql_fetch_row($result)) {	
+			while ($row = mysqli_fetch_row($result)) {	
 				$linklist[$indx]['id'][] = $row[0];
 				$domains[$row[0]] = $row[2];
 				$linklist[$indx]['weight'][$row[0]] = $row[1];
@@ -341,10 +341,10 @@ error_reporting(E_ALL ^ E_NOTICE ^ E_WARNING);
 			reset ($searchstr['+']);
 			foreach ($searchstr['+'] as $word) {
 				$word = addslashes($word);
-				$result = mysql_query("select keyword from ".$mysql_table_prefix."keywords where soundex(keyword) = soundex('$word')");
+				$result = mysqli_query($sqllink, "select keyword from ".$mysql_table_prefix."keywords where soundex(keyword) = soundex('$word')");
 				$max_distance = 100;
 				$near_word ="";
-				while ($row=mysql_fetch_row($result)) {
+				while ($row=mysqli_fetch_row($result)) {
 					
 					$distance = levenshtein($row[0], $word);
 					if ($distance < $max_distance && $distance <4) {
@@ -415,8 +415,8 @@ error_reporting(E_ALL ^ E_NOTICE ^ E_WARNING);
 
 		$query1 = "SELECT distinct link_id, url, title, description,  $fulltxt, size, img FROM ".$mysql_table_prefix."links WHERE link_id in ($inlist)";
 
-		$result = mysql_query($query1);
-			if($mysql_err = mysql_errno()) {
+		$result = mysqli_query($sqllink, $query1);
+			if($mysql_err = mysqli_errno()) {
 				$smarty->assign('chyba', 'Chyba dotazu do databáze');
 				$smarty->display('error-db.tpl');
 				$smarty->display('paticka.tpl');
@@ -424,7 +424,7 @@ error_reporting(E_ALL ^ E_NOTICE ^ E_WARNING);
 			}
 
 		$i = 0;
-		while ($row = mysql_fetch_row($result)) {
+		while ($row = mysqli_fetch_row($result)) {
 			$res[$i]['title'] = $row[2];
 			$res[$i]['url'] = $row[1];
 			if ($row[3] != null && $show_meta_description == 1)
@@ -434,8 +434,8 @@ error_reporting(E_ALL ^ E_NOTICE ^ E_WARNING);
 			$res[$i]['size'] = $row[5];
 			$res[$i]['img'] = $row[6];
 			$res[$i]['weight'] = $result_array[$row[0]];
-			$dom_result = mysql_query("select domain from ".$mysql_table_prefix."domains where domain_id='".$domains[$row[0]]."'");
-			$dom_row = mysql_fetch_row($dom_result);
+			$dom_result = mysqli_query($sqllink, "select domain from ".$mysql_table_prefix."domains where domain_id='".$domains[$row[0]]."'");
+			$dom_row = mysqli_fetch_row($dom_result);
 			$res[$i]['domain'] = $dom_row[0];
 			$i++;
 		}
@@ -447,7 +447,7 @@ error_reporting(E_ALL ^ E_NOTICE ^ E_WARNING);
 		} else {
 			usort($res, 'cmp'); 	
 		}
-			if($mysql_err = mysql_errno()) {
+			if($mysql_err = mysqli_errno()) {
 				$smarty->assign('chyba', 'Chyba dotazu do databáze');
 				$smarty->display('error-db.tpl');
 				$smarty->display('paticka.tpl');
@@ -602,15 +602,15 @@ function get_search_results($query, $start, $category, $searchtype, $results, $d
 				$title = mb_substr($title,0,76,$charset)."...";
 			}
 			foreach($words['hilight'] as $change) {
-				while (@eregi("[^\>](".$change.")[^\<]", " ".$title." ", $regs)) {
+				while (@preg_match("/[^\>](/i".$change.")[^\<]", " ".$title." ", $regs)) {
 					$title = preg_replace('/'.$regs[1].'/i', "<b>".$regs[1]."</b>", $title);
 				}
 
-				while (@eregi("[^\>](".$change.")[^\<]", " ".$fulltxt." ", $regs)) {
+				while (@preg_match("/[^\>](/i".$change.")[^\<]", " ".$fulltxt." ", $regs)) {
 					$fulltxt = preg_replace('/'.$regs[1].'/i', "<b>".$regs[1]."</b>", $fulltxt);
 				}
 				$url2 = $url;
-				while (@eregi("[^\>](".$change.")[^\<]", $url2, $regs)) {
+				while (@preg_match("/[^\>](/i".$change.")[^\<]", $url2, $regs)) {
 					$url2 = preg_replace('/'.$regs[1].'/i', "<b>".$regs[1]."</b>", $url2);
 				}
 			}

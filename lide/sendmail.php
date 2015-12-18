@@ -14,9 +14,18 @@ if(isset($_GET['m'])){
 	$messageid=$_GET['m'];
 	$foo=LIDE_VZKAZY.'/'.$messageid;
 
-	if(is_dir($foo) and trim(array_pop(file($foo.'/created.time')))>(time()-TIMEOUT_VZKAZ)){
-		$odesilatel=trim(array_pop(file($foo.'/odesilatel.txt')));
-		$to=trim(array_pop(file($foo.'/prijemce.txt')));
+	if(is_file($foo.'/created.time')){
+		$time_from_file = file($foo.'/created.time');
+		$time_from_file = trim(array_pop($time_from_file));
+	}else{
+		$time_from_file = 0;
+	}
+
+	if(is_dir($foo) and $time_from_file>(time()-TIMEOUT_VZKAZ)){
+		$odesilatel=file($foo.'/odesilatel.txt');
+		$odesilatel=trim(array_pop($odesilatel));
+		$to=file($foo.'/prijemce.txt');
+		$to=trim(array_pop($to));
 		$vzkaz=file_get_contents($foo.'/vzkaz.txt');
 
 		$subject='Vzkaz z žonglérova slabikáře';

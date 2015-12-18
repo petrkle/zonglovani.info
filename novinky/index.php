@@ -28,7 +28,8 @@ $smarty->assign('trail', $trail->path);
 $smarty->assign('styly','r');
 $smarty->assign('keywords','novinky, žonglování, rss');
 $smarty->assign('description','Novinky ze světa žonglování');
-$smarty->assign('tip', array_shift(get_tipy()));
+$tipy = get_tipy();
+$smarty->assign('tip', array_shift($tipy));
 
 $dalsi=array(
 	array('url'=>'/tip/','text'=>'Tip týdne','title'=>'Žonglérský tip týdne'),

@@ -41,7 +41,7 @@ $monthDecorator = new MonthPayload_Decorator($month);
 $monthDecorator->build($selectedDays, $events);
 
 // Fetch all days in the month object
-$daysInMonth =& $monthDecorator->fetchAll();
+$daysInMonth = $monthDecorator->fetchAll();
 
 // Split the month into weeks
 $weeksInMonth = array_chunk($daysInMonth, 7);
