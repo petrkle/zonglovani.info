@@ -369,8 +369,8 @@
 2015-11-30*Čáp*/micky/3/cap.html*capa.png*Při tomto triku stojíš jen na jedné noze jako čáp. Nejedná se o nic jiného než o opakované prohození míčku pod nohou.
 2015-12-07*Pass pod nohou*/kuzely/passing/podnohou.html*passpodnohoua.png*Kuželku při passování můžeš hodit pod nohou. Nejjednodušší je při passování pravou rukou házet pod pravou nohou.
 2015-12-14*2 v 1*/micky/2/2v1.html*2v1a.png*2 v 1 je základní trik se dvěma míčky. Nauč se ho pravou i levou rukou a už vlastně umíš žonglovat čtyřmi míčky.
-2015-12-21*Výroba míčků na žonglování*/micky/vyroba.html*micek-z-balonku-3.s.jpg*S trochou šikovnosti lze vyrobit míčky pro žonglování doma na koleně.
-2015-12-28*Synchronní fontána*/micky/4/fontana-synchronni.html*sfontanaa.png*Synchronní fontána je mírnou obměnou klasické fontány.
+2015-12-21*Veselé Vánoce*/vanoce-2015.html*snowman.png*Veselé vánoční svátky. Ať vám to lítá :^)
+2015-12-28*PF 2016*/pf-2016.html*champagne.png*Hodně štěstí a zdraví v novém roce. Ať vám to lítá :^)
 2016-01-04*Cirkusové disciplíny*/cirkusove-discipliny.html*cirkusa.png*Dovednosti, které nemají s žonglováním mnoho společného. Ale z nějakého důvodu je provozuje podobný druh lidí jako žonglování.
 2016-01-11*Nabíjení*/kuzely/passing/feeds.html*kuzely-passing-feedsa.png*Feeds - základní trik pro tři žongléry a devět kuželů.
 2016-01-18*Jeden nad dvěma*/micky/3/1nad2.html*tenissloupya.png*Kombinace sloupů s tenisem. Jeden míček létá pořád nad dvěma ostatními.
@@ -393,8 +393,8 @@
 2016-05-16*Falešné Mills' mess*/micky/3/mm-falesne.html*micky-3-mm-falesnea.png*Popsat tento trik je skoro stejně těžké jako se ho naučit. Takže hurá do toho!
 2016-05-23*Výměny ve čtvercích*/kuzely/passing/vymeny.html*vymenya.png*Trik pro čtyři žongléry s dvanácti kužely.
 2016-05-30*Jak začít žonglovat s míčky*/micky/jak-zacit.html*starta.png*Míčky jsou nejjednodušší náčiní. Snadno se hážou i chytají.
-2016-06-06*
-2016-06-13*
+2016-06-06*Výroba míčků na žonglování*/micky/vyroba.html*micek-z-balonku-3.s.jpg*S trochou šikovnosti lze vyrobit míčky pro žonglování doma na koleně.
+2016-06-13*Synchronní fontána*/micky/4/fontana-synchronni.html*sfontanaa.png*Synchronní fontána je mírnou obměnou klasické fontány.
 2016-06-20*
 2016-06-27*
 2016-07-04*
