@@ -1,8 +1,8 @@
 {
     "require": {
         "php": ">=5.6.0",
-        "smarty/smarty": "3.1.28",
-        "pear/mail_mime": "1.8.9",
+        "smarty/smarty": "3.1.29",
+        "pear/mail_mime": "1.10.0",
 				"pear/mail": "dev-trunk"
     },
 		"config": {
