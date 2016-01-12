@@ -376,7 +376,8 @@
 2016-01-18*Jeden nad dvěma*/micky/3/1nad2.html*tenissloupya.png*Kombinace sloupů s tenisem. Jeden míček létá pořád nad dvěma ostatními.
 2016-01-25*Žonglérské náčiní*/nacini.html*nacinia.png*Žonglovat můžeš se spoustou věcí. A mnoha různými způsoby.
 2016-02-01*Vyhození do výšky*/diabolo/vyhozeni-do-vysky.html*diabolo-vyhozenia.png*Roztáhni ruce s hůlkami do stran.
-2016-02-08*Svátek svatého Valentýna*/valentyn/*mdz.png*Svátek všech zamilovaných je ideální čas pro žonglování v páru.
+2016-02-08*Brno juggling convention*/kalendar/udalost-20160212-20160214-pek-1444244758.html*bjc02.png*Mezinárodní nekonvenční festival s přátelskou atmosférou.
+2016-02-14*Svátek svatého Valentýna*/valentyn/*mdz.png*Svátek všech zamilovaných je ideální čas pro žonglování v páru.
 2016-02-15*Žirafa*/micky/3/zirafa.html*sochaa.png*Žirafa je vlastně poloviční sprcha s jednou rukou nahoře. Jiný název pro tento trik je socha svobody.
 2016-02-22*Balancování kuželu*/kuzely/balanc.html*kuzely-balanca.png*S kužely se nemusí jenom házet. Můžeš je balancovat na bradě, nose, špičce boty, ...
 2016-02-29*Sprcha*/micky/3/sprcha.html*sprchaa.png*Sprcha je asi nejznámější způsob žonglování. Není ale vůbec snadné se ji naučit. Zkus se nejprve naučit poloviční sprchu.
