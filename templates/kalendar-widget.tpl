@@ -52,5 +52,5 @@ Data z kalendáře jsou přístupná ve formátu json na adrese: <a href="{$smar
 <ul>
 <li><a href="http://juggle.cz" title="juggle.cz" class="external">juggle.cz</a></li>
 <li><a href="http://kinessis.org/cs/predstavivost.html" title="kinessis.org" class="external">kinessis.org</a></li>
-<li><a href="http://kle.cz" title="kle.cz" class="external">kle.cz</a></li>
+<li><a href="https://kle.cz/ruzne" title="kle.cz" class="external">kle.cz</a></li>
 </ul>
