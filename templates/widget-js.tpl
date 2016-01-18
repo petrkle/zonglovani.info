@@ -2,7 +2,7 @@
 (function() {
 var jQuery;
 
-if (window.jQuery === undefined || window.jQuery.fn.jquery !== '1.7.1') {
+if (window.jQuery === undefined || window.jQuery.fn.jquery !== '2.2.0') {
     var script_tag = document.createElement('script');
     script_tag.setAttribute("type","text/javascript");
     script_tag.setAttribute("src","https://zonglovani.info/ostatni/jq220.js");
