@@ -16,7 +16,7 @@ $bot->add_header( 'Accept-Encoding' => '' );
 my $response = $bot->get("https://zongl.info/kalendar/next.json");
 my $content=$response->content();
 ok($bot->status() == 200, "Návratový kód 200");
-ok($response->content_type() =~ /application\/json/, "Správný mime typ");
+ok($response->content_type() =~ /application\/javascript/, "Správný mime typ");
 
 my $count=0;
 while ($content =~ /"start"/g) { $count++ };
