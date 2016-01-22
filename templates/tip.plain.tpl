@@ -4,7 +4,7 @@
 {if $tip.link}<a href="{$tip.link|escape}" title="{$tip.nadpis|escape}">{/if}{obrazek soubor=$tip.obrazek popisek=$tip.nadpis|escape}{if $tip.link}</a>{/if}
 {$tip.text}
 </p>
-<ul style="clear:both;">
+<ul class="clear">
 <li>Datum: {$tip.cas_hr|escape}</li>
 <li class="rss_slabikartip">Zdroj: <a href="/tip/" class="entry-title">Žonglérský tip týdne</a></li>
 </ul>

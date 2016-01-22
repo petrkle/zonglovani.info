@@ -37,6 +37,7 @@ a:active,a:hover,a:focus{color:#f00}
 .nahoru{float:right;display:block;clear:both;margin:5px;}
 .zpet{text-align:right;display:block;clear:both;margin:5px;}
 .spacer{height:20px;width:100%;clear:both;}
+.clear{clear:both;}
 .table{width:90%;position:relative;left:5%;}
 .td{background:#eee;margin:2px;padding:4px 30px 4px 30px;text-align:center;}
 .capt{background:#ddd;margin:2px;padding:4px 30px 4px 30px;text-align:center;}

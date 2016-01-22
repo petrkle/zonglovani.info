@@ -111,6 +111,7 @@ if(count($chyby)==0){
 	$smarty->assign('antispam_odpoved',$_SESSION['antispam_odpoved']);
 	$smarty->assign('trail', $trail->path);
 	$smarty->assign('chyby',$chyby);
+	$smarty->assign('jscachebuster', uniqid());
 	$smarty->display('hlavicka.tpl');
 	$smarty->display('novy-ucet.tpl');
 	$smarty->display('paticka.tpl');
@@ -129,6 +130,7 @@ if(count($chyby)==0){
 		);
 	$smarty->assign('dalsi',$dalsi);
 
+	$smarty->assign('jscachebuster', uniqid());
 	$smarty->assign('trail', $trail->path);
 	$smarty->display('hlavicka.tpl');
 	$smarty->display('novy-ucet.tpl');
