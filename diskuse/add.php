@@ -68,6 +68,7 @@ $cas=time();
 		$_SESSION['antispam_odpoved']=$antispam[1];
 		$smarty->assign('antispam_otazka',$_SESSION['antispam_otazka']);
 		$smarty->assign('antispam_odpoved',$_SESSION['antispam_odpoved']);
+		$smarty->assign('jscachebuster', uniqid());
 	}
 
 	if(count($chyby)==0 and isset($_SESSION['nahled'])){
@@ -91,6 +92,7 @@ $cas=time();
 	$_SESSION['antispam_odpoved']=$antispam[1];
 	$smarty->assign('antispam_otazka',$_SESSION['antispam_otazka']);
 	$smarty->assign('antispam_odpoved',$_SESSION['antispam_odpoved']);
+	$smarty->assign('jscachebuster', uniqid());
 	$smarty->display('hlavicka.tpl');
 	$smarty->display('diskuse-add.tpl');
 	$smarty->display('paticka.tpl');
