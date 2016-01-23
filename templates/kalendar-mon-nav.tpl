@@ -1,4 +1,4 @@
-<table class="subtable" style="width:100%;" cellspacing="0" cellpadding="0">
+<table class="subtable" cellspacing="0" cellpadding="0">
 <tr>
 <td class="kal_prev">
 {if isset($prevMonth)}<a href="{if $prevMonth==$aktMonth}{$smarty.const.CALENDAR_URL}{else}{$prevMonth}{/if}" title="Zobrazí předchozí měsíc.">&laquo; Předchozí měsíc</a>{else}&nbsp;{/if}</td>
