@@ -472,6 +472,7 @@ $trail->addStep('Nastavení',LIDE_URL.'nastaveni/');
 				if($odpoved!=$_SESSION['antispam_odpoved']){
 					array_push($chyby,'Špatná odpověď na kontrolní otázku.');
 					$antispam=get_antispam();
+					$smarty->assign('jscachebuster', uniqid());
 					$_SESSION['antispam_otazka']=$antispam[0];
 					$_SESSION['antispam_odpoved']=$antispam[1];
 					$smarty->assign('antispam_otazka',$_SESSION['antispam_otazka']);
@@ -542,6 +543,7 @@ $trail->addStep('Nastavení',LIDE_URL.'nastaveni/');
 			}
 
 					$antispam=get_antispam();
+					$smarty->assign('jscachebuster', uniqid());
 					$_SESSION['antispam_otazka']=$antispam[0];
 					$_SESSION['antispam_odpoved']=$antispam[1];
 					$smarty->assign('antispam_otazka',$_SESSION['antispam_otazka']);

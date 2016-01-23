@@ -17,6 +17,9 @@
 <!--[if lt IE 9]>
 	<link rel="stylesheet" type="text/css" href="/z-{$smarty.const.CSS_CHKSUM}.css">
 <![endif]-->
+{if isset($stylwidth)}
+	<link rel="stylesheet" media="screen" type="text/css" href="/css/width-{$stylwidth}-{$smarty.const.CSS_CHKSUM}.css" />
+{/if}
 {if isset($styly)}
 {foreach from=$styly item=styl}
 	<link rel="stylesheet" media="screen and (min-width: 610px)" type="text/css" href="/{$styl}-{$smarty.const.CSS_CHKSUM}.css" />

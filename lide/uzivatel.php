@@ -85,6 +85,9 @@ $mojepozice=array_search($id,$pozice);
 
 	$trail->addStep($uzivatel_props['jmeno']);
 	$smarty->assign('trail', $trail->path);
+	if (isset($uzivatel_props['foto'])){
+		$smarty->assign('stylwidth', $uzivatel_props['foto_sirka']);
+	}
 	$smarty->display('hlavicka.tpl');
 	$smarty->display('uzivatel.tpl');
 	$smarty->display('paticka.tpl');

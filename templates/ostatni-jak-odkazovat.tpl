@@ -32,7 +32,7 @@ Pro vložení odkazu stačí do tvé stránky zkopírovat jeden z následující
 </p>
 
 <p>
-<a href="/img/s/slabikar1.gif" title="Žonglérův slabikář"><img src="/img/s/slabikar1.gif" height="31" width="88" style="border: 0;" alt="Žonglérův slabikář" title="Žonglérův slabikář" /></a>
+<a href="/img/s/slabikar1.gif" title="Žonglérův slabikář"><img src="/img/s/slabikar1.gif" height="31" width="88" class="noborder" alt="Žonglérův slabikář" title="Žonglérův slabikář" /></a>
 </p>
 
 
@@ -44,7 +44,7 @@ Pro vložení odkazu stačí do tvé stránky zkopírovat jeden z následující
 </textarea>
 </p>
 <p>
-<a href="/img/s/slabikar2.gif" title="Žonglérův slabikář"><img src="/img/s/slabikar2.gif" height="60" width="120" style="border: 0;" alt="Žonglérův slabikář" title="Žonglérův slabikář" /></a>
+<a href="/img/s/slabikar2.gif" title="Žonglérův slabikář"><img src="/img/s/slabikar2.gif" height="60" width="120" class="noborder" alt="Žonglérův slabikář" title="Žonglérův slabikář" /></a>
 </p>
 
 <h2><a name="bigico">Ikonka 200x50</a></h2>
@@ -55,7 +55,7 @@ Pro vložení odkazu stačí do tvé stránky zkopírovat jeden z následující
 </textarea>
 </p>
 <p>
-<a href="/img/s/slabikar-fb.png" title="Žonglérův slabikář"><img src="/img/s/slabikar-fb.png" height="50" width="200" style="border: 0;" alt="Žonglérův slabikář" title="Žonglérův slabikář" /></a>
+<a href="/img/s/slabikar-fb.png" title="Žonglérův slabikář"><img src="/img/s/slabikar-fb.png" height="50" width="200" class="noborder" alt="Žonglérův slabikář" title="Žonglérův slabikář" /></a>
 </p>
 
 <h2><a name="widget">Výpis z kalendáře</a></h2>

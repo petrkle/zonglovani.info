@@ -4,6 +4,11 @@ require('../func.php');
 
 $titulek='Zapomenuté heslo';
 
+if (!isset($_SESSION)) {
+	session_name('ZS');
+	session_start();
+}
+
 $smarty->assign('titulek',$titulek);
 $smarty->assign('description','Obnova zapomenutého hesla.');
 
@@ -73,6 +78,7 @@ if(!preg_match('/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{
 		$_SESSION['antispam_odpoved']=$antispam[1];
 		$smarty->assign('antispam_otazka',$_SESSION['antispam_otazka']);
 		$smarty->assign('antispam_odpoved',$_SESSION['antispam_odpoved']);
+		$smarty->assign('jscachebuster', uniqid());
 	}
 
 	if(count($chyby)==0){
@@ -117,6 +123,7 @@ if(!preg_match('/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{
 		$_SESSION['antispam_odpoved']=$antispam[1];
 		$smarty->assign('antispam_otazka',$_SESSION['antispam_otazka']);
 		$smarty->assign('antispam_odpoved',$_SESSION['antispam_odpoved']);
+		$smarty->assign('jscachebuster', uniqid());
 		$smarty->assign('chyby',$chyby);
 		$smarty->display('hlavicka.tpl');
 		$smarty->display('zapomenute-heslo.tpl');
@@ -127,6 +134,7 @@ if(!preg_match('/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{
 	$antispam=get_antispam();
 	$_SESSION['antispam_otazka']=$antispam[0];
 	$_SESSION['antispam_odpoved']=$antispam[1];
+	$smarty->assign('jscachebuster', uniqid());
 	$smarty->assign('antispam_otazka',$_SESSION['antispam_otazka']);
 	$smarty->assign('antispam_odpoved',$_SESSION['antispam_odpoved']);
 	$smarty->display('hlavicka.tpl');
