@@ -236,6 +236,7 @@ if($id and $photo){
 				header('Location: '.OBRAZKY_URL.$id.$page.$obrazek['url_file']);
 				exit();
 			}
+		  $smarty->assign('stylwidth', $obrazek['fsirka']);
 			$smarty->display('hlavicka-w.tpl');
 			$smarty->display('obrazek.tpl');
 			$smarty->display('paticka-w.tpl');

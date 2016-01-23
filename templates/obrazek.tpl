@@ -8,8 +8,8 @@
  {if isset($obrazek.dalsi_cislo)} ~ <a href="{if isset($obrazek.dalsi_stranka) and $obrazek.dalsi_stranka!=1}{$smarty.const.OBRAZKY_URL}{$gal_id}/stranka{$obrazek.dalsi_stranka}/{$obrazek.dalsi_cislo}{else}{$obrazek.dalsi_cislo|escape}{/if}.html" title="Zobrazit další obrázek (šipka vpravo)">Další obrázek &raquo;</a>{/if}
 
 <p class="obrazek">
-{if isset($obrazek.dalsi_cislo)}<a href="{if $obrazek.dalsi_stranka!=1}{$smarty.const.OBRAZKY_URL}{$gal_id}/stranka{$obrazek.dalsi_stranka}/{$obrazek.dalsi_cislo}{else}{$obrazek.dalsi_cislo|escape}{/if}.html" title="Zobrazit další obrázek (šipka vpravo)" onclick="window.location.href='{if $obrazek.dalsi_stranka!=1}{$smarty.const.OBRAZKY_URL}{$gal_id}/stranka{$obrazek.dalsi_stranka}/{$obrazek.dalsi_cislo}{else}{$obrazek.dalsi_cislo|escape}{/if}.html#nahore';return(false);">{else}<a href="." title="Zobrazí celou galerii">{/if}
-<img src="{$obrazek.obrazek|escape}" alt="{$nadpis|escape}" style="width:98%;max-width:{$obrazek.fsirka|escape}px;"></a>
+{if isset($obrazek.dalsi_cislo)}<a href="{if $obrazek.dalsi_stranka!=1}{$smarty.const.OBRAZKY_URL}{$gal_id}/stranka{$obrazek.dalsi_stranka}/{$obrazek.dalsi_cislo}{else}{$obrazek.dalsi_cislo|escape}{/if}.html" title="Zobrazit další obrázek (šipka vpravo)">{else}<a href="." title="Zobrazí celou galerii">{/if}
+<img src="{$obrazek.obrazek|escape}" alt="{$nadpis|escape}" class="photo"></a>
 </p>
 
 {if isset($gal_info.autor) or isset($gal_info.mail) or isset($gal_info.url)}

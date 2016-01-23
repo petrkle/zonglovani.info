@@ -73,7 +73,7 @@ define('IMG_MAX_WIDTH', 4000);  #px
 define('IMG_MAX_HEIGHT', 4000); #px
 define('IMG_MAX_SIZE', 3); #MiB
 
-define('CSS_CHKSUM','4037468532'); 
+define('CSS_CHKSUM','2687839928'); 
 define('JS_CHKSUM','4294967295'); 
 
 $hodnoceni=get_hodnoceni_stranka($_SERVER['REQUEST_URI']);

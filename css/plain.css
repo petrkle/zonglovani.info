@@ -72,8 +72,6 @@ a.edit{border-left:solid 3px #f00;}
 .tabulka{border-left:1px solid #ccc;border-top:1px solid #ccc;margin-bottom:10px;}
 .tabulka th{border-right:1px solid #ccc;border-bottom:1px solid #ccc;background:#eee;padding:4px 10px;text-align:center;}
 .tabulka td{border-right:1px solid #ccc;border-bottom:1px solid #ccc;padding:4px 10px;text-align:right;}
-.nahled{display:block;float:left;width:150px;height:150px;background:#eee;border:solid 1px;border-color:#aaa #444 #444 #aaa;margin:5px;}
-.nahled img{border:solid 1px;border-color:#444 #aaa #aaa #444;}
 .add{background:url("img/a/add.png") 0 50% no-repeat;padding-left:20px;}
 #flink{display:none;}
 #zslogo{display:block;padding:5px 5px 1px 5px;background:#fd3;margin-bottom:5px;text-decoration:none;color:#000;}
@@ -95,3 +93,6 @@ abbr{text-decoration:none;border-bottom:0px dashed #000;}
 li{padding:5px 0;margin:10px 0;}
 .pocetnovinek{-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px;background:#fc3;padding:0 7px;}
 hr.d{border:0;border-bottom:1px dashed #999;margin:2em 0;width:100%;}
+.wrap{display:table;border-spacing:10px;border-collapse:separate;}
+.nahled{display:table-cell;width:150px;height:150px;background:#eee;border:solid 1px;border-color:#aaa #444 #444 #aaa;margin:5px;text-align:center;vertical-align:middle;clear:none;}
+.nahled img{border:solid 1px;border-color:#444 #aaa #aaa #444;display:inline;margin:auto;float:none;clear:none;}
