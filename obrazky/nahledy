@@ -1,0 +1,7 @@
+for foo in */*.jpg */*.png
+do
+	DIRNAME=`dirname $foo`
+	FILENAME=`basename $foo`
+	echo $foo
+  convert $foo -thumbnail x256 -resize '256x<' -resize 50% -gravity center -crop 128x128+0+0 +repage -format jpg -strip -quality 90 $DIRNAME/nahledy/$FILENAME
+done

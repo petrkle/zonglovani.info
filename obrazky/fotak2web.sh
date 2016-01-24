@@ -28,7 +28,7 @@ do
 	grep "Orientation: 6" $EXIF/$HCISLO.text &>/dev/null && ROTATION=" -rotate 90 "
 	grep "Orientation: 8" $EXIF/$HCISLO.text &>/dev/null && ROTATION=" -rotate -90 "
 	convert -resize 1024x768\> -strip $ROTATION -depth 8 "$foo" $OUT/$HCISLO.jpg
-	convert -resize 128x96\> -strip $ROTATION -depth 8 "$foo" $IMGTN/$HCISLO.jpg
+	convert -thumbnail x256 -resize '256x<' -resize 50% -gravity center -crop 128x128+0+0 +repage -strip $ROTATION -depth 8 "$foo" $IMGTN/$HCISLO.jpg
 	let CISLO++
 done
 
