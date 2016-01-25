@@ -114,5 +114,3 @@ li{padding:0;margin:0;}
 hr.d{border:0;border-bottom:1px dashed #999;margin:1.3em;}
 .subtable{width:100%;}
 .noborder{border:0;}
-.nahled{display:table-cell;width:150px;height:150px;background:#eee;border:solid 1px;border-color:#aaa #444 #444 #aaa;margin:5px;text-align:center;vertical-align:middle;}
-.nahled img{border:solid 1px;border-color:#444 #aaa #aaa #444;float:none;display:inline;margin:auto;line-height:150px;vertical-align:middle;}

@@ -4,7 +4,7 @@ Stránkování: {$pager_links}
 </p>
 {/if}
 {if is_array($items)}
-<p class="wrap">
+<p>
 {foreach from=$items item=foo}
 <a href="{$smarty.const.OBRAZKY_URL}{$gal_id}/{if $stranka!=1}stranka{$stranka}/{/if}{$foo.url_file|escape}" class="nahled" title="Zobrazit obrázek v plné velikosti."><img src="{$foo.nahled|escape}"></a>
 {/foreach}
