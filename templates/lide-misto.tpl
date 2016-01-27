@@ -9,8 +9,7 @@
 V žonglérově slabikáři ještě není žádný uživatel {$misto|escape}. Můžeš být první. <a href="{$smarty.const.LIDE_URL}novy-ucet.php" title="Vytvořit uživatelský účet." class="add">Vytvořit nový účet</a>.
 </p>
 {/if}
-<h3><a href="/mapa/{if strlen($pusobiste[$id].kraj)>0}kraj/{$pusobiste[$id].kraj}/{/if}" title="Mapa - {$jmeno|escape} a okolí">Mapa</a></h3>
-<p><a href="/mapa/{if strlen($pusobiste[$id].kraj)>0}kraj/{$pusobiste[$id].kraj}/{/if}" title="Mapa - {$jmeno|escape} a okolí">{obrazek soubor="$id.png" popisek="Mapa - $jmeno" path='/mapa/static/'}</a></p>
+<p>{obrazek soubor="$id.png" popisek="Mapa - $jmeno" path='/mapa/static/'}</p>
 
 {if isset($navigace)}
 <div class="kamdal">

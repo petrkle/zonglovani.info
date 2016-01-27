@@ -65,9 +65,9 @@ function submenu($id){
 	}
 
 	if($id==6){
-		$adresy = array('/kalendar/','/mapa/','/diskuse/');
-		$texty = array('Kalendář','Mapa','Diskuse');
-		$popisky = array('Kalendář žonglování','Žonglérská mapa','Diskuse a komentáře');
+		$adresy = array('/kalendar/','/diskuse/','/lide/misto/');
+		$texty = array('Kalendář','Diskuse','Místa');
+		$popisky = array('Kalendář žonglování','Diskuse a komentáře','Žongléři podle místa působení');
 	}
 
 	if($id==7){
