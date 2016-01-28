@@ -3,13 +3,6 @@
 <span class="summary">Pravidelné nedělní žonglování v <a href="cesta.html" title="Ulita - dům dětí a mládeže">DDM Ulita</a>.</span> <span class="description">Žongluje se ve <a href="/obrazky/ulita-20091213/0059.jpg" title="Obrázek velkého sálu.">velkém sále</a> kde je: <strong>vysoký strop</strong>, měkká podlaha, ozvučení, pódium  pro případné vystoupení, okna a disco koule.</span>
 </p>
 
-{*
-<a name="cancel2"><h3>17. 4. - zrušeno</h3></a>
-<p>
-Protože je venku hezky, ruší se žonglování v neděli 17. 4. 2011. Pojďte žonglovat ven :^)
-</p>
-*}
-
 <p>
 Přijít mohou začínající i zkušení žongléři a žonglérky. Pro širokou veřejnost budou k dispozici míčky a kužely k zapůjčení. Žonglovat se může naučit <strong>opravdu každý</strong>.
 </p>
@@ -66,7 +59,6 @@ Sleduj žonglérův slabikář přes <a href="/rss.html">RSS</a> - žádná Ulit
 <span class="location">Na Balkáně 17a, Praha 3, 130 00</span><br />
 <a href="http://www.mapy.cz/#mm=ZP@ax=133213920@ay=135976864@at=Ulita@ad=D%C5%AFm%20d%C4%9Bt%C3%AD%20a%20ml%C3%A1de%C5%BEe%20Ulita.@x=133213312@y=135977056@z=16" title="Místo konání na mapě." class="external">Zobrazit na mapě</a><br />
 <a href="cesta.html" title="Jak se dostat do Ulity">Popis cesty</a><br />
-{*Telefon: 271 771 025<br />*}
 {assign var='mail' value='info@ulita.cz'}
 E-mail: {$mail|mailobfuscate}
 </p>
@@ -76,8 +68,5 @@ E-mail: {$mail|mailobfuscate}
 <a href="ulita.pdf" title="Tisk plakátu na formát A5.">ulita.pdf</a> - pro tisk na formát A5<br />
 <a href="ulita4.pdf" title="Tisk čtyř plakátů najednou.">ulita4.pdf</a> - pro tisk na formát A4
 </p>
-{*
-<p><a href="http://www.radio1.cz" title="Radio 1">{obrazek soubor='radio1.png' popisek='Radio 1'}</a>O žonglování v Ulitě můžeš slyšet i v <a href="http://www.radio1.cz/kulturniservis/" title="Kulturní servis Rádia 1" class="external">kulturním servisu</a> Radia 1.</p>
-*}
-<p style="text-align: right; font-size: 0.5em;"><a href="/ulita/en.html">English version</a></p>
+<p><a href="/ulita/en.html">English version</a></p>
 </div>

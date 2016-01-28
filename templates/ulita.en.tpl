@@ -45,11 +45,6 @@ Beginners as well as experienced jugglers are welcome. There are balls and clubs
 <p>Wait for autumn.</p>
 {/if}
 
-{*
-<h3>Next session</h3>
-<p>Wait for autumn.</p>
-*}
-
 <h3>Place</h3>
 <p>
 <a href="http://www.ulita.cz" class="external" title="Ulita - dům dětí a mládeže">Ulita</a> - house of children and youth<br />
@@ -66,8 +61,4 @@ E-mail: {$mail|mailobfuscate}
 Place is provided by <a href="http://www.ulita.cz" class="external" title="Ulita - house of children and youth">Ulita</a>, Prague.
 </p>
 
-{*
-<p><a href="http://www.radio1.cz" title="Radio 1">{obrazek soubor='radio1.png' popisek='Radio 1'}</a><a href="http://www.radio1.cz" title="Radio 1" class="external">Radio 1</a> - media support.</p>
-*}
-
-<p style="text-align: right; font-size: 0.5em;"><a href="/ulita/">Česká verze</a></p>
+<p><a href="/ulita/">Česká verze</a></p>

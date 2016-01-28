@@ -1,5 +1,5 @@
 {if is_array($detail)}
-<div style="text-align: left;">
+<div>
 <li>Jméno: {$uzivatel.jmeno|escape}</li>
 <li>E-mail: {$uzivatel.email|escape}</li>
 <li>Soukromi: {$uzivatel.soukromi|escape}</li>

@@ -15,12 +15,12 @@ function smarty_function_obrazek($params, &$smarty){
 	}
 	$rozmery=getimagesize($soubor);
 	if(isset($absolute)){
-		$abs='http://'.$_SERVER['SERVER_NAME'];
+		$abs='https://'.$_SERVER['SERVER_NAME'];
 	}else{
 		$abs='';
 	};
 	if($rozmery[0] > 200){
-		$velikost = 'style="width:98%;max-width:'.$rozmery[0].'px;"';
+		$velikost = 'class="photo"';
 	}else{
 		$velikost = $rozmery[3];
 	}

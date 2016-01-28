@@ -10,7 +10,7 @@
 <tr>
 <td><input type="radio" name="znameni" value="{$klic|escape}"{if $znameni==$klic} checked="checked"{/if} id="zn-{$klic}"/></td>
 <td><label for="zn-{$klic}">{$znam.popis}</label></td>
-<td><label for="zn-{$klic}"><span style="padding: 0 20px;">{obrazek soubor="horoskop-$klic-maly.png" popisek=$znam.popis}</span></label></td>
+<td><label for="zn-{$klic}"><span class="horologo">{obrazek soubor="horoskop-$klic-maly.png" popisek=$znam.popis}</span></label></td>
 <td><label for="zn-{$klic}">{$znam.od_den}. {$znam.od_mesic}. - {$znam.do_den}. {$znam.do_mesic}.</label></td>
 </tr>
 {/foreach}
