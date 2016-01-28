@@ -91,6 +91,7 @@ if($id){
 		$smarty->assign('nadpis',$animace[$id]['popis']);
 		$smarty->assign('navigace',$navigace);
 		$smarty->assign('animace',$animace[$id]);
+		$smarty->assign('stylwidth', $animace[$id]['sirka']);
 		$smarty->display('hlavicka.tpl');
 		$smarty->display('animace.tpl');
 		$smarty->display('paticka.tpl');
