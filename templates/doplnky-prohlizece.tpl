@@ -13,8 +13,8 @@
 <p>{obrazek soubor="browser-ff.png" popisek="Mozilla Firefox"}Firefox si můžeš obarvit pomocí personas:</p>
 
 <ul class="szn">
-<li><a href="http://www.getpersonas.com/cs/persona/96789" class="external">Juggling balls</a></li>
-<li><a href="http://www.getpersonas.com/cs/persona/96880" class="external">Juggling clubs</a></li>
+<li><a href="https://www.getpersonas.com/cs/persona/96789" class="external">Juggling balls</a></li>
+<li><a href="https://www.getpersonas.com/cs/persona/96880" class="external">Juggling clubs</a></li>
 </ul>
 
 <p>
