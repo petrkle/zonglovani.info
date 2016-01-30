@@ -1,10 +1,11 @@
+<script src="/doplnky-{$smarty.const.JS_CHKSUM}.js"></script>
 <p>Žonglérské doplňky do internetových prohlížečů.</p>
 
 <a name="chrome"></a><h3>Google Chrome</h3>
 <p>{obrazek soubor="browser-chrome.png" popisek="Google Chrome"}</p>
 <ul class="szn">
 <li><a href="https://chrome.google.com/extensions/detail/dojgpamkkdlccihbhgnflimdjkigimad" class="external">Rozšíření žonglování</a> - rychlý přístup do kalendáře žonglérských akcí.</li>
-<li><a href="/vyhledavani/vyhledavani.xml" onclick="window.external.AddSearchProvider('https://zonglovani.info/vyhledavani/vyhledavani.xml');return(false);">Vyhledávací modul</a></li>
+<li><a href="/vyhledavani/vyhledavani.xml" id="chromesearch">Vyhledávací modul</a></li>
 <li>Podpora vytváření odkazů na aplikaci.</li>
 </ul>
 
@@ -18,15 +19,16 @@
 </ul>
 
 <p>
-Jednodušší hledání zařídí <a href="/vyhledavani/vyhledavani.xml" onclick="window.external.AddSearchProvider('https://zonglovani.info/vyhledavani/vyhledavani.xml');return(false);">vyhledávací modul</a>.
+Jednodušší hledání zařídí <a href="/vyhledavani/vyhledavani.xml" id="firesearch">vyhledávací modul</a>.
 </p>
 
 <a name="ie"></a><h3>Internet Explorer</h3>
 <p>{obrazek soubor="browser-ie.png" popisek="Internet Explorer"}</p>
 <ul class="szn">
 <li>Webslices z <a href="/tip/" title="Tip týdne">Tipu týdne</a> na úvodní stránce.</li>
-<li><a href="/vyhledavani/vyhledavani.xml" onclick="window.external.AddSearchProvider('https://zonglovani.info/vyhledavani/vyhledavani.xml');return(false);">Vyhledávací modul</a>.</li>
-<li>Podpora "<a href="http://youtu.be/sVJGsZzkTAI" title="Připnutí na panel ve Windows">pined sites</a>".</li>
+<li><a href="/vyhledavani/vyhledavani.xml" id="iesearch">Vyhledávací modul</a></li>
+<li>Podpora "<a href="https://youtu.be/sVJGsZzkTAI" title="Připnutí na panel ve Windows">pined sites</a>"</li>
+<li><span id="bla">bla</span></li>
 </ul>
 
 <a name="opera"></a><h3>Opera</h3>
