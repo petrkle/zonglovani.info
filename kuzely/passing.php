@@ -17,6 +17,9 @@ $trail->addStep($titulek,'/kuzely/passing/');
 
 if(strlen($show)>0 and is_file('../'.$show.'.xml')){
 	$trik=nacti_trik($show);
+	if($trik['img_maxwidth'] > IMG_RESPONSIVE_WIDTH){
+		$smarty->assign('stylwidth', $trik['img_maxwidth']);
+	}
 	$smarty->assign('trik',$trik);
 	$smarty->assign('titulek',$titulek.' - '.$trik['about']['nazev']);
 	$smarty->assign('nadpis',$trik['about']['nazev']);
@@ -33,6 +36,7 @@ if(strlen($show)>0 and is_file('../'.$show.'.xml')){
 	require('../404.php');
 	exit();
 }else{
+	$smarty->assign('stylwidth', 458);
 	$smarty->assign('trail', $trail->path);
 	$smarty->assign('titulek',$titulek);
 	$smarty->assign('nahled','https://'.$_SERVER['SERVER_NAME'].'/img/k/kuzely-passing-introb.png');

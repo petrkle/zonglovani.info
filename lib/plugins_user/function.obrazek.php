@@ -19,7 +19,7 @@ function smarty_function_obrazek($params, &$smarty){
 	}else{
 		$abs='';
 	};
-	if($rozmery[0] > 200){
+	if($rozmery[0] > IMG_RESPONSIVE_WIDTH){
 		$velikost = 'class="photo"';
 	}else{
 		$velikost = $rozmery[3];

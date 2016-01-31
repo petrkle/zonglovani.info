@@ -5,6 +5,7 @@ function nacti_trik($soubor){
 	$trik=array();
 	$trik['kroky'] = array();
 	$trik['about'] = (array) $xml->about;
+	$trik['img_maxwidth'] = 0;
 	foreach ($xml->krok as $krok){
 		$foo=array();
 		if($krok->popisek){
@@ -15,12 +16,24 @@ function nacti_trik($soubor){
 		}
 		if($krok->obrazek){
 			$foo['obrazek'] = (string) $krok->obrazek;
+
 			if(!preg_match('/\.(jpg|gif|png)$/',$foo['obrazek'])){
 				$foo['obrazek']=$foo['obrazek'].'.png';
 			}
+
 			if($krok->obrazek['src']){
 				$foo['obrazek_src'] = (string) $krok->obrazek['src'];
 				$foo['obrazek_src'] = '/img/'.substr($foo['obrazek_src'],0,1).'/'.$foo['obrazek_src'];
+			}
+
+			if(isset($foo['obrazek'])){
+				$path = $_SERVER['DOCUMENT_ROOT'].'/img/'.substr($foo['obrazek'],0,1).'/'.$foo['obrazek'];
+				if(is_readable($path)){
+					$obrazekinfo = getimagesize($path);
+					if($obrazekinfo[0] > $trik['img_maxwidth']){
+						$trik['img_maxwidth'] = $obrazekinfo[0];
+					}
+				}
 			}
 		}
 		if($krok->nadpis){
@@ -41,7 +54,6 @@ function nacti_trik($soubor){
 	}
 
 
-	#$trik['anim']=get_anim($_SERVER['REQUEST_URI']);
 	if(isset($xml->dalsi)){
 		$trik['dalsi']=array();
 		foreach ($xml->dalsi->link as $odkaz){
