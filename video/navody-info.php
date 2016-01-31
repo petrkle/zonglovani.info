@@ -27,4 +27,3 @@ $smarty->assign('trail', $trail->path);
 $smarty->display('hlavicka.tpl');
 $smarty->display('navody-info.tpl');
 $smarty->display('paticka.tpl');
-

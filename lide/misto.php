@@ -68,6 +68,7 @@ $mojepozice=array_search($filtr,$pozice);
 	$smarty->assign('styly',array('a'));
 	$smarty->assign('navigace',$navigace);
 	$smarty->assign('misto',$pusobiste[$filtr]['odkud']);
+	$smarty->assign('stylwidth', 500);
 	$smarty->display('hlavicka.tpl');
 	$smarty->display('lide-misto.tpl');
 	$smarty->display('paticka.tpl');

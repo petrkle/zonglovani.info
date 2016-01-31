@@ -81,6 +81,7 @@ $dalsi=array(
 $smarty->assign('pager_links', $pager->links);
 $smarty->assign('dalsi',$dalsi);
 $smarty->assign('videa',$data);
+$smarty->assign('stylwidth', 480);
 $smarty->display('hlavicka.tpl');
 $smarty->display('video-index.tpl');
 $smarty->display('paticka.tpl');

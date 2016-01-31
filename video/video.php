@@ -135,7 +135,6 @@ $data = $pager->getPageData();
 		}
 	}
 
-
 	$smarty->assign('fbsdileni','toto video');
 	$smarty->assign('styly',array('a'));
 	$smarty->assign('navigace',$navigace);
@@ -145,6 +144,7 @@ $data = $pager->getPageData();
 	$smarty->assign('video',$video);
 	$smarty->assign('keywords',make_keywords($video['nazev']));
 	$smarty->assign('description','Žonglérské video - '.$video['nazev']);
+	$smarty->assign('stylwidth', 480);
 	$smarty->display('hlavicka.tpl');
 	$smarty->display('video.tpl');
 	$smarty->display('paticka.tpl');

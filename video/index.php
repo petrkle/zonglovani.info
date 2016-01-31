@@ -76,7 +76,7 @@ $smarty->assign('feedback',true);
 $smarty->assign('trail', $trail->path);
 $smarty->assign('pager_links', $pager->links);
 $smarty->assign('videa',$data);
+$smarty->assign('stylwidth', 480);
 $smarty->display('hlavicka.tpl');
 $smarty->display('video-index.tpl');
 $smarty->display('paticka.tpl');
-
