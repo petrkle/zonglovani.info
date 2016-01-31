@@ -123,6 +123,9 @@ if($udalost){
 					exit();
 				}
 			}
+				if(isset($udalost['img_sirka'])){
+					$smarty->assign('stylwidth', $udalost['img_sirka']);
+				}
 				$trail->addStep($udalost['month_name'],$udalost['month_url']);
 				$trail->addStep($udalost['title'],CALENDAR_URL.'udalost-'.$udalost['id'].'.html');
 				$trail->addStep('Úprava');
@@ -163,6 +166,10 @@ if($udalost){
 
 	if(count($hlavicky)>0){
 		$smarty->assign('custom_headers',$hlavicky);
+	}
+
+	if(isset($udalost['img_sirka'])){
+		$smarty->assign('stylwidth', $udalost['img_sirka']);
 	}
 
 		$smarty->assign('fbsdileni','tuto událost');

@@ -6,7 +6,7 @@
 {/if}
 
 {if isset($udalost.img) and isset($udalost.img_ts)}
-<p><img src="/kalendar/obrazek-{$udalost.img_ts|escape}-ts-{$udalost.img|escape}" alt="{$udalost.desc|escape}" style="width:98%;max-width:{$udalost.img_sirka|escape}px;" /></p>
+<p><img src="/kalendar/obrazek-{$udalost.img_ts|escape}-ts-{$udalost.img|escape}" alt="{$udalost.desc|escape}" class="photo" /></p>
 {/if}
 
 <p><strong>Začátek</strong>: <abbr class="dtstart" title="{$udalost.start_micro|escape}">{$udalost.start_hr|escape}</abbr></p>
