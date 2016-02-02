@@ -23,10 +23,7 @@
 <description>
 <![CDATA[
 <p>
-<div style="float:left;margin:0 5px;">
 {obrazek soubor=$tipy[$smarty.section.smycka2.index].obrazek popisek=$tipy[$smarty.section.smycka2.index].nadpis|escape absolute=yes} 
-</div>
-<br clear="both" />
 {$tipy[$smarty.section.smycka2.index].text|escape}
 </p>
 ]]>

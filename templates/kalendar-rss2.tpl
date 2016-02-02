@@ -22,11 +22,8 @@
 <description>
 <![CDATA[
 <p>
-<div style="float:left;margin:0 5px;">
 <img src="https://{$smarty.server.SERVER_NAME}{$smarty.const.CALENDAR_URL}obrazek-{$udalost.img}" />
-</div>
 {$udalost.desc|escape}
-<br clear="both"/>
 </p>
 ]]>
 </description>
