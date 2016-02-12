@@ -101,7 +101,6 @@ if(!preg_match('/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{
 		$smarty->assign('key', $key);
 
 		$vysledek = sendmail(array(
-			'from'=>'robot@zonglovani.info',
 			'to'=>$uzivatel['email'],
 			'subject'=>$subject,
 			'text'=>$smarty->fetch('mail/lide-zapomenute-heslo.txt.tpl'),

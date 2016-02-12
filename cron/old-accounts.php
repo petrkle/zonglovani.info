@@ -41,7 +41,6 @@ foreach($loginy as $login){
 		$smarty->assign('user', $info);
 		$smarty->assign('subject', $subject);
 		$vysledek = sendmail(array(
-			'from'=>'robot@zonglovani.info',
 			'to'=>$info['email'],
 			'subject'=>$subject,
 			'text'=>$smarty->fetch('mail/cron-old-accounts.txt.tpl'),

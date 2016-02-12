@@ -420,7 +420,6 @@ $trail->addStep('Nastavení',LIDE_URL.'nastaveni/');
 		$smarty->assign('key', $key);
 
 		$vysledek = sendmail(array(
-			'from'=>'robot@zonglovani.info',
 			'to'=>$_SESSION['uzivatel']['email'],
 			'subject'=>$subject,
 			'text'=>$smarty->fetch('mail/lide-ucet-zruseni.txt.tpl'),
@@ -524,7 +523,6 @@ $trail->addStep('Nastavení',LIDE_URL.'nastaveni/');
 		$smarty->assign('key', $key);
 
 		$vysledek = sendmail(array(
-			'from'=>'robot@zonglovani.info',
 			'to'=>$email,
 			'subject'=>$subject,
 			'text'=>$smarty->fetch('mail/lide-zmena-emailu.txt.tpl'),

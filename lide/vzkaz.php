@@ -140,7 +140,6 @@ if(isset($_POST['komu'])){
 
 		$smarty->assign('komu',$komu_props);
 		$vysledek = sendmail(array(
-			'from'=>'robot@zonglovani.info',
 			'to'=>$email,
 			'subject'=>$subject,
 			'text'=>$smarty->fetch('mail/lide-vzkaz-activate.txt.tpl'),

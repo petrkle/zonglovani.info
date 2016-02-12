@@ -55,7 +55,6 @@ $smarty->assign('uzivatel',$uzivatel);
 $smarty->assign('subject',$subject);
 
 $vysledek = sendmail(array(
-	'from'=>'robot@zonglovani.info',
 	'to'=>$uzivatel['email'],
 	'subject'=>$subject,
 	'text'=>$smarty->fetch('mail/lide-add.txt.tpl'),
