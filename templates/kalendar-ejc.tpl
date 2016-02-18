@@ -1,3 +1,6 @@
+<h3><a href="/kalendar/udalost-20160730-20160807-pek-1441826412.html" title="EJC 2016">30. 7. - 7. 8. 2016</a> Almere (NL)</h3>
+<p><a href="/kalendar/udalost-20160730-20160807-pek-1441826412.html" title="EJC 2016">{obrazek soubor='ejc2016.png' popisek='EJC 2016'}</a> European Juggling Convention je největší žonglérský festival v Evropě.</p>
+
 <h3><a href="/kalendar/udalost-20150801-20150809-pek-1424378805.html" title="EJC 2015">1. 8. - 9. 8. 2015</a> Bruneck (IT)</h3>
 <p><a href="/kalendar/udalost-20150801-20150809-pek-1424378805.html" title="EJC 2015">{obrazek soubor='ejc2015.png' popisek='EJC 2015'}</a> European Juggling Convention je největší žonglérský festival v Evropě.</p>
 
