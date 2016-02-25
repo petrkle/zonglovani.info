@@ -91,7 +91,7 @@ Většina žonglérů zná tento trik pod názvem <a href="/micky/3/blesk.html" 
 
 <!-- start -->
 <p class="animace">
-<a href="/animace/siteswap/55500.html" title="Animace žonglování blesku" onkeydown="{jsanimace a='55500' prefix='siteswap'}">{obrazek soubor='animace.s.png' popisek=''} Přehrát animaci</a>
+<a href="/animace/siteswap/55500.html" title="Animace žonglování blesku">{obrazek soubor='animace.s.png' popisek=''} Přehrát animaci</a>
 </p>
 <!-- stop -->
 
