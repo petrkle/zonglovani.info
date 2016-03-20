@@ -24,21 +24,6 @@ Stránku odebereš z oblíbených kliknutím na obrázek žluté hvězdičky {ob
 <h5>Oblíbené stránky jsou veřejné</h5>
 <p>Seznam tvých oblíbených stránek je veřejně dostupný všem návštěvníkům žonglérova slabikáře. Stejně tak i ty si můžeš prohlížet oblíbené stránky ostatních žonglérů.</p>
 {/if}
-
-<h2>Hodnocení stránek</h2>
-{if is_array($uzivatel_props.hodnoceni)}
-<ul>
-{foreach from=$uzivatel_props.hodnoceni item=stranka key=url}
-<li{if $stranka.palec==1} class="libi"{/if}{if $stranka.palec==-1} class="nelibi"{/if}><a href="{$url|escape}" title="{$stranka.titulek|escape}">{$stranka.titulek|regex_replace:'/ \- stránka [0-9]+$/':''|escape}</a></li>
-{/foreach}
-</ul>
-{else}
-<p>Na tomto místě se zobrazí stránky, které ohodnotíš v žonglérova slabikáři.</p>
-<h5>Palce</h5>
-<p>K hodnocení stránek se používá zelený a červený palec v dolní části stránky.</p>
-<h5>Soukromí</h5>
-<p>Seznam tebou hodnocených stránek není veřejný.</p>
-{/if}
 <ul>
 <li><a href="{$smarty.const.LIDE_URL}pristupy.php" title="Seznam přihlášení do žonglérova slabikáře.">Seznam tvých přihlášení</a> do žonglérova slabikáře.</li>
 <li><a href="{$smarty.const.LIDE_URL}pravidla.php" title="Pravidla pro používání žonglérova slabikáře.">Pravidla používání</a> účtu v žonglérově slabikáři</li>

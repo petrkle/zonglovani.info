@@ -3,7 +3,7 @@ require('../init.php');
 require('../func.php');
 
 if(isset($_GET['url'])){
-	$next='http://'.$_SERVER['SERVER_NAME'].$_GET['url'];
+	$next='https://'.$_SERVER['SERVER_NAME'].$_GET['url'];
 	$url=$_GET['url'];
 }else{
 	$next='';
@@ -46,7 +46,7 @@ if(is_logged()){
 	header('Location: '.$next);
 		exit();
 	}else{
-		header('Location: http://'.$_SERVER['SERVER_NAME']);
+		header('Location: https://'.$_SERVER['SERVER_NAME']);
 		exit();
 	}
 }else{
