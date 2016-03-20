@@ -42,6 +42,9 @@
 {if isset($nahled)}
 	<link rel="image_src" href="{$nahled|escape}" />
 	<link rel="previewimage" href="{$nahled|escape}" />
+{else}
+	<link rel="image_src" href="/img/l/logo.png" />
+	<link rel="previewimage" href="/img/l/logo.png" />
 {/if}
 
 </head>
