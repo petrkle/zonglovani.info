@@ -11,20 +11,13 @@
 {if $video.delka}Délka: {$video.delka|escape}{/if}{if $video.rozliseni} Rozlišení: {$video.rozliseni|escape}{/if}
 </p>
 <p>
-Adresa videa: <a href="http://youtu.be/{$video.fid|escape}" class="external">http://youtu.be/{$video.fid|escape}</a>
+Adresa videa: <a href="https://youtu.be/{$video.fid|escape}" class="external">youtu.be/{$video.fid|escape}</a>
 </p>
 {/if}
 
 {if $video.typ=='juggling.tv'}
 <p class="{if $event=='navod'}wyoutubevideo{else}youtubevideo{/if}">
-<object type="application/x-shockwave-flash" data="http://juggling.tv/nvplayer.swf?config=http://juggling.tv/nuevo/econfig.php?key={$video.fid}" class="{if $event=='navod'}wyoutubevideo{else}youtubevideo{/if}">
-	<param name="movie" value="http://juggling.tv/nvplayer.swf?config=http://juggling.tv/nuevo/econfig.php?key={$video.fid}" />
-	<param name="wmode" value="transparent" />
-	<param name="allowscriptaccess" value="always" />
-	<param name="allowfullscreen" value="false" />
-	<param name="pluginspage" value="http://get.adobe.com/flashplayer/" />
 Uložit video ve formátu <a href="{$video.download}" class="external">.mp4</a>
-</object>
 </p>
 {if $video.download and isset($smarty.session.logged)}
 <p><a href="{$video.download|escape}" class="external" rel="nofollow">Stáhnout video</a> ze stránky <a href="{if $video.originalurl}{$video.originalurl|escape}{else}http://juggling.tv{/if}" class="external">juggling.tv</a></p>
