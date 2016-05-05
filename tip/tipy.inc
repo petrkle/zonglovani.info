@@ -390,13 +390,13 @@
 2016-04-18*40303*/micky/2/40303.html*40303a.png*Jednoduché cvičení se dvěma míčky.
 2016-04-25*Socha svobody*/micky/3/socha.html*sochaa.png*Socha svobody je vlastně poloviční sprcha s jednou rukou nahoře. Jiný název pro tento trik je žirafa.
 2016-05-02*Obloučky*/micky/3/oblouky.html*obloukya.png*Každý míček má vlastní dráhu, která se nekříží s ostatními.
-2016-05-09*Kaskáda (multiplex)*/micky/5/kaskada-multiplex.html*5kaskadamultia.png*Kaskáda s pěti míčky je obtížný trik. Nezbývá tedy nic jiného, než si ji trochu usnadnit. Stačí vyhazovat dva míčky najednou.
+2016-05-09*Čtenářská minutka*/video/etc/ctenarska-minutka.html*ctenarska-minutka.jpg*V tomto vydání čtenářské minutky doporučuje Jakub Jebavý e-knihu Žonglérův slabikář.
 2016-05-16*Falešné Mills' mess*/micky/3/mm-falesne.html*micky-3-mm-falesnea.png*Popsat tento trik je skoro stejně těžké jako se ho naučit. Takže hurá do toho!
 2016-05-23*Výměny ve čtvercích*/kuzely/passing/vymeny.html*vymenya.png*Trik pro čtyři žongléry s dvanácti kužely.
 2016-05-30*Jak začít žonglovat s míčky*/micky/jak-zacit.html*starta.png*Míčky jsou nejjednodušší náčiní. Snadno se hážou i chytají.
 2016-06-06*Výroba míčků na žonglování*/micky/vyroba.html*micek-z-balonku-3.s.jpg*S trochou šikovnosti lze vyrobit míčky pro žonglování doma na koleně.
 2016-06-13*Synchronní fontána*/micky/4/fontana-synchronni.html*sfontanaa.png*Synchronní fontána je mírnou obměnou klasické fontány.
-2016-06-20*
+2016-06-20*Kaskáda (multiplex)*/micky/5/kaskada-multiplex.html*5kaskadamultia.png*Kaskáda s pěti míčky je obtížný trik. Nezbývá tedy nic jiného, než si ji trochu usnadnit. Stačí vyhazovat dva míčky najednou.
 2016-06-27*
 2016-07-04*
 2016-07-11*
