@@ -28,7 +28,7 @@ foreach($loginy as $login){
 		fwrite($foo,time());
 		fclose($foo);
 		if(is_file(LIDE_DATA.'/'.$login.'/pusobiste.txt')){
-			$handle = fopen('http://'.$_SERVER['SERVER_NAME'].'/mapa/update-zongleri.php', 'r');
+			$handle = fopen('https://'.$_SERVER['SERVER_NAME'].'/mapa/update-zongleri.php', 'r');
 			fclose($handle);
 		}
 	
