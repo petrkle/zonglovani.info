@@ -7,7 +7,7 @@
 2010-01-25*Zvedání míčku nohou*/micky/kick-up.html*kickup-micky.png*Tento týden se naučíme zvedání míčku nohou. Podceňovaná a přitom klíčová dovednost.
 2010-02-01*Bratři v tricku 2*/video/bratri-v-tricku-2.html*bratri2.jpg*Bratři v tricku nelení a jsou tu zas. Adam a Vašek předvádějí <a href="https://zonglovani.info/kuzely/passing/" title="Víc lidí žongluje dohromady.">passing s kužely</a>.
 2010-02-04*Žonglování v Ulitě*/ulita/?201005*ulita.cz.png*V domě dětí a mládeže Ulita se pravidelně žongluje. Přijít mohou začínající i zkušení žongléři a žonglérky.
-2010-02-08*Australský trik*/kuzely/passing/australsky-trik.html*klokan.png*Nauč se něco od klokanů. Australský trik obsahuje přebírání kuželek, třesení rukou a házení kuželky za zády. 
+2010-02-08*Australský trik*/kuzely/passing/australsky-trik.html*klokan.png*Nauč se něco od klokanů. Australský trik obsahuje přebírání kuželek, třesení rukou a házení kuželky za zády.
 2010-02-15*Žonglování v Ulitě*/ulita/?201007*ulita.cz.png*V domě dětí a mládeže Ulita se pravidelně žongluje. Přijít mohou začínající i zkušení žongléři a žonglérky.
 2010-02-22*Take It Out 3*/video/take-it-out-3.html*take-it-out3.jpg*Video, kde si Lukas Schütte a Christof Buch přebírají kužely.
 2010-03-01*Žonglování v Ulitě*/ulita/?201009*ulita.cz.png*V domě dětí a mládeže Ulita se pravidelně žongluje. Přijít mohou začínající i zkušení žongléři a žonglérky.
@@ -397,16 +397,130 @@
 2016-06-06*Výroba míčků na žonglování*/micky/vyroba.html*micek-z-balonku-3.s.jpg*S trochou šikovnosti lze vyrobit míčky pro žonglování doma na koleně.
 2016-06-13*Synchronní fontána*/micky/4/fontana-synchronni.html*sfontanaa.png*Synchronní fontána je mírnou obměnou klasické fontány.
 2016-06-20*Kaskáda (multiplex)*/micky/5/kaskada-multiplex.html*5kaskadamultia.png*Kaskáda s pěti míčky je obtížný trik. Nezbývá tedy nic jiného, než si ji trochu usnadnit. Stačí vyhazovat dva míčky najednou.
-2016-06-27*
-2016-07-04*
-2016-07-11*
-2016-07-18*
-2016-07-25*
-2016-08-01*
-2016-08-08*
-2016-08-15*
-2016-08-22*
-2016-08-29*
-2016-09-05*
-2016-09-12*
+2016-06-27*Zvedání míčku nohou*/micky/kick-up.html*kickup-micky.png*Tento týden se naučíme zvedání míčku nohou. Podceňovaná a přitom klíčová dovednost.
+2016-07-04*Australský trik*/kuzely/passing/australsky-trik.html*klokan.png*Nauč se něco od klokanů. Australský trik obsahuje přebírání kuželek, třesení rukou a házení kuželky za zády.
+2016-07-11*Siteswap*/siteswap.html*p4sprchac.png*Jsou to vlastně takové noty pro žonglování. Siteswap vymysleli žongléři, aby s jejich pomocí <strong>našli nové triky</strong>.
+2016-07-18*Rotující čtverce*/kuzely/passing/squares.html*ctverce-r.png*Trik pro čtyři žongléry a dvanáct kuželů. Všichni hází 4 count z pravé ruky.
+2016-07-25*Obrázky na plochu*/obrazky-na-plochu/*kuzelky-na-trave.jpg*Obrázky na plochu počítače s žonglérskou tématikou.
+2016-08-01*Literatura*/literatura.html*encyclopaedia.jpg*Přehled nejlepších knížek o žonglování.
+2016-08-08*Passování s pivem*/kuzely/passing/pivo.html*bv.jpg*Trik pro tři žongléry s šesti kužely a lahví piva. Postupně si všichni tři házíte kuželky a předáváte láhev piva.
+2016-08-15*See saw*/micky/3/seesaw.html*seesawb.png*Krabice se třemi míčky.
+2016-08-22*Řada*/kuzely/passing/line.html*line-promo.png*Line - trik pro tři žongléry a devět kuželů.
+2016-08-29*Sloupy II*/micky/4/sloupy-ii.html*4sloupyiib.png*Těžší varianta sloupů se čtyřmi míčky.
+2016-09-05*Otáčení kuželky okolo palce*/kuzely/toceni-okolo-palce.html*tocenib.png*Trik který můžeš trénovat i v místnostech s nízkým stropem.
+2016-09-12*Míček z tenisáku*/micky/vyroba-tenisak.html*levny-tenisak.s.jpg*Rychlý návod, jak vyrobit míček na žonglování z tenisáku a nafukovacích balónků.
+2016-09-19*Passování do všech rukou*/kuzely/passing/all-hands.html*kuzely-passing-allhandsc.png*Obtížnější trik pro dva žongléry a šest kuželů.
+2016-09-26*Kříž*/micky/4/kriz.html*4krizc.png*Jak název napovídá, budeš tentokrát míčky házet křížem.
+2016-10-03*Návody na žonglování*/navody/*navod-tisk.png*Návody na žonglování a výrobu míčků ve formátu PDF. Vhodné pro tisk.
+2016-10-10*Deštník*/micky/4/destnik.html*destnikc.png*Kdo má po ruce 4 míčky, toho ani déšť nepřekvapí.
+2016-10-17*Překulení kuželky přes hlavu*/kuzely/headroll.html*headrollc.png*Trik známý též pod anglickým názvem headroll.
+2016-10-24*3 count*/kuzely/passing/3count.html*kuzely-passing-3counta.png*Každý 3. hod je pass. Jako valčík, na tři doby.
+2016-10-31*Sbírání spadlých míčků*/micky/sbirani.html*micky-sbirania.png*Když ti spadne míček, nepřestávej žonglovat.
+2016-11-07*Obíhání*/kuzely/passing/runarounds.html*kuzely-runaroundsa.s.png*Runarounds - trik pro dva žongléry a tři kužely.
+2016-11-14*Kaskáda s pěti míčky*/micky/5/kaskada.html*5kaskadac.png*Návod na kaskádu s pěti míčky.
+2016-11-21*Krabice*/micky/4/krabice.html*micky-4-krabiceb.png*Box se čtyřmi míčky.
+2016-11-28*Odražení míčku kolenem*/micky/3/koleno.html*kolenob.png*Snadný a velmi efektní trik. K jeho provedení jsou potřeba skákavé míčky.
+2016-12-05*Šest míčků*/micky/6/*micky-6-fontanaa.png*Základní trik se šesti míčky.
+2016-12-12*Animace žonglování*/animace/*animace-panacek.png*Žonglérův slabikář nově obsahuje i animace žonglování z programu JuggleAnim.
+2016-12-19*Tenis*/micky/4/tenis.html*micky-4-tenisc.png*Velmi obtížný trik se čtyřmi míčky.
+2016-12-26*Nad hlavou*/micky/3/nadhlavou.html*nadhlavoua.png*Žonglování s míčky a rukama nad hlavou.
+2017-01-02*Žonglérův slabikář na papíře*/obrazky/zongleruv-slabikar-na-papire-20111218/0000.html*zsp.jpg*Žonglérův slabikář si můžeš jednoduše vytisknout na papír. Ke stažení je PDF soubor o 151 stránkách. Devět z deseti žonglérů doporučuje oboustranný tisk a kroužkovou vazbu.
+2017-01-09*Helikoptéra*/kuzely/3/helikoptera.html*kuzely-3-helikopterac.png*Trik s kuželkou. Ale pozor, je trochu na hlavu :^)
+2017-01-16*Blesk*/micky/3/blesk.html*bleskc.png*Blesk je rychlé vyhození míčků tak, že tvé dlaně zůstanou na okamžik prázdné.
+2017-01-23*Obrázky kuželů*/kuzely/druhy.html*kuzelka-albatros-s.jpg*Obrázky žonglérských kuželů.
+2017-01-30*Hvězda*/kuzely/passing/star.html*kuzely-passing-stara.png*Passovací trik pro <strong>5 žonglérů</strong>. Někdy se mu také říká pětiúhelník.
+2017-02-06*Neúplná hvězda*/kuzely/passing/prebihani4z11k.html*kuzely-passing-prebihani4z11kc.png*Občas není dostatek žonglérů na úplnou <a href="https://zonglovani.info/kuzely/passing/star.html" title="Trik pro 5 žonglérů.">hvězdu</a> a pak je potřeba trochu běhat.
+2017-02-13*Rybičky*/kuzely/3/rybicky.html*rybickab.png*Obtížný způsob házení kuželů. Anglicky označovaný flat.
+2017-02-20*501*/micky/2/501.html*501b.png*Cvičení se dvěma míčky. Může posloužit i jako trénink na kaskádu s pěti míčky.
+2017-02-27*Instalace žonglérova slabikáře*/download*download.png*Nainstaluj si žonglérův slabikář do počítače. Zjednodušená verze která jde používat i bez připojení k internetu. 
+2017-03-06*Chůdy*/chudy/*cirkusc.png*Diváci milují chůdy. Hlavně proto, že jsou zvědaví kdy chůdař spadne a šeredně si natluče. <a href="https://zonglovani.info/chudy/" title="Návod na výrobu chůd.">Návod na výrobu chůd</a>.
+2017-03-13*Poloviční sprcha*/micky/4/sprcha-polovicni.html*p4sprchac.png*Poloviční sprcha se čtyřmi míčky.
+2017-03-20*
+2017-03-27*
+2017-04-03*
+2017-04-10*
+2017-04-17*
+2017-04-24*
+2017-05-01*
+2017-05-08*
+2017-05-15*
+2017-05-22*
+2017-05-29*
+2017-06-05*
+2017-06-12*
+2017-06-19*
+2017-06-26*
+2017-07-03*
+2017-07-10*
+2017-07-17*
+2017-07-24*
+2017-07-31*
+2017-08-07*
+2017-08-14*
+2017-08-21*
+2017-08-28*
+2017-09-04*
+2017-09-11*
+2017-09-18*
+2017-09-25*
+2017-10-02*
+2017-10-09*
+2017-10-16*
+2017-10-23*
+2017-10-30*
+2017-11-06*
+2017-11-13*
+2017-11-20*
+2017-11-27*
+2017-12-04*
+2017-12-11*
+2017-12-18*
+2017-12-25*
+2018-01-01*
+2018-01-08*
+2018-01-15*
+2018-01-22*
+2018-01-29*
+2018-02-05*
+2018-02-12*
+2018-02-19*
+2018-02-26*
+2018-03-05*
+2018-03-12*
+2018-03-19*
+2018-03-26*
+2018-04-02*
+2018-04-09*
+2018-04-16*
+2018-04-23*
+2018-04-30*
+2018-05-07*
+2018-05-14*
+2018-05-21*
+2018-05-28*
+2018-06-04*
+2018-06-11*
+2018-06-18*
+2018-06-25*
+2018-07-02*
+2018-07-09*
+2018-07-16*
+2018-07-23*
+2018-07-30*
+2018-08-06*
+2018-08-13*
+2018-08-20*
+2018-08-27*
+2018-09-03*
+2018-09-10*
+2018-09-17*
+2018-09-24*
+2018-10-01*
+2018-10-08*
+2018-10-15*
+2018-10-22*
+2018-10-29*
+2018-11-05*
+2018-11-12*
+2018-11-19*
 # vim: set nonumber nowrap:

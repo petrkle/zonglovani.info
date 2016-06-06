@@ -52,8 +52,6 @@ define('OBRAZKY_DATA',$_SERVER['DOCUMENT_ROOT'].'/obrazky');
 
 define('SEARCH_URL','/vyhledavani/'); 
 
-define('HODNOCENI_DATA',$_SERVER['DOCUMENT_ROOT'].'/data/hodnoceni');
-
 define('TIMEOUT_REGISTRATION',7*24*3600); 
 define('TIMEOUT_RESET_PASSWD',7*24*3600); 
 define('TIMEOUT_VZKAZ',7*24*3600); 
@@ -78,28 +76,3 @@ define('IMG_RESPONSIVE_WIDTH', 200); #MiB
 define('CSS_CHKSUM','948661739'); 
 define('JS_CHKSUM','2600756977'); 
 
-$hodnoceni=get_hodnoceni_stranka($_SERVER['REQUEST_URI']);
-$smarty->assign('hodnoceni',$hodnoceni);
-$smarty->assign('fblink','<a href="http://www.facebook.com/zongleruv.slabikar" title="Stránky žonglérova slabikáře na Facebooku." onclick="show_fb_likeiframe();return false;">facebook.com/zongleruv.slabikar</a>');
-function get_hodnoceni_stranka($url){
-	$url=preg_replace('/(.+)\/$/','\1/index.html',$url);
-	$navrat=array();
-	$navrat['libi']=0;
-	$navrat['nelibi']=0;
-	if(is_readable(HODNOCENI_DATA.$url)){
-		$hod=file(HODNOCENI_DATA.$url);
-		if(count($hod)>0){
-			foreach($hod as $line){
-				$line=trim($line);
-				$line=preg_split('/\*/',$line);
-				if(is_array($line) and array_key_exists(1, $line)){
-					if($line[1]>0){$navrat['libi']++;}
-					if($line[1]<0){$navrat['nelibi']++;}
-				}
-			}
-		}
-	}else{
-		$navrat=false;
-	}
-	return $navrat;
-}
