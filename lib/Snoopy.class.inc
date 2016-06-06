@@ -653,7 +653,7 @@ class Snoopy
 		
 		# accept self-signed certs
 		$cmdline_params .= " -k"; 
-		exec($this->curl_path." -D \"/tmp/$headerfile\"".escapeshellcmd($cmdline_params)." ".escapeshellcmd($URI),$results,$return);
+		exec($this->curl_path." --silent -D \"/tmp/$headerfile\"".escapeshellcmd($cmdline_params)." ".escapeshellcmd($URI),$results,$return);
 		
 		if($return)
 		{
