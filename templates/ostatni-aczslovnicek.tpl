@@ -35,5 +35,3 @@ Několik slovíček, které se často vyskytují v anglicky psaných textech o �
 <dt>workshop</dt><dd>Setkání, při němž účastníci získávají potřebné znalosti na základě diskusí a praktických ukázek.</dd>
 <dt>wrist</dt><dd>zápěstí</dd>
 </dl>
-
-<a href="#nahore" title="Přesun na začátek stránky" class="nahoru">Nahoru&nbsp;&uarr;</a>

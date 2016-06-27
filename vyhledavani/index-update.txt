@@ -1,4 +1,0 @@
-zaindexovat na localhostu
-dump db z localhostu
-v dumpu pøepsat zongl.info na zonglovani.info
-restore db na webhostingu

@@ -10,7 +10,7 @@ Tip týdne a ostatní aktualizace žonglérova slabikáře můžeš sledovat pom
 </p>
 {/foreach}
 {if $page_numbers.total > 1}
-<p>
+<p class="strankovani">
 Stránkování: {$pager_links}
 </p>
 {/if}

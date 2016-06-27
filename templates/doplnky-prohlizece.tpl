@@ -28,7 +28,6 @@ Jednodušší hledání zařídí <a href="/vyhledavani/vyhledavani.xml" id="fir
 <li>Webslices z <a href="/tip/" title="Tip týdne">Tipu týdne</a> na úvodní stránce.</li>
 <li><a href="/vyhledavani/vyhledavani.xml" id="iesearch">Vyhledávací modul</a></li>
 <li>Podpora "<a href="https://youtu.be/sVJGsZzkTAI" title="Připnutí na panel ve Windows">pined sites</a>"</li>
-<li><span id="bla">bla</span></li>
 </ul>
 
 <a name="opera"></a><h3>Opera</h3>

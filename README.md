@@ -10,10 +10,6 @@ https://zonglovani.info
 
 	git clone https://github.com/petrkle/zonglovani.info.git /home/www/zonglovani.info
 
-## Nastavení hesel ##
-
-	cp site-secrets.dist.php site-secrets.php
-
 ## Lokální doména pro testovaní ##
 
 	echo "127.0.0.1 zongl.info" >> /etc/hosts
@@ -29,10 +25,6 @@ https://gist.github.com/petrkle/4983929
 ## fakemail ##
 
 https://github.com/petrkle/fakemail-slack
-
-## MySQL ##
-
-vyhledavani/zonglovan_s.sql
 
 ## Testování ##
 

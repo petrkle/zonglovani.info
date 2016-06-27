@@ -41,7 +41,6 @@ function smarty_function_vypismenu($params, &$smarty){
 		<fieldset>
 		<legend>Vyhledávání</legend>
 		<input type="text" name="query" class="policko" accesskey="4" required /><input type="submit" value="Najít" class="knoflik" />
-		<input type="hidden" name="search" value="1" />
 		</fieldset>
 		</form>
 		<!-- stop -->

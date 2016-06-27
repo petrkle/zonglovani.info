@@ -1,5 +1,5 @@
 {if $page_numbers.total > 1}
-<p>
+<p class="strankovani">
 Stránkování: {$pager_links}
 </p>
 {/if}
@@ -11,7 +11,7 @@ Stránkování: {$pager_links}
 </p>
 
 {if $page_numbers.total > 1}
-<p>
+<p class="strankovani">
 Stránkování: {$pager_links}
 </p>
 {/if}

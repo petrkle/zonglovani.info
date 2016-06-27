@@ -8,6 +8,56 @@
     "content-hash": "afa7712e7a7f6cdb32b8883c751128ac",
     "packages": [
         {
+            "name": "pear/archive_tar",
+            "version": "1.3.11",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pear/Archive_Tar.git",
+                "reference": "23341344e19bbab1056cf2d2773f28cfccf787a3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pear/Archive_Tar/zipball/23341344e19bbab1056cf2d2773f28cfccf787a3",
+                "reference": "23341344e19bbab1056cf2d2773f28cfccf787a3",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=4.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Archive_Tar": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Michiel Rook",
+                    "email": "mrook@php.net",
+                    "role": "Lead"
+                },
+                {
+                    "name": "Vincent Blavet",
+                    "email": "vincent@phpconcept.net"
+                },
+                {
+                    "name": "Greg Beaver",
+                    "email": "greg@chiaraquartet.net"
+                }
+            ],
+            "description": "Tar file management class",
+            "homepage": "https://github.com/pear/Archive_Tar",
+            "keywords": [
+                "archive",
+                "tar"
+            ],
+            "time": "2013-02-09 11:44:32"
+        },
+        {
             "name": "pear/console_getopt",
             "version": "v1.4.1",
             "source": {
@@ -56,23 +106,23 @@
         },
         {
             "name": "pear/mail",
-            "version": "dev-master",
+            "version": "dev-trunk",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pear/Mail.git",
-                "reference": "caead04e96e1f874e686d295aa14d7df6e925b72"
+                "reference": "7393437ff0368bcec391dd0c9899be580a4ef85b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pear/Mail/zipball/caead04e96e1f874e686d295aa14d7df6e925b72",
-                "reference": "caead04e96e1f874e686d295aa14d7df6e925b72",
+                "url": "https://api.github.com/repos/pear/Mail/zipball/7393437ff0368bcec391dd0c9899be580a4ef85b",
+                "reference": "7393437ff0368bcec391dd0c9899be580a4ef85b",
                 "shasum": ""
             },
             "require": {
-                "pear/pear-core-minimal": "*"
+                "pear/pear": "*"
             },
             "require-dev": {
-                "pear/pear": "*"
+                "phpunit/phpunit": "*"
             },
             "suggest": {
                 "pear/net_smtp": "Install optionally via your project's composer.json"
@@ -107,9 +157,8 @@
                     "role": "Developer"
                 }
             ],
-            "description": "Class that provides multiple interfaces for sending emails.",
-            "homepage": "http://pear.php.net/package/Mail",
-            "time": "2015-08-20 20:46:09"
+            "description": "More info available on: http://pear.php.net/package/Mail",
+            "time": "2014-03-22 08:39:12"
         },
         {
             "name": "pear/mail_mime",
@@ -156,6 +205,98 @@
             "description": "Mail_Mime provides classes to create MIME messages",
             "homepage": "http://pear.php.net/package/Mail_Mime",
             "time": "2015-09-13 12:42:41"
+        },
+        {
+            "name": "pear/pear",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pear/pear-core.git",
+                "reference": "d346efa9809bdf0e53d711fbffd385d070207f96"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pear/pear-core/zipball/d346efa9809bdf0e53d711fbffd385d070207f96",
+                "reference": "d346efa9809bdf0e53d711fbffd385d070207f96",
+                "shasum": ""
+            },
+            "require": {
+                "ext-pcre": "*",
+                "ext-xml": "*",
+                "pear/archive_tar": "*",
+                "pear/console_getopt": "*",
+                "pear/structures_graph": "*",
+                "pear/xml_util": "*"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "*"
+            },
+            "suggest": {
+                "pear/pear_frontend_gtk": "For GTK support",
+                "pear/pear_frontend_web": "For Web support"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "./"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "include-path": [
+                "./"
+            ],
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Helgi Thormar",
+                    "email": "dufuz@php.net",
+                    "role": "Lead"
+                },
+                {
+                    "name": "Martin Jansen",
+                    "email": "mj@php.net",
+                    "role": "Helper"
+                },
+                {
+                    "name": "Stig Bakken",
+                    "email": "stig@php.net",
+                    "role": "Lead"
+                },
+                {
+                    "name": "Pierre-Alain Joye",
+                    "email": "pierre@php.net",
+                    "role": "Lead"
+                },
+                {
+                    "name": "Tias Guns",
+                    "email": "tias@php.net",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Tim Jackson",
+                    "email": "timj@php.net",
+                    "role": "Helper"
+                },
+                {
+                    "name": "Bertrand Gugger",
+                    "email": "toggg@php.net",
+                    "role": "Helper"
+                },
+                {
+                    "name": "Greg Beaver",
+                    "email": "cellog@php.net",
+                    "role": "Lead"
+                },
+                {
+                    "name": "Tomas V.V.Cox",
+                    "email": "cox@idecnet.com",
+                    "role": "Lead"
+                }
+            ],
+            "description": "This is the definitive source of PEAR's core files.",
+            "time": "2014-08-25 01:38:48"
         },
         {
             "name": "pear/pear-core-minimal",
@@ -255,6 +396,96 @@
                 "exception"
             ],
             "time": "2015-02-10 20:07:52"
+        },
+        {
+            "name": "pear/structures_graph",
+            "version": "dev-trunk",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pear/Structures_Graph.git",
+                "reference": "608fdc835a62fb238e61bd1cf0aaf6c7a4420b5c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pear/Structures_Graph/zipball/608fdc835a62fb238e61bd1cf0aaf6c7a4420b5c",
+                "reference": "608fdc835a62fb238e61bd1cf0aaf6c7a4420b5c",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Structures": "./"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "include-path": [
+                "./"
+            ],
+            "license": [
+                "PHP License"
+            ],
+            "authors": [
+                {
+                    "name": "Sérgio Carvalho",
+                    "email": "sergiosgc@gmail.com",
+                    "role": "Lead"
+                }
+            ],
+            "description": "More info available on: http://pear.php.net/package/Structures_Graph",
+            "time": "2015-07-20 20:05:12"
+        },
+        {
+            "name": "pear/xml_util",
+            "version": "1.2.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pear/XML_Util.git",
+                "reference": "f692466869a82494f4c01b925323c4d3f372c90c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pear/XML_Util/zipball/f692466869a82494f4c01b925323c4d3f372c90c",
+                "reference": "f692466869a82494f4c01b925323c4d3f372c90c",
+                "shasum": ""
+            },
+            "require": {
+                "pear/pear_exception": "*"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "XML_Util": "./"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "include-path": [
+                "./"
+            ],
+            "license": [
+                "BSD License"
+            ],
+            "authors": [
+                {
+                    "name": "Stephan Schmidt",
+                    "email": "schst@php-tools.net",
+                    "role": "Lead"
+                },
+                {
+                    "name": "Chuck Burgess",
+                    "email": "ashnazg@php.net",
+                    "role": "Lead"
+                },
+                {
+                    "name": "Davey Shafik",
+                    "email": "davey@php.net",
+                    "role": "Helper"
+                }
+            ],
+            "description": "More info available on: http://pear.php.net/package/XML_Util",
+            "time": "2014-06-07 10:17:22"
         },
         {
             "name": "smarty/smarty",

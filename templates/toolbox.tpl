@@ -18,7 +18,7 @@
 <li><a href="http://pear.php.net/package/Calendar" class="external">Calendar</a> - kalendář</li>
 <li><a href="http://www.softcomplex.com/products/tigra_calendar" class="external">Tigra Calendar</a> - kalendář</li>
 <li><a href="http://www.danielnaber.de/tree" class="external">tree.pl</a> - mapa stránek</li>
-<li><a href="http://sphider.eu" class="external">sphider</a> - fulltextové vyhledávání</li>
+<li><a href="http://sphinxsearch.com/" class="external">Sphinx Search</a> - fulltextové vyhledávání</li>
 <li><a href="http://www.gnu.org/software/tar" class="external">tar</a> - zálohy</li>
 <li><a href="http://www.gzip.org" class="external">gzip</a> - zálohy</li>
 <li><a name="perl"></a><a href="http://www.perl.org" class="external">perl</a> a jeho <a href="/testovani.html#pm" title="Seznam použitých perlovských modulů">moduly</a> - testování</li>

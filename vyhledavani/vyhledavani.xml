@@ -3,8 +3,7 @@
 <Description>Vyhledávání v žonglérově slabikáři</Description>
 <InputEncoding>utf-8</InputEncoding>
 <Image width="16" height="16">data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8AoEkOAAQ1+QDGkm8AD7DsABay7ADauaIAycn/AIDV9QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAmZmZmZmZmZmZlERZAAAJmZREREAAAACZlEREQAAAAHlEREQgAAAACURERCAAAAAJREREQAAAAHmURERAAAAAmZREREQAAAmZmYREQRERmZmZmREREREZmZmZERERERmZmZkRERERGZmZmRERERFpmZmZMREREZmZmZmWEREZmZn//wAA4QcAAIADAACAAQAAAAEAAAABAAAAAQAAgAMAAIAHAADADwAA8AcAAPAHAADwBwAA8AcAAPAPAAD4HwAA</Image>
-<Url type="text/html" method="get" template="https://zonglovani.info/vyhledavani/?query={searchTerms}&amp;search=1&amp;source=SearchBox" />
-<Url type="application/x-suggestions+json" method="get" template="https://zonglovani.info/vyhledavani/suggest.php?query={searchTerms}" />
+<Url type="text/html" method="get" template="https://zonglovani.info/vyhledavani/?query={searchTerms}&amp;p={startPage}" />
 <Url type="application/opensearchdescription+xml" rel="self" template="https://zonglovani.info/vyhledavani/vyhledavani.xml" />
 <moz:SearchForm>https://zonglovani.info/vyhledavani/</moz:SearchForm>
 </OpenSearchDescription>

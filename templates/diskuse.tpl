@@ -5,7 +5,7 @@
 {/if}
 
 {if $page_numbers.total > 1 and count($items)>5}
-<p>
+<p class="strankovani">
 Stránkování: {$pager_links}
 </p>
 {/if}
@@ -26,7 +26,7 @@ Stránkování: {$pager_links}
 {/foreach}
 
 {if $page_numbers.total > 1}
-<p>
+<p class="strankovani">
 Stránkování: {$pager_links}
 </p>
 {/if}

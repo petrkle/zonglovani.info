@@ -1,6 +1,6 @@
 {if is_array($items)}
 {if $page_numbers.total > 1 and count($items)>10}
-<p>
+<p class="strankovani">
 Stránkování: {$pager_links}
 </p>
 {/if}
@@ -10,7 +10,7 @@ Stránkování: {$pager_links}
 {/foreach}
 </ul>
 {if $page_numbers.total > 1}
-<p>
+<p class="strankovani">
 Stránkování: {$pager_links}
 </p>
 {/if}

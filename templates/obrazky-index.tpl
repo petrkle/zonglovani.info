@@ -1,6 +1,6 @@
 {if is_array($galerie)}
 {if $page_numbers.total > 1}
-<p>
+<p class="strankovani">
 Stránkování: {$pager_links}
 </p>
 {/if}
@@ -14,7 +14,7 @@ Stránkování: {$pager_links}
 {/foreach}
 {/if}
 {if $page_numbers.total > 1}
-<p>
+<p class="strankovani">
 Stránkování: {$pager_links}
 </p>
 {/if}
