@@ -9,6 +9,7 @@ wget \
 	$SLOWDOWN \
 	-e "robots=off" \
 	--directory-prefix=/tmp/zs.sitemap \
+	--user-agent="$URL/vyhledavani" \
 	--no-check-certificate \
 	--ca-directory=/noexist \
 	--no-host-directories \
