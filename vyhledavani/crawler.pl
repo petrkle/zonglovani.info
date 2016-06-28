@@ -140,7 +140,7 @@ sub parse_html {
 		my $titulek = $tx->res->dom->at('html title')->text;
 		my $img = $tx->res->dom->at('html head link[rel="image_src"]')->attr("href");
 		$img =~ s/.*$cfg->{domain}\//\//;
-		my $obsah = encode_entities($tx->res->dom->at('html body')->all_text);
+		my $obsah = encode_entities($tx->res->dom->at('html body')->all_text, '<>&');
 		my $sth = $dbh->prepare('INSERT INTO data VALUES (?, ?, ?, ?, ?);');
 		$sth->execute(undef, $adresa, $titulek, $obsah, $img);
 
