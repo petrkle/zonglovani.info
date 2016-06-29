@@ -1,9 +1,10 @@
-<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:moz="http://www.mozilla.org/2006/browser/search/">
-<ShortName>Žonglérův slabikář</ShortName>
-<Description>Vyhledávání v žonglérově slabikáři</Description>
-<InputEncoding>utf-8</InputEncoding>
-<Image width="16" height="16">data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAB/ElEQVQ4jYWSTUjTcRyHH82sjF4GXSo6DLwIdpIO0Xo5VRCDOoiUFfQOioSlFRWaL7BMbWavxzCEigaCkTNtahYeTGiGrwVRimWsWq25Mfffp8sOf+esLzy37/P84McX5k8Kx8milELOUc5p8rCzJsle0knlLPk4GKeeKNcRtYSopJ1jZP9fL2QbNUzTgOZRwXP2YPl3oIx7SeUGRB3h9ALyBCnJ5VUbLZTTu2DAic5fYOLrGZq7jmJjbuhuNrS52L8lROMCgXrUdBmpEvkvMvnyBLvicpUVPK9hSGRVCweiDnEjjhOlOdHOW2jgNvI3omA1+lKKx2HDArRUgNdIp0eHKdCDDal6YkWXtqL1JSjzJnrqRkEvMoZRZBD5O9HEVXytuWwGOjuW4lETNs2CZKJ/HeprQRpDGjExhnw9BFur2Au0PyvilIwEWaCf29GsN0GOYwyjcTd3WM214hdYI4lyDOQ7gozE101MdNFNMSszp+FDYkCg7/tQdAE5NoI+duDiECyfAneywK+1KOBO8gejaOYtgb6H5AMwAPkhCCYGImC8P8hgwMsPcyDsJTzaRm1xLssAKIIl76D0N0zNQiwKmoE/n6G5Cay9j9n9ycP9b6/wTHbz6I2LA1dOkjHnkndAWhts8kLJEJT1gr0GVphWFtntZOTksNjs/QWXTn1Dtl+gOQAAAABJRU5ErkJggg==</Image>
-<Url type="text/html" method="get" template="https://zonglovani.info/vyhledavani/?query={searchTerms}&amp;p={startPage}" />
-<Url type="application/opensearchdescription+xml" rel="self" template="https://zonglovani.info/vyhledavani/vyhledavani.xml" />
-<moz:SearchForm>https://zonglovani.info/vyhledavani/</moz:SearchForm>
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+	<Title>Žonglérův slabikář</Title>
+	<ShortName>Žonglérův slabikář</ShortName>
+	<Link>https://zonglovani.info</Link>
+	<Description>Vyhledávání v žonglérově slabikáři</Description>
+	<InputEncoding>UTF-8</InputEncoding>
+	<Image width="16" height="16" type="image/x-icon">https://zonglovani.info/favicon.ico</Image>
+	<Url type="text/html" method="get" template="https://zonglovani.info/vyhledavani/?query={searchTerms}&amp;p={startPage}" />
 </OpenSearchDescription>

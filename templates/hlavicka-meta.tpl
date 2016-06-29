@@ -21,6 +21,7 @@
 	<link rel="icon" type="image/png" href="https://{$smarty.server.SERVER_NAME}/img/s/slabikar-48.png" sizes="48x48" />
 	<link rel="icon" type="image/png" href="https://{$smarty.server.SERVER_NAME}/img/f/favicon-16x16.png" sizes="16x16">
 	<link rel="icon" type="image/png" href="https://{$smarty.server.SERVER_NAME}/img/f/favicon-32x32.png" sizes="32x32">
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
 	<meta name="msapplication-tooltip" content="Žonglérův slabikář" />
 	<meta name="msapplication-starturl" content="https://{$smarty.server.SERVER_NAME}" />
 	<meta name="msapplication-TileImage" content="https://{$smarty.server.SERVER_NAME}/img/m/micky-metro.png" />
