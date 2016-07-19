@@ -17,6 +17,15 @@
 </div>
 </div>
 </div>
-
+<!-- start -->
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "WebSite",
+  "name": "Žonglérův slabikář",
+  "url": "https://zonglovani.info"
+}
+</script>
+<!-- stop -->
 </body>
 </html>

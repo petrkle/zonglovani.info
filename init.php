@@ -8,8 +8,6 @@ header('X-Frame-Options: DENY');
 
 $lib=$_SERVER['DOCUMENT_ROOT'].'/lib';
 
-require($_SERVER['DOCUMENT_ROOT'].'/site-secrets.php');
-
 if(isset($_COOKIE['ZS']) and !isset($_SESSION)){
 	session_name('ZS');
 	session_start();

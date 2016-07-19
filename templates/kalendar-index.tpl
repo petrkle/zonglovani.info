@@ -21,7 +21,7 @@
             <ul class="kal_entry">
             {section name=entry loop=$month[week][day]->entryCount()}
             {assign var=payload value=$month[week][day]->getEntry()}
-             <li class="vevent"><a href="udalost-{$payload.id}.html" title="{$payload.title}" {if isset($smarty.session.uzivatel.login) and $payload.vlozil==$smarty.session.uzivatel.login}class="edit"{/if}>{$payload.title|truncate:80:"...":false|escape}</a><span class="skryte"><span class="summary">{$payload.title|escape}</span><span class="description">{$payload.desc|escape}</span><abbr class="dtstart" title="{$payload.start_ical|escape}">Začátek: {$payload.start_hr|escape}</abbr><abbr class="dtend" title="{$payload.end_ical|escape}">Konec: {$payload.end_hr|escape}</abbr></span></li>
+             <li class="vevent"><a class="url" href="udalost-{$payload.id}.html" title="{$payload.title}" {if isset($smarty.session.uzivatel.login) and $payload.vlozil==$smarty.session.uzivatel.login}class="edit"{/if}>{$payload.title|truncate:80:"...":false|escape}</a><span class="skryte"><span class="summary">{$payload.title|escape}</span><span class="description">{$payload.desc|escape}</span><abbr class="dtstart" title="{$payload.start_ical|escape}">Začátek: {$payload.start_hr|escape}</abbr><abbr class="dtend" title="{$payload.end_ical|escape}">Konec: {$payload.end_hr|escape}</abbr><div class="location">{$payload.misto|escape}</div></span></li>
             {/section}
             </ul>
 					{else}&nbsp;{/if}
