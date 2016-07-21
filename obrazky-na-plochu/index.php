@@ -11,14 +11,15 @@ $trail->addStep($titulek,WALLPAPERS_URL);
 if(isset($_GET['id'])){
 	$id=$_GET['id'];
 	if(isset($wallpapers[$id])){
-		$trail->addStep($wallpapers[$id]['titulek']);
-		$smarty->assign('titulek', $wallpapers[$id]['titulek']);
+		$titulek = $wallpapers[$id]['titulek'];
+		$trail->addStep($titulek);
+		$smarty->assign('titulek', $titulek);
 		$smarty->assign('feedback',true);
 		$smarty->assign('fbsdileni','obrázek');
 		$smarty->assign('DIRECT_LINK_TO_IMAGE', true);
 		$smarty->assign('nahled', $wallpapers[$id]['nahled_url']);
-		$smarty->assign('keywords','obrázky, žonglování, wallpaper, pozadí na plochu, '.$wallpapers[$id]['titulek']);
-		$smarty->assign('description','Tapety na plochu počítače - '.$wallpapers[$id]['titulek']);
+		$smarty->assign('keywords','obrázky, žonglování, wallpaper, pozadí na plochu, '.$titulek);
+		$smarty->assign('description','Tapety na plochu počítače - '.$titulek);
 
 		$smarty->assign('trail', $trail->path);
 		$smarty->assign('obrazek', $wallpapers[$id]);
