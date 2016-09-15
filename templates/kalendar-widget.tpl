@@ -2,24 +2,24 @@
 <h3>Světlá varianta</h3>
 <p>
 <textarea>
-&lt;a href="https://zonglovani.info/kalendar" title="Kalendář žonglérských akcí" id="zs-kalendar"&gt;Kalendář žonglování&lt;/a&gt;<br />
-&lt;script src="https://zonglovani.info/kalendar/widget.js" type="text/javascript" charset="utf-8"&gt;&lt;/script&gt;
+&lt;a href="{$kalendar}" title="Kalendář žonglérských akcí" id="zs-kalendar"&gt;Kalendář žonglování&lt;/a&gt;<br />
+&lt;script src="{$kalendar}widget.js" {$widget_params}&gt;&lt;/script&gt;
 </textarea>
 </p>
 <p>{obrazek soubor='widget-light.png' popisek='Widget - světlá varianta'}</p>
 <h3>Světlá varianta na šířku</h3>
 <p>
 <textarea>
-&lt;a href="https://zonglovani.info/kalendar" title="Kalendář žonglérských akcí" id="zs-kalendar"&gt;Kalendář žonglování&lt;/a&gt;<br />
-&lt;script src="https://zonglovani.info/kalendar/widget.js?css=https://zonglovani.info/css/ww-light.css" type="text/javascript" charset="utf-8"&gt;&lt;/script&gt;
+&lt;a href="{$kalendar}" title="Kalendář žonglérských akcí" id="zs-kalendar"&gt;Kalendář žonglování&lt;/a&gt;<br />
+&lt;script src="{$kalendar}widget.js?css=https://zonglovani.info/css/ww-light.css" {$widget_params}&gt;&lt;/script&gt;
 </textarea>
 </p>
 <p><a href="/img/w/widget-light-w.png" title="Světlá varianta na šířku">{obrazek soubor='widget-light-w.s.png' popisek='Widget - světlá varianta na šířku'}</a></p>
 <h3>Tmavá varianta</h3>
 <p>
 <textarea>
-&lt;a href="https://zonglovani.info/kalendar" title="Kalendář žonglérských akcí" id="zs-kalendar"&gt;Kalendář žonglování&lt;/a&gt;<br />
-&lt;script src="https://zonglovani.info/kalendar/widget.js?css=https://zonglovani.info/css/w-dark.css" type="text/javascript" charset="utf-8"&gt;&lt;/script&gt;
+&lt;a href="{$kalendar}" title="Kalendář žonglérských akcí" id="zs-kalendar"&gt;Kalendář žonglování&lt;/a&gt;<br />
+&lt;script src="{$kalendar}widget.js?css=https://zonglovani.info/css/w-dark.css" {$widget_params}&gt;&lt;/script&gt;
 </textarea>
 </p>
 <p>{obrazek soubor='widget-dark.png' popisek='Widget - tmavá varianta'}</p>
@@ -30,23 +30,23 @@ Pomocí parametru <code>css</code> můžeš nastavit vlastní kaskádový styl p
 <p>Parametr <code>filtr</code> umožňuje filtrovat zobrazované události podle toho kdo je vložil. Např.:</p>
 <p>
 <textarea>
-&lt;a href="https://zonglovani.info/kalendar" title="Kalendář žonglérských akcí" id="zs-kalendar"&gt;Kalendář žonglování&lt;/a&gt;<br />
-&lt;script src="https://zonglovani.info/kalendar/widget.js?css=http://kdesi.cz/zongl.css&amp;filtr=nekdo" type="text/javascript" charset="utf-8"&gt;&lt;/script&gt;</textarea>
+&lt;a href="{$kalendar}" title="Kalendář žonglérských akcí" id="zs-kalendar"&gt;Kalendář žonglování&lt;/a&gt;<br />
+&lt;script src="{$kalendar}widget.js?css=http://kdesi.cz/zongl.css&amp;filtr=nekdo" {$widget_params}&gt;&lt;/script&gt;</textarea>
 </p>
 <p>Zobrazí pouze události zadané uživatelem který má login "nekdo". Navíc se použije vlastní kaskádový styl. Login uživatele zjistíš z adresy profilu. Např.: https://zonglovani.info/lide/nekdo.html</p>
 
 <p>Parametr <code>ukaz=obrazky</code> přidá k událostem obrázky. Příklad použití:</p>
 <p>
 <textarea>
-&lt;a href="https://zonglovani.info/kalendar" title="Kalendář žonglérských akcí" id="zs-kalendar"&gt;Kalendář žonglování&lt;/a&gt;<br />
-&lt;script src="https://zonglovani.info/kalendar/widget.js?ukaz=obrazky" type="text/javascript" charset="utf-8"&gt;&lt;/script&gt;</textarea>
+&lt;a href="{$kalendar}" title="Kalendář žonglérských akcí" id="zs-kalendar"&gt;Kalendář žonglování&lt;/a&gt;<br />
+&lt;script src="{$kalendar}widget.js?ukaz=obrazky" {$widget_params}&gt;&lt;/script&gt;</textarea>
 </textarea>
 </p>
 <p><a href="/img/w/widget-img.png" title="Widget s obrázky">{obrazek soubor='widget-img.s.png' popisek='Widget s obrázky'}</a></p>
 
 <h3>API</h3>
 <p>
-Data z kalendáře jsou přístupná ve formátu json na adrese: <a href="{$smarty.const.CALENDAR_URL}next.json">https://zonglovani.info/kalendar/next.json</a>
+Data z kalendáře jsou přístupná ve formátu json na adrese: <a href="{$smarty.const.CALENDAR_URL}next.json">{$kalendar}next.json</a>
 </p>
 <a name="use"><h3>Příklady použití</h3></a>
 <ul>
