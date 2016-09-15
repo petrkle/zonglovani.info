@@ -17,4 +17,3 @@ $smarty->assign('titulek',$titulek);
 $smarty->display('hlavicka.tpl');
 $smarty->display('aktivace.tpl');
 $smarty->display('paticka.tpl');
-

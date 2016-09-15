@@ -28,8 +28,8 @@ if(!is_dir($tmp)){
 	mkdir($tmp);
 }
 
-$foo=fopen($tmp.'/passwd.sha1','w');
-fwrite($foo,sha1($heslo.$login));
+$foo=fopen($tmp.'/passwd.crypt','w');
+fwrite($foo, password_hash($heslo, PASSWORD_DEFAULT));
 fclose($foo);
 
 $foo=fopen($tmp.'/jmeno.txt','w');

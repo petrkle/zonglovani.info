@@ -78,9 +78,9 @@ if(isset($_POST['login']) and isset($_POST['heslo']) and isset($_GET['action']))
 		
 		$login=trim(file_get_contents(LIDE_TMP.'/'.$input_login.'/login.txt'));
 
-		$passwd_hash=trim(file_get_contents(LIDE_TMP.'/'.$input_login.'/passwd.sha1'));
+		$passwd_hash=trim(file_get_contents(LIDE_TMP.'/'.$input_login.'/passwd.crypt'));
 
-		if(sha1($input_heslo.$login)!=$passwd_hash){
+		if(!password_verify($input_heslo, $passwd_hash)){
 			spatne_jmeno_nebo_heslo();
 		}
 
@@ -96,7 +96,7 @@ if(isset($_POST['login']) and isset($_POST['heslo']) and isset($_GET['action']))
 			fclose($foo);
 
 			rename($tmp.'/jmeno.txt',$user.'/jmeno.txt');
-			rename($tmp.'/passwd.sha1',$user.'/passwd.sha1');
+			rename($tmp.'/passwd.crypt',$user.'/passwd.crypt');
 			rename($tmp.'/soukromi.txt',$user.'/soukromi.txt');
 
 			unlink($tmp.'/login.txt');
@@ -134,18 +134,6 @@ if(isset($_POST['login']) and isset($_POST['heslo']) and isset($_GET['action']))
 
 	}
 
-
-	if(is_zs_account($input_login)){
-		# starý zpusob přihlášení
-		array_push($chyby,'Zůsob přihlašování do žonglérova slabikáře se změnil.','Pro přihlášení použij <strong>email</strong> zadaný při registraci.','Omlouvám se za způsobené potíže.');
-		$smarty->assign('chyby',$chyby);
-		$smarty->assign('trail', $trail->path);
-		$smarty->display('hlavicka.tpl');
-		$smarty->display('prihlaseni.tpl');
-		$smarty->display('paticka.tpl');
-		exit();
-	}
-
 	if(is_zs_email($input_login)){
 		# ověření hesla, pokus o přihlášení
 		$login=email2login($input_login);
@@ -169,26 +157,58 @@ if(isset($_POST['login']) and isset($_POST['heslo']) and isset($_GET['action']))
 			exit();
 		}
 
-		$passwd_hash = file(LIDE_DATA.'/'.$uzivatel['login'].'/passwd.sha1');
-		$passwd_hash = trim(array_pop($passwd_hash));
-		if(sha1($input_heslo.$login)==$passwd_hash){
-			# úspěšné přihlášení
-			if (!isset($_SESSION)) {
-				session_name('ZS');
-				session_start();
+		if(is_file(LIDE_DATA.'/'.$uzivatel['login'].'/passwd.sha1')){
+			$passwd_hash_old = trim(file_get_contents(LIDE_DATA.'/'.$uzivatel['login'].'/passwd.sha1'));
+
+			if(sha1($input_heslo.$login)==$passwd_hash_old){
+				# úspěšné přihlášení
+				if (!isset($_SESSION)) {
+					session_name('ZS');
+					session_start();
+				}
+
+				$foo=fopen(LIDE_DATA.'/'.$uzivatel['login'].'/passwd.crypt','w');
+				fwrite($foo, password_hash($input_heslo, PASSWORD_DEFAULT));
+				fclose($foo);
+				unlink(LIDE_DATA.'/'.$uzivatel['login'].'/passwd.sha1');
+
+				load_user($uzivatel['login']);
+				header('Location: '.$next);
+				exit();
+			}else{
+				spatne_jmeno_nebo_heslo();
 			}
-			load_user($uzivatel['login']);
-			header('Location: '.$next);
-			exit();
-	}else{
-		spatne_jmeno_nebo_heslo();
-	}
+		}
+
+		if(is_file(LIDE_DATA.'/'.$uzivatel['login'].'/passwd.crypt')){
+			$passwd_hash = trim(file_get_contents(LIDE_DATA.'/'.$uzivatel['login'].'/passwd.crypt'));
+
+			if(password_verify($input_heslo, $passwd_hash)){
+				# úspěšné přihlášení
+				if (!isset($_SESSION)) {
+					session_name('ZS');
+					session_start();
+				}
+
+				if(password_needs_rehash($passwd_hash, PASSWORD_DEFAULT)){
+					$foo=fopen(LIDE_DATA.'/'.$uzivatel['login'].'/passwd.crypt','w');
+					fwrite($foo, password_hash($input_heslo, PASSWORD_DEFAULT));
+					fclose($foo);
+				}
+
+				load_user($uzivatel['login']);
+				header('Location: '.$next);
+				exit();
+			}else{
+				spatne_jmeno_nebo_heslo();
+			}
+		}
+
 	}else{
 		spatne_jmeno_nebo_heslo();
 	}
 
 }else{
-
 
 	$smarty->assign('trail', $trail->path);
 	$smarty->display('hlavicka.tpl');
@@ -215,26 +235,3 @@ function is_new_account($input_login){
 	}
 	return $navrat;
 }
-
-function get_simple_changelog($cas){
-	if(is_readable($_SERVER['DOCUMENT_ROOT'].'/ChangeLog')){
-
-$zmeny=array();
-$rn=1;
-$changelog = array_reverse(file($_SERVER['DOCUMENT_ROOT'].'/ChangeLog'));
-	foreach ($changelog as $change){
-		$change=preg_split('/\*/',trim($change));
-		if($change[1]>$cas){
-			$zmeny[$rn]['cislo']=$rn;
-			$zmeny[$rn]['hash']=$change[0];
-			$zmeny[$rn]['datum_hr'] = date('j. n. Y G.i',$change[1]); 
-			$zmeny[$rn]['cas']=$change[1];
-			$zmeny[$rn]['popis']=$change[2];
-			$zmeny[$rn]['typ']='change';
-		}
-		$rn++;
-	}
-}
-return array_reverse($zmeny);
-}
-

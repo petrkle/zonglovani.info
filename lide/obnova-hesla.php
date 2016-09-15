@@ -91,8 +91,8 @@ if(isset($_GET['status']) and $_GET['status']=='ok' and isset($_SESSION['load_us
 					array_push($chyby,'Zadaná hesla se neshodují.');
 				}
 				if(count($chyby)==0){
-					$foo=fopen(LIDE_DATA.'/'.$uzivatel['login'].'/passwd.sha1','w');
-					fwrite($foo,sha1($heslo.$uzivatel['login']));
+					$foo=fopen(LIDE_DATA.'/'.$uzivatel['login'].'/passwd.crypt','w');
+					fwrite($foo, password_hash($heslo, PASSWORD_DEFAULT));
 					fclose($foo);
 					unlink($rtf);
 					unlink($rtk);

@@ -277,14 +277,12 @@ function get_user_props($login){
 			$navrat['jmeno']=trim(array_pop($jmeno));
 		}
 
-		if(is_file(LIDE_DATA.'/'.$login.'/passwd.sha1')){
-			$heslo = file(LIDE_DATA.'/'.$login.'/passwd.sha1');
-			$navrat['passwd_sha1']=trim(array_pop($heslo));
+		if(is_file(LIDE_DATA.'/'.$login.'/passwd.crypt')){
+			$navrat['passwd_crypt']=trim(file_get_contents(LIDE_DATA.'/'.$login.'/passwd.crypt'));
 		}
 
 		if(is_file(LIDE_DATA.'/'.$login.'/soukromi.txt')){
-			$soukromi = file(LIDE_DATA.'/'.$login.'/soukromi.txt');
-			$navrat['soukromi']=trim(array_pop($soukromi));
+			$navrat['soukromi']=trim(file_get_contents(LIDE_DATA.'/'.$login.'/soukromi.txt'));
 		}
 
 		if(is_file(LIDE_DATA.'/'.$login.'/vzkaz.txt')){
@@ -583,7 +581,7 @@ function create_heslo(){
 	$heslo='';
 	$znaky=array('a','c','e','f','h','k','m','n','r','s','t','u','v','w','2','3','4','7','8','9');
 	shuffle($znaky);
-	for($foo=0;$foo<8;$foo++){
+	for($foo=0;$foo<10;$foo++){
 		$heslo.=array_pop($znaky);
 	}
 	return $heslo;

@@ -464,7 +464,7 @@ $trail->addStep('Nastavení',LIDE_URL.'nastaveni/');
 					$odpoved='';
 				}
 
-				if(sha1($heslo.$_SESSION['uzivatel']['login'])!=$_SESSION['uzivatel']['passwd_sha1']){
+				if(!password_verify($heslo, $_SESSION['uzivatel']['passwd_crypt'])){
 					array_push($chyby,'Špatné heslo.');
 				}
 
@@ -616,13 +616,13 @@ $trail->addStep('Nastavení',LIDE_URL.'nastaveni/');
 					array_push($chyby,'Nově zadaná hesla se neshodují.');
 				}
 
-				if(sha1($stareheslo.$_SESSION['uzivatel']['login'])!=$_SESSION['uzivatel']['passwd_sha1']){
+				if(!password_verify($stareheslo, $_SESSION['uzivatel']['passwd_crypt'])){
 					array_push($chyby,'Špatně zadané aktuální heslo.');
 				}
 
 				if(count($chyby)==0){
-					$foo=fopen(LIDE_DATA.'/'.$_SESSION['uzivatel']['login'].'/passwd.sha1','w');
-					fwrite($foo,sha1($heslo.$_SESSION['uzivatel']['login']));
+					$foo=fopen(LIDE_DATA.'/'.$_SESSION['uzivatel']['login'].'/passwd.crypt','w');
+					fwrite($foo, password_hash($heslo, PASSWORD_DEFAULT));
 					fclose($foo);
 					$_SESSION['uzivatel']=get_user_complete($_SESSION['uzivatel']['login']);
 					header('Location: '.LIDE_URL.'nastaveni/?result=ok_heslo');
