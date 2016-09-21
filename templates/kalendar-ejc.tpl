@@ -1,3 +1,6 @@
+<h3><a href="/kalendar/udalost-20170722-20170730-pek-1470944526.html" title="EJC 2017">22. 7. - 30. 7. 2017</a> Lublin (PL)</h3>
+<p><a href="/kalendar/udalost-20170722-20170730-pek-1470944526.html" title="EJC 2017">{obrazek soubor='ejc2017.png' popisek='EJC 2017'}</a> European Juggling Convention je největší žonglérský festival v Evropě.</p>
+
 <h3><a href="/kalendar/udalost-20160730-20160807-pek-1441826412.html" title="EJC 2016">30. 7. - 7. 8. 2016</a> Almere (NL)</h3>
 <p><a href="/kalendar/udalost-20160730-20160807-pek-1441826412.html" title="EJC 2016">{obrazek soubor='ejc2016.png' popisek='EJC 2016'}</a> European Juggling Convention je největší žonglérský festival v Evropě.</p>
 
