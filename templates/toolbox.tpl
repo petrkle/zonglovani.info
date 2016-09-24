@@ -13,22 +13,12 @@
 <li><a href="http://git-scm.com" class="external">git</a> - správa verzí</li>
 <li><a href="http://magpierss.sourceforge.net" class="external">MagpieRSS</a> - RSS</li>
 <li><a href="http://nbbc.sourceforge.net" class="external">nbbc</a> - zpracování BB kódu</li>
-<li><a href="http://corpocrat.com/2008/08/15/free-wysiwyg-bbcode-editor-in-javascript" class="external">ed.js</a> - pomůcka pro psaní BB kódu.</li>
 <li><a href="http://pear.php.net/package/Pager" class="external">Pager</a> - stránkování</li>
 <li><a href="http://pear.php.net/package/Calendar" class="external">Calendar</a> - kalendář</li>
-<li><a href="http://www.softcomplex.com/products/tigra_calendar" class="external">Tigra Calendar</a> - kalendář</li>
 <li><a href="http://www.danielnaber.de/tree" class="external">tree.pl</a> - mapa stránek</li>
 <li><a href="http://sphinxsearch.com/" class="external">Sphinx Search</a> - fulltextové vyhledávání</li>
-<li><a href="http://www.gnu.org/software/tar" class="external">tar</a> - zálohy</li>
-<li><a href="http://www.gzip.org" class="external">gzip</a> - zálohy</li>
 <li><a name="perl"></a><a href="http://www.perl.org" class="external">perl</a> a jeho <a href="/testovani.html#pm" title="Seznam použitých perlovských modulů">moduly</a> - testování</li>
 <li><a href="http://www.sno.phy.queensu.ca/~phil/exiftool" class="external">ExifTool</a> - informace o multimediálních souborech.</li>
-<li><a href="http://www.gnupg.org" class="external">gpg</a> - šifrování záloh</li>
-<li><a href="http://www.icojoy.com/articles/26" class="external">34aL volume 3.2 SE</a> - ikonky</li>
-<li><a href="http://www.gnu.org/software/bash" class="external">bash</a> - automatizace</li>
-<li><a href="http://www.gnu.org/software/sed" class="external">sed</a> - automatizace</li>
-<li><a href="http://www.gnu.org/software/wget" class="external">wget</a> - automatizace</li>
-<li><a href="http://www.gnu.org/software/findutils" class="external">find</a> - automatizace</li>
 <li><a href="/software.html#juggleanim" title="Program JuggleAnim">JuggleAnim</a> - animace žonglování</li>
 <li><a href="http://www.semicomplete.com/projects/xdotool/" class="external">xdotool</a> - automatizace</li>
 <li><a href="http://www.postfix.org" class="external">Postfix</a> - MTA</li>
