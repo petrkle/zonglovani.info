@@ -161,6 +161,7 @@ if($id and $photo){
 			}
 			$smarty->assign('stranka',$pager->getPageIdByOffset($photo));
 			$smarty->assign('nahled',$obrazky[intval($photo)]['nahled']);
+			$smarty->assign('imgdir',OBRAZKY_URL.$id);
 			$titulek=$gal_info['title'].' - '.intval($photo).'. obrázek';
 			$smarty->assign('description',$titulek);
 			$smarty->assign('keywords','žonglování, fotky, '.intval($photo).'. obrázek, '.make_keywords($gal_info['title']));

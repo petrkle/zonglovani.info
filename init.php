@@ -72,5 +72,5 @@ define('IMG_MAX_SIZE', 3); #MiB
 define('IMG_RESPONSIVE_WIDTH', 200); #MiB
 
 define('CSS_CHKSUM','948661739'); 
-define('JS_CHKSUM','2600756977'); 
+define('JS_CHKSUM','3699636081'); 
 
