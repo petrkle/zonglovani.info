@@ -8,6 +8,8 @@ define('MAGPIE_DETECT_ENCODING',false);
 define('MAGPIE_CACHE_DIR',$_SERVER['DOCUMENT_ROOT'].'/tmp/cache.rss');
 require('lib/rss_fetch.inc');
 
+require('cache.php');
+http_cache_headers(3600);
 
 $kanaly=array(
 'https://'.$_SERVER['SERVER_NAME'].CALENDAR_URL.'kalendar.rss',
