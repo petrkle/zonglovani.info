@@ -104,14 +104,15 @@ Stránku odebereš z oblíbených kliknutím na obrázek žluté hvězdičky {ob
 <a name="kam-dal"></a><h5>Seznam žonglérů</h5>
 <ul>
 {if $navigace.dalsi}
-	<li class="link_next">Další žonglér: <a href="{$navigace.dalsi.url|escape}" title="{$navigace.dalsi.title|escape}">{$navigace.dalsi.text|escape}</a></li>
+	<li class="link_next">Další žonglér: <a href="{$navigace.dalsi.url|escape}" title="{$navigace.dalsi.title|escape}" id="predchozi">{$navigace.dalsi.text|escape}</a></li>
 {/if}
 {if $navigace.predchozi}
-	<li class="link_prev">Předchozí žonglér: <a href="{$navigace.predchozi.url|escape}" title="{$navigace.predchozi.title|escape}">{$navigace.predchozi.text|escape}</a></li>
+	<li class="link_prev">Předchozí žonglér: <a href="{$navigace.predchozi.url|escape}" title="{$navigace.predchozi.title|escape}" id="dalsi">{$navigace.predchozi.text|escape}</a></li>
 {/if}
 </ul>
 </div>
 {/if}
+<script src="/hop-{$smarty.const.JS_CHKSUM}.js" type="text/javascript"></script>
 </div>
 {/if}
 {/if}

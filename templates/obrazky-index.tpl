@@ -33,3 +33,4 @@ Nenabízím neomezenou kapacitu ani okamžité zveřejnění fotografií. Jen to
 U každé fotografie bude tvoje jméno, email a případně odkaz na webovou stránku.
 </p>
 {/if}
+<script src="/strankovani-{$smarty.const.JS_CHKSUM}.js" type="text/javascript"></script>
