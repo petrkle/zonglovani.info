@@ -213,4 +213,4 @@ ok($zs_zruseni->content() =~ /<li>Účet byl zrušen.<\/li>/,'Účet byl zrušen
 $zs_zruseni = $bot->get($odkazy_r[0]);
 ok($zs_zruseni->content() =~ /<li>Neplatný odkaz pro zrušení účtu.<\/li>/,'Účet nejde zrušit dvakrát');
 
-system("sudo /bin/bash /home/www/zonglovani.info/scripts/tests/clean.sh")
+system "sudo", "/bin/bash", "/home/www/zonglovani.info/scripts/tests/clean.sh";

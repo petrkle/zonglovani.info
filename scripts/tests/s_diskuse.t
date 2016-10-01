@@ -69,4 +69,4 @@ foreach my $prispevek (@vzkazy){
 	ok($zs_vzkaz->content() =~ /$prispevek->{'v'}/, $prispevek->{'t'});
 }
 
-system("sudo /bin/bash /home/www/zonglovani.info/scripts/tests/clean.sh")
+system "sudo", "/bin/bash", "/home/www/zonglovani.info/scripts/tests/clean.sh";

@@ -1,11 +1,16 @@
 Date::Format
 Date::Parse
+Digest::SHA1
 Email::MIME
 Encode
 File::Basename
 File::Compare
+File::chmod::Recursive
+File::Path
 File::Slurp
+File::Slurper
 File::Temp
+File::Touch
 HTML::FormatText
 HTML::TreeBuilder
 Image::ExifTool

@@ -4,10 +4,16 @@ use LWP::ConnCache;
 use WWW::Mechanize;
 use Test::More tests => 13;
 use String::MkPasswd qw(mkpasswd);
+use File::Touch;
+use File::Path qw(make_path remove_tree);
+use File::Slurper 'write_text';
+use Digest::SHA1 qw(sha1_hex);
+use File::chmod::Recursive;
 
 my $now=time();
 my $warn_after=335;
 my $lock_after=365;
+my $day = 24*60*60;
 
 my $DATA_LIDE='/home/www/zonglovani.info/data/lide';
 my $DATA_LIDE_BY_MAIL='/home/www/zonglovani.info/data/lide.by.mail';
@@ -28,35 +34,20 @@ my $vzkaz = mkpasswd(-length => 50, -minnum => 0, -minlower => 20, -minupper => 
 
 # vytvořit fiktivní účet
 
-system("mkdir $DATA_LIDE/$login");
-system("mkdir -p $DATA_LIDE_BY_MAIL/$maildomain/$fl/$mailuser");
-system("echo -n $login > $DATA_LIDE_BY_MAIL/$maildomain/$fl/$mailuser/login");
-system("touch $DATA_LIDE/$login/$mail.mail");
-system("echo -n $jmeno > $DATA_LIDE/$login/jmeno.txt");
-system("echo -n $now > $DATA_LIDE/$login/registrace.txt");
-system("echo -n formular  > $DATA_LIDE/$login/soukromi.txt");
-system("echo -n $vzkaz > $DATA_LIDE/$login/vzkaz.txt");
-system("echo -n \"$heslo$login\" | sha1sum | awk '{printf \$1}' > $DATA_LIDE/$login/passwd.sha1");
+mkdir "$DATA_LIDE/$login";
+make_path "$DATA_LIDE_BY_MAIL/$maildomain/$fl/$mailuser";
+write_text "$DATA_LIDE_BY_MAIL/$maildomain/$fl/$mailuser/login", $login;
+touch "$DATA_LIDE/$login/$mail.mail";
+write_text "$DATA_LIDE/$login/jmeno.txt", $jmeno;
+write_text "$DATA_LIDE/$login/registrace.txt", $now;
+write_text "$DATA_LIDE/$login/soukromi.txt", "formular";
+write_text "$DATA_LIDE/$login/vzkaz.txt", $vzkaz;
+write_text "$DATA_LIDE/$login/passwd.sha1", sha1_hex "$heslo$login";
 
-my $datum_varovani=$now-(($warn_after*24*3600)+(24*3600));
-my $datum_zruseni=$now-(($lock_after*24*3600)+(24*3600));
+my $ref = File::Touch->new(time => ($now - ($warn_after*$day) - $day));
+$ref->touch(("$DATA_LIDE/$login/prihlaseni.txt"));
 
-my ($sec,$min,$hour,$mday,$mon,$year,$wday,$yday,$isdst) = localtime($datum_varovani);
-$year = $year + 1900;
-my $mesic = $mon+1;
-
-if($mday<10){
-	$mday="0$mday";
-}
-
-if($mesic<10){
-	$mesic="0$mesic";
-}
-
-my $warn_time="$year$mesic$mday";
-
-system("touch -t $warn_time"."1200.00 $DATA_LIDE/$login/prihlaseni.txt");
-system("chmod -R oug+w $DATA_LIDE/$login");
+chmod_recursive 0777, "$DATA_LIDE/$login";
 
 my $bot = WWW::Mechanize->new(autocheck => 1);
 $bot->conn_cache(LWP::ConnCache->new);
@@ -103,19 +94,8 @@ $pozadavek = $bot->get('https://zongl.info/cron/old-accounts.php');
 ok(!-f "/home/fakemail/$mail.2.eml", 'Připomínací email nechodí po přihlášení');
 
 
-($sec,$min,$hour,$mday,$mon,$year,$wday,$yday,$isdst) = localtime($datum_zruseni);
-$year = $year + 1900;
-$mesic = $mon+1;
-
-if($mday<10){
-	$mday="0$mday";
-}
-
-if($mesic<10){
-	$mesic="0$mesic";
-}
-
-system("touch -t $year$mesic$mday"."1200.00 $DATA_LIDE/$login/prihlaseni.txt");
+$ref = File::Touch->new(time => ($now - ($lock_after*$day) - $day));
+$ref->touch(("$DATA_LIDE/$login/prihlaseni.txt"));
 
 $pozadavek = $bot->get('https://zongl.info/cron/old-accounts.php');
 
@@ -124,17 +104,18 @@ $zs_prihlaseni = $bot->submit_form(form_number => 0,fields => {'login'=>$mail,'h
 
 ok($zs_prihlaseni->content() =~ /Účet je zrušen/,'Neaktivní účet je zrušený');
 
-system("touch -t $warn_time"."1200.00 $DATA_LIDE/$login/prihlaseni.txt");
+$ref = File::Touch->new(time => ($now - ($warn_after*$day) - $day));
+$ref->touch(("$DATA_LIDE/$login/prihlaseni.txt"));
+
 $pozadavek = $bot->get('https://zongl.info/cron/old-accounts.php');
 
 ok(!-f "/home/fakemail/$mail.2.eml", 'Připomínací email nechodí na účty zrušené uživateli');
 unlink("$DATA_LIDE/$login/LOCKED");
 
-system("touch $DATA_LIDE/$login/REVOKED");
+touch "$DATA_LIDE/$login/REVOKED";
 $pozadavek = $bot->get('https://zongl.info/cron/old-accounts.php');
 
 ok(!-f "/home/fakemail/$mail.2.eml", 'Připomínací email nechodí na zablokované účty zlobivých uživatelů');
 
-system("rm -rf $DATA_LIDE/$login");
-system("rm -rf $DATA_LIDE_BY_MAIL/$maildomain");
-system("sudo /bin/bash /home/www/zonglovani.info/scripts/tests/clean.sh");
+remove_tree "$DATA_LIDE/$login", "$DATA_LIDE_BY_MAIL/$maildomain";
+system "sudo", "/bin/bash", "/home/www/zonglovani.info/scripts/tests/clean.sh";
