@@ -34,7 +34,7 @@
     {/section}
 		<tr>
 
-<td colspan="3" class="kalnav">{include file='kalendar-mon-nav.tpl'}</td></tr>
+<td colspan="3" class="kalnav">{include file='kalendar-mon-nav.tpl' insertid='jo'}</td></tr>
 
 </table>
 <p>
@@ -72,3 +72,4 @@ Dnes je: {if $dnesek}{$aktDate}{else}<a href="{$smarty.const.CALENDAR_URL}" titl
 <p>
 <a href="widget.html" title="Widget na webové stránky">Výpis z kalendáře</a> na tvém webu.
 </p>
+<script src="/hop-{$smarty.const.JS_CHKSUM}.js" type="text/javascript"></script>
