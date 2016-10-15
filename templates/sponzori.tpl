@@ -1,5 +1,5 @@
 <p>
-Seznam sponzorů žonglérova slabikáře. Díky&nbsp;moc.
+Seznam sponzorů žonglérova slabikáře.
 </p>
 
 <ul>
@@ -7,6 +7,10 @@ Seznam sponzorů žonglérova slabikáře. Díky&nbsp;moc.
 <li><strong>Jana K.</strong></li>
 <li><strong>Dalibor Pražák</strong></li>
 </ul>
-<br />
+<p class="dikymoc">
+Díky&nbsp;moc :-)
+</p>
 
-{include file='paypal.tpl'}
+<a name="jakposlat"></a><h3>Jak zaslat příspěvek?</h3>
+
+<p>Pro podrobnosti pište na <a href="mailto:admin@zonglovani.cz?subject=Příspěvek">admin@zonglovani.info</a></p>

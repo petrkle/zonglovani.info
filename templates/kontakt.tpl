@@ -5,6 +5,7 @@ Autor žonglérova slabikáře: <a href="https://petr.kle.cz/">Petr Kletečka</a
 {assign var='mail' value='admin@zonglovani.info'}
 Elektronická pošta: <strong>{$mail|mailobfuscate}</strong>
 </p>
+{include file='sponzor.tpl'}
 <!-- start -->
 <h3>Sháníš žongléry?</h3>
 <p>Koukni do <a href="{$smarty.const.LIDE_URL}" title="Seznam uživatelů žonglérova slabikáře.">seznamu žonglérů</a>. Jsou tam lidé, kteří umí:</p>

@@ -12,4 +12,4 @@
 </p>
 {/foreach}
 {/if}
-{include file='paypal.tpl'}
+{include file='sponzor.tpl'}

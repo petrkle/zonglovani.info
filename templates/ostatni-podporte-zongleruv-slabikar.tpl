@@ -2,11 +2,9 @@
 
 <a name="p"></a><h3>Peněžní podpora</h3>
 <p>
-{obrazek soubor="podporac.png" title="Peníze"}
+<a href="/sponzori.html" title="Sponzoři žonglérova slabikáře">{obrazek soubor="podporad.png" title="Peníze"}</a>
 <a href="/sponzori.html" title="Sponzoři žonglérova slabikáře">Vaše příspěvky</a> zajistí, že nebudu v mínusu a možná i <a href="https://github.com/petrkle/zonglovani.info/commits/master" class="external" title="Seznam změn v žonglérově slabikáři">pravidelné aktualizace</a>. Navíc tu nebude spousta reklamy, která všechny ruší a zdržuje.
 </p>
-
-{include file='paypal.tpl'}
 
 <h3><a href="/jak-odkazovat.html" title="Jak vytvořit odkaz na žonglérův slabikář.">Přidej odkaz</a></h3>
 <p>
@@ -16,7 +14,7 @@
 <h3>Hmotné dary</h3>
 <p>
 {obrazek soubor="podporab.png" title="Pivo"}
-Jestli už ti bylo 18, tak mi můžeš koupit pivo. Např. <a href="/img/v/visen.jpg" title="Višeň s čistou hlavou">višeň</a>, <a href="/img/s/svestka.jpg" title="Švestka s čistou hlavou">švestku</a> nebo <a href="/img/m/mikulas.jpg" title="Sváteční ležák s jemnými kvasnicemi">Mikuláše</a>.</p>
+Jestli už ti bylo 18, tak mi můžeš koupit pivo. Např. <a href="/img/v/visen.jpg" title="Višeň s čistou hlavou">višeň</a> nebo <a href="/img/s/svestka.jpg" title="Švestka s čistou hlavou">švestku</a>.</p>
 
 <p>Žonglérův slabikář najdeš také na:</p>
 <ul>
