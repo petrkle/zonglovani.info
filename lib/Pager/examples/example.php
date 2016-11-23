@@ -3,7 +3,7 @@ require_once $_SERVER['DOCUMENT_ROOT'].'/lib'.'/Pager/Pager.php';
 
 //create dummy array of data
 $myData = array();
-for ($i=0; $i<200; $i++) {
+for ($i = 0; $i < 200; ++$i) {
     $myData[] = $i;
 }
 
@@ -18,10 +18,10 @@ $params = array(
     'useSessions' => true,
     'closeSession' => true,
     //'mode'  => 'Sliding',    //try switching modes
-    'mode'  => 'Jumping',
+    'mode' => 'Jumping',
 
 );
-$pager = & Pager::factory($params);
+$pager = &Pager::factory($params);
 $page_data = $pager->getPageData();
 $links = $pager->getLinks();
 

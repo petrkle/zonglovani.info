@@ -1,23 +1,24 @@
 <?php
-require('../init.php');
-require('../func.php');
 
-$smarty->assign('titulek','Žonglování se šesti míčky');
-$smarty->assign('feedback',true);
+require '../init.php';
+require '../func.php';
+
+$smarty->assign('titulek', 'Žonglování se šesti míčky');
+$smarty->assign('feedback', true);
 $trail = new Trail();
-$trail->addStep('Míčky','/micky/');
+$trail->addStep('Míčky', '/micky/');
 $trail->addStep('6 míčků');
 
-$smarty->assign('keywords','žonglování, šest, sedm, osm, míčků, míčky, návod');
-$smarty->assign('description','Obrázkový návod na žonglování se šesti míčky.');
+$smarty->assign('keywords', 'žonglování, šest, sedm, osm, míčků, míčky, návod');
+$smarty->assign('description', 'Obrázkový návod na žonglování se šesti míčky.');
 
-$dalsi=array(
-	array('url'=>'/kruhy/','text'=>'Žonglování s kruhy','title'=>'Návod žonglování s kruhy'),
-	array('url'=>'/kuzely/','text'=>'Žonglování s kužely','title'=>'Jak žonglovat s kužely'),
-	array('url'=>'/kuzely/passing/','text'=>'Passing','title'=>'Žonglování ve více lidech'),
-	);
+$dalsi = array(
+    array('url' => '/kruhy/', 'text' => 'Žonglování s kruhy', 'title' => 'Návod žonglování s kruhy'),
+    array('url' => '/kuzely/', 'text' => 'Žonglování s kužely', 'title' => 'Jak žonglovat s kužely'),
+    array('url' => '/kuzely/passing/', 'text' => 'Passing', 'title' => 'Žonglování ve více lidech'),
+    );
 
-$smarty->assign('dalsi',$dalsi);
+$smarty->assign('dalsi', $dalsi);
 $smarty->assign('trail', $trail->path);
 $smarty->display('hlavicka.tpl');
 $smarty->display('micky-6.tpl');

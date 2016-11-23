@@ -1,24 +1,25 @@
 <?php
-require('../init.php');
-require('../func.php');
 
-$titulek='rec.juggling';
-$smarty->assign('titulek',$titulek);
-$smarty->assign('feedback',true);
+require '../init.php';
+require '../func.php';
 
-$smarty->assign('keywords',make_keywords($titulek).', žonglování');
-$smarty->assign('description','Celosvětová diskusní skupina o žonglování - rec.juggling');
-$smarty->assign('nahled','https://'.$_SERVER['SERVER_NAME'].'/img/r/rj.png');
+$titulek = 'rec.juggling';
+$smarty->assign('titulek', $titulek);
+$smarty->assign('feedback', true);
 
-$dalsi=array(
-	array('url'=>'/odkazy.html','text'=>'Žonglování na síti','title'=>'Odkazy na stránky věnované žonglování'),
-	array('url'=>'/aczslovnicek.html','text'=>'Žonglérský slovníček','title'=>'Anglicko-český žonglérský slovníček'),
-	);
-$smarty->assign('dalsi',$dalsi);
-$smarty->assign('nahled','https://'.$_SERVER['SERVER_NAME'].'/img/r/rj.png');
+$smarty->assign('keywords', make_keywords($titulek).', žonglování');
+$smarty->assign('description', 'Celosvětová diskusní skupina o žonglování - rec.juggling');
+$smarty->assign('nahled', 'https://'.$_SERVER['SERVER_NAME'].'/img/r/rj.png');
+
+$dalsi = array(
+    array('url' => '/odkazy.html', 'text' => 'Žonglování na síti', 'title' => 'Odkazy na stránky věnované žonglování'),
+    array('url' => '/aczslovnicek.html', 'text' => 'Žonglérský slovníček', 'title' => 'Anglicko-český žonglérský slovníček'),
+    );
+$smarty->assign('dalsi', $dalsi);
+$smarty->assign('nahled', 'https://'.$_SERVER['SERVER_NAME'].'/img/r/rj.png');
 
 $trail = new Trail();
-$trail->addStep('Informace o žonglování','/ostatni.html');
+$trail->addStep('Informace o žonglování', '/ostatni.html');
 $trail->addStep($titulek);
 $smarty->assign('trail', $trail->path);
 

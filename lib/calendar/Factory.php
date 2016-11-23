@@ -1,8 +1,9 @@
 <?php
+
 /* vim: set expandtab tabstop=4 shiftwidth=4: */
 
 /**
- * Contains the Calendar_Factory class
+ * Contains the Calendar_Factory class.
  *
  * PHP versions 4 and 5
  *
@@ -28,17 +29,20 @@
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
  * @category  Date and Time
- * @package   Calendar
+ *
  * @author    Harry Fuecks <hfuecks@phppatterns.com>
  * @author    Lorenzo Alberton <l.alberton@quipo.it>
  * @copyright 2003-2007 Harry Fuecks, Lorenzo Alberton
  * @license   http://www.debian.org/misc/bsd.license  BSD License (3 Clause)
+ *
  * @version   CVS: $Id: Factory.php,v 1.8 2007/11/18 21:46:42 quipo Exp $
+ *
  * @link      http://pear.php.net/package/Calendar
  */
 
 /**
- * Allows Calendar include path to be redefined
+ * Allows Calendar include path to be redefined.
+ *
  * @ignore
  */
 if (!defined('CALENDAR_ROOT')) {
@@ -46,7 +50,7 @@ if (!defined('CALENDAR_ROOT')) {
 }
 
 /**
- * Load Calendar base class
+ * Load Calendar base class.
  */
 require_once CALENDAR_ROOT.'Calendar.php';
 
@@ -63,21 +67,21 @@ require_once CALENDAR_ROOT.'Calendar.php';
  * </code>
  * It defaults to building Calendar_Month objects.<br>
  * Use the constract CALENDAR_FIRST_DAY_OF_WEEK to control the first day of the week
- * for Month or Week objects (e.g. 0 = Sunday, 6 = Saturday)
+ * for Month or Week objects (e.g. 0 = Sunday, 6 = Saturday).
  *
  * @category  Date and Time
- * @package   Calendar
+ *
  * @author    Harry Fuecks <hfuecks@phppatterns.com>
  * @author    Lorenzo Alberton <l.alberton@quipo.it>
  * @copyright 2003-2007 Harry Fuecks, Lorenzo Alberton
  * @license   http://www.debian.org/misc/bsd.license  BSD License (3 Clause)
+ *
  * @link      http://pear.php.net/package/Calendar
- * @access protected
  */
-class Calendar_Factory
+class calendar_Factory
 {
     /**
-     * Creates a calendar object given the type and units
+     * Creates a calendar object given the type and units.
      *
      * @param string $type class of calendar object to create
      * @param int    $y    year
@@ -88,15 +92,15 @@ class Calendar_Factory
      * @param int    $s    second
      *
      * @return object subclass of Calendar
-     * @access public
      * @static
      */
-    function create($type, $y = 2000, $m = 1, $d = 1, $h = 0, $i = 0, $s = 0)
+    public function create($type, $y = 2000, $m = 1, $d = 1, $h = 0, $i = 0, $s = 0)
     {
         $firstDay = defined('CALENDAR_FIRST_DAY_OF_WEEK') ? CALENDAR_FIRST_DAY_OF_WEEK : 1;
         switch ($type) {
         case 'Day':
             include_once CALENDAR_ROOT.'Day.php';
+
             return new Calendar_Day($y, $m, $d);
         case 'Month':
             // Set default state for which month type to build
@@ -118,51 +122,57 @@ class Calendar_Factory
                 $class = 'Calendar_Month';
                 break;
             }
+
             return new $class($y, $m, $firstDay);
         case 'Week':
             include_once CALENDAR_ROOT.'Week.php';
+
             return new Calendar_Week($y, $m, $d, $firstDay);
         case 'Hour':
             include_once CALENDAR_ROOT.'Hour.php';
+
             return new Calendar_Hour($y, $m, $d, $h);
         case 'Minute':
             include_once CALENDAR_ROOT.'Minute.php';
+
             return new Calendar_Minute($y, $m, $d, $h, $i);
         case 'Second':
             include_once CALENDAR_ROOT.'Second.php';
+
             return new Calendar_Second($y, $m, $d, $h, $i, $s);
         case 'Year':
             include_once CALENDAR_ROOT.'Year.php';
+
             return new Calendar_Year($y);
         default:
             include_once 'PEAR.php';
             PEAR::raiseError('Calendar_Factory::create() unrecognised type: '.$type,
                 null, PEAR_ERROR_TRIGGER, E_USER_NOTICE, 'Calendar_Factory::create()');
+
             return false;
         }
     }
 
     /**
-     * Creates an instance of a calendar object, given a type and timestamp
+     * Creates an instance of a calendar object, given a type and timestamp.
      *
      * @param string $type  type of object to create
      * @param mixed  $stamp timestamp (depending on Calendar engine being used)
      *
      * @return object subclass of Calendar
-     * @access public
      * @static
      */
-    function & createByTimestamp($type, $stamp)
+    public function &createByTimestamp($type, $stamp)
     {
-        $cE  = & Calendar_Engine_Factory::getEngine();
-        $y   = $cE->stampToYear($stamp);
-        $m   = $cE->stampToMonth($stamp);
-        $d   = $cE->stampToDay($stamp);
-        $h   = $cE->stampToHour($stamp);
-        $i   = $cE->stampToMinute($stamp);
-        $s   = $cE->stampToSecond($stamp);
-        $cal = Calendar_Factory::create($type, $y, $m, $d, $h, $i, $s);
+        $cE = &Calendar_Engine_Factory::getEngine();
+        $y = $cE->stampToYear($stamp);
+        $m = $cE->stampToMonth($stamp);
+        $d = $cE->stampToDay($stamp);
+        $h = $cE->stampToHour($stamp);
+        $i = $cE->stampToMinute($stamp);
+        $s = $cE->stampToSecond($stamp);
+        $cal = self::create($type, $y, $m, $d, $h, $i, $s);
+
         return $cal;
     }
 }
-?>

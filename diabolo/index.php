@@ -1,14 +1,15 @@
 <?php
-require('../init.php');
-require('../func.php');
 
-$titulek='Diabolo';
+require '../init.php';
+require '../func.php';
 
-$smarty->assign('titulek',$titulek);
+$titulek = 'Diabolo';
 
-$smarty->assign('keywords','diablolo, žonglování');
-$smarty->assign('description','Návody na žonglování s diabolem.');
-$smarty->assign('nahled','https://'.$_SERVER['SERVER_NAME'].'/img/n/nacinif.png');
+$smarty->assign('titulek', $titulek);
+
+$smarty->assign('keywords', 'diablolo, žonglování');
+$smarty->assign('description', 'Návody na žonglování s diabolem.');
+$smarty->assign('nahled', 'https://'.$_SERVER['SERVER_NAME'].'/img/n/nacinif.png');
 
 $trail = new Trail();
 $trail->addStep($titulek);

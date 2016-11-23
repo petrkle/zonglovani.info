@@ -4,54 +4,68 @@
 require_once 'simple_include.php';
 require_once 'pager_include.php';
 
-class TestOfPagerJumping extends UnitTestCase {
-    var $pager;
-    function TestOfPagerJumping($name='Test of Pager_Jumping') {
+class TestOfPagerJumping extends UnitTestCase
+{
+    public $pager;
+    public function TestOfPagerJumping($name = 'Test of Pager_Jumping')
+    {
         $this->UnitTestCase($name);
     }
-    function setUp() {
+    public function setUp()
+    {
         $options = array(
             'itemData' => array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12),
-            'perPage'  => 5,
-            'mode'     => 'Jumping',
-            'delta'    => 2
+            'perPage' => 5,
+            'mode' => 'Jumping',
+            'delta' => 2,
         );
         $this->pager = Pager::factory($options);
     }
-    function tearDown() {
+    public function tearDown()
+    {
         unset($this->pager);
     }
-    function testPageIdByOffset1() {
+    public function testPageIdByOffset1()
+    {
         $this->assertEqual(1, $this->pager->getPageIdByOffset(1));
     }
-    function testPageIdByOffset5() {
+    public function testPageIdByOffset5()
+    {
         $this->assertEqual(1, $this->pager->getPageIdByOffset(5));
     }
-    function testPageIdByOffset6() {
+    public function testPageIdByOffset6()
+    {
         $this->assertEqual(2, $this->pager->getPageIdByOffset(6));
     }
-    function testPageRangeByPageId1() {
+    public function testPageRangeByPageId1()
+    {
         $this->assertEqual(array(1, 2), $this->pager->getPageRangeByPageId(1));
     }
-    function testPageRangeByPageId2() {
+    public function testPageRangeByPageId2()
+    {
         $this->assertEqual(array(1, 2), $this->pager->getPageRangeByPageId(2));
     }
-    function testPageRangeByPageId3() {
+    public function testPageRangeByPageId3()
+    {
         $this->assertEqual(array(3, 3), $this->pager->getPageRangeByPageId(3));
     }
-    function testPageRangeByPageId_outOfRange() {
+    public function testPageRangeByPageId_outOfRange()
+    {
         $this->assertEqual(array(0, 0), $this->pager->getPageRangeByPageId(20));
     }
-    function testGetPageData() {
-        $this->assertEqual(array(0=>1, 1=>2, 2=>3, 3=>4, 4=>5), $this->pager->getPageData());
+    public function testGetPageData()
+    {
+        $this->assertEqual(array(0 => 1, 1 => 2, 2 => 3, 3 => 4, 4 => 5), $this->pager->getPageData());
     }
-    function testGetPageData2() {
-        $this->assertEqual(array(5=>6, 6=>7, 7=>8, 8=>9, 9=>10), $this->pager->getPageData(2));
+    public function testGetPageData2()
+    {
+        $this->assertEqual(array(5 => 6, 6 => 7, 7 => 8, 8 => 9, 9 => 10), $this->pager->getPageData(2));
     }
-    function testGetPageData_OutOfRange() {
+    public function testGetPageData_OutOfRange()
+    {
         $this->assertEqual(false, $this->pager->getPageData(4));
     }
-    /**
+    /*
      * Returns offsets for given pageID. Eg, if you pass pageID=5 and your
      * delta is 2, it will return 3 and 7. A pageID of 6 would give you 4 and 8
      * If the method is called without parameter, pageID is set to currentPage#.
@@ -67,7 +81,7 @@ class TestOfPagerJumping extends UnitTestCase {
      * @return array  First and last offsets
      * @access public
      */
-    /**
+    /*
      * Given a PageId, it returns the limits of the range of pages displayed.
      * While getOffsetByPageId() returns the offset of the data within the
      * current page, this method returns the offsets of the page numbers interval.
@@ -80,4 +94,3 @@ class TestOfPagerJumping extends UnitTestCase {
      * @access public
      */
 }
-?>

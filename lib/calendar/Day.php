@@ -1,8 +1,9 @@
 <?php
+
 /* vim: set expandtab tabstop=4 shiftwidth=4: */
 
 /**
- * Contains the Calendar_Day class
+ * Contains the Calendar_Day class.
  *
  * PHP versions 4 and 5
  *
@@ -28,16 +29,19 @@
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
  * @category  Date and Time
- * @package   Calendar
+ *
  * @author    Harry Fuecks <hfuecks@phppatterns.com>
  * @copyright 2003-2007 Harry Fuecks
  * @license   http://www.debian.org/misc/bsd.license  BSD License (3 Clause)
+ *
  * @version   CVS: $Id: Day.php,v 1.5 2007/11/16 20:03:12 quipo Exp $
+ *
  * @link      http://pear.php.net/package/Calendar
  */
 
 /**
- * Allows Calendar include path to be redefined
+ * Allows Calendar include path to be redefined.
+ *
  * @ignore
  */
 if (!defined('CALENDAR_ROOT')) {
@@ -45,7 +49,7 @@ if (!defined('CALENDAR_ROOT')) {
 }
 
 /**
- * Load Calendar base class
+ * Load Calendar base class.
  */
 require_once CALENDAR_ROOT.'Calendar.php';
 
@@ -57,93 +61,86 @@ require_once CALENDAR_ROOT.'Calendar.php';
  * while ($Hour = & $Day->fetch()) {
  *    echo $Hour->thisHour().'<br />';
  * }
- * </code>
+ * </code>.
  *
  * @category  Date and Time
- * @package   Calendar
+ *
  * @author    Harry Fuecks <hfuecks@phppatterns.com>
  * @copyright 2003-2007 Harry Fuecks
  * @license   http://www.debian.org/misc/bsd.license  BSD License (3 Clause)
+ *
  * @link      http://pear.php.net/package/Calendar
- * @access    public
  */
-class Calendar_Day extends Calendar
+class calendar_Day extends Calendar
 {
     /**
-     * Marks the Day at the beginning of a week
-     * @access private
-     * @var boolean
+     * Marks the Day at the beginning of a week.
+     *
+     * @var bool
      */
-    var $first = false;
+    public $first = false;
 
     /**
-     * Marks the Day at the end of a week
-     * @access private
-     * @var boolean
+     * Marks the Day at the end of a week.
+     *
+     * @var bool
      */
-    var $last = false;
-
+    public $last = false;
 
     /**
-     * Used for tabular calendars
-     * @access private
-     * @var boolean
+     * Used for tabular calendars.
+     *
+     * @var bool
      */
-    var $empty = false;
+    public $empty = false;
 
     /**
-     * Constructs Calendar_Day
+     * Constructs Calendar_Day.
      *
      * @param int $y year e.g. 2003
      * @param int $m month e.g. 8
      * @param int $d day e.g. 15
-     *
-     * @access public
      */
-    function Calendar_Day($y, $m, $d)
+    public function Calendar_Day($y, $m, $d)
     {
         Calendar::Calendar($y, $m, $d);
     }
 
     /**
-     * Builds the Hours of the Day
+     * Builds the Hours of the Day.
      *
      * @param array $sDates (optional) Caledar_Hour objects representing selected dates
      *
-     * @return boolean
-     * @access public
+     * @return bool
      */
-    function build($sDates = array())
+    public function build($sDates = array())
     {
         include_once CALENDAR_ROOT.'Hour.php';
 
         $hID = $this->cE->getHoursInDay($this->year, $this->month, $this->day);
-        for ($i=0; $i < $hID; $i++) {
+        for ($i = 0; $i < $hID; ++$i) {
             $this->children[$i] =
                 new Calendar_Hour($this->year, $this->month, $this->day, $i);
         }
         if (count($sDates) > 0) {
             $this->setSelection($sDates);
         }
+
         return true;
     }
 
     /**
-     * Called from build()
+     * Called from build().
      *
      * @param array $sDates dates to be selected
-     *
-     * @return void
-     * @access private
      */
-    function setSelection($sDates)
+    public function setSelection($sDates)
     {
         foreach ($sDates as $sDate) {
             if ($this->year == $sDate->thisYear()
                 && $this->month == $sDate->thisMonth()
-                && $this->day == $sDate->thisDay())
-            {
-                $key = (int)$sDate->thisHour();
+                && $this->day == $sDate->thisDay()) {
+                $key = (int) $sDate->thisHour();
                 if (isset($this->children[$key])) {
                     $sDate->setSelected();
                     $this->children[$key] = $sDate;
@@ -154,79 +151,66 @@ class Calendar_Day extends Calendar
 
     /**
      * Defines Day object as first in a week
-     * Only used by Calendar_Month_Weekdays::build()
+     * Only used by Calendar_Month_Weekdays::build().
      *
-     * @param boolean $state set this day as first in week
-     *
-     * @return void
-     * @access private
+     * @param bool $state set this day as first in week
      */
-    function setFirst($state = true)
+    public function setFirst($state = true)
     {
         $this->first = $state;
     }
 
     /**
      * Defines Day object as last in a week
-     * Used only following Calendar_Month_Weekdays::build()
+     * Used only following Calendar_Month_Weekdays::build().
      *
-     * @param boolean $state set this day as last in week
-     *
-     * @return void
-     * @access private
+     * @param bool $state set this day as last in week
      */
-    function setLast($state = true)
+    public function setLast($state = true)
     {
         $this->last = $state;
     }
 
     /**
      * Returns true if Day object is first in a Week
-     * Only relevant when Day is created by Calendar_Month_Weekdays::build()
+     * Only relevant when Day is created by Calendar_Month_Weekdays::build().
      *
-     * @return boolean
-     * @access public
+     * @return bool
      */
-    function isFirst() 
+    public function isFirst()
     {
         return $this->first;
     }
 
     /**
      * Returns true if Day object is last in a Week
-     * Only relevant when Day is created by Calendar_Month_Weekdays::build()
+     * Only relevant when Day is created by Calendar_Month_Weekdays::build().
      *
-     * @return boolean
-     * @access public
+     * @return bool
      */
-    function isLast()
+    public function isLast()
     {
         return $this->last;
     }
 
     /**
      * Defines Day object as empty
-     * Only used by Calendar_Month_Weekdays::build()
+     * Only used by Calendar_Month_Weekdays::build().
      *
-     * @param boolean $state set this day as empty
-     *
-     * @return void
-     * @access private
+     * @param bool $state set this day as empty
      */
-    function setEmpty ($state = true)
+    public function setEmpty($state = true)
     {
         $this->empty = $state;
     }
 
     /**
-     * Check if this day is empty
+     * Check if this day is empty.
      *
-     * @return boolean
-     * @access public
+     * @return bool
      */
-    function isEmpty()
+    public function isEmpty()
     {
         return $this->empty;
     }
 }
-?>

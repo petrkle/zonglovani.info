@@ -1,8 +1,9 @@
 <?php
+
 /* vim: set expandtab tabstop=4 shiftwidth=4 softtabstop=4: */
 
 /**
- * Contains the Pager_Sliding class
+ * Contains the Pager_Sliding class.
  *
  * PHP versions 4 and 5
  *
@@ -28,28 +29,31 @@
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
  * @category  HTML
- * @package   Pager
+ *
  * @author    Lorenzo Alberton <l.alberton@quipo.it>
  * @copyright 2003-2008 Lorenzo Alberton
  * @license   http://www.debian.org/misc/bsd.license  BSD License (3 Clause)
+ *
  * @version   CVS: $Id: Sliding.php,v 1.18 2008/01/06 13:36:22 quipo Exp $
+ *
  * @link      http://pear.php.net/package/Pager
  */
 
 /**
- * require PEAR::Pager_Common base class
+ * require PEAR::Pager_Common base class.
  */
 require_once $_SERVER['DOCUMENT_ROOT'].'/lib/'.'Pager/Common.php';
 
 /**
  * Pager_Sliding - Generic data paging class  ("sliding window" style)
- * Usage examples can be found in the PEAR manual
+ * Usage examples can be found in the PEAR manual.
  *
  * @category  HTML
- * @package   Pager
+ *
  * @author    Lorenzo Alberton <l.alberton@quipo.it>
  * @copyright 2003-2008 Lorenzo Alberton
  * @license   http://www.debian.org/misc/bsd.license  BSD License (3 Clause)
+ *
  * @link      http://pear.php.net/package/Pager
  */
 class Pager_Sliding extends Pager_Common
@@ -57,23 +61,21 @@ class Pager_Sliding extends Pager_Common
     // {{{ Pager_Sliding()
 
     /**
-     * Constructor
+     * Constructor.
      *
      * @param array $options Associative array of option names and their values
-     *
-     * @access public
      */
-    function Pager_Sliding($options = array())
+    public function Pager_Sliding($options = array())
     {
         //set default Pager_Sliding options
-        $this->_delta                 = 2;
-        $this->_prevImg               = '&laquo;&nbsp;Předchozí';
-        $this->_nextImg               = 'Další&nbsp;&raquo;';
-        $this->_separator             = '|';
+        $this->_delta = 2;
+        $this->_prevImg = '&laquo;&nbsp;Předchozí';
+        $this->_nextImg = 'Další&nbsp;&raquo;';
+        $this->_separator = '|';
         $this->_spacesBeforeSeparator = 3;
-        $this->_spacesAfterSeparator  = 3;
-        $this->_curPageSpanPre        = '<strong class="ps">';
-        $this->_curPageSpanPost       = '</strong>';
+        $this->_spacesAfterSeparator = 3;
+        $this->_curPageSpanPre = '<strong class="ps">';
+        $this->_curPageSpanPost = '</strong>';
 
         //set custom options
         $err = $this->setOptions($options);
@@ -89,15 +91,13 @@ class Pager_Sliding extends Pager_Common
     /**
      * "Overload" PEAR::Pager method. VOID. Not needed here...
      *
-     * @param integer $index Offset to get pageID for
+     * @param int $index Offset to get pageID for
      *
-     * @return void
      * @deprecated
-     * @access public
      */
-    function getPageIdByOffset($index)
+    public function getPageIdByOffset($index)
     {
-        return(ceil(($index+1)/$this->_perPage));
+        return ceil(($index + 1) / $this->_perPage);
     }
 
     // }}}
@@ -111,14 +111,13 @@ class Pager_Sliding extends Pager_Common
      * PageID of 9 would give you (4, 8).
      * If the method is called without parameter, pageID is set to currentPage#.
      *
-     * @param integer $pageid PageID to get offsets for
+     * @param int $pageid PageID to get offsets for
      *
-     * @return array  First and last offsets
-     * @access public
+     * @return array First and last offsets
      */
-    function getPageRangeByPageId($pageid = null)
+    public function getPageRangeByPageId($pageid = null)
     {
-        $pageid = isset($pageid) ? (int)$pageid : $this->_currentPage;
+        $pageid = isset($pageid) ? (int) $pageid : $this->_currentPage;
         if (!isset($this->_pageData)) {
             $this->_generatePageData();
         }
@@ -130,11 +129,13 @@ class Pager_Sliding extends Pager_Common
             } else {
                 $min_surplus = $max_surplus = 0;
             }
+
             return array(
                 max($pageid - $this->_delta - $max_surplus, 1),
-                min($pageid + $this->_delta + $min_surplus, $this->_totalPages)
+                min($pageid + $this->_delta + $min_surplus, $this->_totalPages),
             );
         }
+
         return array(0, 0);
     }
 
@@ -145,14 +146,13 @@ class Pager_Sliding extends Pager_Common
      * Returns back/next/first/last and page links,
      * both as ordered and associative array.
      *
-     * @param integer $pageID Optional pageID. If specified, links for that page
-     *                        are provided instead of current one.
-     * @param string  $dummy  used to comply with parent signature (leave empty)
+     * @param int    $pageID Optional pageID. If specified, links for that page
+     *                       are provided instead of current one
+     * @param string $dummy  used to comply with parent signature (leave empty)
      *
      * @return array back/pages/next/first/last/all links
-     * @access public
      */
-    function getLinks($pageID = null, $dummy='')
+    public function getLinks($pageID = null, $dummy = '')
     {
         if (!is_null($pageID)) {
             $_sav = $this->_currentPage;
@@ -170,13 +170,13 @@ class Pager_Sliding extends Pager_Common
             }
         }
 
-        $back        = str_replace('&nbsp;', '', $this->_getBackLink());
-        $next        = str_replace('&nbsp;', '', $this->_getNextLink());
-        $pages       = $this->_getPageLinks();
-        $first       = $this->_printFirstPage();
-        $last        = $this->_printLastPage();
-        $all         = $this->links;
-        $linkTags    = $this->linkTags;
+        $back = str_replace('&nbsp;', '', $this->_getBackLink());
+        $next = str_replace('&nbsp;', '', $this->_getNextLink());
+        $pages = $this->_getPageLinks();
+        $first = $this->_printFirstPage();
+        $last = $this->_printLastPage();
+        $all = $this->links;
+        $linkTags = $this->linkTags;
         $linkTagsRaw = $this->linkTagsRaw;
 
         if (!is_null($pageID)) {
@@ -191,13 +191,13 @@ class Pager_Sliding extends Pager_Common
             $last,
             $all,
             $linkTags,
-            'back'        => $back,
-            'pages'       => $pages,
-            'next'        => $next,
-            'first'       => $first,
-            'last'        => $last,
-            'all'         => $all,
-            'linktags'    => $linkTags,
+            'back' => $back,
+            'pages' => $pages,
+            'next' => $next,
+            'first' => $first,
+            'last' => $last,
+            'all' => $all,
+            'linktags' => $linkTags,
             'linkTagsRaw' => $linkTagsRaw,
         );
     }
@@ -206,21 +206,20 @@ class Pager_Sliding extends Pager_Common
     // {{{ _getPageLinks()
 
     /**
-     * Returns pages link
+     * Returns pages link.
      *
      * @param string $url URL string [deprecated]
      *
      * @return string Links
-     * @access private
      */
-    function _getPageLinks($url = '')
+    public function _getPageLinks($url = '')
     {
         //legacy setting... the preferred way to set an option now
         //is adding it to the constuctor
         if (!empty($url)) {
             $this->_path = $url;
         }
-        
+
         //If there's only one page, don't display links
         if ($this->_clearIfVoid && ($this->_totalPages < 2)) {
             return '';
@@ -239,13 +238,13 @@ class Pager_Sliding extends Pager_Common
                     $this->range[$i] = false;
                     $this->_linkData[$this->_urlVar] = $i;
                     $links .= $this->_renderLink(str_replace('%d', $i, $this->_altPage), $i)
-                           . $this->_spacesBefore
-                           . ($print_separator_flag ? $this->_separator.$this->_spacesAfter : '');
+                           .$this->_spacesBefore
+                           .($print_separator_flag ? $this->_separator.$this->_spacesAfter : '');
                 }
             }
 
             $expansion_after = 0;
-            for ($i = $this->_currentPage - $this->_delta; ($i <= $this->_currentPage + $this->_delta) && ($i <= $this->_totalPages); $i++) {
+            for ($i = $this->_currentPage - $this->_delta; ($i <= $this->_currentPage + $this->_delta) && ($i <= $this->_totalPages); ++$i) {
                 if ($i < 1) {
                     ++$expansion_after;
                     continue;
@@ -253,63 +252,62 @@ class Pager_Sliding extends Pager_Common
 
                 // check when to print separator
                 $print_separator_flag = (($i != $this->_currentPage + $this->_delta) && ($i != $this->_totalPages));
-                if($i>9){
-                    $pre='';
-                    $post='';
-                }else{
-                    $pre='&nbsp;';
-                    $post='&nbsp;';
+                if ($i > 9) {
+                    $pre = '';
+                    $post = '';
+                } else {
+                    $pre = '&nbsp;';
+                    $post = '&nbsp;';
                 }
 
                 if ($i == $this->_currentPage) {
                     $this->range[$i] = true;
-                    $links .= $this->_curPageSpanPre . $pre . $i . $post. $this->_curPageSpanPost;
+                    $links .= $this->_curPageSpanPre.$pre.$i.$post.$this->_curPageSpanPost;
                 } else {
                     $this->range[$i] = false;
                     $this->_linkData[$this->_urlVar] = $i;
                     $links .= $this->_renderLink(str_replace('%d', $i, $this->_altPage), $i);
                 }
                 $links .= $this->_spacesBefore
-                        . ($print_separator_flag ? $this->_separator.$this->_spacesAfter : '');
+                        .($print_separator_flag ? $this->_separator.$this->_spacesAfter : '');
             }
 
             if ($this->_expanded && $expansion_after) {
-                $links .= $this->_separator . $this->_spacesAfter;
-                for ($i = $this->_currentPage + $this->_delta +1; $expansion_after; $expansion_after--, $i++) {
+                $links .= $this->_separator.$this->_spacesAfter;
+                for ($i = $this->_currentPage + $this->_delta + 1; $expansion_after; $expansion_after--, $i++) {
                     $print_separator_flag = ($expansion_after != 1);
                     $this->range[$i] = false;
                     $this->_linkData[$this->_urlVar] = $i;
                     $links .= $this->_renderLink(str_replace('%d', $i, $this->_altPage), $i)
-                      . $this->_spacesBefore
-                      . ($print_separator_flag ? $this->_separator.$this->_spacesAfter : '');
+                      .$this->_spacesBefore
+                      .($print_separator_flag ? $this->_separator.$this->_spacesAfter : '');
                 }
             }
-
         } else {
             //if $this->_totalPages <= (2*Delta+1) show them all
-            for ($i=1; $i<=$this->_totalPages; $i++) {
-                    if($i>9){
-                        $pre='';
-                        $post='';
-                    }else{
-                        $pre='&nbsp;';
-                        $post='&nbsp;';
-                    }
+            for ($i = 1; $i <= $this->_totalPages; ++$i) {
+                if ($i > 9) {
+                    $pre = '';
+                    $post = '';
+                } else {
+                    $pre = '&nbsp;';
+                    $post = '&nbsp;';
+                }
                 if ($i != $this->_currentPage) {
                     $this->range[$i] = false;
                     $this->_linkData[$this->_urlVar] = $i;
                     $links .= $this->_renderLink(str_replace('%d', $i, $this->_altPage), $i);
                 } else {
                     $this->range[$i] = true;
-                    $links .= $this->_curPageSpanPre . $pre . $i . $post. $this->_curPageSpanPost;
+                    $links .= $this->_curPageSpanPre.$pre.$i.$post.$this->_curPageSpanPost;
                 }
                 $links .= $this->_spacesBefore
-                       . (($i != $this->_totalPages) ? $this->_separator.$this->_spacesAfter : '');
+                       .(($i != $this->_totalPages) ? $this->_separator.$this->_spacesAfter : '');
             }
         }
+
         return $links;
     }
 
     // }}}
 }
-?>

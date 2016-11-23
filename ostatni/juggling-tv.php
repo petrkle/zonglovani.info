@@ -1,20 +1,21 @@
 <?php
-require('../init.php');
-require('../func.php');
 
-$titulek='juggling.tv';
-$smarty->assign('feedback',true);
-$smarty->assign('titulek',$titulek);
+require '../init.php';
+require '../func.php';
 
-$smarty->assign('keywords','video, juggling.tv');
-$smarty->assign('description','Podrobný popis stránek juggling.tv.');
-$smarty->assign('nahled','https://'.$_SERVER['SERVER_NAME'].'/img/j/juggling.tv.png');
+$titulek = 'juggling.tv';
+$smarty->assign('feedback', true);
+$smarty->assign('titulek', $titulek);
 
-$dalsi=array(
-	array('url'=>'/video/','text'=>'Žonglérská videa','title'=>'Výběr žonglérských videí'),
-	array('url'=>'/animace/','text'=>'Animace žonglování','title'=>'Animace triků s míčky')
-	);
-$smarty->assign('dalsi',$dalsi);
+$smarty->assign('keywords', 'video, juggling.tv');
+$smarty->assign('description', 'Podrobný popis stránek juggling.tv.');
+$smarty->assign('nahled', 'https://'.$_SERVER['SERVER_NAME'].'/img/j/juggling.tv.png');
+
+$dalsi = array(
+    array('url' => '/video/', 'text' => 'Žonglérská videa', 'title' => 'Výběr žonglérských videí'),
+    array('url' => '/animace/', 'text' => 'Animace žonglování', 'title' => 'Animace triků s míčky'),
+    );
+$smarty->assign('dalsi', $dalsi);
 
 $trail = new Trail();
 $trail->addStep($titulek);

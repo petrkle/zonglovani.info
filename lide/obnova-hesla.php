@@ -1,155 +1,152 @@
 <?php
-require('../init.php');
-require('../func.php');
-require('../rss/rss.php');
+
+require '../init.php';
+require '../func.php';
+require '../rss/rss.php';
 
 if (!isset($_SESSION)) {
-	session_name('ZS');
-	session_start();
+    session_name('ZS');
+    session_start();
 }
 
-$titulek='Obnova hesla';
+$titulek = 'Obnova hesla';
 
-$smarty->assign('titulek',$titulek);
+$smarty->assign('titulek', $titulek);
 
 $trail = new Trail();
-$trail->addStep('Seznam žonglérů',LIDE_URL);
+$trail->addStep('Seznam žonglérů', LIDE_URL);
 $trail->addStep($titulek);
 $smarty->assign('trail', $trail->path);
 
-if(isset($_GET['status']) and $_GET['status']=='ok' and isset($_SESSION['load_user'])){
-		load_user($_SESSION['load_user']);
-		$smarty->assign('chyby',array('Nové heslo je nastavené.','Můžeš si <a href="'.LIDE_URL.'nastaveni/" title="Upravit nastavení účtu">upravit nastavení</a>.'));
-		$smarty->display('hlavicka.tpl');
-		$smarty->display('alert.tpl');
-		$smarty->display('paticka.tpl');
-		unset($_SESSION['load_user']);
-		exit();
-}else{
+if (isset($_GET['status']) and $_GET['status'] == 'ok' and isset($_SESSION['load_user'])) {
+    load_user($_SESSION['load_user']);
+    $smarty->assign('chyby', array('Nové heslo je nastavené.', 'Můžeš si <a href="'.LIDE_URL.'nastaveni/" title="Upravit nastavení účtu">upravit nastavení</a>.'));
+    $smarty->display('hlavicka.tpl');
+    $smarty->display('alert.tpl');
+    $smarty->display('paticka.tpl');
+    unset($_SESSION['load_user']);
+    exit();
+} else {
+    if (isset($_GET['m']) and isset($_GET['k'])) {
+        $email = $_GET['m'];
+        $key = $_GET['k'];
 
-	if(isset($_GET['m']) and isset($_GET['k'])){
-		$email=$_GET['m'];
-		$key=$_GET['k'];
-		
-		if(!is_zs_email($email)){
-			$smarty->assign('chyby',array('Účet s tímto e-mailem nebyl nalezen.'));
-			$smarty->display('hlavicka.tpl');
-			$smarty->display('alert.tpl');
-			$smarty->display('paticka.tpl');
-			exit();
-		}else{
-			$uzivatel=get_user_props(email2login($email));
-			if($uzivatel['status']=='revoked'){
-				array_push($chyby,'Heslo pro účet s tímto e-mailem nelze obnovit.');
-			}
-		}
+        if (!is_zs_email($email)) {
+            $smarty->assign('chyby', array('Účet s tímto e-mailem nebyl nalezen.'));
+            $smarty->display('hlavicka.tpl');
+            $smarty->display('alert.tpl');
+            $smarty->display('paticka.tpl');
+            exit();
+        } else {
+            $uzivatel = get_user_props(email2login($email));
+            if ($uzivatel['status'] == 'revoked') {
+                array_push($chyby, 'Heslo pro účet s tímto e-mailem nelze obnovit.');
+            }
+        }
 
-		$rtf=LIDE_DATA.'/'.$uzivatel['login'].'/password.reset.time';
-		$rtk=LIDE_DATA.'/'.$uzivatel['login'].'/password.reset.key';
+        $rtf = LIDE_DATA.'/'.$uzivatel['login'].'/password.reset.time';
+        $rtk = LIDE_DATA.'/'.$uzivatel['login'].'/password.reset.key';
 
-		if(is_file($rtf) and is_file($rtk)){
-			$reset_time=file($rtf);
-			$reset_time=trim(array_pop($reset_time));
-			$reset_key=file($rtk);
-			$reset_key=trim(array_pop($reset_key));
+        if (is_file($rtf) and is_file($rtk)) {
+            $reset_time = file($rtf);
+            $reset_time = trim(array_pop($reset_time));
+            $reset_key = file($rtk);
+            $reset_key = trim(array_pop($reset_key));
 
-			if($reset_key!=$key){
-				$smarty->assign('chyby',array('Neplatný odkaz pro obnovení hesla.'));
-				$smarty->display('hlavicka.tpl');
-				$smarty->display('alert.tpl');
-				$smarty->display('paticka.tpl');
-				exit();
-			}
+            if ($reset_key != $key) {
+                $smarty->assign('chyby', array('Neplatný odkaz pro obnovení hesla.'));
+                $smarty->display('hlavicka.tpl');
+                $smarty->display('alert.tpl');
+                $smarty->display('paticka.tpl');
+                exit();
+            }
 
-			if($reset_time<(time()-TIMEOUT_RESET_PASSWD)){
-				$smarty->assign('chyby',array('Odkaz pro obnovu hesla už není platný.'));
-				$smarty->display('hlavicka.tpl');
-				$smarty->display('alert.tpl');
-				$smarty->display('paticka.tpl');
-				exit();
-			}
-			if(isset($_GET['action'])){
-				$chyby=array();
+            if ($reset_time < (time() - TIMEOUT_RESET_PASSWD)) {
+                $smarty->assign('chyby', array('Odkaz pro obnovu hesla už není platný.'));
+                $smarty->display('hlavicka.tpl');
+                $smarty->display('alert.tpl');
+                $smarty->display('paticka.tpl');
+                exit();
+            }
+            if (isset($_GET['action'])) {
+                $chyby = array();
 
-			if(isset($_POST['heslo'])){
-				$heslo=trim($_POST['heslo']);
-			}else{
-				$heslo='';
-			}
+                if (isset($_POST['heslo'])) {
+                    $heslo = trim($_POST['heslo']);
+                } else {
+                    $heslo = '';
+                }
 
-			if(isset($_POST['heslo2'])){
-				$heslo2=trim($_POST['heslo2']);
-			}else{
-				$heslo2='';
-			}
+                if (isset($_POST['heslo2'])) {
+                    $heslo2 = trim($_POST['heslo2']);
+                } else {
+                    $heslo2 = '';
+                }
 
-				if(strlen($heslo)<5){
-					array_push($chyby,'Heslo není zadané, nebo je příliš krátké.');
-				}
+                if (strlen($heslo) < 5) {
+                    array_push($chyby, 'Heslo není zadané, nebo je příliš krátké.');
+                }
 
-				if($heslo!=$heslo2){
-					array_push($chyby,'Zadaná hesla se neshodují.');
-				}
-				if(count($chyby)==0){
-					$foo=fopen(LIDE_DATA.'/'.$uzivatel['login'].'/passwd.crypt','w');
-					fwrite($foo, password_hash($heslo, PASSWORD_DEFAULT));
-					fclose($foo);
-					unlink($rtf);
-					unlink($rtk);
-					if($uzivatel['status']=='locked'){
-						# obnovení hesla pro dlouho nepoužívaný účet
-						# smažeme staré údaje
-						$ke_smazani=array('LOCKED','locked.time','prihlaseni.txt','zruseni.txt','web.txt','pusobiste.txt','oblibene.txt','hodnoceni.txt','dovednosti.txt','foto.jpg','znameni.txt','tel.txt','vzkaz.txt');
-						foreach($ke_smazani as $starysoubor){
-							if(is_file(LIDE_DATA.'/'.$uzivatel['login'].'/'.$starysoubor)){
-								unlink(LIDE_DATA.'/'.$uzivatel['login'].'/'.$starysoubor);
-							}
-						}
+                if ($heslo != $heslo2) {
+                    array_push($chyby, 'Zadaná hesla se neshodují.');
+                }
+                if (count($chyby) == 0) {
+                    $foo = fopen(LIDE_DATA.'/'.$uzivatel['login'].'/passwd.crypt', 'w');
+                    fwrite($foo, password_hash($heslo, PASSWORD_DEFAULT));
+                    fclose($foo);
+                    unlink($rtf);
+                    unlink($rtk);
+                    if ($uzivatel['status'] == 'locked') {
+                        // obnovení hesla pro dlouho nepoužívaný účet
+                        // smažeme staré údaje
+                        $ke_smazani = array('LOCKED', 'locked.time', 'prihlaseni.txt', 'zruseni.txt', 'web.txt', 'pusobiste.txt', 'oblibene.txt', 'hodnoceni.txt', 'dovednosti.txt', 'foto.jpg', 'znameni.txt', 'tel.txt', 'vzkaz.txt');
+                        foreach ($ke_smazani as $starysoubor) {
+                            if (is_file(LIDE_DATA.'/'.$uzivatel['login'].'/'.$starysoubor)) {
+                                unlink(LIDE_DATA.'/'.$uzivatel['login'].'/'.$starysoubor);
+                            }
+                        }
 
-						$foo=fopen(LIDE_DATA.'/'.$uzivatel['login'].'/soukromi.txt','w');
-						fwrite($foo,'formular');
-						fclose($foo);
-						}
-					}
+                        $foo = fopen(LIDE_DATA.'/'.$uzivatel['login'].'/soukromi.txt', 'w');
+                        fwrite($foo, 'formular');
+                        fclose($foo);
+                    }
+                }
 
+                $_SESSION['load_user'] = $uzivatel['login'];
+                header('Location: '.LIDE_URL.basename(__FILE__).'?status=ok');
+                exit();
+            } else {
+                $smarty->assign('email', $email);
+                $smarty->assign('key', $key);
+                $smarty->assign('uzivatel', $uzivatel);
+                if (isset($chyby)) {
+                    $smarty->assign('chyby', $chyby);
+                }
+                $smarty->display('hlavicka.tpl');
+                $smarty->display('obnova-hesla.tpl');
+                $smarty->display('paticka.tpl');
+                exit();
+            }
+        } else {
+            $smarty->assign('email', $email);
+            $smarty->assign('key', $key);
+            $smarty->assign('uzivatel', $uzivatel);
+            $smarty->display('hlavicka.tpl');
+            $smarty->display('obnova-hesla.tpl');
+            $smarty->display('paticka.tpl');
+            exit();
+        }
+    } else {
+        $smarty->assign('chyby', array('Tento odkaz pro obnovení už byl použitý.'));
+        $smarty->display('hlavicka.tpl');
+        $smarty->display('alert.tpl');
+        $smarty->display('paticka.tpl');
+        exit();
+    }
 
-					$_SESSION['load_user']=$uzivatel['login'];
-					header('Location: '.LIDE_URL.basename(__FILE__).'?status=ok');
-					exit();
-				}else{
-					$smarty->assign('email',$email);
-					$smarty->assign('key',$key);
-					$smarty->assign('uzivatel',$uzivatel);
-					if(isset($chyby)){
-						$smarty->assign('chyby',$chyby);
-					}
-					$smarty->display('hlavicka.tpl');
-					$smarty->display('obnova-hesla.tpl');
-					$smarty->display('paticka.tpl');
-					exit();
-				}
-			
-			}else{
-				$smarty->assign('email',$email);
-				$smarty->assign('key',$key);
-				$smarty->assign('uzivatel',$uzivatel);
-				$smarty->display('hlavicka.tpl');
-				$smarty->display('obnova-hesla.tpl');
-				$smarty->display('paticka.tpl');
-				exit();
-			}
-
-	}else{
-		$smarty->assign('chyby',array('Tento odkaz pro obnovení už byl použitý.'));
-		$smarty->display('hlavicka.tpl');
-		$smarty->display('alert.tpl');
-		$smarty->display('paticka.tpl');
-		exit();
-	}
-
-	$smarty->assign('chyby',array('Odkaz pro obnovení hesla není úplný.','Heslo NEBYLO změněno.'));
-	$smarty->display('hlavicka.tpl');
-	$smarty->display('alert.tpl');
-	$smarty->display('paticka.tpl');
-	exit();
+    $smarty->assign('chyby', array('Odkaz pro obnovení hesla není úplný.', 'Heslo NEBYLO změněno.'));
+    $smarty->display('hlavicka.tpl');
+    $smarty->display('alert.tpl');
+    $smarty->display('paticka.tpl');
+    exit();
 }

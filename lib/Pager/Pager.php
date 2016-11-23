@@ -1,8 +1,9 @@
 <?php
+
 /* vim: set expandtab tabstop=4 shiftwidth=4 softtabstop=4: */
 
 /**
- * Contains the Pager class
+ * Contains the Pager class.
  *
  * PHP versions 4 and 5
  *
@@ -28,25 +29,28 @@
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
  * @category  HTML
- * @package   Pager
+ *
  * @author    Lorenzo Alberton <l.alberton@quipo.it>
  * @author    Richard Heyes <richard@phpguru.org>
  * @copyright 2003-2008 Lorenzo Alberton, Richard Heyes
  * @license   http://www.debian.org/misc/bsd.license  BSD License (3 Clause)
+ *
  * @version   CVS: $Id: Pager.php,v 1.26 2008/02/02 16:55:04 quipo Exp $
+ *
  * @link      http://pear.php.net/package/Pager
  */
 
 /**
  * Pager - Wrapper class for [Sliding|Jumping]-window Pager
- * Usage examples can be found in the PEAR manual
+ * Usage examples can be found in the PEAR manual.
  *
  * @category  HTML
- * @package   Pager
+ *
  * @author    Lorenzo Alberton <l.alberton@quipo.it>
  * @author    Richard Heyes <richard@phpguru.org>
  * @copyright 2003-2008 Lorenzo Alberton, Richard Heyes
  * @license   http://www.debian.org/misc/bsd.license  BSD License (3 Clause)
+ *
  * @link      http://pear.php.net/package/Pager
  */
 class Pager
@@ -54,7 +58,7 @@ class Pager
     // {{{ Pager()
 
     /**
-     * Constructor
+     * Constructor.
      *
      * -------------------------------------------------------------------------
      * VALID options are (default values are set some lines before):
@@ -135,10 +139,8 @@ class Pager
      * -------------------------------------------------------------------------
      *
      * @param mixed $options Associative array of option names and their values
-     *
-     * @access public
      */
-    function Pager($options = array())
+    public function Pager($options = array())
     {
         //this check evaluates to true on 5.0.0RC-dev,
         //so i'm using another one, for now...
@@ -158,19 +160,18 @@ class Pager
     // {{{ factory()
 
     /**
-     * Return a pager based on $mode and $options
+     * Return a pager based on $mode and $options.
      *
      * @param array $options Optional parameters for the storage class
      *
      * @return object Storage object
      * @static
-     * @access public
      */
-    function &factory($options = array())
+    public function &factory($options = array())
     {
         $mode = (isset($options['mode']) ? ucfirst($options['mode']) : 'Jumping');
-        $classname = 'Pager_' . $mode;
-        $classfile = $_SERVER['DOCUMENT_ROOT'].'/lib/'.'/Pager' . DIRECTORY_SEPARATOR . $mode . '.php';
+        $classname = 'Pager_'.$mode;
+        $classfile = $_SERVER['DOCUMENT_ROOT'].'/lib/'.'/Pager'.DIRECTORY_SEPARATOR.$mode.'.php';
 
         // Attempt to include a custom version of the named class, but don't treat
         // a failure as fatal.  The caller may have already included their own
@@ -182,13 +183,14 @@ class Pager
         // If the class exists, return a new instance of it.
         if (class_exists($classname)) {
             $pager = new $classname($options);
+
             return $pager;
         }
 
         $null = null;
+
         return $null;
     }
 
     // }}}
 }
-?>

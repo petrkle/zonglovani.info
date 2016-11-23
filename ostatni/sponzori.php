@@ -1,23 +1,24 @@
 <?php
-require('../init.php');
-require('../func.php');
 
-$titulek='Vaše příspěvky';
-$smarty->assign('titulek',$titulek);
-$smarty->assign('keywords',make_keywords($titulek).', žonglování');
-$smarty->assign('description','Sponzoři žonglérova slabikáře.');
+require '../init.php';
+require '../func.php';
 
-$dalsi=array(
-	array('url'=>'/podporte-zongleruv-slabikar.html','text'=>'Podpoř žonglérův slabikář','title'=>'Podpořit žonglérův slabikář'),
-	array('url'=>'/jak-odkazovat.html','text'=>'Jak odkazovat na žonglérův slabikář','title'=>'Přidej odkaz na svůj web'),
-	);
-$smarty->assign('dalsi',$dalsi);
+$titulek = 'Vaše příspěvky';
+$smarty->assign('titulek', $titulek);
+$smarty->assign('keywords', make_keywords($titulek).', žonglování');
+$smarty->assign('description', 'Sponzoři žonglérova slabikáře.');
+
+$dalsi = array(
+    array('url' => '/podporte-zongleruv-slabikar.html', 'text' => 'Podpoř žonglérův slabikář', 'title' => 'Podpořit žonglérův slabikář'),
+    array('url' => '/jak-odkazovat.html', 'text' => 'Jak odkazovat na žonglérův slabikář', 'title' => 'Přidej odkaz na svůj web'),
+    );
+$smarty->assign('dalsi', $dalsi);
 
 $trail = new Trail();
 $trail->addStep($titulek);
 $smarty->assign('trail', $trail->path);
 
-$smarty->assign('nahled','https://'.$_SERVER['SERVER_NAME'].'/img/p/podporad.png');
+$smarty->assign('nahled', 'https://'.$_SERVER['SERVER_NAME'].'/img/p/podporad.png');
 
 $smarty->display('hlavicka.tpl');
 $smarty->display('sponzori.tpl');

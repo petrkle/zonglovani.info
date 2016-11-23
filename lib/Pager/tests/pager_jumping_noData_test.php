@@ -4,33 +4,40 @@
 require_once 'simple_include.php';
 require_once 'pager_include.php';
 
-class TestOfPagerJumpingNoData extends UnitTestCase {
-    var $pager;
-    function TestOfPagerJumpingNoData($name='Test of Pager_Jumping - no data') {
+class TestOfPagerJumpingNoData extends UnitTestCase
+{
+    public $pager;
+    public function TestOfPagerJumpingNoData($name = 'Test of Pager_Jumping - no data')
+    {
         $this->UnitTestCase($name);
     }
-    function setUp() {
+    public function setUp()
+    {
         $options = array(
             'totalItems' => 0,
-            'perPage'  => 2,
-            'mode'     => 'Jumping',
+            'perPage' => 2,
+            'mode' => 'Jumping',
         );
         $this->pager = Pager::factory($options);
     }
-    function tearDown() {
+    public function tearDown()
+    {
         unset($this->pager);
     }
-    function testOffsetByPageId() {
+    public function testOffsetByPageId()
+    {
         $this->assertEqual(array(1, 0), $this->pager->getOffsetByPageId());
     }
-    function testPageIdByOffset() {
+    public function testPageIdByOffset()
+    {
         $this->assertEqual(false, $this->pager->getPageIdByOffset(0));
     }
-    function testPageIdByOffset2() {
+    public function testPageIdByOffset2()
+    {
         $this->assertEqual(1, $this->pager->getPageIdByOffset(1));
     }
-    function testPageIdByOffset3() {
+    public function testPageIdByOffset3()
+    {
         $this->assertEqual(1, $this->pager->getPageIdByOffset(2));
     }
 }
-?>

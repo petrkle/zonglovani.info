@@ -1,22 +1,23 @@
 <?php
-require('../init.php');
-require('../func.php');
 
-$titulek='Světový den žonglování 2012';
-$smarty->assign('titulek',$titulek);
-$smarty->assign('nadpis','Světový den žonglování');
+require '../init.php';
+require '../func.php';
 
-$smarty->assign('keywords','světový, mezinárodní, den, žonglování');
-$smarty->assign('description','Světový den žonglování 16. června 2012');
-$smarty->assign('nahled','https://'.$_SERVER['SERVER_NAME'].'/img/w/wjd12.png');
+$titulek = 'Světový den žonglování 2012';
+$smarty->assign('titulek', $titulek);
+$smarty->assign('nadpis', 'Světový den žonglování');
 
-$dalsi=array(
-	array('url'=>CALENDAR_URL,'text'=>'Kalendář žonglérských akcí','title'=>'Další žonglérské akce'),
-	);
-$smarty->assign('dalsi',$dalsi);
+$smarty->assign('keywords', 'světový, mezinárodní, den, žonglování');
+$smarty->assign('description', 'Světový den žonglování 16. června 2012');
+$smarty->assign('nahled', 'https://'.$_SERVER['SERVER_NAME'].'/img/w/wjd12.png');
+
+$dalsi = array(
+    array('url' => CALENDAR_URL, 'text' => 'Kalendář žonglérských akcí', 'title' => 'Další žonglérské akce'),
+    );
+$smarty->assign('dalsi', $dalsi);
 
 $trail = new Trail();
-$trail->addStep('Kalendář',CALENDAR_URL);
+$trail->addStep('Kalendář', CALENDAR_URL);
 $trail->addStep($titulek);
 $smarty->assign('trail', $trail->path);
 

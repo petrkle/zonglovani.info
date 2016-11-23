@@ -1,14 +1,15 @@
 <?php
-require('../init.php');
-require('../func.php');
 
-if(is_logged()){
-	header('Location: http://'.$_SERVER['SERVER_NAME'].'/lide/odhlaseni.php');
-	exit();
+require '../init.php';
+require '../func.php';
+
+if (is_logged()) {
+    header('Location: http://'.$_SERVER['SERVER_NAME'].'/lide/odhlaseni.php');
+    exit();
 }
 
-$smarty->assign('titulek','Odhlášení');
-$smarty->assign('nadpis','Odhlášení proběhlo úspěšně');
+$smarty->assign('titulek', 'Odhlášení');
+$smarty->assign('nadpis', 'Odhlášení proběhlo úspěšně');
 
 $trail = new Trail();
 $trail->addStep('Odhlášení');

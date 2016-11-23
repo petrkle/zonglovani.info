@@ -4,79 +4,98 @@
 require_once 'simple_include.php';
 require_once 'pager_include.php';
 
-class TestOfPager extends UnitTestCase {
-    var $pager;
-    var $baseurl;
-    function TestOfPager($name='Test of Pager') {
+class TestOfPager extends UnitTestCase
+{
+    public $pager;
+    public $baseurl;
+    public function TestOfPager($name = 'Test of Pager')
+    {
         $this->UnitTestCase($name);
     }
-    function setUp() {
+    public function setUp()
+    {
         $options = array(
             'itemData' => range(1, 10),
-            'perPage'  => 5,
+            'perPage' => 5,
         );
         $this->pager = Pager::factory($options);
         $this->baseurl = substr($_SERVER['PHP_SELF'], 0, strrpos($_SERVER['PHP_SELF'], '/'));
     }
-    function tearDown() {
+    public function tearDown()
+    {
         unset($this->pager);
     }
-    function testCurrentPageID() {
+    public function testCurrentPageID()
+    {
         $this->assertEqual(1, $this->pager->getCurrentPageID());
     }
-    function testNextPageID() {
+    public function testNextPageID()
+    {
         $this->assertEqual(2, $this->pager->getNextPageID());
     }
-    function testPrevPageID() {
+    public function testPrevPageID()
+    {
         $this->assertEqual(false, $this->pager->getPreviousPageID());
     }
-    function testNumItems() {
+    public function testNumItems()
+    {
         $this->assertEqual(10, $this->pager->numItems());
     }
-    function testNumPages() {
+    public function testNumPages()
+    {
         $this->assertEqual(2, $this->pager->numPages());
     }
-    function testFirstPage() {
+    public function testFirstPage()
+    {
         $this->assertEqual(true, $this->pager->isFirstPage());
     }
-    function testLastPage() {
+    public function testLastPage()
+    {
         $this->assertEqual(false, $this->pager->isLastPage());
     }
-    function testLastPageComplete() {
+    public function testLastPageComplete()
+    {
         $this->assertEqual(true, $this->pager->isLastPageComplete());
     }
-    function testOffsetByPageId() {
+    public function testOffsetByPageId()
+    {
         $this->assertEqual(array(1, 5), $this->pager->getOffsetByPageId(1));
         $this->assertEqual(array(6, 10), $this->pager->getOffsetByPageId(2));
     }
-    function testOffsetByPageId_outOfRange() {
+    public function testOffsetByPageId_outOfRange()
+    {
         $this->assertEqual(array(0, 0), $this->pager->getOffsetByPageId(20));
     }
-    function testGetPageData() {
-        $this->assertEqual(array(0=>1, 1=>2, 2=>3, 3=>4, 4=>5), $this->pager->getPageData());
-        $this->assertEqual(array(5=>6, 6=>7, 7=>8, 8=>9, 9=>10), $this->pager->getPageData(2));
+    public function testGetPageData()
+    {
+        $this->assertEqual(array(0 => 1, 1 => 2, 2 => 3, 3 => 4, 4 => 5), $this->pager->getPageData());
+        $this->assertEqual(array(5 => 6, 6 => 7, 7 => 8, 8 => 9, 9 => 10), $this->pager->getPageData(2));
     }
-    function testGetPageData_OutOfRange() {
+    public function testGetPageData_OutOfRange()
+    {
         $this->assertEqual(array(), $this->pager->getPageData(3));
     }
-    function testSelectBox() {
-        $selectBox  = '<select name="'.$this->pager->_sessionVar.'">';
+    public function testSelectBox()
+    {
+        $selectBox = '<select name="'.$this->pager->_sessionVar.'">';
         $selectBox .= '<option value="5" selected="selected">5</option>';
         $selectBox .= '<option value="10">10</option>';
         $selectBox .= '<option value="15">15</option>';
         $selectBox .= '</select>';
         $this->assertEqual($selectBox, $this->pager->getPerPageSelectBox(5, 15, 5));
     }
-    function testSelectBoxWithString() {
-        $selectBox  = '<select name="'.$this->pager->_sessionVar.'">';
+    public function testSelectBoxWithString()
+    {
+        $selectBox = '<select name="'.$this->pager->_sessionVar.'">';
         $selectBox .= '<option value="5" selected="selected">5 bugs</option>';
         $selectBox .= '<option value="10">10 bugs</option>';
         $selectBox .= '<option value="15">15 bugs</option>';
         $selectBox .= '</select>';
         $this->assertEqual($selectBox, $this->pager->getPerPageSelectBox(5, 15, 5, false, '%d bugs'));
     }
-    function testSelectBoxWithShowAll() {
-        $selectBox  = '<select name="'.$this->pager->_sessionVar.'">';
+    public function testSelectBoxWithShowAll()
+    {
+        $selectBox = '<select name="'.$this->pager->_sessionVar.'">';
         $selectBox .= '<option value="3">3</option>';
         $selectBox .= '<option value="4">4</option>';
         $selectBox .= '<option value="5" selected="selected">5</option>';
@@ -85,9 +104,10 @@ class TestOfPager extends UnitTestCase {
         $selectBox .= '</select>';
         $this->assertEqual($selectBox, $this->pager->getPerPageSelectBox(3, 6, 1, true));
     }
-    function testSelectBoxWithShowAllAndText() {
+    public function testSelectBoxWithShowAllAndText()
+    {
         $this->pager->_showAllText = 'Show All';
-        $selectBox  = '<select name="'.$this->pager->_sessionVar.'">';
+        $selectBox = '<select name="'.$this->pager->_sessionVar.'">';
         $selectBox .= '<option value="3">3 bugs</option>';
         $selectBox .= '<option value="4">4 bugs</option>';
         $selectBox .= '<option value="5" selected="selected">5 bugs</option>';
@@ -96,81 +116,88 @@ class TestOfPager extends UnitTestCase {
         $selectBox .= '</select>';
         $this->assertEqual($selectBox, $this->pager->getPerPageSelectBox(3, 6, 1, true, '%d bugs'));
     }
-    function testSelectBoxWithShowAllWithExtraAttribs() {
+    public function testSelectBoxWithShowAllWithExtraAttribs()
+    {
         $options = array(
             'itemData' => range(1, 14),
-            'perPage'  => 5,
+            'perPage' => 5,
         );
         $this->pager = Pager::factory($options);
         $this->pager->_showAllText = 'Show All';
-        $selectBox  = '<select name="'.$this->pager->_sessionVar.'" onmouseover="doSth">';
+        $selectBox = '<select name="'.$this->pager->_sessionVar.'" onmouseover="doSth">';
         $selectBox .= '<option value="5" selected="selected">5 bugs</option>';
         $selectBox .= '<option value="10">10 bugs</option>';
         $selectBox .= '<option value="'.max($this->pager->_itemData).'">Show All</option>';
         $selectBox .= '</select>';
         $params = array(
-            'optionText'    => '%d bugs',
-            'attributes'    => 'onmouseover="doSth"',
+            'optionText' => '%d bugs',
+            'attributes' => 'onmouseover="doSth"',
             'checkMaxLimit' => true,
         );
         $this->assertEqual($selectBox, $this->pager->getPerPageSelectBox(5, 15, 5, true, $params));
     }
-    function testSelectBoxWithShowAllAndFewValues() {
+    public function testSelectBoxWithShowAllAndFewValues()
+    {
         //test getPerPagerSelectBox() with $showAllData = true and $start > $totalItems
         $options = array(
-            'itemData'    => range(1, 5),
-            'perPage'     => 5,
+            'itemData' => range(1, 5),
+            'perPage' => 5,
             'showAllText' => 'Show All',
         );
         $this->pager = Pager::factory($options);
-        $selectBox  = '<select name="'.$this->pager->_sessionVar.'">';
+        $selectBox = '<select name="'.$this->pager->_sessionVar.'">';
         $selectBox .= '<option value="'.max($this->pager->_itemData).'" selected="selected">Show All</option>';
         $selectBox .= '</select>';
         $this->assertEqual($selectBox, $this->pager->getPerPageSelectBox(25, 30, 1, true, array('checkMaxLimit' => true)));
     }
-    function testSelectBoxInvalid() {
+    public function testSelectBoxInvalid()
+    {
         $err = $this->pager->getPerPageSelectBox(5, 15, 5, false, '%s bugs');
         $this->assertEqual(ERROR_PAGER_INVALID_PLACEHOLDER, $err->getCode());
     }
-    function testSelectBoxEmpty() {
+    public function testSelectBoxEmpty()
+    {
         $options = array(
-            'itemData'   => array(),
+            'itemData' => array(),
             'totalItems' => 0,
         );
         $this->pager = Pager::factory($options);
-        $selectBox  = '<select name="'.$this->pager->_sessionVar.'">';
+        $selectBox = '<select name="'.$this->pager->_sessionVar.'">';
         $selectBox .= '<option />';
         $selectBox .= '</select>';
         $this->assertEqual($selectBox, $this->pager->getPerPageSelectBox(5, 15, 5, false, array('checkMaxLimit' => true)));
     }
-    function testAppendInvalid() {
+    public function testAppendInvalid()
+    {
         $options = array(
             'totalItems' => 10,
-            'append'     => false,
-            'fileName'   => 'invalidFileName'
+            'append' => false,
+            'fileName' => 'invalidFileName',
         );
-        $err =& Pager::factory($options);  //ERROR_PAGER_INVALID_USAGE
+        $err = &Pager::factory($options);  //ERROR_PAGER_INVALID_USAGE
         $this->assertError();
     }
-    function testAppendValid() {
+    public function testAppendValid()
+    {
         $options = array(
             'totalItems' => 10,
-            'append'     => false,
-            'fileName'   => 'valid_%d_FileName'
+            'append' => false,
+            'fileName' => 'valid_%d_FileName',
         );
-        $err =& Pager::factory($options);
+        $err = &Pager::factory($options);
         $this->assertNoErrors();
     }
-    function testEscapeEntities() {
+    public function testEscapeEntities()
+    {
         //encode special chars
         $options = array(
             'extraVars' => array(
                 'request' => array('aRequest'),
-                'escape'    => 'äö%<>+',
+                'escape' => 'äö%<>+',
             ),
             'perPage' => 5,
         );
-        $this->pager =& Pager::factory($options);
+        $this->pager = &Pager::factory($options);
         //$expected = '?request[]=aRequest&amp;escape=&auml;&ouml;%&lt;&gt;+&amp;pageID=';
         //$this->assertEqual($expected, $this->pager->_getLinksUrl());
 
@@ -190,63 +217,67 @@ class TestOfPager extends UnitTestCase {
             ),
             'perPage' => 5,
         );
-        $this->pager =& Pager::factory($options);
+        $this->pager = &Pager::factory($options);
         //$expected = '?request=cat/subcat&amp;pageID=';
         //$this->assertEqual($expected, $this->pager->_getLinksUrl());
         $expected = '<a href="'.$_SERVER['PHP_SELF'].'?request=cat/subcat" title=""></a>';
         $actual = $this->pager->_renderLink('', '');
         $this->assertEqual($expected, $actual);
     }
-    function testMultibyteStrings() {
+    public function testMultibyteStrings()
+    {
         $options = array(
             'extraVars' => array(
                 'test' => '&#27979;&#35797;',
             ),
             'perPage' => 5,
         );
-        $this->pager =& Pager::factory($options);
+        $this->pager = &Pager::factory($options);
         //$expected = '<a href="'.$_SERVER['PHP_SELF'].'?test=&#27979;&#35797;" title=""></a>';
         $rendered = $this->pager->_renderLink('', '');
         preg_match('/href="(.*)"/U', $rendered, $matches);
         $actual = str_replace($_SERVER['PHP_SELF'].'?test=', '', $matches[1]);
         $this->assertEqual(urlencode($options['extraVars']['test']), $actual);
     }
-    function testMultibyteJapaneseStrings() {
+    public function testMultibyteJapaneseStrings()
+    {
         $options = array(
             'extraVars' => array(
                 'test' => '&#28450;&#23383;',
             ),
             'perPage' => 5,
         );
-        $this->pager =& Pager::factory($options);
+        $this->pager = &Pager::factory($options);
         //$expected = '<a href="'.$_SERVER['PHP_SELF'].'?test=&#27979;&#35797;" title=""></a>';
         $rendered = $this->pager->_renderLink('', '');
         preg_match('/href="(.*)"/U', $rendered, $matches);
         $actual = str_replace($_SERVER['PHP_SELF'].'?test=', '', $matches[1]);
         $this->assertEqual(urlencode($options['extraVars']['test']), $actual);
     }
-    function testCurrentPage() {
+    public function testCurrentPage()
+    {
         $options = array(
-            'itemData'    => array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10),
-            'perPage'     => 2,
+            'itemData' => array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10),
+            'perPage' => 2,
             'currentPage' => 2,
         );
-        $this->pager =& Pager::factory($options);
+        $this->pager = &Pager::factory($options);
         $this->assertEqual(3, $this->pager->getNextPageID());
         $this->assertEqual(1, $this->pager->getPreviousPageID());
         $this->assertEqual(2, $this->pager->_currentPage);
     }
-    function testArrayExtraVars() {
+    public function testArrayExtraVars()
+    {
         $arr = array(
             'apple',
             'orange',
         );
         $options = array(
-            'itemData'    => array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10),
-            'perPage'     => 5,
-            'extraVars'   => array('arr' => $arr, 'no' => 'test'),
+            'itemData' => array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10),
+            'perPage' => 5,
+            'extraVars' => array('arr' => $arr, 'no' => 'test'),
         );
-        $this->pager =& Pager::factory($options);
+        $this->pager = &Pager::factory($options);
         /*
         //old
         $expected = '?arr[0]=apple&amp;arr[1]=orange&amp;pageID=';
@@ -263,7 +294,8 @@ class TestOfPager extends UnitTestCase {
         $actual = $this->pager->_renderLink('', '');
         $this->assertEqual($expected, $actual);
     }
-    function testExcludeVars() {
+    public function testExcludeVars()
+    {
         $_GET['excludeMe'] = 'foo';
         $extraVars = array(
             'arr' => array(
@@ -277,16 +309,16 @@ class TestOfPager extends UnitTestCase {
             'excludeMe', //remove
         );
         $options = array(
-            'itemData'    => array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10),
-            'perPage'     => 5,
-            'extraVars'   => $extraVars,
+            'itemData' => array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10),
+            'perPage' => 5,
+            'extraVars' => $extraVars,
             'excludeVars' => $excludeVars,
         );
-        $this->pager =& Pager::factory($options);
+        $this->pager = &Pager::factory($options);
         $expected = array(
             'arr' => array(
                 0 => 'apple',
-                1 => 'orange'
+                1 => 'orange',
             ),
             'no' => 'test',
         );
@@ -306,41 +338,42 @@ class TestOfPager extends UnitTestCase {
 
         $_GET['reMoveAAA'] = 'aaa';
         $_GET['RemoveBBB'] = 'bbb';
-        $_GET['leaveCCC']  = 'ccc';
+        $_GET['leaveCCC'] = 'ccc';
         $excludeVars = array(
             '/remove.*/i', //regexp
         );
         $options = array(
-            'itemData'    => array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10),
-            'perPage'     => 5,
-            'extraVars'   => $extraVars,
+            'itemData' => array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10),
+            'perPage' => 5,
+            'extraVars' => $extraVars,
             'excludeVars' => $excludeVars,
         );
-        $this->pager =& Pager::factory($options);
+        $this->pager = &Pager::factory($options);
         $expected = array(
             'arr' => array(
                 0 => 'apple',
-                1 => 'orange'
+                1 => 'orange',
             ),
             'no' => 'test',
-            'leaveCCC'  => 'ccc',
+            'leaveCCC' => 'ccc',
         );
         $this->assertEqual($expected, $this->pager->_getLinksData());
         //cleanup
         foreach (array_keys($_GET) as $k) {
-        	unset($_GET[$k]);
+            unset($_GET[$k]);
         }
     }
-    function testArgSeparator() {
+    public function testArgSeparator()
+    {
         $bkp_arg_separator = ini_get('arg_separator.output');
         ini_set('arg_separator.output', '&amp;');
 
         $options = array(
-            'itemData'    => array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10),
-            'perPage'     => 5,
-            'extraVars'   => array('apple'  => 1),
+            'itemData' => array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10),
+            'perPage' => 5,
+            'extraVars' => array('apple' => 1),
         );
-        $this->pager =& Pager::factory($options);
+        $this->pager = &Pager::factory($options);
 
         $expected = '<a href="'.$_SERVER['PHP_SELF'].'?apple=1&amp;pageID=2" title=""></a>';
         $actual = $this->pager->_renderLink('', '');
@@ -348,44 +381,47 @@ class TestOfPager extends UnitTestCase {
 
         ini_set('arg_separator.output', $bkp_arg_separator);
     }
-    function testAttributes() {
+    public function testAttributes()
+    {
         $options = array(
-            'itemData'    => array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10),
-            'perPage'     => 5,
-            'linkClass'   => 'testclass',
-            'attributes'  => 'target="_blank"',
+            'itemData' => array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10),
+            'perPage' => 5,
+            'linkClass' => 'testclass',
+            'attributes' => 'target="_blank"',
         );
-        $this->pager =& Pager::factory($options);
+        $this->pager = &Pager::factory($options);
 
         $expected = '<a href="'.$_SERVER['PHP_SELF'].'?pageID=2" class="testclass" target="_blank" title=""></a>';
         $actual = $this->pager->_renderLink('', '');
         $this->assertEqual($expected, $actual);
     }
-    function testOnClick() {
+    public function testOnClick()
+    {
         $options = array(
-            'itemData'    => array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10),
-            'perPage'     => 5,
-            'linkClass'   => 'testclass',
-            'onclick'  => 'doSomething(%d)',
+            'itemData' => array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10),
+            'perPage' => 5,
+            'linkClass' => 'testclass',
+            'onclick' => 'doSomething(%d)',
         );
-        $this->pager =& Pager::factory($options);
+        $this->pager = &Pager::factory($options);
 
         $expected = '<a href="'.$_SERVER['PHP_SELF'].'?pageID=2" class="testclass" onclick="doSomething(2)" title=""></a>';
         $actual = $this->pager->_renderLink('', '');
         $this->assertEqual($expected, $actual);
     }
-    function testImportQuery() {
+    public function testImportQuery()
+    {
         //add some fake url vars
         $_GET['arr'] = array(
             'apple',
             'orange',
         );
         $options = array(
-            'itemData'    => array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10),
-            'perPage'     => 5,
+            'itemData' => array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10),
+            'perPage' => 5,
             'importQuery' => false,
         );
-        $this->pager =& Pager::factory($options);
+        $this->pager = &Pager::factory($options);
         $expected = array();
         $actual = $this->pager->_getLinksData();
         $this->assertEqual($expected, $this->pager->_getLinksData());
@@ -396,29 +432,31 @@ class TestOfPager extends UnitTestCase {
         //remove fake url vars
         unset($_GET['arr']);
     }
-    function testGetNextLinkTag() {
+    public function testGetNextLinkTag()
+    {
         //append = true
         $expected = '<link rel="next" href="'.$_SERVER['PHP_SELF'].'?pageID=2" title="next page" />'."\n";
         $this->assertEqual($expected, $this->pager->_getNextLinkTag());
-        
+
         //append = false
         $options = array(
             'itemData' => array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10),
-            'perPage'  => 5,
+            'perPage' => 5,
             'currentPage' => 1,
-            'append'   => false,
+            'append' => false,
             'fileName' => 'myfile.%d.php',
         );
         $this->pager = Pager::factory($options);
         $expected = '<link rel="next" href="'.$this->baseurl.'/myfile.2.php" title="next page" />'."\n";
         $this->assertEqual($expected, $this->pager->_getNextLinkTag());
-        
+
         //test empty tag
         $options['currentPage'] = 2;
         $this->pager = Pager::factory($options);
         $this->assertEqual('', $this->pager->_getNextLinkTag());
     }
-    function testGetLastLinkTag() {
+    public function testGetLastLinkTag()
+    {
         //append = true
         $expected = '<link rel="last" href="'.$_SERVER['PHP_SELF'].'?pageID=2" title="last page" />'."\n";
         $this->assertEqual($expected, $this->pager->_getLastLinkTag());
@@ -426,9 +464,9 @@ class TestOfPager extends UnitTestCase {
         //append = false
         $options = array(
             'itemData' => array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10),
-            'perPage'  => 5,
+            'perPage' => 5,
             'currentPage' => 1,
-            'append'   => false,
+            'append' => false,
             'fileName' => 'myfile.%d.php',
         );
         $this->pager = Pager::factory($options);
@@ -440,11 +478,12 @@ class TestOfPager extends UnitTestCase {
         $this->pager = Pager::factory($options);
         $this->assertEqual('', $this->pager->_getLastLinkTag());
     }
-    function testGetFirstLinkTag() {
+    public function testGetFirstLinkTag()
+    {
         //append = true
         $options = array(
             'itemData' => array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10),
-            'perPage'  => 5,
+            'perPage' => 5,
             'currentPage' => 2,
         );
         $this->pager = Pager::factory($options);
@@ -454,9 +493,9 @@ class TestOfPager extends UnitTestCase {
         //append = false
         $options = array(
             'itemData' => array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10),
-            'perPage'  => 5,
+            'perPage' => 5,
             'currentPage' => 2,
-            'append'   => false,
+            'append' => false,
             'fileName' => 'myfile.%d.php',
         );
         $this->pager = Pager::factory($options);
@@ -468,11 +507,12 @@ class TestOfPager extends UnitTestCase {
         $this->pager = Pager::factory($options);
         $this->assertEqual('', $this->pager->_getFirstLinkTag());
     }
-    function testGetPrevLinkTag() {
+    public function testGetPrevLinkTag()
+    {
         //append = true
         $options = array(
             'itemData' => array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10),
-            'perPage'  => 5,
+            'perPage' => 5,
             'currentPage' => 2,
         );
         $this->pager = Pager::factory($options);
@@ -482,9 +522,9 @@ class TestOfPager extends UnitTestCase {
         //append = false
         $options = array(
             'itemData' => array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10),
-            'perPage'  => 5,
+            'perPage' => 5,
             'currentPage' => 2,
-            'append'   => false,
+            'append' => false,
             'fileName' => 'myfile.%d.php',
         );
         $this->pager = Pager::factory($options);
@@ -496,43 +536,46 @@ class TestOfPager extends UnitTestCase {
         $this->pager = Pager::factory($options);
         $this->assertEqual('', $this->pager->_getPrevLinkTag());
     }
-    function testPrintFirstPage() {
+    public function testPrintFirstPage()
+    {
         $options = array(
             'itemData' => array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10),
-            'perPage'  => 5,
+            'perPage' => 5,
             'currentPage' => 2,
         );
         $this->pager = Pager::factory($options);
-        $expected = '<a href="' . $_SERVER['PHP_SELF'] . '?pageID=1" title="first page">[1]</a>&nbsp;';
+        $expected = '<a href="'.$_SERVER['PHP_SELF'].'?pageID=1" title="first page">[1]</a>&nbsp;';
         $this->assertEqual($expected, $this->pager->_printFirstPage());
 
         $this->pager->_firstPageText = 'FIRST';
-        $expected = '<a href="' . $_SERVER['PHP_SELF'] . '?pageID=1" title="first page">[FIRST]</a>&nbsp;';
+        $expected = '<a href="'.$_SERVER['PHP_SELF'].'?pageID=1" title="first page">[FIRST]</a>&nbsp;';
         $this->assertEqual($expected, $this->pager->_printFirstPage());
 
         $options = array(
             'itemData' => array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10),
-            'perPage'  => 5,
+            'perPage' => 5,
             'currentPage' => 2,
             'altFirst' => 'page %d',
         );
         $this->pager = Pager::factory($options);
-        $expected = '<a href="' . $_SERVER['PHP_SELF'] . '?pageID=1" title="page 1">[1]</a>&nbsp;';
+        $expected = '<a href="'.$_SERVER['PHP_SELF'].'?pageID=1" title="page 1">[1]</a>&nbsp;';
         $this->assertEqual($expected, $this->pager->_printFirstPage());
     }
-    function testPrintLastPage() {
-        $expected = '<a href="' . $_SERVER['PHP_SELF'] . '?pageID=2" title="last page">[2]</a>';
+    public function testPrintLastPage()
+    {
+        $expected = '<a href="'.$_SERVER['PHP_SELF'].'?pageID=2" title="last page">[2]</a>';
         $this->assertEqual($expected, $this->pager->_printLastPage());
 
         $this->pager->_lastPageText = 'LAST';
-        $expected = '<a href="' . $_SERVER['PHP_SELF'] . '?pageID=2" title="last page">[LAST]</a>';
+        $expected = '<a href="'.$_SERVER['PHP_SELF'].'?pageID=2" title="last page">[LAST]</a>';
         $this->assertEqual($expected, $this->pager->_printLastPage());
 
         $this->pager->_altLast = 'page %d';
-        $expected = '<a href="' . $_SERVER['PHP_SELF'] . '?pageID=2" title="page 2">[LAST]</a>';
+        $expected = '<a href="'.$_SERVER['PHP_SELF'].'?pageID=2" title="page 2">[LAST]</a>';
         $this->assertEqual($expected, $this->pager->_printLastPage());
     }
-    function testGetPageLinks() {
+    public function testGetPageLinks()
+    {
         $links = $this->pager->_getPageLinks();
         $this->assertTrue(false !== strpos($links, 'title="page 2"'));
         $this->pager->setOptions(array('altPage' => '%d page'));
@@ -540,23 +583,25 @@ class TestOfPager extends UnitTestCase {
         $links = $this->pager->_getPageLinks();
         $this->assertTrue(false !== strpos($links, 'title="2 page"'));
     }
-    function testGetBackLink() {
+    public function testGetBackLink()
+    {
         $img = '&laquo;';
         $options = array(
             'itemData' => array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10),
-            'perPage'  => 5,
+            'perPage' => 5,
             'currentPage' => 2,
             'prevImg' => $img,
         );
         $this->pager = Pager::factory($options);
-        $expected = '<a href="' . $_SERVER['PHP_SELF'] . '?pageID=1" title="previous page">'.$img.'</a>&nbsp;';
+        $expected = '<a href="'.$_SERVER['PHP_SELF'].'?pageID=1" title="previous page">'.$img.'</a>&nbsp;';
         $this->assertEqual($expected, $this->pager->_getBackLink());
     }
-    function testGetBackLinkEmpty() {
+    public function testGetBackLinkEmpty()
+    {
         $img = '[FIRST]';
         $options = array(
             'itemData' => array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10),
-            'perPage'  => 5,
+            'perPage' => 5,
         );
         $this->pager = Pager::factory($options);
         $expected = '';
@@ -567,23 +612,25 @@ class TestOfPager extends UnitTestCase {
         $expected = $img.'&nbsp;';
         $this->assertEqual($expected, $this->pager->_getBackLink());
     }
-    function testGetNexLink() {
+    public function testGetNexLink()
+    {
         $img = '&raquo;';
         $options = array(
             'itemData' => array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10),
-            'perPage'  => 5,
+            'perPage' => 5,
             'currentPage' => 1,
             'nextImg' => $img,
         );
         $this->pager = Pager::factory($options);
-        $expected = '&nbsp;<a href="' . $_SERVER['PHP_SELF'] . '?pageID=2" title="next page">'.$img.'</a>&nbsp;';
+        $expected = '&nbsp;<a href="'.$_SERVER['PHP_SELF'].'?pageID=2" title="next page">'.$img.'</a>&nbsp;';
         $this->assertEqual($expected, $this->pager->_getNextLink());
     }
-    function testGetNexLinkEmpty() {
+    public function testGetNexLinkEmpty()
+    {
         $img = '[LAST]';
         $options = array(
             'itemData' => array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10),
-            'perPage'  => 5,
+            'perPage' => 5,
             'currentPage' => 2,
         );
         $this->pager = Pager::factory($options);
@@ -595,18 +642,19 @@ class TestOfPager extends UnitTestCase {
         $expected = '&nbsp;'.$img.'&nbsp;';
         $this->assertEqual($expected, $this->pager->_getNextLink());
     }
-    function testHttpMethodAutoDetect() {
+    public function testHttpMethodAutoDetect()
+    {
         $_POST['pageID'] = 3;
         $options = array(
             'itemData' => array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10),
-            'perPage'  => 5,
+            'perPage' => 5,
         );
         $this->pager = Pager::factory($options);
         $this->assertEqual('POST', $this->pager->_httpMethod);
 
         $options = array(
             'itemData' => array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10),
-            'perPage'  => 5,
+            'perPage' => 5,
             'httpMethod' => 'GET',
         );
         $this->pager = Pager::factory($options);
@@ -616,7 +664,7 @@ class TestOfPager extends UnitTestCase {
 
         $options = array(
             'itemData' => array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10),
-            'perPage'  => 5,
+            'perPage' => 5,
             'httpMethod' => 'POST',
         );
         $this->pager = Pager::factory($options);
@@ -624,23 +672,25 @@ class TestOfPager extends UnitTestCase {
 
         $options = array(
             'itemData' => array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10),
-            'perPage'  => 5,
+            'perPage' => 5,
         );
         $this->pager = Pager::factory($options);
         $this->assertEqual('GET', $this->pager->_httpMethod);
     }
-    function testAccesskey() {
+    public function testAccesskey()
+    {
         $options = array(
             'itemData' => array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10),
-            'perPage'  => 5,
+            'perPage' => 5,
             'accesskey' => true,
         );
         $this->pager = Pager::factory($options);
         $this->assertPattern('/accesskey="\d"/i', $this->pager->links);
         //var_dump($this->pager->links);
     }
-    function testIsEncoded() {
-    //var_dump(urlencode('&#50504;&#45397;'));
+    public function testIsEncoded()
+    {
+        //var_dump(urlencode('&#50504;&#45397;'));
         $test_strings_encoded = array(
             'encoded0' => '&#35797;',
             'encoded1' => '&#27979;&#35797;',
@@ -666,29 +716,32 @@ class TestOfPager extends UnitTestCase {
             $this->assertFalse($this->pager->_isEncoded($string));
         }
     }
-    function testGetOption() {
+    public function testGetOption()
+    {
         $this->assertEqual(5, $this->pager->getOption('perPage'));
         $err = $this->pager->getOption('non_existent_option');
         $this->assertEqual(ERROR_PAGER_INVALID, $err->getCode());
     }
-    function testGetOptions() {
+    public function testGetOptions()
+    {
         $options = $this->pager->getOptions();
         $this->assertTrue(is_array($options));
         $this->assertEqual(5, $options['perPage']);
     }
-    function testSetOptionsAndBuild() {
+    public function testSetOptionsAndBuild()
+    {
         $options = array(
-            'perPage'  => 2,
+            'perPage' => 2,
         );
         $this->pager->setOptions($options);
         $this->pager->build();
         $this->assertEqual(2, $this->pager->getOption('perPage'));
-        $this->assertEqual(array(0=>1, 1=>2), $this->pager->getPageData());
-        $this->assertEqual(array(2=>3, 3=>4), $this->pager->getPageData(2));
+        $this->assertEqual(array(0 => 1, 1 => 2), $this->pager->getPageData());
+        $this->assertEqual(array(2 => 3, 3 => 4), $this->pager->getPageData(2));
 
         $options = array(
             'currentPage' => 2,
-            'append'   => false,
+            'append' => false,
             'fileName' => 'myfile.%d.php',
         );
         $this->pager->setOptions($options);
@@ -696,35 +749,37 @@ class TestOfPager extends UnitTestCase {
         $expected = '<link rel="previous" href="'.$this->baseurl.'/myfile.1.php" title="previous page" />'."\n";
         $this->assertEqual($expected, $this->pager->_getPrevLinkTag());
     }
-    function testRelativeLinks() {
+    public function testRelativeLinks()
+    {
         $fileName = array_pop(explode('/', $_SERVER['PHP_SELF']));
         $options = array(
-            'mode'     => 'Sliding',
-            'path'     => '',
+            'mode' => 'Sliding',
+            'path' => '',
             'fileName' => $fileName,
             'itemData' => range('a', 'z'),
             'spacesBeforeSeparator' => 0,
-            'spacesAfterSeparator'  => 0,
+            'spacesAfterSeparator' => 0,
         );
         $this->pager = Pager::factory($options);
-        $expected = '<a href="' . $fileName . '?pageID=2" title="next page">&raquo;</a>';
+        $expected = '<a href="'.$fileName.'?pageID=2" title="next page">&raquo;</a>';
         $this->assertEqual($expected, $this->pager->_getNextLink());
 
         $options = array(
-            'mode'     => 'Sliding',
+            'mode' => 'Sliding',
             'itemData' => range('a', 'z'),
             'spacesBeforeSeparator' => 0,
-            'spacesAfterSeparator'  => 0,
+            'spacesAfterSeparator' => 0,
         );
         $this->pager = Pager::factory($options);
         $this->pager->build();
-        $expected = '<a href="' . $_SERVER['PHP_SELF'] . '?pageID=2" title="next page">&raquo;</a>';
+        $expected = '<a href="'.$_SERVER['PHP_SELF'].'?pageID=2" title="next page">&raquo;</a>';
         $this->assertEqual($expected, $this->pager->_getNextLink());
     }
     //http://pear.php.net/bugs/bug.php?id=12306
-    function testAbsoluteLinks() {
+    public function testAbsoluteLinks()
+    {
         // Reproduces bug #13881
-        $options = array (
+        $options = array(
             'mode' => 'Sliding',
             'delta' => 5,
             'totalItems' => 50,
@@ -735,7 +790,7 @@ class TestOfPager extends UnitTestCase {
             'path' => '',
             'fileName' => '/report/alpha/page/%d/orderBy/foo/direction/asc',
             'spacesBeforeSeparator' => 0,
-            'spacesAfterSeparator'  => 0,
+            'spacesAfterSeparator' => 0,
         );
         $this->pager = Pager::factory($options);
         $this->pager->build();
@@ -750,10 +805,11 @@ class TestOfPager extends UnitTestCase {
         $this->assertEqual($expected, $this->pager->_getNextLink());
     }
     //http://pear.php.net/bugs/bug.php?id=13913
-    function testEmptyPagerWithImgEmpty() {
+    public function testEmptyPagerWithImgEmpty()
+    {
         $options = array(
             'itemData' => range(1, 2),
-            'perPage'  => 5,
+            'perPage' => 5,
             'prevImgEmpty' => 'YYY',
             'nextImgEmpty' => 'XXX',
         );
@@ -767,4 +823,3 @@ if (!defined('TEST_RUNNING')) {
     $test = new TestOfPager();
     $test->run(new HtmlReporter());
 }
-?>

@@ -10,9 +10,10 @@ require_once './pager_tests.php';
 require_once './pager_jumping_tests.php';
 require_once './pager_sliding_tests.php';
 
-
-class AllTests extends GroupTest {
-    function AllTests() {
+class AllTests extends GroupTest
+{
+    public function AllTests()
+    {
         $this->GroupTest('All PEAR::Pager Tests');
         $this->AddTestCase(new PagerTests());
         $this->AddTestCase(new PagerJumpingTests());
@@ -22,4 +23,3 @@ class AllTests extends GroupTest {
 
 $test = new AllTests();
 $test->run(new HtmlReporter());
-?>

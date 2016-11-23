@@ -1,8 +1,9 @@
 <?php
+
 /* vim: set expandtab tabstop=4 shiftwidth=4: */
 
 /**
- * Contains the Calendar_Second class
+ * Contains the Calendar_Second class.
  *
  * PHP versions 4 and 5
  *
@@ -28,16 +29,19 @@
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
  * @category  Date and Time
- * @package   Calendar
+ *
  * @author    Harry Fuecks <hfuecks@phppatterns.com>
  * @copyright 2003-2007 Harry Fuecks
  * @license   http://www.debian.org/misc/bsd.license  BSD License (3 Clause)
+ *
  * @version   CVS: $Id: Second.php,v 1.4 2007/10/31 18:26:41 quipo Exp $
+ *
  * @link      http://pear.php.net/package/Calendar
  */
 
 /**
- * Allows Calendar include path to be redefined
+ * Allows Calendar include path to be redefined.
+ *
  * @ignore
  */
 if (!defined('CALENDAR_ROOT')) {
@@ -45,27 +49,27 @@ if (!defined('CALENDAR_ROOT')) {
 }
 
 /**
- * Load Calendar base class
+ * Load Calendar base class.
  */
 require_once CALENDAR_ROOT.'Calendar.php';
 
 /**
  * Represents a Second<br />
  * <b>Note:</b> Seconds do not build other objects
- * so related methods are overridden to return NULL
+ * so related methods are overridden to return NULL.
  *
  * @category  Date and Time
- * @package   Calendar
+ *
  * @author    Harry Fuecks <hfuecks@phppatterns.com>
  * @copyright 2003-2007 Harry Fuecks
  * @license   http://www.debian.org/misc/bsd.license  BSD License (3 Clause)
+ *
  * @link      http://pear.php.net/package/Calendar
- * @access    public
  */
-class Calendar_Second extends Calendar
+class calendar_Second extends Calendar
 {
     /**
-     * Constructs Second
+     * Constructs Second.
      *
      * @param int $y year e.g. 2003
      * @param int $m month e.g. 5
@@ -74,49 +78,40 @@ class Calendar_Second extends Calendar
      * @param int $i minute e.g. 31
      * @param int $s second e.g. 45
      */
-    function Calendar_Second($y, $m, $d, $h, $i, $s)
+    public function Calendar_Second($y, $m, $d, $h, $i, $s)
     {
         Calendar::Calendar($y, $m, $d, $h, $i, $s);
     }
 
     /**
-     * Overwrite build
-     *
-     * @return NULL
+     * Overwrite build.
      */
-    function build()
+    public function build()
     {
         return null;
     }
 
     /**
-     * Overwrite fetch
-     *
-     * @return NULL
+     * Overwrite fetch.
      */
-    function fetch()
+    public function fetch()
     {
         return null;
     }
 
     /**
-     * Overwrite fetchAll
-     *
-     * @return NULL
+     * Overwrite fetchAll.
      */
-    function fetchAll()
+    public function fetchAll()
     {
         return null;
     }
 
     /**
-     * Overwrite size
-     *
-     * @return NULL
+     * Overwrite size.
      */
-    function size()
+    public function size()
     {
         return null;
     }
 }
-?>

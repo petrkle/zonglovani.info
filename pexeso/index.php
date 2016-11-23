@@ -1,20 +1,21 @@
 <?php
-require('../init.php');
-require('../func.php');
 
-$titulek='Žonglérské pexeso';
+require '../init.php';
+require '../func.php';
 
-$smarty->assign('titulek',$titulek);
+$titulek = 'Žonglérské pexeso';
 
-$smarty->assign('keywords','pexeso, žonglování, tisk');
-$smarty->assign('description','Speciální žonglérské pexeso');
-$smarty->assign('nahled','https://'.$_SERVER['SERVER_NAME'].'/img/z/zonglerske-pexeso.jpg');
+$smarty->assign('titulek', $titulek);
 
-$dalsi=array(
-	array('url'=>'/micky/jak-zacit.html','text'=>'Jak začít žonglovat s míčky','title'=>'Návod na žonglování se třemi míčky'),
-	array('url'=>'http://www.pexeso.net/zonglovani/05C7B','text'=>'Zahrát si žonglérské pexeso on-line','title'=>'pexeso.net'),
-	);
-$smarty->assign('dalsi',$dalsi);
+$smarty->assign('keywords', 'pexeso, žonglování, tisk');
+$smarty->assign('description', 'Speciální žonglérské pexeso');
+$smarty->assign('nahled', 'https://'.$_SERVER['SERVER_NAME'].'/img/z/zonglerske-pexeso.jpg');
+
+$dalsi = array(
+    array('url' => '/micky/jak-zacit.html', 'text' => 'Jak začít žonglovat s míčky', 'title' => 'Návod na žonglování se třemi míčky'),
+    array('url' => 'http://www.pexeso.net/zonglovani/05C7B', 'text' => 'Zahrát si žonglérské pexeso on-line', 'title' => 'pexeso.net'),
+    );
+$smarty->assign('dalsi', $dalsi);
 
 $trail = new Trail();
 $trail->addStep($titulek);

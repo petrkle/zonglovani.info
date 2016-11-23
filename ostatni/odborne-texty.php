@@ -1,27 +1,28 @@
 <?php
-require('../init.php');
-require('../func.php');
 
-$titulek='Odborné texty o žonglování';
+require '../init.php';
+require '../func.php';
 
-$smarty->assign('titulek',$titulek);
-$smarty->assign('feedback',true);
+$titulek = 'Odborné texty o žonglování';
 
-$smarty->assign('keywords',make_keywords($titulek).', žonglování, tisk, pdf');
-$smarty->assign('description','České odborné práce o žonglování.');
+$smarty->assign('titulek', $titulek);
+$smarty->assign('feedback', true);
 
-$smarty->assign('nahled','https://'.$_SERVER['SERVER_NAME'].'/img/e/etitb.jpg');
+$smarty->assign('keywords', make_keywords($titulek).', žonglování, tisk, pdf');
+$smarty->assign('description', 'České odborné práce o žonglování.');
+
+$smarty->assign('nahled', 'https://'.$_SERVER['SERVER_NAME'].'/img/e/etitb.jpg');
 
 $trail = new Trail();
-$trail->addStep('Informace o žonglování','/ostatni.html');
-$trail->addStep('Literatura','/literatura.html');
+$trail->addStep('Informace o žonglování', '/ostatni.html');
+$trail->addStep('Literatura', '/literatura.html');
 $trail->addStep('Odborné texty');
 
-$dalsi=array(
-	array('url'=>'/literatura.html','text'=>'Literatura o žonglování','title'=>'Knížky o žonglovani'),
-	array('url'=>'/isbn.html','text'=>'ISBN žonglérova slabikáře','title'=>'ISBN 978-80-260-6534-0'),
-	);
-$smarty->assign('dalsi',$dalsi);
+$dalsi = array(
+    array('url' => '/literatura.html', 'text' => 'Literatura o žonglování', 'title' => 'Knížky o žonglovani'),
+    array('url' => '/isbn.html', 'text' => 'ISBN žonglérova slabikáře', 'title' => 'ISBN 978-80-260-6534-0'),
+    );
+$smarty->assign('dalsi', $dalsi);
 
 $smarty->assign('trail', $trail->path);
 $smarty->display('hlavicka.tpl');

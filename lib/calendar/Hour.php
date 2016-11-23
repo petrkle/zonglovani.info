@@ -1,8 +1,9 @@
 <?php
+
 /* vim: set expandtab tabstop=4 shiftwidth=4: */
 
 /**
- * Contains the Calendar_Hour class
+ * Contains the Calendar_Hour class.
  *
  * PHP versions 4 and 5
  *
@@ -28,16 +29,19 @@
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
  * @category  Date and Time
- * @package   Calendar
+ *
  * @author    Harry Fuecks <hfuecks@phppatterns.com>
  * @copyright 2003-2007 Harry Fuecks
  * @license   http://www.debian.org/misc/bsd.license  BSD License (3 Clause)
+ *
  * @version   CVS: $Id: Hour.php,v 1.6 2007/11/24 11:04:24 quipo Exp $
+ *
  * @link      http://pear.php.net/package/Calendar
  */
 
 /**
- * Allows Calendar include path to be redefined
+ * Allows Calendar include path to be redefined.
+ *
  * @ignore
  */
 if (!defined('CALENDAR_ROOT')) {
@@ -45,7 +49,7 @@ if (!defined('CALENDAR_ROOT')) {
 }
 
 /**
- * Load Calendar base class
+ * Load Calendar base class.
  */
 require_once CALENDAR_ROOT.'Calendar.php';
 
@@ -58,47 +62,44 @@ require_once CALENDAR_ROOT.'Calendar.php';
  * while ($Minute = & $Hour->fetch()) {
  *     echo $Minute->thisMinute().'<br />';
  * }
- * </code>
+ * </code>.
  *
  * @category  Date and Time
- * @package   Calendar
+ *
  * @author    Harry Fuecks <hfuecks@phppatterns.com>
  * @copyright 2003-2007 Harry Fuecks
  * @license   http://www.debian.org/misc/bsd.license  BSD License (3 Clause)
+ *
  * @link      http://pear.php.net/package/Calendar
- * @access    public
  */
-class Calendar_Hour extends Calendar
+class calendar_Hour extends Calendar
 {
     /**
-     * Constructs Calendar_Hour
+     * Constructs Calendar_Hour.
      *
      * @param int $y year e.g. 2003
      * @param int $m month e.g. 5
      * @param int $d day e.g. 11
      * @param int $h hour e.g. 13
-     *
-     * @access public
      */
-    function Calendar_Hour($y, $m, $d, $h)
+    public function Calendar_Hour($y, $m, $d, $h)
     {
         Calendar::Calendar($y, $m, $d, $h);
     }
 
     /**
-     * Builds the Minutes in the Hour
+     * Builds the Minutes in the Hour.
      *
      * @param array $sDates (optional) Calendar_Minute objects representing selected dates
      *
-     * @return boolean
-     * @access public
+     * @return bool
      */
-    function build($sDates = array())
+    public function build($sDates = array())
     {
         include_once CALENDAR_ROOT.'Minute.php';
         $mIH = $this->cE->getMinutesInHour($this->year, $this->month, $this->day,
                            $this->hour);
-        for ($i=0; $i < $mIH; $i++) {
+        for ($i = 0; $i < $mIH; ++$i) {
             $this->children[$i] =
                 new Calendar_Minute($this->year, $this->month, $this->day,
                            $this->hour, $i);
@@ -106,26 +107,23 @@ class Calendar_Hour extends Calendar
         if (count($sDates) > 0) {
             $this->setSelection($sDates);
         }
+
         return true;
     }
 
     /**
-     * Called from build()
+     * Called from build().
      *
      * @param array $sDates Calendar_Minute objects representing selected dates
-     *
-     * @return void
-     * @access private
      */
-    function setSelection($sDates)
+    public function setSelection($sDates)
     {
         foreach ($sDates as $sDate) {
             if ($this->year == $sDate->thisYear()
                 && $this->month == $sDate->thisMonth()
                 && $this->day == $sDate->thisDay()
-                && $this->hour == $sDate->thisHour())
-            {
-                $key = (int)$sDate->thisMinute();
+                && $this->hour == $sDate->thisHour()) {
+                $key = (int) $sDate->thisMinute();
                 if (isset($this->children[$key])) {
                     $sDate->setSelected();
                     $this->children[$key] = $sDate;
@@ -134,4 +132,3 @@ class Calendar_Hour extends Calendar
         }
     }
 }
-?>

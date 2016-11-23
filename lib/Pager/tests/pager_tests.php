@@ -4,8 +4,10 @@
 require_once 'simple_include.php';
 require_once 'pager_include.php';
 
-class PagerTests extends GroupTest {
-    function PagerTests() {
+class PagerTests extends GroupTest
+{
+    public function PagerTests()
+    {
         $this->GroupTest('Pager Tests');
         $this->addTestFile('pager_test.php');
         $this->addTestFile('pager_noData_test.php');
@@ -17,4 +19,3 @@ if (!defined('TEST_RUNNING')) {
     $test = new PagerTests();
     $test->run(new HtmlReporter());
 }
-?>

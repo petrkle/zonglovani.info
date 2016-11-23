@@ -4,45 +4,56 @@
 require_once 'simple_include.php';
 require_once 'pager_include.php';
 
-class TestOfPagerNoData extends UnitTestCase {
-    var $pager;
-    function TestOfPagerNoData($name='Test of Pager - no data') {
+class TestOfPagerNoData extends UnitTestCase
+{
+    public $pager;
+    public function TestOfPagerNoData($name = 'Test of Pager - no data')
+    {
         $this->UnitTestCase($name);
     }
-    function setUp() {
+    public function setUp()
+    {
         $options = array(
             'totalItems' => 0,
-            'perPage'    => 5,
-            'mode'       => 'Sliding',
+            'perPage' => 5,
+            'mode' => 'Sliding',
         );
         $this->pager = Pager::factory($options);
     }
-    function tearDown() {
+    public function tearDown()
+    {
         unset($this->pager);
     }
-    function testCurrentPageID () {
+    public function testCurrentPageID()
+    {
         $this->assertEqual(0, $this->pager->getCurrentPageID());
     }
-    function testNextPageID () {
+    public function testNextPageID()
+    {
         $this->assertEqual(false, $this->pager->getNextPageID());
     }
-    function testPrevPageID () {
+    public function testPrevPageID()
+    {
         $this->assertEqual(false, $this->pager->getPreviousPageID());
     }
-    function testNumItems () {
+    public function testNumItems()
+    {
         $this->assertEqual(0, $this->pager->numItems());
     }
-    function testNumPages () {
+    public function testNumPages()
+    {
         $this->assertEqual(0, $this->pager->numPages());
     }
-    function testFirstPage () {
+    public function testFirstPage()
+    {
         $this->assertEqual(true, $this->pager->isFirstPage());
     }
-    function testLastPage () {
+    public function testLastPage()
+    {
         $this->assertEqual(true, $this->pager->isLastPage());
     }
-    function testLastPageComplete () {
+    public function testLastPageComplete()
+    {
         $this->assertEqual(true, $this->pager->isLastPageComplete());
     }
 }
-?>

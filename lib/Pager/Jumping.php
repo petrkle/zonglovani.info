@@ -1,8 +1,9 @@
 <?php
+
 /* vim: set expandtab tabstop=4 shiftwidth=4 softtabstop=4: */
 
 /**
- * Contains the Pager_Jumping class
+ * Contains the Pager_Jumping class.
  *
  * PHP versions 4 and 5
  *
@@ -28,17 +29,19 @@
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
  * @category  HTML
- * @package   Pager
+ *
  * @author    Lorenzo Alberton <l.alberton@quipo.it>
  * @author    Richard Heyes <richard@phpguru.org>
  * @copyright 2003-2008 Lorenzo Alberton, Richard Heyes
  * @license   http://www.debian.org/misc/bsd.license  BSD License (3 Clause)
+ *
  * @version   CVS: $Id: Jumping.php,v 1.20 2008/03/05 13:57:45 quipo Exp $
+ *
  * @link      http://pear.php.net/package/Pager
  */
 
 /**
- * require PEAR::Pager_Common base class
+ * require PEAR::Pager_Common base class.
  */
 require_once $_SERVER['DOCUMENT_ROOT'].'/lib/Pager/Common.php';
 
@@ -47,11 +50,12 @@ require_once $_SERVER['DOCUMENT_ROOT'].'/lib/Pager/Common.php';
  * Handles paging a set of data. For usage see the example.php provided.
  *
  * @category  HTML
- * @package   Pager
+ *
  * @author    Lorenzo Alberton <l.alberton@quipo.it>
  * @author    Richard Heyes <richard@phpguru.org>
  * @copyright 2003-2008 Lorenzo Alberton, Richard Heyes
  * @license   http://www.debian.org/misc/bsd.license  BSD License (3 Clause)
+ *
  * @link      http://pear.php.net/package/Pager
  */
 class Pager_Jumping extends Pager_Common
@@ -59,13 +63,11 @@ class Pager_Jumping extends Pager_Common
     // {{{ Pager_Jumping()
 
     /**
-     * Constructor
+     * Constructor.
      *
      * @param array $options Associative array of option names and their values
-     *
-     * @access public
      */
-    function Pager_Jumping($options = array())
+    public function Pager_Jumping($options = array())
     {
         $err = $this->setOptions($options);
         if ($err !== PAGER_OK) {
@@ -78,23 +80,24 @@ class Pager_Jumping extends Pager_Common
     // {{{ getPageIdByOffset()
 
     /**
-     * Returns pageID for given offset
+     * Returns pageID for given offset.
      *
-     * @param integer $index Offset to get pageID for
+     * @param int $index Offset to get pageID for
      *
      * @return int PageID for given offset
      */
-    function getPageIdByOffset($index)
+    public function getPageIdByOffset($index)
     {
         if (!isset($this->_pageData)) {
             $this->_generatePageData();
         }
 
         if (($index % $this->_perPage) > 0) {
-            $pageID = ceil((float)$index / (float)$this->_perPage);
+            $pageID = ceil((float) $index / (float) $this->_perPage);
         } else {
             $pageID = $index / $this->_perPage;
         }
+
         return $pageID;
     }
 
@@ -110,21 +113,21 @@ class Pager_Jumping extends Pager_Common
      * PageID of 11 would give you (11, 20).
      * If the method is called without parameter, pageID is set to currentPage#.
      *
-     * @param integer $pageid PageID to get offsets for
+     * @param int $pageid PageID to get offsets for
      *
-     * @return array  First and last offsets
-     * @access public
+     * @return array First and last offsets
      */
-    function getPageRangeByPageId($pageid = null)
+    public function getPageRangeByPageId($pageid = null)
     {
-        $pageid = isset($pageid) ? (int)$pageid : $this->_currentPage;
+        $pageid = isset($pageid) ? (int) $pageid : $this->_currentPage;
         if (isset($this->_pageData[$pageid]) || is_null($this->_itemData)) {
             // I'm sure I'm missing something here, but this formula works
             // so I'm using it until I find something simpler.
-            $start = ((($pageid + (($this->_delta - ($pageid % $this->_delta))) % $this->_delta) / $this->_delta) - 1) * $this->_delta +1;
+            $start = ((($pageid + (($this->_delta - ($pageid % $this->_delta))) % $this->_delta) / $this->_delta) - 1) * $this->_delta + 1;
+
             return array(
                 max($start, 1),
-                min($start+$this->_delta-1, $this->_totalPages)
+                min($start + $this->_delta - 1, $this->_totalPages),
             );
         } else {
             return array(0, 0);
@@ -145,20 +148,20 @@ class Pager_Jumping extends Pager_Common
      * the method act as it previously did. This hack's only purpose is to
      * mantain backward compatibility.
      *
-     * @param integer $pageID    Optional pageID. If specified, links for that 
-     *                           page are provided instead of current one.
-     *                           [ADDED IN NEW PAGER VERSION]
-     * @param string  $next_html HTML to put inside the next link
-     *                           [deprecated: use the factory instead]
+     * @param int    $pageID    Optional pageID. If specified, links for that
+     *                          page are provided instead of current one.
+     *                          [ADDED IN NEW PAGER VERSION]
+     * @param string $next_html HTML to put inside the next link
+     *                          [deprecated: use the factory instead]
      *
      * @return array Back/pages/next links
      */
-    function getLinks($pageID=null, $next_html='')
+    public function getLinks($pageID = null, $next_html = '')
     {
         //BC hack
         if (!empty($next_html)) {
             $back_html = $pageID;
-            $pageID    = null;
+            $pageID = null;
         } else {
             $back_html = '';
         }
@@ -180,13 +183,13 @@ class Pager_Jumping extends Pager_Common
             }
         }
 
-        $back        = str_replace('&nbsp;', '', $this->_getBackLink());
-        $next        = str_replace('&nbsp;', '', $this->_getNextLink());
-        $pages       = $this->_getPageLinks();
-        $first       = $this->_printFirstPage();
-        $last        = $this->_printLastPage();
-        $all         = $this->links;
-        $linkTags    = $this->linkTags;
+        $back = str_replace('&nbsp;', '', $this->_getBackLink());
+        $next = str_replace('&nbsp;', '', $this->_getNextLink());
+        $pages = $this->_getPageLinks();
+        $first = $this->_printFirstPage();
+        $last = $this->_printLastPage();
+        $all = $this->links;
+        $linkTags = $this->linkTags;
         $linkTagsRaw = $this->linkTagsRaw;
 
         if (!is_null($pageID)) {
@@ -201,13 +204,13 @@ class Pager_Jumping extends Pager_Common
             $last,
             $all,
             $linkTags,
-            'back'        => $back,
-            'pages'       => $pages,
-            'next'        => $next,
-            'first'       => $first,
-            'last'        => $last,
-            'all'         => $all,
-            'linktags'    => $linkTags,
+            'back' => $back,
+            'pages' => $pages,
+            'next' => $next,
+            'first' => $first,
+            'last' => $last,
+            'all' => $all,
+            'linktags' => $linkTags,
             'linkTagsRaw' => $linkTagsRaw,
         );
     }
@@ -216,15 +219,14 @@ class Pager_Jumping extends Pager_Common
     // {{{ _getPageLinks()
 
     /**
-     * Returns pages link
+     * Returns pages link.
      *
      * @param string $url URL to use in the link
      *                    [deprecated: use the constructor instead]
      *
      * @return string Links
-     * @access private
      */
-    function _getPageLinks($url = '')
+    public function _getPageLinks($url = '')
     {
         //legacy setting... the preferred way to set an option now
         //is adding it to the constuctor
@@ -240,21 +242,21 @@ class Pager_Jumping extends Pager_Common
         $links = '';
         $limits = $this->getPageRangeByPageId($this->_currentPage);
 
-        for ($i=$limits[0]; $i<=min($limits[1], $this->_totalPages); $i++) {
+        for ($i = $limits[0]; $i <= min($limits[1], $this->_totalPages); ++$i) {
             if ($i != $this->_currentPage) {
                 $this->range[$i] = false;
                 $this->_linkData[$this->_urlVar] = $i;
                 $links .= $this->_renderLink(str_replace('%d', $i, $this->_altPage), $i);
             } else {
                 $this->range[$i] = true;
-                $links .= $this->_curPageSpanPre . $i . $this->_curPageSpanPost;
+                $links .= $this->_curPageSpanPre.$i.$this->_curPageSpanPost;
             }
             $links .= $this->_spacesBefore
-                   . (($i != $this->_totalPages) ? $this->_separator.$this->_spacesAfter : '');
+                   .(($i != $this->_totalPages) ? $this->_separator.$this->_spacesAfter : '');
         }
+
         return $links;
     }
 
     // }}}
 }
-?>

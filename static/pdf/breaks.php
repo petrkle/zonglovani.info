@@ -1,6 +1,6 @@
 <?php
 
-$breaks_a4=array(
+$breaks_a4 = array(
 'micky-jak-zacit',
 'micky-3-dvojita-krabice',
 'micky-3-jablko',
@@ -31,13 +31,13 @@ $breaks_a4=array(
 'kuzely-passing-rypsilon',
 'kuzely-passing-trojuhelnik',
 'kuzely-passing-zpozdena-dvojka',
-#'',
-#'',
-#'',
-#'',
-#'',
-#'',
-#'',
-#'',
+//'',
+//'',
+//'',
+//'',
+//'',
+//'',
+//'',
+//'',
 
 );

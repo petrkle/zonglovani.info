@@ -1,136 +1,148 @@
 <?php
 
-if(preg_match('/index\.php\?znameni/',$_SERVER['REQUEST_URI'])){
-	header('HTTP/1.1 301 Moved Permanently');
-	header('Location: http://'.$_SERVER['HTTP_HOST'].preg_replace("/index\.php\?znameni=(.*)$/","\\1.html",$_SERVER["REQUEST_URI"]));
-	exit();
+if (preg_match('/index\.php\?znameni/', $_SERVER['REQUEST_URI'])) {
+    header('HTTP/1.1 301 Moved Permanently');
+    header('Location: http://'.$_SERVER['HTTP_HOST'].preg_replace("/index\.php\?znameni=(.*)$/", '\\1.html', $_SERVER['REQUEST_URI']));
+    exit();
 }
 
-if(preg_match('/horoskop-zitra\.php\?znameni/',$_SERVER['REQUEST_URI'])){
-	header('HTTP/1.1 301 Moved Permanently');
-	header("Location: http://".$_SERVER["HTTP_HOST"].preg_replace("/horoskop-zitra\.php\?znameni=(.*)$/","zitra/\\1.html",$_SERVER["REQUEST_URI"]));
-	exit();
+if (preg_match('/horoskop-zitra\.php\?znameni/', $_SERVER['REQUEST_URI'])) {
+    header('HTTP/1.1 301 Moved Permanently');
+    header('Location: http://'.$_SERVER['HTTP_HOST'].preg_replace("/horoskop-zitra\.php\?znameni=(.*)$/", 'zitra/\\1.html', $_SERVER['REQUEST_URI']));
+    exit();
 }
 
-function filtr($znameni,$zverokruh){
-	$hodnoty=array();
-	foreach($zverokruh as $key => $value) {
-		array_push($hodnoty,$key);
-	};
-	if(!in_array($znameni,$hodnoty)){$znameni=$hodnoty[0];};
-return $znameni;
-};
+function filtr($znameni, $zverokruh)
+{
+    $hodnoty = array();
+    foreach ($zverokruh as $key => $value) {
+        array_push($hodnoty, $key);
+    }
+    if (!in_array($znameni, $hodnoty)) {
+        $znameni = $hodnoty[0];
+    }
 
+    return $znameni;
+}
 
-function menu($soubor,$akt){
-global $zverokruh;
-$navrat="<div id=\"menu\"><ul>\n";
+function menu($soubor, $akt)
+{
+    global $zverokruh;
+    $navrat = "<div id=\"menu\"><ul>\n";
 
-foreach ($zverokruh as $key => $value) {
-  if($key==$akt)
-	{
-	  $navrat.="<li class=\"akt\"><strong>".$value["popis"]."</strong></li>\n";
-	}else{
-	  $navrat.="<li><a href=\"/horoskop/".$soubor.$key.".html\" title=\"".$value["od_den"].". ".$value["od_mesic"].". - ".$value["do_den"].". ".$value["do_mesic"]."\">".$value["popis"]."</a></li>\n";
-	};
-};
+    foreach ($zverokruh as $key => $value) {
+        if ($key == $akt) {
+            $navrat .= '<li class="akt"><strong>'.$value['popis']."</strong></li>\n";
+        } else {
+            $navrat .= '<li><a href="/horoskop/'.$soubor.$key.'.html" title="'.$value['od_den'].'. '.$value['od_mesic'].'. - '.$value['do_den'].'. '.$value['do_mesic'].'">'.$value['popis']."</a></li>\n";
+        }
+    }
 
-$navrat.="</ul></div>\n";
-return $navrat;
+    $navrat .= "</ul></div>\n";
 
-};
-function my_rand_ini($znameni,$time){
-/*
-	vrací pseudo náhodný řetězec čísel
-	závislé na aktuálním datu a zamení zvěrokruhu
+    return $navrat;
+}
+function my_rand_ini($znameni, $time)
+{
+    /*
+    vrací pseudo náhodný řetězec čísel
+    závislé na aktuálním datu a zamení zvěrokruhu
 */
-	global $zverokruh;
+    global $zverokruh;
 
-	$now=$time;
-	$out="";
-	$out.=abs(crc32(date("Yj",$now).$zverokruh[$znameni]["popis"]));
-	for($foo=0;$foo<20;$foo++){
-		$out.=abs(crc32($out));
-	};
-	$navrat=array();
-	for($foo=0;$foo<strlen($out);$foo++){
-		array_push($navrat,substr($out,$foo,1));
-	};
-	return $navrat;
-};
+    $now = $time;
+    $out = '';
+    $out .= abs(crc32(date('Yj', $now).$zverokruh[$znameni]['popis']));
+    for ($foo = 0; $foo < 20; ++$foo) {
+        $out .= abs(crc32($out));
+    }
+    $navrat = array();
+    for ($foo = 0; $foo < strlen($out); ++$foo) {
+        array_push($navrat, substr($out, $foo, 1));
+    }
 
-function prvni_velke($text){
-	return mb_convert_case(mb_substr($text,0,1,'UTF-8'), MB_CASE_TITLE, 'UTF-8').preg_replace('/^./u','',$text);
-};
+    return $navrat;
+}
 
-function prvni_male($text){
-	$prvni=substr($text,0,1);
-	$zbytek=substr($text,1);
-	$prvni=strtr($prvni,"ABCDEFGHIJKLMNOPQRSTUVWXYZ", "abcdefghijklmnopqrstuvwxyz");
-	$prvni=strtr($prvni,"ĚŠČŘŽÝÁÍÉŇĎŤÚŮ", "ěščřžýáíéňďťúů");
-	$navrat=$prvni.$zbytek;
-	return $navrat;
-};
+function prvni_velke($text)
+{
+    return mb_convert_case(mb_substr($text, 0, 1, 'UTF-8'), MB_CASE_TITLE, 'UTF-8').preg_replace('/^./u', '', $text);
+}
 
-function my_rand($min,$max){
-global $nahoda;
-$pole=array();
+function prvni_male($text)
+{
+    $prvni = substr($text, 0, 1);
+    $zbytek = substr($text, 1);
+    $prvni = strtr($prvni, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz');
+    $prvni = strtr($prvni, 'ĚŠČŘŽÝÁÍÉŇĎŤÚŮ', 'ěščřžýáíéňďťúů');
+    $navrat = $prvni.$zbytek;
 
-for($foo=$min;$foo<=$max;$foo++){
-	array_push($pole,$foo);
-};
+    return $navrat;
+}
 
-$cislo=array_pop($nahoda);
+function my_rand($min, $max)
+{
+    global $nahoda;
+    $pole = array();
 
-$kolikrat=$cislo;
+    for ($foo = $min; $foo <= $max; ++$foo) {
+        array_push($pole, $foo);
+    }
 
-$baz=0;
+    $cislo = array_pop($nahoda);
 
-do{
-	$navrat=$pole[$baz];
-	$baz++;
-	if($baz==count($pole)){$baz=0;};
-	$kolikrat--;
-	}while($kolikrat>=0);
+    $kolikrat = $cislo;
 
-return $navrat;
-};
+    $baz = 0;
 
-function sestav_vetu($cislo){
-	global $vety;
-	$navrat="";
+    do {
+        $navrat = $pole[$baz];
+        ++$baz;
+        if ($baz == count($pole)) {
+            $baz = 0;
+        }
+        --$kolikrat;
+    } while ($kolikrat >= 0);
 
-	for($foo=0;$foo<sizeof($vety[$cislo]);$foo++){
-		$bar=my_rand(0,sizeof($vety[$cislo][$foo])-1);
-		$navrat.=$vety[$cislo][$foo][$bar]." ";
-	};
+    return $navrat;
+}
 
-	$navrat=prvni_velke(trim($navrat)).".";
-	return $navrat;
-	};
+function sestav_vetu($cislo)
+{
+    global $vety;
+    $navrat = '';
 
-function predpoved($znameni,$time){
-global $zverokruh,$vety;
+    for ($foo = 0; $foo < sizeof($vety[$cislo]); ++$foo) {
+        $bar = my_rand(0, sizeof($vety[$cislo][$foo]) - 1);
+        $navrat .= $vety[$cislo][$foo][$bar].' ';
+    }
 
-$GLOBALS["nahoda"]=my_rand_ini($znameni,$time);
+    $navrat = prvni_velke(trim($navrat)).'.';
 
-$cisla=array();
+    return $navrat;
+}
 
+function predpoved($znameni, $time)
+{
+    global $zverokruh,$vety;
 
-while(count($cisla)<=4){
-$cislo=my_rand(0,(count($vety)-1));
-if(!in_array($cislo,$cisla)){
-array_push($cisla,$cislo);
-};
-};
+    $GLOBALS['nahoda'] = my_rand_ini($znameni, $time);
 
+    $cisla = array();
 
-$navrat="";
-for($foo=0;$foo<(sizeof($cisla)-1);$foo++){
-	$navrat.=prvni_velke(sestav_vetu($cisla[$foo]))." ";
-};	
+    while (count($cisla) <= 4) {
+        $cislo = my_rand(0, (count($vety) - 1));
+        if (!in_array($cislo, $cisla)) {
+            array_push($cisla, $cislo);
+        }
+    }
 
-$navrat=substr($navrat,0,-1);
+    $navrat = '';
+    for ($foo = 0; $foo < (sizeof($cisla) - 1); ++$foo) {
+        $navrat .= prvni_velke(sestav_vetu($cisla[$foo])).' ';
+    }
 
-return $navrat;
-};
+    $navrat = substr($navrat, 0, -1);
+
+    return $navrat;
+}

@@ -1,9 +1,10 @@
 <?php
-require_once('init.php');
-require_once('func.php');
+
+require_once 'init.php';
+require_once 'func.php';
 
 header('HTTP/1.0 403 Forbidden');
-$smarty->assign('titulek','Přístup zakázán');
+$smarty->assign('titulek', 'Přístup zakázán');
 
 $trail = new Trail();
 $trail->addStep('Zakázaná stránka');

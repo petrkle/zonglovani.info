@@ -1,24 +1,25 @@
 <?php
-require('../init.php');
-require('../func.php');
-require('../cache.php');
+
+require '../init.php';
+require '../func.php';
+require '../cache.php';
 http_cache_headers(3600);
 
-$titulek='Žonglování s kužely';
-$smarty->assign('feedback',true);
-$smarty->assign('titulek',$titulek);
+$titulek = 'Žonglování s kužely';
+$smarty->assign('feedback', true);
+$smarty->assign('titulek', $titulek);
 $trail = new Trail();
-$trail->addStep('Kužely','/kuzely/');
+$trail->addStep('Kužely', '/kuzely/');
 
-$smarty->assign('keywords',make_keywords($titulek));
-$smarty->assign('description','Jak žonglovat s kužely. Základní návod pro tři kuželky, ale i pokročilé passovací vzory.');
-$smarty->assign('nahled','https://'.$_SERVER['SERVER_NAME'].'/img/n/nacinid.png');
+$smarty->assign('keywords', make_keywords($titulek));
+$smarty->assign('description', 'Jak žonglovat s kužely. Základní návod pro tři kuželky, ale i pokročilé passovací vzory.');
+$smarty->assign('nahled', 'https://'.$_SERVER['SERVER_NAME'].'/img/n/nacinid.png');
 
-$dalsi=array(
-	array('url'=>'/kuzely/passing/','text'=>'Passing','title'=>'Žonglování ve více lidech'),
-	);
+$dalsi = array(
+    array('url' => '/kuzely/passing/', 'text' => 'Passing', 'title' => 'Žonglování ve více lidech'),
+    );
 
-$smarty->assign('dalsi',$dalsi);
+$smarty->assign('dalsi', $dalsi);
 
 $smarty->assign('trail', $trail->path);
 $smarty->display('hlavicka.tpl');
