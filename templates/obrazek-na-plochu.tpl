@@ -4,4 +4,4 @@
 
 {include file='obrazek-na-plochu-odkazy.tpl'}
 
-{include file='paypal.tpl'}
+{include file='sponzor.tpl'}

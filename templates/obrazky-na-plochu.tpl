@@ -8,4 +8,4 @@ Tapety na plochu počítače s žonglérskou tématikou.
 {/foreach}
 {/if}
 
-{include file='paypal.tpl'}
+{include file='sponzor.tpl'}
