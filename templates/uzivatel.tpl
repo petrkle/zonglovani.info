@@ -46,7 +46,7 @@ Stránku odebereš z oblíbených kliknutím na obrázek žluté hvězdičky {ob
 <ul>
 <li class="skryte"><span class="nickname">{$uzivatel_props.login|escape}</span></li>
 {if isset($uzivatel_props.web) and strlen($uzivatel_props.web)>0}
-<li>Web: <a href="{$uzivatel_props.web|escape}" title="Internetová stránka uživatele {$uzivatel_props.jmeno|escape}"{if !preg_match('/^http:\/\/zonglovani.info.*/',$uzivatel_props.web)} class="external url" rel="nofollow"{/if}>{$uzivatel_props.web|replace:'http://':''|regex_replace:'/^www\./':''|regex_replace:'/\/$/':''|truncate:40:'...':false|escape}</a></li>
+<li>Web: <a href="{$uzivatel_props.web|escape}" title="Internetová stránka uživatele {$uzivatel_props.jmeno|escape}"{if !preg_match('/^https:\/\/zonglovani.info.*/',$uzivatel_props.web)} class="external url wrap" rel="nofollow"{/if}>{$uzivatel_props.web|replace:'http://':''|regex_replace:'/^www\./':''|regex_replace:'/\/$/':''|truncate:40:'...':false|escape}</a></li>
 {/if}
 {if isset($uzivatel_props.tel)}
 <li>Tel.: {$uzivatel_props.tel|telobfuscate}</li>

@@ -95,3 +95,4 @@ li{padding:5px 0;margin:10px 0;}
 hr.d{border:0;border-bottom:1px dashed #999;margin:2em 0;width:100%;}
 .nahled{display:block;float:left;width:150px;height:150px;background:#eee;border:solid 1px;border-color:#aaa #444 #444 #aaa;margin:5px;}
 .nahled img{border:solid 1px;border-color:#444 #aaa #aaa #444;margin:10px;}
+.wrap{overflow-wrap:break-word;word-wrap: break-word;-ms-word-break: break-all;word-break: break-all;word-break: break-word;hyphens: auto;}
