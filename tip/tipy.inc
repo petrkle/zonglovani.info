@@ -431,12 +431,14 @@
 2017-01-30*Hvězda*/kuzely/passing/star.html*kuzely-passing-stara.png*Passovací trik pro <strong>5 žonglérů</strong>. Někdy se mu také říká pětiúhelník.
 2017-02-06*Neúplná hvězda*/kuzely/passing/prebihani4z11k.html*kuzely-passing-prebihani4z11kc.png*Občas není dostatek žonglérů na úplnou <a href="https://zonglovani.info/kuzely/passing/star.html" title="Trik pro 5 žonglérů.">hvězdu</a> a pak je potřeba trochu běhat.
 2017-02-13*Rybičky*/kuzely/3/rybicky.html*rybickab.png*Obtížný způsob házení kuželů. Anglicky označovaný flat.
+2017-02-14*Svátek svatého Valentýna*/valentyn/*mdz.png*Svátek všech zamilovaných je ideální čas pro žonglování v páru.
+2017-02-15*Take It Out 3*/video/take-it-out-3.html*take-it-out3.jpg*Video, kde si Lukas Schütte a Christof Buch přebírají kužely.
 2017-02-20*501*/micky/2/501.html*501b.png*Cvičení se dvěma míčky. Může posloužit i jako trénink na kaskádu s pěti míčky.
 2017-02-27*Instalace žonglérova slabikáře*/download*download.png*Nainstaluj si žonglérův slabikář do počítače. Zjednodušená verze která jde používat i bez připojení k internetu. 
 2017-03-06*Chůdy*/chudy/*cirkusc.png*Diváci milují chůdy. Hlavně proto, že jsou zvědaví kdy chůdař spadne a šeredně si natluče. <a href="https://zonglovani.info/chudy/" title="Návod na výrobu chůd.">Návod na výrobu chůd</a>.
 2017-03-13*Poloviční sprcha*/micky/4/sprcha-polovicni.html*p4sprchac.png*Poloviční sprcha se čtyřmi míčky.
-2017-03-20*
-2017-03-27*
+2017-03-20*Neta Oren*/video/neta-oren.html*neta-oren-balls.jpg*Neta Oren z Izraele to s míčky opravdu umí.
+2017-03-27*Kalendář žonglérských akcí*/kalendar/*kalendar-nahled.png*Přehledný seznam míst, kde by správný žonglér neměl chybět. I ty můžeš přidat svojí akci.
 2017-04-03*
 2017-04-10*
 2017-04-17*
