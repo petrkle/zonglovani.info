@@ -159,6 +159,7 @@ if (isset($_POST['komu'])) {
             $smarty->assign('email', $email);
             $smarty->assign('vzkaz', $vzkaz);
             $smarty->assign('chyby', $chyby);
+            $smarty->assign('jscachebuster', uniqid());
             $smarty->display('hlavicka.tpl');
             $smarty->display('vzkaz.tpl');
             $smarty->display('paticka.tpl');
@@ -170,6 +171,7 @@ if (isset($_POST['komu'])) {
         $smarty->assign('antispam_otazka', $_SESSION['antispam_otazka']);
         $smarty->assign('antispam_odpoved', $_SESSION['antispam_odpoved']);
         $smarty->assign('komu', $komu);
+        $smarty->assign('jscachebuster', uniqid());
         $smarty->display('hlavicka.tpl');
         $smarty->display('vzkaz.tpl');
         $smarty->display('paticka.tpl');

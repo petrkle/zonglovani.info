@@ -36,6 +36,7 @@
 </ul>
 </fieldset>
 </p>
+<script src="/lide/antispam{$jscachebuster}.js" type="text/javascript"></script>
 
 <p class="vpravo">
 <input type="submit" name="odeslat" value="Odeslat" class="knoflik" tabindex="5" />
