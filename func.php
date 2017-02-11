@@ -139,7 +139,17 @@ function sort_by_jmeno_zonglera($a, $b)
 
 function get_antispam()
 {
-    $cislice = array('1' => 'jedna', '2' => 'dva', '3' => 'tři', '5' => 'pět', '7' => 'sedm', '8' => 'osm', '9' => 'devět');
+    $cislice = array(
+        '1' => 'jedna',
+        '2' => 'dva',
+        '3' => 'tři',
+        '4' => 'čtyři',
+        '5' => 'pět',
+        '6' => 'šest',
+        '7' => 'sedm',
+        '8' => 'osm',
+        '9' => 'devět',
+    );
     $znamenka = array('+' => 'plus', '-' => 'mínus', '*' => 'krát');
 
     $prvni = array_rand($cislice);
