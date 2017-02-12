@@ -28,12 +28,6 @@ Profesionální fireshow skupina.
 Žonglérská skupina Kruhová parabola.
 </p>
 
-<a name="cecilka"></a><h5><a href="http://cecilka.com" title="Cecilka" class="external">Cecilka</a></h5>
-<p>
-<a href="http://cecilka.com/" title="Cecilka">{obrazek soubor="cecilka.jpg" popisek="cecilka.com"}</a>
-Cecílie
-</p>
-
 <a name="kufr"></a><h5><a href="http://www.divadlokufr.cz" title="Divadlo Kufr" class="external">Divadlo Kufr</a></h5>
 <p>
 <a href="http://www.divadlokufr.cz" title="Divadlo Kufr">{obrazek soubor="kufr.png" popisek="Kufr"}</a>
@@ -89,13 +83,6 @@ Asociace pro současný cirkus.
 Didierovy stránky o žonglování - anglicky a francouzsky.
 </p>
 
-{*
-<a name="jugglingdb"></a><h5><a href="http://www.jugglingdb.com" title="Anglické stránky o žonglování." class="external">Internet Juggling Database</a></h5>
-<p>
-<a href="http://www.jugglingdb.com" title="Anglické stránky o žonglování.">{obrazek soubor="odkazy-jugglingdb.com.png" popisek="jugglingdb.com"}</a>
-Bezedná studna informací o žonglování.
-</p>
-
 <a name="jugglingorg"></a><h5><a href="http://www.juggling.org/" title="Anglické stránky o žonglování." class="external">Juggling Information Service</a></h5>
 <p>
 <a href="http://www.juggling.org/" title="Anglické stránky o žonglování.">{obrazek soubor="odkazy-juggling.org.png" popisek="juggling.org"}</a>
@@ -107,12 +94,17 @@ Informace pro žongléry.
 <a href="http://www.passingdb.com/" title="Anglické stránky o žonglování.">{obrazek soubor="odkazy-passingdb.com.png" popisek="passingdb.com"}</a>
 Informace o passování.
 </p>
-*}
 
 <a name="twjc"></a><h5><a href="http://www.twjc.co.uk/tutorials.html" title="Anglické stránky o žonglování." class="external">Tunbridge Wells Juggling Club Tutorials</a></h5>
 <p>
 <a href="http://www.twjc.co.uk/tutorials.html" title="Anglické stránky o žonglování.">{obrazek soubor="odkazy-twjc.png" popisek="twjc.co.uk"}</a>
 Textové návody na žonglování.
+</p>
+
+<a name="clubjugglingcom"></a><h5><a href="http://clubjuggling.com/contents.html" title="Anglické stránky o žonglování." class="external">Club Juggling</a></h5>
+<p>
+<a href="http://clubjuggling.com/contents.html" title="Anglické stránky o žonglování.">{obrazek soubor="odkazy-clubjuggling.com.png" popisek="clubjuggling.com"}</a>
+Návody na žonglování s kužely.
 </p>
 
 <p>
