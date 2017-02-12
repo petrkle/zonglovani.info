@@ -1,6 +1,3 @@
-<ul>
-<li>{$smarty.server.SERVER_NAME}{$smarty.server.REQUEST_URI|escape}</li>
-</ul>
 <p>
 Je mi líto, požadovaná stránka se bohužel v žonglérově slabikáři nenachází. Patrně byla odstraněna, přemístěna nebo přejmenována. Průběžně dochází k drobným úpravám a je proto možné, že některé vnější odkazy nyní nefungují.
 </p>

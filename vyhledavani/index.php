@@ -48,7 +48,7 @@ $perpage = 15;
 try {
     $db = new PDO('mysql:host=127.0.0.1;port=9306;charset=utf8', '', '');
 } catch (PDOException $e) {
-    $smarty->assign('chyba', '503 Service Temporarily Unavailable');
+    $smarty->assign('chyba', 'HTTP 503 [Service Temporarily Unavailable]');
     header('Status: 503 Service Temporarily Unavailable');
     header('Retry-After: 600');
     $smarty->display('hlavicka.tpl');

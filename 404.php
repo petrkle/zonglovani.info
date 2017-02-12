@@ -5,7 +5,6 @@ require_once 'init.php';
 require_once 'func.php';
 
 $smarty->assign('titulek', 'Stránka nenalezena');
-$smarty->assign('nenalezeno_404', true);
 $trail = new Trail();
 $trail->addStep('Neexistující stránka');
 $smarty->assign('trail', $trail->path);

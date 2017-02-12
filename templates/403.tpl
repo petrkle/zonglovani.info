@@ -1,10 +1,7 @@
-<ul>
-<li>{$smarty.server.SERVER_NAME}{$smarty.server.REQUEST_URI}</li>
-</ul>
 <p>
 Je mi líto, požadovanou stránku nelze zobrazit.
 </p>
-<p>Pomoct ti může následující:</p>	
+<h3>Můžeš zkusit následující:</h3>
 <ul>
 	<li>Přejdi na <a href="/" title="Úvodní stránka">úvodní stránku webu</a> a dál pokračujte odtud.</li>
 	<li>Použij <a href="/mapa-stranek.html" title="Mapa stránek">mapu stránek</a>, tj. seznam všech stránek na serveru.</li>
