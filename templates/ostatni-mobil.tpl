@@ -3,8 +3,8 @@
 </p>
 
 <p>
-<a href="/img/m/mobil-xperia-ray.jpg">{obrazek soubor='mobil-xperia-ray.s.jpg' popisek='Sony Ericsson Xperia Ray'}</a>
-Žonglérův slabikář na mobilním telefonu Sony Ericsson Xperia Ray.
+<a href="/img/x/xperia-x-compact.png">{obrazek soubor='xperia-x-compact.s.jpg' popisek='Sony Ericsson Xperia X Compact' class="noborder"}</a>
+Žonglérův slabikář na mobilním telefonu Sony Ericsson Xperia.
 </p>
 
 {include file='android.tpl'}

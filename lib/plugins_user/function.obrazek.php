@@ -27,5 +27,11 @@ function smarty_function_obrazek($params, &$smarty)
         $velikost = $rozmery[3];
     }
 
-    return '<img src="'.$abs.$link.'" '.$velikost.' title="'.$popisek.'" alt="'.$popisek.'" />';
+    if (isset($class)) {
+        $class = ' class="'.$class.'" ';
+    } else {
+        $class = '';
+    }
+
+    return '<img src="'.$abs.$link.'" '.$velikost.' title="'.$popisek.'" alt="'.$popisek.'" '.$class.'/>';
 }

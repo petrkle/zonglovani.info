@@ -98,3 +98,4 @@ hr.d{border:0;border-bottom:1px dashed #999;margin:2em 0;width:100%;}
 .nahled img{border:solid 1px;border-color:#444 #aaa #aaa #444;margin:10px;}
 .wrap{overflow-wrap:break-word;word-wrap: break-word;-ms-word-break: break-all;word-break: break-all;word-break: break-word;hyphens: auto;}
 #query{width:80%;}
+.noborder{border:0;}
