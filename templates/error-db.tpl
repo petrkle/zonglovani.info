@@ -1,3 +1,5 @@
+<h1>Chyba vyhledávání</h1>
+
 <p>
 Jejda, vyhledávání přestalo fungovat. Je to dočasná chyba a brzy jí opravím. Zkus opakovat vyhledávání za chvilku.
 </p>
