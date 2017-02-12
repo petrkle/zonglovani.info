@@ -2,7 +2,7 @@
 <fieldset>
 	<legend>Vyhledávání</legend>
 	<p>
-	<input type="text" name="query" id="query" size="40" value="{if isset($q)}{$q|escape}{/if}" accesskey="4" required />	
+	<input type="text" name="query" id="query" value="{if isset($q)}{$q|escape}{/if}" accesskey="4" required />	
 	<input type="submit" value="Najít" />
 	</p>
 </fieldset>
