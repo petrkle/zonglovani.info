@@ -1,4 +1,4 @@
-<script src="/doplnky-{$smarty.const.JS_CHKSUM}.js"></script>
+<script async src="/doplnky-{$smarty.const.JS_CHKSUM}.js"></script>
 <p>Žonglérské doplňky do internetových prohlížečů.</p>
 
 <a name="chrome"></a><h3>Google Chrome</h3>

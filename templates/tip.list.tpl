@@ -13,6 +13,6 @@ Tip týdne a ostatní aktualizace žonglérova slabikáře můžeš sledovat pom
 <p class="strankovani">
 Stránkování: {$pager_links}
 </p>
-<script src="/strankovani-{$smarty.const.JS_CHKSUM}.js" type="text/javascript"></script>
+<script async src="/strankovani-{$smarty.const.JS_CHKSUM}.js" type="text/javascript"></script>
 {/if}
 {/if}

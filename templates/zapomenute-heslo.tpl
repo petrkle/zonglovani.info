@@ -26,4 +26,4 @@
 <input type="submit" name="odeslat" value="Obnovit heslo" class="knoflik" tabindex="5" />
 </p>
 </form>
-<script src="/lide/antispam{$jscachebuster}.js" type="text/javascript"></script>
+<script async src="/lide/antispam{$jscachebuster}.js" type="text/javascript"></script>

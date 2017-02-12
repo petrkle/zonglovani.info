@@ -27,4 +27,4 @@ Po odeslání formuláře přijde na tvůj nový e-mail zpráva, pomocí které 
 <input type="submit" name="odeslat" value="Nastavit" class="knoflik" tabindex="3" />
 </p>
 </form>
-<script src="/lide/antispam{$jscachebuster}.js" type="text/javascript"></script>
+<script async src="/lide/antispam{$jscachebuster}.js" type="text/javascript"></script>

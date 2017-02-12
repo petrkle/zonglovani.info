@@ -51,5 +51,5 @@ Uložit video ve formátu <a href="{$video.download}" class="external">.mp4</a>
 {/if}
 </ul>
 </div>
-<script src="/hop-{$smarty.const.JS_CHKSUM}.js" type="text/javascript"></script>
+<script async src="/hop-{$smarty.const.JS_CHKSUM}.js" type="text/javascript"></script>
 {/if}

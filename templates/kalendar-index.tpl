@@ -72,4 +72,4 @@ Dnes je: {if $dnesek}{$aktDate}{else}<a href="{$smarty.const.CALENDAR_URL}" titl
 <p>
 <a href="widget.html" title="Widget na webové stránky">Výpis z kalendáře</a> na tvém webu.
 </p>
-<script src="/hop-{$smarty.const.JS_CHKSUM}.js" type="text/javascript"></script>
+<script async src="/hop-{$smarty.const.JS_CHKSUM}.js" type="text/javascript"></script>

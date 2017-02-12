@@ -46,7 +46,7 @@ Nápověda:
 <li><label for="antispam" class="kratkypopis">{$antispam_otazka}:</label><input type="text" name="antispam" id="antispam" accesskey="t" tabindex="4" class="textbox" /><div class="tooltip">Odpověď na jednoduchou otázku slouží k odlišení lidí od robotů, kteří posílají spam. Odpověď napiš číslicí.</div></li>
 </ul>
 </fieldset>
-<script src="/lide/antispam{$jscachebuster}.js" type="text/javascript"></script>
+<script async src="/lide/antispam{$jscachebuster}.js" type="text/javascript"></script>
 {/if}
 
 <p class="vpravo">

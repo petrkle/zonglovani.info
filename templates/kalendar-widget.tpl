@@ -3,7 +3,7 @@
 <p>
 <textarea>
 &lt;a href="{$kalendar}" title="Kalendář žonglérských akcí" id="zs-kalendar"&gt;Kalendář žonglování&lt;/a&gt;<br />
-&lt;script src="{$kalendar}widget.js" {$widget_params}&gt;&lt;/script&gt;
+&lt;script async src="{$kalendar}widget.js" {$widget_params}&gt;&lt;/script&gt;
 </textarea>
 </p>
 <p>{obrazek soubor='widget-light.png' popisek='Widget - světlá varianta'}</p>
@@ -11,7 +11,7 @@
 <p>
 <textarea>
 &lt;a href="{$kalendar}" title="Kalendář žonglérských akcí" id="zs-kalendar"&gt;Kalendář žonglování&lt;/a&gt;<br />
-&lt;script src="{$kalendar}widget.js?css=https://zonglovani.info/css/ww-light.css" {$widget_params}&gt;&lt;/script&gt;
+&lt;script async src="{$kalendar}widget.js?css=https://zonglovani.info/css/ww-light.css" {$widget_params}&gt;&lt;/script&gt;
 </textarea>
 </p>
 <p><a href="/img/w/widget-light-w.png" title="Světlá varianta na šířku">{obrazek soubor='widget-light-w.s.png' popisek='Widget - světlá varianta na šířku'}</a></p>
@@ -19,7 +19,7 @@
 <p>
 <textarea>
 &lt;a href="{$kalendar}" title="Kalendář žonglérských akcí" id="zs-kalendar"&gt;Kalendář žonglování&lt;/a&gt;<br />
-&lt;script src="{$kalendar}widget.js?css=https://zonglovani.info/css/w-dark.css" {$widget_params}&gt;&lt;/script&gt;
+&lt;script async src="{$kalendar}widget.js?css=https://zonglovani.info/css/w-dark.css" {$widget_params}&gt;&lt;/script&gt;
 </textarea>
 </p>
 <p>{obrazek soubor='widget-dark.png' popisek='Widget - tmavá varianta'}</p>
@@ -31,7 +31,7 @@ Pomocí parametru <code>css</code> můžeš nastavit vlastní kaskádový styl p
 <p>
 <textarea>
 &lt;a href="{$kalendar}" title="Kalendář žonglérských akcí" id="zs-kalendar"&gt;Kalendář žonglování&lt;/a&gt;<br />
-&lt;script src="{$kalendar}widget.js?css=http://kdesi.cz/zongl.css&amp;filtr=nekdo" {$widget_params}&gt;&lt;/script&gt;</textarea>
+&lt;script async src="{$kalendar}widget.js?css=http://kdesi.cz/zongl.css&amp;filtr=nekdo" {$widget_params}&gt;&lt;/script&gt;</textarea>
 </p>
 <p>Zobrazí pouze události zadané uživatelem který má login "nekdo". Navíc se použije vlastní kaskádový styl. Login uživatele zjistíš z adresy profilu. Např.: https://zonglovani.info/lide/nekdo.html</p>
 
@@ -39,7 +39,7 @@ Pomocí parametru <code>css</code> můžeš nastavit vlastní kaskádový styl p
 <p>
 <textarea>
 &lt;a href="{$kalendar}" title="Kalendář žonglérských akcí" id="zs-kalendar"&gt;Kalendář žonglování&lt;/a&gt;<br />
-&lt;script src="{$kalendar}widget.js?ukaz=obrazky" {$widget_params}&gt;&lt;/script&gt;</textarea>
+&lt;script async src="{$kalendar}widget.js?ukaz=obrazky" {$widget_params}&gt;&lt;/script&gt;</textarea>
 </textarea>
 </p>
 <p><a href="/img/w/widget-img.png" title="Widget s obrázky">{obrazek soubor='widget-img.s.png' popisek='Widget s obrázky'}</a></p>

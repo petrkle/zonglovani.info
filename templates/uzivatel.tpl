@@ -112,7 +112,7 @@ Stránku odebereš z oblíbených kliknutím na obrázek žluté hvězdičky {ob
 </ul>
 </div>
 {/if}
-<script src="/hop-{$smarty.const.JS_CHKSUM}.js" type="text/javascript"></script>
+<script async src="/hop-{$smarty.const.JS_CHKSUM}.js" type="text/javascript"></script>
 </div>
 {/if}
 {/if}

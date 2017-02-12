@@ -63,7 +63,7 @@ Pro vložení odkazu stačí do tvé stránky zkopírovat jeden z následující
 <p>
 <textarea>
 &lt;a href="https://zonglovani.info/kalendar" title="Kalendář žonglérských akcí" id="zs-kalendar"&gt;Kalendář žonglování&lt;/a&gt;<br />
-&lt;script src="https://zonglovani.info/kalendar/widget.js" type="text/javascript" charset="utf-8"&gt;&lt;/script&gt;
+&lt;script async src="https://zonglovani.info/kalendar/widget.js" type="text/javascript" charset="utf-8"&gt;&lt;/script&gt;
 </textarea>
 </p>
 <p><a href="{$smarty.const.CALENDAR_URL}widget.html" title="Podrobnosti o widgetu">{obrazek soubor='widget-light.png' popisek='Widget - světlá varianta'}</a><a href="{$smarty.const.CALENDAR_URL}widget.html" title="Jak mít na webu aktuální výpis žonglérských akcí.">Podrobný popis vkládání výpisu</a> z kalendáře a možnosti úprav.</p>

@@ -14,7 +14,7 @@ Stránkování: {$pager_links}
 <p class="strankovani">
 Stránkování: {$pager_links}
 </p>
-<script src="/strankovani-{$smarty.const.JS_CHKSUM}.js" type="text/javascript"></script>
+<script async src="/strankovani-{$smarty.const.JS_CHKSUM}.js" type="text/javascript"></script>
 {/if}
 
 {if isset($gal_info.mail) and $gal_info.mail != 'admin@zonglovani.info'}

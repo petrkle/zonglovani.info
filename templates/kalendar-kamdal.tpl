@@ -16,5 +16,5 @@
 {/if}
 </ul>
 </div>
-<script src="/hop-{$smarty.const.JS_CHKSUM}.js" type="text/javascript"></script>
+<script async src="/hop-{$smarty.const.JS_CHKSUM}.js" type="text/javascript"></script>
 {/if}

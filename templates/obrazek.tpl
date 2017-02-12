@@ -32,4 +32,4 @@ Autor fotografie:
 </div>
 {/if}
 
-<script src="/obrazky-{$smarty.const.JS_CHKSUM}.js" type="text/javascript"></script>
+<script async src="/obrazky-{$smarty.const.JS_CHKSUM}.js" type="text/javascript"></script>

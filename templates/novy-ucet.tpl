@@ -30,7 +30,7 @@
 <input type="submit" name="odeslat" value="Založit účet" class="knoflik" tabindex="7" />
 </p>
 </form>
-<script src="/lide/antispam{$jscachebuster}.js" type="text/javascript"></script>
+<script async src="/lide/antispam{$jscachebuster}.js" type="text/javascript"></script>
 
 <p>Kliknutím na tlačítko "Založit účet" souhlasíš s následujícími pravidly:</p>
 
