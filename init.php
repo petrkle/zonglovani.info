@@ -1,7 +1,8 @@
 <?php
 
-if (isset($_SERVER['SERVER_NAME']) and $_SERVER['SERVER_NAME'] == 'zonglovani.info') {
-    error_reporting(0);
+error_reporting(0);
+
+if (php_uname('n') == 'vps') {
     define('ZS_DOMAIN', 'zonglovani.info');
 } else {
     define('ZS_DOMAIN', 'zongl.info');
