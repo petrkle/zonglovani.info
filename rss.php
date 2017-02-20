@@ -6,17 +6,17 @@ require 'func.php';
 define('MAGPIE_INPUT_ENCODING', 'UTF-8');
 define('MAGPIE_OUTPUT_ENCODING', 'UTF-8');
 define('MAGPIE_DETECT_ENCODING', false);
-define('MAGPIE_CACHE_DIR', $_SERVER['DOCUMENT_ROOT'].'/tmp/cache.rss');
+define('MAGPIE_CACHE_DIR', ZS_DIR.'/tmp/cache.rss');
 require 'lib/rss_fetch.inc';
 
 require 'cache.php';
 http_cache_headers(3600);
 
 $kanaly = array(
-'https://'.$_SERVER['SERVER_NAME'].CALENDAR_URL.'kalendar.rss',
-'https://'.$_SERVER['SERVER_NAME'].'/tip/tip.rss',
-'https://'.$_SERVER['SERVER_NAME'].OBRAZKY_URL.'obrazky.rss',
-    );
+'https://'.ZS_DOMAIN.CALENDAR_URL.'kalendar.rss',
+'https://'.ZS_DOMAIN.'/tip/tip.rss',
+'https://'.ZS_DOMAIN.OBRAZKY_URL.'obrazky.rss',
+);
 
 $udalosti = array();
 $rssu = array();

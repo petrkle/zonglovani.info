@@ -42,9 +42,6 @@ if (isset($_GET['m']) and isset($_GET['k'])) {
             unlink($tmp.'/locked.login');
             rmdir($tmp);
 
-            $handle = fopen('http://'.$_SERVER['SERVER_NAME'].'/mapa/update-zongleri.php', 'r');
-            fclose($handle);
-
             session_destroy();
             unset($_SESSION['logged']);
             unset($_SESSION['ip']);

@@ -1,14 +1,19 @@
 <?php
 
+if (php_sapi_name() != 'cli') {
+    echo 'Run from command line';
+    exit();
+}
+
+chdir(dirname(__FILE__));
+
 require '../init.php';
 require '../func.php';
 
 $loginy = get_loginy();
 $now = time();
 
-define('SENDMAIL_DATA', $_SERVER['DOCUMENT_ROOT'].'/data/sendmails');
-
-echo '<pre>';
+define('SENDMAIL_DATA', ZS_DIR.'/data/sendmails');
 
 foreach ($loginy as $login) {
     if (is_file(LIDE_DATA.'/'.$login.'/prihlaseni.txt')) {
@@ -21,22 +26,15 @@ foreach ($loginy as $login) {
 
     if (($now - $lastlogin) > (365 * 24 * 3600)) {
         // zablokovat ucet
-        echo "lock - $login\n";
         if (is_file(SENDMAIL_DATA.'/'.$info['email'].'.spici')) {
             unlink(SENDMAIL_DATA.'/'.$info['email'].'.spici');
         }
         $foo = fopen(LIDE_DATA.'/'.$login.'/LOCKED', 'w');
         fwrite($foo, time());
         fclose($foo);
-        if (is_file(LIDE_DATA.'/'.$login.'/pusobiste.txt')) {
-            $handle = fopen('https://'.$_SERVER['SERVER_NAME'].'/mapa/update-zongleri.php', 'r');
-            fclose($handle);
-        }
     } elseif (($now - $lastlogin) > (335 * 24 * 3600)) {
         // poslat varovny mail
         if (!is_file(SENDMAIL_DATA.'/'.$info['email'].'.spici')) {
-            echo "warn - $login\n";
-
             $subject = 'Účet v žonglérově slabikáři';
             $smarty->assign('user', $info);
             $smarty->assign('subject', $subject);
@@ -59,7 +57,6 @@ foreach ($loginy as $login) {
         // obnoveny ucet
         if (is_file(SENDMAIL_DATA.'/'.$info['email'].'.spici')) {
             unlink(SENDMAIL_DATA.'/'.$info['email'].'.spici');
-            var_dump($info['email']);
         }
     }
 }

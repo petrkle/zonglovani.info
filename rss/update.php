@@ -1,27 +1,31 @@
 <?php
 
+if (php_sapi_name() != 'cli') {
+    echo 'Run from command line';
+    exit();
+}
+
+chdir(dirname(__FILE__));
+
 require '../init.php';
-error_reporting(E_ALL);
 require '../func.php';
 require 'rss.php';
 if (function_exists('date_default_timezone_set')) {
     date_default_timezone_set('Europe/Prague');
 }
-ini_set('user_agent', 'https://zonglovani.info/rss');
+ini_set('user_agent', 'https://'.ZS_DOMAIN.'/rss');
 uasort($rss_zdroje, 'u_shuffle');
 
 define('MAGPIE_INPUT_ENCODING', 'UTF-8');
 define('MAGPIE_OUTPUT_ENCODING', 'UTF-8');
 define('MAGPIE_DETECT_ENCODING', false);
-define('MAGPIE_CACHE_DIR', $_SERVER['DOCUMENT_ROOT'].'/tmp/cache.rss');
+define('MAGPIE_CACHE_DIR', ZS_DIR.'/tmp/cache.rss');
 require '../lib/rss_fetch.inc';
-echo '<pre>';
 
 $maxpocet = 10;
 $udalosti = array();
 
 foreach ($rss_zdroje as $id => $kanal) {
-    echo $kanal['feed_url']."\n";
     $rss = fetch_rss($kanal['feed_url']);
     $items = $rss->items;
     foreach ($items as $item) {

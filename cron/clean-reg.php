@@ -1,5 +1,12 @@
 <?php
 
+if (php_sapi_name() != 'cli') {
+    echo 'Run from command line';
+    exit();
+}
+
+chdir(dirname(__FILE__));
+
 require '../init.php';
 
 if (is_dir(LIDE_TMP) and opendir(LIDE_TMP)) {

@@ -687,7 +687,7 @@ function podil_velkych_pismen($text)
 function sendmail($msg)
 {
     if (!isset($msg['from'])) {
-        $msg['from'] = '=?UTF-8?B?'.base64_encode('Žonglérův slabikář').'?=<robot@zonglovani.info>';
+        $msg['from'] = '=?UTF-8?B?'.base64_encode('Žonglérův slabikář').'?=<robot@'.ZS_DOMAIN.'>';
     }
     $headers = array(
         'From' => $msg['from'],

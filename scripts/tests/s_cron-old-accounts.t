@@ -54,14 +54,16 @@ $bot->conn_cache(LWP::ConnCache->new);
 $bot->cookie_jar(HTTP::Cookies->new());
 $bot->add_header( 'Accept-Encoding' => '' );
 
-my $pozadavek = $bot->get('http://zongl.info/cron/old-accounts.php');
-ok($bot->status() == 200,'Spuštění cronu');
+my $cron = system('php /home/www/zonglovani.info/cron/old-accounts.php');
+ok($cron == 0,'Spuštění cronu');
+
+sleep(1);
 
 ok(-f "/home/fakemail/$mail.1.eml", 'Připomínací email přišel');
 
 ok(-f "/home/www/zonglovani.info/data/sendmails/$mail.spici", 'Záznam o odeslání připomínacího emailu');
 
-$pozadavek = $bot->get('http://zongl.info/cron/old-accounts.php');
+$cron = system('php /home/www/zonglovani.info/cron/old-accounts.php');
 
 ok(!-f "/home/fakemail/$mail.2.eml", 'Připomínací email nechodí dvakrát');
 
@@ -84,12 +86,13 @@ my $zs_nastaveni_uziv = $zs_prihlaseni->content();
 ok($zs_nastaveni_uziv =~ /title="Tvůj účet.">$jmeno<\/a>/,'Úspěšné přihlášení - jméno souhlasí');
 ok($zs_nastaveni_uziv =~ /E-mail: <strong>$mail<\/strong>/,'Úspěšné přihlášení - email souhlasí');
 
-$pozadavek = $bot->get('https://zongl.info/lide/odhlaseni.php');
-$pozadavek = $bot->get('https://zongl.info/cron/old-accounts.php');
+my $pozadavek = $bot->get('https://zongl.info/lide/odhlaseni.php');
+
+$cron = system('php /home/www/zonglovani.info/cron/old-accounts.php');
 
 ok(!-f "/home/www/zonglovani.info/data/sendmails/$mail.spici", 'Smazání záznam o odeslání připomínacího emailu');
 
-$pozadavek = $bot->get('https://zongl.info/cron/old-accounts.php');
+$cron = system('php /home/www/zonglovani.info/cron/old-accounts.php');
 
 ok(!-f "/home/fakemail/$mail.2.eml", 'Připomínací email nechodí po přihlášení');
 
@@ -97,7 +100,7 @@ ok(!-f "/home/fakemail/$mail.2.eml", 'Připomínací email nechodí po přihlá�
 $ref = File::Touch->new(time => ($now - ($lock_after*$day) - $day));
 $ref->touch(("$DATA_LIDE/$login/prihlaseni.txt"));
 
-$pozadavek = $bot->get('https://zongl.info/cron/old-accounts.php');
+$cron = system('php /home/www/zonglovani.info/cron/old-accounts.php');
 
 $zs_prihlaseni = $bot->get('https://zongl.info/lide/prihlaseni.php');
 $zs_prihlaseni = $bot->submit_form(form_number => 0,fields => {'login'=>$mail,'heslo'=>$heslo});
@@ -107,13 +110,14 @@ ok($zs_prihlaseni->content() =~ /Účet je zrušen/,'Neaktivní účet je zruše
 $ref = File::Touch->new(time => ($now - ($warn_after*$day) - $day));
 $ref->touch(("$DATA_LIDE/$login/prihlaseni.txt"));
 
-$pozadavek = $bot->get('https://zongl.info/cron/old-accounts.php');
+$cron = system('php /home/www/zonglovani.info/cron/old-accounts.php');
 
 ok(!-f "/home/fakemail/$mail.2.eml", 'Připomínací email nechodí na účty zrušené uživateli');
 unlink("$DATA_LIDE/$login/LOCKED");
 
 touch "$DATA_LIDE/$login/REVOKED";
-$pozadavek = $bot->get('https://zongl.info/cron/old-accounts.php');
+
+$cron = system('php /home/www/zonglovani.info/cron/old-accounts.php');
 
 ok(!-f "/home/fakemail/$mail.2.eml", 'Připomínací email nechodí na zablokované účty zlobivých uživatelů');
 
