@@ -1,12 +1,17 @@
 <?php
 
-if ($_SERVER['SERVER_NAME'] == 'zonglovani.info') {
+if (isset($_SERVER['SERVER_NAME']) and $_SERVER['SERVER_NAME'] == 'zonglovani.info') {
     error_reporting(0);
+    define('ZS_DOMAIN', 'zonglovani.info');
+} else {
+    define('ZS_DOMAIN', 'zongl.info');
 }
 date_default_timezone_set('Europe/Prague');
 header('X-Frame-Options: DENY');
 
-$lib = $_SERVER['DOCUMENT_ROOT'].'/lib';
+define('ZS_DIR', '/home/www/zonglovani.info');
+
+$lib = ZS_DIR.'/lib';
 
 if (isset($_COOKIE['ZS']) and !isset($_SESSION)) {
     session_name('ZS');
@@ -22,31 +27,31 @@ if (isset($_SESSION['uzivatel']) and isset($_SESSION['ip'])) {
 require 'vendor/autoload.php';
 $smarty = new Smarty();
 
-$smarty->setTemplateDir($_SERVER['DOCUMENT_ROOT'].'/templates');
+$smarty->setTemplateDir(ZS_DIR.'/templates');
 $smarty->setConfigDir($lib.'./configs');
-$smarty->setCacheDir($_SERVER['DOCUMENT_ROOT'].'/tmp/cache');
-$smarty->setCompileDir($_SERVER['DOCUMENT_ROOT'].'/tmp/templates_c');
+$smarty->setCacheDir(ZS_DIR.'/tmp/cache');
+$smarty->setCompileDir(ZS_DIR.'/tmp/templates_c');
 $smarty->addPluginsDir($lib.'/plugins_user');
 
 define('CALENDAR_URL', '/kalendar/');
 define('CALENDAR_ROOT', $lib.'/calendar/');
-define('CALENDAR_DATA', $_SERVER['DOCUMENT_ROOT'].'/data/kalendar');
-define('CALENDAR_DELETED', $_SERVER['DOCUMENT_ROOT'].'/data/kalendar.deleted');
-define('CALENDAR_IMG', $_SERVER['DOCUMENT_ROOT'].'/data/kalendar.img');
+define('CALENDAR_DATA', ZS_DIR.'/data/kalendar');
+define('CALENDAR_DELETED', ZS_DIR.'/data/kalendar.deleted');
+define('CALENDAR_IMG', ZS_DIR.'/data/kalendar.img');
 
 define('LIDE_URL', '/lide/');
-define('LIDE_DATA', $_SERVER['DOCUMENT_ROOT'].'/data/lide');
-define('LIDE_BY_MAIL', $_SERVER['DOCUMENT_ROOT'].'/data/lide.by.mail');
-define('LIDE_TMP', $_SERVER['DOCUMENT_ROOT'].'/data/lide.tmp');
-define('LIDE_VZKAZY', $_SERVER['DOCUMENT_ROOT'].'/data/vzkazy');
+define('LIDE_DATA', ZS_DIR.'/data/lide');
+define('LIDE_BY_MAIL', ZS_DIR.'/data/lide.by.mail');
+define('LIDE_TMP', ZS_DIR.'/data/lide.tmp');
+define('LIDE_VZKAZY', ZS_DIR.'/data/vzkazy');
 
-define('RSS_AGREGATOR_DATA', $_SERVER['DOCUMENT_ROOT'].'/data/rss');
+define('RSS_AGREGATOR_DATA', ZS_DIR.'/data/rss');
 
 define('DISKUSE_URL', '/diskuse/');
-define('DISKUSE_DATA', $_SERVER['DOCUMENT_ROOT'].'/data/diskuse');
+define('DISKUSE_DATA', ZS_DIR.'/data/diskuse');
 
 define('OBRAZKY_URL', '/obrazky/');
-define('OBRAZKY_DATA', $_SERVER['DOCUMENT_ROOT'].'/obrazky');
+define('OBRAZKY_DATA', ZS_DIR.'/obrazky');
 
 define('SEARCH_URL', '/vyhledavani/');
 
@@ -54,14 +59,14 @@ define('TIMEOUT_REGISTRATION', 7 * 24 * 3600);
 define('TIMEOUT_RESET_PASSWD', 7 * 24 * 3600);
 define('TIMEOUT_VZKAZ', 7 * 24 * 3600);
 
-define('TIPY_DATA', $_SERVER['DOCUMENT_ROOT'].'/tip/tipy.inc');
+define('TIPY_DATA', ZS_DIR.'/tip/tipy.inc');
 
 define('WALLPAPERS_URL', '/obrazky-na-plochu/');
-define('WALLPAPERS_DATA', $_SERVER['DOCUMENT_ROOT'].'/obrazky-na-plochu');
+define('WALLPAPERS_DATA', ZS_DIR.'/obrazky-na-plochu');
 
 define('ZPRAV_NA_STRANKU', 10);
 
-define('STAT_DATA', $_SERVER['DOCUMENT_ROOT'].'/data/stat');
+define('STAT_DATA', ZS_DIR.'/data/stat');
 define('STAT_EXPIRE', 31);
 
 define('MAX_BIG_LETTERS', 0.7);

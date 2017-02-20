@@ -439,89 +439,89 @@
 2017-03-13*Poloviční sprcha*/micky/4/sprcha-polovicni.html*p4sprchac.png*Poloviční sprcha se čtyřmi míčky.
 2017-03-20*Neta Oren*/video/neta-oren.html*neta-oren-balls.jpg*Neta Oren z Izraele to s míčky opravdu umí.
 2017-03-27*Kalendář žonglérských akcí*/kalendar/*kalendar-nahled.png*Přehledný seznam míst, kde by správný žonglér neměl chybět. I ty můžeš přidat svojí akci.
-2017-04-03*
-2017-04-10*
-2017-04-17*
-2017-04-24*
-2017-05-01*
-2017-05-08*
-2017-05-15*
-2017-05-22*
-2017-05-29*
-2017-06-05*
-2017-06-12*
-2017-06-19*
-2017-06-26*
-2017-07-03*
-2017-07-10*
-2017-07-17*
-2017-07-24*
-2017-07-31*
-2017-08-07*
-2017-08-14*
-2017-08-21*
-2017-08-28*
-2017-09-04*
-2017-09-11*
-2017-09-18*
-2017-09-25*
-2017-10-02*
-2017-10-09*
-2017-10-16*
-2017-10-23*
-2017-10-30*
-2017-11-06*
-2017-11-13*
-2017-11-20*
-2017-11-27*
-2017-12-04*
-2017-12-11*
-2017-12-18*
-2017-12-25*
-2018-01-01*
-2018-01-08*
-2018-01-15*
-2018-01-22*
-2018-01-29*
-2018-02-05*
-2018-02-12*
-2018-02-19*
-2018-02-26*
-2018-03-05*
-2018-03-12*
-2018-03-19*
-2018-03-26*
-2018-04-02*
-2018-04-09*
-2018-04-16*
-2018-04-23*
-2018-04-30*
-2018-05-07*
-2018-05-14*
-2018-05-21*
-2018-05-28*
-2018-06-04*
-2018-06-11*
-2018-06-18*
-2018-06-25*
-2018-07-02*
-2018-07-09*
-2018-07-16*
-2018-07-23*
-2018-07-30*
-2018-08-06*
-2018-08-13*
-2018-08-20*
-2018-08-27*
-2018-09-03*
-2018-09-10*
-2018-09-17*
-2018-09-24*
-2018-10-01*
-2018-10-08*
-2018-10-15*
-2018-10-22*
-2018-10-29*
+2017-04-03*Proč a jak vznikl žonglérův slabikář*/proc-a-jak.html*budik.jpg*Trocha historie
+2017-04-10*Smodje 1*/video/metlili/smodje1.html*smodje1.jpg*Žonglování s míčky a balancování na hlavě.
+2017-04-17*Čtverec*/kuzely/passing/box.html*kuzely-passing-boxa.png*Jednoduchý trik pro čtyři žongléry a dvanáct kuželů.
+2017-04-24*Fontána*/kruhy/4/fontana.html*kruhy-4-fontanac.png*Žonglování se čtyřmi kruhy
+2017-05-01*Zpožděná dvojka*/kuzely/passing/zpozdena-dvojka.html*kuzely-passing-zpozdenadvojkac.png*Jednoduchý trik pro 2 count a 4 count.
+2017-05-08*Shake That*/video/shake-that.html*shake-that.jpg*Upoutávka na představení žonglujících barmanů. Nebo snad míchajících žonglérů?
+2017-05-15*Rychlá otočka*/kuzely/passing/rychla-otocka.html*rychlaotockab.png*Čas, který získáš hozením zrychlené dvojky, můžeš využít k otočení.
+2017-05-22*Ivy and Gold*/video/ivy-and-gold.html*ivy-and-gold.jpg*Chytání a házení míčků za hlavou.
+2017-05-29*Zvednutí kuželu nohou*/kuzely/kickup.html*kuzely-kickupb.png*Neustálé shýbání pro spadlé kužely se stane minulostí.
+2017-06-05*Jak odkazovat na žonglérův slabikář*/jak-odkazovat.html*slabikar-fb.png*Podpoř žonglérův slabikář odkazem.
+2017-06-12*Hvězda*/kuzely/passing/star.html*kuzely-passing-stara.png*Passovací trik pro <strong>5 žonglérů</strong>. Někdy se mu také říká pětiúhelník.
+2017-06-19*Odborné texty o žonglování*/odborne-texty.html*slovnik.jpg*Žonglování je občas věda.
+2017-06-26*Hula Hoop - Jade Dussault*/video/jade-dussault.html*jade-dussault.jpg*Točení s hula-hop kruhem. Upoutávka na Turbofest 418.
+2017-07-03*Giraffe Theory Juggling Glow Clubs*/video/giraffe-theory.html*giraffe-theory.jpg*Nejen žonglování se svítícími kužely.
+2017-07-10*Použij nohy*/micky/nohy.html*kickup-micky.png*Nikomu se nechce věčně shýbat pro spadlé míčky. A skutečně se tomu lze vyhnout.
+2017-07-17*Kaskáda*/kruhy/3/kaskada.html*kruhy-3-kaskadab.png*Kaskáda se třemi kruhy.
+2017-07-24*Juggling Zombie Day*/video/etc/zombie-day.html*zombie-day.jpg*Žonglující zombie.
+2017-07-31*Semaforo compilacion 2*/video/metlili/semaforo-compilacion-2.html*semaforo-compilacion-2.jpg*Krátká představení než na semaforu naskočí zelená.
+2017-08-07*4,000,000% Extreme Juggling*/video/4000000-extreme-juggling.html*4000000-extreme-juggling.jpg*Alan a Thom passují s kužely.
+2017-08-14*Stepz*/video/stepz.html*stepz.jpg*Čtyři žongléři z Říma.
+2017-08-21*Japo e Luludy Circus Follies promo 2012*/video/etc/follies-promo.html*follies-promo.jpg*Promo video cirkusu Follies.
+2017-08-28*Seaside collaboration*/video/seaside-collaboration.html*seaside-collaboration.jpg*Hrátky s kužely na pláži Mermejita.
+2017-09-04*The Lost Tapes of Minneapolis*/video/lost-tapes-minneapolis.html*lost-tapes-minneapolis.jpg*Passing v Minneapolis. Několik neuvěřitelných triků s kužely.
+2017-09-11*Půl otočky*/kuzely/3/pul-otocky.html*pul-otockyb.png*Kuželky nemusíš chytat jen za držadlo.
+2017-09-18*Hocus Pocus*/video/hocus-pocus.html*hocus-pocus.jpg*Představení z Festival du nez rouge.
+2017-09-25*Pirueta*/micky/pirueta.html*zonglovania.png*Otočení o 360 stupňů.
+2017-10-02*Latin objects 5.1*/video/metlili/latin-objects-5-1.html*latin-objects-5-1.jpg*Třetí část série žonglování v Jižní Americe.
+2017-10-09*Laurent et Phil, juggling passing demo*/video/laurent-phil.html*laurent-phil.jpg*Ukázka umění dvou francouzských žonglérů.
+2017-10-16*2 count*/kuzely/passing/2count.html*kuzely-passing-3counta.png*Každý 2. hod je pass.
+2017-10-23*Podání kuželky*/kuzely/passing/podani-kuzelky.html*podanikuzelkyc.png*Trik pro dva žongléry.
+2017-10-30*Pomalá otočka*/kuzely/passing/pomala-otocka.html*pomalaotockab.png*Při házení 4 count je dostatek času i na otočku.
+2017-11-06*Mantega Variation*/video/metlili/mantega-variation.html*mantega-variation.jpg*Video od dvojice Anonymous Brothers.
+2017-11-13*Fantasmatico*/video/metlili/fantasmatico.html*fantasmatico.jpg*Žonglování s míčky a kužely ve Francii.
+2017-11-20*Facundo Sacramento*/video/metlili/facundo-sacramento.html*facundo-sacramento.jpg*Žonglování s míčky a balancování na hlavě.
+2017-11-27*H2O Flavor*/video/metlili/h2o-flavor.html*h2o-flavor.jpg*Žonglování s kužely.
+2017-12-04*Jak na žonglování s pěti míčky*/micky/rady5.html*5kaskadae.png*Rady přo žonglování s pěti míčky.
+2017-12-11*Lichoběžník*/kuzely/passing/lichobeznik.html*lichobeznika.png*Trik pro čtyři žongléry a dvanáct kuželů. 
+2017-12-18*Trouble*/video/trouble.html*trouble.jpg*Žonglování v Huštěnovicích.
+2017-12-25*Míčky na zemi*/micky/drop.html*kickup-micky.png*Jak pokračovat po spadnutí míčku na zem?
+2018-01-01*Vysvětlivky k obrázkům - kruhy*/kruhy/legenda.html*kruhy-legendaa.png*Obrázky znázorňují jak házet kruhy, jejich dráhu a načasování.
+2018-01-08*The day after yesterday*/video/the-day-after-yesterday.html*the-day-after-yesterday.jpg*Pietro Selva Bonino, kužely a několik cyklistů.
+2018-01-15*Joe Hague Fatboy Slim Juggling Video*/video/joe-hague.html*joe-hague.jpg*Procházka Brightnem s kužely.
+2018-01-22*Přebíhání*/kuzely/passing/prebihani5z14k.html*prebihani5b.png*Běhací trik pro 14 kuželů 5 žonglérů.
+2018-01-29*Často kladené otázky*/faq.html*faq.png*Otázky, na které se lidé často ptají v souvislosti s žonglováním.
+2018-02-05*Yesterday didn&#039;t happen*/video/yesterday-didnt-happen.html*yesterday-didnt-happen.jpg*Krásná ukázka manipulace s kužely.
+2018-02-12*Vysvětlivky k obrázkům - kužely*/kuzely/legenda.html*kuzely-legendaa.png*Obrázky znázorňují jak házet kužely, jejich dráhu a načasování.
+2018-02-19*Triangles*/video/triangles.html*triangles.jpg*Ceri-Anne z Holandska roztáčí diabolo.
+2018-02-26*Zvednutí spadlého kuželu*/kuzely/passing/pickup.html*kuzely-kickupb.png*Jednoduchý trik, který ti dovolí passovat celé dny bez přestávky.
+2018-03-05*Minimal juggling*/video/minimal-juggling.html*minimal-juggling.jpg*Jorge a Hector z Mexika a jejich minimální žonglování s kužely.
+2018-03-12*Latin objects 3.1*/video/metlili/latin-objects-3-1.html*latin-objects-3-1.jpg*První část série žonglování v Jižní Americe.
+2018-03-19*Roztáčení smyčkou*/diabolo/roztaceni-smycka.html*roztocenif.png*Jak roztočit diabolo.
+2018-03-26*Heroes*/video/heroes.html*heroes.jpg*Žonglování v České republice.
+2018-04-02*Vysvětlivky k obrázkům - míčky*/micky/legenda.html*legendaa.png*Obrázky znázorňují, jak házet míčky, jejich dráhu a načasování.
+2018-04-09*Latin objects 4*/video/metlili/latin-objects-4.html*latin-objects-4.jpg*Druhá část série žonglování v Jižní Americe.
+2018-04-16*копия*/video/kopie.html*kopie.jpg*Žonglování v Rusku.
+2018-04-23*Vyrovnávání diabola*/diabolo/vyrovnavani-diabola.html*vyrovnavania.png*Ze začátku se bude diabolo naklánět.
+2018-04-30*Prechac Juggling in Berlin*/video/prechac-juggling-in-berlin.html*prechac-juggling-in-berlin.jpg*Christine Oymann a Doreen Großmann žonglují s kužely v Berlíně.
+2018-05-07*Synchronizace*/kuzely/passing/synchronizace.html*kuzely-synchrob.png*Při passování je potřeba sladit první hod.
+2018-05-14*Míček - kužel - nůžky*/video/ball-club-scissors.html*ball-club-scissors.jpg*Ori Roth a kamarádi hrají kámen, nůžky, papír.
+2018-05-21*Balancování kuželů*/video/balance-tricks-2.html*balance-tricks-2.jpg*Benjamin Thompson balancuje kužely.
+2018-05-28*Rotor*/kuzely/passing/rotor.html*rotorb.png*Tři žongléři stojí do trojúhelníku. Čtvrtý žonglér je mezi nimi a otáčí se.
+2018-06-04*Jeremy Perkins and Jeremy Fein Promo 2008*/video/jeremy-perkins-jeremy-fein.html*jeremy-perkins-jeremy-fein.jpg*Ukázky z vystoupení.
+2018-06-11*Whirlcool*/video/whirlcool.html*whirlcool.jpg*Ceri-Anne žongluje s diabolem.
+2018-06-18*Žongléři z Klamovky*/video/klamovka.html*klamovka.jpg*Passing s kužely, přebírání kuželů a odrážení o strop.
+2018-06-25*Latin objects 6*/video/metlili/latin-objects-6.html*latin-objects-6.jpg*Žonglování v Jižní Americe.
+2018-07-02*7 kuželů*/kuzely/passing/7clubs.html*kuzely-synchroa.png*Házet o jeden kužel víc než obvykle není až tak těžké.
+2018-07-09*C2laballe 0707*/video/c2laballe-0707.html*c2laballe-0707.jpg*Emmanuel Perez žongluje se silikonovými míčky ve vzduchu i o zem.
+2018-07-16*Ypsilon*/kuzely/passing/ypsilon.html*kuzely-passing-ypsilona.png*Těžší trik pro 4 žongléry a 12 kuželů.
+2018-07-23*Alan &amp; Thom the Fourth*/video/juggle-a-saurus.html*juggle-a-saurus.jpg*Čtvrté video od Alana a Thoma.
+2018-07-30*All Day Baby!*/video/all-day-baby.html*all-day-baby.jpg*Další video z produkce J-J.
+2018-08-06*Sloupy*/kuzely/3/sloupy.html*kuzely-3-sloupyb.png*Házení kuželů rovně nahoru.
+2018-08-13*Jonglage Macabre*/video/jonglage-macabre.html*jonglage-macabre.jpg*Záznam žonglérského představení.
+2018-08-20*Žonglování - základní pojmy*/zakladni-pojmy.html*zongler.png*Základní pojmy v žonglování.
+2018-08-27*Adrienn Banhegyi*/video/etc/adrienn-banhegyi.html*adrienn-banhegyi.jpg*Adrienn Banhegyi předvání žonglování se švihadlem.
+2018-09-03*Les Bébés*/video/les-bebes.html*les-bebes.jpg*Dva komici z Francie.
+2018-09-10*Sloupy*/kruhy/3/sloupy.html*kruhy-3-sloupyb.png*Sloupy se třemi kruhy.
+2018-09-17*Kaskáda*/micky/3/kaskada.html*kaskadab.png*Základní trik se třemi míčky.
+2018-09-24*Jak začít žonglovat s kužely*/kuzely/jak-zacit.html*kuzely-zacateka.png*Míčky a kruhy už jsou ti málo? Pak je čas na -- kužely.
+2018-10-01*The Passing Zone*/video/passing-zone.html*passing-zone.jpg*Owen Morse a Jon Wee předvádí balet s motorovými pilami a spoustu dalších nebezpečných, ale zábavných kousků.
+2018-10-08*Alan &amp; Thom #3*/video/alan-thom-3.html*alan-thom-3.jpg*Třetí video od Alana a Thoma.
+2018-10-15*Malabaristas Kamones*/video/etc/kamones.html*kamones.jpg*Craig a Mo jsou dva šikovní žongléři z Portugalska.
+2018-10-22*Passing - Střídavý lichoběžník*/kuzely/passing/stridavy-lichobeznik.html*slichobeznikc.png*Střídavý lichoběžník je rozšířením lichoběžníku.
+2018-10-29*Podpoř žonglérův slabikář*/podporte-zongleruv-slabikar.html*podporad.png*Přispěj na další rozvoj a aktualizace žonglérova slabikáře.
 2018-11-05*
 2018-11-12*
 2018-11-19*

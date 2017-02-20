@@ -46,9 +46,21 @@ foreach my $tip(@radky){
 
 			$fl =~ s/^(.).*/$1/;
 			my $popis=$parts[4];
-			if(length($titulek)<=0 || length($popis)<=0){
+			if(length($titulek)<=0){
 				$chyby++;
-				diag("Chybějící titulek nebo popis $tip");
+				diag("Chybějící titulek $tip");
+			}
+			if(length($popis)<=0){
+				$chyby++;
+				diag("Chybějící popis $tip");
+			}
+			if(length($img)<=0){
+				$chyby++;
+				diag("Chybějící obrázek $tip");
+			}
+			if(length($url)<=0){
+				$chyby++;
+				diag("Chybějící odkaz $tip");
 			}
 			$bot->get("https://zongl.info$url");
 			if($bot->status() !~ /(200|301|302)/){

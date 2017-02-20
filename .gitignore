@@ -16,6 +16,7 @@ static/zs
 mapa-stranek.inc
 sitemap.xml
 img/triky.xml
+*.bak
 video/video.xml
 imgmap.xml
 static/zongleruv-slabikar
