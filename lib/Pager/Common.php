@@ -55,12 +55,12 @@ if (substr($_SERVER['PHP_SELF'], -1) == '/') {
 /*
  * Error codes
  */
-define('PAGER_OK',                         0);
-define('ERROR_PAGER',                     -1);
-define('ERROR_PAGER_INVALID',             -2);
+define('PAGER_OK', 0);
+define('ERROR_PAGER', -1);
+define('ERROR_PAGER_INVALID', -2);
 define('ERROR_PAGER_INVALID_PLACEHOLDER', -3);
-define('ERROR_PAGER_INVALID_USAGE',       -4);
-define('ERROR_PAGER_NOT_IMPLEMENTED',     -5);
+define('ERROR_PAGER_INVALID_USAGE', -4);
+define('ERROR_PAGER_NOT_IMPLEMENTED', -5);
 
 /**
  * Pager_Common - Common base class for [Sliding|Jumping] Window Pager

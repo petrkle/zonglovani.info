@@ -82,14 +82,14 @@ class Calendar_Month_Weeks extends Calendar_Month
      * @var Calendar_Table_Helper
      * @access private
      */
-    var $tableHelper;
+    public $tableHelper;
 
     /**
      * First day of the week
      * @access private
      * @var string
      */
-    var $firstDay;
+    public $firstDay;
 
     /**
      * Constructs Calendar_Month_Weeks
@@ -100,7 +100,7 @@ class Calendar_Month_Weeks extends Calendar_Month
      *
      * @access public
      */
-    function Calendar_Month_Weeks($y, $m, $firstDay=null)
+    public function Calendar_Month_Weeks($y, $m, $firstDay=null)
     {
         Calendar_Month::Calendar_Month($y, $m, $firstDay);
     }
@@ -114,10 +114,10 @@ class Calendar_Month_Weeks extends Calendar_Month
      * @return boolean
      * @access public
      */
-    function build($sDates = array())
+    public function build($sDates = array())
     {
         include_once CALENDAR_ROOT.'Table/Helper.php';
-        $this->tableHelper = & new Calendar_Table_Helper($this, $this->firstDay);
+        $this->tableHelper = new Calendar_Table_Helper($this, $this->firstDay);
         include_once CALENDAR_ROOT.'Week.php';
         $numWeeks = $this->tableHelper->getNumWeeks();
         for ($i=1, $d=1; $i<=$numWeeks; $i++,
@@ -149,12 +149,11 @@ class Calendar_Month_Weeks extends Calendar_Month
      * @return void
      * @access private
      */
-    function setSelection($sDates)
+    public function setSelection($sDates)
     {
         foreach ($sDates as $sDate) {
             if ($this->year == $sDate->thisYear()
-                && $this->month == $sDate->thisMonth())
-            {
+                && $this->month == $sDate->thisMonth()) {
                 $key = $sDate->thisWeek('n_in_month');
                 if (isset($this->children[$key])) {
                     $this->children[$key]->setSelected();
@@ -163,4 +162,3 @@ class Calendar_Month_Weeks extends Calendar_Month
         }
     }
 }
-?>

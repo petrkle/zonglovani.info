@@ -25,3 +25,4 @@ static/mobile/zongleruv-slabikar
 static/mobile/zongleruv-slabikar-*.zip
 kalendar/mass-add/out
 pexeso/zonglerske-pexeso*
+.php_cs.cache

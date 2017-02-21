@@ -57,9 +57,9 @@ if (!defined('CALENDAR_ENGINE')) {
 /*
  * Define Calendar Month states
  */
-define('CALENDAR_USE_MONTH',          1);
+define('CALENDAR_USE_MONTH', 1);
 define('CALENDAR_USE_MONTH_WEEKDAYS', 2);
-define('CALENDAR_USE_MONTH_WEEKS',    3);
+define('CALENDAR_USE_MONTH_WEEKS', 3);
 
 /**
  * Contains a factory method to return a Singleton instance of a class
