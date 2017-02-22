@@ -13,6 +13,7 @@ File::Temp
 File::Touch
 HTML::FormatText
 HTML::TreeBuilder
+iCal::Parser
 Image::ExifTool
 Image::Size
 List::Util

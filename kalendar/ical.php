@@ -6,5 +6,7 @@ require '../func.php';
 
 header('Content-Type: text/calendar; charset=UTF-8');
 $smarty->assign('events', get_all_cal_data());
-$smarty->display('kalendar-ical.tpl');
-echo "\n";
+$calendar = preg_replace("/\n/", "\r\n", $smarty->fetch('kalendar-ical.tpl'));
+print $calendar;
+
+file_put_contents(ZS_DIR.'/tmp/zonglovani.ics', $calendar);

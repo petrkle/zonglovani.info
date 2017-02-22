@@ -1,4 +1,3 @@
-{* /* vim: set ff=dos: */ *}
 BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//zongleruv-slabikar
@@ -20,15 +19,13 @@ DTSTART:19701025T030000
 RRULE:FREQ=YEARLY;INTERVAL=1;BYDAY=-1SU;BYMONTH=10
 END:STANDARD
 END:VTIMEZONE
-{foreach from=$events item=udalost}
-BEGIN:VEVENT
+{foreach from=$events item=udalost}BEGIN:VEVENT
 DTSTART:{$udalost.start_ical|escape}
 DTEND:{$udalost.end_ical|escape}
-SUMMARY:{$udalost.title|replace:',':'\\,'|escape}
-DESCRIPTION:{$udalost.desc|escape|replace:';':'\\;'|replace:',':'\\,'}
-LOCATION:{$udalost.misto|escape|replace:';':'\\;'|replace:',':'\\,'}
+SUMMARY:{$udalost.title|wordwrap:50:" \n "|replace:',':'\\,'|escape}
+DESCRIPTION:{$udalost.desc|wordwrap:50:" \n "|escape|replace:';':'\\;'|replace:',':'\\,'}
+LOCATION:{$udalost.misto|wordwrap:50:" \n "|escape|replace:';':'\\;'|replace:',':'\\,'}
 DTSTAMP:{$udalost.insert_ical|escape}
-UID:{$udalost.id|escape}-zonglovani.info
+UID:{$udalost.id|escape}-{$smarty.const.ZS_DOMAIN}
 END:VEVENT
-{/foreach}
-END:VCALENDAR
+{/foreach}END:VCALENDAR
