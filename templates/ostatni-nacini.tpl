@@ -58,7 +58,7 @@ Cívka uvázaná na provázku. Jestli tě zajímají další podrobnosti, podív
 
 <a name="poi"></a><h3><a href="/literatura.html#poi" title="Knížka o točení s poi.">Poi-poi</a></h3>
 <p>
-{obrazek soubor="nacinik.png" popisek="Poi-poi"}
+<a href="/literatura.html#poi" title="Knížka o točení s poi.">{obrazek soubor="nacinik.png" popisek="Poi-poi"}</a>
 Míček přivázaný na provázku (+- 0,5m). Na druhém konci provázku je smyčka pro držení. Do každé ruky si vezmeš jednu poiku a točíš s nimi okolo sebe. Ucelený popis najdeš v <a href="/literatura.html#poi" title="Podrobnosti o točení.">Richeeho knížce</a>.
 </p>
 
