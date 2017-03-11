@@ -256,13 +256,18 @@ class Pager_Sliding extends Pager_Common
                     $pre = '';
                     $post = '';
                 } else {
-                    $pre = '&nbsp;';
-                    $post = '&nbsp;';
+                    $pre = ' ';
+                    $post = ' ';
                 }
 
                 if ($i == $this->_currentPage) {
                     $this->range[$i] = true;
-                    $links .= $this->_curPageSpanPre.$pre.$i.$post.$this->_curPageSpanPost;
+                    if ($i<10) {
+                        $vycpavka = '&nbsp;';
+                    } else {
+                        $vycpavka = '';
+                    }
+                    $links .= $this->_curPageSpanPre.$pre.$vycpavka.$i.$vycpavka.$post.$this->_curPageSpanPost;
                 } else {
                     $this->range[$i] = false;
                     $this->_linkData[$this->_urlVar] = $i;
