@@ -20,7 +20,7 @@ echo "$IN -> $OUT"
 
 CISLO=0
 
-for foo in $IN/*.jpg
+for foo in `ls $IN/*.jpg | sort -V`
 do
 	HCISLO=`printf "%4d" $CISLO | sed -e 's/ /0/g'`
 	identify -verbose "$foo" > $EXIF/$HCISLO.text
