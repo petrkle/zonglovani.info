@@ -6,6 +6,7 @@ body{font-family:sans-serif;font-size:1em;line-height:1.5em;color:#000;backgroun
 .hlkz{background:url('img/k/kuzely-logo.gif') no-repeat 92% 100%;}
 .hld{background:url('img/d/diabolo-logo.gif') no-repeat 93% 100%;}
 #ucet{display:block;position:absolute;text-align:right;width:730px;height:10px;top:0;right:0;padding:0;font-size:.7em;}
+#ucet,.ucet{background:transparent;}
 #hlavicka img{padding:0;margin:35px 0 0 15px;}
 a img{border-width:0;}
 #stranka{text-align:center;width:750px;padding:0;margin:0 auto 0 auto;background:url("img/t/telo.gif") 50% 0 repeat-y #fff;}
