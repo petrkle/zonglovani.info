@@ -1,9 +1,14 @@
 #!/bin/bash
 
+set -e
+
 T=scripts/tests
 
-grep -h "^use" $T/*.{t,pl} | grep -v -e strict -e warnings | sed "s/use //;s/ .*//;s/;//" | sort | uniq > $T/pm.txt.new
+for foo in `grep -h "^use" $T/*.{t,pl} | grep -v -e strict -e warnings | sed "s/use //;s/ .*//;s/;//" | sort | uniq`
+do
+	echo "requires '$foo';" >> cpanfile.new
+done
 
-diff $T/pm.txt $T/pm.txt.new &>/dev/null || mv $T/pm.txt.new $T/pm.txt
+diff cpanfile cpanfile.new &>/dev/null || mv cpanfile.new cpanfile
 
-rm -f $T/pm.txt.new
+rm -f cpanfile.new

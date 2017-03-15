@@ -28,6 +28,6 @@ https://github.com/petrkle/fakemail-slack
 
 ## Testování ##
 
-	cpanm < scripts/tests/pm.txt
+	cpanm --installdeps .
 
 	make test
