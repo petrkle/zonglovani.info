@@ -44,6 +44,5 @@
 	<link rel="alternate" title="Kalendář žonglování" href="https://{$smarty.server.SERVER_NAME}{$smarty.const.CALENDAR_URL}kalendar.rss" type="application/rss+xml" />
 	<link rel="alternate" title="Tip týdne pro žongléry" href="https://{$smarty.server.SERVER_NAME}/tip/tip.rss" type="application/rss+xml" />
 	<link rel="alternate" title="Diskuse o žonglování" href="https://{$smarty.server.SERVER_NAME}{$smarty.const.DISKUSE_URL}zpravy.rss" type="application/rss+xml" />
-	<meta name="referrer" content="unsafe-url">
 	<meta name="theme-color" content="#ffdd33">
 	<link rel="manifest" href="/manifest.json">

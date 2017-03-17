@@ -8,7 +8,6 @@ if (php_uname('n') == 'vps') {
     define('ZS_DOMAIN', 'zongl.info');
 }
 date_default_timezone_set('Europe/Prague');
-header('X-Frame-Options: DENY');
 
 define('ZS_DIR', '/home/www/zonglovani.info');
 
