@@ -1,6 +1,6 @@
 {if is_array($tipy)}
 <p>
-Tip týdne a ostatní aktualizace žonglérova slabikáře můžeš sledovat pomocí <a href="/rss.html" title="Automatické doručování informace o změnách">RSS</a> nebo <a href="/twitter.html" title="Žonglování na twitteru">Twitteru</a>.
+Každý týden informace ze světa žonglování.
 </p>
 {foreach from=$tipy item=foo key=datum}
 <a name="{$foo.cas|escape}"></a><h3 class="nadpistipu"><a href="{$foo.link}" title="{$foo.nadpis|escape}">{$foo.nadpis|escape}</a></h3>
