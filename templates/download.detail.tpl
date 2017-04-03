@@ -7,7 +7,6 @@
 <li>Datum: {$release.date_hr|escape}</li>
 <li>Verze: {$release.version|escape}</li>
 <li>Velikost: {$release.size|escape}</li>
-<li>md5sum: {$release.md5|escape}</li>
 </ul>
 </p>
 {/foreach}
