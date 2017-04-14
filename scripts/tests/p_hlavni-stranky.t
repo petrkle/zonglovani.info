@@ -3,7 +3,7 @@ use strict;
 use warnings;
 use LWP::ConnCache;
 use WWW::Mechanize;
-use Test::More tests => 116;
+use Test::More tests => 114;
 
 my $bot = WWW::Mechanize->new(autocheck => 1);
 $bot->conn_cache(LWP::ConnCache->new);
@@ -32,8 +32,7 @@ my @stranky = (
 	{'a'=>'/kuzely/passing/', 't'=>'Passing', 'o'=>'<li><a href="star.html" title="těžší">Hvězda<'},
 	{'a'=>'/kuzely/passing/4count.html', 't'=>'Passing - 4 count', 'o'=>'Dobře hozený pass přilétá držadlem kuželu'},
 	{'a'=>'/kuzely/passing/hody.html', 't'=>'Passing - Druhy hodů při passování', 'o'=>'<a name="podnohou"><\/a><h2>Pod nohou<\/h2>'},
-	{'a'=>'/lide/', 't'=>'Seznam žonglérů', 'o'=>'Stránkování: <b>1<\/b>'},
-	{'a'=>'/lide/stranka2/', 't'=>'Seznam žonglérů - 2. stránka', 'o'=>'<b>2<\/b>'},
+	{'a'=>'/lide/', 't'=>'Seznam žonglérů', 'o'=>'<h1>Seznam žonglérů<\/h1>'},
 	{'a'=>'/lide/jitka.html', 't'=>'Jitka', 'o'=>'Účet vytvořen: 28. 12. 2009'},
 	{'a'=>'/kalendar/', 't'=>'Kalendář žonglování', 'o'=>'Dnes je: '},
 	{'a'=>'/lide/prihlaseni.php', 't'=>'Přihlášení', 'o'=>'<legend>Přihlašovací údaje<'},
