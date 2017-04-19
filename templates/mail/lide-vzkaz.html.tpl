@@ -1,4 +1,7 @@
 {include file="mail/html-hlavicka.tpl"}
+<p>
+Vzkaz od: <a href="mailto:{$from|escape}?subject=Žonglování">{$from|escape}</mailto>
+</p>
 
 <pre>
 {$vzkaz|escape}

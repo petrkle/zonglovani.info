@@ -1,3 +1,4 @@
+Vzkaz od: {$from|escape}
 
 {$vzkaz|escape}
 

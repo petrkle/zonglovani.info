@@ -91,7 +91,7 @@ if (isset($_POST['komu'])) {
                 $smarty->assign('hide_signature', true);
 
                 $vysledek = sendmail(array(
-            'from' => $email,
+            'replyto' => $email,
             'to' => $komu_props['email'],
             'subject' => $subject,
             'text' => $smarty->fetch('mail/lide-vzkaz.txt.tpl'),

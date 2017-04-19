@@ -696,6 +696,9 @@ function sendmail($msg)
         'Precedence' => 'bulk',
         'Date' => date('r', time()),
     );
+    if (isset($msg['replyto'])) {
+        $headers['Reply-To'] = $msg['replyto'];
+    }
     $mailconf = array(
         'head_encoding' => 'base64',
         'text_encoding' => '8bit',

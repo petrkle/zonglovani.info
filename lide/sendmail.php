@@ -38,7 +38,7 @@ if (isset($_GET['m'])) {
         $smarty->assign('hide_signature', true);
 
         $vysledek = sendmail(array(
-            'from' => $odesilatel,
+            'replyto' => $odesilatel,
             'to' => $to,
             'subject' => $subject,
             'text' => $smarty->fetch('mail/lide-vzkaz.txt.tpl'),
