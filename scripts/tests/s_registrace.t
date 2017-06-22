@@ -8,7 +8,7 @@ use Test::More tests => 40;
 use Net::Netrc;
 use String::MkPasswd qw(mkpasswd);
 use Encode;
-require('scripts/tests/func.pl');
+require('./scripts/tests/func.pl');
 
 my $nove_heslo = mkpasswd(-length => 13, -minnum => 4, -minlower => 4, -minupper => 2, -minspecial => 3);
 my $jmeno = mkpasswd(-length => 10, -minnum => 0, -minlower => 4, -minupper => 2, -minspecial => 0);

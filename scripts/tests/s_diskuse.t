@@ -5,7 +5,7 @@ use LWP::ConnCache;
 use WWW::Mechanize;
 use Test::More tests => 19;
 use Net::Netrc;
-require('scripts/tests/func.pl');
+require('./scripts/tests/func.pl');
 use Encode;
 
 my $loginurl = 'https://zongl.info/lide/prihlaseni.php';

@@ -11,7 +11,7 @@ use Test::More tests => 14;
 use Net::Netrc;
 use Encode;
 
-require('scripts/tests/func.pl');
+require('./scripts/tests/func.pl');
 
 my $loginurl = 'https://zongl.info/lide/prihlaseni.php';
 my $mach = Net::Netrc->lookup($loginurl);
