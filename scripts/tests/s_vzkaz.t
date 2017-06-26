@@ -5,7 +5,7 @@ use warnings;
 use LWP::ConnCache;
 use WWW::Mechanize;
 use List::Util qw(shuffle);
-use File::Slurp;
+use File::Slurper 'read_text';
 use File::Basename;
 use Test::More tests => 14;
 use Net::Netrc;
@@ -30,7 +30,7 @@ my $clovek_mail_mail='';
 
 foreach my $clovek(@lide){
 	if(! -f "$clovek/LOCKED" && ! -f "$clovek/REVOKED"){
-		my $soukromi = read_file("$clovek/soukromi.txt") ;
+		my $soukromi = read_text("$clovek/soukromi.txt") ;
 		if($soukromi =~ /formular/){
 			$clovek_formular = basename($clovek);
 			$clovek_formular_mail = basename(glob("$clovek/*.mail"),(".mail"));
@@ -71,7 +71,7 @@ ok($navrat =~ /Na tvůj e-mail byla odeslána zpráva potřebná k dokončení z
 
 ok(-f "/home/fakemail/$clovek_mail_mail.1.eml", 'Potvrzovaci mail přišel');
 
-my $text = read_file("/home/fakemail/$clovek_mail_mail.1.eml", binmode => ':utf8');
+my $text = read_text("/home/fakemail/$clovek_mail_mail.1.eml");
 my $email = Email::MIME->new(encode_utf8($text));
 my @zprava = split(/\n/, get_html_part($email));
 

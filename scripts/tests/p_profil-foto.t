@@ -6,7 +6,7 @@ use LWP::ConnCache;
 use WWW::Mechanize;
 use Test::More tests => 14;
 use Net::Netrc;
-use POSIX;
+use File::Temp qw/ :POSIX /;
 use File::Compare;
 use Image::Size;
 
