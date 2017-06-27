@@ -12,7 +12,7 @@ Zápis žonglování pomocí čísel. Jsou to vlastně takové noty pro žonglov
 
 <h3>Základní pravidla</h3>
 <ul>
-<li>Čísla označují jak vysoko a kterou rukou házíš.</li>
+<li>Čísla označují, jak vysoko a kterou rukou házíš.</li>
 <li>Ruce se při házení střídají.</li>
 <li>Posloupnost čísel se opakuje dokola.</li>
 </ul>
@@ -36,7 +36,7 @@ P = pravá ruka  L = levá ruka
 </pre>
 <p>
 <a href="/micky/3/kaskada.html" title="Základní trik se třemi míčky.">{obrazek soubor="kaskadaa.png" popisek=""}</a>
-Pravá ruka hází míček stejně jako když žongluješ se třemi míčky (docela nízko, z jedné ruky do druhé). Levou rukou hodíš stejný hod. Potom pravá, pak levá...</p>
+Pravá ruka hází míček stejně, jako když žongluješ se třemi míčky (docela nízko, z jedné ruky do druhé). Levou rukou hodíš stejný hod. Potom pravá, pak levá...</p>
 
 <p>
 Trojka znamená <a href="/micky/3/kaskada.html" title="Základní trik se třemi míčky.">kaskádu se 3 míčky</a>.
@@ -120,7 +120,7 @@ Trik se jmenuje <a href="/micky/4/sprcha-polovicni.html" title="Trik se čtyřmi
 <h3>Jak poznám s kolika míčky se žongluje&nbsp;53?</h3>
 
 <p>
-Sečteš všechna čísla v posloupnosti a vydělíš je délkou posloupnosti. 5+3=8 8/2=4 a tak jde o trik se čtyřmi míčky. Jestliže nevyjde celé číslo pak je siteswap špatný.
+Sečteš všechna čísla v posloupnosti a vydělíš je délkou posloupnosti. 5+3=8 8/2=4, a tak jde o trik se čtyřmi míčky. Jestliže nevyjde celé číslo pak je siteswap špatný.
 </p>
 
 <h3>Zápis složitějších triků</h3>
