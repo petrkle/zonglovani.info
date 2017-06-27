@@ -25,7 +25,7 @@ Zápis žonglování pomocí čísel. Jsou to vlastně takové noty pro žonglov
 
 <h3>3</h3>
 <p>
-Nejednoduší siteswap zapíšeme číslem 3. Začni pravou rukou a opakuj dokola.
+Nejjednodušší siteswap zapíšeme číslem 3. Začni pravou rukou a opakuj dokola.
 </p>
 
 <pre>
