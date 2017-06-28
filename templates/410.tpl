@@ -1,6 +1,3 @@
-<ul>
-<li>{$smarty.server.SERVER_NAME}{$smarty.server.REQUEST_URI|escape}</li>
-</ul>
 <p>
 Je mi líto, požadovaná stránka se už v žonglérově slabikáři nenachází.
 </p>
