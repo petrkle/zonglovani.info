@@ -122,4 +122,3 @@ $cron = system('php /home/www/zonglovani.info/cron/old-accounts.php');
 ok(!-f "/home/fakemail/$mail.2.eml", 'Připomínací email nechodí na zablokované účty zlobivých uživatelů');
 
 remove_tree "$DATA_LIDE/$login", "$DATA_LIDE_BY_MAIL/$maildomain";
-system "sudo", "/bin/bash", "/home/www/zonglovani.info/scripts/tests/clean.sh";

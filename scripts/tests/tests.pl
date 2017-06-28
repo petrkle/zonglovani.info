@@ -12,8 +12,7 @@ my %args = (
 	   jobs => 4,
 		 rules => {
 		 seq => [
-						 { par => "$testdir/p_*.t" },
-			       { seq => "$testdir/s_*.t" },
+						 { par => "$testdir/*.t" },
 					  ]
 		 }
 );
@@ -22,5 +21,5 @@ my $harness = TAP::Harness->new( \%args );
 
 my @tests=glob("$testdir/*.t");
 
-system "sudo", "/bin/bash", "$testdir/clean.sh";
 $harness->runtests(@tests);
+system "sudo", "/bin/bash", "$testdir/clean.sh";

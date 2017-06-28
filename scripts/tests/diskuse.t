@@ -68,5 +68,3 @@ foreach my $prispevek (@vzkazy){
 	$zs_vzkaz = $bot->submit_form(form_number => 0 ,fields => {'antispam'=>get_vypocet($zs_vzkaz->content())}, button=>'odeslat');
 	ok($zs_vzkaz->content() =~ /$prispevek->{'v'}/, $prispevek->{'t'});
 }
-
-system "sudo", "/bin/bash", "/home/www/zonglovani.info/scripts/tests/clean.sh";

@@ -111,5 +111,3 @@ my $odpoved = $zs_posli_vzkaz_prihl->content();
 ok($odpoved =~ /Vzkaz byl úspěšně odeslán/,'Vzkaz od přihlášeného uživatele byl úspěšně odeslán.');
 
 ok(-f "/home/fakemail/$clovek_formular_mail.2.eml", "Vzkaz od přihlášeného uživatele přišel na $clovek_formular_mail ($clovek_formular).");
-
-system "sudo", "/bin/bash", "/home/www/zonglovani.info/scripts/tests/clean.sh";
