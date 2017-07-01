@@ -452,7 +452,7 @@
 2017-06-12*Hvězda*/kuzely/passing/star.html*kuzely-passing-stara.png*Passovací trik pro <strong>5 žonglérů</strong>. Někdy se mu také říká pětiúhelník.
 2017-06-19*Odborné texty o žonglování*/odborne-texty.html*slovnik.jpg*Žonglování je občas věda.
 2017-06-26*Hula Hoop - Jade Dussault*/video/jade-dussault.html*jade-dussault.jpg*Točení s hula-hop kruhem. Upoutávka na Turbofest 418.
-2017-07-03*Giraffe Theory Juggling Glow Clubs*/video/giraffe-theory.html*giraffe-theory.jpg*Nejen žonglování se svítícími kužely.
+2017-07-03*Circus Culture Fest*/kalendar/udalost-20170707-20170709-kotil-1498815655.html*ccf17.png*Setkání žonglérů a cirkusáků na pláži v Mlékojedech.
 2017-07-10*Použij nohy*/micky/nohy.html*kickup-micky.png*Nikomu se nechce věčně shýbat pro spadlé míčky. A skutečně se tomu lze vyhnout.
 2017-07-17*Kaskáda*/kruhy/3/kaskada.html*kruhy-3-kaskadab.png*Kaskáda se třemi kruhy.
 2017-07-24*Juggling Zombie Day*/video/etc/zombie-day.html*zombie-day.jpg*Žonglující zombie.
@@ -522,7 +522,7 @@
 2018-10-15*Malabaristas Kamones*/video/etc/kamones.html*kamones.jpg*Craig a Mo jsou dva šikovní žongléři z Portugalska.
 2018-10-22*Passing - Střídavý lichoběžník*/kuzely/passing/stridavy-lichobeznik.html*slichobeznikc.png*Střídavý lichoběžník je rozšířením lichoběžníku.
 2018-10-29*Podpoř žonglérův slabikář*/podporte-zongleruv-slabikar.html*podporad.png*Přispěj na další rozvoj a aktualizace žonglérova slabikáře.
-2018-11-05*
+2018-11-05*Giraffe Theory Juggling Glow Clubs*/video/giraffe-theory.html*giraffe-theory.jpg*Nejen žonglování se svítícími kužely.
 2018-11-12*
 2018-11-19*
 # vim: set nonumber nowrap:
