@@ -1,9 +1,5 @@
 {if is_array($items)}
 
-{if isset($smarty.session.logged) and $smarty.session.logged==true}
-<p><a href="{$smarty.const.DISKUSE_URL}add.php" title="Přidat nový vzkaz." class="add">Přidat zprávu</a></p>
-{/if}
-
 {if $page_numbers.total > 1 and count($items)>5}
 <p class="strankovani">
 Stránkování: {$pager_links}
@@ -33,17 +29,3 @@ Stránkování: {$pager_links}
 {/if}
 
 {/if}
-{if !isset($smarty.session.logged)}
-<p>
-<strong class="add">Přidat zprávu</strong> - do diskuse můžou psát jen <a href="{$smarty.const.LIDE_URL}prihlaseni.php?next={$smarty.const.DISKUSE_URL}" title="Přihlášení do žonglérova slabikáře" rel="nofollow">přihlášení</a> uživatele žonglérova slabikáře.
-</p>
-<p>
-<a href="{$smarty.const.LIDE_URL}novy-ucet.php" title="Vytvořit uživatelský účet." class="add">Založit nový účet</a>.
-</p>
-{else}
-<p><a href="{$smarty.const.DISKUSE_URL}add.php" title="Přidat nový vzkaz." class="add">Přidat zprávu</a></p>
-{/if}
-
-
-<p>Diskusi můžeš sledovat pomocí <a href="{$smarty.const.DISKUSE_URL}zpravy.rss" title="RSS slouží k upozorňování na aktualizaci stránek.">RSS</a>.</p>
-<p>Návod <a href="{$smarty.const.CALENDAR_URL}rss-a-icalendar.html#rss">jak nastavit RSS</a>.</p>

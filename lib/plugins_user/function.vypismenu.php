@@ -69,9 +69,9 @@ function submenu($id)
     }
 
     if ($id == 6) {
-        $adresy = array('/kalendar/', '/diskuse/', '/lide/misto/');
-        $texty = array('Kalendář', 'Diskuse', 'Místa');
-        $popisky = array('Kalendář žonglování', 'Diskuse a komentáře', 'Žongléři podle místa působení');
+        $adresy = array('/kalendar/', '/lide/misto/');
+        $texty = array('Kalendář', 'Místa');
+        $popisky = array('Kalendář žonglování', 'Žongléři podle místa působení');
     }
 
     if ($id == 7) {

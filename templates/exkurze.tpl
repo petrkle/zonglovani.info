@@ -8,12 +8,6 @@ Po <a href="{$smarty.const.LIDE_URL}novy-ucet.php" title="Vytvořit uživatelsk�
 Můžeš přidávat srazy, workshopy a představení do kalendáře žonglérských akcí.
 </p>
 
-<h3><a href="{$smarty.const.DISKUSE_URL}">Diskuse</a></h3>
-<p>
-<a href="/img/e/exkurze-diskuse.png">{obrazek soubor='exkurze-diskuse.s.png' popisek=''}</a>
-Máš dotazy ohledně žonglování? Nápady nebo připomínky k žonglérovu slabikáři? Můžeš je napsat do diskuse.
-</p>
-
 <h3><a href="{$smarty.const.LIDE_URL}dovednost">Žonglérské dovednosti</a></h3>
 <p>
 <a href="/img/e/exkurze-dovednosti.png">{obrazek soubor='exkurze-dovednosti.s.png' popisek=''}</a>

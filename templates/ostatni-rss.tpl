@@ -21,12 +21,6 @@
 <li><a href="https://{$smarty.server.SERVER_NAME}{$smarty.const.CALENDAR_URL}kalendar.xml" class="wrap" title="RSS 2.0">https://{$smarty.server.SERVER_NAME}{$smarty.const.CALENDAR_URL}kalendar.xml</a></li>
 </ul>
 
-<h3>Diskuse o žonglování</h3>
-<ul>
-<li><a href="https://{$smarty.server.SERVER_NAME}{$smarty.const.DISKUSE_URL}zpravy.rss" class="wrap" title="RSS 1.0">https://{$smarty.server.SERVER_NAME}{$smarty.const.DISKUSE_URL}zpravy.rss</a></li>
-<li><a href="https://{$smarty.server.SERVER_NAME}{$smarty.const.DISKUSE_URL}zpravy.xml" class="wrap" title="RSS 2.0">https://{$smarty.server.SERVER_NAME}{$smarty.const.DISKUSE_URL}zpravy.xml</a></li>
-</ul>
-
 <h3>Nově registrovaní uživatelé</h3>
 <ul>
 <li><a href="https://{$smarty.server.SERVER_NAME}{$smarty.const.LIDE_URL}uzivatele.rss" class="wrap" title="RSS 1.0">https://{$smarty.server.SERVER_NAME}{$smarty.const.LIDE_URL}uzivatele.rss</a></li>
