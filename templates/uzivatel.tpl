@@ -54,7 +54,7 @@ Stránku odebereš z oblíbených kliknutím na obrázek žluté hvězdičky {ob
 </ul>
 {if $uzivatel_props.soukromi=='mail'}
 <ul>
-<li>E-mail: <span class="email">{$uzivatel_props.email|escape|mailobfuscate}</span></li>
+<li>E-mail: {$uzivatel_props.email|escape|mailobfuscate}</li>
 </ul>
 {else}
 <form action="{$smarty.const.LIDE_URL}vzkaz.php" method="post">
