@@ -17,7 +17,7 @@ Stránkování: {$pager_links}
 <th>Čas</th>
 <td>{$zprava.cas_hr|escape}</td>
 </tr>
-<tr><td colspan="6">{$zprava.text}</td></tr>
+<tr><td colspan="6" class="wrap">{$zprava.text}</td></tr>
 </table>
 {/foreach}
 

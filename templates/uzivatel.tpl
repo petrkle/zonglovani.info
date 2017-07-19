@@ -38,9 +38,9 @@ Stránku odebereš z oblíbených kliknutím na obrázek žluté hvězdičky {ob
 {/if}
 
 {if isset($uzivatel_props.vzkaz) and strlen($uzivatel_props.vzkaz)>0}
-<pre class="note">
-{$uzivatel_props.vzkaz|wordwrap:45:"\n":true|escape}
-</pre>
+<p class="wrap">
+{$uzivatel_props.vzkaz|escape}
+</p>
 {/if}
 
 <ul>

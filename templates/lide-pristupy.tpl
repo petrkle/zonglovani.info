@@ -10,9 +10,9 @@
 {foreach from=$prihlaseni item=login name=poradi}
 <tr{cycle values=', class="suda"'}>
 <td>{$smarty.foreach.poradi.total-$smarty.foreach.poradi.index}</td>
-<td>{$login.cas_hr|escape}</td>
-<td>{$login.ip|escape}</td>
-<td><abbr title="{$login.prohlizec|escape}">{$login.prohlizec|truncate:80:"...":false|escape}</abbr></td>
+<td class="wrap">{$login.cas_hr|escape}</td>
+<td class="wrap">{$login.ip|escape}</td>
+<td><abbr title="{$login.prohlizec|escape}" class="wrap">{$login.prohlizec|truncate:80:"...":false|escape}</abbr></td>
 </tr>
 {/foreach}
 </table>
