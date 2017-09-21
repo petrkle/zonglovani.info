@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="cs">
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<title>{$titulek|escape}</title>
