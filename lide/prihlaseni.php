@@ -41,7 +41,7 @@ if (isset($_GET['first'])) {
         'centrum.cz' => 'https://mail.centrum.cz',
         'volny.cz' => 'https://mail.volny.cz',
         'azet.sk' => 'https://emailnew.azet.sk',
-        'centrum.sk' => 'http://mail.centrum.sk',
+        'centrum.sk' => 'https://mail.centrum.sk',
         'atlas.cz' => 'https://auser.centrum.cz',
     );
 
@@ -155,29 +155,6 @@ if (isset($_POST['login']) and isset($_POST['heslo']) and isset($_GET['action'])
             $smarty->display('prihlaseni.tpl');
             $smarty->display('paticka.tpl');
             exit();
-        }
-
-        if (is_file(LIDE_DATA.'/'.$uzivatel['login'].'/passwd.sha1')) {
-            $passwd_hash_old = trim(file_get_contents(LIDE_DATA.'/'.$uzivatel['login'].'/passwd.sha1'));
-
-            if (sha1($input_heslo.$login) == $passwd_hash_old) {
-                // úspěšné přihlášení
-                if (!isset($_SESSION)) {
-                    session_name('ZS');
-                    session_start();
-                }
-
-                $foo = fopen(LIDE_DATA.'/'.$uzivatel['login'].'/passwd.crypt', 'w');
-                fwrite($foo, password_hash($input_heslo, PASSWORD_DEFAULT));
-                fclose($foo);
-                unlink(LIDE_DATA.'/'.$uzivatel['login'].'/passwd.sha1');
-
-                load_user($uzivatel['login']);
-                header('Location: '.$next);
-                exit();
-            } else {
-                spatne_jmeno_nebo_heslo();
-            }
         }
 
         if (is_file(LIDE_DATA.'/'.$uzivatel['login'].'/passwd.crypt')) {

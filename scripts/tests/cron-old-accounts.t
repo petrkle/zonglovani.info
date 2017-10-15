@@ -7,7 +7,7 @@ use String::MkPasswd qw(mkpasswd);
 use File::Touch;
 use File::Path qw(make_path remove_tree);
 use File::Slurper 'write_text';
-use Digest::SHA1 qw(sha1_hex);
+use PHP::Functions::Password qw(password_hash);
 use File::chmod::Recursive;
 
 my $now=time();
@@ -42,7 +42,7 @@ write_text "$DATA_LIDE/$login/jmeno.txt", $jmeno;
 write_text "$DATA_LIDE/$login/registrace.txt", $now;
 write_text "$DATA_LIDE/$login/soukromi.txt", "formular";
 write_text "$DATA_LIDE/$login/vzkaz.txt", $vzkaz;
-write_text "$DATA_LIDE/$login/passwd.sha1", sha1_hex "$heslo$login";
+write_text "$DATA_LIDE/$login/passwd.crypt", password_hash $heslo;
 
 my $ref = File::Touch->new(time => ($now - ($warn_after*$day) - $day));
 $ref->touch(("$DATA_LIDE/$login/prihlaseni.txt"));

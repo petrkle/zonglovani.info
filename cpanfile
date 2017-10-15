@@ -1,6 +1,5 @@
 requires 'Date::Format';
 requires 'Date::Parse';
-requires 'Digest::SHA1';
 requires 'Email::MIME';
 requires 'Encode';
 requires 'File::Basename';
@@ -18,6 +17,7 @@ requires 'Image::Size';
 requires 'List::Util';
 requires 'LWP::ConnCache';
 requires 'Net::Netrc';
+requires 'PHP::Functions::Password';
 requires 'String::MkPasswd';
 requires 'Test::Harness';
 requires 'Test::JSON';
