@@ -1,5 +1,5 @@
 COMPRESS=java -jar $(HOME)/lib/htmlcompressor-1.5.3.jar --compress-js --compress-css --remove-surrounding-spaces min -r -m '*.html' -o
-VERSION=1.2
+VERSION=1.3
 
 help:
 	@echo "cordova   - vytvori offline verzi pro Apache Cordova"
@@ -14,18 +14,8 @@ cordova:
 	$(COMPRESS) zongleruv-slabikar zongleruv-slabikar
 	./a-img.sh
 	rm -rf android/assets && mkdir android/assets && mv zongleruv-slabikar android/assets/www
-	cd android/ && ant release
-
-firefox:
-	./stahni.sh
-	./uprav.sh
-	./fixlinks.sh
-	./firefox.sh $(VERSION)
-	./icons.sh
-	$(COMPRESS) zongleruv-slabikar zongleruv-slabikar
-	./a-img.sh
-	cd zongleruv-slabikar && zip -q -r ../zongleruv-slabikar-$(VERSION).zip .
+	cd android/ && gradle assembleRelease
 
 clean:
 	rm -rf zongleruv-slabikar zongleruv-slabikar-*.zip
-	cd android && ant clean
+	cd android && gradle clean
