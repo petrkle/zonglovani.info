@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<style name="Zonglovani" parent="android:Theme.Light">
+    <item name="android:windowBackground">@color/zs_bg</item>
+    <item name="android:colorBackground">@color/zs_header</item>
+</style>
+</resources>
