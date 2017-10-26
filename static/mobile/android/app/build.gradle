@@ -7,8 +7,8 @@ android {
         applicationId "info.zonglovani.mobile.app"
         minSdkVersion 15
         targetSdkVersion 26
-        versionCode 14
-        versionName "1.4"
+        versionCode 15
+        versionName "1.5"
 				setProperty("archivesBaseName", "Zongleruv-slabikar-$versionName")
     }
 		signingConfigs {
@@ -24,8 +24,8 @@ android {
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
-		compile 'com.android.support:appcompat-v7:26.0.1'
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+		implementation 'com.android.support:appcompat-v7:26.0.1'
 }
 
 
