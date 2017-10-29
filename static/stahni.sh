@@ -25,7 +25,7 @@ wget \
 	$URL/img/o/okraje.png \
 	$URL/img/m/micky-logo.gif \
 	$URL/img/k/kruhy-logo.gif \
-	$URL/img/l/logo.gif \
+	$URL/img/z/zs.svg \
 	$URL/img/d/diabolo-logo.gif \
 	$URL/img/e/external.png \
 	$URL/img/k/kuzely-logo.gif \
