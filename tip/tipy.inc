@@ -471,9 +471,9 @@
 2017-10-23*Podání kuželky*/kuzely/passing/podani-kuzelky.html*podanikuzelkyc.png*Trik pro dva žongléry.
 2017-10-30*Pomalá otočka*/kuzely/passing/pomala-otocka.html*pomalaotockab.png*Při házení 4 count je dostatek času i na otočku.
 2017-11-06*Mantega Variation*/video/metlili/mantega-variation.html*mantega-variation.jpg*Video od dvojice Anonymous Brothers.
-2017-11-13*Fantasmatico*/video/metlili/fantasmatico.html*fantasmatico.jpg*Žonglování s míčky a kužely ve Francii.
+2017-11-13*Podpoř žonglérův slabikář*/podporte-zongleruv-slabikar.html*podporad.png*Přispěj na další rozvoj a aktualizace žonglérova slabikáře.
 2017-11-20*Facundo Sacramento*/video/metlili/facundo-sacramento.html*facundo-sacramento.jpg*Žonglování s míčky a balancování na hlavě.
-2017-11-27*H2O Flavor*/video/metlili/h2o-flavor.html*h2o-flavor.jpg*Žonglování s kužely.
+2017-11-27*Passing - Střídavý lichoběžník*/kuzely/passing/stridavy-lichobeznik.html*slichobeznikc.png*Střídavý lichoběžník je rozšířením lichoběžníku.
 2017-12-04*Jak na žonglování s pěti míčky*/micky/rady5.html*5kaskadae.png*Rady přo žonglování s pěti míčky.
 2017-12-11*Lichoběžník*/kuzely/passing/lichobeznik.html*lichobeznika.png*Trik pro čtyři žongléry a dvanáct kuželů. 
 2017-12-18*Trouble*/video/trouble.html*trouble.jpg*Žonglování v Huštěnovicích.
@@ -520,9 +520,9 @@
 2018-10-01*The Passing Zone*/video/passing-zone.html*passing-zone.jpg*Owen Morse a Jon Wee předvádí balet s motorovými pilami a spoustu dalších nebezpečných, ale zábavných kousků.
 2018-10-08*Alan &amp; Thom #3*/video/alan-thom-3.html*alan-thom-3.jpg*Třetí video od Alana a Thoma.
 2018-10-15*Malabaristas Kamones*/video/etc/kamones.html*kamones.jpg*Craig a Mo jsou dva šikovní žongléři z Portugalska.
-2018-10-22*Passing - Střídavý lichoběžník*/kuzely/passing/stridavy-lichobeznik.html*slichobeznikc.png*Střídavý lichoběžník je rozšířením lichoběžníku.
-2018-10-29*Podpoř žonglérův slabikář*/podporte-zongleruv-slabikar.html*podporad.png*Přispěj na další rozvoj a aktualizace žonglérova slabikáře.
-2018-11-05*Giraffe Theory Juggling Glow Clubs*/video/giraffe-theory.html*giraffe-theory.jpg*Nejen žonglování se svítícími kužely.
+2018-10-22*
+2018-10-29*
+2018-11-05*
 2018-11-12*
 2018-11-19*
 # vim: set nonumber nowrap:
