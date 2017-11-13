@@ -472,7 +472,7 @@
 2017-10-30*Pomalá otočka*/kuzely/passing/pomala-otocka.html*pomalaotockab.png*Při házení 4 count je dostatek času i na otočku.
 2017-11-06*Mantega Variation*/video/metlili/mantega-variation.html*mantega-variation.jpg*Video od dvojice Anonymous Brothers.
 2017-11-13*Podpoř žonglérův slabikář*/podporte-zongleruv-slabikar.html*podporad.png*Přispěj na další rozvoj a aktualizace žonglérova slabikáře.
-2017-11-20*Facundo Sacramento*/video/metlili/facundo-sacramento.html*facundo-sacramento.jpg*Žonglování s míčky a balancování na hlavě.
+2017-11-20*Brno juggling convention*/kalendar/udalost-20180209-20180211-pek-1510603318.html*bjc2018.png*Třídenní žonglérské víkendové setkání.
 2017-11-27*Passing - Střídavý lichoběžník*/kuzely/passing/stridavy-lichobeznik.html*slichobeznikc.png*Střídavý lichoběžník je rozšířením lichoběžníku.
 2017-12-04*Jak na žonglování s pěti míčky*/micky/rady5.html*5kaskadae.png*Rady přo žonglování s pěti míčky.
 2017-12-11*Lichoběžník*/kuzely/passing/lichobeznik.html*lichobeznika.png*Trik pro čtyři žongléry a dvanáct kuželů. 
