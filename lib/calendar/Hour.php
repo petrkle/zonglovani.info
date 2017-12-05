@@ -97,12 +97,21 @@ class calendar_Hour extends Calendar
     public function build($sDates = array())
     {
         include_once CALENDAR_ROOT.'Minute.php';
-        $mIH = $this->cE->getMinutesInHour($this->year, $this->month, $this->day,
-                           $this->hour);
+        $mIH = $this->cE->getMinutesInHour(
+            $this->year,
+            $this->month,
+            $this->day,
+                           $this->hour
+        );
         for ($i = 0; $i < $mIH; ++$i) {
             $this->children[$i] =
-                new Calendar_Minute($this->year, $this->month, $this->day,
-                           $this->hour, $i);
+                new Calendar_Minute(
+                    $this->year,
+                    $this->month,
+                    $this->day,
+                           $this->hour,
+                    $i
+                );
         }
         if (count($sDates) > 0) {
             $this->setSelection($sDates);

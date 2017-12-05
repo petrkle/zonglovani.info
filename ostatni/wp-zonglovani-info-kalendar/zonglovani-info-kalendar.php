@@ -94,7 +94,7 @@ class ZonglovaniInfoKalendar extends WP_Widget
 </ul>
 </fieldset>
      
-    <?php 
+    <?php
     }
 }
 

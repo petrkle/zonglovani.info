@@ -128,7 +128,11 @@ class Calendar_Month_Weeks extends Calendar_Month
             )
         ) {
             $this->children[$i] = new Calendar_Week(
-                $this->year, $this->month, $d, $this->tableHelper->getFirstDay());
+                $this->year,
+                $this->month,
+                $d,
+                $this->tableHelper->getFirstDay()
+            );
         }
         //used to set empty days
         $this->children[1]->setFirst(true);

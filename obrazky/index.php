@@ -135,7 +135,8 @@ if ($id) {
         $smarty->assign('items', $data);
         $smarty->assign('pager_links', $pager->links);
         $smarty->assign(
-                'page_numbers', array(
+                'page_numbers',
+            array(
                         'current' => $pager->getCurrentPageID(),
                         'total' => $pager->numPages(),
                 )
@@ -377,7 +378,8 @@ if ($id and $photo) {
     }
     $smarty->assign('pager_links', $pager->links);
     $smarty->assign(
-            'page_numbers', array(
+            'page_numbers',
+        array(
                     'current' => $pager->getCurrentPageID(),
                     'total' => $pager->numPages(),
             )

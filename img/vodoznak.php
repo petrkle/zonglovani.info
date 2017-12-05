@@ -34,11 +34,11 @@ if (is_readable($podpis) and is_readable($obrazek)) {
         $obr = imagecreatefrompng($obrazek);
         if ($obrazek_info[0] > 50 and $obrazek_info[1] > 15) {
             //označovat jen větší obrázky
-        if ($obrazek_info[0] < $podpis_info[0]) {
-            imagecopyresampled($obr, $pod, 0, $obrazek_info[1] - $podpis_info[1], 0, 0, $obrazek_info[0], $podpis_info[1], $podpis_info[0], $podpis_info[1]);
-        } else {
-            imagecopy($obr, $pod, $obrazek_info[0] - $podpis_info[0], $obrazek_info[1] - $podpis_info[1], 0, 0, $podpis_info[0], $podpis_info[1]);
-        }
+            if ($obrazek_info[0] < $podpis_info[0]) {
+                imagecopyresampled($obr, $pod, 0, $obrazek_info[1] - $podpis_info[1], 0, 0, $obrazek_info[0], $podpis_info[1], $podpis_info[0], $podpis_info[1]);
+            } else {
+                imagecopy($obr, $pod, $obrazek_info[0] - $podpis_info[0], $obrazek_info[1] - $podpis_info[1], 0, 0, $podpis_info[0], $podpis_info[1]);
+            }
         }
         header('Content-Type: image/png');
         imagepng($obr);

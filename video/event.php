@@ -62,7 +62,8 @@ if ($pager->getCurrentPageID() > 1) {
 $smarty->assign('trail', $trail->path);
 
 $smarty->assign(
-    'page_numbers', array(
+    'page_numbers',
+    array(
         'current' => $pager->getCurrentPageID(),
         'total' => $pager->numPages(),
     )

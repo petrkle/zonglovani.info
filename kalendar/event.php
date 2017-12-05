@@ -63,7 +63,7 @@ if ($udalost) {
 
     if (isset($trash) and isset($_POST['restore'])) {
         // obnova
-            rename(CALENDAR_DELETED.'/'.date('Ymd', strtotime($udalost['zacatek'])).'-'.date('Ymd', strtotime($udalost['konec'])).'-'.$_SESSION['uzivatel']['login'].'-'.$udalost['insert'].'.cal', CALENDAR_DATA.'/'.date('Ymd', strtotime($udalost['zacatek'])).'-'.date('Ymd', strtotime($udalost['konec'])).'-'.$_SESSION['uzivatel']['login'].'-'.$udalost['insert'].'.cal');
+        rename(CALENDAR_DELETED.'/'.date('Ymd', strtotime($udalost['zacatek'])).'-'.date('Ymd', strtotime($udalost['konec'])).'-'.$_SESSION['uzivatel']['login'].'-'.$udalost['insert'].'.cal', CALENDAR_DATA.'/'.date('Ymd', strtotime($udalost['zacatek'])).'-'.date('Ymd', strtotime($udalost['konec'])).'-'.$_SESSION['uzivatel']['login'].'-'.$udalost['insert'].'.cal');
         header('Location: '.CALENDAR_URL);
         exit();
     }
@@ -89,7 +89,7 @@ if ($udalost) {
 
     if (isset($_POST['odeslat']) and !$stare) {
         // uprava udalosti
-            $smarty->assign('styly', array('kpopup'));
+        $smarty->assign('styly', array('kpopup'));
         $smarty->assign('feedback', false);
         if (isset($_GET['action'])) {
             $udalost = array_merge(get_event_data($id.'.cal'), get_udalost_post());
@@ -111,10 +111,10 @@ if ($udalost) {
                 if ($udalost['vlozil'] == $_SESSION['uzivatel']['login']) {
                     if ($udalost['id'] == $newid) {
                         // update, stejny soubor
-                            write_event_data($udalost);
+                        write_event_data($udalost);
                     } else {
                         // update, jiný soubor
-                            $id = $udalost['id'];
+                        $id = $udalost['id'];
                         $udalost['id'] = $newid;
                         write_event_data($udalost);
                         rename(CALENDAR_DATA."/$id.cal", CALENDAR_DELETED."/$id.cal");

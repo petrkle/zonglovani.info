@@ -3,7 +3,8 @@
     $bbcode->SetEnableSmileys(false);
 
     $bbcode->ClearRules();
-    $bbcode->AddRule('b',
+    $bbcode->AddRule(
+        'b',
 array(
 'simple_start' => '<b>',
 'simple_end' => '</b>',
@@ -14,7 +15,8 @@ array(
 'plain_end' => '</b>', )
         );
 
-    $bbcode->AddRule('i',
+    $bbcode->AddRule(
+        'i',
 array(
 'simple_start' => '<i>',
 'simple_end' => '</i>',

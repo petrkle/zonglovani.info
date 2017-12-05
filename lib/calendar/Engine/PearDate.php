@@ -179,8 +179,15 @@ class calendar_Engine_PearDate /* implements Calendar_Engine_Interface */
         self::adjustDate($y, $m, $d, $h, $i, $s);
         $key = $y.$m.$d.$h.$i.$s;
         if (!isset($r[$key])) {
-            $r[$key] = sprintf('%04d-%02d-%02d %02d:%02d:%02d',
-                                $y, $m, $d, $h, $i, $s);
+            $r[$key] = sprintf(
+                '%04d-%02d-%02d %02d:%02d:%02d',
+                                $y,
+                $m,
+                $d,
+                $h,
+                $i,
+                $s
+            );
         }
 
         return $r[$key];

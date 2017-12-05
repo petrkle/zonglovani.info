@@ -146,8 +146,13 @@ class calendar_Factory
             return new Calendar_Year($y);
         default:
             include_once 'PEAR.php';
-            PEAR::raiseError('Calendar_Factory::create() unrecognised type: '.$type,
-                null, PEAR_ERROR_TRIGGER, E_USER_NOTICE, 'Calendar_Factory::create()');
+            PEAR::raiseError(
+                'Calendar_Factory::create() unrecognised type: '.$type,
+                null,
+                PEAR_ERROR_TRIGGER,
+                E_USER_NOTICE,
+                'Calendar_Factory::create()'
+            );
 
             return false;
         }

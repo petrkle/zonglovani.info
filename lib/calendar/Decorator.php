@@ -408,8 +408,12 @@ class calendar_Decorator
             include_once 'PEAR.php';
             PEAR::raiseError(
                 'Cannot call prevWeek on Calendar object of type: '.
-                get_class($this->calendar), 133, PEAR_ERROR_TRIGGER,
-                E_USER_NOTICE, 'Calendar_Decorator::prevWeek()');
+                get_class($this->calendar),
+                133,
+                PEAR_ERROR_TRIGGER,
+                E_USER_NOTICE,
+                'Calendar_Decorator::prevWeek()'
+            );
 
             return false;
         }
@@ -430,8 +434,12 @@ class calendar_Decorator
             include_once 'PEAR.php';
             PEAR::raiseError(
                 'Cannot call thisWeek on Calendar object of type: '.
-                get_class($this->calendar), 133, PEAR_ERROR_TRIGGER,
-                E_USER_NOTICE, 'Calendar_Decorator::thisWeek()');
+                get_class($this->calendar),
+                133,
+                PEAR_ERROR_TRIGGER,
+                E_USER_NOTICE,
+                'Calendar_Decorator::thisWeek()'
+            );
 
             return false;
         }
@@ -452,8 +460,12 @@ class calendar_Decorator
             include_once 'PEAR.php';
             PEAR::raiseError(
                 'Cannot call thisWeek on Calendar object of type: '.
-                get_class($this->calendar), 133, PEAR_ERROR_TRIGGER,
-                E_USER_NOTICE, 'Calendar_Decorator::nextWeek()');
+                get_class($this->calendar),
+                133,
+                PEAR_ERROR_TRIGGER,
+                E_USER_NOTICE,
+                'Calendar_Decorator::nextWeek()'
+            );
 
             return false;
         }

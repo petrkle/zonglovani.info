@@ -164,9 +164,13 @@ class calendar_Table_Helper
     {
         $this->daysOfMonth = $this->daysOfWeek;
         $daysInMonth = $this->cE->getDaysInMonth(
-            $this->calendar->thisYear(), $this->calendar->thisMonth());
+            $this->calendar->thisYear(),
+            $this->calendar->thisMonth()
+        );
         $firstDayInMonth = $this->cE->getFirstDayInMonth(
-            $this->calendar->thisYear(), $this->calendar->thisMonth());
+            $this->calendar->thisYear(),
+            $this->calendar->thisMonth()
+        );
         $this->emptyBefore = 0;
         foreach ($this->daysOfMonth as $dayOfWeek) {
             if ($firstDayInMonth == $dayOfWeek) {
@@ -253,8 +257,10 @@ class calendar_Table_Helper
         // Causes bug when displaying more than one month
         //static $index;
         //if (!isset($index)) {
-            $index = $this->getEmptyDaysBefore() + $this->cE->getDaysInMonth(
-                $this->calendar->thisYear(), $this->calendar->thisMonth());
+        $index = $this->getEmptyDaysBefore() + $this->cE->getDaysInMonth(
+                $this->calendar->thisYear(),
+                $this->calendar->thisMonth()
+            );
         //}
         return $index;
     }
@@ -274,7 +280,8 @@ class calendar_Table_Helper
                 $this->calendar->thisYear(),
                 $this->calendar->thisMonth(),
                 $this->calendar->thisDay()
-            ) * ($this->numWeeks - 1));
+            ) * ($this->numWeeks - 1)
+        );
     }
 
     /**
@@ -299,7 +306,8 @@ class calendar_Table_Helper
                     $this->calendar->thisYear(),
                     $this->calendar->thisMonth(),
                     $this->calendar->thisDay()
-                ) - $firstDay + $dow);
+                ) - $firstDay + $dow
+            );
         }
 
         return $this->cE->dateToStamp($y, $m, $d);

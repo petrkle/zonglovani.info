@@ -66,7 +66,8 @@ if ($pager->getCurrentPageID() > 1) {
 }
 
 $smarty->assign(
-    'page_numbers', array(
+    'page_numbers',
+    array(
         'current' => $pager->getCurrentPageID(),
         'total' => $pager->numPages(),
     )

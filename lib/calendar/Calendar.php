@@ -245,8 +245,13 @@ class Calendar
     public function getTimestamp()
     {
         return $this->cE->dateToStamp(
-            $this->year, $this->month, $this->day,
-            $this->hour, $this->minute, $this->second);
+            $this->year,
+            $this->month,
+            $this->day,
+            $this->hour,
+            $this->minute,
+            $this->second
+        );
     }
 
     /**
@@ -358,8 +363,13 @@ class Calendar
     public function build($sDates = array())
     {
         include_once 'PEAR.php';
-        PEAR::raiseError('Calendar::build is abstract', null, PEAR_ERROR_TRIGGER,
-            E_USER_NOTICE, 'Calendar::build()');
+        PEAR::raiseError(
+            'Calendar::build is abstract',
+            null,
+            PEAR_ERROR_TRIGGER,
+            E_USER_NOTICE,
+            'Calendar::build()'
+        );
 
         return false;
     }
@@ -376,8 +386,12 @@ class Calendar
     {
         include_once 'PEAR.php';
         PEAR::raiseError(
-            'Calendar::setSelection is abstract', null, PEAR_ERROR_TRIGGER,
-            E_USER_NOTICE, 'Calendar::setSelection()');
+            'Calendar::setSelection is abstract',
+            null,
+            PEAR_ERROR_TRIGGER,
+            E_USER_NOTICE,
+            'Calendar::setSelection()'
+        );
 
         return false;
     }
@@ -590,7 +604,13 @@ class Calendar
     public function prevDay($format = 'int')
     {
         $ts = $this->cE->dateToStamp(
-            $this->year, $this->month, $this->day - 1, 0, 0, 0);
+            $this->year,
+            $this->month,
+            $this->day - 1,
+            0,
+            0,
+            0
+        );
 
         return $this->returnValue('Day', $format, $ts, $this->cE->stampToDay($ts));
     }
@@ -605,7 +625,13 @@ class Calendar
     public function thisDay($format = 'int')
     {
         $ts = $this->cE->dateToStamp(
-            $this->year, $this->month, $this->day, 0, 0, 0);
+            $this->year,
+            $this->month,
+            $this->day,
+            0,
+            0,
+            0
+        );
 
         return $this->returnValue('Day', $format, $ts, $this->day);
     }
@@ -620,7 +646,13 @@ class Calendar
     public function nextDay($format = 'int')
     {
         $ts = $this->cE->dateToStamp(
-            $this->year, $this->month, $this->day + 1, 0, 0, 0);
+            $this->year,
+            $this->month,
+            $this->day + 1,
+            0,
+            0,
+            0
+        );
 
         return $this->returnValue('Day', $format, $ts, $this->cE->stampToDay($ts));
     }
@@ -635,7 +667,13 @@ class Calendar
     public function prevHour($format = 'int')
     {
         $ts = $this->cE->dateToStamp(
-            $this->year, $this->month, $this->day, $this->hour - 1, 0, 0);
+            $this->year,
+            $this->month,
+            $this->day,
+            $this->hour - 1,
+            0,
+            0
+        );
 
         return $this->returnValue('Hour', $format, $ts, $this->cE->stampToHour($ts));
     }
@@ -650,7 +688,13 @@ class Calendar
     public function thisHour($format = 'int')
     {
         $ts = $this->cE->dateToStamp(
-            $this->year, $this->month, $this->day, $this->hour, 0, 0);
+            $this->year,
+            $this->month,
+            $this->day,
+            $this->hour,
+            0,
+            0
+        );
 
         return $this->returnValue('Hour', $format, $ts, $this->hour);
     }
@@ -665,7 +709,13 @@ class Calendar
     public function nextHour($format = 'int')
     {
         $ts = $this->cE->dateToStamp(
-            $this->year, $this->month, $this->day, $this->hour + 1, 0, 0);
+            $this->year,
+            $this->month,
+            $this->day,
+            $this->hour + 1,
+            0,
+            0
+        );
 
         return $this->returnValue('Hour', $format, $ts, $this->cE->stampToHour($ts));
     }
@@ -680,8 +730,13 @@ class Calendar
     public function prevMinute($format = 'int')
     {
         $ts = $this->cE->dateToStamp(
-            $this->year, $this->month, $this->day,
-            $this->hour, $this->minute - 1, 0);
+            $this->year,
+            $this->month,
+            $this->day,
+            $this->hour,
+            $this->minute - 1,
+            0
+        );
 
         return $this->returnValue('Minute', $format, $ts, $this->cE->stampToMinute($ts));
     }
@@ -696,8 +751,13 @@ class Calendar
     public function thisMinute($format = 'int')
     {
         $ts = $this->cE->dateToStamp(
-            $this->year, $this->month, $this->day,
-            $this->hour, $this->minute, 0);
+            $this->year,
+            $this->month,
+            $this->day,
+            $this->hour,
+            $this->minute,
+            0
+        );
 
         return $this->returnValue('Minute', $format, $ts, $this->minute);
     }
@@ -712,8 +772,13 @@ class Calendar
     public function nextMinute($format = 'int')
     {
         $ts = $this->cE->dateToStamp(
-            $this->year, $this->month, $this->day,
-            $this->hour, $this->minute + 1, 0);
+            $this->year,
+            $this->month,
+            $this->day,
+            $this->hour,
+            $this->minute + 1,
+            0
+        );
 
         return $this->returnValue('Minute', $format, $ts, $this->cE->stampToMinute($ts));
     }
@@ -728,8 +793,13 @@ class Calendar
     public function prevSecond($format = 'int')
     {
         $ts = $this->cE->dateToStamp(
-            $this->year, $this->month, $this->day,
-            $this->hour, $this->minute, $this->second - 1);
+            $this->year,
+            $this->month,
+            $this->day,
+            $this->hour,
+            $this->minute,
+            $this->second - 1
+        );
 
         return $this->returnValue('Second', $format, $ts, $this->cE->stampToSecond($ts));
     }
@@ -744,8 +814,13 @@ class Calendar
     public function thisSecond($format = 'int')
     {
         $ts = $this->cE->dateToStamp(
-            $this->year, $this->month, $this->day,
-            $this->hour, $this->minute, $this->second);
+            $this->year,
+            $this->month,
+            $this->day,
+            $this->hour,
+            $this->minute,
+            $this->second
+        );
 
         return $this->returnValue('Second', $format, $ts, $this->second);
     }
@@ -760,8 +835,13 @@ class Calendar
     public function nextSecond($format = 'int')
     {
         $ts = $this->cE->dateToStamp(
-            $this->year, $this->month, $this->day,
-            $this->hour, $this->minute, $this->second + 1);
+            $this->year,
+            $this->month,
+            $this->day,
+            $this->hour,
+            $this->minute,
+            $this->second + 1
+        );
 
         return $this->returnValue('Second', $format, $ts, $this->cE->stampToSecond($ts));
     }

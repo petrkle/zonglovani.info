@@ -778,7 +778,8 @@ class Pager_Common
                 $linkText = '&nbsp;'.$linkText.'&nbsp;';
             }
 
-            return sprintf('<a href="%s"%s%s%s%s title="%s">%s</a>',
+            return sprintf(
+                '<a href="%s"%s%s%s%s title="%s">%s</a>',
                            htmlentities($this->_url.$href, ENT_COMPAT, 'UTF-8'),
                            empty($this->_classString) ? '' : ' '.$this->_classString,
                            empty($this->_attributes) ? '' : ' '.$this->_attributes,
@@ -793,7 +794,8 @@ class Pager_Common
                 $href .= '?'.$this->_http_build_query_wrapper($_GET);
             }
 
-            return sprintf("<a href='javascript:void(0)' onclick='%s'%s%s%s title='%s'>%s</a>",
+            return sprintf(
+                "<a href='javascript:void(0)' onclick='%s'%s%s%s title='%s'>%s</a>",
                            $this->_generateFormOnClick($href, $this->_linkData),
                            empty($this->_classString) ? '' : ' '.$this->_classString,
                            empty($this->_attributes) ? '' : ' '.$this->_attributes,
@@ -1122,7 +1124,8 @@ class Pager_Common
             );
         }
 
-        return sprintf('<link rel="first" href="%s" title="%s" />'."\n",
+        return sprintf(
+            '<link rel="first" href="%s" title="%s" />'."\n",
             $this->_getLinkTagUrl(1),
             $this->_firstLinkTitle
         );
@@ -1150,7 +1153,8 @@ class Pager_Common
             );
         }
 
-        return sprintf('<link rel="previous" href="%s" title="%s" />'."\n",
+        return sprintf(
+            '<link rel="previous" href="%s" title="%s" />'."\n",
             $this->_getLinkTagUrl($this->getPreviousPageID()),
             $this->_prevLinkTitle
         );
@@ -1178,7 +1182,8 @@ class Pager_Common
             );
         }
 
-        return sprintf('<link rel="next" href="%s" title="%s" />'."\n",
+        return sprintf(
+            '<link rel="next" href="%s" title="%s" />'."\n",
             $this->_getLinkTagUrl($this->getNextPageID()),
             $this->_nextLinkTitle
         );
@@ -1206,7 +1211,8 @@ class Pager_Common
             );
         }
 
-        return sprintf('<link rel="last" href="%s" title="%s" />'."\n",
+        return sprintf(
+            '<link rel="last" href="%s" title="%s" />'."\n",
             $this->_getLinkTagUrl($this->_totalPages),
             $this->_lastLinkTitle
         );

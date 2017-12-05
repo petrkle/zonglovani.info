@@ -211,8 +211,11 @@ class calendar_Util_Textual
         $stamp = $Calendar->prevDay('timestamp');
         $cE = $Calendar->getEngine();
         include_once 'Date/Calc.php';
-        $day = Date_Calc::dayOfWeek($cE->stampToDay($stamp),
-            $cE->stampToMonth($stamp), $cE->stampToYear($stamp));
+        $day = Date_Calc::dayOfWeek(
+            $cE->stampToDay($stamp),
+            $cE->stampToMonth($stamp),
+            $cE->stampToYear($stamp)
+        );
 
         return $days[$day];
     }
@@ -251,8 +254,11 @@ class calendar_Util_Textual
         $stamp = $Calendar->nextDay('timestamp');
         $cE = $Calendar->getEngine();
         include_once 'Date/Calc.php';
-        $day = Date_Calc::dayOfWeek($cE->stampToDay($stamp),
-            $cE->stampToMonth($stamp), $cE->stampToYear($stamp));
+        $day = Date_Calc::dayOfWeek(
+            $cE->stampToDay($stamp),
+            $cE->stampToMonth($stamp),
+            $cE->stampToYear($stamp)
+        );
 
         return $days[$day];
     }

@@ -67,7 +67,7 @@ class MonthPayload_Decorator extends Calendar_Decorator
                                 ($event['end'] > $stamp1 and $event['end'] <= $stamp2) or
                                 ($stamp1 > $event['start'] and $stamp2 < $event['end'] and $stamp2 > $event['start']) and $stamp1 < $event['end']) {
                     //print date('Y-m-d H.i',$stamp1).'<br>';
-                        $this->calendar->children[$i]->addEntry($event);
+                    $this->calendar->children[$i]->addEntry($event);
                     $this->calendar->children[$i]->setSelected();
                 }
             }

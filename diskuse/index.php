@@ -63,7 +63,8 @@ if ($pager->getCurrentPageID() != $pager->numPages()) {
     $trail->addStep($pager->getCurrentPageID().'. stránka', DISKUSE_URL.$pager->getCurrentPageID().'.html');
 }
 $smarty->assign(
-    'page_numbers', array(
+    'page_numbers',
+    array(
         'current' => $pager->getCurrentPageID(),
         'total' => $pager->numPages(),
     )

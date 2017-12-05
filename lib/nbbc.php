@@ -167,8 +167,11 @@ break;
 
                 return $this->token = BBCODE_EOI;
             }
-            $this->text = preg_replace('/[\\x00-\\x08\\x0B-\\x0C\\x0E-\\x1F]/', '',
-$this->input[$this->ptr++]);
+            $this->text = preg_replace(
+                '/[\\x00-\\x08\\x0B-\\x0C\\x0E-\\x1F]/',
+                '',
+$this->input[$this->ptr++]
+            );
             if ($this->verbatim) {
                 $this->tag = false;
                 if ($this->state == BBCODE_LEXSTATE_TEXT) {
@@ -224,6 +227,7 @@ if (preg_match('/^-----/', $this->text)) {
     }
     continue;
 }
+// no break
 default:
 $this->tag = false;
 $this->state = BBCODE_LEXSTATE_TEXT;
@@ -333,8 +337,12 @@ return $this->token = ($this->tag['_end'] ? BBCODE_ENDTAG : BBCODE_TAG);
         if ($ch >= 0 && $ch <= 32) {
             return $result;
         }
-        $pieces = preg_split("/(\\\"[^\\\"]+\\\"|\\'[^\\']+\\'|=|[\\x00-\\x20]+)/",
-$tag, -1, PREG_SPLIT_DELIM_CAPTURE | PREG_SPLIT_NO_EMPTY);
+        $pieces = preg_split(
+            "/(\\\"[^\\\"]+\\\"|\\'[^\\']+\\'|=|[\\x00-\\x20]+)/",
+$tag,
+            -1,
+            PREG_SPLIT_DELIM_CAPTURE | PREG_SPLIT_NO_EMPTY
+        );
         $ptr = 0;
         if (count($pieces) < 1) {
             return $result;
@@ -1453,8 +1461,11 @@ class BBCode
     }
     public function Wikify($string)
     {
-        return rawurlencode(str_replace(' ', '_',
-trim(preg_replace('/[!?;@#$%\\^&*<>=+`~\\x00-\\x20_-]+/', ' ', $string))));
+        return rawurlencode(str_replace(
+            ' ',
+            '_',
+trim(preg_replace('/[!?;@#$%\\^&*<>=+`~\\x00-\\x20_-]+/', ' ', $string))
+        ));
     }
     public function IsValidURL($string, $email_too = true)
     {
@@ -1495,40 +1506,43 @@ $/Dx', $string)) {
         $validator = new BBCodeEmailAddressValidator();
 
         return $validator->check_email_address($string);
-/*
-return preg_match("/^
-(?:
-[a-z0-9\\!\\#\\\$\\%\\&\\'\\*\\+\\/=\\?\\^_`\\{\\|\\}~-]+
-(?:\.[a-z0-9\\!\\#\\\$\\%\\&\\'\\*\\+\\/=\\?\\^_`\\{\\|\\}~-]+)*
-|
-\"(?:[\\x01-\\x08\\x0B\\x0C\\x0E-\\x1F\\x21\\x23-\\x5B\\x5D-\\x7F]
-|\\\\[\\x01-\\x09\\x0B\\x0C\\x0E-\\x7F])*\"
-)
-@
-(?:
-(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+
-[a-z0-9]
-(?:[a-z0-9-]*[a-z0-9])?
-|
-\\[
-(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\.){3}
-(?:
-25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?|[a-z0-9-]*[a-z0-9]:
-(?:[\\x01-\\x08\\x0B\\x0C\\x0E-\\x1F\\x21-\\x5A\\x53-\\x7F]
-|\\\\[\\x01-\\x09\\x0B\\x0C\\x0E-\\x7F])+
-)
-\\]
-)
-$/Dx", $string);
-*/
+        /*
+        return preg_match("/^
+        (?:
+        [a-z0-9\\!\\#\\\$\\%\\&\\'\\*\\+\\/=\\?\\^_`\\{\\|\\}~-]+
+        (?:\.[a-z0-9\\!\\#\\\$\\%\\&\\'\\*\\+\\/=\\?\\^_`\\{\\|\\}~-]+)*
+        |
+        \"(?:[\\x01-\\x08\\x0B\\x0C\\x0E-\\x1F\\x21\\x23-\\x5B\\x5D-\\x7F]
+        |\\\\[\\x01-\\x09\\x0B\\x0C\\x0E-\\x7F])*\"
+        )
+        @
+        (?:
+        (?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+
+        [a-z0-9]
+        (?:[a-z0-9-]*[a-z0-9])?
+        |
+        \\[
+        (?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\.){3}
+        (?:
+        25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?|[a-z0-9-]*[a-z0-9]:
+        (?:[\\x01-\\x08\\x0B\\x0C\\x0E-\\x1F\\x21-\\x5A\\x53-\\x7F]
+        |\\\\[\\x01-\\x09\\x0B\\x0C\\x0E-\\x7F])+
+        )
+        \\]
+        )
+        $/Dx", $string);
+        */
     }
     public function HTMLEncode($string)
     {
         if (!$this->allow_ampersand) {
             return htmlspecialchars($string);
         } else {
-            return str_replace(array('<', '>', '"'),
-array('&lt;', '&gt;', '&quot;'), $string);
+            return str_replace(
+                array('<', '>', '"'),
+array('&lt;', '&gt;', '&quot;'),
+                $string
+            );
         }
     }
     public function FixupOutput($string)
@@ -1682,8 +1696,12 @@ array('&lt;', '&gt;', '&quot;'), $string);
     }
     public function FillTemplate($template, $insert_array, $default_array = array())
     {
-        $pieces = preg_split('/(\{\$[a-zA-Z0-9_.:\/-]+\})/', $template,
--1, PREG_SPLIT_DELIM_CAPTURE);
+        $pieces = preg_split(
+            '/(\{\$[a-zA-Z0-9_.:\/-]+\})/',
+            $template,
+-1,
+            PREG_SPLIT_DELIM_CAPTURE
+        );
         if (count($pieces) <= 1) {
             return $template;
         }
@@ -1809,8 +1827,13 @@ BBCODE_STACK_CLASS => $this->current_class,
                     $tag_body = $this->Internal_CollectTextReverse($output, count($output) - 1, $end);
                     $this->Internal_CleanupWSByPoppingStack(@$rule['before_tag'], $this->stack);
                     $this->Internal_UpdateParamsForMissingEndTag($token[BBCODE_STACK_TAG]);
-                    $tag_output = $this->DoTag(BBCODE_OUTPUT, $name,
-@$token[BBCODE_STACK_TAG]['_default'], @$token[BBCODE_STACK_TAG], $tag_body);
+                    $tag_output = $this->DoTag(
+                        BBCODE_OUTPUT,
+                        $name,
+@$token[BBCODE_STACK_TAG]['_default'],
+                        @$token[BBCODE_STACK_TAG],
+                        $tag_body
+                    );
                     $output = array(array(
 BBCODE_STACK_TOKEN => BBCODE_TEXT,
 BBCODE_STACK_TAG => false,
@@ -1858,12 +1881,18 @@ BBCODE_STACK_CLASS => $this->current_class,
         if ($pos < 0) {
             return false;
         }
-        $newpos = $this->Internal_CleanupWSByIteratingPointer(@$this->tag_rules[$tag_name]['after_tag'],
-$pos + 1, $this->stack);
+        $newpos = $this->Internal_CleanupWSByIteratingPointer(
+            @$this->tag_rules[$tag_name]['after_tag'],
+$pos + 1,
+            $this->stack
+        );
         $delta = $newpos - ($pos + 1);
         $output = $this->Internal_GenerateOutput($newpos);
-        $newend = $this->Internal_CleanupWSByIteratingPointer(@$this->tag_rules[$tag_name]['before_endtag'],
-0, $output);
+        $newend = $this->Internal_CleanupWSByIteratingPointer(
+            @$this->tag_rules[$tag_name]['before_endtag'],
+0,
+            $output
+        );
         $output = $this->Internal_CollectTextReverse($output, count($output) - 1, $newend);
         while ($delta-- > 0) {
             array_pop($this->stack);
@@ -2069,16 +2098,36 @@ case BBCODE_MODE_ENHANCED:
 $result = true;
 break;
 case BBCODE_MODE_INTERNAL:
-$result = @call_user_func(array($this, @$tag_rule['method']), BBCODE_CHECK,
-$tag_name, $default_value, $params, $contents);
+$result = @call_user_func(
+    array($this, @$tag_rule['method']),
+    BBCODE_CHECK,
+$tag_name,
+    $default_value,
+    $params,
+    $contents
+);
 break;
 case BBCODE_MODE_LIBRARY:
-$result = @call_user_func(array($this->defaults, @$tag_rule['method']), $this, BBCODE_CHECK,
-$tag_name, $default_value, $params, $contents);
+$result = @call_user_func(
+    array($this->defaults, @$tag_rule['method']),
+    $this,
+    BBCODE_CHECK,
+$tag_name,
+    $default_value,
+    $params,
+    $contents
+);
 break;
 case BBCODE_MODE_CALLBACK:
-$result = @call_user_func(@$tag_rule['method'], $this, BBCODE_CHECK,
-$tag_name, $default_value, $params, $contents);
+$result = @call_user_func(
+    @$tag_rule['method'],
+    $this,
+    BBCODE_CHECK,
+$tag_name,
+    $default_value,
+    $params,
+    $contents
+);
 break;
 }
 
@@ -2140,16 +2189,36 @@ case BBCODE_MODE_ENHANCED:
 $result = $this->Internal_DoEnhancedTag($tag_rule, $params, $contents);
 break;
 case BBCODE_MODE_INTERNAL:
-$result = @call_user_func(array($this, @$tag_rule['method']), BBCODE_OUTPUT,
-$tag_name, $default_value, $params, $contents);
+$result = @call_user_func(
+    array($this, @$tag_rule['method']),
+    BBCODE_OUTPUT,
+$tag_name,
+    $default_value,
+    $params,
+    $contents
+);
 break;
 case BBCODE_MODE_LIBRARY:
-$result = @call_user_func(array($this->defaults, @$tag_rule['method']), $this, BBCODE_OUTPUT,
-$tag_name, $default_value, $params, $contents);
+$result = @call_user_func(
+    array($this->defaults, @$tag_rule['method']),
+    $this,
+    BBCODE_OUTPUT,
+$tag_name,
+    $default_value,
+    $params,
+    $contents
+);
 break;
 case BBCODE_MODE_CALLBACK:
-$result = @call_user_func(@$tag_rule['method'], $this, BBCODE_OUTPUT,
-$tag_name, $default_value, $params, $contents);
+$result = @call_user_func(
+    @$tag_rule['method'],
+    $this,
+    BBCODE_OUTPUT,
+$tag_name,
+    $default_value,
+    $params,
+    $contents
+);
 break;
 }
 
@@ -2211,8 +2280,10 @@ BBCODE_STACK_CLASS => $this->current_class,
             }
             if ($this->output_limit > 0
 && $this->text_length + strlen($this->lexer->text) >= $this->output_limit) {
-                $text = $this->Internal_LimitText($this->lexer->text,
-$this->output_limit - $this->text_length);
+                $text = $this->Internal_LimitText(
+                    $this->lexer->text,
+$this->output_limit - $this->text_length
+                );
                 if (strlen($text) > 0) {
                     $this->text_length += strlen($text);
                     $this->stack[] = array(
@@ -2254,8 +2325,13 @@ BBCODE_STACK_CLASS => $this->current_class,
         $this->Internal_CleanupWSByPoppingStack(@$tag_rule['before_tag'], $this->stack);
         $tag_params['_endtag'] = $end_tag_params['_tag'];
         $tag_params['_hasend'] = true;
-        $output = $this->DoTag(BBCODE_OUTPUT, $tag_name,
-@$tag_params['_default'], $tag_params, $content);
+        $output = $this->DoTag(
+            BBCODE_OUTPUT,
+            $tag_name,
+@$tag_params['_default'],
+            $tag_params,
+            $content
+        );
         $this->stack[] = array(
 BBCODE_STACK_TOKEN => BBCODE_TEXT,
 BBCODE_STACK_TEXT => $output,
@@ -2355,8 +2431,13 @@ BBCODE_STACK_CLASS => $this->current_class,
         $this->Internal_CleanupWSByPoppingStack(@$this->tag_rules[$tag_name]['before_tag'], $this->stack);
         $start_tag_params['_endtag'] = $tag_params['_tag'];
         $start_tag_params['_hasend'] = true;
-        $output = $this->DoTag(BBCODE_OUTPUT, $tag_name, @$start_tag_params['_default'],
-$start_tag_params, $contents);
+        $output = $this->DoTag(
+            BBCODE_OUTPUT,
+            $tag_name,
+            @$start_tag_params['_default'],
+$start_tag_params,
+            $contents
+        );
         $this->Internal_CleanupWSByEatingInput(@$this->tag_rules[$tag_name]['after_endtag']);
         $this->stack[] = array(
 BBCODE_STACK_TOKEN => BBCODE_TEXT,
@@ -2398,8 +2479,10 @@ BBCODE_STACK_CLASS => $this->current_class,
 case BBCODE_TEXT:
 if ($this->output_limit > 0
 && $this->text_length + strlen($this->lexer->text) >= $this->output_limit) {
-    $text = $this->Internal_LimitText($this->lexer->text,
-$this->output_limit - $this->text_length);
+    $text = $this->Internal_LimitText(
+        $this->lexer->text,
+$this->output_limit - $this->text_length
+    );
     if (strlen($text) > 0) {
         $this->text_length += strlen($text);
         $this->stack[] = array(

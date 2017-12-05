@@ -82,7 +82,7 @@ if (isset($_POST['komu'])) {
             if (isset($_SESSION['uzivatel']['email'])) {
                 //přihlášení uživatelé mohou hned odeslat vzkaz
 
-        $smarty->assign('komu', $komu_props);
+                $smarty->assign('komu', $komu_props);
                 $smarty->assign('vzkaz', $vzkaz);
                 $smarty->assign('from', $email);
 
@@ -110,7 +110,7 @@ if (isset($_POST['komu'])) {
             } else {
                 // jinak se na mail odesilatele posle zprava z odkazem k odeslani vzkazu
 
-        $messageid = abs(crc32($email.$komu_props['email'].time()));
+                $messageid = abs(crc32($email.$komu_props['email'].time()));
                 $smarty->assign('messageid', $messageid);
 
                 $tmp = LIDE_VZKAZY.'/'.$messageid;

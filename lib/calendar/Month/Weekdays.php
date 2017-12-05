@@ -152,7 +152,8 @@ class calendar_Month_Weekdays extends Calendar_Month
             $Day = new Calendar_Day(
                                 $this->cE->stampToYear($stamp),
                                 $this->cE->stampToMonth($stamp),
-                                $this->cE->stampToDay($stamp));
+                                $this->cE->stampToDay($stamp)
+            );
             $Day->setEmpty();
             $Day->adjust();
             array_unshift($this->children, $Day);

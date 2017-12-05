@@ -177,7 +177,10 @@ class Calendar_Week extends Calendar
     {
         parent::setTimestamp($ts);
         $this->thisWeek = $this->tableHelper->getWeekStart(
-            $this->year, $this->month, $this->day, $this->firstDay
+            $this->year,
+            $this->month,
+            $this->day,
+            $this->firstDay
         );
         $this->prevWeek = $this->tableHelper->getWeekStart(
             $this->year,
@@ -348,7 +351,8 @@ class Calendar_Week extends Calendar
             return $this->cE->getWeekNInYear(
                 $this->cE->stampToYear($this->prevWeek),
                 $this->cE->stampToMonth($this->prevWeek),
-                $this->cE->stampToDay($this->prevWeek));
+                $this->cE->stampToDay($this->prevWeek)
+            );
         case 'array':
             return $this->toArray($this->prevWeek);
         case 'object':
@@ -380,18 +384,21 @@ class Calendar_Week extends Calendar
                 return $this->cE->getWeeksInMonth(
                     $this->thisYear(),
                     $this->thisMonth(),
-                    $this->firstDay);
+                    $this->firstDay
+                );
             }
             return $this->cE->getWeekNInMonth(
                 $this->thisYear(),
                 $this->thisMonth(),
                 $this->thisDay(),
-                $this->firstDay);
+                $this->firstDay
+            );
         case 'n_in_year':
             return $this->cE->getWeekNInYear(
                 $this->cE->stampToYear($this->thisWeek),
                 $this->cE->stampToMonth($this->thisWeek),
-                $this->cE->stampToDay($this->thisWeek));
+                $this->cE->stampToDay($this->thisWeek)
+            );
         case 'array':
             return $this->toArray($this->thisWeek);
         case 'object':
@@ -421,7 +428,8 @@ class Calendar_Week extends Calendar
             return $this->cE->getWeekNInYear(
                 $this->cE->stampToYear($this->nextWeek),
                 $this->cE->stampToMonth($this->nextWeek),
-                $this->cE->stampToDay($this->nextWeek));
+                $this->cE->stampToDay($this->nextWeek)
+            );
         case 'array':
             return $this->toArray($this->nextWeek);
         case 'object':

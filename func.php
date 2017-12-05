@@ -442,9 +442,9 @@ function get_description($trik)
     if (isset($trik['kroky'][0]['popisek'])) {
         $popis .= $trik['kroky'][0]['popisek'];
     }
-//	if(isset($trik['kroky'][1]['popisek'])){
-//		$popis.=' '.$trik['kroky'][1]['popisek'];
-//	}
+    //	if(isset($trik['kroky'][1]['popisek'])){
+    //		$popis.=' '.$trik['kroky'][1]['popisek'];
+    //	}
     return strip_tags($popis);
 }
 
