@@ -13,4 +13,8 @@ Díky&nbsp;moc :-)
 
 <a name="jakposlat"></a><h3>Jak zaslat příspěvek?</h3>
 
-<p>Pro podrobnosti pište na <a href="mailto:admin@zonglovani.cz?subject=Příspěvek">admin@zonglovani.info</a></p>
+<p>Příspěvky pošlete převodem na účet: <b>1663602015/3030</b></p>
+
+<p>Nebo pohodlně z mobilu pomocí QR platby.</p>
+
+<p>{obrazek soubor='qr-platba-500kc.png' popisek='Příspěvek 500 Kč' class='noborder'}Zaslat 500Kč.</p>
