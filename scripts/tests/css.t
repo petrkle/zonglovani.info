@@ -3,12 +3,10 @@ use strict;
 use warnings;
 use WWW::Mechanize;
 use LWP::ConnCache;
-use Test::More tests => 36;
+use Test::More tests => 30;
 
 my @adresy=(
 "/a.css",
-"/kpopup.css",
-"/m.css",
 "/r.css",
 "/s.css",
 "/t.css",

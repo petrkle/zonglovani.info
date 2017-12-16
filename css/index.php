@@ -19,7 +19,6 @@ sort($vypis);
 
 $dalsi = array(
     array('url' => '/toolbox.html', 'text' => 'Použitý software', 'title' => 'Seznam použitých programů'),
-    array('url' => '/scripts/', 'text' => 'Skripty', 'title' => 'Skripty pro správu webu'),
     );
 $smarty->assign('dalsi', $dalsi);
 

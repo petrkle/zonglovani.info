@@ -13,9 +13,6 @@
 	<link rel="stylesheet" media="only screen and (-webkit-min-device-pixel-ratio: 2)" href="/plain-{$smarty.const.CSS_CHKSUM}.css" />
 	<link rel="stylesheet" media="screen and (min-width: 610px)" type="text/css" href="/zw-{$smarty.const.CSS_CHKSUM}.css" />
 	<link rel="stylesheet" media="print" type="text/css" href="/zt-{$smarty.const.CSS_CHKSUM}.css" />
-{if isset($mobilemapa)}
-	<link rel="stylesheet" media="screen" type="text/css" href="/m.mobile-{$smarty.const.CSS_CHKSUM}.css" />
-{/if}
 {if isset($stylwidth)}
 	<link rel="stylesheet" media="screen" type="text/css" href="/css/width-{$stylwidth}-{$smarty.const.CSS_CHKSUM}.css" />
 {/if}
