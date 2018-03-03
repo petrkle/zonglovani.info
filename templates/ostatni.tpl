@@ -110,12 +110,6 @@ Odkazy na stránky věnované žonglování.
 </p>
 <!-- stop -->
 
-<h3><a href="/rec-juggling.html" title="Diskusní skupina rec.juggling">rec.juggling</a></h3>
-<p>
-<a href="/rec-juggling.html" title="Diskusní skupina rec.juggling">{obrazek soubor="rj.png" popisek="rec.juggling"}</a>
-Celosvětová diskusní skupina o žonglování.
-</p>
-
 <h3><a href="/myty-omyly.html" title="Mýty a omyly o žonglování.">Mýty a omyly</a></h3>
 <p>
 <a href="/myty-omyly.html" title="Mýty a omyly o žonglování.">{obrazek soubor="mytya.png" popisek="Omyl"}</a>Mýty a omyly o žonglování.

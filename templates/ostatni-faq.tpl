@@ -35,5 +35,5 @@ Ano, <a href="/literatura.html" title="Knížky o žonglování.">literatura</a>
 
 <h3>Další otázky?</h3>
 <p>
-Pro nalezení odpovědí zkus nejprve <a href="{$smarty.const.SEARCH_URL}" title="Prohledávání žonglérova slabikáře.">vyhledávání</a>. Další možností je položit dotaz do <a href="{$smarty.const.DISKUSE_URL}" title="Diskusní fórum o žonglování.">diskusního fóra</a>.
+Pro nalezení odpovědí zkus nejprve <a href="{$smarty.const.SEARCH_URL}" title="Prohledávání žonglérova slabikáře.">vyhledávání</a>.
 </p>
