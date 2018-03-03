@@ -26,6 +26,7 @@ Pro zobrazení požadované stránky je nutné přihlášení.
 </form>
 <h3>Další možnosti</h3>
 <ul>
+<li>{include file='ukladani-hesel.tpl'}</li>
 <li>Obnovit <a href="zapomenute-heslo.php" title="Zapomenuté heslo.">zapomenuté heslo</a>.</li>
 <li><a href="{$smarty.const.LIDE_URL}novy-ucet.php" title="Vytvořit uživatelský účet." class="add">Založit nový účet</a>.</li>
 </ul>
