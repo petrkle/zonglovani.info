@@ -22,16 +22,16 @@ Brožura pro výuku žonglování na víkendových kurzech. Popisuje základy ž
 Knížka o točení s poi od Richeeho. 86&nbsp;stránek.
 </p>
 
-<h3><a href="http://www.butterfingers.co.uk" title="Stránky vydavatele." class="external">The Encyclopaedia of Ball Juggling</a></h3>
+<h3>The Encyclopaedia of Ball Juggling</h3>
 <p>
-<a href="http://www.butterfingers.co.uk" title="Stránky vydavatele.">{obrazek soubor="encyclopaedia.jpg" popisek="The Encyclopaedia of Ball Juggling - obálka"}</a>
+{obrazek soubor="encyclopaedia.jpg" popisek="The Encyclopaedia of Ball Juggling - obálka"}
 Výborná knížka o žonglování s míčky od Carlieho Dancey. Obsahuje spoustu pěkných obrázků, díky tomu nemusíš ani umět anglicky, a přesto téměř vše pochopíš. Je vhodná pro začátečníky i pokročilé. 216&nbsp;stránek.
 </p>
 	
 
-<h3><a href="http://www.butterfingers.co.uk" title="Stránky vydavatele." class="external">Compendium of Club Juggling</a></h3>
+<h3>Compendium of Club Juggling</h3>
 <p>
-<a href="http://www.butterfingers.co.uk" title="Stránky vydavatele.">{obrazek soubor="compendium.jpg" popisek="Compendium of Club Juggling - obálka"}</a>
+{obrazek soubor="compendium.jpg" popisek="Compendium of Club Juggling - obálka"}
 Napsal Charlie Dancey. V této knížce je vše o žonglování s kužely. Obsahuje spoustu pěkných obrázků, díky tomu nemusíš ani umět anglicky, a přesto téměř vše pochopíš. Vhodné pro začátečníky i pokročilé. 238&nbsp;stránek.
 </p>
 
