@@ -2,7 +2,7 @@
 <p><a href="/kalendar/udalost-20190803-20190811-pek-1501654518.html" title="EJC 2019">{obrazek soubor='ejc2019.png' popisek='EJC 2019'}</a> European Juggling Convention je největší žonglérský festival v Evropě.</p>
 
 <h3><a href="/kalendar/udalost-20180728-20180805-pek-1501654891.html" title="EJC 2018">28. 7. - 5. 8. 2018</a> Azory (P)</h3>
-<p><a href="/kalendar/udalost-20180728-20180805-pek-1501654891.html" title="EJC 2018">{obrazek soubor='ejc-tmp.jpg' popisek='EJC 2018'}</a> European Juggling Convention je největší žonglérský festival v Evropě.</p>
+<p><a href="/kalendar/udalost-20180728-20180805-pek-1501654891.html" title="EJC 2018">{obrazek soubor='ejc2018.png' popisek='EJC 2018'}</a> European Juggling Convention je největší žonglérský festival v Evropě.</p>
 
 <h3><a href="/kalendar/udalost-20170722-20170730-pek-1470944526.html" title="EJC 2017">22. 7. - 30. 7. 2017</a> Lublin (PL)</h3>
 <p><a href="/kalendar/udalost-20170722-20170730-pek-1470944526.html" title="EJC 2017">{obrazek soubor='ejc2017.png' popisek='EJC 2017'}</a> European Juggling Convention je největší žonglérský festival v Evropě.</p>

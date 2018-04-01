@@ -492,7 +492,7 @@
 2018-03-19*Roztáčení smyčkou*/diabolo/roztaceni-smycka.html*roztocenif.png*Jak roztočit diabolo.
 2018-03-26*Heroes*/video/heroes.html*heroes.jpg*Žonglování v České republice.
 2018-04-02*Vysvětlivky k obrázkům - míčky*/micky/legenda.html*legendaa.png*Obrázky znázorňují, jak házet míčky, jejich dráhu a načasování.
-2018-04-09*Latin objects 4*/video/metlili/latin-objects-4.html*latin-objects-4.jpg*Druhá část série žonglování v Jižní Americe.
+2018-04-09*European Juggling Convention*/kalendar/udalost-20180728-20180805-pek-1501654891.html*ejc2018.png*Evropské setkání žonglérů na Azorech.
 2018-04-16*копия*/video/kopie.html*kopie.jpg*Žonglování v Rusku.
 2018-04-23*Vyrovnávání diabola*/diabolo/vyrovnavani-diabola.html*vyrovnavania.png*Ze začátku se bude diabolo naklánět.
 2018-04-30*Prechac Juggling in Berlin*/video/prechac-juggling-in-berlin.html*prechac-juggling-in-berlin.jpg*Christine Oymann a Doreen Großmann žonglují s kužely v Berlíně.
