@@ -57,7 +57,7 @@ Návody na passování, které sepsal Lee Kolinsky. 18&nbsp;stránek.
 <a name="hpp"></a><h3><a href="/highgate-passing-patterns.pdf" title="Passing s kužely" class="pdf">The New Highgate Collection</a></h3>
 <p>
 <a href="/highgate-passing-patterns.pdf" title="The New Highgate Collection">{obrazek soubor="highgate-passing-patterns.png" popisek="The New Highgate Collection"}</a>
-Návody na passování pro dva až čtyři lidi od <a href="http://www.geocities.ws/aidanjburns/" class="external">Aidana Burnse</a>. 218&nbsp;stránek.
+Návody na passování pro dva až čtyři lidi od <a href="http://www.geocities.ws/aidanjburns/" class="external">Aidana Burnse</a>. 246&nbsp;stránek.
 </p>
 
 <a name="takeouts"></a><h3><a href="/takeouts.pdf" title="Přebírání kuželů" class="pdf">How to steal from your friends</a></h3>
@@ -75,11 +75,11 @@ Návody na passování s kužely. 94&nbsp;stránek.
 <a name="will"></a><h3><a href="/will-patterns.pdf" title="Passování s kužely" class="pdf">Will patterns</a></h3>
 <p>
 <a href="/will-patterns.pdf" title="Passování s kužely">{obrazek soubor="will.png" popisek="Will patterns"}</a>
-Návody na passování s kužely které sepsal <a href="http://www.csulb.edu/~wmurray/" title="Will Murray" class="external">Will Murray</a>. 50&nbsp;stránek.
+Návody na passování s kužely které sepsal <a href="http://www.csulb.edu/~wmurray/" title="Will Murray" class="external">Will Murray</a>. 77&nbsp;stránek.
 </p>
 
 <a name="mad"></a><h3><a href="/madison-area.pdf" title="Passování s kužely" class="pdf">Madison area</a></h3>
 <p>
 <a href="/madison-area.pdf" title="Passování s kužely">{obrazek soubor="madison-area.png" popisek="Madison area"}</a>
-Návody na passování s kužely od <a href="http://www.madjugglers.com/" title="Madison area jugglers" class="external">Madison area jugglers</a>. 65&nbsp;stránek.
+Návody na passování s kužely od <a href="http://www.madjugglers.com/" title="Madison area jugglers" class="external">Madison area jugglers</a>. 173&nbsp;stránek.
 </p>
