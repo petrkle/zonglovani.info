@@ -2,7 +2,6 @@
 
 require '../init.php';
 require '../func.php';
-require $_SERVER['DOCUMENT_ROOT'].'/rss/rss.php';
 
 $smarty->assign('titulek', 'Přihlášení');
 $smarty->assign('robots', 'noindex,follow');

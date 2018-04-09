@@ -91,7 +91,6 @@ abbr{text-decoration:none;border-bottom:0px dashed #000;}
 .ps{background:#9f9;padding:2px 6px;margin:5px 0;display:inline-block;}
 .kamdal ul{margin:0;}
 li{padding:5px 0;margin:10px 0;}
-.pocetnovinek{-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px;background:#fc3;padding:0 7px;}
 hr.d{border:0;border-bottom:1px dashed #999;margin:2em 0;width:100%;}
 .nahled{display:block;float:left;width:150px;height:150px;background:#eee;border:solid 1px;border-color:#aaa #444 #444 #aaa;margin:5px;}
 .nahled img{border:solid 1px;border-color:#444 #aaa #aaa #444;margin:10px;}

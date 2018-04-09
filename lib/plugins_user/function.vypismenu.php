@@ -2,11 +2,11 @@
 
 function smarty_function_vypismenu($params, &$smarty)
 {
-    $adresy = array('/', '/novinky/', '/micky/', '/kruhy/', '/kuzely/', '/diabolo/', '/lide/', '/ostatni.html');
-    $texty = array('Úvodní stránka', 'Novinky', 'Míčky', 'Kruhy', 'Kužely', 'Diabolo', 'Žongléři', 'Ostatní');
-    $popis = array('Úvodní stránka žonglérova slabikáře', 'Novinky ze světa žonglování', 'Začínáme s míčky', 'Začínáme s kruhy', 'Začínáme s kužely', 'Základy s diabolem', 'Seznam uživatelů žonglérova slabikáře.', 'Vše ostatní o žonglování');
+    $adresy = array('/', '/micky/', '/kruhy/', '/kuzely/', '/diabolo/', '/lide/', '/ostatni.html');
+    $texty = array('Úvodní stránka', 'Míčky', 'Kruhy', 'Kužely', 'Diabolo', 'Žongléři', 'Ostatní');
+    $popis = array('Úvodní stránka žonglérova slabikáře', 'Začínáme s míčky', 'Začínáme s kruhy', 'Začínáme s kužely', 'Základy s diabolem', 'Seznam uživatelů žonglérova slabikáře.', 'Vše ostatní o žonglování');
 
-    $excluded = array(1, 6);
+    $excluded = array(5);
     $navrat = "<ul>\n";
 
     for ($foo = 0; $foo < count($adresy); ++$foo) {
@@ -17,12 +17,7 @@ function smarty_function_vypismenu($params, &$smarty)
         if ($_SERVER['REQUEST_URI'] == $adresy[$foo] and !isset($_GET['show'])) {
             $navrat .= '<li><h4>'.$texty[$foo].'</h4>';
         } else {
-            if ($foo == 1 and is_logged() and isset($_SESSION['changes_pocet']) and $_SESSION['changes_pocet'] > 0) {
-                $pocetnovinek = ' <span class="pocetnovinek">'.$_SESSION['changes_pocet'].'</span>';
-            } else {
-                $pocetnovinek = '';
-            }
-            $navrat .= '<li><h4><a href="'.$adresy[$foo].'" title="'.$popis[$foo].'">'.$texty[$foo].'</a>'.$pocetnovinek.'</h4>';
+            $navrat .= '<li><h4><a href="'.$adresy[$foo].'" title="'.$popis[$foo].'">'.$texty[$foo].'</a></h4>';
         }
         $navrat .= submenu($foo);
         $navrat .= "</li>\n";

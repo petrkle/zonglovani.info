@@ -43,8 +43,3 @@
 <li><a href="https://{$smarty.server.SERVER_NAME}/tip/tip.rss" class="wrap" title="RSS 1.0">https://{$smarty.server.SERVER_NAME}/tip/tip.rss</a></li>
 <li><a href="https://{$smarty.server.SERVER_NAME}/tip/tip.xml" class="wrap" title="RSS 2.0">https://{$smarty.server.SERVER_NAME}/tip/tip.xml</a></li>
 </ul>
-
-<h3><a href="/novinky/" title="Novinky za světa žonglování">RSS agregátor</a></h3>
-<ul>
-<li><a href="https://{$smarty.server.SERVER_NAME}/novinky/agregator.xml" class="wrap" title="RSS 2.0">https://{$smarty.server.SERVER_NAME}/novinky/agregator.xml</a></li>
-</ul>

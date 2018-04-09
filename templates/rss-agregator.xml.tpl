@@ -17,7 +17,7 @@
 	<title>{$udalost.titulek|escape|default:'Bez titulku'}</title>
 	<link>{$udalost.url|escape}</link>
 	<description>{$udalost.description|strip_tags|escape}</description>
-	<author>nospam@example.com</author>
+	<author>admin@{$smarty.server.SERVER_NAME}</author>
 	<pubDate>{$udalost.time_mr}</pubDate>
 	<guid>{$udalost.url|escape}</guid>
 </item>

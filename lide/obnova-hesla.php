@@ -2,7 +2,6 @@
 
 require '../init.php';
 require '../func.php';
-require '../rss/rss.php';
 
 if (!isset($_SESSION)) {
     session_name('ZS');

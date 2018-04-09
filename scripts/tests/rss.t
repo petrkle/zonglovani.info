@@ -4,7 +4,7 @@ use warnings;
 
 use LWP::ConnCache;
 use WWW::Mechanize;
-use Test::More tests => 72;
+use Test::More tests => 66;
 use Test::XML;
 my $minimalitems=3;
 my @adresy=(
@@ -20,7 +20,6 @@ my @adresy=(
 "/obrazky/obrazky.xml",
 "/tip/tip.rss",
 "/tip/tip.xml",
-"/novinky/agregator.xml"
 );
 
 my $bot = WWW::Mechanize->new(autocheck => 1);

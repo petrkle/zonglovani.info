@@ -45,8 +45,6 @@ define('LIDE_BY_MAIL', ZS_DIR.'/data/lide.by.mail');
 define('LIDE_TMP', ZS_DIR.'/data/lide.tmp');
 define('LIDE_VZKAZY', ZS_DIR.'/data/vzkazy');
 
-define('RSS_AGREGATOR_DATA', ZS_DIR.'/data/rss');
-
 define('DISKUSE_URL', '/diskuse/');
 define('DISKUSE_DATA', ZS_DIR.'/data/diskuse');
 
@@ -76,5 +74,5 @@ define('IMG_MAX_SIZE', 3); //MiB
 
 define('IMG_RESPONSIVE_WIDTH', 200); //MiB
 
-define('CSS_CHKSUM', '744363354');
+define('CSS_CHKSUM', '402202045');
 define('JS_CHKSUM', '2391363690');
