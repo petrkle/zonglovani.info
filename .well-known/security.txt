@@ -1,0 +1,2 @@
+Contact: https://petr.kle.cz
+Encryption: https://petr.kle.cz/pek.asc
