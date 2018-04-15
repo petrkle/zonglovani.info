@@ -51,19 +51,19 @@ function smarty_function_vypismenu($params, &$smarty)
 
 function submenu($id)
 {
-    if ($id == 2) {
+    if ($id == 1) {
         $adresy = array('/micky/2/', '/micky/3/', '/micky/4/', '/micky/5/');
         $texty = array('2 míčky', '3 míčky', '4 míčky', '5 míčků');
         $popisky = array('Žonglování se dvěma míčky.', 'Žonglování se třemi míčky.', 'Žonglování se čtyřmi míčky.', 'Žonglování s pěti míčky.');
     }
 
-    if ($id == 4) {
+    if ($id == 3) {
         $adresy = array('/kuzely/3/', '/kuzely/passing/');
         $texty = array('3 kužely', 'Passing');
         $popisky = array('Žonglování se třemi kužely', 'Žonglování ve více lidech');
     }
 
-    if ($id == 6) {
+    if ($id == 5) {
         $adresy = array('/kalendar/', '/lide/misto/');
         $texty = array('Kalendář', 'Místa');
         $popisky = array('Kalendář žonglování', 'Žongléři podle místa působení');
