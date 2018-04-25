@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "21216a1844db36a507f398fdca4b91bf",
+    "content-hash": "c0d8f87a0a740de4a954dd484ffe854a",
     "packages": [
         {
             "name": "pear/console_getopt",
@@ -113,16 +113,16 @@
         },
         {
             "name": "pear/mail_mime",
-            "version": "1.10.0",
+            "version": "1.10.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pear/Mail_Mime.git",
-                "reference": "e071727cf41a4b85ecc1de210ed4fd7f4f8d1ec4"
+                "reference": "7b2f93fa5219da99e9997f497b916b5bb27eb57a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pear/Mail_Mime/zipball/e071727cf41a4b85ecc1de210ed4fd7f4f8d1ec4",
-                "reference": "e071727cf41a4b85ecc1de210ed4fd7f4f8d1ec4",
+                "url": "https://api.github.com/repos/pear/Mail_Mime/zipball/7b2f93fa5219da99e9997f497b916b5bb27eb57a",
+                "reference": "7b2f93fa5219da99e9997f497b916b5bb27eb57a",
                 "shasum": ""
             },
             "require": {
@@ -139,7 +139,7 @@
                 "./"
             ],
             "license": [
-                "BSD Style"
+                "BSD-3-clause"
             ],
             "authors": [
                 {
@@ -155,7 +155,7 @@
             ],
             "description": "Mail_Mime provides classes to create MIME messages",
             "homepage": "http://pear.php.net/package/Mail_Mime",
-            "time": "2015-09-13T12:42:41+00:00"
+            "time": "2017-11-17T09:21:45+00:00"
         },
         {
             "name": "pear/pear-core-minimal",
@@ -258,16 +258,16 @@
         },
         {
             "name": "smarty/smarty",
-            "version": "v3.1.31",
+            "version": "v3.1.32",
             "source": {
                 "type": "git",
                 "url": "https://github.com/smarty-php/smarty.git",
-                "reference": "c7d42e4a327c402897dd587871434888fde1e7a9"
+                "reference": "ac9d4b587e5bf53381e21881820a9830765cb459"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/smarty-php/smarty/zipball/c7d42e4a327c402897dd587871434888fde1e7a9",
-                "reference": "c7d42e4a327c402897dd587871434888fde1e7a9",
+                "url": "https://api.github.com/repos/smarty-php/smarty/zipball/ac9d4b587e5bf53381e21881820a9830765cb459",
+                "reference": "ac9d4b587e5bf53381e21881820a9830765cb459",
                 "shasum": ""
             },
             "require": {
@@ -307,7 +307,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2016-12-14T21:57:25+00:00"
+            "time": "2018-04-24T14:53:33+00:00"
         }
     ],
     "packages-dev": [],
@@ -319,7 +319,7 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=7.0.0"
+        "php": ">=7.2.0"
     },
     "platform-dev": []
 }
