@@ -23,7 +23,7 @@ if (!isset($_GET['id'])) {
 } else {
     $id = $_GET['id'];
     if (!isset($rozhovory[$id])) {
-        require '../../404.php';
+        http_response_code(404);
         exit();
     }
     $rozhovor = nacti_rozhovor($id);

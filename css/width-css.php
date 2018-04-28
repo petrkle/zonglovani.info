@@ -3,7 +3,7 @@
 if (isset($_GET['width'])) {
     $width = preg_replace('/[^0-9]+/', '', $_GET['width']);
 } else {
-    require '../404.php';
+    http_response_code(404);
     exit();
 }
 

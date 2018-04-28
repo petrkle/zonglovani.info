@@ -128,7 +128,7 @@ if ($id) {
         }
 
         if ($stranka and !isset($moznestranky[$stranka])) {
-            require '../404.php';
+            http_response_code(404);
             exit();
         }
 
@@ -142,7 +142,7 @@ if ($id) {
                 )
         );
     } else {
-        require '../404.php';
+        http_response_code(404);
         exit();
     }
 }
@@ -241,7 +241,7 @@ if ($id and $photo) {
         $smarty->display('obrazek.tpl');
         $smarty->display('paticka-w.tpl');
     } else {
-        require '../404.php';
+        http_response_code(404);
         exit();
     }
 } elseif ($id and !$photo) {
@@ -366,7 +366,7 @@ if ($id and $photo) {
 
     if ($stranka) {
         if ($stranka != $pager->getCurrentPageID()) {
-            require '../404.php';
+            http_response_code(404);
             exit();
         }
     }

@@ -18,6 +18,6 @@ if (is_file($file) and isset($_POST['updatedb']) and isset($_POST['passwd']) and
         }
     }
 } else {
-    require '../404.php';
+    http_response_code(404);
     exit();
 }

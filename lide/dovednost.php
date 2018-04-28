@@ -19,7 +19,7 @@ if (isset($_GET['filtr'])) {
         $smarty->assign('nadpis', $dovednosti[$filtr]['nazev']);
         $smarty->assign('keywords', make_keywords('žonglování,'.$dovednosti[$filtr]['nazev']));
     } else {
-        require '../404.php';
+        http_response_code(404);
         exit();
     }
 } else {

@@ -96,6 +96,6 @@ if ($uzivatel_props) {
         exit();
     }
 } else {
-    require '../404.php';
+    http_response_code(404);
     exit();
 }

@@ -8,7 +8,7 @@ if (isset($_GET['seed']) and is_zs_account($_GET['seed'])) {
     http_cache_headers(83600, true);
     build_monster($_GET['seed']);
 } else {
-    require '../../404.php';
+    http_response_code(404);
     exit();
 }
 

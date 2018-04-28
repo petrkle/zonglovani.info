@@ -13,6 +13,6 @@ if (isset($_GET['r']) and isset($redirects[$_GET['r']])) {
         exit();
     }
 } else {
-    require '../404.php';
+    http_response_code(404);
     exit();
 }

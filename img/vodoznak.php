@@ -45,7 +45,7 @@ if (is_readable($podpis) and is_readable($obrazek)) {
         imagedestroy($obr);
         exit();
     } else {
-        require '../404.php';
+        http_response_code(404);
         exit();
     }
 }

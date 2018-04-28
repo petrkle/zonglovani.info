@@ -10,7 +10,7 @@ $smarty->assign('feedback', true);
 if (isset($_GET['id'])) {
     $id = trim($_GET['id']);
     if (!isset($juggling_events[$id])) {
-        require '../404.php';
+        http_response_code(404);
         exit();
     }
 }

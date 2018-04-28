@@ -17,7 +17,7 @@ if (isset($_GET['v'])) {
 if (isset($_GET['event'])) {
     $event = trim($_GET['event']);
     if (!isset($juggling_events[$event])) {
-        require '../404.php';
+        http_response_code(404);
     }
 } else {
     $event = false;
@@ -149,6 +149,6 @@ if (isset($idcka[$v])) {
     $smarty->display('video.tpl');
     $smarty->display('paticka.tpl');
 } else {
-    require '../404.php';
+    http_response_code(404);
     exit();
 }

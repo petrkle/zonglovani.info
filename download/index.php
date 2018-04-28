@@ -98,7 +98,7 @@ if (isset($_GET['id'])) {
         }
         $smarty->display('paticka.tpl');
     } else {
-        require '../404.php';
+        http_response_code(404);
         exit();
     }
 } else {

@@ -33,6 +33,6 @@ if (is_logged() and $_SESSION['uzivatel']['login'] == 'pek') {
     $smarty->display('admin.tpl');
     $smarty->display('paticka-w.tpl');
 } else {
-    require '../404.php';
+    http_response_code(404);
     exit();
 }

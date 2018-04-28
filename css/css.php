@@ -12,6 +12,6 @@ if (isset($_GET['style']) and is_readable('./'.$_GET['style'].'.css')) {
     }
     echo trim(file_get_contents('./'.$_GET['style'].'.css'));
 } else {
-    require '../404.php';
+    http_response_code(404);
     exit();
 }

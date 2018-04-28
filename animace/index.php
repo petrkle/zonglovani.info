@@ -97,7 +97,7 @@ if ($id) {
         $smarty->display('animace.tpl');
         $smarty->display('paticka.tpl');
     } else {
-        require '../404.php';
+        http_response_code(404);
         exit();
     }
 } else {

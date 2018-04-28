@@ -32,7 +32,7 @@ if (strlen($show) > 0 and is_file('../'.$show.'.xml')) {
     $smarty->display('trik.tpl');
     $smarty->display('paticka.tpl');
 } elseif (strlen($show) > 0 and !is_file('../'.$show.'.xml')) {
-    require '../404.php';
+    http_response_code(404);
     exit();
 } else {
     $smarty->assign('trail', $trail->path);
