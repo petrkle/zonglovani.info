@@ -3,7 +3,9 @@
 require_once 'init.php';
 require_once 'func.php';
 
-header('HTTP/1.0 403 Forbidden');
+$_SERVER['SERVER_NAME'] = ZS_DOMAIN;
+$_SERVER['DOCUMENT_ROOT'] = ZS_DIR;
+
 $smarty->assign('titulek', 'Přístup zakázán');
 
 $trail = new Trail();

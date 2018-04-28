@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="cs" lang="cs">
+<!DOCTYPE html>
+<html lang="cs">
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<title>Služba je dočasně nedostupná</title>
@@ -22,6 +22,7 @@
 	<link rel="apple-touch-icon" sizes="76x76" href="https://zongl.info/apple-touch-icon-76x76.png">
 	<link rel="apple-touch-icon" sizes="152x152" href="https://zongl.info/apple-touch-icon-152x152.png">
 	<link rel="apple-touch-icon" sizes="180x180" href="https://zongl.info/apple-touch-icon-180x180.png">
+	<link rel="icon" type="image/png" href="https://zongl.info/img/f/favicon-256x256.png" sizes="256x256">
 	<link rel="icon" type="image/png" href="https://zongl.info/img/f/favicon-192x192.png" sizes="192x192">
 	<link rel="icon" type="image/png" href="https://zongl.info/img/f/favicon-160x160.png" sizes="160x160">
 	<link rel="icon" type="image/png" href="https://zongl.info/img/f/favicon-96x96.png" sizes="96x96">
@@ -49,16 +50,12 @@
 	<link rel="alternate" title="Obrázky žonglování" href="https://zongl.info/obrazky/obrazky.rss" type="application/rss+xml" />
 	<link rel="alternate" title="Kalendář žonglování" href="https://zongl.info/kalendar/kalendar.rss" type="application/rss+xml" />
 	<link rel="alternate" title="Tip týdne pro žongléry" href="https://zongl.info/tip/tip.rss" type="application/rss+xml" />
-	<link rel="alternate" title="Diskuse o žonglování" href="https://zongl.info/diskuse/zpravy.rss" type="application/rss+xml" />
-	<meta name="referrer" content="unsafe-url">
-
-	<link rel="stylesheet" media="screen" type="text/css" href="/plain-3420059583.css" />
-	<link rel="stylesheet" media="screen and (min-width: 610px)" type="text/css" href="/z-3420059583.css" />
-	<link rel="stylesheet" media="only screen and (-webkit-min-device-pixel-ratio: 2)" href="/plain-3420059583.css" />
-	<link rel="stylesheet" media="print" type="text/css" href="/zt-3420059583.css" />
-<!--[if lt IE 9]>
-	<link rel="stylesheet" type="text/css" href="/z-3420059583.css">
-<![endif]-->
+	<meta name="theme-color" content="#ffdd33">
+	<link rel="manifest" href="/manifest.json">
+	<link rel="stylesheet" media="screen" type="text/css" href="/plain-402202045.css" />
+	<link rel="stylesheet" media="only screen and (-webkit-min-device-pixel-ratio: 2)" href="/plain-402202045.css" />
+	<link rel="stylesheet" media="screen and (min-width: 610px)" type="text/css" href="/z-402202045.css" />
+	<link rel="stylesheet" media="print" type="text/css" href="/zt-402202045.css" />
 	<link rel="image_src" href="/img/l/logo.png" />
 	<link rel="previewimage" href="/img/l/logo.png" />
 
@@ -66,7 +63,7 @@
 <body>
 <div id="hlavicka">
 <!-- start -->
-<div id="ucet"> <a href="/lide/prihlaseni.php?next=/503.php" title="Přihlášení do žonglérova slabikáře" rel="nofollow">Přihlášení</a> ~ <a href="/lide/novy-ucet.php" title="Vytvořit nový účet v žonglérově slabikáři.">Založit účet</a></div>
+<div id="ucet"> <a href="/lide/prihlaseni.php?next=" title="Přihlášení do žonglérova slabikáře" rel="nofollow">Přihlášení</a> ~ <a href="/lide/novy-ucet.php" title="Vytvořit nový účet v žonglérově slabikáři.">Založit účet</a></div>
 <!-- stop -->
 <a name="nahore" id="nahore"></a>
 <div class="hlavickabg">
@@ -95,9 +92,8 @@ Je mi líto, požadovaná stránka je dočasně nedostupná.
 </ul>
 <h3><a href="/kontakt.html" title="Kompletní kontaktní údaje">Kontakt</a></h3>
 <ul>
-	<li>Elektronická pošta: <span class="kontakt">admin<img src="/img/z/zavinac.serif.png" width="16" height="15" alt="zavináč" />zonglovani<img src="/img/t/tecka.png" width="5" height="20" alt="tečka" />info</span></li>
+	<li>Elektronická pošta: <a href="mailto:admin@zonglovani.info?subject=Žonglování" class="email">admin@zonglovani.info</a></li>
 </ul>
-
 
 <hr />
 <p>Chybové hlášení: <strong>HTTP 503 [Service Temporarily Unavailable]</strong></p>
@@ -108,11 +104,6 @@ Je mi líto, požadovaná stránka je dočasně nedostupná.
 
 <ul>
 <li><h4><a href="/" title="Úvodní stránka žonglérova slabikáře">Úvodní stránka</a></h4></li>
-
-<!-- start -->
-<li><h4><a href="/novinky/" title="Novinky ze světa žonglování">Novinky</a></h4></li>
-
-<!-- stop -->
 <li><h4><a href="/micky/" title="Začínáme s míčky">Míčky</a></h4><ul>
 <li><a href="/micky/2/" title="Žonglování se dvěma míčky.">2 míčky</a></li>
 <li><a href="/micky/3/" title="Žonglování se třemi míčky.">3 míčky</a></li>
@@ -131,22 +122,29 @@ Je mi líto, požadovaná stránka je dočasně nedostupná.
 <!-- start -->
 <li><h4><a href="/lide/" title="Seznam uživatelů žonglérova slabikáře.">Žongléři</a></h4><ul>
 <li><a href="/kalendar/" title="Kalendář žonglování">Kalendář</a></li>
-<li><a href="/diskuse/" title="Diskuse a komentáře">Diskuse</a></li>
 <li><a href="/lide/misto/" title="Žongléři podle místa působení">Místa</a></li>
 </ul>
 </li>
 
 <!-- stop -->
-<li><h4><a href="/ostatni.html" title="Vše ostatní o žonglování">Ostatní</a></h4>
+<li><h4><a href="/ostatni.html" title="Vše ostatní o žonglování">Ostatní</a></h4><ul>
+
 <!-- start -->
-<ul>
 <li><a href="/obrazky/" title="Obrázky žonglování">Obrázky</a></li>
-<li><a href="/video/" title="Zajímavá žonglérská videa">Video</a></li>
-<li><a href="/animace/" title="Animace žonglování s míčky">Animace</a></li>
-<li><a href="/download/" title="Žonglérův slabikář jako elektronická kniha, nebo program do počítače">Soubory<br/>ke stažení</a></li>
-</ul>
 
 <!-- stop -->
+
+<!-- start -->
+<li><a href="/video/" title="Zajímavá žonglérská videa">Video</a></li>
+
+<!-- stop -->
+<li><a href="/animace/" title="Animace žonglování s míčky">Animace</a></li>
+
+<!-- start -->
+<li><a href="/download/" title="Žonglérův slabikář jako elektronická kniha, nebo program do počítače">Soubory<br/>ke stažení</a></li>
+
+<!-- stop -->
+</ul>
 </li>
 
 </ul>
@@ -174,8 +172,6 @@ Je mi líto, požadovaná stránka je dočasně nedostupná.
 <!-- stránka konec -->
 </div>
 
-
-
 <div id="paticka">
 <div id="dolni">
 <div>
@@ -195,4 +191,3 @@ Je mi líto, požadovaná stránka je dočasně nedostupná.
 <!-- stop -->
 </body>
 </html>
-

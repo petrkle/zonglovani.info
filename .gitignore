@@ -26,3 +26,6 @@ static/mobile/zongleruv-slabikar-*.zip
 kalendar/mass-add/out
 pexeso/zonglerske-pexeso*
 .php_cs.cache
+404.html
+403.html
+503.html
