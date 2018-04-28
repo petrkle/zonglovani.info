@@ -4,13 +4,15 @@ DATUM=`date "+%-d. %-m. %Y %k:%M:%S"`
 DATUM_S=`date "+%-d.\&nbsp;%-m.\&nbsp;%Y"`
 CSS_CHKSUM=`grep CSS_CHKSUM ../../init.php | cut -d, -f2 | sed "s/[^0-9]//g"`
 
+find $ZSDIR -name "*.html.tmp.html" -delete
+
 for foo in `find $ZSDIR -name '*.html'`; 
 
 do
 	LEVEL=`echo $foo | sed "s/[^\/]*//g;s/\//..\//g;s/^.//;"`
 	cp -f $foo $foo.bat
 	cat $foo.bat |\
-	sed s/' onclick="_gaq[^"]*);"'/''/gi |\
+	sed 's/\.html\.tmp\.html/.html/gi' |\
 	sed s#'. <a href=".*mapa-stranek.html" accesskey="." title="Mapa stránek zonglovani.info">Mapa stránek</a> '#''#i |\
 	sed s#'<a href=".*index.html" title="Žonglérův slabikář - Úvodní stránka">Úvodní stránka</a> .'#''#i |\
 	sed s#'rel="stylesheet" type="text/css" href="/'#"rel=\"stylesheet\" type=\"text/css\" href=\"$LEVEL"#gi |\
