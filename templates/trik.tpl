@@ -21,21 +21,19 @@
 {/if}
 
 {if isset($krok.animace) and isset($krok.video)}
-<!-- start -->
 <p class="animace">
 <a href="/animace/{$krok.animace|escape}.html" title="Animace"><img src="/img/a/animace.s.png" width="20" height="20" title="" alt="" /> Přehrát animaci</a>
 </p>
+<!-- start -->
 <p class="animace">
 <a href="/video/navod/{$krok.video|escape}.html" title="Video"><img src="/img/v/video.s.png" width="20" height="20" title="" alt="" /> Přehrát video</a>
 </p>
 <!-- stop -->
 {/if}
 {if isset($krok.animace) and !isset($krok.video)}
-<!-- start -->
 <p class="animace">
 <a href="/animace/{$krok.animace|escape}.html" title="Animace">{obrazek soubor='animace.s.png' popisek=''} Přehrát animaci</a>
 </p>
-<!-- stop -->
 {/if}
 {if !isset($krok.animace) and isset($krok.video)}
 <!-- start -->
