@@ -26,8 +26,8 @@ ok($nadpisy =~ /<p>\nTak a teď stačí přidat už jen jeden míček.\n<\/p>/, 
 
 ok($nadpisy =~ /<p>\n<img src="\/img\/m\/mmi.png" width="200" height="200" title="" alt="" \/>Pravou ruku máš vlevo nahoře a zachytíš do ní první míček. Zároveň levou rukou vyhoď třetí míček.\n<\/p>/, 'Odstavec s obrázkem');
 
-ok($nadpisy =~ /<!-- start -->\n<p class="animace">\n<a href="\/animace\/standard-mills-mess\.html"/, 'Odkaz na animaci');
-ok($nadpisy =~ /<p class="animace">\n<a href="\/video\/navod\/micky-3-mm.html" title="Video"/, 'Odkaz na video');
+ok($nadpisy =~ /<p class="animace">\n<a href="\/animace\/standard-mills-mess\.html"/, 'Odkaz na animaci');
+ok($nadpisy =~ /<!-- start -->\n<p class="animace">\n<a href="\/video\/navod\/micky-3-mm.html" title="Video"/, 'Odkaz na video');
 ok($nadpisy =~ /<div class="kamdal">\n<a name="kam-dal"><\/a><h5>Kam dál<\/h5>\n<ul>\n<li><a href="\/micky\/passing-mm\.html"/, 'Odkaz na další stránku');
 
 my $zs_formatovani = $bot->get('https://zongl.info/kuzely/passing/pickup.html');

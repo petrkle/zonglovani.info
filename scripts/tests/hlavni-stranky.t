@@ -3,7 +3,7 @@ use strict;
 use warnings;
 use LWP::ConnCache;
 use WWW::Mechanize;
-use Test::More tests => 114;
+use Test::More tests => 112;
 
 my $bot = WWW::Mechanize->new(autocheck => 1);
 $bot->conn_cache(LWP::ConnCache->new);
@@ -36,7 +36,6 @@ my @stranky = (
 	{'a'=>'/lide/jitka.html', 't'=>'Jitka', 'o'=>'Účet vytvořen: 28. 12. 2009'},
 	{'a'=>'/kalendar/', 't'=>'Kalendář žonglování', 'o'=>'Dnes je: '},
 	{'a'=>'/lide/prihlaseni.php', 't'=>'Přihlášení', 'o'=>'<legend>Přihlašovací údaje<'},
-	{'a'=>'/diskuse/', 't'=>'Diskuse a komentáře - [0-9]+. stránka', 'o'=>'<th>Uživatel<\/th>'},
 	{'a'=>'/lide/novy-ucet.php', 't'=>'Založit účet', 'o'=>'<input type="submit" name="odeslat" value="Založit účet"'},
 	{'a'=>'/ostatni.html', 't'=>'Další informace o žonglování', 'o'=>'rec.juggling'},
 	{'a'=>'/nacini.html', 't'=>'Žonglérské náčiní', 'o'=>'<a name="zvony"><\/a><h3>Záchodové zvony<\/h3>'},

@@ -4,7 +4,7 @@ use warnings;
 
 use LWP::ConnCache;
 use WWW::Mechanize;
-use Test::More tests => 66;
+use Test::More tests => 55;
 use Test::XML;
 my $minimalitems=3;
 my @adresy=(
@@ -12,8 +12,6 @@ my @adresy=(
 "/zonglovani.xml",
 "/kalendar/kalendar.rss",
 "/kalendar/kalendar.xml",
-"/diskuse/zpravy.rss",
-"/diskuse/zpravy.xml",
 "/lide/uzivatele.rss",
 "/lide/uzivatele.xml",
 "/obrazky/obrazky.rss",

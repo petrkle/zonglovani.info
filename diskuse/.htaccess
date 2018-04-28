@@ -1,9 +1,0 @@
-RewriteEngine	on
-RewriteBase /diskuse
-
-RewriteCond %{HTTP_HOST} ^www\.(.*)
-RewriteRule (.*) http://%1/diskuse/$1 [R=301,QSA,NE,L]
-
-RewriteRule ^stranka(.*)\.html$ index.php?pageID=$1 [L]
-RewriteRule ^zpravy.rss$ index.php?rss=jo [L]
-RewriteRule ^zpravy.xml$ index.php?rss=jo&v=2 [L]
