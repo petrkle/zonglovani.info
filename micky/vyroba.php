@@ -22,6 +22,7 @@ $dalsi = array(
     );
 $smarty->assign('dalsi', $dalsi);
 
+$smarty->assign('stylwidth', 455);
 $smarty->assign('trail', $trail->path);
 $smarty->display('hlavicka.tpl');
 $smarty->display('micky-vyroba.tpl');
