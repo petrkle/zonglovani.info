@@ -18,6 +18,10 @@ Díky&nbsp;moc :-)
 
 <p>Do zprávy pro příjemce vyplňte zonglovani.info.</p>
 
+<!-- start -->
+
 <p>Nebo pohodlně z mobilu pomocí QR platby.</p>
 
 <p>{obrazek soubor='qr-platba-500kc.png' popisek='Příspěvek 500 Kč' class='noborder'}Zaslat 500Kč.</p>
+
+<!-- stop -->
