@@ -69,7 +69,7 @@ function submenu($id)
         $popisky = array('Kalendář žonglování', 'Žongléři podle místa působení');
     }
 
-    if ($id == 7) {
+    if ($id == 6) {
         $adresy = array('/obrazky/', '/video/', '/animace/', '/download/');
         $texty = array('Obrázky', 'Video', 'Animace', 'Soubory<br/>ke stažení');
         $popisky = array('Obrázky žonglování', 'Zajímavá žonglérská videa', 'Animace žonglování s míčky', 'Žonglérův slabikář jako elektronická kniha, nebo program do počítače');
@@ -77,21 +77,22 @@ function submenu($id)
 
     if (isset($adresy)) {
         $navrat = '';
-        if ($id == 7) {
-            $navrat .= "\n<!-- start -->\n";
-        }
         $navrat .= "<ul>\n";
         for ($foo = 0; $foo < count($adresy); ++$foo) {
+            if ($id == 6 and $foo != 2) {
+                $navrat .= "\n<!-- start -->\n";
+            }
+
             if ($_SERVER['REQUEST_URI'] == $adresy[$foo] and !isset($_GET['show'])) {
                 $navrat .= '<li><strong>'.$texty[$foo].'</strong></li>'."\n";
             } else {
                 $navrat .= '<li><a href="'.$adresy[$foo].'" title="'.$popisky[$foo].'">'.$texty[$foo].'</a>'."</li>\n";
             }
+            if ($id == 6 and $foo != 2) {
+                $navrat .= "\n<!-- stop -->\n";
+            }
         }
         $navrat .= "</ul>\n";
-        if ($id == 7) {
-            $navrat .= "\n<!-- stop -->\n";
-        }
 
         return $navrat;
     } else {
