@@ -15,7 +15,7 @@ do
 		FILE="`echo $baz | sed 's/<a.*href="\([^"]*\)".*/\1/;s/#.*//'`"
 		if [ ! -f $DIR/$FILE ]
 		then
-			if grep -q '^\(http\|ftp\|https\)' <<< $FILE
+			if grep -q '^\(http\|ftp\|https\|mailto\)' <<< $FILE
 			then
 				# externí odkaz
 				sed -i "s#href=\"$FILE\"#href=\"$FILE\" class=\"external\" #g" $foo
