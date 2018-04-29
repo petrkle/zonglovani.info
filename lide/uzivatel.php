@@ -92,7 +92,7 @@ if ($uzivatel_props) {
         $smarty->display('uzivatel.tpl');
         $smarty->display('paticka.tpl');
     } else {
-        require '../410.php';
+        http_response_code(410);
         exit();
     }
 } else {

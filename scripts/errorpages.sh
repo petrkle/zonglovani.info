@@ -2,7 +2,7 @@
 
 set -e
 
-for foo in 403 404 503
+for foo in 403 404 410 503
 do
 	php scripts/$foo.php > $foo.html
 done
