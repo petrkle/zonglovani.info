@@ -322,6 +322,8 @@ function get_user_props($login)
 
         if (is_file(LIDE_DATA.'/'.$login.'/soukromi.txt')) {
             $navrat['soukromi'] = trim(file_get_contents(LIDE_DATA.'/'.$login.'/soukromi.txt'));
+        } else {
+            $navrat['soukromi'] = 'formular';
         }
 
         if (is_file(LIDE_DATA.'/'.$login.'/vzkaz.txt')) {

@@ -98,10 +98,11 @@ if (isset($_GET['status']) and $_GET['status'] == 'ok' and isset($_SESSION['load
                     if ($uzivatel['status'] == 'locked') {
                         // obnovení hesla pro dlouho nepoužívaný účet
                         // smažeme staré údaje
-                        $ke_smazani = array('LOCKED', 'locked.time', 'prihlaseni.txt', 'zruseni.txt', 'web.txt', 'pusobiste.txt', 'oblibene.txt', 'hodnoceni.txt', 'dovednosti.txt', 'foto.jpg', 'znameni.txt', 'tel.txt', 'vzkaz.txt');
-                        foreach ($ke_smazani as $starysoubor) {
-                            if (is_file(LIDE_DATA.'/'.$uzivatel['login'].'/'.$starysoubor)) {
-                                unlink(LIDE_DATA.'/'.$uzivatel['login'].'/'.$starysoubor);
+                        $ke_smazani = array_merge(USERFILES, array('LOCKED'));
+
+                        foreach ($ke_smazani as $soubor) {
+                            if (is_file(LIDE_DATA.'/'.$uzivatel['login'].'/'.$soubor)) {
+                                unlink(LIDE_DATA.'/'.$uzivatel['login'].'/'.$soubor);
                             }
                         }
 
@@ -109,6 +110,17 @@ if (isset($_GET['status']) and $_GET['status'] == 'ok' and isset($_SESSION['load
                         fwrite($foo, 'formular');
                         fclose($foo);
                     }
+                } else {
+                    $smarty->assign('email', $email);
+                    $smarty->assign('key', $key);
+                    $smarty->assign('uzivatel', $uzivatel);
+                    if (isset($chyby)) {
+                        $smarty->assign('chyby', $chyby);
+                    }
+                    $smarty->display('hlavicka.tpl');
+                    $smarty->display('obnova-hesla.tpl');
+                    $smarty->display('paticka.tpl');
+                    exit();
                 }
 
                 $_SESSION['load_user'] = $uzivatel['login'];

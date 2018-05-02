@@ -32,6 +32,12 @@ foreach ($loginy as $login) {
         $foo = fopen(LIDE_DATA.'/'.$login.'/LOCKED', 'w');
         fwrite($foo, time());
         fclose($foo);
+
+        foreach (USERFILES as $soubor) {
+            if (is_file($login.'/'.$soubor)) {
+                unlink($login.'/'.$soubor);
+            }
+        }
     } elseif (($now - $lastlogin) > (335 * 24 * 3600)) {
         // poslat varovny mail
         if (!is_file(SENDMAIL_DATA.'/'.$info['email'].'.spici')) {

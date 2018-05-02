@@ -30,7 +30,10 @@ my $clovek_mail_mail='';
 
 foreach my $clovek(@lide){
 	if(! -f "$clovek/LOCKED" && ! -f "$clovek/REVOKED"){
-		my $soukromi = read_text("$clovek/soukromi.txt") ;
+		my $soukromi = 'formular';
+		if( -f "$clovek/soukromi.txt"){
+			$soukromi = read_text("$clovek/soukromi.txt") ;
+		}
 		if($soukromi =~ /formular/){
 			$clovek_formular = basename($clovek);
 			$clovek_formular_mail = basename(glob("$clovek/*.mail"),(".mail"));

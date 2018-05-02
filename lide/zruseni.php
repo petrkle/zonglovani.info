@@ -42,6 +42,12 @@ if (isset($_GET['m']) and isset($_GET['k'])) {
             unlink($tmp.'/locked.login');
             rmdir($tmp);
 
+            foreach (USERFILES as $soubor) {
+                if (is_file($user.'/'.$soubor)) {
+                    unlink($user.'/'.$soubor);
+                }
+            }
+
             session_destroy();
             unset($_SESSION['logged']);
             unset($_SESSION['ip']);

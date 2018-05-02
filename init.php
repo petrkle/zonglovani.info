@@ -74,5 +74,19 @@ define('IMG_MAX_SIZE', 3); //MiB
 
 define('IMG_RESPONSIVE_WIDTH', 200); //px
 
+const USERFILES = array(
+'web.txt',
+'tel.txt',
+'dovednosti.txt',
+'pusobiste.txt',
+'znameni.txt',
+'vzkaz.txt',
+'foto.jpg',
+'prihlaseni.txt',
+'oblibene.txt',
+'soukromi.txt',
+'registrace.txt',
+);
+
 define('CSS_CHKSUM', '402202045');
 define('JS_CHKSUM', '2391363690');

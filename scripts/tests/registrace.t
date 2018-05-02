@@ -4,11 +4,13 @@ use warnings;
 
 use LWP::ConnCache;
 use WWW::Mechanize;
-use Test::More tests => 40;
+use Test::More tests => 51;
 use Net::Netrc;
 use String::MkPasswd qw(mkpasswd);
 use Encode;
 require('./scripts/tests/func.pl');
+
+my $DATA_LIDE='/home/www/zonglovani.info/data/lide';
 
 my $nove_heslo = mkpasswd(-length => 13, -minnum => 4, -minlower => 4, -minupper => 2, -minspecial => 3);
 my $jmeno = mkpasswd(-length => 10, -minnum => 0, -minlower => 4, -minupper => 2, -minspecial => 0);
@@ -19,6 +21,19 @@ my $mailuser = mkpasswd(-length => 5, -minnum => 0, -minlower => 2, -minupper =>
 my $mail="$mailuser\@$domain.$tld";
 
 my $vzkaz = mkpasswd(-length => 50, -minnum => 0, -minlower => 20, -minupper => 20, -minspecial => 0);
+
+my @userfiles = ('web.txt',
+'tel.txt',
+'dovednosti.txt',
+'pusobiste.txt',
+'znameni.txt',
+'vzkaz.txt',
+'foto.jpg',
+'prihlaseni.txt',
+'oblibene.txt',
+'soukromi.txt',
+'registrace.txt',
+);
 
 my $bot = WWW::Mechanize->new(autocheck => 1);
 $bot->conn_cache(LWP::ConnCache->new);
@@ -212,3 +227,7 @@ my $zs_zruseni = $bot->get($odkazy_r[0]);
 ok($zs_zruseni->content() =~ /<li>Účet byl zrušen.<\/li>/,'Účet byl zrušen');
 $zs_zruseni = $bot->get($odkazy_r[0]);
 ok($zs_zruseni->content() =~ /<li>Neplatný odkaz pro zrušení účtu.<\/li>/,'Účet nejde zrušit dvakrát');
+
+foreach my $soubor (@userfiles){
+	ok(!-f "$DATA_LIDE/$mailuser/$soubor", "Adresář zrušeného uživatele neobsahuje soubor $DATA_LIDE/$mailuser/$soubor");
+}
