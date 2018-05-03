@@ -1,7 +1,6 @@
 <?php
 
 require '../init.php';
-require '../cache.php';
 if (isset($_GET['jmeno']) and isset($_GET['pripona'])) {
     $jmeno = preg_replace('/[\.\/]/', '', $_GET['jmeno']);
     $pripona = $_GET['pripona'];
@@ -15,7 +14,6 @@ if (isset($_GET['jmeno']) and isset($_GET['pripona'])) {
 }
 
 if (is_readable(CALENDAR_IMG.'/'.$jmeno.'.'.$pripona)) {
-    http_cache_headers(3600, true);
     header('Content-Length: '.filesize(CALENDAR_IMG.'/'.$jmeno.'.'.$pripona));
     if ($pripona == '.png') {
         header('Content-Type: image/png');

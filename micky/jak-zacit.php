@@ -2,8 +2,6 @@
 
 require '../init.php';
 require '../func.php';
-require '../cache.php';
-http_cache_headers(3600);
 
 $titulek = 'Jak začít žonglovat s míčky';
 $smarty->assign('feedback', true);

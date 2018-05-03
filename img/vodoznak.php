@@ -3,8 +3,6 @@
 if (!isset($_GET['img'])) {
     exit();
 }
-require '../cache.php';
-http_cache_headers(3600, true);
 
 if (isset($_GET['galerie'])) {
     $obrazek = $_SERVER['DOCUMENT_ROOT'].'/obrazky/'.$_GET['img'];

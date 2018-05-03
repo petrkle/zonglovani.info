@@ -9,9 +9,6 @@ define('MAGPIE_DETECT_ENCODING', false);
 define('MAGPIE_CACHE_DIR', ZS_DIR.'/tmp/cache.rss');
 require 'lib/rss_fetch.inc';
 
-require 'cache.php';
-http_cache_headers(3600);
-
 $kanaly = array(
 'https://'.ZS_DOMAIN.CALENDAR_URL.'kalendar.rss',
 'https://'.ZS_DOMAIN.'/tip/tip.rss',

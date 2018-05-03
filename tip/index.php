@@ -2,7 +2,6 @@
 
 require '../init.php';
 require '../func.php';
-require '../cache.php';
 require $lib.'/Pager/Pager.php';
 
 if (isset($_GET['rss'])) {
@@ -21,19 +20,15 @@ $tipy = get_tipy();
 
 if ($rss) {
     header('Content-Type: application/xml');
-    http_cache_headers(3600, true);
     $smarty->assign('tipy', $tipy);
     $smarty->display('tip.rss.tpl');
     exit();
 } elseif ($imgrss) {
-    http_cache_headers(3600, true);
     header('Content-Type: application/xml');
     $smarty->assign('tipy', $tipy);
     $smarty->display('tip-img.rss.tpl');
     exit();
 } else {
-    http_cache_headers(3600);
-
     $pagerOptions = array(
     'mode' => 'Sliding',
     'delta' => 2,

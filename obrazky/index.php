@@ -2,7 +2,6 @@
 
 require '../init.php';
 require '../func.php';
-require '../cache.php';
 
 if (preg_match('/index\.php$/', $_SERVER['REQUEST_URI'])) {
     header('HTTP/1.1 301 Moved Permanently');
@@ -51,7 +50,6 @@ if (isset($_GET['rss'])) {
 
 if ($rss) {
     header('Content-Type: application/xml');
-    http_cache_headers(3600, true);
     $smarty->assign('obrazky', get_galerie());
     if (isset($_GET['v'])) {
         $smarty->display('obrazky.rss2.tpl');
@@ -60,7 +58,6 @@ if ($rss) {
     }
     exit();
 } else {
-    http_cache_headers(3600);
 }
 
 if ($id) {
