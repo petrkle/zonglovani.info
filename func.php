@@ -214,9 +214,13 @@ function is_zs_jmeno($jmeno)
 
 function get_name($login)
 {
-    $jmeno = file(LIDE_DATA.'/'.$login.'/jmeno.txt');
-
-    return trim(array_pop($jmeno));
+    $filename = LIDE_DATA.'/'.$login.'/jmeno.txt';
+    if (is_file($filename)) {
+        $jmeno = file_get_contents($filename);
+    } else {
+        $jmeno = $login;
+    }
+    return trim($jmeno);
 }
 
 function get_loginy()
