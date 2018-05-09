@@ -74,6 +74,8 @@ define('IMG_MAX_SIZE', 3); //MiB
 
 define('IMG_RESPONSIVE_WIDTH', 200); //px
 
+define('PASS_MIN_LENGHT', 6);
+
 const USERFILES = array(
 'web.txt',
 'tel.txt',

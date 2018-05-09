@@ -573,8 +573,8 @@ if (is_logged()) {
                 $heslo = $_POST['heslo'];
                 $heslo2 = $_POST['heslo2'];
 
-                if (strlen($heslo) < 5) {
-                    array_push($chyby, 'Heslo není zadané, nebo je příliš krátké. Minimální délka hesla je 5 znaků.');
+                if (strlen($heslo) < PASS_MIN_LENGHT) {
+                    array_push($chyby, 'Heslo není zadané, nebo je příliš krátké. Minimální délka hesla je '.PASS_MIN_LENGHT.' znaků.');
                 }
 
                 if (

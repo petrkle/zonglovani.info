@@ -82,8 +82,8 @@ if (isset($_GET['status']) and $_GET['status'] == 'ok' and isset($_SESSION['load
                     $heslo2 = '';
                 }
 
-                if (strlen($heslo) < 5) {
-                    array_push($chyby, 'Heslo není zadané, nebo je příliš krátké.');
+                if (strlen($heslo) < PASS_MIN_LENGHT) {
+                    array_push($chyby, 'Heslo není zadané, nebo je příliš krátké. Minimální délka hesla '.PASS_MIN_LENGHT.' znaků.');
                 }
 
                 if ($heslo != $heslo2) {
