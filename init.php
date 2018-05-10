@@ -45,9 +45,6 @@ define('LIDE_BY_MAIL', ZS_DIR.'/data/lide.by.mail');
 define('LIDE_TMP', ZS_DIR.'/data/lide.tmp');
 define('LIDE_VZKAZY', ZS_DIR.'/data/vzkazy');
 
-define('DISKUSE_URL', '/diskuse/');
-define('DISKUSE_DATA', ZS_DIR.'/data/diskuse');
-
 define('OBRAZKY_URL', '/obrazky/');
 define('OBRAZKY_DATA', ZS_DIR.'/obrazky');
 
@@ -63,9 +60,6 @@ define('WALLPAPERS_URL', '/obrazky-na-plochu/');
 define('WALLPAPERS_DATA', ZS_DIR.'/obrazky-na-plochu');
 
 define('ZPRAV_NA_STRANKU', 10);
-
-define('STAT_DATA', ZS_DIR.'/data/stat');
-define('STAT_EXPIRE', 31);
 
 define('MAX_BIG_LETTERS', 0.7);
 define('IMG_MAX_WIDTH', 4000);  //px
