@@ -1,35 +1,5 @@
 {if isset($uzivatel_props)}
 
-{if isset($smarty.session.uzivatel.login) and $uzivatel_props.login==$smarty.session.uzivatel.login}
-<h1>Oblíbené stránky</h1>
-
-{if is_array($uzivatel_props.oblibene)}
-<ul>
-{foreach from=$uzivatel_props.oblibene item=stranka key=url}
-<li class="star"><a href="{$url|escape}" title="{$stranka|escape}">{$stranka|regex_replace:'/ \- stránka [0-9]+$/':''|escape}</a></li>
-{/foreach}
-</ul>
-{else}
-<p>
-Na tomto místě se zobrazí tvoje oblíbené stránky z žonglérova slabikáře.
-</p>
-<h5>Přidání stránky mezi oblíbené</h5>
-<p class="kontakt">
-Stránku přidáš mezi oblíbené kliknutím na obrázek šedivé hvězdičky {obrazek soubor='star-white.png' popisek='Přidat mezi oblíbené.'} vedle nadpisu.
-</p>
-<h5>Odebrání stránky z oblíbených</h5>
-<p class="kontakt">
-Stránku odebereš z oblíbených kliknutím na obrázek žluté hvězdičky {obrazek soubor='star.png' popisek='Odebrat z oblíbených.'} vedle nadpisu.
-</p>
-<h5>Oblíbené stránky jsou veřejné</h5>
-<p>Seznam tvých oblíbených stránek je veřejně dostupný všem návštěvníkům žonglérova slabikáře. Stejně tak i ty si můžeš prohlížet oblíbené stránky ostatních žonglérů.</p>
-{/if}
-<ul>
-<li><a href="{$smarty.const.LIDE_URL}pristupy.php" title="Seznam přihlášení do žonglérova slabikáře.">Seznam tvých přihlášení</a> do žonglérova slabikáře.</li>
-<li><a href="{$smarty.const.LIDE_URL}pravidla.php" title="Pravidla pro používání žonglérova slabikáře.">Pravidla používání</a> účtu v žonglérově slabikáři</li>
-</ul>
-{else}
-
 <h1><span class="fn">{$titulek}</span></h1>
 <div class="vcard">
 {if isset($uzivatel_props.foto)}
@@ -46,7 +16,7 @@ Stránku odebereš z oblíbených kliknutím na obrázek žluté hvězdičky {ob
 <ul>
 <li class="skryte"><span class="nickname">{$uzivatel_props.login|escape}</span></li>
 {if isset($uzivatel_props.web) and strlen($uzivatel_props.web)>0}
-<li>Web: <a href="{$uzivatel_props.web|escape}" title="Internetová stránka uživatele {$uzivatel_props.jmeno|escape}"{if !preg_match('/^https:\/\/zonglovani.info.*/',$uzivatel_props.web)} class="external url wrap" rel="nofollow"{/if}>{$uzivatel_props.web|replace:'http://':''|regex_replace:'/^www\./':''|regex_replace:'/\/$/':''|truncate:40:'...':false|escape}</a></li>
+<li>Web: <a href="{$uzivatel_props.web|escape}" title="Internetová stránka uživatele {$uzivatel_props.jmeno|escape}"{if !preg_match('/^https:\/\/zonglovani.info.*/',$uzivatel_props.web)} class="external url wrap" rel="nofollow noopener"{/if}>{$uzivatel_props.web|replace:'https?://':''|regex_replace:'/^www\./':''|regex_replace:'/\/$/':''|truncate:40:'...':false|escape}</a></li>
 {/if}
 {if isset($uzivatel_props.tel)}
 <li>Tel.: {$uzivatel_props.tel|telobfuscate}</li>
@@ -90,14 +60,16 @@ Stránku odebereš z oblíbených kliknutím na obrázek žluté hvězdičky {ob
 </ul>
 {/if}
 
-{if is_array($uzivatel_props.oblibene)}
-<h3>Oblíbené stránky</h3>
+{if isset($smarty.session.uzivatel.login) and $uzivatel_props.login==$smarty.session.uzivatel.login}
+<h3>Účet v žonglérově slabikáři</h3>
 <ul>
-{foreach from=$uzivatel_props.oblibene item=stranka key=url}
-<li><a href="{$url|escape}" title="{$stranka|escape}">{$stranka|escape}</a></li>
-{/foreach}
+<li><a href="{$smarty.const.LIDE_URL}nastaveni/" title="Nastavení tvého účtu.">Upravit nastavení</a></li>
+<li><a href="{$smarty.const.LIDE_URL}pristupy.php" title="Seznam přihlášení do žonglérova slabikáře.">Seznam tvých přihlášení</a> do žonglérova slabikáře.</li>
+<li><a href="{$smarty.const.LIDE_URL}pravidla.php" title="Pravidla pro používání žonglérova slabikáře.">Pravidla používání</a> účtu v žonglérově slabikáři</li>
 </ul>
 {/if}
+
+
 <hr />
 {if $navigace}
 <div class="kamdal">
@@ -114,5 +86,4 @@ Stránku odebereš z oblíbených kliknutím na obrázek žluté hvězdičky {ob
 {/if}
 <script async src="/hop-{$smarty.const.JS_CHKSUM}.js" type="text/javascript"></script>
 </div>
-{/if}
 {/if}

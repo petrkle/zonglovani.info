@@ -15,7 +15,7 @@
 <p><strong>Místo</strong>: <span class="location">{$udalost.misto|escape}</span>{if $udalost.mapa} - <a href="{$udalost.mapa|escape}" title="Místo konání na mapě."{if preg_match('/^http:\/\//',$udalost.mapa)} class="external" rel="nofollow"{/if}>mapa</a>{/if}</p>
 
 {if isset($udalost.url)}
-<p><strong>Odkaz</strong>: <a href="{$udalost.url_hr|escape}" {if preg_match('/^http:\/\//',$udalost.url_hr)} class="external url" rel="nofollow"{/if}>{$udalost.url|regex_replace:'/http(|s):\/\//':''|regex_replace:"/^www\./":""|regex_replace:"/\/$/":""|truncate:40:"...":false|escape}</a></p>
+<p><strong>Odkaz</strong>: <a href="{$udalost.url_hr|escape}" {if preg_match('/^https?:\/\//',$udalost.url_hr)} class="external url" rel="nofollow noopener"{/if}>{$udalost.url|regex_replace:'/https?:\/\//':''|regex_replace:"/^www\./":""|regex_replace:"/\/$/":""|truncate:40:"...":false|escape}</a></p>
 {/if}
 
 {if isset($smarty.session.uzivatel.login) and $udalost.vlozil==$smarty.session.uzivatel.login and !isset($stare)}
