@@ -3,7 +3,7 @@
 <div id="results">
 {foreach from=$vysledky key=cislo item=vysledek}
 <h3><a href="{$vysledek.url|escape}" class="title">{$vysledek.title|escape}</a></h3>
-<p><a href="{$vysledek.url|escape}"><img src="{$vysledek.img|escape}" width="100" height="100" /></a> {$vysledek.snip}</p>
+<p><a href="{$vysledek.url|escape}"><img src="{$vysledek.img|escape}" class="photo" /></a></p><p>{$vysledek.snip}</p>
 {/foreach}
 </div>
 

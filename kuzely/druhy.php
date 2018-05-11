@@ -23,6 +23,7 @@ $trail->addStep($titulek);
 $smarty->assign('trail', $trail->path);
 
 $smarty->assign('feedback', true);
+$smarty->assign('stylwidth', IMG_MAX_WIDTH);
 
 $smarty->display('hlavicka.tpl');
 $smarty->display('kuzely-druhy.tpl');

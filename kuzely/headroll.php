@@ -18,6 +18,9 @@ $smarty->assign('titulek', $titulek);
 $smarty->assign('feedback', true);
 
 $trik = nacti_trik('kuzely-headroll');
+if ($trik['img_maxwidth'] > IMG_RESPONSIVE_WIDTH) {
+    $smarty->assign('stylwidth', $trik['img_maxwidth']);
+}
 $smarty->assign('trik', $trik);
 
 $smarty->display('hlavicka.tpl');

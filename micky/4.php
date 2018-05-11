@@ -18,6 +18,9 @@ $trail->addStep('4 míčky', '/micky/4/');
 
 if (strlen($show) > 0 and is_file('../'.$show.'.xml')) {
     $trik = nacti_trik($show);
+    if ($trik['img_maxwidth'] > IMG_RESPONSIVE_WIDTH) {
+        $smarty->assign('stylwidth', $trik['img_maxwidth']);
+    }
     $smarty->assign('trik', $trik);
     $smarty->assign('titulek', $titulek.' - '.$trik['about']['nazev']);
     $smarty->assign('nadpis', $trik['about']['nazev']);

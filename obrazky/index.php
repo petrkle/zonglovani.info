@@ -107,8 +107,8 @@ if ($id) {
         $data = $pager->getPageData();
 
         $first_img = array_slice($data, 0, 1);
-        if (strlen($first_img[0]['nahled']) > 0) {
-            $smarty->assign('nahled', $first_img[0]['nahled']);
+        if (strlen($first_img[0]['obrazek']) > 0) {
+            $smarty->assign('nahled', $first_img[0]['obrazek']);
         }
 
         $moznestranky = array();
@@ -156,7 +156,7 @@ if ($id and $photo) {
             $smarty->assign('pristiulita', get_next_ulita(array_merge($podzim, $jaro)));
         }
         $smarty->assign('stranka', $pager->getPageIdByOffset($photo));
-        $smarty->assign('nahled', $obrazky[intval($photo)]['nahled']);
+        $smarty->assign('nahled', $obrazky[intval($photo)]['obrazek']);
         $smarty->assign('imgdir', OBRAZKY_URL.$id);
         $titulek = $gal_info['title'].' - '.intval($photo).'. obrázek';
         $smarty->assign('description', $titulek);

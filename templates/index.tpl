@@ -9,14 +9,16 @@ Je bezvadná zábava. Pojď se <a href="/micky/jak-zacit.html" title="Základy �
 <h2><a href="{$smarty.const.LIDE_URL}" title="Seznam žonglérů">Žongléři</a></h2>
 <p><a href="{$smarty.const.LIDE_URL}" title="Seznam uživatelů žonglérova slabikáře">{obrazek soubor='zongleri.png' popisek='Žongléři'}</a>
 Koukni do <a href="{$smarty.const.LIDE_URL}" title="Seznam uživatelů žonglérova slabikáře">seznamu žonglérů</a>. Jsou tam lidé, kteří umí:</p>
-<ul class="szn">
+<p>
+<ul>
 <li><a href="{$smarty.const.LIDE_URL}dovednost/show.html" title="Žongléři kteří umí veřejně vystupovat">Žonglérské vystoupení</a></li>
 <li><a href="{$smarty.const.LIDE_URL}dovednost/workshop.html" title="Žongléři kteří tě naučí žonglovat">Naučit žonglovat</a></li>
 <li><a href="{$smarty.const.LIDE_URL}dovednost/manufactory.html" title="Žongléři kteří výrábějí žonglérské hračky">Vyrábět žonglérské hračky</a></li>
 <li><a href="{$smarty.const.LIDE_URL}dovednost/shop.html" title="Žongléři kteří ti prodjí věci na žonglování">Prodej věcí na žonglování</a></li>
 </ul>
+</p>
 <h2><a href="{$smarty.const.CALENDAR_URL}" title="Kalendář žonglérských akcí">Kam jít žonglovat</a></h2>
-<p><a href="{$smarty.const.CALENDAR_URL}" title="Kalendář žonglérských akcí">{obrazek soubor='kalendar-nahled.png' popisek='Kalendář žonglérských akcí.'}</a>
+<p><a href="{$smarty.const.CALENDAR_URL}" title="Kalendář žonglérských akcí">{obrazek soubor='kalendar-zonglovani.png' popisek='Kalendář žonglérských akcí.'}</a>
 Přehledný <a href="{$smarty.const.CALENDAR_URL}" title="Kalendář žonglérských akcí">kalendář žonglérských akcí</a>.{if isset($smarty.session.logged)}<br /><a href="{$smarty.const.CALENDAR_URL}add.php" title="Přidat novou událost do kalendáře" class="add">Přidat událost</a> do kalendáře.{/if}</p>
 
 <!-- stop -->

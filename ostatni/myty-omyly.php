@@ -16,6 +16,7 @@ $trail->addStep('Informace o žonglování', '/ostatni.html');
 $trail->addStep($titulek);
 
 $smarty->assign('trail', $trail->path);
+$smarty->assign('stylwidth', IMG_MAX_WIDTH);
 $smarty->display('hlavicka.tpl');
 $smarty->display('ostatni-myty-omyly.tpl');
 $smarty->display('paticka.tpl');

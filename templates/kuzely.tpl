@@ -34,13 +34,13 @@ S kužely se nemusí jenom házet.
 
 <h3><a href="/kuzely/konstrukce.html" title="Co je uvnitř.">Konstrukce kuželu</a></h3>
 <p>
-<a href="/kuzely/konstrukce.html" title="Co je uvnitř.">{obrazek soubor="kuzel-konstrukce-s.png" popisek="Konstrukce kuželu."}</a>
+<a href="/kuzely/konstrukce.html" title="Co je uvnitř.">{obrazek soubor="kuzel-konstrukce.png" popisek="Konstrukce kuželu."}</a>
 Jak vypadá kužel uvnitř.
 </p>
 
 <h3><a href="/kuzely/druhy.html" title="Druhy kuželů na žonglování.">Druhy kuželů</a></h3>
 <p>
-<a href="/kuzely/druhy.html" title="Druhy kuželů na žonglování.">{obrazek soubor='kuzelka-classic-dekor-s.jpg' popisek='Obrázky kuželů'}</a>
+<a href="/kuzely/druhy.html" title="Druhy kuželů na žonglování.">{obrazek soubor='kuzelka-classic-dekor.jpg' popisek='Obrázky kuželů'}</a>
 Fotky kuželů na žonglování.
 </p>
 

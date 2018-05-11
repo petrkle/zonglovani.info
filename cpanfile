@@ -12,7 +12,6 @@ requires 'File::Touch';
 requires 'HTML::FormatText';
 requires 'HTML::TreeBuilder';
 requires 'iCal::Parser';
-requires 'Image::ExifTool';
 requires 'Image::Size';
 requires 'List::Util';
 requires 'LWP::ConnCache';

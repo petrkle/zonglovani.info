@@ -71,7 +71,7 @@ Kužel přikryj vlhkým bavlněným hadrem a počkej až uhasne. S hadrem nemáv
 <h3>Žonglování s ohněm</h3>
 
 <p>
-<a href="/img/f/fire-1.jpg">{obrazek soubor="fire-1-tn.jpg" popisek="Žonglování s ohněm"}</a>
+<a href="/img/f/fire-1.jpg">{obrazek soubor="fire-1.jpg" popisek="Žonglování s ohněm"}</a>
 Za tmy s ohněm prováděj jen triky, které máš plně zvládnuté.
 </p>
 
@@ -80,7 +80,7 @@ Ohnivé kužely nejsou stavěné na nepřetržité hoření. Mezi jednotlivými 
 </p>
 
 <p>
-<a href="/img/f/fire-2.jpg">{obrazek soubor="fire-2-tn.jpg" popisek="Žonglování s ohněm"}</a>
+<a href="/img/f/fire-2.jpg">{obrazek soubor="fire-2.jpg" popisek="Žonglování s ohněm"}</a>
 </p>
 
 <p>

@@ -106,6 +106,8 @@ $smarty->assign(
     )
 );
 
+$smarty->assign('stylwidth', IMG_MAX_WIDTH);
+
 if (count($vysledky) == 0) {
     $smarty->assign('chyba', 'Nic nenalezeno :-(');
     $smarty->assign('title', $q.' - nic nenalezeno');

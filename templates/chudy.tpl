@@ -15,27 +15,27 @@ Chůdy přinášejí do žonglování ten pravý adrenalin. Takže jak vyrobit c
 
 <h2>Výroba chůd</h2>
 <p>
-<a href="/img/s/stupacka.jpg">{obrazek soubor="stupacka-nahled.jpg" popisek="Stupačka chůdy"}</a>
+<a href="/img/s/stupacka.jpg">{obrazek soubor="stupacka.jpg" popisek="Stupačka chůdy"}</a>
 Z prkna vyřež stupačku a podpěry.
 </p>
 
 <p>
-<a href="/img/s/stupacka2.jpg">{obrazek soubor="stupacka2-nahled.jpg" popisek="Stupačka chůdy"}</a>
+<a href="/img/s/stupacka2.jpg">{obrazek soubor="stupacka2.jpg" popisek="Stupačka chůdy"}</a>
 Přišroubuj je na hranol. Stupačka je metr nad zemí.
 </p>
 
 <p>
-<a href="/img/k/konec.jpg">{obrazek soubor="konec-nahled.jpg" popisek="Konec chůdy"}</a>
+<a href="/img/k/konec.jpg">{obrazek soubor="konec.jpg" popisek="Konec chůdy"}</a>
 Konec chůdy chrání starý plášť z bicyklu.
 </p>
 
 <p>
-<a href="/img/u/uchyt.jpg">{obrazek soubor="uchyt-nahled.jpg" popisek="Úchyt nohy"}</a>
+<a href="/img/u/uchyt.jpg">{obrazek soubor="uchyt.jpg" popisek="Úchyt nohy"}</a>
 Objímka na nohu = plech, karimatka a páska na koberce.
 </p>
 
 <p>
-<a href="/img/c/chuda.jpg">{obrazek soubor="chuda-nahled.jpg" popisek="Chůda"}</a>
+<a href="/img/c/chuda.jpg">{obrazek soubor="chuda.jpg" popisek="Chůda"}</a>
 Chůda v celé své kráse.
 </p>
 

@@ -4,17 +4,19 @@
 {if isset($krok.kotva)}<a name="{$krok.kotva}"></a>{assign var='zakotveno' value='jo'}{/if}<h2>{$krok.nadpis}</h2>
 {/if}
 {if isset($krok.popisek)}
-<p>
 {/if}
 {if isset($krok.obrazek)}
+<p>
 {if isset($krok.kotva) and !isset($zakotveno)}<a name="{$krok.kotva}"></a>{/if}
 {if isset($krok.obrazek_src)}<a href="{$krok.obrazek_src|escape}">{/if}{obrazek soubor=$krok.obrazek}{if isset($krok.obrazek_src)}</a>{/if}
-{/if}
-{if isset($krok.popisek)}
-{$krok.popisek}
-{/if}
-{if isset($krok.popisek)}
 </p>
+{/if}
+{if isset($krok.popisek)}
+<p>
+{$krok.popisek}
+</p>
+{/if}
+{if isset($krok.popisek)}
 {/if}
 {if isset($krok.pre)}
 <pre>{$krok.pre}</pre>

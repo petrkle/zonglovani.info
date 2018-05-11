@@ -10,7 +10,7 @@ Rychlý návod jak začít házet se dvěma míčky a přidat třetí. Čtení p
 
 <h3><a href="/micky/druhy.html" title="Míčky pro žongléry.">Druhy míčků</a></h3>
 <p>
-<a href="/micky/druhy.html" title="Míčky pro žongléry.">{obrazek soubor="sity-nahled.jpg" popisek="Šitý míček"}</a>
+<a href="/micky/druhy.html" title="Míčky pro žongléry.">{obrazek soubor="sity.jpg" popisek="Šitý míček"}</a>
 Popis různý druhů míčků. Od tenisáků až k míčkům pro profesionální veřejné vystupování.
 </p>
 

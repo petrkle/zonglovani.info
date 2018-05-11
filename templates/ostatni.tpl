@@ -12,7 +12,7 @@ Otázky, na které se lidé často ptají v souvislosti s žonglováním.
 
 <h3><a href="/nacini.html" title="Žonglérské náčiní.">Žonglérské náčiní</a></h3>
 <p>
-<a href="/nacini.html" title="Žonglérské náčiní.">{obrazek soubor="zvonya-nahled.jpg" popisek="Různé žonglérské pomůcky."}</a>
+<a href="/nacini.html" title="Žonglérské náčiní.">{obrazek soubor="zvonya.jpg" popisek="Různé žonglérské pomůcky."}</a>
 Žonglovat můžeš se spoustou věcí. Od míčků, přes kužely, diabolo až k záchodovým zvonům.
 </p>
 

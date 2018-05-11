@@ -8,7 +8,6 @@ use Test::More tests => 2;
 use Time::Local;
 use Date::Parse;
 use File::Temp     qw/tempfile/;
-use Image::ExifTool qw(:Public);
 
 my $bot = WWW::Mechanize->new(autocheck => 0);
 $bot->conn_cache(LWP::ConnCache->new);
@@ -68,12 +67,6 @@ foreach my $tip(@radky){
 				diag("https://zongl.info$url return ".$bot->status());
 			}
 			$bot->get("https://zongl.info/img/$fl/$img", ':content_file' => $temp);
-			my $info = ImageInfo($temp);
-
-			if($info->{'ImageWidth'} != 200){
-				$chyby++;
-				diag("https://zongl.info/img/$fl/$img není 200px široký.");
-			}
 
 			if($bot->status() !~ /(200|301|302)/){
 				$chyby++;

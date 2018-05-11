@@ -17,6 +17,9 @@ $smarty->assign('keywords', 'žonglování, míčky, výroba, tenisák');
 $smarty->assign('nahled', 'https://'.$_SERVER['SERVER_NAME'].'/img/t/tenisak-v-balonku-3.s.jpg');
 
 $trik = nacti_trik('micky-vyroba-tenisak');
+if ($trik['img_maxwidth'] > IMG_RESPONSIVE_WIDTH) {
+    $smarty->assign('stylwidth', $trik['img_maxwidth']);
+}
 $smarty->assign('trik', $trik);
 
 $smarty->assign('trail', $trail->path);

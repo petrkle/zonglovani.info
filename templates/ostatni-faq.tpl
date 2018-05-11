@@ -23,7 +23,7 @@ Nejlehčí je začít <a href="/micky/jak-zacit.html" title="Základní návod."
 
 <h3>Kde najdu další žongléry?</h3>
 <p>
-<a href="{$smarty.const.CALENDAR_URL}" title="Kalendář žonglérských akcí">{obrazek soubor="kalendar-nahled.png" popisek="Kalendář"}</a>
+<a href="{$smarty.const.CALENDAR_URL}" title="Kalendář žonglérských akcí">{obrazek soubor="kalendar-zonglovani.png" popisek="Kalendář"}</a>
 Pravidelně se konají žonglérské srazy. To jsou nejlepší místa, kde se naučit nové triky. Informace o místech a časech konání najdeš v <a href="{$smarty.const.CALENDAR_URL}" title="Kalendář žonglérských akcí.">kalendáři</a>. Součástí žonglérova slabikáře je také <a href="{$smarty.const.LIDE_URL}" title="Seznam žonglérů.">seznam žonglérů</a>.
 </p>
 

@@ -5,14 +5,18 @@ S trochou šikovnosti lze vyrobit míčky pro žonglování doma na koleně.
 <h3><a href="vyroba-balonky.html" title="Jak vyrobit míček z nafukovacích balónků">Míček z nafukovacích balónků</a></h3>
 
 <p>
-<a href="vyroba-balonky.html">{obrazek soubor="micek-z-balonku-3.s.jpg" popisek="Míček z nafukovacích balónků"}</a>
+<a href="vyroba-balonky.html">{obrazek soubor="micek-z-balonku-3.jpg" popisek="Míček z nafukovacích balónků"}</a>
+</p>
+<p>
 Nejjednodušší způsob jak vyrobit míček na žonglování.
 </p>
 
 <h3><a href="vyroba-tenisak.html" title="Jak vyrobit míček z tenisáku">Míček z tenisáku</a></h3>
 
 <p>
-<a href="vyroba-tenisak.html">{obrazek soubor="tenisak-v-balonku-3.s.jpg" popisek="Míček z tenisáku a nafukovacích balónků"}</a>
+<a href="vyroba-tenisak.html">{obrazek soubor="tenisak-v-balonku-3.jpg" popisek="Míček z tenisáku a nafukovacích balónků"}</a>
+</p>
+<p>
 Pěkný míček na žonglování z tenisáku a nafukovacích balónků.
 </p>
 
@@ -20,6 +24,9 @@ Pěkný míček na žonglování z tenisáku a nafukovacích balónků.
 
 <p>
 <a href="/gmiball.pdf" title="Gamiballs">{obrazek soubor="gmiball.jpg" popisek="Gamiballs"}</a>
+</p>
+
+<p>
 Obrázkový návod od <a href="http://www.barf.cc/diagrams/PDF_diagrams/pdf_diagrams.html" class="external">Jeremyho Shafera</a>, jak ušít míček z jednoho kusu látky. Popis je anglicky.
 </p>
 

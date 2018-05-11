@@ -36,7 +36,7 @@ if (strlen($show) > 0 and is_file('../'.$show.'.xml')) {
     http_response_code(404);
     exit();
 } else {
-    $smarty->assign('stylwidth', 458);
+    $smarty->assign('stylwidth', IMG_MAX_WIDTH);
     $smarty->assign('trail', $trail->path);
     $smarty->assign('titulek', $titulek);
     $smarty->assign('nahled', 'https://'.$_SERVER['SERVER_NAME'].'/img/k/kuzely-passing-introb.png');

@@ -6,6 +6,8 @@ Každý týden informace ze světa žonglování.
 <a name="{$foo.cas|escape}"></a><h3 class="nadpistipu"><a href="{$foo.link}" title="{$foo.nadpis|escape}">{$foo.nadpis|escape}</a></h3>
 <ul class="datum"><li>{$foo.cas_hr|escape}</li></ul>
 <p><a href="{$foo.link}" title="{$foo.nadpis|escape}">{obrazek soubor=$foo.obrazek}</a>
+</p>
+<p>
 {$foo.text}
 </p>
 {/foreach}

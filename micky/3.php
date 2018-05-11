@@ -19,6 +19,9 @@ $trail->addStep('3 míčky', '/micky/3/');
 
 if (strlen($show) > 0 and is_file('../'.$show.'.xml')) {
     $trik = nacti_trik($show);
+    if ($trik['img_maxwidth'] > IMG_RESPONSIVE_WIDTH) {
+        $smarty->assign('stylwidth', $trik['img_maxwidth']);
+    }
     $smarty->assign('trik', $trik);
     $smarty->assign('titulek', $titulek.' - '.$trik['about']['nazev']);
     $smarty->assign('nadpis', $trik['about']['nazev']);
@@ -38,6 +41,7 @@ if (strlen($show) > 0 and is_file('../'.$show.'.xml')) {
     $smarty->assign('keywords', 'žonglování, tři, míčky, návod, tenisáky');
     $smarty->assign('description', 'Obrázkový návod na žonglování se třemi míčky.');
     $smarty->assign('titulek', $titulek);
+    $smarty->assign('stylwidth', IMG_MAX_WIDTH);
     $smarty->display('hlavicka.tpl');
     $smarty->display('micky-3-pred.tpl');
     $smarty->assign('triky', get_seznam_triku(__FILE__));
