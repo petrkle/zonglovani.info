@@ -1,0 +1,92 @@
+<?xml version="1.0" standalone="no"?>
+<!-- Creator: fig2dev Version 3.2.7a -->
+<!-- CreationDate: 2018-05-11 18:18:12 -->
+<!-- Magnification: 1 -->
+<svg	xmlns="http://www.w3.org/2000/svg"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	width="75pt" height="89pt"
+	viewBox="7319 6960 1237 1480">
+<g fill="none">
+<!-- Line -->
+<polygon points=" 7821,7087 8062,7087 8061,7523 7824,7521" fill="#ffffff"
+	stroke="#ffffff" stroke-width="8px" stroke-linejoin="round" stroke-linecap="round"/>
+<!-- Line -->
+<polygon points=" 8319,7158 8528,7278 8307,7655 8105,7535" fill="#ffffff"
+	stroke="#ffffff" stroke-width="8px" stroke-linejoin="round" stroke-linecap="round"/>
+<!-- Line -->
+<polygon points=" 7347,7287 7556,7165 7774,7544 7567,7659" fill="#ffffff"
+	stroke="#ffffff" stroke-width="8px" stroke-linejoin="round" stroke-linecap="round"/>
+<!-- Arc -->
+<path d="M 8063,7083 A 665 665 0 0 1 8063 7523" fill="#ffffff"
+	stroke="#000000" stroke-width="8px" stroke-linecap="round"/>
+<!-- Arc -->
+<path d="M 8063,7083 A 626 626 0 0 0 7819 7081" fill="#ffffff"
+	stroke="#000000" stroke-width="8px" stroke-linecap="round"/>
+<!-- Arc -->
+<path d="M 7819,7081 A 671 671 0 0 0 7819 7523" fill="#ffffff"
+	stroke="#000000" stroke-width="8px" stroke-linecap="round"/>
+<!-- Arc -->
+<path d="M 8063,7523 A 626 626 0 0 1 7819 7523" fill="#ffffff"
+	stroke="#000000" stroke-width="8px" stroke-linecap="round"/>
+<!-- Line -->
+<polygon points=" 8063,7083 8015,6972 7869,6973 7819,7081" fill="#ff0000"
+	stroke="#000000" stroke-width="8px" stroke-linejoin="round" stroke-linecap="round"/>
+<!-- Line -->
+<polygon points=" 8063,7523 8002,7708 7880,7707 7819,7523" fill="#ff0000"
+	stroke="#000000" stroke-width="8px" stroke-linejoin="round" stroke-linecap="round"/>
+<!-- Line -->
+<polygon points=" 8002,7708 7965,8343 7917,8343 7880,7707" fill="#e50000"
+	stroke="#000000" stroke-width="8px" stroke-linejoin="round" stroke-linecap="round"/>
+<!-- Line -->
+<polygon points=" 7878,8345 8004,8347 8006,8428 7878,8425" fill="#696969"
+	stroke="#000000" stroke-width="8px" stroke-linejoin="round" stroke-linecap="round"/>
+<!-- Arc -->
+<path d="M 8530,7276 A 683 683 0 0 1 8310 7657" fill="#ffffff"
+	stroke="#000000" stroke-width="8px" stroke-linecap="round"/>
+<!-- Arc -->
+<path d="M 8530,7276 A 692 692 0 0 0 8319 7152" fill="#ffffff"
+	stroke="#000000" stroke-width="8px" stroke-linecap="round"/>
+<!-- Arc -->
+<path d="M 8319,7152 A 681 681 0 0 0 8099 7534" fill="#ffffff"
+	stroke="#000000" stroke-width="8px" stroke-linecap="round"/>
+<!-- Arc -->
+<path d="M 8310,7657 A 610 610 0 0 1 8099 7534" fill="#87cfff"
+	stroke="#000000" stroke-width="8px" stroke-linecap="round"/>
+<!-- Line -->
+<polygon points=" 7739,8276 7848,8342 7809,8413 7700,8346" fill="#696969"
+	stroke="#000000" stroke-width="8px" stroke-linejoin="round" stroke-linecap="round"/>
+<!-- Line -->
+<polygon points=" 8310,7657 8165,7786 8060,7724 8099,7534" fill="#87cfff"
+	stroke="#000000" stroke-width="8px" stroke-linejoin="round" stroke-linecap="round"/>
+<!-- Line -->
+<polygon points=" 8530,7276 8544,7155 8415,7083 8319,7152" fill="#87cfff"
+	stroke="#000000" stroke-width="8px" stroke-linejoin="round" stroke-linecap="round"/>
+<!-- Line -->
+<polygon points=" 8165,7786 7816,8317 7774,8294 8060,7724" fill="#79bae5"
+	stroke="#000000" stroke-width="8px" stroke-linejoin="round" stroke-linecap="round"/>
+<!-- Arc -->
+<path d="M 7556,7162 A 655 655 0 0 1 7776 7543" fill="#ffffff"
+	stroke="#000000" stroke-width="8px" stroke-linecap="round"/>
+<!-- Arc -->
+<path d="M 7556,7162 A 581 581 0 0 0 7344 7283" fill="#ffffff"
+	stroke="#000000" stroke-width="8px" stroke-linecap="round"/>
+<!-- Arc -->
+<path d="M 7344,7283 A 660 660 0 0 0 7565 7665" fill="#ffffff"
+	stroke="#000000" stroke-width="8px" stroke-linecap="round"/>
+<!-- Arc -->
+<path d="M 7776,7543 A 686 686 0 0 1 7565 7665" fill="#00b000"
+	stroke="#000000" stroke-width="8px" stroke-linecap="round"/>
+<!-- Line -->
+<polygon points=" 8026,8347 8136,8285 8180,8355 8065,8415" fill="#696969"
+	stroke="#000000" stroke-width="8px" stroke-linejoin="round" stroke-linecap="round"/>
+<!-- Line -->
+<polygon points=" 7814,7733 8100,8301 8059,8325 7709,7793" fill="#009e00"
+	stroke="#000000" stroke-width="8px" stroke-linejoin="round" stroke-linecap="round"/>
+<!-- Line -->
+<polygon points=" 7776,7543 7814,7733 7709,7793 7565,7665" fill="#00b000"
+	stroke="#000000" stroke-width="8px" stroke-linejoin="round" stroke-linecap="round"/>
+<!-- Line -->
+<polygon points=" 7556,7162 7458,7090 7331,7164 7344,7283" fill="#00b000"
+	stroke="#000000" stroke-width="8px" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+</svg>

@@ -1,0 +1,35 @@
+<?xml version="1.0" standalone="no"?>
+<!-- Creator: fig2dev Version 3.2.6a -->
+<!-- CreationDate: 2018-05-11 18:39:57 -->
+<!-- Magnification: 1 -->
+<svg	xmlns="http://www.w3.org/2000/svg"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	width="291pt" height="318pt"
+	viewBox="-22 4928 5844 5294">
+<g fill="none" transform = "rotate(-5 100 100)">
+<!-- Line -->
+<rect x="2250" y="7500" width="300" height="225" fill="#000000"
+	stroke="#000000" stroke-width="15px"/>
+<!-- Line -->
+<rect x="2250" y="7425" width="300" height="225" fill="#000000"
+	stroke="#000000" stroke-width="15px"/>
+<!-- Arc -->
+<path d="M 0,10200 A 2400 2400 0 0 1 4800 10200" fill="#ff0000"
+	stroke="#000000" stroke-width="15px"/>
+<!-- Arc -->
+<path d="M 0,4950 A 2400 2400 0 0 0 4800 4950" fill="#ff0000"
+	stroke="#000000" stroke-width="15px"/>
+<!-- Line -->
+<polyline points=" 0,10200 4800,10200"
+	stroke="#000000" stroke-width="15px"/>
+<!-- Line -->
+<polyline points=" 1241,8095 2250,7650 2550,7650 3561,8101 1239,8096" fill="#191919"
+	stroke="#000000" stroke-width="15px"/>
+<!-- Line -->
+<polyline points=" 0,4950 4800,4950"
+	stroke="#000000" stroke-width="15px"/>
+<!-- Line -->
+<polyline points=" 1241,7055 2250,7500 2550,7500 3561,7049 1239,7054" fill="#191919"
+	stroke="#000000" stroke-width="15px"/>
+</g>
+</svg>

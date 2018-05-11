@@ -1,10 +1,10 @@
 body{font-family:sans-serif;font-size:1em;line-height:1.5em;color:#000;background:#eed;margin:0;padding:0;text-align:center;}
 #hlavicka{text-align:center;width:750px;height:120px;padding:0;margin:0 auto 0 auto;background:url("img/o/okraje.png") 50% 20px no-repeat #eed;position:relative;}
 .hlavickabg{text-align:left;width:735px;height:120px;padding:0;margin:0 auto 0 auto;background:transparent}
-.hlm{background:url('img/m/micky-logo.gif') no-repeat 95% 100%;}
-.hlkr{background:url('img/k/kruhy-logo.gif') no-repeat 99% 100%;}
-.hlkz{background:url('img/k/kuzely-logo.gif') no-repeat 92% 100%;}
-.hld{background:url('img/d/diabolo-logo.gif') no-repeat 93% 100%;}
+.hlm{background:url('img/m/micky-logo.svg') no-repeat 95% 100%;background-size:104px;}
+.hlkr{background:url('img/k/kruhy-logo.svg') no-repeat 99% 100%;background-size:167px;}
+.hlkz{background:url('img/k/kuzely-logo.svg') no-repeat 92% 100%;background-size:83px;}
+.hld{background:url('img/d/diabolo-logo.svg') no-repeat 93% 100%;background-size:87px;}
 #ucet{display:block;position:absolute;text-align:right;width:730px;height:10px;top:0;right:0;padding:0;font-size:.7em;}
 #ucet,.ucet{background:transparent;}
 #hlavicka img{padding:0;margin:35px 0 0 15px;}
