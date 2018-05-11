@@ -39,8 +39,6 @@
 	<link rel="search" href="/vyhledavani/" />
 	<meta name="viewport" content="width=device-width" />
 	<meta name="robots" content="{if isset($robots)}{$robots|escape}{else}index,follow{/if}" />
-	<link rel="alternate" title="Žonglérův slabikář" href="https://{$smarty.server.SERVER_NAME}/zonglovani.rss" type="application/rss+xml" />
-	<link rel="alternate" title="Obrázky žonglování" href="https://{$smarty.server.SERVER_NAME}{$smarty.const.OBRAZKY_URL}obrazky.rss" type="application/rss+xml" />
 	<link rel="alternate" title="Kalendář žonglování" href="https://{$smarty.server.SERVER_NAME}{$smarty.const.CALENDAR_URL}kalendar.rss" type="application/rss+xml" />
 	<link rel="alternate" title="Tip týdne pro žongléry" href="https://{$smarty.server.SERVER_NAME}/tip/tip.rss" type="application/rss+xml" />
 	<meta name="theme-color" content="#ffdd33">

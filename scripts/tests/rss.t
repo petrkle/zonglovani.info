@@ -4,12 +4,10 @@ use warnings;
 
 use LWP::ConnCache;
 use WWW::Mechanize;
-use Test::More tests => 55;
+use Test::More tests => 44;
 use Test::XML;
 my $minimalitems=3;
 my @adresy=(
-"/zonglovani.rss",
-"/zonglovani.xml",
 "/kalendar/kalendar.rss",
 "/kalendar/kalendar.xml",
 "/lide/uzivatele.rss",
