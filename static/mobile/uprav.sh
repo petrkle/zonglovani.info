@@ -43,19 +43,6 @@ rm $ZSDIR/r-*.css
 rm $ZSDIR/z-*.css
 rm $ZSDIR/zt-*.css
 rm $ZSDIR/img/e/exkurze*
-rm $ZSDIR/img/f/fire-?.jpg
-rm $ZSDIR/img/t/tenisak.jpg
-rm $ZSDIR/img/s/sity.jpg
-rm $ZSDIR/img/g/gumovy.jpg
-rm $ZSDIR/img/s/stage.jpg
-rm $ZSDIR/img/t/trany.jpg
-rm $ZSDIR/img/b/balonky.jpg
-rm $ZSDIR/img/h/hakysak.jpg
-rm $ZSDIR/img/b/baseball.jpg
-rm $ZSDIR/img/p/pomeranc.jpg
-rm $ZSDIR/img/v/velky-mic.jpg
-rm $ZSDIR/img/u/uchyt.jpg
-rm $ZSDIR/img/c/chuda.jpg
 rm $ZSDIR/img/j/jtv-*
 rm $ZSDIR/img/b/browser*
 rm $ZSDIR/img/b/budik.jpg
@@ -66,10 +53,8 @@ rm $ZSDIR/img/j/juggling.tv.png
 rm $ZSDIR/img/m/mobil*
 rm $ZSDIR/img/o/odkazy-*
 rm -rf $ZSDIR/img/q
-rm $ZSDIR/img/z/zvonya.jpg
 rm -rf $ZSDIR/novinky*
 rm -rf $ZSDIR/ostatni
 rm -rf $ZSDIR/*.odt
-find $ZSDIR/img/ -name "*.jpg" -size +65k -exec rm \{\} \;
 find $ZSDIR/ -name "*.rss" -exec rm \{\} \;
 find $ZSDIR/ -name "*.xml" -exec rm \{\} \;
