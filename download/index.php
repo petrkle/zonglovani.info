@@ -8,6 +8,7 @@ $smarty->assign('titulek', $titulek);
 $smarty->assign('nahled', 'https://'.$_SERVER['SERVER_NAME'].'/img/d/downloada.png');
 $smarty->assign('description', 'Soubory ke stažení - žonglování.');
 $smarty->assign('feedback', true);
+$smarty->assign('stylwidth', IMG_MAX_WIDTH);
 
 $trail = new Trail();
 $trail->addStep($titulek, '/download/');

@@ -30,7 +30,7 @@ Dovednosti, které na první pohled nemusí s žonglováním souviset.
 
 <h3><a href="/literatura.html" title="Něco ke čtení.">Literatura</a></h3>
 <p>
-<a href="/literatura.html" title="Něco ke čtení.">{obrazek soubor="literatura.gif" popisek="Knížky o žonglování."}</a>
+<a href="/literatura.html" title="Něco ke čtení.">{obrazek soubor="literatura.png" popisek="Knížky o žonglování."}</a>
 Knížky o žonglování. Některé jsou dostupné zdarma na internetu.
 </p>
 

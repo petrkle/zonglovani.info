@@ -23,7 +23,7 @@ Pěkný míček na žonglování z tenisáku a nafukovacích balónků.
 <a name="gmiball"></a><h3><a href="/gmiball.pdf" title="Návod na ušití míčku" class="pdf">Gamiballs</a></h3>
 
 <p>
-<a href="/gmiball.pdf" title="Gamiballs">{obrazek soubor="gmiball.jpg" popisek="Gamiballs"}</a>
+<a href="/gmiball.pdf" title="Gamiballs">{obrazek soubor="gmiball.png" popisek="Gamiballs"}</a>
 </p>
 
 <p>
