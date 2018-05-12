@@ -29,7 +29,7 @@ Pravidelně se konají žonglérské srazy. To jsou nejlepší místa, kde se na
 
 <h3>Je o žonglování nějaká knížka?</h3>
 <p>
-<a href="/literatura.html" title="Něco ke čtení.">{obrazek soubor="literatura.gif" popisek="Knížky o žonglování."}</a>
+<a href="/literatura.html" title="Něco ke čtení.">{obrazek soubor="literatura.png" popisek="Knížky o žonglování."}</a>
 Ano, <a href="/literatura.html" title="Knížky o žonglování.">literatura</a> je dostupná. I když většinou anglicky.
 </p>
 
