@@ -17,6 +17,9 @@ $smarty->assign('nahled', 'https://'.$_SERVER['SERVER_NAME'].'/img/m/micky-sbira
 $smarty->assign('trail', $trail->path);
 
 $trik = nacti_trik('micky-sbirani');
+if ($trik['img_maxwidth'] > IMG_RESPONSIVE_WIDTH) {
+    $smarty->assign('stylwidth', $trik['img_maxwidth']);
+}
 $smarty->assign('trik', $trik);
 
 $smarty->display('hlavicka.tpl');

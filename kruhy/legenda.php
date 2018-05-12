@@ -14,7 +14,7 @@ $trail = new Trail();
 $trail->addStep('Kruhy', '/kruhy/');
 $trail->addStep('Legenda');
 $smarty->assign('trail', $trail->path);
-
+$smarty->assign('stylwidth', IMG_MAX_WIDTH);
 $smarty->display('hlavicka.tpl');
 $smarty->display('kruhy-legenda.tpl');
 $smarty->display('paticka.tpl');

@@ -4,6 +4,7 @@ require '../init.php';
 require '../func.php';
 
 $titulek = 'Mapa stránek';
+$smarty->assign('stylwidth', IMG_MAX_WIDTH);
 $smarty->assign('titulek', $titulek);
 $smarty->assign('keywords', make_keywords($titulek).', žonglování');
 $smarty->assign('description', 'Seznam všech stránek v žonglérově slabikáři.');

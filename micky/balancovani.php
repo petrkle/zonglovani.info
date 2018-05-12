@@ -16,6 +16,9 @@ $trail->addStep('Míčky', '/micky/');
 $trail->addStep($titulek);
 
 $trik = nacti_trik('micky-balancovani');
+if ($trik['img_maxwidth'] > IMG_RESPONSIVE_WIDTH) {
+    $smarty->assign('stylwidth', $trik['img_maxwidth']);
+}
 $smarty->assign('trik', $trik);
 
 $smarty->assign('trail', $trail->path);

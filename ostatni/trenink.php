@@ -21,6 +21,7 @@ $smarty->assign('trail', $trail->path);
 $trik = nacti_trik('ostatni-trenink');
 $smarty->assign('trik', $trik);
 
+$smarty->assign('stylwidth', IMG_MAX_WIDTH);
 $smarty->display('hlavicka.tpl');
 $smarty->display('trik.tpl');
 $smarty->display('paticka.tpl');

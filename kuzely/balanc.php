@@ -23,6 +23,7 @@ $trail = new Trail();
 $trail->addStep('Kužely', '/kuzely/');
 $trail->addStep('Balancování');
 
+$smarty->assign('stylwidth', IMG_MAX_WIDTH);
 $smarty->assign('trail', $trail->path);
 $smarty->display('hlavicka.tpl');
 $smarty->display('kuzely-balanc.tpl');

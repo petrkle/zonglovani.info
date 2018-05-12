@@ -23,6 +23,7 @@ $trail->addStep('Výroba kruhů');
 $smarty->assign('titulek', 'Výroba kruhů');
 
 $smarty->assign('trail', $trail->path);
+$smarty->assign('stylwidth', IMG_MAX_WIDTH);
 $smarty->display('hlavicka.tpl');
 $smarty->display('kruhy-vyroba.tpl');
 $smarty->display('paticka.tpl');
