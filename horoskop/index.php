@@ -47,6 +47,7 @@ if (isset($_GET['zitra'])) {
 
 $smarty->assign('nahled', 'https://'.$_SERVER['SERVER_NAME'].'/img/h/horoskop.png');
 $smarty->assign('keywords', 'horoskop, žonglování, trénink');
+$smarty->assign('stylwidth', IMG_MAX_WIDTH);
 
 if ($_SERVER['REQUEST_URI'] == '/horoskop/' or $_SERVER['REQUEST_URI'] == '/horoskop/zitra/') {
     $smarty->assign('feedback', true);

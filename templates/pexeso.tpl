@@ -11,13 +11,13 @@ Supertěžké žonglérské pexeso. Poznáš z kterého triku jsou jednotlivé o
 
 <h2>Výroba pexesa</h2>
 <p>
-<a href="/img/z/zonglerske-pexeso.jpg">{obrazek soubor="zonglerske-pexeso.s.jpg" popisek="Pexeso"}</a>
+<a href="/img/z/zonglerske-pexeso.jpg">{obrazek soubor="zonglerske-pexeso.jpg" popisek="Pexeso"}</a>
 Pexeso tvoří 32 kartiček. Je potřeba vytisknout je dvakrát, aby vznikly páry. Nejlépe se hodí bílá, nebo barevná čtvrtka formátu A4. Velikost kartiček je 5x5 cm.
 </p>
 
 <h2>Nastavení tisku</h2>
 <p>
-<a href="/img/p/pexeso-tisk.png">{obrazek soubor="pexeso-tisk.s.png" popisek="Nastavení tiská"}</a>
+<a href="/img/p/pexeso-tisk.png">{obrazek soubor="pexeso-tisk.png" popisek="Nastavení tiská"}</a>
 V nastavení tisku je potřeba zvolit dvě kopie, skutečnou velikost, jednostranný tisk a orientaci na výšku.
 </p>
 

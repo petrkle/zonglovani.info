@@ -1,7 +1,7 @@
 {if isset($predpoved)}
 <h3>{$zverokruh.$znameni.od_den}. {$zverokruh.$znameni.od_mesic}. - {$zverokruh.$znameni.do_den}. {$zverokruh.$znameni.do_mesic}.</h3>
 <p>
-<img src="/img/h/horoskop-{$znameni}.png" alt="{$znameni}" height="200" width="200" />
+<img src="/img/h/horoskop-{$znameni}.png" alt="{$znameni}" class="photo" />
 {$predpoved}
 </p>
 <p>

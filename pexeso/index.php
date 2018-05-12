@@ -20,6 +20,7 @@ $smarty->assign('dalsi', $dalsi);
 $trail = new Trail();
 $trail->addStep($titulek);
 
+$smarty->assign('stylwidth', IMG_MAX_WIDTH);
 $smarty->assign('trail', $trail->path);
 $smarty->display('hlavicka.tpl');
 $smarty->display('pexeso.tpl');

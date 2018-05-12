@@ -3,7 +3,7 @@
 </p>
 
 <p>
-<a href="/img/x/xperia-x-compact.png">{obrazek soubor='xperia-x-compact.s.jpg' popisek='Sony Ericsson Xperia X Compact' class="noborder"}</a>
+<a href="/img/x/xperia-x-compact.png">{obrazek soubor='xperia-x-compact.png' popisek='Sony Ericsson Xperia X Compact' class="noborder"}</a>
 Žonglérův slabikář na mobilním telefonu Sony Ericsson Xperia.
 </p>
 

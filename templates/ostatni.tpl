@@ -42,7 +42,7 @@ Noty pro žonglování. Osvětlí ti zápis žonglování čísly.
 
 <h3><a href="/software.html" title="Simulátory žonglování.">Simulátory žonglování</a></h3>
 <p>
-<a href="/software.html" title="Simulátory žonglování.">{obrazek soubor="software.jpg" popisek="Software pro žongléry."}</a>
+<a href="/software.html" title="Simulátory žonglování.">{obrazek soubor="software.png" popisek="Software pro žongléry."}</a>
 Počítačové programy, které kreslí animace žonglování.
 </p>
 
