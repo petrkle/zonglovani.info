@@ -12,7 +12,7 @@ $smarty->assign('nahled', 'https://'.$_SERVER['SERVER_NAME'].'/img/n/nacinia.png
 $trail = new Trail();
 $trail->addStep('Míčky');
 $smarty->assign('trail', $trail->path);
-$smarty->assign('stylwidth', IMG_MAX_WIDTH);
+$smarty->assign('stylwidth', IMG_CSS_WIDTH);
 
 $smarty->display('hlavicka.tpl');
 $smarty->display('micky.tpl');

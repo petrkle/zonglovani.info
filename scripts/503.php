@@ -8,6 +8,7 @@ $_SERVER['DOCUMENT_ROOT'] = ZS_DIR;
 
 $smarty->assign('titulek', 'Služba je dočasně nedostupná');
 
+$smarty->assign('stylwidth', IMG_CSS_WIDTH);
 $trail = new Trail();
 $trail->addStep('Dočasně nedostupné');
 $smarty->assign('trail', $trail->path);

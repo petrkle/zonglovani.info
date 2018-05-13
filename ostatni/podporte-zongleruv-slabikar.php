@@ -21,7 +21,7 @@ $smarty->assign('dalsi', $dalsi);
 
 $trail = new Trail();
 $trail->addStep($titulek);
-$smarty->assign('stylwidth', IMG_MAX_WIDTH);
+$smarty->assign('stylwidth', IMG_CSS_WIDTH);
 $smarty->assign('trail', $trail->path);
 $smarty->display('hlavicka.tpl');
 $smarty->display('ostatni-podporte-zongleruv-slabikar.tpl');

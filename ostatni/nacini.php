@@ -23,7 +23,7 @@ $dalsi = array(
     );
 $smarty->assign('dalsi', $dalsi);
 
-$smarty->assign('stylwidth', IMG_MAX_WIDTH);
+$smarty->assign('stylwidth', IMG_CSS_WIDTH);
 $smarty->display('hlavicka.tpl');
 $smarty->display('ostatni-nacini.tpl');
 $smarty->display('paticka.tpl');

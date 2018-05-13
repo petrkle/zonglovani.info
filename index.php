@@ -10,7 +10,7 @@ $smarty->assign('description', 'Žonglování s míčky, kruhy a kužely. Seznam
 $smarty->assign('notitle', true);
 $tipy = get_tipy();
 $smarty->assign('tip', array_shift($tipy));
-$smarty->assign('stylwidth', IMG_MAX_WIDTH);
+$smarty->assign('stylwidth', IMG_CSS_WIDTH);
 
 $smarty->display('hlavicka.tpl');
 $smarty->display('index.tpl');

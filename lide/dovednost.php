@@ -10,7 +10,7 @@ $smarty->assign('pusobiste', $pusobiste);
 
 $trail = new Trail();
 $trail->addStep('Seznam žonglérů', LIDE_URL);
-$smarty->assign('stylwidth', IMG_MAX_WIDTH);
+$smarty->assign('stylwidth', IMG_CSS_WIDTH);
 
 if (isset($_GET['filtr'])) {
     $filtr = $_GET['filtr'];

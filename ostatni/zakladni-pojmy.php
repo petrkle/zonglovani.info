@@ -16,7 +16,7 @@ $trail = new Trail();
 $trail->addStep('Informace o žonglování', '/ostatni.html');
 $trail->addStep('Základní pojmy');
 
-$smarty->assign('stylwidth', IMG_MAX_WIDTH);
+$smarty->assign('stylwidth', IMG_CSS_WIDTH);
 $smarty->assign('trail', $trail->path);
 $smarty->display('hlavicka.tpl');
 $smarty->display('ostatni-zakladni-pojmy.tpl');

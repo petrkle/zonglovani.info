@@ -8,7 +8,7 @@ $wallpapers = get_wallpapers();
 $titulek = 'Obrázky na plochu';
 $trail = new Trail();
 $trail->addStep($titulek, WALLPAPERS_URL);
-$smarty->assign('stylwidth', IMG_MAX_WIDTH);
+$smarty->assign('stylwidth', IMG_CSS_WIDTH);
 
 if (isset($_GET['id'])) {
     $id = $_GET['id'];

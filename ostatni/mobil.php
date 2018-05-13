@@ -14,7 +14,7 @@ $dalsi = array(
     array('url' => '/download/pdf.html', 'text' => 'Žonglérův slabikář v PDF', 'title' => 'Vhodné pro oboustranný tisk.'),
     );
 $smarty->assign('dalsi', $dalsi);
-$smarty->assign('stylwidth', IMG_MAX_WIDTH);
+$smarty->assign('stylwidth', IMG_CSS_WIDTH);
 $smarty->assign('nahled', 'https://'.$_SERVER['SERVER_NAME'].'/img/m/mobil-optimus-one.s.jpg');
 $smarty->display('hlavicka.tpl');
 $smarty->display('ostatni-mobil.tpl');
