@@ -87,7 +87,7 @@ Výpis změn a úprav v žonglérově slabikáři.
 
 <h3><a href="/obrazky-na-plochu/" title="Žonglérské wallpapery">Obrázky na plochu</a></h3>
 <p>
-<a href="/obrazky-na-plochu/" title="Žonglérské wallpapery">{obrazek soubor="kuzelky-na-trave.jpg" popisek="Wallpapers"}</a>
+<a href="/obrazky-na-plochu/" title="Žonglérské wallpapery">{obrazek soubor="pes-a-kuzel.jpg" popisek="Wallpapers"}</a>
 Obrázky na plochu počítače s žonglérskou tématikou
 </p>
 

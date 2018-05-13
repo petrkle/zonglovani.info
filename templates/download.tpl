@@ -20,4 +20,4 @@
 {/if}
 <a name="wallpaper"></a>
 <h3><a href="{$smarty.const.WALLPAPERS_URL}" title="Žonglérské obrázky na plochu.">Obrázky na plochu</a></h3>
-<p><a href="{$smarty.const.WALLPAPERS_URL}" title="Žonglérské obrázky na plochu."><img src="/obrazky-na-plochu/nahledy/pes-a-micek.jpg" /></a>Tapety na plochu počítače s žonglérskou tématikou.</p>
+<p><a href="{$smarty.const.WALLPAPERS_URL}" title="Žonglérské obrázky na plochu."><img src="/obrazky-na-plochu/nahledy/pes-a-micek.jpg" class="photo" /></a>Tapety na plochu počítače s žonglérskou tématikou.</p>

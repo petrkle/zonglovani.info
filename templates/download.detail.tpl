@@ -1,5 +1,5 @@
 {if $downloads.$download_id}
-<p><a href="{$downloads.$download_id.versions[0].filename|escape}" title="{$downloads.$download_id.versions[0].filename|escape}" rel="nofollow">{obrazek soubor="package-$download_id.png" popis=""}</a>{$downloads.$download_id.versions[0].description}</p>
+<p><a href="{$downloads.$download_id.versions[0].filename|escape}" title="{$downloads.$download_id.versions[0].filename|escape}" rel="nofollow">{obrazek soubor="$obrazek" popis=""}</a>{$downloads.$download_id.versions[0].description}</p>
 {foreach from=$downloads.$download_id.versions item=release}
 <h3><a href="{$release.filename|escape}" title="{$release.filename|escape}" rel="nofollow">{$release.filename|escape}</a></h3>
 <p>{if isset($release.qr)}<a href="{$release.filename|escape}" title="{$release.filename|escape}" rel="nofollow" >{obrazek soubor=$release.qr popis=$release.filename|escape}</a>{/if}

@@ -1,56 +1,56 @@
 <h3><a href="/download/pdf.html" title="Podrobnosti o pdf">Žonglérův slabikář</a></h3>
 <p>
-<a href="/download/pdf.html" title="Podrobnosti o pdf">{obrazek soubor="package-pdf.png" popisek="Žonglérův slabikář"}</a>
+<a href="/download/pdf.html" title="Podrobnosti o pdf">{obrazek soubor="slabikar-pdf.png" popisek="Žonglérův slabikář"}</a>
 PDF verze žonglérova slabikáře. Vhodné pro <b>oboustranný tisk</b>. 151&nbsp;stránek.
 </p>
 
 <a name="zps"></a><h3><a href="/zonglovanie-pre-samoukov.pdf" title="Základy žonglování s míčky." class="pdf">Žonglovanie pre samoukov</a></h3>
 <p>
-<a href="/zonglovanie-pre-samoukov.pdf" title="Základy žonglování s míčky.">{obrazek soubor="zonglovanie-pre-samoukov.gif" popisek="Žonglovanie pre samoukov - obálka"}</a>
+<a href="/zonglovanie-pre-samoukov.pdf" title="Základy žonglování s míčky.">{obrazek soubor="literatura.png" popisek="Žonglovanie pre samoukov - obálka"}</a>
 Základní příručka každého žongléra. Napsal Palo Blaho. Slovensky, 22&nbsp;stránek.
 </p>
 
 <a name="zv"></a><h3><a href="/zonglerska-vikendovka.pdf" title="Žonglérská víkendovka" class="pdf">Žonglérská víkendovka</a></h3>
 <p>
-<a href="/zonglerska-vikendovka.pdf" title="Žonglérská víkendovka">{obrazek soubor="zonglerska-vikendovka.png" popisek="Žonglérská víkendovka"}</a>
+<a href="/zonglerska-vikendovka.pdf" title="Žonglérská víkendovka">{obrazek soubor="vikendovka.png" popisek="Žonglérská víkendovka"}</a>
 Brožura pro výuku žonglování na víkendových kurzech. Popisuje základy žonglování s míčky a točení s poi. Sestavil Martin Perlík. 16&nbsp;stránek.
 </p>
 
 <a name="poi"></a><h3><a href="/poi-richee.pdf" title="Točení s poi." class="pdf">Poi</a></h3>
 <p>
-<a href="/poi-richee.pdf" title="Poi">{obrazek soubor="poi.png" popisek="Poi - úvod"}</a>
+<a href="/poi-richee.pdf" title="Poi">{obrazek soubor="poi-kniha.jpg" popisek="Poi - úvod"}</a>
 Knížka o točení s poi od Richeeho. 86&nbsp;stránek.
 </p>
 
 <h3>The Encyclopaedia of Ball Juggling</h3>
 <p>
-{obrazek soubor="encyclopaedia.jpg" popisek="The Encyclopaedia of Ball Juggling - obálka"}
+{obrazek soubor="encyclopaedia-ball-juggling.jpg" popisek="The Encyclopaedia of Ball Juggling - obálka"}
 Výborná knížka o žonglování s míčky od Carlieho Dancey. Obsahuje spoustu pěkných obrázků, díky tomu nemusíš ani umět anglicky, a přesto téměř vše pochopíš. Je vhodná pro začátečníky i pokročilé. 216&nbsp;stránek.
 </p>
 	
 
 <h3>Compendium of Club Juggling</h3>
 <p>
-{obrazek soubor="compendium.jpg" popisek="Compendium of Club Juggling - obálka"}
+{obrazek soubor="compendium-club-juggling.jpg" popisek="Compendium of Club Juggling - obálka"}
 Napsal Charlie Dancey. V této knížce je vše o žonglování s kužely. Obsahuje spoustu pěkných obrázků, díky tomu nemusíš ani umět anglicky, a přesto téměř vše pochopíš. Vhodné pro začátečníky i pokročilé. 238&nbsp;stránek.
 </p>
 
 <h3>Every trick in the book</h3>
 <p>
-{obrazek soubor="etitb.jpg" popisek="Every trick in the book - obálka"}
+{obrazek soubor="etb.jpg" popisek="Every trick in the book - obálka"}
 Napsal Charlie Dancey. V této knížce je vše o žonglování s kužely, míčky a spousta dalších triků. Obsahuje spoustu pěkných obrázků, díky tomu nemusíš ani umět anglicky, a přesto téměř vše pochopíš. 749&nbsp;stránek.
 </p>
 	
 	
 <h3><a href="/addicted-hans-vanwynsberghe.pdf" title="Žonglování s míčky a kužely." class="pdf">Addicted to ball and club juggling</a></h3>
 <p>
-<a href="/addicted-hans-vanwynsberghe.pdf" title="Addicted to ball and club juggling">{obrazek soubor="addicted.gif" popisek="Addicted to ball and club juggling - obálka"}</a>
+<a href="/addicted-hans-vanwynsberghe.pdf" title="Addicted to ball and club juggling">{obrazek soubor="abcj.png" popisek="Addicted to ball and club juggling - obálka"}</a>
 Anglická knížka, kterou sepsal Hans Vanwynsberghe. Nedokončená, ale i přesto výborná. 235&nbsp;stránek.
 </p>
 
 <a name="pp"></a><h3><a href="/passing-patterns.pdf" title="Juggling in your Right Mind" class="pdf">Juggling in your Right Mind</a></h3>
 <p>
-<a href="/passing-patterns.pdf" title="Juggling in your Right Mind">{obrazek soubor="passing-patterns.jpg" popisek="Juggling in your Right Mind"}</a>
+<a href="/passing-patterns.pdf" title="Juggling in your Right Mind">{obrazek soubor="pp.jpg" popisek="Juggling in your Right Mind"}</a>
 Návody na passování, které sepsal Lee Kolinsky. 18&nbsp;stránek.
 </p>
 

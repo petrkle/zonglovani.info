@@ -87,6 +87,7 @@ if (isset($_GET['id'])) {
         $smarty->assign('description', 'Soubory ke stažení - žonglérův slabikář ve formátu '.$id);
 
         $smarty->assign('nahled', 'https://'.$_SERVER['SERVER_NAME'].'/img/p/package-'.$id.'.png');
+        $smarty->assign('obrazek', array_pop(array_pop($downloads[$id]))['img']);
         $trail->addStep($id);
         $smarty->assign('trail', $trail->path);
         $smarty->assign('download_id', $id);
