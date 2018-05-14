@@ -1,5 +1,5 @@
 <p>
-<a href="http://juggling.tv" title="Domov žonglérského videa na internetu.">{obrazek soubor="juggling.tv.png" popisek="juggling.tv"}</a>
+<a href="http://juggling.tv" title="Domov žonglérského videa na internetu.">{obrazek soubor="jtv.jpg" popisek="juggling.tv"}</a>
 <a href="http://juggling.tv" title="Domov žonglérského videa na internetu." class="external">juggling.tv</a> je stránka pro nahrávání a sledování žonglérského videa.
 </p>
 

@@ -73,18 +73,6 @@ Návod na výrobu chůd a žonglování na chůdách.
 </p>
 
 <!-- start -->
-<h3><a href="/rss.html" title="RSS exporty.">RSS kanály</a></h3>
-<p>
-<a href="/rss.html" title="RSS exporty.">{obrazek soubor="rss.png" popisek="RSS"}</a>
-Upozorňování na novinky v žonglérově slabikáři.
-</p>
-
-<h3><a href="https://github.com/petrkle/zonglovani.info/commits/master" title="Změny v žonglérově slabikáři." class="external">Změny v žonglérově slabikáři</a></h3>
-<p>
-<a href="https://github.com/petrkle/zonglovani.info/commits/master" title="Změny v žonglérově slabikáři.">{obrazek soubor="budik.jpg" popisek="Seznam změn."}</a>
-Výpis změn a úprav v žonglérově slabikáři.
-</p>
-
 <h3><a href="/obrazky-na-plochu/" title="Žonglérské wallpapery">Obrázky na plochu</a></h3>
 <p>
 <a href="/obrazky-na-plochu/" title="Žonglérské wallpapery">{obrazek soubor="pes-a-kuzel.jpg" popisek="Wallpapers"}</a>
@@ -99,7 +87,7 @@ Animace žonglování s míčky.
 
 <h3><a href="/juggling-tv.html" title="Žonglérská televize">juggling.tv</a></h3>
 <p>
-<a href="/juggling-tv.html" title="Žonglérská televize">{obrazek soubor="juggling.tv.png" popisek="juggling.tv"}</a>
+<a href="/juggling-tv.html" title="Žonglérská televize">{obrazek soubor="jtv.jpg" popisek="juggling.tv"}</a>
 Žonglérská televize.
 </p>
 
@@ -107,6 +95,12 @@ Animace žonglování s míčky.
 <p>
 <a href="/odkazy.html" title="Odkazy.">{obrazek soubor="www.png" popisek="Odkazy"}</a>
 Odkazy na stránky věnované žonglování.
+</p>
+
+<h3><a href="/rss.html" title="RSS exporty.">RSS kanály</a></h3>
+<p>
+<a href="/rss.html" title="RSS exporty.">{obrazek soubor="rss.png" popisek="RSS"}</a>
+Upozorňování na novinky v žonglérově slabikáři.
 </p>
 <!-- stop -->
 
@@ -116,21 +110,15 @@ Odkazy na stránky věnované žonglování.
 </p>
 
 <!-- start -->
-<h3><a href="/doplnky-prohlizece.html" title="Žonglérské doplňky do prohlížeče.">Doplňky do prohlížeče</a></h3>
-<p>
-<a href="/doplnky-prohlizece.html" title="Žonglérské doplňky do prohlížeče.">{obrazek soubor="browsers.png" popisek="Prohlížeče"}</a>
-Žonglérské doplňky do prohlížeče internetu.
-</p>
-
 <h3><a href="/download/" title="Off-line verze žonglérova slabikáře.">Soubory ke stažení</a></h3>
 <p>
-<a href="/download/" title="Off-line verze žonglérova slabikáře.">{obrazek soubor='downloada.png' popisek='Soubory ke stažení'}</a>
+<a href="/download/" title="Off-line verze žonglérova slabikáře.">{obrazek soubor='slabikar-pdf.png' popisek='Soubory ke stažení'}</a>
 Žonglérův slabikář jako elektronická kniha a pro použití na počítačích bez internetu.
 </p>
 
 <h3><a href="/mobil.html" title="Žonglérův slabikář v mobilu">Žonglérův slabikář v mobilu</a></h3>
 <p>
-<a href="/mobil.html" title="Žonglérův slabikář v mobilu">{obrazek soubor='mobil-xperia-w.s.jpg' popisek='Žonglování v kapse'}</a>
+<a href="/mobil.html" title="Žonglérův slabikář v mobilu">{obrazek soubor='mobil-xperia-w.jpg' popisek='Žonglování v kapse'}</a>
 Žonglérův slabikář je přizpůsobený prohlížení na mobilních telefonech.
 </p>
 <!-- stop -->
