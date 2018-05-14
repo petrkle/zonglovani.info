@@ -29,7 +29,7 @@ Uložit video ve formátu <a href="{$video.download}" class="external">.mp4</a>
 {else}
 {* odkaz na externí soubor *}
 <p>
-{obrazek soubor=$video.nahled popisek=$video.nazev path='/video/img/'}
+{obrazek soubor=$video.nahled popisek=$video.nazev}
 <a href="{$video.link|escape}" class="external" rel="nofollow">Stáhnout video</a>
 </p>
 <p>
