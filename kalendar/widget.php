@@ -7,6 +7,7 @@ $trail = new Trail();
 $trail->addStep('Kalendář', CALENDAR_URL);
 $trail->addStep('Widget');
 $smarty->assign('nahled', 'https://'.$_SERVER['SERVER_NAME'].'/img/w/widget-light.png');
+$smarty->assign('stylwidth', IMG_CSS_WIDTH);
 
 $smarty->assign('kalendar', 'https://zonglovani.info'.CALENDAR_URL);
 $smarty->assign('widget_params', 'type="text/javascript" charset="utf-8" integrity="sha384-F4UhyN6nNO1p/ZFFXQQBfRvRMv4TQySJU7PrV2WsVpGjVjh6GHwNvCXRUrK0MKxX" crossorigin="anonymous"');
