@@ -8,7 +8,7 @@ $_SERVER['DOCUMENT_ROOT'] = ZS_DIR;
 
 $smarty->assign('titulek', 'Přístup zakázán');
 
-$smarty->assign('stylwidth', IMG_CSS_WIDTH);
+$smarty->assign('custom_headers', array('<link rel="stylesheet" media="screen" type="text/css" href="/photo-'.CSS_CHKSUM.'.css" />'));
 $trail = new Trail();
 $trail->addStep('Zakázaná stránka');
 $smarty->assign('trail', $trail->path);
