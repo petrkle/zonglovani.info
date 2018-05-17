@@ -19,6 +19,7 @@ $trail = new Trail();
 $trail->addStep('Informace o žonglování', '/ostatni.html');
 $trail->addStep('Odkazy');
 $smarty->assign('nahled', 'https://'.$_SERVER['SERVER_NAME'].'/img/w/www.png');
+$smarty->assign('stylwidth', IMG_CSS_WIDTH);
 
 $smarty->assign('trail', $trail->path);
 $smarty->display('hlavicka.tpl');
