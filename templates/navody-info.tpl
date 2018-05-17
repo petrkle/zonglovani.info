@@ -10,7 +10,7 @@ Videí je celkem přes 100 a všechny je najdeš na <a href="http://juggling.tv/
 </p>
 
 <p>
-<a href="http://juggling.tv/users/4431/zonglovani.info">{obrazek soubor='juggling.tv.png' popisek='juggling.tv'}</a>
+<a href="http://juggling.tv/users/4431/zonglovani.info">{obrazek soubor='jtv.jpg' popisek='juggling.tv'}</a>
 Profil žonglérova slabikáře na <a href="http://juggling.tv/users/4431/zonglovani.info" class="external">juggling.tv/users/4431</a>
 </p>
 

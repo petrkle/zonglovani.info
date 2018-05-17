@@ -9,7 +9,7 @@ $smarty->assign('titulek', $titulek);
 
 $smarty->assign('keywords', 'video, juggling.tv');
 $smarty->assign('description', 'Podrobný popis stránek juggling.tv.');
-$smarty->assign('nahled', 'https://'.$_SERVER['SERVER_NAME'].'/img/j/juggling.tv.png');
+$smarty->assign('nahled', 'https://'.$_SERVER['SERVER_NAME'].'/img/j/jtv.jpg');
 
 $dalsi = array(
     array('url' => '/video/', 'text' => 'Žonglérská videa', 'title' => 'Výběr žonglérských videí'),

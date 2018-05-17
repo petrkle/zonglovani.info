@@ -8,6 +8,7 @@ $titulek = 'Video návody';
 $smarty->assign('keywords', 'žonglování, video, návod');
 $smarty->assign('description', 'Video návody k trikům ze žonglérova slabikáře.');
 
+$smarty->assign('stylwidth', IMG_CSS_WIDTH);
 $smarty->assign('titulek', $titulek);
 
 $trail = new Trail();
