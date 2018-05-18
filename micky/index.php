@@ -7,7 +7,7 @@ $titulek = 'Žonglování s míčky';
 $smarty->assign('feedback', true);
 $smarty->assign('titulek', $titulek);
 $smarty->assign('description', 'Míčky jsou nejjednodušší žonglérské náčiní. Snadno se hážou i chytají. I ty se můžeš naučit žonglovat za pár minut.');
-$smarty->assign('nahled', 'https://'.$_SERVER['SERVER_NAME'].'/img/n/nacinia.png');
+$smarty->assign('nahled', 'https://'.$_SERVER['SERVER_NAME'].'/img/m/micky-logo.png');
 
 $trail = new Trail();
 $trail->addStep('Míčky');

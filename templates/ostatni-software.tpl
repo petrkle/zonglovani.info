@@ -10,7 +10,7 @@ Simulátor žonglování, který zvládá i <a href="/kuzely/passing/" title="ž
 
 <a name="joepass"></a><h3><a href="http://www.koelnvention.de/software/index.html" title="JoePass" class="external">JoePass</a></h3>
 <p>
-<a href="http://www.koelnvention.de/software/index.html" title="JoePass">{obrazek soubor="joepass.png" popisek="joepass"}</a>
+<a href="http://www.koelnvention.de/software/index.html" title="JoePass">{obrazek soubor="joepass.jpg" popisek="joepass"}</a>
 Simulátor žonglování z Německa.
 </p>
 
@@ -26,9 +26,9 @@ Simulátor žonglování napsaný v javě. Umí zapsat <a href="/animace/" title
 Juggling Lab je pokračovatel JuggleAnim.
 </p>
 
-<a name="xlockmore"></a><h3><a href="http://www.tux.org/~bagleyd/xlockmore.html" title="Spořič obrazovky pro X Window." class="external">xlockmore</a></h3>
+<a name="xlockmore"></a><h3><a href="http://sillycycle.com/xlockmore.html" title="Spořič obrazovky pro X Window." class="external">xlockmore</a></h3>
 <p>
-<a href="http://www.tux.org/~bagleyd/xlockmore.html" title="Spořič obrazovky pro X Window.">{obrazek soubor="xlock.png" popisek="xlockmore"}</a>
+<a href="http://sillycycle.com/xlockmore.html" title="Spořič obrazovky pro X Window.">{obrazek soubor="xlock.png" popisek="xlockmore"}</a>
 Spořič obrazovky pro X&nbsp;Window.
 </p>
 

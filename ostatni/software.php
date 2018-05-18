@@ -21,6 +21,7 @@ $trail = new Trail();
 $trail->addStep('Informace o žonglování', '/ostatni.html');
 $trail->addStep('Software');
 
+$smarty->assign('stylwidth', IMG_CSS_WIDTH);
 $smarty->assign('trail', $trail->path);
 $smarty->display('hlavicka.tpl');
 $smarty->display('ostatni-software.tpl');

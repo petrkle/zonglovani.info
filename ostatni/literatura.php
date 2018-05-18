@@ -11,7 +11,7 @@ $smarty->assign('feedback', true);
 $smarty->assign('keywords', make_keywords($titulek).', žonglování, tisk, pdf');
 $smarty->assign('description', 'Česká a anglická literatura o žonglování. Volně ke stažení - formát pdf, vhodný pro tisk.');
 
-$smarty->assign('nahled', 'https://'.$_SERVER['SERVER_NAME'].'/img/e/etitb.s.jpg');
+$smarty->assign('nahled', 'https://'.$_SERVER['SERVER_NAME'].'/img/s/slabikar-pdf.png');
 
 $trail = new Trail();
 $trail->addStep('Informace o žonglování', '/ostatni.html');

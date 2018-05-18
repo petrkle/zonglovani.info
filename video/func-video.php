@@ -20,7 +20,7 @@ function get_videa($path = '')
                 $klip = (array) $xml;
                 $vypis[$foo] = $klip;
                 $vypis[$foo]['id'] = $file;
-                if (is_readable($_SERVER['DOCUMENT_ROOT'].'/video/img/'.$fl.'/'.$file.'.jpg')) {
+                if (is_readable($_SERVER['DOCUMENT_ROOT'].'/img/'.$fl.'/'.$file.'.jpg')) {
                     $vypis[$foo]['nahled'] = $file.'.jpg';
                 }
                 if (isset($klip['download']) and preg_match('/juggling\.tv\/download\//', $klip['download'])) {

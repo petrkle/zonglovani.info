@@ -40,6 +40,7 @@ if (strlen($show) > 0 and is_file('../'.$show.'.xml')) {
     $smarty->assign('titulek', $titulek);
     $smarty->assign('keywords', 'žonglování, čtyři, míčky, návod, tenisáky');
     $smarty->assign('description', 'Obrázkový návod na žonglování se čtyřmi míčky.');
+    $smarty->assign('nahled', 'https://'.$_SERVER['SERVER_NAME'].'/img/m/micky-logo.png');
     $smarty->display('hlavicka.tpl');
     $smarty->display('micky-4-pred.tpl');
     $smarty->assign('triky', get_seznam_triku(__FILE__));

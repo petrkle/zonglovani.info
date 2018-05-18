@@ -80,6 +80,6 @@ Návody na passování s kužely které sepsal <a href="http://www.csulb.edu/~wm
 
 <a name="mad"></a><h3><a href="/madison-area.pdf" title="Passování s kužely" class="pdf">Madison area</a></h3>
 <p>
-<a href="/madison-area.pdf" title="Passování s kužely">{obrazek soubor="madison-area.png" popisek="Madison area"}</a>
+<a href="/madison-area.pdf" title="Passování s kužely">{obrazek soubor="madison-area.jpg" popisek="Madison area"}</a>
 Návody na passování s kužely od <a href="http://www.madjugglers.com/" title="Madison area jugglers" class="external">Madison area jugglers</a>. 173&nbsp;stránek.
 </p>

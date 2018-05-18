@@ -20,6 +20,7 @@ $dalsi = array(
 
 $smarty->assign('dalsi', $dalsi);
 $smarty->assign('trail', $trail->path);
+$smarty->assign('nahled', 'https://'.$_SERVER['SERVER_NAME'].'/img/m/micky-logo.png');
 $smarty->display('hlavicka.tpl');
 $smarty->display('micky-6.tpl');
 $smarty->display('paticka.tpl');

@@ -179,7 +179,7 @@ if ($udalost) {
         if (isset($udalost['img']) and isset($udalost['img_ts'])) {
             $smarty->assign('nahled', 'https://'.$_SERVER['SERVER_NAME'].'/kalendar/obrazek-'.$udalost['img_ts'].'-ts-'.$udalost['img']);
         } else {
-            $smarty->assign('nahled', 'https://'.$_SERVER['SERVER_NAME'].'/img/k/kalendar.png');
+            $smarty->assign('nahled', 'https://'.$_SERVER['SERVER_NAME'].'/img/k/kalendar-zonglovani.png');
         }
         $smarty->assign('keywords', make_keywords('žonglování, kalendář, '.$udalost['title']));
         $smarty->assign('trail', $trail->path);

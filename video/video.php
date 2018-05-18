@@ -54,7 +54,7 @@ if (isset($idcka[$v])) {
 
     $hlavicky = array();
     if (isset($video['nahled'])) {
-        $smarty->assign('nahled', 'https://'.$_SERVER['SERVER_NAME'].'/video/img/'.substr($video['nahled'], 0, 1).'/'.$video['nahled']);
+        $smarty->assign('nahled', 'https://'.$_SERVER['SERVER_NAME'].'/img/'.substr($video['nahled'], 0, 1).'/'.$video['nahled']);
     }
     if (isset($video['rozliseni'])) {
         $rozliseni = preg_split('/x/', $video['rozliseni']);

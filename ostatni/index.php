@@ -10,7 +10,7 @@ $smarty->assign('titulek', $titulek);
 $smarty->assign('keywords', 'žonglování, informace, jak žonglovat, žongléři');
 $smarty->assign('description', 'Podrobnější informace o žonglování, literatura, odkazy i obrázky na plochu.');
 
-$smarty->assign('nahled', 'https://'.$_SERVER['SERVER_NAME'].'/img/s/software.jpg');
+$smarty->assign('nahled', 'https://'.$_SERVER['SERVER_NAME'].'/img/j/jongl.jpg');
 
 $trail = new Trail();
 $trail->addStep('Informace o žonglování', '/ostatni.html');

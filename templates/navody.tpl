@@ -4,7 +4,7 @@ Návody na žonglování ve formátu <strong>PDF</strong>. Vhodné pro tisk.
 </p>
 
 <h3><a href="doc/vyroba-micku.pdf" title="Návod v pdf" class="pdf">Výroba míčků na žonglování</a></h3>
-<p><a href="doc/vyroba-micku.pdf" title="Návod v pdf">{obrazek soubor="navodb.jpg" title="Výroba míčků"}</a>
+<p><a href="doc/vyroba-micku.pdf" title="Návod v pdf">{obrazek soubor="navodb.png" title="Výroba míčků"}</a>
 Podrobný návod na výrobu míčku z tenisáku, rýže a nafukovacích balónků.
 </p>
 <ul class="szn">
@@ -15,7 +15,7 @@ Podrobný návod na výrobu míčku z tenisáku, rýže a nafukovacích balónk�
 </ul>
 
 <h3><a href="doc/navod-na-zonglovani.pdf" title="Návod v pdf" class="pdf">Žonglování se třemi míčky</a></h3>
-<p><a href="doc/navod-na-zonglovani.pdf" title="Návod v pdf">{obrazek soubor="navod3.jpg" title="Návod na žonglování"}</a>
+<p><a href="doc/navod-na-zonglovani.pdf" title="Návod v pdf">{obrazek soubor="navod3.png" title="Návod na žonglování"}</a>
 Přehledně popsané základy žonglování se třemi míčky.
 </p>
 <ul class="szn">
