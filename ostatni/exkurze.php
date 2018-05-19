@@ -19,6 +19,7 @@ $smarty->assign('dalsi', $dalsi);
 $trail = new Trail();
 $trail->addStep($titulek);
 $smarty->assign('trail', $trail->path);
+$smarty->assign('stylwidth', IMG_CSS_WIDTH);
 $smarty->display('hlavicka.tpl');
 $smarty->display('exkurze.tpl');
 $smarty->display('paticka.tpl');
