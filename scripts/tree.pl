@@ -78,6 +78,17 @@ $conf::baseurl = "/";		# Set first part of any URL (leave empty if unsure)
 	'/video/stranka*.html',
 	'/video/*/stranka*.html',
 	'/tip/archiv*.html',
+	'/pf-*.html',
+	'/doplnky-prohlizece.html',
+	'/testovani.html',
+	'/lide/pravidla.php',
+	'/lide/novy-ucet.php',
+	'/lide/nastaveni/',
+	'/novinky/',
+	'/rss/',
+	'/twitter.html',
+	'/vanoce-*.html',
+	'/vyhledavani/',
 	'/changelog-*.html');
 # To exclude one directory use this:
 #@conf::excludefiles = ('/secret/*');

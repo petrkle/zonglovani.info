@@ -8,6 +8,7 @@ $titulek = 'Rozhovory';
 $trail = new Trail();
 $trail->addStep($titulek, LIDE_URL.'rozhovor');
 $smarty->assign('feedback', true);
+$smarty->assign('stylwidth', IMG_CSS_WIDTH);
 
 if (!isset($_GET['id'])) {
     $smarty->assign('nadpis', $titulek);

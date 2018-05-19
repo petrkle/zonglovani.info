@@ -16,6 +16,11 @@ $trail = new Trail();
 $trail->addStep('Informace o žonglování', '/ostatni.html');
 $trail->addStep('Slovníček');
 
+$dalsi = array(
+    array('url' => '/literatura.html', 'text' => 'Literatura o žonglování', 'title' => 'Knížky o žonglovani'),
+    );
+$smarty->assign('dalsi', $dalsi);
+
 $smarty->assign('stylwidth', IMG_CSS_WIDTH);
 $smarty->assign('trail', $trail->path);
 $smarty->display('hlavicka.tpl');
