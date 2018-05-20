@@ -1,1 +1,1 @@
-vboxmanage controlvm android-jellybean screenshotpng tablet7-01.png
+vboxmanage controlvm android screenshotpng tablet10-01.png
