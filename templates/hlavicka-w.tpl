@@ -11,14 +11,14 @@
 {include file='hlavicka-meta.tpl'}
 	<link rel="stylesheet" media="screen" type="text/css" href="/plain-{$smarty.const.CSS_CHKSUM}.css" />
 	<link rel="stylesheet" media="only screen and (-webkit-min-device-pixel-ratio: 2)" href="/plain-{$smarty.const.CSS_CHKSUM}.css" />
-	<link rel="stylesheet" media="screen and (min-width: 610px)" type="text/css" href="/zw-{$smarty.const.CSS_CHKSUM}.css" />
+	<link rel="stylesheet" media="screen and (min-width: {$smarty.const.MAX_MOBILE_WIDTH}px)" type="text/css" href="/zw-{$smarty.const.CSS_CHKSUM}.css" />
 	<link rel="stylesheet" media="print" type="text/css" href="/zt-{$smarty.const.CSS_CHKSUM}.css" />
 {if isset($stylwidth)}
 	<link rel="stylesheet" media="screen" type="text/css" href="/css/width-{$stylwidth}-{$smarty.const.CSS_CHKSUM}.css" />
 {/if}
 {if isset($styly)}
 {foreach from=$styly item=styl}
-	<link rel="stylesheet" media="screen and (min-width: 610px)" type="text/css" href="/{$styl}-{$smarty.const.CSS_CHKSUM}.css" />
+	<link rel="stylesheet" media="screen and (min-width: {$smarty.const.MAX_MOBILE_WIDTH}px)" type="text/css" href="/{$styl}-{$smarty.const.CSS_CHKSUM}.css" />
 {/foreach}
 {/if}
 {if isset($custom_headers)}
@@ -35,7 +35,7 @@
 <body>
 
 <div class="ucet">
-{if isset($smarty.session.logged) and $smarty.session.logged==true}{if isset($smarty.session.changes)}<a href="/changes.html" title="Novinky v žonglérově slabikáři">Novinky{if $smarty.session.changes_pocet} ({$smarty.session.changes_pocet}){/if}</a> ~ {/if}<a href="{$smarty.const.LIDE_URL}{$smarty.session.uzivatel.login|escape}.html" title="Tvůj účet.">{$smarty.session.uzivatel.jmeno|escape}</a> ~ <a href="{$smarty.const.LIDE_URL}nastaveni/" title="Nastavení tvého účtu.">Nastavení</a> ~ <a href="{$smarty.const.LIDE_URL}odhlaseni.php" title="Odhlásit se">Odhlásit</a>{else}
+{if isset($smarty.session.logged) and $smarty.session.logged==true}<a href="{$smarty.const.LIDE_URL}{$smarty.session.uzivatel.login|escape}.html" title="Tvůj účet.">{$smarty.session.uzivatel.jmeno|escape}</a> ~ <a href="{$smarty.const.LIDE_URL}nastaveni/" title="Nastavení tvého účtu.">Nastavení</a> ~ <a href="{$smarty.const.LIDE_URL}odhlaseni.php" title="Odhlásit se">Odhlásit</a>{else}
 {if basename($smarty.server.SCRIPT_NAME)!="prihlaseni.php"}<a href="{$smarty.const.LIDE_URL}prihlaseni.php{if $smarty.server.REQUEST_URI!="/"}?next={$smarty.server.REQUEST_URI|escape}{/if}" title="Přihlášení do žonglérova slabikáře" rel="nofollow">Přihlášení</a> ~ {/if}<a href="{$smarty.const.LIDE_URL}novy-ucet.php" title="Vytvořit nový účet v žonglérově slabikáři.">Založit účet</a>{/if}
 </div>
 <div id="hlavicka">

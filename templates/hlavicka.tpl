@@ -11,14 +11,14 @@
 {include file='hlavicka-meta.tpl'}
 	<link rel="stylesheet" media="screen" type="text/css" href="/plain-{$smarty.const.CSS_CHKSUM}.css" />
 	<link rel="stylesheet" media="only screen and (-webkit-min-device-pixel-ratio: 2)" href="/plain-{$smarty.const.CSS_CHKSUM}.css" />
-	<link rel="stylesheet" media="screen and (min-width: 610px)" type="text/css" href="/z-{$smarty.const.CSS_CHKSUM}.css" />
+	<link rel="stylesheet" media="screen and (min-width: {$smarty.const.MAX_MOBILE_WIDTH}px)" type="text/css" href="/z-{$smarty.const.CSS_CHKSUM}.css" />
 	<link rel="stylesheet" media="print" type="text/css" href="/zt-{$smarty.const.CSS_CHKSUM}.css" />
 {if isset($stylwidth)}
 	<link rel="stylesheet" media="screen" type="text/css" href="/css/width-{$stylwidth}-{$smarty.const.CSS_CHKSUM}.css" />
 {/if}
 {if isset($styly)}
 {foreach from=$styly item=styl}
-	<link rel="stylesheet" media="screen and (min-width: 610px)" type="text/css" href="/{$styl}-{$smarty.const.CSS_CHKSUM}.css" />
+	<link rel="stylesheet" media="screen and (min-width: {$smarty.const.MAX_MOBILE_WIDTH}px)" type="text/css" href="/{$styl}-{$smarty.const.CSS_CHKSUM}.css" />
 {/foreach}
 {/if}
 {if isset($custom_headers)}

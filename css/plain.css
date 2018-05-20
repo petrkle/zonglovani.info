@@ -1,5 +1,6 @@
 body{font-family:sans-serif;font-size:1.2em;line-height:1.7em;color:#000;background:#fff;margin:0;padding:0;}
 #ucet,.ucet{display:block;font-size:0.8em;text-align:right;padding:0 5px;background:#fd3}
+#ramecek{max-width:500px;margin:0 auto;}
 .hlavickabg{padding:0;margin:0;}
 a img{border-width:0;}
 #menu{border-top:dashed 1px #999;margin:5px 5px 0 5px;width:90%;padding-top:5px;}
@@ -96,4 +97,5 @@ hr.d{border:0;border-bottom:1px dashed #999;margin:2em 0;width:100%;}
 .nahled img{border:solid 1px;border-color:#444 #aaa #aaa #444;margin:10px;}
 .wrap{overflow-wrap:break-word;word-wrap: break-word;-ms-word-break: break-all;word-break: break-all;word-break: break-word;hyphens: auto;}
 #query{width:80%;}
+#hlavicka h2{max-width:500px;margin:0 auto;}
 .noborder{border:0;}

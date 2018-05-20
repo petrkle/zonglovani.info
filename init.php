@@ -68,6 +68,7 @@ define('IMG_MAX_SIZE', 3); //MiB
 
 define('IMG_RESPONSIVE_WIDTH', 200); //px
 define('IMG_CSS_WIDTH', 490); //px
+define('MAX_MOBILE_WIDTH', 950); //px
 
 define('PASS_MIN_LENGHT', 6);
 
@@ -85,5 +86,5 @@ const USERFILES = array(
 'registrace.txt',
 );
 
-define('CSS_CHKSUM', '3766237162');
+define('CSS_CHKSUM', '3024255289');
 define('JS_CHKSUM', '2391363690');

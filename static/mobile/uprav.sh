@@ -17,15 +17,13 @@ do
 	sed s#'<a href=".*index.html" title="Žonglérův slabikář - Úvodní stránka">Úvodní stránka</a> .'#''#i |\
 	sed s#'rel="stylesheet" type="text/css" href="/'#"rel=\"stylesheet\" type=\"text/css\" href=\"$LEVEL"#gi |\
 	sed /'<!-- start -->'/,/'<!-- stop -->'/d |\
-	sed /'<!--\[if lt IE 9\]>'/,/'<!\[endif\]-->'/d |\
 	sed /'.*stylesheet" media="print" type="text\/css" href=".*zt-.*.css.*'/d |\
-	sed "/.*stylesheet\" media=\"screen and (min-width: 610px)\" type=\"text\/css\" href=\".*z-$CSS_CHKSUM.css.*"/d |\
+	sed "/.*stylesheet\" media=\"screen and (min-width: .*px)\" type=\"text\/css\" href=\".*z-$CSS_CHKSUM.css.*"/d |\
 	sed /'.*<link rel="alternate".*'/d |\
 	sed /'.*<link rel="search".*'/d |\
 	sed /'.*<meta name="msapplication.*'/d |\
 	sed s/'.*meta name="robots".*'/'<meta name="robots" content="noindex,nofollow" \/>'/ |\
 	sed 's/media="only screen and (-webkit-min-device-pixel-ratio: 2)"/media="screen"/' |\
-	sed 's/img src="\([^"]*\)" width="\([^"]*\)" height="[^"]*"/img src="\1" style="width:98%;max-width:\2px;"/g' |\
 	sed s/'zongl\.info'/'zonglovani.info'/ \
  	> $foo
 	rm -f $foo.bat
