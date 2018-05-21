@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c0d8f87a0a740de4a954dd484ffe854a",
+    "content-hash": "c623a33963d3d8c6ad2c812345314690",
     "packages": [
         {
             "name": "pear/console_getopt",
@@ -255,6 +255,61 @@
                 "exception"
             ],
             "time": "2015-02-10T20:07:52+00:00"
+        },
+        {
+            "name": "sandfoxme/monsterid",
+            "version": "1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sandfoxme/monsterid.git",
+                "reference": "d2454adf7c92cbb10e932e84dda0809975db72f5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sandfoxme/monsterid/zipball/d2454adf7c92cbb10e932e84dda0809975db72f5",
+                "reference": "d2454adf7c92cbb10e932e84dda0809975db72f5",
+                "shasum": ""
+            },
+            "require": {
+                "ext-gd": "*",
+                "php": "^5.5|^7.0"
+            },
+            "require-dev": {
+                "codeclimate/php-test-reporter": "*",
+                "phpunit/phpunit": "^4.8"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "SandFoxMe\\MonsterID\\": "src/classes"
+                },
+                "files": [
+                    "src/bootstrap.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Andreas Gohr",
+                    "homepage": "http://www.splitbrain.org/",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Anton Smirnov",
+                    "email": "sandfox@sandfox.me",
+                    "homepage": "https://sandfox.me/",
+                    "role": "Composer package maintainer"
+                }
+            ],
+            "description": "MonsterID is a method to generate a unique monster image based upon a certain identifier (IP address, email address, whatever). It can be used to automatically provide personal avatar images in blog comments or other community services.",
+            "keywords": [
+                "avatar",
+                "monsterid"
+            ],
+            "time": "2018-04-03T20:46:17+00:00"
         },
         {
             "name": "smarty/smarty",

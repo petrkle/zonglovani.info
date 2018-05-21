@@ -2,75 +2,13 @@
 
 require '../../init.php';
 require '../../func.php';
-require '../../cache.php';
+
+use function \SandFoxMe\MonsterID\build_monster;
 
 if (isset($_GET['seed']) and is_zs_account($_GET['seed'])) {
-    http_cache_headers(83600, true);
-    build_monster($_GET['seed']);
+    header('Content-Type: image/png');
+    print build_monster($_GET['seed']);
 } else {
     http_response_code(404);
     exit();
-}
-
-function build_monster($seed = '', $size = '')
-{
-    // init random seed
-    if ($seed) {
-        srand(hexdec(substr(md5($seed), 0, 6)));
-    }
-
-    // throw the dice for body parts
-    $parts = array(
-        'legs' => rand(1, 5),
-        'hair' => rand(1, 5),
-        'arms' => rand(1, 5),
-        'body' => rand(1, 15),
-        'eyes' => rand(1, 15),
-        'mouth' => rand(1, 10),
-    );
-
-    // create backgound
-    $monster = @imagecreatetruecolor(120, 120)
-        or die('GD image create failed');
-    $white = imagecolorallocate($monster, 255, 255, 255);
-    imagefill($monster, 0, 0, $white);
-
-    // add parts
-    foreach ($parts as $part => $num) {
-        $file = dirname(__FILE__).'/parts/'.$part.'_'.$num.'.png';
-
-        $im = @imagecreatefrompng($file);
-        if (!$im) {
-            die('Failed to load '.$file);
-        }
-        imagesavealpha($im, true);
-        imagecopy($monster, $im, 0, 0, 0, 0, 120, 120);
-        imagedestroy($im);
-
-        // color the body
-        if ($part == 'body') {
-            $color = imagecolorallocate($monster, rand(20, 235), rand(20, 235), rand(20, 235));
-            imagefill($monster, 60, 60, $color);
-        }
-    }
-
-    // restore random seed
-    if ($seed) {
-        srand();
-    }
-
-    // resize if needed, then output
-    if ($size && $size < 400) {
-        $out = @imagecreatetruecolor($size, $size)
-            or die('GD image create failed');
-        imagecopyresampled($out, $monster, 0, 0, 0, 0, $size, $size, 120, 120);
-        header('Content-type: image/png');
-        imagepng($out);
-        imagedestroy($out);
-        imagedestroy($monster);
-    } else {
-        header('Content-type: image/png');
-        imagepng($monster);
-        imagedestroy($monster);
-    }
 }
