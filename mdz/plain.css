@@ -1,9 +1,9 @@
 body{font-family:sans-serif;font-size:1.3em;line-height:1.5em;color:#000;background:#fbcfd0;}
-p{margin: 5px;}
-ol{margin: 5px 10px;}
+p{margin:5px;}
+ol{margin:5px 10px;}
 h1{font-family:'Exo',sans-serif;font-size:1.6em;color:#f00;}
 h2,h3{font-family:'Exo',sans-serif;}
 #obsah{padding:5px;margin:5px;}
-.datum{font-size:0.8em;color:#999;text-align:right;}
+.datum{font-size:.8em;color:#999;text-align:right;}
 a{font-weight:bold;color:#f00;}
 #paticka{border-top:dashed #ccc 2px;padding:5px 0;margin:5px 0;text-align:center;}

@@ -12,3 +12,8 @@ do
 		php -l "$file" | $(grep -v 'No syntax errors detected' || true)
 		git add "$file"
 done
+
+git status --porcelain | grep -e '^[AM]\(.*\).css$' | cut -c 3- | while read file
+do
+		stylelint "$file"
+done
