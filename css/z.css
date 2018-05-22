@@ -11,8 +11,8 @@ a{font-weight:bold;}
 a:link{color:#009;}
 a:visited{color:#909;}
 a:active,a:hover,a:focus{color:#f00;}
-p img{margin:20px 15px 0 0;border:1px solid #000;float:none;clear:both;background-color:#ccc;}
 a img{border-width:0;}
+p img{margin:20px 15px 0 0;border:1px solid #000;float:none;clear:both;background-color:#ccc;}
 ul{list-style:circle;}
 li{padding:0;margin:0;}
 .kontakt img{margin:0;padding:0;border:0;background-color:#fff;vertical-align:text-bottom;clear:none;float:none;}
