@@ -18,6 +18,7 @@ $dalsi = array(
     array('url' => '/kuzely/passing/', 'text' => 'Passing', 'title' => 'Žonglování ve více lidech'),
     );
 
+$smarty->assign('stylwidth', IMG_CSS_WIDTH);
 $smarty->assign('dalsi', $dalsi);
 $smarty->assign('trail', $trail->path);
 $smarty->assign('nahled', 'https://'.$_SERVER['SERVER_NAME'].'/img/m/micky-logo.png');
