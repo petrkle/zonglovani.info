@@ -118,7 +118,7 @@ Upozorňování na novinky v žonglérově slabikáři.
 
 <h3><a href="/mobil.html" title="Žonglérův slabikář v mobilu">Žonglérův slabikář v mobilu</a></h3>
 <p>
-<a href="/mobil.html" title="Žonglérův slabikář v mobilu">{obrazek soubor='mobil-xperia-w.jpg' popisek='Žonglování v kapse'}</a>
+<a href="/mobil.html" title="Žonglérův slabikář v mobilu">{obrazek soubor='mobil-xperia-x-compact-w.jpg' popisek='Žonglování v kapse'}</a>
 Žonglérův slabikář je přizpůsobený prohlížení na mobilních telefonech.
 </p>
 <!-- stop -->

@@ -3,7 +3,7 @@
 </p>
 
 <p>
-<a href="/img/m/mobil-xperia-w.jpg">{obrazek soubor='mobil-xperia-w.jpg' popisek='Žonglování v kapse' class="noborder"}</a>
+<a href="/img/m/mobil-xperia-w.jpg">{obrazek soubor='mobil-xperia-x-compact-w.jpg' popisek='Žonglování v kapse' class="noborder"}</a>
 Žonglérův slabikář na mobilu.
 </p>
 

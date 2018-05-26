@@ -15,7 +15,7 @@ $dalsi = array(
     );
 $smarty->assign('dalsi', $dalsi);
 $smarty->assign('stylwidth', IMG_CSS_WIDTH);
-$smarty->assign('nahled', 'https://'.$_SERVER['SERVER_NAME'].'/img/m/mobil-optimus-one.jpg');
+$smarty->assign('nahled', 'https://'.$_SERVER['SERVER_NAME'].'/img/m/mobil-xperia-x-compact-w.jpg');
 $smarty->display('hlavicka.tpl');
 $smarty->display('ostatni-mobil.tpl');
 $smarty->display('paticka.tpl');
