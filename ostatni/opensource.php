@@ -15,6 +15,7 @@ $dalsi = array(
     );
 $smarty->assign('dalsi', $dalsi);
 
+$smarty->assign('stylwidth', IMG_CSS_WIDTH);
 $trail = new Trail();
 $trail->addStep($titulek);
 $smarty->assign('trail', $trail->path);
