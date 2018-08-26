@@ -326,8 +326,8 @@ function event_validation($udalost, $now)
     } else {
         $zacatek_time = strtotime($udalost['zacatek']);
 
-        if ($zacatek_time > $now + 3600 * 24 * 365) {
-            array_push($chyby, 'Začátek události za víc jak jeden rok.');
+        if ($zacatek_time > $now + 3600 * 24 * 365 * 2) {
+            array_push($chyby, 'Začátek události za víc jak dva roky.');
         }
     }
 
@@ -349,8 +349,8 @@ function event_validation($udalost, $now)
             array_push($chyby, 'Konec události je v minulosti.');
         }
 
-        if ($konec_time > $now + 3600 * 24 * 365) {
-            array_push($chyby, 'Konec události za víc jak jeden rok.');
+        if ($konec_time > $now + 3600 * 24 * 365 * 2) {
+            array_push($chyby, 'Konec události za víc jak dva roky.');
         }
     }
 
