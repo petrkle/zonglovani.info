@@ -522,13 +522,13 @@
 2018-10-15*Malabaristas Kamones*/video/etc/kamones.html*kamones.jpg*Craig a Mo jsou dva šikovní žongléři z Portugalska.
 2018-10-22*Australan*/video/navod/kuzely-passing-australsky-trik.html*australiea.png*Nauč se něco od klokanů. Australský trik obsahuje přebírání kuželek, třesení rukou a házení kuželky za zády.
 2018-10-29*Literatura*/literatura.html*encyclopaedia-ball-juggling.jpg*Přehled nejlepších knížek o žonglování.
-2018-11-05*
-2018-11-12*
-2018-11-19*
-2018-11-26*
-2018-12-03*
-2018-12-10*
-2018-12-17*
+2018-11-05*Zvedání míčku nohou*/micky/kick-up.html*kickup-micky.png*Tento týden se naučíme zvedání míčku nohou. Podceňovaná a přitom klíčová dovednost.
+2018-11-12*Kam dál*/micky/3/kaskada.html#kam-dal*kam-dal.png*Na konci většiny stránek v žonglérově slabikáři najdeš odkazy na související triky.
+2018-11-19*Žonglérské míčky*/micky/druhy.html*pomeranc.jpg*Pořádný míček je základ úspěchu. Pořiď si proto takové, které se ti líbí a vyhovují.
+2018-11-26*Deštník*/micky/4/destnik.html*destnikc.png*Kdo má po ruce 4 míčky, toho ani déšť nepřekvapí.
+2018-12-03*Chůdy*/chudy/*cirkusc.png*Diváci milují chůdy. Hlavně proto, že jsou zvědaví kdy chůdař spadne a šeredně si natluče. <a href="https://zonglovani.info/chudy/" title="Návod na výrobu chůd.">Návod na výrobu chůd</a>.
+2018-12-10*Animace žonglování*/animace/*animace-panacek.png*Žonglérův slabikář nově obsahuje i animace žonglování z programu JuggleAnim.
+2018-12-17*Tenis*/micky/3/tenis.html*tenisa.png*Tenis je kombinace kaskády s reverzní kaskádou. První míček je pořád nad druhým i třetím míčkem. Létá nad nimi jako tenisový míček nad sítí. Proto se taky celý trik jmenuje tenis.
 2018-12-24*
 2018-12-31*
 2019-01-07*
