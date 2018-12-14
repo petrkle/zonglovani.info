@@ -529,13 +529,13 @@
 2018-12-03*Chůdy*/chudy/*cirkusc.png*Diváci milují chůdy. Hlavně proto, že jsou zvědaví kdy chůdař spadne a šeredně si natluče. <a href="https://zonglovani.info/chudy/" title="Návod na výrobu chůd.">Návod na výrobu chůd</a>.
 2018-12-10*Animace žonglování*/animace/*animace-panacek.png*Žonglérův slabikář nově obsahuje i animace žonglování z programu JuggleAnim.
 2018-12-17*Tenis*/micky/3/tenis.html*tenisa.png*Tenis je kombinace kaskády s reverzní kaskádou. První míček je pořád nad druhým i třetím míčkem. Létá nad nimi jako tenisový míček nad sítí. Proto se taky celý trik jmenuje tenis.
-2018-12-24*
-2018-12-31*
-2019-01-07*
-2019-01-14*
-2019-01-21*
-2019-01-28*
-2019-02-04*
+2018-12-24*Veselé Vánoce*/vanoce-2018.html*balanc-mezi-smrcky.jpg*Veselé vánoční svátky. Ať vám to lítá :^)
+2018-12-31*PF 2019*/pf-2019.html*crystal-ball.jpg*Hodně štěstí a zdraví v novém roce. Ať vám to lítá :^)
+2019-01-07*Žonglérův slabikář v mobilu*/mobil.html*mobil-xperia-x-compact-w.jpg*Žonglérův slabikář je dostupný v obchodě Google Play. Učebnice žonglování zdarma do každého mobilu s Androidem.
+2019-01-14*Návody na žonglování*/navody/*navod-tisk.png*Návody na žonglování a výrobu míčků ve formátu PDF. Vhodné pro tisk.
+2019-01-21*See saw*/micky/3/seesaw.html*seesawb.png*Krabice se třemi míčky.
+2019-01-28*Reverzní kaskáda*/micky/5/kaskada-reverzni.html*5rkaskadaa.png*Rozdíl mezi normální a reverzní kaskádou s pěti míčky je pouze v dráze, po které létají míčky. Při reverzní kaskádě házíš míčky vnějškem.
+2019-02-04*Překulení kuželky přes hlavu*/kuzely/headroll.html*headrollc.png*Trik známý též pod anglickým názvem headroll.
 2019-02-11*
 2019-02-18*
 2019-02-25*
