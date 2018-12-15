@@ -536,12 +536,12 @@
 2019-01-21*See saw*/micky/3/seesaw.html*seesawb.png*Krabice se třemi míčky.
 2019-01-28*Reverzní kaskáda*/micky/5/kaskada-reverzni.html*5rkaskadaa.png*Rozdíl mezi normální a reverzní kaskádou s pěti míčky je pouze v dráze, po které létají míčky. Při reverzní kaskádě házíš míčky vnějškem.
 2019-02-04*Překulení kuželky přes hlavu*/kuzely/headroll.html*headrollc.png*Trik známý též pod anglickým názvem headroll.
-2019-02-11*
-2019-02-18*
-2019-02-25*
-2019-03-04*
-2019-03-11*
-2019-03-18*
+2019-02-11*3 count*/kuzely/passing/3count.html*kuzely-passing-3counta.png*Každý 3. hod je pass. Jako valčík, na tři doby.
+2019-02-18*Sbírání spadlých míčků*/micky/sbirani.html*micky-sbirania.png*Když ti spadne míček, nepřestávej žonglovat.
+2019-02-25*Obíhání*/kuzely/passing/runarounds.html*kuzely-runaroundsa.s.png*Runarounds - trik pro dva žongléry a tři kužely.
+2019-03-04*Kaskáda s pěti míčky*/micky/5/kaskada.html*5kaskadac.png*Návod na kaskádu s pěti míčky.
+2019-03-11*Krabice*/micky/4/krabice.html*micky-4-krabiceb.png*Box se čtyřmi míčky.
+2019-03-18*Odražení míčku kolenem*/micky/3/koleno.html*kolenob.png*Snadný a velmi efektní trik. K jeho provedení jsou potřeba skákavé míčky.
 2019-03-25*
 2019-04-01*
 2019-04-08*
