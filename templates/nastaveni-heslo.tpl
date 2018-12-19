@@ -20,3 +20,7 @@
 <input type="submit" name="odeslat" value="Nastavit" class="knoflik" tabindex="3" />
 </p>
 </form>
+
+<p>
+{include file='ukladani-hesel.tpl'}
+</p>
