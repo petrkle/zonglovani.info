@@ -1,10 +1,7 @@
 <p>
 <a href="http://www.ulita.cz" title="Ulita - dům dětí a mládeže">{obrazek soubor='ulita.cz.png' popisek='Ulita'}</a>
 Na Balkáně 17a, Praha 3, 130 00<br />
-<a href="http://www.mapy.cz/#mm=ZP@ax=133213920@ay=135976864@at=Ulita@ad=D%C5%AFm%20d%C4%9Bt%C3%AD%20a%20ml%C3%A1de%C5%BEe%20Ulita.@x=133213312@y=135977056@z=16" title="Místo konání na mapě." class="external">Zobrazit na mapě</a><br />
-Telefon: 271 771 025<br />
-{assign var='mail' value='info@ulita.cz'}
-E-mail: {$mail|mailobfuscate}<br />
+<a href="https://mapy.cz/s/2W52y" title="Místo konání na mapě." class="external">Zobrazit na mapě</a><br />
 <a href="http://www.ulita.cz" title="Ulita - dům dětí a mládeže" class="external">www.ulita.cz</a>
 </p>
 <p>

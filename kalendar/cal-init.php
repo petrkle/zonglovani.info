@@ -106,7 +106,7 @@ function get_event_data($id, $storage = CALENDAR_DATA)
             $udalost['update_hr'] = date('j. n. Y', $udalost['update']);
         }
         if (isset($udalost['url'])) {
-            $udalost['url_hr'] = preg_replace('/^http:\/\/zonglovani.info/', '', $udalost['url']);
+            $udalost['url_hr'] = preg_replace('/^https?:\/\/zonglovani.info/', '', $udalost['url']);
         }
 
         if (isset($udalost['img']) and is_readable(CALENDAR_IMG.'/'.$udalost['img'])) {
