@@ -62,9 +62,12 @@ define('WALLPAPERS_DATA', ZS_DIR.'/obrazky-na-plochu');
 define('ZPRAV_NA_STRANKU', 10);
 
 define('MAX_BIG_LETTERS', 0.7);
-define('IMG_MAX_WIDTH', 4000);  //px
-define('IMG_MAX_HEIGHT', 4000); //px
-define('IMG_MAX_SIZE', 3); //MiB
+define('IMG_MAX_WIDTH', 6000);  //px
+define('IMG_MAX_HEIGHT', 6000); //px
+define('IMG_MAX_SIZE', 20); //MiB
+
+define('IMG_RESIZE_WIDTH', 499); //px
+define('IMG_RESIZE_HEIGHT', 499); //px
 
 define('IMG_RESPONSIVE_WIDTH', 200); //px
 define('IMG_CSS_WIDTH', 490); //px
@@ -86,5 +89,5 @@ const USERFILES = array(
 'registrace.txt',
 );
 
-define('CSS_CHKSUM', '3286988529');
+define('CSS_CHKSUM', '1196649016');
 define('JS_CHKSUM', '2391363690');

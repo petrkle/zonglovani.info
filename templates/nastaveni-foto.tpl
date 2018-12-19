@@ -8,8 +8,8 @@
 <p>Tvoje fotografie ve formátu JPG.</p>
 <form action="{$smarty.server.REQUEST_URI}" method="post" enctype="multipart/form-data">
 {if isset($smarty.session.uzivatel.foto)}
-<p><img src="{$smarty.session.uzivatel.foto|escape}" alt="{$smarty.session.uzivatel.jmeno|escape}" width="{$smarty.session.uzivatel.foto_sirka}" height="{$smarty.session.uzivatel.foto_vyska}"/> <input type="submit" name="smazat" value="Smazat" class="knoflik" tabindex="4" />
-</p>
+<p><img src="{$smarty.session.uzivatel.foto|escape}" alt="{$smarty.session.uzivatel.jmeno|escape}" class="photo"/></p>
+<p><input type="submit" name="smazat" value="Smazat" class="knoflik" tabindex="4" /></p>
 {/if}
 <fieldset>
 <legend>Fotografie</legend>

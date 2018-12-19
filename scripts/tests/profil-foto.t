@@ -83,7 +83,7 @@ my $fig = $pic->content();
 
 my ($buf_x, $buf_y) = imgsize(\$fig);
 
-ok($buf_x==300 && $buf_y==225,'Zmenšení velké fotografie');
+ok($buf_x==499 && $buf_y==374,'Zmenšení velké fotografie');
 
 $zs_fotka = $bot->get('https://zongl.info/lide/nastaveni/foto');
 ok($zs_fotka->content() =~ /<input type="submit" name="smazat" value="Smazat"/,'Možnost smazat zmenšenou fotku');

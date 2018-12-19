@@ -5,6 +5,8 @@ require '../func.php';
 require 'dovednosti.php';
 require 'pusobiste.php';
 
+$smarty->assign('stylwidth', IMG_CSS_WIDTH);
+
 if (is_logged()) {
     $smarty->assign('titulek', 'Nastavení');
     $chyby = array();
@@ -121,12 +123,12 @@ if (is_logged()) {
                 }
                 if (count($chyby) == 0) {
                     move_uploaded_file($_FILES['foto']['tmp_name'], LIDE_DATA.'/'.$_SESSION['uzivatel']['login'].'/foto.jpg');
-                    if ($obrazekinfo[0] > 300 or $obrazekinfo[1] > 300) {
+                    if ($obrazekinfo[0] > IMG_RESIZE_WIDTH or $obrazekinfo[1] > IMG_RESIZE_HEIGHT) {
                         // zmenšení velkých obrázků
                         include $_SERVER['DOCUMENT_ROOT'].'/lib/SimpleImage.php';
                         $image = new SimpleImage();
                         $image->load(LIDE_DATA.'/'.$_SESSION['uzivatel']['login'].'/foto.jpg');
-                        $image->resizeToMax(300, 300);
+                        $image->resizeToMax(IMG_RESIZE_WIDTH, IMG_RESIZE_HEIGHT);
                         $image->save(LIDE_DATA.'/'.$_SESSION['uzivatel']['login'].'/resized-foto.jpg');
                         rename(LIDE_DATA.'/'.$_SESSION['uzivatel']['login'].'/resized-foto.jpg', LIDE_DATA.'/'.$_SESSION['uzivatel']['login'].'/foto.jpg');
                     }
