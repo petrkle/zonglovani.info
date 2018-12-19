@@ -91,7 +91,7 @@ if (isset($_GET['status']) and $_GET['status'] == 'ok' and isset($_SESSION['load
                 }
                 if (count($chyby) == 0) {
                     $foo = fopen(LIDE_DATA.'/'.$uzivatel['login'].'/passwd.crypt', 'w');
-                    fwrite($foo, password_hash($heslo, PASSWORD_DEFAULT));
+                    fwrite($foo, password_hash($heslo, PASSWORD_BCRYPT));
                     fclose($foo);
                     unlink($rtf);
                     unlink($rtk);

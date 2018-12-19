@@ -166,9 +166,9 @@ if (isset($_POST['login']) and isset($_POST['heslo']) and isset($_GET['action'])
                     session_start();
                 }
 
-                if (password_needs_rehash($passwd_hash, PASSWORD_DEFAULT)) {
+                if (password_needs_rehash($passwd_hash, PASSWORD_BCRYPT)) {
                     $foo = fopen(LIDE_DATA.'/'.$uzivatel['login'].'/passwd.crypt', 'w');
-                    fwrite($foo, password_hash($input_heslo, PASSWORD_DEFAULT));
+                    fwrite($foo, password_hash($input_heslo, PASSWORD_BCRYPT));
                     fclose($foo);
                 }
 

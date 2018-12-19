@@ -594,7 +594,7 @@ if (is_logged()) {
 
                 if (count($chyby) == 0) {
                     $foo = fopen(LIDE_DATA.'/'.$_SESSION['uzivatel']['login'].'/passwd.crypt', 'w');
-                    fwrite($foo, password_hash($heslo, PASSWORD_DEFAULT));
+                    fwrite($foo, password_hash($heslo, PASSWORD_BCRYPT));
                     fclose($foo);
                     $_SESSION['uzivatel'] = get_user_complete($_SESSION['uzivatel']['login']);
                     header('Location: '.LIDE_URL.'nastaveni/?result=ok_heslo');

@@ -30,7 +30,7 @@ if (!is_dir($tmp)) {
 }
 
 $foo = fopen($tmp.'/passwd.crypt', 'w');
-fwrite($foo, password_hash($heslo, PASSWORD_DEFAULT));
+fwrite($foo, password_hash($heslo, PASSWORD_BCRYPT));
 fclose($foo);
 
 $foo = fopen($tmp.'/jmeno.txt', 'w');
