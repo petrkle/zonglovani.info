@@ -655,6 +655,11 @@ if (is_logged()) {
         $smarty->display('paticka.tpl');
     }
 } else {
-    header('Location: '.LIDE_URL.'prihlaseni.php?next='.LIDE_URL.'nastaveni/&notice');
+    if (isset($_GET['uprav'])) {
+        $uprav = $_GET['uprav'];
+		}else{
+			$uprav = '';
+		}
+    header('Location: '.LIDE_URL.'prihlaseni.php?next='.LIDE_URL.'nastaveni/'.$uprav.'&notice');
     exit();
 }
