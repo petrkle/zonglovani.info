@@ -67,7 +67,7 @@ define('IMG_MAX_HEIGHT', 6000); //px
 define('IMG_MAX_SIZE', 20); //MiB
 
 define('IMG_RESIZE_WIDTH', 499); //px
-define('IMG_RESIZE_HEIGHT', 499); //px
+define('IMG_RESIZE_HEIGHT', 699); //px
 
 define('IMG_RESPONSIVE_WIDTH', 200); //px
 define('IMG_CSS_WIDTH', 490); //px

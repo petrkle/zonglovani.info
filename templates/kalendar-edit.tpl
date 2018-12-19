@@ -30,7 +30,7 @@
 <li><label class="kratkypopis" for="odkaz" accesskey="o" ><span class="u">O</span>dkaz</label><input type="text" name="url" id="odkaz" value="{$udalost.url|escape}" class="textbox" tabindex="6"/><div class="tooltip">Odkaz na www stránku události. Nepovinný údaj. Formát http://*</div></li>
 <li><label class="kratkypopis" for="mapa" accesskey="a" >M<span class="u">a</span>pa</label><input type="text" name="mapa" id="mapa" value="{$udalost.mapa|escape}" class="textbox" tabindex="7"/><div class="tooltip">Odkaz na mapu místa kde se událost koná. Nepovinný údaj. Formát http://*</div></li>
 {if !isset($udalost.img)}
-<li><label class="kratkypopis" for="obrazek" accesskey="b" >O<span class="b">b</span>rázek</label><input type="file" name="obrazek" id="obrazek" class="textbox" tabindex="8"/><div class="tooltip">Leták k akci. Formát obrázku jpg nebo png. Maximální velikost 2MB.</div></li>
+<li><label class="kratkypopis" for="obrazek" accesskey="b" >O<span class="b">b</span>rázek</label><input type="file" name="obrazek" id="obrazek" class="textbox" tabindex="8"/><div class="tooltip">Leták k akci. Formát obrázku jpg nebo png, maximální velikost {$smarty.const.IMG_MAX_SIZE}MB. Maximální rozměr {$smarty.const.IMG_MAX_WIDTH}x{$smarty.const.IMG_MAX_HEIGHT}px.</div></li>
 {else}
 <li><label class="kratkypopis" for="obrazek" accesskey="b" >O<span class="b">b</span>rázek</label> <input type="submit" name="smazatimg" value="Smazat obrázek" /></li>
 {/if}

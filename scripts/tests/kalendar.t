@@ -79,7 +79,7 @@ ok($event =~ /<span class="description">Testovací popis</,'Správný popis');
 ok($event =~ /<a href="http:\/\/nekde.cz"/,'Správný odkaz na web');
 ok($event =~ /<a href="http:\/\/mapy.cz\/obrazek.jpg"/,'Odkaz na mapu');
 ok($event =~ /<img src="\/kalendar\/obrazek-[0-9]+-ts-[0-9]+-[0-9]+-.+-[0-9]+\.jpg" alt="Testovací popis" class="photo" \/>/,'Obrázek');
-ok($event =~ /<link rel="stylesheet" media="screen" type="text\/css" href="\/css\/width-450-.*\.css" \/>/,'Styl pro obrázek');
+ok($event =~ /<link rel="stylesheet" media="screen" type="text\/css" href="\/css\/width-499-.*\.css" \/>/,'Styl pro obrázek události');
 ok($event =~ /<input type="hidden" name="id"/,'Skryté pole');
 ok($event =~ /<input type="submit" name="odeslat" value="Upravit"/,'Knoflík na úpravu');
 ok($event =~ /<input type="submit" name="smazat" value="Smazat"/,'Knoflík na smazání');
@@ -97,7 +97,7 @@ ok($vymaz =~ /<span class="description">Testovací popis</,'Správný popis - sm
 ok($vymaz =~ /<a href="http:\/\/nekde.cz"/,'Správný odkaz na web - smazaná událost');
 ok($vymaz =~ /<a href="http:\/\/mapy.cz\/obrazek.jpg"/,'Odkaz na mapu - smazaná událost');
 ok($vymaz =~ /<img src="\/kalendar\/obrazek-[0-9]+-ts-[0-9]+-[0-9]+-.+-[0-9]+\.jpg" alt="Testovací popis" class="photo" \/>/,'Obrázek - smazaná událost');
-ok($vymaz =~ /<link rel="stylesheet" media="screen" type="text\/css" href="\/css\/width-450-.*\.css" \/>/,'Styl pro obrázek');
+ok($vymaz =~ /<link rel="stylesheet" media="screen" type="text\/css" href="\/css\/width-499-.*\.css" \/>/,'Styl pro obrázek při mazání');
 ok($vymaz =~ /<input type="hidden" name="deleted"/,'Skryté pole - smazaná událost');
 ok($vymaz =~ /<input type="submit" name="shred" value="Smazat nadobro"/,'Knoflík na úplné smazání');
 ok($vymaz =~ /<input type="submit" name="restore" value="Obnovit"/,'Knoflík na obnovu');

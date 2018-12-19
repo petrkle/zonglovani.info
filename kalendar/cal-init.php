@@ -158,12 +158,12 @@ function write_event_data($udalost)
         }
         move_uploaded_file($obrazek['tmp_name'], CALENDAR_IMG.'/'.$udalost['id'].$pripona);
         $obrazekinfo = getimagesize(CALENDAR_IMG.'/'.$udalost['id'].$pripona);
-        if ($obrazekinfo[0] > 500 or $obrazekinfo[1] > 600) {
+        if ($obrazekinfo[0] > IMG_RESIZE_WIDTH or $obrazekinfo[1] > IMG_RESIZE_HEIGHT) {
             // moc velký obrázek - potřebuje zmenšit
             include $_SERVER['DOCUMENT_ROOT'].'/lib/SimpleImage.php';
             $image = new SimpleImage();
             $image->load(CALENDAR_IMG.'/'.$udalost['id'].$pripona);
-            $image->resizeToMax(500, 600);
+            $image->resizeToMax(IMG_RESIZE_WIDTH, IMG_RESIZE_HEIGHT);
             $image->save(CALENDAR_IMG.'/resized-'.$udalost['id'].$pripona);
             rename(CALENDAR_IMG.'/resized-'.$udalost['id'].$pripona, CALENDAR_IMG.'/'.$udalost['id'].$pripona);
         }
