@@ -26,13 +26,6 @@
 <ul>
 <li>E-mail: {$uzivatel_props.email|escape|mailobfuscate}</li>
 </ul>
-{else}
-<form action="{$smarty.const.LIDE_URL}vzkaz.php" method="post">
-<p>
-<input type="hidden" name="komu" value="{$uzivatel_props.login|escape}" />
-<input type="submit" name="vzkaz" value="Poslat vzkaz" />
-</p>
-</form>
 {/if}
 {if isset($uzivatel_props.znameni) and strlen($uzivatel_props.znameni)>0 and $uzivatel_props.znameni!='n'}
 <ul>
