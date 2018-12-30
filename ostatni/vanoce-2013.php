@@ -8,12 +8,12 @@ $smarty->assign('nadpis', $titulek);
 $smarty->assign('keywords', make_keywords($titulek).', žonglování');
 $smarty->assign('description', 'Veselé Vánoce 2013 všem žonglérkám a žonglérům.');
 $smarty->assign('feedback', true);
-$smarty->assign('nahled', 'https://'.$_SERVER['SERVER_NAME'].'/img/m/micky-ve-snehu.s.jpg');
+$smarty->assign('nahled', 'https://'.$_SERVER['SERVER_NAME'].'/img/k/kapr-kuzel.jpg');
 $trail = new Trail();
 $trail->addStep('Tip týdne', '/tip');
 $trail->addStep($titulek);
 $smarty->assign('trail', $trail->path);
-
+$smarty->assign('stylwidth', IMG_CSS_WIDTH);
 $smarty->display('hlavicka.tpl');
 $smarty->display('ostatni-vanoce-2013.tpl');
 $smarty->display('paticka.tpl');

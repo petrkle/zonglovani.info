@@ -1,4 +1,4 @@
-<p><a href="/img/m/micky-ve-snehu.jpg">{obrazek soubor='micky-ve-snehu.s.jpg' popisek='Stage bally ve sněhu'}</a>Veselé vánoční svátky. Ať vám to lítá :^)<br />
+<p><a href="/img/m/micky-ve-snehu.jpg">{obrazek soubor='micky-ve-snehu.jpg' popisek='Stage bally ve sněhu'}</a>Veselé vánoční svátky. Ať vám to lítá :^)<br />
 <a href="/kontakt.html" title="Petr Kletečka">Petr</a>
 </p>
 <h5>Další vánoční obrázky</h5>

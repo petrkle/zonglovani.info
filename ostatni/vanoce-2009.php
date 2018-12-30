@@ -12,6 +12,7 @@ $smarty->assign('nahled', 'https://'.$_SERVER['SERVER_NAME'].'/img/v/vanoce.png'
 $trail = new Trail();
 $trail->addStep('Tip týdne', '/tip');
 $trail->addStep($titulek);
+$smarty->assign('stylwidth', IMG_CSS_WIDTH);
 $smarty->assign('trail', $trail->path);
 $smarty->display('hlavicka.tpl');
 $smarty->display('ostatni-vanoce-2009.tpl');

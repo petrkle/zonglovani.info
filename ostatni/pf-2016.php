@@ -9,6 +9,7 @@ $smarty->assign('titulek', $titulek);
 $smarty->assign('feedback', true);
 $smarty->assign('nahled', 'https://'.$_SERVER['SERVER_NAME'].'/img/c/champagne.png');
 $trail = new Trail();
+$smarty->assign('stylwidth', IMG_CSS_WIDTH);
 $trail->addStep('Tip týdne', '/tip');
 $trail->addStep($titulek);
 $smarty->assign('trail', $trail->path);

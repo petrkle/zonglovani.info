@@ -1,4 +1,4 @@
-<p><a href="/img/k/kapr-kuzel.jpg">{obrazek soubor='kapr-kuzel.s.jpg' popisek='Kužel se stromečkem a kapry'}</a>Veselé vánoční svátky. Ať vám to lítá :^)<br />
+<p><a href="/img/k/kapr-kuzel.jpg">{obrazek soubor='kapr-kuzel.jpg' popisek='Kužel se stromečkem a kapry'}</a>Veselé vánoční svátky. Ať vám to lítá :^)<br />
 Petr
 </p>
 <h5>Další vánoční obrázky</h5>
