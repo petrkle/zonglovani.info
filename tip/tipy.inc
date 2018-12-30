@@ -21,7 +21,7 @@
 2010-04-26*Kam dál*/micky/3/kaskada.html#kam-dal*kam-dal.png*Na konci většiny stránek v žonglérově slabikáři najdeš odkazy na související triky.
 2010-05-03*Žonglérské míčky*/micky/druhy.html*pomeranc-nahled.jpg*Pořádný míček je základ úspěchu. Pořiď si proto takové, které se ti líbí a vyhovují.
 2010-05-10*Prozkoumej žonglérův slabikář*/mapa-stranek.html*kompas.png*<a href="https://zonglovani.info/mapa-stranek.html" title="Všechny stránky v žonglérově slabikáři.">Mapa stránek</a> obsahuje odkazy na všechny stránky v žonglérově slabikáři.
-2010-05-17*rec.juggling*/rec-juggling.html*rec.juggling.s.png*Celosvětová diskusní skupina o žonglování.
+2010-05-17*rec.juggling*/rec-juggling.html*rec.juggling.png*Celosvětová diskusní skupina o žonglování.
 2010-05-24*Interrobang*/video/interrobang.html*interrobang.jpg*Aaron DeWitt a Shane Miclon passují s kužely.
 2010-05-31*Hvězda*/kuzely/passing/star.html*kuzely-passing-stara.png*Passovací trik pro <strong>5 žonglérů</strong>. Někdy se mu také říká pětiúhelník.
 2010-06-07*Oheň a pohyb*/kalendar/udalost-20100705-20100711-pek-1268070475.html*ohen-a-pohyb.jpg*Žonglování, tanec, akrobacie, šerm, bubnování a mnoho dalšího. To všechno tě čeká na semináři Oheň a pohyb.
@@ -64,7 +64,7 @@
 2010-12-13*Návody na žonglování*/navody/*navod-tisk.png*Návody na žonglování a výrobu míčků ve formátu PDF. Vhodné pro tisk.
 2010-12-20*White balance*/video/white-balance.html*wbt.jpg*Balancování kuželek. Shane Miclon a Aaron DeWitt balancují s kužely.
 2010-12-21*Don Texas*/video/don-texas.html*dtt.jpg*Malte a Nils si hrají s míčky.
-2010-12-22*Veselé Vánoce*/vanoce-2010.html*vanocni-kometa.s.jpg*Veselé vánoční svátky. Ať vám to lítá :^)
+2010-12-22*Veselé Vánoce*/vanoce-2010.html*vanocni-kometa.jpg*Veselé vánoční svátky. Ať vám to lítá :^)
 2010-12-27*PF 2011*/pf-2011.html*pf-2011.png*Hodně štěstí a zdraví v novém roce. Ať vám to lítá :^)
 2011-01-03*Statistiky*/statistiky.html*podporaa.png*Trocha bilancování uplynulého roku. Podívej se kolik lidí používá žonglérův slabikář a na další statistiky.
 2011-01-04*Liquid Crystal*/video/liquid-crystal-live.html*matt-hennem.jpg*Představení Liquid Crystal - Matt Hennem na živo.
@@ -106,7 +106,7 @@
 2011-06-20*Mistrovství ČR ve fire performance*/kalendar/udalost-20110624-20110624-pek-1304157243.html*mcrfp2011.png*Ad infinitum a PVP team vyhlašují mistrovství ČR v žonglování a točení s ohněm.
 2011-06-22*Polná v plamenech*/kalendar/udalost-20110625-20110625-pek-1300568950.html*pvp2011.png*Druhý ročník festivalu ohně a žonglování. Koná se v Polné u Jihlavy.
 2011-06-27*Slovenská Úúú Letná Oslava Žonglovania*/kalendar/udalost-20110701-20110703-mizu-1300967085.html*suloz2011.jpg*Voľné stretnutie žonglérov a takých. Akcia je zdarma, každý si platí len ubytovanie v campe.
-2011-06-30*Žonglérův slabikář v mobilu*/mobil.html*mobil-xperia-w.s.jpg*Žonglérův slabikář je přizpůsobený prohlížení na mobilních telefonech.
+2011-06-30*Žonglérův slabikář v mobilu*/mobil.html*mobil-xperia-w.jpg*Žonglérův slabikář je přizpůsobený prohlížení na mobilních telefonech.
 2011-07-04*European Juggling Convention*/kalendar/ejc.html*ejc2011s.png*Evropské setkání žonglérů v Mnichově začíná za měsíc. Nejvyšší čas sehnat si odvoz do Německa.
 2011-07-11*Kytička*/video/navody/flourish-tutorial.html*flourish-tutorial.jpg*Video návod jak udělat při žonglování kytičku s kuželem.
 2011-07-18*Aleje*/kalendar/udalost-20110820-20110826-pek-1293471692.html*aleje-logo.jpg*Za měsíc začne 10. mezinárodní žonglérská a divadelní dílna Aleje 2011.
@@ -135,7 +135,7 @@
 2011-12-05*Vánoční žonglování*/kalendar/udalost-20111210-20111210-pek-1322138854.html*bratri.jpg*Volné předvánoční žonglování. Bude k dispozici velká tělocvična s ozvučením, žonglovací obchod Žongluj Imrvére a workshopy pro začátečníky.
 2011-12-11*Reading Roundabouts*/video/readingroundabouts.html*readingroundabouts.jpg*Passing jako na kolotoči.
 2011-12-14*Krabice*/micky/4/krabice.html*micky-4-krabiceb.png*Box se čtyřmi míčky.
-2011-12-19*Veselé Vánoce*/vanoce-2011.html*diabolo-sipek.s.jpg*Veselé vánoční svátky. Ať vám to lítá :^)
+2011-12-19*Veselé Vánoce*/vanoce-2011.html*diabolo-sipek.jpg*Veselé vánoční svátky. Ať vám to lítá :^)
 2011-12-21*Žonglérův slabikář na papíře*/obrazky/zongleruv-slabikar-na-papire-20111218/0000.html*zsp.jpg*Žonglérův slabikář si můžeš jednoduše vytisknout na papír. Ke stažení je PDF soubor o 151 stránkách. Devět z deseti žonglérů doporučuje oboustranný tisk a kroužkovou vazbu.
 2011-12-28*PF 2012*/pf-2012.html*snehulacek.png*Hodně štěstí a zdraví v novém roce. Ať vám to lítá :^)
 2012-01-02*Passování do všech rukou*/kuzely/passing/all-hands.html*kuzely-passing-allhandsc.png*Obtížnější trik pro dva žongléry a šest kuželů.
@@ -173,7 +173,7 @@
 2012-07-02*Aleje*/kalendar/udalost-20120825-20120831-pek-1333022216.html*aleje-logo.jpg*Za měsíc začne 11. mezinárodní žonglérská a divadelní dílna Aleje 2012.
 2012-07-09*Prohození kruhu pod nohou*/kruhy/3/noha.html*kruhy-3-nohaa.png*Jednoduchý a velmi efektní trik s kruhy.
 2012-07-16*Sbírání spadlých míčků*/micky/sbirani.html*micky-sbirania.png*Když ti spadne míček, nepřestávej žonglovat.
-2012-07-23*Obíhání*/kuzely/passing/runarounds.html*kuzely-runaroundsa.s.png*Runarounds - trik pro dva žongléry a tři kužely.
+2012-07-23*Obíhání*/kuzely/passing/runarounds.html*kuzely-runaroundsa.png*Runarounds - trik pro dva žongléry a tři kužely.
 2012-07-30*See saw*/micky/3/seesaw.html*seesawb.png*Krabice se třemi míčky.
 2012-08-01*Tribo fuego*/kalendar/udalost-20120808-20120808-pek-1343370681.html*tf-10let.jpg*10. výročí ohnivé skupiny Tribo Fuego.
 2012-08-09*Nad hlavou*/micky/3/nadhlavou.html*nadhlavoua.png*Žonglování s míčky a rukama nad hlavou.
@@ -182,7 +182,7 @@
 2012-08-20*Žonglérův slabikář pro Android*/g/android.app*android-juggling.png*Žonglérův slabikář je dostupný v obchodě Google Play. Učebnice žonglování zdarma do každého mobilu s Androidem.
 2012-08-27*Flaming nights*/kalendar/udalost-20120831-20120902-pek-1328721694.html*fn12.png*První ročník největšího hudebně-žonglérského open air festivalu v Česko-Slovensku.
 2012-09-03*1 count*/kuzely/passing/1count.html*kuzely-passing-1counta.png*Rychlé passování s kužely - ultimates.
-2012-09-10*Dva kužely v jedné ruce*/kuzely/grip.html*kuzely-grip-normal.s.png*Existují dva způsoby jak držet kužely před prvním výhozem.
+2012-09-10*Dva kužely v jedné ruce*/kuzely/grip.html*kuzely-grip-normal.png*Existují dva způsoby jak držet kužely před prvním výhozem.
 2012-09-17*Čtyři a sedm*/video/etc/elgringos.html*elgringos.jpg*Passing se čtyřmi a sedmi kužely ve finském Espoo.
 2012-09-24*Odražení míčku kolenem*/micky/3/koleno.html*kolenob.png*Snadný a velmi efektní trik. K jeho provedení jsou potřeba skákavé míčky.
 2012-10-01*Juggling Documentation*/video/etc/juggling-documentation.html*jd.jpg*Video z tréninku s kužely - hlavně balancování.
@@ -191,14 +191,14 @@
 2012-10-22*Tenis*/micky/4/tenis.html*micky-4-tenisc.png*Velmi obtížný trik se čtyřmi míčky.
 2012-10-29*Pražský žonglérský marathon*/kalendar/udalost-20121102-20121104-pek-1347737642.html*pzm2012.png*Čtvrtý ročník pražského žonglérského marathonu.
 2012-11-05*Fotky z PŽM 4*/obrazky/prazsky-zonglersky-marathon-20121103/0000.html*pzm4f.jpg*Fotografie ze čtvrtého ročníku pražského žonglérského marathonu.
-2012-11-12*Řada*/kuzely/passing/line.html*line-promo.png*Line - trik pro tři žongléry a devět kuželů.
+2012-11-12*Řada*/kuzely/passing/line.html*kuzely-passing-lineb.png*Line - trik pro tři žongléry a devět kuželů.
 2012-11-19*Rozhovor s FireshowJBC*/lide/rozhovor/fireshowjbc.html*fjbc.jpg*Rozhovor s ohnivou skupinou FireshowJBC.
-2012-11-26*Míček z tenisáku*/micky/vyroba-tenisak.html*levny-tenisak.s.jpg*Rychlý návod, jak vyrobit míček na žonglování z tenisáku a nafukovacích balónků.
+2012-11-26*Míček z tenisáku*/micky/vyroba-tenisak.html*levny-tenisak.jpg*Rychlý návod, jak vyrobit míček na žonglování z tenisáku a nafukovacích balónků.
 2012-12-03*Visual Juggling Promo*/video/etc/vjpromo.html*vjpromo.jpg*Upoutávka na žonglérské video Visual Juggling.
 2012-12-10*Flow*/video/levistick/flow.html*flow.jpg*Josefína ze skupiny Kinessis na pláži u moře.
 2012-12-17*Kříž*/micky/4/kriz.html*4krizc.png*Jak název napovídá, budeš tentokrát míčky házet křížem.
-2012-12-20*Veselé Vánoce*/vanoce-2012.html*micky-ve-snehu.s.jpg*Veselé vánoční svátky. Ať vám to lítá :^)
-2012-12-27*PF 2013*/pf-2013.html*diabolo-ve-snehu.s.jpg*Hodně štěstí a zdraví v novém roce. Ať vám to lítá :^)
+2012-12-20*Veselé Vánoce*/vanoce-2012.html*micky-ve-snehu.jpg*Veselé vánoční svátky. Ať vám to lítá :^)
+2012-12-27*PF 2013*/pf-2013.html*diabolo-ve-snehu.jpg*Hodně štěstí a zdraví v novém roce. Ať vám to lítá :^)
 2013-01-02*Passování s pivem*/kuzely/passing/pivo.html*bv.jpg*Trik pro tři žongléry s šesti kužely a lahví piva. Postupně si všichni tři házíte kuželky a předáváte láhev piva.
 2013-01-07*Brno juggling convention*/kalendar/udalost-20130111-20130113-pek-1351105142.html*bjc01.png*První ročník Brno Juggling Convention.
 2013-01-14*Préchac with my friends*/video/etc/prechac-wmf.html*prechac-wmf.jpg*Žonglování s míčky ve více lidech.
@@ -259,8 +259,8 @@
 2013-12-02*2 v 1 tenis*/micky/3/tenis-2v1.html*2v1tenisb.png*Trik se třemi míčky.
 2013-12-09*Plechové žonglování*/kalendar/udalost-20131215-20131215-pek-1385146013.html*plech-zongl.png*Žonglérské odpoledne v Plechárně. K žonglování budou hrát ostřílení djs.
 2013-12-16*The Black Sheep*/video/tip/the-black-sheep.html*the-black-sheep.jpg*Robin Spinelli v dvanáctiminutovém filmu o žonglování s diabolem.
-2013-12-23*Veselé Vánoce*/vanoce-2013.html*kapr-kuzel.s.jpg*Veselé vánoční svátky. Ať vám to lítá :^)
-2013-12-30*PF 2014*/pf-2014.html*rum-kuzel.s.jpg*Hodně štěstí a zdraví v novém roce. Ať vám to lítá :^)
+2013-12-23*Veselé Vánoce*/vanoce-2013.html*kapr-kuzel.jpg*Veselé vánoční svátky. Ať vám to lítá :^)
+2013-12-30*PF 2014*/pf-2014.html*rum-kuzel.jpg*Hodně štěstí a zdraví v novém roce. Ať vám to lítá :^)
 2014-01-06*Dust in the Chain*/video/tip/dust-in-the-chain.html*dust-in-the-chain.jpg*Trocha akrobatické cyklistiky v podání Yohanna Trepaniera.
 2014-01-13*Brno juggling convention*/kalendar/udalost-20140117-20140119-pek-1389338710.html*bjc02.png*Druhý ročník Brno Juggling Convention.
 2014-01-20*Unicycle*/video/tip/unicycle.html*uni-slack.jpg*S jednokolkou na slack-lině.
@@ -299,7 +299,7 @@
 2014-09-01*Mistrovství ČR v žonglování*/kalendar/udalost-20140905-20140907-pek-1407604370.html*mcr1.png*Přijďte si pořádně zažonglovat do Rosic u Brna.
 2014-09-08*Zkřížené ruce*/micky/3/zkrizene-ruce.html*rzkaskadaa.png*Žonglovat se dá i se zkříženýma rukama. Nejlépe se na to hodí reverzní kaskáda.
 2014-09-15*Jak začít žonglovat s kruhy*/kruhy/jak-zacit.html*kruhy-zacateka.png*Kruh je třeba při vyhození roztočit, aby letěl rovně.
-2014-09-22*Míček z balónků*/micky/vyroba-balonky.html*balonky-na-vyrobu-micku.s.jpg*Nejjednodušší je vyrobit míček na žonglování z nafukovacích balónků.
+2014-09-22*Míček z balónků*/micky/vyroba-balonky.html*balonky-na-vyrobu-micku.jpg*Nejjednodušší je vyrobit míček na žonglování z nafukovacích balónků.
 2014-09-29*Sprcha*/micky/4/sprcha.html*4sprchaa.png*Princip je stejný jako se třemi míčky. Je ale potřeba větší rychlost. Prvně se mi tento trik povedl až poté, co jsem začal trénovat kaskádu s pěti míčky. Dobrým tréninkem na tento trik je poloviční sprcha.
 2014-10-06*Oj - oj*/micky/3/ojoj.html*ojoja.png*Známé též jako australské jo-jo.
 2014-10-13*Multiplex*/micky/3/multiplex.html*micky-3-multiplexta.png*Vyhození několika míčků z jedné ruky - to je multiplex.
@@ -312,7 +312,7 @@
 2014-12-01*Orbit*/micky/3/orbit.html*micky-3-orbita.png*Orbit, někdy též nazývaný obtoč.
 2014-12-08*Nůžky*/kuzely/3/nuzky.html*kuzely-nuzkya.png*Překřížením dvou kuželů získáš "nůžky", do kterých můžeš chytit třetí kužel.
 2014-12-15*4 count*/kuzely/passing/4count.html*kuzely-passing-4count-rytmus.png*Základní způsob passování pro 2 žongléry a 6 kuželů. Každý 4. hod je pass. Házíš:
-2014-12-22*Veselé Vánoce*/vanoce-2014.html*kometa-kuzel.s.jpg*Veselé vánoční svátky. Ať vám to lítá :^)
+2014-12-22*Veselé Vánoce*/vanoce-2014.html*kometa-kuzel.jpg*Veselé vánoční svátky. Ať vám to lítá :^)
 2014-12-29*Sloupy*/micky/3/sloupy.html*sloupya.png*Sloupy s míčky jsou velmi rozmanitý trik. Toto je jeho základní provedení. Než ho začneš zkoušet, hodí se umět 2 v 1.
 2015-01-05*Neviditelný míček*/micky/3/neviditelny.html*micky-3-neviditelnya.png*Neviditelný míček nahrazuje obyčejný míček - hlavně když ti spadne. Získáš čas k sebrání míčku a nemusíš přestat žonglovat.
 2015-01-12*Zrychlená dvojka*/kuzely/passing/zrychlena-dvojka.html*kuzely-passing-zrychlenadvojkaa.png*Trik pro ozvláštnění 2 count nebo 4 count.
@@ -343,7 +343,7 @@
 2015-06-15*Aleje 2015*/kalendar/udalost-20150815-20150821-pek-1430386701.html*aleje-logo.jpg*14. mezinárodní žonglérská a divadelní dílna. Počet míst je omezen. Přihlaš se co nejdřív.
 2015-06-22*Polná v plamenech*/kalendar/udalost-20150627-20150627-pek-1421827020.html*polna15.jpg*Šestý ročník festivalu ohňových umění.
 2015-06-29*European Juggling Convention*/kalendar/ejc.html*ejc2015.png*Evropské setkání žonglérů v Brunecku začíná za měsíc. Nejvyšší čas sehnat si odvoz do Itálie.
-2015-07-06*Žonglérské pexeso*/pexeso/*zonglerske-pexeso.s.jpg*Supertěžké žonglérské pexeso.
+2015-07-06*Žonglérské pexeso*/pexeso/*zonglerske-pexeso.jpg*Supertěžké žonglérské pexeso.
 2015-07-13*Chrámové okno*/micky/3/okno.html*oknoa.png*Při tomto triku míčky létají vysokým úzkým obloukem, který připomíná obrys chrámového okna.
 2015-07-20*441*/micky/3/441.html*441a.png*Pěkný trik, ale dostat se do rytmu chvíli trvá.
 2015-07-27*Větrný mlýn*/micky/3/mlyn.html*mlyna.png*Míčky opisují stejnou dráhu jako při sprše, ale nepřesunují se z jedné ruky do druhé rychlým vodorovným hodem. Místo toho křížíš ruce a vyhazuješ míčky jen z jedné strany.
@@ -394,7 +394,7 @@
 2016-05-16*Falešné Mills' mess*/micky/3/mm-falesne.html*micky-3-mm-falesnea.png*Popsat tento trik je skoro stejně těžké jako se ho naučit. Takže hurá do toho!
 2016-05-23*Výměny ve čtvercích*/kuzely/passing/vymeny.html*vymenya.png*Trik pro čtyři žongléry s dvanácti kužely.
 2016-05-30*Jak začít žonglovat s míčky*/micky/jak-zacit.html*starta.png*Míčky jsou nejjednodušší náčiní. Snadno se hážou i chytají.
-2016-06-06*Výroba míčků na žonglování*/micky/vyroba.html*micek-z-balonku-3.s.jpg*S trochou šikovnosti lze vyrobit míčky pro žonglování doma na koleně.
+2016-06-06*Výroba míčků na žonglování*/micky/vyroba.html*micek-z-balonku-3.jpg*S trochou šikovnosti lze vyrobit míčky pro žonglování doma na koleně.
 2016-06-13*Synchronní fontána*/micky/4/fontana-synchronni.html*sfontanaa.png*Synchronní fontána je mírnou obměnou klasické fontány.
 2016-06-20*Kaskáda (multiplex)*/micky/5/kaskada-multiplex.html*5kaskadamultia.png*Kaskáda s pěti míčky je obtížný trik. Nezbývá tedy nic jiného, než si ji trochu usnadnit. Stačí vyhazovat dva míčky najednou.
 2016-06-27*Zvedání míčku nohou*/micky/kick-up.html*kickup-micky.png*Tento týden se naučíme zvedání míčku nohou. Podceňovaná a přitom klíčová dovednost.
@@ -405,10 +405,10 @@
 2016-08-01*Literatura*/literatura.html*encyclopaedia.jpg*Přehled nejlepších knížek o žonglování.
 2016-08-08*Passování s pivem*/kuzely/passing/pivo.html*bv.jpg*Trik pro tři žongléry s šesti kužely a lahví piva. Postupně si všichni tři házíte kuželky a předáváte láhev piva.
 2016-08-15*See saw*/micky/3/seesaw.html*seesawb.png*Krabice se třemi míčky.
-2016-08-22*Řada*/kuzely/passing/line.html*line-promo.png*Line - trik pro tři žongléry a devět kuželů.
+2016-08-22*Řada*/kuzely/passing/line.html*kuzely-passing-lineb.png*Line - trik pro tři žongléry a devět kuželů.
 2016-08-29*Sloupy II*/micky/4/sloupy-ii.html*4sloupyiib.png*Těžší varianta sloupů se čtyřmi míčky.
 2016-09-05*Otáčení kuželky okolo palce*/kuzely/toceni-okolo-palce.html*tocenib.png*Trik který můžeš trénovat i v místnostech s nízkým stropem.
-2016-09-12*Míček z tenisáku*/micky/vyroba-tenisak.html*levny-tenisak.s.jpg*Rychlý návod, jak vyrobit míček na žonglování z tenisáku a nafukovacích balónků.
+2016-09-12*Míček z tenisáku*/micky/vyroba-tenisak.html*levny-tenisak.jpg*Rychlý návod, jak vyrobit míček na žonglování z tenisáku a nafukovacích balónků.
 2016-09-19*Passování do všech rukou*/kuzely/passing/all-hands.html*kuzely-passing-allhandsc.png*Obtížnější trik pro dva žongléry a šest kuželů.
 2016-09-26*Kříž*/micky/4/kriz.html*4krizc.png*Jak název napovídá, budeš tentokrát míčky házet křížem.
 2016-10-03*Návody na žonglování*/navody/*navod-tisk.png*Návody na žonglování a výrobu míčků ve formátu PDF. Vhodné pro tisk.
@@ -416,7 +416,7 @@
 2016-10-17*Překulení kuželky přes hlavu*/kuzely/headroll.html*headrollc.png*Trik známý též pod anglickým názvem headroll.
 2016-10-24*3 count*/kuzely/passing/3count.html*kuzely-passing-3counta.png*Každý 3. hod je pass. Jako valčík, na tři doby.
 2016-10-31*Sbírání spadlých míčků*/micky/sbirani.html*micky-sbirania.png*Když ti spadne míček, nepřestávej žonglovat.
-2016-11-07*Obíhání*/kuzely/passing/runarounds.html*kuzely-runaroundsa.s.png*Runarounds - trik pro dva žongléry a tři kužely.
+2016-11-07*Obíhání*/kuzely/passing/runarounds.html*kuzely-runaroundsa.png*Runarounds - trik pro dva žongléry a tři kužely.
 2016-11-14*Kaskáda s pěti míčky*/micky/5/kaskada.html*5kaskadac.png*Návod na kaskádu s pěti míčky.
 2016-11-21*Krabice*/micky/4/krabice.html*micky-4-krabiceb.png*Box se čtyřmi míčky.
 2016-11-28*Odražení míčku kolenem*/micky/3/koleno.html*kolenob.png*Snadný a velmi efektní trik. K jeho provedení jsou potřeba skákavé míčky.
@@ -538,7 +538,7 @@
 2019-02-04*Překulení kuželky přes hlavu*/kuzely/headroll.html*headrollc.png*Trik známý též pod anglickým názvem headroll.
 2019-02-11*3 count*/kuzely/passing/3count.html*kuzely-passing-3counta.png*Každý 3. hod je pass. Jako valčík, na tři doby.
 2019-02-18*Sbírání spadlých míčků*/micky/sbirani.html*micky-sbirania.png*Když ti spadne míček, nepřestávej žonglovat.
-2019-02-25*Obíhání*/kuzely/passing/runarounds.html*kuzely-runaroundsa.s.png*Runarounds - trik pro dva žongléry a tři kužely.
+2019-02-25*Obíhání*/kuzely/passing/runarounds.html*kuzely-runaroundsa.png*Runarounds - trik pro dva žongléry a tři kužely.
 2019-03-04*Kaskáda s pěti míčky*/micky/5/kaskada.html*5kaskadac.png*Návod na kaskádu s pěti míčky.
 2019-03-11*Krabice*/micky/4/krabice.html*micky-4-krabiceb.png*Box se čtyřmi míčky.
 2019-03-18*Odražení míčku kolenem*/micky/3/koleno.html*kolenob.png*Snadný a velmi efektní trik. K jeho provedení jsou potřeba skákavé míčky.
