@@ -1,5 +1,5 @@
 <h3><a href="/kalendar/udalost-20190803-20190811-pek-1501654518.html" title="EJC 2019">3. 8. - 11. 8. 2019</a> Newark (GB)</h3>
-<p><a href="/kalendar/udalost-20190803-20190811-pek-1501654518.html" title="EJC 2019">{obrazek soubor='ejc2019.png' popisek='EJC 2019'}</a> European Juggling Convention je největší žonglérský festival v Evropě.</p>
+<p><a href="/kalendar/udalost-20190803-20190811-pek-1501654518.html" title="EJC 2019">{obrazek soubor='ejc-2019-poster.png' popisek='EJC 2019'}</a> European Juggling Convention je největší žonglérský festival v Evropě.</p>
 
 <h3><a href="/kalendar/udalost-20180728-20180805-pek-1501654891.html" title="EJC 2018">28. 7. - 5. 8. 2018</a> Azory (P)</h3>
 <p><a href="/kalendar/udalost-20180728-20180805-pek-1501654891.html" title="EJC 2018">{obrazek soubor='ejc2018.png' popisek='EJC 2018'}</a> European Juggling Convention je největší žonglérský festival v Evropě.</p>

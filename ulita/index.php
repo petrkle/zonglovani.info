@@ -27,6 +27,7 @@ $smarty->assign('dalsi', $dalsi);
 
 $smarty->assign('podzim', to_ulita($podzim));
 $smarty->assign('jaro', to_ulita($jaro));
+$smarty->assign('stylwidth', IMG_CSS_WIDTH);
 
 $smarty->display('hlavicka.tpl');
 $smarty->display('ulita.tpl');
