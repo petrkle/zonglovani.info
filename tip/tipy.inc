@@ -149,7 +149,7 @@
 2012-02-27*Fotky z Ulity*/obrazky/ulita-20120226/0000.html*3up.jpg*Fotky z nedělního žonglování v Ulitě. Díky všem, kdo dorazili. Příští Ulita je za tři týdny.
 2012-03-01*Juggling session*/kalendar/udalost-20120304-20120304-pek-1328807281.html*blink.jpg*Žonglování v dočasném klubu Blink.
 2012-03-05*Druhy hodů při passování*/kuzely/passing/hody.html*kuzely-passing-hodyg.png*Kužely lze házet mnoha různými způsoby.
-2012-03-08*Mezinárodní den žen*/mdz/*mdz.png*Oslavte mezinárodní den žen žonglováním.
+2012-03-08*Mezinárodní den žen*/mdz/*heart-juggling.png*Oslavte mezinárodní den žen žonglováním.
 2012-03-09*Fina magic*/video/levistick/fina-magic.html*fina-magic.jpg*Kinessis je skupina zabývající se přetvářením reality k obrazu svému a úžasu našemu.
 2012-03-12*Žonglování v Ulitě*/ulita/?20120205*ulita.cz.png*Pravidelné nedělní žonglování v DDM Ulita. Přijít mohou začínající i zkušení žongléři a žonglérky.
 2012-03-19*Simulátory žonglování*/software.html*joepass.png*Počítačové programy, které po zadání triku v zobrazí animaci. Vhodné při učení nových triků.
@@ -207,13 +207,13 @@
 2013-02-04*Žonglování na ledě*/kalendar/udalost-20130208-20130208-pek-1353529655.html*zongl-led.jpg*Tradiční zimní taškařice cirkusu LeGrando.
 2013-02-10*La Pequeña Rosa*/video/etc/pequena-rosa.html*pequena-rosa.jpg*Světový rekord v balancování míčku na hlavě a současném točení s hula-hop kruhy.
 2013-02-11*Woko vol.2*/kalendar/udalost-20130217-20130217-pek-1359924238.html*woko2.png*Druhá žonglérská dílna v klubu Woko. Zve FireshowJBC.
-2013-02-14*Svátek svatého Valentýna*/valentyn/*mdz.png*Dnes je svátek všech zamilovaných. Ideální čas pro žonglování v páru.
+2013-02-14*Svátek svatého Valentýna*/valentyn/*heart-juggling.png*Dnes je svátek všech zamilovaných. Ideální čas pro žonglování v páru.
 2013-02-15*Give Me Your Tricks*/video/etc/gmyt-ejc2013-1.html*gmyt-ejc2013-1.jpg*První ze čtyř upoutávek na EJC 2013. Už se těšíte?
 2013-02-18*Sobotní trénink*/kalendar/udalost-20130223-20130223-pek-1360768310.html*f.png*Sobotní trénink žonglování v Praze. Zkušení lektoři, půjčovna žonglovátek a dobrá hudba.
 2013-02-24*Diabolo u moře*/obrazky-na-plochu/bolo-more.html*bolo-more.jpg*Červené diabolo Henrys Cirkus na břehu středozemního moře. Tapeta na plochu počítače s žonglérskou tématikou.
 2013-02-25*Víkend plný žonglování*/kalendar/udalost-20130302-20130303-pek-1361288677.html*vpz2.jpg*Už druhý víkend plný žonglování.
 2013-03-04*Šest míčků*/micky/6/*micky-6-fontanaa.png*Základní trik se šesti míčky.
-2013-03-08*Mezinárodní den žen*/mdz/*mdz.png*Jaro je plné dívčích svátků. Oslavte mezinárodní den žen žonglováním.
+2013-03-08*Mezinárodní den žen*/mdz/*heart-juggling.png*Jaro je plné dívčích svátků. Oslavte mezinárodní den žen žonglováním.
 2013-03-09*Lorgnejus*/video/etc/lorgnejus.html*lorgnejus.jpg*Hrátky s míčky, kužely a světlem.
 2013-03-11*Žonglérské vizitky*/download/vizitky.html*package-vizitky.png*Vizitky žonglérova slabikáře. Tiskněte a rozšiřujte :-)
 2013-03-18*Animace siteswapů*/animace/siteswap/*siteswapb.png*Animované ztvárnění siteswapů s míčky.
@@ -322,7 +322,7 @@
 2015-02-09*Žonglování na ledě*/kalendar/udalost-20150213-20150213-pek-1422565035.html*zongl-led15.png*Tradiční zimní taškařice cirkusu LeGrando.
 2015-02-16*Trénink*/trenink.html*trenink-navoda.png*Žonglovat se nenaučíš nějakým kouzlem nebo protože máš talent, ale tréninkem. Prostě to zkoušíš tak dlouho až se ti to povede.
 2015-02-23*3 + 2*/micky/5/64.html*64a.png*Na první pohled snadné, avšak velmi obtížné. Pravá a levá ruka žonglují v různém rytmu.
-2015-03-02*Mezinárodní den žen*/mdz/*mdz.png*Oslavte mezinárodní den žen žonglováním.
+2015-03-02*Mezinárodní den žen*/mdz/*heart-juggling.png*Oslavte mezinárodní den žen žonglováním.
 2015-03-09*Hození kuželu pod nohou*/kuzely/3/podnohou.html*kuzely-3-nohaa.png*Jednoduchý trik vhodný i pro začátečníky.
 2015-03-16*Reverzní kaskáda široká*/micky/3/kaskada-reverzni-siroka.html*srkaskadaa.png*Široká reverzní kaskáda vychází z reverzní kaskády.
 2015-03-23*Boston circle*/kuzely/passing/bostoncircle.html*kuzely-passing-boston4h.png*Trik, při kterém passuje každý s každým. Dokonce i sám se sebou. Známý též pod názvem hodiny.
@@ -377,7 +377,7 @@
 2016-01-25*Žonglérské náčiní*/nacini.html*nacinia.png*Žonglovat můžeš se spoustou věcí. A mnoha různými způsoby.
 2016-02-01*Vyhození do výšky*/diabolo/vyhozeni-do-vysky.html*diabolo-vyhozenia.png*Roztáhni ruce s hůlkami do stran.
 2016-02-08*Brno juggling convention*/kalendar/udalost-20160212-20160214-pek-1444244758.html*bjc02.png*Mezinárodní nekonvenční festival s přátelskou atmosférou.
-2016-02-14*Svátek svatého Valentýna*/valentyn/*mdz.png*Svátek všech zamilovaných je ideální čas pro žonglování v páru.
+2016-02-14*Svátek svatého Valentýna*/valentyn/*heart-juggling.png*Svátek všech zamilovaných je ideální čas pro žonglování v páru.
 2016-02-15*Žirafa*/micky/3/zirafa.html*sochaa.png*Žirafa je vlastně poloviční sprcha s jednou rukou nahoře. Jiný název pro tento trik je socha svobody.
 2016-02-22*Balancování kuželu*/kuzely/balanc.html*kuzely-balanca.png*S kužely se nemusí jenom házet. Můžeš je balancovat na bradě, nose, špičce boty, ...
 2016-02-29*Sprcha*/micky/3/sprcha.html*sprchaa.png*Sprcha je asi nejznámější způsob žonglování. Není ale vůbec snadné se ji naučit. Zkus se nejprve naučit poloviční sprchu.
@@ -431,14 +431,14 @@
 2017-01-30*Hvězda*/kuzely/passing/star.html*kuzely-passing-stara.png*Passovací trik pro <strong>5 žonglérů</strong>. Někdy se mu také říká pětiúhelník.
 2017-02-06*Neúplná hvězda*/kuzely/passing/prebihani4z11k.html*kuzely-passing-prebihani4z11kc.png*Občas není dostatek žonglérů na úplnou <a href="https://zonglovani.info/kuzely/passing/star.html" title="Trik pro 5 žonglérů.">hvězdu</a> a pak je potřeba trochu běhat.
 2017-02-13*Rybičky*/kuzely/3/rybicky.html*rybickab.png*Obtížný způsob házení kuželů. Anglicky označovaný flat.
-2017-02-14*Svátek svatého Valentýna*/valentyn/*mdz.png*Svátek všech zamilovaných je ideální čas pro žonglování v páru.
+2017-02-14*Svátek svatého Valentýna*/valentyn/*heart-juggling.png*Svátek všech zamilovaných je ideální čas pro žonglování v páru.
 2017-02-15*Take It Out 3*/video/take-it-out-3.html*take-it-out3.jpg*Video, kde si Lukas Schütte a Christof Buch přebírají kužely.
 2017-02-20*501*/micky/2/501.html*501b.png*Cvičení se dvěma míčky. Může posloužit i jako trénink na kaskádu s pěti míčky.
 2017-02-27*Instalace žonglérova slabikáře*/download*download.png*Nainstaluj si žonglérův slabikář do počítače. Zjednodušená verze která jde používat i bez připojení k internetu. 
 2017-03-06*Chůdy*/chudy/*cirkusc.png*Diváci milují chůdy. Hlavně proto, že jsou zvědaví kdy chůdař spadne a šeredně si natluče. <a href="https://zonglovani.info/chudy/" title="Návod na výrobu chůd.">Návod na výrobu chůd</a>.
 2017-03-13*Poloviční sprcha*/micky/4/sprcha-polovicni.html*p4sprchac.png*Poloviční sprcha se čtyřmi míčky.
 2017-03-20*Neta Oren*/video/neta-oren.html*neta-oren-balls.jpg*Neta Oren z Izraele to s míčky opravdu umí.
-2017-03-27*Kalendář žonglérských akcí*/kalendar/*kalendar-nahled.png*Přehledný seznam míst, kde by správný žonglér neměl chybět. I ty můžeš přidat svojí akci.
+2017-03-27*Kalendář žonglérských akcí*/kalendar/*kalendar-zonglovani.png*Přehledný seznam míst, kde by správný žonglér neměl chybět. I ty můžeš přidat svojí akci.
 2017-04-03*Proč a jak vznikl žonglérův slabikář*/proc-a-jak.html*budik.jpg*Trocha historie
 2017-04-10*Smodje 1*/video/metlili/smodje1.html*smodje1.jpg*Žonglování s míčky a balancování na hlavě.
 2017-04-17*Čtverec*/kuzely/passing/box.html*kuzely-passing-boxa.png*Jednoduchý trik pro čtyři žongléry a dvanáct kuželů.
@@ -452,7 +452,7 @@
 2017-06-12*Hvězda*/kuzely/passing/star.html*kuzely-passing-stara.png*Passovací trik pro <strong>5 žonglérů</strong>. Někdy se mu také říká pětiúhelník.
 2017-06-19*Odborné texty o žonglování*/odborne-texty.html*slovnik.jpg*Žonglování je občas věda.
 2017-06-26*Hula Hoop - Jade Dussault*/video/jade-dussault.html*jade-dussault.jpg*Točení s hula-hop kruhem. Upoutávka na Turbofest 418.
-2017-07-03*Circus Culture Fest*/kalendar/udalost-20170707-20170709-kotil-1498815655.html*ccf17.png*Setkání žonglérů a cirkusáků na pláži v Mlékojedech.
+2017-07-03*Circus Culture Fest*/kalendar/udalost-20170707-20170709-kotil-1498815655.html*ccf17.jpg*Setkání žonglérů a cirkusáků na pláži v Mlékojedech.
 2017-07-10*Použij nohy*/micky/nohy.html*kickup-micky.png*Nikomu se nechce věčně shýbat pro spadlé míčky. A skutečně se tomu lze vyhnout.
 2017-07-17*Kaskáda*/kruhy/3/kaskada.html*kruhy-3-kaskadab.png*Kaskáda se třemi kruhy.
 2017-07-24*Juggling Zombie Day*/video/etc/zombie-day.html*zombie-day.jpg*Žonglující zombie.
