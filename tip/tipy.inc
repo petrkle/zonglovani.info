@@ -202,7 +202,7 @@
 2013-01-02*Passování s pivem*/kuzely/passing/pivo.html*bv.jpg*Trik pro tři žongléry s šesti kužely a lahví piva. Postupně si všichni tři házíte kuželky a předáváte láhev piva.
 2013-01-07*Brno juggling convention*/kalendar/udalost-20130111-20130113-pek-1351105142.html*bjc01.png*První ročník Brno Juggling Convention.
 2013-01-14*Préchac with my friends*/video/etc/prechac-wmf.html*prechac-wmf.jpg*Žonglování s míčky ve více lidech.
-2013-01-21*Pes a kužel*/obrazky-na-plochu/pes-a-kuzel.html*don-s-kuzelkou.jpg*Malý černý pes a bílý kužel Henrys Pirruete. Tapeta na plochu počítače s žonglérskou tématikou.
+2013-01-21*Pes a kužel*/obrazky-na-plochu/pes-a-kuzel.html*pes-a-kuzel.jpg*Malý černý pes a bílý kužel Henrys Pirruete. Tapeta na plochu počítače s žonglérskou tématikou.
 2013-01-28*Sloupy II*/micky/4/sloupy-ii.html*4sloupyiib.png*Těžší varianta sloupů se čtyřmi míčky.
 2013-02-04*Žonglování na ledě*/kalendar/udalost-20130208-20130208-pek-1353529655.html*zongl-led.jpg*Tradiční zimní taškařice cirkusu LeGrando.
 2013-02-10*La Pequeña Rosa*/video/etc/pequena-rosa.html*pequena-rosa.jpg*Světový rekord v balancování míčku na hlavě a současném točení s hula-hop kruhy.
