@@ -55,7 +55,7 @@ Sleduj žonglérův slabikář přes <a href="/rss.html">RSS</a> - žádná Ulit
 
 <h3><a href="cesta.html" title="Podrobný popis cesty.">Místo konání</a></h3>
 <p>
-<a href="cesta.html" title="Ulita - dům dětí a mládeže">{obrazek soubor='ulita.cz.png' popisek='Ulita'}</a>
+<a href="cesta.html" title="Ulita - dům dětí a mládeže">{obrazek soubor='ulitalogo.png' popisek='Ulita'}</a>
 <span class="location">Na Balkáně 17a, Praha 3, 130 00</span><br />
 <a href="https://mapy.cz/s/2W52y" title="Místo konání na mapě." class="external">Zobrazit na mapě</a><br />
 <a href="cesta.html" title="Jak se dostat do Ulity">Popis cesty</a><br />

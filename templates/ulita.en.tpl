@@ -57,7 +57,7 @@ E-mail: {$mail|mailobfuscate}
 <hr />
 <h3>Contributors</h3>
 <p>
-<a href="http://www.ulita.cz" title="Ulita - house of children and youth">{obrazek soubor='ulita.cz.png' popisek='Ulita'}</a>
+<a href="http://www.ulita.cz" title="Ulita - house of children and youth">{obrazek soubor='ulitalogo.png' popisek='Ulita'}</a>
 Place is provided by <a href="http://www.ulita.cz" class="external" title="Ulita - house of children and youth">Ulita</a>, Prague.
 </p>
 

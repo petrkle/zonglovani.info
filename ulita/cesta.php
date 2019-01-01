@@ -11,6 +11,8 @@ $trail = new Trail();
 $trail->addStep('Žonglování v Ulitě', '/ulita/');
 $trail->addStep('Místo konání');
 
+$smarty->assign('stylwidth', IMG_CSS_WIDTH);
+$smarty->assign('nahled', 'https://'.$_SERVER['SERVER_NAME'].'/img/u/ulitalogo.png');
 $smarty->assign('trail', $trail->path);
 $smarty->display('hlavicka.tpl');
 $smarty->display('ulita.cesta.tpl');
