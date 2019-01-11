@@ -1,4 +1,4 @@
-VERSION=$(shell cat VERSION).0
+VERSION=$(shell cat VERSION)
 
 help:
 	@echo "help     - napoveda"

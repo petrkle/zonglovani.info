@@ -7,7 +7,6 @@
 <p><a href="{$downloads.$typ.versions[0].filename|escape}" title="{$downloads.$typ.versions[0].filename|escape}" rel="nofollow">{obrazek soubor=$downloads.$typ.versions[0].img popisek=$downloads.$typ.versions[0].filename}</a>{$downloads.$typ.versions[0].description}</p>
 <ul class="szn">
 <li>Velikost: {$downloads.$typ.versions[0].size|escape}</li>
-<li>Licence: {if $typ == 'wordpress'}GPL3{else}<a href="licence.html" title="CC BY-ND 3.0 - soubor smíte šířit.">CC BY-ND</a>{/if}</li>
 <li><a href="{$typ}.html" title="Podrobnosti o ostažení {$typ}">Podrobnosti &raquo;</a></li>
 </ul>
 {if $typ == 'mobi'}

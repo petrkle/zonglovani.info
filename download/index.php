@@ -137,7 +137,7 @@ function get_download_info($filename)
 {
     $xml = simplexml_load_file('./versions/'.$filename);
     $download = array();
-    $elements = array('version', 'filename', 'md5', 'date', 'img', 'size', 'qr');
+    $elements = array('version', 'filename', 'date', 'img', 'size', 'qr');
 
     foreach ($xml->release as $release) {
         $foo = array();

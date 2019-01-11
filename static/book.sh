@@ -9,8 +9,10 @@ rm -rf $OUTDIR
 [ -d $OUTDIR ] || cp -r $INDIR $OUTDIR
 
 cp obalka.png $OUTDIR
-cp zaver.html $INDIR
-cat aktualizace.html | sed "s/RELEASE_VERSION/$1/;s/RELEASE_DATE/`date '+%d. %m. %Y' | sed "s/^0//;s/\. 0/. /"`/" > $INDIR/aktualizace.html
+cp pdf/obrazky/cc-by-nd.png $OUTDIR/img/c/
+cp podekovani.html $INDIR
+cp licence.html $INDIR
+cat aktualizace.html | sed "s/RELEASE_VERSION/$1/;s/RELEASE_DATE/`date '+%-d. %-m. %Y'`/" > $INDIR/aktualizace.html
 
 echo '
 <html><head>
@@ -83,7 +85,8 @@ do
 
 	cat $INDIR/$FILE | \
 	sed /'<!-- start -->'/,/'<!-- stop -->'/d |\
-	sed /'<\?xml.*>'/,/'<div id="obsah">'/d |\
+	sed /'<!-- startebook -->'/,/'<!-- stopebook -->'/d |\
+	sed /'<!DOCTYPE.*>'/,/'<div id="obsah">'/d |\
 	sed /'<p class="drobky">'/,/'<\/p>'/d |\
 	sed /'<div class="kamdal">'/,/'<\/html>'/d |\
 	sed /'<!-- obsah konec -->'/,/'<\/html>'/d |\
@@ -115,9 +118,9 @@ echo '
 	</navPoint>
 	<!--<navPoint class="appendix" id="appendix" playOrder="$PO">
 		<navLabel>
-			<text>Závěr</text>
+			<text>Doslov</text>
 		</navLabel>
-		<content src="zaver.html"/>
+		<content src="podekovani.html"/>
 	</navPoint>-->
   </navMap>
 </ncx>
