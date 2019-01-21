@@ -31,15 +31,15 @@
 	<meta name="msapplication-task" content="name=Novinky;action-uri=/novinky/;icon-uri=/img/n/news.ico" />
 	<meta name="msapplication-task" content="name=Kalendář žonglování;action-uri=/kalendar/;icon-uri=/img/k/kal.ico" />
 	<meta name="msapplication-task" content="name=Seznam žonglérů;action-uri=/lide/;icon-uri=/img/l/lide.ico" />
-	<link rel="author" href="/kontakt.html" />
-	<link rel="glossary" href="/mapa-stranek.html" />
-	<link rel="index" href="/" />
-	<link rel="help" href="/faq.html" />
-	<link rel="start" href="/" />
-	<link rel="search" href="/vyhledavani/" />
+	<link rel="author" href="https://{$smarty.server.HTTP_HOST|escape}/kontakt.html" />
+	<link rel="glossary" href="https://{$smarty.server.HTTP_HOST|escape}/mapa-stranek.html" />
+	<link rel="index" href="https://{$smarty.server.HTTP_HOST|escape}/" />
+	<link rel="help" href="https://{$smarty.server.HTTP_HOST|escape}/faq.html" />
+	<link rel="start" href="https://{$smarty.server.HTTP_HOST|escape}/" />
+	<link rel="search" href="https://{$smarty.server.HTTP_HOST|escape}/vyhledavani/" />
 	<meta name="viewport" content="width=device-width" />
 	<meta name="robots" content="{if isset($robots)}{$robots|escape}{else}index,follow{/if}" />
 	<link rel="alternate" title="Kalendář žonglování" href="https://{$smarty.server.SERVER_NAME}{$smarty.const.CALENDAR_URL}kalendar.rss" type="application/rss+xml" />
 	<link rel="alternate" title="Tip týdne pro žongléry" href="https://{$smarty.server.SERVER_NAME}/tip/tip.rss" type="application/rss+xml" />
 	<meta name="theme-color" content="#ffdd33">
-	<link rel="manifest" href="/manifest.json">
+	<link rel="manifest" href="https://{$smarty.server.HTTP_HOST|escape}/manifest.json">

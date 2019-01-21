@@ -37,9 +37,9 @@
 	<link rel="previewimage" href="{$nahled|escape}" />
 	<meta property="og:image" content="{$nahled|escape}" />
 {else}
-	<link rel="image_src" href="/img/l/logo.png" />
-	<link rel="previewimage" href="/img/l/logo.png" />
-	<meta property="og:image" content="/img/l/logo.png" />
+	<link rel="image_src" href="https://{$smarty.server.HTTP_HOST|escape}/img/l/logo.png" />
+	<link rel="previewimage" href="https://{$smarty.server.HTTP_HOST|escape}/img/l/logo.png" />
+	<meta property="og:image" content="https://{$smarty.server.HTTP_HOST|escape}/img/l/logo.png" />
 {/if}
 
 <meta property="og:title" content="{$titulek|escape}" />
