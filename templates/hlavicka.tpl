@@ -35,10 +35,17 @@
 {if isset($nahled)}
 	<link rel="image_src" href="{$nahled|escape}" />
 	<link rel="previewimage" href="{$nahled|escape}" />
+	<meta property="og:image" content="{$nahled|escape}" />
 {else}
 	<link rel="image_src" href="/img/l/logo.png" />
 	<link rel="previewimage" href="/img/l/logo.png" />
+	<meta property="og:image" content="/img/l/logo.png" />
 {/if}
+
+<meta property="og:title" content="{$titulek|escape}" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://{$smarty.server.HTTP_HOST|escape}{$smarty.server.REQUEST_URI|escape}" />
+<meta property="og:description" content="{if isset($description)}{$description|escape}{elseif isset($nadpis)}{$nadpis|escape} - žonglérův slabikář{else}Žonglérův slabikář - obrázková učebnice žonglování.{/if}" />
 
 </head>
 <body>
