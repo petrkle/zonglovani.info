@@ -89,5 +89,5 @@ const USERFILES = array(
 'registrace.txt',
 );
 
-define('CSS_CHKSUM', '1241130989');
+define('CSS_CHKSUM', '1630720692');
 define('JS_CHKSUM', '2391363690');
