@@ -32,6 +32,7 @@ $smarty->setConfigDir($lib.'./configs');
 $smarty->setCacheDir(ZS_DIR.'/tmp/cache');
 $smarty->setCompileDir(ZS_DIR.'/tmp/templates_c');
 $smarty->addPluginsDir($lib.'/plugins_user');
+$smarty->assign('currenturl', parse_url('https://'.$_SERVER['HTTP_HOST'].$_SERVER["REQUEST_URI"]));
 
 define('CALENDAR_URL', '/kalendar/');
 define('CALENDAR_ROOT', $lib.'/calendar/');
