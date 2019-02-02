@@ -35,7 +35,7 @@ Můžeš zveřejnit i své telefonní číslo. Vhodné zejména pro žongléry, 
 <h3>Soukromí</h3>
 <p>
 <a href="/img/e/exkurze-soukr.png">{obrazek soubor='exkurze-soukr.png' popisek=''}</a>
-Většina údajů je nepovinná. Na tvůj email nebude chodit žádný spam. Jde nastavit posílání vzkazů přes formulář.
+Většina údajů je nepovinná. Na tvůj email nebude chodit žádný spam.
 </p>
 
 <h3>Nastavení účtu</h3>
