@@ -542,12 +542,12 @@
 2019-03-04*Kaskáda s pěti míčky*/micky/5/kaskada.html*5kaskadac.png*Návod na kaskádu s pěti míčky.
 2019-03-11*Krabice*/micky/4/krabice.html*micky-4-krabiceb.png*Box se čtyřmi míčky.
 2019-03-18*Odražení míčku kolenem*/micky/3/koleno.html*kolenob.png*Snadný a velmi efektní trik. K jeho provedení jsou potřeba skákavé míčky.
-2019-03-25*
-2019-04-01*
-2019-04-08*
-2019-04-15*
-2019-04-22*
-2019-04-29*
+2019-03-25*2 v 1*/micky/2/2v1.html*2v1a.png*2 v 1 je základní trik se dvěma míčky. Nauč se ho pravou i levou rukou a už vlastně umíš žonglovat čtyřmi míčky.
+2019-04-01*Pass pod nohou*/kuzely/passing/podnohou.html*passpodnohoua.png*Kuželku při passování můžeš hodit pod nohou. Nejjednodušší je při passování pravou rukou házet pod pravou nohou.
+2019-04-08*Dvojité jo-jo*/micky/3/dvojite-jojo.html*micky-3-djojoa.png*První a druhý míček tvoří jo-jo.
+2019-04-15*Jeden a půl otočky*/kuzely/3/jeden-a-pul-otocky.html*jeden-a-pula.png*Obtížnější trik se třemi kužely.
+2019-04-22*Prohození míčku pod nohou*/micky/2/noha.html*2v1nohaa.png*V pravé ruce prováděj 2 v 1. První míček vyhoď o trochu výš.
+2019-04-29*Čáp*/micky/3/cap.html*capa.png*Při tomto triku stojíš jen na jedné noze jako čáp. Nejedná se o nic jiného než o opakované prohození míčku pod nohou.
 2019-05-06*
 2019-05-13*
 2019-05-20*
