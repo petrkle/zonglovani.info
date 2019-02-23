@@ -10,12 +10,6 @@ Návody na žonglování s kužely.
 Abryho stránky o žonglování. Animace žonglování s míčky. Doplněné krátkými popisky.
 </p>
 
-<a name="fireshow"></a><h5><a href="http://fireshow.cz" title="Server který hoří." class="external">fireshow.cz</a></h5>
-<p>
-<a href="http://fireshow.cz" title="Server který hoří.">{obrazek soubor="odkazy-fireshow.jpg" popisek="fireshow.cz"}</a>
-Stránky o žonglování s ohněm.
-</p>
-
 <a name="bratrivtricku"></a><h5><a href="http://www.bratrivtricku.cz/" title="Bratři v tricku" class="external">bratrivtricku.cz</a></h5>
 <p>
 <a href="http://www.bratrivtricku.cz/" title="Bratři v tricku">{obrazek soubor="odkazy-bratrivtricku.jpg" popisek="bratrivtricku.cz"}</a>
@@ -57,12 +51,6 @@ Skupina žonglérů, kteří milují oheň.
 <p>
 <a href="http://legrando.cz/" title="Cirkus LeGrando">{obrazek soubor="odkazy-legrando.jpg" popisek="legrando.cz"}</a>
 Cirkus pro děti a mládež.
-</p>
-
-<a name="zonglovanie"></a><h5><a href="http://www.zonglovanie.ariesa.sk" title="Slovenský server." class="external">zonglovanie.ariesa.sk</a></h5>
-<p>
-<a href="http://www.zonglovanie.ariesa.sk" title="Slovenský server.">{obrazek soubor="odkazy-ariesa.jpg" popisek="zonglovanie.ariesa.sk"}</a>
-Skvělá <a href="literatura.html" title="Další literatura o žonglování.">učebnice žonglování</a> pro samouky. Dostupná ve formátu pdf.
 </p>
 
 <a name="mizu"></a><h5><a href="http://juggle.sk" title="Slovenský server." class="external">juggle.sk</a></h5>
