@@ -101,7 +101,7 @@ class calendar_Minute extends Calendar
         $sIM = $this->cE->getSecondsInMinute(
             $this->year,
             $this->month,
-                $this->day,
+            $this->day,
             $this->hour,
             $this->minute
         );

@@ -101,7 +101,7 @@ class calendar_Hour extends Calendar
             $this->year,
             $this->month,
             $this->day,
-                           $this->hour
+            $this->hour
         );
         for ($i = 0; $i < $mIH; ++$i) {
             $this->children[$i] =
@@ -109,7 +109,7 @@ class calendar_Hour extends Calendar
                     $this->year,
                     $this->month,
                     $this->day,
-                           $this->hour,
+                    $this->hour,
                     $i
                 );
         }

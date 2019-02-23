@@ -55,7 +55,7 @@ if ($rss) {
     }
 
     $smarty->assign(
-    'page_numbers',
+        'page_numbers',
         array(
         'current' => $pager->getCurrentPageID(),
         'total' => $pager->numPages(),

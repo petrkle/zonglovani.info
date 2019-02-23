@@ -150,9 +150,9 @@ class calendar_Month_Weekdays extends Calendar_Month
         for ($i = 0; $i < $eBefore; ++$i) {
             $stamp = $this->cE->dateToStamp($this->year, $this->month, -$i);
             $Day = new Calendar_Day(
-                                $this->cE->stampToYear($stamp),
-                                $this->cE->stampToMonth($stamp),
-                                $this->cE->stampToDay($stamp)
+                $this->cE->stampToYear($stamp),
+                $this->cE->stampToMonth($stamp),
+                $this->cE->stampToDay($stamp)
             );
             $Day->setEmpty();
             $Day->adjust();

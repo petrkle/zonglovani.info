@@ -659,9 +659,9 @@ if (is_logged()) {
 } else {
     if (isset($_GET['uprav'])) {
         $uprav = $_GET['uprav'];
-		}else{
-			$uprav = '';
-		}
+    } else {
+        $uprav = '';
+    }
     header('Location: '.LIDE_URL.'prihlaseni.php?next='.LIDE_URL.'nastaveni/'.$uprav.'&notice');
     exit();
 }

@@ -780,13 +780,13 @@ class Pager_Common
 
             return sprintf(
                 '<a href="%s"%s%s%s%s title="%s">%s</a>',
-                           htmlentities($this->_url.$href, ENT_COMPAT, 'UTF-8'),
-                           empty($this->_classString) ? '' : ' '.$this->_classString,
-                           empty($this->_attributes) ? '' : ' '.$this->_attributes,
-                           empty($this->_accesskey) ? '' : ' accesskey="'.$this->_linkData[$this->_urlVar].'"',
-                           empty($onclick) ? '' : ' onclick="'.$onclick.'"',
-                           $altText,
-                           $linkText
+                htmlentities($this->_url.$href, ENT_COMPAT, 'UTF-8'),
+                empty($this->_classString) ? '' : ' '.$this->_classString,
+                empty($this->_attributes) ? '' : ' '.$this->_attributes,
+                empty($this->_accesskey) ? '' : ' accesskey="'.$this->_linkData[$this->_urlVar].'"',
+                empty($onclick) ? '' : ' onclick="'.$onclick.'"',
+                $altText,
+                $linkText
             );
         } elseif ($this->_httpMethod == 'POST') {
             $href = $this->_url;
@@ -796,12 +796,12 @@ class Pager_Common
 
             return sprintf(
                 "<a href='javascript:void(0)' onclick='%s'%s%s%s title='%s'>%s</a>",
-                           $this->_generateFormOnClick($href, $this->_linkData),
-                           empty($this->_classString) ? '' : ' '.$this->_classString,
-                           empty($this->_attributes) ? '' : ' '.$this->_attributes,
-                           empty($this->_accesskey) ? '' : ' accesskey=\''.$this->_linkData[$this->_urlVar].'\'',
-                           $altText,
-                           $linkText
+                $this->_generateFormOnClick($href, $this->_linkData),
+                empty($this->_classString) ? '' : ' '.$this->_classString,
+                empty($this->_attributes) ? '' : ' '.$this->_attributes,
+                empty($this->_accesskey) ? '' : ' accesskey=\''.$this->_linkData[$this->_urlVar].'\'',
+                $altText,
+                $linkText
             );
         }
 

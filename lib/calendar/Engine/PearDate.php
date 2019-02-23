@@ -181,7 +181,7 @@ class calendar_Engine_PearDate /* implements Calendar_Engine_Interface */
         if (!isset($r[$key])) {
             $r[$key] = sprintf(
                 '%04d-%02d-%02d %02d:%02d:%02d',
-                                $y,
+                $y,
                 $m,
                 $d,
                 $h,

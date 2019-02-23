@@ -258,8 +258,8 @@ class calendar_Table_Helper
         //static $index;
         //if (!isset($index)) {
         $index = $this->getEmptyDaysBefore() + $this->cE->getDaysInMonth(
-                $this->calendar->thisYear(),
-                $this->calendar->thisMonth()
+            $this->calendar->thisYear(),
+            $this->calendar->thisMonth()
             );
         //}
         return $index;

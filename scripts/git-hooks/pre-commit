@@ -8,6 +8,7 @@ git add init.php
 
 git status --porcelain | grep -e '^[AM]\(.*\).php$' | cut -c 3- | while read file
 do
+		php-cs-fixer --quiet fix "$file"
 		php -l "$file" | $(grep -v 'No syntax errors detected' || true)
 		git add "$file"
 done
