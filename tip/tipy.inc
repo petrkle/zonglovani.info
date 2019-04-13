@@ -548,10 +548,10 @@
 2019-04-15*Jeden a půl otočky*/kuzely/3/jeden-a-pul-otocky.html*jeden-a-pula.png*Obtížnější trik se třemi kužely.
 2019-04-22*Prohození míčku pod nohou*/micky/2/noha.html*2v1nohaa.png*V pravé ruce prováděj 2 v 1. První míček vyhoď o trochu výš.
 2019-04-29*Čáp*/micky/3/cap.html*capa.png*Při tomto triku stojíš jen na jedné noze jako čáp. Nejedná se o nic jiného než o opakované prohození míčku pod nohou.
-2019-05-06*
-2019-05-13*
-2019-05-20*
-2019-05-27*
+2019-05-06*Take It Out 3*/video/take-it-out-3.html*take-it-out3.jpg*Video, kde si Lukas Schütte a Christof Buch přebírají kužely.
+2019-05-13*Multiplex*/micky/3/multiplex.html*micky-3-multiplexta.png*Vyhození několika míčků z jedné ruky - to je multiplex.
+2019-05-20*Den žonglování v Brně*/kalendar/udalost-20190526-20190526-vaclavpeca-1555050606.html*dzvb19.png*Přijďte si zažonglovat, zahrát combat či volleyclub.
+2019-05-27*Literatura*/literatura.html*encyclopaedia-ball-juggling.jpg*Přehled nejlepších knížek o žonglování.
 2019-06-03*
 2019-06-10*
 2019-06-17*
