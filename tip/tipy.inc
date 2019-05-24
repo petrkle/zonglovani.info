@@ -548,28 +548,28 @@
 2019-04-15*Jeden a půl otočky*/kuzely/3/jeden-a-pul-otocky.html*jeden-a-pula.png*Obtížnější trik se třemi kužely.
 2019-04-22*Prohození míčku pod nohou*/micky/2/noha.html*2v1nohaa.png*V pravé ruce prováděj 2 v 1. První míček vyhoď o trochu výš.
 2019-04-29*Čáp*/micky/3/cap.html*capa.png*Při tomto triku stojíš jen na jedné noze jako čáp. Nejedná se o nic jiného než o opakované prohození míčku pod nohou.
-2019-05-06*Take It Out 3*/video/take-it-out-3.html*take-it-out3.jpg*Video, kde si Lukas Schütte a Christof Buch přebírají kužely.
+2019-05-06*Take It Out 3*/video/take-it-out-3.html*take-it-out-3.jpg*Video, kde si Lukas Schütte a Christof Buch přebírají kužely.
 2019-05-13*Multiplex*/micky/3/multiplex.html*micky-3-multiplexta.png*Vyhození několika míčků z jedné ruky - to je multiplex.
 2019-05-20*Den žonglování v Brně*/kalendar/udalost-20190526-20190526-vaclavpeca-1555050606.html*dzvb19.png*Přijďte si zažonglovat, zahrát combat či volleyclub.
 2019-05-27*Literatura*/literatura.html*encyclopaedia-ball-juggling.jpg*Přehled nejlepších knížek o žonglování.
-2019-06-03*
-2019-06-10*
-2019-06-17*
-2019-06-24*
-2019-07-01*
-2019-07-08*
-2019-07-15*
-2019-07-22*
-2019-07-29*
-2019-08-05*
-2019-08-12*
-2019-08-19*
-2019-08-26*
-2019-09-02*
-2019-09-09*
-2019-09-16*
-2019-09-23*
-2019-09-30*
+2019-06-03*Hvězda*/kuzely/passing/star.html*kuzely-passing-stara.png*Passovací trik pro <strong>5 žonglérů</strong>. Někdy se mu také říká pětiúhelník.
+2019-06-10*Prozkoumej žonglérův slabikář*/mapa-stranek.html*kompas.png*<a href="https://zonglovani.info/mapa-stranek.html" title="Všechny stránky v žonglérově slabikáři.">Mapa stránek</a> obsahuje odkazy na všechny stránky v žonglérově slabikáři.
+2019-06-17*Socha svobody*/animace/statue-of-liberty-a.html*sochaa.png*Animace triku socha svobody. Jiný název pro tento trik je žirafa.
+2019-06-24*Passování s pivem*/kuzely/passing/pivo.html*bv.jpg*Trik pro tři žongléry s šesti kužely a lahví piva. Postupně si všichni tři házíte kuželky a předáváte láhev piva.
+2019-07-01*Žonglérův slabikář na papíře*/download/pdf.html*zsp.jpg*Žonglérův slabikář si můžeš jednoduše vytisknout na papír. Ke stažení je PDF soubor o 151 stránkách. Devět z deseti žonglérů doporučuje oboustranný tisk a kroužkovou vazbu.
+2019-07-08*Helikoptéra*/kuzely/3/helikoptera.html*kuzely-3-helikopterac.png*Trik s kuželkou. Ale pozor, je trochu na hlavu :^)
+2019-07-15*Často kladené otázky*/faq.html*faq.png*Otázky, na které se lidé často ptají v souvislosti s žonglováním.
+2019-07-22*Druhy žonglování*/druhy-zonglovani.html*druhya.png*Základní přehled způsobů žonglování. Nejedná se o úplný nebo přesný seznam. Jde jen o naznačení, jak můžeš žonglovat. S čím vším můžeš žonglovat se dozvíš v přehledu žonglérských pomůcek.
+2019-07-29*Žonglérské vizitky*/download/vizitky.html*vizitky.png*Vizitky žonglérova slabikáře. Tiskněte a rozdávejte :-)
+2019-08-05*Elektronická kniha o žonglování*/download/mobi.html*package-mobi.jpg*Žonglérův slabikář jako elektronická kniha. Dostupné jsou formáty mobi a epub které zobrazí většina čteček.
+2019-08-12*Roztočení diabola*/diabolo/roztoceni-diabola.html*roztocenia.png*Jak snadno a rychle roztočit diabolo.
+2019-08-19*Délka provázku*/diabolo/delka-provazku.html*provazeka.png*Správná délka provázku je ta, která ti vyhovuje.
+2019-08-26*Vyhození do výšky*/diabolo/vyhozeni-do-vysky.html*diabolo-vyhozenia.png*Roztáhni ruce s hůlkami do stran.
+2019-09-02*Roztáčení smyčkou*/diabolo/roztaceni-smycka.html*roztocenif.png*Jak roztočit diabolo.
+2019-09-09*Vyrovnávání diabola*/diabolo/vyrovnavani-diabola.html*vyrovnavania.png*Ze začátku se bude diabolo naklánět.
+2019-09-16*Cirkusové disciplíny*/cirkusove-discipliny.html*cirkusa.png*Dovednosti, které nemají s žonglováním mnoho společného. Ale z nějakého důvodu je provozuje podobný druh lidí jako žonglování.
+2019-09-23*Anglicko-český žonglérský slovníček*/aczslovnicek.html*slovnik.jpg*Několik slovíček, které se často vyskytují v anglicky psaných textech o žonglování.
+2019-09-30*Tornádo*/animace/yo-yo-tornado.html*tornado.png*Animace triku se třemi míčky.
 2019-10-07*
 2019-10-14*
 2019-10-21*
