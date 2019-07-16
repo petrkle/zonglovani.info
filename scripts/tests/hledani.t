@@ -21,9 +21,9 @@ my $content=$zs_search->content();
 ok(defined($content), 'Úvodní stránka je dostupná');
 ok($content =~ /Stránkování:/, 'Míčky - nalezeno');
 
-my $zs_search_lide = $bot->submit_form(form_number => 0,fields => {'query'=>'Jitka'});
+my $zs_search_lide = $bot->submit_form(form_number => 0,fields => {'query'=>'pes'});
 
-ok($zs_search_lide->content() =~ /<a href="\/lide\/jitka.html" class="title">/, 'Jitka - nalezeno');
+ok($zs_search_lide->content() =~ /<a href="\/obrazky-na-plochu\/pes-a-kuzel.html" class="title">/, 'Pes a kužel - nalezeno');
 
 $zs_search = $bot->submit_form(form_number => 0,fields => {'query'=>$neexistujici});
 ok($zs_search->content() =~ /Vyhledávací robot nenašel žádnou stránku podobnou tvému dotazu/, "$neexistujici nenalezeno");

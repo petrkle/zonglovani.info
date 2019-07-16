@@ -56,7 +56,7 @@ Cirkus pro děti a mládež.
 <a name="mizu"></a><h5><a href="http://juggle.sk" title="Slovenský server." class="external">juggle.sk</a></h5>
 <p>
 <a href="http://juggle.sk" title="Slovenský server.">{obrazek soubor="odkazy-mizu.jpg" popisek="juggle.sk"}</a>
-Další příspěvek ze <a href="{$smarty.const.LIDE_URL}misto/#sk" title="Seznam žonglérů ze Slovenska">Slovenska</a>. Mižův žonglérský portál.
+Další příspěvek ze Slovenska. Mižův žonglérský portál.
 </p>
 
 <a name="juggling-tv"></a><h5><a href="/juggling-tv.html" title="Domov žonglérského videa na internetu.">juggling.tv</a></h5>

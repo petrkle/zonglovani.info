@@ -12,7 +12,6 @@ $trail->addStep($titulek, '/navody/');
 $smarty->assign('nahled', 'https://'.$_SERVER['SERVER_NAME'].'/img/n/navod-tisk.png');
 
 $dalsi = array(
-    array('url' => LIDE_URL.'pravidla.php', 'text' => 'Založení nového účtu', 'title' => 'Vytvoření účtu v žonglérově slabikáři'),
     array('url' => '/literatura.html', 'text' => 'Literatura o žonglování', 'title' => 'Knížky o žonglování'),
     );
 $smarty->assign('dalsi', $dalsi);

@@ -3,18 +3,12 @@ use strict;
 use warnings;
 use WWW::Mechanize;
 use LWP::ConnCache;
-use Test::More tests => 30;
+use Test::More tests => 12;
 
 my @adresy=(
 "/a.css",
-"/r.css",
-"/s.css",
-"/t.css",
 "/z.css",
 "/zt.css",
-"/css/w-light.css",
-"/css/ww-light.css",
-"/css/w-dark.css",
 "/zw.css"
 );
 

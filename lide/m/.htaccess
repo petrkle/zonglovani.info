@@ -1,7 +1,0 @@
-RewriteEngine	on
-RewriteBase /lide/m
-
-RewriteCond %{HTTP_HOST} ^www\.(.*)
-RewriteRule (.*) http://%1/lide/m$1 [R=301,QSA,NE,L]
-
-RewriteRule ^(.+)\.png$ monsterid.php?seed=$1 [L]

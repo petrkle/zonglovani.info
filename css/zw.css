@@ -32,6 +32,6 @@ p{margin:0;padding:0;text-align:center;}
 .horninudle{position:relative;}
 .ucet{font-size:.7em;padding:0;margin:0 35px 0 0;text-align:right;background:transparent;}
 .mobileapp{display:none;}
-#hlavicka{text-align:center;width:100%;height:95px;padding:0;margin:0 auto 0 auto;background:url(img/h/hlavicka-w-l.png) 20px 100% no-repeat #eed;position:relative;}
+#hlavicka{text-align:center;width:100%;height:95px;padding:0;margin:5px auto 0 auto;background:url(img/h/hlavicka-w-l.png) 20px 100% no-repeat #eed;position:relative;}
 #hlavickabg{text-align:left;width:100%;background:url(img/h/hlavicka-w-r.png) 100% 100% no-repeat;height:95px;padding:0;margin:0 auto 0 auto;}
 #hlavicka img{padding:0;margin:15px 0 0 35px;}

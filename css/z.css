@@ -1,5 +1,5 @@
 body{font-family:sans-serif;font-size:1em;line-height:1.5em;color:#000;background:#eed;margin:0;padding:0;text-align:center;}
-.hlavickabg{text-align:left;width:735px;height:120px;padding:0;margin:0 auto 0 auto;background:transparent;}
+.hlavickabg{text-align:left;width:735px;height:100px;padding:0;margin:0 auto 0 auto;background:transparent;}
 .hlm{background:url(img/m/micky-logo.svg) no-repeat 95% 100%;background-size:104px;}
 .hlkr{background:url(img/k/kruhy-logo.svg) no-repeat 99% 100%;background-size:167px;}
 .hlkz{background:url(img/k/kuzely-logo.svg) no-repeat 92% 100%;background-size:83px;}
@@ -79,7 +79,7 @@ a.edit{border-left:solid 3px #f00;}
 .tabulka td{border-right:1px solid #ccc;border-bottom:1px solid #ccc;padding:4px 10px;text-align:right;}
 .drobky{font-size:.8em;margin-top:-20px;}
 .add{background:url(img/a/add.png) 0 50% no-repeat;padding-left:20px;}
-#zslogo{display:block;height:71px;width:442px;background:url(img/z/zs.svg) 0 0 no-repeat;background-size:442px;position:absolute;top:35px;left:20px;}
+#zslogo{display:block;height:71px;width:442px;background:url(img/z/zs.svg) 0 0 no-repeat;background-size:442px;position:absolute;top:15px;left:20px;}
 #zslogo h2{text-indent:-9999px;}
 .horotable{clear:both;margin:2px 10px 7px 20px;}
 #ttnadpis{margin:0 0 0 20px;padding:0;text-align:right;border-bottom:solid 1px #999;font-size:.7em;font-weight:normal;}
@@ -110,5 +110,5 @@ p.dikymoc{font-size:2em;margin:.5em 0;margin:1em 0 1em 20px;display:block;}
 #paticka{text-align:center;width:750px;height:50px;padding:0;margin:0 auto 0 auto;background:url(img/o/okraje.png) 50% 100% no-repeat #eed;clear:both;line-height:1em;}
 #paticka a{font-weight:normal;}
 #paticka #dolni{padding:15px 0 0 0;margin:0 auto 0 auto;line-height:1em;background:transparent;}
-#hlavicka{text-align:center;width:750px;height:120px;padding:0;margin:0 auto 0 auto;background:url(img/o/okraje.png) 50% 20px no-repeat #eed;position:relative;}
+#hlavicka{text-align:center;width:750px;height:100px;padding:0;margin:0 auto 0 auto;background:url(img/o/okraje.png) 50% 0 no-repeat #eed;position:relative;}
 #hlavicka img{padding:0;margin:35px 0 0 15px;}

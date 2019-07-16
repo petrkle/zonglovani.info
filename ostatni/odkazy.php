@@ -10,7 +10,6 @@ $smarty->assign('keywords', make_keywords($titulek).', odkazy');
 $smarty->assign('description', 'Odkazy na další dobré stránky o žonglování.');
 
 $dalsi = array(
-    array('url' => LIDE_URL.'dovednost/shop.html', 'text' => 'Žonglérské obchody', 'title' => 'Seznam žonglérských obchodů'),
     array('url' => '/literatura.html', 'text' => 'Literatura o žonglování', 'title' => 'Čtení o žonglování'),
     );
 $smarty->assign('dalsi', $dalsi);

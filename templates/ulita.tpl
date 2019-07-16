@@ -14,45 +14,6 @@ Přijít mohou začínající i zkušení žongléři a žonglérky. Pro široko
 <br /><a href="/obrazky/ulita-20120318/" title="Další obrázky z žonglování v Ulitě.">Další obrázky &raquo;</a>
 </div>
 
-<p>
-Sleduj žonglérův slabikář přes <a href="/rss.html">RSS</a> - žádná Ulita ti neuteče.
-</p>
-
-{if count($podzim)>0}
-<h3>Termíny - podzim 2011</h3>
-<table class="tabulka" cellspacing="0" cellpadding="0">
-<tr>
-<th>Den</th>
-<th>Datum</th>
-<th>Čas&nbsp;[Hod]</th>
-<th>Vstupné&nbsp;[Kč]</th>
-<th>Účast</th>
-</tr>
-{foreach from=$podzim item=datum}
-<tr><td>Neděle</td><td><a href="{$smarty.const.CALENDAR_URL}{$datum.url}" title="Ulita v kalendáři."><abbr class="dtstart" title="{$datum.mz|escape}">{$datum.datum}</abbr></a></td><td>15 - <abbr class="dtend" title="{$datum.mk|escape}">19</abbr></td><td>50</td><td>{if $datum.fb}<a href="http://www.facebook.com/event.php?eid={$datum.fb}" class="external">Přijdu</a>{else}&nbsp;{/if}</td></tr>
-{/foreach}
-</table>
-{/if}
-
-{if count($jaro)>0}
-<h3>Termíny - jaro 2012</h3>
-<table class="tabulka" cellspacing="0" cellpadding="0">
-<tr>
-<th>Den</th>
-<th>Datum</th>
-<th>Čas&nbsp;[Hod]</th>
-<th>Vstupné&nbsp;[Kč]</th>
-<th>Účast</th>
-</tr>
-{foreach from=$jaro item=datum}
-<tr><td>Neděle</td><td><a href="{$smarty.const.CALENDAR_URL}{$datum.url}" title="Ulita v kalendáři."><abbr class="dtstart" title="{$datum.mz|escape}">{$datum.datum}</abbr></a></td><td>15 - <abbr class="dtend" title="{$datum.mk|escape}">19</abbr></td><td>50</td><td>{if $datum.fb}<a href="http://www.facebook.com/event.php?eid={$datum.fb}" class="external">Přijdu</a>{else}&nbsp;{/if}</td></tr>
-{/foreach}
-</table>
-{else}
-<h3>Termíny</h3>
-<p>Příští žonglování v Ulitě bude pravděpodobně na podzim.</p>
-{/if}
-
 <h3><a href="cesta.html" title="Podrobný popis cesty.">Místo konání</a></h3>
 <p>
 <a href="cesta.html" title="Ulita - dům dětí a mládeže">{obrazek soubor='ulitalogo.png' popisek='Ulita'}</a>

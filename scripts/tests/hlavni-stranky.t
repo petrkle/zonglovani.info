@@ -3,7 +3,7 @@ use strict;
 use warnings;
 use LWP::ConnCache;
 use WWW::Mechanize;
-use Test::More tests => 112;
+use Test::More tests => 90;
 
 my $bot = WWW::Mechanize->new(autocheck => 1);
 $bot->conn_cache(LWP::ConnCache->new);
@@ -32,11 +32,6 @@ my @stranky = (
 	{'a'=>'/kuzely/passing/', 't'=>'Passing', 'o'=>'<li><a href="star.html" title="těžší">Hvězda<'},
 	{'a'=>'/kuzely/passing/4count.html', 't'=>'Passing - 4 count', 'o'=>'Dobře hozený pass přilétá držadlem kuželu'},
 	{'a'=>'/kuzely/passing/hody.html', 't'=>'Passing - Druhy hodů při passování', 'o'=>'<a name="podnohou"><\/a><h2>Pod nohou<\/h2>'},
-	{'a'=>'/lide/', 't'=>'Seznam žonglérů', 'o'=>'<h1>Seznam žonglérů<\/h1>'},
-	{'a'=>'/lide/jitka.html', 't'=>'Jitka', 'o'=>'Účet vytvořen: 28. 12. 2009'},
-	{'a'=>'/kalendar/', 't'=>'Kalendář žonglování', 'o'=>'Dnes je: '},
-	{'a'=>'/lide/prihlaseni.php', 't'=>'Přihlášení', 'o'=>'<legend>Přihlašovací údaje<'},
-	{'a'=>'/lide/novy-ucet.php', 't'=>'Založit účet', 'o'=>'<input type="submit" name="odeslat" value="Založit účet"'},
 	{'a'=>'/ostatni.html', 't'=>'Další informace o žonglování', 'o'=>'rec.juggling'},
 	{'a'=>'/nacini.html', 't'=>'Žonglérské náčiní', 'o'=>'<a name="zvony"><\/a><h3>Záchodové zvony<\/h3>'},
 	{'a'=>'/obrazky/', 't'=>'Obrázky žonglování', 'o'=>'<li><a href="ulita-20100110/" title="Ulita 10. 1. 2010">Ulita 10. 1. 2010<'},
@@ -59,13 +54,7 @@ my @stranky = (
 	{'a'=>'/mapa-stranek.html', 't'=>'Mapa stránek', 'o'=>'<li><a href="\/juggling-tv.html">juggling.tv<'},
 	{'a'=>'/podporte-zongleruv-slabikar.html', 't'=>'Podpoř žonglérův slabikář', 'o'=>'Provoz adresy zonglovani.info stojí 1500 Kč ročně'},
 	{'a'=>'/ulita/', 't'=>'Žonglování v Ulitě', 'o'=>'<a href="cesta.html" title="Podrobný popis cesty.">Místo konání<'},
-	{'a'=>'/lide/misto/morava.html', 't'=>'Žonglování - Morava', 'o'=>'title="Profil uživatele '},
-	{'a'=>'/lide/misto/', 't'=>'Žongléři podle místa působení', 'o'=>' title="Žongléři z '},
-	{'a'=>'/lide/misto/praha.html', 't'=>'Žonglování - Praha', 'o'=>' title="Profil uživatele '},
-	{'a'=>'/lide/dovednost/', 't'=>'Žongléři podle dovedností', 'o'=>'title="Žongléři kteří umí výrábět žonglérské hračky"'},
-	{'a'=>'/lide/dovednost/kuzely_passing.html', 't'=>'Žonglování - Passing s kužely', 'o'=>' title="Profil uživatele '},
 	{'a'=>'/chudy/', 't'=>'Chůdy', 'o'=>'Sežeň někoho kdo tě bude chytat'},
-	{'a'=>'/novinky/', 't'=>'Novinky', 'o'=>'<a name="[0-9]+"><\/a>'},
 	{'a'=>'/obrazky-na-plochu/', 't'=>'Obrázky na plochu', 'o'=>'<li><a href="1680x1050\/kuzelky-na-trave.jpg"'},
 );
 

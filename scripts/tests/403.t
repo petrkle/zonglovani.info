@@ -3,10 +3,9 @@ use strict;
 use warnings;
 use LWP::ConnCache;
 use WWW::Mechanize;
-use Test::More tests => 44;
+use Test::More tests => 36;
 
 my @adresy=(
-"data",
 "tmp",
 "lib",
 "ostatni/personas",
@@ -16,7 +15,6 @@ my @adresy=(
 ".htaccess",
 "templates",
 "scripts/tests",
-"tip/tipy.inc"
 );
 
 my $bot = WWW::Mechanize->new(autocheck => 0);

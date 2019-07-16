@@ -97,11 +97,6 @@ Animace žonglování s míčky.
 Odkazy na stránky věnované žonglování.
 </p>
 
-<h3><a href="/rss.html" title="RSS exporty.">RSS kanály</a></h3>
-<p>
-<a href="/rss.html" title="RSS exporty.">{obrazek soubor="rss.png" popisek="RSS"}</a>
-Upozorňování na novinky v žonglérově slabikáři.
-</p>
 <!-- stop -->
 
 <h3><a href="/myty-omyly.html" title="Mýty a omyly o žonglování.">Mýty a omyly</a></h3>

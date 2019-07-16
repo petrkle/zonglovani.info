@@ -34,61 +34,17 @@ $smarty->setCompileDir(ZS_DIR.'/tmp/templates_c');
 $smarty->addPluginsDir($lib.'/plugins_user');
 $smarty->assign('currenturl', parse_url('https://'.$_SERVER['HTTP_HOST'].$_SERVER["REQUEST_URI"]));
 
-define('CALENDAR_URL', '/kalendar/');
-define('CALENDAR_ROOT', $lib.'/calendar/');
-define('CALENDAR_DATA', ZS_DIR.'/data/kalendar');
-define('CALENDAR_DELETED', ZS_DIR.'/data/kalendar.deleted');
-define('CALENDAR_IMG', ZS_DIR.'/data/kalendar.img');
-
-define('LIDE_URL', '/lide/');
-define('LIDE_DATA', ZS_DIR.'/data/lide');
-define('LIDE_BY_MAIL', ZS_DIR.'/data/lide.by.mail');
-define('LIDE_TMP', ZS_DIR.'/data/lide.tmp');
-define('LIDE_VZKAZY', ZS_DIR.'/data/vzkazy');
-
 define('OBRAZKY_URL', '/obrazky/');
 define('OBRAZKY_DATA', ZS_DIR.'/obrazky');
 
 define('SEARCH_URL', '/vyhledavani/');
 
-define('TIMEOUT_REGISTRATION', 7 * 24 * 3600);
-define('TIMEOUT_RESET_PASSWD', 7 * 24 * 3600);
-define('TIMEOUT_VZKAZ', 7 * 24 * 3600);
-
-define('TIPY_DATA', ZS_DIR.'/tip/tipy.inc');
-
 define('WALLPAPERS_URL', '/obrazky-na-plochu/');
 define('WALLPAPERS_DATA', ZS_DIR.'/obrazky-na-plochu');
-
-define('ZPRAV_NA_STRANKU', 10);
-
-define('MAX_BIG_LETTERS', 0.7);
-define('IMG_MAX_WIDTH', 6000);  //px
-define('IMG_MAX_HEIGHT', 6000); //px
-define('IMG_MAX_SIZE', 20); //MiB
-
-define('IMG_RESIZE_WIDTH', 499); //px
-define('IMG_RESIZE_HEIGHT', 699); //px
 
 define('IMG_RESPONSIVE_WIDTH', 200); //px
 define('IMG_CSS_WIDTH', 490); //px
 define('MAX_MOBILE_WIDTH', 950); //px
 
-define('PASS_MIN_LENGHT', 6);
-
-const USERFILES = array(
-'web.txt',
-'tel.txt',
-'dovednosti.txt',
-'pusobiste.txt',
-'znameni.txt',
-'vzkaz.txt',
-'foto.jpg',
-'prihlaseni.txt',
-'oblibene.txt',
-'soukromi.txt',
-'registrace.txt',
-);
-
-define('CSS_CHKSUM', '1630720692');
+define('CSS_CHKSUM', '1510433553');
 define('JS_CHKSUM', '2391363690');

@@ -21,7 +21,6 @@ $smarty->assign('trail', $trail->path);
 
 $dalsi = array(
     array('url' => '/ulita/cesta.html', 'text' => 'Jak se dostat do Ulity', 'title' => 'Popis cesty'),
-    array('url' => CALENDAR_URL, 'text' => 'Kalendář žonglérských akcí', 'title' => 'Kam jít žonglovat'),
     );
 $smarty->assign('dalsi', $dalsi);
 

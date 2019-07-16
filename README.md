@@ -18,14 +18,6 @@ https://zonglovani.info
 
 	scripts/nginx.zongl.info.conf
 
-## Postfix ##
-
-https://gist.github.com/petrkle/4983929
-
-## fakemail ##
-
-https://github.com/petrkle/fakemail-slack
-
 ## Testování ##
 
 	cpanm --installdeps .

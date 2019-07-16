@@ -20,13 +20,6 @@ Je to velmi individuální. Obvykle tři míčky zaberou jedno odpoledne, pět m
 Nejlehčí je začít <a href="/micky/jak-zacit.html" title="Základní návod.">žonglovat s míčky</a>.
 </p>
 
-
-<h3>Kde najdu další žongléry?</h3>
-<p>
-<a href="{$smarty.const.CALENDAR_URL}" title="Kalendář žonglérských akcí">{obrazek soubor="kalendar-zonglovani.png" popisek="Kalendář"}</a>
-Pravidelně se konají žonglérské srazy. To jsou nejlepší místa, kde se naučit nové triky. Informace o místech a časech konání najdeš v <a href="{$smarty.const.CALENDAR_URL}" title="Kalendář žonglérských akcí.">kalendáři</a>. Součástí žonglérova slabikáře je také <a href="{$smarty.const.LIDE_URL}" title="Seznam žonglérů.">seznam žonglérů</a>.
-</p>
-
 <h3>Je o žonglování nějaká knížka?</h3>
 <p>
 <a href="/literatura.html" title="Něco ke čtení.">{obrazek soubor="literatura.png" popisek="Knížky o žonglování."}</a>

@@ -58,16 +58,6 @@ Pro vložení odkazu stačí do tvé stránky zkopírovat jeden z následující
 <a href="/img/s/slabikar-fb.png" title="Žonglérův slabikář"><img src="/img/s/slabikar-fb.png" height="50" width="200" class="noborder" alt="Žonglérův slabikář" title="Žonglérův slabikář" /></a>
 </p>
 
-<h2><a name="widget">Výpis z kalendáře</a></h2>
-
-<p>
-<textarea>
-&lt;a href="https://zonglovani.info/kalendar" title="Kalendář žonglérských akcí" id="zs-kalendar"&gt;Kalendář žonglování&lt;/a&gt;<br />
-&lt;script async src="https://zonglovani.info/kalendar/widget.js" type="text/javascript" charset="utf-8"&gt;&lt;/script&gt;
-</textarea>
-</p>
-<p><a href="{$smarty.const.CALENDAR_URL}widget.html" title="Podrobnosti o widgetu">{obrazek soubor='widget-light.png' popisek='Widget - světlá varianta'}</a><a href="{$smarty.const.CALENDAR_URL}widget.html" title="Jak mít na webu aktuální výpis žonglérských akcí.">Podrobný popis vkládání výpisu</a> z kalendáře a možnosti úprav.</p>
-
 <h2><a name="citace">Citace</a></h2>
 <p>
 {include file='citace.tpl'}

@@ -3,11 +3,10 @@ use strict;
 use warnings;
 use LWP::ConnCache;
 use WWW::Mechanize;
-use Test::More tests => 24;
+use Test::More tests => 20;
 
 my @adresy=(
 "nesmysl",
-"admin",
 "video/neexistujicivideo.html",
 "lide/neexistujiciuzivatel.html",
 "diskuse/neexistujicistranka.html",

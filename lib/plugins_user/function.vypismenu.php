@@ -2,9 +2,9 @@
 
 function smarty_function_vypismenu($params, &$smarty)
 {
-    $adresy = array('/', '/micky/', '/kruhy/', '/kuzely/', '/diabolo/', '/lide/', '/ostatni.html');
-    $texty = array('Úvodní stránka', 'Míčky', 'Kruhy', 'Kužely', 'Diabolo', 'Žongléři', 'Ostatní');
-    $popis = array('Úvodní stránka žonglérova slabikáře', 'Začínáme s míčky', 'Začínáme s kruhy', 'Začínáme s kužely', 'Základy s diabolem', 'Seznam uživatelů žonglérova slabikáře.', 'Vše ostatní o žonglování');
+    $adresy = array('/', '/micky/', '/kruhy/', '/kuzely/', '/diabolo/', '/ostatni.html');
+    $texty = array('Úvodní stránka', 'Míčky', 'Kruhy', 'Kužely', 'Diabolo', 'Ostatní');
+    $popis = array('Úvodní stránka žonglérova slabikáře', 'Začínáme s míčky', 'Začínáme s kruhy', 'Začínáme s kužely', 'Základy s diabolem', 'Vše ostatní o žonglování');
 
     $excluded = array(5);
     $navrat = "<ul>\n";
@@ -64,12 +64,6 @@ function submenu($id)
     }
 
     if ($id == 5) {
-        $adresy = array('/kalendar/', '/lide/misto/');
-        $texty = array('Kalendář', 'Místa');
-        $popisky = array('Kalendář žonglování', 'Žongléři podle místa působení');
-    }
-
-    if ($id == 6) {
         $adresy = array('/obrazky/', '/video/', '/animace/', '/download/');
         $texty = array('Obrázky', 'Video', 'Animace', 'Soubory<br/>ke stažení');
         $popisky = array('Obrázky žonglování', 'Zajímavá žonglérská videa', 'Animace žonglování s míčky', 'Žonglérův slabikář jako elektronická kniha, nebo program do počítače');
