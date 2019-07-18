@@ -31,6 +31,6 @@ wget \
 	$URL/img/k/kuzely-logo.gif \
 	$URL/img/o/odkazy-slabikar.png \
 	--reject pdf \
-	-X animace,video,obrazky,mapa,kalendar,ulita,lide,diskuse,obrazky-na-plochu,navody,scripts,horoskop,vyhledavani,tip,rss,download,olympiada,mdz,g,odkazy.html
+	-X animace,video,obrazky,ulita,obrazky-na-plochu,navody,scripts,vyhledavani,download,olympiada,mdz,g,odkazy.html
 
 mv $SITE zongleruv-slabikar

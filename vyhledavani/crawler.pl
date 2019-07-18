@@ -22,8 +22,7 @@ $dbh->do("DROP TABLE IF EXISTS data;");
 $dbh->do("CREATE TABLE data (id int primary key auto_increment, url varchar(1024), title varchar(1024), content longtext, img varchar(1024));");
 
 my @startpoints = (
-	"https://$cfg->{domain}/",
-	"https://$cfg->{domain}/diskuse/stranka1.html",
+	"https://$cfg->{domain}/"
 );
 
 # FIFO queue
@@ -98,10 +97,6 @@ sub parse_html {
 
         # Don't go deeper than /a/b/c
         next if @{$link->path->parts} > 3;
-
-				next if $link->to_string =~ /kalendar\/\d{4}-\d{2}\.html/;
-
-				next if $link->to_string =~ /horoskop\/.+\.html/;
 
 				next if $link->to_string =~ /obrazky\/.*\/\d{4}.html/;
 

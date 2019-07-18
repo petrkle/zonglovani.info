@@ -58,14 +58,6 @@ Několik slovíček, které se často vyskytují v anglicky psaných textech o �
 Pravidelný trénink je základ.
 </p>
 
-<!-- start -->
-<h3><a href="/horoskop/" title="Žonglérský horoskop pro dnešek a zítřek.">Horoskop žonglování</a></h3>
-<p>
-<a href="/horoskop/" title="Žonglérský horoskop pro dnešek a zítřek.">{obrazek soubor="horoskop.png" popisek="Horoskop"}</a>
-Horoskop pro žonglérky a žongléry. Každý den ti poradí co je nejlepší trénovat.
-</p>
-<!-- stop -->
-
 <h3><a href="/chudy/" title="Žonglování na chůdách">Chůdy</a></h3>
 <p>
 <a href="/chudy/" title="Žonglování na chůdách">{obrazek soubor="chudya.png" popisek="Chůdy"}</a>

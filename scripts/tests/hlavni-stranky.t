@@ -3,7 +3,7 @@ use strict;
 use warnings;
 use LWP::ConnCache;
 use WWW::Mechanize;
-use Test::More tests => 90;
+use Test::More tests => 84;
 
 my $bot = WWW::Mechanize->new(autocheck => 1);
 $bot->conn_cache(LWP::ConnCache->new);
@@ -48,9 +48,6 @@ my @stranky = (
 	{'a'=>'/animace/en/', 't'=>'Animace žonglování - anglické názvy', 'o'=>'<li><a href="no-through-mills-mess.html" title="no-through-mills-mess">no through mills mess<'},
 	{'a'=>'/animace/en/statue-of-liberty-b.html', 't'=>'statue of liberty b - animovaný návod na žonglování', 'o'=>'<img src="\/animace\/img\/statue-of-liberty-b.gif" width="375" height="486" alt="statue of liberty b" \/>'},
 	{'a'=>'/navody/', 't'=>'Návody na žonglování', 'o'=>'<h3>Žonglování se třemi míčky<'},
-	{'a'=>'/horoskop/', 't'=>'Horoskop žonglování', 'o'=>'<td>23. 7. - 23. 8.<'},
-	{'a'=>'/horoskop/stir.html', 't'=>'Horoskop žonglování - Štír', 'o'=>'<img src="\/img\/h\/horoskop-stir.png"'},
-	{'a'=>'/horoskop/zitra/vodnar.html', 't'=>'Horoskop žonglování na zítra - Vodnář', 'o'=>'<a href="\/horoskop\/vodnar.html" title="Horoskop na dnešní den.">'},
 	{'a'=>'/mapa-stranek.html', 't'=>'Mapa stránek', 'o'=>'<li><a href="\/juggling-tv.html">juggling.tv<'},
 	{'a'=>'/podporte-zongleruv-slabikar.html', 't'=>'Podpoř žonglérův slabikář', 'o'=>'Provoz adresy zonglovani.info stojí 1500 Kč ročně'},
 	{'a'=>'/ulita/', 't'=>'Žonglování v Ulitě', 'o'=>'<a href="cesta.html" title="Podrobný popis cesty.">Místo konání<'},

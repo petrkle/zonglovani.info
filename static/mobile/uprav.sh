@@ -45,7 +45,6 @@ rm $ZSDIR/img/j/jtv-*
 rm $ZSDIR/img/b/browser*
 rm $ZSDIR/img/b/budik.jpg
 rm $ZSDIR/img/d/downloada.png
-rm $ZSDIR/img/h/horoskop.png
 rm $ZSDIR/img/k/kompas.png
 rm $ZSDIR/img/j/juggling.tv.png
 rm $ZSDIR/img/m/mobil*
