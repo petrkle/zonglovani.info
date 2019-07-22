@@ -161,16 +161,13 @@ function get_animace($nameless = false)
             }
         }
     }
-    uasort($navrat, 'sort_by_nazev');
+
+    $collator = collator_create('cs_CZ.UTF-8');
+    usort($vypis, function ($a, $b, $collator) {
+        $arr = array($a['popis'], $b['popis']);
+        collator_asort($collator, $arr, Collator::SORT_STRING);
+        return array_pop($arr) == $a['popis'];
+    });
 
     return $navrat;
-}
-
-function sort_by_nazev($a, $b)
-{
-    global $trans;
-    $a['popis'] = strtr($a['popis'], $trans);
-    $b['popis'] = strtr($b['popis'], $trans);
-
-    return strcmp($a['popis'], $b['popis']);
 }

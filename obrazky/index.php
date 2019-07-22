@@ -446,14 +446,12 @@ function get_galerie($filtr = '.+')
         }
     }
     closedir($dir);
-    usort($navrat, 'sort_by_datum');
+
+    usort($navrat, function ($a, $b) {
+        return ($a['datum'] > $b['datum']) ? -1 : 1;
+    });
 
     return $navrat;
-}
-
-function sort_by_datum($a, $b)
-{
-    return ($a['datum'] > $b['datum']) ? -1 : 1;
 }
 
 function get_galerie_info($galerie)

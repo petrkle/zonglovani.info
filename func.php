@@ -103,29 +103,14 @@ function get_seznam_triku($jake)
         closedir($adr);
     }
 
-    uasort($vypis, 'sort_by_title');
+    $collator = collator_create('cs_CZ.UTF-8');
+    usort($vypis, function ($a, $b, $collator) {
+        $arr = array($a['about']['nazev'], $b['about']['nazev']);
+        collator_asort($collator, $arr, Collator::SORT_STRING);
+        return array_pop($arr) == $a['about']['nazev'];
+    });
 
     return $vypis;
-}
-
-$trans = array('ě' => 'ez', 'š' => 'sz', 'č' => 'cz', 'ř' => 'rz', 'ž' => 'zz', 'ý' => 'yz', 'á' => 'az', 'í' => 'iz', 'é' => 'ez', 'ú' => 'uz', 'ů' => 'uz', 'ď' => 'dz', 'ť' => 'tz', 'ň' => 'nz', 'Ě' => 'Ez', 'Š' => 'Sz', 'Č' => 'Cz', 'Ř' => 'Rz', 'Ž' => 'Zz', 'Ý' => 'Yz', 'Á' => 'Az', 'Í' => 'Iz', 'É' => 'Ez', 'Ú' => 'Uz', 'Ů' => 'Uz', 'Ď' => 'Dz', 'Ť' => 'Tz', 'Ň' => 'Nz', ' ' => '_z');
-
-function sort_by_title($a, $b)
-{
-    global $trans;
-    $a['about']['nazev'] = strtr($a['about']['nazev'], $trans);
-    $b['about']['nazev'] = strtr($b['about']['nazev'], $trans);
-
-    return strcmp($a['about']['nazev'], $b['about']['nazev']);
-}
-
-function sort_by_jmeno($a, $b)
-{
-    global $trans;
-    $a = strtr($a, $trans);
-    $b = strtr($b, $trans);
-
-    return strcasecmp($a, $b);
 }
 
 function make_keywords($text)
@@ -150,16 +135,6 @@ function make_keywords($text)
     return $navrat;
 }
 
-function sort_by_time($a, $b)
-{
-    return ($a['cas'] < $b['cas']) ? -1 : 1;
-}
-
-function sort_by_time_reverse($a, $b)
-{
-    return ($a['cas'] > $b['cas']) ? -1 : 1;
-}
-
 function get_nahled($trik)
 {
     $nahled = '';
@@ -181,9 +156,6 @@ function get_description($trik)
     if (isset($trik['kroky'][0]['popisek'])) {
         $popis .= $trik['kroky'][0]['popisek'];
     }
-    //	if(isset($trik['kroky'][1]['popisek'])){
-    //		$popis.=' '.$trik['kroky'][1]['popisek'];
-    //	}
     return strip_tags($popis);
 }
 

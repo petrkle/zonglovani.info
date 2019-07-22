@@ -33,17 +33,13 @@ function get_videa($path = '')
     }
 
     if (is_array($vypis)) {
-        usort($vypis, 'sort_by_v_title');
+        $collator = collator_create('cs_CZ.UTF-8');
+        usort($vypis, function ($a, $b, $collator) {
+            $arr = array($a['nazev'], $b['nazev']);
+            collator_asort($collator, $arr, Collator::SORT_STRING);
+            return array_pop($arr) == $a['nazev'];
+        });
     }
 
     return $vypis;
-}
-
-function sort_by_v_title($a, $b)
-{
-    global $trans;
-    $a['nazev'] = strtr($a['nazev'], $trans);
-    $b['nazev'] = strtr($b['nazev'], $trans);
-
-    return strcmp($a['nazev'], $b['nazev']);
 }
