@@ -6,7 +6,6 @@ require '../func.php';
 $titulek = 'Literatura o žonglování';
 
 $smarty->assign('titulek', $titulek);
-$smarty->assign('feedback', true);
 
 $smarty->assign('keywords', make_keywords($titulek).', žonglování, tisk, pdf');
 $smarty->assign('description', 'Česká a anglická literatura o žonglování. Volně ke stažení - formát pdf, vhodný pro tisk.');

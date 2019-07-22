@@ -4,13 +4,11 @@ require '../init.php';
 require '../func.php';
 
 $titulek = 'Jak odkazovat na žonglérův slabikář';
-$smarty->assign('feedback', true);
 $smarty->assign('titulek', $titulek);
 
 $smarty->assign('keywords', make_keywords($titulek));
 $smarty->assign('description', 'Připravené kusy html kódu pro vytváření odkazů na žonglérův slabikář.');
 
-$smarty->assign('feedback', true);
 $smarty->assign('nahled', 'https://'.$_SERVER['SERVER_NAME'].'/img/p/podporaa.png');
 
 $dalsi = array(

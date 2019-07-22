@@ -4,7 +4,6 @@ require '../init.php';
 require '../func.php';
 
 $titulek = 'Trénink';
-$smarty->assign('feedback', true);
 $smarty->assign('nahled', 'https://'.$_SERVER['SERVER_NAME'].'/img/t/trenink-navodh.png');
 
 $smarty->assign('keywords', make_keywords($titulek).', žonglování');

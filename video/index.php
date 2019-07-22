@@ -5,7 +5,6 @@ require '../func.php';
 require 'func-video.php';
 require 'events.php';
 require $lib.'/Pager/Pager.php';
-$smarty->assign('feedback', true);
 
 $videa = get_videa();
 
@@ -74,7 +73,6 @@ $smarty->assign(
 );
 
 $smarty->assign('dalsi', $dalsi);
-$smarty->assign('feedback', true);
 $smarty->assign('trail', $trail->path);
 $smarty->assign('pager_links', $pager->links);
 $smarty->assign('videa', $data);

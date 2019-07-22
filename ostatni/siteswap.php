@@ -8,7 +8,6 @@ $smarty->assign('description', 'Siteswap je popis žonglování pomocí čísel.
 $smarty->assign('keywords', make_keywords($titulek));
 $smarty->assign('nadpis', 'Siteswap');
 
-$smarty->assign('feedback', true);
 
 $smarty->assign('titulek', $titulek);
 

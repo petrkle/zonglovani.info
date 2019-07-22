@@ -10,7 +10,6 @@ if (isset($_GET['show'])) {
 }
 
 $titulek = 'Diabolo';
-$smarty->assign('feedback', true);
 
 $trail = new Trail();
 $trail->addStep('Diabolo', '/diabolo/');

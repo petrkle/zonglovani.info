@@ -14,7 +14,6 @@ $smarty->assign('stylwidth', IMG_CSS_WIDTH);
 $smarty->assign('trail', $trail->path);
 $smarty->assign('titulek', 'Vysvětlivky k obrázkům - kužely');
 $smarty->assign('nadpis', 'Vysvětlivky k obrázkům');
-$smarty->assign('feedback', true);
 $smarty->display('hlavicka.tpl');
 $smarty->display('kuzely-legenda.tpl');
 $smarty->display('paticka.tpl');

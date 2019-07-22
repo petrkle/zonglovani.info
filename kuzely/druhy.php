@@ -22,7 +22,6 @@ $trail->addStep($titulek);
 
 $smarty->assign('trail', $trail->path);
 
-$smarty->assign('feedback', true);
 $smarty->assign('stylwidth', IMG_CSS_WIDTH);
 
 $smarty->display('hlavicka.tpl');

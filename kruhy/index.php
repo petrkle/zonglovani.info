@@ -5,7 +5,6 @@ require '../func.php';
 $titulek = 'Žonglování s kruhy';
 
 $smarty->assign('titulek', $titulek);
-$smarty->assign('feedback', true);
 $smarty->assign('keywords', make_keywords($titulek));
 $smarty->assign('description', 'Návod na žonglování s kruhy.');
 $smarty->assign('nahled', 'https://'.$_SERVER['SERVER_NAME'].'/img/k/kruhy-logo.gif');

@@ -16,7 +16,6 @@ if (isset($_GET['id'])) {
         $titulek = $wallpapers[$id]['titulek'];
         $trail->addStep($titulek);
         $smarty->assign('titulek', $titulek);
-        $smarty->assign('feedback', true);
         $smarty->assign('fbsdileni', 'obrázek');
         $smarty->assign('DIRECT_LINK_TO_IMAGE', true);
         $smarty->assign('nahled', $wallpapers[$id]['nahled_url']);
@@ -39,7 +38,6 @@ $smarty->assign('trail', $trail->path);
 $smarty->assign('keywords', 'obrázky, žonglování, wallpaper, pozadí na plochu');
 $smarty->assign('description', 'Tapety na plochu počítače s žonglérskou tématikou.');
 
-$smarty->assign('feedback', true);
 $smarty->assign('nahled', 'https://'.$_SERVER['SERVER_NAME'].'/obrazky-na-plochu/nahledy/pes-a-micek.jpg');
 
 $dalsi = array(

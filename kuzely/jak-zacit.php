@@ -4,7 +4,6 @@ require '../init.php';
 require '../func.php';
 
 $titulek = 'Jak začít žonglovat s kužely';
-$smarty->assign('feedback', true);
 
 $smarty->assign('titulek', $titulek);
 

@@ -10,7 +10,6 @@ $smarty->assign('keywords', make_keywords($titulek));
 $smarty->assign('description', 'Jak můžeš pomoct při tvorbě žonglérova slabikáře.');
 $smarty->assign('nahled', 'https://'.$_SERVER['SERVER_NAME'].'/img/p/podporaa.png');
 
-$smarty->assign('feedback', true);
 $smarty->assign('nahled', 'https://'.$_SERVER['SERVER_NAME'].'/img/p/podporab.png');
 
 $dalsi = array(

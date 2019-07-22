@@ -4,7 +4,6 @@ require '../init.php';
 require '../func.php';
 
 $titulek = 'Passing s míčky - mills\' mess';
-$smarty->assign('feedback', true);
 
 $smarty->assign('keywords', make_keywords($titulek));
 $smarty->assign('description', 'Žonglování mills\' mess pro dva lidi.');

@@ -144,7 +144,6 @@ if ($id) {
     }
 }
 if ($id and $photo) {
-    $smarty->assign('feedback', true);
     $smarty->assign('fbsdileni', 'tento obrázek');
     if (isset($obrazky[intval($photo)])) {
         $hlavicky = array();
@@ -330,7 +329,6 @@ if ($id and $photo) {
 } else {
     // index adresáře /obrazky/
 
-    $smarty->assign('feedback', true);
     $smarty->assign('nahled', 'https://'.$_SERVER['SERVER_NAME'].'/obrazky/drazdany-20110312/0030.jpg');
 
     $dalsi = array(

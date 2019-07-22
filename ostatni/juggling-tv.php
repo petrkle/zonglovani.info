@@ -4,7 +4,6 @@ require '../init.php';
 require '../func.php';
 
 $titulek = 'juggling.tv';
-$smarty->assign('feedback', true);
 $smarty->assign('titulek', $titulek);
 
 $smarty->assign('keywords', 'video, juggling.tv');

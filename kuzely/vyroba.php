@@ -21,7 +21,6 @@ $dalsi = array(
 $smarty->assign('dalsi', $dalsi);
 
 $smarty->assign('titulek', 'Výroba kuželů');
-$smarty->assign('feedback', true);
 $smarty->assign('stylwidth', IMG_CSS_WIDTH);
 $smarty->display('hlavicka.tpl');
 $smarty->display('kuzely-vyroba.tpl');

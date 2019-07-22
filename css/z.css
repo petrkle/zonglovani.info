@@ -91,8 +91,6 @@ a.edit{border-left:solid 3px #f00;}
 li.libi{list-style:url(img/p/palec-nahoru-s.png);}
 li.nelibi{list-style:url(img/p/palec-dolu-s.png);}
 li.star{list-style:url(img/s/star-s.png);}
-.skrtanec{text-decoration:line-through;}
-.feedback{clear:both;padding-top:30px;font-size:.7em;color:#333;display:block;}
 .szn{margin:20px;padding:0 20px;list-style:circle;}
 .szn li{list-style-position:inside;}
 .skryte,.mobileapp{display:none;}

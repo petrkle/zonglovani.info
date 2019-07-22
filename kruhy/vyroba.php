@@ -6,7 +6,6 @@ require '../func.php';
 $titulek = 'Výroba kruhů';
 
 $smarty->assign('titulek', $titulek);
-$smarty->assign('feedback', true);
 
 $smarty->assign('keywords', make_keywords($titulek).', žonglování');
 $smarty->assign('description', 'Jak vyrobit kruhy na žonglování.');

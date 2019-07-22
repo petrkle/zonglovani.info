@@ -7,7 +7,6 @@ $titulek = 'Soubory ke stažení';
 $smarty->assign('titulek', $titulek);
 $smarty->assign('nahled', 'https://'.$_SERVER['SERVER_NAME'].'/img/s/slabikar-pdf.png');
 $smarty->assign('description', 'Soubory ke stažení - žonglování.');
-$smarty->assign('feedback', true);
 $smarty->assign('stylwidth', IMG_CSS_WIDTH);
 
 $trail = new Trail();

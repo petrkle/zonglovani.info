@@ -5,7 +5,6 @@ require '../func.php';
 
 $titulek = 'Žonglování - základní pojmy';
 $smarty->assign('titulek', $titulek);
-$smarty->assign('feedback', true);
 
 $smarty->assign('keywords', make_keywords($titulek).', žonglování');
 $smarty->assign('description', 'Základní žonglérská terminologie.');

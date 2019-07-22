@@ -6,7 +6,6 @@ $titulek = 'PF 2019';
 $smarty->assign('keywords', make_keywords($titulek).', žonglování');
 $smarty->assign('description', 'Přání všeho nejlepšího v roce 2019');
 $smarty->assign('titulek', $titulek);
-$smarty->assign('feedback', true);
 $smarty->assign('nahled', 'https://'.$_SERVER['SERVER_NAME'].'/img/c/crystal-ball.jpg');
 $trail = new Trail();
 $trail->addStep('Tip týdne', '/tip');

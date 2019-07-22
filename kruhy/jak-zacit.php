@@ -3,7 +3,6 @@
 require '../init.php';
 require '../func.php';
 $titulek = 'Jak začít žonglovat s kruhy';
-$smarty->assign('feedback', true);
 
 $smarty->assign('keywords', make_keywords($titulek));
 $smarty->assign('description', 'Obrázkový návod na žonglování s kruhy');

@@ -4,7 +4,6 @@ require '../init.php';
 require '../func.php';
 
 $titulek = 'Cirkusové disciplíny';
-$smarty->assign('feedback', true);
 
 $smarty->assign('titulek', $titulek);
 

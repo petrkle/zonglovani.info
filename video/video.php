@@ -5,7 +5,6 @@ require '../func.php';
 require 'func-video.php';
 require $lib.'/Pager/Pager.php';
 require 'events.php';
-$smarty->assign('feedback', true);
 
 if (isset($_GET['v'])) {
     $v = trim($_GET['v']);

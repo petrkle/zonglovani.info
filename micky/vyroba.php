@@ -4,7 +4,6 @@ require '../init.php';
 require '../func.php';
 
 $titulek = 'Výroba míčků na žonglování';
-$smarty->assign('feedback', true);
 $smarty->assign('titulek', $titulek);
 
 $smarty->assign('description', 'Návody na výrobu žonglérských míčků. Pěkné míčky na žonglování snadno, rychle a levně.');

@@ -4,7 +4,6 @@ require '../init.php';
 require '../func.php';
 
 $titulek = 'Proč a jak vznikl žonglérův slabikář';
-$smarty->assign('feedback', true);
 
 $smarty->assign('keywords', make_keywords($titulek));
 $smarty->assign('description', 'Proč ča jak vzniká žonglérův slabikář.');

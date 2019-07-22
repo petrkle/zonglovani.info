@@ -4,7 +4,6 @@ require '../init.php';
 require '../func.php';
 
 $titulek = 'Míček z balónků';
-$smarty->assign('feedback', true);
 $smarty->assign('titulek', $titulek);
 
 $trail = new Trail();

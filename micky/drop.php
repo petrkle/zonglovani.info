@@ -4,7 +4,6 @@ require '../init.php';
 require '../func.php';
 
 $titulek = 'Míčky na zemi';
-$smarty->assign('feedback', true);
 
 $smarty->assign('keywords', make_keywords($titulek));
 $smarty->assign('description', 'Zvedání spadlých žonglérských míčků bez namáhavého shýbání.');

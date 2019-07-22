@@ -4,7 +4,6 @@ require '../init.php';
 require '../func.php';
 
 $titulek = 'Zdrojový kód žonglérova slabikáře';
-$smarty->assign('feedback', true);
 $smarty->assign('titulek', $titulek);
 $smarty->assign('nahled', 'https://'.$_SERVER['SERVER_NAME'].'/img/o/octocat.png');
 $smarty->assign('keywords', 'žonglérův slabikář, zdrojový kód, opensource');

@@ -14,7 +14,6 @@ $smarty->assign('nahled', 'https://'.$_SERVER['SERVER_NAME'].'/img/t/tocenib.png
 $smarty->assign('trail', $trail->path);
 
 $smarty->assign('titulek', $titulek);
-$smarty->assign('feedback', true);
 
 $trik = nacti_trik('kuzely-toceni-okolo-palce');
 if ($trik['img_maxwidth'] > IMG_RESPONSIVE_WIDTH) {

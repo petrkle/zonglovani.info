@@ -7,7 +7,6 @@ $smarty->assign('titulek', $titulek.' 2011');
 $smarty->assign('nadpis', $titulek);
 $smarty->assign('keywords', make_keywords($titulek).', žonglování');
 $smarty->assign('description', 'Veselé Vánoce 2011 všem žonglérkám a žonglérům.');
-$smarty->assign('feedback', true);
 $smarty->assign('nahled', 'https://'.$_SERVER['SERVER_NAME'].'/img/d/diabolo-sipek.jpg');
 $smarty->assign('stylwidth', IMG_CSS_WIDTH);
 $trail = new Trail();

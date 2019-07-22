@@ -4,7 +4,6 @@ require '../init.php';
 require '../func.php';
 
 $titulek = 'Balancování míčku';
-$smarty->assign('feedback', true);
 
 $smarty->assign('titulek', $titulek);
 $smarty->assign('keywords', make_keywords($titulek));

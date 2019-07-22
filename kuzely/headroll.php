@@ -15,7 +15,6 @@ $trail->addStep('Headrool');
 $smarty->assign('trail', $trail->path);
 
 $smarty->assign('titulek', $titulek);
-$smarty->assign('feedback', true);
 
 $trik = nacti_trik('kuzely-headroll');
 if ($trik['img_maxwidth'] > IMG_RESPONSIVE_WIDTH) {

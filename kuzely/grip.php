@@ -13,7 +13,6 @@ $smarty->assign('keywords', 'dva, kužely, jedna, ruka');
 $smarty->assign('description', 'Jak držet v jedné ruce dva kužely.');
 
 $smarty->assign('titulek', $titulek);
-$smarty->assign('feedback', true);
 $smarty->display('hlavicka.tpl');
 $smarty->display('kuzely-grip.tpl');
 $smarty->display('paticka.tpl');

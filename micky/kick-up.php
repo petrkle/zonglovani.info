@@ -4,7 +4,6 @@ require '../init.php';
 require '../func.php';
 
 $titulek = 'Zvednutí míčku nohou';
-$smarty->assign('feedback', true);
 $smarty->assign('titulek', $titulek);
 
 $smarty->assign('keywords', 'žonglování, míčky, kick-up, zvedání, zvednutí');

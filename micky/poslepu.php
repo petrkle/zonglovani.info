@@ -4,7 +4,6 @@ require '../init.php';
 require '../func.php';
 
 $titulek = 'Žonglování poslepu';
-$smarty->assign('feedback', true);
 
 $smarty->assign('keywords', make_keywords($titulek));
 $smarty->assign('description', 'Popis jak se naučit žonglovat poslepu. Bez koukání.');

@@ -4,7 +4,6 @@ require '../init.php';
 require '../func.php';
 
 $titulek = 'Mýty a omyly';
-$smarty->assign('feedback', true);
 
 $smarty->assign('keywords', make_keywords($titulek).', žonglování');
 $smarty->assign('description', 'Ne všechno co se říká o žonglování je pravda.');

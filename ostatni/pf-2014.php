@@ -6,7 +6,6 @@ $titulek = 'PF 2014';
 $smarty->assign('keywords', make_keywords($titulek).', žonglování');
 $smarty->assign('description', 'Přání všeho nejlepšího v roce 2014.');
 $smarty->assign('titulek', $titulek);
-$smarty->assign('feedback', true);
 $smarty->assign('nahled', 'https://'.$_SERVER['SERVER_NAME'].'/img/r/rum-kuzel.jpg');
 $trail = new Trail();
 $trail->addStep('Tip týdne', '/tip');

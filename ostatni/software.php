@@ -4,7 +4,6 @@ require '../init.php';
 require '../func.php';
 
 $titulek = 'Literatura';
-$smarty->assign('feedback', true);
 
 $smarty->assign('titulek', 'Simulátory žonglování');
 $smarty->assign('keywords', make_keywords($titulek));

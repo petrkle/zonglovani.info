@@ -4,7 +4,6 @@ require '../init.php';
 require '../func.php';
 
 $titulek = 'Druhy žonglování';
-$smarty->assign('feedback', true);
 $smarty->assign('titulek', $titulek);
 $smarty->assign('keywords', 'žonglování, druhy, bouncing, passing, házení míčků, fireshow');
 $smarty->assign('description', 'Popis jednotlivých druhů žonglování. Žonglovat můžeš mnoha různými způsoby.');
