@@ -162,7 +162,7 @@ function get_animace($nameless = false)
         }
     }
 
-    usort($vypis, function ($a, $b) {
+    uasort($vypis, function ($a, $b) {
         $collator = collator_create('cs_CZ.UTF-8');
         $arr = array($a['popis'], $b['popis']);
         collator_asort($collator, $arr, Collator::SORT_STRING);
