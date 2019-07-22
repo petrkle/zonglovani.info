@@ -103,8 +103,8 @@ function get_seznam_triku($jake)
         closedir($adr);
     }
 
-    $collator = collator_create('cs_CZ.UTF-8');
-    usort($vypis, function ($a, $b, $collator) {
+    usort($vypis, function ($a, $b) {
+        $collator = collator_create('cs_CZ.UTF-8');
         $arr = array($a['about']['nazev'], $b['about']['nazev']);
         collator_asort($collator, $arr, Collator::SORT_STRING);
         return array_pop($arr) == $a['about']['nazev'];
