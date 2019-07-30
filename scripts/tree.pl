@@ -66,8 +66,6 @@ $conf::baseurl = "/";		# Set first part of any URL (leave empty if unsure)
 	'/obrazky/*.html',
 	'/obrazky/*/stranka*/',
 	'/toolbox.html',
-	'/video/stranka*.html',
-	'/video/*/stranka*.html',
 	'/pf-*.html',
 	'/doplnky-prohlizece.html',
 	'/testovani.html',

@@ -333,7 +333,6 @@ if ($id and $photo) {
 
     $dalsi = array(
         array('url' => '/obrazky-na-plochu/', 'text' => 'Obrázky na plochu', 'title' => 'Tapety s žonglérskou tématikou.'),
-        array('url' => '/video/', 'text' => 'Žonglérská videa', 'title' => 'Pohyblivé obrázky'),
         array('url' => '/animace/', 'text' => 'Animace žonglování', 'title' => 'Animace triků s míčky'),
         );
     require $lib.'/Pager/Pager.php';

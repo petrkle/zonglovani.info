@@ -3,14 +3,12 @@ use strict;
 use warnings;
 use LWP::ConnCache;
 use WWW::Mechanize;
-use Test::More tests => 36;
+use Test::More tests => 28;
 
 my @adresy=(
 "tmp",
 "lib",
-"ostatni/personas",
 "xml",
-"video/klip",
 "navody/doc",
 ".htaccess",
 "templates",

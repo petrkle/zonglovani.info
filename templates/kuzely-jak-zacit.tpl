@@ -35,5 +35,3 @@ Postup je podobný začátkům s <a href="/micky/jak-zacit.html#dva" title="Post
 <p>
 Když už ti to se dvěma kužely jde, přidej ještě třetí pro úplnou <a href="/kuzely/3/kaskada.html" title="Kaskáda se třemi kužely.">kaskádu</a>. Kaskáda je nejlehčí trik, začni s ní.
 </p>
-
-{jsinlinevideo v='kuzely-3-kaskada-navod'}

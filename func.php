@@ -43,13 +43,8 @@ function nacti_trik($soubor)
                 $foo['kotva'] = (string) $krok->nadpis['name'];
             }
         }
-        if ($krok->video or $krok->animace) {
-            if ($krok->video) {
-                $foo['video'] = (string) $krok->video;
-            }
-            if ($krok->animace) {
-                $foo['animace'] = (string) $krok->animace;
-            }
+        if ($krok->animace) {
+            $foo['animace'] = (string) $krok->animace;
         }
         array_push($trik['kroky'], $foo);
     }

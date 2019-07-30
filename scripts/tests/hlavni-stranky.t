@@ -3,7 +3,7 @@ use strict;
 use warnings;
 use LWP::ConnCache;
 use WWW::Mechanize;
-use Test::More tests => 84;
+use Test::More tests => 78;
 
 my $bot = WWW::Mechanize->new(autocheck => 1);
 $bot->conn_cache(LWP::ConnCache->new);
@@ -39,9 +39,6 @@ my @stranky = (
 	{'a'=>'/obrazky/ulita-20100221/stranka3/0036.html', 't'=>'Ulita 21. 2. 2010 - 36. obrázek - stránka 3', 'o'=>'<img src="http:\/\/zongl.info\/obrazky\/ulita-20100221\/0036.jpg" alt="Ulita 21. 2. 2010" width="402" height="768"\/>'},
 	{'a'=>'/obrazky/filtr/Marathon', 't'=>'Marathon - filtr obrázků', 'o'=>'Pražsky žonglérský marathon 2 - soutěže a vystoupení'},
 	{'a'=>'/obrazky/filtr/nesmysl', 't'=>'nesmysl - filtr obrázků', 'o'=>'<h1>Nic nenalezeno<'},
-	{'a'=>'/video/', 't'=>'Žonglérská videa', 'o'=>'Stránkování: <b>1<'},
-	{'a'=>'/video/white-balance.html', 't'=>'White Balance', 'o'=>'Délka: 03:33 Velikost: 31 MB Rozlišení: 640x426'},
-	{'a'=>'/video/4000000-extreme-juggling.html', 't'=>'4,000,000% Extreme Juggling', 'o'=>'dresa videa: <a href="http:\/\/youtube.com\?v=ZrrVsH5QEeM"'},
 	{'a'=>'/animace/', 't'=>'Animace žonglování', 'o'=>'<li><a href="3-cascade.html" title="3-cascade">Kaskáda</a><'},
 	{'a'=>'/animace/oy-oy.html', 't'=>'Oj-oj - animovaný návod na žonglování', 'o'=>'<img src="\/animace\/img\/oy-oy.gif" width="374" height="483" alt="Oj-oj" \/>'},
 	{'a'=>'/animace/siteswap/', 't'=>'Siteswap', 'o'=>'<li><a href="63623.html" title="63623">63623<'},

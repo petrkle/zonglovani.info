@@ -21,8 +21,6 @@ Jestli už ti bylo 18, tak mi můžeš koupit pivo. Např. <a href="/img/v/visen
 <li><a href="http://www.youtube.com/ZongleruvSlabikar" class="external">youtube.com</a></li>
 <li><a href="http://juggling.tv/users/4431/zonglovani.info" class="external">juggling.tv</a></li>
 <li><a href="http://zonglovani.rajce.idnes.cz/" class="external">rajce.net</a></li>
-<li><a href="http://twitter.com/zonglovani" class="external">twitter.com</a></li>
-<li><a href="https://www.facebook.com/zongleruv.slabikar" class="external">facebook</a></li>
 <li><a href="https://github.com/petrkle/zonglovani.info" class="external">github.com</a></li>
 <li><a href="http://search.mlp.cz/cz/titul/zongleruv-slabikar/4131041/" class="external" title="Záznam v katalogu Městské knihovny v Praze">mlp.cz</a></li>
 <li><a href="http://aleph.nkp.cz/F/?func=direct&doc_number=002609718&local_base=NKC" class="external" title="Záznam v databázi Národní knihovny ČR">nkp.cz</a></li>
