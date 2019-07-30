@@ -2,11 +2,11 @@ COMPRESS=java -jar $(HOME)/lib/htmlcompressor-1.5.3.jar --compress-js --compress
 ASSETS=android/app/src/main/assets
 
 help:
-	@echo "cordova   - vytvori offline verzi pro Apache Cordova"
-	@echo "clean - smaze generovane adresare"
+	@echo "apk   - vytvoří apk soubor"
+	@echo "clean - smaže generovane adresare"
 	@echo "help  - napoveda"
 
-cordova:
+apk:
 	./stahni.sh
 	./uprav.sh
 	./fixlinks.sh

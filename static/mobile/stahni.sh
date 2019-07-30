@@ -1,8 +1,10 @@
 #!/bin/bash
 
+WGET=${WGET:-wget}
+
 rm -rf /home/www/zonglovani.info/static/mobile/zongl.info 2>/dev/null
 
-wget \
+$WGET \
 	-e "robots=off" \
 	--quiet \
 	--html-extension \

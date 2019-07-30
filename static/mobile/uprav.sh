@@ -37,16 +37,9 @@ sed -i "s/<strong>Úvodní stránka<\/strong> . //"  $ZSDIR/index.html
 
 rm $ZSDIR/mapa-stranek.html
 rm -rf $ZSDIR/navody
-rm $ZSDIR/r-*.css
 rm $ZSDIR/z-*.css
 rm $ZSDIR/zt-*.css
-rm $ZSDIR/img/e/exkurze*
-rm $ZSDIR/img/j/jtv-*
-rm $ZSDIR/img/b/browser*
-rm $ZSDIR/img/b/budik.jpg
-rm $ZSDIR/img/d/downloada.png
 rm $ZSDIR/img/k/kompas.png
-rm $ZSDIR/img/j/juggling.tv.png
 rm $ZSDIR/img/m/mobil*
 rm $ZSDIR/img/o/odkazy-*
 rm -rf $ZSDIR/img/q
