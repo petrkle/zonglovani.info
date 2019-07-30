@@ -263,10 +263,6 @@ if ($id and $photo) {
             $smarty->assign('keywords', make_keywords('žonglování, fotky, '.$gal_info['title']).', '.$stranka.'. stránka');
         }
     }
-    $dalsi = array(
-        array('url' => OBRAZKY_URL, 'text' => 'Další obrázky žonglování', 'title' => 'Další obrázky žonglování'),
-        array('url' => OBRAZKY_URL.'#vyzva', 'text' => 'Přidat vlastní obrázky', 'title' => 'Zveřejni v žonglérově slabikáři vlastní fotky žonglování'),
-        );
 
     if ($pager->getCurrentPageID() == $pager->numPages()) {
         $dalsistranka = OBRAZKY_URL.$id.'/';
