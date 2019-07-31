@@ -1,5 +1,4 @@
 body{font-family:sans-serif;font-size:1.2em;line-height:1.7em;color:#000;background:#fff;margin:0;padding:0;}
-#ucet,.ucet{display:block;font-size:.8em;text-align:right;padding:0 5px;background:#fd3;}
 #ramecek{max-width:500px;margin:0 auto;}
 .hlavickabg{padding:0;margin:0;}
 a img{border-width:0;}
@@ -79,3 +78,11 @@ hr.d{border:0;border-bottom:1px dashed #999;margin:2em 0;width:100%;}
 #menu ul li ul li{padding:5px 0;margin:3px 0 3px 1em;list-style:circle;}
 #paticka{text-align:center;}
 #paticka #dolni{background:#fd3;padding:5px;}
+@media (prefers-color-scheme: dark) {
+body{color:#fff;background:#333;margin:0;padding:0;}
+img{opacity:.75;transition:opacity .5s ease-in-out;}
+img:hover{opacity:1;}
+a:link{color:#0cf;}
+a:visited{color:#909;}
+#hlavicka, #zslogo, #paticka #dolni{background:#9b870c;}
+}
