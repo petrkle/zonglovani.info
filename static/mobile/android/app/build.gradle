@@ -6,8 +6,8 @@ android {
         applicationId "info.zonglovani.mobile.app"
         minSdkVersion 21
         targetSdkVersion 28
-        versionCode 19
-        versionName "1.9"
+        versionCode 20
+        versionName "2.0"
 				setProperty("archivesBaseName", "Zongleruv-slabikar-$versionName")
     }
 		signingConfigs {
