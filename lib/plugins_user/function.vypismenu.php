@@ -6,14 +6,9 @@ function smarty_function_vypismenu($params, &$smarty)
     $texty = array('Úvodní stránka', 'Míčky', 'Kruhy', 'Kužely', 'Diabolo', 'Ostatní');
     $popis = array('Úvodní stránka žonglérova slabikáře', 'Začínáme s míčky', 'Začínáme s kruhy', 'Začínáme s kužely', 'Základy s diabolem', 'Vše ostatní o žonglování');
 
-    $excluded = array(5);
     $navrat = "<ul>\n";
 
     for ($foo = 0; $foo < count($adresy); ++$foo) {
-        if (in_array($foo, $excluded)) {
-            $navrat .= "\n<!-- start -->\n";
-        }
-
         if ($_SERVER['REQUEST_URI'] == $adresy[$foo] and !isset($_GET['show'])) {
             $navrat .= '<li><h4>'.$texty[$foo].'</h4>';
         } else {
@@ -21,10 +16,6 @@ function smarty_function_vypismenu($params, &$smarty)
         }
         $navrat .= submenu($foo);
         $navrat .= "</li>\n";
-
-        if (in_array($foo, $excluded)) {
-            $navrat .= "\n<!-- stop -->\n";
-        }
     }
 
     $navrat .= "\n</ul>\n";
@@ -73,16 +64,16 @@ function submenu($id)
         $navrat = '';
         $navrat .= "<ul>\n";
         for ($foo = 0; $foo < count($adresy); ++$foo) {
-            if ($id == 6 and $foo != 2) {
+            if ($id == 5 and $foo != 1) {
                 $navrat .= "\n<!-- start -->\n";
             }
 
             if ($_SERVER['REQUEST_URI'] == $adresy[$foo] and !isset($_GET['show'])) {
                 $navrat .= '<li><strong>'.$texty[$foo].'</strong></li>'."\n";
             } else {
-                $navrat .= '<li><a href="'.$adresy[$foo].'" title="'.$popisky[$foo].'">'.$texty[$foo].'</a>'."</li>\n";
+                $navrat .= '<li><a href="'.$adresy[$foo].'" title="'.$popisky[$foo].'">'.$texty[$foo].'</a>'."</li>";
             }
-            if ($id == 6 and $foo != 2) {
+            if ($id == 5 and $foo != 1) {
                 $navrat .= "\n<!-- stop -->\n";
             }
         }
