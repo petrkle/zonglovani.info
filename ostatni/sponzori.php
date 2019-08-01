@@ -9,7 +9,6 @@ $smarty->assign('keywords', make_keywords($titulek).', žonglování');
 $smarty->assign('description', 'Sponzoři žonglérova slabikáře.');
 
 $dalsi = array(
-    array('url' => '/podporte-zongleruv-slabikar.html', 'text' => 'Podpoř žonglérův slabikář', 'title' => 'Podpořit žonglérův slabikář'),
     array('url' => '/jak-odkazovat.html', 'text' => 'Jak odkazovat na žonglérův slabikář', 'title' => 'Přidej odkaz na svůj web'),
     );
 $smarty->assign('dalsi', $dalsi);

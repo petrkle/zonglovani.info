@@ -1,4 +1,3 @@
-{include file='sponzor.tpl'}
 {if isset($downloads)}
 {foreach from=$poradi item=typ}
 {if isset($downloads.$typ) and !isset($hidden.$typ)}

@@ -54,21 +54,16 @@ form ul li{list-style:none;margin:5px 0 15px 0;text-align:left;}
 .kratkypopis{margin:0;padding:0;display:block;}
 .vpravo{text-align:right;}
 .knoflik{font-weight:bold;width:150px;}
-textarea{width:450px;height:100px;}
+textarea{width:450px;}
 ul.alert{border:dashed 1px #000;background:#ffc;margin:5px 0 5px 15px;}
 .tooltip{font-size:.8em;color:#666;}
 .tooltip li{margin:5px 0;}
 sup.ppm{padding:0 .3em;font-weight:bold;color:#f00;}
 a.edit{border-left:solid 3px #f00;}
-.tabulka{margin-left:20px;border-left:1px solid #ccc;border-top:1px solid #ccc;line-height:1em;width:440px;margin-bottom:20px;}
-.tabulka th{border-right:1px solid #ccc;border-bottom:1px solid #ccc;background:#eee;padding:4px 10px;text-align:center;}
-.tabulka td{border-right:1px solid #ccc;border-bottom:1px solid #ccc;padding:4px 10px;text-align:right;}
 .drobky{font-size:.8em;margin-top:-20px;}
 .add{background:url(img/a/add.png) 0 50% no-repeat;padding-left:20px;}
 #zslogo{display:block;height:71px;width:442px;background:url(img/z/zs.svg) 0 0 no-repeat;background-size:442px;position:absolute;top:15px;left:20px;}
 #zslogo h2{text-indent:-9999px;}
-.horotable{clear:both;margin:2px 10px 7px 20px;}
-#ttnadpis{margin:0 0 0 20px;padding:0;text-align:right;border-bottom:solid 1px #999;font-size:.7em;font-weight:normal;}
 .animace img{border:solid 0;margin-right:5px;text-align:bottom;}
 .obrazkovnik{float:left;margin:15px 0 15px 20px;}
 .obrazkovnik a img{border:solid 1px #000;}

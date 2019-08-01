@@ -12,6 +12,7 @@ $smarty->assign('description', 'Kontakt na autora žonglérova slabikáře.');
 $smarty->assign('nahled', 'https://'.$_SERVER['SERVER_NAME'].'/img/m/micky-logo.gif');
 
 $dalsi = array(
+    array('url' => '/podporte-zongleruv-slabikar.html', 'text' => 'Podpoř žonglérův slabikář', 'title' => 'Podpořit žonglérův slabikář'),
     array('url' => '/proc-a-jak.html', 'text' => 'Proč a jak vznikl žonglérův slabikář', 'title' => 'Proč a jak vznikl žonglérův slabikář'),
     array('url' => 'https://github.com/petrkle/zonglovani.info/commits/master', 'text' => 'Seznam změn', 'title' => 'Změny v žonglérově slabikáři'),
     );
