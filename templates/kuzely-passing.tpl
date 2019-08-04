@@ -59,7 +59,6 @@ Královská disciplína žonglování. Užiješ si při ní nejvíc legrace. Pro
 	<li><a href="lichobeznik.html" title="těžší">Lichoběžník</a></li>
 	<li><a href="stridavy-lichobeznik.html" title="těžší">Střídavý lichoběžník</a></li>
 	<li><a href="rotor.html" title="těžší">Rotor</a></li>
-	<li><a href="pivo.html" title="těžší">Passování s pivem</a></li>
 </ul>
 
 <h3>Triky při passování</h3>
@@ -71,8 +70,4 @@ Královská disciplína žonglování. Užiješ si při ní nejvíc legrace. Pro
 	<li><a href="pomala-otocka.html" title="snadné">Pomalá otočka</a></li>
 	<li><a href="rychla-otocka.html" title="snadné">Rychlá otočka</a></li>
 	<li><a href="podani-kuzelky.html" title="snadné">Podání kuželky</a></li>
-<!--
-TODO
-	<li><a href="dvojka-krizem-valcik.html" title="snadné">Dvojka křížem při valčíku</a></li>
--->
 </ul>

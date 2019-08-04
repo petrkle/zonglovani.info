@@ -11,11 +11,6 @@
 <a href="/jak-odkazovat.html" title="Jak vytvořit odkaz na žonglérův slabikář.">{obrazek soubor="podporaa.png" title="Návštěvnost stránek"}</a>
 Čím víc lidí bude tyto stránky používat, tím líp. Stačí <a href="/jak-odkazovat.html" title="Jak vytvořit odkaz na žonglérův slabikář.">přidat odkaz</a> na tvoje stránky.</p>
 
-<h3>Hmotné dary</h3>
-<p>
-{obrazek soubor="podporab.png" title="Pivo"}
-Jestli už ti bylo 18, tak mi můžeš koupit pivo. Např. <a href="/img/v/visen.jpg" title="Višeň s čistou hlavou">višeň</a> nebo <a href="/img/s/svestka.jpg" title="Švestka s čistou hlavou">švestku</a>.</p>
-
 <p>Žonglérův slabikář najdeš také na:</p>
 <ul>
 <li><a href="http://www.youtube.com/ZongleruvSlabikar" class="external">youtube.com</a></li>
