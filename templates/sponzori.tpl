@@ -14,9 +14,7 @@ Díky&nbsp;moc :-)
 
 <a name="jakposlat"></a><h3>Jak zaslat příspěvek?</h3>
 
-<p>Příspěvek pošli převodem na účet: <b>1663602015/3030</b></p>
-
-<p>Do zprávy pro příjemce vyplň zonglovani.info.</p>
+{include file='ucet.tpl'}
 
 <!-- start -->
 

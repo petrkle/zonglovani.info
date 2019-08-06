@@ -1,15 +1,8 @@
-<p>Žonglérův slabikář je volně dostupný na internetu. Neobsahuje reklamy a běží na rychlém serveru. Můžeš ho podpořit těmito způsoby:</p>
+{include file='sponzor.tpl'}
 
-<a name="p"></a><h3>Peněžní podpora</h3>
 <p>
-<a href="/sponzori.html" title="Sponzoři žonglérova slabikáře">{obrazek soubor="podporad.png" title="Peníze"}</a>
 <a href="/sponzori.html" title="Sponzoři žonglérova slabikáře">Vaše příspěvky</a> zajistí, že nebudu v mínusu a možná i <a href="https://github.com/petrkle/zonglovani.info/commits/master" class="external" title="Seznam změn v žonglérově slabikáři">pravidelné aktualizace</a>. Navíc tu nebude spousta reklamy, která všechny ruší a zdržuje.
 </p>
-
-<h3><a href="/jak-odkazovat.html" title="Jak vytvořit odkaz na žonglérův slabikář.">Přidej odkaz</a></h3>
-<p>
-<a href="/jak-odkazovat.html" title="Jak vytvořit odkaz na žonglérův slabikář.">{obrazek soubor="podporaa.png" title="Návštěvnost stránek"}</a>
-Čím víc lidí bude tyto stránky používat, tím líp. Stačí <a href="/jak-odkazovat.html" title="Jak vytvořit odkaz na žonglérův slabikář.">přidat odkaz</a> na tvoje stránky.</p>
 
 <p>Žonglérův slabikář najdeš také na:</p>
 <ul>

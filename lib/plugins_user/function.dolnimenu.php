@@ -2,7 +2,7 @@
 
 function smarty_function_dolnimenu($params, &$smarty)
 {
-    $adresy = array('/', '/mapa-stranek.html', '/kontakt.html', '/podporte-zongleruv-slabikar.html');
+    $adresy = array('/', '/mapa-stranek.html', '/kontakt.html', '/podpor-zongleruv-slabikar.html');
     $texty = array('Úvodní stránka', 'Mapa stránek', 'Kontakt', 'Podpoř žonglérův slabikář');
     $popis = array('Žonglérův slabikář - Úvodní stránka', 'Mapa stránek zonglovani.info', 'Kontakt', 'Podpořit žonglérův slabikář');
 
