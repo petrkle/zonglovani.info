@@ -46,5 +46,5 @@ define('IMG_RESPONSIVE_WIDTH', 200); //px
 define('IMG_CSS_WIDTH', 490); //px
 define('MAX_MOBILE_WIDTH', 950); //px
 
-define('CSS_CHKSUM', '290466057');
+define('CSS_CHKSUM', '4146719665');
 define('JS_CHKSUM', '2391363690');
