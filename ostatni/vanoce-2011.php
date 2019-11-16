@@ -14,11 +14,6 @@ $trail->addStep('Tip týdne', '/tip');
 $trail->addStep($titulek);
 $smarty->assign('trail', $trail->path);
 
-$dalsi = array(
-    array('url' => '/obrazky/zongleruv-slabikar-na-papire-20111218/', 'text' => 'Žonglérův slabikář na papíře', 'title' => 'Obrázky'),
-    );
-
-$smarty->assign('dalsi', $dalsi);
 $smarty->display('hlavicka.tpl');
 $smarty->display('ostatni-vanoce-2011.tpl');
 $smarty->display('paticka.tpl');

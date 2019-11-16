@@ -3,13 +3,10 @@ use strict;
 use warnings;
 use LWP::ConnCache;
 use WWW::Mechanize;
-use Test::More tests => 16;
+use Test::More tests => 4;
 
 my @adresy=(
-"nesmysl",
-"lide/neexistujiciuzivatel.html",
-"diskuse/neexistujicistranka.html",
-"obrazky/neexistujiciobrazek.html"
+"nesmysl"
 );
 
 my $bot = WWW::Mechanize->new(autocheck => 0);

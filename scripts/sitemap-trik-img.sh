@@ -11,7 +11,7 @@ WEB=/tmp/zs.sitemap
 
 echo '<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">' > img/triky.xml.new
-for foo in `find $WEB -type f -name "*.html" -not -wholename '*/obrazky/*'`
+for foo in `find $WEB -type f -name "*.html"`
 	do
 		pocetobrazku=0
 		url=`echo $foo | sed "s#$WEB#https://$SITE#;s/index\.html//"`

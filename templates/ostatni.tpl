@@ -65,11 +65,6 @@ Návod na výrobu chůd a žonglování na chůdách.
 </p>
 
 <!-- start -->
-<h3><a href="/obrazky-na-plochu/" title="Žonglérské wallpapery">Obrázky na plochu</a></h3>
-<p>
-<a href="/obrazky-na-plochu/" title="Žonglérské wallpapery">{obrazek soubor="pes-a-kuzel.jpg" popisek="Wallpapers"}</a>
-Obrázky na plochu počítače s žonglérskou tématikou
-</p>
 
 <h3><a href="/animace/" title="Názorná videa žonglování s míčky.">Animace žonglování</a></h3>
 <p>

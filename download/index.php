@@ -100,7 +100,6 @@ if (isset($_GET['id'])) {
     $dalsi = array(
                     array('url' => '/podpor-zongleruv-slabikar.html', 'text' => 'Podpoř žonglérův slabikář', 'title' => 'Podpořit žonglérův slabikář'),
             array('url' => '/literatura.html', 'text' => 'Literatura o žonglování', 'title' => 'Knížky o žonglování'),
-            array('url' => '/obrazky-na-plochu/', 'text' => 'Obrázky na plochu', 'title' => 'Tapety s žonglérskou tématikou.'),
             );
     $smarty->assign('dalsi', $dalsi);
     $smarty->assign('trail', $trail->path);

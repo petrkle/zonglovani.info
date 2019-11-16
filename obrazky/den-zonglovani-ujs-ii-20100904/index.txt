@@ -1,4 +1,0 @@
-title:Den žonglování s UJS vol. 2
-autor:Tomáš Zahradník
-mail:niggy@ujs.cz
-url:http://ujs.cz

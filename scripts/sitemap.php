@@ -13,7 +13,6 @@ echo '<?xml version="1.0" encoding="UTF-8"?>
 $znamkovani = array();
 array_push($znamkovani, array('vzor' => '^\/$', 'priorita' => 1, 'zmena' => 'weekly'));
 array_push($znamkovani, array('vzor' => '^\/(micky|kruhy|kuzely|diabolo)\/$', 'priorita' => 0.9, 'zmena' => 'monthly'));
-array_push($znamkovani, array('vzor' => '^\/(obrazky|kalendar|lide|diskuse)\/$', 'priorita' => 0.9, 'zmena' => 'weekly'));
 array_push($znamkovani, array('vzor' => '^\/ostatni.html$', 'priorita' => 0.8, 'zmena' => 'yearly'));
 array_push($znamkovani, array('vzor' => '^\/(micky|kruhy|kuzely)\/[2345]\/.+\.html$', 'priorita' => 0.8, 'zmena' => 'yearly'));
 array_push($znamkovani, array('vzor' => '^\/(micky|kruhy|kuzely|diabolo)\/[^\/]+\.html$', 'priorita' => 0.7, 'zmena' => 'yearly'));
@@ -21,10 +20,6 @@ array_push($znamkovani, array('vzor' => '^\/kuzely\/passing\/$', 'priorita' => 0
 array_push($znamkovani, array('vzor' => '^\/kuzely\/passing\/.+\.html$', 'priorita' => 0.8, 'zmena' => 'yearly'));
 array_push($znamkovani, array('vzor' => '^\/[^\/]+\.html$', 'priorita' => 0.7, 'zmena' => 'monthly'));
 array_push($znamkovani, array('vzor' => '^\/mapa-stranek.html$', 'priorita' => 0.4, 'zmena' => 'weekly'));
-array_push($znamkovani, array('vzor' => '^\/obrazky\/.+\/$', 'priorita' => 0.6, 'zmena' => 'yearly'));
-array_push($znamkovani, array('vzor' => '^\/obrazky\/.+\.html$', 'priorita' => 0.4, 'zmena' => 'yearly'));
-array_push($znamkovani, array('vzor' => '^\/obrazky-na-plochu.*', 'priorita' => 0.5, 'zmena' => 'yearly'));
-array_push($znamkovani, array('vzor' => '^\/pro-novinare.*', 'priorita' => 0.5, 'zmena' => 'yearly'));
 array_push($znamkovani, array('vzor' => '^\/animace\/$', 'priorita' => 0.6, 'zmena' => 'yearly'));
 array_push($znamkovani, array('vzor' => '^\/animace\/en\/$', 'priorita' => 0.5, 'zmena' => 'yearly'));
 array_push($znamkovani, array('vzor' => '^\/animace\/siteswap\/$', 'priorita' => 0.5, 'zmena' => 'yearly'));

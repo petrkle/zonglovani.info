@@ -34,17 +34,11 @@ $smarty->setCompileDir(ZS_DIR.'/tmp/templates_c');
 $smarty->addPluginsDir($lib.'/plugins_user');
 $smarty->assign('currenturl', parse_url('https://'.$_SERVER['HTTP_HOST'].$_SERVER["REQUEST_URI"]));
 
-define('OBRAZKY_URL', '/obrazky/');
-define('OBRAZKY_DATA', ZS_DIR.'/obrazky');
-
 define('SEARCH_URL', '/vyhledavani/');
-
-define('WALLPAPERS_URL', '/obrazky-na-plochu/');
-define('WALLPAPERS_DATA', ZS_DIR.'/obrazky-na-plochu');
 
 define('IMG_RESPONSIVE_WIDTH', 200); //px
 define('IMG_CSS_WIDTH', 490); //px
 define('MAX_MOBILE_WIDTH', 950); //px
 
-define('CSS_CHKSUM', '1431758548');
-define('JS_CHKSUM', '2391363690');
+define('CSS_CHKSUM', '3908137386');
+define('JS_CHKSUM', '3177081851');

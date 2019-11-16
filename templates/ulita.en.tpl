@@ -1,13 +1,7 @@
 <p>
-Regular Sunday juggling at <a href="http://www.ulita.cz" class="external" title="Ulita - house of children and youth">DDM Ulita</a>. It takes place in a <a href="/obrazky/ulita-20091213/0059.jpg" title="Image of hall">large hall</a> with a <strong>high ceiling</strong>, a soft floor and big windows, a sound system, a stage for shows and a disco ball.
+Regular Sunday juggling at <a href="http://www.ulita.cz" class="external" title="Ulita - house of children and youth">DDM Ulita</a>. It takes place in a large hall with a <strong>high ceiling</strong>, a soft floor and big windows, a sound system, a stage for shows and a disco ball.
 </p>
 
-<div class="obrazkovnik">
-<a href="/obrazky/ulita-20111009/0002.html">{obrazek soubor='snek031.jpg' popisek='' path='/ulita/img/'}</a>
-<a href="/obrazky/ulita-20111009/0004.html">{obrazek soubor='snek032.jpg' popisek='' path='/ulita/img/'}</a>
-<a href="/obrazky/ulita-20111009/0006.html">{obrazek soubor='snek033.jpg' popisek='' path='/ulita/img/'}</a>
-<br /><a href="/obrazky/ulita-20111009/" title="Photos of juggling.">More photos &raquo;</a>
-</div>
 <p>
 Beginners as well as experienced jugglers are welcome. There are balls and clubs prepare to lend for newcomers. <strong>Everyone</strong> can learn to juggle!
 </p>

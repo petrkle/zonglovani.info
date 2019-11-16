@@ -63,8 +63,6 @@ $conf::baseurl = "/";		# Set first part of any URL (leave empty if unsure)
 @conf::excludefiles = ('/mapa-stranek.html',
 	'/animace/*.html',
 	'/ostatni/',
-	'/obrazky/*.html',
-	'/obrazky/*/stranka*/',
 	'/toolbox.html',
 	'/pf-*.html',
 	'/doplnky-prohlizece.html',

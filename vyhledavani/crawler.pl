@@ -98,10 +98,6 @@ sub parse_html {
         # Don't go deeper than /a/b/c
         next if @{$link->path->parts} > 3;
 
-				next if $link->to_string =~ /obrazky\/.*\/\d{4}.html/;
-
-				next if $link->to_string =~ /obrazky\/.*\/stranka\d\/$/;
-
         # Access every link only once
         state $uniq = {};
         ++$uniq->{$url->to_string};

@@ -3,7 +3,7 @@ use strict;
 use warnings;
 use LWP::ConnCache;
 use WWW::Mechanize;
-use Test::More tests => 78;
+use Test::More tests => 66;
 
 my $bot = WWW::Mechanize->new(autocheck => 1);
 $bot->conn_cache(LWP::ConnCache->new);
@@ -34,11 +34,6 @@ my @stranky = (
 	{'a'=>'/kuzely/passing/hody.html', 't'=>'Passing - Druhy hodů při passování', 'o'=>'<a name="podnohou"><\/a><h2>Pod nohou<\/h2>'},
 	{'a'=>'/ostatni.html', 't'=>'Další informace o žonglování', 'o'=>'rec.juggling'},
 	{'a'=>'/nacini.html', 't'=>'Žonglérské náčiní', 'o'=>'<a name="zvony"><\/a><h3>Záchodové zvony<\/h3>'},
-	{'a'=>'/obrazky/', 't'=>'Obrázky žonglování', 'o'=>'<li><a href="ulita-20100110/" title="Ulita 10. 1. 2010">Ulita 10. 1. 2010<'},
-	{'a'=>'/obrazky/ulita-20100124/', 't'=>'Ulita 24. 1. 2010 - obrázky žonglování', 'o'=>'\/obrazky\/ulita-20100124\/nahledy\/0007.jpg" style="width: 51px; height: 96px; margin: 26px 48px;"'},
-	{'a'=>'/obrazky/ulita-20100221/stranka3/0036.html', 't'=>'Ulita 21. 2. 2010 - 36. obrázek - stránka 3', 'o'=>'<img src="http:\/\/zongl.info\/obrazky\/ulita-20100221\/0036.jpg" alt="Ulita 21. 2. 2010" width="402" height="768"\/>'},
-	{'a'=>'/obrazky/filtr/Marathon', 't'=>'Marathon - filtr obrázků', 'o'=>'Pražsky žonglérský marathon 2 - soutěže a vystoupení'},
-	{'a'=>'/obrazky/filtr/nesmysl', 't'=>'nesmysl - filtr obrázků', 'o'=>'<h1>Nic nenalezeno<'},
 	{'a'=>'/animace/', 't'=>'Animace žonglování', 'o'=>'<li><a href="3-cascade.html" title="3-cascade">Kaskáda</a><'},
 	{'a'=>'/animace/oy-oy.html', 't'=>'Oj-oj - animovaný návod na žonglování', 'o'=>'<img src="\/animace\/img\/oy-oy.gif" width="374" height="483" alt="Oj-oj" \/>'},
 	{'a'=>'/animace/siteswap/', 't'=>'Siteswap', 'o'=>'<li><a href="63623.html" title="63623">63623<'},
@@ -49,7 +44,6 @@ my @stranky = (
 	{'a'=>'/podporte-zongleruv-slabikar.html', 't'=>'Podpoř žonglérův slabikář', 'o'=>'Provoz adresy zonglovani.info stojí 1500 Kč ročně'},
 	{'a'=>'/ulita/', 't'=>'Žonglování v Ulitě', 'o'=>'<a href="cesta.html" title="Podrobný popis cesty.">Místo konání<'},
 	{'a'=>'/chudy/', 't'=>'Chůdy', 'o'=>'Sežeň někoho kdo tě bude chytat'},
-	{'a'=>'/obrazky-na-plochu/', 't'=>'Obrázky na plochu', 'o'=>'<li><a href="1680x1050\/kuzelky-na-trave.jpg"'},
 );
 
 foreach my $stranka (@stranky){

@@ -1,5 +1,0 @@
-title:Den žonglování s Ultimate Juggling Squad
-autor:Tomáš Zahradník
-mail:niggy@ujs.cz
-url:http://ujs.cz
-icbm:49.182335, 16.385978

@@ -1,18 +1,11 @@
 <div class="vevent">
 <p>
-<span class="summary">Pravidelné nedělní žonglování v <a href="cesta.html" title="Ulita - dům dětí a mládeže">DDM Ulita</a>.</span> <span class="description">Žongluje se ve <a href="/obrazky/ulita-20091213/0059.jpg" title="Obrázek velkého sálu.">velkém sále</a> kde je: <strong>vysoký strop</strong>, měkká podlaha, ozvučení, pódium  pro případné vystoupení, okna a disco koule.</span>
+<span class="summary">Pravidelné nedělní žonglování v <a href="cesta.html" title="Ulita - dům dětí a mládeže">DDM Ulita</a>.</span> <span class="description">Žongluje se ve velkém sále kde je: <strong>vysoký strop</strong>, měkká podlaha, ozvučení, pódium  pro případné vystoupení, okna a disco koule.</span>
 </p>
 
 <p>
 Přijít mohou začínající i zkušení žongléři a žonglérky. Pro širokou veřejnost budou k dispozici míčky a kužely k zapůjčení. Žonglovat se může naučit <strong>opravdu každý</strong>.
 </p>
-
-<div class="obrazkovnik">
-<a href="/obrazky/ulita-20120318/0001.html">{obrazek soubor='snek052.jpg' popisek='' path='/ulita/img/'}</a>
-<a href="/obrazky/ulita-20120318/0005.html">{obrazek soubor='snek053.jpg' popisek='' path='/ulita/img/'}</a>
-<a href="/obrazky/ulita-20120318/0012.html">{obrazek soubor='snek054.jpg' popisek='' path='/ulita/img/'}</a>
-<br /><a href="/obrazky/ulita-20120318/" title="Další obrázky z žonglování v Ulitě.">Další obrázky &raquo;</a>
-</div>
 
 <h3><a href="cesta.html" title="Podrobný popis cesty.">Místo konání</a></h3>
 <p>

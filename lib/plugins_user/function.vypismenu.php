@@ -55,16 +55,16 @@ function submenu($id)
     }
 
     if ($id == 5) {
-        $adresy = array('/obrazky/', '/animace/', '/download/');
-        $texty = array('Obrázky', 'Animace', 'Soubory<br/>ke stažení');
-        $popisky = array('Obrázky žonglování', 'Animace žonglování s míčky', 'Žonglérův slabikář jako elektronická kniha, nebo program do počítače');
+        $adresy = array('/animace/', '/download/');
+        $texty = array('Animace', 'Soubory<br/>ke stažení');
+        $popisky = array('Animace žonglování s míčky', 'Žonglérův slabikář jako elektronická kniha, nebo program do počítače');
     }
 
     if (isset($adresy)) {
         $navrat = '';
         $navrat .= "<ul>\n";
         for ($foo = 0; $foo < count($adresy); ++$foo) {
-            if ($id == 5 and $foo != 1) {
+            if ($id == 5 and $foo != 0) {
                 $navrat .= "\n<!-- start -->\n";
             }
 
@@ -73,7 +73,7 @@ function submenu($id)
             } else {
                 $navrat .= '<li><a href="'.$adresy[$foo].'" title="'.$popisky[$foo].'">'.$texty[$foo].'</a>'."</li>";
             }
-            if ($id == 5 and $foo != 1) {
+            if ($id == 5 and $foo != 0) {
                 $navrat .= "\n<!-- stop -->\n";
             }
         }

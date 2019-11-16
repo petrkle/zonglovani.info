@@ -15,7 +15,7 @@ $WGET \
 	https://zongl.info/ \
 	https://zongl.info/img/e/external.png \
 	--reject '*.pdf,odkazy.html,mobil.html,vanoce-*.html,pf-*.html,odkazy.html,navody.html,jak-odkazovat.html,toolbox.html' \
-	-X animace/siteswap,animace/en,obrazky,ulita,obrazky-na-plochu,navody,scripts,vyhledavani,download,olympiada,mdz,g,valentyn \
+	-X animace/siteswap,animace/en,ulita,navody,scripts,vyhledavani,download,olympiada,mdz,g,valentyn \
 	--convert-links \
 	--page-requisites
 
