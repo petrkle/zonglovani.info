@@ -12,13 +12,4 @@
 		<img>slabikar-pdf.png</img>
 	</release>
 
-	<release>
-		<version>0.4</version>
-		<filename>zongleruv-slabikar-0.4.pdf</filename>
-		<size>5M</size>
-		<md5>105a32ce10b419c499009322f7d958ed</md5>
-		<date>2011-12-17</date>
-		<img>slabikar-pdf.png</img>
-	</release>
-
 </package>
