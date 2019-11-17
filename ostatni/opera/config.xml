@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<widget xmlns="http://www.w3.org/ns/widgets">
-	<name>Žonglování</name>
-	<description>Kalendář žonglérských akcí.</description>
-	<author href="http://zonglovani.info" email="admin@zonglovani.ingo">Petr Kletečka</author>
-	<icon src="icons/micky-64.png"/>
-	<access origin="http://zonglovani.info" subdomains="true"/>
-</widget>
