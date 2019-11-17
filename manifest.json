@@ -29,12 +29,5 @@
       "sizes": "256x256"
     }
 
-  ],
-	"prefer_related_applications": true,
-	"related_applications": [
-  {
-  "platform": "play",
-  "id": "info.zonglovani.mobile.app"
-  }
-]
+  ]
 }

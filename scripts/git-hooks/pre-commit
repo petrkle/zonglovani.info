@@ -2,7 +2,6 @@
 set -e
 
 ./scripts/css.sh
-./scripts/js.sh
 
 git add init.php
 
