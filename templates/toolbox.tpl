@@ -11,19 +11,11 @@
 <li><a href="http://www.gimp.org" class="external">gimp</a> - grafika</li>
 <li><a href="http://www.imagemagick.org" class="external">ImageMagick</a> - grafika</li>
 <li><a href="http://git-scm.com" class="external">git</a> - správa verzí</li>
-<li><a href="http://magpierss.sourceforge.net" class="external">MagpieRSS</a> - RSS</li>
-<li><a href="http://nbbc.sourceforge.net" class="external">nbbc</a> - zpracování BB kódu</li>
-<li><a href="http://pear.php.net/package/Pager" class="external">Pager</a> - stránkování</li>
-<li><a href="http://pear.php.net/package/Calendar" class="external">Calendar</a> - kalendář</li>
 <li><a href="http://www.danielnaber.de/tree" class="external">tree.pl</a> - mapa stránek</li>
-<li><a href="http://sphinxsearch.com/" class="external">Sphinx Search</a> - fulltextové vyhledávání</li>
 <li><a name="perl"></a><a href="http://www.perl.org" class="external">perl</a> a jeho <a href="/testovani.html#pm" title="Seznam použitých perlovských modulů">moduly</a> - testování</li>
-<li><a href="http://www.sno.phy.queensu.ca/~phil/exiftool" class="external">ExifTool</a> - informace o multimediálních souborech.</li>
 <li><a href="/software.html#juggleanim" title="Program JuggleAnim">JuggleAnim</a> - animace žonglování</li>
 <li><a href="http://www.semicomplete.com/projects/xdotool/" class="external">xdotool</a> - automatizace</li>
-<li><a href="http://www.postfix.org" class="external">Postfix</a> - MTA</li>
 <li><a href="http://nginx.org" class="external">Nginx</a> - webový server</li>
-<li><a name="fakemail"></a><a href="https://github.com/petrkle/fakemail-slack" class="external">Fakemail</a> - testování</li>
 <li><a href="http://wixtoolset.org/" class="external">WiX Toolset</a> - instalační balíček pro Windows</li>
 <li><a href="http://www.amazon.com/gp/feature.html?docId=1000234621" class="external">KindleGen</a> - vytvoření mobi souboru.</li>
 <li><a href="http://www.amazon.com/gp/feature.html?docId=1000234621" class="external">Kindle Previewer</a> - emulace Amazon Kindle.</li>
@@ -34,7 +26,5 @@
 <li><a href="http://www.tug.org/applications/pdftex/" class="external">PdfLaTex</a> - vysázení pdf verze.</li>
 <li><a href="http://quantumelephant.co.uk/bookbinder/bookbinder.html" class="external">Bookbinder</a> - úprava pdf pro svázání.</li>
 <li><a href="http://cordova.apache.org/" class="external">Apache Cordova</a> - aplikace pro mobilní telefony.</li>
-<li><a href="https://github.com/sandfoxme/monsterid" class="external">MonsterID</a> - automaticky generovaný avatar.</li>
-<li><a href="http://www.jave.de" class="external">JavE</a> - ASCII art.</li>
 </ul>
 {* vim: set nonumber nowrap: *}

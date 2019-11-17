@@ -57,18 +57,12 @@ rm $ZSDIR/img/s/snehulak.png
 rm $ZSDIR/img/z/zvonya.jpg
 rm $ZSDIR/img/v/vanoce.png
 rm $ZSDIR/img/v/vanocni-kometa.s.jpg
-rm $ZSDIR/img/p/pf-*
 rm $ZSDIR/img/p/pek.jpg
 rm $ZSDIR/odkazy.html
-rm -rf $ZSDIR/novinky*
 rm -rf $ZSDIR/ostatni
 rm -rf $ZSDIR/*.odt
 rm -rf $ZSDIR/img/q
 rm -rf $ZSDIR/navody
-rm -rf $ZSDIR/tip
-rm $ZSDIR/pf-*
-rm $ZSDIR/vanoce-*
-rm $ZSDIR/changelog-*
 
 find $ZSDIR/img/ -name "*.jpg" -size +50k -exec rm \{\} \;
 find $ZSDIR/ -name "*.rss" -exec rm \{\} \;

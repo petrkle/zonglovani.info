@@ -14,8 +14,8 @@ $WGET \
 	--ca-directory=/noexist \
 	https://zongl.info/ \
 	https://zongl.info/img/e/external.png \
-	--reject '*.pdf,odkazy.html,mobil.html,vanoce-*.html,pf-*.html,odkazy.html,navody.html,jak-odkazovat.html,toolbox.html' \
-	-X animace/siteswap,animace/en,ulita,navody,scripts,vyhledavani,download,olympiada,mdz,g,valentyn \
+	--reject '*.pdf,odkazy.html,mobil.html,odkazy.html,navody.html,jak-odkazovat.html,toolbox.html' \
+	-X animace/siteswap,animace/en,ulita,navody,scripts,download,olympiada,mdz,g,valentyn \
 	--convert-links \
 	--page-requisites
 

@@ -20,23 +20,6 @@ function smarty_function_vypismenu($params, &$smarty)
 
     $navrat .= "\n</ul>\n";
 
-    if (!preg_match(SEARCH_URL, $_SERVER['REQUEST_URI'])) {
-        $navrat .= '
-		<!-- start -->
-		<div itemscope itemtype="http://schema.org/WebSite">
-		<link itemprop="url" href="https://'.$_SERVER['SERVER_NAME'].'/"/>
-			<form action="'.SEARCH_URL.'" method="get" id="malehledani" itemprop="potentialAction" itemscope itemtype="http://schema.org/SearchAction">
-			<meta itemprop="target" content="https://'.$_SERVER['SERVER_NAME'].SEARCH_URL.'?query={query}"/>
-		<fieldset>
-		<legend>Vyhledávání</legend>
-		<input type="text" name="query" itemprop="query-input" class="policko" accesskey="4" required /><input type="submit" value="Najít" class="knoflik" />
-		</fieldset>
-		</form>
-		</div>
-		<!-- stop -->
-		';
-    }
-
     return $navrat;
 }
 

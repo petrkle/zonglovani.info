@@ -14,11 +14,6 @@ $trail = new Trail();
 $trail->addStep('Mapa stránek');
 $smarty->assign('trail', $trail->path);
 
-$dalsi = array(
-    array('url' => '/vyhledavani/', 'text' => 'Vyhledávání v žonglérově slabikáři', 'title' => 'Fulltext'),
-    );
-$smarty->assign('dalsi', $dalsi);
-
 $smarty->display('hlavicka.tpl');
 $smarty->display('mapa-stranek.tpl');
 $mapa = $_SERVER['DOCUMENT_ROOT'].'/mapa-stranek.inc';

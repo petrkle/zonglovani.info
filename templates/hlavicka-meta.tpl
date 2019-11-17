@@ -1,4 +1,3 @@
-	<link rel="search" type="application/opensearchdescription+xml" title="Žonglérův slabikář" href="https://{$smarty.server.SERVER_NAME}/vyhledavani/vyhledavani.xml" />
 	<meta http-equiv="imagetoolbar" content="no" />
 	<meta name="application-name" content="Žonglérův slabikář" />
 	<meta name="apple-mobile-web-app-capable" content="yes" />
@@ -36,7 +35,6 @@
 	<link rel="index" href="https://{$smarty.server.HTTP_HOST|escape}/" />
 	<link rel="help" href="https://{$smarty.server.HTTP_HOST|escape}/faq.html" />
 	<link rel="start" href="https://{$smarty.server.HTTP_HOST|escape}/" />
-	<link rel="search" href="https://{$smarty.server.HTTP_HOST|escape}/vyhledavani/" />
 	<meta name="viewport" content="width=device-width" />
 	<meta name="robots" content="{if isset($robots)}{$robots|escape}{else}index,follow{/if}" />
 	<meta name="theme-color" content="#ffdd33">
