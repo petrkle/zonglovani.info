@@ -12,7 +12,7 @@ a:link{color:#009;}
 a:visited{color:#909;}
 a:active,a:hover,a:focus{color:#f00;}
 a img{border-width:0;}
-p img{margin:1em .1em;border:1px solid #000;float:none;clear:both;background-color:#ccc;}
+p img{margin:1em .1em;border:1px solid #000;float:none;clear:both;}
 ul{list-style:circle;}
 li{padding:0;margin:0;}
 .kontakt img{margin:0;padding:0;border:0;background-color:#fff;vertical-align:text-bottom;clear:none;float:none;}
@@ -42,22 +42,8 @@ dd{margin:2px 10px 7px 40px;}
 .vyrazne{font-weight:bold;}
 .wd_5,.wd_6{background-color:#fe3;}
 fieldset{margin-left:15px;width:500px;padding:5px 0 5px 10px;}
-#malehledani{margin:0;padding:0;font-size:.8em;}
-#malehledani fieldset{margin:2px;width:140px;}
-#malehledani input.policko{margin:2px;width:130px;}
-#malehledani input.knoflik{margin:2px;width:65px;}
-.textbox{width:300px;margin:0 10px 0 10px;}
-.datebox{width:280px;margin:0 10px 0 10px;}
-.readonlyform{width:300px;margin:0 10px 0 10px;}
-form ul{margin:0;padding:0;}
-form ul li{list-style:none;margin:5px 0 15px 0;text-align:left;}
 .kratkypopis{margin:0;padding:0;display:block;}
 .vpravo{text-align:right;}
-.knoflik{font-weight:bold;width:150px;}
-textarea{width:450px;}
-ul.alert{border:dashed 1px #000;background:#ffc;margin:5px 0 5px 15px;}
-.tooltip{font-size:.8em;color:#666;}
-.tooltip li{margin:5px 0;}
 sup.ppm{padding:0 .3em;font-weight:bold;color:#f00;}
 a.edit{border-left:solid 3px #f00;}
 .drobky{font-size:.8em;margin-top:-20px;}
@@ -68,9 +54,6 @@ a.edit{border-left:solid 3px #f00;}
 .obrazkovnik{float:left;margin:15px 0 15px 20px;}
 .obrazkovnik a img{border:solid 1px #000;}
 .u{text-decoration:underline;}
-li.libi{list-style:url(img/p/palec-nahoru-s.png);}
-li.nelibi{list-style:url(img/p/palec-dolu-s.png);}
-li.star{list-style:url(img/s/star-s.png);}
 .szn{margin:20px;padding:0 20px;list-style:circle;}
 .szn li{list-style-position:inside;}
 .skryte,.mobileapp{display:none;}
@@ -90,3 +73,4 @@ p.dikymoc{font-size:2em;margin:.5em 0;margin:1em 0 1em 20px;display:block;}
 #paticka #dolni{padding:15px 0 0 0;margin:0 auto 0 auto;line-height:1em;background:transparent;}
 #hlavicka{text-align:center;width:750px;height:100px;padding:0;margin:0 auto 0 auto;background:url(img/o/okraje.png) 50% 0 no-repeat #eed;position:relative;}
 #hlavicka img{padding:0;margin:35px 0 0 15px;}
+.photo{padding:1em;}
