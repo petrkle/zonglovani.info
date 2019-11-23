@@ -94,6 +94,6 @@ Cigar boxy jsou dřevěné krabičky. Dvě krajní držíš rukou a třetí mezi
 
 <a name="zvony"></a><h3>Záchodové zvony</h3>
 <p>
-<a href="/img/z/zvonya.jpg" title="Záchodový zvon">{obrazek soubor="zvonya.jpg" popisek="Záchodový zvon"}</a>
+<a href="/img/z/zvona.png" title="Záchodový zvon">{obrazek soubor="zvona.png" popisek="Záchodový zvon"}</a>
 Se záchodovými zvony se žongluje stejně jako s kužely.
 </p>
