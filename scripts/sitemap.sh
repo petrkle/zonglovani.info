@@ -19,6 +19,4 @@ nice -19 ionice -c 3 ./scripts/tree-full.pl $WEB \
 	| ./scripts/sitemap.php \
 	> $TMP/sitemap.xml && mv $TMP/sitemap.xml /home/www/zonglovani.info/sitemap.xml
 
-nice -19 ionice -c 3 ./scripts/sitemap-trik-img.sh
-
 nice -19 ionice -c 3 rm -rf $WEB $TMP/sitemap.xml $TMP/mapa-stranek.inc 2>/dev/null
