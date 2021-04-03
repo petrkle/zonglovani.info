@@ -37,7 +37,9 @@ fieldset{margin:5px;}
 sup.ppm{padding:0 .3em;font-weight:bold;color:#f00;}
 a.edit{border-left:solid 3px #f00;}
 #flink{display:none;}
-#zslogo{display:block;padding:5px 5px 1px 5px;background:#fd3;margin-bottom:5px;text-decoration:none;color:#000;}
+#zslogo{display:block;margin:0 .5em;padding:2em 1em;background:url(img/z/zs.svg) 50% 50% no-repeat;background-size:contain;}
+#zslogo h2{text-indent:-9999px;}
+.drobky{font-size:.8em;padding:.4em 0;}
 #hlavicka{background:#fd3;margin:0;padding:0;}
 .hvezdicka{float:right;}
 li.star{list-style:url(img/s/star-s.png);}
