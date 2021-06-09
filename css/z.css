@@ -50,7 +50,6 @@ a.edit{border-left:solid 3px #f00;}
 .add{background:url(img/a/add.png) 0 50% no-repeat;padding-left:20px;}
 #zslogo{display:block;height:71px;width:442px;background:url(img/z/zs.svg) 0 0 no-repeat;background-size:442px;position:absolute;top:15px;left:20px;}
 #zslogo h2{text-indent:-9999px;}
-.animace img{border:solid 0;margin-right:5px;}
 .obrazkovnik{float:left;margin:15px 0 15px 20px;}
 .obrazkovnik a img{border:solid 1px #000;}
 .u{text-decoration:underline;}

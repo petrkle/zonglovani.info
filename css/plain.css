@@ -46,7 +46,7 @@ li.star{list-style:url(img/s/star-s.png);}
 .szn{list-style:circle;}
 .szn li{list-style-position:inside;}
 .skryte{display:none;}
-.animace img{border:0;margin-right:5px;}
+.animace a{background:url(img/a/animace.s.png) 100% 50% no-repeat;padding-right:25px;}
 .animgif{width:99%;max-width:374px;}
 abbr{text-decoration:none;border-bottom:0 dashed #000;}
 .pl{background:#eee;padding:2px 6px;margin:5px 0;display:inline-block;}

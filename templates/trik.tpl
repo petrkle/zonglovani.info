@@ -25,7 +25,7 @@
 {if isset($krok.animace)}
 <!-- startebook -->
 <p class="animace">
-<a href="/animace/{$krok.animace|escape}.html" title="Animace"><img src="/img/a/animace.s.png" width="20" height="20" title="" alt="" /> Přehrát animaci</a>
+<a href="/animace/{$krok.animace|escape}.html" title="Animace">Přehrát animaci</a>
 </p>
 <!-- stopebook -->
 {/if}
