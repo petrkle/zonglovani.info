@@ -1,7 +1,7 @@
 {include file='sponzor.tpl'}
 
 <p>
-<a href="/sponzori.html" title="Sponzoři žonglérova slabikáře">Vaše příspěvky</a> zajistí, že nebudu v mínusu a možná i <a href="https://github.com/petrkle/zonglovani.info/commits/master" class="external" title="Seznam změn v žonglérově slabikáři">pravidelné aktualizace</a>. Navíc tu nebude spousta reklamy, která všechny ruší a zdržuje.
+Vaše příspěvky zajistí, že nebudu v mínusu a možná i <a href="https://github.com/petrkle/zonglovani.info/commits/master" class="external" title="Seznam změn v žonglérově slabikáři">pravidelné aktualizace</a>. Navíc tu nebude spousta reklamy, která všechny ruší a zdržuje.
 </p>
 
 <p>Žonglérův slabikář najdeš také na:</p>
