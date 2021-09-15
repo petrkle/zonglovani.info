@@ -1,7 +1,5 @@
 <?php
 
-error_reporting(0);
-
 if (php_uname('n') == 'vps') {
     define('ZS_DOMAIN', 'zonglovani.info');
 } else {
