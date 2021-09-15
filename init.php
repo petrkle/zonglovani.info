@@ -11,17 +11,6 @@ define('ZS_DIR', '/home/www/zonglovani.info');
 
 $lib = ZS_DIR.'/lib';
 
-if (isset($_COOKIE['ZS']) and !isset($_SESSION)) {
-    session_name('ZS');
-    session_start();
-}
-
-if (isset($_SESSION['uzivatel']) and isset($_SESSION['ip'])) {
-    if ($_SESSION['ip'] != $_SERVER['REMOTE_ADDR']) {
-        session_destroy();
-    }
-}
-
 require 'vendor/autoload.php';
 $smarty = new Smarty();
 

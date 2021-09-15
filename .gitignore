@@ -33,3 +33,4 @@ pexeso/zonglerske-pexeso*
 css/photo*.css
 static/mobile/zongl.info
 package-lock.json
+.php-cs-fixer.cache
